@@ -1,45 +1,45 @@
 <Document>
-# Science
-[color=#c96dbf]Science[/color], often called Research and Development, is a job consisting of generating research points to unlock new technologies and using said technologies to produce new items at lathes to help out the station.
+# Наука
+[color=#c96dbf]Наука[/color], яку часто називають Дослідження та Розробки (R&D), — це робота, що полягає у генерації дослідницьких очок для розблокування нових технологій та використанні цих технологій для виробництва нових предметів на верстатах, щоб допомогти станції.
 
-## Personnel
-[color=#c96dbf]Science[/color]'s staff is made up of Research Assistants and Scientists. [color=#c96dbf]Science[/color] is run by the Research Director.
+## Персонал
+Персонал [color=#c96dbf]Науки[/color] складається з Помічників-дослідників та Науковців. [color=#c96dbf]Наукою[/color] керує Директор з досліджень.
 
   <Box>
-   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Scientist"/>
+   <GuideEntityEmbed Entity="ToyFigurineScientist" Caption="Науковець"/>
    <GuideEntityEmbed Entity="ToyFigurineResearchDirector" Caption="RD"/>
   </Box>
 
-## Technologies
+## Технології
   <Box>
     <GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/>
     <GuideEntityEmbed Entity="ResearchAndDevelopmentServer"/>
   </Box>
-The most important thing inside your department is the R&D server, which stores unlocked technologies, and the R&D computer, which allows you to unlock [color=#a4885c]technologies[/color].
+Найважливіша річ у вашому відділі — сервер R&D, який зберігає розблоковані технології, та комп'ютер R&D, який дозволяє розблоковувати [color=#a4885c]технології[/color].
 
-Each technology costs [color=#a4885c]Research Points[/color] and unlocks recipes at lathes. Some technologies will also have prerequisites you have to unlock before you can research them.
+Кожна технологія коштує [color=#a4885c]Дослідницькі очки[/color] і розблоковує рецепти на верстатах. Деякі технології також мають передумови, які потрібно розблокувати перед тим, як їх можна дослідити.
 
-[textlink="Click here to see a list of technologies." link="Technologies"].
+[textlink="Натисніть тут, щоб переглянути список технологій." link="Technologies"].
 
-## Disciplines
-Technologies are spread over 4 different Disciplines:
+## Дисципліни
+Технології розподілені між 4 різними Дисциплінами:
   <Box>
-    <GuideEntityEmbed Entity="Wrench" Caption="Industrial"/>
-    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Experimental"/>
-    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Civil Services"/>
-    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Arsenal"/>
+    <GuideEntityEmbed Entity="Wrench" Caption="Промислова"/>
+    <GuideEntityEmbed Entity="WeaponTetherGun" Caption="Експериментальна"/>
+    <GuideEntityEmbed Entity="ComputerTelevision" Caption="Цивільні послуги"/>
+    <GuideEntityEmbed Entity="WeaponXrayCannon" Caption="Арсенал"/>
   </Box>
 
-<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Use your nearest R&D console to take note of which kind of research is locked behind each Discipline tree.
+<GuideEntityEmbed Entity="ComputerResearchAndDevelopment"/> Використовуйте найближчу консоль R&D, щоб дізнатися, які дослідження заблоковані за кожним деревом Дисципліни.
 
-## Tiers
-Each Discipline tree has up to 3 tiers of technologies. At the start the only tier that is open and available for you is tier 1.
+## Рівні
+Кожне дерево Дисципліни має до 3 рівнів технологій. На початку єдиний відкритий і доступний рівень — рівень 1.
 
-In order to progress further, you have to research up to [color=brown]75%[/color] of the current tier to move to the next one. So in order to unlock T2 researches you need to research 75% of T1.
+Щоб просунутися далі, потрібно дослідити до [color=brown]75%[/color] поточного рівня, щоб перейти до наступного. Тобто для розблокування досліджень T2 потрібно дослідити 75% T1.
 
-Now [color=green]Tier 3[/color] is where it gets interesting. If you research a T3 tech, you [color=brown]lock out[/color] T3 techs from other Discipline trees. That is, unless you can find some other way around it... you should probably ask your [color=purple]Research Director[/color].
+Тепер [color=green]Рівень 3[/color] — ось де стає цікаво. Якщо ви досліджуєте технологію T3, ви [color=brown]блокуєте[/color] технології T3 з інших дерев Дисциплін. Хіба що ви знайдете інший спосіб обійти це... вам, мабуть, варто запитати свого [color=purple]Директора з досліджень[/color].
 
-## Lathes
+## Верстати
   <Box>
     <GuideEntityEmbed Entity="Protolathe"/>
     <GuideEntityEmbed Entity="CircuitImprinter"/>
@@ -49,6 +49,6 @@ Now [color=green]Tier 3[/color] is where it gets interesting. If you research a 
     <GuideEntityEmbed Entity="MedicalTechFab"/>
     <GuideEntityEmbed Entity="SecurityTechFab"/>
   </Box>
-At a lathe, you can choose a server to allow it print whatever recipes you have unlocked. Recipes require various materials (steel, glass, plastic, gold, plasma) which can be acquired at Cargo or Salvage.
+На верстаті ви можете обрати сервер, щоб дозволити йому друкувати будь-які розблоковані рецепти. Рецепти потребують різних матеріалів (сталь, скло, пластик, золото, плазма), які можна отримати в Карго або Утилізації.
 
 </Document>
