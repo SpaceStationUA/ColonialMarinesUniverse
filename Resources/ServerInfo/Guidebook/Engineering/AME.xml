@@ -1,26 +1,26 @@
 <Document>
-  # Antimatter Engine (AME)
-  The Antimatter Engine is a short-term support generator for the station, providing a sizable chunk of power for a limited time.
+  # Антиматеріальний двигун (AME)
+  AME — короткостроковий допоміжний генератор для станції, що забезпечує значну кількість енергії на обмежений час.
 
-  It's mainly used to assist engineers in starting up bigger engines like the [textlink="Singularity Engine" link="SingularityEngine"] or [textlink="Tesla Engine" link="TeslaEngine"], by supplementing the station's [textlink="batteries" link="PowerStorage"] with partial power to extend their runtime.
+  Переважно використовується для допомоги інженерам у запуску більших двигунів, як-от [textlink="Двигун сингулярності" link="SingularityEngine"] або [textlink="Двигун Тесла" link="TeslaEngine"], доповнюючи станційні [textlink="батареї" link="PowerStorage"] частковою енергією для подовження їхнього часу роботи.
 
-  ## Construction
-  <Box>Required parts:</Box>
+  ## Будівництво
+  <Box>Необхідні деталі:</Box>
   <Box>
   <GuideEntityEmbed Entity="AmeController"/>
   <GuideEntityEmbed Entity="AmePartFlatpack"/>
   <GuideEntityEmbed Entity="AmeJar"/>
   </Box>
 
-  The AME Controller is the part of the AME that outputs power to the station's grid through an [textlink="HV connection" link="VoltageNetworks"].
-  Because of this, you'll want to start your AME construction with the controller on top of an [color=orange]HV wire[/color].
+  Контролер AME — частина, що видає енергію в мережу станції через [textlink="HV з'єднання" link="VoltageNetworks"].
+  Тому починайте будівництво з контролера на [color=orange]HV кабелі[/color].
 
-  Most stations have exposed [color=orange]HV wiring[/color] or designated spots to wrench an AME controller, so that it connects to the grid.
+  Більшість станцій мають відкриту [color=orange]HV проводку[/color] або визначені місця для прикручування контролера AME.
 
-  AME shielding is the physical structure that makes the antimatter engine. It's made by converting AME flatpacks into shielding using a multitool.
+  Екранування AME — фізична структура двигуна. Створюється перетворенням AME-флетпаків на екранування за допомогою мультитула.
 
-  To construct an AME, start putting down a 3x3 or larger square of AME flatpacks in preparation for construction, making sure to maximize the number of "center" pieces that are surrounded on all eight sides.
-  The greater amount of center pieces, the more cores your AME will have, and the more power it will be able to output safely.
+  Для будівництва AME розкладіть квадрат 3x3 або більше з AME-флетпаків, максимізуючи кількість "центральних" частин, оточених з усіх восьми сторін.
+  Чим більше центральних частин, тим більше ядер матиме AME і тим більше енергії зможе безпечно видавати.
 
   <Box>
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
@@ -38,7 +38,7 @@
     <GuideEntityEmbed Entity="AmePartFlatpack" Caption=""/>
   </Box>
 
-  Once this is done, you can use a multitool to convert each AME flatpack into shielding, which should form a finished AME configuration.
+  Потім використайте мультитул на кожному флетпаку для перетворення на екранування.
 
   <GuideEntityEmbed Entity="AmeController" Caption=""/>
   <Box>
@@ -57,20 +57,17 @@
     <GuideEntityEmbed Entity="AmeShielding" Caption="" Margin="0"/>
   </Box>
   <Box>
-    [color=#999999][italic]An example of a one core setup[italic][/color]
+    [color=#999999][italic]Приклад конфігурації з одним ядром[italic][/color]
   </Box>
 
-  ## Operation
-  To start the AME, insert a fuel jar into the AME controller, and set the safe injection rate.
+  ## Запуск
+  Після будівництва вставте банку AME-палива в контролер та встановіть рівень ін'єкції.
 
-  The safe injection rate is the point where the AME can safely run without overheating, while maximizing power output.
+  Рекомендований рівень ін'єкції — не більше 2 на ядро. Перевищення може спричинити пошкодження екранування та потенційний вибух.
 
-  This rate is always twice the core count.
+  AME-паливо можна замовити в Карго або знайти в Інженерії.
 
-  For example, an AME with one core will have a safe injection rate of 2. With two cores, the safe injection rate would be 4, and so on.
-
-  Any more than this ratio will eventually result in the engine [color=#ff0000]overheating[/color] and, shortly afterwards, [color=#ff0000]exploding[/color].
-
-  The AME controller will [textlink="report" link="InspectingPower"] on both the amount of power it is providing to the grid, and the theoretical maximum power it could provide if demanded.
-
+  ## Безпека
+  AME може стати нестабільним при надмірній ін'єкції. Слідкуйте за цілісністю екранування через контролер.
+  Якщо цілісність падає — зменшіть ін'єкцію або вимкніть двигун.
 </Document>

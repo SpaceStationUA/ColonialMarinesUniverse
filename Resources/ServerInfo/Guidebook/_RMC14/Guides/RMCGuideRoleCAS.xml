@@ -1,140 +1,140 @@
 <Document>
-  #Dropship Operations Guide
+  #Гайд з операцій десантного корабля
 
-  ## Aerial Support & Deployment Platforms
+  ## Платформи повітряної підтримки та розгортання
 
-  Dropships are the backbone of UNMC tactical deployment and a critical source of battlefield firepower. The Almayer utilizes two advanced multi-role dropships: [color=#D2B48C]Alamo[/color] and [color=#808080]Normandy[/color].
+  Десантні кораблі — хребет тактичного розгортання UNMC і критичне джерело вогневої міці на полі бою. Almayer використовує два просунуті багатоцільові десантні кораблі: [color=#D2B48C]Alamo[/color] та [color=#808080]Normandy[/color].
 
-  [bold]Both the [color=#D2B48C]Alamo[/color] and [color=#808080]Normandy[/color] are engineered to perform essential troop transport and devastating Close Air Support (CAS) missions[/bold], adapting to the dynamic needs of any operation.
+  [bold]І [color=#D2B48C]Alamo[/color], і [color=#808080]Normandy[/color] спроєктовані для виконання основних завдань транспортування військ та руйнівних місій Близької повітряної підтримки (CAS)[/bold], адаптуючись до динамічних потреб будь-якої операції.
 
-  This guide will cover the general aspects of troop transport, attachment overview and then provide a more in-depth look at executing effective Close Air Support.
+  Цей гайд охоплюватиме загальні аспекти транспортування військ, огляд насадок та надасть глибший погляд на виконання ефективної Близької повітряної підтримки.
 
 
 
-  ## I. Troop Transport: Lifeline to the Front
+  ## I. Транспортування військ: Лінія життя до фронту
 
-  Efficient troop transport is vital. While both dropships can ferry marines, the [color=#D2B48C]Alamo[/color] is often designated as the primary workhorse for shuttling squads and supplies between The Almayer and The Main LZ.
+  Ефективне транспортування військ життєво важливе. Хоча обидва десантні кораблі можуть перевозити морпіхів, [color=#D2B48C]Alamo[/color] часто призначений як основний робочий кінь для перевезення взводів та припасів між Almayer і Основною LZ.
 
-  ### Optimizing Your Transport Runs:
+  ### Оптимізація ваших транспортних рейсів:
 
-  -   [bold]LZ Management:[/bold] Ensure that you always select the [color=#4CAF50][bold]PRIMARY LZ[/bold][/color].
-  -   [bold]Departure Callouts:[/bold] Be sure to announce departure times on [color=#808080]common ship radio[/color] to reduce the chance of leaving any marine behind on ship.
-  -   [bold]Have the Pilot Fly:[/bold] Having [color=#FFFF00]Piloting Skill 2[/color] (standard for Dropship/Gunship Pilots and ASOs) [color=#ADD8E6]reduces dropship refuel time by 25%[/color]. [bold]This stacks with the Cooling System.[/bold]
+  -   [bold]Керування LZ:[/bold] Завжди обирайте [color=#4CAF50][bold]ОСНОВНУ LZ[/bold][/color].
+  -   [bold]Оголошення про відліт:[/bold] Обов'язково оголошуйте час відльоту на [color=#808080]загальному корабельному радіо[/color], щоб зменшити шанс залишити будь-якого морпіха на кораблі.
+  -   [bold]Дайте Пілоту літати:[/bold] Наявність [color=#FFFF00]Навички пілотування 2[/color] (стандарт для Пілотів десантних кораблів/канонерських човнів та ASO) [color=#ADD8E6]зменшує час дозаправки десантного корабля на 25%[/color]. [bold]Це складається з Системою охолодження.[/bold]
 
-  ## II. Dropship Armaments & Engine Attachments
+  ## II. Озброєння десантного корабля та насадки на двигуни
 
-  Understanding the available hardware is crucial before engaging in CAS. Both the [color=#D2B48C]Alamo[/color] and [color=#808080]Normandy[/color] can be outfitted with 4 weapon systems, 2 performance-enhancing engine attachments and 3 utility mounts.
+  Розуміння доступного обладнання критично перед участю в CAS. І [color=#D2B48C]Alamo[/color], і [color=#808080]Normandy[/color] можуть бути обладнані 4 системами зброї, 2 насадками для покращення продуктивності двигуна та 3 утилітними кріпленнями.
 
-  ### A. Weapon Systems
+  ### A. Системи зброї
 
      <GuideEntityEmbed Entity="RMCDropshipAttachmentGau21Cannon"/>
-  - [bold]Overview[/bold]: This is a powerful direct-fire cannon, offering versatility against a range of targets based on the ammunition selected.
-  - [bold]Firing Window[/bold]: Usable during [color=#00FF00]Transit AND Fly-by runs[/color].
-  - [bold]Ammunition Types & Characteristics[/bold]:
+  - [bold]Огляд[/bold]: Це потужна гармата прямого вогню, що пропонує універсальність проти різних цілей залежно від обраних боєприпасів.
+  - [bold]Вікно стрільби[/bold]: Можна використовувати під час [color=#00FF00]Транзиту ТА Fly-by рейсів[/color].
+  - [bold]Типи боєприпасів та характеристики[/bold]:
      <GuideEntityEmbed Entity="RMCDropshipAttachmentAmmoGAU"/>
-  [bold]General Description[/bold]: This round is designed for engaging [color=#FFA500]infantry, light vehicles, and unreinforced structures[/color]. It excels at area suppression and clearing out softer targets but is not intended for heavily armored threats. [color=#ADD8E6]Has a travel time of 10 seconds[/color]
+  [bold]Загальний опис[/bold]: Цей патрон призначений для бою з [color=#FFA500]піхотою, легкою бронетехнікою та неукріпленими структурами[/color]. Він чудовий для подавлення зони та зачищення м'якших цілей, але не призначений для важко броньованих загроз. [color=#ADD8E6]Час прольоту 10 секунд[/color]
      <GuideEntityEmbed Entity="RMCDropshipAttachmentAmmoGAUAP"/>
-  [bold]General Description[/bold]: A specialized armor-piercing sabot round engineered to defeat [color=#FF6347]heavily armored targets[/color]. It is less effective against infantry or unarmored targets. [color=#ADD8E6]Has a travel time of 6 seconds[/color]
+  [bold]Загальний опис[/bold]: Спеціалізований бронебійний sabot патрон, спроєктований для подолання [color=#FF6347]важко броньованих цілей[/color]. Менш ефективний проти піхоти або неброньованих цілей. [color=#ADD8E6]Час прольоту 6 секунд[/color]
 
      <GuideEntityEmbed Entity="RMCDropshipAttachmentLaserCannon"/>
-  - [bold]Overview[/bold]: An area denial weapon that projects a laser to create a field of intense, albeit short-lived fires.
-  - [bold]Firing Window[/bold]: Can be used during [color=#00FF00]Transit AND Fly-by runs[/color].
-  - [bold]Ammunition & Characteristics[/bold]:
+  - [bold]Огляд[/bold]: Зброя зони відмови, що проєктує лазер для створення поля інтенсивних, хоча й короткотривалих, вогнів.
+  - [bold]Вікно стрільби[/bold]: Можна використовувати під час [color=#00FF00]Транзиту ТА Fly-by рейсів[/color].
+  - [bold]Боєприпаси та характеристики[/bold]:
      <GuideEntityEmbed Entity="RMCDropshipAttachmentAmmoLaserCannon"/>
-  The cannon randomly covers a [color=#FFA500]7x7 area with 16 total fires[/color]. These fires have a very short duration but are of very high intensity, making them ideal for flushing enemies or temporary area denial.
-  The ammunition is very cost-efficient, with a full reload providing 10 shots. It boasts the [color=#ADD8E6]fastest travel time of any CAS weapon (1 second)[/color] and has a minimal [color=#FFD700]1-tile inaccuracy[/color].
+  Гармата випадково покриває [color=#FFA500]зону 7x7 з 16 загальними вогнями[/color]. Ці вогні мають дуже коротку тривалість, але дуже високу інтенсивність, що робить їх ідеальними для виганяння ворогів або тимчасової відмови зони.
+  Боєприпаси дуже економічні: повна перезарядка надає 10 пострілів. Має [color=#ADD8E6]найшвидший час прольоту з усієї CAS-зброї (1 секунда)[/color] і мінімальну [color=#FFD700]неточність 1 тайл[/color].
 
      <GuideEntityEmbed Entity="RMCDropshipAttachmentGuidedMissileLauncher"/>
-  - [bold]Overview[/bold]: This system fires expensive, single-shot, high-impact guided rockets designed for taking out significant targets.
-  - [bold]Firing Window[/bold]: Can [color=#FF0000]ONLY be used during Fly-by CAS runs[/color]. It cannot be fired while the dropship is in normal transit.
-  - [bold]General Launcher Characteristics[/bold]: All missiles fired from this launcher have an inherent [color=#FFD700]3-tile inaccuracy[/color].
-  - [bold]Missile Options & Characteristics[/bold]:
+  - [bold]Огляд[/bold]: Ця система стріляє дорогими, одноразовими, високопотужними керованими ракетами, призначеними для усунення значних цілей.
+  - [bold]Вікно стрільби[/bold]: Можна використовувати [color=#FF0000]ЛИШЕ під час Fly-by CAS рейсів[/color]. Не можна стріляти, поки десантний корабель у звичайному транзиті.
+  - [bold]Загальні характеристики пускача[/bold]: Усі ракети, випущені з цього пускача, мають вбудовану [color=#FFD700]неточність 3 тайли[/color].
+  - [bold]Опції ракет та характеристики[/bold]:
       <GuideEntityEmbed Entity="RMCDropshipAttachmentAmmoRocketWidowmaker"/>
-  This missile features a [color=#FF6347]large blast radius[/color]. Best used against large concentrations of enemies or widespread light targets. [color=#ADD8E6]Has a travel time of 3 seconds[/color]
+  Ця ракета має [color=#FF6347]великий радіус вибуху[/color]. Найкраще використовувати проти великих скупчень ворогів або поширених легких цілей. [color=#ADD8E6]Час прольоту 3 секунди[/color]
       <GuideEntityEmbed Entity="RMCDropshipAttachmentAmmoRocketKeeper"/>
-  This missile delivers its payload in a [color=#FF6347]small but highly concentrated blast radius[/color]. Designed for precision strikes against durable single targets. [color=#ADD8E6]Has a travel time of 2 seconds[/color]
+  Ця ракета доставляє свій вантаж у [color=#FF6347]малому, але висококонцентрованому радіусі вибуху[/color]. Призначена для точних ударів по міцних одиничних цілях. [color=#ADD8E6]Час прольоту 2 секунди[/color]
       <GuideEntityEmbed Entity="RMCDropshipAttachmentAmmoRocketNapalm"/>
-  This missile has a [color=#FF6347]large blast radius[/color] and creates an intense fire in a [color=#FFA500]7x7 area[/color] upon impact. Its primary use is for extreme area denial. [color=#ADD8E6]Has a travel time of 6 seconds[/color]
+  Ця ракета має [color=#FF6347]великий радіус вибуху[/color] і створює інтенсивний вогонь у [color=#FFA500]зоні 7x7[/color] при ударі. Її основне використання — для екстремальної відмови зони. [color=#ADD8E6]Час прольоту 6 секунд[/color]
 
-  ### B. Engine Attachments
-  These modules are fitted to dedicated engine attachment points  to enhance dropship performance.
+  ### B. Насадки на двигуни
+  Ці модулі встановлюються на спеціальні точки кріплення двигуна для покращення продуктивності десантного корабля.
       <GuideEntityEmbed Entity="RMCDropshipAttachmentFuelEnhancer"/>
-    [color=#ADD8E6]Reduces overall travel time[/color] AND [color=#ADD8E6]increases available fly-by time by 25%[/color]. Excellent for rapid response, quicker transport cycles, and extended CAS presence.
+    [color=#ADD8E6]Зменшує загальний час прольоту[/color] ТА [color=#ADD8E6]збільшує доступний час fly-by на 25%[/color]. Чудово для швидкого реагування, швидших циклів транспорту та продовженої присутності CAS.
       <GuideEntityEmbed Entity="RMCDropshipAttachmentCoolingSystem"/>
-    [color=#ADD8E6]Significantly reduces dropship refuel time by 50%[/color], decreasing downtime at The Almayer or LZ.
-  -   [bold]Stacking Note[/bold]: Both engine attachments can be equipped simultaneously, and their effects stack, but with diminishing returns. The Pilot skill bonus also stacks with the Cooling System.
+    [color=#ADD8E6]Значно зменшує час дозаправки десантного корабля на 50%[/color], зменшуючи простій на Almayer чи LZ.
+  -   [bold]Примітка про складання[/bold]: Обидві насадки на двигун можна екіпірувати одночасно, і їхні ефекти складаються, але зі спадаючою віддачею. Бонус навички Пілота також складається з Системою охолодження.
 
-  ### C. Internal Utility Modules
-    Dropships feature [bold]3 utility point[/bold], located inside the dropship near the rear. These mounts can be fitted with specialized modules to enhance the dropship's support capabilities. Currently, two primary utility modules are available:
+  ### C. Внутрішні утилітарні модулі
+    Десантні кораблі мають [bold]3 утилітні точки[/bold], розташовані всередині десантного корабля біля корми. Ці кріплення можна обладнати спеціалізованими модулями для посилення можливостей підтримки десантного корабля. Наразі доступні два основні утилітарні модулі:
 
        <GuideEntityEmbed Entity="RMCDropshipAttachmentFulton"/>
-    -   When this module is installed, the dropship gains the ability to [color=#ADD8E6]retrieve items or corpses that have been sent up from the ground via a fulton[/color]. The Pilot has to use their console to recover the fultonned items
+    -   Коли цей модуль встановлено, десантний корабель отримує здатність [color=#ADD8E6]витягувати предмети або трупи, відправлені знизу через фултон[/color]. Пілот має використати свою консоль, щоб витягти fultonned предмети.
 
        <GuideEntityEmbed Entity="RMCDropshipAttachmentMedevac"/>
-    -   Equipping this module allows the dropship to [color=#00FF00]recover critically wounded or downed personnel on medevac stretcher directly from the battlefield[/color].
-    -   To recover personnel with the medevac system, the pilot must first select the medevac system from the weapons console and has to manually interact with the medevac to activate it. The medevac system also has a 20 second cooldown
-    -   [bold][color=#FF0000]Vital for casualty evacuation. Remember to tend to the recovered personnel and inform medical on their status, do not leave them unattended after landing at the Almayer.[/color][/bold]
+    -   Екіпірування цього модуля дозволяє десантному кораблю [color=#00FF00]витягувати критично поранений або поваленого персонал на medevac-ношах прямо з поля бою[/color].
+    -   Щоб витягти персонал з системою medevac, пілот повинен спочатку обрати систему medevac з консолі зброї і має вручну взаємодіяти з medevac, щоб активувати її. Система medevac також має 20-секундний кулдаун.
+    -   [bold][color=#FF0000]Життєво важливо для евакуації жертв. Не забувайте піклуватися про витягнутий персонал та інформувати медицину про їхній статус, не залишайте їх без нагляду після приземлення на Almayer.[/color][/bold]
 
 
-  ### D. Acquiring Armaments & Attachments (Dropship Fabricator)
-  All weapon systems, their respective ammunition, and engine attachments are not freely available. They must be acquired through a Dropship Part Fabricator found above the landing pads
+  ### D. Отримання озброєнь та насадок (Фабрикатор десантного корабля)
+  Усі системи зброї, відповідні їм боєприпаси та насадки на двигуни не доступні безкоштовно. Їх потрібно отримувати через Фабрикатор деталей десантного корабля, що знаходиться над посадковими майданчиками.
       <GuideEntityEmbed Entity="RMCDropshipFabricator"/>
-      <Box>uses a system of [color=#FFFF00]"Dropship Points"[/color] to print these items.</Box>
-  -   [bold]Replenishing Dropship Points[/bold]: There are two primary ways to obtain or replenish these crucial dropship points:
+      <Box>використовує систему [color=#FFFF00]"Очок десантного корабля"[/color] для друку цих предметів.</Box>
+  -   [bold]Поповнення Очок десантного корабля[/bold]: Є два основні способи отримання або поповнення цих критичних очок:
 
-  1. [bold]Passive Regeneration[/bold]: Dropship points regenerate passively over time, but at a [color=#FFA500]very slow rate[/color] (approximately 1 point every 3 seconds).
-  This method is often insufficient for rapid re-arming during active operations.
+  1. [bold]Пасивна регенерація[/bold]: Очки десантного корабля регенерують пасивно з часом, але [color=#FFA500]дуже повільно[/color] (приблизно 1 очко кожні 3 секунди).
+  Цей метод часто недостатній для швидкого переозброєння під час активних операцій.
 
-  2. [bold]Command Intervention[/bold]: [color=#FFD700]The most effective and timely way to replenish spent dropship points is through Command intervention.[/color] Command staff can spend [color=#00FF00]"Intel Points"[/color] to purchase dropship points,
-  which are then credited to the dropship systems for immediate fabrication of armaments and attachments.
+  2. [bold]Втручання Командування[/bold]: [color=#FFD700]Найефективніший і своєчасний спосіб поповнити витрачені очки десантного корабля — через втручання Командування.[/color] Командний склад може витрачати [color=#00FF00]"Очки розвідки"[/color] на купівлю очок десантного корабля,
+  які потім зараховуються до систем десантного корабля для миттєвого виготовлення озброєнь та насадок.
 
-  -    This system means that the dropship's loadout and re-arming capability are directly tied to the overall strategic resource management of the marine operation. Pilots must be judicious with their ordnance, and effective communication with Command regarding point status and needs is essential.
+  -    Ця система означає, що завантаження та можливість переозброєння десантного корабля прямо пов'язані із загальним стратегічним керуванням ресурсами морпіхської операції. Пілоти повинні бути розсудливими зі своїми боєприпасами, а ефективне спілкування з Командуванням щодо стану очок та потреб є необхідним.
 
-   ## A. Accessing & Understanding the CAS Interface
+   ## A. Доступ до інтерфейсу CAS та його розуміння
 
-    Every aspect of a CAS run is controlled via the [bold]Weapons Controls Console[/bold].
-    -   [bold]Dual Monitors:[/bold] Once the console is open, you will see two monitors. Both monitors can display the same selection of windows and operate independently, allowing you to have two different informational or control windows open simultaneously (Target on one, Cams on the other)
-    -   [bold]Available Buttons:[/bold] The primary windows accessible on these monitors are: [bold]Equip[/bold], [bold]Target[/bold], and [bold]Cams[/bold].
+    Кожен аспект CAS-рейсу контролюється через [bold]Консоль контролю зброї[/bold].
+    -   [bold]Подвійні монітори:[/bold] Як тільки консоль відкрита, ви побачите два монітори. Обидва можуть відображати ту ж саму вибірку вікон і працювати незалежно, дозволяючи мати два різні інформаційні чи контрольні вікна одночасно (Ціль на одному, Камери на іншому).
+    -   [bold]Доступні кнопки:[/bold] Основні вікна, доступні на цих моніторах: [bold]Equip[/bold], [bold]Target[/bold] та [bold]Cams[/bold].
 
-    ### B. Navigating the Weapon Control Buttons
-    1.  [bold]The "Equip"[/bold]
-    -  Provides a detailed overview of the dropship's current loadout.
-    -  It shows what kind of weapon systems are attached to the dropship's weapon slots and displays the type and remaining quantity of ammunition for each installed weapon.
+    ### B. Навігація кнопками контролю зброї
+    1.  [bold]"Equip"[/bold]
+    -  Надає детальний огляд поточного завантаження десантного корабля.
+    -  Показує, які системи зброї приєднано до слотів зброї десантного корабля та відображає тип і залишкову кількість боєприпасів для кожної встановленої зброї.
 
-    2.  [bold]The "Cams"[/bold]
-    -   Provides a camera view centered on the selected target and its immediate surroundings.
-    -   When this window is active, it will display the visual feed from the area around the target currently selected.
-    <Box>[bold]Camera Control[/bold]:</Box>
-    -   Located [italic]between the two main monitor windows[/italic], you will find four directional arrows.
-    -   Using these arrows allows you to [color=#ADD8E6]slightly move the camera view around[/color] the selected target point. You can use the button in the center to reset the camera back to the target.
-    -   [color=#FFD700][bold]Important Note[/bold]: Moving the camera view in the "Cams" window [bold]does NOT change where the CAS strike will land[/bold]. The strike is always directed at the offset of the target selected in the "Target" window.
+    2.  [bold]"Cams"[/bold]
+    -   Надає вид камери, центрований на обраній цілі та її безпосередньому оточенні.
+    -   Коли це вікно активне, воно відображає візуальний канал з зони навколо обраної цілі.
+    <Box>[bold]Контроль камери[/bold]:</Box>
+    -   Розташований [italic]між двома основними вікнами моніторів[/italic], ви знайдете чотири стрілки напрямку.
+    -   Використання цих стрілок дозволяє [color=#ADD8E6]трохи переміщувати вид камери навколо[/color] обраної точки цілі. Можна використовувати кнопку посередині, щоб скинути камеру до цілі.
+    -   [color=#FFD700][bold]Важлива примітка[/bold]: Переміщення виду камери у вікні "Cams" [bold]НЕ змінює, де приземлиться удар CAS[/bold]. Удар завжди спрямований на offset цілі, обраної у вікні "Target".
 
-    3.  [bold]The "Target"[/bold]
-    -   This is your primary interface for selecting targets and firing the dropship's weapon systems.
-    <Box>[bold]Firing Sequence - Step-by-Step:</Box>
-    -   [color=#FFA500][bold]Select Target[/bold][/color]:  You must choose a target. On the right side of the "Target" window, a list of available targets will be displayed. These targets are typically those designated by ground teams using [color=#FF0000]Laser Designators[/color] or [color=#00FF00]Signal Flares[/color]. Click on the desired target to select it.
-    -   [color=#FFA500][bold]Select "Strike"[/bold][/color]: Once a target is selected, press the "Strike" button within the window.
-    -   [color=#FFA500][bold]Select "Weapon"[/bold][/color]: This will bring up a list showing all equipped weapon systems.
-    -   [color=#FFA500][bold]Choose Your Weapon[/bold][/color]: Select the specific weapon system you intend to fire at the chosen target.
-    -   [color=#FF0000][bold]Select "Fire"[/bold][/color]: Confirm your selections by pressing the "Fire" button.
-    -   [bold]If the sequence was performed correctly, you should hear the distinct sound of the selected weapon firing.[/bold]
+    3.  [bold]"Target"[/bold]
+    -   Це ваш основний інтерфейс для вибору цілей та стрільби системами зброї десантного корабля.
+    <Box>[bold]Послідовність стрільби — крок за кроком:</Box>
+    -   [color=#FFA500][bold]Виберіть ціль[/bold][/color]: Ви повинні обрати ціль. На правій стороні вікна "Target" буде відображено список доступних цілей. Це зазвичай цілі, позначені наземними командами за допомогою [color=#FF0000]Лазерних designator'ів[/color] чи [color=#00FF00]Сигнальних ракет[/color]. Клікніть на бажану ціль, щоб обрати.
+    -   [color=#FFA500][bold]Оберіть "Strike"[/bold][/color]: Як тільки ціль обрано, натисніть кнопку "Strike" у вікні.
+    -   [color=#FFA500][bold]Оберіть "Weapon"[/bold][/color]: Це викличе список усіх екіпірованих систем зброї.
+    -   [color=#FFA500][bold]Оберіть свою зброю[/bold][/color]: Виберіть конкретну систему зброї, з якої маєте намір стріляти по обраній цілі.
+    -   [color=#FF0000][bold]Оберіть "Fire"[/bold][/color]: Підтвердіть свій вибір, натиснувши кнопку "Fire".
+    -   [bold]Якщо послідовність виконано правильно, ви маєте чути характерний звук пострілу обраної зброї.[/bold]
 
-    <Box>[bold]Weapon Cooldowns & Rapid Fire:</Box>
-    -   Individual weapons have a [italic]short internal cooldown[/italic] before they can be fired again.
-    -   However, there is [bold]no hard delay between firing -different- guns[/bold]. This means once one weapon has fired (example GAU-21), you can immediately repeat the "Strike" -> "Weapon" (select a different GAU-21 or another weapon) -> "Fire" sequence to unleash another salvo with a different weapon system very quickly. This allows for potent combined-arms attacks.
+    <Box>[bold]Кулдауни зброї та швидкий вогонь:</Box>
+    -   Окремі види зброї мають [italic]короткий внутрішній кулдаун[/italic] перед повторною стрільбою.
+    -   Однак [bold]немає жорсткої затримки між стрільбою з -різної- зброї[/bold]. Це означає, що як тільки одна зброя вистрілила (наприклад, GAU-21), можна негайно повторити послідовність "Strike" -> "Weapon" (вибрати інший GAU-21 чи іншу зброю) -> "Fire", щоб випустити ще один залп з іншою системою зброї дуже швидко. Це дозволяє потужні комбіновані атаки.
 
-    ### C. CAS Operations: Best Practices & What NOT To Do
+    ### C. Операції CAS: Найкращі практики та що НЕ робити
 
-    -   [bold]DO: Verify Target Designation[/bold]: Always ensure the target selected in your "Target" window is the correct one communicated by ground teams. Mistakes in target selection can be catastrophic.
-    -   [bold]DO: Monitor Ammo[/bold]: Regularly check your "Equip" window to keep track of remaining ammunition for each weapon system. Running dry is a bad look.
-    -   [bold]DO: Utilize Both Monitors Effectively[/bold]: For instance, keep "Target" open on one monitor for firing control and "Cams" or "Equip" open on the other for situational awareness or ammo checks.
-    -   [bold]DO: Practice Rapid Weapon Switching[/bold]: Get proficient with the "Strike -> Weapon -> Fire" sequence to quickly engage with multiple weapon systems if the situation demands it.
-    -   [color=#00FF00][bold]DO: Reset Your Target Offsets After Each Fire Mission[/bold][/color]: [bold]After completing a fire mission, ensure you reset any target offsets. You don't want to hit friendlies, do you?[/bold]
+    -   [bold]РОБІТЬ: Перевіряйте позначення цілі[/bold]: Завжди забезпечуйте, щоб ціль, обрана у вашому вікні "Target", була правильною, повідомленою наземними командами. Помилки у виборі цілі можуть бути катастрофічними.
+    -   [bold]РОБІТЬ: Стежте за боєприпасами[/bold]: Регулярно перевіряйте вікно "Equip", щоб слідкувати за залишковими боєприпасами для кожної системи зброї. Закінчилися — погано виглядає.
+    -   [bold]РОБІТЬ: Ефективно використовуйте обидва монітори[/bold]: Наприклад, тримайте "Target" відкритим на одному моніторі для контролю стрільби та "Cams" або "Equip" відкритим на іншому для ситуаційної обізнаності або перевірки боєприпасів.
+    -   [bold]РОБІТЬ: Тренуйте швидке перемикання зброї[/bold]: Станьте досвідченими в послідовності "Strike -> Weapon -> Fire", щоб швидко атакувати кількома системами зброї, якщо ситуація вимагає.
+    -   [color=#00FF00][bold]РОБІТЬ: Скидайте offsets цілі після кожної вогневої місії[/bold][/color]: [bold]Після завершення вогневої місії обов'язково скидайте будь-які offsets цілі. Не хочете влучити в дружніх, чи не так?[/bold]
 
-    -   [color=#FF0000][bold]DON'T: Fire Without Positive Target ID[/bold][/color]: Never fire "blindly" at an unconfirmed target. Friendly fire in CAS is devastating.
-    -   [color=#FF0000][bold]DON'T: Assume the Camera View is Your Aimpoint[/bold][/color]: Remember the "Cams" window is for observation; your shots go where the selected target in the "Target" window is.
-    -   [color=#FF0000][bold]DON'T: Neglect Communication on "Danger Close" Scenarios[/bold][/color]: If ground teams call "Danger Close," be extra vigilant. Ensure your strike won't endanger them. If in doubt, hold fire.
-    -   [color=#FF0000][bold]DON'T: Waste Expensive Ordnance[/bold][/color]: Use the appropriate weapon for the target. Don't fire a costly AGM-99 'Napalm' missile at a single drone.
+    -   [color=#FF0000][bold]НЕ: Стріляйте без позитивної ID цілі[/bold][/color]: Ніколи не стріляйте "наосліп" по непідтвердженій цілі. Дружній вогонь у CAS руйнівний.
+    -   [color=#FF0000][bold]НЕ: Припускайте, що вид камери — ваша точка прицілювання[/bold][/color]: Пам'ятайте, що вікно "Cams" — для спостереження; ваші постріли йдуть туди, де знаходиться обрана ціль у вікні "Target".
+    -   [color=#FF0000][bold]НЕ: Нехтуйте спілкуванням у сценаріях "Danger Close"[/bold][/color]: Якщо наземні команди викликають "Danger Close", будьте додатково пильними. Забезпечте, щоб ваш удар не загрожував їм. У сумніві — припиніть вогонь.
+    -   [color=#FF0000][bold]НЕ: Витрачайте дорогі боєприпаси[/bold][/color]: Використовуйте відповідну зброю для цілі. Не стріляйте дорогою ракетою AGM-99 'Napalm' по одному drone.
 
 
 </Document>

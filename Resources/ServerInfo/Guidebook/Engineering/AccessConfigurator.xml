@@ -1,50 +1,49 @@
 <Document>
-  # Access Configurator
-  The access configurator is a tool used to specify what type of personnel may use certain devices.
+  # Конфігуратор доступу
+  Конфігуратор доступу — інструмент для визначення, який тип персоналу може використовувати певні пристрої.
 
   <Box>
-	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="access configurator"/>
+	  <GuideEntityEmbed Entity="AccessConfigurator" Caption="конфігуратор доступу"/>
   </Box>
 
-  Configurable devices can include airlocks, secure crates and lockers, as well as access restricted machines.
-  Note: Airlocks can have their accesses configured by the [color=#a4885c]Network Configurator[/color] (or multitool), for convenience.
+  Налаштовувані пристрої включають шлюзи, захищені ящики та шафки, а також машини з обмеженим доступом.
+  Примітка: Доступ шлюзів також можна налаштувати [color=#a4885c]Мережевим конфігуратором[/color] (або мультитулом) для зручності.
 
-  ## Where to find Access Configurators
-  Each station is equipped with up to two access configurators. The first is in the possession of the Chief Engineer, while the second can be found with the Head of Personnel.
+  ## Де знайти конфігуратори доступу
+  Кожна станція оснащена до двох конфігураторів доступу. Перший — у Головного інженера, другий — у Керівника кадрової служби.
 
-  ## How to use the access configurator
-  To modify a device using the access configurator:
-  - First, use the access configurator on the chosen device to link them together. This will automatically open the configurator UI.
-  - Next, insert an ID card into the access configurator.
-  - Set the access requirements of the connected device. What requirements can be added or removed will depend upon the access privileges of the inserted ID card.
-  - Any changes made will be applied [color=#a4885c]immediately[/color] - simply eject the ID card from the access configurator and close the UI when you are done.
+  ## Як використовувати конфігуратор доступу
+  Для зміни пристрою:
+  - Спочатку використайте конфігуратор на обраному пристрої для їх з'єднання. Це автоматично відкриє інтерфейс.
+  - Далі вставте ID-картку в конфігуратор.
+  - Встановіть вимоги доступу підключеного пристрою. Які вимоги можна додати або видалити, залежить від привілеїв вставленої ID-картки.
+  - Будь-які зміни застосовуються [color=#a4885c]негайно[/color] — просто витягніть ID-картку та закрийте інтерфейс, коли закінчите.
 
-  ## Restrictions on changing access
-  As a safety precaution, the inserted ID must possess [bold]all[/bold] of the access requirements that are currently active on the connected device in order to modify it.
+  ## Обмеження на зміну доступу
+  Як запобіжний захід, вставлена ID-картка повинна мати [bold]усі[/bold] поточні вимоги доступу пристрою для його зміни.
 
-  For example, a device which can be accessed by both 'Science' and 'Medical' personnel can only by modified using an ID card that has access to [color=#a4885c]both[/color] of these departments.
-  The access configurator will warn the user if the inserted ID card does not have sufficient privileges to modify a device.
+  Наприклад, пристрій з доступом 'Наука' та 'Медицина' можна змінити лише ID-карткою з доступом до [color=#a4885c]обох[/color] відділів.
 
-  A device with no access requirements set, like a public access airlock, can be modified using any valid station ID card.
+  Пристрій без вимог доступу (як публічний шлюз) можна змінити будь-якою дійсною станційною ID-карткою.
 
-  ## Repairing access-broken ID card readers
-  Syndicate agents may attempt to hack access-restricted devices through the use of an [color=#a4885c]Authentication Disruptor[/color].
-  This nefarious tool will completely short out any ID card readers that are attached to the device, making it all-access.
+  ## Ремонт зламаних зчитувачів ID-карток
+  Агенти Синдикату можуть зламати пристрої за допомогою [color=#a4885c]Порушника автентифікації[/color].
+  Цей інструмент повністю виводить з ладу зчитувачі ID-карток, роблячи пристрій загальнодоступним.
 
   <Box>
     <GuideEntityEmbed Entity="AccessBreaker"/>
   </Box>
 
-  To repair the damage, you'll commonly need to partially deconstruct the device and reconstruct it.
-  This will reset the access requirements to defaults, allowing you to reconfigure the device as needed.
+  Для ремонту зазвичай потрібно частково деконструювати пристрій і реконструювати його.
+  Це скине вимоги доступу до стандартних.
 
-  ## Repairing access-broken Airlocks
-  Airlocks can be repaired multiple ways if their access requirements have been tampered with.
+  ## Ремонт зламаних шлюзів
+  Шлюзи можна відремонтувати кількома способами, якщо їхній доступ було змінено.
 
-  If you have an Access Configurator, you can use a [color=#a4885c]Screwdriver[/color] to remove the airlock's maintenance panel, and then use the Access Configurator to reconfigure the airlock's access requirements.
-  No partial deconstruction is needed.
+  З конфігуратором доступу: використайте [color=#a4885c]Викрутку[/color] для зняття панелі обслуговування шлюзу, потім конфігуратор для переналаштування.
+  Часткова деконструкція не потрібна.
 
-  If you don't have an Access Configurator, you can still fix the airlock by partially deconstructing it until you remove the door electronics, and then reconstructing it.
-  This will reset the airlock to the default access requirements it had at the start of the shift.
+  Без конфігуратора: частково деконструюйте шлюз до видалення електроніки дверей, потім реконструюйте.
+  Це скине доступ до стандартного на початку зміни.
 
 </Document>

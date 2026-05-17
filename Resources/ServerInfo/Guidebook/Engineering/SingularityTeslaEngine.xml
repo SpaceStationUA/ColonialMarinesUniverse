@@ -1,17 +1,17 @@
 <Document>
-  # Singularity / Tesla Engine
+  # Двигун сингулярності / Тесла
 
-  The Singularity Engine / Tesla Engine can yield [color=#a4885c]infinite power[/color] for the entire shift, making it a valuable asset to the station.
+  Двигун сингулярності / Тесла може забезпечити [color=#a4885c]нескінченну енергію[/color] на всю зміну, що робить його цінним активом станції.
 
-  It can also [color=red]destroy the whole station[/color] with equal ease, and requires careful preparation and monitoring to prevent a [bold]loose[/bold].
+  Він також може [color=red]знищити всю станцію[/color] з такою ж легкістю і потребує ретельної підготовки та моніторингу для запобігання [bold]вивільненню[/bold].
 
-  # Setting it up
-  Both engines follow the same basic setup steps, but have different subsystems and requirements.
+  # Налаштування
+  Обидва двигуни мають однакові базові кроки налаштування, але різні підсистеми та вимоги.
 
-  ## Containment Field
-  The Containment Field is a multi-tile beam field that repels the singularity or tesla, keeping it from escaping.
+  ## Стримувальне поле
+  Стримувальне поле — багатотайлове променеве поле, що відштовхує сингулярність або теслу, не даючи їм втекти.
 
-  The emitter lasers and the containment fields can also cause damage and/or cause you to be sent flying into deep space; [color=#a4885c]avoid touching them[/color] when active.
+  Лазери емітерів та стримувальні поля можуть завдати пошкоджень та/або відкинути вас у космос; [color=#a4885c]уникайте контакту[/color] з ними, коли активні.
 
   <Box>
     <GuideEntityEmbed Entity="Emitter"/>
@@ -19,23 +19,23 @@
     <GuideEntityEmbed Entity="ContainmentField"/>
   </Box>
 
-  Containment Fields are generated between active Containment Field Generators, which are powered by emitters.
+  Стримувальні поля генеруються між активними Генераторами стримувального поля, які живляться емітерами.
 
-  A containment field generator can generate a containment field if:
-  - The generator has been turned on,
-  - another field generator is within 8 tiles,
-  - and the field generators are on the same cardinal axis.
+  Генератор стримувального поля може створити поле, якщо:
+  - Генератор увімкнений,
+  - інший генератор поля знаходиться в межах 8 тайлів,
+  - і генератори на одній кардинальній осі.
 
-  This means that the maximum length of a containment field is 7 tiles.
+  Максимальна довжина стримувального поля — 7 тайлів.
 
-  You can turn on a containment field generator by interacting with it using [color=yellow][bold][keybind="Use"][/bold][/color].
-  Containment field generators won't work if they aren't turned on, even when struck by an emitter. Remember to turn on the field generator!
+  Увімкніть генератор через [color=yellow][bold][keybind="Use"][/bold][/color].
+  Генератори не працюватимуть без увімкнення, навіть при влучанні емітера. Не забудьте увімкнути!
 
-  The containment field generator has an internal energy level, which is filled by striking it with an emitter. When the containment field generator has enough stored energy, it will generate a containment field.
+  Генератор має внутрішній рівень енергії, що заповнюється влучаннями емітера. При достатній енергії він створить стримувальне поле.
 
-  This energy level will naturally decay over time, and the field will disappear when the energy level reaches zero after a delay.
+  Енергія природно спадає з часом, і поле зникне при досягненні нуля.
 
-  When the containment field is active, you cannot turn off the field generator or unanchor it. You must wait for the field to decay before you can turn off the generator.
+  При активному полі генератор не можна вимкнути чи відкріпити. Зачекайте, поки поле згасне.
 
   <Box>
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
@@ -45,19 +45,19 @@
     <GuideEntityEmbed Entity="ContainmentFieldGenerator" Caption=""/>
   </Box>
 
-  ## Emitters
-  Emitters are the devices that power the containment field generators.
+  ## Емітери
+  Емітери — пристрої, що живлять генератори стримувального поля.
 
   <Box>
     <GuideEntityEmbed Entity="Emitter"/>
   </Box>
 
-  The emitters connect to MV cables, and fire lasers as long as they have power and are turned on.
+  Емітери підключаються до MV кабелів і стріляють лазерами, поки мають енергію та увімкнені.
 
-  It is recommended to [color=#a4885c]lock the emitters[/color] with [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color], to prevent any break-in no-gooders from loosing the singularity or tesla by simply switching off the field.
+  Рекомендується [color=#a4885c]заблокувати емітери[/color] через [color=yellow][bold][keybind="AltActivateItemInWorld"][/bold][/color], щоб запобігти вимкненню поля зловмисниками.
 
-  ## Particle Accelerator
-  The Particle Accelerator (PA) is a multi-tile structure that launches accelerated particles from its emitters.
+  ## Прискорювач частинок
+  Прискорювач частинок (PA) — багатотайлова структура, що запускає прискорені частинки з емітерів.
 
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorEndCap" Caption="" Margin="0"/>
@@ -79,16 +79,16 @@
     <GuideEntityEmbed Entity="ParticleAcceleratorEmitterPort" Caption="" Margin="0"/>
   </Box>
 
-  Some stations already have an unfinished PA.
-  To complete it, first ensure there is a MV cable beneath the PA power box, anchor all the parts, and then add an LV cable to each part.
+  Деякі станції вже мають незавершений PA.
+  Для завершення: переконайтеся, що MV кабель під блоком живлення PA, закріпіть усі частини, потім додайте LV кабель до кожної.
 
   <Box>
     <GuideEntityEmbed Entity="CableApcStack"/>
   </Box>
 
-  Then use a screwdriver to screw back the panels.
-  [color=#a4885c]Scan parts[/color] using the PA control computer to check if it's operational (the PA will not function if you do not scan it!).
-  If it shows up as incomplete, examine what's missing.
+  Потім використайте викрутку для закриття панелей.
+  [color=#a4885c]Проскануйте частини[/color] через комп'ютер керування PA, щоб перевірити працездатність (PA не працюватиме без сканування!).
+  Якщо показує незавершений — огляньте, чого бракує.
 
   <Box>
     <GuideEntityEmbed Entity="ParticleAcceleratorControlBox"/>

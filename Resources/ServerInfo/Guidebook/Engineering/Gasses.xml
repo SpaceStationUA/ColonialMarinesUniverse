@@ -1,12 +1,12 @@
 ﻿<Document>
-  # Gasses
-  Gasses are a critical part of the station's operation.
-  You may know them as the stuff you breathe, but they are also used in many other ways.
+  # Гази
+  Гази — критична частина роботи станції.
+  Ви можете знати їх як те, чим дихаєте, але вони також використовуються багатьма іншими способами.
 
-  Gasses have certain properties that make them useful for different tasks.
-  Atmospherics can also synthesize exotic gasses from other gasses, which can be used for special purposes.
+  Гази мають певні властивості, що роблять їх корисними для різних завдань.
+  Атмосферика також може синтезувати екзотичні гази з інших газів для спеціальних цілей.
 
-  ## Oxygen
+  ## Кисень
   <Box>
     <GuideEntityEmbed Entity="OxygenCanister" Caption=""/>
     <GuideEntityEmbed Entity="OxygenTank" Caption=""/>
@@ -15,12 +15,12 @@
     <GuideEntityEmbed Entity="EmergencyOxygenTank" Caption=""/>
   </Box>
 
-  A common gas, used by most species on the station to breathe.
+  Поширений газ, яким дихає більшість видів на станції.
 
-  Oxygen is an oxidizer, which means it supports combustion.
-  This makes it both useful when fusing gasses in a burn chamber, and dangerous when mixed with flammable gasses.
+  Кисень — окислювач, тобто підтримує горіння.
+  Це робить його корисним при синтезі газів у камері спалювання та небезпечним при змішуванні з горючими газами.
 
-  ## Nitrogen
+  ## Азот
   <Box>
     <GuideEntityEmbed Entity="NitrogenCanister" Caption=""/>
     <GuideEntityEmbed Entity="NitrogenTank" Caption=""/>
@@ -29,94 +29,93 @@
     <GuideEntityEmbed Entity="EmergencyNitrogenTank" Caption=""/>
   </Box>
 
-  An inert gas, used in part with oxygen to create a breathable atmosphere.
+  Інертний газ, що використовується разом з киснем для створення придатної для дихання атмосфери.
 
-  Nitrogen is very stable and comprises most of a standard breathable atmosphere.
+  Азот дуже стабільний і складає більшу частину стандартної атмосфери.
 
-  Some species like Slimes breathe nitrogen, with the Vox species requiring strictly nitrogen to breathe.
+  Деякі види, як-от Слайми, дихають азотом, а Vox потребують виключно азот.
 
-  ## Air Mix
+  ## Повітряна суміш
   <Box>
     <GuideEntityEmbed Entity="AirCanister" Caption=""/>
     <GuideEntityEmbed Entity="AirTank" Caption=""/>
   </Box>
 
-  A mixture of gasses that is breathable to most species on the station.
-  It consists of 21% oxygen and 79% nitrogen.
+  Суміш газів, придатна для дихання більшості видів.
+  Складається з 21% кисню та 79% азоту.
 
-
-  ## Carbon Dioxide
+  ## Вуглекислий газ
   <Box>
     <GuideEntityEmbed Entity="CarbonDioxideCanister" Caption=""/>
   </Box>
 
-  A waste gas produced by most species on the station. A common byproduct of combustion.
+  Відхідний газ, що виробляється більшістю видів. Поширений побічний продукт горіння.
 
-  Despite seeming useless, some departments use it in their line of work.
+  Попри здавалося б непотрібність, деякі відділи використовують його у своїй роботі.
 
-  ## Water Vapor
+  ## Водяна пара
   <Box>
     <GuideEntityEmbed Entity="WaterVaporCanister" Caption=""/>
   </Box>
-  A common gas, produced by the burning of plasma and other processes.
+  Поширений газ, що утворюється при спалюванні плазми та інших процесах.
 
-  Water vapor has a good specific heat capacity compared to other gasses, making it useful for moving heat around.
+  Водяна пара має хорошу питому теплоємність порівняно з іншими газами, що робить її корисною для переміщення тепла.
 
-  ## Plasma
+  ## Плазма
   <Box>
     <GuideEntityEmbed Entity="PlasmaCanister" Caption=""/>
   </Box>
-  A highly flammable gas that is used in many processes on the station.
+  Легкозаймистий газ, що використовується в багатьох процесах на станції.
 
-  Engineering uses this gas to generate power and create exotic gasses.
+  Інженерія використовує цей газ для генерації енергії та створення екзотичних газів.
 
-  Burning it generates a lot of heat, as well as gas byproducts such as carbon dioxide, water vapor, and tritium, depending on the efficiency of the burn.
+  Спалювання генерує багато тепла та побічні продукти: вуглекислий газ, водяну пару та тритій, залежно від ефективності спалювання.
 
-  Plasma gas also has a good specific heat capacity, making it useful for moving heat around.
+  Плазма також має хорошу питому теплоємність.
 
-  ## Tritium
+  ## Тритій
   <Box>
     <GuideEntityEmbed Entity="TritiumCanister" Caption=""/>
   </Box>
-  An extremely flammable radioactive gas that is used in the creation of frezon.
+  Надзвичайно горючий радіоактивний газ, що використовується для створення фрезону.
 
-  Tritium is produced when burning plasma in a burn chamber, and can be used to create frezon gas in a complicated mixing process.
+  Тритій виробляється при спалюванні плазми і може бути використаний для створення фрезону в складному процесі змішування.
 
-  The efficiency of tritium fusion depends on various factors such as burn richness and temperature.
+  Ефективність синтезу тритію залежить від різних факторів, як-от насиченість горіння та температура.
 
-  ## Frezon
+  ## Фрезон
   <Box>
     <GuideEntityEmbed Entity="FrezonCanister" Caption=""/>
   </Box>
 
-  A highly sought after gas, due to the difficulty in creating it and its many properties.
+  Дуже затребуваний газ через складність створення та численні властивості.
 
-  It has an extremely high specific heat capacity, making it excellent for moving large amounts of heat around.
+  Має надзвичайно високу питому теплоємність, що робить його відмінним для переміщення великих обсягів тепла.
 
-  Frezon can combine in the air with nitrogen to create nitrous oxide, alongside cooling down the air significantly to below freezing temperatures.
+  Фрезон може поєднуватися в повітрі з азотом, створюючи закис азоту та значно охолоджуючи повітря нижче температури замерзання.
 
-  Frezon is very complicated to create, requiring a mix of tritium, oxygen, and nitrogen, all tuned precisely to create the gas.
-  If you're looking to create this gas yourself, here's what you need to know:
-  - Frezon is produced by the combination of oxygen, tritium, and nitrogen.
-  - Tritium and oxygen are mixed at a ratio of around 1:8.
-  - Nitrogen is required as a catalyst for the reaction. The amount of nitrogen consumed is dependent on the efficiency of the reaction.
-  - The frezon reaction only occurs at cryogenic temperatures, below 73.15 K. The efficency of the reaction (how much frezon is produced) is dependent on the temperature. The closer to 73.15 K, the more frezon is produced, and the less nitrogen is consumed.
+  Фрезон дуже складно створити — потрібна суміш тритію, кисню та азоту, точно налаштована.
+  Що потрібно знати:
+  - Фрезон виробляється поєднанням кисню, тритію та азоту.
+  - Тритій та кисень змішуються у пропорції приблизно 1:8.
+  - Азот потрібен як каталізатор. Кількість спожитого азоту залежить від ефективності реакції.
+  - Реакція фрезону відбувається лише при кріогенних температурах, нижче 73,15 K. Ефективність залежить від температури — чим ближче до 73,15 K, тим більше фрезону виробляється і менше азоту споживається.
 
-  Remember, atmospherics is all about experimentation and process optimization. Try it until you get it right!
+  Пам'ятайте: атмосферика — це експериментування та оптимізація процесів. Пробуйте, поки не вийде!
 
-  ## Nitrous Oxide
+  ## Закис азоту
   <Box>
     <GuideEntityEmbed Entity="NitrousOxideCanister" Caption=""/>
     <GuideEntityEmbed Entity="EmergencyFunnyOxygenTank" Caption=""/>
   </Box>
-  A recreational and waste gas, produced by slimes and the combination of frezon and nitrogen.
+  Рекреаційний та відхідний газ, що виробляється слаймами та поєднанням фрезону з азотом.
 
-  ## Ammonia
+  ## Аміак
   <Box>
     <GuideEntityEmbed Entity="AmmoniaCanister" Caption=""/>
   </Box>
-  A gas produced by the decomposition of bodies.
+  Газ, що утворюється при розкладанні тіл.
 
-  Can be condensed to create ammonia, which can be used to make space cleaner.
+  Може бути конденсований для створення аміаку, який використовується для виготовлення космічного очисника.
 
 </Document>

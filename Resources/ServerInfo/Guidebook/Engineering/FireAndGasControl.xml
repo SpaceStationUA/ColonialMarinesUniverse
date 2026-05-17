@@ -1,7 +1,7 @@
 ﻿<Document>
-  # Fire and Gas Control
-  Unfortunately, [textlink="fires" link="Fires"], [textlink="spacing" link="Spacing"], and other [textlink="atmospheric upsets" link="AtmosphericUpsets"] are a common occurrence on the station.
-  These upsets can quickly spread throughout the station and make the atmosphere uninhabitable for the crew.
+  # Контроль пожеж та газу
+  На жаль, [textlink="пожежі" link="Fires"], [textlink="розгерметизація" link="Spacing"] та інші [textlink="атмосферні порушення" link="AtmosphericUpsets"] — звичайне явище на станції.
+  Вони можуть швидко поширитися та зробити атмосферу непридатною для екіпажу.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock"/>
@@ -10,33 +10,30 @@
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  To combat this, stations have a variety of devices to help prevent these upsets from spreading.
+  Для боротьби з цим станції мають різні пристрої для запобігання поширенню.
 
-  ## Firelocks
-  Firelocks are a simple and effective way to prevent fires from spreading throughout the station.
+  ## Файрлоки
+  Файрлоки — простий та ефективний спосіб запобігти поширенню пожеж по станції.
 
-  Based on conditions sensed by the firelock, or through instruction from a connected [textlink="air" link="AirAlarms"] or fire alarm, they can close off sections of the station to prevent the spread of dangerous conditions.
+  На основі умов, що їх відчувають, або за командою підключеної [textlink="повітряної" link="AirAlarms"] чи пожежної тривоги, вони можуть перекривати секції станції.
 
-  ## Station Sectioning
-  Firelocks are intentionally placed in key areas to divide the station into sections. Open spaces like hallways or promenades are divided into smaller sections. This prevents the spread of dangerous conditions to the entire station through connected rooms, hallways, and other open spaces.
+  ## Секціонування станції
+  Файрлоки навмисно розміщені в ключових місцях для поділу станції на секції. Відкриті простори, як-от коридори, поділені на менші секції для запобігання поширенню небезпечних умов.
 
-  ## Basic Operation
-  When not connected to an [textlink="air alarm" link="AirAlarms"] or fire alarm, firelocks will function based on the conditions they sense. Firelocks will drop (close) if:
-  - The temperature between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] or more.
-  - The pressure between the two sides of the firelock is different by [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] kPa[/color] or more.
+  ## Базова робота
+  Без підключення до [textlink="повітряної тривоги" link="AirAlarms"] або пожежної тривоги файрлоки працюють на основі умов, що відчувають. Файрлоки опускаються (закриваються), якщо:
+  - Різниця температур між двома сторонами файрлока становить [color=orange][protodata="Firelock" comp="Firelock" member="TemperatureThreshold"/] K[/color] або більше.
+  - Різниця тиску між двома сторонами становить [color=orange][protodata="Firelock" comp="Firelock" member="PressureThreshold"/] кПа[/color] або більше.
 
-  If these conditions continue, the firelock will enter lockout mode. Firelocks in lockout mode will have [color=red]red[/color] lights and cannot be pried open by hand. They can only be opened by people with Engineering access or by using a crowbar.
+  Якщо умови зберігаються, файрлок входить у режим блокування. Файрлоки в блокуванні мають [color=red]червоні[/color] вогники і не можуть бути відкриті вручну. Лише інженерний доступ або лом.
 
-  Firelocks in lockout mode cannot be opened by using Engineering access if they are unpowered. Only a crowbar can open an unpowered firelock in lockout mode.
+  Знеструмлені файрлоки в блокуванні можна відкрити лише ломом.
 
-  If the conditions between the two sides of the firelock return to within acceptable differences, the firelock will disable lockout mode, and can be opened by anyone.
-  Note that this only means that the conditions are the same on both sides of the firelock, not that they are safe.
+  Якщо умови повертаються до прийнятних, файрлок вимикає блокування і може бути відкритий будь-ким.
+  Це лише означає, що умови однакові з обох сторін, не що вони безпечні.
 
-  A common example of this is a firelock that has released due to both sides being exposed to space.
-
-  ## Connecting to Air and Fire Alarms
-  Firelocks can be connected to [textlink="air alarms" link="AirAlarms"] and fire alarms to receive instructions on when to drop.
-  Firelocks use the [textlink="List system" link="Networking"], and you can connect these devices using a multitool or network configurator.
+  ## Підключення до повітряних та пожежних тривог
+  Файрлоки можна підключити до [textlink="повітряних тривог" link="AirAlarms"] та пожежних тривог через [textlink="систему List" link="Networking"] за допомогою мультитула або мережевого конфігуратора.
 
   <Box>
     <GuideEntityEmbed Entity="Firelock" Caption=""/>
@@ -46,32 +43,24 @@
     <GuideEntityEmbed Entity="AirAlarm" Caption=""/>
   </Box>
 
-  Each firelock has its own unique address. The process for connecting air vents, scrubbers, and sensors to air alarms is very similar.
+  ## Робота під повітряними тривогами
+  При підключенні до повітряної тривоги файрлоки також опускаються за її командою.
 
-  ## Operation Under Air Alarms
-  When connected to an air alarm, firelocks will also drop under the command of the connected [textlink="air alarm" link="AirAlarms"].
+  Файрлоки опускаються при стані [color=red]Небезпека[/color] і залишаються опущеними до повернення [color=green]Зеленого[/color] стану.
 
-  Firelocks will drop if the air alarm reaches a [color=red]Danger[/color] alert state. Firelocks will remain dropped until the air alarm returns to a [color=green]Green[/color] alert state.
+  ## Робота під пожежними тривогами
+  При підключенні до пожежної тривоги файрлоки опускаються при її спрацюванні та залишаються опущеними до скидання.
 
-  Firelocks that are in lockout mode will not raise even if the air alarm returns to a [color=green]Green[/color] alert state. Even if the pressure difference is resolved, the firelock will remain dropped until the air alarm re-sends a green alert state.
-
-  ## Operation Under Fire Alarms
-  When connected to a fire alarm, firelocks will drop if the fire alarm is triggered. Firelocks will remain dropped until the fire alarm is reset.
-
-  ## Fire Alarms
-  Fire alarms are devices that can be used to centrally control all connected firelocks.
+  ## Пожежні тривоги
+  Пожежні тривоги — пристрої для централізованого контролю всіх підключених файрлоків.
 
   <Box>
     <GuideEntityEmbed Entity="FireAlarm"/>
   </Box>
 
-  Devices with sensors can be [textlink="linked" link="Networking"] to fire alarms, which will trigger the fire alarm if the sensor enters the [color=red]Danger[/color] temperature threshold as defined by its sensors.
+  Пристрої з датчиками можна [textlink="прив'язати" link="Networking"] до пожежних тривог, які спрацюють при досягненні порогу [color=red]Небезпека[/color] температури.
 
-  When the fire alarm is triggered, all connected firelocks will be overridden with a [color=red]Danger[/color] alert state and will drop.
+  Тривога автоматично скидається при поверненні до [color=green]Нормальної[/color] температури.
 
-  The alarm will automatically clear itself when the sensor returns to a [color=green]Normal[/color] temperature threshold.
-
-  You can trigger and reset a fire alarm manually by interacting with it.
-
-  This can be used to quickly drop firelocks in a room manually, or to raise them after an upset has been resolved.
+  Можна вручну спрацювати та скинути пожежну тривогу взаємодією з нею.
 </Document>
