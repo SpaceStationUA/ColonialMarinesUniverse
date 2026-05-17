@@ -12,4 +12,4 @@ names-regal-rat-kingdom-dataset-11 = Бруд
 names-regal-rat-kingdom-dataset-12 = Каналізація
 names-regal-rat-kingdom-dataset-13 = Утилізація
 names-regal-rat-kingdom-dataset-14 = Сервісу
-names-regal-rat-kingdom-dataset-15 = 
+names-regal-rat-kingdom-dataset-15 = Сам

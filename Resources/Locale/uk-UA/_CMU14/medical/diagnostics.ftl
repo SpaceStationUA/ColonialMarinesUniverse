@@ -134,6 +134,3 @@ cmu-medical-stethoscope-pain-mild = Пацієнту, схоже, незручн
 cmu-medical-stethoscope-pain-moderate = Пацієнт відчуває помітний біль.
 cmu-medical-stethoscope-pain-severe = Пацієнт відчуває сильний біль.
 cmu-medical-stethoscope-pain-shock = Пацієнт у шоці.
-
-cmu-medical-scanner-stat-pulse-stopped = 0
-cmu-medical-scanner-stat-pulse-stopped = 0

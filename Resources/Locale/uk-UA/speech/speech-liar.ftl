@@ -35,7 +35,7 @@ liar-word-12 = не можу
 liar-word-replacement-12 = можу
 
 liar-word-13 = не
-liar-word-replacement-13 = 
+liar-word-replacement-13 = ""
 
 liar-word-14 = можу
 liar-word-replacement-14 = не можу
@@ -59,7 +59,7 @@ liar-word-20 = зробив
 liar-word-replacement-20 = не зробив
 
 liar-word-21 = не зробив
-liar-word-replacement-21 = 
+liar-word-replacement-21 = ""
 
 liar-word-22 = нічого
 liar-word-replacement-22 = щось
@@ -86,7 +86,7 @@ liar-word-29 = роблю
 liar-word-replacement-29 = ненавиджу
 
 liar-word-30 = ненавиджу
-liar-word-replacement-30 = 
+liar-word-replacement-30 = ""
 
 liar-word-31 = робить
 liar-word-replacement-31 = не подобається
@@ -129,4 +129,4 @@ liar-word-43 = хочу
 liar-word-replacement-43 = немає
 
 liar-word-44 = не
-liar-word-replacement-44 = 
+liar-word-replacement-44 = ""

@@ -14,4 +14,8 @@ ui-supply-drop-console-ready = Готово до запуску!
 ui-supply-drop-console-launch = ЗАПУСТИТИ СКИДАННЯ ПОСТАЧАННЯ
 ui-supply-drop-console-launch-confirmation = Підтвердити Скидання Постачання?
 ui-supply-drop-console-cooldown = {$time} секунд до наступного запуску
-ui-supply-drop-crate-status = { $hasCrate ->\n        [true] Статус Платформи: ящик завантажено.\n       *[false] Ящик не завантажено.\n    }
+ui-supply-drop-crate-status =
+    { $hasCrate ->
+        [true] Статус Платформи: ящик завантажено.
+       *[false] Ящик не завантажено.
+    }

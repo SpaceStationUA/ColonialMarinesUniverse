@@ -6,7 +6,10 @@ rmc-power-loader-cant-drop-occupied = Не можна скинути {THE($drop)
 
 rmc-power-loader-nothing-attached = Тут нічого не приєднано!
 rmc-power-loader-discard-empty = Ви викидаєте порожній {$ammo}.
-rmc-power-loader-transfer-ammo = Ви переміщуєте {$rounds} {$rounds ->\n  [one] набій\n  *[other] набоїв\n} до {THE($ammo)}.
+rmc-power-loader-transfer-ammo = Ви переміщуєте {$rounds} {$rounds ->
+  [one] набій
+  *[other] набоїв
+} до {THE($ammo)}.
 rmc-power-loader-wrong-weapon = Це не той тип боєприпасів!
 rmc-power-loader-wrong-ammo = Це різні типи боєприпасів!
 rmc-power-loader-full-ammo = {CAPITALIZE(THE($ammo))} повний!
