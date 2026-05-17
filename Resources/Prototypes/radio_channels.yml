@@ -1,14 +1,14 @@
 - type: radioChannel
   id: Common
   name: chat-radio-common
-  keycode: "з"
+  keycode: ";" #latin, conflicts with AU14 VAI з
   frequency: 1459
   color: "#2cdb2c"
 
 - type: radioChannel
   id: CentCom
   name: chat-radio-centcom
-  keycode: 'ц'
+  keycode: 'y' #latin, conflicts with AU14 GovforCharlie ц
   frequency: 1337
   color: "#2681a5"
   longRange: true
@@ -16,7 +16,7 @@
 - type: radioChannel
   id: Command
   name: chat-radio-command
-  keycode: 'к'
+  keycode: 'c' #latin, conflicts with AU14 OpforIntel к
   frequency: 1353
   color: "#fcdf03"
 
@@ -44,14 +44,14 @@
 - type: radioChannel
   id: Security
   name: chat-radio-security
-  keycode: 'б'
+  keycode: 's' #latin, conflicts with AU14 GovforBravo б
   frequency: 1359
   color: "#ff4242"
 
 - type: radioChannel
   id: Service
   name: chat-radio-service
-  keycode: 'с'
+  keycode: 'r' #latin, conflicts with AU14 opfor с (v taken by RMC14 MarineCommand)
   frequency: 1349
   color: "#539c00"
 
@@ -65,7 +65,7 @@
 - type: radioChannel
   id: Syndicate
   name: chat-radio-syndicate
-  keycode: 'т'
+  keycode: 'q' #latin, conflicts with AU14 OpforBravo т (t taken by RMC14 MarineIntel)
   frequency: 1213
   color: "#8f4a4b"
   longRange: true

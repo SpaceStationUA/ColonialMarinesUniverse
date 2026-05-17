@@ -11,7 +11,7 @@
 - type: radioChannel
   id: MarineCommon
   name: chat-radio-marine-common
-  keycode: "а" #; and g in cm13
+  keycode: "g" #g in cm13 (latin, conflicts with AU14 GovforAlpha а)
   frequency: 1480
   color: "#B4B4B4"
   colorblindColor: "#6FD08C"
@@ -22,7 +22,7 @@
 - type: radioChannel
   id: MarineCommand
   name: chat-radio-marine-command
-  keycode: "в" #v in cm13
+  keycode: "v" #v in cm13 (latin, conflicts with AU14 GovforCommand в)
   frequency: 1481
   color: "#5b96d4"
   longRange: true
@@ -31,7 +31,7 @@
 - type: radioChannel
   id: MarineMedical
   name: chat-radio-marine-medical
-  keycode: "е" #m in cm13
+  keycode: "m" #m in cm13 (latin, conflicts with AU14 opforcommand е)
   frequency: 1482
   color: "#009771"
   longRange: true
@@ -40,7 +40,7 @@
 - type: radioChannel
   id: MarineEngineer
   name: chat-radio-marine-engineer
-  keycode: "г" #n in cm13
+  keycode: "n" #n in cm13 (latin, conflicts with AU14 ICSCSOF г)
   frequency: 1483
   color: "#e4860c"
   longRange: true
@@ -67,7 +67,7 @@
 - type: radioChannel
   id: MarineIntel
   name: chat-radio-marine-intel
-  keycode: "д" #t in cm13
+  keycode: "t" #t in cm13 (latin, conflicts with AU14 opforjtac д)
   frequency: 1486
   color: "#059705"
   longRange: true
@@ -95,7 +95,7 @@
 - type: radioChannel
   id: MarineBravo
   name: chat-radio-marine-bravo
-  keycode: "и" #b in cm13
+  keycode: "b" #b in cm13 (latin, conflicts with AU14 GovforIntel и)
   frequency: 1492
   color: "#B9A76D"
   longRange: true
@@ -122,7 +122,7 @@
 - type: radioChannel
   id: MarineEcho
   name: chat-radio-marine-echo
-  keycode: "й" #e in cm13
+  keycode: "e" #e in cm13 (latin, conflicts with AU14 GovforJTAC й)
   frequency: 1495
   color: "#3be1b1"
   longRange: true
@@ -143,7 +143,7 @@
 - type: radioChannel
   id: Colony
   name: chat-radio-colony
-  keycode: "л" #o in cm13
+  keycode: "o" #o in cm13 (latin, conflicts with AU14 mob л)
   frequency: 1469
   color: "#cf40a6" #todo rmc14
   longRange: true
@@ -160,7 +160,7 @@
 - type: radioChannel # Only used by Corporate Liason to hand out to bodyguards / command.
   id: WEYA
   name: chat-radio-WY
-  keycode: "у" #w in CM13
+  keycode: "w" #w in CM13 (latin, conflicts with AU14 OpforCharlie у)
   frequency: 1231
   color: "#fe9b24"
   longRange: true
