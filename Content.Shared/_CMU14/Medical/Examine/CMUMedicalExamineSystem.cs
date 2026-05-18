@@ -72,7 +72,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
                 }
 
                 if (HasComp<CMUEscharComponent>(partUid))
-                    untreated.Add("charred burn tissue");
+                    untreated.Add(Loc.GetString("cmu-medical-examine-charred-burn-tissue"));
 
                 if (untreated.Count > 0)
                     sections.Add($"[color={UntreatedWoundColor}]{ToSentence(untreated)}[/color]");
@@ -109,63 +109,77 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         }
     }
 
-    private static string DescribeWound(Wound wound, WoundSize size, TimeSpan now)
+    private string DescribeWound(Wound wound, WoundSize size, TimeSpan now)
     {
-        var sizeText = size switch
+        var sizeKey = size switch
         {
             WoundSize.Small => "small",
-            WoundSize.Deep => "deep",
             WoundSize.Gaping => "gaping",
             WoundSize.Massive => "massive",
             _ => "deep",
         };
 
-        var kind = wound.Type switch
+        var kindKey = wound.Type switch
         {
             WoundType.Burn => "burn",
-            WoundType.Surgery => "surgical wound",
-            _ => "trauma wound",
+            WoundType.Surgery => "surgery",
+            _ => "trauma",
         };
 
-        var treated = wound.Treated ? "treated " : string.Empty;
         var bleeding = !wound.Treated
-            && wound.Bloodloss > 0f
-            && (wound.StopBleedAt is null || now < wound.StopBleedAt.Value)
-                ? " (bleeding)"
-                : string.Empty;
+                       && wound.Bloodloss > 0f
+                       && (wound.StopBleedAt is null || now < wound.StopBleedAt.Value);
 
-        return $"a {treated}{sizeText} {kind}{bleeding}";
+        return Loc.GetString("cmu-medical-examine-wound",
+            ("size", sizeKey),
+            ("kind", kindKey),
+            ("treated", wound.Treated ? "yes" : "no"),
+            ("bleeding", bleeding ? "yes" : "no"));
     }
 
-    private static string DescribeFracture(FractureSeverity severity, bool stabilized)
+    private string DescribeFracture(FractureSeverity severity, bool stabilized)
     {
-        var prefix = stabilized ? "stabilized " : string.Empty;
-        return severity switch
+        var severityKey = severity switch
         {
-            FractureSeverity.Hairline => $"a {prefix}hairline fracture",
-            FractureSeverity.Simple => $"a {prefix}broken bone",
-            FractureSeverity.Compound => $"a {prefix}compound fracture",
-            FractureSeverity.Comminuted => $"a {prefix}shattered bone",
-            _ => "a broken bone",
+            FractureSeverity.Hairline => "hairline",
+            FractureSeverity.Simple => "simple",
+            FractureSeverity.Compound => "compound",
+            FractureSeverity.Comminuted => "comminuted",
+            _ => "other",
         };
+
+        return Loc.GetString("cmu-medical-examine-fracture",
+            ("severity", severityKey),
+            ("stabilized", stabilized ? "yes" : "no"));
     }
 
-    private static string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry)
+    private string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry)
     {
-        var part = type.ToString().ToLowerInvariant();
-        if (symmetry == BodyPartSymmetry.Left)
-            return "Left " + part;
+        var key = (type, symmetry) switch
+        {
+            (BodyPartType.Head, _) => "head",
+            (BodyPartType.Torso, _) => "torso",
+            (BodyPartType.Arm, BodyPartSymmetry.Left) => "left-arm",
+            (BodyPartType.Arm, BodyPartSymmetry.Right) => "right-arm",
+            (BodyPartType.Hand, BodyPartSymmetry.Left) => "left-hand",
+            (BodyPartType.Hand, BodyPartSymmetry.Right) => "right-hand",
+            (BodyPartType.Leg, BodyPartSymmetry.Left) => "left-leg",
+            (BodyPartType.Leg, BodyPartSymmetry.Right) => "right-leg",
+            (BodyPartType.Foot, BodyPartSymmetry.Left) => "left-foot",
+            (BodyPartType.Foot, BodyPartSymmetry.Right) => "right-foot",
+            _ => "other",
+        };
 
-        if (symmetry == BodyPartSymmetry.Right)
-            return "Right " + part;
+        var fallback = symmetry switch
+        {
+            BodyPartSymmetry.Left => "Left " + type.ToString().ToLowerInvariant(),
+            BodyPartSymmetry.Right => "Right " + type.ToString().ToLowerInvariant(),
+            _ => type.ToString(),
+        };
 
-        if (type == BodyPartType.Head)
-            return "Head";
-
-        if (type == BodyPartType.Torso)
-            return "Torso";
-
-        return type.ToString();
+        return Loc.GetString("cmu-medical-examine-part",
+            ("part", key),
+            ("fallback", fallback));
     }
 
     private static int BodyPartSortOrder(BodyPartType type, BodyPartSymmetry symmetry)
@@ -197,14 +211,18 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         };
     }
 
-    private static string ToSentence(List<string> parts)
+    private string ToSentence(List<string> parts)
     {
         return parts.Count switch
         {
             0 => string.Empty,
             1 => parts[0],
-            2 => $"{parts[0]} and {parts[1]}",
-            _ => $"{string.Join(", ", parts.GetRange(0, parts.Count - 1))}, and {parts[parts.Count - 1]}",
+            2 => Loc.GetString("cmu-medical-examine-sentence-two",
+                ("a", parts[0]),
+                ("b", parts[1])),
+            _ => Loc.GetString("cmu-medical-examine-sentence-many",
+                ("rest", string.Join(", ", parts.GetRange(0, parts.Count - 1))),
+                ("last", parts[parts.Count - 1])),
         };
     }
 
