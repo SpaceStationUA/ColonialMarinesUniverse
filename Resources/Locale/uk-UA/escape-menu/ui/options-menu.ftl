@@ -397,3 +397,6 @@ ui-options-admin-enable-overlay-starting-job = Показувати початк
 ui-options-admin-overlay-merge-distance = Відстань об'єднання стопок
 ui-options-admin-overlay-ghost-fade-distance = Відстань згасання оверлею привида від миші
 ui-options-admin-overlay-ghost-hide-distance = Відстань приховування оверлею привида від миші
+
+ui-options-crt-ui-enabled = Використовувати тему інтерфейсу ЕПТ
+ui-options-crt-ui-color-example = Текст попереднього перегляду

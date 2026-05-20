@@ -239,7 +239,7 @@ cmd-rldshader-desc = Перезавантажує всі шейдери.
 cmd-rldshader-help = Використання: {$command}
 
 cmd-cldbglyr-desc = Перемикає шари дебагу FOV та світла.
-cmd-cldbglyr-help= Використання: {$command} <шар>: перемкнути <шар>
+cmd-cldbglyr-help = Використання: {$command} <шар>: перемкнути <шар>
     cldbglyr: вимкнути всі шари
 
 cmd-key-info-desc = Інформація про клавішу.

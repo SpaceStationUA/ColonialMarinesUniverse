@@ -83,3 +83,5 @@ humanoid-profile-editor-trait-count-hint = Доступно очок: [{$current
 trait-category-disabilities = Вади
 trait-category-speech = Риси мовлення
 trait-category-quirks = Дивацтва
+
+humanoid-profile-editor-job-fallback-label = Запасна професія

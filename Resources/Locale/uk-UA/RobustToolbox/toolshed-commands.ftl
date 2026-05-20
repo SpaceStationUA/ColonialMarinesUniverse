@@ -1,7 +1,5 @@
-command-help-usage =
-    Використання:
-command-help-invertible =
-    Поведінку цієї команди можна інвертувати префіксом "not".
+command-help-usage = Використання:
+command-help-invertible = Поведінку цієї команди можна інвертувати префіксом "not".
 
 command-description-tpto = Телепортує вказані сутності до цільової сутності.
 command-description-player-list = Повертає список усіх сесій гравців.

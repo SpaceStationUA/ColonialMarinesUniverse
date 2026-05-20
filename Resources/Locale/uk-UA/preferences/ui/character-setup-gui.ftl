@@ -12,3 +12,6 @@ character-setup-gui-save-panel-title = Незбережені зміни пер�
 character-setup-gui-save-panel-save = Зберегти
 character-setup-gui-save-panel-nosave = Не зберігати
 character-setup-gui-save-panel-cancel = Скасувати
+
+character-setup-gui-character-setup-commendations-received-button = Отримані медалі та желейки
+character-setup-gui-character-setup-commendations-given-button = Видані медалі та желейки

@@ -1,4 +1,4 @@
-﻿## "Textures" dev window tab
+## "Textures" dev window tab
 
 dev-window-tab-textures-title = Текстури
 dev-window-tab-textures-reload = Перезавантажити
@@ -10,7 +10,7 @@ dev-window-tab-textures-info = Ширина: { $width } Висота: { $height 
     Приб. використання пам'яті: { $bytes }
 
 ## "Render Targets" dev window tab
-dev-window-tab-render-targets-title = Render Targets
+dev-window-tab-render-targets-title = Цілі рендеру
 dev-window-tab-render-targets-reload = Перезавантажити
 dev-window-tab-render-targets-filter = Фільтр
 dev-window-tab-render-targets-column-id = ID

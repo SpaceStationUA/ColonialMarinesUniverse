@@ -18,9 +18,8 @@ chat-radio-marine-foxtrot = Фокстрот
 
 chat-radio-forecon = ФОРЕКОН
 
-chat-radio-colony = Колонія
 chat-radio-WY = ВЯ
-chat-radio-CMB = СМБ
+
 chat-radio-provost = Провост
 
 chat-radio-spp-command = Командування СПП
@@ -32,4 +31,3 @@ chat-radio-spp-cct = СПП ЦКЗ
 chat-radio-royal-marine = Королівський морпіх
 chat-radio-tse = Імперія Трьох Сонць
 
-chat-radio-hivemind = Розум рою
