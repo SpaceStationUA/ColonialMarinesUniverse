@@ -254,7 +254,7 @@
     wideAnimationRotation: -135
     damage:
       types:
-        Piercing: 100
+        Piercing: 50
     clickDamageModifier: 0.5
     angle: 0
     animation: WeaponArcThrust
@@ -264,7 +264,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 140
+        Piercing: 60
   # Infinite durability — base Spear has a Destructible threshold at 30
   # damage that shatters the haft. Override it with an absurdly high cap
   # so the bone spear never breaks no matter what hits it.
@@ -300,7 +300,7 @@
   - type: Projectile
     damage:
       types:
-        Piercing: 130
+        Piercing: 60
 
 - type: entity
   name: "племінний лук"
