@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleL88A1
-  name: L88A1 bullpup rifle
-  description: The L88A1 is the standard-issue rifle of the RCM's Paramarine regiments, the first iteration in a series of innovative rifle designs offering a lightweight, accurate, and reliable option for the armed forces of the TSE.
+  name: "булпап-гвинтівка L88A1"
+  description: "L88A1 — стандартна штатна гвинтівка парамаринських полків МКК, перша ітерація серії інноваційних гвинтівочних дизайнів, що пропонують легкий, точний і надійний варіант для збройних сил ІТС."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l88.rsi
@@ -93,8 +93,8 @@
 - type: entity
   parent: RMCWeaponRifleL88A1
   id: RMCWeaponRifleL88A2
-  name: L88A2 bullpup rifle
-  description: The L88A2 is the second iteration in the L88 series of rifles. The A2 variant offers greater modularity with a rail spanning the underside of the handguard.
+  name: "булпап-гвинтівка L88A2"
+  description: "L88A2 — друга ітерація серії гвинтівок L88. Варіант A2 пропонує більшу модульність із планкою, що тягнеться знизу цівки."
   components:
   - type: ItemSlots
     slots:
@@ -241,8 +241,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL88
-  name: L88 magazine (10x24mm)
-  description: "A magazine of 10x24mm rounds for use in L88 pattern rifles."
+  name: "Магазин L88 (10x24мм)"
+  description: "Магазин з набоями 10x24мм для гвинтівок зразка L88."
   components:
   - type: Tag
     tags:
@@ -267,8 +267,8 @@
 - type: entity
   parent: RMCMagazineRifleL88
   id: RMCMagazineRifleL88AP
-  name: L88 AP magazine (10x24mm)
-  description: "A magazine of armor-piercing 10x24mm rounds for use in L88 pattern rifles."
+  name: "Бронебійний магазин L88 (10x24мм)"
+  description: "Магазин з бронебійними набоями 10x24мм для гвинтівок зразка L88."
   suffix: AP
   components:
   - type: Tag

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14UPPNavalInfantryHelmet
-  name: UPP Naval Infantry Helmet
-  description: A UPP Naval Infantry helmet.
+  name: "шолом морської піхоти УПП"
+  description: "Шолом морської піхоти УПП."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/helmets/upphelmet.rsi
@@ -12,9 +12,9 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14ArmorHelmetArmyUPP
-  name: 6B82 combat helmet
+  name: "бойовий шолом 6B82"
   suffix: AU14
-  description: An older version of the UPP Army's 6B92 combat helmet, still worn by certain units on planets the UPP deems less important.
+  description: "Старіша версія бойового шолома 6B92 армії УПП, яку досі носять окремі підрозділи на планетах, що УПП вважає менш важливими."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/SPP/army_helmet.rsi

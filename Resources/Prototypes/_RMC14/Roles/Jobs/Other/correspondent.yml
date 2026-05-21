@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCorrespondent
-  name: correspondent spawn point
+  name: "спавнер кореспондента"
   components:
   - type: SpawnPoint
     job_id: CMCorrespondent
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleCorrespondent
-  name: Correspondent
+  name: "Кореспондент"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: RMCArmorVest
-  name: armor vest
-  description: An armored vest that protects against some damage.
+  name: "бронежилет"
+  description: "Бронежилет, який захищає від певної шкоди."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/armored_vest.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCArmorVest
   id: RMCArmorVestFlak
-  name: M70 flak jacket
-  description: A flak jacket used by dropship pilots to protect themselves while flying in the cockpit. Excels in protecting the wearer against high-velocity solid projectiles.
+  name: "осколковий жилет M70"
+  description: "Осколковий жилет, який використовують пілоти десантних кораблів, щоб захистити себе під час польоту в кабіні. Чудово захищає носія від високошвидкісних твердих снарядів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/pilot/jungle.rsi
@@ -44,13 +44,13 @@
 - type: entity
   parent: RMCArmorVest
   id: RMCArmorVestWeYa
-  name: We-Ya security armor vest
-  description: An armored vest that protects against some damage. This one has a Weston-Yamada corporate badge.
+  name: "бронежилет охорони We-Ya"
+  description: "Бронежилет, який захищає від певної шкоди. На цьому є корпоративний знак Weston-Yamada."
 
 - type: entity
   parent: RMCArmorVestWeYa
   id: RMCArmorSecurity
-  name: security armor vest
+  name: "бронежилет охорони"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/security_armor.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: RMCArmorVest
   id: RMCArmorVestCivilian
-  name: armored vest
-  description: An general-use, unmarked armored vest that protects against some damage.
+  name: "броньований жилет"
+  description: "Універсальний немаркований бронежилет, який захищає від певної шкоди."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/security_armor.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCArmorVest
   id: RMCArmorBulletproof
-  name: bulletproof vest
-  description: A vest that excels in protecting the wearer against high-velocity solid projectiles.
+  name: "куленепробивний жилет"
+  description: "Жилет, який чудово захищає носія від високошвидкісних твердих снарядів."
   suffix: RMC
   components:
   - type: Sprite
@@ -89,8 +89,8 @@
   parent: [ClothingOuterBase, RMCAllowSuitStorageClothingArmorMP, BaseStorageItem, RMCBaseUniformAccessoryItemOuterClothing]
   id: RMCArmorVestXLBase
   abstract: true
-  name: M3-XL pattern armor vest
-  description: A type of body armor designed for protection against internal threats. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against cuts, explosions or bio-threats. Not recommended for direct combat.
+  name: "бронежилет зразка M3-XL"
+  description: "Тип бронежилета, створений для захисту від внутрішніх загроз. Поглинає удар вогнепальних снарядів, зберігаючи свободу рухів. Не захищає від порізів, вибухів чи біозагроз. Не рекомендований для прямого бою."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/standard/jungle.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: RMCArmorVestXLBase
   id: RMCArmorVestMP
-  name: M3-XL pattern MP armor vest
-  description: A type of body armor designed for protection against internal threats. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against cuts, explosions or bio-threats. Not recommended for direct combat or for deployment use against hostiles.
+  name: "бронежилет військової поліції зразка M3-XL"
+  description: "Тип бронежилета, створений для захисту від внутрішніх загроз. Поглинає удар вогнепальних снарядів, зберігаючи свободу рухів. Не захищає від порізів, вибухів чи біозагроз. Не рекомендований для прямого бою або бойового застосування проти ворожих сил."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/mp.rsi
@@ -165,8 +165,8 @@
 - type: entity
   parent: RMCArmorVestXLBase
   id: RMCArmorVestIntel
-  name: M3-XL pattern intel armor vest
-  description: A type of body armor designed for mobility. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against explosions, or bio-threats. Not recommended for direct combat.
+  name: "розвідувальний бронежилет зразка M3-XL"
+  description: "Тип бронежилета, створений для мобільності. Поглинає удар вогнепальних снарядів, зберігаючи свободу рухів. Не захищає від вибухів чи біозагроз. Не рекомендований для прямого бою."
   components:
   - type: CMArmor
     melee: 10
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCArmorVestIntel
   id: RMCArmorVestOfficer
-  name: M3-XL pattern officer armor vest
+  name: "офіцерський бронежилет зразка M3-XL"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/officer/classic-jungle.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: RMCArmorVestOfficer
   id: RMCArmorVestSeniorOfficer
-  name: M3-XL pattern senior officer armor vest
-  description: A type of body armor designed for mobility with additional padding for senior officers. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against explosions. Not recommended for direct combat.
+  name: "бронежилет старшого офіцера зразка M3-XL"
+  description: "Тип бронежилета, створений для мобільності з додатковою підкладкою для старших офіцерів. Поглинає удар вогнепальних снарядів, зберігаючи свободу рухів. Не захищає від вибухів. Не рекомендований для прямого бою."
   components:
   - type: CMArmor
     melee: 10
@@ -206,8 +206,8 @@
 - type: entity
   parent: RMCArmorVestSeniorOfficer
   id: RMCArmorVestCommandingOfficer
-  name: M3-XL pattern commanding officer armor vest
-  description: A type of body armor designed for mobility with additional padding for commanding officers. It absorbs the impact of firearm projectiles, while retaining ease of movement. Does not protect against explosions. Not recommended for direct combat.
+  name: "бронежилет командувача зразка M3-XL"
+  description: "Тип бронежилета, створений для мобільності з додатковою підкладкою для командувачів. Поглинає удар вогнепальних снарядів, зберігаючи свободу рухів. Не захищає від вибухів. Не рекомендований для прямого бою."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/extra-light/commanding_officer/jungle.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: RMCArmorVestXLBase
   id: RMCArmorVestSquad
-  name: M3-XL pattern marine armor vest
-  description: A type of M3-XL body armor, standard issue for UNMC marines. The shoulder pads have been taken off for ease of movement. Not recommended for direct combat or for deployment use against hostiles.
+  name: "морський бронежилет зразка M3-XL"
+  description: "Різновид бронежилета M3-XL, стандартний для морпіхів UNMC. Наплічники зняті для більшої свободи рухів. Не рекомендований для прямого бою або бойового застосування проти ворожих сил."
   components:
   - type: CMArmor
     melee: 0
@@ -240,8 +240,8 @@
 - type: entity
   parent: RMCArmorVestSquad
   id: RMCArmorVestSquadLeader
-  name: M3-XL pattern squad leader armor vest
-  description: A type of M3-XL body armor, made specially for squad leaders, with a dedicated pouch for a box of zip ties. The shoulder pads have been taken off for ease of movement. Not recommended for direct combat or for deployment use against hostiles.
+  name: "бронежилет лідера загону зразка M3-XL"
+  description: "Різновид бронежилета M3-XL, спеціально створений для лідерів загонів, з окремою кишенею для коробки стяжок. Наплічники зняті для більшої свободи рухів. Не рекомендований для прямого бою або бойового застосування проти ворожих сил."
   suffix: Zipties
   components:
   - type: Storage

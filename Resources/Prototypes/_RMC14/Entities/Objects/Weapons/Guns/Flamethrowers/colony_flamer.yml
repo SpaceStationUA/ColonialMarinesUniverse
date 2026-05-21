@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamerColony
-  name: LC9 incinerator unit
-  description: The LC9 is a large, bulky incinerator designed for civilian use with a unique flame intensity switch on the bottom. The low-intensity setting serves as a welding torch, with the high-intensity setting used for organic matter disposal and waste clearing. The switch is jammed to the high-intensity setting.
+  name: "пристрій-спалювач LC9"
+  description: "LC9 — великий, громіздкий спалювач, призначений для цивільного використання, з унікальним перемикачем інтенсивності полум'я внизу. Низькоінтенсивне налаштування слугує зварювальним пальником, високоінтенсивне використовується для утилізації органіки та зачищення відходів. Перемикач заклинило в положенні високої інтенсивності."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/colony.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCBaseTankFlamer
   id: RMCTankFlamerColony
-  name: LC9 flamer tank
-  description: A fuel tank used to store fuel for use in the LC9 incinerator unit. Handle with care.
+  name: "паливний бак LC9"
+  description: "Паливний бак для зберігання палива для використання в пристрої-спалювачі LC9. Поводитися обережно."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi

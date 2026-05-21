@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRiflemanUPP
-  name: Machine Gunner
+  name: "кулеметник"
   description: au14-job-description-govforsquadautomaticrifleman
   setPreference: false
   ranks:

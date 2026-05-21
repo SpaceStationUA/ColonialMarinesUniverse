@@ -1,7 +1,7 @@
 - type: entity
   id: RMCTorii
-  name: torii arch
-  description: A traditional Japanese archway, made out of wood, and adorned with lanterns.
+  name: "арка торії"
+  description: "Традиційна японська арка, зроблена з дерева й прикрашена ліхтарями."
   placement:
     mode: SnapgridCenter
   components:

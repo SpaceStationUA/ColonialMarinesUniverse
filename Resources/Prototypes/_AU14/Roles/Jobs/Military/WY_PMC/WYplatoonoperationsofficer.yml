@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatOpBase
   id: AU14JobGOVFORPlatOpWYPMC
-  name: PMC Operations Adjutant
+  name: "оперативний ад’ютант ПВК"
   description: au14-job-description-govforplatop
   setPreference: false
   canBeAntag: false

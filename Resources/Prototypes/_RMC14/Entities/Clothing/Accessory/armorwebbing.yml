@@ -2,7 +2,7 @@
   parent: BaseItem
   abstract: true
   id: RMCArmorWebbingBase
-  name: armor webbing
+  name: "броньове розвантаження"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/ArmorWebbing/pouch.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCArmorWebbingBase
   id: RMCArmorWebbingDrum
-  name: drum armor webbing
-  description: A brown harness fitted with a pair of large pouches capable of carrying high-capacity drums and other large magazines.
+  name: "броньове розвантаження для барабанних магазинів"
+  description: "Коричнева підвісна система з парою великих підсумків, здатних нести барабанні магазини високої місткості та інші великі магазини."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/ArmorWebbing/drum.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCArmorWebbingBase
   id: RMCArmorWebbingMag
-  name: magazine armor webbing
-  description: A brown harness fitted with a set of four magazine pouches.
+  name: "магазинне броньове розвантаження"
+  description: "Коричнева підвісна система з комплектом із чотирьох магазинних підсумків."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/ArmorWebbing/mag.rsi
@@ -142,8 +142,8 @@
 - type: entity
   parent: RMCArmorWebbingBase
   id: RMCArmorWebbingGrenade
-  name: grenade armor webbing
-  description: A brown harness fitted with an array of small pouches, capable of holding up to 6 grenades.
+  name: "гранатне броньове розвантаження"
+  description: "Коричнева підвісна система з масивом невеликих підсумків, що вміщує до 6 гранат."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/ArmorWebbing/nade.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: RMCArmorWebbingBase
   id: RMCArmorWebbingPouch
-  name: general armor webbing
-  description: A brown harness fitted with several small pouches, capable of carrying assorted small items.
+  name: "загальне броньове розвантаження"
+  description: "Коричнева підвісна система з кількома невеликими підсумками для перенесення різних дрібних речей."
   components:
   - type: Sprite
     state: webbing
@@ -219,8 +219,8 @@
 - type: entity
   parent: RMCArmorWebbingBase
   id: RMCArmorWebbingShell
-  name: shell armor webbing
-  description: A brown harness fitted with a number of loops designed to hold loose shotgun shells.
+  name: "патронне броньове розвантаження"
+  description: "Коричнева підвісна система з низкою петель для зберігання набоїв до дробовика."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/ArmorWebbing/shell.rsi

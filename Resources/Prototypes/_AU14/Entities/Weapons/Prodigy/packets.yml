@@ -3,8 +3,8 @@
 - type: entity
   parent: CMPacketBase
   id: AU14PacketGrenadeFragM12
-  name: M12 frag grenade packet
-  description: It contains six M12 fragmentation grenades. DONT Handle with care, we need to get rid of this crap.
+  name: "упаковка осколкових гранат M12"
+  description: "Містить шість осколкових гранат M12. НЕ поводьтеся обережно, нам треба позбутися цього мотлоху."
   components:
   - type: Sprite
     layers:

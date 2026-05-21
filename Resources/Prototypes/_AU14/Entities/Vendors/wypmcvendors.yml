@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYclothingequipmentvendor
-  name: We-Yu PMC apparel vendor
+  name: "автомат одягу ПВК Ве-Ю"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Weyland-Yutani PMC apparel.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -189,7 +189,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYequipmentvendor
-  name: We-Yu PMC equipment vendor
+  name: "автомат спорядження ПВК Ве-Ю"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Weyland-Yutani PMC equipment.
     Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
@@ -280,7 +280,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYcorpsmanvendor
-  name: We-Yu PMC medical vendor
+  name: "медичний автомат ПВК Ве-Ю"
   description: >-
     An automated medical rack, hooked up to a compact stock of Weyland-Yutani PMC trauma supplies.
     Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
@@ -408,7 +408,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYaircrewvendor
-  name: We-Yu PMC aircrew vendor
+  name: "автомат авіаекіпажу ПВК Ве-Ю"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Weyland-Yutani PMC aircrew flight and support gear.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -588,7 +588,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYdirectorequipmentvendor
-  name: We-Yu PMC command vendor
+  name: "командний автомат ПВК Ве-Ю"
   description: >-
     An automated command rack, hooked up to a restricted storage of Weyland-Yutani PMC command-leadership equipment.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -663,7 +663,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYSGequipmentvendor
-  name: We-Yu PMC smartgunner equipment vendor
+  name: "автомат спорядження смартганера ПВК Ве-Ю"
   description: >-
     An automated smartgunner rack, hooked up to a small armory of Weyland-Yutani PMC heavy-weapon operator systems.
     Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
@@ -699,7 +699,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYsupervisorequipmentvendor
-  name: We-Yu PMC supervisor vendor
+  name: "автомат наглядача ПВК Ве-Ю"
   description: >-
     An automated supervisor rack, hooked up to a compact storage of Weyland-Yutani PMC supervising equipment.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -730,7 +730,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYWeaponsVendor
-  name: We-Yu PMC weapons rack
+  name: "збройова стійка ПВК Ве-Ю"
   description: >-
     An automated weapons rack, hooked up to a small armory of Weyland-Yutani PMC weaponry.
     Standard issue across the frontier where threats can appear without warning.
@@ -772,7 +772,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14WYSpecialWeaponsVendor
-  name: We-Yu PMC special weapons rack
+  name: "стійка спеціальної зброї ПВК Ве-Ю"
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of Weyland-Yutani PMC heavy and breaching ordnance.
     Standard issue only for qualified operators.
@@ -820,8 +820,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14WYPMCRequisitionVendor
-  name: We-Yu PMC automated requisitions vendor
-  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
+  name: "автоматизований автомат постачання ПВК Ве-Ю"
+  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

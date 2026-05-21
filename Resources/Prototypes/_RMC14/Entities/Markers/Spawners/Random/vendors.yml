@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomVendor
-  name: random food vendor spawner
+  name: "спавнер випадкового продуктового автомата"
   components:
   - type: Sprite
     layers:

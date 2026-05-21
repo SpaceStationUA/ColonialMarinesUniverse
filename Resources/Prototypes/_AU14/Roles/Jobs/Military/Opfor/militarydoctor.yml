@@ -92,7 +92,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORMilitaryDoctor
-  name: Spawn Point OPFOR Doctor
+  name: "точка появи лікаря ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORMilitaryDoctor

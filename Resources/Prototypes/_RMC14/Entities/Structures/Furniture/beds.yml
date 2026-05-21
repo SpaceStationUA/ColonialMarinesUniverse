@@ -1,9 +1,9 @@
 - type: entity
   parent: Bed
   id: CMBed
-  name: bed
+  name: "ліжко"
   suffix: RMC
-  description: A mattress seated on a rectangular metallic frame. This is used to support a lying person in a comfortable manner, notably for regular sleep. Ancient technology, but still useful.
+  description: "Матрац, що лежить на прямокутному металевому каркасі. Використовується для зручної підтримки людини, що лежить, зокрема для регулярного сну. Давня технологія, але досі корисна."
   components:
   - type: VehicleSmashable
   - type: Transform
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedAlien
-  name: alien bed
+  name: "інопланетне ліжко"
   suffix: RMC|Alien
   components:
   - type: Sprite
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunk
-  name: black bunk-bed
+  name: "чорна двоярусна койка"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkBlue
-  name: blue bunk-bed
+  name: "синя двоярусна койка"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkGreen
-  name: green bunk-bed
+  name: "зелена двоярусна койка"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMBed
   id: RMCBedBunkRed
-  name: red bunk-bed
+  name: "червона двоярусна койка"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bed.rsi
@@ -142,9 +142,9 @@
 - type: entity
   parent: [BaseItem, BaseFoldable]
   id: Bedroll
-  name: bedroll
+  name: "похідне ліжко"
   suffix: RMC
-  description: A foldable bedroll, just about the only thing of comfort in the field. You're generally supposed to unroll it before sleeping, but who needs rules?
+  description: "Складне похідне ліжко, чи не єдина зручність у полі. Зазвичай слід розгорнути його перед сном, але кому потрібні правила?"
   components:
   - type: Transform
     noRot: true

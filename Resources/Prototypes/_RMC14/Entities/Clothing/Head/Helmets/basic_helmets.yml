@@ -3,7 +3,7 @@
   parent: ClothingHeadBase
   id: RMCHelmetBase
   abstract: true
-  name: helmet
+  name: "шолом"
   components:
   - type: Item
     size: Normal

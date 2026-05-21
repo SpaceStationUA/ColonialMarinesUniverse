@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyMob
-  name: Mob Family encryption key
-  description: An encryption key used to communicate on the Family channel.
+  name: "ключ шифрування Сім'ї"
+  description: "Ключ шифрування, що використовується для зв'язку на каналі Сім'ї."
   components:
   - type: EncryptionKey
     channels:
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: AU14HeadsetMob
-  name: Mob Family headset
-  description: A common colony headset that has been modified to work on a custom frequency.
+  name: "гарнітура Сім'ї"
+  description: "Звичайна колоніальна гарнітура, модифікована для роботи на спеціальній частоті."
   components:
   - type: Sprite
     state: generic_headset

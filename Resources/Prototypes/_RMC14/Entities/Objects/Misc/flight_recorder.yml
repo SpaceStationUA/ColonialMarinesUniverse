@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCFlightRecorderProp
-  name: FR-112 flight recorder
-  description: A small red box that contains flight data from a dropship while it's on mission. Usually referred to as the black box, although this one comes in bloody red.
+  name: "польотний реєстратор FR-112"
+  description: "Невелика червона коробка, що містить польотні дані з десантного корабля під час місії. Зазвичай називається чорною скринькою, хоча ця має криваво-червоний колір."
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Misc/flight_recorder.rsi
@@ -11,5 +11,5 @@
 - type: entity
   parent: RMCFlightRecorderProp
   id: RMCFlightRecorderColonyProp
-  name: CIR-60 colony information recorder
-  description: A small red box that records colony announcements, colonist flatlines and other key readouts. Usually refered to the black box, although this one comes in bloody red.
+  name: "інформаційний реєстратор колонії CIR-60"
+  description: "Невелика червона коробка, що записує колоніальні оголошення, факти смерті колоністів та інші ключові дані. Зазвичай називається чорною скринькою, хоча ця має криваво-червоний колір."

@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconRifleman
-  name: forecon rifleman spawn point
+  name: "спавнер стрільця forecon"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconRifleman

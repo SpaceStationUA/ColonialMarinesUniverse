@@ -61,7 +61,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCDirector
-  name: weya pmc ghost role director
+  name: "weya pmc привид-роль директора"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCSiteDirector
-  name: weya pmc director spawn point
+  name: "спавнер директора weya pmc"
   components:
   - type: SpawnPoint
     job_id: RMCPMCDirector

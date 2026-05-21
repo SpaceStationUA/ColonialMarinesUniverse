@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCBaseballBat
-  name: wooden baseball bat
-  description: A large wooden baseball bat. Commonly used in colony recreation, but also used as a means of self defense. Often carried by thugs and ruffians.
+  name: "дерев'яна бейсбольна бита"
+  description: "Велика дерев'яна бейсбольна бита. Зазвичай використовується для дозвілля в колоніях, але також як засіб самозахисту. Часто носять головорізи та хулігани."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/baseball_bat.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: RMCBaseballBat
   id: RMCBaseballBatMetal
-  name: metal baseball bat
-  description: A large metal baseball bat. Compared to its wooden cousin, the metal bat offers a bit more more force. Often carried by thugs and ruffians.
+  name: "металева бейсбольна бита"
+  description: "Велика металева бейсбольна бита. Порівняно зі своєю дерев'яною двоюрідною сестрою, металева бита дає трохи більше сили. Часто носять головорізи та хулігани."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/metal_bat.rsi

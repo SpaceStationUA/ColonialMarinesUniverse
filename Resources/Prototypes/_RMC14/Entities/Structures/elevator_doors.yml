@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCElevatorDoorBroken
-  name: broken elevator door
-  description: completely broken, the elevator is not going to work.
+  name: "зламані двері ліфта"
+  description: "повністю зламані; ліфт не працюватиме."
   placement:
     mode: SnapgridCenter
   components:

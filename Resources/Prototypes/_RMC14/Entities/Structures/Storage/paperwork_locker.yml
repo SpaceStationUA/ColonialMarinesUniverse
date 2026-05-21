@@ -1,8 +1,8 @@
 - type: entity
   parent: CMFilingCabinet
   id: RMCPaperworkLocker
-  name: police paperwork
-  description: A filing cabinet containing various forms and documents for administrative purposes.
+  name: "поліцейські документи"
+  description: "Шафа з різноманітними формами та документами для адміністративних цілей."
   components:
   - type: ContainerFill
     containers:

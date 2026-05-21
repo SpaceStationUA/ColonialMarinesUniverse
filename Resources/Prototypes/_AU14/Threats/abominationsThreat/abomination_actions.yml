@@ -15,8 +15,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationSpiderLeap
-  name: Pounce
-  description: Pounce onto a target, knocking them down briefly.
+  name: "Стрибок"
+  description: "Стрибніть на ціль і ненадовго збийте її з ніг."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -33,8 +33,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationSpiderSpit
-  name: Acid Spit
-  description: Spit a glob of acid at a target.
+  name: "Кислотний плювок"
+  description: "Виплюньте в ціль згусток кислоти."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -53,8 +53,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntSlam
-  name: Slam
-  description: Leap to a position and slam down, knocking enemies prone.
+  name: "Удар"
+  description: "Стрибніть у вибрану точку та гепніться вниз, збиваючи ворогів із ніг."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -71,8 +71,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntCharge
-  name: Charge
-  description: Wind up and barrel forward, smashing through anything in your path.
+  name: "Таран"
+  description: "Розженіться й рвоніть уперед, трощачи все на своєму шляху."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -89,8 +89,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntSpit
-  name: Acid Spit
-  description: Hawk up a glob of corrosive acid at the target.
+  name: "Кислотний плювок"
+  description: "Вихаркніть у ціль згусток їдкої кислоти."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -107,8 +107,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationGruntAcidSpray
-  name: Acid Spray
-  description: Vomit a cone of corrosive acid in the target direction.
+  name: "Кислотний розбризк"
+  description: "Виблюйте конус їдкої кислоти в напрямку цілі."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -127,8 +127,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationPlantKudzu
-  name: Spread Kudzu
-  description: Vomit out a fast-spreading kudzu source under yourself.
+  name: "Розростити кудзу"
+  description: "Виблюйте під себе джерело кудзу, що швидко розростається."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -142,8 +142,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationChooseStructure
-  name: Choose Flesh Structure
-  description: Pick which structure you'll secrete with the Secrete Flesh action.
+  name: "Обрати структуру з плоті"
+  description: "Оберіть, яку структуру з плоті ви створите дією «Виділити плоть»."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -157,8 +157,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationSecreteStructure
-  name: Secrete Flesh
-  description: Secrete the chosen flesh structure on the targeted tile.
+  name: "Виділити плоть"
+  description: "Створіть обрану структуру з плоті на вибраній плитці."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -177,8 +177,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationAssimilate
-  name: Assimilate
-  description: Begin assimilating an incapacitated humanoid. They will become a mimic too.
+  name: "Асимілювати"
+  description: "Почніть асимілювати знерухомленого гуманоїда. Він теж стане міміком."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -196,8 +196,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationMimicTransform
-  name: Mimic
-  description: Take the shape of one of your assimilated victims for a limited time.
+  name: "Мімік"
+  description: "На обмежений час набудьте форми однієї з ваших асимільованих жертв."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -214,8 +214,8 @@
 - type: entity
   parent: ActionAbominationBase
   id: ActionAbominationMimicRevert
-  name: Drop Disguise
-  description: Burst out of your current form and return to your combat shape.
+  name: "Скинути маскування"
+  description: "Вирвіться зі своєї поточної форми та поверніться до бойової подоби."
   components:
   - type: Action
     itemIconStyle: NoItem

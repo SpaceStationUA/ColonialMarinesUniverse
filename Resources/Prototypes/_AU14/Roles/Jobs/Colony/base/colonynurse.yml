@@ -44,7 +44,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianNurse
-  name: Spawn Point Civilian Nurse
+  name: "точка появи цивільної медсестри"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianNurse

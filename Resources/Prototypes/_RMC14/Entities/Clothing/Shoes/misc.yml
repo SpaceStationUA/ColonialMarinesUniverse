@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBase
   id: RMCShoesLaceup
-  name: laceup shoes
-  description: The height of fashion, and they're pre-polished!
+  name: "взуття на шнурівці"
+  description: "Пік моди, і вони попередньо відполіровані!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/laceup.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: RMCShoesLaceup
   id: RMCShoesLaceupDress
-  name: dress shoes
-  description: Pre-polished fancy dress shoes. You can see your reflection in them.
+  name: "парадні туфлі"
+  description: "Заздалегідь начищені вишукані парадні туфлі. У них можна побачити своє відображення."
   components:
   - type: NoSlip
   # - siemensCoefficent: 0.6 TODO RMC14: Siemens coefficient
@@ -46,8 +46,8 @@
 - type: entity
   parent: RMCShoesLaceup
   id: RMCShoesFancyLeather
-  name: fancy leather shoes
-  description: A fancy pair of leather shoes.
+  name: "вишукані шкіряні туфлі"
+  description: "Вишукана пара шкіряних туфель."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/fancy_leather.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBootsBlack
   id: RMCShoesJackboots
-  name: jackboots
-  description: Security combat boots for combat scenarios or combat situations. All combat, all the time.
+  name: "джекбути"
+  description: "Бойові чоботи служби безпеки для бойових сценаріїв і бойових ситуацій. Суцільний бій, постійно."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/jackboots.rsi
@@ -75,15 +75,15 @@
 - type: entity
   parent: RMCShoesOrange
   id: RMCShoesPrisoner
-  name: prisoner shoes
-  description: A pair of orange shoes worn by prisoners as directed by Marine Law.
+  name: "черевики в'язня"
+  description: "Пара помаранчевих черевиків, які носять в'язні згідно з Морським законом."
 
 # Galoshes
 - type: entity
   parent: RMCShoesLaceup
   id: RMCShoesGaloshes
-  name: galoshes
-  description: A pair of rubber boots.
+  name: "калоші"
+  description: "Пара гумових чобіт."
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/galoshes.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCShoesLaceup
   id: RMCShoesWeYaStompers
-  name: Weston-Yamada stompers
-  description: A pair of sneakers designed to elicit a morale boosting response within anyone that witnesses them.
+  name: "тупотілки Weston-Yamada"
+  description: "Пара кросівок, створених викликати піднесення духу в кожного, хто їх побачить."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Misc/stompers.rsi
@@ -106,8 +106,8 @@
 - type: entity
   parent: RMCShoesLaceup
   id: RMCShoesSandals
-  name: sandals
-  description: A pair of rather plain, wooden sandals.
+  name: "сандалі"
+  description: "Пара досить простих дерев'яних сандаль."
   suffix: RMC
   components:
   - type: Sprite
@@ -119,8 +119,8 @@
 - type: entity
   parent: RMCShoesLaceup
   id: RMCShoesSnow
-  name: snow boots
-  description: When your feet are as cold as your heart.
+  name: "снігові чоботи"
+  description: "Коли ваші ноги такі ж холодні, як і серце."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Shoes/Boots/swat.rsi

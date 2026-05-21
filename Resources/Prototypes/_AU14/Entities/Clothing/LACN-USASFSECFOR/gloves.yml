@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: AU14LACNGloves
-  name: LACN combat gloves
-  description: Standard issue LACN combat gloves with insulated fibers.
+  name: "бойові рукавички ЛАКН"
+  description: "Стандартні бойові рукавички ЛАКН з ізольованими волокнами."
   components:
   - type: Insulated
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeLeap
-  name: Leap
-  description: Jump towards a given location and knock down the first enemy hit.
+  name: "Стрибок"
+  description: "Стрибніть до заданого місця і повалите першого ураженого ворога."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -20,8 +20,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeDestroy
-  name: Destroy
-  description: After a short time, jump to the targeted location, destroying structures and gibbing hostiles within a 3x3 range. Works over barricades and other short barriers.
+  name: "Знищити"
+  description: "Через короткий час стрибніть до цільового місця, знищуючи структури і розчавлюючи ворогів у радіусі 3x3. Працює над барикадами та іншими низькими бар'єрами."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -38,8 +38,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeCharge
-  name: Charge
-  description: Ape-specific charge. Click on a tile to wind up and charge to it, stunning and damaging foes hit.
+  name: "Заряд"
+  description: "Зарядка для мавпи. Натисніть на плитку, щоб замахнутися і кинутися до неї, оглушуючи і завдаючи шкоди ураженим ворогам."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -57,8 +57,8 @@
 - type: entity
   parent: ActionXenoFling
   id: ActionApeRam
-  name: Ram
-  description: Ape-specific ram. Target an enemy to ram them, costing a small amount of plasma.
+  name: "Таран"
+  description: "Таран для мавпи. Цільтесь у ворога, щоб таранити його, ціною невеликої кількості плазми."
   components:
   - type: Action
     icon:
@@ -74,8 +74,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionApeHeadbite
-  name: Headbite
-  description: Ape-specific headbite that applies the headbite effect to unconscious targets.
+  name: "Укус Голови"
+  description: "Укус голови для мавпи, що застосовує ефект укусу голови до непритомних цілей."
   components:
   - type: Action
     itemIconStyle: NoItem

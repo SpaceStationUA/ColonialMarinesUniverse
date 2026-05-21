@@ -2,7 +2,7 @@
   id: AU14CrateFoodMRERMC
   parent: RMCCratePlastic
   suffix: RM
-  name: RMC ration pack crate
+  name: "ящик пайків КМП"
   components:
   - type: StorageFill
     contents:
@@ -13,7 +13,7 @@
   id: AU14CrateFoodMREUPP
   parent: RMCCratePlastic
   suffix: UPP
-  name: UPP ration pack crate
+  name: "ящик пайків УПП"
   components:
   - type: StorageFill
     contents:

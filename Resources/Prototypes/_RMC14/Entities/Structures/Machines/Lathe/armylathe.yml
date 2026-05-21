@@ -1,8 +1,8 @@
 - type: entity
   parent: CMAutolathe
   id: CMArmylathe
-  name: armylathe
-  description: The armylathe is a specialized UNMC autolathe meant for printing parts to construct various ordnance, such as grenade casings and mortar shells.
+  name: "воєнолатат"
+  description: "Воєнолатат — спеціалізований автолатат ОНМП, призначений для друку деталей для виготовлення різних боєприпасів, як-от корпусів гранат і мінометних снарядів."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/armylathe.rsi

@@ -9,8 +9,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed3
-  name: Tachycardia
-  description: Heart is racing.
+  name: "Тахікардія"
+  description: "Серце калатає."
 
 - type: alert
   id: CMUArrhythmia
@@ -18,8 +18,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed5
-  name: Arrhythmia
-  description: Heart rhythm irregular.
+  name: "Аритмія"
+  description: "Ритм серця нерегулярний."
 
 - type: alert
   id: CMUCardiacArrest
@@ -27,8 +27,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Cardiac Arrest
-  description: Heart has stopped.
+  name: "Зупинка серця"
+  description: "Серце зупинилося."
 
 # ---- Respiratory -----------------------------------------------------
 
@@ -38,8 +38,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/breathing.rsi
     state: not_enough_oxy
-  name: Pulmonary Edema
-  description: Breathing is laboured; lungs are flooded.
+  name: "Набряк легень"
+  description: "Дихання утруднене; легені залиті."
 
 # ---- Hepatic / Renal -------------------------------------------------
 
@@ -49,8 +49,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed8
-  name: Hepatic Failure
-  description: Liver is failing — toxins are not being cleared.
+  name: "Печінкова недостатність"
+  description: "Печінка не справляється — токсини не виводяться."
 
 - type: alert
   id: CMURenalFailure
@@ -58,8 +58,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed7
-  name: Renal Failure
-  description: Kidneys are failing — chems linger.
+  name: "Ниркова недостатність"
+  description: "Нирки не справляються — хімікати залишаються."
 
 # ---- Neuro -----------------------------------------------------------
 
@@ -69,8 +69,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: hot1
-  name: Concussed
-  description: Mild head trauma — brief disorientation.
+  name: "Струс мозку"
+  description: "Легка травма голови — коротка дезорієнтація."
 
 - type: alert
   id: CMUTraumaticBrainInjury
@@ -78,8 +78,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: hot3
-  name: Traumatic Brain Injury
-  description: Severe head trauma.
+  name: "Черепно-мозкова травма"
+  description: "Тяжка травма голови."
 
 - type: alert
   id: CMUWhiplash
@@ -87,8 +87,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: hot2
-  name: Whiplash
-  description: Neck strain after a head impact.
+  name: "Хлистова травма"
+  description: "Розтягнення шиї після удару по голові."
 
 # ---- Sensory ---------------------------------------------------------
 
@@ -98,8 +98,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/hunger.rsi
     state: peckish
-  name: Nausea
-  description: Stomach is unsettled.
+  name: "Нудота"
+  description: "Шлунок неспокійний."
 
 - type: alert
   id: CMUTinnitus
@@ -107,8 +107,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold1
-  name: Tinnitus
-  description: Ringing in the ears.
+  name: "Дзвін у вухах"
+  description: "Дзвін у вухах."
 
 - type: alert
   id: CMUDeafened
@@ -116,8 +116,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold3
-  name: Deafened
-  description: Hearing has failed.
+  name: "Оглушення"
+  description: "Слух втрачено."
 
 # ---- Limb ------------------------------------------------------------
 
@@ -127,8 +127,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Missing Arm
-  description: An arm has been severed.
+  name: "Відсутня рука"
+  description: "Рука була відрізана."
 
 - type: alert
   id: CMUMissingHand
@@ -136,8 +136,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed9
-  name: Missing Hand
-  description: A hand has been severed.
+  name: "Відсутня кисть"
+  description: "Кисть була відрізана."
 
 - type: alert
   id: CMUMissingLeg
@@ -145,8 +145,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Missing Leg
-  description: A leg has been severed.
+  name: "Відсутня нога"
+  description: "Нога була відрізана."
 
 - type: alert
   id: CMUMissingFoot
@@ -154,8 +154,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed9
-  name: Missing Foot
-  description: A foot has been severed.
+  name: "Відсутня стопа"
+  description: "Стопа була відрізана."
 
 # ---- Recovery / pain --------------------------------------------------
 
@@ -165,8 +165,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold2
-  name: Recovering from Surgery
-  description: Recently operated on — take it easy.
+  name: "Відновлення після операції"
+  description: "Нещодавно прооперований — не напружуйтеся."
 
 - type: alert
   id: CMUTransplantRejection
@@ -174,8 +174,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed4
-  name: Transplant Rejection
-  description: A transplanted organ is being rejected.
+  name: "Відторгнення трансплантату"
+  description: "Пересаджений орган відторгається."
 
 - type: alert
   id: CMUNerveDamage
@@ -183,8 +183,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold2
-  name: Nerve Damage
-  description: A limb's nerves are damaged — aim sways.
+  name: "Нервове ушкодження"
+  description: "Нерви кінцівки пошкоджені — приціл хитається."
 
 - type: alert
   id: CMUPainShock
@@ -192,8 +192,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed10
-  name: Pain Shock
-  description: Pain has crossed the shock threshold.
+  name: "Больовий шок"
+  description: "Біль перетнув поріг шоку."
 
 - type: alert
   id: CMUPainSuppression
@@ -201,8 +201,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold1
-  name: Pain Suppressed
-  description: Painkillers active.
+  name: "Біль притлумлено"
+  description: "Знеболювальні активні."
 
 - type: alert
   id: CMUSplinted
@@ -210,8 +210,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed1
-  name: Splinted
-  description: A fractured limb is splinted.
+  name: "У шині"
+  description: "Зламана кінцівка зафіксована шиною."
 
 - type: alert
   id: CMUCast
@@ -219,8 +219,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/bleed.rsi
     state: bleed2
-  name: In Cast
-  description: A fractured limb is set in a cast.
+  name: "У гіпсі"
+  description: "Зламана кінцівка зафіксована в гіпсі."
 
 - type: alert
   id: CMUBoneRegenBoost
@@ -228,8 +228,8 @@
   icons:
   - sprite: /Textures/Interface/Alerts/temperature.rsi
     state: cold1
-  name: Bone Regen
-  description: Bone-regeneration chems are active.
+  name: "Регенерація кістки"
+  description: "Хімікати регенерації кістки активні."
 
 - type: alert
   id: CMUPainMild

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: AUbudgetConsole
-  name: budget console
-  description: A budget console
+  name: "бюджетна консоль"
+  description: "Бюджетна консоль"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: BaseStructure
   id: AUSubmissionPointBase
-  name: submission point
-  description: A place to submit  resources for shipping.
+  name: "пункт здачі"
+  description: "Місце для здачі ресурсів на відправлення."
   suffix: Any
   components:
   - type: Sprite
@@ -79,9 +79,9 @@
 - type: entity
   parent: AUSubmissionPointBase
   id: AUSubmissionPointSteel
-  name: submission point (steel)
+  name: "пункт здачі (сталь)"
   suffix: Steel
-  description: A place to submit  resources for shipping.
+  description: "Місце для здачі ресурсів на відправлення."
   components:
   - type: SubmissionStorage
     rewards:
@@ -94,9 +94,9 @@
 - type: entity
   parent: AUSubmissionPointBase
   id: AUSubmissionPointWood
-  name: submission point (wood)
+  name: "пункт здачі (деревина)"
   suffix: Wood
-  description: A place to submit  resources for shipping.
+  description: "Місце для здачі ресурсів на відправлення."
   components:
   - type: SubmissionStorage
     rewards:
@@ -109,8 +109,8 @@
 - type: entity
   parent: AUSubmissionPointBase
   id: AUSubmissionPointVegetables
-  name: submission Point (vegetables)
-  description: A place to submit  resources for shipping.
+  name: "пункт здачі (овочі)"
+  description: "Місце для здачі ресурсів на відправлення."
   suffix: Vegetables
   components:
   - type: SubmissionStorage
@@ -124,8 +124,8 @@
 - type: entity
   parent: AUSubmissionPointBase
   id: AUSubmissionPointFruit
-  name: submission point (fruit)
-  description: A place to submit  resources for shipping.
+  name: "пункт здачі (фрукти)"
+  description: "Місце для здачі ресурсів на відправлення."
   components:
   - type: SubmissionStorage
     rewards:
@@ -144,8 +144,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: AUColonyCommsConsole
-  name: Colony Communications Console
-  description: Used to send announcements to all colony intercoms in range.
+  name: "консоль колоніального зв’язку"
+  description: "Використовується для надсилання оголошень на всі колоніальні інтеркоми в радіусі дії."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -165,8 +165,8 @@
 
 - type: entity
   id: AUColonyIntercom
-  name: Colony Intercom
-  description: A public intercom for colony-wide announcements.
+  name: "колоніальний інтерком"
+  description: "Громадський інтерком для оголошень по всій колонії."
   components:
   - type: IntrinsicRadioReceiver
   - type: Speech
@@ -200,9 +200,9 @@
 
 - type: entity
   id: colonysiren
-  name: Colony Siren
+  name: "колоніальна сирена"
   parent: BaseStructure
-  description: Emits a loud siren when activated.
+  description: "Видає гучну сирену при активації."
   components:
   - type: Transform
     anchored: true
@@ -237,8 +237,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: AUColonyATM
-  name: Colony ATM
-  description: Swipe your ID card on the machine to withdraw cash from your personal account.
+  name: "колоніальний банкомат"
+  description: "Проведіть ID-карткою по машині, щоб зняти готівку з особистого рахунку."
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Machines/atm.rsi
@@ -255,8 +255,8 @@
   parent: RMCCommunicationsConsoleBase
   id: AUDepartmentConsoleBase
   abstract: true
-  name: Department Console
-  description: A console for managing department employees, salaries, and communications. Insert cash to fund the department.
+  name: "консоль відділу"
+  description: "Консоль для керування працівниками відділу, зарплатами та зв’язком. Вставте готівку, щоб поповнити бюджет відділу."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -289,8 +289,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleMedical
-  name: Medical Department Console
-  description: Manages employees, salaries, and announcements for the Medical department.
+  name: "консоль медичного відділу"
+  description: "Керує працівниками, зарплатами та оголошеннями медичного відділу."
   components:
   - type: DepartmentConsole
     departmentName: Medical
@@ -303,8 +303,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleEngineering
-  name: Engineering Department Console
-  description: Manages employees, salaries, and announcements for the Engineering department.
+  name: "консоль інженерного відділу"
+  description: "Керує працівниками, зарплатами та оголошеннями інженерного відділу."
   components:
   - type: DepartmentConsole
     departmentName: Engineering
@@ -317,8 +317,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleSecurity
-  name: Security Department Console
-  description: Manages employees, salaries, and announcements for the Security department.
+  name: "консоль відділу безпеки"
+  description: "Керує працівниками, зарплатами та оголошеннями відділу безпеки."
   components:
   - type: DepartmentConsole
     departmentName: Security
@@ -331,8 +331,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleLabor
-  name: Labor Department Console
-  description: Manages employees, salaries, and announcements for the Labor department.
+  name: "консоль трудового відділу"
+  description: "Керує працівниками, зарплатами та оголошеннями трудового відділу."
   components:
   - type: DepartmentConsole
     departmentName: Cargo
@@ -345,8 +345,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleCommand
-  name: Command Department Console
-  description: Manages employees, salaries, and announcements for the Command department.
+  name: "консоль командного відділу"
+  description: "Керує працівниками, зарплатами та оголошеннями командного відділу."
   components:
   - type: DepartmentConsole
     departmentName: Command
@@ -359,8 +359,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleCivilian
-  name: Civilian Department Console
-  description: Manages employees, salaries, and announcements for the Civilian department.
+  name: "консоль цивільного відділу"
+  description: "Керує працівниками, зарплатами та оголошеннями цивільного відділу."
   components:
   - type: DepartmentConsole
     departmentName: Civilian
@@ -373,8 +373,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleServices
-  name: Services Department Console
-  description: Manages employees, salaries, and announcements for the Services department.
+  name: "консоль сервісного відділу"
+  description: "Керує працівниками, зарплатами та оголошеннями сервісного відділу."
   components:
   - type: DepartmentConsole
     departmentName: Services
@@ -387,8 +387,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleCorporate
-  name: Corporate Department Console
-  description: Manages employees, salaries, and announcements for the Corporate department.
+  name: "консоль корпоративного відділу"
+  description: "Керує працівниками, зарплатами та оголошеннями корпоративного відділу."
   components:
   - type: DepartmentConsole
     departmentName: Corporate
@@ -403,8 +403,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleHydroponics
-  name: Hydroponics Department Console
-  description: Manages employees, salaries, and announcements for the Hydroponics department.
+  name: "консоль відділу гідропоніки"
+  description: "Керує працівниками, зарплатами та оголошеннями відділу гідропоніки."
   components:
   - type: DepartmentConsole
     departmentName: Hydroponics
@@ -417,8 +417,8 @@
 - type: entity
   parent: AUDepartmentConsoleBase
   id: AUDepartmentConsoleLumbermill
-  name: Lumbermill Department Console
-  description: Manages employees, salaries, and announcements for the Lumbermill department.
+  name: "консоль відділу лісопилки"
+  description: "Керує працівниками, зарплатами та оголошеннями відділу лісопилки."
   components:
   - type: DepartmentConsole
     departmentName: Lumbermill

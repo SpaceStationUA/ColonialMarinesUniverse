@@ -29,7 +29,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostEnforcer
-  name: provost ghost role enforcer
+  name: "привид-роль енфорсера провоста"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

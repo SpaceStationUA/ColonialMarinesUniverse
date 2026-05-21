@@ -1,9 +1,9 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCRoyalAssaultEngineerVendor
-  name: We-Ya section engineering equipment rack
+  name: "Стелаж інженерного обладнання секції «Ве-Я»"
   suffix: PVE, RCM
-  description: An automated rack hooked up to a colossal storage of assault engineer standard-issue equipment.
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження штурмового інженера."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/clothing.rsi
@@ -51,9 +51,9 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCRoyalMedicalAssistantVendor
-  name: We-Ya section medical equipment rack
+  name: "Стелаж медичного обладнання секції «Ве-Я»"
   suffix: PVE, RCM
-  description: An automated rack hooked up to a colossal storage of medical assistant standard-issue equipment.
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження медичного асистента."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_gear.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCRoyalBombSpecVendor
-  name: We-Ya Section Fire Support Gear Rack # Labeled "OFS" in parity.
-  description: An automated rack hooked up to a colossal storage of bombardment specialist standard-issue equipment.
+  name: "Стелаж спорядження вогневої підтримки секції «Ве-Я»" # Labeled "OFS" in parity.
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження спеціаліста з бомбардування."
   suffix: PVE, RCM
   components:
   - type: AccessReader
@@ -185,8 +185,8 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCRoyalScoutSniperVendor
-  name: We-Ya Section Scout-Sniper Gear Rack 
-  description: An automated rack hooked up to a colossal storage of scout-sniper standard-issue equipment.
+  name: "Стелаж спорядження розвідника-снайпера секції «Ве-Я»"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження розвідника-снайпера."
   suffix: PVE, RCM
   components:
   - type: AccessReader
@@ -239,8 +239,8 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCColMarTechSurplusRCMPVE
-  name: We-Ya Section Surplus Uniform Vendor
-  description: An automated rack hooked up to a small storage of Royal Crown Marines uniforms.
+  name: "Автомат запасної форми секції «Ве-Я»"
+  description: "Автоматизований стелаж, під'єднаний до невеликого сховища форми Морпіхів Королівської Корони."
   suffix: PVE, RCM
   components:
   - type: Sprite
@@ -362,8 +362,8 @@
   parent: ColMarTechBase
   id: RMCColMarTechUtilitiesRCMPVE
   suffix: PVE, RCM
-  name: We-Ya Automated Utilities Section Vendor
-  description: An automated supply rack hooked up to a small storage of various utilities, tools, and medical supplies. Can be accessed by any Royal marine.
+  name: "Автоматизований автомат утиліт секції «Ве-Я»"
+  description: "Автоматизований стелаж постачання, під'єднаний до невеликого сховища різних утиліт, інструментів і медичних запасів. Доступний будь-якому королівському морпіху."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/prep.rsi

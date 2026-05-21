@@ -1,8 +1,8 @@
 - type: entity
   id: VehicleTankBase
   abstract: true
-  name: M34A2 Longstreet
-  description: "An older light tank made for all ground forces of the United Americas, although being phased out due to being outdated by the American Army and the CCAF, the longstreet still remains in service with USCM and LACN detachments in colonial sectors."
+  name: "M34A2 Лонгстріт"
+  description: "Старіший легкий танк, створений для всіх наземних сил Об'єднаних Америк. Хоча його й виводять з експлуатації через застарілість в американській армії та ККЗС, Лонгстріт досі лишається на службі в підрозділах КМП США та ЛАКН у колоніальних секторах."
   components:
   - type: Vehicle
     movementKind: Grid
@@ -227,8 +227,8 @@
 - type: entity
   parent: VehicleTankBase
   id: VehicleSPPTank
-  name: Cheetah 2A Light Tank
-  description: A light-weight tank made for all ground forces of the UPP.
+  name: "Легкий танк «Гепард 2A»"
+  description: "Легкий танк, створений для всіх наземних сил УПП."
   components:
   - type: VehicleEnter
     interiorPath: /Maps/_RMC14/Vehicles/spp_tank_interior.yml
@@ -325,8 +325,8 @@
 - type: entity
   parent: VehicleSPPTank
   id: VehicleSPPTankCommand
-  name: Cheetah 2A Light Command Tank
-  description: A light-weight command tank made for all ground forces of the UPP.
+  name: "Легкий командний танк «Гепард 2A»"
+  description: "Легкий командний танк, створений для всіх наземних сил УПП."
   components:
   - type: VehicleEnter
     interiorPath: /Maps/_RMC14/Vehicles/spp_tank_command_interior.yml

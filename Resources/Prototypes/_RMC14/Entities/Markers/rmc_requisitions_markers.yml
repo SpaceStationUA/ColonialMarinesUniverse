@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRequisitionsChairMarker
-  name: requisitions chair marker
+  name: "маркер крісла реквізицій"
   suffix: RMC14
   components:
   - type: Sprite
