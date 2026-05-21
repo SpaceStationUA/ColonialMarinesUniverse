@@ -7,8 +7,8 @@
   id: AU14CashVendorBase
   abstract: true
   parent: CMBaseStructureCorrodible
-  name: "торговий автомат"
-  description: "Вставте готівку й виберіть предмет для купівлі."
+  name: vending machine
+  description: Insert cash and select an item to purchase.
   components:
   - type: ItemSlots
     slots:
@@ -75,8 +75,8 @@
 - type: entity
   id: AU14CashDrinkMachine
   parent: AU14CashVendorShopkeepBase
-  name: "напої ВЮ"
-  description: "Брендований диспенсер напоїв Вейланд-Ютані. Вставте готівку, щоб купити напій. Ціни підлягають колоніальному податку з продажів."
+  name: WY Refreshments
+  description: A Weyland-Yutani branded beverage dispenser. Insert cash to purchase a drink. Prices subject to colonial sales tax.
   suffix: Cash, Drinks
   components:
   - type: Sprite
@@ -89,8 +89,8 @@
 - type: entity
   id: AU14CashSnackMachine
   parent: AU14CashVendorBase
-  name: "провізія ВЮ"
-  description: "Брендований диспенсер снеків Вейланд-Ютані. Вставте готівку, щоб купити снек. Ціни підлягають колоніальному податку з продажів."
+  name: WY Provisions
+  description: A Weyland-Yutani branded snack dispenser. Insert cash to purchase a snack. Prices subject to colonial sales tax.
   suffix: Cash, Snacks
   components:
   - type: Sprite

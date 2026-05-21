@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatCoBase
   id: AU14JobGOVFORPlatCoWYPMC
-  name: "директор операцій ПВК"
+  name: PMC Operations Director
   description: au14-job-description-govforplatco
   setPreference: false
   canBeAntag: false

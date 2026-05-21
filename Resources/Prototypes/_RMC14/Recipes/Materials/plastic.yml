@@ -10,7 +10,7 @@
 # Plastic Crate
 - type: rmcConstruction
   id: RMCCratePlasticBuild
-  name: "пластиковий ящик"
+  name: plastic crate
   prototype: RMCCratePlasticBuildable
   noRotate: true
   doAfterTime: 2
@@ -20,7 +20,7 @@
 - type: rmcConstruction
   parent: RMCPlasticItemBase
   id: RMCAshtrayBuild
-  name: "пластикова попільничка"
+  name: plastic ashtray
   prototype: RMCAshtray
   materialCost: 2
 
@@ -29,7 +29,7 @@
 - type: rmcConstruction
   parent: RMCPlasticItemBase
   id: RMCForkPlasticBuild
-  name: "пластикова виделка"
+  name: plastic fork
   prototype: RMCForkPlastic
   materialCost: 1
 
@@ -37,7 +37,7 @@
 - type: rmcConstruction
   parent: RMCPlasticItemBase
   id: RMCSpoonPlasticBuild
-  name: "пластикова ложка"
+  name: plastic spoon
   prototype: RMCSpoonPlastic
   materialCost: 1
 
@@ -45,6 +45,6 @@
 - type: rmcConstruction
   parent: RMCPlasticItemBase
   id: RMCKitchenKnifePlasticBuild
-  name: "пластиковий ніж"
+  name: plastic knife
   prototype: RMCKitchenKnifePlastic
   materialCost: 1

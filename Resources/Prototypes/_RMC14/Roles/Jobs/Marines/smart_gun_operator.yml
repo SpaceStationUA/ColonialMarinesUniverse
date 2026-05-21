@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSmartGunOperator
-  name: "спавнер оператора смартгана"
+  name: smart gun operator spawn point
   components:
   - type: SpawnPoint
     job_id: CMSmartGunOperator
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSGO
-  name: "Оператор смартгана"
-  description: "Оператор смартгана"
+  name: Smart Gun Operator
+  description: Smart Gun Operator
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

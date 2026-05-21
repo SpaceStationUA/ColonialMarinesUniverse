@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORDSPilot
-  name: "точка появи пілота десантного корабля ГОВФОР"
+  name: Spawn Point GOVFOR Dropship Pilot
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORDSPilot

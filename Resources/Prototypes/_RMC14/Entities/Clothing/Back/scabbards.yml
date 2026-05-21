@@ -2,8 +2,8 @@
 - type: entity
   parent: [ Clothing, ClothingSlotBase ]
   id: RMCScabbardBase
-  name: "базові піхви"
-  description: "-- сюди вставити опис --"
+  name: base scabbard
+  description: -- insert description here --
   abstract: true
   components:
   - type: Sprite
@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMachete
-  name: "піхви для мачете M2132 зразка H5"
-  description: "Великі шкіряні піхви для мачете M2132. Можна пристебнути до спини або до пояса."
+  name: H5 pattern M2132 machete scabbard
+  description: A large leather scabbard used to carry a M2132 machete. It can be strapped to the back or the waist.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_h5.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMacheteM2100
-  name: "кастомні піхви для мачете M2100 зразка QH20"
-  description: "Великі шкіряні піхви для мачете M2100 «Нґаджи». Можна пристебнути до спини або до броні."
+  name: QH20 pattern M2100 custom machete scabbard
+  description: A large leather scabbard used to carry a M2100 "Ngájhe" machete. It can be strapped to the back or the armor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_qh20.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardMacheteSG
-  name: "піхви для мачете на розвантаженні ML66A"
-  description: "Піхви, що з'єднуються з бойовим розвантаженням ML66A для перенесення мачете M2132."
+  name: ML66A harness machete scabbard
+  description: A scabbard that connects to the ML66A combat harness for carrying a M2132 machete.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/machete_sg.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardShotgun
-  name: "піхви для дробовика M37A3 L44"
-  description: "Велика шкіряна кобура під дробовики, що видаються КМП США. Має ремені, які дозволяють закріпити її на спині для зручного зберігання."
+  name: L44 M37A3 shotgun scabbard
+  description: A large leather holster fitted for USCM-issue shotguns. It has harnesses that allow it to be secured to the back for easy storage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/shotgun.rsi
@@ -188,8 +188,8 @@
 - type: entity
   parent: RMCScabbardShotgun
   id: RMCScabbardShotgunWaist
-  name: "поясні піхви для дробовика M42A2 L44"
-  description: "Велика шкіряна кобура під дробовики, що видаються ОНМП. Має ремені, які дозволяють закріпити її на поясі для зручного зберігання."
+  name: L44 M42A2 shotgun waist scabbard
+  description: A large leather holster fitted for UNMC-issue shotguns. It has harnesses that allow it to be secured to the waist for easy storage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/shotgun_waist.rsi
@@ -202,8 +202,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardCeremonial
-  name: "піхви для церемоніальної шаблі"
-  description: "Великі піхви яскравого кольору для перенесення церемоніальної шаблі."
+  name: ceremonial sabre scabbard
+  description: A large, vibrantly colored scabbard used to carry a ceremonial sabre.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/co_sabre_sheath.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: RMCScabbardBase
   id: RMCScabbardKatana
-  name: "піхви катани"
-  description: "Великі піхви катани яскравого кольору для перенесення японського меча. Можна пристебнути до спини або носити на поясі. Завдяки міцному дерев'яному корпусу піхви можуть слугувати непоганою захисною зброєю в скруті."
+  name: katana scabbard
+  description: A large, vibrantly colored katana scabbard used to carry a Japanese sword. It can be strapped to the back or worn at the belt. Because of the sturdy wood casing of the scabbard, it makes an okay defensive weapon in a pinch.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Scabbards/katana_sheath.rsi

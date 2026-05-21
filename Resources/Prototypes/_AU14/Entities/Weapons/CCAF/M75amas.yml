@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: "M75A MAS"
+  name: M75A MAS
   id: AUWeaponRifleM75AMAS
-  description: "M75A MAS — найновіша модульна збройова платформа Армат Бетлфілд Системс, призначена замінити застарілу імпульсну гвинтівку M41 MK1. Зброя все ще проходить обмежені польові випробування в окремих піхотних підрозділах CCAF."
+  description: The M75A MAS is Armat Battlefield Systems newest modular weapons platform, intended to replace the aging M41 MK1 Pulse Rifle. The weapon is still in limited field testing among select CCAF infantry units.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/CCAF/M75AMAS.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14MagazineRifleM75AMAS
-  name: "магазин M75AMAS (10x24mm)"
+  name: "M75AMAS Magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: AU14CartridgeRifleM75AMAS
-  name: "набій (10x24mm)"
-  description: "Гвинтівковий набій 10x24mm"
+  name: Cartridge (10x24mm)
+  description: A 10x24mm rifle cartridge
   components:
   - type: Tag
     tags:

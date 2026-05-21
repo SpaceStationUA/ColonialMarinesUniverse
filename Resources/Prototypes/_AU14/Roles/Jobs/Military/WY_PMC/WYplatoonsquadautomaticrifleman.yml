@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRiflemanWYPMC
-  name: "оператор смартгана ПВК"
+  name: PMC Smartgun Operator
   description: au14-job-description-govforsquadautomaticrifleman
   setPreference: false
   ranks:

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: RMCTrainingDummy
-  name: "тренувальний манекен"
-  description: "Тренувальний манекен, що використовується UNMC для імітації гуманоїдного тіла. Виглядає майже надто реалістично."
+  name: training dummy
+  description: A training dummy used by the UNMC to simulate a humanoid body. Feels almost too lifelike.
   suffix: RMC14
   components:
   - type: Loadout
@@ -35,7 +35,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnRMCTrainingDummy
-  name: "Спавнер тренувального манекена RMC"
+  name: RMC Training Dummy Spawner
   components:
   - type: Sprite
     layers:
@@ -49,9 +49,9 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerTrainingDummy
-  name: "шафа тренувального манекена"
+  name: training dummy cabinet
   suffix: South, Empty
-  description: "Ультрабезпечна шафа, що містить тренувальний манекен. Доступ мають лише головлікарі та старші радники з рядового складу."
+  description: An ultrasafe cabinet containing a training dummy. Only accessible by Chief Medical Officers and Senior Enlisted Advisors.
   # description: An ultrasafe cabinet containing Professor DUMMY and its tablet. Only accessible by Chief Medical Officers and Senior Listed Advisors.
   placement:
     mode: SnapgridCenter

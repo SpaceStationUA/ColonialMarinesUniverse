@@ -36,7 +36,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointParamarine
-  name: "спавнер стрільця парамарина"
+  name: paramarine rifleman spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorParamarine

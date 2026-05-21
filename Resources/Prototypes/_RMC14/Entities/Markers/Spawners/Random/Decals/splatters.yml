@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCDecalSpawnerBase
   id: RMCDecalSpawnerBloodSplatters
-  name: "спавнер крові"
+  name: blood spawner
   suffix: RMC14
   components:
   - type: RandomDecalSpawner
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCDecalSpawnerBase
   id: RMCDecalSpawnerXenoSplatters
-  name: "спавнер ксено-крові"
+  name: xeno blood spawner
   suffix: RMC14
   components:
   - type: RandomDecalSpawner
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCDecalSpawnerBase
   id: RMCDecalSpawnerOilSplatters
-  name: "спавнер мастила"
+  name: oil spawner
   suffix: RMC14
   components:
   - type: RandomDecalSpawner
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCDecalSpawnerXenoSplatters
   id: RMCDecalSpawnerAcidBloodSplash
-  name: "спавнер бризок ксено-кислоти"
+  name: xeno acid splash spawner
   suffix: RMC14
   components:
   - type: RandomDecalSpawner

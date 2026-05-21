@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCStunBatonDamaged
   id: AU14TeleBaton
-  name: "телескопічний кийок"
-  description: "Телескопічний кийок для виведення людей з ладу."
+  name: telescopic baton
+  description: A telescopic baton for incapacitating people with.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/telebaton.rsi

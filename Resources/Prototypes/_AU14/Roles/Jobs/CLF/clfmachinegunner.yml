@@ -65,7 +65,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCLFMachineGunner
-  name: "точка появи кулеметника КФВ"
+  name: Spawn Point CLF Machine Gunner
   components:
   - type: SpawnPoint
     job_id: AU14JobCLFMachineGunner

@@ -77,8 +77,8 @@
 
 - type: entity
   id: RMCMechPowerLoaderWreckage
-  name: "уламки силового завантажувача LU-50"
-  description: "Уламки силового завантажувача LU-50."
+  name: LU-50 Power loader wreckage
+  description: The wreckage of a LU-50 Power loader.
   components:
   - type: Corrodible
     isCorrodible: true
@@ -115,8 +115,8 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageGreen
-  name: "уламки силового завантажувача LU-43"
-  description: "Уламки силового завантажувача LU-43."
+  name: LU-43 Power loader wreckage
+  description: The wreckage of a LU-43 Power loader.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageBlue
-  name: "уламки силового завантажувача LU-52"
-  description: "Уламки силового завантажувача LU-52."
+  name: LU-52 Power loader wreckage
+  description: The wreckage of a LU-52 Power loader.
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCMechBase
   id: RMCMechPowerLoader
-  name: "силовий завантажувач LU-50"
-  description: "Старий дизайн Fujin, відремонтований «Вестон-Ямада», що використовується на складах, будовах і військових кораблях усюди." # TODO RMC14 BETTER DESCRIPTION
+  name: LU-50 Power loader
+  description: An old Fujin design refurbished by Weston-Yamada used in warehouses, constructions and military ships everywhere. # TODO RMC14 BETTER DESCRIPTION
   components:
   - type: RMCAllowStrapMovement
   - type: PowerLoader
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderGreen
-  name: "силовий завантажувач LU-43"
-  description: "Дуже старий, але надійний дизайн, що використовується на складах, будовах і військових кораблях усюди. У цього фірмова зелено-жовта розфарбовка Fujin. Етикетка стверджує, що вони виробляють електроніку та машини, хоча ти про них раніше ніколи не чув." # TODO RMC14 BETTER DESCRIPTION
+  name: LU-43 Power loader
+  description: An really old but trusted design used in warehouses, constructions and military ships everywhere. This one has a signature green and yellow livery of Fujin. The label claims they make electronics and machinery, though you’ve never heard of them before. # TODO RMC14 BETTER DESCRIPTION
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderBlue
-  name: "силовий завантажувач LU-52"
-  description: "Модернізований дизайн, створений, щоб перевершити старіші моделі, що колись використовувалися у вишуканих портах і об'єктах. Виготовлений Ferret Heavy Industries до банкрутства, що зробило ці одиниці напрочуд доступними." # TODO RMC14 BETTER DESCRIPTION
+  name: LU-52 Power loader
+  description: A modernized design made to outdo the older models once used in fancy ports and facilities. It was built by Ferret Heavy Industries before they went bankrupt, making these units surprisingly affordable. # TODO RMC14 BETTER DESCRIPTION
   components:
   - type: Sprite
     drawdepth: Mobs

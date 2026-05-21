@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotWYPMC
-  name: "офіцер-пілот ПВК"
+  name: PMC Pilot Officer
   description: au14-job-description-govfordspilot
   setPreference: false
   canBeAntag: false

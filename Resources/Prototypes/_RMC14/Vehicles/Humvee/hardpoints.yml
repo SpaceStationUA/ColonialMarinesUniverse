@@ -11,8 +11,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeWheel
-  name: "колесо гамві"
-  description: "Посилене колесо гамві."
+  name: humvee wheel
+  description: A reinforced humvee wheel.
   components:
   - type: Sprite
     state: tires
@@ -29,8 +29,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeTurret
-  name: "турель гамві"
-  description: "Дахова турель гамві."
+  name: humvee turret
+  description: A roof-mounted humvee turret.
   components:
   - type: Sprite
     state: humveeturret
@@ -83,8 +83,8 @@
 - type: entity
   parent: VehicleHumveeTurret
   id: VehicleHumveeTurretArmed
-  name: "турель гамві"
-  description: "Дахова турель гамві, заздалегідь оснащена своєю гарматою."
+  name: humvee turret
+  description: A roof-mounted humvee turret pre-fitted with its cannon.
   components:
   - type: ItemSlots
     slots:
@@ -103,8 +103,8 @@
 - type: entity
   parent: VehicleHumveeTurret
   id: VehicleHumveeARCTurret
-  name: "турель гамві"
-  description: "Дахова турель гамві, заздалегідь оснащена гарматою АРК."
+  name: humvee turret
+  description: A roof-mounted humvee turret pre-fitted with its ARC cannon.
   components:
   - type: ItemSlots
     slots:
@@ -123,8 +123,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeCannon
-  name: "гармата гамві"
-  description: "Нерухома лобова гармата для вузла кріплення гамві."
+  name: humvee cannon
+  description: A fixed forward cannon for a humvee hardpoint.
   components:
   - type: Sprite
     state: humveecannon
@@ -180,8 +180,8 @@
 - type: entity
   parent: VehicleHumveeCannon
   id: VehicleHumveeARCCannon
-  name: "гармата АРК"
-  description: "Гармата з вогнем чергами, налаштована для турелі гамві АРК."
+  name: ARC cannon
+  description: A burst-fire cannon configured for an ARC humvee turret.
   components:
   - type: Gun
     fireRate: 5 # 0.2 seconds between shots
@@ -194,8 +194,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeLauncher
-  name: "пускова установка гамві"
-  description: "Вузол кріплення пускової установки для гамві."
+  name: humvee launcher
+  description: A launcher hardpoint for a humvee.
   components:
   - type: Sprite
     state: humveelauncher
@@ -246,8 +246,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeSnowplow
-  name: "сніговий відвал гамві"
-  description: "Посилений відвал для гамві."
+  name: humvee snowplow
+  description: A reinforced plow attachment for a humvee.
   components:
   - type: Sprite
     state: snowplow
@@ -268,8 +268,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeOverlight
-  name: "верхня світлова панель гамві"
-  description: "Масив верхнього освітлення для гамві."
+  name: humvee overlight
+  description: An overlight array for a humvee.
   components:
   - type: Sprite
     state: overlight
@@ -289,8 +289,8 @@
 - type: entity
   parent: VehicleHumveeHardpointBase
   id: VehicleHumveeHatch
-  name: "люк гамві"
-  description: "Вузол люка для гамві."
+  name: humvee hatch
+  description: A hatch assembly for a humvee.
   components:
   - type: Sprite
     state: humveehatch

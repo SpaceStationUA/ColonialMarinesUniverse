@@ -1,6 +1,6 @@
 - type: entity
   id: RMCBaseFoamedMetal
-  name: "базовий пінометал RMC"
+  name: RMC base foamed metal
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -59,7 +59,7 @@
 - type: entity
   parent: MetalFoam
   id: RMCAluminiumMetalFoamEffect
-  name: "алюмінієва піна"
+  name: aluminium metal foam
   categories: [ HideSpawnMenu ]
   components:
   - type: SpawnOnDespawn
@@ -68,7 +68,7 @@
 - type: entity
   parent: MetalFoam
   id: RMCIronMetalFoamEffect
-  name: "залізна піна"
+  name: iron metal foam
   categories: [ HideSpawnMenu ]
   components:
   - type: SpawnOnDespawn
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCBaseFoamedMetal
   id: RMCFoamedAluminiumMetal
-  name: "пінистий алюмінієвий метал"
-  description: "Легка стіна з пінистого металу."
+  name: foamed aluminium metal
+  description: A lightweight foamed metal wall.
   suffix: RMC
   components:
   - type: Sprite
@@ -100,8 +100,8 @@
 - type: entity
   parent: RMCBaseFoamedMetal
   id: RMCFoamedIronMetal
-  name: "пінистий залізний метал"
-  description: "Дещо міцніша легка стіна з пінистого заліза."
+  name: foamed iron metal
+  description: A slightly stronger lightweight foamed iron wall.
   suffix: RMC
   components:
   - type: Sprite

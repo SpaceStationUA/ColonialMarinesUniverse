@@ -1,12 +1,12 @@
 - type: construction
   parent: RMC
-  name: "бар’єр ХЕСКО"
+  name: HESCO Barrier
   id: AU14HESCOBarrier
   graph: AU14HESCOGraph
   startNode: start
   targetNode: nodeFilled
   category: construction-category-cm-structures
-  description: "Модульний оборонний бар’єр, заповнений піском, що використовується для захисту від вибухів і вогню зі стрілецької зброї."
+  description: A modular, sand-filled defensive barrier used to protect against explosives and small arms fire.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false

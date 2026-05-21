@@ -1,7 +1,7 @@
 - type: guideEntry
   parent: RMC
   id: AU14UCMJ
-  name: "Єдиний кодекс військової юстиції"
+  name: Uniform Code of Military Justice
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/AU14UCMJ.xml"
   priority: 3
   children:
@@ -15,42 +15,42 @@
 - type: guideEntry
   parent: RMC
   id: AU14UCMJLawRankStructure
-  name: "Структура юридичних рангів"
+  name: Law Rank Structure
   priority: 0
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/AU14UCMJEnforcementStructure.xml"
 
 - type: guideEntry
   parent: RMC
   id: AI14UCMJRightToAppeal
-  name: "Право на оскарження"
+  name: Right to Appeal
   priority: 1
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/AI14UCMJRightToAppeal.xml"
 
 - type: guideEntry
   parent: RMC
   id: AI14UCMJNJP
-  name: "Позасудові покарання"
+  name: Non-Judicial Punishments
   priority: 3
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/AI14UCMJNJP.xml"
 
 - type: guideEntry
   parent: RMC
   id: AU14UCMJArrestingProcedure
-  name: "Процедури арешту"
+  name: Arresting Procedures
   priority: 2
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/AU14UCMJArrestingProcedure.xml"
 
 - type: guideEntry
   parent: RMC
   id: AI14UCMJDefinitionsandGlossary
-  name: "Визначення та глосарій"
+  name: Definitions and Glossary
   priority: 2
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/AI14UCMJDefinitionsandGlossary.xml"
 
 - type: guideEntry
   parent: RMC
   id: AI14UCMJCriminalCode
-  name: "Кримінальний кодекс"
+  name: Criminal Code
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/AI14UCMJCriminalCode.xml"
   priority: 3
   children:
@@ -63,34 +63,34 @@
 - type: guideEntry
   parent: RMC
   id: AU14UCMJOptionalCrimes
-  name: "Необов'язкові злочини"
+  name: Optional Crimes
   priority: 1
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/Crimes/AU14UCMJOptionalCrimes.xml"
 
 - type: guideEntry
   parent: RMC
   id: AU14UCMJMinorCrimes
-  name: "Незначні злочини"
+  name: Minor Crimes
   priority: 2
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/Crimes/AU14UCMJMinorCrimes.xml"
 
 - type: guideEntry
   parent: RMC
   id: AU14UCMJMajorCrimes
-  name: "Тяжкі злочини"
+  name: Major Crimes
   priority: 3
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/Crimes/AU14UCMJMajorCrimes.xml"
 
 - type: guideEntry
   parent: RMC
   id: AU14UCMJCapitalCrimes
-  name: "Карані смертю злочини"
+  name: Capital Crimes
   priority: 4
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/Crimes/AU14UCMJCapitalCrimes.xml"
 
 - type: guideEntry
   parent: RMC
   id: AU14UCMJPrecautionaryCharges
-  name: "Запобіжні обвинувачення"
+  name: Precautionary Charges
   priority: 5
   text: "/ServerInfo/Guidebook/_AU14/UCMJ/Crimes/AU14UCMJPrecautionaryCharges.xml"

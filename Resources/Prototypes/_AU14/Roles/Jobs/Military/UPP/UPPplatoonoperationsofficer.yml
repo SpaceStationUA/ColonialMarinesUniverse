@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatOpBase
   id: AU14JobGOVFORPlatOpUPP
-  name: "штабний офіцер"
+  name: Staff Officer
   description: au14-job-description-govforplatop
   setPreference: false
   canBeAntag: false

@@ -1,9 +1,9 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCWeaponPistolL14
-  name: "бойовий пістолет L14"
+  name: L14 combat pistol
   suffix: PVE
-  description: "L14 — стандартний штатний пістолет Морпіхів Королівської Корони, продукт величезних інвестицій часу й капіталу від ІТС. Це компактний, але точний високоємнісний бойовий пістолет калібру 9мм, здатний на щільні двозарядні черги. Цю зброю зазвичай можна знайти в молодших офіцерів і допоміжних ролей у складі МКК."
+  description: The L14 is the standard issue sidearm of the Royal Crown Marines, and the product of an inordinate amount of time and capital investment by the TSE. It is a compact but accurate high-capacity combat pistol chambered in 9mm, capable of tight two-round bursts. This piece can usually be found on junior officers and supporting roles within the RCM.
   components:
   - type: Tag
     tags:
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolL14
-  name: "Магазин L14 (9мм)"
+  name: L14 magazine (9mm)
   components:
   - type: Tag
     tags:
@@ -105,7 +105,7 @@
 - type: entity
   parent: RMCMagazinePistolL14
   id: RMCMagazinePistolL14AP
-  name: "Бронебійний магазин L14 (9мм)"
+  name: L14 AP magazine (9mm)
   components:
   - type: Tag
     tags:

@@ -1,9 +1,9 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCMDCabinet
-  name: "шафа командного планшета"
+  name: command tablet cabinet
   suffix: Empty
-  description: "Куленепробивна шафа з командним планшетом для використання Командиром."
+  description: A bulletproof cabinet containing the command tablet for usage by a Commander.
   # description: A bulletproof cabinet containing the command tablet for usage by the CO and XO. Opens only to them and department heads. (Parity desc, once Senior access is implemented)
   components:
   - type: WallMount

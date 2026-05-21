@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: "імпульсна гвинтівка M41A MK1"
+  name: M41A pulse rifle MK1
   id: RMCWeaponRifleM54CMK1
-  description: "Старіший дизайн імпульсної гвинтівки, що зазвичай використовується Корпусом Морпіхів. Використовує безгільзові набої 10x24мм."
+  description: An older design of the Pulse Rifle commonly used by the Marine Corps. Uses 10x24mm caseless ammunition.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54cmk1.rsi
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54CMK1
-  name: "Магазин M41A MK1 (10x24мм)"
+  name: "M41A MK1 magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -173,7 +173,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: CMMagazineRifleM54CMK1AP
-  name: "Бронебійний магазин M41A MK1 (10x24мм)"
+  name: "M41A MK1 AP magazine (10x24mm)"
   suffix: AP
   components:
   - type: Tag
@@ -200,7 +200,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1Incendiary
-  name: "Запалювальний магазин M41A MK1 (10x24мм)"
+  name: "M41A MK1 Incendiary magazine (10x24mm)"
   suffix: AP
   components:
   - type: Tag
@@ -227,7 +227,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1HEAP
-  name: "Магазин M41A MK1 HEAP (10x24мм)"
+  name: "M41A MK1 HEAP magazine (10x24mm)"
   suffix: HEAP
   components:
   - type: Tag
@@ -254,7 +254,7 @@
 - type: entity
   parent: CMMagazineRifleM54CMK1
   id: RMCMagazineRifleM54CMK1WP
-  name: "Магазин M54C MK1 WP (10x24мм)"
+  name: "M54C MK1 WP magazine (10x24mm)"
   suffix: WP
   components:
   - type: Tag

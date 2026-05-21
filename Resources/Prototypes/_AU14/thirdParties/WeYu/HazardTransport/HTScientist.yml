@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYHTScientist
-  name: "науковець транспорту небезпек ВЮ (третя сторона)"
+  name: WY Hazard Transport Scientist (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

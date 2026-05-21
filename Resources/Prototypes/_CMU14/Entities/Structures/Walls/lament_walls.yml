@@ -1,19 +1,19 @@
 - type: entity
   parent: RMCWallStrataIceDirty
   id: CMUWallLamentRockDark
-  name: "кам'яна стіна"
-  description: "Грубо тесана стіна з затверділого каменю."
+  name: rock wall
+  description: A rough wall of hardened rock.
 
 - type: entity
   parent: RMCWallStrataIce
   id: CMUWallLamentRock
-  name: "кам'яна стіна"
-  description: "Грубо тесана стіна з затверділого каменю."
+  name: rock wall
+  description: A rough wall of hardened rock.
   
 - type: entity
   id: CMUFogWallLamentWaterfallMist
-  name: "туман водоспаду"
-  description: "Туман водоспаду — за ним щось може бути!"
+  name: waterfall mist
+  description: The mist of a waterfall, there might be something behind it!
   placement:
     mode: SnapgridCenter
     snap:

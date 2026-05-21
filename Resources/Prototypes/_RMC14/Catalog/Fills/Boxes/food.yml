@@ -1,8 +1,8 @@
 - type: entity
-  name: "надлишкова коробка інгредієнтів"
+  name: surplus box of ingredients
   parent: RMCBoxCardboard
   id: RMCBoxIngredients
-  description: "Ця коробка містить інгредієнти."
+  description: This box contains ingredients.
   components:
   - type: StorageFill # TODO RMC14 add ingredients
     contents:

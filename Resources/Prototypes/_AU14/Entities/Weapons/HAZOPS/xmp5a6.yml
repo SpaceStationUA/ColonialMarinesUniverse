@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: "XMP5A6/10 CQW"
+  name: XMP5A6/10 CQW
   id: AU14WeaponSMGXMP5A6HAZOPS
-  description: "Переможець програми ХАЗОПС 2172 року зі створення зброї ближнього бою, цей німецький «SMG» відповідає на питання: «А що, як вставити стандартний гвинтівковий калібр ККМП США у пістолет-кулемет?». Попри низьку точність, має високий темп стрільби та вражаючу зупиняючу силу. Під набій 10x24mm. Може заряджатися магазинами M41A."
+  description: Winner of the 2172 HAZOPS Close Quarters Weapon program, this German-based "SMG" answers the question; "What if we put the standard USCMC rifle caliber in a machinepistol?". Despite low accuracy, it has a high firerate and impressive stopping power. Chambered in 10x24mm. Can load M41A magazines.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/HAZOPS/XMP5A6.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: AU14AttachmentM203A4GrenadeLauncher
-  name: "гранатомет M203A4"
-  description: "Перезаряджуваний гранатомет, що встановлюється на зброю."
+  name: M203A4 grenade launcher
+  description: A weapon-mounted, reloadable grenade launcher.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Attachments/hazops_under.rsi
@@ -184,8 +184,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14MagazineXMP5A6
-  name: "магазин XMP5A6 (10x24mm)"
-  description: "Що вони зробили з моїм банановим магазином? Використовує 10x24mm."
+  name: XMP5A6 magazine (10x24mm)
+  description: What have they done with my bannana clip? Uses 10x24mm.
   components:
   - type: Tag
     tags:

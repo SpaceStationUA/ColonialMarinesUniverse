@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructure
   id: BaseFenceMetal
-  name: "сітчастий паркан"
-  description: "Металева секція паркану, що відгороджує щось, імовірно, дуже важливе."
+  name: chain link fence
+  description: A metal piece of fencing cordoning off something likely very important.
   abstract: true
   components:
   - type: MeleeSound
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalBroken
-  name: "зламаний сітчастий паркан"
-  description: "Хтось дуже розлютився на неживий об'єкт."
+  name: broken chain link fence
+  description: Someone got real mad at an inanimate object.
   components:
   - type: Sprite
     layers:
@@ -283,8 +283,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: FenceMetalGate
-  name: "брама сітчастого паркану"
-  description: "Ти міг би скористатися дверима замість того, щоб перелазити через них - якщо ти, звісно, БОЯГУЗ."
+  name: chain link fence gate
+  description: You could use the door instead of vaulting over--if you're a COWARD, that is.
   components:
   - type: Sprite
     layers:

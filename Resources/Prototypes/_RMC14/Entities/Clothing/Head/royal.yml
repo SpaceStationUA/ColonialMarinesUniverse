@@ -2,14 +2,14 @@
 - type: entity
   parent: RMCHeadBeanie
   id: RMCHeadRoyalBeanie
-  name: "біні королівського морпіха"
-  description: "Стандартна військова шапка-біні."
+  name: royal marine beanie
+  description: A standard military beanie.
 
 - type: entity
   parent: RMCHeadRoyalBeanie
   id: RMCHeadRoyalTurban
-  name: "тюрбан королівського морпіха"
-  description: "Стандартний військовий тюрбан, який зустрічається у Королівських Морпіхаx Корони. Вважається рідкісною річчю, такі тюрбани цінують колекціонери."
+  name: royal marine turban
+  description: A standard military turban found in the Royal Crown Marines. Considered a rare item, these kind of turbans are prized by collectors.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/turban.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadRoyalBeret
-  name: "берет королівського морпіха"
-  description: "Зелений берет, що належить Королівським Морпіхаx Корони."
+  name: royal marine beret
+  description: A green beret belonging to the Royal Crown Marines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCHeadRoyalBeret
   id: RMCHeadRoyalBeretLead
-  name: "берет лідера королівських морпіхів"
-  description: "Зелений берет, що належить Королівським Морпіхаx Корони."
+  name: royal marine leader beret
+  description: A green beret belonging to the Royal Crown Marines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Royal/beret_tl.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCHeadRoyalHelmet
-  name: "королівський балістичний шолом L5A2"
-  description: "Високорізаний балістичний шолом. Створений для використання Королівськими Морпіхаx Корони як частина бронесистеми Kestrel."
+  name: royal L5A2 ballistic helmet
+  description: A high-cut ballistic helmet. Designed to be used by Royal Crown Marines as part of the Kestrel armour system.
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Clothing/Head/Royal/helmet.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: RMCHeadRoyalHelmet
   id: RMCHeadRoyalHelmetBallistic
-  name: "королівський балістичний шолом L5A3"
-  description: "Високорізаний балістичний шолом із прикріпленою щелепною пластиною. Створений для використання Королівськими Морпіхаx Корони як частина бронесистеми Kestrel."
+  name: royal L5A3 ballistic helmet
+  description: A high-cut ballistic helmet featuring an attached mandible. Designed to be used by Royal Crown Marines as part of the Kestrel armour system.
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Clothing/Head/Royal/ballistic.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCHeadRoyalBeret
   id: RMCHeadParaBeret
-  name: "берет парамаринів"
-  description: "Виразний багряний берет, який носять полки парамаринів RCM. Посилений гнучким кевларом, він дає мінімальний захист, зберігаючи традиційний і шанований вигляд."
+  name: paramarine beret
+  description: A distinctive crimson beret worn by the RCM's Paramarine regiments. Reinforced with flexible Kevlar, it offers minimal protection while maintaining a traditional and respected appearance.
   suffix: Paramarine, Survivor
   components:
   - type: Sprite
@@ -91,8 +91,8 @@
 - type: entity
   parent: RMCHeadRoyalBeret
   id: RMCHeadParaBeretLead
-  name: "берет командира парамаринів"
-  description: "Виразний багряний берет, який носять молодші командири полків парамаринів RCM. Посилений гнучким кевларом, він дає мінімальний захист, зберігаючи традиційний і шанований вигляд."
+  name: paramarine team lead beret
+  description: A distinctive crimson beret worn by NCOs of the RCM's Paramarine regiments. Reinforced with flexible Kevlar, it offers minimal protection while maintaining a traditional and respected appearance.
   suffix: Paramarine, Survivor, Team Leader
   components:
     - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCHeadCapTSEPA
   id: RMCHeadCapPeakedPara
-  name: "службовий кашкет офіцера парамаринів"
-  description: "Вишуканий службовий кашкет, який носять офіцери полків парамаринів RCM. Має багряну стрічку, золоту емблему RCM-P і чорний лакований козирок, відображаючи дисципліну та владу парамаринського командування Імперії."
+  name: paramarine officer's service cap
+  description: A distinguished service cap worn by officers of the RCM's Paramarine regiments. Featuring a crimson band, gold RCM-P emblem, and a black patent peak, it reflects the discipline and authority of the Empire’s paramarine command.
   suffix: Paramarine, Survivor, CO
   components:
   - type: Sprite
@@ -115,8 +115,8 @@
 - type: entity
   parent: RMCHeadRoyalHelmet
   id: RMCHeadRoyalL1HelmetBallistic
-  name: "балістичний шолом L1"
-  description: "Універсальний балістичний шолом, створений Weston-Yamada для загального використання в різних гілках війська TSE та пов'язаних організаціях. Частково натхненний шоломом зразка M10 UNMC, L1 забезпечує надійний захист від уламків і балістичних загроз."
+  name: L1 ballistic helmet
+  description: A versatile ballistic helmet designed by Weston-Yamada for general use across various branches of the TSE military and affiliated organizations. Drawing some design inspiration from the UNMC’s M10 Pattern Helmet, the L1 offers reliable protection against shrapnel and ballistic threats..
   suffix: Paramarine, Survivor
   components:
   - type: Sprite
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCHeadRoyalHelmet
   id: RMCHeadRoyalFlightHelmet
-  name: "льотний шолом PH-4 'Spitfire'"
-  description: "Стандартний льотний шолом, що використовується в аерокосмічних силах Імперії Трьох Сонць - від винищувальної авіації до атмосферних екіпажів. Цей варіант PH-4 пристосований для операцій десантних кораблів у космосі, має посилену броню, HUD-оптику та зашифрований зв'язок. Незамінний для ризикованих висадок, посадок та евакуацій. Прізвисько 'Spitfire' отримав за надійність під вогнем."
+  name: PH-4 'Spitfire' flight helmet
+  description: Standard flight helmet used across the Three Suns Empire’s aerospace forces, from fighter pilots to atmospheric crews. This PH-4 variant is tailored for dropship operations in space, featuring reinforced plating, HUD optics, and encrypted comms. Essential for high-risk insertions, landings, and exfil missions. Nicknamed “Spitfire” for its reliability under fire.
   suffix: Paramarine, Survivor
   components:
   - type: Sprite

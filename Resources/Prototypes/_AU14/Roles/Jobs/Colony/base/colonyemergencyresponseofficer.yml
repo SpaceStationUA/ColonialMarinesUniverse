@@ -50,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianEmergencyResponseOfficer
-  name: "точка появи цивільного офіцера реагування на надзвичайні ситуації"
+  name: Spawn Point Civilian Emergency Response Officer
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianEmergencyResponseOfficer

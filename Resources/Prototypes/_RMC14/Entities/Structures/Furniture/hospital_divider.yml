@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCHospitalDivider
-  name: "лікарняна перегородка"
-  description: "Лікарняна перегородка для приватності."
+  name: hospital divider
+  description: A hospital divider for privacy.
   components:
   - type: Transform
     noRot: true

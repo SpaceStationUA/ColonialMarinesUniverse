@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseStructureDynamic, BaseBagOpenClose, StructureWheeled ]
   id: AU14Dumpster
-  name: "сміттєвий контейнер"
-  description: "Заповнений тим, що, як ви сподіваєтеся, є просто сміттям, але ви знаєте, що це не так."
+  name: dumpster
+  description: Filled with what you hope is just trash, but you know isn't.
   abstract: true
   components:
   - type: Storage

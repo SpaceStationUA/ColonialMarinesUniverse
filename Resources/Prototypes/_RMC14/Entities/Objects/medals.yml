@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCMedalBase
-  name: "медаль"
-  description: "Медаль."
+  name: medal
+  description: A medal.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalBronze
-  name: "бронзова медаль"
-  description: "Бронзова медаль."
+  name: bronze medal
+  description: A bronze medal.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCMedalBronze
   id: RMCMedalBronzeDistinguishedConduct
-  name: "медаль за зразкову поведінку"
-  description: "Бронзова медаль, що видається за зразкову поведінку. Це велика честь, але це найбазовіша нагорода ОНМП."
+  name: distinguished conduct medal
+  description: A bronze medal awarded for distinguished conduct. Whilst a great honor, this is the most basic award given by the UNMC.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCMedalBronze
   id: RMCMedalBronzeHeart
-  name: "бронзова медаль-серце"
-  description: "Бронзова медаль у формі серця, що видається за самопожертву. Часто видається посмертно або за серйозне поранення на службі."
+  name: bronze heart medal
+  description: A bronze heart-shaped medal awarded for sacrifice. It is often awarded posthumously or for severe injury in the line of duty.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze_heart.rsi
@@ -62,14 +62,14 @@
 - type: entity
   parent: RMCMedalBronze
   id: RMCMedalBronzeService
-  name: "бронзова службова медаль"
-  description: "Бронзова медаль за службу морпіха в ОНМП. Хоча найпоширеніша з медалей, вона позначає перші кілька кроків на відповідній посаді."
+  name: bronze service medal
+  description: A bronze medal awarded for a marine's service within the UNMC. While the most common of medals, it signifies someone's first few steps into their respective positions.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalSilver
-  name: "срібна медаль"
-  description: "Срібна медаль."
+  name: silver medal
+  description: A silver medal.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/silver.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCMedalSilver
   id: RMCMedalSilverValor
-  name: "медаль за відвагу"
-  description: "Срібна медаль за виключні акти відваги. Зазвичай видається тим, хто виділяється з лав — чи то лідерськими навичками, чи діями, критичними для успіху місії."
+  name: medal of valor
+  description: A silver medal awarded for acts of exceptional valor. Normally given to those who outstand themselves from the ranks, either it be in Leadership skills or actions crucial to the mission success.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/silver.rsi
@@ -96,14 +96,14 @@
 - type: entity
   parent: RMCMedalSilver
   id: RMCMedalSilverService
-  name: "срібна службова медаль"
-  description: "Блискуча срібна медаль за службу морпіха в ОНМП. Хоча й доволі поширена, вона позначає зростаючий досвід і час, інвестований у відділ і навички."
+  name: silver service medal
+  description: A shiny silver medal awarded for a marine's service within the UNMC. While somewhat common, it signifies someone's growing expertise and time invested into their department and skills.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalGold
-  name: "золота медаль"
-  description: "Престижна золота медаль."
+  name: gold medal
+  description: A prestigious golden medal.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCMedalGold
   id: RMCMedalGoldExceptionalHeroism
-  name: "медаль за виключний героїзм"
-  description: "Надзвичайно рідкісна золота медаль, що видається лише ОНМП. Отримати таку медаль — найвища честь, тож їх існує дуже мало."
+  name: medal of exceptional heroism
+  description: An extremely rare golden medal awarded only by the UNMC. To receive such a medal is the highest honor and as such, very few exist.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold.rsi
@@ -130,8 +130,8 @@
 - type: entity
   parent: RMCMedalGold
   id: RMCMedalHighCommandHonor
-  name: "Медаль честі Вищого Командування ОНМП"
-  description: "Зіркоподібна золота медаль, що видається виключно Вищим Командуванням ОНМП. Її не заробляють лише доблестю, її надає влада командування за діяння, що перевершують визнаний героїзм. Як найвища відзнака ОНМП, вона затьмарює всі інші. Її лауреатів пам'ятає історія, а не статистика."
+  name: UNMC High Command Medal of honor
+  description: A star-shaped golden medal bestowed solely by UNMC High Command. It is not earned through valor alone, but granted by command authority for deeds that transcend recognized heroism. As the UNMC’s ultimate distinction, it eclipses every other commendation. Its recipients are known to history, not statistics.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold_star.rsi
@@ -144,14 +144,14 @@
 - type: entity
   parent: RMCMedalGold
   id: RMCMedalGoldService
-  name: "золота службова медаль"
-  description: "Відбивна золота медаль за службу морпіха в ОНМП. Уособлює перший великий крок з багатьох, які морпіх робить, стаючи висококваліфікованим у своїй ролі."
+  name: gold service medal
+  description: A reflective gold medal awarded for a marine's service within the UNMC. It represents the first major step of many a marine takes in becoming highly qualified in their positions.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPlatinum
-  name: "платинова медаль"
-  description: "Шанована платинова медаль, яку можуть видавати лише генерали через особливі обставини."
+  name: platinum medal
+  description: An esteemed platinum medal, only able to be handed out by generals due to special circumstances.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/platinum.rsi
@@ -164,14 +164,14 @@
 - type: entity
   parent: RMCMedalPlatinum
   id: RMCMedalPlatinumService
-  name: "платинова службова медаль"
-  description: "Темно-синя медаль за службу морпіха в ОНМП. Видаються тим, хто проявив очевидну пристрасть до своєї посади та її успіху."
+  name: platinum service medal
+  description: A dark blue medal awarded for a marine's service within the UNMC. These medals are issued to those who have shown a clear passion for their position and its success.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRuby
-  name: "рубінова медаль"
-  description: "Шанована рубінова медаль, яку можуть видавати лише генерали через особливі обставини."
+  name: ruby medal
+  description: An exalted ruby medal, only able to be handed out by Generals due to special circumstances.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/ruby.rsi
@@ -184,14 +184,14 @@
 - type: entity
   parent: RMCMedalRuby
   id: RMCMedalRubyService
-  name: "рубінова службова медаль"
-  description: "Глибоко-малинова медаль за послідовну службу морпіха в ОНМП. Ця медаль уособлює справжню відданість одному відділу й посаді."
+  name: ruby service medal
+  description: A deep crimson colored medal awarded for a marine's consistent service within the UNMC. This medal represent true dedication to one department and position.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalAmethyst
-  name: "аметистова медаль"
-  description: "Міфічна аметистова медаль, яку можуть видавати лише Вище Командування через особливо особливі обставини."
+  name: amethyst medal
+  description: A mythical amethyst medal, only able to be handed out by High Command due to especially special circumstances.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/amethyst.rsi
@@ -204,14 +204,14 @@
 - type: entity
   parent: RMCMedalAmethyst
   id: RMCMedalAmethystService
-  name: "аметистова службова медаль"
-  description: "Блідо-фіолетова медаль за службу морпіха в ОНМП. Ця медаль і ті, що йдуть після неї, уособлюють того, хто пережив незліченні довгі й тяжкі розгортання, але переміг і навчився від них."
+  name: amethyst service medal
+  description: A pale violet colored medal awarded for a marine's service within the UNMC. This medal and those after represent someone who has weathered countless long and difficult deployments but conquered and learned from them.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalEmerald
-  name: "смарагдова медаль"
-  description: "Шанована смарагдова медаль, яку можуть видавати лише Вище Командування через особливо особливі обставини."
+  name: emerald medal
+  description: A revered emerald medal, only able to be handed out by High Command due to especially special circumstances.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/emerald.rsi
@@ -224,14 +224,14 @@
 - type: entity
   parent: RMCMedalEmerald
   id: RMCMedalEmeraldService
-  name: "смарагдова службова медаль"
-  description: "Яскраво-смарагдова медаль за службу морпіха в ОНМП. Смарагдові медалі видаються, щоб уособлювати багаторічні зусилля морпіха зростати й навчатися на своїй посаді; це одна з останніх нагород, що уособлює кар'єру морпіха через службові медалі."
+  name: emerald service medal
+  description: A bright emerald medal awarded for a marine's service within the UNMC. Emerald medals are awarded to represent a marine's multiple years of effort to grow and learn in their position, it is one of the final awards representing a marine's career through service medals.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPrismatic
-  name: "призматична медаль"
-  description: "Міфічна призматична медаль, яку можуть видавати лише Вище Командування через особливо особливі обставини."
+  name: prismatic medal
+  description: A mythical prismatic medal, only able to be handed out by High Command due to especially special circumstances.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/prismatic.rsi
@@ -244,16 +244,16 @@
 - type: entity
   parent: RMCMedalPrismatic
   id: RMCMedalPrismaticService
-  name: "призматична службова медаль"
-  description: "Багатобарвна призматична медаль за службу морпіха в ОНМП. Призматичні медалі традиційно видаються тим, хто провів незліченні роки служби на своїй посаді. Такі медалі зазвичай видаються безпосередньо ад'ютантами або штабом, що представляють членів Командування ОНМП, як остання можлива службова медаль."
+  name: prismatic service medal
+  description: A multi-colored prismatic medal awarded for a marine's service within the UNMC. Prismatic medals are traditionally awarded to those who have spent countless years of service in their position. Medals like these are generally issued directly by adjutants or staff representing members of UNMC Command as the final possible service medal.
 
 # Civilian Ribbons
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonBronze
-  name: "бронзова стрічка"
-  description: "Бронзова стрічка."
+  name: bronze ribbon
+  description: A bronze ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze_ribbon.rsi
@@ -266,14 +266,14 @@
 - type: entity
   parent: RMCMedalRibbonBronze
   id: RMCMedalRibbonBronzeService
-  name: "бронзова нагородна стрічка"
-  description: "Бронзова стрічка, що видається цивільним за участь у заході під егідою ОНМП. Це дуже поширена нагорода, зазвичай перша, яку отримує цивільний."
+  name: bronze award ribbon
+  description: A bronze ribbon awarded to civilians for participation in a UNMC-sponsored event. It is a very common award, and is typically the first award a civilian would receive.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonWhite
-  name: "біла стрічка"
-  description: "Біла стрічка."
+  name: white ribbon
+  description: A white ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/white_ribbon.rsi
@@ -286,14 +286,14 @@
 - type: entity
   parent: RMCMedalRibbonWhite
   id: RMCMedalRibbonWhiteService
-  name: "біла нагородна стрічка"
-  description: "Біла стрічка, що видається цивільним за участь у заході під егідою ОНМП. Це досить поширена нагорода, що позначає їхню відданість і підтримку організації."
+  name: white award ribbon
+  description: A white ribbon awarded to civilians for participation in a UNMC-sponsored event. It is a somewhat common award, signifying their dedication and support for the organization.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonYellow
-  name: "жовта стрічка"
-  description: "Жовта стрічка."
+  name: yellow ribbon
+  description: A yellow ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/yellow_ribbon.rsi
@@ -306,14 +306,14 @@
 - type: entity
   parent: RMCMedalRibbonYellow
   id: RMCMedalRibbonYellowService
-  name: "жовта нагородна стрічка"
-  description: "Яскраво-жовта стрічка, що видається цивільним за участь у заході під егідою ОНМП. Це рідкісна нагорода, що позначає їхню відданість і підтримку організації."
+  name: yellow award ribbon
+  description: A bright yellow ribbon awarded to civilians for participation in a UNMC-sponsored event. It is a rare award, signifying their dedication and support for the organization.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonBlue
-  name: "синя стрічка"
-  description: "Синя стрічка."
+  name: blue ribbon
+  description: A blue ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/blue_ribbon.rsi
@@ -326,14 +326,14 @@
 - type: entity
   parent: RMCMedalRibbonBlue
   id: RMCMedalRibbonBlueService
-  name: "синя нагородна стрічка"
-  description: "Престижна синя стрічка, що видається цивільним за участь у заході під егідою ОНМП. Такі нагороди вимагають значного часу та відданості організації."
+  name: blue award ribbon
+  description: A prestigious blue ribbon awarded to civilians for participation in a UNMC-sponsored event. Such awards require significant amounts of time and dedication to the organization to achieve.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonRed
-  name: "червона стрічка"
-  description: "Червона стрічка."
+  name: red ribbon
+  description: A red ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/red_ribbon.rsi
@@ -346,14 +346,14 @@
 - type: entity
   parent: RMCMedalRibbonRed
   id: RMCMedalRibbonRedService
-  name: "червона нагородна стрічка"
-  description: "Яскраво-червона стрічка, що видається цивільним за дії, що перевищують очікуване в заходах під егідою ОНМП. Такі нагороди вимагають надмірного часу та відданості організації."
+  name: red award ribbon
+  description: A vibrant red ribbon awarded to civilians for going above and beyond in UNMC-sponsored events. Such awards require excessive amounts of time and dedication to the organization to achieve.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonEmerald
-  name: "смарагдова стрічка"
-  description: "Смарагдова стрічка."
+  name: emerald ribbon
+  description: An emerald ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/emerald_ribbon.rsi
@@ -366,14 +366,14 @@
 - type: entity
   parent: RMCMedalRibbonEmerald
   id: RMCMedalRibbonEmeraldService
-  name: "смарагдова нагородна стрічка"
-  description: "Шанована смарагдова стрічка, що видається цивільним за дії, що перевищують очікуване в заходах під егідою ОНМП. Такі нагороди вимагають надмірних обсягів часу та відданості організації."
+  name: emerald award ribbon
+  description: A revered emerald ribbon awarded to civilians for going above and beyond in UNMC-sponsored events. Such awards require exorbitant amounts of time and dedication to the organization to achieve.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonAmethyst
-  name: "аметистова стрічка"
-  description: "Аметистова стрічка."
+  name: Amethyst ribbon
+  description: An amethyst ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/amethyst_ribbon.rsi
@@ -386,14 +386,14 @@
 - type: entity
   parent: RMCMedalRibbonAmethyst
   id: RMCMedalRibbonAmethystService
-  name: "аметистова нагородна стрічка"
-  description: "Міфічна аметистова стрічка, що видається цивільним за дії, що значно перевищують очікуване в заходах під егідою ОНМП. Такі нагороди вимагають нерозумних обсягів часу та відданості організації."
+  name: amethyst award ribbon
+  description: A mythical amethyst ribbon awarded to civilians for going far above and beyond in UNMC-sponsored events. Such awards require unreasonable amounts of time and dedication to the organization to achieve.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalRibbonPrismatic
-  name: "призматична стрічка"
-  description: "Призматична стрічка."
+  name: Prismatic ribbon
+  description: An prismatic ribbon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/prismatic_ribbon.rsi
@@ -406,16 +406,16 @@
 - type: entity
   parent: RMCMedalRibbonPrismatic
   id: RMCMedalRibbonPrismaticService
-  name: "призматична нагородна стрічка"
-  description: "Легендарна призматична стрічка, що видається цивільним, які можуть бути богом серед простих смертних. Такі нагороди вимагають майже неможливого обсягу часу та відданості організації."
+  name: prismatic award ribbon
+  description: A legendary prismatic ribbon awarded to civilians, whom may be a god walking amongst mere mortals. Such awards require a nigh on impossible amount of time and dedication to the organization to achieve.
 
 
   # Liaison Medals
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalBronzeNametag
-  name: "бронзовий бейдж"
-  description: "Бронзовий бейдж з ім'ям."
+  name: bronze name badge
+  description: A bronze name badge.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/bronze_nametag.rsi
@@ -428,14 +428,14 @@
 - type: entity
   parent: RMCMedalBronzeNametag
   id: RMCMedalBronzeNametagService
-  name: "бейдж молодшого керівника"
-  description: "Гравірований бронзовий значок з ім'ям, званням і відділом носія. Видається тим, хто щойно почав підніматися корпоративною драбиною."
+  name: junior executive name badge
+  description: An engraved bronze badge, containing the wearer's name, rank, and department. This one is given to those who have just begun to climb the Corporate ladder.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalSilverNametag
-  name: "срібний бейдж"
-  description: "Срібний бейдж з ім'ям."
+  name: silver name badge
+  description: A silver name badge.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/silver_nametag.rsi
@@ -448,14 +448,14 @@
 - type: entity
   parent: RMCMedalSilverNametag
   id: RMCMedalSilverNametagService
-  name: "бейдж керівника"
-  description: "Гравірований яскраво-срібний значок з ім'ям, званням і відділом носія. Видається тим, хто довів свою цінність для «Вестон-Ямада» як гідний працівник."
+  name: executive name badge
+  description: An engraved bright silver badge, containing the wearer's name, rank, and department. This one is given to those who have proven their worth to Weston-Yamada as a valuable employee.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalGoldNametag
-  name: "золотий бейдж"
-  description: "Престижний золотий бейдж з ім'ям."
+  name: gold name badge
+  description: A prestigious golden name badge.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/gold_nametag.rsi
@@ -468,14 +468,14 @@
 - type: entity
   parent: RMCMedalGoldNametag
   id: RMCMedalGoldNametagService
-  name: "бейдж старшого керівника"
-  description: "Гравірований золотий значок з ім'ям, званням і відділом носія. Це рідкісна нагорода, що видається тим, хто проявив відданість Компанії і визнаний як кваліфікований і надійний актив."
+  name: senior executive name badge
+  description: An engraved golden badge, containing the wearer's name, rank, and department. This one is rare, awarded to those who have shown their dedication to the Company, and has been deemed both a skilled and reliable asset.
 
 - type: entity
   parent: RMCMedalBase
   id: RMCMedalPlatinumNametag
-  name: "золото-чорний бейдж"
-  description: "Дуже престижний золото-чорний бейдж з ім'ям, що видається тим, кого головні керівники визнали гідним."
+  name: gold and black name badge
+  description: A very prestigious gold-black name badge, handed out to those deemed worthy by the chief executives.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medals/plat_nametag.rsi
@@ -488,7 +488,7 @@
 - type: entity
   parent: RMCMedalPlatinumNametag
   id: RMCMedalPlatinumNametagService
-  name: "бейдж керівного спеціаліста"
-  description: "Гравірований золото-чорний значок з ім'ям, званням і відділом носія. Найвище звання, якого більшість керівників може досягти за життя; уособлює вплив, навички та важливість для Корпорації «Вестон-Ямада»."
+  name: executive specialist name badge
+  description: An engraved gold-and-black badge, containing the wearer's name, rank, and department. The highest rank most executives can reach within their lifetimes, it signifies ones influence, skill, and importance to the Weston-Yamada Corporation.
 
 

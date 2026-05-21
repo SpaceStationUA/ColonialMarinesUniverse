@@ -1,9 +1,9 @@
 
 - type: entity
-  name: "плюм-гриб"
+  name: plump-helmet
   parent: FoodProduceBase
   id: FoodMushroomPlump
-  description: "Плюмус Хеллмус: Та ЗАМОВКНІТЬ нарешті про ці КЛЯТІ гриби! РУХАЙТЕСЯ, морпіхи!"
+  description: "Plumus Hellmus: Oh, SHUT UP about the BLOODY mushrooms already! MOVE IT, marines!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -22,10 +22,10 @@
     - Vegetable
 
 - type: entity
-  name: "арахіс"
+  name: peanut
   parent: FoodProduceBase
   id: FoodPeanut
-  description: "Горіхи!"
+  description: "Nuts!"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -51,10 +51,10 @@
     - Vegetable
 
 - type: entity
-  name: "білий буряк"
+  name: white beet
   parent: FoodProduceBase
   id: FoodWhiteBeet
-  description: "Білого буряка не побореш."
+  description: "You can't beat white-beet."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -75,10 +75,10 @@
     - Vegetable
 
 - type: entity
-  name: "соняшник"
+  name: sunflower
   parent: ProduceBase
   id: FoodSunflower
-  description: "Він прекрасний! Хтось може забити вас до смерті, якщо ви потопчете їх."
+  description: "It's beautiful! A certain person might beat you to death if you trample these."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -97,10 +97,10 @@
     - Vegetable
 
 - type: entity
-  name: "жмут трави"
+  name: bundle of grass
   parent: ProduceBase
   id: FoodGrass
-  description: "Давай, торкнися трави."
+  description: "Go ahead, touch some grass."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Kitchen/Plants/grass.rsi
@@ -113,10 +113,10 @@
     - Vegetable
 
 - type: entity
-  name: "манго"
+  name: mango
   parent: FoodProduceBase
   id: RMCFoodMango
-  description: "МАНГО МАНГО МАНГО"
+  description: "MANGO MANGO MANGO"
   components:
   - type: FlavorProfile
     flavors:

@@ -76,7 +76,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianColonyAdministrator
-  name: "точка появи адміністратора колонії"
+  name: Spawn Point Colony Administrator
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonyAdministrator

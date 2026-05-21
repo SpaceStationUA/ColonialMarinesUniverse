@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ] # L42A battle rifle base remove wield stuff (uses m54c ammo diffrent mags)
-  name: "бойова гвинтівка L42A"
+  name: L42A battle rifle
   id: RMCWeaponRifleL42A
-  description: "Бойова гвинтівка L42A, що часто зустрічається на кордонах Галактики. Широко використовується колоністами для самооборони, а також багатьма колоніальними ополченнями, кому б вони не служили, через її міцну надійність і простоту використання без особливого навчання. Цю гвинтівку висунули на прийняття до ОНМП і деякий час випробовували, але вона зрештою програла вже наявному M4SPR."
+  description: The L42A Battle Rifle, found commonly around the frontiers of the Galaxy. It's commonly used by colonists for self defense, as well as many colonial militias, whomever they serve due to it's rugged reliability and ease of use without much training. This rifle was put up for adoption by the UNMC and tested for a time, but ultimately lost to the M4SPR already in service.
   suffix: Filled
   components:
   - type: Sprite
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42A
-  name: "Магазин L42A (10x24мм)"
-  description: "Магазин 10x24мм для бойової гвинтівки."
+  name: L42A magazine (10x24mm)
+  description: A 10x24mm battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -133,8 +133,8 @@
 - type: entity
   parent: RMCMagazineRifleL42A
   id: RMCMagazineRifleL42AExtended
-  name: "Подовжений магазин L42A (10x24мм)"
-  description: "Подовжений магазин 10x24мм для бойової гвинтівки."
+  name: L42A Extended magazine (10x24mm)
+  description: A Extended 10x24mm battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -167,8 +167,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AAP
-  name: "Бронебійний магазин L42A (10x24мм)"
-  description: "Бронебійний магазин 10x24мм для бойової гвинтівки."
+  name: L42A AP magazine (10x24mm)
+  description: A 10x24mm Armor Piercing battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -197,8 +197,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AWP
-  name: "Стіно-проникний магазин L42A (10x24мм)"
-  description: "Стіно-проникний магазин 10x24мм для бойової гвинтівки."
+  name: L42A WP magazine (10x24mm)
+  description: A 10x24mm Wall Piercing battle rifle magazine.
   components:
   - type: Tag
     tags:
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL42AIncendiary
-  name: "Запалювальний магазин L42A (10x24мм)"
-  description: "Запалювальний магазин 10x24мм для бойової гвинтівки."
+  name: L42A incendiary magazine (10x24mm)
+  description: A 10x24mm Incendiary battle rifle magazine.
   components:
   - type: Tag
     tags:

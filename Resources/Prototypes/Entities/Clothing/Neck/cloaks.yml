@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakCentcom
-  name: "плащ центрального командира"
-  description: "Пихатий і елітний зелений плащ із гарною золотою облямівкою, пошитий спеціально для Центрального Командира. Він такий важкий, що золота облямівка може бути справжньою."
+  name: central commander's cloak
+  description: A pompous and elite green cloak with a nice gold trim, tailored specifically to the Central Commander. It's so heavy, the gold trim might be real.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/centcomcloakformal.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCap
-  name: "плащ капітана"
-  description: "Пихатий і зручний синій плащ із гарною золотою облямівкою. Хоч він і не такий цінний, як інші твої речі, зате точно вишуканий."
+  name: captain's cloak
+  description: A pompous and comfy blue cloak with a nice gold trim, while not particularly valuable as your other possessions, it sure is fancy.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/cap.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHos
-  name: "плащ голови служби безпеки"
-  description: "Вишуканий темно-червоний плащ для тих, хто здатен домінувати над порушниками порядку. Спробуй бути цивілізованим у переслідуванні!"
+  name: head of security's cloak
+  description: An exquisite dark and red cloak fitting for those who can assert dominance over wrongdoers. Take a stab at being civil in prosecution!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/hos.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCe
-  name: "плащ старшого інженера"
-  description: "Темно-зелений плащ зі світло-блакитними прикрасами, який дають тим, хто довів своє володіння точним мистецтвом інженерії."
+  name: chief engineer's cloak
+  description: A dark green cloak with light blue ornaments, given to those who proved themselves to master the precise art of engineering.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/ce.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingCloakCmo
-  name: "плащ головного лікаря"
-  description: "Стерильно-синій плащ із зеленим хрестом, що випромінює відчуття обов’язку та готовності допомагати іншим."
+  name: chief medical officer's cloak
+  description: A sterile blue cloak with a green cross, radiating with a sense of duty and willingness to help others.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/cmo.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakRd
-  name: "плащ директора досліджень"
-  description: "Білий плащ із фіолетовими смугами, що підкреслює ваш статус арбітра передових технологій."
+  name: research director's cloak
+  description: A white cloak with violet stripes, showing your status as the arbiter of cutting-edge technology.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/rd.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakQm
-  name: "плащ квартирмейстера"
-  description: "Міцний коричневий плащ зі світловідбивною смугою. Хоч він і не такий вишуканий, як інші, зате показує ваші управлінські навички."
+  name: quartermaster's cloak
+  description: A strong brown cloak with a reflective stripe, while not as fancy as others, it does show your managing skills.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/qm.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakHop
-  name: "плащ голови персоналу"
-  description: "Синій плащ із червоними плечима та золотими ґудзиками, що доводить: ви є воротарем до будь-якого шлюзу на станції."
+  name: head of personnel's cloak
+  description: A blue cloak with red shoulders and gold buttons, proving you are the gatekeeper to any airlock on the station.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/hop.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakHerald
-  name: "плащ герольда"
-  description: "Зловісний червоний плащ із шипами на плечах."
+  name: herald's cloak
+  description: An evil-looking red cloak with spikes on its shoulders.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/herald.rsi
@@ -98,8 +98,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakNanotrasen
-  name: "плащ Nanotrasen"
-  description: "Статечний синій плащ, що представляє NanoTrasen."
+  name: nanotrasen cloak
+  description: A stately blue cloak to represent NanoTrasen.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/nanotrasen.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ClothingNeckBase, BaseCommandContraband]
   id: ClothingNeckCloakCapFormal
-  name: "офіційний плащ капітана"
-  description: "Розкішний оздоблений плащ для особливих випадків."
+  name: captain's formal cloak
+  description: A lavish and decorated cloak for special occasions.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/capcloakformal.rsi
@@ -118,8 +118,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAdmin
-  name: "weh плащ"
-  description: "Weh!"
+  name: weh cloak
+  description: Weh!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/admin.rsi
@@ -129,8 +129,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakSalvagerSupreme
-  name: "плащ верховного утилізатора"
-  description: "Його носять найвправніші утилізатори, ті, хто підкорив космос і зробив шахтарський астероїд своїм доменом. Такі речі ж не роздають просто так, розумієш?"
+  name: supereme salvager's cloak
+  description: Worn by the most skilled salvagers, for one who has mastered space and made the mining asteroid his domain. They don't just hand these things out, y'know?
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/miner.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakTrans
-  name: "вампірський плащ"
-  description: "Його носять високопоставлені вампіри трансильванського товариства вампірів."
+  name: vampire cloak
+  description: Worn by high ranking vampires of the transylvanian society of vampires.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/trans.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakGoliathCloak
-  name: "плащ голіафа"
-  description: "Плащ, зроблений зі шкури витривалої фауни з далекої планети, хоча його захисна цінність уже зменшилася з віком."
+  name: goliath cloak
+  description: A cloak made from the hide of resilient fauna from a distant planet, though its protective value has faded with its age.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/goliathcloak.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakPirateCap
-  name: "плащ піратського капітана"
-  description: "Досить ефектний чорний піратський плащ із череповим мотивом."
+  name: pirate captain cloak
+  description: A rather fetching black pirate cloak, complete with skull motif.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/piratecap.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakMoth
-  name: "плащ молі"
-  description: "Плащ у вигляді крил молі є незвичайним і оригінальним елементом гардероба, що може привертати увагу інших. Він зроблений із тонкої тканини, що імітує крила молі, з м'якими й пухнастими краями. Плащ застібається навколо шиї на липучку та має капюшон у формі голови молі."
+  name: moth cloak
+  description: A cloak in the form of moth wings is an unusual and original element of the wardrobe that can attract the attention of others. It is made of a thin fabric imitating moth wings, with soft and fluffy edges. The raincoat is fastened around the neck with Velcro, and has a hood in the shape of a moths head.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/moth.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakVoid
-  name: "плащ порожнечі"
-  description: "Плащ темряви. Для тих, хто перейшов на темний бік сили."
+  name: void cloak
+  description: A cloak of darkness. For those who have gone to the dark side of the force.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/void.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAce
-  name: "плащ пілота"
-  description: "Плащ, яким нагороджують найкращих космічних асів Нанотрейзен."
+  name: pilot's cloak
+  description: Cloak awarded to Nanotrasen's finest space aces.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/ace.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAro
-  name: "плащ перевертня"
-  description: "Цей плащ дає іншим зрозуміти, що ти самотній вовк."
+  name: werewolf cloak
+  description: This cloak lets others know you're a lone wolf.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/aro.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakAroace
-  name: "плащ аеропілота" # thank you happyman442 this was the best name idea ever
-  description: "Плащ, яким нагороджують найкращих пілотів Нанотрейзен на планетах із придатною для життя атмосферою."
+  name: aeropilot's cloak # thank you happyman442 this was the best name idea ever
+  description: Cloak awarded to Nanotrasen's finest pilots on planets with inhabitable atmospheres.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/aroace.rsi
@@ -238,8 +238,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakBi
-  name: "отруйний плащ"
-  description: "Фіолетовий колір є очевидною ознакою того, що ти отруйний."
+  name: poison cloak
+  description: The purple color is a clear indicator you are poisonous.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/bi.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakIntersex
-  name: "плащ циклопа"
-  description: "Коло на цьому плащі символізує око циклопа."
+  name: cyclops cloak
+  description: The circle on this cloak represents a cyclops' eye.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/intersex.rsi
@@ -256,8 +256,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakLesbian
-  name: "плащ поета"
-  description: "Цей плащ належав давньому поетові, але ти забув, якому саме."
+  name: poet cloak
+  description: This cloak belonged to an ancient poet, you forgot which one.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/les.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakGay
-  name: "плащ багаторівневого маркетингу"
-  description: "Цей плащ має великий попит в офісах маркетингу Нанотрейзен."
+  name: multi-level marketing cloak
+  description: This cloak is highly sought after in the Nanotrasen Marketing Offices.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/gay.rsi
@@ -274,8 +274,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakEnby
-  name: "плащ мисливця за скарбами"
-  description: "Цей плащ належав жадібному мисливцеві за скарбами."
+  name: treasure hunter cloak
+  description: This cloak belonged to a greedy treasure hunter.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/enby.rsi
@@ -283,8 +283,8 @@
 - type: entity
   parent: ClothingNeckBase
   id: ClothingNeckCloakPan
-  name: "плащ шеф-кухаря"
-  description: "Призначений для носіння разом зі сковородою."
+  name: chef's cloak
+  description: Meant to be worn alongside a frying pan.
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/pan.rsi

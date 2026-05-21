@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCLFPhysician
-  name: "точка появи лікаря КФВ"
+  name: Spawn Point CLF Physician
   components:
   - type: SpawnPoint
     job_id: AU14JobCLFPhysician

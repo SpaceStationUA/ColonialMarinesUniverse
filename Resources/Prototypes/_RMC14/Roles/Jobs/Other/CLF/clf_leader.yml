@@ -56,7 +56,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFCellLeader
-  name: "привид-роль лідера клітини clf"
+  name: clf ghost role cell leader
   suffix: Spawner, Player
   components:
   - type: Sprite

@@ -3,7 +3,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMclothingequipmentvendor
-  name: "автомат одягу ККМП США"
+  name: USCM apparel vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of US Colonial Marine Corps apparel.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -267,7 +267,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMcorpsmanvendor
-  name: "медичний автомат санітара ККМП США"
+  name: USCM corpsman medical vendor
   description: >-
     An automated medical rack, hooked up to a compact stock of US Colonial Marine Corps trauma supplies.
     Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
@@ -396,7 +396,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMaircrewvendor
-  name: "автомат авіаекіпажу Аерокосмічних сил США"
+  name: USASF aircrew vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of US Aero Space Force aircrew flight and support gear.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -585,7 +585,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMcommandequipmentvendor
-  name: "командний автомат ККМП США"
+  name: USCM command vendor
   description: >-
     An automated command rack, hooked up to a restricted storage of US Colonial Marine Corps command-leadership equipment.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -667,7 +667,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMSGequipmentvendor
-  name: "автомат спорядження смартганера ККМП США"
+  name: USCM smartgunner equipment vendor
   description: >-
     An automated smartgunner rack, hooked up to a small armory of US Colonial Marine Corps heavy-weapon operator systems.
     Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
@@ -705,7 +705,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMsectionleaderequipmentvendor
-  name: "автомат командира секції ККМП США"
+  name: USCM section leader vendor
   description: >-
     An automated equipment rack, hooked up to a compact storage of US Colonial Marine Corps section-leadership equipment.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -735,7 +735,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMWeaponsVendor
-  name: "збройова стійка ККМП США"
+  name: USCM weapons rack
   description: >-
     An automated weapons rack, hooked up to a small armory of US Colonial Marine Corps weaponry.
     Standard issue across the frontier where threats can appear without warning.
@@ -780,7 +780,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMSpecialWeaponsVendor
-  name: "стійка спеціальної зброї ККМП США"
+  name: USCM special weapons rack
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of US Colonial Marine Corps heavy and breaching ordnance.
     Standard issue only for qualified operators.
@@ -838,7 +838,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14USCMequipmentvendor
-  name: "автомат спорядження ККМП США"
+  name: equipment vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of US Colonial Marine Corps equipment.
     Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
@@ -976,8 +976,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RTOVendor
-  name: "стійка радіотелефоніста"
-  description: "Автоматизована стійка, під’єднана до невеликого запасу радіоспорядження."
+  name: radio telephone operator rack
+  description: An automated rack hooked up to a small storage of radio equipment.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforFTL" ], [ "AU14AccessOpforFTL" ] ]
@@ -1013,8 +1013,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14AircrewWeaponsVendor
-  name: "збройова стійка авіаекіпажу"
-  description: "Автоматизована стійка, під’єднана до невеликого запасу зброї."
+  name: aircrew weapons rack
+  description: An automated rack hooked up to a small storage of weapons.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -1049,8 +1049,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14ComtechGearVendor
-  name: "стійка спорядження бойових техніків"
-  description: "Автоматизована стійка спорядження для бойових техніків."
+  name: combat technicians gear rack
+  description: An automated gear rack for combat technicians.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforEngineering" ], [ "AU14AccessOpforEngineering" ] ]
@@ -1132,8 +1132,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: AU14VendorBundleCombatTechnicianEssentials
-  name: "основний комплект інженера"
-  description: "Містить 50 металу, 40 пласталі, 25 мішків із піском, енергоелемент високої ємності, замінник ламп, зварювальний візор і цвяхомет."
+  name: essential engineer set
+  description: Contains 50 metal, 40 plasteel, 25 sandbags, a high-capacity power cell, a light replacer, a welding visor, and a nailgun.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/wrench.rsi
@@ -1154,8 +1154,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: AU14VendorBundleCorpsmanEssentials
-  name: "основний комплект санітара"
-  description: "Основне спорядження санітара."
+  name: essential corpsman set
+  description: Essential corpsman equipment.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/first_aid_kits.rsi
@@ -1181,8 +1181,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14MilitaryPolicemanVendorUSCM
-  name: "стійка спорядження військової поліції ККМП США"
-  description: "Автоматизована стійка, під’єднана до невеликого запасу спорядження військової поліції."
+  name: USCM military police equipment rack
+  description: An automated rack hooked up to a small storage of military police equipment.
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -1236,8 +1236,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14USCMRequisitionVendor
-  name: "автоматизований автомат постачання ККМП США"
-  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
+  name: USCM automated requisitions vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

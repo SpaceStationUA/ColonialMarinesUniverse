@@ -51,7 +51,7 @@
 
 - type: entity
   id: AU14CLFGuerillaReinforcement
-  name: "пресет колоніста, що повернувся"
+  name: returning colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -73,14 +73,14 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicBaseMilitary
   id: AU14IntelThirdPartyCLFInsurgentReinforcements
-  name: "підкріплення повстанців"
+  name: Insurgent Reinforcements
   components:
   - type: GhostRoleApplySpecial
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "підкріплення повстанців"
+    name: Insurgent Reinforcements
     description: You have been sent from a neighboring insurgent cell to aid the uprising in this area. Report to the local cell leader for orders.
     job: AU14JobCLFGuerillaReinforcement
     raffle:

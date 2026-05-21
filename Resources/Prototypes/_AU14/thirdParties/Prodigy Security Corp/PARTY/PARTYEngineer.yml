@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTPartyEngineer #m41a/2
-  name: "Бойовий інженер Янкі Продіджі"
+  name: Prodigy Yankee Combat Engineer
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTPartyEngineer
   ranks:
@@ -32,7 +32,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobPARTPartyEngineer
-  name: "бойовий інженер групи PART (третя сторона)"
+  name: part Party Combat Engineer (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
