@@ -35,7 +35,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFSoldier
-  name: clf ghost role soldier
+  name: "привид-роль солдата clf"
   suffix: Spawner, Player
   components:
   - type: Sprite

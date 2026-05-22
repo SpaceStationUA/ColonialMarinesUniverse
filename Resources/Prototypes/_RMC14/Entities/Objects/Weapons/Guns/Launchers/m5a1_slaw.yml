@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseWeaponLauncher
   id: RMCWeaponLauncherDisposable
-  name: M5A1 SLAW
-  description: The M5A1 SLAW is a lightweight one-shot anti-armor weapon capable of engaging enemy vehicles at ranges up to 1,000m. Fully disposable, the rocket's launcher is discarded after firing. When stowed, the SLAW system consists of a watertight carbon-fiber composite blast tube, inside of which is an aluminum launch tube containing the missile. The weapon is fired by pushing a charge button on the trigger grip. It is sighted and fired from the shoulder.
+  name: "M5A1 SLAW"
+  description: "M5A1 SLAW — це легка одноразова протиброньова зброя, здатна вражати ворожі транспортні засоби на дистанції до 1000 м. Повністю одноразова — пускач ракети викидається після пострілу. У згорнутому вигляді система SLAW складається з герметичної вуглепластикової вибухової труби, всередині якої є алюмінієва пускова труба з ракетою. Зброя стріляє натисканням заряджувальної кнопки на спусковій рукоятці. Її прицілюють і ведуть вогонь з плеча."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/m5a1_disposable.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCWeaponLauncherDisposableFolded
-  name: M5A1 SLAW
-  description: An M5A1 SLAW Anti-Tank RPG, compacted for easier storage.
+  name: "M5A1 SLAW"
+  description: "Протитанковий РПГ M5A1 SLAW, складений для зручнішого зберігання."
   suffix: Folded
   components:
   - type: Sprite

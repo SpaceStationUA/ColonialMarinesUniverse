@@ -2,9 +2,9 @@
   id: ForceOnForce
   alias:
     - forceonforce
-  name: Force on Force
+  name: "Сила проти сили"
   showInVote: true
-  description: Two units face each other in combat.
+  description: "Два підрозділи сходяться один проти одного в бою."
   minPlayers: 140
   requiresOpforVote: true
   requiresGovforVote: true
@@ -30,9 +30,9 @@
   id: Insurgency
   alias:
     - insurgency
-  name: Insurgency
+  name: "Повстання"
   showInVote: true
-  description: Insurgency mode
+  description: "Режим повстання"
   minPlayers: 40
   requiresGovforVote: true
   supportedPlanets:
@@ -53,9 +53,9 @@
 
 - type: gamePreset
   id: DistressSignal
-  name: Distress Signal
+  name: "Сигнал лиха"
   showInVote: true
-  description: Investigate a mysterious distress signal as government forces.
+  description: "Розслідуйте загадковий сигнал лиха в ролі урядових сил."
   requiresGovforVote: true
   supportedPlanets:
 #  - AUPlanetShepherdsPride
@@ -80,10 +80,10 @@
   id: ColonyFall
   alias:
     - colonyfall
-  name: Colony Fall
+  name: "Падіння колонії"
   showInVote: true
   minPlayers: 0
-  description: Live in an offworld colony as it falls into chaos.
+  description: "Живіть у позасвітній колонії, поки вона занурюється в хаос."
   rules:
     - AuVoteRule
     - ColonyAntags
@@ -100,9 +100,9 @@
   id: Jailbreak
   alias:
     - jailbreak
-  name: Jailbreak
+  name: "Втеча з в’язниці"
   showInVote: false
-  description: Jailbreak mode
+  description: "Режим втечі з в’язниці"
   rules:
     - AuVoteRule
 
@@ -110,9 +110,9 @@
   id: Prometheus
   alias:
     - prometheus
-  name: Prometheus
+  name: "Прометей"
   showInVote: false
-  description: Prometheus mode
+  description: "Режим «Прометей»"
   rules:
     - AuVoteRule
 
@@ -120,9 +120,9 @@
   id: Criminal
   alias:
     - criminal
-  name: Criminal
+  name: "Злочинець"
   showInVote: false
-  description: Criminal mode
+  description: "Режим злочинця"
   rules:
     - AuVoteRule
 
@@ -198,8 +198,8 @@
 - type: entity
   id: ColonyAntags
   parent: BaseGameRule
-  name: Colony Antags
-  description: Randomly rolls for each colony antag to be present this round.
+  name: "антаги колонії"
+  description: "Випадково визначає, які антаги колонії будуть присутні в цьому раунді."
   components:
   - type: GameRule
   - type: ColonyAntagsRule
@@ -208,8 +208,8 @@
 - type: entity
   id: AuVoteRule
   parent: BaseGameRule
-  name: Colony Antags
-  description: If you want your mode to load planets and platoons automatically
+  name: "антаги колонії"
+  description: "Якщо ви хочете, щоб ваш режим автоматично завантажував планети та взводи"
   components:
   - type: AuVoteRule
   - type: Bioscan
@@ -220,8 +220,8 @@
 - type: entity
   id: RemoveAllJobs
   parent: BaseGameRule
-  name: Remove All Jobs
-  description: Removes all jobs on the planet's main station prior to round start. Optionally removes jobs on ship stations.
+  name: "Прибрати всі роботи"
+  description: "Прибирає всі роботи на головній станції планети перед початком раунду. За бажанням також прибирає роботи на корабельних станціях."
   components:
   - type: RemoveJobsRule
 

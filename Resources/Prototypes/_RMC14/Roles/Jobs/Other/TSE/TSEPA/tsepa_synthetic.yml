@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointTSEPASynthetic
-  name: tsepa synthetic spawn point
+  name: "спавнер синтетика tsepa"
   components:
   - type: SpawnPoint
     job_id: RMCJobTSEPASynthetic

@@ -1,8 +1,8 @@
 - type: entity
   id: Grille
   parent: BaseStructure
-  name: grille
-  description: A flimsy framework of iron rods.
+  name: "решітка"
+  description: "Хиткий каркас із залізних прутів."
   components:
     - type: MeleeSound
       soundGroups:
@@ -89,8 +89,8 @@
 - type: entity
   id: ClockworkGrille
   parent: Grille
-  name: clockwork grille
-  description: A flimsy framework of iron rods assembled in traditional Ratvarian fashion.
+  name: "зламана годинникова решітка"
+  description: "Хиткий каркас із залізних прутів, зібраний у традиційному ратваріанському стилі."
   components:
   - type: Sprite
     drawdepth: Walls
@@ -109,8 +109,8 @@
 - type: entity
   id: GrilleBroken
   parent: BaseStructure
-  name: grille
-  description: A flimsy framework of iron rods. It has seen better days.
+  name: "решітка"
+  description: "Хиткий каркас із залізних прутів. Бачила й кращі часи."
   components:
   - type: Sprite
     drawdepth: Walls
@@ -151,8 +151,8 @@
 - type: entity
   id: ClockworkGrilleBroken
   parent: GrilleBroken
-  name: clockwork grille
-  description: A flimsy framework of iron rods assembled in traditional Ratvarian fashion. It has seen better days.
+  name: "зламана годинникова решітка"
+  description: "Хиткий каркас із залізних прутів, зібраний у традиційному ратваріанському стилі. Бачила й кращі часи."
   components:
   - type: Sprite
     drawdepth: Walls
@@ -168,7 +168,7 @@
 - type: entity
   id: GrilleDiagonal
   parent: Grille
-  name: diagonal grille
+  name: "діагональна решітка"
   components:
   - type: Sprite
     drawdepth: Walls
@@ -206,7 +206,7 @@
 - type: entity
   id: ClockworkGrilleDiagonal
   parent: ClockworkGrille
-  name: diagonal clockwork grille
+  name: "діагональна годинникова решітка"
   components:
   - type: Sprite
     drawdepth: Walls

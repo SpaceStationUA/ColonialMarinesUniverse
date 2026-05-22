@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesEnvironmentalResearcher
-  name: enviromental researcher spawn point
+  name: "спавнер дослідника навколишнього середовища"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -61,7 +61,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesEnvironmentalResearcher
-  name: chances environmental researcher ghost role
+  name: "привид-роль дослідника навколишнього середовища chances"
   components:
   - type: Sprite
     layers:

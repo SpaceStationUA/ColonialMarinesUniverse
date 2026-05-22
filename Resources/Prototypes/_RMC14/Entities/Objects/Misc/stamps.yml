@@ -4,8 +4,8 @@
   parent: RubberStampBase
   id: CMStampBase
   abstract: true
-  name: rubber stamp
-  description: A rubber stamp for stamping important documents.
+  name: "гумовий штамп"
+  description: "Гумовий штамп для штампування важливих документів."
   components:
   - type: Item
     heldPrefix: stamp
@@ -21,7 +21,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampXO
-  name: executive officer's rubber stamp
+  name: "гумовий штамп виконавчого офіцера"
   components:
   - type: Sprite
     state: stamp-hop
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMStampXO
   id: CMStampCO
-  name: commanding officer's rubber stamp
+  name: "гумовий штамп Командира"
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-cm-co
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampASO
-  name: auxiliary support officer's rubber stamp
+  name: "гумовий штамп офіцера допоміжної підтримки"
   components:
   - type: Sprite
     state: stamp-ce
@@ -53,7 +53,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMP
-  name: Chief MP's rubber stamp
+  name: "гумовий штамп головного ВП"
   components:
   - type: Sprite
     state: stamp-hos
@@ -65,7 +65,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMW
-  name: Military Warden's rubber stamp
+  name: "гумовий штамп Військового Наглядача"
   components:
   - type: Sprite
     state: stamp-mw
@@ -77,7 +77,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMO
-  name: chief medical officer's rubber stamp
+  name: "печатка головного лікаря"
   components:
   - type: Sprite
     state: stamp-cmo
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampQM
-  name: Logistics Officer's rubber stamp
+  name: "гумовий штамп Офіцера Логістики"
   components:
   - type: Sprite
     state: stamp-ro
@@ -101,7 +101,7 @@
 - type: entity
   parent: CMStampASO
   id: CMStampCE
-  name: chief engineer's rubber stamp
+  name: "печатка головного інженера"
   components:
   - type: Sprite
     state: stamp-ce
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampSEA
-  name: senior enlisted advisor's rubber stamp
+  name: "гумовий штамп старшого радника зі складу рядових"
   components:
   - type: Sprite
     state: stamp-sea
@@ -124,7 +124,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampLiaison
-  name: corporate liaison rubber stamp
+  name: "гумовий штамп корпоративного зв'язківця"
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -136,7 +136,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampProvostInspector
-  name: provost inspector rubber stamp
+  name: "гумовий штамп інспектора прево"
   components:
   - type: Sprite
     state: stamp-provost
@@ -151,7 +151,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampApproved
-  name: APPROVED rubber stamp
+  name: "ЗАТВЕРДЖЕНА гумова печатка"
   components:
   - type: Sprite
     state: stamp-approve
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampDenied
-  name: DENIED rubber stamp
+  name: "ВІДМОВЛЕНА гумова печатка"
   components:
   - type: Sprite
     state: stamp-deny
@@ -177,7 +177,7 @@
 - type: entity
   parent: CMStampLiaison
   id: CMStampWeYa
-  name: Weston-Yamada rubber stamp
+  name: "гумовий штамп «Вестон-Ямада»"
   suffix: Admin
   components:
   - type: Stamp
@@ -186,7 +186,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampMarine
-  name: marine rubber stamp
+  name: "гумовий штамп морпіха"
   suffix: Admin, UNMC
   components:
   - type: Sprite
@@ -199,7 +199,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampCMB
-  name: colony marshal bureau rubber stamp
+  name: "гумовий штамп Бюро Колоніальних Маршалів"
   suffix: Admin, CMB
   components:
   - type: Sprite
@@ -212,7 +212,7 @@
 - type: entity
   parent: CMStampBase
   id: CMStampProvost
-  name: provost rubber stamp
+  name: "гумовий штамп прево"
   suffix: Admin, Provost
   components:
   - type: Sprite
@@ -225,7 +225,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampCLF
-  name: colony liberation front rubber stamp
+  name: "гумовий штамп Колоніального Фронту Звільнення"
   suffix: Admin, CLF
   components:
   - type: Sprite
@@ -238,7 +238,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampSPP
-  name: socialist progressive peoples rubber stamp
+  name: "гумовий штамп Соціалістичних Прогресивних Народів"
   suffix: Admin, SPP
   components:
   - type: Sprite
@@ -251,7 +251,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampTSE
-  name: three suns empire rubber stamp
+  name: "гумовий штамп Імперії Трьох Сонць"
   suffix: Admin, TSE
   components:
   - type: Sprite
@@ -264,7 +264,7 @@
 - type: entity
   parent: CMStampBase
   id: RMCStampFreePress
-  name: free press rubber stamp
+  name: "гумовий штамп вільної преси"
   suffix: Admin, Press
   components:
   - type: Sprite
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMStampXO
   id: AU14StampAdjutant
-  name: adjutant's rubber stamp
+  name: "гумовий штамп ад'ютанта"
   components:
   - type: Stamp
     stampedName: Adjutant

@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: OG60 rotary grenade launcher
+  name: "револьверний гранатомет OG60"
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: AU14WeaponLauncherOG60
-  description: A heavy, 6-shot grenade launcher used by the UPP armed collective.
+  description: "Важкий 6-зарядний гранатомет, який використовує збройний колектив УПП."
   components:
   - type: Item
     size: Huge

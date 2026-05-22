@@ -86,7 +86,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianColonySynthetic
-  name: Spawn Point AU14 Colony Synthetic
+  name: "точка появи колоніального синтетика AU14"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonySynthetic

@@ -47,7 +47,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSecurity
-  name: survivor security spawn point
+  name: "спавнер охорони-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetSecurity
-  name: security colonist preset
+  name: "пресет колоніста-охоронця"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -78,7 +78,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorSecurity
-  name: security colonist ghost role
+  name: "привид-роль колоніста-охоронця"
   components:
   - type: Sprite
     layers:

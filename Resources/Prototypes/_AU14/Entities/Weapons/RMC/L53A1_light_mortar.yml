@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: AU14MortarKitRMC
-  name: L53A1 light mortar portable kit
+  name: "переносний комплект легкого міномета L53A1"
   suffix: Classic
-  description: A manual, crew-operated light mortar system intended to provide mobile fire support for a troop of Royal Marines. Needs to be set down first.
+  description: "Ручна легка мінометна система з обслугою екіпажем, призначена для мобільної вогневої підтримки взводу королівських морпіхів. Спершу її потрібно встановити."
   components:
   - type: GuideHelp
     guides:
@@ -100,7 +100,7 @@
 
 - type: entity
   id: AU14MortarCameraRMC
-  name: para-cam
+  name: "пара-камера"
   suffix: RM
   components:
   - type: Transform

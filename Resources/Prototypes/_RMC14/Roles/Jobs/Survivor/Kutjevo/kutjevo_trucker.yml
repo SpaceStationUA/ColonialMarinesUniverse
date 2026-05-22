@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoTrucker
-  name: kutjevo trucker spawn point
+  name: "спавнер водія кутьєво"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoTrucker
@@ -52,5 +52,5 @@
 - type: entity
   parent: RMCSurvivorPresetTrucker
   id: RMCGearSurvivorPresetKutjevoTrucker
-  name: Kutjevo trucker colonist preset
+  name: "пресет колоніста-водія кутьєво"
   categories: [ HideSpawnMenu ]

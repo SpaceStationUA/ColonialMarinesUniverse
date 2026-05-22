@@ -73,8 +73,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowReinforcedAlmayerHull
-  name: hull window
-  description: A glass window with a special rod matrix inside a wall frame. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
+  name: "корпусне вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Це виготовили з екзотичних матеріалів для запобігання прориву корпусу. Тут не пройти."
   components:
   - type: Corrodible
     isCorrodible: false
@@ -94,8 +94,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowReinforcedAIHull
-  name: hull window
-  description: A glass window with a special rod matrix inside a wall frame. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
+  name: "корпусне вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Це виготовили з екзотичних матеріалів для запобігання прориву корпусу. Тут не пройти."
   components:
   - type: Corrodible
     isCorrodible: false
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowReinforcedAIHullBlack
-  name: hull window
-  description: A glass window with a special rod matrix inside a wall frame. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
+  name: "корпусне вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Це виготовили з екзотичних матеріалів для запобігання прориву корпусу. Тут не пройти."
   components:
   - type: Corrodible
     isCorrodible: false
@@ -140,8 +140,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowReinforcedAlmayer
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/almayer_window.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowReinforcedWhiteHull
-  name: hull window
-  description: An ultra-reinforced window designed to keep research a secure area. This one was made out of exotic materials to prevent hull breaches. No way to get through here.
+  name: "корпусне вікно"
+  description: "Ультраукріплене вікно, призначене захищати дослідницьку зону. Це виготовили з екзотичних матеріалів для запобігання прориву корпусу. Тут не пройти."
   components:
   - type: Corrodible
     isCorrodible: false
@@ -219,8 +219,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowReinforcedWhite
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/white_reinforced_window.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowWhiteColony
-  name: window
-  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
+  name: "вікно"
+  description: "Скляне вікно. Виглядає тонким і крихким. Кілька ударів чим-небудь мають його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_window.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: CMBaseWindow
   id: CMWindowWhiteColonyReinforced
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_rwindow.rsi
@@ -387,8 +387,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: CMWindowWhiteColonyHull
-  name: hull window
-  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. No way to get through here.
+  name: "корпусне вікно"
+  description: "Скляне вікно. Світло заломлюється неправильно, коли крізь нього дивишся. Виглядає досить міцно. Тут не пройти."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_rwindow.rsi
@@ -407,8 +407,8 @@
   parent: CMBaseWindow
   id: RMCHunterReinforcedWindow
   suffix: hunter
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/colony_rwindow.rsi
@@ -466,8 +466,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowWood
-  name: window
-  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
+  name: "вікно"
+  description: "Скляне вікно. Виглядає тонким і крихким. Кілька ударів чим-небудь мають його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/wood_window.rsi
@@ -520,8 +520,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowWoodReinforced
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/wood_rwindow.rsi
@@ -577,8 +577,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowAIReinforced
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/ai_rwindow.rsi

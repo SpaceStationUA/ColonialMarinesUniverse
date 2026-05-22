@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructure
   id: CMRack
-  name: rack
-  description: A bunch of metal shelves stacked on top of eachother. Excellent for storage purposes, less so as cover.
+  name: "стелаж"
+  description: "Купа металевих полиць, складених одна на одну. Чудово підходить для зберігання, гірше — як укриття."
   components:
   - type: VehicleSmashable
   - type: Transform

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCWeaponRevolverBase
   id: AU14WeaponRevolverM2019
-  name: "M2019 'blaster' autorevolver"
-  description: "A revolver originally issued to law enforcement in the early 21st century, most famously used by the now extinct Blade Runners during the height of the Replicant crisis in the early 2000s. Chambered in .357, the weapon is long obsolete but remains popular among collectors and 'fudds' alike. Numerous reproductions have surfaced over the decades, some faithful, others dangerously cheap. While rare, it's not unheard of to spot one tucked into a hip holster on the fringe worlds of the UA and TWE."
+  name: "авторевольвер M2019 «бластер»"
+  description: "Револьвер, який спочатку видавали правоохоронцям на початку XXI століття. Найбільше він відомий завдяки нині вимерлим блейдранерам під час піку кризи реплікантів на початку 2000-х. Під набій .357, ця зброя давно застаріла, але досі популярна серед колекціонерів і фаддів. За десятиліття з’явилося багато репродукцій: одні вірні оригіналу, інші небезпечно дешеві. Хоча він рідкісний, його все ще інколи можна побачити в кобурі на окраїнних світах Об’єднаних Америк та Імперії Трьох Світів."
   components:
   - type: Tag
     tags:

@@ -2,7 +2,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyCET
   categories: [ HideSpawnMenu ]
-  name: US Army Combat Engineering Tech ID card
+  name: "ID-карта бойового інженерного техніка армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyCET
@@ -14,7 +14,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyCMT
   categories: [ HideSpawnMenu ]
-  name: US Army Combat Medical Tech ID card
+  name: "ID-карта бойового медичного техніка армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyCMT
@@ -26,7 +26,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyHeavyGunner
   categories: [ HideSpawnMenu ]
-  name: US Army Heavy Gunner Operator ID card
+  name: "ID-карта оператора важкого кулемета армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyHeavyGunner
@@ -38,7 +38,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyMarksman
   categories: [ HideSpawnMenu ]
-  name: US Army Marksman ID card
+  name: "ID-карта стрільця-марксмана армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyMarksman
@@ -50,7 +50,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmySquadleader
   categories: [ HideSpawnMenu ]
-  name: US Army Section Leader ID card
+  name: "ID-карта командира секції армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmySquadLeader
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardUSArmySynth
-  name: US Army Synth ID card
+  name: "ID-карта синтетика армії США"
   categories: [ HideSpawnMenu ]
   components:
   - type: PresetIdCard
@@ -74,7 +74,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyTrooper
   categories: [ HideSpawnMenu ]
-  name: US Army Trooper ID card
+  name: "ID-карта бійця армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyTrooper
@@ -86,7 +86,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyTankCommander
   categories: [ HideSpawnMenu ]
-  name: US Army Tank Commander ID card
+  name: "ID-карта командира танка армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyTankCommander
@@ -98,7 +98,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyTankDriver
   categories: [ HideSpawnMenu ]
-  name: US Army Tank Driver ID card
+  name: "ID-карта механіка-водія танка армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyTankDriver
@@ -110,7 +110,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyTankGunner
   categories: [ HideSpawnMenu ]
-  name: US Army Tank Gunner ID card
+  name: "ID-карта навідника танка армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyTankGunner
@@ -122,7 +122,7 @@
   parent: CMIDCardBase
   id: AU14IDCardUSArmyTankLoader
   categories: [ HideSpawnMenu ]
-  name: US Army Tank Loader ID card
+  name: "ID-карта заряджальника танка армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyTankLoader
@@ -134,7 +134,7 @@
   parent: CMIDCardGold
   id: AU14IDCardUSArmyCommander
   categories: [ HideSpawnMenu ]
-  name: US Army Commander ID card
+  name: "ID-карта командира армії США"
   components:
   - type: PresetIdCard
     job: AU14USArmyCommander

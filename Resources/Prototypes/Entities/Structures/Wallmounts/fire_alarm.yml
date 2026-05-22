@@ -1,7 +1,7 @@
 - type: entity
   id: FireAlarm
-  name: fire alarm
-  description: A fire alarm. Spicy!
+  name: "пожежна сигналізація"
+  description: "Пожежна тривога. Гаряче!"
   components:
   - type: WallMount
   - type: ApcPowerReceiver
@@ -115,8 +115,8 @@
 
 - type: entity
   id: FireAlarmAssembly
-  name: fire alarm assembly
-  description: A fire alarm assembly. Very mild.
+  name: "монтаж пожежної сигналізації"
+  description: "Пожежна сигналізація. Дуже м'який."
   components:
   - type: WallMount
   - type: Clickable
@@ -146,7 +146,7 @@
 - type: entity
   id: FireAlarmXeno
   parent: FireAlarm
-  description: An alien fire alarm. Works just the same!
+  description: "Іншопланетна пожежна тривога. Працює точно так само!"
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -154,7 +154,7 @@
 - type: entity
   id: FireAlarmAssemblyXeno
   parent: FireAlarmAssembly
-  description: An alien fire alarm assembly. Good luck with the wires.
+  description: "Іншопланетна збірка пожежної тривоги. Удачі з дротами."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

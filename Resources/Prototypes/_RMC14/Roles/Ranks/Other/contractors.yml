@@ -1,29 +1,29 @@
 - type: rank
   id: RMCRankVAIMercenary
-  name: VAI Mercenary
+  name: "Найманець VAI"
   prefix: Merc.
 
 - type: rank
   id: RMCRankVAIMedicalSpecialist
-  name: VAI Medical Specialist
+  name: "Медичний Спеціаліст VAI"
   prefix: Med.
 
 - type: rank
   id: RMCRankVAIMachinegunner
-  name: VAI Machinegunner
+  name: "Кулеметник VAI"
   prefix: MG.
 
 - type: rank
   id: RMCRankVAIEngineeringSpecialist
-  name: VAI Engineering Specialist
+  name: "Інженерний Спеціаліст VAI"
   prefix: Eng.
 
 - type: rank
   id: RMCRankVAISynthetic
-  name: VAI Synthetic
+  name: "Синтетик VAI"
   prefix: Syn.
 
 - type: rank
   id: RMCRankVAITeamLeader
-  name: VAI Team Leader
+  name: "Лідер Команди VAI"
   prefix: TL.

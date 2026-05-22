@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOclothingequipmentvendor
-  name: VAIPO apparel vendor
+  name: "автомат одягу ВАІПО"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Vanguard Arrow Incorporated mercenary apparel used by their Primary Operations branch.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -214,7 +214,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOequipmentvendor
-  name: VAIPO equipment vendor
+  name: "автомат спорядження ВАІПО"
   description: >-
     An automated dispenser rack, hooked up to a small storage of standard Vanguard Arrow Incorporated mercenary equipment used by their Primary Operations branch.
     Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
@@ -313,7 +313,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOcorpsmanvendor
-  name: VAIPO medical vendor
+  name: "медичний автомат ВАІПО"
   description: >-
     An automated medical rack, hooked up to a compact stock of trauma supplies for Vanguard Arrow Incorporated mercenary medics used by their Primary Operations branch.
     Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
@@ -442,7 +442,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOaircrewvendor
-  name: VAIPO aircrew vendor
+  name: "автомат авіаекіпажу ВАІПО"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Vanguard Arrow Incorporated mercenary aircrew flight and support gear used by their Primary Operations branch.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -632,7 +632,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOcommandequipmentvendor
-  name: VAIPO command vendor
+  name: "командний автомат ВАІПО"
   description: >-
     An automated command rack, hooked up to a restricted storage of Vanguard Arrow Incorporated mercenary leadership equipment used by their Primary Operations branch.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -683,7 +683,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOSGequipmentvendor
-  name: VAIPO automatic rifleman equipment vendor
+  name: "автомат спорядження автоматника ВАІПО"
   description: >-
     An automated weapons rack, hooked up to a small armory of Vanguard Arrow Incorporated mercenary light-machine gun systems used by their Primary Operations branch.
     Standard issue for designated automatic riflemen on naval vessels and high-threat outposts.
@@ -712,7 +712,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOsectionleaderequipmentvendor
-  name: VAIPO section leader vendor
+  name: "автомат командира секції ВАІПО"
   description: >-
     An automated equipment rack, hooked up to a compact storage of Vanguard Arrow Incorporated mercenary section-leadership equipment used by their Primary Operations branch.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -733,7 +733,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOWeaponsVendor
-  name: VAIPO weapons rack
+  name: "збройова стійка ВАІПО"
   description: >-
     An automated weapons rack, hooked up to a small armory of Vanguard Arrow Incorporated mercenary weaponry used by their Primary Operations branch.
     Standard issue across the frontier where threats can appear without warning.
@@ -793,7 +793,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14VAIPOSpecialWeaponsVendor
-  name: VAIPO special weapons rack
+  name: "стійка спеціальної зброї ВАІПО"
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of Vanguard Arrow Incorporated heavy and breaching mercenary ordnance used by their Primary Operations branch.
     Standard issue only for qualified operators.
@@ -845,8 +845,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14VAIPORequisitionVendor
-  name: VAIPO automated requisitions vendor
-  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
+  name: "автоматизований автомат постачання ВАІПО"
+  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

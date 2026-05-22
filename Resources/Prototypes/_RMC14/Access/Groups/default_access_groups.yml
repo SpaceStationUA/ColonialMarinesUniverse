@@ -4,7 +4,7 @@
 
 - type: accessGroup
   id: RMCBaseHidden
-  name: protobaseaccess UNMC Hidden
+  name: "protobaseaccess UNMC Hidden"
   faction: FactionMarine
   accessGroup: UNMC Hidden
   hidden: true
@@ -13,7 +13,7 @@
 
 - type: accessGroup
   id: RMCBaseCommandJob
-  name: protobaseaccess UNMC Command
+  name: "protobaseaccess UNMC Command"
   faction: FactionMarine
   accessGroup: UNMC Command
   tags:
@@ -21,7 +21,7 @@
 
 - type: accessGroup
   id: RMCBaseAuxiliaryJob
-  name: protobaseaccess UNMC Auxiliary
+  name: "protobaseaccess UNMC Auxiliary"
   faction: FactionMarine
   accessGroup: UNMC Auxiliary
   tags:
@@ -29,7 +29,7 @@
 
 - type: accessGroup
   id: RMCBaseMiscellaneousJob
-  name: protobaseaccess UNMC Miscellaneous
+  name: "protobaseaccess UNMC Miscellaneous"
   faction: FactionMarine
   accessGroup: UNMC Miscellaneous
   tags:
@@ -37,7 +37,7 @@
 
 - type: accessGroup
   id: RMCBaseMPJob
-  name: protobaseaccess UNMC Military Police
+  name: "protobaseaccess UNMC Military Police"
   faction: FactionMarine
   accessGroup: UNMC Military Police
   tags:
@@ -45,7 +45,7 @@
 
 - type: accessGroup
   id: RMCBaseEngineeringJob
-  name: protobaseaccess UNMC Engineering
+  name: "protobaseaccess UNMC Engineering"
   faction: FactionMarine
   accessGroup: UNMC Engineering
   tags:
@@ -53,7 +53,7 @@
 
 - type: accessGroup
   id: RMCBaseRequisitionsJob
-  name: protobaseaccess UNMC Requisitions
+  name: "protobaseaccess UNMC Requisitions"
   faction: FactionMarine
   accessGroup: UNMC Requisitions
   tags:
@@ -61,7 +61,7 @@
 
 - type: accessGroup
   id: RMCBaseMedicalJob
-  name: protobaseaccess UNMC Medical
+  name: "protobaseaccess UNMC Medical"
   faction: FactionMarine
   accessGroup: UNMC Medical
   tags:
@@ -69,7 +69,7 @@
 
 - type: accessGroup
   id: RMCBaseMarinesJob
-  name: protobaseaccess UNMC Marines
+  name: "protobaseaccess UNMC Marines"
   faction: FactionMarine
   accessGroup: UNMC Marines
   tags:

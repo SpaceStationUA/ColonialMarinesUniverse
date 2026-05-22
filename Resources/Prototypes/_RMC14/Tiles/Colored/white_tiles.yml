@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: RMCFloorSteelPlanetWhiteBase
-  name: tiles-cm-default-white
+  name: "плитка CM стандартна біла"
 
 - type: tile
   parent: RMCFloorSteelPlanetWhiteBase

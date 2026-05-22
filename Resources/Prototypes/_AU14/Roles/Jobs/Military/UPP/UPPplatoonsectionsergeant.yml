@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantUPP
-  name: Platoon Leader
+  name: "лідер взводу"
   description: au14-job-description-govforSSG
   setPreference: false
   ranks:

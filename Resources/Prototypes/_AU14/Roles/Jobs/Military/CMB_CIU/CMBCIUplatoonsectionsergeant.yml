@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantCMBCIU
-  name: Unit Leader
+  name: "лідер підрозділу"
   description: au14-job-description-govforSSG
   setPreference: false
   ranks:

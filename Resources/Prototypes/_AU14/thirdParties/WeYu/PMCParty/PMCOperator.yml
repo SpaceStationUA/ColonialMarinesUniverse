@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYPMCPartyContractorBase
-  name: PMC Contractor
+  name: "контрактник ПВК"
   description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartyContractor
   basePlaytimeTracker: true
@@ -10,7 +10,7 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractor #m41a/2
-  name: PMC Contractor
+  name: "контрактник ПВК"
   description: au14-pmcparty-description
   ranks:
     AU14RankWeYuRecruit: []
@@ -46,7 +46,7 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractorM39B2
-  name: PMC Contractor
+  name: "контрактник ПВК"
   description: au14-pmcparty-description
   ranks:
     AU14RankWeYuRecruit: []
@@ -82,7 +82,7 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractorNSG23
-  name: PMC Contractor
+  name: "контрактник ПВК"
   description: au14-pmcparty-description
   ranks:
     AU14RankWeYuRecruit: []
@@ -118,7 +118,7 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYPMCPartyContractorM42A # m42a
-  name: PMC Sniper
+  name: "снайпер ПВК"
   description: au14-pmcparty-description
   ranks:
     AU14RankWeYuOperator: []
@@ -154,7 +154,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractor
-  name: WY PMC Party Contractor (3rd party, M41A/2)
+  name: "контрактник загону ПВК ВЮ (третя сторона, M41A/2)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -163,7 +163,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Contractor
+    name: "контрактник ПВК"
     description: au14-pmcparty-description
     reregister: false
     job: AU14JobWYPMCPartyContractor
@@ -174,7 +174,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractorM39B2
-  name: WY PMC Party Contractor (3rd party, M39B/2)
+  name: "контрактник загону ПВК ВЮ (третя сторона, M39B/2)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -183,7 +183,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Contractor
+    name: "контрактник ПВК"
     description: au14-pmcparty-description
     reregister: false
     job: AU14JobWYPMCPartyContractorM39B2
@@ -194,7 +194,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractorNSG23
-  name: WY PMC Party Contractor (3rd party, NSG-23)
+  name: "контрактник загону ПВК ВЮ (третя сторона, NSG-23)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -203,7 +203,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Contractor
+    name: "контрактник ПВК"
     description: au14-pmcparty-description
     reregister: false
     job: AU14JobWYPMCPartyContractorNSG23
@@ -214,7 +214,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyContractorM42A
-  name: WY PMC Party Sniper (3rd party, M42A)
+  name: "снайпер загону ПВК ВЮ (третя сторона, M42A)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -223,7 +223,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Sniper
+    name: "снайпер ПВК"
     description: au14-pmcparty-description
     reregister: false
     job: AU14JobWYPMCPartyContractorM42A

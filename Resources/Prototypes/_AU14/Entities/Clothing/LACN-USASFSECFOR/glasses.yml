@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14GogglesLACNLAH99VisorMirror
-  name: Orange LAH-99 Visor
-  description: A visor attached to LACN LAH-99 helmets, this one is reflective. This item must be attached to a LAH-99 helmet.
+  name: "помаранчевий візор LAH-99"
+  description: "Візор, що кріпиться до шоломів ЛАКН LAH-99; цей варіант дзеркальний. Цей предмет потрібно прикріпити до шолома LAH-99."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/PilotGear/visor.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14GogglesLACNLAH99Visor
-  name: Transparent Orange LAH-99 Visor
-  description: A visor attached to LAH-99 helmets. This item must be attached to a LAH-99 helmet.
+  name: "прозорий помаранчевий візор LAH-99"
+  description: "Візор, що кріпиться до шоломів LAH-99. Цей предмет потрібно прикріпити до шолома LAH-99."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/PilotGear/transvisor.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14GogglesLAH99VisorHighTech
-  name: IHADSS LAH-99 Visor
-  description: An Integrated Helmet and Display Sighting System attached to LAH-99 helmets. This item must be attached to a LAH-99 helmet.
+  name: "візор IHADSS LAH-99"
+  description: "Інтегрована шоломна прицільно-індикаційна система, що кріпиться до шоломів LAH-99. Цей предмет потрібно прикріпити до шолома LAH-99."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/hightechvisor.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14GogglesLACNLAH99VisorClear
-  name: Transparent LAH-99 Visor
-  description: A visor attached to LAH-99 helmets. This item must be attached to a LAH-99 helmet.
+  name: "прозорий візор LAH-99"
+  description: "Візор, що кріпиться до шоломів LAH-99. Цей предмет потрібно прикріпити до шолома LAH-99."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/clearvisor.rsi

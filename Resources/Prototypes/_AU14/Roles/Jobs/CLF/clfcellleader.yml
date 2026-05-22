@@ -85,7 +85,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCLFCellLeader
-  name: Spawn Point CLF Cell Leader
+  name: "точка появи лідера осередку КФВ"
   components:
   - type: SpawnPoint
     job_id: AU14JobCLFCellLeader

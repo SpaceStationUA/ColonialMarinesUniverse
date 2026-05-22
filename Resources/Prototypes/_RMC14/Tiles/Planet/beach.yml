@@ -10,119 +10,119 @@
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassNorth
-  name: beach grass north
+  name: "пляжна трава північ"
   sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_0.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassSouth
-  name: beach grass south
+  name: "пляжна трава південь"
   sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_1.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassWest
-  name: beach grass west
+  name: "пляжна трава захід"
   sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_2.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassEast
-  name: beach grass east
+  name: "пляжна трава схід"
   sprite: /Textures/_RMC14/Tiles/planet/beach/grassbeach_3.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassSE
-  name: beach grass corner se
+  name: "пляжна трава кут пдс"
   sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_0.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassNW
-  name: beach grass corner nw
+  name: "пляжна трава кут пз"
   sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_1.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassNE
-  name: beach grass corner ne
+  name: "пляжна трава кут пс"
   sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_2.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetBeachGrassSW
-  name: beach grass corner sw
+  name: "пляжна трава кут пдз"
   sprite: /Textures/_RMC14/Tiles/planet/beach/gbcorner_3.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastNorth
-  name: coast north
+  name: "узбережжя північ"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beach_0.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastEast
-  name: coast east
+  name: "узбережжя схід"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beach_24.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastSouth
-  name: coast south
+  name: "узбережжя південь"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beach_8.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastWest
-  name: coast west
+  name: "узбережжя захід"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beach_16.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerNW
-  name: coast corner nw
+  name: "узбережжя кут пз"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_0.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerNE
-  name: coast corner ne
+  name: "узбережжя кут пс"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_8.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerSE
-  name: coast corner se
+  name: "узбережжя кут пдс"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_16.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerSW
-  name: coast corner sw
+  name: "узбережжя кут пдз"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner_24.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerNW2
-  name: coast corner nw
+  name: "узбережжя кут пз"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_0.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerNE2
-  name: coast corner ne
+  name: "узбережжя кут пс"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_8.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerSW2
-  name: coast corner se
+  name: "узбережжя кут пдс"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_16.png
 
 - type: tile
   parent: CMPlanetBeachBase
   id: CMPlanetCoastCornerSE2
-  name: coast corner sw
+  name: "узбережжя кут пдз"
   sprite: /Textures/_RMC14/Tiles/planet/beach/beachcorner2_24.png

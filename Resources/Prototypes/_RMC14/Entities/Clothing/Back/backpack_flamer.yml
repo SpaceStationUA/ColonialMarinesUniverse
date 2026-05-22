@@ -1,8 +1,8 @@
 - type: entity
   parent: CMPersonalStorageBase
   id: RMCBackpackFlamer
-  name: Marine pyrotechnician G4-1 fueltank
-  description: A much older-generation back rig that holds fuel in two tanks. A small regulator sits between them. Has a few straps for holding up to three of the actual flamer tanks you'll be refilling.
+  name: "паливний бак піротехніка-морпіха G4-1"
+  description: "Наспинна система значно старшого покоління з двома паливними баками. Між ними розташований невеликий регулятор. Має кілька ременів для утримання до трьох баків самого вогнемета, які ти будеш заправляти."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Satchels/Marines/flamethrower.rsi

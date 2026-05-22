@@ -1,8 +1,8 @@
 - type: entity
   id: VehicleVanBase
   abstract: true
-  name: van
-  description: A rugged transport van.
+  name: "фургон"
+  description: "Міцний транспортний фургон."
   components:
   - type: Vehicle
     movementKind: Grid
@@ -181,8 +181,8 @@
 - type: entity
   parent: VehicleVanBase
   id: VehicleCLFVan
-  name: CLF van
-  description: A rugged transport van painted in CLF colors.
+  name: "фургон КЛФ"
+  description: "Міцний транспортний фургон, пофарбований у кольори КЛФ."
   components:
   - type: Damageable
     damageContainer: StructuralMarine
@@ -219,8 +219,8 @@
 - type: entity
   id: VehicleBoxVanBase
   abstract: true
-  name: box van
-  description: A rugged transport van fitted with a box body.
+  name: "коробчастий фургон"
+  description: "Міцний транспортний фургон із коробчастим кузовом."
   components:
   - type: Vehicle
     movementKind: Grid
@@ -399,8 +399,8 @@
 - type: entity
   parent: VehicleBoxVanBase
   id: VehiclePizzaVan
-  name: pizza van
-  description: A van repurposed for pizza delivery, still sturdy enough for transport.
+  name: "піца-фургон"
+  description: "Фургон, переобладнаний для доставки піци, але все ще достатньо міцний для перевезень."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/pizza_van.rsi
@@ -433,8 +433,8 @@
 - type: entity
   parent: VehicleVanBase
   id: VehicleSPPVan
-  name: Kheshig-1 LMP
-  description: A mine-resistant, multi-purpose vehicle utilized by the UPP for groundside operations.
+  name: "Хешиг-1 ЛМП"
+  description: "Протимінна багатоцільова машина, яку УПП використовує для наземних операцій."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/sppvan.rsi
@@ -476,8 +476,8 @@
 - type: entity
   parent: VehicleSPPVan
   id: VehicleSPPVanArmed
-  name: Kheshig-1 LMP (armed)
-  description: A mine-resistant, multi-purpose vehicle utilized by the UPP for groundside operations.
+  name: "Хешиг-1 ЛМП (озброєний)"
+  description: "Протимінна багатоцільова машина, яку УПП використовує для наземних операцій."
   components:
   - type: Sprite
     layers:
@@ -537,8 +537,8 @@
 - type: entity
   parent: VehicleSPPVan
   id: VehicleSPPVanMedical
-  name: Kheshig-1 LMP (medical)
-  description: A mine-resistant, multi-purpose vehicle utilized by the UPP for groundside operations.
+  name: "Хешиг-1 ЛМП (медичний)"
+  description: "Протимінна багатоцільова машина, яку УПП використовує для наземних операцій."
   components:
   - type: Sprite
     layers:
@@ -569,8 +569,8 @@
 - type: entity
   parent: VehicleSPPVan
   id: VehicleSPPVanPrisoner
-  name: Kheshig-1 LMP (prisoner transport)
-  description: A mine-resistant, multi-purpose vehicle utilized by the UPP for groundside operations.
+  name: "Хешиг-1 ЛМП (перевезення в'язнів)"
+  description: "Протимінна багатоцільова машина, яку УПП використовує для наземних операцій."
   components:
   - type: Sprite
     layers:
@@ -601,8 +601,8 @@
 - type: entity
   parent: VehicleBoxVanBase
   id: VehicleSPPVanLogistics
-  name: Kheshig-1 LMP (logistics)
-  description: A mine-resistant, multi-purpose vehicle utilized by the UPP for groundside operations.
+  name: "Хешиг-1 ЛМП (логістичний)"
+  description: "Протимінна багатоцільова машина, яку УПП використовує для наземних операцій."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/sppvan_logistics.rsi
@@ -643,8 +643,8 @@
 - type: entity
   parent: VehicleBoxVanBase
   id: VehicleCMBPoliceVan
-  name: CMB paddywagon
-  description: A van used by the Colonial Marshal Bureau to transport both prisoners and officers alike.
+  name: "автозак БКМ"
+  description: "Фургон, який Бюро колоніальних маршалів використовує для перевезення і в'язнів, і офіцерів."
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/marshalpaddywagon.rsi

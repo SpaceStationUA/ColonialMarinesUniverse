@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointMilitaryPolice
-  name: military police spawn point
+  name: "спавнер військової поліції"
   components:
   - type: SpawnPoint
     job_id: CMMilitaryPolice
@@ -82,8 +82,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleMP
-  name: Military Police
-  description: Military Police
+  name: "Військова поліція"
+  description: "Військова поліція"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

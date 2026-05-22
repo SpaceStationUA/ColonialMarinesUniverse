@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCiviliannspaConstable
-  name: Spawn Point Civilian nspa Constable
+  name: "точка появи цивільного констебля NSPA"
   components:
   - type: SpawnPoint
     job_id: AU14JobCiviliannspaConstable

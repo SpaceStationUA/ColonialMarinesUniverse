@@ -56,8 +56,8 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardSPPResponder
-  name: SPP Communications Officer ID card
-  description: A ID card issued to the lower ranking officers of the Socialist Progressive Peoples military.
+  name: "ID-картка офіцера зв'язку SPP"
+  description: "ID-картка, видана офіцерам нижчого рангу армії Соціалістичних Прогресивних Народів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/silver_id.rsi

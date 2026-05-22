@@ -23,7 +23,7 @@
     state: trackon-west_esl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_esl
-  description: Tracks the US Army Squad Leader.
+  description: "Відстежує лідера загону Армії США."
 
 - type: alert
   parent: SquadTracker
@@ -50,7 +50,7 @@
     state: trackon-west_esl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_esl
-  description: Tracks the US Army Squad Leader.
+  description: "Відстежує лідера загону Армії США."
 
 - type: alert
   parent: SquadTracker
@@ -77,7 +77,7 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the GROM Squad Leader.
+  description: "Відстежує лідера загону ГРОМ."
 
 - type: alert
   parent: SquadTracker
@@ -104,8 +104,8 @@
     state: trackon-west_troopcommander
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_troopcommander
-  name: Royal Squad Tracker
-  description: Tracks the Troop Commander
+  name: "трекер королівського загону"
+  description: "Відстежує командира підрозділу"
 
 - type: alert
   parent: SquadTracker
@@ -132,7 +132,7 @@
     state: trackon-west_esl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_esl
-  description: Tracks the First Recon Squad Leader.
+  description: "Відстежує лідера загону Першої розвідки."
 
 - type: alert
   parent: SquadTracker
@@ -159,7 +159,7 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the Colonial Guard Squad Leader.
+  description: "Відстежує лідера загону Колоніальної гвардії."
 
 - type: alert
   parent: SquadTracker
@@ -186,7 +186,7 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the Territorial Defense Squad Leader.
+  description: "Відстежує лідера загону Територіальної оборони."
 
 - type: alert
   parent: SquadTracker
@@ -213,7 +213,7 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the LACN Commando Squad Leader.
+  description: "Відстежує лідера загону командос ЛАКН."
 
 - type: alert
   parent: SquadTracker
@@ -240,7 +240,7 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the VAIPO Squad Leader.
+  description: "Відстежує лідера загону ВАІПО."
 
 - type: alert
   parent: SquadTracker
@@ -267,7 +267,7 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the VAISO Squad Leader.
+  description: "Відстежує лідера загону ВАІСО."
 
 - type: alert
   parent: SquadTracker
@@ -294,4 +294,4 @@
     state: trackon-west_fsl
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackon-southwest_fsl
-  description: Tracks the VAISP Squad Leader.
+  description: "Відстежує лідера загону ВАІСП."

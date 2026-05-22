@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: RMCMortarKit
-  name: M402 mortar portable kit
+  name: "портативний набір міномета M402"
   suffix: Classic
-  description: A manual, crew-operated mortar system intended to rain down 80mm goodness on anything it's aimed at. Uses an advanced targeting computer, which can toggle between coordinate and laser targeting. Needs to be set down first.
+  description: "Ручна, з обслугою, мінометна система, призначена обсипати 80-мм добротою все, на що націлена. Використовує сучасний цілевказівний комп'ютер, що може перемикатися між координатним і лазерним наведенням. Спочатку має бути встановлений."
   components:
   - type: GuideHelp
     guides:
@@ -107,8 +107,8 @@
   abstract: true
   parent: BaseItem
   id: RMCMortarShellBase
-  name: 80mm mortar shell
-  description: An unlabeled 80mm mortar shell, probably a casing.
+  name: "80-мм мінометний снаряд"
+  description: "Немаркований 80-мм мінометний снаряд, ймовірно, гільза."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/mortar.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellHE
-  name: M889 HE mortar shell
-  description: An 80mm mortar shell loaded with an high explosive charge.
+  name: "фугасний мінометний снаряд M889"
+  description: "80-мм мінометний снаряд, заряджений фугасним зарядом."
   components:
   - type: Item
     heldPrefix: he
@@ -141,8 +141,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: AU14MortarShellHEATMP
-  name: M971 HEAT-MP mortar shell
-  description: An 80mm mortar shell loaded with an high explosive anti tank multi purpose charge. It has a smaller blast radius than an HE round, but a devastating effect.
+  name: "мінометний снаряд M971 HEAT-MP"
+  description: "80-мм мінометний снаряд, заряджений фугасним протитанковим багатоцільовим зарядом. Має менший радіус вибуху, ніж фугасний снаряд, але руйнівний ефект."
   components:
   - type: Item
     heldPrefix: heat
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellIncendiary
-  name: M902 HE-INC mortar shell
-  description: An 80mm mortar shell loaded with an high explosive incendiary charge. Perfect for long-range area denial.
+  name: "фугасно-запалювальний мінометний снаряд M902"
+  description: "80-мм мінометний снаряд, заряджений фугасно-запалювальним зарядом. Ідеальний для далекобійного блокування території."
   components:
   - type: Item
     heldPrefix: inc
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCMortarShellBase
   id: RMCMortarShellFlare
-  name: M853 ILLUM-OBS mortar shell
-  description: An 80mm mortar shell, loaded with an illumination flare and observation camera, attached to a parachute.
+  name: "мінометний снаряд M853 ILLUM-OBS"
+  description: "80-мм мінометний снаряд, заряджений освітлювальною ракетою та спостережною камерою, прикріпленою до парашута."
   components:
   - type: Item
     heldPrefix: flr
@@ -199,8 +199,8 @@
 
 - type: entity
   id: RMCMortarFlare
-  name: illumination flare
-  description: It's really bright, and unreachable.
+  name: "освітлювальна ракета"
+  description: "Дуже яскрава й недоступна."
   components:
   - type: ExpendableLight
     startsActivated: true
@@ -237,8 +237,8 @@
 
 - type: entity
   id: AU14MortarFlareRed
-  name: red illumination flare
-  description: It's really bright, and unreachable.
+  name: "червона освітлювальна ракета"
+  description: "Дуже яскрава й недоступна."
   components:
   - type: ExpendableLight
     startsActivated: true
@@ -275,8 +275,8 @@
 
 - type: entity
   id: AU14MortarFlareGreen
-  name: green illumination flare
-  description: It's really bright, and unreachable.
+  name: "зелена освітлювальна ракета"
+  description: "Дуже яскрава й недоступна."
   components:
   - type: ExpendableLight
     startsActivated: true
@@ -313,7 +313,7 @@
 
 - type: entity
   id: RMCMortarCamera
-  name: para-cam
+  name: "пара-камера"
   components:
   - type: Transform
     anchored: true

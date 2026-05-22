@@ -78,7 +78,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointChiefEngineer
-  name: chief engineer spawn point
+  name: "спавнер головного інженера"
   components:
   - type: SpawnPoint
     job_id: CMChiefEngineer
@@ -92,8 +92,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleCE
-  name: The CE
-  description: The Chief Engineer.
+  name: "Головний інженер"
+  description: "Головний інженер."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

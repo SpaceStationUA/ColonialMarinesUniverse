@@ -61,7 +61,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCMB
   id: CMBInvestigationPartyJobRightsObserver
-  name: Interstellar Human Rights Observer
+  name: "міжзоряний спостерігач з прав людини"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

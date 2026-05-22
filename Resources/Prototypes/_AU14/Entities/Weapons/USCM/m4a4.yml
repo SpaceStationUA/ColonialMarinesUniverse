@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: AU14WeaponPistolM4A4
-  name: M4A4 service pistol
-  description: A redesigned version of the M4A3 Service Pistol. The M4A4 was developed by ARMAT to be the next generation of service handgun used by US forces. However, due to limited budget constraints, the M4A4 has yet to see widespread adoption among the USCM and has mainly been issued to the US Army and Aerospace Force. This weapon uses M4A3 magazines.
+  name: "службовий пістолет M4A4"
+  description: "Перероблена версія службового пістолета M4A3. M4A4 був розроблений Арматом як службовий пістолет нового покоління для сил США. Однак через обмежений бюджет M4A4 досі не набув широкого поширення в КМП США і переважно видається Армії США та Аерокосмічним силам. Ця зброя використовує магазини M4A3."
   components:
   - type: Tag
     tags:

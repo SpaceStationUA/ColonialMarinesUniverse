@@ -10,7 +10,7 @@
 - type: entity
   parent: RMCSpawnPointSurvivorShivasEngineer
   id: RMCSpawnPointSurvivorShivasPanicRoomEngineer
-  name: special survivor shivas panic room engineer spawn point
+  name: "спавнер спецінженера панік-кімнати шиви"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorShivasPanicRoomEngineer

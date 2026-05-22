@@ -27,7 +27,7 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCIDCardFORECONSpotter
-  name: FORECON Spotter's dogtags
+  name: "жетон спостерігача FORECON"
   components:
   - type: IdCard
     jobTitle: rmc-job-name-forecon-spotter

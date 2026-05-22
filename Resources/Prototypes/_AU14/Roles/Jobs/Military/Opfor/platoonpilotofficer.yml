@@ -80,7 +80,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforDSPilot
-  name: Spawn Point opfor Dropship Pilot
+  name: "точка появи пілота десантного корабля ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforDSPilot

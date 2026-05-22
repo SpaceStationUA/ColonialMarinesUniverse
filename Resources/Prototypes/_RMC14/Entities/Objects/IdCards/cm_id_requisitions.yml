@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardQuartermaster
-  name: Logistics Officer ID card
+  name: "ID-картка Офіцера Логістики"
   components:
   - type: PresetIdCard
     job: CMQuartermaster
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardCargoTech
-  name: req tech's ID card
+  name: "iD-картка техніка постачання"
   components:
   - type: PresetIdCard
     job: CMCargoTech

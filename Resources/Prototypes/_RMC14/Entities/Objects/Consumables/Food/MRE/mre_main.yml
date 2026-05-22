@@ -3,7 +3,7 @@
   abstract: true
   parent: CMMREComponentBase
   id: CMMREMainComponentBase
-  description: An MRE entree component. Contains the main course for nutrients.
+  description: "Основний компонент MRE. Містить основну страву для поживності."
   components:
   - type: Sprite
     state: entree
@@ -12,7 +12,7 @@
   abstract: true
   parent: CMMREMainComponentBase
   id: RMCMREMainComponentWeya
-  description: An MRE entree component. Contains the main course for nutrients.
+  description: "Основний компонент MRE. Містить основну страву для поживності."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_weya.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentBonelessPorkRibs
-  name: MRE component (boneless pork ribs)
-  description: An MRE entree component. Contains the main course for nutrients. This one is boneless pork ribs.
+  name: "компонент MRE (свинячі ребра без кістки)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — свинячі ребра без кістки."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,14 +31,14 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentBonelessPorkRibs]
   id: RMCMREComponentBonelessPorkRibsWeya
-  name: MRE component (boneless pork ribs)
-  description: An MRE entree component. Contains the main course for nutrients. This one is boneless pork ribs.
+  name: "компонент MRE (свинячі ребра без кістки)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — свинячі ребра без кістки."
 
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentGrilledChicken
-  name: MRE component (grilled chicken)
-  description: An MRE entree component. Contains the main course for nutrients. This one is grilled chicken.
+  name: "компонент MRE (курка-гриль)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — курка-гриль."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -47,14 +47,14 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentGrilledChicken]
   id: RMCMREComponentGrilledChickenWeya
-  name: MRE component (grilled chicken)
-  description: An MRE entree component. Contains the main course for nutrients. This one is grilled chicken.
+  name: "компонент MRE (курка-гриль)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — курка-гриль."
 
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentPizzaSquare
-  name: MRE component (pizza square)
-  description: An MRE entree component. Contains the main course for nutrients. This one is a pizza square.
+  name: "компонент MRE (квадратик піци)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — квадратик піци."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentSpaghettiChunks
-  name: MRE component (spaghetti chunks)
-  description: An MRE entree component. Contains the main course for nutrients. This one is spaghetti chunks.
+  name: "компонент MRE (шматочки спагеті)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — шматочки спагеті."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -73,14 +73,14 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentSpaghettiChunks]
   id: RMCMREComponentSpaghettiChunksWeya
-  name: MRE component (spaghetti chunks)
-  description: An MRE entree component. Contains the main course for nutrients. This one is spaghetti chunks.
+  name: "компонент MRE (шматочки спагеті)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — шматочки спагеті."
 
 - type: entity
   parent: CMMREMainComponentBase
   id: CMMREComponentChickenTender
-  name: MRE component (chicken tender)
-  description: An MRE entree component. Contains the main course for nutrients. This one is a chicken tender.
+  name: "компонент MRE (курячий тендер)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — курячий тендер."
   components:
   - type: SpawnItemsOnUse
     items:
@@ -89,8 +89,8 @@
 - type: entity
   parent: [RMCMREMainComponentWeya, CMMREComponentChickenTender]
   id: RMCMREComponentChickenTenderWeya
-  name: MRE component (chicken tender)
-  description: An MRE entree component. Contains the main course for nutrients. This one is a chicken tender.
+  name: "компонент MRE (курячий тендер)"
+  description: "Основний компонент MRE. Містить основну страву для поживності. Цей — курячий тендер."
 
 # Foods
 - type: entity
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodBonelessPorkRibs
-  name: boneless pork ribs
-  description: The contents of a Marine Standard issue MRE. This one is boneless pork ribs.
+  name: "свинячі ребра без кістки"
+  description: "Вміст стандартного MRE морпіха. Цей — свинячі ребра без кістки."
   components:
   - type: Sprite
     state: boneless_pork_ribs
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodGrilledChicken
-  name: grilled chicken
-  description: The contents of a Marine Standard issue MRE. This one is grilled chicken.
+  name: "курка-гриль"
+  description: "Вміст стандартного MRE морпіха. Цей — курка-гриль."
   components:
   - type: Sprite
     state: grilled_chicken
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodPizzaSquare
-  name: pizza square
-  description: The contents of a Marine Standard issue MRE. This one is a pizza square.
+  name: "квадратик піци"
+  description: "Вміст стандартного MRE морпіха. Цей — квадратик піци."
   components:
   - type: Sprite
     state: pizza_square
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodSpaghettiChunks
-  name: spaghetti chunks
-  description: The contents of a Marine Standard issue MRE. This one is spaghetti chunks.
+  name: "шматочки спагеті"
+  description: "Вміст стандартного MRE морпіха. Цей — шматочки спагеті."
   components:
   - type: Sprite
     state: spaghetti_chunks
@@ -165,8 +165,8 @@
 - type: entity
   parent: CMMREFoodMain
   id: CMMREFoodChickenTender
-  name: chicken tender
-  description: The contents of a Marine Standard issue MRE. This one is a chicken tender.
+  name: "курячий тендер"
+  description: "Вміст стандартного MRE морпіха. Цей — курячий тендер."
   components:
   - type: Sprite
     state: chicken_tender
@@ -198,8 +198,8 @@
 - type: entity
   parent: RMCMREFoodCLF
   id: RMCMREFoodMeatSlab
-  name: wrapped meat slab
-  description: A wrapped, rare slab of some meat that has been quickly grilled.
+  name: "загорнутий шмат м'яса"
+  description: "Загорнутий, малопрожарений шмат якогось м'яса, швидко обсмаженого на грилі."
   components:
   - type: Sprite
     state: open_meat
@@ -210,8 +210,8 @@
 - type: entity
   parent: RMCMREFoodCLF
   id: RMCMREFoodMeatSlabCheese
-  name: wrapped cheesy meat slab
-  description: A wrapped, rare slab of some meat that has been quickly grilled and covered in melted cheese. Wonderfully greasy.
+  name: "загорнутий сирний шмат м'яса"
+  description: "Загорнутий, малопрожарений шмат якогось м'яса, швидко обсмаженого на грилі і вкритого розплавленим сиром. Чудово жирний."
   components:
   - type: Sprite
     state: open_meat_cheese
@@ -223,8 +223,8 @@
 - type: entity
   parent: RMCMREFoodCLF
   id: RMCMREFoodBread
-  name: wrapped sourdough bread
-  description: A wrapped, small loaf of dry sourdough bread.
+  name: "загорнутий хліб на заквасці"
+  description: "Загорнута, маленька буханка сухого хліба на заквасці."
   components:
   - type: Sprite
     state: open_bread
@@ -235,8 +235,8 @@
 - type: entity
   parent: RMCMREFoodMeatSlabCheese
   id: RMCMREFoodMargaritaPizza
-  name: wrapped margarita pizza
-  description: A wrapped, small margarita pizza.
+  name: "загорнута піца маргарита"
+  description: "Загорнута, маленька піца маргарита."
   components:
   - type: Sprite
     state: open_pizza
@@ -246,9 +246,9 @@
 - type: entity
   parent: CMMREFoodMain
   id: RMCMRESPPSurvivalRationTypeA
-  name: survival ration
+  name: "пайок виживання"
   suffix: Type A
-  description: A compact chunk of freeze-dried meat or fish featuring nutrient additives in the form of a dense powder. Having little flavoring or colouration as a result of its preparation for long term storage, the appeal of this item is purely in its capacity to provide sustenance.
+  description: "Компактний шматок сублімованого м'яса або риби з поживними добавками у вигляді щільного порошку. Маючи мало смаку чи кольору через підготовку до тривалого зберігання, привабливість цього предмета полягає виключно в його здатності забезпечити прожиток."
   components:
   - type: Item
     size: Tiny
@@ -258,9 +258,9 @@
 - type: entity
   parent: CMMREFoodMain
   id: RMCMRESPPSurvivalRationTypeB
-  name: survival ration
+  name: "пайок виживання"
   suffix: Type B
-  description: A compact ball of dough-like rice or oats featuring nutrient additives in the form of a dense powder. Having little flavoring or colouration as a result of its preparation for long term storage, the appeal of this item is purely in its capacity to provide sustenance.
+  description: "Компактна кулька з тістоподібного рису чи вівсу з поживними добавками у вигляді щільного порошку. Маючи мало смаку чи кольору через підготовку до тривалого зберігання, привабливість цього предмета полягає виключно в його здатності забезпечити прожиток."
   components:
   - type: Item
     size: Tiny
@@ -271,24 +271,24 @@
 - type: flavor
   id: BonelessPorkRibs
   flavorType: Complex
-  description: like boneless pork ribs
+  description: "як свинячі ребра без кістки"
 
 - type: flavor
   id: GrilledChicken
   flavorType: Complex
-  description: like grilled chicken
+  description: "як курка-гриль"
 
 - type: flavor
   id: PizzaSquare
   flavorType: Complex
-  description: like pizza
+  description: "як піца"
 
 - type: flavor
   id: SpaghettiChunks
   flavorType: Complex
-  description: like spaghetti
+  description: "як спагеті"
 
 - type: flavor
   id: ChickenTender
   flavorType: Complex
-  description: like chicken
+  description: "як курка"

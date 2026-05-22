@@ -41,7 +41,7 @@
 
 - type: entity
   id: AU14VAIPreset
-  name: vai mercenary preset
+  name: "пресет найманця VAI"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

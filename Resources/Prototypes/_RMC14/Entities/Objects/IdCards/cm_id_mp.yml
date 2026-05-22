@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardChiefMP
-  name: chief MP ID card
+  name: "iD-картка головного ВП"
   components:
   - type: PresetIdCard
     job: CMChiefMP
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardMilitaryWarden
-  name: warden ID card
+  name: "iD-карта наглядача"
   components:
   - type: PresetIdCard
     job: CMMilitaryWarden
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardMilitaryPolice
-  name: military police ID card
+  name: "iD-картка військової поліції"
   components:
   - type: PresetIdCard
     job: CMMilitaryPolice

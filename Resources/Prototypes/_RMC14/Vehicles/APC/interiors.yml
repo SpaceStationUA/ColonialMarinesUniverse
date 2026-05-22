@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleAPCInteriorBase
-  name: APC interior piece
-  description: A decorative interior piece for the APC.
+  name: "внутрішня секція БТР"
+  description: "Декоративна внутрішня секція для БТР."
   placement:
     mode: SnapgridCenter
   components:
@@ -16,8 +16,8 @@
 - type: entity
   abstract: true
   id: VehicleAPCRoofBase
-  name: APC interior roof
-  description: A removable roof section for the APC interior.
+  name: "внутрішній дах БТР"
+  description: "Знімна секція даху для внутрішнього простору БТР."
   placement:
     mode: SnapgridCenter
   components:

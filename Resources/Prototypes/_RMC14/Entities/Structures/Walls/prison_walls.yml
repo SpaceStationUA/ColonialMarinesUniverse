@@ -2,8 +2,8 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallPrison
-  name: metal wall
-  description: A huge chunk of metal used to separate rooms.
+  name: "металева стіна"
+  description: "Велетенський шмат металу, що використовується для розділення кімнат."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/prison_wall.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallPrisonReinforced
-  name: reinforced metal wall
-  description: A huge chunk of ultra-reinforced metal used to separate rooms.
+  name: "укріплена металева стіна"
+  description: "Велетенський шмат ультраукріпленого металу, що використовується для розділення кімнат."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/prison_rwall.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallPrisonHull
-  name: heavy reinforced wall
-  description: A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible.
+  name: "важка укріплена стіна"
+  description: "Велетенський шмат ультраукріпленого металу, що використовується для розділення кімнат. Виглядає практично незнищенним."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/prison_rwall.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallBoneResin
-  name: skeletal resin
-  description: A wall made of molted old resin. This place is more alive than you are.
+  name: "кістковий резин"
+  description: "Стіна зі старого злущеного резину. Це місце живіше за тебе."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/bone_resin.rsi

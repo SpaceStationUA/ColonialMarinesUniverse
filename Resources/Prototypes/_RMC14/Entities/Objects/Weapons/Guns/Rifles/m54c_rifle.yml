@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: M41A MK2 pulse rifle
+  name: "імпульсна гвинтівка M41A MK2"
   id: RMCWeaponRifleM54C
-  description: The standard issue rifle of the UA. Commonly carried by most combat personnel. Uses 10x24mm caseless ammunition.
+  description: "Стандартна штатна гвинтівка ОА. Зазвичай носить більшість бойового персоналу. Використовує безгільзові набої 10x24мм."
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/USCM/m41mk2.rsi
@@ -247,7 +247,7 @@
 - type: entity
   parent: RMCWeaponRifleM54CSemiStripped
   id: RMCWeaponRifleM54CWhiteNoLock
-  description: A M41A Mk2 with a Weyland-Yutani logo imprinted on the reciever. Used primarily by Weyland-Yutani's corporate security forces, and comes equipped with a drab corproate white paint job.
+  description: "M41A Mk2 з логотипом «Вейленд-Ютані», нанесеним на ствольну коробку. Здебільшого використовується силами корпоративної охорони «Вейленд-Ютані» і поставляється з тьмяним корпоративним білим фарбуванням."
   suffix: Corporate, No UGL, No ID lock
   components:
   - type: Sprite
@@ -302,7 +302,7 @@
 - type: entity
   parent: RMCWeaponRifleM54CWhite
   id: RMCWeaponRifleM54CWhiteCommando
-  description: A Weston-Yamada creation, this M54C MK2 comes equipped in corporate white. Uses 10x24mm caseless ammunition.
+  description: "Творіння «Вестон-Ямада», цей M54C MK2 поставляється в корпоративному білому. Використовує безгільзові набої 10x24мм."
   suffix: Commando
   components:
   - type: ItemSlots
@@ -370,7 +370,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineRifleM54C
-  name: "M41A MK2 magazine (10x24mm)"
+  name: "Магазин M41A MK2 (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -397,7 +397,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CAP
-  name: "M41A MK2 AP magazine (10x24mm)"
+  name: "Бронебійний магазин M41A MK2 (10x24мм)"
   suffix: AP
   components:
   - type: Tag
@@ -426,7 +426,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CIncendiary
-  name: "M41A MK2 Incendiary magazine (10x24mm)"
+  name: "Запалювальний магазин M41A MK2 (10x24мм)"
   suffix: Incendiary
   components:
   - type: Tag
@@ -453,7 +453,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CHEAP
-  name: "M41A MK2 HEAP magazine (10x24mm)"
+  name: "Магазин M41A MK2 HEAP (10x24мм)"
   suffix: HEAP
   components:
   - type: Tag
@@ -488,7 +488,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: RMCMagazineRifleM54CWP
-  name: "M41A MK2 WP magazine (10x24mm)"
+  name: "Магазин M41A MK2 WP (10x24мм)"
   suffix: WP
   components:
   - type: Tag
@@ -515,7 +515,7 @@
 - type: entity
   parent: CMMagazineRifleM54C
   id: CMMagazineRifleM54CExt
-  name: "M41A MK2 extended magazine (10x24mm)"
+  name: "Подовжений магазин M41A MK2 (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -544,8 +544,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: CMCartridgeRifle10x24mm
-  name: cartridge (10x24mm)
-  description: A 10x24mm cartridge. Fits in 10x24mm magazines.
+  name: "набій (10x24мм)"
+  description: "Набій 10x24мм. Підходить до магазинів 10x24мм."
   components:
   - type: Tag
     tags:
@@ -557,8 +557,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: CMCartridgeRifle10x24mmAP
-  name: AP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm AP magazines.
+  name: "бронебійний набій (10x24мм)"
+  description: "Бронебійний набій 10x24мм. Підходить до бронебійних магазинів 10x24мм."
   components:
   - type: Tag
     tags:
@@ -570,8 +570,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmIncendiary
-  name: AP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm AP magazines.
+  name: "бронебійний набій (10x24мм)"
+  description: "Бронебійний набій 10x24мм. Підходить до бронебійних магазинів 10x24мм."
   components:
   - type: Tag
     tags:
@@ -583,8 +583,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmHEAP
-  name: HEAP cartridge (10x24mm)
-  description: An armor piercing 10x24mm cartridge. Fits in 10x24mm HEAP magazines.
+  name: "набій HEAP (10x24мм)"
+  description: "Бронебійний набій 10x24мм. Підходить до магазинів 10x24мм HEAP."
   components:
   - type: Tag
     tags:
@@ -596,8 +596,8 @@
 - type: entity
   parent: CMCartridgeRifle10x24mm
   id: RMCCartridgeRifle10x24mmWP
-  name: WP cartridge (10x24mm)
-  description: An armor piercing wall-penetrating 10x24mm cartridge. Fits in 10x24mm WP magazines.
+  name: "набій WP (10x24мм)"
+  description: "Бронебійний стіно-проникний набій 10x24мм. Підходить до магазинів 10x24мм WP."
   components:
   - type: Tag
     tags:

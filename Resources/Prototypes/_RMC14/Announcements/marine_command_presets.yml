@@ -1,7 +1,7 @@
 - type: announcementPreset
   id: MarineCommand
-  name: "Marine Command"
-  description: "Official announcements from Marine Command"
+  name: "Командування морпіхів"
+  description: "Офіційні оголошення від Командування морпіхів"
   target: Marines
   defaultVariant: MarineCommandDefault
   simplifiedVariant: MarineCommandSimplified
@@ -87,8 +87,8 @@
 
 - type: announcementPreset
   id: MarineOverwatch
-  name: "Marine Overwatch"
-  description: "Overwatch squad announcements"
+  name: "Овервотч морпіхів"
+  description: "Оголошення овервотчу загонів"
   target: Marines
   defaultVariant: MarineCommandDefault
   simplifiedVariant: MarineCommandSimplified
@@ -174,8 +174,8 @@
 
 - type: announcementPreset
   id: MarineCommandDefault
-  name: "Marine Command (Default)"
-  description: "Standard marine announcements"
+  name: "Командування морпіхів (типове)"
+  description: "Стандартні оголошення морпіхів"
   target: Marines
   style:
     animation:
@@ -243,8 +243,8 @@
 
 - type: announcementPreset
   id: MarineCommandSimplified
-  name: "Marine Command (Simplified)"
-  description: "Clean, low-effect marine announcements"
+  name: "Командування морпіхів (спрощене)"
+  description: "Чисті морські оголошення з мінімальними ефектами"
   target: Marines
   showSprite: false
   style:

@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoChaplain
-  name: survivor kutjevo chaplain spawn point
+  name: "спавнер капелана кутьєво-вцілілого"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoChaplain
@@ -67,5 +67,5 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetKutjevoChaplain
-  name: kutjevo chaplain preset
+  name: "пресет капелана кутьєво"
   categories: [ HideSpawnMenu ]

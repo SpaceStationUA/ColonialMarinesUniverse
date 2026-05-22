@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesColonyMaintTech
-  name: colony maintenance technician spawn point
+  name: "спавнер техніка обслуговування колонії"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -55,7 +55,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesColonyMaintTech
-  name: colony maintenance technician ghost role
+  name: "привид-роль техніка обслуговування колонії"
   components:
   - type: Sprite
     layers:
