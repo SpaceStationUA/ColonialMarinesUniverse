@@ -1,5 +1,5 @@
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetGovforMarine
   id: AU14HeadsetUSArmy
   name: "гарнітура армії США"
   description: "Видається підрозділам армії США."
@@ -48,7 +48,7 @@
     - TWESOF
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetGovforMarine
   id: AU14HeadsetVAI
   name: "гарнітура Вангардс Ерроу"
   description: "Спеціальна гарнітура, яку використовують найманці Вангардс Ерроу Інкорпорейтед; має нестандартну дужку."
@@ -89,7 +89,7 @@
     - VAI
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetGovforMarine
   id: AU14HeadsetPART
   name: "гарнітура Озброєної ремонтної групи Продіджі"
   description: "Спеціальна гарнітура, що використовується Озброєною ремонтною групою Продіджі, має унікальне кріплення."

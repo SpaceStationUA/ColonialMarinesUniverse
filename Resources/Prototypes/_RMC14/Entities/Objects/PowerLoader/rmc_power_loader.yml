@@ -1,4 +1,5 @@
-﻿- type: entity
+﻿# Base
+- type: entity
   abstract: true
   id: RMCMechBase
   components:
@@ -9,7 +10,8 @@
     noRot: true
     sprite: _RMC14/Objects/power_loader.rsi
     layers:
-    - state: powerloader
+    - state: powerloader_open
+      map: [ "buckledLayer" ]
   - type: MobMover
   - type: DoAfter
   - type: MeleeWeapon
@@ -54,10 +56,28 @@
   - type: FootstepModifier
     footstepSoundCollection:
       path: /Audio/Mecha/sound_mecha_powerloader_step.ogg
+  - type: RMCAllowStrapMovement
   - type: Strap
+    buckleSound:
+      path: /Audio/_RMC14/Mecha/powerloader_buckle.ogg
+      params:
+        variation: 0.1
+    unbuckleSound:
+      path: /Audio/_RMC14/Mecha/powerloader_unbuckle.ogg
+      params:
+        variation: 0.1
     blacklist:
       components:
       - Xeno
+  - type: RMCStrapDrawDepth
+    unstrappedDepth: Mobs
+    strappedDepth: OverMobs
+  - type: GenericVisualizer
+    visuals:
+      enum.StrapVisuals.State:
+        buckledLayer:
+          True: { state: powerloader_overlay }
+          False: { state: powerloader_open }
   - type: Destructible
     thresholds:
     - trigger:
@@ -75,15 +95,16 @@
       - !type:DoActsBehavior
         acts: ["Destruction"]
 
+# Wreckages
 - type: entity
   id: RMCMechPowerLoaderWreckage
-  name: "уламки силового завантажувача LU-50"
-  description: "Уламки силового завантажувача LU-50."
+  name: "Уламки робочого навантажувача Катерпіллар P-5000"
+  description: "Рештки якогось нещасного силового навантажувача. Повністю неремонтопридатні."
   components:
   - type: Corrodible
     isCorrodible: true
   - type: Sprite
-    drawdepth: Mobs
+    drawdepth: BelowMobs
     noRot: true
     sprite: _RMC14/Objects/power_loader.rsi
     layers:
@@ -115,11 +136,10 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageGreen
-  name: "уламки силового завантажувача LU-43"
-  description: "Уламки силового завантажувача LU-43."
+  name: "Уламки робочого навантажувача Джон Дір 4300"
   components:
   - type: Sprite
-    drawdepth: Mobs
+    drawdepth: BelowMobs
     noRot: true
     sprite: _RMC14/Objects/power_loader.rsi
     layers:
@@ -128,11 +148,10 @@
 - type: entity
   parent: RMCMechPowerLoaderWreckage
   id: RMCMechPowerLoaderWreckageBlue
-  name: "уламки силового завантажувача LU-52"
-  description: "Уламки силового завантажувача LU-52."
+  name: "Уламки робочого навантажувача Катерпіллар P-5200"
   components:
   - type: Sprite
-    drawdepth: Mobs
+    drawdepth: BelowMobs
     noRot: true
     sprite: _RMC14/Objects/power_loader.rsi
     layers:
@@ -141,10 +160,9 @@
 - type: entity
   parent: RMCMechBase
   id: RMCMechPowerLoader
-  name: "силовий завантажувач LU-50"
-  description: "Старий дизайн Fujin, відремонтований «Вестон-Ямада», що використовується на складах, будовах і військових кораблях усюди." # TODO RMC14 BETTER DESCRIPTION
+  name: "Робочий навантажувач Катерпіллар P-5000"
+  description: "Робочий навантажувач Катерпіллар P-5000 — це комерційний механізований екзоскелет для підіймання важких матеріалів і предметів, уперше спроєктований 29 січня 2025 року корпорацією Вейланд. Старий, але надійний зразок, що використовується на складах, будівництвах і військових кораблях усюди."
   components:
-  - type: RMCAllowStrapMovement
   - type: PowerLoader
     skills:
       all:
@@ -167,29 +185,37 @@
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderGreen
-  name: "силовий завантажувач LU-43"
-  description: "Дуже старий, але надійний дизайн, що використовується на складах, будовах і військових кораблях усюди. У цього фірмова зелено-жовта розфарбовка Fujin. Етикетка стверджує, що вони виробляють електроніку та машини, хоча ти про них раніше ніколи не чув." # TODO RMC14 BETTER DESCRIPTION
+  name: "Робочий навантажувач Джон Дір 4300"
+  description: "Робочий навантажувач Джон Дір 4300 — це комерційний механізований екзоскелет для підіймання важких матеріалів і предметів на основі Катерпіллар P-5000, уперше спроєктований 29 січня 2025 року корпорацією Вейланд. Старий, але надійний зразок, що використовується на складах, будівництвах і військових кораблях усюди. Цей має фірмову зелено-жовту ліврею."
   components:
   - type: Sprite
-    drawdepth: Mobs
-    noRot: true
-    sprite: _RMC14/Objects/power_loader.rsi
     layers:
-    - state: powerloader_jd
+    - state: powerloader_open_jd
+      map: [ "buckledLayer" ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StrapVisuals.State:
+        buckledLayer:
+          True: { state: powerloader_overlay_jd }
+          False: { state: powerloader_open_jd }
   - type: SpawnOnTerminate
     spawn: RMCMechPowerLoaderWreckageGreen
 
 - type: entity
   parent: RMCMechPowerLoader
   id: RMCMechPowerLoaderBlue
-  name: "силовий завантажувач LU-52"
-  description: "Модернізований дизайн, створений, щоб перевершити старіші моделі, що колись використовувалися у вишуканих портах і об'єктах. Виготовлений Ferret Heavy Industries до банкрутства, що зробило ці одиниці напрочуд доступними." # TODO RMC14 BETTER DESCRIPTION
+  name: "Робочий навантажувач Катерпіллар P-5200"
+  description: "Модернізована конструкція, створена, щоб перевершити старіші моделі, які колись використовували в престижних портах і комплексах."
   components:
   - type: Sprite
-    drawdepth: Mobs
-    noRot: true
-    sprite: _RMC14/Objects/power_loader.rsi
     layers:
-    - state: powerloader_ft
+    - state: powerloader_open_ft
+      map: [ "buckledLayer" ]
+  - type: GenericVisualizer
+    visuals:
+      enum.StrapVisuals.State:
+        buckledLayer:
+          True: { state: powerloader_overlay_ft }
+          False: { state: powerloader_open_ft }
   - type: SpawnOnTerminate
     spawn: RMCMechPowerLoaderWreckageBlue

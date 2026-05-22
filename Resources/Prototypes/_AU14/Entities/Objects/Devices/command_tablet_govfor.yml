@@ -1,0 +1,15 @@
+- type: entity
+  parent: RMCTabletCO
+  id: AU14TabletGovfor
+  name: "командний планшет Говфор"
+  description: "Портативний командний інтерфейс для командування Говфор, під'єднаний до систем їхньої фракції."
+  components:
+  - type: AccessReader
+    access: [[ "AU14AccessGovforCommand" ]]
+  - type: MarineCommunicationsComputer
+    canCreateEcho: false
+    canGiveMedals: true
+    canInitiateEvac: true
+    faction: govfor
+  - type: TacticalMapComputer
+    faction: govfor

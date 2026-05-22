@@ -10,7 +10,7 @@
     defaultChannel: radioMobFamily
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetColonist
   id: AU14HeadsetMob
   name: "гарнітура Сім'ї"
   description: "Звичайна колоніальна гарнітура, модифікована для роботи на спеціальній частоті."

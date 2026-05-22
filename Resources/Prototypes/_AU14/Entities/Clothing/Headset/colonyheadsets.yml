@@ -57,6 +57,13 @@
 
 # ├─[ HEADSETS ]────────────────────────────────────────────────────┤
 - type: entity
+  parent: CMHeadset
+  id: AU14HeadsetColonist
+  abstract: true
+  components:
+  - type: GrantAreaInfo
+
+- type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyAdminHeadset
   name: "гарнітура адміністрації колонії"
@@ -81,7 +88,7 @@
       - AU14EncryptionKeyWEYU
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadset
   name: "гарнітура БКМ"
   description: "Гарнітура, яку БКМ використовує для зв’язку."
@@ -93,7 +100,7 @@
       - AU14EncryptionKeyCMB
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadsetOnlyCMB
   name: "навушник БКМ"
   description: "Гарнітура, яку БКМ використовує для зв’язку."
@@ -108,7 +115,7 @@
     state: cmb_headset
 
 - type: entity
-  parent: RMCHeadsetMarine
+  parent: AU14HeadsetColonist
   id: AU14HeadsetWorkingJoe
   name: "гарнітура Воркінг Джо"
   description: "Звичайна гарнітура, яку використовують Воркінг Джо."

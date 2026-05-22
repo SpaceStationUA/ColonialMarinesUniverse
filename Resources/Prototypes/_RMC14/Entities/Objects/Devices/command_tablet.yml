@@ -2,6 +2,7 @@
   parent: BaseItem
   id: RMCTabletCO
   name: "командний планшет"
+  abstract: true # disallow mappers to use this
   description: "Портативний командний інтерфейс, що використовується вищим керівництвом, здатний віддавати команди на великих відстанях під'єднаному комп'ютеру. Створений витримати ядерну бомбу."
   components:
   - type: Sprite
