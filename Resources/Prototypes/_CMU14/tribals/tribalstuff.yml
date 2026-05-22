@@ -264,7 +264,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Piercing: 60
+        Piercing: 100
   # Infinite durability — base Spear has a Destructible threshold at 30
   # damage that shatters the haft. Override it with an absurdly high cap
   # so the bone spear never breaks no matter what hits it.
