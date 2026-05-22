@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCLogisticsofficerGuideBook
-  name: "символ Офіцерів Логістики"
-  description: "Символ Офіцерів Логістики"
+  name: logistics Officers symbol
+  description: The Logistics Officers sumbol
   suffix: (GuideBookEntity)
   categories: [ HideSpawnMenu ]
   components:
@@ -13,8 +13,8 @@
 - type: entity
   parent: BaseItem
   id: RMCCargotechGuideBook
-  name: "символ Техніків Постачання"
-  description: "Символ Техніків Постачання"
+  name: Requisitions Technicians symbol
+  description: The Cargo Technicians symbol
   suffix: (GuideBookEntity)
   categories: [ HideSpawnMenu ]
   components:
@@ -59,8 +59,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPitRasedGuideBook
-  name: "піднята яма"
-  description: "Усі 5 посадкових майданчиків"
+  name: pitrased
+  description: All 5 drop pads
   suffix: (GuideBookEntity)
   categories: [ HideSpawnMenu ]
   components:
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPitLowerdGuideBook
-  name: "опущена яма"
-  description: "опущена вантажна яма"
+  name: pitlowerd
+  description: cargo pit lowerd
   suffix: (GuideBookEntity)
   categories: [ HideSpawnMenu ]
   components:
@@ -83,8 +83,8 @@
 - type: entity
   parent: BaseItem
   id: RMCSupplyDropPadsGuideBook
-  name: "майданчики скидання постачання"
-  description: "Усі 5 посадкових майданчиків"
+  name: supply drop pads
+  description: All 5 drop pads
   suffix: (GuideBookEntity)
   categories: [ HideSpawnMenu ]
   components:
@@ -95,8 +95,8 @@
 - type: entity
   parent: BaseItem
   id: RMCTheLineGuideBook
-  name: "Лінія"
-  description: "Лінія"
+  name: The Line
+  description: The Line
   suffix: (GuideBookEntity)
   categories: [ HideSpawnMenu ]
   components:
@@ -107,8 +107,8 @@
 - type: entity
   parent: BaseItem
   id: RMCASRSinterfaceGuideBook
-  name: "інтерфейс ASRS"
-  description: "Інтерфейс ASRS"
+  name: ASRS interface
+  description: The ASRS interface
   suffix: (GuideBookEntity)
   categories: [ HideSpawnMenu ]
   components:

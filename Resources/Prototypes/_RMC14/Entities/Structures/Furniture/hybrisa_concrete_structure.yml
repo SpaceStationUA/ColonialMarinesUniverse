@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCConcreteStatue
-  name: "бетонна статуя"
-  description: "Декоративна статуя з прикрасою «Крила» «Вестон-Ямада». Корпоративний брутальний витвір мистецтва."
+  name: concrete statue
+  description: A decorative statue with the Weston-Yamada 'Wings' adorned on it, A corporate brutalist piece of art.
   components:
   - type: Sprite
     noRot: true

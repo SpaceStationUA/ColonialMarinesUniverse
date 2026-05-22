@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseSyringe
   id: AU14AbominationVenomSyringe
-  name: "згустілий шприц"
-  description: "Шприц, наповнений в’язкою темною рідиною, що смердить гнилою плоттю."
+  name: clotted syringe
+  description: A syringe filled with a viscous, dark fluid that smells like rotted flesh.
   components:
   - type: SolutionContainerManager
     solutions:

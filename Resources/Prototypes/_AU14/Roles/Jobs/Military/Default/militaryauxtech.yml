@@ -90,7 +90,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORAuxTech
-  name: "точка появи допоміжного техніка ГОВФОР"
+  name: Spawn Point GOVFOR Auxiliary Technician
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORAuxTech

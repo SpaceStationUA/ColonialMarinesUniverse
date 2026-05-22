@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCShutterBaseIndestructible
   id: RMCPodDoorIndestructible
-  name: "блокувач"
-  description: "Виглядає так, ніби нелегко відкрити."
+  name: podlock
+  description: That looks like it doesn't open easily.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -49,8 +49,8 @@
   parent: RMCShutterBaseIndestructible
   id: RMCPodDoorNonOccluderIndestructible
   abstract: true
-  name: "блокувач"
-  description: "Виглядає так, ніби нелегко відкрити."
+  name: podlock
+  description: That looks like it doesn't open easily.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Shutters/poddoor.rsi
@@ -96,7 +96,7 @@
   - RMCPodDoorIndestructible
   - RMCShutterBase
   id: RMCPodDoor
-  description: "Виглядає так, ніби нелегко відкрити. Можливо, варто пошукати кнопку або скористатися підривним зарядом?"
+  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
   components:
   - type: VehicleSmashable
     smashSound:
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCPodDoorIndestructible
   id: RMCPodDoorAlmayerContainmentIndestructible
-  name: "стіна камери"
-  description: "Металева стіна, що розділяє кімнати та формує корабель."
+  name: cell wall
+  description: A metal wall used to separate rooms and make up the ship.
   suffix: Indestructible
   components:
   - type: Sprite
@@ -186,7 +186,7 @@
 - type: entity
   parent: RMCPodDoorIndestructible
   id: RMCPodDoorHybrisaIndestructibleUltra
-  description: "Сильно укріплені двері з металевого сплаву, спроектовані практично незнищенними — ніщо не зможе пробити їхній захист."
+  description: A heavily reinforced metal-alloy door, designed to be virtually indestructible—nothing can penetrate its defenses.
   suffix: Indestructible
   components:
   - type: Sprite
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCPodDoorHybrisaIndestructibleUltra
   id: RMCPodDoorHybrisaIndestructibleUltraOpen
-  description: "Сильно укріплені двері з металевого сплаву, спроектовані практично незнищенними — ніщо не зможе пробити їхній захист."
+  description: A heavily reinforced metal-alloy door, designed to be virtually indestructible—nothing can penetrate its defenses.
   suffix: Indestructible, Open
   components:
   - type: Door
@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCPodDoorAlmayer
   id: RMCPodDoorAlmayerLocked
-  description: "Виглядає так, ніби нелегко відкрити. Можливо, варто пошукати кнопку або скористатися підривним зарядом?"
+  description: That looks like it doesn't open easily. Maybe look for a button or use a breaching charge?
   suffix: Locked
   components:
   - type: Door

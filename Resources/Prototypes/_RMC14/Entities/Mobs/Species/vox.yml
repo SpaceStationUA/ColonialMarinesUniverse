@@ -3,7 +3,7 @@
 # Mob in the sandbox menu and used when a player spawns
 - type: entity
   save: false
-  name: "Уріст В.М. МакВокс"
+  name: Urist C.M McVox
   parent: MobVox
   id: CMMobVox
   suffix: RMC14

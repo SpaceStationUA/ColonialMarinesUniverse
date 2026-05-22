@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseTurret
   id: RMCTurretAlmayer
-  name: "стаціонарна гаусс-турель UA-635C"
-  description: "Повністю автоматизована оборонна турель із середньодальніми можливостями наведення. Озброєна модифікованою автогарматою M32-S та внутрішнім стрічковим живленням, модифікована для використання на бойовому кораблі ОА."
+  name: UA-635C static gauss turret
+  description: A fully-automated defence turret with mid-range targeting capabilities. Armed with a modified M32-S Autocannon and an internal belt feed and modified for UA warship use.
   components:
   - type: InteractionPopup
     interactDelay: 0.2
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCDeployerSentry
-  name: "система розгортання турелі"
-  description: "Коробка, що розгортає турель."
+  name: sentry deployment system
+  description: A box that deploys a sentry turret.
   components:
   - type: Transform
     anchored: true

@@ -94,7 +94,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCorporateLiaison
-  name: "точка появи цивільного корпоративного зв’язкового"
+  name: Spawn Point Civilian Corporate Liaison
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCorporateLiaison

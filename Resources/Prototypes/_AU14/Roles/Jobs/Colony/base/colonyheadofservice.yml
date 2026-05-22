@@ -61,7 +61,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianHeadOfService
-  name: "точка появи керівника сервісу"
+  name: Spawn Point Head of Service
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianHeadOfService

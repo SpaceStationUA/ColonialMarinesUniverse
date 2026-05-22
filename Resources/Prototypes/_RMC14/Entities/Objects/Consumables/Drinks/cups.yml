@@ -16,8 +16,8 @@
 - type: entity
   parent: DrinkBaseMug
   id: RMCCoffeeCup
-  name: "кухоль"
-  description: "Керамічний кухоль. Практично гарантовано впаде та проллє пекучо-гарячий напій на вашу новеньку сорочку. Ой."
+  name: mug
+  description: A ceramic mug. Practically guaranteed to fall and spill scalding-hot drink onto your brand-new shirt. Ouch.
   suffix: RMC
   components:
   - type: SolutionContainerManager
@@ -67,8 +67,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCMarineCorpsCup
-  name: "кухоль UNMC"
-  description: "Міцний кухоль військового зразка з емблемою UNMC, створений для витривалості у будь-якій місії — на борту корабля чи в полі."
+  name: UNMC mug
+  description: A rugged, military-grade mug featuring the UNMC insignia, built for endurance in any deployment—whether aboard a ship or in the field.
   components:
   - type: Sprite
     layers:
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCSocialistPPCup
-  name: "кухоль UPP"
-  description: "Міцна багряна чашка, штампована емблемою UPP — зроблена як справжній «крєпкі мужик», готовий служити товаришам у праці та славі серед зірок."
+  name: UPP mug
+  description: A tough, crimson cup stamped with the UPP emblem—built like a real krepky muzhik, ready to serve comrades in toil and glory among the stars.
   components:
   - type: Sprite
     layers:
@@ -97,8 +97,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCUnitedNationsCup
-  name: "кухоль ООН"
-  description: "Гладкий, офіційний кухоль ООН, що символізує єдність, порядок і владу серед зірок. Створений для тих, хто підтримує мир і прогрес."
+  name: UN mug
+  description: A sleek, official UN cup, symbolizing unity, order, and authority across the stars. Crafted for those who uphold peace and progress.
   components:
   - type: Sprite
     layers:
@@ -112,8 +112,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCWestonYamadaCup
-  name: "кухоль WEYA"
-  description: "Чиста, стильна чашка з логотипом корпорації Вестон-Ямада на боці. Використовується по всій ієрархії компанії — від стажерів до директорів підрозділів."
+  name: WEYA mug
+  description: A clean, stylish cup with the logo of the Weston-Yamada Corporation branded on the side. Used throughout the company hierarchy, from interns to division directors.
   components:
   - type: Sprite
     layers:
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCThreeSunEmpireCup
-  name: "кухоль TSE"
-  description: "Майстерно виготовлений, гладкий кухоль з іконою Імперії Трьох Сонць на його боці. Чудово підходить для тих, хто служить і живе під владою Імператриці та її Імперії."
+  name: TSE mug
+  description: A well-crafted, sleek mug with the icon of the Three Sun Empire on it's side. Excellent for those who serve and live under the Empress and her Empire.
   components:
   - type: Sprite
     layers:
@@ -142,8 +142,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCColonyLiberationFrontCup
-  name: "кухоль CLF"
-  description: "Міцна, потерта чашка зі знаком CLF, народженого з опору, спалаху Бійні Шибу."
+  name: CLF mug
+  description: A tough, well-worn cup marked with the CLF sigil born from the defiance sparked by the Slaughter of Xibou.
   components:
   - type: Sprite
     layers:
@@ -157,8 +157,8 @@
 - type: entity
   parent: RMCCoffeeCup
   id: RMCPaperCup
-  name: "паперовий стаканчик"
-  description: "Паперовий стаканчик для води."
+  name: paper cup
+  description: A paper water cup.
   suffix: RMC
   components:
   - type: SolutionContainerManager

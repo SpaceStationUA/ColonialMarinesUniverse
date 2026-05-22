@@ -1,8 +1,8 @@
 - type: entity
-  name: "коробка для стерильних масок"
+  name: sterile mask box
   parent: RMCBoxCardboard
   id: RMCBoxSterileMask
-  description: "У цій коробці знаходяться стерильні медичні маски."
+  description: This box contains sterile medical masks.
   components:
   - type: StorageFill
     contents:
@@ -12,10 +12,10 @@
     state: sterile
 
 - type: entity
-  name: "коробка з латексними рукавичками"
+  name: latex gloves box
   parent: RMCBoxCardboard
   id: RMCBoxLatexGloves
-  description: "Містить стерильні латексні рукавички."
+  description: Contains sterile latex gloves.
   components:
   - type: StorageFill
     contents:
@@ -25,10 +25,10 @@
     state: latex
 
 - type: entity
-  name: "коробка з мішками для трупів"
+  name: body bag box
   parent: RMCBoxCardboard
   id: RMCBoxBodyBag
-  description: "Містить мішки для трупів."
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -41,10 +41,10 @@
         - BodyBag
 
 - type: entity
-  name: "коробка пляшечок для пігулок"
+  name: box of pill bottles
   parent: RMCBoxCardboard
   id: RMCBoxPillCanister
-  description: "На передній стороні намальовані картинки пляшечок для пігулок."
+  description: It has pictures of pill bottles on its front.
   components:
   - type: StorageFill
     contents:
@@ -68,10 +68,10 @@
       - PillCanister
 
 - type: entity
-  name: "коробка шприців"
+  name: box of syringes
   parent: RMCBoxCardboard
   id: RMCBoxSyringe
-  description: "На коробці нанесено попередження про біонебезпеку"
+  description: A biohazard alert warning is printed on the box
   components:
   - type: StorageFill
     contents:
@@ -81,10 +81,10 @@
     state: syringe
 
 - type: entity
-  name: "коробка мензурок"
+  name: box of beakers
   parent: RMCBoxCardboard
   id: RMCBoxBeaker
-  description: "Це звичайна коробка."
+  description: It's just an ordinary box.
   components:
   - type: StorageFill
     contents:

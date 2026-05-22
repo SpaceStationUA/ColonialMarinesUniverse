@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPclothingapparelvendor
-  name: "автомат одягу УПП"
+  name: UPP apparel vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of Union of Progressive Peoples apparel.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -216,7 +216,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPequipmentvendor
-  name: "автомат спорядження УПП"
+  name: UPP equipment vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of Union of Progressive Peoples equipment.
     Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
@@ -353,7 +353,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPMedicalVendor
-  name: "медичний автомат УПП"
+  name: UPP medical vendor
   description: >-
     An automated medical rack, hooked up to a compact stock of Union of Progressive Peoples trauma supplies.
     Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
@@ -479,7 +479,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPaircrewvendor
-  name: "автомат авіаекіпажу УПП"
+  name: UPP aircrew vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of Union of Progressive Peoples aircrew flight and support gear.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -659,7 +659,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPcommandvendor
-  name: "командний автомат УПП"
+  name: UPP command vendor
   description: >-
     An automated command rack, hooked up to a restricted storage of Union of Progressive Peoples command-leadership equipment.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -740,7 +740,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPgunnerequipment
-  name: "автомат спорядження автоматника УПП"
+  name: UPP automatic rifleman equipment vendor
   description: >-
     An automated weapons rack, hooked up to a small armory of Union of Progressive Peoples light-machine gun equipment.
     Standard issue for designated LMG crews on naval vessels and outposts.
@@ -769,7 +769,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPSectionLeaderVendor
-  name: "автомат командира секції УПП"
+  name: UPP section leader vendor
   description: >-
     An automated equipment rack, hooked up to a compact storage of Union of Progressive Peoples section-leadership equipment.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -794,7 +794,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPWeaponsVendor
-  name: "збройова стійка УПП"
+  name: UPP weapons rack
   description: >-
     An automated weapons rack, hooked up to a small armory of Union of Progressive Peoples weaponry.
     Standard issue across the frontier where threats can appear without warning.
@@ -837,7 +837,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPSpecialWeaponsVendor
-  name: "стійка спеціальної зброї УПП"
+  name: UPP special weapons rack
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of Union of Progressive Peoples heavy and breaching ordnance.
     Standard issue only for qualified operators.
@@ -908,8 +908,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14UPPAirCrewWeaponsVendor
-  name: "збройова стійка авіаекіпажу УПП"
-  description: "Автоматизована стійка, під’єднана до невеликого запасу зброї авіаекіпажу."
+  name: UPP aircrew weapons rack
+  description: An automated rack hooked up to a small storage of aircrew weapons.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforPilot" ], [ "AU14AccessOpforPilot" ] ]
@@ -934,8 +934,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14ComtechGearVendorUPP
-  name: "стійка спорядження бойових техніків УПП"
-  description: "Автоматизована стійка спорядження для бойових техніків."
+  name: UPP combat technicians gear rack
+  description: An automated gear rack for combat technicians.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforEngineering" ], [ "AU14AccessOpforEngineering" ] ]
@@ -1019,8 +1019,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14MilitaryPolicemanVendorUPP
-  name: "стійка спорядження комісаріатської поліції УПП"
-  description: "Автоматизована стійка, під’єднана до невеликого запасу спорядження військової поліції."
+  name: UPP commissariat police equipment rack
+  description: An automated rack hooked up to a small storage of military police equipment.
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -1076,8 +1076,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14UPPRequisitionVendor
-  name: "автоматизований автомат постачання УПП"
-  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
+  name: UPP automated requisitions vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

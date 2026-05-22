@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCBaseMarineArmor, RMCAllowSuitStorageClothingArmorPMC]
   id: RMCArmorM4PMCNoLight
-  name: "броня PMC зразка M4"
-  description: "Модифікація стандартної броні M3. Створена з урахуванням потреб статусних операторів безпеки та корпоративних найманців."
+  name: M4 pattern PMC armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind.
   suffix: No Suitlamp
   components:
   - type: RMCArmorSpeedTier
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCLight
-  name: "легка броня PMC зразка M4"
-  description: "Модифікація стандартної броні M3. Створена з урахуванням потреб статусних операторів безпеки та корпоративних найманців. Частину бронепластин знято для більшої мобільності."
+  name: M4 pattern light PMC armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. Has some armor plating removed for extra mobility.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: CMArmorM4PMCLight
   id: RMCArmorM4PMCBulletProof
-  name: "куленепробивна броня PMC зразка M4"
-  description: "Модифікація стандартної броні M3. Створена з урахуванням потреб статусних операторів безпеки та корпоративних найманців. Цей комплект призначений для захисту від балістики і має мінімальний захист від лез та біозагроз."
+  name: M4 pattern PMC bulletproof armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This set is designed for protecting against ballistics, and has minimal protection against blades and biohazards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/bulletproof.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: [RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight]
   id: CMArmorM4PMCCorporate
-  name: "корпоративна охоронна броня зразка M1"
-  description: "Базовий жилет зі значком We-Yu на правих грудях. Його зазвичай носять охоронці низького рівня, які захищають об'єкти We-Yu."
+  name: M1 pattern corporate security armor
+  description: A basic vest with a We-Yu badge on the right breast. This is commonly worn by low-level guards protecting We-Yu facilities.
   suffix: ""
   components:
   - type: Sprite
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMArmorM4PMCCorporate
   id: CMArmorM4PMCCorporateLead
-  description: "Базовий жилет зі значком We-Yu на правих грудях. Цей варіант носять охоронці низького рівня, які підвищилися в ранзі завдяки 'хорошій поведінці в полі', також відомій як корпоративне чоботолизство."
+  description: A basic vest with a We-Yu badge on the right breast. This variant is worn by low-level guards that have elevated in rank due to 'good conduct in the field', also known as corporate bootlicking.
   suffix: Leader
   components:
   - type: Sprite
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCLeader
-  name: "лідерська броня PMC зразка M4"
-  description: "Модифікація стандартної броні M3. Створена з урахуванням потреб статусних операторів безпеки та корпоративних найманців. Цей конкретний комплект виглядає так, ніби належить високопоставленому офіцеру."
+  name: M4 pattern PMC leader armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/officer.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMCSniper
-  name: "снайперська броня PMC зразка M4"
-  description: "Модифікація стандартної броні M3. Створена з урахуванням потреб статусних операторів безпеки та корпоративних найманців. Цей конкретний комплект виглядає так, ніби належить високопоставленому офіцеру."
+  name: M4 pattern PMC sniper armor
+  description: A modification of the standard M3 armor. Designed for high-profile security operators and corporate mercenaries in mind. This particular suit looks like it belongs to a high-ranking officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/sniper.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMArmorM4PMCLight
   id: CMArmorM4PMCSynth
-  name: "синтетична броня PMC зразка M4"
-  description: "Серйозна модифікація стандартної броні M3. Цей варіант створений для польових підрозділів підтримки PMC, зі знятими всіма броневставками. Розроблений з урахуванням ідеї надшвидкого рятівника."
+  name: M4 pattern PMC synthetic armor
+  description: A serious modification of the standard M3 armor. This variant was designed for PMC Support Units in the field, with every armor insert removed. It's designed with the idea of a high speed lifesaver in mind.
   components:
   - type: Clothing
     equipDelay: 1
@@ -148,14 +148,14 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMHeavy
-  name: "важка броня PMC"
-  description: "Модифікація стандартної броні M3. Має додаткові пластини та ремені для кращого захисту."
+  name: PMC heavy armor
+  description: A modification of the standard M3 armor. Featuring additional plating and straps to provide superior protection.
 
 - type: entity
   parent: CMArmorM4PMHeavy
   id: CMArmorM4PMCSmartGunHarness
-  name: "броня оператора гармати PMC"
-  description: "Модифікація стандартної броні M3. Оснащена упряжжю та ременями, що дозволяють користувачу переносити розумний кулемет ML66A."
+  name: PMC gun operator armor
+  description: A modification of the standard M3 armor. Hooked up with harnesses and straps allowing the user to carry a ML66A Smart Gun.
   components:
   - type: RMCArmorSpeedTier
     speedTier: light
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMArmorM4PMCSmartGunHarness
   id: CMArmorM4PMCSmartGunHarnessCommando
-  name: "броня оператора гармати екзоскелета M5Xg"
-  description: "Складна система перекривних пластин, покликана зробити носія майже невразливим до стрілецького вогню. Пасивний екзоскелет підтримує вагу броні, дозволяючи людині носити її масивний об'єм. Цей варіант створений для підтримки розумного кулемета ML66A."
+  name: M5Xg exoskeleton gun operator armor
+  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk. This variant is designed to support ML66A Smart Gun.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -197,8 +197,8 @@
 - type: entity
   parent: CMArmorM4PMC
   id: CMArmorM4PMCCommandoSurvivor
-  name: "пошкоджена броня коммандос зразка MY7"
-  description: "Модифікація бронесхем W-Y PMC. Створена з урахуванням потреб елітних корпоративних найманців. Ця має багато подряпин і кислотних ушкоджень."
+  name: damaged MY7 pattern Commando armor
+  description: A modification of the W-Y PMC armor patterns. Designed for elite corporate mercenaries in mind. This one has a lot of scratches and acid damage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: CMArmorM4PMCCommando
-  name: "броня екзоскелета M5X"
-  description: "Складна система перекривних пластин, покликана зробити носія майже невразливим до стрілецького вогню. Пасивний екзоскелет підтримує вагу броні, дозволяючи людині носити її масивний об'єм."
+  name: M5X exoskeleton armor
+  description: A complex system of overlapping plates intended to render the wearer all but impervious to small arms fire. A passive exoskeleton supports the weight of the armor, allowing a human to carry its massive bulk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/commando.rsi
@@ -236,8 +236,8 @@
 - type: entity
   parent: RMCArmorM4PMCNoLight
   id: RMCArmorM4PMCEngineer
-  name: "інженерна броня PMC зразка M4"
-  description: "Модифікація стандартної броні M3. Створена для високого захисту від стихійних загроз, таких як струм, вогонь і уламки, але поступається в плані кевлару для захисту від куль."
+  name: M4 pattern engineer PMC armor
+  description: A modification of the standard M3 armor. Designed for high elemental protection, like shock, fire and fragments, lacks in terms of kevlar for bullet protection.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/engineer.rsi
@@ -253,8 +253,8 @@
 - type: entity
   parent: RMCBaseJacket
   id: RMCArmorPMCDirector
-  name: "куртка директора"
-  description: "Куртка, що належить комусь дуже важливому. Виготовлена з ізоляційного матеріалу й дає незначний захист від усіх форм шкоди."
+  name: director's jacket
+  description: A jacket that belongs to someone very important. It is made of insulating material and offers minor protection from all forms of damage.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/PMC/director.rsi

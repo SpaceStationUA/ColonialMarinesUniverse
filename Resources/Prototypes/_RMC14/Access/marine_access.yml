@@ -23,7 +23,7 @@
 - type: accessLevel
   id: CMAccessMarinePrep
   parent: RMCBaseMarineAccess
-  name: "Підготовка морпіхів"
+  name: Marine Prep
 
 - type: accessLevel
   id: CMAccessMedPrep

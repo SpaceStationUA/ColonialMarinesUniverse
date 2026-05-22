@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTrooperArmoredLAT
-  name: "боєць армії США LAT (ЕРТ)"
+  name: US Army Trooper LAT (ERT)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

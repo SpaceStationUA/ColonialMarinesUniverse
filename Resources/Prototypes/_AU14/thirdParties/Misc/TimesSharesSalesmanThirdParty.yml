@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianTimesSharesSalesman
-  name: "продавець таймшерів"
-  description: "Ви продавець таймшерів, відправлений на фронтир продавати пакети відпочинку. Ви подорожуєте від колонії до колонії, намагаючись переконати людей купити частку у спільній власності."
+  name: Timeshares Salesperson
+  description: You are a timeshares salesperson sent to the frontier to sell vacation packages. You travel from colony to colony trying to convince people to buy into shared properties.
   setPreference: true
   playTimeTracker: AU14JobCivilianDeliveryPizzaBoy
   ranks:
@@ -38,7 +38,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14PartyJobTimeSharesSalesman
-  name: "продавець таймшерів"
+  name: Timeshares Salesperson
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -46,8 +46,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "продавець таймшерів"
-    description: "Ви продавець таймшерів, відправлений на фронтир продавати пакети відпочинку. Ви подорожуєте від колонії до колонії, намагаючись переконати людей купити частку у спільній власності."
+    name: Timeshares Salesperson
+    description: You are a timeshares salesperson sent to the frontier to sell vacation packages. You travel from colony to colony trying to convince people to buy into shared properties.
     job: AU14JobCivilianTimesSharesSalesman
     raffle:
       settings: short

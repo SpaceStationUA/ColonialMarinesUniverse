@@ -2,8 +2,8 @@
   parent: CMSatchel
   id: RMCSmartpackBase
   abstract: true
-  name: "рюкзак S-V42"
-  description: "Спільний проєкт КМП США та «Вейленд-Ютані». Кажуть, це інженерія найвищого класу та передова технологія з вбудованим наплічним ліхтарем."
+  name: S-V42 backpack
+  description: A joint project between the USCM and Weyland-Yutani. It is said to be top-class engineering and state of the art technology with a built in shoulder-lamp.
   components:
   - type: Item
     heldPrefix: off
@@ -92,8 +92,8 @@
   parent: RMCSmartpackBase
   id: RMCSmartpackA1Base
   abstract: true
-  name: "рюкзак S-V42A1"
-  description: "Доопрацьований спільний проєкт КМП США та «Вейленд-Ютані». Кажуть, це інженерія найвищого класу та передова технологія з вбудованим наплічним ліхтарем."
+  name: S-V42A1 backpack
+  description: A revised joint project between the USCM and Weyland-Yutani. It is said to be top-class engineering and state of the art technology with a built in shoulder-lamp.
 
 # V42
 

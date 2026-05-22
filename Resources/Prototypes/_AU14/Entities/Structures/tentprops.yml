@@ -38,8 +38,8 @@
   parent: AU14PropTents
   id: AU14PropTent1
   suffix: Tent
-  name: "командний намет"
-  description: "Намет."
+  name: Command Tent
+  description: A tent.
   components:
   - type: Sprite
     state: command_tent
@@ -59,8 +59,8 @@
   parent: AU14PropTents
   id: AU14PropTent2
   suffix: Tent
-  name: "медичний намет"
-  description: "Намет."
+  name: Medical Tent
+  description: A tent.
   components:
   - type: Sprite
     state: medical_tent
@@ -80,8 +80,8 @@
   parent: AU14PropTents
   id: AU14PropTent3
   suffix: Tent
-  name: "закритий намет"
-  description: "Намет."
+  name: Closed Tent
+  description: A tent.
   components:
   - type: Sprite
     state: small_closed_tent
@@ -101,8 +101,8 @@
   parent: AU14PropTents
   id: AU14PropTent4
   suffix: Tent
-  name: "закритий намет"
-  description: "Намет."
+  name: Closed Tent
+  description: A tent.
   components:
   - type: Sprite
     state: small_closed_tent_back
@@ -122,8 +122,8 @@
   parent: AU14PropTents
   id: AU14PropTent5
   suffix: Tent
-  name: "намет"
-  description: "Намет."
+  name: Tent
+  description: A tent.
   components:
   - type: Sprite
     state: small_tent
@@ -143,8 +143,8 @@
   parent: AU14PropTents
   id: AU14PropTent6
   suffix: Tent
-  name: "намет постачання"
-  description: "Намет."
+  name: Supply Tent
+  description: A tent.
   components:
   - type: Sprite
     state: supply_tent

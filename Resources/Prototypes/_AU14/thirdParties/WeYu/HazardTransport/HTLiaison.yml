@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYHTLiaison
-  name: "зв’язковий транспорту небезпек ВЮ (третя сторона)"
+  name: WY Hazard Transport Liaison (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

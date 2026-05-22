@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesParamedic
-  name: "спавнер парамедика chances"
+  name: chances paramedic spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -56,7 +56,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesParamedic
-  name: "привид-роль парамедика chances"
+  name: chances paramedic ghost role
   components:
   - type: Sprite
     layers:

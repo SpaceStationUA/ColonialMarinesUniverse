@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYHTGoon
-  name: "оперативник транспорту небезпек ВЮ (третя сторона)"
+  name: WY Hazard Transport Goon (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

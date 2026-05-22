@@ -1,7 +1,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepDebrideEschar
-  name: "Очистити струп"
+  name: Debride eschar
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -18,7 +18,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryDebrideEschar
-  name: "Очистити струп"
+  name: Debride Eschar
   components:
   - type: CMSurgery
     priority: 9

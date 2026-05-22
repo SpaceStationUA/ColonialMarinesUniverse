@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateMagazineL64A3
-  name: "ящик магазинів для DMR L64A3 з набоями Squash-Head (x5)"
+  name: L64A3 DMR Squash-Head Magazine Crate (x5)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateMagazineType88
-  name: "ящик магазинів для DMR Type 88 (x5)"
+  name: Type 88 DMR Magazine Crate (x5)
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateMagazineType23Mixed
-  name: "ящик змішаних набоїв Type 23 (x2 важкий картеч, x2 важкі флешети, x2 важкі кулі)"
+  name: Type 23 Mixed Ammo Crate (x2 Heavy Buckshot, x2 Heavy Flechette, x2 Heavy Slugs)
   components:
   - type: StorageFill
     contents:

@@ -116,8 +116,8 @@
   abstract: true
   parent: BaseCartridge
   id: CMShellShotgunBase
-  name: "жменя набоїв для дробовика"
-  description: "Жменя набоїв, щоб перезарядитися на ходу."
+  name: handful of shotgun shell
+  description: A handful of rounds to reload on the go.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_handfuls.rsi

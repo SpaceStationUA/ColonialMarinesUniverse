@@ -2,8 +2,8 @@
   parent: RMCCommunicationsTower
   id: AU14CommunicationsTower
   suffix: "Default, Empty"
-  name: "стаціонарна телекомунікаційна вишка TC-5F"
-  description: "Стаціонарна посилена вишка телекомунікаційних частот TC-5F. Використовується для налаштування ліній підпросторового зв'язку між планетарними та позапланетарними локаціями. Додаткові частоти зв'язку потрібно прошивати мультитулом."
+  name: TC-5F static telecommunications tower
+  description: A static heavy-duty TC-5F telecom-frequency tower. Used to set up subspace communications lines between planetary and extra-planetary locations. Will need to have extra communication frequencies programmed into it by multitool.
   components:
   - type: RMCRepairable
     heal: 150
@@ -141,7 +141,7 @@
   abstract: true
   parent: MarkerBase
   id: AU14SpawnerCommunicationsTowerBase
-  name: "стаціонарний зв'язок"
+  name: static comms
   components:
   - type: Sprite
     sprite: _RMC14/Structures/communications_tower.rsi

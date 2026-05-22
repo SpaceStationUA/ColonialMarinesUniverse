@@ -2,44 +2,44 @@
 
 - type: customHoliday
   id: RMCUNMCFoundingDay # RMC14 Release
-  name: "День заснування UNMC"
+  name: UNMC Founding Day
   beginDay: 9
   beginMonth: June
-  description: "Архаїчне свято на честь заснування Корпусу морпіхів ООН."
+  description: An archaic holiday commemorating the founding of the United Nations Marine Corps.
 
 - type: customHoliday
   id: RMCNewHorizonDay # RMC14 Initial development and founding
-  name: "День Нового Горизонту"
+  name: New Horizon Day
   beginDay: 28
   beginMonth: October
-  description: "День, що відзначає утворення Організації Об'єднаних Націй та мир і процвітання, які вона забезпечила для всіх."
+  description: A day that commemorates the formation of the United Nations, and the peace and prosperity it has upheld for everyone.
 
 - type: customHoliday
   id: RMCFleetDay # Lore
-  name: "День Флоту"
+  name: Fleet Day
   beginDay: 6
   beginMonth: May
-  description: "День святкування, у який UNMC демонструє свій флот."
+  description: A day of celebration in which the UNMC showcase their fleet.
 
 # Major Holidays
 
 - type: customHoliday
   id: RMCChristmas
-  name: "Різдво"
+  name: Christmas
   beginDay: 25
   beginMonth: December
-  description: "День, у який Виконавчий Спеціаліст Санта літає над колоніями на своєму десантному кораблі «Сани», щоб дати оплачувану відпустку добрим робітникам."
+  description: The day in which Executive Specialist Santa flies over the colonies with his 'Sleigh' dropship to give paid time off to good workers.
 
 - type: customHoliday
   id: RMCHalloween
-  name: "Гелловін"
+  name: Halloween
   beginDay: 31
   beginMonth: October
-  description: "А-а-а! Страшно!"
+  description: Ahh! Scary!
 
 - type: customHoliday
   id: RMCNewYears
-  name: "Новий рік"
+  name: New Years
   beginDay: 1
   beginMonth: January
-  description: "Перший день нового року. Чекають нові можливості!"
+  description: The first day of a new year. New opportunities await!

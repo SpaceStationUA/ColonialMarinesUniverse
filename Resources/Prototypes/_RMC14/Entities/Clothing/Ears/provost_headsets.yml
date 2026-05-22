@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCHeadsetShip
   id: RMCHeadsetProvost
-  name: "гарнітура прево ОНМП"
+  name: UNMC provost headset
   components:
   - type: ContainerFill
     containers:

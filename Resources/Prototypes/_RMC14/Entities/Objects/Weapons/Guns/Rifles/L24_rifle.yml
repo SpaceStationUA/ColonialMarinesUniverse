@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleL24
-  name: "штурмова гвинтівка L23"
-  description: "Імпульсно-діюча безгільзова штурмова гвинтівка 8.8x51мм Морської Піхоти Королівського Командос, особистий друг будь-якого командос морпіхів. Поставляється з режимами вогню напівавто та черги і має вбудований 30-мм гранатомет, що може утримувати дві гранати в резерві та одну в патроннику."
+  name: L23 assault rifle
+  description: Pulse action 8.8x51mm caseless assault rifle of the Royal Marine Commandos, personal friend of any Marine Commando. Comes with semi-auto and burst-fire firemodes and features an integrated 30mm grenade launcher that can hold two grenades on backup with one in the chamber.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/RMC/L23.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleL24
-  name: "Магазин L23 (8.88x51мм)"
-  description: "Магазин з набоями 8.88x51мм для гвинтівки L23."
+  name: L23 Magazine (8.88x51mm)
+  description: "A magazine of 8.88x51mm rounds for use in the L23 rifle."
   components:
   - type: Tag
     tags:
@@ -147,8 +147,8 @@
 - type: entity
   parent: RMCMagazineRifleL24
   id: RMCMagazineRifleL24AP
-  description: "Магазин з бронебійними набоями 8.88x51мм для гвинтівки L23."
-  name: "Бронебійний магазин L23 (8.88x51мм)"
+  description: "A magazine of armor-piercing 8.88x51mm rounds for use in the L23 rifle."
+  name: L23 AP Magazine (8.88x51mm)
   suffix: AP
   components:
   - type: Tag
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCMagazineRifleL24
   id: RMCMagazineRifleL24HEAP
-  description: "Магазин із фугасно-бронебійними набоями 8.88x51мм для гвинтівки L23."
-  name: "Магазин L23 HEAP (8.88x51мм)"
+  description: "A magazine of high-explosive armor-piercing 8.88x51mm rounds for use in the L23 rifle."
+  name: L23 HEAP Magazine (8.88x51mm)
   suffix: HEAP
   components:
     - type: Tag
@@ -203,8 +203,8 @@
 - type: entity
   parent: RMCMagazineRifleL24
   id: RMCMagazineRifleL24Incendiary
-  description: "Магазин із запалювальними набоями 8.88x51мм для гвинтівки L23."
-  name: "Запалювальний магазин L23 (8.88x51мм)"
+  description: "A magazine of incendiary 8.88x51mm rounds for use in the L23 rifle."
+  name: L23 Incendiary Magazine (8.88x51mm)
   suffix: Incendiary
   components:
     - type: Tag
@@ -231,8 +231,8 @@
 - type: entity
   parent: RMCMagazineRifleL24
   id: RMCMagazineRifleL24Extended
-  description: "Високоємнісний барабанний магазин з набоями 8.88x51мм для гвинтівки L23."
-  name: "Подовжений магазин L23 (8.88x51мм)"
+  description: "A high-capacity drum magazine of 8.88x51mm rounds for use in the L23 rifle."
+  name: L23 Extended Magazine (8.88x51mm)
   suffix: Extended
   components:
     - type: Tag
@@ -258,8 +258,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL24
-  name: "Набій (8.88x51мм)"
-  description: "Гвинтівочний набій 8.88x51мм"
+  name: Cartridge (8.88x51mm)
+  description: A 8.88x51mm rifle cartridge
   components:
   - type: Tag
     tags:
@@ -271,8 +271,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL24AP
-  name: "Бронебійний набій (8.88x51мм)"
-  description: "Бронебійний гвинтівочний набій 8.88x51мм"
+  name: AP Cartridge (8.88x51mm)
+  description: A 8.88x51mm AP rifle cartridge
   components:
   - type: Tag
     tags:
@@ -284,8 +284,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL24HEAP
-  name: "Набій HEAP (8.88x51мм)"
-  description: "Гвинтівочний набій HEAP 8.88x51мм"
+  name: HEAP Cartridge (8.88x51mm)
+  description: A 8.88x51mm HEAP rifle cartridge
   components:
   - type: Tag
     tags:
@@ -297,8 +297,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleL24Incendiary
-  name: "Запалювальний набій (8.88x51мм)"
-  description: "Запалювальний гвинтівочний набій 8.88x51мм"
+  name: Incendiary Cartridge (8.88x51mm)
+  description: A 8.88x51mm Incendiary rifle cartridge
   components:
   - type: Tag
     tags:

@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerLarge
-  name: "великий комп'ютер"
+  name: large computer
   components:
   - type: Sprite
     state: largecomp
@@ -9,7 +9,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerLarge0
-  name: "великий комп'ютер"
+  name: large computer
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerLargeDark
-  name: "темний великий комп'ютер"
+  name: dark large computer
   components:
   - type: Sprite
     state: largecomp_dark
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerLargeDark0
-  name: "темний великий комп'ютер"
+  name: dark large computer
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerMap
-  name: "картовий комп'ютер"
+  name: map computer
   components:
   - type: Sprite
     state: map
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerMap0
-  name: "картовий комп'ютер"
+  name: map computer
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerEmbedded
-  name: "вбудований комп'ютерний банк"
+  name: embedded computer bank
   components:
   - type: Sprite
     state: embedded computers
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropAIWallMonitor
-  name: "настінний монітор ШІ"
+  name: AI wall monitor
   components:
   - type: Sprite
     state: ai_wallmonitor
@@ -84,7 +84,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropRemoteFlightComputer
-  name: "віддалений польотний комп'ютер"
+  name: remote flight computer
   components:
   - type: Sprite
     state: remoteflightcomp
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropRemoteFlightComputer0
-  name: "віддалений польотний комп'ютер"
+  name: remote flight computer
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropRemoteFlightComputerClosed
-  name: "віддалений польотний комп'ютер"
+  name: remote flight computer
   suffix: Prop, Closed
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropElevatorHandrail
-  name: "консоль поруччя ліфта"
+  name: elevator handrail console
   components:
   - type: Sprite
     state: elevator_handrail
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropElevatorHandrail0
-  name: "консоль поруччя ліфта"
+  name: elevator handrail console
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropElevatorHandrailB
-  name: "консоль поруччя ліфта"
+  name: elevator handrail console
   suffix: Prop, B
   components:
   - type: Sprite
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCOverwatchConsole
   id: RMCOverwatchConsoleTOCShuttle
-  name: "консоль тактичних операцій шатла"
+  name: shuttle tactical operations console
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -176,7 +176,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCShuttle0
-  name: "консоль тактичних операцій шатла"
+  name: shuttle tactical operations console
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -185,7 +185,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCShuttleB
-  name: "консоль тактичних операцій шатла"
+  name: shuttle tactical operations console
   suffix: Prop, B
   components:
   - type: Sprite
@@ -194,7 +194,7 @@
 - type: entity
   parent: RMCOverwatchConsole
   id: RMCOverwatchConsoleTOCMap
-  name: "консоль тактичних операцій (карта)"
+  name: tactical map operations console
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCMap0
-  name: "консоль тактичних операцій (карта)"
+  name: tactical map operations console
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -243,7 +243,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCMapB
-  name: "консоль тактичних операцій (карта)"
+  name: tactical map operations console
   suffix: Prop, B
   components:
   - type: Sprite
@@ -252,7 +252,7 @@
 - type: entity
   parent: RMCOverwatchConsole
   id: RMCOverwatchConsoleTOCRailgun
-  name: "консоль тактичних операцій рейлгана"
+  name: railgun tactical operations console
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -272,7 +272,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCRailgun0
-  name: "консоль тактичних операцій рейлгана"
+  name: railgun tactical operations console
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -281,7 +281,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCRailgunB
-  name: "консоль тактичних операцій рейлгана"
+  name: railgun tactical operations console
   suffix: Prop, B
   components:
   - type: Sprite
@@ -290,7 +290,7 @@
 - type: entity
   parent: RMCOverwatchConsole
   id: RMCOverwatchConsoleTOCRailcannon
-  name: "консоль тактичних операцій рейл-гармати"
+  name: railcannon tactical operations console
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -310,7 +310,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCRailcannon0
-  name: "консоль тактичних операцій рейл-гармати"
+  name: railcannon tactical operations console
   suffix: Prop, 0
   components:
   - type: Sprite
@@ -319,7 +319,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropComputerTOCRailcannonB
-  name: "консоль тактичних операцій рейл-гармати"
+  name: railcannon tactical operations console
   suffix: Prop, B
   components:
   - type: Sprite

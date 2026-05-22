@@ -1,6 +1,6 @@
 - type: entity
   id: RMCHeadXeno
-  name: "голова ксеноніда"
+  name: "xenonid head"
   categories:
   - HideSpawnMenu
   components:

@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: "SPAS-12-ХАЗ"
+  name: SPAS-12-HAZ
   id: AU14WeaponShotgunSPAS12HAZOPS
-  description: "Розроблений для команд ХАЗОПС, цей обрізаний SPAS-12 здебільшого схожий на старі земні моделі, але внутрішні механізми повністю перебудовані, що дозволяє нищівний режим «потрійного пострілу»."
+  description: Designed for HAZOPS teams, this cut-down SPAS-12 looks mostly the same as old Earth models, but the internal workings are completely rebuilt, allowing for a devasting "triple-shot" mode.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/HAZOPS/SPAS12HAZ.rsi

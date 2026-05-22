@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: AU14WeaponRifleM16A1 # TODO: Make the M16 grenadier rifle when impact nades exist
-  name: "гвинтівка M16A1"
-  description: "Стара, надійна конструкція, вперше прийнята на озброєння армією США у 1960-х. Такій речі місце в музеї воєнної історії. Під набій 5.56x45mm."
+  name: M16A1 rifle
+  description: An old, reliable design first adopted by the U.S. military in the 1960s. Something like this belongs in a museum of war history. It is chambered in 5.56x45mm.
   suffix: Filled
   components:
   - type: Sprite
@@ -98,8 +98,8 @@
 - type: entity
   parent: AU14WeaponRifleM16A1
   id: AU14WeaponRifleM16A2
-  name: "гвинтівка M16A2"
-  description: "Стара, надійна конструкція, вперше прийнята на озброєння армією США у 1980-х. Такій речі місце в музеї воєнної історії. Під набій 5.56x45mm."
+  name: M16A2 rifle
+  description: An old, reliable design first adopted by the U.S. military in the 1980s. Something like this belongs in a museum of war history. It is chambered in 5.56x45mm.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Civilian/aum16a264x32.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: AU14WeaponRifleM16A2
   id: AU14WeaponRifleM16A2Larue
-  name: "гвинтівка M16A2 Лару"
-  description: "«Покращений» зразок M16A2, нещодавно випущений на цивільний ринок із заявою про «передову модульність і дружність до оптики за бюджетні гроші». На цільовому ринку мав обмежений успіх, однак продажі залишаються стабільними, хоч і невеликими."
+  name: M16A2 Larue rifle
+  description: "An 'improved' pattern of M16A2 recently released on the civilian market, proclaiming it is 'cutting edge modularity and optics friendliness on a budget' It met limited success in it's intended market It has seen stable but small sales regardless."
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Civilian/m16a2larue64x32.rsi
@@ -140,8 +140,8 @@
 - type: entity
   parent: AU14WeaponRifleM16A1
   id: AU14WeaponRifleAR10
-  name: "гвинтівка AR10"
-  description: "Стара, надійна конструкція. Такій речі місце в музеї воєнної історії. Під набій 5.56x45mm."
+  name: AR10 rifle
+  description: An old, reliable design. Something like this belongs in a museum of war history. It is chambered in 5.56x45mm.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Civilian/auar1064x32.rsi

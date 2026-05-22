@@ -3,8 +3,8 @@
   parent: RMCCaseBase
   id: RMCBasePVEEquipmentCase
   abstract: true
-  name: "базовий кейс зі спорядженням"
-  description: "Кейс для зброї."
+  name: base equipment case
+  description: A gun case.
   suffix: PVE
   components:
   - type: Sprite
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseM42A2
-  name: "кейс для дробовика M42A2"
-  description: "Важкий кейс для зберігання помпового дробовика M42A2 — сучасне бачення вічної класики від Armat Battlefield Systems."
+  name: M42A2 shotgun case
+  description: A heavy case for storing an M42A2 pump-action shotgun, an Armat Battlefield Systems modern take on an all-time classic.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/shotgun.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseM5SPR
-  name: "кейс для бойової гвинтівки M5RA"
-  description: "Великий кейс для зберігання M5RA — модифікованої бойової гвинтівки, оснащеної набоями HV-P."
+  name: M5RA battle rifle case
+  description: A large case for storing an M5RA, a modified battle rifle equipped with HV-P Rounds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/rifle.rsi
@@ -102,8 +102,8 @@
 - type: entity
   parent: RMCPVECaseM42A2
   id: RMCPVECaseType23
-  name: "кейс для дробовика Type 23"
-  description: "Важкий кейс для зберігання помпового дробовика Type 23 — напівавтоматичного дробовика СПН."
+  name: Type 23 shotgun case
+  description: A heavy case for storing a type 23 pump-action shotgun, a UPP semi-automatic shotgun.
   components:
   - type: Storage
     maxItemSize: Ginormous
@@ -131,8 +131,8 @@
 - type: entity
   parent: RMCPVECaseM5SPR
   id: RMCPVECaseM5SPR2
-  name: "кейс для бойової гвинтівки M5RA/2"
-  description: "Великий кейс для зберігання M5RA/2 — модифікованої бойової гвинтівки ПВК, оснащеної набоями HV-P."
+  name: M5RA/2 battle rifle case
+  description: A large case for storing an M5RA/2, a modified PMC battle rifle equipped with HV-P Rounds.
   components:
   - type: Storage
     whitelist:
@@ -160,8 +160,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseType64
-  name: "кейс для пістолета-кулемета Type 64"
-  description: "Важкий кейс для зберігання пістолета-кулемета Type 64 — стандартного ПК Соціалістичних Прогресивних Народів."
+  name: Type 64 smg case
+  description: A heavy case for storing a Type 64 submachine-gun, the standard SMG of the Socialist Progressive Peoples.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/type_64.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseType88
-  name: "кейс для гвинтівки призначеного снайпера Type 88"
-  description: "Важкий кейс для зберігання гвинтівки призначеного снайпера Type 88 — стандартної ГПС Соціалістичних Прогресивних Народів."
+  name: Type 88 DMR case
+  description: A heavy case for storing a Type 88 Designated Marksman Rifle, the standard-issue DMR of the Socialist Progressive Peoples.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/type_88.rsi
@@ -222,9 +222,9 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseL91SWS
-  name: "кейс L91 SWS"
+  name: L91 SWS case
   suffix: PVE, no IFF
-  description: "Важкий кейс для зберігання повної системи зброї підтримки L91, разом із глушником, трьома барабанами та трьома магазинами боєприпасів — звичайними й бронебійними відповідно. У цьому кейсі немає SASOS, його замінено стандартною 2x оптикою."
+  description: A heavy case for storing a complete L91 Support Weapon System, alongside a suppressor, three drums and three magazines of ammunition - regular and armor-penetrating rounds respectively. This particular case is missing its SASOS, which has been replaced with a standard 2x optic.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/l91.rsi
@@ -262,7 +262,7 @@
   parent: RMCPVECaseL91SWS
   id: RMCPVECaseL91SWSIFF
   suffix: PVE, SASOS IFF
-  description: "Важкий кейс для зберігання повної системи зброї підтримки L91, разом із трьома барабанами та трьома магазинами боєприпасів — звичайними й бронебійними відповідно."
+  description: A heavy case for storing a complete L91 Support Weapon System, alongside three drums and three magazines of ammunition - regular and armor-penetrating rounds respectively.
   components:
   - type: StorageFill
     contents:
@@ -281,8 +281,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseSentry
-  name: "кейс турелі UN 571-C"
-  description: "Збройний кейс із турельним пристроєм UN 571-C і запасним барабаном."
+  name: UN 571-C Sentry Gun case
+  description: A gun case containing the UN 571-C sentry unit and a spare drum.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/sentry.rsi
@@ -310,8 +310,8 @@
 - type: entity
   parent: RMCPVECaseSentry
   id: RMCPVECaseSentrySPP
-  name: "кейс турелі СПН SDS-R8"
-  description: "Збройний кейс із пристроєм СПН SDS-R8 і запасним барабаном."
+  name: UPP SDS-R8 Sentry Gun case
+  description: A gun case containing the UPP SDS-R8 unit and a spare drum.
   components:
   - type: StorageFill
     contents:
@@ -322,8 +322,8 @@
 - type: entity
   parent: RMCPVECaseSentry
   id: RMCPVECaseSentryPMC
-  name: "кейс мінітурелі We-Ya 512-M"
-  description: "Збройний кейс із мінітуреллю We-Ya 512-M і запасним барабаном."
+  name: We-Ya 512-M mini sentry case
+  description: A gun case containing the We-Ya 512-M mini sentry and a spare drum.
   components:
   - type: Storage
     whitelist:
@@ -348,8 +348,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseFlamerFuel
-  name: "кейс паливних балонів M240"
-  description: "Важкий кейс із шістьма паливними балонами для пристрою-спалювача M240."
+  name: M240 fuel canister case
+  description: A heavy case containing six fuel canisters for the M240 incinerator unit.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/flamer_fuel.rsi
@@ -426,8 +426,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: RMCPVECaseMotionDetector
-  name: "кейс детекторів руху"
-  description: "Кейс із чотирма окремими ручними детекторами руху."
+  name: motion detectors case
+  description: A case containing four individual handheld motion detectors.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/md.rsi

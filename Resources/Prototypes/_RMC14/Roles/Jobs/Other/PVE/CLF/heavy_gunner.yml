@@ -35,7 +35,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFCHeavyGunnerPVE
-  name: "спавнер важкого стрільця clf"
+  name: clf heavy gunner spawn point
   suffix: PVE
   components:
   - type: SpawnPoint

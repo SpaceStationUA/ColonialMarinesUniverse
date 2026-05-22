@@ -1,61 +1,61 @@
 #platoon ranks
 - type: rank
   id: AU14RankPrDRecruit
-  name: "Стажер Підрозділу реагування"
+  name: Response Unit in Training
   prefix: RU. IT.
   paygrade: PSC-R0
 
 - type: rank
   id: AU14RankPrDAssociate
-  name: "Помічник Підрозділу реагування"
+  name: Associate Response Unit
   prefix: ARU.
   paygrade: PSC-R1
 
 - type: rank
   id: AU14RankPrDOperator
-  name: "Оператор Підрозділу реагування"
+  name: Response Unit Operator
   prefix: RU. OPR.
   paygrade: PSC-R2
 
 - type: rank
   id: AU14RankPrDSeniorOperator
-  name: "Старший оператор"
+  name: Senior Operator
   prefix: RU. SrOPR.
   paygrade: PSC-R3
 
 - type: rank
   id: AU14RankPrDEnforcer
-  name: "Силовик Підрозділу реагування"
+  name: Response Unit Enforcer
   prefix: RU. ENF.
   paygrade: PSC-R4
 
 - type: rank
   id: AU14RankPrDEnforcerSenior
-  name: "Старший силовик Підрозділу реагування"
+  name: Senior Response Unit Enforcer
   prefix: RU. SrENF.
   paygrade: PSC-R5
 
 - type: rank
   id: AU14RankPrDEnforcerLead
-  name: "Головний силовик Підрозділу реагування"
+  name: Lead Response Unit Enforcer
   prefix: RU. LdENF.
   paygrade: PSC-R6
 
 - type: rank
   id: AU14RankPrDAdjutant
-  name: "Ад'ютант Підрозділу реагування"
+  name: Response Unit Adjutant
   prefix: RU. ADJ.
   paygrade: PSC-S1
 
 - type: rank
   id: AU14RankPrDCommander
-  name: "Командир Підрозділу реагування"
+  name: Response Unit Commander
   prefix: RU. CDR.
   paygrade: PSC-S2
 
 - type: rank
   id: AU14RankPrDCommanderSenior
-  name: "Старший командир Підрозділу реагування"
+  name: Senior Response Unit Commander
   prefix: RU. SrCDR.
   paygrade: PSC-S3
 
@@ -63,68 +63,68 @@
 
 - type: rank
   id: AU14RankPrDSynth1
-  name: "Синтетик Підрозділу реагування 1 класу"
+  name: Response Unit Synthetic Grade 1
   prefix: RU. SYN.
   paygrade: PSC-RUSYN1
 
 - type: rank
   id: AU14RankPrDSynth2
-  name: "Синтетик Підрозділу реагування 2 класу"
+  name: Response Unit Synthetic Grade 2
   prefix: RU. SYN. Grade 2
   paygrade: PSC-RUSYN2
 
 - type: rank
   id: AU14RankPrDSynth3
-  name: "Синтетик Підрозділу реагування 3 класу"
+  name: Response Unit Synthetic Grade 3
   prefix: RU. SYN. Grade 3
   paygrade: PSC-RUSYN3
 
 - type: rank
   id: AU14RankPrDSynth4
-  name: "Синтетик Підрозділу реагування 4 класу"
+  name: Response Unit Synthetic Grade 4
   prefix: RU. SYN. Grade 4
   paygrade: PSC-RUSYN4
 
 - type: rank
   id: AU14RankPrDSynth5
-  name: "Синтетик Підрозділу реагування 5 класу"
+  name: Response Unit Synthetic Grade 5
   prefix: RU. SYN. Grade 5
   paygrade: PSC-RUSYN5
 
 #aviation
 - type: rank
   id: AU14RankPrDPilot
-  name: "Пілот Підрозділу реагування"
+  name: Response Unit Pilot
   prefix: PLT.
   paygrade: PSC-AVO1
 
 - type: rank
   id: AU14RankPrDSeniorPilot
-  name: "Старший пілот Підрозділу реагування"
+  name: Senior Response Unit Pilot
   prefix: SR. PLT.
   paygrade: PSC-AVO2
 
 - type: rank
   id: AU14RankPrDCrewChief
-  name: "Бортмеханік Підрозділу реагування"
+  name: Response Unit Crew Chief
   prefix: RU. CC.
   paygrade: PSC-AVC3
 
 - type: rank
   id: AU14RankPrDSeniorCrewChief
-  name: "Старший бортмеханік Підрозділу реагування"
+  name: Senior Response Unit Crew Chief
   prefix: SR. CC.
   paygrade: PSC-AVC4
 
 # other
 - type: rank
   id: AU14RankPrDDeputyDirector
-  name: "Заступник директора об'єкта"
+  name: Deputy Site Director
   prefix: Deputy Director
   paygrade: PSC-C10
 
 - type: rank
   id: AU14RankPrDSiteDirector
-  name: "Директор об'єкта PSC"
+  name: PSC Site Director
   prefix: Director
   paygrade: PSC-C11

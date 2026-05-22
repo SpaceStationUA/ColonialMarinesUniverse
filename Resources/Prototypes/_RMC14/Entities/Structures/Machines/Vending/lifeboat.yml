@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCNanoMed
   id: RMCVendorLifeboatMedical
-  name: "медична шафа рятувального човна"
-  description: "Настінна шафа з медичними запасами, важливими для виживання. Хоча вона краще оснащена, поповнює лише базові запаси."
+  name: lifeboat medical cabinet
+  description: A wall-mounted cabinet containing medical supplies vital to survival. While better equipped, it can only refill basic supplies.
   components:
   - type: Transform
     anchored: false
@@ -42,8 +42,8 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCVendorLifeboatWall
-  name: "настінна шафа рятувального човна"
-  description: "Настінна аварійна шафа з запасами для виживання."
+  name: lifeboat wall cabinet
+  description: A wall-mounted emergency cabinet containing survival supplies.
   components:
   - type: Sprite
     drawdepth: WallMountedItems

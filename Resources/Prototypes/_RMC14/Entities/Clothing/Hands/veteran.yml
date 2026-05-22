@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsVeteran
-  name: "броньовані рукавички"
-  description: "Нестандартні рукавички з волокна kevlon. Вони ізольовані та важкоброньовані."
+  name: armored gloves
+  description: Non-standard kevlon fiber gloves. They're insulated and heavily armored.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/veteran.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: RMCHandsVeteranInsulated
-  name: "ізольовані броньовані рукавички"
-  description: "Нестандартні рукавички з волокна kevlon. Вочевидь, ці ОСОБЛИВО добре ізольовані."
+  name: insulated armored gloves
+  description: Non-standard kevlon fiber gloves. These are apparently ESPECIALLY insulated.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/insulated.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: RMCHandsVeteranPMC
-  name: "рукавички WY PMC"
-  description: "Стандартні рукавички з волокна kevlon, виготовлені для й силами відділу постачання PMC Weyland-Yutani. Вони ізольовані від електричного струму."
+  name: WY PMC gloves
+  description: Standard issue kevlon fiber gloves manufactured for and by Weyland-Yutani PMC dispatch division. They are insulated against electrical shock.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/pmc.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCHandsVeteranPMC
   id: RMCHandsVeteranPMCCommandoSurvivor
-  name: "рукавички коммандос We-Ya"
-  description: "Стандартні рукавички з волокна kevlon, виготовлені для й силами коммандос Weston-Yamada. Вони ізольовані від електричного струму."
+  name: We-Ya Commando gloves
+  description: Standard issue kevlon fiber gloves manufactured for and by Weston-Yamada Commandos. They are insulated against electrical shock.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/gauntlets.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: RMCHandsVeteranPMC
   id: RMCHandsVeteranPMCCommando
-  name: "краги M5X"
-  description: "Пара важкоброньованих рукавичок, створених як доповнення до броні екзоскелета M5X."
+  name: M5X gauntlets
+  description: A pair of heavily armored gloves made to complete the M5X exoskeleton armor.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/gauntlets.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: RMCHandsVeteranRoyalMarine
-  name: "бойові рукавички зразка L6"
-  description: "Стандартні тактичні рукавички, які використовують Королівські Морпіхаx Корони."
+  name: L6 pattern combat gloves
+  description: Standard issue tactical gloves used by the Royal Crown Marines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/royal_marine.rsi
@@ -92,8 +92,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: RMCHandsVeteranCBRN
-  name: "рукавички M3 MOPP"
-  description: "Рукавички M3 MOPP виготовлені з обробленого венлару, розробленого для захисту рук користувача від забруднення під час роботи в умовах CBRN. Особливу увагу приділено тому, щоб руки зберігали достатню спритність для повного обслуговування гвинтівки чи використання більшості ручних інструментів, а кругові клейкі візерунки на пальцях покращують хват. Стандартний протокол CBRN передбачає, що після впливу помірного рівня забруднення рукавички мають термін максимальної ефективності близько двадцяти чотирьох годин, після чого користувачам рекомендується їх викинути та замінити."
+  name: M3 MOPP gloves
+  description: M3 MOPP gloves are made of treated venlar designed to protect the user’s hands against contamination whilst working in CBRN environments. Special care has been taken to give the user’s hands enough dexterity to fully service a rifle or utilize most handheld tools, while circular adhesive patterns on the fingers provide the user with enhanced grips. Standard CBRN protocol dictates that the gloves are expected to have a lifespan of maximum effectiveness of around twenty-four hours once exposed to moderate levels of contamination and that users are recommended to discard and replace them afterwards.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/cbrn.rsi

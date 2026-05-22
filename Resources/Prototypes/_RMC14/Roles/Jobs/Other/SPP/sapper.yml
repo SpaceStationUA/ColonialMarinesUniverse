@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPEngineer
   name: rmc-job-name-spp-engineer
-  description: "rmc-job-description-spp-engineer"
+  description: rmc-job-description-spp-engineer
   playTimeTracker: CMJobSPPEngineer
   ranks:
     RMCRankSPPMladshiySerzhant: []
@@ -35,7 +35,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPEngineerHostile
-  name: "spp привид-роль інженера"
+  name: spp ghost role engineer
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPEngineerFriendly
-  name: "spp привид-роль інженера"
+  name: spp ghost role engineer
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

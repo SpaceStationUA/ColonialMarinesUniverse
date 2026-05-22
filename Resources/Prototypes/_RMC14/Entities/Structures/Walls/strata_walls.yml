@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallStrata
-  name: "гола стіна форпосту"
-  description: "Товста й масивна металева стіна. Поверхня — гола й зловісна."
+  name: bare outpost wall
+  description: A thick and chunky metal wall. The surface is barren and imposing.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_wall.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallStrataReinforced
-  name: "ребриста стіна форпосту"
-  description: "Товста й масивна металева стіна, вкрита зубчастими ребрами."
+  name: ribbed outpost wall
+  description: A thick and chunky metal wall covered in jagged ribs.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rwall.rsi
@@ -39,8 +39,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallStrataHull
-  name: "важка ребриста стіна форпосту"
-  description: "Товста й масивна металева стіна, яка завдяки самому лише розташуванню та зловісній присутності повністю незнищенна."
+  name: heavy ribbed outpost wall
+  description: A thick and chunky metal wall that is, just by virtue of its placement and imposing presence, entirely indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rwall.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallStrataIce
-  name: "крижані колони"
-  description: "Абсолютно масивна купа колон з льоду. Що довше дивишся, то глибше, здається, тягнеться лід."
+  name: ice columns
+  description: An absolutely massive collection of columns made of ice. The longer you stare, the deeper the ice seems to go.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_ice.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCWallStrataIce
   id: RMCWallStrataRock
-  name: "кам'яна стіна"
-  description: "Нерівна стіна затверділої породи."
+  name: rock wall
+  description: A rough wall of hardened rock.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/strata_rock.rsi

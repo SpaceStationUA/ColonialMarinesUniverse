@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHandsInsulated
   id: CMHandsCaptain
-  name: "капітанські рукавички"
-  description: "Пара капітанських рукавичок."
+  name: captain's gloves
+  description: A pair of captain's gloves.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/captain.rsi
@@ -15,8 +15,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsLatex
-  name: "латексні рукавички"
-  description: "Пара латексних рукавичок."
+  name: latex gloves
+  description: A pair of latex gloves.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/latex.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: RMCHandsTychoGloves
-  name: "радіаційно-захисні рукавички Tycho 4000"
-  description: "Жаростійкі рукавички для радіаційно-захисного костюма Weston-Yamada Tycho 4000. Вони підбиті свинцем і доволі важкі, але убезпечать вас від радіологічних матеріалів."
+  name: Tycho 4000 radiation protection gloves
+  description: The burn-resistant gloves for the Weston-Yamada Tycho 4000 Radiation Protection Suit. It's lined with lead, and is pretty heavy, but it'll keep you safe from Radiological materials.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/rad_gloves_weya.rsi

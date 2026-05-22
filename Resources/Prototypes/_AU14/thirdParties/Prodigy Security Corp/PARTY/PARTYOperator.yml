@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYProdigyPartySmartgunner
-  name: "оператор смартгана ПВК"
+  name: PMC Smartgun Operator
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobWYProdigyPartySmartgunner
   ranks:
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYProdigyPartySmartgunner
-  name: "Оператор смартгана групи ПВК Вей-Ю (третя сторона)"
+  name: WY PMC Party Smartgun Operator (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -50,7 +50,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "оператор смартгана ПВК"
+    name: PMC Smartgun Operator
     description: au14-prodigyparty-description
     reregister: false
     job: AU14JobWYProdigyPartySmartgunner

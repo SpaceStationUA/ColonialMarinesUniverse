@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesAtmosProcessTech
-  name: "спавнер техніка реактора атмосферної обробки"
+  name: atmospheric processing reactor technician spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -55,7 +55,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesAtmosProcessTech
-  name: "привид-роль техніка реактора атмосферної обробки"
+  name: atmospheric processing reactor technician ghost role
   components:
   - type: Sprite
     layers:

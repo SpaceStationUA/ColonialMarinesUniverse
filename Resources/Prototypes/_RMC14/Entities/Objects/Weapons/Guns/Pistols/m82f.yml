@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseSlideMagazineVisualsBallistic, CMBaseWeaponGun, RMCBaseAttachableHolder ]
   id: RMCWeaponPistolM82F
-  name: "сигнальна ракетниця M82-F"
-  description: "Сигнальна ракетниця, що видається оператору JTAC для використання з сигнальними ракетами. Поставляється з міні-прицілом. Один постріл, одне... врятоване життя?"
+  name: M82-F flare gun
+  description: A flare gun issued to JTAC operators to use with flares. Comes with a miniscope. One shot, one... life saved?
   components:
   - type: AmmoCounter
   - type: Sprite
