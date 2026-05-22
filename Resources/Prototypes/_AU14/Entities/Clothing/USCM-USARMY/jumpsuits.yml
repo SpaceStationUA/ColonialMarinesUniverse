@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14DesertFatigues
-  name: USCM desert fatigues
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: "пустельна польова форма ККМП США"
+  description: "Штатна польова форма ККМП США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/desertfatigues.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14USArmyDesertFatigues
-  name: US army 1st cavalry division desert fatigues
-  description: Standard-issue US Army fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: "пустельна польова форма 1-ї кавалерійської дивізії армії США"
+  description: "Штатна польова форма армії США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/desertfatigues.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14JungleFatigues
-  name: USCM jungle fatigues
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: "джунглева польова форма ККМП США"
+  description: "Штатна польова форма ККМП США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/junglefatigues.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14SnowFatigues
-  name: USCM snow fatigues
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: "снігова польова форма ККМП США"
+  description: "Штатна польова форма ККМП США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/snowfatigues.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14MixedSnowFatigues
-  name: mixed USCM snow fatigues
-  description: A mix of winter and jungle USCM fatigues. Reservists don't get amazing funding, huh...
+  name: "змішана снігова польова форма ККМП США"
+  description: "Суміш зимової та джунглевої польової форми ККМП США. Резервісти не отримують розкішного фінансування, еге ж..."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/mixedsnowfatigues.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14TacticalFlightSuit
-  name: Aircrew Flightsuit
-  description: Standard-issue USCM flightsuit. It has integrated life support mechanisms.
+  name: "льотний комбінезон авіаекіпажу"
+  description: "Штатний льотний комбінезон ККМП США. Має інтегровані механізми життєзабезпечення."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/tacticalflightsuit.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14USCMOperationsUniform
-  name: USCM operations uniform
-  description: Standard-issue USCM operations uniform. Used by command and support personnel on USCM installations.
+  name: "операційна форма ККМП США"
+  description: "Штатна операційна форма ККМП США. Використовується командним і допоміжним персоналом на об’єктах ККМП США."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/uscmoperationsuniform.rsi
@@ -84,8 +84,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14UACGFatigues
-  name: UACG fatigues
-  description: Standard-issue UACG fatigues.
+  name: "польова форма УАКГ"
+  description: "Штатна польова форма УАКГ."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Jumpsuits/army.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14UASFFatigues
-  name: USASF fatigues
-  description: Standard-issue USASF fatigues.
+  name: "польова форма Аерокосмічних сил США"
+  description: "Штатна польова форма Аерокосмічних сил США."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/junglefatigues.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14USASFPilotJumpsuit
-  name: USASF Aircrew Jumpsuit
-  description: A standard USASF Aircrew Jumpsuit. It has shards of light Kevlar to help protect against shrapnel.
+  name: "комбінезон авіаекіпажу Аерокосмічних сил США"
+  description: "Стандартний комбінезон авіаекіпажу Аерокосмічних сил США. Має пластини з легкого кевлару, що допомагають захистити від уламків."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/uniform.rsi
@@ -121,9 +121,9 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14DesertFatiguesFORECON
-  name: USCM desert fatigues
+  name: "пустельна польова форма ККМП США"
   categories: [ HideSpawnMenu ]
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  description: "Штатна польова форма ККМП США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/desertfatigues.rsi
@@ -136,8 +136,8 @@
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14JungleFatiguesFORECON
   categories: [ HideSpawnMenu ]
-  name: USCM jungle fatigues
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  name: "джунглева польова форма ККМП США"
+  description: "Штатна польова форма ККМП США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/junglefatigues.rsi
@@ -149,8 +149,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14ArmyJumpsuit
-  name: US army fatigues
-  description: A standard US Army fatigues. It has shards of light Kevlar to help protect against shrapnel.
+  name: "польова форма армії США"
+  description: "Стандартна польова форма армії США. Має пластини з легкого кевлару, що допомагають захистити від уламків."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Jumpsuits/army.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: CMJumpsuitMarineTanker
   id: AU14ArmyJumpsuitTanker
-  name: US army tanker fatigues
-  description: A standard US Army fatigues. It has shards of light Kevlar to help protect against shrapnel.
+  name: "польова форма танкіста армії США"
+  description: "Стандартна польова форма армії США. Має пластини з легкого кевлару, що допомагають захистити від уламків."
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingPouchForecon
@@ -204,8 +204,8 @@
   parent: RMCMarineUniformBase
   id: AU14CBRNSuit
   suffix: AU14
-  name: M3 MOPP Suit
-  description: M3 MOPP suits are specially designed and engineered to protect the wearer from unshielded exposure to any Chemical, Biological, Radiological, or Nuclear (CBRN) threats in the field. The suit has a recommended lifespan of twenty-four hours once contact with a toxic environment is made, but depending on the severity this can be shortened to eight hours or less.
+  name: "костюм MOPP M3"
+  description: "Костюми MOPP M3 спеціально спроєктовані й виготовлені для захисту носія від незахищеного контакту з будь-якими хімічними, біологічними, радіологічними або ядерними загрозами в польових умовах. Рекомендований строк служби костюма після контакту з токсичним середовищем становить двадцять чотири години, але залежно від тяжкості його може бути скорочено до восьми годин або менше."
   components:
   - type: Item
     size: Small
@@ -222,7 +222,7 @@
   parent: RMCJumpsuitSurvivorMarineDropPouch
   id: AU14JumpsuitFORECON
   suffix: AU14
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  description: "Штатна польова форма ККМП США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/junglefatigues.rsi
@@ -231,7 +231,7 @@
   parent: RMCJumpsuitSurvivorMarineDropPouch
   id: AU14JumpsuitFORECONDesert
   suffix: AU14
-  description: Standard-issue USCM fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
+  description: "Штатна польова форма ККМП США. Має пластини з легкого кевлару, що допомагають захистити від холодної зброї та куль."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/desertfatigues.rsi

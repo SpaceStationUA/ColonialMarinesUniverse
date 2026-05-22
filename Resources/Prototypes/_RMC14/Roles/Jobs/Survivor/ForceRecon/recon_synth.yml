@@ -100,7 +100,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSynth
-  name: forecon synthetic spawn point
+  name: "спавнер синтетика forecon"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSynth

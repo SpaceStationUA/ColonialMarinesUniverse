@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMRifleman
-  name: UPP GROM Rifleman
+  name: "стрілець ГРОМ УПП"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

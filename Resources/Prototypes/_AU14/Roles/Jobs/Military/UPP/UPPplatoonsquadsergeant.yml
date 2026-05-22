@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantUPP
-  name: Squad Leader
+  name: "лідер відділення"
   description: au14-job-description-govforsquadsergeant
   setPreference: false
   canBeAntag: false

@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotUPP
-  name: Dropship Pilot
+  name: "пілот десантного корабля"
   description: au14-job-description-govfordspilot
   setPreference: false
   canBeAntag: false

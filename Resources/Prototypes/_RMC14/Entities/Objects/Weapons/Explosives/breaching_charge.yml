@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCExplosiveBreachingCharge
-  name: breaching charge # TODO RMC14 disable with multitool?
-  description: An explosive device used to break into areas while protecting the user from the blast as well as deploying deadly shrapnel on the other side.
+  name: "штурмовий заряд" # TODO RMC14 disable with multitool?
+  description: "Вибуховий пристрій, що використовується для проникнення в зони, водночас захищаючи користувача від вибуху та розгортаючи смертоносні уламки з іншого боку."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/satchel_charge.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCExplosiveBreachingCharge
   id: RMCExplosiveBreachingChargeRubber
-  name: X17 riot charge
-  description: An explosive device used to break into areas while protecting the user from the blast. Unlike the standard breaching charge, the X17 deploys a cone spray of rubber pellets to incapacitate rather than kill.
+  name: "заряд для розгону заворушень X17"
+  description: "Вибуховий пристрій, що використовується для проникнення в зони, водночас захищаючи користувача від вибуху. На відміну від стандартного штурмового заряду, X17 розгортає конус гумових кульок, щоб обездвижувати, а не вбивати."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/satchel_charge_rubber.rsi
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCExplosiveBreachingChargeRubber
   id: RMCExplosiveBreachingChargeRubberTSEPA
-  name: TSEPA X17 riot charge
+  name: "заряд для розгону заворушень ПУ ІТС X17"
   components:
   - type: RequiresSkill
     skills:
@@ -73,8 +73,8 @@
 - type: entity
   parent: RMCExplosiveBreachingCharge
   id: RMCExplosivePlastic
-  name: plastic explosives
-  description: Used to put holes in specific areas without too much extra hole.
+  name: "пластикова вибухівка"
+  description: "Використовується для проробляння отворів у конкретних місцях без зайвого. отвору."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/plastic_explosives.rsi

@@ -2,8 +2,8 @@
   abstract: true
   parent: CMBaseStructureCorrodible
   id: RMCBaseWindowFrame
-  name: window frame
-  description: A big hole in the wall that used to sport a large window. Can be vaulted through.
+  name: "рама вікна"
+  description: "Велика діра в стіні, де колись було велике вікно. Можна перестрибнути."
   placement:
     mode: SnapgridCenter
     snap:

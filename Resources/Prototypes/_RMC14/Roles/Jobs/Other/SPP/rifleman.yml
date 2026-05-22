@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPRifleman
   name: rmc-job-name-spp-rifleman
-  description: rmc-job-description-spp-soldier
+  description: "rmc-job-description-spp-soldier"
   playTimeTracker: CMJobSPPRifleman
   ranks:
     RMCRankSPPRyadovoy: []
@@ -29,7 +29,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPRiflemanHostile
-  name: spp ghost role rifleman
+  name: "spp привид-роль стрільця"
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -40,7 +40,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPRiflemanFriendly
-  name: spp ghost role rifleman
+  name: "spp привид-роль стрільця"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

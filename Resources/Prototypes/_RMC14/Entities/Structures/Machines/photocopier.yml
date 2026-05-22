@@ -2,8 +2,8 @@
   parent: BaseMachinePowered
   abstract: true
   id: RMCBasePhotocopier
-  name: Photocopier
-  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by AEGIS Armaments in a cheaper frame than most modern photocopiers. It uses more primitive copying technology resulting in more toner waste and less printing capabilities. Nonetheless, its cheap construction means cheaper costs, and for people that only need to print a paper or two most of the time, it becomes cost-effective.
+  name: "Ксерокс"
+  description: "Ксерокс для копіювання... ну, фотографій! Також корисний для копіювання документів на папері. Цю конкретну модель виготовила AEGIS Armaments у дешевшій оправі, ніж більшість сучасних ксероксів. Використовує примітивнішу технологію копіювання, що призводить до більших витрат тонера й менших можливостей друку. Втім, дешева конструкція означає нижчу вартість, а для тих, кому здебільшого потрібно надрукувати один-два аркуші, це економічно вигідно."
   components:
   - type: Transform
     anchored: false
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopier
-  name: Photocopier
+  name: "Ксерокс"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: RMCBasePhotocopier
   id: RMCPhotocopierPro
-  name: We-Yu Photocopier
-  description: A photocopier used for copying... you know, photos! Also useful for copying documents on paper. This specific model has been manufactured by We-Yu in a more modern and robust frame than the average photocopiers you see from smaller companies. It uses some of the most advanced technologies in the area of paper-printing such as bigger toner economy and much higher printing capabilities. All that makes it the favorite among consumers that need to print high amounts of paperwork for their daily duties.
+  name: "Ксерокс «Ве-Ю»"
+  description: "Ксерокс для копіювання... ну, фотографій! Також корисний для копіювання документів на папері. Цю конкретну модель виготовила «Ве-Ю» в сучаснішій і міцнішій оправі, ніж пересічні ксерокси з менших компаній. Використовує одні з найпередовіших технологій у галузі друку на папері: більшу економію тонера і набагато вищі можливості друку. Усе це робить його улюбленцем серед споживачів, яким потрібно щодня друкувати велику кількість документів."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/photocopier.rsi

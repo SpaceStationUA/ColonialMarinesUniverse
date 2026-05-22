@@ -55,8 +55,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardProvostResponder
-  name: provost responder ID card
-  description: Issued to members of the Provost Marshal Office.
+  name: "iD-картка реагенту провоста"
+  description: "Видається членам Офісу Маршала Провоста."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

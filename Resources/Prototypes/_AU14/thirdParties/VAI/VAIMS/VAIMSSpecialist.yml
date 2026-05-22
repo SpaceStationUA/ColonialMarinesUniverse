@@ -16,7 +16,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAIMedic
-  name: VAIPO Medical Specialist
+  name: "медичний спеціаліст VAIPO"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -25,7 +25,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: VAIPO Medical Specialist
+    name: "медичний спеціаліст VAIPO"
     description: You have been dispatched to the colony by Vanguard's Arrow because of contract with local UA Ambassador. Assist the Ambassador with what you can.
     job: AU14VAIMedic
     raffle:
@@ -49,7 +49,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAISPMedic
-  name: VAISP Medical Specialist
+  name: "медичний спеціаліст VAISP"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -58,7 +58,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: VAISP Medical Specialist
+    name: "медичний спеціаліст VAISP"
     description: You have been dispatched to the colony by Vanguard's Arrow to the colony. Ensure safety of your medical personel and UA Ambassador.
     job: AU14VAISPMedic
     raffle:

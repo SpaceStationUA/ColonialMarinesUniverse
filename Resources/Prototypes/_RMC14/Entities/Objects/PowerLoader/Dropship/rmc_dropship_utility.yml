@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentMedevac
-  name: RMU-4M medevac system
-  description: A winch system to lift injured marines on medical stretchers onto the dropship. Attaches to the crew served attach point at the back of the drop-ship.
+  name: "система медевакуації RMU-4M"
+  description: "Лебідкова система для підняття поранених морпіхів на медичних ношах до десантного корабля. Кріпиться до точки кріплення для екіпажного обладнання у задній частині десантного корабля."
   components:
   - type: Sprite
     layers:
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentFulton
-  name: RMU-19 fulton recovery system
-  description: A winch system to collect any fulton recovery balloons in high altitude. Make sure you turn it on!
+  name: "система евакуації Фултон RMU-19"
+  description: "Лебідкова система для збору евакуаційних балонів Фултон на великій висоті. Не забудьте її увімкнути!"
   components:
   - type: Sprite
     layers:
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentParaDrop
-  name: HPU-1 paradrop deployment system
+  name: "система парашутного десантування HPU-1"
   components:
   - type: Sprite
     layers:
@@ -86,8 +86,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentDoorGun
-  name: MTU-4B Door Gunner Hardpoint System
-  description: A box that deploys a crew-served scoped M56D heavy machine gun. Fits on both the external weapon and crew compartment attach points of dropships.
+  name: "система точки кріплення дверного стрільця MTU-4B"
+  description: "Ящик, що розгортає важкий кулемет M56D з оптичним прицілом, обслуговуваний екіпажем. Підходить як до точок кріплення зовнішнього озброєння, так і до точок кріплення екіпажного відсіку десантних кораблів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/dropship_utility_attachments.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentSentryDefenseSystem
-  name: A/A-32-P Sentry Defense System
-  description: A box that deploys a sentry turret. Fits on both the external weapon and crew compartment attach points of dropships.
+  name: "система оборонних турелей A/A-32-P"
+  description: "Ящик, що розгортає турель. Підходить як до точок кріплення зовнішнього озброєння, так і до точок кріплення екіпажного відсіку десантних кораблів."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/dropship_utility_attachments.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: RMCDropshipAttachmentUtility
   id: RMCDropshipAttachmentLaunchBay
-  name: LAG-14 internal sentry launcher
-  description: A launch bay to drop special ordnance. Fits inside the dropship's crew weapon emplacement. Moving this will require some sort of lifter. Accepts the A/C-49-P Air Deployable Sentry as ammunition.
+  name: "внутрішня пускова установка турелей LAG-14"
+  description: "Пусковий відсік для скидання спецбоєприпасів. Поміщається всередину точки кріплення екіпажного озброєння десантного корабля. Для переміщення знадобиться якийсь підйомник. Приймає десантовану турель A/C-49-P як боєприпаси."
   components:
   - type: Sprite
     layers:

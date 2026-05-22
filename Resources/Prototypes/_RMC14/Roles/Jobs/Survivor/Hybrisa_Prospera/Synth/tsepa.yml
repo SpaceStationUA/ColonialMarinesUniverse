@@ -76,7 +76,7 @@
 
 - type: entity
   id: RMCSurvivorPresetHybrisaSynthTSEPA
-  name: survivor synth hybrisa tsepa colonist preset
+  name: "пресет вцілілого синтетика-tsepa гібріси"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,7 +1,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardCivilianPizzaDeliveryBoy
-  name: delivery pizza boy ID card
+  name: "iD-карта доставника піци"
   components:
   - type: PresetIdCard
     job: AU14JobCivilianDeliveryPizzaBoy
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardCivilianProfessorVonBandolier
-  name: professor von bandolier ID card
+  name: "iD-карта професора фон Бандольєра"
   components:
   - type: PresetIdCard
     job: AU14JobCivilianProfessorVonBandolier
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardTimeSharesSalesman
-  name: times shares saleperson ID card
+  name: "iD-карта продавця таймшерів"
   components:
   - type: PresetIdCard
     job: AU14JobCivilianTimesSharesSalesman
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardRedCrossCMO
-  name: icrc medical staff cmo ID card
+  name: "iD-карта головного лікаря медперсоналу МКЧХ"
   components:
   - type: PresetIdCard
     job: AU14JobRedCrossCMO
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardRedCrossDoctor
-  name: icrc medical staff doctor ID card
+  name: "iD-карта лікаря медперсоналу МКЧХ"
   components:
   - type: PresetIdCard
     job: AU14JobRedCrossDoctor
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardRedCrossNurse
-  name: icrc medical staff nurse ID card
+  name: "iD-карта медсестри медперсоналу МКЧХ"
   components:
   - type: PresetIdCard
     job: AU14JobRedCrossNurse
@@ -49,7 +49,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCivilianRightsObserver
-  name: rights observer ID card
+  name: "iD-карта спостерігача з прав"
   components:
   - type: PresetIdCard
     job: AU14JobInvestigationCMBRightsObserver
@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCivilianICCLiaison
-  name: interstellar commerce commission liaison ID card
+  name: "iD-карта зв’язкового міжзоряної торгової комісії"
   components:
   - type: PresetIdCard
     job: AU14JobInvestigationICCLiaison
@@ -65,7 +65,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCivilianColonyPilot
-  name: commercial pilot ID card
+  name: "iD-карта комерційного пілота"
   components:
   - type: PresetIdCard
     job: AU14JobCivilianColonyPilot
@@ -73,7 +73,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCivilianOrbitalManager
-  name: commercial pilot ID card
+  name: "iD-карта комерційного пілота"
   components:
   - type: PresetIdCard
     job: AU14JobCivilianOrbitalManager

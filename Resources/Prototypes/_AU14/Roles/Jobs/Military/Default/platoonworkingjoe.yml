@@ -63,7 +63,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORWorkingJoe
-  name: Spawn Point Working Joe (GOVFOR)
+  name: "точка появи Воркінг Джо (ГОВФОР)"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORWorkingJoe

@@ -8,7 +8,7 @@
 
 - type: entity
   id: DesignNodeBase
-  name: Design Node
+  name: "Дизайн-вузол"
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -62,8 +62,8 @@
 
 - type: entity
   id: DesignNodeRemoteDelete
-  name: Delete Design Node
-  description: Remotely deletes a placed design node on the targeted tile.
+  name: "Видалити дизайн-вузол"
+  description: "Дистанційно видаляє розміщений дизайн-вузол на цільовій плитці."
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -78,8 +78,8 @@
 
 - type: entity
   id: DesignNodeRemoteThickenResin
-  name: Remote Thickening
-  description: Remotely thickens resin walls, doors, and membranes into their thick variants.
+  name: "Дистанційне потовщення"
+  description: "Дистанційно потовщує резинові стіни, двері та мембрани в їхні товсті варіанти."
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -98,7 +98,7 @@
 # Xeno-only overlay marks (wall/door intent). These are spawned as a child entity of the real node.
 - type: entity
   id: DesignNodeMarkBase
-  name: Design Node Mark
+  name: "Дизайн-вузол мітка"
   abstract: true
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
@@ -121,8 +121,8 @@
 - type: entity
   id: DesignNodeMarkOptimizedWall
   parent: DesignNodeMarkBase
-  name: Optimized Wall
-  description: You sense that building on top of this node will speed up your construction speed by 50%
+  name: "Оптимізована стіна"
+  description: "Ви відчуваєте, що будівництво на цьому вузлі прискорить швидкість будівництва на 50%"
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -132,8 +132,8 @@
 - type: entity
   id: DesignNodeMarkOptimizedDoor
   parent: DesignNodeMarkBase
-  name: Optimized Door
-  description: You sense that building on top of this node will speed up your construction speed by 50%
+  name: "Оптимізовані двері"
+  description: "Ви відчуваєте, що будівництво на цьому вузлі прискорить швидкість будівництва на 50%"
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -143,8 +143,8 @@
 - type: entity
   id: DesignNodeMarkFlexibleWall
   parent: DesignNodeMarkBase
-  name: Flexible Wall
-  description: You sense that building on top of this node will decrease plasma cost of basic resin structures by 50%
+  name: "Гнучка стіна"
+  description: "Ви відчуваєте, що будівництво на цьому вузлі знизить вартість плазми основних резинових структур на 50%"
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -154,8 +154,8 @@
 - type: entity
   id: DesignNodeMarkFlexibleDoor
   parent: DesignNodeMarkBase
-  name: Flexible Door
-  description: You sense that building on top of this node will decrease plasma cost of basic resin structures by 50%
+  name: "Гнучкі двері"
+  description: "Ви відчуваєте, що будівництво на цьому вузлі знизить вартість плазми основних резинових структур на 50%"
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -165,8 +165,8 @@
 - type: entity
   id: DesignNodeMarkConstructWall
   parent: DesignNodeMarkBase
-  name: Construct Wall
-  description: You sense that feeding plasma with our hand to this node will secrete a weedbound wall
+  name: "Збудувати стіну"
+  description: "Ви відчуваєте, що годування плазмою рукою цього вузла виділить стіну, прив'язану до бур'яну"
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -176,8 +176,8 @@
 - type: entity
   id: DesignNodeMarkConstructDoor
   parent: DesignNodeMarkBase
-  name: Construct Door
-  description: You sense that feeding plasma with our hand to this node will secrete a weedbound door
+  name: "Збудувати двері"
+  description: "Ви відчуваєте, що годування плазмою рукою цього вузла виділить двері, прив'язані до бур'яну"
   categories: [ HideSpawnMenu, DoNotMap ]
   save: false
   components:
@@ -189,8 +189,8 @@
 - type: entity
   id: DesignNodeOptimizedWall
   parent: DesignNodeBase
-  name: Optimized Node
-  description: This node looks like it has a big green oozing bulb at its center, making the weeds under it twitch...
+  name: "Оптимізований вузол"
+  description: "Цей вузол виглядає так, ніби в його центрі велика зелена сочна цибулина, що змушує бур'ян під ним смикатися..."
   placement:
     mode: SnapgridCenter
   components:
@@ -214,8 +214,8 @@
 - type: entity
   id: DesignNodeOptimizedDoor
   parent: DesignNodeBase
-  name: Optimized Node
-  description: This node looks like it has a big green oozing bulb at its center, making the weeds under it twitch...
+  name: "Оптимізований вузол"
+  description: "Цей вузол виглядає так, ніби в його центрі велика зелена сочна цибулина, що змушує бур'ян під ним смикатися..."
   placement:
     mode: SnapgridCenter
   components:
@@ -241,8 +241,8 @@
 - type: entity
   id: DesignNodeFlexibleWall
   parent: DesignNodeBase
-  name: Flexible Node
-  description: This node looks like its made of smaller blue bulbs grown together, making the weeds under them look soft and squishy.
+  name: "Гнучкий вузол"
+  description: "Цей вузол виглядає так, ніби зроблений з менших синіх цибулин, вирощених разом, через що бур'ян під ними виглядає м'яким і пухким."
   placement:
     mode: SnapgridCenter
   components:
@@ -266,8 +266,8 @@
 - type: entity
   id: DesignNodeFlexibleDoor
   parent: DesignNodeBase
-  name: Flexible Node
-  description: This node looks like its made of smaller blue bulbs grown together, making the weeds under them look soft and squishy.
+  name: "Гнучкий вузол"
+  description: "Цей вузол виглядає так, ніби зроблений з менших синіх цибулин, вирощених разом, через що бур'ян під ними виглядає м'яким і пухким."
   placement:
     mode: SnapgridCenter
   components:
@@ -293,8 +293,8 @@
 - type: entity
   id: DesignNodeConstructWall
   parent: DesignNodeBase
-  name: Construct Node
-  description: This node looks like big blub composed of smaller purple glowing cups, pumping some strange liquid trough weeds.
+  name: "Будівельний вузол"
+  description: "Цей вузол виглядає як велика цибулина, складена з менших фіолетових світних чашок, що качають якусь дивну рідину крізь бур'ян."
   placement:
     mode: SnapgridCenter
   components:
@@ -317,8 +317,8 @@
 - type: entity
   id: DesignNodeConstructDoor
   parent: DesignNodeBase
-  name: Construct Node
-  description: This node looks like big blub composed of smaller purple glowing cups, pumping some strange liquid trough weeds.
+  name: "Будівельний вузол"
+  description: "Цей вузол виглядає як велика цибулина, складена з менших фіолетових світних чашок, що качають якусь дивну рідину крізь бур'ян."
   placement:
     mode: SnapgridCenter
   components:
@@ -409,7 +409,7 @@
 - type: entity
   parent: BaseItem
   id: RMCGuidebookEntityWeedboundResinWall
-  name: weedbound resin wall
+  name: "резинова стіна, прив'язана до бур'яну"
   suffix: GuideBookEntity
   categories: [ HideSpawnMenu ]
   components:
@@ -420,7 +420,7 @@
 - type: entity
   parent: BaseItem
   id: RMCGuidebookEntityWeedboundResinDoor
-  name: weedbound resin door
+  name: "резинові двері, прив'язані до бур'яну"
   suffix: GuideBookEntity
   categories: [ HideSpawnMenu ]
   components:

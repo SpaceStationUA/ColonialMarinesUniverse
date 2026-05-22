@@ -51,7 +51,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicTDThirdparty
   id: AU14JobUPPTerritorialDefenseRifleman
-  name: UPP TD Rifleman
+  name: "стрілець ТО УПП"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

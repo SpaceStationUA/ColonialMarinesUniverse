@@ -67,7 +67,7 @@
 
 - type: entity
   id: RMCSurvivorPresetHybrisaSynthEMT
-  name: survivor synth hybrisa EMT preset
+  name: "пресет вцілілого синтетика-EMT гібріси"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: Crayon
-  name: crayon
-  description: A colourful crayon. Looks tasty. Mmmm...
+  name: "крейда"
+  description: "Кольорова крейда. Виглядає смачно. Мммм..."
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: Crayon
   id: CrayonWhite
-  name: white crayon
+  name: "біла крейда"
   components:
   - type: Sprite
     state: white
@@ -60,7 +60,7 @@
 - type: entity
   parent: Crayon
   id: CrayonMime
-  name: mime crayon
+  name: "мімічна крейда"
   components:
   - type: Sprite
     state: mime
@@ -79,7 +79,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRainbow
-  name: rainbow crayon
+  name: "райдужна крейда"
   components:
   - type: Sprite
     state: rainbow
@@ -99,7 +99,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlack
-  name: black crayon
+  name: "чорна крейда"
   components:
   - type: Sprite
     state: black
@@ -118,7 +118,7 @@
 - type: entity
   parent: Crayon
   id: CrayonRed
-  name: red crayon
+  name: "червона крейда"
   components:
   - type: Sprite
     state: red
@@ -137,7 +137,7 @@
 - type: entity
   parent: Crayon
   id: CrayonOrange
-  name: orange crayon
+  name: "помаранчева крейда"
   components:
   - type: Sprite
     state: orange
@@ -156,7 +156,7 @@
 - type: entity
   parent: Crayon
   id: CrayonYellow
-  name: yellow crayon
+  name: "жовта крейда"
   components:
   - type: Sprite
     state: yellow
@@ -175,7 +175,7 @@
 - type: entity
   parent: Crayon
   id: CrayonGreen
-  name: green crayon
+  name: "зелена крейда"
   components:
   - type: Sprite
     state: green
@@ -194,7 +194,7 @@
 - type: entity
   parent: Crayon
   id: CrayonBlue
-  name: blue crayon
+  name: "синя крейда"
   components:
   - type: Sprite
     state: blue
@@ -213,7 +213,7 @@
 - type: entity
   parent: Crayon
   id: CrayonPurple
-  name: purple crayon
+  name: "фіолетова крейда"
   components:
   - type: Sprite
     state: purple
@@ -232,8 +232,8 @@
 - type: entity
   parent: BoxCardboard
   id: CrayonBox
-  name: crayon box
-  description: It's a box of crayons.
+  name: "коробка для олівців"
+  description: "Це коробка з олівцями."
   components:
   - type: Sprite
     sprite: Objects/Fun/crayons.rsi

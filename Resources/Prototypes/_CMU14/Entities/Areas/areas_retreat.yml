@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: CMUAreaRetreat
-  name: JE-1758 Ascanius
+  name: "JE-1758 Асканій"
   abstract: true
   components:
   - type: Sprite
@@ -18,7 +18,7 @@
 - type: entity
   parent: CMUAreaRetreat
   id: CMUAreaRetreatOutdoors
-  name: JE-1758 Ascanius - Surface
+  name: "JE-1758 Асканій — Поверхня"
   abstract: true
   components:
   - type: Area
@@ -37,7 +37,7 @@
 - type: entity
   parent: CMUAreaRetreat
   id: CMUAreaRetreatIndoors
-  name: JE-1758 Ascanius - Interiors
+  name: "JE-1758 Асканій — Внутрішні приміщення"
   abstract: true
   components:
   - type: Area
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatCaves
-  name: JE-1758 Ascanius - Caves
+  name: "JE-1758 Асканій — Печери"
   abstract: true
   components:
   - type: Area
@@ -75,7 +75,7 @@
 - type: entity
   parent: CMUAreaRetreat
   id: CMUAreaRetreatFullProtection
-  name: JE-1758 Ascanius - Safe Zone
+  name: "JE-1758 Асканій — Безпечна зона"
   abstract: true
   components:
   - type: Area
@@ -95,7 +95,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatOutofBounds
-  name: Out of Bounds
+  name: "За межами"
   components:
   - type: Sprite
     state: oob
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBRequisitions
-  name: Fort Beauregard - Requisitions
+  name: "Форт Бореґард — Реквізити"
   components:
   - type: Sprite
     state: fb_req
@@ -117,7 +117,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBCommandIntelOffice
-  name: Fort Beauregard - Intelligence Office
+  name: "Форт Бореґард — Розвідувальний відділ"
   components:
   - type: Sprite
     state: fb_cm_inteloffice
@@ -127,7 +127,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBCommandCommandCenter
-  name: Fort Beauregard - Command Center
+  name: "Форт Бореґард — Командний центр"
   components:
   - type: Sprite
     state: fb_cm_cc
@@ -137,7 +137,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBarracks
-  name: Fort Beauregard - Barracks
+  name: "Форт Бореґард — Казарми"
   components:
   - type: Sprite
     state: fb_barracks
@@ -147,7 +147,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBarracksMessHall
-  name: Fort Beauregard - Mess Hall
+  name: "Форт Бореґард — Їдальня"
   components:
   - type: Sprite
     state: fb_barracks_messhall
@@ -157,7 +157,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBEngineeringMaintenanceBay
-  name: Fort Beauregard - Maintenace Bay
+  name: "Форт Бореґард — Ремонтний відсік"
   components:
   - type: Sprite
     state: fb_engi_maint
@@ -167,7 +167,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrigProcessing
-  name: Fort Beauregard - Brig Processing
+  name: "Форт Бореґард — Прийом до гауптвахти"
   components:
   - type: Sprite
     state: fb_brig_processing
@@ -177,7 +177,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrig
-  name: Fort Beauregard - Brig
+  name: "Форт Бореґард — Гауптвахта"
   components:
   - type: Sprite
     state: fb_brig
@@ -187,7 +187,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrigHoldingCells
-  name: Fort Beauregard - Holding Cells
+  name: "Форт Бореґард — Тимчасові камери"
   components:
   - type: Sprite
     state: fb_brig_cell
@@ -197,7 +197,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBBrigLongTermConfinement
-  name: Fort Beauregard - Long Term Confinement
+  name: "Форт Бореґард — Довготривала ізоляція"
   components:
   - type: Sprite
     state: fb_brig_longtermconfinement
@@ -207,7 +207,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalTriage
-  name: Fort Beauregard - Hospital Triage
+  name: "Форт Бореґард — Сортування поранених"
   components:
   - type: Sprite
     state: fb_hospital_triage
@@ -217,7 +217,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalTreatment
-  name: Fort Beauregard - Hospital Treatment
+  name: "Форт Бореґард — Лікувальне відділення"
   components:
   - type: Sprite
     state: fb_hospital_treatment
@@ -227,7 +227,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalOperatingRooms
-  name: Fort Beauregard - Operating Rooms
+  name: "Форт Бореґард — Операційні"
   components:
   - type: Sprite
     state: fb_hospital_operatingrooms
@@ -237,7 +237,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalChemistry
-  name: Fort Beauregard - Chemistry
+  name: "Форт Бореґард — Хімлабораторія"
   components:
   - type: Sprite
     state: fb_hospital_chemistry
@@ -247,7 +247,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalMorgue
-  name: Fort Beauregard - Morgue
+  name: "Форт Бореґард — Морг"
   components:
   - type: Sprite
     state: fb_hospital_morgue
@@ -257,7 +257,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBHospitalBreakroom
-  name: Fort Beauregard - Hospital Breakroom
+  name: "Форт Бореґард — Кімната відпочинку шпиталю"
   components:
   - type: Sprite
     state: fb_hospital_breakroom
@@ -267,7 +267,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorNorth
-  name: Fort Beauregard - North
+  name: "Форт Бореґард — Північ"
   components:
   - type: Sprite
     state: fb_exterior_north
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorSouth
-  name: Fort Beauregard - South
+  name: "Форт Бореґард — Південь"
   components:
   - type: Sprite
     state: fb_exterior_south
@@ -287,7 +287,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorEast
-  name: Fort Beauregard - East
+  name: "Форт Бореґард — Схід"
   components:
   - type: Sprite
     state: fb_exterior_east
@@ -297,7 +297,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorWest
-  name: Fort Beauregard - West
+  name: "Форт Бореґард — Захід"
   components:
   - type: Sprite
     state: fb_exterior_west
@@ -307,7 +307,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorLZAlpha
-  name: Fort Beauregard - LZ Alpha (North Pad)
+  name: "Форт Бореґард — ЗП Альфа (Північний майданчик)"
   components:
   - type: Sprite
     state: fb_exterior_lzalpha
@@ -317,7 +317,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBExteriorLZBravo
-  name: Fort Beauregard - LZ Bravo (South Pad)
+  name: "Форт Бореґард — ЗП Браво (Південний майданчик)"
   components:
   - type: Sprite
     state: fb_exterior_lzbravo
@@ -327,7 +327,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBMiscBriefingArea
-  name: Fort Beauregard - Briefing Area
+  name: "Форт Бореґард — Брифінг-зона"
   components:
   - type: Sprite
     state: fb_misc_briefing
@@ -337,7 +337,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatFBMiscVehiclePool
-  name: Fort Beauregard - Vehicle Pool
+  name: "Форт Бореґард — Транспортний парк"
   components:
   - type: Sprite
     state: fb_misc_vehiclepool
@@ -349,7 +349,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCCavernNorth
-  name: Octanis Complex - Northern Cavern
+  name: "Комплекс Октаніс — Північна печера"
   components:
   - type: Sprite
     state: oc_cavern_north
@@ -359,7 +359,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCCavernCentral
-  name: Octanis Complex - Central Cavern
+  name: "Комплекс Октаніс — Центральна печера"
   components:
   - type: Sprite
     state: oc_cavern_central
@@ -369,7 +369,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCCavernEast
-  name: Octanis Complex - Eastern Cavern
+  name: "Комплекс Октаніс — Східна печера"
   components:
   - type: Sprite
     state: oc_cavern_east
@@ -379,7 +379,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCSecPostNorth
-  name: Octanis Complex - Northern Gate House
+  name: "Комплекс Октаніс — Північна вартівня"
   components:
   - type: Sprite
     state: oc_secpost_north
@@ -389,7 +389,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCSecPostSouth
-  name: Octanis Complex - Southern Gate House
+  name: "Комплекс Октаніс — Південна вартівня"
   components:
   - type: Sprite
     state: oc_secpost_south
@@ -399,7 +399,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCResearchEast
-  name: Octanis Complex Research - East
+  name: "Комплекс Октаніс, Дослідження — Схід"
   components:
   - type: Sprite
     state: oc_research_east
@@ -409,7 +409,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCResearchSterileLab
-  name: Octanis Complex Research - Sterile Lab
+  name: "Комплекс Октаніс, Дослідження — Стерильна лабораторія"
   components:
   - type: Sprite
     state: oc_research_sterilelab
@@ -419,7 +419,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationSecurityPost
-  name: Octanis Complex Habitation - Security Post
+  name: "Комплекс Октаніс, Житло — Пост охорони"
   components:
   - type: Sprite
     state: oc_hab_securitypost
@@ -429,7 +429,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationNorthDorms
-  name: Octanis Complex Habitation - Northern Dormitories
+  name: "Комплекс Октаніс, Житло — Північні гуртожитки"
   components:
   - type: Sprite
     state: oc_hab_northdorms
@@ -439,7 +439,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationSouthDorms
-  name: Octanis Complex Habitation - Southern Dormitories
+  name: "Комплекс Октаніс, Житло — Південні гуртожитки"
   components:
   - type: Sprite
     state: oc_hab_southdorms
@@ -449,7 +449,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationAtrium
-  name: Octanis Complex Habitation - Atrium
+  name: "Комплекс Октаніс, Житло — Атріум"
   components:
   - type: Sprite
     state: oc_hab_atrium
@@ -459,7 +459,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationCafeteria
-  name: Octanis Complex Habitation - Cafeteria
+  name: "Комплекс Октаніс, Житло — Кафетерій"
   components:
   - type: Sprite
     state: oc_hab_cafeteria
@@ -469,7 +469,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCHabitationMedbay
-  name: Octanis Complex Habitation - Medbay
+  name: "Комплекс Октаніс, Житло — Медблок"
   components:
   - type: Sprite
     state: oc_hab_medbay
@@ -479,7 +479,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCPowerplantOffice
-  name: Octanis Complex Powerplant - Office
+  name: "Комплекс Октаніс, Електростанція — Офіс"
   components:
   - type: Sprite
     state: oc_engi_office
@@ -489,7 +489,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCPowerplantTurbineRoom
-  name: Octanis Complex Powerplant - Turbine Room
+  name: "Комплекс Октаніс, Електростанція — Турбінний зал"
   components:
   - type: Sprite
     state: oc_engi_turbine
@@ -499,7 +499,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCPowerplantStorageRoom
-  name: Octanis Complex Powerplant - Storage Room
+  name: "Комплекс Октаніс, Електростанція — Складське приміщення"
   components:
   - type: Sprite
     state: oc_engi_storage
@@ -509,7 +509,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminLiaisonOffices
-  name: Octanis Complex Administration - Liaison Offices
+  name: "Комплекс Октаніс, Адміністрація — Кабінети представників"
   components:
   - type: Sprite
     state: oc_admin_embassy
@@ -519,7 +519,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminPanicRoom
-  name: Octanis Complex Administration - Panic Room
+  name: "Комплекс Октаніс, Адміністрація — Кімната-сховище"
   components:
   - type: Sprite
     state: oc_admin_panicroom
@@ -529,7 +529,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminAdminOffices
-  name: Octanis Complex Administration - Administrative Offices
+  name: "Комплекс Октаніс, Адміністрація — Адміністративні кабінети"
   components:
   - type: Sprite
     state: oc_admin_adminoffice
@@ -539,7 +539,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminAICore
-  name: Octanis Complex Administration - AI Core
+  name: "Комплекс Октаніс, Адміністрація — Ядро ШІ"
   components:
   - type: Sprite
     state: oc_admin_aicore
@@ -549,7 +549,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatOCAdminLogistics
-  name: Octanis Complex Administration - Logistics
+  name: "Комплекс Октаніс, Адміністрація — Логістика"
   components:
   - type: Sprite
     state: oc_admin_logi
@@ -561,7 +561,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportServiceBay
-  name: Octanis Complex Starport - Service Bay
+  name: "Комплекс Октаніс, Космопорт — Сервісний відсік"
   components:
   - type: Sprite
     state: oc_starport_servicebuilding
@@ -571,7 +571,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportWarehouses
-  name: Octanis Complex Starport - Warehouses
+  name: "Комплекс Октаніс, Космопорт — Склади"
   components:
   - type: Sprite
     state: oc_starport_warehouses
@@ -582,7 +582,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportTelecomms
-  name: Octanis Complex Starport - Telecomms
+  name: "Комплекс Октаніс, Космопорт — Телекомунікації"
   components:
   - type: Sprite
     state: oc_starport_tcomms
@@ -592,7 +592,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatOCStarportTerminal
-  name: Octanis Complex Starport - Terminal
+  name: "Комплекс Октаніс, Космопорт — Термінал"
   components:
   - type: Sprite
     state: oc_starport_terminal
@@ -604,7 +604,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorNorth
-  name: Octanis Complex Starport - North
+  name: "Комплекс Октаніс, Космопорт — Північ"
   components:
   - type: Sprite
     state: oc_starport_north
@@ -614,7 +614,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorSouth
-  name: Octanis Complex Starport - South
+  name: "Комплекс Октаніс, Космопорт — Південь"
   components:
   - type: Sprite
     state: oc_starport_south
@@ -624,7 +624,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorLZ2
-  name: Octanis Complex Starport - Landing Pad (LZ2)
+  name: "Комплекс Октаніс, Космопорт — Посадковий майданчик (ЗП2)"
   components:
   - type: Sprite
     state: oc_starport_lz2
@@ -634,7 +634,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatOCStarportExteriorServiceArea
-  name: Octanis Complex Starport - Service Area
+  name: "Комплекс Октаніс, Космопорт — Сервісна зона"
   components:
   - type: Sprite
     state: oc_starport_servicearea
@@ -646,7 +646,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatCavesNorth
-  name: Northern Caves
+  name: "Північні печери"
   components:
   - type: Sprite
     state: caves_north
@@ -656,7 +656,7 @@
 - type: entity
   parent: CMUAreaRetreatCaves
   id: CMUAreaRetreatCavesSouthEast
-  name: South Eastern Caves
+  name: "Південно-східні печери"
   components:
   - type: Sprite
     state: caves_southeast
@@ -666,7 +666,7 @@
 - type: entity
   parent: CMUAreaRetreatFullProtection
   id: CMUAreaRetreatCavesSouthWest
-  name: South Western Caves
+  name: "Південно-західні печери"
   components:
   - type: Sprite
     state: caves_southwest
@@ -680,7 +680,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiningPrefabsNorth
-  name: Hope's Retreat - Northern Mining Prefabs
+  name: "Притулок Надії — Північні шахтарські модулі"
   components:
   - type: Sprite
     state: hr_miningprefabs_north
@@ -690,7 +690,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiningPrefabsSouth
-  name: Hope's Retreat - Southern Mining Prefabs
+  name: "Притулок Надії — Південні шахтарські модулі"
   components:
   - type: Sprite
     state: hr_miningprefabs_south
@@ -700,7 +700,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiningOfficeNorth
-  name: Hope's Retreat - Northern Mining Office
+  name: "Притулок Надії — Північний шахтарський офіс"
   components:
   - type: Sprite
     state: hr_miningprefabs_northminingoffice
@@ -710,7 +710,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceiving
-  name: Hope's Retreat - Shipping and Receiving
+  name: "Притулок Надії — Відправлення та прийом"
   components:
   - type: Sprite
     state: hr_shipping_office
@@ -720,7 +720,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceivingForemansOffice
-  name: Hope's Retreat - Foreman's Office
+  name: "Притулок Надії — Офіс бригадира"
   components:
   - type: Sprite
     state: hr_shipping_foreman
@@ -730,7 +730,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceivingLZServiceBay
-  name: Hope's Retreat - Landing Zone Service Bay
+  name: "Притулок Надії — Сервісний відсік зони приземлення"
   components:
   - type: Sprite
     state: hr_shipping_servicebay
@@ -740,7 +740,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRShippingAndReceivingLZControlOffice
-  name: Hope's Retreat - Landing Zone Control Office
+  name: "Притулок Надії — Диспетчерська зони приземлення"
   components:
   - type: Sprite
     state: hr_shipping_controloffice
@@ -750,7 +750,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsColonyRecreationCenter
-  name: Hope's Retreat - Colony Recreation Center
+  name: "Притулок Надії — Центр відпочинку колонії"
   components:
   - type: Sprite
     state: hr_dorms_recreationcenter
@@ -760,7 +760,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsDormitories
-  name: Hope's Retreat - Dormitories
+  name: "Притулок Надії — Гуртожитки"
   components:
   - type: Sprite
     state: hr_dorms_livingspace
@@ -770,7 +770,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsCafeteria
-  name: Hope's Retreat - Cafeteria
+  name: "Притулок Надії — Кафетерій"
   components:
   - type: Sprite
     state: hr_dorms_cafeteria
@@ -780,7 +780,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsHydroponics
-  name: Hope's Retreat - Hydroponics
+  name: "Притулок Надії — Гідропоніка"
   components:
   - type: Sprite
     state: hr_dorms_hydro
@@ -790,7 +790,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsCommissary
-  name: Hope's Retreat - Commissary
+  name: "Притулок Надії — Крамниця"
   components:
   - type: Sprite
     state: hr_dorms_commissary
@@ -800,7 +800,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsSanitation
-  name: Hope's Retreat - Sanitation
+  name: "Притулок Надії — Санвузли"
   components:
   - type: Sprite
     state: hr_dorms_sanitation
@@ -810,7 +810,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRDormsAdministrationQuarters
-  name: Hope's Retreat - Administration Quarters
+  name: "Притулок Надії — Адміністративні приміщення"
   components:
   - type: Sprite
     state: hr_dorms_admin
@@ -820,7 +820,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRClinic
-  name: Hope's Retreat - Medical Clinic
+  name: "Притулок Надії — Медична клініка"
   components:
   - type: Sprite
     state: hr_clinic
@@ -830,7 +830,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRClinicOperatingRoom
-  name: Hope's Retreat - Operating Room
+  name: "Притулок Надії — Операційна"
   components:
   - type: Sprite
     state: hr_clinic_operatingroom
@@ -840,7 +840,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRAdminColonyAdministration
-  name: Hope's Retreat - Colony Administration
+  name: "Притулок Надії — Адміністрація колонії"
   components:
   - type: Sprite
     state: hr_admin
@@ -850,7 +850,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRAdminUPPEmbassy
-  name: Hope's Retreat - UPP Embassy
+  name: "Притулок Надії — Посольство СПН"
   components:
   - type: Sprite
     state: hr_admin_embassy
@@ -860,7 +860,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRAdminServerRoom
-  name: Hope's Retreat - Server Room
+  name: "Притулок Надії — Серверна"
   components:
   - type: Sprite
     state: hr_admin_serverroom
@@ -870,7 +870,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRSecurityOffice
-  name: Hope's Retreat - Security Office
+  name: "Притулок Надії — Офіс охорони"
   components:
   - type: Sprite
     state: hr_security_office
@@ -880,7 +880,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRSecurityPrepRoom
-  name: Hope's Retreat - Prep Room
+  name: "Притулок Надії — Підготовча кімната"
   components:
   - type: Sprite
     state: hr_security_prep
@@ -890,7 +890,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRSecurityJail
-  name: Hope's Retreat - Jail
+  name: "Притулок Надії — В'язниця"
   components:
   - type: Sprite
     state: hr_security_jail
@@ -900,7 +900,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringUpper
-  name: Hope's Retreat - Upper Engineering
+  name: "Притулок Надії — Верхня інженерія"
   components:
   - type: Sprite
     state: hr_engi_upper
@@ -910,7 +910,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringTurbineRoom
-  name: Hope's Retreat - Turbine Room
+  name: "Притулок Надії — Турбінний зал"
   components:
   - type: Sprite
     state: hr_engi_turbine
@@ -920,7 +920,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringTreatment
-  name: Hope's Retreat - Water Treatment Plant
+  name: "Притулок Надії — Водоочисна станція"
   components:
   - type: Sprite
     state: hr_engi_treatment
@@ -930,7 +930,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringConstruction
-  name: Hope's Retreat - Construction Office
+  name: "Притулок Надії — Будівельний офіс"
   components:
   - type: Sprite
     state: hr_engi_construction
@@ -940,7 +940,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHREngineeringFoundation
-  name: Hope's Retreat - Incomplete Building
+  name: "Притулок Надії — Недобудована споруда"
   components:
   - type: Sprite
     state: hr_engi_foundation
@@ -950,7 +950,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscMotorPoolGarage
-  name: Hope's Retreat - Motor Pool Garage
+  name: "Притулок Надії — Гараж транспортного парку"
   components:
   - type: Sprite
     state: hr_misc_motorpool
@@ -960,7 +960,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscMotorPoolStorage
-  name: Hope's Retreat - Motor Pool Storage
+  name: "Притулок Надії — Склад транспортного парку"
   components:
   - type: Sprite
     state: hr_misc_motorpoolstorage
@@ -970,7 +970,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscSouthernDorms
-  name: Hope's Retreat - Ad-hoc Living Quarters
+  name: "Притулок Надії — Імпровізовані житлові приміщення"
   components:
   - type: Sprite
     state: hr_misc_southerndorms
@@ -980,7 +980,7 @@
 - type: entity
   parent: CMUAreaRetreatIndoors
   id: CMUAreaRetreatHRMiscWasteManagement
-  name: Hope's Retreat - Waste Management
+  name: "Притулок Надії — Утилізація відходів"
   components:
   - type: Sprite
     state: hr_misc_wastemanagement
@@ -992,7 +992,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorNorthWest
-  name: Hope's Retreat - Northwestern Colony
+  name: "Притулок Надії — Північно-західна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_nw
@@ -1002,7 +1002,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorWest
-  name: Hope's Retreat - Western Colony
+  name: "Притулок Надії — Західна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_w
@@ -1012,7 +1012,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorNorth
-  name: Hope's Retreat - Northern Colony
+  name: "Притулок Надії — Північна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_n
@@ -1022,7 +1022,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorCentral
-  name: Hope's Retreat - Central Colony
+  name: "Притулок Надії — Центральна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_c
@@ -1032,7 +1032,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorNorthEastern
-  name: Hope's Retreat - Northeastern Colony
+  name: "Притулок Надії — Північно-східна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_ne
@@ -1042,7 +1042,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorEastern
-  name: Hope's Retreat - Eastern Colony
+  name: "Притулок Надії — Східна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_e
@@ -1052,7 +1052,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorSouthEastern
-  name: Hope's Retreat - Southeastern Colony
+  name: "Притулок Надії — Південно-східна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_se
@@ -1062,7 +1062,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorSouthWestern
-  name: Hope's Retreat - Southwestern Colony
+  name: "Притулок Надії — Південно-західна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_sw
@@ -1072,7 +1072,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorSouthern
-  name: Hope's Retreat - Southern Colony
+  name: "Притулок Надії — Південна колонія"
   components:
   - type: Sprite
     state: hr_outdoor_s
@@ -1082,7 +1082,7 @@
 - type: entity
   parent: CMUAreaRetreatOutdoors
   id: CMUAreaRetreatHRExteriorLZ1
-  name: Hope's Retreat - Landing Zone (LZ1)
+  name: "Притулок Надії — Зона приземлення (ЗП1)"
   components:
   - type: Sprite
     state: hr_outdoor_lz1

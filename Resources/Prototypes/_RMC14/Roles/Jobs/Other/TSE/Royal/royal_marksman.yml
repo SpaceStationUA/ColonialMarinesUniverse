@@ -44,7 +44,7 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesMarksman
-  name: royal crown marines ghost role marksman
+  name: "королівські морпіхи корони привид-роль маркcмена"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

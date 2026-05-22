@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPartyRUBase
-  name: PMC Contractor Base
+  name: "базовий контрактник ПВК"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartyRU
   basePlaytimeTracker: true
@@ -10,7 +10,7 @@
 - type: job
   parent: AU14JobProdigyPartyRUBase
   id: AU14JobProdigyPartyRU #m41a/2
-  name: PART Response Unit (M41A/2)
+  name: "підрозділ реагування ПАРТ (M41A/2)"
   description: au14-prodigyparty-description
   ranks:
     AU14RankWeYuRecruit: []

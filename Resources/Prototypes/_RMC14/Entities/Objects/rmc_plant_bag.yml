@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseStorageItem
   id: RMCStoragePlantBag
-  name: plant bag
+  name: "торба для рослин"
   description: ""
   components:
   - type: Sprite

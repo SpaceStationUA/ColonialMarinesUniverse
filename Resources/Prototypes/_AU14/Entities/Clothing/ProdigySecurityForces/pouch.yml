@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPouchMedical
   id: AU14PouchMedicalProdigy
-  name: Prodigy tactical medical pouch
-  description: A heavy pouch containing everything one needs to get themselves back on their feet. Quite the selection.
+  name: "тактичний медичний підсумок Продіджі"
+  description: "Важкий підсумок із усім необхідним, щоб знову стати на ноги. Чималий вибір."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/socmed.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: AU14PouchMedicalProdigy
   id: AU14PouchMedicalProdigyFilled
-  name: Prodigy tactical medical pouch
-  description: A heavy pouch containing everything one needs to get themselves back on their feet. Quite the selection.
+  name: "тактичний медичний підсумок Продіджі"
+  description: "Важкий підсумок із усім необхідним, щоб знову стати на ноги. Чималий вибір."
   components:
   - type: StorageFill
     contents:
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCPouchMagazineLargePMC
   id: AU14PouchMagazineLargePARTDual
-  name: Prodigy dual large magazine pouch
-  description: A large pouch designed to hold four large magazines, and 4 handfulls of shotgun shells. The pouch is designed for the Prodigy Armed Repair Teams, and is often used by their engineers and medics to hold extra magazines and shotgun shells.
+  name: "подвійний великий магазинний підсумок Продіджі"
+  description: "Великий підсумок, розрахований на чотири великих магазини та 4 жмені дробових патронів. Підсумок розроблений для Озброєних ремонтних груп Продіджі та часто використовується їхніми інженерами й медиками для зберігання запасних магазинів і дробових патронів."
   suffix: PART
   components:
   - type: Storage
@@ -65,8 +65,8 @@
 - type: entity
   parent: AU14PouchMagazineLargePARTDual
   id: AU14PouchMagazineLargePARTDualFilled
-  name: Prodigy dual large magazine pouch
-  description: A large pouch designed to hold four large magazines, and 4 handfulls of shotgun shells. The pouch is designed for the Prodigy Armed Repair Teams, and is often used by their engineers and medics to hold extra magazines and shotgun shells.
+  name: "подвійний великий магазинний підсумок Продіджі"
+  description: "Великий підсумок, розрахований на чотири великих магазини та 4 жмені дробових патронів. Підсумок розроблений для Озброєних ремонтних груп Продіджі та часто використовується їхніми інженерами й медиками для зберігання запасних магазинів і дробових патронів."
   suffix: PART
   components:
   - type: StorageFill
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCPouchFirstAidPMC
   id: AU14PouchIFAKProdigy
-  name: Prodigy first-aid pouch
+  name: "підсумок першої допомоги Продіджі"
   suffix: Filled
   components:
   - type: Storage

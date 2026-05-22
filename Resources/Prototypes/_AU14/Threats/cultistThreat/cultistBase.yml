@@ -136,9 +136,9 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: AU14SynthSubversionKeyCultist
-  name: WY synthetic reset key
+  name: "ключ скидання синтетика ВЮ"
   suffix: Cultist
-  description: This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It can only be used once before being reset. This one has been illegally modified. Who knows what it could do.
+  description: "Цей пристрій може виправляти серйозні збої або помилки програмування синтетичних одиниць, а також перезапускати синтетика, що зазнав критичної відмови. Його можна використати лише один раз, перш ніж він потребуватиме скидання. Цей було незаконно модифіковано. Хто знає, на що він здатен."
   components:
   - type: CLFSubverter
     faction: Xeno
@@ -166,9 +166,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorCultist
-  name: hacked automated storage briefcase
+  name: "зламаний автоматизований кейс-сховище"
   suffix: Cultist
-  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has some occult symbols written on it.
+  description: "Автоматизована система зберігання та видачі розміром із валізу. Розроблена для ефективного зберігання та вибіркової видачі дрібних предметів. На цьому намальовано кілька окультних символів."
   components:
   - type: CMAutomatedVendor
     jobs:

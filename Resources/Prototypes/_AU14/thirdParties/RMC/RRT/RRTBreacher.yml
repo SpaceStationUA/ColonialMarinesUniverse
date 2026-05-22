@@ -32,7 +32,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRMCRRT
   id: AU14JobRMCRRTBreacher
-  name: RMC reaction troop breacher
+  name: "бричер загону реагування КМП"
   components:
   - type: GhostRoleApplySpecial
     squad: AU14SquadRMCRRT
@@ -40,7 +40,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: RMC reaction troop breacher
+    name: "бричер загону реагування КМП"
     description: You have been dispatched as a Royal Marines Commando Rapid Reaction Troop member. The details of the mission have not been disclosed to you, however your main objective is to assist GOVFOR forces in the area of operation. You are friendly to GOVFOR command and neutral to civilians.
     job: AU14RMCRRTBreacher
     raffle:

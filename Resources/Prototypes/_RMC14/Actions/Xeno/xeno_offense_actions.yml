@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidNormal
-  name: Corrosive Acid (100)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure or item over time.
+  name: "Корозійна Кислота (100)"  # TODO RMC14 proper plasma costs
+  description: "Розплавляє структуру або предмет з часом."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -31,8 +31,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidWeak
-  name: Weak Corrosive Acid (75)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure or item over time.
+  name: "Слабка Корозійна Кислота (75)"  # TODO RMC14 proper plasma costs
+  description: "Розплавляє структуру або предмет з часом."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -53,8 +53,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidStrong
-  name: Strong Corrosive Acid (125)  # TODO RMC14 proper plasma costs
-  description: Melts down a structure or item over time.
+  name: "Сильна Корозійна Кислота (125)"  # TODO RMC14 proper plasma costs
+  description: "Розплавляє структуру або предмет з часом."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -75,8 +75,8 @@
 - type: entity
   parent: ActionXenoAcidNormal
   id: ActionXenoAcidAcider
-  name: Strong Corrosive Acid (100 acid)
-  description: Melts down barricades or items over time. You cannot melt structures.
+  name: "Сильна Корозійна Кислота (100 кислоти)"
+  description: "Розплавляє барикади або предмети з часом. Ви не можете розплавляти структури."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -99,8 +99,8 @@
 - type: entity
   id: ActionXenoRegurgitate
   parent: ActionXenoBase
-  name: Regurgitate
-  description: Eject any devoured marines.
+  name: "Виплюнути"
+  description: "Виплюньте поглинутих морпіхів."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -114,8 +114,8 @@
 - type: entity
   id: ActionXenoTailStab
   parent: ActionXenoBase
-  name: Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss.
+  name: "Удар Хвостом"
+  description: "Запускає атаку у заданому напрямку. Час перезарядки коротший, якщо ви промахнетеся."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -138,13 +138,13 @@
 - type: entity
   id: ActionXenoTailSlam
   parent: ActionXenoTailStab
-  name: Tail Slam
+  name: "Хвостовий Слем"
 
 - type: entity
   parent: ActionXenoTailStab
   id: ActionXenoTailStabCorrosive
-  name: Corrosive Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss. [color=red]It also injects diluted molecular acid into the target, dealing damage over time.[/color]
+  name: "Корозійний Удар Хвостом"
+  description: "Запускає атаку у заданому напрямку. Час перезарядки коротший, якщо ви промахнетеся. [color=red]Він також впорскує розбавлену молекулярну кислоту в ціль, завдаючи шкоди з часом.[/color]"
   components:
   - type: Action
     icon:
@@ -154,14 +154,14 @@
 - type: entity
   parent: ActionXenoTailStabCorrosive
   id: ActionXenoTailStabBoiler
-  name: Corrosive Tail Stab
-  description: Launches an attack towards a given direction. The cooldown is faster if you miss. [color=red]It also injects diluted molecular acid or neurotoxin into the target, dealing damage or stunning over time. Which type depends on current gas type.[/color]
+  name: "Корозійний Удар Хвостом"
+  description: "Запускає атаку у заданому напрямку. Час перезарядки коротший, якщо ви промахнетеся. [color=red]Він також впорскує розбавлену молекулярну кислоту або нейротоксин у ціль, завдаючи шкоди або оглушаючи з часом. Який тип залежить від поточного типу газу.[/color]"
 
 - type: entity
   id: ActionXenoLeap
   parent: ActionXenoBase
-  name: Leap
-  description: Jump towards a given location and knock down the first enemy hit.
+  name: "Стрибок"
+  description: "Стрибніть до заданого місця і повалите першого ураженого ворога."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -179,8 +179,8 @@
 - type: entity
   id: ActionXenoRush
   parent: ActionXenoLeap
-  name: Rush
-  description: Jump towards a given location and slash the enemy you hit, shaking their screen.
+  name: "Кидок"
+  description: "Стрибніть до заданого місця і ріжете ураженого ворога, струшуючи їх екран."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -193,8 +193,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoPounce
-  name: Pounce (20) # TODO RMC14 proper plasma costs
-  description: Jump towards a given location and knock down the first enemy hit [color=red]if you are invisible.[/color]
+  name: "Стрибок (20)" # TODO RMC14 proper plasma costs
+  description: "Стрибніть до заданого місця і повалите першого ураженого ворога [color=red]якщо ви невидимі.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -219,8 +219,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoAssault
-  name: Assault (25)
-  description: Charge towards a location. Destroys some objects in your path. Melee slashes reduce assault's cooldown. If Super-Empowered, stuns and flings back the first enemy hit.
+  name: "Штурм (25)"
+  description: "Штурмуйте до місця. Знищує деякі об'єкти на вашому шляху. Удари ближнього бою зменшують перезарядку штурму. Якщо ви Супер-Підсилені, оглушує і відкидає першого ураженого ворога."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -244,8 +244,8 @@
 - type: entity
   parent: ActionXenoLeap
   id: ActionXenoDash
-  name: Dash (40)
-  description: Dash a short distance towards a given location.
+  name: "Ривок (40)"
+  description: "Зробіть ривок на коротку відстань до заданого місця."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -269,8 +269,8 @@
 - type: entity
   id: ActionXenoHeadbutt
   parent: ActionXenoBase
-  name: Headbutt (10) # TODO RMC14 proper plasma costs
-  description: Charge towards the targeted enemy and push back the first enemy hit, piercing armor slightly. Does less damage but has more knockback when crest is lowered.
+  name: "Удар Головою (10)" # TODO RMC14 proper plasma costs
+  description: "Атакуйте цільового ворога і відштовхніть першого ураженого ворога, трохи проникаючи через броню. Завдає менше шкоди, але має більший відкид, коли гребінь опущений."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -298,8 +298,8 @@
 - type: entity
   id: ActionXenoTailSweep
   parent: ActionXenoBase
-  name: Tail Sweep (10) # TODO RMC14 proper plasma costs
-  description: Knock down any enemies close to you.
+  name: "Хвостовий Замах (10)" # TODO RMC14 proper plasma costs
+  description: "Повалите будь-яких ворогів поблизу."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -322,8 +322,8 @@
 - type: entity
   id: ActionXenoSlowingSpit
   parent: ActionXenoBase
-  name: Slowing Spit (20) # TODO RMC14 proper plasma costs
-  description: Launches a damageless projectile that will slow the first enemy that it hits, and paralyze them if they have no armor. It'll also drain helpful substances from their body.
+  name: "Уповільнюючий Плювок (20)" # TODO RMC14 proper plasma costs
+  description: "Запускає неушкоджуючий снаряд, який уповільнить першого ураженого ворога і паралізує його, якщо у нього немає броні. Він також виснажить корисні речовини з його тіла."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -343,8 +343,8 @@
 - type: entity
   id: ActionXenoScatteredSpit
   parent: ActionXenoBase
-  name: Scattered Spit (20) # TODO RMC14 proper plasma costs
-  description: Launches multiple damageless projectiles that will briefly paralyze any enemies they hit.
+  name: "Розкиданий Плювок (20)" # TODO RMC14 proper plasma costs
+  description: "Запускає кілька неушкоджуючих снарядів, які коротко паралізують будь-яких уражених ворогів."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -372,8 +372,8 @@
 - type: entity
   id: ActionXenoSpit
   parent: ActionXenoBase
-  name: Xeno Spit (25) # TODO RMC14 proper plasma costs
-  description: Launches a projectile that will deal damage to the first enemy that it hits.
+  name: "Ксено-плювок (25)" # TODO RMC14 proper plasma costs
+  description: "Запускає снаряд, що завдасть шкоду першому ураженому ворогу."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -409,8 +409,8 @@
 - type: entity
   id: ActionXenoChargeSpit
   parent: ActionXenoBase
-  name: Charge Spit (50) # TODO RMC14 proper plasma costs
-  description: Charges up your next spit, making it deal more damage and coat the enemy in acid, but have less range. Increases your movement speed until the ability expires.
+  name: "Заряджений Плювок (50)" # TODO RMC14 proper plasma costs
+  description: "Заряджає ваш наступний плювок, роблячи його сильнішим і покриваючи ворога кислотою, але з меншим радіусом дії. Збільшує вашу швидкість руху до закінчення здібності."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -434,8 +434,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSprayAcid
-  name: Spray Acid (40)
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid and significantly strengthen acid inflicted from Charge Spit![/color]
+  name: "Розпорошити Кислоту (40)"
+  description: "Розпорошує кислоту по землі лінією, покриваючи плитки. [color=red]Покриває барикади кислотою і значно посилює кислоту, нанесену Зарядженим Плювком![/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -460,7 +460,7 @@
 - type: entity
   parent: ActionXenoSprayAcid
   id: ActionXenoSprayAcidBoiler
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid![/color]
+  description: "Розпорошує кислоту по землі лінією, покриваючи плитки. [color=red]Покриє барикади кислотою![/color]"
   components:
   - type: Action
     useDelay: 10
@@ -474,8 +474,8 @@
 - type: entity
   parent: ActionXenoSprayAcid
   id: ActionXenoSprayAcidPraetorian
-  name: Spray Acid (80)
-  description: Sprays acid along the ground in a line, covering tiles with it. [color=red]Will coat barricades in acid![/color]
+  name: "Розпорошити Кислоту (80)"
+  description: "Розпорошує кислоту по землі лінією, покриваючи плитки. [color=red]Покриє барикади кислотою![/color]"
   components:
   - type: Action
     useDelay: 10
@@ -483,7 +483,7 @@
 - type: entity
   parent: ActionXenoSprayAcidPraetorian
   id: ActionXenoSprayAcidWarden
-  name: Spray Acid (130)
+  name: "Розпорошити Кислоту (130)"
   components:
   - type: Action
     useDelay: 13
@@ -491,8 +491,8 @@
 - type: entity
   id: ActionXenoAcidBall
   parent: ActionXenoBase
-  name: Acid Ball (80) # TODO RMC14 proper plasma costs
-  description: Throws a projectile that will explode into acid spit in all directions after a short delay.
+  name: "Кислотний М'яч (80)" # TODO RMC14 proper plasma costs
+  description: "Кидає снаряд, що вибухне кислотним плювком в усіх напрямках після короткої затримки."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -518,8 +518,8 @@
 - type: entity
   id: ActionXenoParalyzingSlash
   parent: ActionXenoBase
-  name: Paralyzing Slash (50) # TODO RMC14 proper plasma costs
-  description: Temporarily charge up a melee attack that will knockdown the first enemy it hits after a short delay.
+  name: "Паралізуючий Удар (50)" # TODO RMC14 proper plasma costs
+  description: "Тимчасово зарядіть атаку ближнього бою, що поваляє першого ураженого ворога після короткої затримки."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -535,8 +535,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCripplingStrike
-  name: Crippling Strike (20) # TODO RMC14 proper plasma costs
-  description: Temporarily charge up a melee attack that will slow the first enemy it hits and do 20% more damage.
+  name: "Калічачий Удар (20)" # TODO RMC14 proper plasma costs
+  description: "Тимчасово зарядіть атаку ближнього бою, що уповільнить першого ураженого ворога і завдасть на 20% більше шкоди."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -560,8 +560,8 @@
 - type: entity
   id: ActionXenoBoneChips
   parent: ActionXenoBase
-  name: Bone Chips
-  description: Launch a projectile that will damage and slow down the first enemy it hits.
+  name: "Уламки Кістки"
+  description: "Запускає снаряд, який ушкоджує і уповільнює першого ураженого ворога."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -586,8 +586,8 @@
 - type: entity
   id: ActionXenoPunch
   parent: ActionXenoBase
-  name: Punch
-  description: Punches the targeted enemy to deal a hefty amount of damage, slowing them and pushing them away.
+  name: "Удар"
+  description: "Б'є цільового ворога, завдаючи значної шкоди, уповільнюючи і відштовхуючи його."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -614,8 +614,8 @@
 - type: entity
   id: ActionXenoFling
   parent: ActionXenoBase
-  name: Fling
-  description: Flings the targeted enemy a few tiles, knocking them down and damaging them.
+  name: "Кидок"
+  description: "Кидає цільового ворога на кілька плиток, повалюючи його і завдаючи шкоди."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -643,8 +643,8 @@
 - type: entity
   id: ActionXenoLunge
   parent: ActionXenoBase
-  name: Lunge
-  description: Lunges towards the targeted enemy and grabs the first enemy hit.
+  name: "Випад"
+  description: "Кидається до цільового ворога і хапає першого ураженого ворога."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -674,8 +674,8 @@
 - type: entity
   id: ActionXenoScreech
   parent: ActionXenoBase
-  name: Screech (250)
-  description: A wide area of effect stun, screeches upon activation. [color=red]This will also stun parasites, and is blocked by solid walls, smoke, and boiler gas, but not windows![/color]
+  name: "Виск (250)"
+  description: "Широкий зональний оглушуючий виск при активації. [color=red]Це також оглушить паразитів, і блокується суцільними стінами, димом та газом боулера, але не вікнами![/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -690,8 +690,8 @@
 - type: entity
   id: ActionXenoGut
   parent: ActionXenoBase
-  name: Gut (200)
-  description: Gibs the mob you decide to gut.
+  name: "Виправити (200)"
+  description: "Розчавлює моба, якого ви вирішили виправити."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -706,8 +706,8 @@
 - type: entity
   id: ActionXenoStomp
   parent: ActionXenoBase
-  name: Stomp (30)
-  description: Slam the ground with a 5x5 AOE, slowing down and disarming all enemies in range. Deals heavy damage to targets you are on top of.
+  name: "Топтати (30)"
+  description: "Вдаряє по землі з 5x5 AoE, уповільнюючи і обеззброюючи всіх ворогів у радіусі. Завдає важкої шкоди цілям, на яких ви знаходитесь."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -729,8 +729,8 @@
 - type: entity
   parent: ActionXenoStomp
   id: ActionXenoCrush
-  name: Crush (25)
-  description: Slam the ground with a 7x7 AOE, slowing down and disarming all enemies in range. Deals heavy damage to targets you are on top of.
+  name: "Розчавити (25)"
+  description: "Вдаряє по землі з 7x7 AoE, уповільнюючи і обеззброюючи всіх ворогів у радіусі. Завдає важкої шкоди цілям, на яких ви знаходитесь."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -744,8 +744,8 @@
 - type: entity
   id: ActionXenoCharge
   parent: ActionXenoBase
-  name: Charge (20)
-  description: Click on a tile you want to charge at, after a brief non cancel-able windup time. Slows around the impact area. [color=green]Cooldown is partially refunded upon attacking an enemy, scaling with the amount of enemies you cleave with your passive.[/color]
+  name: "Заряд (20)"
+  description: "Натисніть на плитку, на яку ви хочете кинутись, після короткого нескасовуваного часу замаху. Уповільнює навколо зони удару. [color=green]Перезарядка частково повертається при атаці ворога, масштабуючись з кількістю ворогів, яких ви розсікли своїм пасивним.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -770,8 +770,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleCharging
-  name: Toggle Charging
-  description: Enable charging when moving in a straight line, which increases your speed and impact damage depending on the total distance travelled.
+  name: "Перемкнути Зарядження"
+  description: "Увімкніть зарядження при русі по прямій лінії, що збільшує вашу швидкість і шкоду удару залежно від загальної пройденої відстані."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -785,7 +785,7 @@
 - type: entity
   parent: ActionXenoFling
   id: ActionXenoRam
-  name: Ram (10)
+  name: "Таран (10)"
   components:
   - type: Action
     icon:
@@ -798,8 +798,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoBombard
-  name: Bombard (200)
-  description: Fire either an acidic or neurotoxic glob after a delay.
+  name: "Бомбардувати (200)"
+  description: "Випустити кислотну або нейротоксичну кулю після затримки."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -831,8 +831,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleGasType
-  name: Toggle Gas Type
-  description: Toggle between Acid or Neurotoxic gas types. Your acidic globs will deal continual damage to anything caught in its radius, while neurotoxin will cause targets to suffocate, be slowed down and blinded, alongside eventually knocking them unconscious to be kidnapped.
+  name: "Перемкнути Тип Газу"
+  description: "Перемикайтеся між кислотним і нейротоксичним типами газу. Ваші кислотні кулі будуть завдавати продовжену шкоду всьому, що потрапить у радіус, а нейротоксин змусить цілі задихатися, бути уповільненими та засліпленими, а врешті позбавить їх свідомості, щоб вкрасти."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -858,8 +858,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidShroud
-  name: Acid Shroud
-  description: Create a small cloud of acidic or neurotoxic gas around you to cloak yourself. This will disable your other abilities for a short time to allow you to escape.
+  name: "Кислотна Завіса"
+  description: "Створіть невелику хмару кислотного або нейротоксичного газу навколо себе для маскування. Це вимкне інші ваші здібності на короткий час, щоб дозволити вам втекти."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -888,8 +888,8 @@
 - type: entity
   id: ActionXenoTremor
   parent: ActionXenoBase
-  name: Tremor (100)
-  description: Slam the ground with a 7x7 AOE, stunning all enemies in range for a short period of time.
+  name: "Тремор (100)"
+  description: "Вдаряє по землі з 7x7 AoE, оглушуючи всіх ворогів у радіусі на короткий період часу."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -911,8 +911,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoForTheHive
-  name: For The Hive!
-  description: Prime yourself to detonate in a massive acid explosion in 20 seconds. Requires 200 acid at the minimum. The more acid reserves you have, the larger and more damaging the explosion will be. It will also coat barricades and mobs in acid, in a range equal to 1/2th the damage range. Damage is less the farther the mob is from the explosion. You will be slowed, change visually, and make an a loud wailing sound charging up. Dying will prevent the explosion from going off, but if successful you will respawn as a larva at your hive's hive core or at your corpse if theres none. Using this ability while primed will cancel the explosion at the cost of a 1/4th of your acid reserves.
+  name: "За Вулик!"
+  description: "Підготуйтеся, щоб детонувати у масивному кислотному вибуху за 20 секунд. Потребує мінімум 200 кислоти. Чим більше у вас резервів кислоти, тим більший і шкідливіший буде вибух. Він також покриє барикади і мобів кислотою в радіусі, що дорівнює 1/2 радіусу шкоди. Шкода менша, чим далі моб від вибуху. Ви будете уповільнені, зміните вигляд і будете видавати гучний виючий звук під час зарядження. Смерть запобіжить вибуху, але якщо успішно, ви переродитесь як личинка в ядрі вашого вулика або у вашого трупа, якщо немає. Використання цієї здібності під час зарядження скасує вибух за рахунок 1/4 ваших кислотних резервів."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -925,8 +925,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoImpale
-  name: Impale (80)
-  description: Impales an adjacent enemy with your tail. Hits twice on a marked target and removes the mark. Pierces some armor.
+  name: "Простромити (80)"
+  description: "Простромлює сусіднього ворога хвостом. Б'є двічі на позначеній цілі і знімає позначку. Пробиває деяку броню."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -948,8 +948,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailTrip
-  name: Tail Trip (30)
-  description: Disarms and dazes an unmarked enemy. Stuns and dazes for longer on a marked target, and removes the mark.
+  name: "Хвостова Підніжка (30)"
+  description: "Обеззброює і дезорієнтує непозначеного ворога. Оглушує і дезорієнтує довше на позначеній цілі і знімає позначку."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -971,8 +971,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoPierce
-  name: Pierce (50)
-  description: Pierce through enemies in a 3 tile range, doing high damage and piercing some armor. Hitting 2 or more recharges your shield.
+  name: "Пронизати (50)"
+  description: "Пронизує ворогів у радіусі 3 плитки, завдаючи високу шкоду і пробиваючи деяку броню. Ураження 2+ перезаряджає ваш щит."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1000,8 +1000,8 @@
 - type: entity
   parent: ActionXenoDash
   id: ActionXenoBlitz
-  name: Blitz (50)
-  description: Dash a short distance towards a given location. After 3 seconds or if you use it again before then, damages enemies around you. Hitting 1 or more recharges your shield.
+  name: "Бліц (50)"
+  description: "Зробіть ривок на коротку відстань до заданого місця. Через 3 секунди або при повторному використанні завдає шкоди ворогам навколо. Ураження 1+ перезаряджає ваш щит."
   components:
   - type: Action
     useDelay: 0
@@ -1010,8 +1010,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCleaveRoot
-  name: Cleave Root
-  description: Root an enemy for a second. The duration is higher if your shield is up.
+  name: "Розсічене Коріння"
+  description: "Вкоренити ворога на секунду. Тривалість більша, якщо ваш щит активний."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1042,8 +1042,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoCleaveFling
-  name: Cleave Fling
-  description: Fling an enemy. The distance is doubled if your shield is up.
+  name: "Розсічений Кидок"
+  description: "Кидає ворога. Відстань подвоюється, якщо ваш щит активний."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1093,14 +1093,14 @@
 - type: entity
   id: ActionXenoSpitQueen
   parent: ActionXenoSpit
-  name: Xeno Spit (50/25)
-  description: Launches a projectile that will either paralyze the first enemy it hits or damage them and cover them in acid.
+  name: "Ксено-плювок (50/25)"
+  description: "Запускає снаряд, що або паралізує першого ураженого ворога, або завдасть йому шкоди і покриє кислотою."
 
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoToggleSpitType
-  name: Toggle Spit Type
-  description: Toggle between Neurotoxic or Acidic spit. Neurotoxic has less range and costs 50 plasma, and knocks down the first enemy it hits. Acidic has more range and costs 25 plasma, and damages and covers in acid the first enemy it hits.
+  name: "Перемкнути Тип Плювка"
+  description: "Перемикайтеся між нейротоксичним і кислотним плювком. Нейротоксичний має менший радіус і коштує 50 плазми, валить першого ураженого ворога. Кислотний має більший радіус і коштує 25 плазми, завдає шкоди і покриває кислотою першого ураженого ворога."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1117,8 +1117,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHighGallop
-  name: High Gallop
-  description: Stuns foes in a 2x3 area in targeted direction, and slows them. Also flings back grenades.
+  name: "Високий Галоп"
+  description: "Оглушує ворогів у зоні 2x3 у заданому напрямку та уповільнює їх. Також відкидає назад гранати."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1144,8 +1144,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoScissorCut
-  name: Scissor Cut (25)
-  description: Cuts enemies and fences in a straight line. If Super-Empowered, slows enemies hit too.
+  name: "Розріз Ножицями (25)"
+  description: "Ріже ворогів і огорожі по прямій лінії. Якщо Супер-Підсилений, також уповільнює уражених ворогів."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1173,8 +1173,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailSeize
-  name: Tail Seize
-  description: Throw out your tail in front of you. Uses up your melee attack. Pulls in the first enemy hit to you and roots and slows them on arrival. [color=red]Has a 3-tile range![/color]
+  name: "Хвостова Захоплювач"
+  description: "Виставте свій хвіст уперед. Використовує вашу атаку ближнього бою. Притягує до вас першого ураженого ворога і вкорінює та уповільнює їх по прибутті. [color=red]Має 3-плитковий радіус![/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1202,8 +1202,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAbduct
-  name: Abduct (180)
-  description: Cast out a line that after a small doafter pulls in enemies towards you, disarming them. Catching 1 target slows them, 2 roots them, and 3 or more stuns them.
+  name: "Викрасти (180)"
+  description: "Випустіть лінію, яка після короткої доафтер притягне ворогів до вас, обеззброюючи їх. Захоплення 1 цілі уповільнює їх, 2 — вкорінює, а 3 і більше — оглушує."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1231,8 +1231,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailLash
-  name: Tail Lash (80)
-  description: Fling back foes in a 2x3 area in targeted direction after a very short doafter. Also slows.
+  name: "Хвостовий Удар (80)"
+  description: "Відкидає ворогів у зоні 2x3 у заданому напрямку після дуже короткої доафтер. Також уповільнює."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1259,8 +1259,8 @@
 - type: entity
   id: ActionXenoDislocate
   parent: ActionXenoBase
-  name: Dislocate (55)
-  description: Punch a targeted enemy, doing some damage and pushing them back. If the target is slowed, stunned, downed, or rooted, instead roots and completely pierces armor. Reduces the cooldown of Abduct and Tail Lash.
+  name: "Вивихнути (55)"
+  description: "Удар цільового ворога, завдаючи деякої шкоди і відштовхуючи його. Якщо ціль уповільнена, оглушена, повалена або вкорінена — натомість вкорінює і повністю пробиває броню. Зменшує перезарядку Викрадення і Хвостового Удару."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1289,8 +1289,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTailJab
-  name: Tail Jab
-  description: Jab an enemy in a 2.5 tile range, doing high damage and slowing them.
+  name: "Хвостовий Тичок"
+  description: "Тичок ворога в радіусі 2,5 плитки, завдаючи високу шкоду і уповільнюючи його."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1312,8 +1312,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFlurry
-  name: Flurry
-  description: An attack that has a range of 1x3 tiles, dealing damage per target and healing you.
+  name: "Шквал"
+  description: "Атака з радіусом 1x3 плитки, завдаючи шкоду на ціль і зціляючи вас."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1339,8 +1339,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoHeadbite
-  name: Headbite
-  description: Instantly kills unconscious targets and heals you for 150 HP.
+  name: "Укус Голови"
+  description: "Миттєво вбиває непритомні цілі і зціляє вас на 150 ХП."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1368,8 +1368,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoApprehend
-  name: Apprehend
-  description: Increases your movement speed and applies a slow on the next target you slash.
+  name: "Затримати"
+  description: "Збільшує вашу швидкість руху і застосовує уповільнення на наступну ціль, яку ви ріжете."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1384,8 +1384,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoEviscerate
-  name: Eviscerate
-  description: Eviscerate nearby enemies after a short delay. Costs 1 rage stack.
+  name: "Випотрошити"
+  description: "Випотрошити сусідніх ворогів після короткої затримки. Коштує 1 стак люті."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1401,8 +1401,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoClothesline
-  name: Clothesline
-  description: Flings a target, doing minimal damage and healing you. The amount healed is higher the more rage stacks you have.
+  name: "Линчівка"
+  description: "Кидає ціль, завдаючи мінімальну шкоду і зціляючи вас. Кількість зцілення вища, чим більше у вас стаків люті."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1421,8 +1421,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoTumble
-  name: Tumble (25) # TODO RMC14 proper plasma costs
-  description: Charge towards your side and push back the first enemy hit. Can only be used towards either side of where you are facing.
+  name: "Перекидання (25)" # TODO RMC14 proper plasma costs
+  description: "Зарядіться вбік і відштовхніть першого ураженого ворога. Можна використовувати лише в напрямку обох сторін від того, куди ви дивитесь."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1444,8 +1444,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoFireSpikes
-  name: Fire Spikes (75 shards)
-  description: Launch 8 small shards of spikes in the direction you click.
+  name: "Випустити Шипи (75 уламків)"
+  description: "Запустіть 8 невеликих уламків шипів у напрямку, на який ви натискаєте."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1465,8 +1465,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSpikeShed
-  name: Spike Shed (all shards)
-  description: Shred all of your shards to launch them all in all directions around yourself. Lose the bonus armor in the process while also gaining a speed boost. This will disable you from gaining any shards for 30 seconds. Requires 50 shards minimum
+  name: "Скидання Шипів (всі уламки)"
+  description: "Подрібніть усі ваші уламки, щоб запустити їх у всіх напрямках навколо себе. Втрачаєте бонус броні в процесі, але отримуєте прискорення. Це вимкне отримання уламків на 30 секунд. Потребує мінімум 50 уламків"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1482,8 +1482,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoRend
-  name: Rend (25)
-  description: Claw at enemies around you.
+  name: "Розтерзати (25)"
+  description: "Кігтями обертайте ворогів навколо себе."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1500,8 +1500,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoDestroy
-  name: Destroy
-  description: After a short time, jump to the targeted location, destroying structures and gibbing hostiles within a 3x3 range. Works over barricades and other short barriers.
+  name: "Знищити"
+  description: "Через короткий час стрибніть до цільового місця, знищуючи структури і розчавлюючи ворогів у радіусі 3x3. Працює над барикадами та іншими низькими бар'єрами."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1519,8 +1519,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoAcidMine
-  name: Acid Mine (40)
-  description: Cause an acid explosion at the targeted location.
+  name: "Кислотна Міна (40)"
+  description: "Спричиняє кислотний вибух у цільовому місці."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1551,8 +1551,8 @@
 - type: entity
   id: ActionXenoAcidShotgun
   parent: ActionXenoBase
-  name: Acid Shotgun (40)
-  description: Launches multiple acid projectiles that deal increased damage to trapped targets.
+  name: "Кислотний Дробовик (40)"
+  description: "Запускає кілька кислотних снарядів, що завдають збільшеної шкоди затиснутим цілям."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -1572,8 +1572,8 @@
 - type: entity
   id: ActionXenoDeployTraps
   parent: ActionXenoBase
-  name: Deploy Traps (60)
-  description: Deploys a line of snaring traps.
+  name: "Розгорнути Пастки (60)"
+  description: "Розгортає лінію пасток-сильців."
   components:
   - type: Action
     useDelay: 20.5

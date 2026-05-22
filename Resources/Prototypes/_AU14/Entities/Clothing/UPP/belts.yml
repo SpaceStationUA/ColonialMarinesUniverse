@@ -1,9 +1,9 @@
 - type: entity
   parent: CMBeltMarine
   id: AU14BeltMarineUPP
-  name: Type 41 pattern ammo load rig
+  name: "розвантажувальний боєкомплектний пояс зразка Type 41"
   suffix: AU14
-  description: The Type 41 load rig is the standard-issue load-bearing equipment of the UPP military. The primary function of this belt is to provide easy access to mags for the Type 71 during operations. Despite being designed for the Type 71 weapon system, the pouches are modular enough to fit other types of ammo and equipment.
+  description: "Розвантаження Type 41 є штатним розвантажувальним спорядженням війська УПП. Основна функція цього пояса — забезпечити легкий доступ до магазинів Type 71 під час операцій. Попри те, що підсумки розроблені для збройової системи Type 71, вони достатньо модульні, щоб умістити інші типи боєприпасів і спорядження."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/belt/ammo.rsi
@@ -16,8 +16,8 @@
   parent: CMBeltMarine
   id: AU14BeltMarineArmyUPP
   suffix: AU14
-  name: 6B80 pattern ammo rig
-  description: The 6B80 is an outdated but reliable ammo rig, formerly standard for the UPP Army. Its modular belt holds various munitions, still used by UPP security forces and reserves for its rugged design.
+  name: "боєкомплектне розвантаження зразка 6B80"
+  description: "6B80 — застаріле, але надійне боєкомплектне розвантаження, колись стандартне для армії УПП. Його модульний пояс утримує різні боєприпаси й досі використовується силами безпеки та резервами УПП завдяки міцній конструкції."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/spp_brown.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: AU14BeltUtilityGeneralUPP
-  name: Type 48-M general utility pouch
-  description: A small, lightweight pouch that can be clipped onto U-pattern UPP armor to provide additional storage. The newer 48-M model, while uncomfortable, can also be clipped around the waist.
+  name: "універсальна підсумка Type 48-M"
+  description: "Невелика легка підсумка, яку можна зачепити до U-подібної броні УПП для додаткового місця. Новішу модель 48-M, хоч вона й незручна, також можна закріпити на поясі."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/belt/general.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMBeltMedical
   id: AU14BeltMedicalUPP
-  name: Type 41 pattern medical storage rig
-  description: The Type 41 is the standard load-bearing equipment of UPP military. It consists of a modular belt with various clips. This version is a less common configuration, designed to transport medical supplies. \nRight click its sprite and click \"toggle belt mode\" to take pills out of bottles by simply clicking them.
+  name: "медичне розвантаження зразка Type 41"
+  description: "Type 41 є штатним розвантажувальним спорядженням війська УПП. Воно складається з модульного пояса з різними кліпсами. Ця версія є менш поширеною конфігурацією, призначеною для транспортування медичних припасів. \nКлацніть ПКМ по його спрайту й виберіть \"перемкнути режим пояса\", щоб діставати пігулки з пляшечок простим кліком по них."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/belt/medical.rsi
@@ -56,9 +56,9 @@
 - type: entity
   parent: RMCM276ShotgunShellLoadingRig
   id: AU14ShotgunShellLoadingRigUPP
-  name: Type 42 pattern shotgun shell loading rig
+  name: "розвантаження для заряджання дробових набоїв зразка Type 42"
   suffix: AU14
-  description: An ammunition belt designed to hold shotgun shells, primarily for the Type 23 shotgun. # or individual bullets. TODO RMC14
+  description: "Боєприпасний пояс, призначений для перенесення дробових набоїв, переважно для дробовика Type 23." # or individual bullets. TODO RMC14
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/shotgun.rsi
@@ -84,9 +84,9 @@
 - type: entity
   parent: CMBeltMedicBag
   id: AU14BeltMedicBagUPP
-  name: Type 41 pattern lifesaver bag
+  name: "сумка рятувальника зразка Type 41"
   suffix: AU14
-  description: The Type 41 load rig is the standard load-bearing equipment of the UPP military. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics.
+  description: "Розвантаження Type 41 є штатним розвантажувальним спорядженням війська УПП. У цій конфігурації встановлено речову сумку, наповнену різними ін’єкторами та легкими медичними припасами; вона поширена серед медиків."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/belt/medicbag.rsi
@@ -98,9 +98,9 @@
 - type: entity
   parent: CMBeltMarine
   id: AU14BeltSmartGunOperatorUPP
-  name: Type 90 pattern machinegunner belt
+  name: "пояс кулеметника зразка Type 90"
   suffix: AU14
-  description: Recently adopted by UPP military, this belt allows machinegunners to carry more ammo boxes into battle. It also found use with SOF breachers using Type 23 shotguns.
+  description: "Нещодавно прийнятий військом УПП, цей пояс дозволяє кулеметникам нести в бій більше коробок із боєприпасами. Його також використовують штурмовики ССО з дробовиками Type 23."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/belt/machinegun.rsi
@@ -132,8 +132,8 @@
   parent: CMBeltMarine
   id: AU14BeltSmartGunOperatorPistolUPP
   suffix: AU14
-  name: Type 92 pattern machinegunner sidearm rig
-  description: Type 92 is an experimental ammo-carrying rig issued to UPP machinegunners which combines a sidearm holster with box-shaped pouches for limited storage.
+  name: "розвантаження кулеметника для бокової зброї зразка Type 92"
+  description: "Type 92 — експериментальне боєкомплектне розвантаження, яке видають кулеметникам УПП; воно поєднує кобуру для бокової зброї з коробчастими підсумками для обмеженого зберігання."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/belt/machinegun_pistol.rsi
@@ -195,8 +195,8 @@
   parent: RMCBeltHolsterPistol
   id: AU14BeltHolsterPistolUPP
   suffix: AU14
-  name: Type 47 pistol holster rig
-  description: This UPP-designed sidearm rig can very snugly and securely fit a Type-73, NP92, or a ZHNK-72, and their magazines or speedloaders. However, it lacks versatility in stored weaponry.
+  name: "пістолетна кобура-розвантаження Type 47"
+  description: "Це розроблене УПП розвантаження для бокової зброї може дуже щільно й надійно вмістити Type-73, NP92 або ZHNK-72, а також їхні магазини чи швидкозарядники. Однак йому бракує універсальності щодо збереженої зброї."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/belt/holster.rsi

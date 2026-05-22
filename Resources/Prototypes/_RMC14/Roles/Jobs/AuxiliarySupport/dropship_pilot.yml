@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointPilotDropship
-  name: dropship pilot spawn point
+  name: "спавнер пілота десантного корабля"
   components:
   - type: SpawnPoint
     job_id: CMPilotDropship

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseStructureDynamic
   id: AU14WoodenBarricadeSubmerged
-  name: submerged landing obstacle
-  description: A wooden obstacle designed to stop enemy landing craft.
+  name: "затоплена десантна перешкода"
+  description: "Дерев’яна перешкода, призначена для зупинки ворожих десантних суден."
   components:
   - type: Anchorable
   - type: Transform

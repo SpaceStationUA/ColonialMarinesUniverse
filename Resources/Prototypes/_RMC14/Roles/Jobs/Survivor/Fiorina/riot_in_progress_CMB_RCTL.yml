@@ -50,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFiorinaRiotInProgressCMBRiotControlOfficer
-  name: special survivor fiorina riot in progress colony marshal bureau riot control team leader spawn point
+  name: "спавнер спецлідера команди контролю заворушень CMB фіоріни"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorFiorinaRiotInProgressCMBRiotControlTeamLeader
@@ -61,7 +61,7 @@
 
 - type: entity
   id: RMCSurvivorPresetRiotInProgressCMBRCTL
-  name: riot in progress CMB RCTL preset
+  name: "пресет CMB RCTL заворушення"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: CMFloorCorsatBasicBase
-  name: tiles-cm-default-basic
+  name: "плитка CM стандартна базова"
 
 - type: tile
   parent: CMFloorCorsatBasicBase

@@ -1,43 +1,43 @@
 - type: accessLevel
   id: AU14AccessGovfor
-  name: Govfor
+  name: "ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforSquad
-  name: Govfor Squad
+  name: "відділення ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforCommand
-  name: Govfor Command
+  name: "командування ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforSecurity
-  name: Govfor Security
+  name: "безпека ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforMedical
-  name: Govfor Medical
+  name: "медичний доступ ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforEngineering
-  name: Govfor Engineering
+  name: "інженерний доступ ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforFTL
-  name: Govfor Squad Sergeant
+  name: "сержант відділення ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforGunner
-  name: Govfor Smart Gun Operator
+  name: "оператор смартгана ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessGovforPilot
-  name: Govfor Pilot
+  name: "пілот ГОВФОР"
 
 - type: accessLevel
   id: AU14AccessJuniorOfficer
-  name: Junior Officer
+  name: "молодший офіцер"
 
 - type: accessLevel
   id: AU14AccessGovforReq
-  name: Govfor Requisitions
+  name: "постачання ГОВФОР"

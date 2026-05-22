@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointWeaponsSpecialist
-  name: weapons specialist spawn point
+  name: "спавнер спеціаліста з озброєння"
   components:
   - type: SpawnPoint
     job_id: CMWeaponsSpecialist

@@ -56,7 +56,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUACG
   id: AU14JobUACGLostSquadLeader
-  name: Lost Squad Leader
+  name: "загублений командир відділення"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

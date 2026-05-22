@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ProdigyLaptop
-  name: Prodigy Advance Networking Device (PAND)
-  description: A ruggedized military laptop used for remote control and programming made by Prodigy Security Corp. Can be placed on tables for easier access, it can also be used to link to sentries if need be.
+  name: "пристрій розширеної мережі Продіджі (PAND)"
+  description: "Захищений військовий ноутбук для віддаленого керування та програмування, виготовлений корпорацією Продіджі Сек'юриті. Його можна розмістити на столі для зручного доступу, а також, за потреби, прив'язати до турелей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/sentrycomp.rsi

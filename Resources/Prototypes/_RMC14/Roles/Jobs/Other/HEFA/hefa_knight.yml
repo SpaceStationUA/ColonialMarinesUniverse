@@ -39,7 +39,7 @@
 - type: entity
   parent: RMCRandomHumanoidHEFAShrapnelswornHostile
   id: RMCRandomHumanoidHEFAShrapnelswornMeleeHostile
-  name: hefa ghost role shrapnelsworn
+  name: "привид-роль HEFA шрапнелесвен"
   suffix: Spawner, Player, Hostile
   components:
   - type: RandomHumanoidSpawner
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCRandomHumanoidHEFAShrapnelswornFriendly
   id: RMCRandomHumanoidHEFAShrapnelswornMeleeFriendly
-  name: hefa ghost role shrapnelsworn
+  name: "привид-роль HEFA шрапнелесвен"
   suffix: Spawner, Player, Friendly
   components:
   - type: RandomHumanoidSpawner

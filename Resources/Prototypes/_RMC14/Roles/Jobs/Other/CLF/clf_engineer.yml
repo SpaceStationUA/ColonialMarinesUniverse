@@ -34,7 +34,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFEngineer
-  name: clf ghost role engineer
+  name: "привид-роль інженера clf"
   suffix: Spawner, Player
   components:
   - type: Sprite

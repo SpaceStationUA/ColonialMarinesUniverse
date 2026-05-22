@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: VehicleSPPVanTurret
-  name: SPP van turret
-  description: A roof-mounted turret fitted to an SPP van.
+  name: "турель фургона СПП"
+  description: "Дахова турель, встановлена на фургон СПП."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/sppvan.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: VehicleHumveeCannon
   id: VehicleSPPVanCannon
-  name: SPP van cannon
-  description: A turret-mounted cannon for an SPP van.
+  name: "гармата фургона СПП"
+  description: "Гармата на турелі для фургона СПП."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/sppvan.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCVanWheel
   id: VehicleSPPVanWheel
-  name: SPP van wheel
-  description: A reinforced wheel for SPP vans.
+  name: "колесо фургона СПП"
+  description: "Посилене колесо для фургонів СПП."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/sppvan.rsi

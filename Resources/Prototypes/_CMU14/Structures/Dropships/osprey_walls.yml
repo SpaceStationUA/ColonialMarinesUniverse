@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: CMUBaseOspreyWall
-  name: osprey wall
+  name: "стіна оспрі"
   placement:
     mode: SnapgridCenter
     snap:
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMUBaseOspreyWall
   id: CMUOspreyWall22
-  name: port fore weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка кріплення зброї лівого носа"
+  description: "Місце, де можна встановити важке обладнання за допомогою силового навантажувача."
   suffix: 22
   components:
   - type: Sprite
@@ -401,8 +401,8 @@
 - type: entity
   parent: CMUOspreyWall22
   id: CMUOspreyWall29
-  name: starboard fore weapon attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка кріплення зброї правого носа"
+  description: "Місце, де можна встановити важке обладнання за допомогою силового навантажувача."
   suffix: 29
   components:
   - type: Sprite

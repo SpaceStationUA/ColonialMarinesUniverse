@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: CMFloorStrataWhiteBase
-  name: tiles-cm-default-white
+  name: "плитка CM стандартна біла"
   suffix: Sorokyne
 
 - type: tile
