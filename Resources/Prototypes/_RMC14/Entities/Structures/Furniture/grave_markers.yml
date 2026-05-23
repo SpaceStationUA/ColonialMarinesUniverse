@@ -1,7 +1,7 @@
 - type: entity
   id: RMCGraveCross
-  name: wooden cross
-  description: A wooden grave marker. Is it more respectful because someone made it by hand, or less, because it's crude and misshapen?
+  name: "дерев'яний хрест"
+  description: "Дерев'яний могильний маркер. Чи поважніше це від того, що його хтось зробив руками, чи навпаки — менш поважно, бо він грубий і викривлений?"
   placement:
     mode: SnapgridCenter
   components:
@@ -16,8 +16,8 @@
 
 - type: entity
   id: RMCGravestone1
-  name: grave marker
-  description: A grave marker, in the traditional Japanese style.
+  name: "могильний маркер"
+  description: "Могильний маркер у традиційному японському стилі."
   placement:
     mode: SnapgridCenter
   components:

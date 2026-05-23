@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanWYPMC
-  name: PMC Combat Lifesaver
+  name: "бойовий медик ПВК"
   description: au14-job-description-govforplatooncorpsman
   setPreference: false
   ranks:

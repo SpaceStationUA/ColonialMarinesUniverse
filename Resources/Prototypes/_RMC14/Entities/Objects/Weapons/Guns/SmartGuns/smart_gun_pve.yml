@@ -2,8 +2,8 @@
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCSmartGunPVENoCamo
   abstract: true
-  name: ML66A heavy support gun
-  description: The actual firearm in the Support Gun System. Essentially a heavy, mobile machinegun.
+  name: "важка гармата підтримки ML66A"
+  description: "Власне вогнепальна зброя в системі гармати підтримки. По суті важкий, мобільний кулемет."
   suffix: PVE
   components:
   - type: Wieldable
@@ -183,8 +183,8 @@
 - type: entity
   parent: RMCSmartGunPVENoCamo
   id: RMCSmartGunPMCPVE
-  name: ML79A heavy support gun
-  description: The actual firearm in the Support Gun System, modified for We-Ya PMCs. Essentially a heavy, mobile machinegun.
+  name: "важка гармата підтримки ML79A"
+  description: "Власне вогнепальна зброя в системі гармати підтримки, модифікована для ПВК «Ве-Я». По суті важкий, мобільний кулемет."
   suffix: PVE, PMC
   components:
   - type: Sprite
@@ -220,8 +220,8 @@
   parent: RMCStockAttachmentCollapsibleBase
   id: RMCAttachmentSmartgunHarness # TODO RMC14 - This should remove GunRequiresWield when active
   categories: [ HideSpawnMenu ]
-  name: ML66A heavy support gun harness
-  description: A specialized harness for the ML66A heavy support gun, assisting with recoil control and stability, while also allowing for easy manuvering of the weapon and even suspending it without a grip.
+  name: "ремінна система важкої гармати підтримки ML66A"
+  description: "Спеціалізована підвісна система для важкої гармати підтримки ML66A, що допомагає з контролем віддачі та стабільністю, а також дозволяє легко маневрувати зброєю і навіть тримати її без рукоятки."
   suffix: PVE
   components:
   - type: Sprite
@@ -258,8 +258,8 @@
 - type: entity
   parent: RMCSmartGunPVENoCamo
   id: RMCSmartGunRCMPVE
-  name: ML66C general purpose machine gun
-  description: A heavy, mobile machinegun used by the Royal Crown Marines. Heavily modified from the UN's ML66A platform, it fires 10x30mm holotargeting rounds. # In parity this is 10x28 HT but I don't want to make more unnecessary duplicate gear
+  name: "універсальний кулемет ML66C"
+  description: "Важкий, мобільний кулемет, який використовують Морпіхи Королівської Корони. Сильно модифікований із платформи ML66A ООН, він стріляє голонацілювальними набоями 10x30мм." # In parity this is 10x28 HT but I don't want to make more unnecessary duplicate gear
   suffix: PVE, RCM
   components:
   - type: Gun

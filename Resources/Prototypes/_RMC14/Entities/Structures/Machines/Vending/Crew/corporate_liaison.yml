@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechWardrobeCorp
-  name: Corporate Liaison's Personal Wardrobe
-  description: A wardrobe containing all the clothes an executive would ever need.
+  name: "Особиста шафа корпоративного зв'язківця"
+  description: "Шафа, що містить весь одяг, який тільки може знадобитися керівникові."
   suffix: Corp
   components:
   - type: AccessReader

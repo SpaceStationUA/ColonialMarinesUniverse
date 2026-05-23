@@ -62,7 +62,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostChiefInspector
-  name: provost ghost role chief inspector
+  name: "привид-роль головного інспектора провоста"
   suffix: Spawner, Player, Friendly, High Law Understanding
   components:
   - type: Sprite

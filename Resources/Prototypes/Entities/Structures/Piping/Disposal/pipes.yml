@@ -67,7 +67,7 @@
 - type: entity
   id: DisposalHolder
   categories: [ HideSpawnMenu ]
-  name: disposal holder
+  name: "контейнер утилізації"
   components:
   - type: DisposalHolder
   - type: ContainerContainer
@@ -79,8 +79,8 @@
 - type: entity
   id: DisposalPipeBroken
   parent: DisposalPipeBase
-  name: broken disposal pipe
-  description: A BBP (big broken pipe).
+  name: "зламана труба утилізації"
+  description: "BBP (велика зламана труба)."
   components:
   - type: Sprite
     layers:
@@ -93,8 +93,8 @@
 - type: entity
   id: DisposalPipe
   parent: DisposalPipeBase
-  name: disposal pipe segment
-  description: A huge pipe segment used for constructing disposal systems.
+  name: "секція труби утилізації"
+  description: "Велика секція труби, що використовується для побудови систем утилізації."
   components:
   - type: Sprite
     layers:
@@ -121,8 +121,8 @@
 - type: entity
   id: DisposalTagger
   parent: DisposalPipeBase
-  name: disposal pipe tagger
-  description: A pipe that tags entities for routing.
+  name: "позначувач труби утилізації"
+  description: "Труба, що мітить сутності для маршрутизації."
   components:
   - type: Sprite
     layers:
@@ -155,8 +155,8 @@
 - type: entity
   id: DisposalSignaller
   parent: DisposalPipeBase
-  name: disposal signaller
-  description: A pipe that emits a signal when in item goes through it.
+  name: "сигналізатор утилізації"
+  description: "Труба, що випромінює сигнал, коли крізь неї проходить предмет."
   components:
   - type: Sprite
     layers:
@@ -192,8 +192,8 @@
 - type: entity
   id: DisposalTrunk
   parent: DisposalPipeBase
-  name: disposal trunk
-  description: A pipe trunk used as an entry point for disposal systems.
+  name: "магістраль утилізації"
+  description: "Трубна магістраль, що використовується як вхідна точка для систем утилізації."
   components:
   - type: Sprite
     layers:
@@ -228,8 +228,8 @@
 - type: entity
   id: DisposalRouter
   parent: DisposalPipeBase
-  name: disposal router
-  description: A three-way router. Entities with matching tags get routed to the side via configurable filters.
+  name: "маршрутизатор утилізації"
+  description: "Тристоронній маршрутизатор. Сутності з відповідними мітками спрямовуються вбік через налаштовувані фільтри."
   components:
   - type: Sprite
     layers:
@@ -275,7 +275,7 @@
 
 - type: entity
   id: DisposalRouterFlipped
-  description: A three-way router. Entities with matching tags get routed to the side.
+  description: "Тристоронній маршрутизатор. Сутності з відповідними мітками спрямовуються вбік."
   parent: DisposalRouter
   suffix: flipped
   components:
@@ -317,8 +317,8 @@
 - type: entity
   id: DisposalJunction
   parent: DisposalPipeBase
-  name: disposal junction
-  description: A three-way junction. The arrow indicates where items exit.
+  name: "розгалуження утилізації"
+  description: "Тристороннє розгалуження. Стрілка вказує, куди виходять предмети."
   components:
   - type: Sprite
     layers:
@@ -359,7 +359,7 @@
 
 - type: entity
   id: DisposalJunctionFlipped
-  description: A three-way junction. The arrow indicates where items exit.
+  description: "Тристороннє розгалуження. Стрілка вказує, куди виходять предмети."
   parent: DisposalJunction
   suffix: flipped
   components:
@@ -402,8 +402,8 @@
 - type: entity
   id: DisposalYJunction
   parent: DisposalPipeBase
-  name: disposal y-junction
-  description: A three-way junction with another exit point.
+  name: "y-розгалуження утилізації"
+  description: "Тристороннє розгалуження з ще однією точкою виходу."
   components:
   - type: Sprite
     layers:
@@ -442,8 +442,8 @@
 - type: entity
   id: DisposalXJunction
   parent: DisposalPipeBase
-  name: disposal x-junction
-  description: A four-way junction. The arrow indicates where items exit.
+  name: "x-розгалуження утилізації"
+  description: "Чотиристороннє розгалуження. Стрілка вказує, куди виходять предмети."
   components:
   - type: Sprite
     layers:
@@ -484,8 +484,8 @@
 - type: entity
   id: DisposalBend
   parent: DisposalPipeBase
-  name: disposal bend
-  description: A tube bent at a 90 degree angle.
+  name: "вигин утилізації"
+  description: "Труба, зігнута під кутом 90 градусів."
   components:
   - type: Sprite
     layers:
@@ -520,8 +520,8 @@
 - type: entity
   parent: DisposalJunction
   id: DisposalSignalRouter
-  name: disposal signal router
-  description: A signal-controlled three-way router.
+  name: "сигнальний маршрутизатор утилізації"
+  description: "Тристоронній маршрутизатор, керований сигналом."
   components:
   - type: Sprite
     layers:

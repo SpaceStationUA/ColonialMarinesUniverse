@@ -34,7 +34,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateExecutiveSupervisorLegal
-  name: corporate legal supervisor ghost role
+  name: "привид-роль корпоративного юридичного наглядача"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateExecutiveSpecialistLegal
-  name: corporate legal specialist ghost role
+  name: "привид-роль корпоративного юридичного спеціаліста"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -189,7 +189,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateExecutiveSupervisor
-  name: corporate executive supervisor ghost role
+  name: "привид-роль корпоративного виконавчого наглядача"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateAssistantManager
-  name: corporate assistant manager ghost role
+  name: "привид-роль корпоративного помічника менеджера"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -348,7 +348,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateDivisionManager
-  name: corporate division manager ghost role
+  name: "привид-роль корпоративного менеджера підрозділу"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -417,7 +417,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateChiefExecutive
-  name: corporate chief executive ghost role
+  name: "привид-роль корпоративного головного виконавчого"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -489,7 +489,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateDeputyDirector
-  name: corporate deputy director ghost role
+  name: "привид-роль корпоративного заступника директора"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -573,7 +573,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCorporateDirector
-  name: corporate director ghost role
+  name: "привид-роль корпоративного директора"
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite

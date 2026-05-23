@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMBaseStructure
   id: RMCPropPowerPort
-  name: mech bay power port
+  name: "порт живлення мех-відсіку"
   suffix: Prop
   components:
   - type: Transform

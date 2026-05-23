@@ -2,31 +2,31 @@
 
 - type: rank
   id: RMCRankSPPPoliticalKommissar
-  name: Political Kommissar
+  name: "Політичний Комісар"
   prefix: Kom.
   paygrade: P2
 
 - type: rank
   id: RMCRankSPPPoliticalBattalionKommissar
-  name: Battalion Kommissar
+  name: "Батальйонний Комісар"
   prefix: Batt. Kom.
   paygrade: P3
 
 - type: rank
   id: RMCRankSPPPoliticalSrBattalionKommissar
-  name: Senior Battalion Kommissar
+  name: "Старший Батальйонний Комісар"
   prefix: Sr. Batt. Pol.
   paygrade: P4
 
 - type: rank
   id: RMCRankSPPPoliticalRegimentalKommissar
-  name: Regimental Kommissar
+  name: "Полковий Комісар"
   prefix: Reg. Pol.
   paygrade: P5
 
 - type: rank
   id: RMCRankSPPPoliticalBrigadeKommissar
-  name: Brigade Kommissar
+  name: "Бригадний Комісар"
   prefix: Brig. Kom.
   paygrade: P6
 
@@ -34,7 +34,7 @@
 
 - type: rank
   id: RMCRankSPPPoliticalDivisionKommissar
-  name: Division Kommissar
+  name: "Дивізійний Комісар"
   prefix: Div. Kom.
   paygrade: P7
 

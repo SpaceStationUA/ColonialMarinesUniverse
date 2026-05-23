@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotRMC
-  name: RMC Pilot Officer
+  name: "офіцер-пілот КМП"
   description: au14-job-description-govfordspilot
   setPreference: true
   canBeAntag: false

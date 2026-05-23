@@ -2,5 +2,5 @@
 - type: entity
   parent: [CMBaseStructure, StructureWheeled]
   id: RMCNuke
-  name: Nuclear Fission Explosive (PlaceHolder)
+  name: "Ядерна вибухівка ділення (заглушка)"
 #RMC14 Placeholder

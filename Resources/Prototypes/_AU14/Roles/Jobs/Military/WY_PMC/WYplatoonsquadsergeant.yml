@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantWYPMC
-  name: PMC Squad Leader
+  name: "лідер відділення ПВК"
   description: au14-job-description-govforsquadsergeant
   setPreference: false
   canBeAntag: false

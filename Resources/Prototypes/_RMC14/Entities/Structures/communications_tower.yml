@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCCommunicationsTower
-  name: TC-3T static telecommunications tower
-  description: A static heavy-duty TC-3T telecommunications tower. Used to set up subspace communications lines between planetary and extra-planetary locations. Will need to have extra communication frequencies programmed into it by multitool.
+  name: "стаціонарна телекомунікаційна вежа TC-3T"
+  description: "Стаціонарна важкоміцна телекомунікаційна вежа TC-3T. Використовується для налаштування ліній підпросторового зв'язку між планетарними та позапланетарними локаціями. Потребує додаткових частот зв'язку, запрограмованих мультиінструментом."
   components:
   - type: GuideHelp
     guides:
@@ -123,7 +123,7 @@
   abstract: true
   parent: MarkerBase
   id: RMCSpawnerCommunicationsTowerBase
-  name: static comms
+  name: "стаціонарний зв'язок"
   components: # TODO RMC14 some start broken
   - type: Sprite
     sprite: _RMC14/Structures/communications_tower.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCCommunicationsTowerProp
-  name: destroyed comms tower
-  description: An old company comms tower used to transmit communications between subspace bodies. Looks like this one has seen better days.
+  name: "зруйнована вежа зв'язку"
+  description: "Стара корпоративна вежа зв'язку, що використовувалася для передачі повідомлень між підпросторовими тілами. Схоже, ця бачила кращі часи."
   components:
   - type: Transform
     anchored: true
@@ -186,8 +186,8 @@
 - type: entity
   parent: RMCCommunicationsTowerProp
   id: RMCCommunicationsTowerPropAlt0
-  name: destroyed comms tower
-  description: An old company comms tower used to transmit communications between subspace bodies. Looks like this one has seen better days.
+  name: "зруйнована вежа зв'язку"
+  description: "Стара корпоративна вежа зв'язку, що використовувалася для передачі повідомлень між підпросторовими тілами. Схоже, ця бачила кращі часи."
   components:
   - type: Sprite
     drawdepth: Mobs
@@ -197,8 +197,8 @@
 - type: entity
   parent: RMCCommunicationsTowerProp
   id: RMCCommunicationsTowerPropAlt1
-  name: destroyed comms tower
-  description: An old company comms tower used to transmit communications between subspace bodies. Looks like this one has seen better days.
+  name: "зруйнована вежа зв'язку"
+  description: "Стара корпоративна вежа зв'язку, що використовувалася для передачі повідомлень між підпросторовими тілами. Схоже, ця бачила кращі часи."
   components:
   - type: Sprite
     drawdepth: Mobs

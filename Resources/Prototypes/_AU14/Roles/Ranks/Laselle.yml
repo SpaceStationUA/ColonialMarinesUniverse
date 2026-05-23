@@ -1,36 +1,36 @@
 # Liaison
 - type: rank
   id: AU14RankLBJuniorExecutive
-  name: Junior Executive
+  name: "молодший виконавець"
   prefix: Jr. Exec.
   paygrade: LBC2
 
 - type: rank
   id: AU14RankLBExecutive
-  name: Executive
+  name: "виконавець"
   prefix: Exec.
   paygrade: LBC3
 
 - type: rank
   id: AU14RankLBSeniorExecutive
-  name: Senior Executive
+  name: "старший виконавець"
   prefix: Sr. Exec.
   paygrade: LBC4
 
 - type: rank
   id: AU14RankLBExecutiveSpecialist
-  name: Executive Specialist
+  name: "виконавчий спеціаліст"
   prefix: Exec. Spc.
   paygrade: LBC5
 
 - type: rank
   id: AU14RankLBExecutiveSupervisor
-  name: Executive Supervisor
+  name: "виконавчий наглядач"
   prefix: Exec. Spvsr.
   paygrade: LBC6
 
 - type: rank
   id: AU14RankLBAssistantManager
-  name: Assistant Manager
+  name: "помічник менеджера"
   prefix: Assis. Mng.
   paygrade: LBC7

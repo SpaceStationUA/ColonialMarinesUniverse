@@ -54,7 +54,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPCorpsmanPVE
-  name: spp corpsman spawn point
+  name: "спавнер корпсмена spp"
   suffix: PVE
   components:
   - type: SpawnPoint

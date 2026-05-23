@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
-  name: gas miner
-  description: Gases mined from the gas giant below (above?) flow out through this massive vent.
+  name: "газовий бур"
+  description: "Гази, видобуті з газового гіганта внизу (чи вгорі?), виходять крізь цей масивний вентиль."
   id: GasMinerBase
   placement:
     mode: SnapgridCenter
@@ -37,7 +37,7 @@
       - GasMiningAndStorage
 
 - type: entity
-  name: O2 gas miner
+  name: "газовий бур O2"
   parent: GasMinerBase
   id: GasMinerOxygen
   suffix: Shuttle, 300kPa
@@ -48,7 +48,7 @@
       spawnGas: Oxygen
 
 - type: entity
-  name: O2 gas miner
+  name: "газовий бур O2"
   parent: GasMinerOxygen
   id: GasMinerOxygenStation
   suffix: Station, 1000kPa
@@ -57,7 +57,7 @@
       maxExternalPressure: 1000
 
 - type: entity
-  name: O2 gas miner
+  name: "газовий бур O2"
   parent: GasMinerOxygen
   id: GasMinerOxygenStationLarge
   suffix: Large Station, 4500kPa
@@ -66,7 +66,7 @@
       maxExternalPressure: 4500
 
 - type: entity
-  name: N2 gas miner
+  name: "газовий бур N2"
   parent: GasMinerBase
   id: GasMinerNitrogen
   suffix: Shuttle, 300kPa
@@ -75,7 +75,7 @@
       spawnGas: Nitrogen
 
 - type: entity
-  name: N2 gas miner
+  name: "газовий бур N2"
   parent: GasMinerNitrogen
   id: GasMinerNitrogenStation
   suffix: Station, 1000kPa
@@ -84,7 +84,7 @@
       maxExternalPressure: 1000
 
 - type: entity
-  name: N2 gas miner
+  name: "газовий бур N2"
   parent: GasMinerNitrogen
   id: GasMinerNitrogenStationLarge
   suffix: Large Station, 4500kPa
@@ -93,7 +93,7 @@
       maxExternalPressure: 4500
 
 - type: entity
-  name: CO2 gas miner
+  name: "газовий бур CO2"
   parent: GasMinerBase
   id: GasMinerCarbonDioxide
   components:
@@ -101,7 +101,7 @@
       spawnGas: CarbonDioxide
 
 - type: entity
-  name: plasma gas miner
+  name: "газовий бур плазми"
   parent: GasMinerBase
   id: GasMinerPlasma
   components:
@@ -109,7 +109,7 @@
       spawnGas: Plasma
 
 - type: entity
-  name: tritium gas miner
+  name: "газовий бур тритію"
   parent: GasMinerBase
   id: GasMinerTritium
   components:
@@ -117,7 +117,7 @@
       spawnGas: Tritium
 
 - type: entity
-  name: frezon gas miner
+  name: "газовий бур фрезону"
   parent: GasMinerBase
   id: GasMinerFrezon
   components:
@@ -125,7 +125,7 @@
       spawnGas: Frezon
 
 - type: entity
-  name: water vapor gas miner
+  name: "газовий бур водяної пари"
   parent: GasMinerBase
   id: GasMinerWaterVapor
   components:
@@ -133,7 +133,7 @@
       spawnGas: WaterVapor
 
 - type: entity
-  name: ammonia gas miner
+  name: "газовий бур аміаку"
   parent: GasMinerBase
   id: GasMinerAmmonia
   components:
@@ -141,7 +141,7 @@
       spawnGas: Ammonia
 
 - type: entity
-  name: nitrous oxide gas miner
+  name: "газовий бур закису азоту"
   parent: GasMinerBase
   id: GasMinerNitrousOxide
   components:

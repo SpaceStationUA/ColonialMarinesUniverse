@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWindow
   id: AU14WindowTintedWhite
-  name: tinted window
-  description: A tinted glass window with an impact resistant coating. It looks rather strong. Might take a few good hits to shatter it.
+  name: "тоноване вікно"
+  description: "Тоноване скляне вікно з ударостійким покриттям. Виглядає досить міцно. Може знадобитися кілька добрих ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _AU14/Structures/Windows/white_tinted_window.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: MarkerBase
   id: AU14LadderExit
-  name: ladder exit
+  name: "вихід драбини"
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi
@@ -171,7 +171,7 @@
 - type: entity
   parent: MarkerBase
   id: AU14WallInvisible
-  name: invisible wall
+  name: "невидима стіна"
   suffix: AU14
   placement:
     mode: SnapgridCenter
@@ -203,7 +203,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: AU14TriggerTeleporterViewer
-  name: teleporter viewer
+  name: "оглядач телепортера"
   suffix: AU14
   components:
   - type: BarricadeBlock
@@ -213,7 +213,7 @@
 - type: tile
   parent: RMCFloorEmpty
   id: CMUFloorEmpty
-  name: tiles-cmu-empty-subfloor
+  name: "tiles-cmu-empty-subfloor"
   isSpace: true
   transparent: true
   weather: true
@@ -223,7 +223,7 @@
 - type: tile
   parent: RMCFloorPlatingNoBuild
   id: CMUFlightPlatingNoBuild
-  name: tiles-cmu-plating
+  name: "tiles-cmu-plating"
   sprite: /Textures/_RMC14/Tiles/almayer/plating.png
   isSubfloor: false
   indestructible: true

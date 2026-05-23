@@ -2,8 +2,8 @@
   parent: RMCGunCaseBase
   id: RMCKitBase
   abstract: true
-  name: kit
-  description: It's just an ordinary box.
+  name: "набір"
+  description: "Це просто звичайна коробка."
   components:
   - type: Sprite
     noRot: true

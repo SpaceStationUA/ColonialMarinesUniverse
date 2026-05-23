@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseSign
   id: AUWallCarp
-  name: Wall-adapted Carp
-  description: Caught migrating uphill.
+  name: "настінний карп"
+  description: "Спійманий під час міграції вгору."
   components:
   - type: WallMount
     arc: 360
@@ -32,8 +32,8 @@
 - type: entity
   parent: AUWallCarp
   id: AUWallCarpDamaged
-  name: empty plaque
-  description: Now where did that carp go?
+  name: "порожня табличка"
+  description: "І куди ж той карп подівся?"
   components:
   - type: Sprite
     drawdepth: WallTops
@@ -60,7 +60,7 @@
 - type: entity
   parent: AUWallCarp
   id: AUWallCarpBroken
-  name: broken plaque
+  name: "розбита табличка"
   description: ""
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobRadioTelephoneOperatorBase
   id: AU14JobGOVFORRadioTelephoneOperatorUPP
-  name: Radio Telephone Operator
+  name: "Радіотелефоніст"
   description: au14-job-description-radiotelephoneoperator
   setPreference: false
   ranks:

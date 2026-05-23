@@ -57,7 +57,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorArmedPoliceOfficer
-  name: people's armed police officer spawn point
+  name: "спавнер офіцера озброєної народної поліції"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -69,5 +69,5 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetArmedPoliceOfficer
-  name: people's armed police officer preset
+  name: "пресет офіцера озброєної народної поліції"
   categories: [ HideSpawnMenu ]

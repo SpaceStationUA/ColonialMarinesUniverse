@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseStructure
   id: DecorSignMinesProp
-  name: mines
+  name: "міни"
   suffix: Prop
-  description: danger of mines and death...
+  description: "небезпека мін і смерті..."
   components:
   - type: Sprite
     sprite: _AU14/N14content/world.rsi
@@ -15,13 +15,13 @@
 # ├──[ CONSTRUCTION MENU ]───────────────────────────────────────────┤
 - type: construction
   parent: RMC
-  name: Mines Sign
+  name: "знак «Міни»"
   id: AU14ConstructionSignMines
   graph: AU14SignGraph
   startNode: start
   targetNode: sign_mines
   category: construction-category-cm-furniture
-  description: A sign warning about mines.
+  description: "Знак, що попереджає про міни."
   objectType: Structure
   canBuildInImpassable: false
   conditions:
@@ -29,13 +29,13 @@
 
 - type: construction
   parent: RMC
-  name: Traffic Director (Empty)
+  name: "дорожній знак (порожній)"
   id: AU14ConstructionSignEmpty
   graph: AU14SignGraph
   startNode: start
   targetNode: sign_empty
   category: construction-category-cm-furniture
-  description: A blank traffic director sign.
+  description: "Порожній дорожній знак."
   objectType: Structure
   canBuildInImpassable: false
   conditions:
@@ -43,38 +43,38 @@
 
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Evac Center)
+  name: "дорожній знак (евакуаційний центр)"
   id: AU14ConstructionSignEvacCenter
   targetNode: sign_evaccenter
-  description: Directs to the evacuation center.
+  description: "Вказує до евакуаційного центру."
 
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Checkpoint Ahead)
+  name: "дорожній знак (попереду блокпост)"
   id: AU14ConstructionSignCheckpoint
   targetNode: sign_cpahead
-  description: Warns of a checkpoint ahead.
+  description: "Попереджає про блокпост попереду."
 
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Follow Army Orders)
+  name: "дорожній знак (виконуйте накази армії)"
   id: AU14ConstructionSignFollowOrders
   targetNode: sign_armyorders
-  description: Reminder to follow army orders.
+  description: "Нагадування виконувати накази армії."
 
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Tune Freq)
+  name: "дорожній знак (налаштуйте частоту)"
   id: AU14ConstructionSignTuneFreq
   targetNode: sign_freqtune
-  description: Tells people to tune to 91.7 AM.
+  description: "Закликає людей налаштуватися на 91,7 AM."
 
 - type: construction
   parent: AU14ConstructionSignEmpty
-  name: Traffic Director (Slow Down)
+  name: "дорожній знак (зменшити швидкість)"
   id: AU14ConstructionSignSlowDown
   targetNode: sign_slowdown
-  description: Instructs to slow down.
+  description: "Вказівка зменшити швидкість."
 
 # ├──[ CONSTRUCTION GRAPH ]──────────────────────────────────────────┤
 - type: constructionGraph

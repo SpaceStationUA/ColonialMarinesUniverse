@@ -41,8 +41,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowKutjevo
-  name: window
-  description: A glass window inside a wall frame.
+  name: "вікно"
+  description: "Скляне вікно у стінному каркасі."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/kutjevo_window.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowKutjevoReinforced
-  name: reinforced window
-  description: A glass window. Cross bars are visible. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно. Помітні поперечні прути. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/kutjevo_rwindow.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowKutjevoHull
-  name: hull window
-  description: A glass window. Something tells you this one is somehow indestructible.
+  name: "корпусне вікно"
+  description: "Скляне вікно. Щось підказує, що воно якимось чином незнищенне."
   components:
   - type: Corrodible
     isCorrodible: false

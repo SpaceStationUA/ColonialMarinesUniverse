@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseItem
   id: RMCTabletCO
-  name: command tablet
+  name: "командний планшет"
   abstract: true # disallow mappers to use this
-  description: A portable command interface used by top brass, capable of issuing commands over long ranges to their linked computer. Built to withstand a nuclear bomb.
+  description: "Портативний командний інтерфейс, що використовується вищим керівництвом, здатний віддавати команди на великих відстанях під'єднаному комп'ютеру. Створений витримати ядерну бомбу."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/command_tablet.rsi

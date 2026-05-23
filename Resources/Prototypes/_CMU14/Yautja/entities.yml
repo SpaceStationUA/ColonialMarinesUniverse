@@ -1,8 +1,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMUYautjaBracer
-  name: hunting bracer
-  description: A heavy wrist computer packed with alien hunting tools.
+  name: "мисливський наручник"
+  description: "Важкий наручний комп'ютер, наповнений прибулецькими мисливськими інструментами."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/bracer.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: CMUYautjaThrallBracer
-  name: thrall bracer
-  description: A simplified alien bracer that binds a thrall to a Yautja hunter.
+  name: "рабський наручник"
+  description: "Спрощений прибулецький наручник, що зв'язує раба з мисливцем Яутжа."
   suffix: Yautja, Thrall
   components:
   - type: Sprite
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMUYautjaBracer
   id: CMUYautjaBloodedThrallBracer
-  name: blooded thrall bracer
-  description: A full hunting bracer entrusted to a blooded thrall.
+  name: "кров'яний рабський наручник"
+  description: "Повний мисливський наручник, довірений кров'яному рабу."
   suffix: Yautja, Thrall, Blooded
   components:
   - type: YautjaThrallBracer
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMUYautjaThrallGearBox
-  name: alien bracer box
-  description: A small case containing a thrall bracer and emergency Yautja medical supplies.
+  name: "прибулецький футляр для наручника"
+  description: "Маленький футляр, що містить рабський наручник і екстрене медичне забезпечення Яутжа."
   suffix: Yautja, Thrall, Filled
   components:
   - type: Sprite
@@ -98,8 +98,8 @@
 - type: entity
   parent: [ CMBaseMask, CMUBaseGasMaskFilterSlot ]
   id: CMUYautjaMask
-  name: bio-mask
-  description: An alien hunting mask with a built-in tactical visor.
+  name: "біомаска"
+  description: "Прибулецька мисливська маска з вбудованим тактичним візором."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/mask.rsi
@@ -146,8 +146,8 @@
 - type: entity
   parent: IDCardStandard
   id: CMUYautjaBracerIdChip
-  name: embedded bracer ID chip
-  description: A compact identification wafer deployed from a Yautja bracer.
+  name: "вбудований ID-чип наручника"
+  description: "Компактний ідентифікаційний планшет, розгорнутий з наручника Яутжа."
   components:
   - type: Sprite
     layers:
@@ -170,8 +170,8 @@
 - type: entity
   parent: ShardCrystalGreen
   id: CMUYautjaStabilisingCrystal
-  name: stabilising crystal
-  description: A bracer-grown crystal that rapidly stabilises alien biology.
+  name: "стабілізуючий кристал"
+  description: "Кристал, вирощений у наручнику, що швидко стабілізує прибулецьку біологію."
   suffix: Yautja
   components:
   - type: Healing
@@ -199,8 +199,8 @@
 - type: entity
   parent: ShardCrystalCyan
   id: CMUYautjaHumanStabilisingCrystal
-  name: human stabilising crystal
-  description: A bracer-grown crystal tuned for humans and thralls.
+  name: "людський стабілізуючий кристал"
+  description: "Кристал, вирощений у наручнику, налаштований для людей і рабів."
   suffix: Yautja
   components:
   - type: Healing
@@ -230,15 +230,15 @@
 - type: entity
   parent: CMUYautjaAutoInjector
   id: CMUYautjaHealingCapsule
-  name: healing capsule
-  description: A disposable bracer-fabricated capsule of emergency predator medicine.
+  name: "цілюща капсула"
+  description: "Одноразова капсула, виготовлена в наручнику, з аварійними хижими ліками."
   suffix: Yautja
 
 - type: entity
   parent: BaseItem
   id: CMUYautjaMaskOrnament
-  name: mask ornament
-  description: A small ceremonial ornament that clips into a Yautja bio-mask.
+  name: "прикраса маски"
+  description: "Невелика церемоніальна прикраса, що кріпиться до біомаски Яутжа."
   components:
   - type: Sprite
     sprite: Objects/Misc/guardian_info.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMUYautjaCloakPack
-  name: cloaking field harness
-  description: A compact field harness tuned for Yautja optical camouflage.
+  name: "упряж маскувального поля"
+  description: "Компактна польова упряж, налаштована для оптичного маскування Яутжа."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/cape_full.rsi
@@ -295,8 +295,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaSmartDisc
-  name: smart disc
-  description: A razor-edged Yautja throwing disc keyed to its owner.
+  name: "розумний диск"
+  description: "Метальний диск Яутжа з гострим краєм, налаштований на свого власника."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/smart_disc.rsi
@@ -364,8 +364,8 @@
 - type: entity
   parent: BaseWeaponBattery
   id: CMUYautjaPlasmaCaster
-  name: shoulder plasma caster
-  description: A compact alien plasma weapon that draws power from a hunting bracer.
+  name: "плечовий плазмовий каструльник"
+  description: "Компактна прибулецька плазмова зброя, що черпає енергію з мисливського наручника."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/plasma_caster.rsi
@@ -425,8 +425,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseMeleeWeapon ]
   id: CMUYautjaWristBlades
-  name: wrist blades
-  description: Retractable twin blades keyed to a hunting bracer.
+  name: "наручні леза"
+  description: "Висувні парні леза, налаштовані на мисливський наручник."
   components:
   - type: Sharp
   - type: Sprite
@@ -466,8 +466,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseMeleeWeapon ]
   id: CMUYautjaScimitar
-  name: combi scimitar
-  description: A long alien hunting blade with a brutal monomolecular edge.
+  name: "комбі-скімітар"
+  description: "Довгий прибулецький мисливський клинок з жорстоким мономолекулярним лезом."
   components:
   - type: Sharp
   - type: Sprite
@@ -509,8 +509,8 @@
 - type: entity
   parent: [ BaseItem, RMCBaseMeleeWeapon ]
   id: CMUYautjaChainGauntlet
-  name: chain gauntlet
-  description: A heavy gauntlet weapon with compact linked chain drives.
+  name: "ланцюжкова рукавиця"
+  description: "Важка рукавична зброя з компактними з'єднаними ланцюжковими приводами."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/chain_gauntlet.rsi
@@ -544,8 +544,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaBracerShield
-  name: bracer shield
-  description: A compact hard-light shield projected from the hunting bracer.
+  name: "наручний щит"
+  description: "Компактний щит з твердого світла, проєктований з мисливського наручника."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/bracer_shield.rsi
@@ -591,8 +591,8 @@
 - type: entity
   parent: CMUpgradedTraumaKit1
   id: CMUYautjaAdvancedBruisePack
-  name: predator advanced trauma pack
-  description: A compact alien poultice for closing savage wounds.
+  name: "просунутий травматичний пакет хижака"
+  description: "Компактний прибулецький припарок для закриття диких ран."
   suffix: Yautja
   components:
   - type: Sprite
@@ -611,8 +611,8 @@
 - type: entity
   parent: CMUpgradedBurnKit1
   id: CMUYautjaAdvancedOintment
-  name: predator advanced ointment
-  description: A cool alien salve for sealing burns and caustic injuries.
+  name: "просунута мазь хижака"
+  description: "Прохолодна прибулецька мазь для закриття опіків і їдких травм."
   suffix: Yautja
   components:
   - type: Sprite
@@ -631,8 +631,8 @@
 - type: entity
   parent: MedicatedSuture
   id: CMUYautjaHealingGel
-  name: healing gel
-  description: A dense alien coagulant that knits together broad trauma.
+  name: "цілющий гель"
+  description: "Густий прибулецький коагулянт, що зшиває широкі травми."
   suffix: Yautja
   components:
   - type: Sprite
@@ -668,7 +668,7 @@
 
 - type: stack
   id: CMUYautjaHealingGel
-  name: healing gel
+  name: "цілющий гель"
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: medicated-suture }
   spawn: CMUYautjaHealingGel
   maxCount: 6
@@ -676,8 +676,8 @@
 - type: entity
   parent: RegenerativeMesh
   id: CMUYautjaStabilizerGel
-  name: stabilizer gel
-  description: A fast-setting alien gel for buying time through shock and blood loss.
+  name: "стабілізуючий гель"
+  description: "Швидкозастигаючий прибулецький гель для виграшу часу при шоці і крововтраті."
   suffix: Yautja
   components:
   - type: Healing
@@ -708,7 +708,7 @@
 
 - type: stack
   id: CMUYautjaStabilizerGel
-  name: stabilizer gel
+  name: "стабілізуючий гель"
   icon: { sprite: "/Textures/Objects/Specific/Medical/medical.rsi", state: regenerative-mesh }
   spawn: CMUYautjaStabilizerGel
   maxCount: 6
@@ -716,14 +716,14 @@
 - type: entity
   parent: CMHemostatPredator
   id: CMUYautjaWoundClamp
-  name: wound clamp
-  description: A predator surgical clamp made to seal catastrophic bleeding.
+  name: "затискач рани"
+  description: "Хірургічний затискач хижака, призначений для закриття катастрофічної кровотечі."
 
 - type: entity
   parent: BaseItem
   id: CMUYautjaHealingGun
-  name: healing gun
-  description: A compact alien applicator for rapid emergency treatment.
+  name: "цілющий пістолет"
+  description: "Компактний прибулецький аплікатор для швидкого аварійного лікування."
   suffix: Yautja
   components:
   - type: Sprite
@@ -756,15 +756,15 @@
 - type: entity
   parent: CMHealthAnalyzer
   id: CMUYautjaAlienHealthAnalyzer
-  name: alien health analyzer
-  description: A bio-scanner tuned for alien physiology and battlefield triage.
+  name: "прибулецький аналізатор здоров'я"
+  description: "Біосканер, налаштований на прибулецьку фізіологію та польове сортування."
   suffix: Yautja
 
 - type: entity
   parent: CMAutoInjector
   id: CMUYautjaAutoInjector
-  name: yautja autoinjector
-  description: An alien autoinjector loaded with a strong trauma and burn treatment cocktail.
+  name: "автоін'єктор Яутжа"
+  description: "Прибулецький автоін'єктор, заряджений сильним коктейлем для лікування травм та опіків."
   suffix: Yautja
   components:
   - type: Sprite
@@ -809,8 +809,8 @@
 - type: entity
   parent: CMSurgicalCase
   id: CMUYautjaHerbalCase
-  name: herbs case
-  description: A small case packed with Yautja trauma poultices and burn salves.
+  name: "кейс трав"
+  description: "Маленький кейс, наповнений травматичними припарками і мазями від опіків Яутжа."
   suffix: Yautja, Filled
   components:
   - type: Storage
@@ -827,8 +827,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMUYautjaMedicomp
-  name: medicomp
-  description: A predator compact medical kit stocked for solo field recovery.
+  name: "медикомп"
+  description: "Компактний медичний набір хижака, наповнений для самостійного польового відновлення."
   suffix: Yautja, Filled
   components:
   - type: Sprite
@@ -875,8 +875,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMUYautjaLoadoutVendor
-  name: Yautja hunting gear rack
-  description: A restricted event rack for alien hunter loadout adjustments.
+  name: "Стелаж мисливського спорядження Яутжа"
+  description: "Обмежений подійний стелаж для коригування лоадаута прибулецького мисливця."
   suffix: Yautja, Event
   components:
   - type: Sprite

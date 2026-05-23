@@ -89,7 +89,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointExecutiveOfficer
-  name: executive officer spawn point
+  name: "спавнер виконавчого офіцера"
   components:
   - type: SpawnPoint
     job_id: CMExecutiveOfficer
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleXO
-  name: The Executive Officer
-  description: The Executive Officer.
+  name: "Виконавчий офіцер"
+  description: "Виконавчий офіцер."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

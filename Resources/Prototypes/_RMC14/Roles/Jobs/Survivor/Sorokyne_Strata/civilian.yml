@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSoroCivilian
-  name: sorokyne civilian spawn point
+  name: "спавнер цивільного сорокіне"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetSoroCivilian
-  name: sorokyne civilian preset
+  name: "пресет цивільного сорокіне"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -3,8 +3,8 @@
 - type: entity
   parent: [RMCBaseTSEArmor, RMCArmorM4PMCNoLight, RMCBaseMarineArmorLight, RMCAllowSuitStorageClothingArmorRoyal]
   id: RMCArmorRoyal
-  name: kestrel armoured vest
-  description: A suit of armor designed by the Royal Crown Marines to be modular, flexible, and lightweight.
+  name: "броньований жилет Kestrel"
+  description: "Комплект броні, створений Королівськими Морпіхаx Корони як модульний, гнучкий і легкий."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/light.rsi
@@ -12,7 +12,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalLight
-  name: kestrel light armoured vest
+  name: "легкий броньований жилет Kestrel"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/light.rsi
@@ -29,7 +29,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalPadded
-  name: kestrel armoured carry vest
+  name: "броньований вантажний жилет Kestrel"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/padded.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorRoyalHarness
-  name: kestrel armoured smart gun harness
+  name: "броньована упряж для розумного кулемета Kestrel"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/padded.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCArmorRoyalPadded
   id: RMCArmorRoyalPointman
-  name: kestrel pointman armour
+  name: "броня передового бійця Kestrel"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Royal/pointman.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: RMCArmorRoyal
   id: RMCArmorParaVest
-  name: goshawk airborne vest
-  description: A lightweight, high-mobility flak vest designed for the RCM's Paramarines. Developed by Weston-Yamada, the Goshawk offers crucial protection while ensuring paratroopers retain full freedom of movement during high-risk insertions. Advanced composite plating and reinforced webbing make it effective against shrapnel and small-arms fire, striking the perfect balance between defense and agility for those who strike fast and strike hard.
+  name: "десантний жилет Goshawk"
+  description: "Легкий осколковий жилет із високою мобільністю, створений для парамаринів RCM. Розроблений Weston-Yamada, Goshawk забезпечує важливий захист, водночас дозволяючи десантникам зберігати повну свободу руху під час ризикованих висадок. Просунуті композитні пластини та посилена розвантажувальна система роблять його ефективним проти уламків і стрілецького вогню, зберігаючи ідеальний баланс між захистом та спритністю для тих, хто б'є швидко й б'є сильно."
   suffix: Survivor, Paramarine
   components:
   - type: Sprite
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCArmorParaVest
   id: RMCArmorParaSynthVest
-  name: goshawk airborne synthetic vest
-  description: A lightweight, high-mobility flak vest designed for synthetic units attached to the RCM's Paramarine regiments. Developed by Weston-Yamada, the Goshawk offers crucial protection while ensuring paratroopers retain full freedom of movement during high-risk insertions. Advanced composite plating and reinforced webbing make it effective against shrapnel and small-arms fire, striking the perfect balance between defense and agility for those who strike fast and strike hard.
+  name: "синтетичний десантний жилет Goshawk"
+  description: "Легкий осколковий жилет із високою мобільністю, створений для синтетичних підрозділів, прикріплених до полків парамаринів RCM. Розроблений Weston-Yamada, Goshawk забезпечує важливий захист, водночас дозволяючи десантникам зберігати повну свободу руху під час ризикованих висадок. Просунуті композитні пластини та посилена розвантажувальна система роблять його ефективним проти уламків і стрілецького вогню, зберігаючи ідеальний баланс між захистом та спритністю для тих, хто б'є швидко й б'є сильно."
   suffix: Survivor, Paramarine. Synth
   components:
     - type: CMArmor

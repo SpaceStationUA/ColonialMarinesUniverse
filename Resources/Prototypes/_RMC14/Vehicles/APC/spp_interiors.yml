@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPAPCInteriorBase
-  name: SPP APC interior piece
-  description: A decorative interior piece for an SPP APC.
+  name: "елемент інтер'єру БТР СПП"
+  description: "Декоративний елемент інтер'єру для БТР СПП."
   placement:
     mode: PlaceFree
   components:
@@ -14,7 +14,7 @@
 - type: entity
   abstract: true
   id: VehicleSPPAPCRoofBase
-  name: SPP APC Side Door
+  name: "бічні двері БТР СПП"
   placement:
     mode: PlaceFree
   components:
@@ -38,8 +38,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPAPCChassisBase
-  name: SPP APC interior chassis
-  description: A chassis segment for an SPP APC interior.
+  name: "шасі інтер'єру БТР СПП"
+  description: "Сегмент шасі для інтер'єру БТР СПП."
   placement:
     mode: PlaceFree
   components:
@@ -162,7 +162,7 @@
 - type: entity
   parent: VehicleSPPAPCConsoleBase
   id: VehicleSPPAPCDriverConsole
-  name: SPP APC driver console
+  name: "водійська консоль БТР СПП"
   components:
   - type: Sprite
     state: Driveconsole
@@ -170,7 +170,7 @@
 - type: entity
   parent: VehicleSPPAPCConsoleBase
   id: VehicleSPPAPCDriverConsoleOff
-  name: SPP APC driver console (off)
+  name: "водійська консоль БТР СПП (вимкнена)"
   components:
   - type: Sprite
     state: Driveconsole0
@@ -178,7 +178,7 @@
 - type: entity
   parent: VehicleSPPAPCConsoleBase
   id: VehicleSPPAPCDriverConsoleBroken
-  name: SPP APC driver console (broken)
+  name: "водійська консоль БТР СПП (зламана)"
   components:
   - type: Sprite
     state: Driveconsoleb
@@ -186,7 +186,7 @@
 - type: entity
   parent: VehicleSPPAPCConsoleBase
   id: VehicleSPPAPCWeaponConsole
-  name: SPP APC weapon console
+  name: "збройова консоль БТР СПП"
   components:
   - type: Sprite
     state: Weaponconsole
@@ -194,7 +194,7 @@
 - type: entity
   parent: VehicleSPPAPCConsoleBase
   id: VehicleSPPAPCWeaponConsoleOff
-  name: SPP APC weapon console (off)
+  name: "збройова консоль БТР СПП (вимкнена)"
   components:
   - type: Sprite
     state: Weaponconsole0
@@ -202,7 +202,7 @@
 - type: entity
   parent: VehicleSPPAPCConsoleBase
   id: VehicleSPPAPCWeaponConsoleBroken
-  name: SPP APC weapon console (broken)
+  name: "збройова консоль БТР СПП (зламана)"
   components:
   - type: Sprite
     state: Weaponconsoleb
@@ -211,8 +211,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleSPPAPCLockerBase
-  name: SPP APC locker
-  description: A storage locker for SPP APC interiors.
+  name: "шафка БТР СПП"
+  description: "Шафка для зберігання в інтер'єрах БТР СПП."
   placement:
     mode: PlaceFree
   components:
@@ -239,13 +239,13 @@
 - type: entity
   parent: VehicleSPPAPCLockerBase
   id: VehicleSPPAPCLocker
-  name: SPP APC locker
+  name: "шафка БТР СПП"
 
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleSPPAPCAmmoLoader
-  name: SPP APC ammo loader
-  description: A loader for SPP APC hardpoint ammunition.
+  name: "заряджувач боєприпасів БТР СПП"
+  description: "Заряджувач боєприпасів для вузлів кріплення БТР СПП."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/Interiors/sppapc.rsi

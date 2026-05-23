@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: AU14USArmyTankGunner
   name: au14-job-name-usarmy-tankgunner
-  description: au14-job-description-usarmy-tankccrew
+  description: "au14-job-description-usarmy-tankccrew"
   playTimeTracker: AU14JobUSArmyTankGunner
   ranks:
     USArmy_StaffSergeant:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTankGunner
-  name: US Army Tank Gunner
+  name: "навідник танка армії США"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

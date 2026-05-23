@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianProfessorVonBandolier
-  name: Professor Von Bandolier
-  description: Find the biggest and most dangerous game, whether that is space alien or a man with a gun and eloquently shoot them.
+  name: "професор фон Бандольєр"
+  description: "Знайдіть найбільшу й найнебезпечнішу здобич, хоч це буде космічний прибулець, хоч людина зі зброєю, і красномовно її застрельте."
   setPreference: true
   playTimeTracker: AU14JobCivilianProfessorVonBandolier
   ranks:
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14PartyJobProfessorVonBandolier
-  name: Professor Von Bandolier
+  name: "професор фон Бандольєр"
   components:
   - type: GhostTakeoverAvailable
   - type: RandomHumanoidAppearanceWhitelisted #civilian type
@@ -66,8 +66,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Professor Von Bandolier
-    description: Find the biggest and most dangerous game, whether that is space alien or a man with a gun and eloquently shoot them.
+    name: "професор фон Бандольєр"
+    description: "Знайдіть найбільшу й найнебезпечнішу здобич, хоч це буде космічний прибулець, хоч людина зі зброєю, і красномовно її застрельте."
     reregister: false
     job: AU14JobCivilianProfessorVonBandolier
     raffle:

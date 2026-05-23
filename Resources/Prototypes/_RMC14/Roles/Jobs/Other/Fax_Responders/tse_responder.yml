@@ -56,8 +56,8 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardTSEResponder
-  name: TSE Communications Officer ID card
-  description: A mass produced indentification card, imprinted with the logo of the Three Suns Empire.
+  name: "ID-картка офіцера зв'язку TSE"
+  description: "Масово вироблена ідентифікаційна картка з логотипом Імперії Трьох Сонць."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/silver_id.rsi

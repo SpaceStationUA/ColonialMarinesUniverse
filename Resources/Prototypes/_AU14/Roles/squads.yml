@@ -1,7 +1,7 @@
 - type: entity
   parent: SquadBase
   id: SquadCLF
-  name: CLF
+  name: "CLF"
   components:
   - type: SquadTeam
     color: "#3aeb34"
@@ -26,7 +26,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadGROM
-  name: GROM
+  name: "ГРОМ"
   components:
   - type: SquadTeam
     color: "#edae72"
@@ -51,7 +51,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadTD
-  name: Territorial Defense
+  name: "територіальна оборона"
   components:
   - type: SquadTeam
     color: "#ed7e57"
@@ -73,7 +73,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadUACG
-  name: Colonial Guard
+  name: "колоніальна гвардія"
   components:
   - type: SquadTeam
     color: "#edae72"
@@ -95,7 +95,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadUSArmy
-  name: US Army
+  name: "армія США"
   components:
   - type: SquadTeam
     color: "#2e4f68"
@@ -120,7 +120,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadUSArmy32nd
-  name: 32nd Arm
+  name: "32-га бронетанкова дивізія"
   components:
   - type: SquadTeam
     color: "#2e4f68"
@@ -145,7 +145,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadRMCRRT
-  name: RRT
+  name: "RRT"
   components:
   - type: SquadTeam
     color: "#3D6F43"
@@ -170,7 +170,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadFirstRecon
-  name: First Recon
+  name: "перша розвідка"
   components:
   - type: SquadTeam
     color: "#32CD32"
@@ -192,7 +192,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadLACNCommando
-  name: LACN Commando
+  name: "коммандос ЛАКН"
   components:
   - type: SquadTeam
     color: "#32CD32"
@@ -214,7 +214,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadVAIPO
-  name: VAIPO
+  name: "VAIPO"
   components:
   - type: SquadTeam
     color: "#e3580e"
@@ -236,7 +236,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadVAISO
-  name: VAISO
+  name: "VAISO"
   components:
   - type: SquadTeam
     color: "#943d0a"
@@ -258,7 +258,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadVAISP
-  name: VAISP
+  name: "VAISP"
   components:
   - type: SquadTeam
     color: "#1ecc43"
@@ -280,7 +280,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPARTY
-  name: Prodigy Armed Repair Team Yankee
+  name: "Озброєна ремонтна група Янкі Продіджі"
   components:
   - type: SquadTeam
     color: "#92969A"
@@ -308,7 +308,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPARTS
-  name: Prodigy Armed Repair Team Sierra
+  name: "Озброєна ремонтна група Сьєрра Продіджі"
   components:
   - type: SquadTeam
     color: "#92969A"

@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforPlatoonCorpsman
-  name: Spawn Point opfor Squad Sergeant
+  name: "точка появи взводного корпусмана ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforPlatoonCorpsman

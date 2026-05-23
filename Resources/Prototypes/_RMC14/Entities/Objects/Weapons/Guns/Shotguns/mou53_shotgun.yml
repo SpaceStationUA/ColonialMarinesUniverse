@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseBreechloader, RMCBaseAttachableHolder ]
-  name: MOU53 break action shotgun
+  name: "переломний дробовик MOU53"
   id: WeaponShotgunMOU53
-  description: A limited production Kerchner MOU53 triple break action classic. Respectable damage output at medium ranges, while the ARMAT M37 is the king of CQC, the Kerchner MOU53 is what hits the broadside of that barn. This specific model cannot safely fire buckshot shells.
+  description: "Лімітований випуск Kerchner MOU53 — потрійна переломна класика. Гідне ушкодження на середній дистанції; поки ARMAT M37 — король ближнього бою, Kerchner MOU53 — той, що вибиває стіну сараю. Ця конкретна модель не може безпечно стріляти набоями картечі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/mou53/jungle.rsi

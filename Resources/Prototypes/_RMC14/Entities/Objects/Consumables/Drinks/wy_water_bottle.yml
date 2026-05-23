@@ -1,8 +1,8 @@
 - type: entity
   parent: DrinkBottlePlasticBaseFull
   id: CMDrinkWEYAWaterBottle30
-  name: We-Yu bottled spring water
-  description: Overpriced 'Spring' water. Bottled by the We-Yu Corporation.
+  name: "пляшкова джерельна вода Ві-Ю"
+  description: "Перецінена «джерельна» вода. Розлита корпорацією Ві-Ю."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMDrinkWEYAWaterBottle30
   id: RMCDrinkWEYABugJuice
-  name: Weston-Yamada Bug Juice Protein Drink
-  description: We-Ya brand plastic bottle full of toxic looking green goo, tastes like kiwi, but you are more than sure that there is none of it here.
+  name: "протеїновий напій «Сік Жука» від Вестон-Ямада"
+  description: "Пластикова пляшка бренду Ві-Я, повна токсичної на вигляд зеленої гущі. На смак як ківі, але ви більш ніж впевнені, що його там немає."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -66,8 +66,8 @@
 - type: entity
   parent: CMDrinkWEYAWaterBottle30
   id: RMCDrinkWEYACocoMilk
-  name: Weston-Yamada Bottled Coconut Milk
-  description: Rich in vitamins and (artificial) flavor, quenches thirst in a few sips. Bottled by the Weston-Yamada Corporation.
+  name: "пляшкове кокосове молоко Вестон-Ямада"
+  description: "Багате на вітаміни та (штучний) смак, втамовує спрагу за кілька ковтків. Розлито корпорацією Вестон-Ямада."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMDrinkWEYAWaterBottle30
   id: RMCDrinkWEYASoylent
-  name: Weston-Yamada Premium Choco Soylent
-  description: A plastic bottle full of gooey goodness, choco flavor. One bottle has enough calories for a lunch - don't drink it all in one sitting, better not risk getting a stomachache.
+  name: "преміум шоколадний соєвий напій Вестон-Ямада"
+  description: "Пластикова пляшка, повна тягучої смакоти зі смаком шоколаду. В одній пляшці достатньо калорій для обіду — не випивайте її за один присіст, краще не ризикувати болем у шлунку."
   components:
   - type: SolutionContainerManager
     solutions:

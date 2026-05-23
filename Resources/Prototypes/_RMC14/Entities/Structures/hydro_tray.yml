@@ -1,8 +1,8 @@
 - type: entity
   parent: hydroponicsSoil
-  name: hydroponics tray
+  name: "гідропонна таця"
   id: CMHydroponicsTray
-  description: Used for growing plants.
+  description: "Використовується для вирощування рослин."
   components:
   - type: VehicleSmashable
   - type: Fixtures

@@ -3,7 +3,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryOpenSoftTissue
-  name: Open Incision
+  name: "Відкритий розріз"
   components:
   - type: CMSurgery
     steps:
@@ -14,7 +14,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryOpenBoneCavity
-  name: Open Bone Cavity
+  name: "Відкрити кісткову порожнину"
   components:
   - type: CMSurgery
     requirement: CMUSurgeryOpenSoftTissue
@@ -25,7 +25,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCloseIncision
-  name: Close Incision
+  name: "Закритий розріз"
   components:
   - type: CMSurgery
     priority: 1
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCloseBoneCavity
-  name: Close Bone Cavity
+  name: "Закрити кісткову порожнину"
   components:
   - type: CMSurgery
     priority: 1
@@ -49,7 +49,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetSimpleFracture
-  name: Set Simple Fracture
+  name: "Вправити простий перелом"
   components:
   - type: CMSurgery
     priority: 10
@@ -64,7 +64,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetSimpleFractureCavity
-  name: Set Simple Fracture
+  name: "Вправити простий перелом"
   components:
   - type: CMSurgery
     priority: 10
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetCompoundFracture
-  name: Set Compound Fracture
+  name: "Вправити складний перелом"
   components:
   - type: CMSurgery
     priority: 8
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetCompoundFractureCavity
-  name: Set Compound Fracture
+  name: "Вправити складний перелом"
   components:
   - type: CMSurgery
     priority: 8
@@ -113,7 +113,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetComminutedFracture
-  name: Set Comminuted Fracture
+  name: "Вправити роздроблений перелом"
   components:
   - type: CMSurgery
     priority: 7
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgerySetComminutedFractureCavity
-  name: Set Comminuted Fracture
+  name: "Вправити роздроблений перелом"
   components:
   - type: CMSurgery
     priority: 7
@@ -151,7 +151,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCauterizeInternalBleeding
-  name: Stop Internal Bleeding
+  name: "Зупинити внутрішню кровотечу"
   components:
   - type: CMSurgery
     priority: 7
@@ -163,7 +163,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryCauterizeInternalBleedingCavity
-  name: Stop Internal Bleeding
+  name: "Зупинити внутрішню кровотечу"
   components:
   - type: CMSurgery
     priority: 7
@@ -179,7 +179,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveLiver
-  name: Remove Liver
+  name: "Видалити Печінку"
   components:
   - type: CMSurgery
     priority: 5
@@ -194,7 +194,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveLung
-  name: Remove Lungs
+  name: "Видалити Легені"
   components:
   - type: CMSurgery
     priority: 5
@@ -209,7 +209,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveKidney
-  name: Remove Kidneys
+  name: "Видалити нирки"
   components:
   - type: CMSurgery
     priority: 5
@@ -224,7 +224,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveHeart
-  name: Remove Heart
+  name: "Видалити Серце"
   components:
   - type: CMSurgery
     priority: 4
@@ -239,7 +239,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveStomach
-  name: Remove Stomach
+  name: "Видалити Шлунок"
   components:
   - type: CMSurgery
     priority: 5
@@ -256,7 +256,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceLiver
-  name: Replace Liver
+  name: "Замінити печінку"
   components:
   - type: CMSurgery
     priority: 4
@@ -271,7 +271,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceLung
-  name: Replace Lungs
+  name: "Замінити легені"
   components:
   - type: CMSurgery
     priority: 4
@@ -286,7 +286,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceKidney
-  name: Replace Kidneys
+  name: "Замінити нирки"
   components:
   - type: CMSurgery
     priority: 4
@@ -301,7 +301,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryTransplantHeart
-  name: Transplant Heart
+  name: "Пересадити серце"
   components:
   - type: CMSurgery
     priority: 4
@@ -316,7 +316,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReplaceStomach
-  name: Replace Stomach
+  name: "Замінити шлунок"
   components:
   - type: CMSurgery
     priority: 4
@@ -333,7 +333,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairLiver
-  name: Suture Liver
+  name: "Зашити печінку"
   components:
   - type: CMSurgery
     priority: 6
@@ -348,7 +348,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairLungs
-  name: Suture Lungs
+  name: "Зашити легені"
   components:
   - type: CMSurgery
     priority: 6
@@ -363,7 +363,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairKidneys
-  name: Suture Kidneys
+  name: "Зашити нирки"
   components:
   - type: CMSurgery
     priority: 6
@@ -378,7 +378,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairHeart
-  name: Suture Heart
+  name: "Зашити серце"
   components:
   - type: CMSurgery
     priority: 6
@@ -393,7 +393,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairStomach
-  name: Suture Stomach
+  name: "Зашити шлунок"
   components:
   - type: CMSurgery
     priority: 6
@@ -410,7 +410,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairBrain
-  name: Repair Brain
+  name: "Полагодити мозок"
   components:
   - type: CMSurgery
     priority: 6
@@ -424,7 +424,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairEyes
-  name: Repair Eyes
+  name: "Полагодити очі"
   components:
   - type: CMSurgery
     priority: 6
@@ -438,7 +438,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRepairEars
-  name: Repair Ears
+  name: "Полагодити вуха"
   components:
   - type: CMSurgery
     priority: 6
@@ -454,8 +454,8 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryAlienEmbryoRemoval
-  name: Alien Embryo Removal
-  description: Removal of an alien embryo from the body.
+  name: "Видалення прибулецького ембріона"
+  description: "Видалення прибулецького ембріона з тіла."
   components:
   - type: CMSurgery
     priority: -1
@@ -475,7 +475,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryRemoveLimb
-  name: Remove Limb
+  name: "Видалити кінцівку"
   components:
   - type: CMSurgery
     priority: 2
@@ -486,7 +486,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMUSurgeryReattachLimb
-  name: Reattach Limb
+  name: "Прикріпити кінцівку"
   components:
   - type: CMSurgery
     priority: 3

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCOrganXenoHeart
-  name: acidic heart
-  description: Acidic heart removed from a xenonid. It spews droplets of acid every so often.
+  name: "кислотне серце"
+  description: "Кислотне серце, видалене з ксеноніда. Воно час від часу розбризкує краплі кислоти."
   components:
   - type: XenoHeart
   - type: Corrodible

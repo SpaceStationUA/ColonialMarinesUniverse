@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: CMFloorSteelfoxtrotBase
-  name: tiles-cm-foxtrot
+  name: "tiles-cm-foxtrot"
   itemDrop: CMTileItemSteel # TODO RMC14
 
 - type: tile

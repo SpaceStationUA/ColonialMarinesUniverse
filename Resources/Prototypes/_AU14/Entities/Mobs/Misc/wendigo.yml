@@ -6,11 +6,11 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: AU14Wendigo
-  name: Wendigo
-  description: A large, menacing creature with a skull for head and sharp claws. Its back is branded "Weyland-Yutani".
+  name: "Вендіго"
+  description: "Велика загрозлива істота з черепом замість голови та гострими пазурами. На її спині випалено «Вейланд-Ютані»."
   components:
   - type: GhostRole
-    name: Wendigo
+    name: "Вендіго"
   - type: Sprite
     sprite: _AU14/Mobs/MiscMob/wendigo.rsi
     layers:
@@ -130,8 +130,8 @@
 - type: entity
   parent: ActionXenoDoom
   id: ActionWendigoDoom
-  name: Screech
-  description: A terrifying screech that turns off lights, slows and dazes nearby hostiles.
+  name: "Вереск"
+  description: "Жахливий вереск, що вимикає світло, сповільнює та приголомшує ворогів поблизу."
   components:
   - type: XenoActionPlasma
     cost: 0
@@ -144,7 +144,7 @@
 - type: job
   parent: CMJobXenoBase
   id: CMXenoWendigo
-  name: Wendigo
+  name: "Вендіго"
   playTimeTracker: CMJobXenoWendigo
 - type: playTimeTracker
   id: CMJobXenoWendigo

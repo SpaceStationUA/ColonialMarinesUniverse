@@ -1,8 +1,8 @@
 - type: entity
   parent: CMVendor
   id: AU14VendorKoorCigs
-  name: Koorlander Cigarette Machine
-  description: Manufactured by the Koorlander Corporation as part of their "Worker Morale Suite," these vending units were once standard issue for deep-bore miners, orbital rig crews and indentured work colonies. When Koorlander realized it was more profitable to sell cigarettes than drill oil or move rock, they laid off 32000 workers overnight and pivoted entirely to tobacco production. The machines stayed behind, now full of the only thing they still make.
+  name: "сигаретний автомат Курландер"
+  description: "Виготовлені корпорацією Курландер як частина їхнього \"набору робітничого духу\", ці торгові автомати колись були штатними для шахтарів глибокого буріння, екіпажів орбітальних платформ і кабальних робітничих колоній. Коли Курландер зрозуміла, що продавати сигарети прибутковіше, ніж бурити нафту чи переміщати породу, вони за одну ніч звільнили 32000 робітників і повністю перейшли на виробництво тютюну. Автомати залишилися, тепер повні єдиного, що вони досі виробляють."
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/koorcigs.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CivilianSnowflakeVendor
-  name: Snowflake Clothing Vendor
-  description: "A vendor containing all the clothes you would ever need. You're such a fuckin' snowflake huh... so special."
+  name: "автомат одягу «Сніжинка»"
+  description: "Автомат з усім одягом, який вам тільки може знадобитися. Ну ти ж така довбана сніжинка, га... така особлива."
   suffix: Civ
   components:
   - type: Sprite
@@ -229,8 +229,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14JOGenericVendor
-  name: junior officer equipment rack
-  description: An automated rack hooked up to a small storage of junior officer equipment.
+  name: "стійка спорядження молодшого офіцера"
+  description: "Автоматизована стійка, під’єднана до невеликого запасу спорядження молодшого офіцера."
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -265,8 +265,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14MilitaryPolicemanGenericVendor
-  name: military policeman equipment rack
-  description: An automated rack hooked up to a small storage of military police equipment.
+  name: "стійка спорядження військового поліцейського"
+  description: "Автоматизована стійка, під’єднана до невеликого запасу спорядження військової поліції."
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -303,8 +303,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14MilitaryDoctorGenericVendor
-  name: military doctor equipment rack
-  description: An automated rack hooked up to a small storage of military doctor equipment.
+  name: "стійка спорядження військового лікаря"
+  description: "Автоматизована стійка, під’єднана до невеликого запасу спорядження військового лікаря."
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -367,8 +367,8 @@
 - type: entity
   parent: CMVendorBundleRiflemanApparel
   id: AU14VendorBundleMilitaryDoctorEssentials
-  name: essential doctor set
-  description: Essential doctor equipment.
+  name: "основний комплект лікаря"
+  description: "Основне спорядження лікаря."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/first_aid_kits.rsi

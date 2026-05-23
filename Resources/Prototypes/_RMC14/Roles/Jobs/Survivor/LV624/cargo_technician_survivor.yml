@@ -36,7 +36,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CargoTechnician
-  name: survivor lv624 archeologist spawn point
+  name: "спавнер lv624 археолога-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,4 +50,4 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetLV624CargoTechnician
-  name: lv624 cargo technician colonist preset # TODO RMC14 random research notes
+  name: "пресет колоніста-карго-техніка lv624" # TODO RMC14 random research notes

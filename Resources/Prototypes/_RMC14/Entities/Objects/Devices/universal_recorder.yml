@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCUniversalRecorderBase
   id: RMCUniversalRecorderEmpty
-  name: universal recorder
-  description: A device that can record dialogue on magnetic tape and play it back. Good for appeals or witness statements.
+  name: "універсальний рекордер"
+  description: "Пристрій, що може записувати діалоги на магнітну стрічку та відтворювати їх. Корисний для апеляцій або свідчень."
   suffix: Empty
   components:
   - type: Sprite
@@ -54,8 +54,8 @@
 - type: entity
   parent: RMCUniversalRecorderBase
   id: RMCUniversalRecorder
-  name: universal recorder
-  description: A device that can record dialogue on magnetic tape and play it back. Good for appeals or witness statements.
+  name: "універсальний рекордер"
+  description: "Пристрій, що може записувати діалоги на магнітну стрічку та відтворювати їх. Корисний для апеляцій або свідчень."
   components:
   - type: UniversalRecorder
     tapeSlot:
@@ -108,14 +108,14 @@
 - type: entity
   parent: RMCUniversalRecorderTapeBase
   id: RMCUniversalRecorderTape
-  name: regulation tape
-  description: A magnetic tape that can hold up to twenty minutes of content on either side.
+  name: "офіційна стрічка"
+  description: "Магнітна стрічка, що може вмістити до двадцяти хвилин вмісту з кожного боку."
 
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxRegulationTapesEmpty
-  name: box of regulation tapes (x5)
-  description: A box of regulation tapes for universal recorders.
+  name: "коробка офіційних стрічок (x5)"
+  description: "Коробка з офіційними стрічками для універсальних рекордерів."
   components:
   - type: Sprite
     state: box

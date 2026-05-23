@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: AU14GlassesSmartGunSightUPP
-  name: RVS-37 head rig
-  description: Developed for use with the RFVS-37, the Integrated Auto-Rifleman Optronic Device enables the riflemen of the UPP SOF to visually search for targets in low-visibility conditions, while also enabling safe use of the weapon itself.
+  name: "головний комплект RVS-37"
+  description: "Розроблений для використання з RFVS-37, інтегрований оптронний пристрій автоматника дозволяє стрільцям ССО УПП візуально шукати цілі в умовах поганої видимості, а також безпечно використовувати саму зброю."
   components:
   - type: Item
     storedRotation: 0

@@ -69,8 +69,8 @@
 - type: entity
   parent: RMCWheelchairBase
   id: RMCWheelchair
-  name: wheelchair
-  description: Helps those with injuries related to immobility to move freely
+  name: "інвалідний візок"
+  description: "Допомагає вільно пересуватися тим, хто має травми, пов'язані з нерухомістю"
   components:
   - type: RMCAllowStrapMovement
   - type: Wheelchair
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCWheelchairBase
   id: RMCWheelchairBell
-  name: wheelchair with bell
-  description: Helps those with injuries related to immobility to move freely. Has a bell attached.
+  name: "інвалідний візок з дзвоником"
+  description: "Допомагає вільно пересуватися тим, хто має травми, пов'язані з нерухомістю. Має прикріплений дзвоник."
   components:
   - type: RMCAllowStrapMovement
   - type: Wheelchair
