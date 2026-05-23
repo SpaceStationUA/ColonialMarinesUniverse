@@ -90,6 +90,7 @@ cmu-rank-prefix-RMC_LieutenantGeneral = ГенЛт.
 cmu-rank-prefix-RMC_General = Ген.
 cmu-rank-prefix-RMC_CommandantDeputy = ЗстКом.
 cmu-rank-prefix-RMC_CommandantGeneral = ГенКом.
+cmu-rank-prefix-RMC_CaptainGeneral = КапГен.
 
 ### RMC14 UNMC enlisted/officers ###
 cmu-rank-prefix-RMCRankPrivate = Ряд.
@@ -103,6 +104,8 @@ cmu-rank-prefix-RMCRankMasterSergeant = МСрж.
 cmu-rank-prefix-RMCRankFirstSergeant = 1Срж.
 cmu-rank-prefix-RMCRankMasterGunnerySergeant = МСтрСрж.
 cmu-rank-prefix-RMCRankSergeantMajor = Старш.
+cmu-rank-prefix-RMCRankRecruit = Рек.
+cmu-rank-prefix-RMCRankWarrantOfficer = ВО1.
 cmu-rank-prefix-RMCRankChiefWarrantOfficer = ГВО2.
 cmu-rank-prefix-RMCRankChiefWarrantOfficer3 = ГВО3.
 cmu-rank-prefix-RMCRankChiefWarrantOfficer4 = ГВО4.
@@ -140,6 +143,7 @@ cmu-rank-prefix-RMCRankNavyRearAdmiralLowerHalf = КАдм.Н.
 cmu-rank-prefix-RMCRankNavyRearAdmiralUpperHalf = КАдм.В.
 cmu-rank-prefix-RMCRankNavyViceAdmiral = ВАдм.
 cmu-rank-prefix-RMCRankNavyAdmiral = Адм.
+cmu-rank-prefix-RMCRankNavyChiefOfNavalOperations = НВМО.
 
 ### UNMC Provost ###
 cmu-rank-prefix-RMCRankProvostMarshal = Мрш.
@@ -150,6 +154,7 @@ cmu-rank-prefix-RMCRankProvostChiefInspector = ГолІнсп.
 cmu-rank-prefix-RMCRankProvostInspector = Інсп.
 cmu-rank-prefix-RMCRankProvostAdvisor = Старш.
 cmu-rank-prefix-RMCRankProvostProvostTeamLeader = МСрж.
+cmu-rank-prefix-RMCRankProvostProvostEnforcer = ШСрж.
 cmu-rank-prefix-RMCRankProvostCommunicationsOfficer = ОфЗв.
 
 ### CMB (Marshal Bureau) ###
@@ -172,6 +177,7 @@ cmu-rank-prefix-RMCRankCivilian = Цив.
 cmu-rank-prefix-RMCRankCivilianDoctor = Лік.
 cmu-rank-prefix-RMCRankCivilianNurse = Мдс.
 cmu-rank-prefix-RMCRankCivilianOfficer = Оф.
+cmu-rank-prefix-RMCRankCivilianSeniorOfficer = СтОф.
 cmu-rank-prefix-RMCRankCivilianRepresentative = Прд.
 cmu-rank-prefix-RMCRankCivilianScientist = Наук.
 cmu-rank-prefix-AU14RankColonyAdministrator = Адм.
@@ -185,6 +191,7 @@ cmu-rank-prefix-AU14RankSeniorFirstOfficer = Ст1Оф.
 cmu-rank-prefix-AU14RankCaptain = Кап.
 cmu-rank-prefix-AU14RankFlightCaptain = КпПлт.
 cmu-rank-prefix-AU14RankAmbassador = Пос.
+cmu-rank-prefix-AU14RankTWEAmbassador = ВерхКом.
 cmu-rank-prefix-AU14RankScientistAssistant = АсПр.
 cmu-rank-prefix-AU14RankScientistAssociate = Доц.
 cmu-rank-prefix-AU14RankScientistProfessor = Проф.
@@ -203,6 +210,7 @@ cmu-rank-prefix-AU14RankCWPSSeniorRanger = СтРдж.
 cmu-rank-prefix-AU14RankWYJuniorAssistant = МлАсс.
 cmu-rank-prefix-AU14RankWYAssistant = Асс.
 cmu-rank-prefix-AU14RankWYSeniorAssistant = СтАсс.
+cmu-rank-prefix-AU14RankLBAssistantManager = ПомМн.
 cmu-rank-prefix-AU14RankLBJuniorExecutive = МлВик.
 cmu-rank-prefix-AU14RankLBExecutive = Вик.
 cmu-rank-prefix-AU14RankLBSeniorExecutive = СтВик.
@@ -210,6 +218,7 @@ cmu-rank-prefix-AU14RankLBExecutiveSpecialist = ВикСп.
 cmu-rank-prefix-AU14RankLBExecutiveSupervisor = ВикНг.
 
 ### Wey-Yu Security (AU14) ###
+cmu-rank-prefix-AU14RankWYSecurityOfficerJunior = МлОфКБ.
 cmu-rank-prefix-AU14RankWYSecurityOfficer = ОфКБ.
 cmu-rank-prefix-AU14RankWYSecurityOfficerSenior = СтОфКБ.
 cmu-rank-prefix-AU14RankWYSecurityOfficerChief = ГолОфКБ.
@@ -230,6 +239,7 @@ cmu-rank-prefix-AU14RankWeYuAdjutant = Адж.
 cmu-rank-prefix-AU14RankWeYuCommander = Ком.
 cmu-rank-prefix-AU14RankWeYuCommanderSenior = СтКом.
 cmu-rank-prefix-AU14RankWeYuDeputyDirector = ЗстДир.
+cmu-rank-prefix-AU14RankWeYuSiteDirector = Дир.Об.
 
 ### Wey-Yu (RMC14) ###
 cmu-rank-prefix-RMCRankWeYaTrainee = Стж.
@@ -249,7 +259,12 @@ cmu-rank-prefix-RMCRankWeYaLegalSupervisor = ЮрНг.
 cmu-rank-prefix-RMCRankWeYaCorporateTechnician = Тех.
 cmu-rank-prefix-RMCRankWeYaTraumaSurgeon = Хір.
 cmu-rank-prefix-RMCRankWeYaPMCSynthetic = Син.
+cmu-rank-prefix-RMCRankWeYaUtilitySynth = УтСин.
+cmu-rank-prefix-RMCRankWeYaAssistantSynth = ПомСин.
+cmu-rank-prefix-RMCRankWeYaAdministrativeSynth = АдмСин.
 cmu-rank-prefix-RMCRankWeYaOperator = Опр.
+cmu-rank-prefix-RMCRankWeYaCommando = Опр.
+cmu-rank-prefix-RMCRankWeYaWhiteout = Вайт.
 cmu-rank-prefix-RMCRankWeYaPilotOfficer = Кап.
 cmu-rank-prefix-RMCRankWeYaEnforcer = Енф.
 cmu-rank-prefix-RMCRankWeYaTeamLeader = ЛдрК.
@@ -283,6 +298,7 @@ cmu-rank-prefix-RMCRankTSEColonel = Плк.
 cmu-rank-prefix-RMCRankTSEBrigadier = Брг.
 cmu-rank-prefix-RMCRankTSEMajorGeneral = ГенМ.
 cmu-rank-prefix-RMCRankTSELieutenantGeneral = ГенЛт.
+cmu-rank-prefix-RMCRankTSEGeneral = Ген.
 cmu-rank-prefix-RMCRankTSEEmpress = Імп.
 cmu-rank-prefix-RMCRankTSEPAConstable = Кнст.
 cmu-rank-prefix-RMCRankTSEPASeniorConstable = СтКнст.
@@ -301,6 +317,7 @@ cmu-rank-prefix-RMCRankSPPSerzhant = Срж.
 cmu-rank-prefix-RMCRankSPPStarshiySerzhant = СтСрж.
 cmu-rank-prefix-RMCRankSPPStarshyna = Старш.
 cmu-rank-prefix-RMCRankSPPStrsh = Старш.
+cmu-rank-prefix-UPP_Commissar = Коміс.
 cmu-rank-prefix-RMCRankSPPMladshiyLeytenant = МлЛт.
 cmu-rank-prefix-RMCRankSPPStarshiyLeytenant = СтЛт.
 cmu-rank-prefix-RMCRankSPPKapitan = Кап.
@@ -349,6 +366,7 @@ cmu-rank-prefix-RMCRankFLEliteEngineer = ЕлІнж.
 cmu-rank-prefix-RMCRankFLEliteHeavy = ЕлТж.
 cmu-rank-prefix-RMCRankFLEliteMedic = ЕлМед.
 cmu-rank-prefix-RMCRankFLLeader = Лдр.
+cmu-rank-prefix-RMCRankFLEliteLeader = Воєв.
 
 ### VAI (RMC14) ###
 cmu-rank-prefix-RMCRankVAIMercenary = Нмн.
@@ -356,6 +374,7 @@ cmu-rank-prefix-RMCRankVAIMachinegunner = Кул.
 cmu-rank-prefix-RMCRankVAIEngineeringSpecialist = Інж.
 cmu-rank-prefix-RMCRankVAIMedicalSpecialist = Мед.
 cmu-rank-prefix-RMCRankVAISynthetic = Син.
+cmu-rank-prefix-RMCRankVAITeamLeader = ЛдрК.
 
 ### VAI (AU14) ###
 cmu-rank-prefix-VAI_Mercenary = ВАСК.
@@ -363,6 +382,7 @@ cmu-rank-prefix-VAI_Machinegunner = ВАСК-К.
 cmu-rank-prefix-VAI_Engineer = ВАСК-І.
 cmu-rank-prefix-VAI_MedicalSpecialist = ВАСК-М.
 cmu-rank-prefix-VAI_Synthetic = ВАСК-С.
+cmu-rank-prefix-VAI_TeamLeader = ВАСК-Л.
 
 ### Synthetics ###
 cmu-rank-prefix-RMCRankSynthetic = Син.
@@ -375,9 +395,34 @@ cmu-rank-prefix-RMCRankOperator = Опр.
 
 ### CLF / Rebels ###
 cmu-rank-prefix-RMCRankCLFRebel = Птн.
+cmu-rank-prefix-RMCRankCLFRebelCommander = КомПтн.
 
 ### ICB / Trade Bureau ###
 cmu-rank-prefix-RMCRankICBAgent = Агт.
+cmu-rank-prefix-RMCRankIHROObserver = Спост.
+
+### Prodigy Response Unit ###
+cmu-rank-prefix-AU14RankPrDRecruit = ПР.Стж.
+cmu-rank-prefix-AU14RankPrDAssociate = ПР.Пом.
+cmu-rank-prefix-AU14RankPrDOperator = ПР.Опр.
+cmu-rank-prefix-AU14RankPrDSeniorOperator = ПР.СтОпр.
+cmu-rank-prefix-AU14RankPrDEnforcer = ПР.Енф.
+cmu-rank-prefix-AU14RankPrDEnforcerSenior = ПР.СтЕнф.
+cmu-rank-prefix-AU14RankPrDEnforcerLead = ПР.ЛдЕнф.
+cmu-rank-prefix-AU14RankPrDAdjutant = ПР.Адж.
+cmu-rank-prefix-AU14RankPrDCommander = ПР.Ком.
+cmu-rank-prefix-AU14RankPrDCommanderSenior = ПР.СтКом.
+cmu-rank-prefix-AU14RankPrDSynth1 = ПР.Син1.
+cmu-rank-prefix-AU14RankPrDSynth2 = ПР.Син2.
+cmu-rank-prefix-AU14RankPrDSynth3 = ПР.Син3.
+cmu-rank-prefix-AU14RankPrDSynth4 = ПР.Син4.
+cmu-rank-prefix-AU14RankPrDSynth5 = ПР.Син5.
+cmu-rank-prefix-AU14RankPrDPilot = ПР.Плт.
+cmu-rank-prefix-AU14RankPrDSeniorPilot = ПР.СтПлт.
+cmu-rank-prefix-AU14RankPrDCrewChief = ПР.СЕ.
+cmu-rank-prefix-AU14RankPrDSeniorCrewChief = ПР.СтСЕ.
+cmu-rank-prefix-AU14RankPrDDeputyDirector = ПР.ЗстДир.
+cmu-rank-prefix-AU14RankPrDSiteDirector = ПР.Дир.
 cmu-rank-prefix-RMCRankICBCorporateLiaison = ICBПрд.
 
 ### HEFA ###
