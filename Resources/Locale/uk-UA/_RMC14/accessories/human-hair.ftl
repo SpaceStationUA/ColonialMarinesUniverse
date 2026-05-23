@@ -202,9 +202,9 @@ marking-RMCHumanHairMarineBun = Морпіхський пучок
 
 marking-RMCHumanHairMarineBun2 = Морпіхський пучок 2
 
-marking-RMCHumanHairPonytail6 = Хвіст 5
+marking-RMCHumanHairPonytail6 = Хвіст 6
 
-marking-RMCHumanHairPonytail7 = Хвіст 6
+marking-RMCHumanHairPonytail7 = Хвіст 7
 
 marking-RMCHumanHairShorthair3 = Коротке Волосся 3
 
