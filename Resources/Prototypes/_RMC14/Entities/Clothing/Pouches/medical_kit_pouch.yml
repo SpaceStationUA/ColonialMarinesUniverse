@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCPouchOpenClosed, RMCPouchStorage]
   id: RMCPouchMedkit
-  name: "підсумок для аптечки"
-  description: "Він спеціально створений для носіння медичних предметів."
+  name: medical kit pouch
+  description: It's specifically made to hold medical items.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/medkit.rsi

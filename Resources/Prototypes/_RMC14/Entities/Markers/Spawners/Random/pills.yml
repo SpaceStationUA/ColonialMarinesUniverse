@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomPillBase
-  name: "спавнер лута пляшечки таблеток"
-  description: "Це випадкова пляшечка таблеток для вцілілийів."
+  name: pill bottle loot spawner
+  description: This is a random pill bottle, for survivors.
   suffix: Base
   abstract: true
   components:

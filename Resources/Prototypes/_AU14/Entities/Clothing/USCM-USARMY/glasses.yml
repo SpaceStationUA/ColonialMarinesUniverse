@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: AU14GlassesBiMex
-  name: "балістичні окуляри БіМекс"
-  description: "Пара чорних тонованих стрілецьких окулярів. Штатне спорядження ККМП США."
+  name: BiMex Ballistic Glasses
+  description: A pair of black tinted shooting glasses. USCM issue.
   components:
   - type: Item
     storedRotation: 0
@@ -17,8 +17,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: AU14GlassesBiMexOrange
-  name: "помаранчеві балістичні окуляри БіМекс"
-  description: "Пара помаранчевих тонованих стрілецьких окулярів. Штатне спорядження ККМП США."
+  name: Orange BiMex Ballistic Glasses
+  description: A pair of orange tinted shooting glasses. USCM issue.
   components:
   - type: Item
     storedRotation: 0
@@ -33,8 +33,8 @@
 - type: entity
   parent: RMCSunglasses
   id: AU14GlassesPersonalOrange
-  name: "помаранчеві особисті окуляри"
-  description: "Це дорога пара сонцезахисних окулярів. Цей бренд популярний серед піхотинців Об’єднаних Америк, бо кажуть, що його запатентоване дзеркальне заломлення захищає від атомного спалаху, сонячної радіації та лазерів наведення. На додачу всі, здається, знають когось, хто знає когось, хто знає когось, у кого лазерний пістолет відбився від цих окулярів."
+  name: orange personal shades
+  description: These are an expensive pair of sunglasses. This brand is popular with UA foot sloggers because its patented mirror refraction has been said to offer protection from atomic flash, solar radiation, and targeting lasers. To top it all off, everyone seems to know a guy who knows a guy who knows a guy that had a laser pistol reflect off of his shades.
   components:
   - type: Item
     storedRotation: 0

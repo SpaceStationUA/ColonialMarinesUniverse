@@ -17,8 +17,8 @@
 - type: entity
   parent: RMCPouchGeneral
   id: AU14PouchPoliceEquipmentSupportSynth
-  name: "поліцейська споряджувальна підсумка"
-  description: "Універсальна підсумка для перенесення поліцейського спорядження."
+  name: police equipment pouch
+  description: A general-purpose pouch used to carry police equipment.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/soctools.rsi

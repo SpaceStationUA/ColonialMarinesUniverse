@@ -1,8 +1,8 @@
 - type: job
   parent: AU14Jobk9handlerBase
   id: AU14JobThirdPartyK9Handler
-  name: "кінолог"
-  description: "кінолог"
+  name: K9 Handler
+  description: K9 Handler
   setPreference: false
   ranks:
     RMCRankStaffSergeant: []
@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORK9Handler
-  name: "(НЕ МАПИТИ) точка появи кінолога ГОВФОР"
+  name: (DO NOT MAP) Spawn Point GOVFOR K9 Handler
   components:
   - type: SpawnPoint
     job_id: AU14JobThirdPartyK9Handler

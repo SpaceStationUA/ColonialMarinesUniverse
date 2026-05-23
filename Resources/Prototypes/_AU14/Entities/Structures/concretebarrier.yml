@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBarricadeBase
   id: AU14JerseyBarricade
-  name: "бетонна барикада"
-  description: "Барикада з бетону. Іноді її називають «бар’єром Джерсі»."
+  name: concrete barricade
+  description: A barricade made out of concrete. Sometimes referred to as a 'Jersey barrier'.
   components:
   - type: BarricadeSandbag
   - type: Climbable

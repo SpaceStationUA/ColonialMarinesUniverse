@@ -3,9 +3,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackM54CEmpty
-  name: "збройний стелаж M54C"
+  name: M54C gun rack
   suffix: M54C, Empty
-  description: "Виготовлений AEGIS збройний стелаж для зберігання довгої зброї. Хоча початкова модель мала бути дуже модифікованою, ОНМП замовили стелажі з фіксованими слотами, у які поміщаються лише гвинтівки M54C. Дехто каже, вони дешевші, інші — що головна причина в тому, що морпіхи легко ламають усе складніше за вольфрамову кульку."
+  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, UNMC commissioned racks with fixed slots which only fit M54C rifles. Some say they were cheaper, and some say the main reason was marine's ability to easily break anything more complex than a tungsten ball.
   components:
   - type: ContainerContainer
     containers:
@@ -109,9 +109,9 @@
 - type: entity
   parent: RMCGunRackM54CEmpty
   id: RMCGunRackM54CMk1Empty
-  name: "збройний стелаж M54C Mk1"
+  name: M54C Mk1 gun rack
   suffix: M54C Mk1, Empty
-  description: "Виготовлений AEGIS збройний стелаж для зберігання довгої зброї. Хоча початкова модель мала бути дуже модифікованою, ОНМП замовили стелажі з фіксованими слотами, у які поміщаються лише гвинтівки M54C Mk1. Дехто каже, вони дешевші, інші — що головна причина в тому, що морпіхи легко ламають усе складніше за вольфрамову кульку."
+  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, UNMC commissioned racks with fixed slots which only fit M54C Mk1 rifles. Some say they were cheaper, and some say the main reason was marine's ability to easily break anything more complex than a tungsten ball.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/GunRacks/m54c_rack.rsi
@@ -193,9 +193,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackSSG45Empty
-  name: "збройний стелаж SSG45"
+  name: SSG45 gun rack
   suffix: SSG45, Empty
-  description: "Виготовлений AEGIS збройний стелаж для зберігання довгої зброї. Хоча початкова модель мала бути дуже модифікованою, «Вестон-Ямада» замовила стелажі з фіксованими слотами, у які поміщаються лише гвинтівки SSG45. Дехто каже, вони дешевші, інші — що головна причина в тому, що оператори легко ламають усе складніше за вольфрамову кульку."
+  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, Weston-Yamada commissioned racks with fixed slots which only fit SSG45 rifles. Some say they were cheaper, and some say the main reason was operators' ability to easily break anything more complex than a tungsten ball.
   components:
   - type: ContainerContainer
     containers:
@@ -299,9 +299,9 @@
 - type: entity
   parent: RMCGunRackM54CEmpty
   id: RMCGunRackM54C2Empty
-  name: "збройний стелаж M54C/2"
+  name: M54C/2 gun rack
   suffix: M54C/2, Empty
-  description: "Виготовлений AEGIS збройний стелаж для зберігання довгої зброї. Хоча початкова модель мала бути дуже модифікованою, «Вестон-Ямада» замовила стелажі з фіксованими слотами, у які поміщаються лише гвинтівки M54C/2. Дехто каже, вони дешевші, інші — що головна причина в тому, що оператори легко ламають усе складніше за вольфрамову кульку."
+  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, Weston-Yamada commissioned racks with fixed slots which only fit M54C/2 rifles. Some say they were cheaper, and some say the main reason was operators' ability to easily break anything more complex than a tungsten ball.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/GunRacks/m54c2_rack.rsi
@@ -384,9 +384,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackType71Empty
-  name: "збройний стелаж Type 71"
+  name: Type 71 gun rack
   suffix: Type 71, Empty
-  description: "Якийсь небрендовий збройний стелаж. Згідно з регламентами ССО і Армії СПН, зброю слід зберігати в надійних сейфах і видавати лише за потреби. Звісно, більшість (але не всі!) підрозділів обходять це правило, складаючи свою вогнепальну зброю в сейфи лише на час інспекції."
+  description: Some off-branded gun rack. Per SOF and UPP Army regulations, weapons should be stored in secure safes and only given out when necessary. Of course, most (but not all!) units overlook this regulation, only storing their firearms in safes when inspection arrives.
   components:
   - type: ContainerContainer
     containers:
@@ -506,9 +506,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackType71EmptyPVE
-  name: "збройний стелаж Type 71"
+  name: Type 71 gun rack
   suffix: Type 71, Empty, PVE
-  description: "Якийсь небрендовий збройний стелаж. Згідно з регламентами ССО і Армії СПН, зброю слід зберігати в надійних сейфах і видавати лише за потреби. Звісно, більшість (але не всі!) підрозділів обходять це правило, складаючи свою вогнепальну зброю в сейфи лише на час інспекції."
+  description: Some off-branded gun rack. Per SOF and UPP Army regulations, weapons should be stored in secure safes and only given out when necessary. Of course, most (but not all!) units overlook this regulation, only storing their firearms in safes when inspection arrives.
   components:
   - type: ContainerContainer
     containers:
@@ -628,9 +628,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackL90A1Empty
-  name: "збройний стелаж L90A1"
+  name: L90A1 gun rack
   suffix: L90A1, Empty
-  description: "Великий, важкоміцний стелаж, призначений для зберігання гвинтівок L90A1 — заряджених, готових вистрілити будь-якої миті. Офіційно регламенти МКК не радять такої практики, але це не заважає багатьом арсеналам тримати свої гвинтівки в такому стані."
+  description: A large, heavy-duty rack designed to store L90A1 rifles - locked, loaded, waiting to be fired at a moment's notice. Officially, RCM legislations advise against this practice, but it doesn't stop many armories from keeping their rifles stowed in such a condition.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/GunRacks/l90_rack.rsi
@@ -712,9 +712,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackL90A2Empty
-  name: "збройний стелаж L90A2"
+  name: L90A2 gun rack
   suffix: L90A2, Empty
-  description: "Великий, важкоміцний стелаж, призначений для зберігання гвинтівок L90A2 — заряджених, готових вистрілити будь-якої миті. Офіційно регламенти МКК не радять такої практики, але це не заважає багатьом арсеналам тримати свої гвинтівки в такому стані."
+  description:  A large, heavy-duty rack designed to store L90A2 rifles - locked, loaded, waiting to be fired at a moment's notice. Officially, RCM legislations advise against this practice, but it doesn't stop many armories from keeping their rifles stowed in such a condition.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/GunRacks/l90_rack.rsi

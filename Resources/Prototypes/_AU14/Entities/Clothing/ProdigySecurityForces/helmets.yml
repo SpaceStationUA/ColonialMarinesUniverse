@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14ProdigyBallisticHelmet
-  name: "балістичний шолом"
-  description: "Дешево виготовлений балістичний шолом, який використовує корпорація Продіджі."
+  name: ballistic helmet
+  description: A cheaply produced ballistic helmet used by the Prodigy Corporation.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/helmet.rsi

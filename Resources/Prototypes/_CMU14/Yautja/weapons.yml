@@ -36,8 +36,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaHarpoon
-  name: "великий гарпун"
-  description: "Зважений гарпун Яутжа, призначений для жорстоких кидків і ближнього бою."
+  name: large harpoon
+  description: A weighted Yautja harpoon designed for brutal throws and close finishing work.
   components:
   - type: Sharp
   - type: Sprite
@@ -68,8 +68,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaChainwhip
-  name: "ланцюжковий батіг"
-  description: "Колюче ланцюжкова зброя для викачування крові і утримання здобичі на небезпечній відстані."
+  name: chainwhip
+  description: A barbed chain weapon for pulling blood and keeping prey at a dangerous distance.
   components:
   - type: Sharp
   - type: Sprite
@@ -96,8 +96,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaClanSword
-  name: "клановий меч"
-  description: "Важкий клановий клинок Яутжа з широким ріжучим лезом."
+  name: clan sword
+  description: A heavy Yautja clan blade with a broad cutting edge.
   components:
   - type: Sharp
   - type: Sprite
@@ -119,8 +119,8 @@
 - type: entity
   parent: CMUYautjaClanSword
   id: CMUYautjaRendingSword
-  name: "розтерзаючий меч"
-  description: "Гачковий меч Яутжа, збалансований для розтерзаючих ударів."
+  name: rending sword
+  description: A hooked Yautja sword balanced for tearing strokes.
   components:
   - type: Sprite
     state: rending_sword
@@ -130,8 +130,8 @@
 - type: entity
   parent: CMUYautjaClanSword
   id: CMUYautjaPiercingSword
-  name: "пробивний меч"
-  description: "Вузький меч Яутжа, збалансований для уколів."
+  name: piercing sword
+  description: A narrow Yautja sword balanced for thrusting.
   components:
   - type: Sprite
     state: piercing_sword
@@ -146,8 +146,8 @@
 - type: entity
   parent: CMUYautjaClanSword
   id: CMUYautjaSeveringSword
-  name: "розсікаючий меч"
-  description: "Жорстокий меч Яутжа з рубаючим профілем."
+  name: severing sword
+  description: A brutal Yautja sword with a chopping profile.
   components:
   - type: Sprite
     state: severing_sword
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaDualWarScythe
-  name: "парна бойова коса"
-  description: "Парна косова зброя Яутжа для ритуального ближнього бою."
+  name: dual war scythe
+  description: A paired Yautja scythe weapon for ritual close combat.
   components:
   - type: Sharp
   - type: Sprite
@@ -187,8 +187,8 @@
 - type: entity
   parent: CMUYautjaDualWarScythe
   id: CMUYautjaDoubleWarScythe
-  name: "подвійна бойова коса"
-  description: "Двоголова коса Яутжа з довшою вбивчою дугою."
+  name: double war scythe
+  description: A double-headed Yautja scythe with a longer killing arc.
   components:
   - type: Sprite
     state: double_war_scythe
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaCruelStaff
-  name: "жорстокий посох"
-  description: "Зважений посох Яутжа з підкріпленими ударними головами."
+  name: cruel staff
+  description: A weighted Yautja staff with reinforced striking heads.
   components:
   - type: Sprite
     state: cruel_staff
@@ -224,8 +224,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaCombistick
-  name: "комбі-палиця"
-  description: "Складний спис Яутжа з ланцюжковим держаком для повернення."
+  name: combi-stick
+  description: A collapsible Yautja spear with a chained haft for retrieval.
   components:
   - type: Sharp
   - type: Sprite
@@ -256,8 +256,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaWarAxe
-  name: "бойова сокира"
-  description: "Швидка сокира Яутжа, призначена для роздирання та потрошіння здобичі, з ланцюжком, прикріпленим до руків'я."
+  name: war axe
+  description: A swift Yautja axe designed to gouge and gore prey, with a chain fixed to the hilt.
   components:
   - type: Sharp
   - type: Sprite
@@ -285,8 +285,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaCeremonialDagger
-  name: "церемоніальний кинджал"
-  description: "Компактний ніж Яутжа, що використовується для обрядів, трофеїв та ближніх убивств."
+  name: ceremonial dagger
+  description: A compact Yautja knife used for rites, trophies, and close kills.
   components:
   - type: Sharp
   - type: Sprite
@@ -356,14 +356,14 @@
 - type: entity
   parent: CMUYautjaShieldBase
   id: CMUYautjaClanShield
-  name: "клановий щит"
-  description: "Важкий щит Яутжа, створений для ближніх полювань і ритуальної оборони."
+  name: clan shield
+  description: A heavy Yautja shield made for close hunts and ritual defense.
 
 - type: entity
   parent: CMUYautjaShieldBase
   id: CMUYautjaAncientShield
-  name: "стародавній щит"
-  description: "Великий стародавній щит, викуваний з невідомого золотого сплаву."
+  name: ancient shield
+  description: A large ancient shield forged from an unknown golden alloy.
   components:
   - type: Sprite
     state: ancient_shield
@@ -373,8 +373,8 @@
 - type: entity
   parent: CMUYautjaAncientShield
   id: CMUYautjaAncientShieldAlt
-  name: "стародавній щит"
-  description: "Орнаментальний стародавній щит, на якому домінує металевий череп ксеноморфа."
+  name: ancient shield
+  description: An ornate ancient shield dominated by the metal skull of a xenomorph.
   components:
   - type: Sprite
     state: ancient_shield_alt
@@ -384,8 +384,8 @@
 - type: entity
   parent: CMUYautjaAncientShield
   id: CMUYautjaAncientShieldTemple
-  name: "стародавній щит"
-  description: "Вивітрений стародавній щит із забутим церемоніальним візерунком."
+  name: ancient shield
+  description: A weathered ancient shield with a forgotten ceremonial pattern.
   components:
   - type: Sprite
     state: ancient_shield_temple
@@ -395,8 +395,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaHunterSpear
-  name: "мисливський спис"
-  description: "Спис вишуканого дизайну Яутжа, придатний для двохручних уколів."
+  name: hunter spear
+  description: A spear of exquisite Yautja design, suited for two-handed thrusts.
   components:
   - type: Sharp
   - type: Sprite
@@ -430,8 +430,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaWarGlaive
-  name: "бойова глеф"
-  description: "Дві величезні леза на металевому стрижні, вирізьблені таємничим написом."
+  name: war glaive
+  description: Two huge blades on a metallic pole, carved with mysterious writing.
   components:
   - type: Sharp
   - type: Sprite
@@ -463,8 +463,8 @@
 - type: entity
   parent: CMUYautjaWarGlaive
   id: CMUYautjaCleavingGlaive
-  name: "розрубальна глеф"
-  description: "Величезне однолезове древкове Яутжа."
+  name: cleaving glaive
+  description: A huge single-bladed Yautja polearm.
   components:
   - type: Sprite
     state: cleaving_glaive
@@ -476,8 +476,8 @@
 - type: entity
   parent: CMUYautjaWarGlaive
   id: CMUYautjaAncientWarGlaive
-  name: "стародавня бойова глеф"
-  description: "Стародавня бойова глеф з кислотними шрамами. Її лезо все ще небезпечне, але далеке від найкращих часів."
+  name: ancient war glaive
+  description: An acid-scarred ancient war glaive. Its edge is still dangerous, but far from its prime.
   components:
   - type: Sprite
     state: ancient_war_glaive
@@ -498,8 +498,8 @@
 - type: entity
   parent: CMUYautjaWarGlaive
   id: CMUYautjaLongaxe
-  name: "довга сокира"
-  description: "Жахливо велика сокира Яутжа з вищербленим, кістко-руйнуючим лезом."
+  name: longaxe
+  description: A frighteningly large Yautja axe with a chipped, bone-crushing blade.
   components:
   - type: Sprite
     state: longaxe
@@ -511,8 +511,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaDuellingBlade
-  name: "дуельний клинок"
-  description: "Примітивний, але смертельний клинок Яутжа для ритуального бою."
+  name: duelling blade
+  description: A primitive but deadly Yautja blade for ritual combat.
   components:
   - type: Sharp
   - type: Sprite
@@ -535,8 +535,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaDuellingClub
-  name: "дуельна палиця"
-  description: "Жорстока церемоніальна палиця для вирішення суперечок серед Яутжа."
+  name: duelling club
+  description: A brutal ceremonial club for settling disputes among Yautja.
   components:
   - type: Sprite
     state: duelling_club
@@ -560,8 +560,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaDuellingHatchet
-  name: "дуельна сокирка"
-  description: "Коротка церемоніальна сокирка з гострим лезом для ритуального бою."
+  name: duelling hatchet
+  description: A short ceremonial hatchet with a keen edge for ritual combat.
   components:
   - type: Sharp
   - type: Sprite
@@ -586,8 +586,8 @@
 - type: entity
   parent: CMUYautjaWeaponBase
   id: CMUYautjaDuellingKnife
-  name: "дуельний ніж"
-  description: "Грубий ритуальний ніж, утиканий гостріми як бритва зубами."
+  name: duelling knife
+  description: A crude ritual knife studded with razor-sharp teeth.
   components:
   - type: Sharp
   - type: Sprite
@@ -612,7 +612,7 @@
 - type: entity
   parent: BaseBullet
   id: CMUYautjaSpikeProjectile
-  name: "сплавний шип"
+  name: alloy spike
   categories: [ HideSpawnMenu ]
   components:
   - type: YautjaTechItem
@@ -635,8 +635,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaSpikeLauncher
-  name: "пускова установка шипів"
-  description: "Компактний пристрій Яутжа у формі півмісяця, що швидко формує і випускає сплавні шипи."
+  name: spike launcher
+  description: A compact crescent-shaped Yautja device that rapidly forms and fires alloy spikes.
   components:
   - type: YautjaTechItem
   - type: Sprite
@@ -688,8 +688,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaPlasmaRifle
-  name: "плазмова гвинтівка"
-  description: "Рідкісна енергетична гвинтівка Яутжа з внутрішнім самозарядним осередком."
+  name: plasma rifle
+  description: A rare Yautja energy rifle with an internal self-charging cell.
   components:
   - type: YautjaTechItem
   - type: Sprite
@@ -743,8 +743,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaPlasmaPistol
-  name: "плазмовий пістолет"
-  description: "Компактна плазмова коротка зброя Яутжа з малим самозарядним осередком."
+  name: plasma pistol
+  description: A compact Yautja plasma sidearm with a small self-charging cell.
   components:
   - type: YautjaTechItem
   - type: Sprite

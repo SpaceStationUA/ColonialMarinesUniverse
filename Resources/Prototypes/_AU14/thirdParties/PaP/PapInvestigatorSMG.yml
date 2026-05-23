@@ -47,7 +47,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicPAPThirdparty
   id: AU14JobPaPThirdpartyInvestigatorSMG
-  name: "слідчий PAP УПП (SMG)"
+  name: UPP PAP Investigator (SMG)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -1,6 +1,6 @@
 - type: entity
   id: AUShepFloorWaterEntity
-  name: "мілка вода"
+  name: shallow water
   description: ""
   abstract: true
   placement:

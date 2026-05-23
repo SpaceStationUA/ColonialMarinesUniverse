@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCSynthExperimentalToolsToken
-  name: "жетон експериментальних інструментів синтетика"
-  description: "Жетон «Вестон-Ямада», уповноважений для одного синтетичного допоміжного підрозділу для отримання з кешу експериментальних інструментів."
+  name: synthetic experimental tools token
+  description: A Weston-Yamada token authorized for one synthetic support unit to draw from the experimental tools cache.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/synth_token.rsi

@@ -122,8 +122,8 @@
 - type: entity
   parent: Multitool
   id: CMMultitool
-  name: "налаштовувач доступу"
-  description: "Невеликий ручний інструмент, що використовується для перевизначення або з'єднання різних функцій машин."
+  name: access tuner
+  description: A small handheld tool used to override or connect various machine functions.
   suffix: Multitool
   components:
   - type: Sprite
@@ -162,8 +162,8 @@
 - type: entity
   parent: trayScanner
   id: CMTRayScanner
-  name: "t-променевий сканер"
-  description: "Високотехнологічний сканувальний пристрій, що використовує терагерцове випромінювання для виявлення підпідлогової інфраструктури."
+  name: t-ray scanner
+  description: A high-tech scanning device that uses terahertz radiation to detect subfloor infrastructure.
   suffix: trayScanner
   components:
   - type: Sprite
@@ -251,7 +251,7 @@
 - type: entity
   parent: CMCrowbar
   id: CMCrowbarRed
-  name: "аварійний лом"
+  name: emergency crowbar
   components:
   - type: Tag
     tags:
@@ -266,8 +266,8 @@
 - type: entity
   parent: BaseItem
   id: MaintenanceJack
-  name: "домкрат для обслуговування транспорту"
-  description: "Важкоміцний домкрат для обслуговування броньованих транспортних засобів. Працює там, де лом не може."
+  name: vehicle maintenance jack
+  description: A heavy-duty hardpoint jack for servicing armored vehicles. Works where a crowbar can't.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/maintenance_jack.rsi
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMCrowbar
   id: RMCTacticalPrybar
-  name: "тактичний лом"
-  description: "Тримати його викликає бажання штурмувати таунхаус, повний терористів. Також слугує тупою зброєю."
+  name: tactical prybar
+  description: Holding this makes you want to raid a townhouse filled with terrorists. Also doubles as a blunt weapon.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/tac_prybar.rsi
@@ -323,8 +323,8 @@
 - type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCMaintenanceJack
-  name: "обслуговуючий домкрат"
-  description: "Важкий обслуговуючий інструмент синтетичного класу, що може зривати двері та працювати як гайковий ключ."
+  name: maintenance jack
+  description: A heavy synthetic-grade maintenance tool that can pry doors and work as a wrench.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/maintenance_jack.rsi
@@ -420,8 +420,8 @@
 - type: entity
   parent: BaseItem
   id: RMCWireSnappers
-  name: "дротові кусачки"
-  description: "Щелепи ідеальні для перекушування великих дротів та інших дрібних металевих частинок, але занадто важкі для делікатної роботи."
+  name: wire snappers
+  description: The jaws are perfect for snipping large wires and other small metal bits, but are a bit too heavy for delicate work.
   suffix: INSTANT, Repeating
   components:
   - type: RMCDeviceBreaker

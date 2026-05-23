@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineCaselessRifle
-  name: "базовий магазин безгільзової гвинтівки (.25 caseless)"
+  name: "magazine (.25 caseless)"
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: BaseMagazineCaselessRifleShort
-  name: "короткий базовий магазин безгільзової гвинтівки (.25 caseless)"
+  name: "caseless rifle short magazine (.25 caseless)"
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: BaseMagazinePistolCaselessRifle
-  name: "пістолетний магазин (.25 caseless)"
+  name: "pistol magazine (.25 caseless)"
   parent: BaseMagazineCaselessRifle
   abstract: true
   components:
@@ -83,7 +83,7 @@
 
 - type: entity
   id: MagazineCaselessRifle10x24
-  name: "коробчастий магазин (.25 caseless)"
+  name: "box magazine (.25 caseless)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -98,9 +98,9 @@
 
 - type: entity
   id: MagazinePistolCaselessRifle
-  name: "пістолетний магазин (.25 caseless)"
+  name: "pistol magazine (.25 caseless)"
   parent: BaseMagazinePistolCaselessRifle
-  description: "10-зарядний магазин для пістолета Cobra. Призначений для зберігання кінетичних набоїв загального призначення."
+  description: 10-round magazine for the Cobra pistol. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRifle
@@ -126,9 +126,9 @@
 
 - type: entity
   id: MagazinePistolCaselessRiflePractice
-  name: "пістолетний магазин (.25 caseless practice)"
+  name: "pistol magazine (.25 caseless practice)"
   parent: BaseMagazinePistolCaselessRifle
-  description: "10-зарядний магазин для пістолета Cobra. Призначений для зберігання нешкідливих крейдяних набоїв."
+  description: 10-round magazine for the Cobra pistol. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgeCaselessRiflePractice
@@ -159,7 +159,7 @@
 
 - type: entity
   id: MagazineCaselessRifle
-  name: "базовий магазин безгільзової гвинтівки (.25 caseless)"
+  name: "magazine (.25 caseless)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -179,7 +179,7 @@
 
 - type: entity
   id: MagazineCaselessRiflePractice
-  name: "магазин (.25 caseless practice)"
+  name: "magazine (.25 caseless practice)"
   parent: BaseMagazineCaselessRifle
   components:
   - type: BallisticAmmoProvider
@@ -205,7 +205,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShort
-  name: "короткий магазин (.25 caseless)"
+  name: "short magazine (.25 caseless)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider
@@ -226,7 +226,7 @@
 
 - type: entity
   id: MagazineCaselessRifleShortPractice
-  name: "короткий магазин (.25 caseless practice)"
+  name: "short magazine (.25 caseless practice)"
   parent: BaseMagazineCaselessRifleShort
   components:
   - type: BallisticAmmoProvider

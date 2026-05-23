@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRMCRRT
   id: AU14JobRMCRRTCommander
-  name: "командир загону реагування КМП"
+  name: RMC reaction troop commander
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

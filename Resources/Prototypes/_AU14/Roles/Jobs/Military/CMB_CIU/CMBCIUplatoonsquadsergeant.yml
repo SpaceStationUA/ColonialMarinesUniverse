@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantCMBCIU
-  name: "лідер групи"
+  name: Team Leader
   description: au14-job-description-govforsquadsergeant
   setPreference: false
   canBeAntag: false

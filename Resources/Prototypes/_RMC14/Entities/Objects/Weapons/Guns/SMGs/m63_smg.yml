@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: "пістолет-кулемет M39"
+  name: M39 submachine gun
   id: WeaponSMGM63
-  description: "Пістолет-кулемет ARMAT Battlefield Armaments M39. Інколи носять легкі піхотинці, розвідники, інженери та медики."
+  description: The ARMAT Battlefield Armaments M39 submachinegun. Occasionally carried by light-infantry, scouts, engineers and medics.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63/desert.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineSMGM63
-  name: "Магазин M39 HV (10x20мм)"
+  name: "M39 HV magazine (10x20mm)"
   components:
   - type: Tag
     tags:
@@ -170,7 +170,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: CMMagazineSMGM63AP
-  name: "Бронебійний магазин M39 (10x20мм)"
+  name: "M39 AP magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -196,7 +196,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: RMCMagazineSMGM63HEAP
-  name: "Магазин M39 HEAP (10x20мм)"
+  name: "M39 HEAP magazine (10x20mm)"
   suffix: HEAP
   components:
   - type: BallisticAmmoProvider
@@ -231,7 +231,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: RMCMagazineSMGM63WP
-  name: "Магазин M63 WP (10x20мм)"
+  name: "M63 WP magazine (10x20mm)"
   suffix: WP
   components:
   - type: BallisticAmmoProvider
@@ -258,7 +258,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: RMCMagazineSMGM63Incendiary
-  name: "Запалювальний магазин M63 (10x20мм)"
+  name: "M63 incendiary magazine (10x20mm)"
   suffix: Incendiary
   components:
   - type: BallisticAmmoProvider
@@ -285,7 +285,7 @@
 - type: entity
   parent: CMMagazineSMGM63
   id: CMMagazineSMGM63Ext
-  name: "Подовжений магазин M39 (10x20мм)"
+  name: "M39 extended magazine (10x20mm)"
   components:
   - type: BallisticAmmoProvider
     capacity: 72
@@ -304,7 +304,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: CMCartridge10x20mm
-  name: "набій (10x20мм)"
+  name: cartridge (10x20mm)
   components:
   - type: Tag
     tags:
@@ -316,7 +316,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: CMCartridge10x20mmAP
-  name: "бронебійний набій (10x20мм)"
+  name: AP cartridge (10x20mm)
   components:
   - type: Tag
     tags:
@@ -328,7 +328,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge10x20mmHEAP
-  name: "набій HEAP (10x20мм)"
+  name: HEAP cartridge (10x20mm)
   components:
   - type: Tag
     tags:
@@ -340,7 +340,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge10x20mmWP
-  name: "набій WP (10x20мм)"
+  name: WP cartridge (10x20mm)
   components:
   - type: Tag
     tags:
@@ -352,7 +352,7 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge10x20mmIncendiary
-  name: "запалювальний набій (10x20мм)"
+  name: incendiary cartridge (10x20mm)
   components:
   - type: Tag
     tags:

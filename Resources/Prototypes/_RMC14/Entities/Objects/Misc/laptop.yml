@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCDropshipMaintsComputer
-  name: "комп'ютер обслуговування десантного корабля"
-  description: "Відкритий комп'ютер обслуговування десантного корабля; здається, він вимкнений. Використовується техніками й пілотами для пошуку пошкоджених або зламаних систем на десантному кораблі. Має різні роз'єми для різних систем."
+  name: dropship maintenance computer
+  description: An opened dropship maintenance computer, it seems to be off however. It's used by technicians and pilots to find damaged or broken systems on a dropship. It has various outlets for different systems.
   suffix: Open
   components:
   - type: Sprite
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCDropshipMaintsComputer
   id: RMCDropshipMaintsComputerOpen
-  name: "комп'ютер обслуговування десантного корабля"
-  description: "Закритий комп'ютер обслуговування десантного корабля, який техніки й пілоти використовують для з'ясування проблем з десантним кораблем. Має різні роз'єми для різних систем."
+  name: dropship maintenance computer
+  description: A closed dropship maintenance computer that technicians and pilots use to find out what's wrong with a dropship. It has various outlets for different systems.
   suffix: Closed
   components:
   - type: Sprite

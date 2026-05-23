@@ -56,7 +56,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorGoon
-  name: "спавнер бандита-вцілілого"
+  name: survivor goon spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor

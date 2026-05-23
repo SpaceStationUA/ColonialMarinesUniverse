@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
   id: RMCDeskFanTan
-  name: "настільний вентилятор"
-  description: "Великий міцний бежевий настільний вентилятор, який, схоже, не зламається до теплової смерті всесвіту, хоча гарантія закінчилася через 2 роки після виробництва. Логотип «Вестон-Ямада» наліплений з обох боків."
+  name: desk fan
+  description: A large sturdy tan desk fan which looks like it won't break until the heat-death of the universe, although the warranty expired 2 years after manufacture. The Weston-Yamada logo is plastered on both sides.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/desk_fan.rsi

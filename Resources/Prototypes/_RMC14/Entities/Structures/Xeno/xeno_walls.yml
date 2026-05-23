@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWallXeno
   id: WallXenoResin
-  name: "смоляна стіна"
-  description: "Дивний слиз, що затвердів у стіну."
+  name: resin wall
+  description: Weird slime solidified into a wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinThick
-  name: "товста смоляна стіна"
-  description: "Дивний слиз, що затвердів у товсту стіну."
+  name: thick resin wall
+  description: Weird slime solidified into a thick wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMBaseWallXeno
   id: BaseMembraneXeno
-  name: "смоляна мембрана"
+  name: resin membrane
   abstract: true
   components:
   - type: Destructible
@@ -125,8 +125,8 @@
 - type: entity
   parent: BaseMembraneXeno
   id: WallXenoMembrane
-  name: "смоляна мембрана"
-  description: "Дивний слиз, достатньо прозорий, щоб пропускати світло."
+  name: resin membrane
+  description: Weird slime translucent enough to let light pass through.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: BaseMembraneXeno
   id: WallXenoMembraneThick
-  name: "товста смоляна мембрана"
-  description: "Дивний товстий слиз, ледь прозорий, щоб пропускати світло."
+  name: thick resin membrane
+  description: Weird thick slime just translucent enough to let light pass through.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_resin_wall.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinWeak
-  name: "слабка резинова стіна"
-  description: "Дивний слиз, що затвердів у стіну. Вона вже виглядає на межі обвалу..."
+  name: weak resin wall
+  description: Weird slime solidified into a wall. It already looks on the verge of collapsing...
   components:
   - type: Destructible
     thresholds:
@@ -200,8 +200,8 @@
 - type: entity
   parent: WallXenoResin
   id: WallXenoResinWeedbound
-  name: "резинова стіна, переплетена бур'янами"
-  description: "Дивний слиз, що затвердів у стіну й переплівся з бур'янами."
+  name: weedbound resin wall
+  description: Weird slime solidified into a wall, bound to weeds.
   components:
   - type: GuideHelp
     guides:
@@ -222,8 +222,8 @@
 - type: entity
   parent: WallXenoResinThick
   id: WallXenoResinThickWeedbound
-  name: "товста резинова стіна, переплетена бур'янами"
-  description: "Дивний слиз, що затвердів у товсту стіну й переплівся з бур'янами."
+  name: thick weedbound resin wall
+  description: Weird slime solidified into a thick wall, bound to weeds.
   components:
   - type: GuideHelp
     guides:
@@ -243,8 +243,8 @@
 - type: entity
   parent: WallXenoResinThick
   id: WallXenoResinThickSurge
-  name: "Нестабільна резинова стіна"
-  description: "Поспіхом збудована резинова стіна. Довго не протримається."
+  name: Unstable resin wall
+  description: A hastily-constructed resin wall. It won't last long.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

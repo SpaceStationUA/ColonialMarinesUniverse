@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Arachnid
-  name: "арахнід"
+  name: "arachnid"
   root: torso
   slots:
     head:

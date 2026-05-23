@@ -1,7 +1,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperExecutionOrder
-  name: "наказ про страту"
+  name: execution order
   components:
   - type: Paper
     contentSize: 20000
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP304
-  name: "форма заявки на арсенал P-304"
+  name: P-304 armory request form
   components:
   - type: Paper
     contentSize: 20000
@@ -86,7 +86,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP399
-  name: "форма повернення спорядження P-399"
+  name: P-399 gear retrieval form
   components:
   - type: Paper
     contentSize: 20000
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP401
-  name: "звіт про інцидент P-401"
+  name: P-401 incident report
   components:
   - type: Paper
     contentSize: 20000
@@ -167,7 +167,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP402
-  name: "листування з прево P-402"
+  name: P-402 provost correspondence
   components:
   - type: Paper
     contentSize: 20000
@@ -192,7 +192,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP403
-  name: "звіт про арешт P-403"
+  name: P-403 arrest report
   components:
   - type: Paper
     contentSize: 20000
@@ -229,7 +229,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP404
-  name: "свідчення P-404"
+  name: P-404 witness statement
   components:
   - type: Paper
     contentSize: 20000
@@ -256,7 +256,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP415
-  name: "запис про зловживання владою P-415"
+  name: P-415 record of misuse of authority
   components:
   - type: Paper
     contentSize: 20000
@@ -285,7 +285,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP508
-  name: "ордер на обшук P-508"
+  name: P-508 search warrant
   components:
   - type: Paper
     contentSize: 20000
@@ -324,7 +324,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP509
-  name: "ордер на арешт P-509"
+  name: P-509 arrest warrant
   components:
   - type: Paper
     contentSize: 20000
@@ -369,7 +369,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP512
-  name: "заявка на розгортання P-512"
+  name: P-512 deployment request
   components:
   - type: Paper
     contentSize: 20000
@@ -402,7 +402,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP605
-  name: "звіт про інцидент P-605"
+  name: P-605 incident report
   components:
   - type: Paper
     contentSize: 20000
@@ -448,7 +448,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP701
-  name: "контрольний список ув'язнення P-701"
+  name: P-701 brigging checklist
   components:
   - type: Paper
     contentSize: 20000
@@ -509,7 +509,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperP702
-  name: "контрольний список обробки P-702"
+  name: P-702 processing checklist
   components:
   - type: Paper
     contentSize: 20000
@@ -579,7 +579,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperCLFVaradero
-  name: "SOS!"
+  name: SOS!
   components:
   - type: Paper
     contentSize: 20000
@@ -598,7 +598,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperCLFRocinante
-  name: "Журнал капітана"
+  name: Captain's Log
   components:
   - type: Paper
     contentSize: 20000

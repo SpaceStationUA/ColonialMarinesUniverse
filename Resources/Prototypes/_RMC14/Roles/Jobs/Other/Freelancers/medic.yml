@@ -36,7 +36,7 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerMedicHostile
-  name: "фрілансер привид-роль медика"
+  name: freelancer ghost role medic
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerMedicFriendly
-  name: "фрілансер привид-роль медика"
+  name: freelancer ghost role medic
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

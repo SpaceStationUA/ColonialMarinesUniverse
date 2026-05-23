@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: VehicleSupplyConsole
-  name: "консоль постачання транспорту"
-  description: "Консоль для замовлення транспортних засобів та їхніх кріплень."
+  name: vehicle supply console
+  description: A console for ordering vehicles and their hardpoints.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/asrs_console.rsi
@@ -153,7 +153,7 @@
 
 - type: entity
   id: VehicleLift
-  name: "підйомник транспорту"
+  name: vehicle lift
   suffix: Lowered, Vehicle Supply
   placement:
     mode: SnapgridCenter

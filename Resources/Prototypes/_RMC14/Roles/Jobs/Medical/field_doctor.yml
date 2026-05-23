@@ -50,7 +50,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFieldDoctor
-  name: "спавнер польового лікаря"
+  name: field doctor spawn point
   components:
   - type: SpawnPoint
     job_id: RMCFieldDoctor

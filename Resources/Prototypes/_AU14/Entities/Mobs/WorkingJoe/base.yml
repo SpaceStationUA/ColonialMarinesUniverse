@@ -2,7 +2,7 @@
   save: false
   parent: RMCBaseMobSpeciesOrganic
   id: AU14MobWorkingJoe
-  name: "Уріст МакДжо"
+  name: Urist McJoe
   suffix: AU14, Base
   components:
   - type: Sprite

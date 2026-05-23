@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14WebbingDropPouch
   id: AU14WebbingDropPouchRMC
-  name: "скидна підсумка королівських морпіхів"
-  description: "Зручна підсумка для перенесення дрібних речей."
+  name: royal marine drop pouch
+  description: A convenient pouch to carry loose items around.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/RMC/webbings/droppouch.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: AU14WebbingAdminPouch
   id: AU14WebbingAdminPouchRMC
-  name: "адміністративна підсумка королівських морпіхів"
-  description: "Підсумка для перенесення адміністративного спорядження."
+  name: royal marine admin pouch
+  description: A pouch to carry your administrative equipment around.
   components:
     - type: Sprite
       sprite: _AU14/Clothing/RMC/webbings/adminpouch.rsi

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: JumpsuitMarine
   id: RMCJumpsuitHEFA
-  name: "форма HEFA"
-  description: "Стандартна форма HEFA. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: HEFA uniform
+  description: Standard-issue HEFA uniform. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: WebbingClothing
     startingWebbing: RMCWebbingHEFA

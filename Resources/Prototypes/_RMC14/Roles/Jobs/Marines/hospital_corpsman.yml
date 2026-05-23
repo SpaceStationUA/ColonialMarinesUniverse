@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointHospitalCorpsman
-  name: "спавнер шпитального корпсмена"
+  name: hospital corpsman spawn point
   components:
   - type: SpawnPoint
     job_id: CMHospitalCorpsman
@@ -143,8 +143,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleHM
-  name: "Шпитальний корпсмен"
-  description: "Шпитальний корпсмен"
+  name: Hospital Corpsman
+  description: Hospital Corpsman
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

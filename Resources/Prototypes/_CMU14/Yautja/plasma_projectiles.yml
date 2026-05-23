@@ -183,7 +183,7 @@
 - type: entity
   parent: CMUYautjaPlasmaBoltBase
   id: CMUYautjaPlasmaPistolBolt
-  name: "плазмовий пістолетний болт"
+  name: plasma pistol bolt
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -213,7 +213,7 @@
 - type: entity
   parent: CMUYautjaPlasmaBoltBase
   id: CMUYautjaPlasmaRifleBolt
-  name: "плазмовий гвинтівковий болт"
+  name: plasma rifle bolt
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -251,7 +251,7 @@
 - type: entity
   parent: CMUYautjaPlasmaBoltBase
   id: CMUYautjaCasterStunBolt
-  name: "оглушливий болт"
+  name: stun bolt
   categories: [ HideSpawnMenu ]
   components:
   - type: StaminaDamageOnCollide
@@ -268,7 +268,7 @@
 - type: entity
   parent: CMUYautjaPlasmaBoltBase
   id: CMUYautjaCasterImmobilizerBolt
-  name: "плазмовий іммобілайзер"
+  name: plasma immobilizer
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -296,7 +296,7 @@
 - type: entity
   parent: CMUYautjaPlasmaBoltBase
   id: CMUYautjaCasterLethalBolt
-  name: "плазмовий болт"
+  name: plasma bolt
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -336,7 +336,7 @@
 - type: entity
   parent: CMUYautjaPlasmaBoltBase
   id: CMUYautjaCasterEradicatorBolt
-  name: "плазмовий ерадикатор"
+  name: plasma eradicator
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

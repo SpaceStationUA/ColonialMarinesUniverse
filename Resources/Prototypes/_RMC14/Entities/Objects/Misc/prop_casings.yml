@@ -2,8 +2,8 @@
   parent: BaseItem
   id: RMCBasePropCasing
   abstract: true
-  name: "стріляна гільза"
-  description: "Тепер порожня й непридатна."
+  name: spent casing
+  description: Empty and useless now.
   suffix: Prop
   components:
   - type: Fixtures

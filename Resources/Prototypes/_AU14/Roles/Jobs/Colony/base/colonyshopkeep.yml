@@ -47,7 +47,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianShopkeep
-  name: "точка появи крамаря"
+  name: Spawn Point Shopkeep
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianShopkeep

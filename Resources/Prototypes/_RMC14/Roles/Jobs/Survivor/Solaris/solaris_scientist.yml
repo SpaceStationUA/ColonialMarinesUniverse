@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisScientist
-  name: "спавнер науковця соляріс-вцілілого"
+  name: survivor solaris scientist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisScientist

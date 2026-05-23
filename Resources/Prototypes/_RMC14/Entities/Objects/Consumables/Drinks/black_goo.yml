@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: DrinkBaseCup
   id: RMCBlackGooGlass
-  name: "дивна пляшка"
-  description: "Дивна пляшка невідомого походження."
+  name: strange bottle
+  description: A strange bottle of unknown origin.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -50,8 +50,8 @@
   parent: RMCBlackGooGlass
   id: RMCBlackGooGlassAntiZedFull
   suffix: DO NOT MAP, AntiZed, full
-  name: "ще дивніша пляшка"
-  description: "Пляшка з синьою етикеткою «ЛІКИ»..."
+  name: even stranger bottle
+  description: A bottle of blue labeled CURE...
   components:
   - type: SolutionContainerManager
     solutions:

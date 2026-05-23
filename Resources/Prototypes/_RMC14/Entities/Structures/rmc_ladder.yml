@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCLadder
-  name: "драбина"
-  description: "Міцна металева драбина."
+  name: ladder
+  description: A sturdy metal ladder.
   placement:
     mode: SnapgridCenter
   components:
@@ -52,8 +52,8 @@
 - type: entity
   parent: RMCLadder
   id: RMCLadderRope
-  name: "мотузка"
-  description: "Міцна мотузка."
+  name: rope
+  description: A sturdy rope.
   components:
   - type: Sprite
     state: rope

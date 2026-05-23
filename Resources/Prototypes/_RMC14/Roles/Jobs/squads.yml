@@ -17,7 +17,7 @@
 - type: entity
   parent: SquadBase
   id: SquadAlpha
-  name: "Альфа"
+  name: Alpha
   components:
   - type: SquadTeam
     # roundStart: true
@@ -32,7 +32,7 @@
 - type: entity
   parent: SquadBase
   id: SquadBravo
-  name: "Браво"
+  name: Bravo
   components:
   - type: SquadTeam
     # roundStart: true
@@ -47,7 +47,7 @@
 - type: entity
   parent: SquadBase
   id: SquadCharlie
-  name: "Чарлі"
+  name: Charlie
   components:
   - type: SquadTeam
     # roundStart: true
@@ -62,7 +62,7 @@
 - type: entity
   parent: SquadBase
   id: SquadDelta
-  name: "Дельта"
+  name: Delta
   components:
   - type: SquadTeam
     # roundStart: true
@@ -77,7 +77,7 @@
 - type: entity
   parent: SquadBase
   id: SquadEcho
-  name: "Ехо"
+  name: Echo
   components:
   - type: SquadTeam
     color: "#67D692"
@@ -94,7 +94,7 @@
 - type: entity
   parent: SquadBase
   id: SquadFoxtrot
-  name: "Фокстрот"
+  name: Foxtrot
   components:
   - type: SquadTeam
     color: "#C47A50"
@@ -112,7 +112,7 @@
 - type: entity
   parent: SquadBase
   id: SquadIntel
-  name: "Допоміжний"
+  name: Auxiliary
   components:
   - type: SquadTeam
     color: "#053818"
@@ -141,7 +141,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPMC
-  name: "Корпоративний"
+  name: Corporate
   components:
   - type: SquadTeam
     color: "#FFAC1C"
@@ -172,7 +172,7 @@
 - type: entity
   parent: SquadBase
   id: SquadFreelancer
-  name: "Фрілансер"
+  name: Freelancer
   components:
   - type: SquadTeam
     color: "#4559F5"
@@ -197,7 +197,7 @@
 - type: entity
   parent: SquadBase
   id: SquadRoyalMarines
-  name: "Королівські Морпіхи"
+  name: Royal Marines
   components:
   - type: SquadTeam
     color: "#3D6F43"
@@ -222,7 +222,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPara
-  name: "Парашутні Морпіхи"
+  name: Para Marines
   components:
   - type: SquadTeam
     color: "#3D6F43"
@@ -253,7 +253,7 @@
 - type: entity
   parent: SquadBase
   id: SquadProvost
-  name: "Провост"
+  name: Provost
   components:
   - type: SquadTeam
     color: "#990218"
@@ -278,7 +278,7 @@
 - type: entity
   parent: SquadBase
   id: SquadFORECON
-  name: "Розвідка"
+  name: Recon
   components:
   - type: SquadTeam
     color: "#32CD32"
@@ -303,7 +303,7 @@
 - type: entity
   parent: SquadBase
   id: SquadSOF
-  name: "SOF"
+  name: SOF
   components:
   - type: SquadTeam
     color: "#400000"

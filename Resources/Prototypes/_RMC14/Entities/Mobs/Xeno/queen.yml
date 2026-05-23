@@ -7,8 +7,8 @@
   - RMCXenoSpeechSounds
   - RMCXenoMobCollision
   id: RMCXenoQueenBase
-  name: "Королева"
-  description: "Величезне, нависаюче прибулецьке створіння. Найбільша і найзліша."
+  name: Queen
+  description: A huge, looming alien creature. The biggest and the baddest.
   components:
   - type: CanBuildThickFromConstructNode
   - type: GuideHelp
@@ -318,8 +318,8 @@
 - type: entity
   parent: StationAiHolo
   id: RMCQueenEye
-  name: "око королеви"
-  description: "Здається, це візуальна проєкція когось."
+  name: queen eye
+  description: It seems to be a visual projection of someone.
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Sprite

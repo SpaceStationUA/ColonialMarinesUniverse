@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoOob
-  name: "Поза межами"
+  name: Out Of Bounds
   components:
   - type: Sprite
     state: unknown
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoLZ1
-  name: "Босенморі Башьо — Висадка біля Нексуса"
+  name: Bosenmori Basho - Nexus Landing
   components:
   - type: Sprite
     state: noop
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoLZ1
   id: RMCAreaBosenmoriBashoLZ2
-  name: "Босенморі Башьо — Корпоративна висадка"
+  name: Bosenmori Basho - Corporate Landing
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoLZ1
   id: RMCAreaBosenmoriBashoLZ3
-  name: "Босенморі Башьо — Вхід у печеру"
+  name: Bosenmori Basho - Cave Entry
   components:
   - type: Area
     linkedLz: dropship_lz3
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoUnknownCaves
-  name: "Невідомо"
+  name: Unknown
   components:
   - type: Sprite
     state: cave
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoFirstLevelCaves
-  name: "Підземна мережа печер"
+  name: Underground Cave Network
   components:
   - type: Sprite
     state: away2
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoRuinsInternal
-  name: "Внутрішні руїни"
+  name: Ruins Interal
   components:
   - type: Sprite
     state: away
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoAbandonedSector
-  name: "Покинутий сектор"
+  name: Abandoned Sector
   components:
   - type: Sprite
     state: cave
@@ -122,7 +122,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoAbandonedDome
-  name: "Покинутий купол"
+  name: Abandoned Dome
   components:
   - type: Sprite
     state: cave
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoPilgrimPath
-  name: "Шлях паломника"
+  name: Pilgrim Path
   components:
   - type: Sprite
     state: away1
@@ -138,7 +138,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoPilgrimPath
   id: RMCAreaBosenmoriBashoDrowningCrow
-  name: "Топлячий Ворон"
+  name: The Drowning Crow
   components:
   - type: Sprite
     state: away1
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoFieldResearchSite
-  name: "Польовий дослідницький об'єкт"
+  name: Field Research Site
   components:
   - type: Sprite
     state: away2
@@ -165,7 +165,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoFieldResearchSiteInside
-  name: "Польовий дослідницький об'єкт"
+  name: Field Research Site
   suffix: Bosenmori Basho Area, Inside
   components:
   - type: Sprite
@@ -174,7 +174,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoNorthBarrens
-  name: "Північні пустоші"
+  name: North Barrens
   components:
   - type: Sprite
     state: red
@@ -182,7 +182,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoFiltration
-  name: "Сектор фільтрації"
+  name: Filtration Sector
   components:
   - type: Sprite
     state: bluenew
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoFiltrationInside
-  name: "Відділ фільтрації"
+  name: Filtration Department
   components:
   - type: Sprite
     state: bluenew
@@ -198,7 +198,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoCavernRiver
-  name: "Печерна річка"
+  name: Cavern River
   components:
   - type: Sprite
     state: red
@@ -206,7 +206,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoRiver
-  name: "Річка Босенморі"
+  name: Bosenmori River
   components:
   - type: Sprite
     state: bluenew
@@ -214,7 +214,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoWestSector
-  name: "Західний сектор"
+  name: West Sector
   components:
   - type: Sprite
     state: west
@@ -224,7 +224,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoWestBarrens
-  name: "Західні пустоші"
+  name: West Barrens
   components:
   - type: Sprite
     state: west
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoSecuredArmory
-  name: "Захищена збройова"
+  name: Secure Armory
   components:
   - type: Sprite
     state: storage
@@ -244,7 +244,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoSouthWestSector
-  name: "Південно-західний сектор"
+  name: Southwest Sector
   components:
   - type: Sprite
     state: southwest
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoSouthEastSector
-  name: "Південно-східний сектор"
+  name: Southeast Sector
   components:
   - type: Sprite
     state: southeast
@@ -264,7 +264,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoEastSector
-  name: "Східний сектор"
+  name: East Sector
   components:
   - type: Sprite
     state: east
@@ -274,7 +274,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoNorthSector
-  name: "Північний сектор"
+  name: North Sector
   components:
   - type: Sprite
     state: north
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoMountainClearing
-  name: "Гірська галявина"
+  name: Mountain Clearing
   components:
   - type: Sprite
     state: away1
@@ -294,7 +294,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoCorporateDome
-  name: "Корпоративний купол Вестон-Ямада"
+  name: Weston-Yamada Corporate Dome
   components:
   - type: Sprite
     state: bluenew
@@ -304,7 +304,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoTelecomms
-  name: "Відділ телекомунікацій"
+  name: Telecommunication Department
   components:
   - type: Sprite
     state: yellow
@@ -312,17 +312,17 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoTelecomms
   id: RMCAreaBosenmoriBashoEngineering
-  name: "Інженерний відділ"
+  name: Engineering Department
 
 - type: entity
   parent: RMCAreaBosenmoriBashoCorporateDome
   id: RMCAreaBosenmoriBashoHumanResources
-  name: "Відділ кадрів"
+  name: Human Resources Department
 
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoTerrarnium
-  name: "Тераріум"
+  name: Terrarium
   components:
   - type: Area
     weatherEnabled: true
@@ -332,7 +332,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoLivingSector
-  name: "Житловий сектор"
+  name: Living Sector
   components:
   - type: Sprite
     state: crew_quarters
@@ -342,7 +342,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoResearch
-  name: "Дослідницький відділ"
+  name: Research Department
   components:
   - type: Sprite
     state: research
@@ -350,7 +350,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoGym
-  name: "Спортзал"
+  name: Gym
   components:
   - type: Sprite
     state: fitness
@@ -358,7 +358,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoMedical
-  name: "Медичний"
+  name: Medical
   components:
   - type: Sprite
     state: medbay3
@@ -366,7 +366,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoFoodProcessing
-  name: "Відділ обробки їжі"
+  name: Food Porcessing Department
   components:
   - type: Sprite
     state: hydro
@@ -374,7 +374,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoConstruction
-  name: "Будмайданчик"
+  name: Construction Site
   components:
   - type: Sprite
     state: storage
@@ -382,7 +382,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriBashoCargo
-  name: "Карго-відділ"
+  name: Cargo Department
   components:
   - type: Sprite
     state: storage
@@ -392,12 +392,12 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoCargo
   id: RMCAreaBosenmoriBashoShipment
-  name: "Відділ відвантаження"
+  name: Shipment Department
 
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriKitchen
-  name: "Відділ кухні"
+  name: Kitchen Department
   components:
   - type: Sprite
     state: kitchen
@@ -407,7 +407,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriNexusMain
-  name: "Головна зала Нексуса"
+  name: Nexus Main Hall
   components:
   - type: Sprite
     state: hallc1
@@ -417,7 +417,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriSecurityDepartment
-  name: "Відділ охорони"
+  name: Security Department
   components:
   - type: Sprite
     state: security
@@ -427,7 +427,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriArmory
-  name: "Збройова"
+  name: Armory
   components:
   - type: Sprite
     state: armory
@@ -437,7 +437,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriSurplusStore
-  name: "Магазин надлишків"
+  name: Surplus Store
   components:
   - type: Sprite
     state: bunker01_storage
@@ -447,7 +447,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoDrowningCrow
   id: RMCAreaBosenmoriColonyOperation
-  name: "Операційний центр колонії"
+  name: Colony Operation center
   components:
   - type: Sprite
     state: bluenew
@@ -457,7 +457,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoMaintenanceSegment
-  name: "Сегмент обслуговування"
+  name: Maintenance Segment
   components:
   - type: Sprite
     state: away1
@@ -467,7 +467,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoCorporateLow
-  name: "Корпоративний — Нижній рівень"
+  name: Corporate Lower Level
   components:
   - type: Sprite
     state: bluenew
@@ -477,7 +477,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoSecuredArmoryLow
-  name: "Захищена збройова — Нижній рівень"
+  name: Secure Armory Lower Level
   components:
   - type: Sprite
     state: storage
@@ -487,7 +487,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoEngineeringLow
-  name: "Інженерний — Нижній рівень"
+  name: Engineering Lower Level
   components:
   - type: Sprite
     state: yellow
@@ -497,12 +497,12 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoUndergroundCaveNetwork
-  name: "Підземна локальна мережа печер"
+  name: Underground Local Cave Network
 
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoShipmentLow
-  name: "Відвантаження — Нижній рівень"
+  name: Shipment Lower Level
   components:
   - type: Sprite
     state: storage
@@ -512,7 +512,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoNexusLow
-  name: "Нексус — Нижній рівень"
+  name: Nexus Lower Level
   components:
   - type: Sprite
     state: hallc1
@@ -522,7 +522,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoArmoryLow
-  name: "Збройова — Нижній рівень"
+  name: Armory Lower Level
   components:
   - type: Sprite
     state: armory
@@ -532,7 +532,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoEmergencyOpLow
-  name: "Аварійні операції — Нижній рівень"
+  name: Emergency Operations Lower Level
   components:
   - type: Sprite
     state: hallc1
@@ -542,12 +542,12 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoEngineeringLow
   id: RMCAreaBosenmoriBashoSewageSystem
-  name: "Каналізаційна система Босенморі"
+  name: Bosenmori Sewage System
 
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoResearchLow
-  name: "Дослідження — Нижній рівень"
+  name: Research Lower Level
   components:
   - type: Sprite
     state: research
@@ -555,7 +555,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoTerraniumLow
-  name: "Тераріум — Нижній рівень"
+  name: Terrarium Lower Level
   components:
   - type: Sprite
     state: away2
@@ -563,7 +563,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoFoodLow
-  name: "Обробка їжі — Нижній рівень"
+  name: Food Processing Lower Level
   components:
   - type: Sprite
     state: away3
@@ -571,7 +571,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoCargoLow
-  name: "Карго — Нижній рівень"
+  name: Cargo Lower Level
   components:
   - type: Sprite
     state: storage
@@ -581,7 +581,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoSandTemple
-  name: "Піщаний храм"
+  name: Sand Temple
   components:
   - type: Sprite
     state: away3
@@ -589,7 +589,7 @@
 - type: entity
   parent: RMCAreaBosenmoriBasho
   id: RMCAreaBosenmoriBashoRuinsPerimeter
-  name: "Периметр руїн"
+  name: Ruins Perimeter
   components:
   - type: Sprite
     state: away
@@ -597,4 +597,4 @@
 - type: entity
   parent: RMCAreaBosenmoriBashoUnknownCaves
   id: RMCAreaBosenmoriBashoMining
-  name: "Шахтарський сектор"
+  name: Mining Sector
