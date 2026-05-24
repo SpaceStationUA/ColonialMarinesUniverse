@@ -3,7 +3,7 @@
   alias:
     - forceonforce
   name: "Сила проти сили"
-  showInVote: true
+  showInVote: false
   description: "Два підрозділи сходяться один проти одного в бою."
   minPlayers: 140
   requiresOpforVote: true
@@ -31,7 +31,7 @@
   alias:
     - insurgency
   name: "Повстання"
-  showInVote: true
+  showInVote: false
   description: "Режим повстання"
   minPlayers: 40
   requiresGovforVote: true
@@ -77,7 +77,7 @@
   alias:
     - colonyfall
   name: "Падіння колонії"
-  showInVote: true
+  showInVote: false
   minPlayers: 0
   description: "Живіть у позасвітній колонії, поки вона занурюється в хаос."
   rules:
