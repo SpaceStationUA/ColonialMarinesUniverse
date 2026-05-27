@@ -55,7 +55,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostTeamLeader
-  name: "привид-роль лідера команди провоста"
+  name: provost ghost role team leader
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

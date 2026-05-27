@@ -9,8 +9,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoDroneBase
-  name: "Дрон"
-  description: "Прибулецький дрон."
+  name: Drone
+  description: An alien drone.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-drone

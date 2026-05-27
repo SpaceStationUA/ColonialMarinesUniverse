@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMilitaryPoliceEquipment
-  name: "Стелаж спорядження ВП ColMarTech"
-  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження Військової Поліції."
+  name: ColMarTech Military Police Equipment Rack
+  description: An automated rack hooked up to a colossal storage of Military Police standard-issue equipment.
   components:
   - type: AccessReader
     access:
@@ -98,8 +98,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechWardenEquipment
-  name: "Стелаж спорядження військового наглядача ColMarTech"
-  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження Військової Поліції."
+  name: ColMarTech Military Warden Equipment Rack
+  description: An automated rack hooked up to a colossal storage of Military Police standard-issue equipment.
   components:
   - type: AccessReader
     access:

@@ -3,8 +3,8 @@
   id: AU14CorporateConsoleBase
   abstract: true
   parent: RMCCommunicationsConsoleBase
-  name: "консоль корпоративних справ"
-  description: "Термінал корпоративних справ Вейланд-Ютані для керування транзитними тарифами та операціями корпоративної підтримки."
+  name: corporate affairs console
+  description: A Weyland-Yutani corporate affairs terminal for managing transit tariffs and corporate support operations.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -39,8 +39,8 @@
 - type: entity
   id: AU14CorporateConsole
   parent: AU14CorporateConsoleBase
-  name: "консоль корпоративних справ"
-  description: "Термінал корпоративних справ Вейланд-Ютані. Встановлюйте ставки транзитних тарифів, керуйте корпоративними коштами та координуйте корпоративну сторонню підтримку. Усі зміни тарифів оголошуються по всій колонії."
+  name: corporate affairs console
+  description: Weyland-Yutani's corporate affairs terminal. Set transit tariff rates, manage corporate funds, and coordinate corporate third-party support. All tariff changes are announced colony-wide.
   suffix: Corporate, WY
   components:
   - type: Sprite

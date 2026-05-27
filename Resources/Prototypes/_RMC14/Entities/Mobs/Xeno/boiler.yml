@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoBoiler
-  name: "Бойлер"
-  description: "Величезний, гротескний ксенонід, вкритий світним, текучим кислотним слизом."
+  name: Boiler
+  description: A huge, grotesque xenonid covered in glowing, oozing acid slime.
   components:
   - type: GuideHelp
     guides:

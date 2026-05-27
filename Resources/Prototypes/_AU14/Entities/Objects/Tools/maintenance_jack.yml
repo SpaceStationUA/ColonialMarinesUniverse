@@ -1,8 +1,8 @@
 - type: entity
-  name: "неналежний обслуговувальний домкрат K92"
+  name: improper K92 Maintenance Jack
   parent: BaseItem
   id: AU14MaintenanceJack
-  description: "Комбінація лома, гайкового ключа й загалом великого ударного інструмента, що стає в пригоді в надзвичайних ситуаціях. Може використовуватися для від’єднання дверних домкратів. Щоправда, доволі важкий."
+  description: A combination crowbar, wrench, and generally large bludgeoning device that comes in handy in emergencies. Can be used to disengage door jacks. Pretty hefty, though.
   components:
   - type: Tag
     tags:

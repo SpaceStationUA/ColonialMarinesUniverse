@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14HAZOPUrbanFatigues
-  name: "польова форма ККМП США для міського бою"
-  description: "Спеціалізована польова форма ККМП США. Улюблена серед ХАЗОПС."
+  name: USCM urban warfare fatigues
+  description: Specialized USCM fatigues. Favorited by HAZOPS.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/snowfatigues.rsi

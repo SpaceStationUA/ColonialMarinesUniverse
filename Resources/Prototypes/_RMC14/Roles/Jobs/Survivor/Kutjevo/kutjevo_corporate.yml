@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoCorporate
-  name: "спавнер лізона кутьєво-вцілілого"
+  name: survivor kutjevo liaison spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoCorporate
@@ -51,5 +51,5 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetKutjevoCorporate
-  name: "пресет лізона кутьєво"
+  name: kutjevo liaison preset
   categories: [ HideSpawnMenu ]

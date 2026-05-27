@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCCrateBase
   id: AU14CrateCivilianClothingRandom
-  name: "надлишковий цивільний одяг (x15)"
-  description: "Містить випадковий асортимент цивільного одягу. Звідки він узявся?"
+  name: surplus civilian clothing (x15)
+  description: Contains a random assortment of civilian clothing items, where did they come from?
   components:
   - type: EntityTableContainerFill
     containers:
@@ -102,8 +102,8 @@
 - type: entity
   parent: RMCCrateBase
   id: AU14CrateWorkTools
-  name: "ящик робочих інструментів"
-  description: "Містить кілька пожежних сокир і кирок для важкої роботи."
+  name: Crate of Work Tools
+  description: Contains several fire axes and pickaxes for heavy-duty work.
   components:
   - type: Sprite
     state: crate

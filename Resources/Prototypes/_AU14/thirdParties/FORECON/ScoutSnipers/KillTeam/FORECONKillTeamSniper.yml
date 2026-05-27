@@ -34,7 +34,7 @@
   parent: AU14BaseMobSpeciesOrganicFORECON
   suffix: AU14, FORECON, KillTeam
   id: AU14JobFORECONKillTeamSniper
-  name: "снайпер FORECON (група ліквідації)"
+  name: FORECON Sniper (Kill Team)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

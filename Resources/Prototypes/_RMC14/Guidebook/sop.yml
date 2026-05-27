@@ -1,7 +1,7 @@
 - type: guideEntry
   parent: RMC
   id: AU14SOP
-  name: "Стандартна військова операційна процедура"
+  name: Military Standard Operating Procedure
   text: "/ServerInfo/Guidebook/_AU14/SOP/AU14SOP.xml"
   priority: 3
   children:
@@ -15,41 +15,41 @@
 - type: guideEntry
   parent: RMC
   id: AI14SOPRulesofEngagement
-  name: "Правила ведення бою"
+  name: Rules of Engagement
   priority: 0
   text: "/ServerInfo/Guidebook/_AU14/SOP/AI14SOPRulesofEngagement.xml"
 
 - type: guideEntry
   parent: RMC
   id: AI14SOPEquipmentAndPersonnel
-  name: "Обладнання та персонал"
+  name: Equipment and Personnel
   priority: 1
   text: "/ServerInfo/Guidebook/_AU14/SOP/AI14SOPEquipmentAndPersonnel.xml"
 
 - type: guideEntry
   parent: RMC
   id: AI14SOPCommand
-  name: "Регламент командування"
+  name: Command Regulations
   priority: 1
   text: "/ServerInfo/Guidebook/_AU14/SOP/AI14SOPCommand.xml"
 
 - type: guideEntry
   parent: RMC
   id: AI14SOPDropshipsandAircraft
-  name: "Десантні кораблі та авіація"
+  name: Dropships and Aircraft
   priority: 1
   text: "/ServerInfo/Guidebook/_AU14/SOP/AI14SOPDropshipsandAircraft.xml"
 
 - type: guideEntry
   parent: RMC
   id: AU14SOPRankStructure
-  name: "Структура рангів"
+  name: Rank Structure
   priority: 1
   text: "/ServerInfo/Guidebook/_AU14/SOP/AU14SOPRankStructure.xml"
 
 - type: guideEntry
   parent: RMC
   id: AU14SOPThirdParty
-  name: "Регламент щодо третіх сторін"
+  name: Third-Party Regulations
   priority: 1
   text: "/ServerInfo/Guidebook/_AU14/SOP/AU14SOPThirdParty.xml"

@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPriest
-  name: "спавнер священика-вцілілого"
+  name: survivor priest spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -74,5 +74,5 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetPriest
-  name: "пресет колоніста-священика"
+  name: priest colonist preset
   categories: [ HideSpawnMenu ]

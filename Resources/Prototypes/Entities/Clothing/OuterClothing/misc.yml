@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApron
-  name: "фартух"
-  description: "Вишуканий фартух для стильної людини."
+  name: apron
+  description: A fancy apron for a stylish person.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apron.rsi
@@ -17,8 +17,8 @@
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronBar
   suffix: Bartender
-  name: "фартух"
-  description: "Темніший фартух, створений для барменів."
+  name: apron
+  description: A darker apron designed for bartenders.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbar.rsi
@@ -32,9 +32,9 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronBotanist
-  name: "фартух"
+  name: apron
   suffix: Botanical
-  description: "Товстий синій фартух, ідеальний, щоб ізолювати твою ніжну плоть від розливів, ґрунту й шипів."
+  description: A thick blue-apron, perfect for insulating your soft flesh from spills, soil and thorns.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronbotanist.rsi
@@ -48,9 +48,9 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterApronChef
-  name: "фартух"
+  name: apron
   suffix: Chef
-  description: "Фартух-куртка, якою користується шеф високого класу."
+  description: An apron-jacket used by a high class chef.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/apronchef.rsi
@@ -64,8 +64,8 @@
 - type: entity
   parent: ClothingOuterStorageBase
   id: ClothingOuterJacketChef
-  name: "куртка шефа"
-  description: "Фартух-куртка, якою користується шеф високого класу."
+  name: chef jacket
+  description: An apron-jacket used by a high class chef.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/chef.rsi
@@ -75,8 +75,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHoodieBlack
-  name: "чорне худі"
-  description: "Боже мій, це ж чорне худі!"
+  name: black hoodie
+  description: Oh my God, it's a black hoodie!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/black_hoodie.rsi
@@ -86,8 +86,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHoodieGrey
-  name: "сіре худі"
-  description: "Сіре худі."
+  name: grey hoodie
+  description: A grey hoodie.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/grey_hoodie.rsi
@@ -97,8 +97,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterCardborg
-  name: "костюм кардборга"
-  description: "Звичайна картонна коробка з прорізаними отворами з боків."
+  name: cardborg costume
+  description: An ordinary cardboard box with holes cut in the sides.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/cardborg.rsi
@@ -113,8 +113,8 @@
 - type: entity
   parent: ClothingOuterBaseToggleable
   id: ClothingOuterHoodieChaplain
-  name: "худі капелана"
-  description: "Чорне й суворе худі капелана."
+  name: chaplain's hoodie
+  description: Black and strict chaplain hoodie.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/chaplain_hoodie.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterPonchoClassic
-  name: "класичне пончо"
-  description: "Тепле й затишне класичне пончо."
+  name: classic poncho
+  description: A warm and comfy classic poncho.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/classicponcho.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobesCult
-  name: "культові ризи"
-  description: "Не буває культу без класичних червоних/багряних культових риз."
+  name: cult robes
+  description: There's no cult without classic red/crimson cult robes.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/cultrobes.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRobesJudge
-  name: "суддівські ризи"
-  description: "Ця мантія випромінює владу."
+  name: judge robes
+  description: This robe commands authority.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/judge.rsi
@@ -161,8 +161,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterPoncho
-  name: "пончо"
-  description: "Тепле й затишне пончо."
+  name: poncho
+  description: A warm and comfy poncho.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/poncho.rsi
@@ -174,8 +174,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSanta
-  name: "костюм Санти"
-  description: "Хо-хо-хо!"
+  name: santa suit
+  description: Ho ho ho!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/santa.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: ClothingOuterWizardBase
   id: ClothingOuterWizardViolet
-  name: "фіолетові ризи чарівника"
-  description: "Дивна фіолетова мантія, інкрустована самоцвітами, що випромінює магічні енергії."
+  name: violet wizard robes
+  description: A bizarre gem-encrusted violet robe that radiates magical energies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/violetwizard.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: ClothingOuterWizardBase
   id: ClothingOuterWizard
-  name: "ризи чарівника"
-  description: "Дивна синя мантія, інкрустована самоцвітами, що випромінює магічні енергії."
+  name: wizard robes
+  description: A bizarre gem-encrusted blue robe that radiates magical energies.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/wizard.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: ClothingOuterWizardBase
   id: ClothingOuterWizardRed
-  name: "червоні ризи чарівника"
-  description: "Дивне червоне облачення з капелюхом, яке безсумнівно належить справжньому користувачу магії."
+  name: red wizard robes
+  description: Strange-looking, red, hat-wear that most certainly belongs to a real magic user.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/redwizard.rsi
@@ -238,8 +238,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterSkub
-  name: "костюм Скаба"
-  description: "Слово \"Скаб\" недбало написано на зовнішньому боці цього циліндричного костюма."
+  name: skub suit
+  description: 'Skub is crudely written on the outside of this cylindrical suit.'
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/skubbody.rsi
@@ -249,8 +249,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterPlagueSuit
-  name: "костюм чумного лікаря"
-  description: "Погана прикмета."
+  name: plague doctor suit
+  description: A bad omen.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/plaguedoctorsuit.rsi
@@ -260,8 +260,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterNunRobe
-  name: "риза черниці"
-  description: "Максимум благочестя в цій зоряній системі."
+  name: nun robe
+  description: Maximum piety in this star system.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/nunrobe.rsi
@@ -271,8 +271,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterGhostSheet
-  name: "привидське простирадло"
-  description: "Моторошно!!!"
+  name: ghost sheet
+  description: Spooky!!!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/ghostsheet.rsi
@@ -286,8 +286,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterHospitalGown
-  name: "лікарняний халат"
-  description: "Зроблений із вовни забитих ягнят. Жорстокість робить його м’якшим."
+  name: hospital gown
+  description: Made from the wool of slaughtered baby lambs.  The cruelty makes it softer.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/hospitalgown.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelRed
-  name: "червона фланелева куртка"
-  description: "Старомодна червона фланелева куртка для космічної осені."
+  name: red flannel jacket
+  description: An old fashioned red flannel jacket for space autumn.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -333,8 +333,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelBlue
-  name: "синя фланелева куртка"
-  description: "Старомодна синя фланелева куртка для космічної осені."
+  name: blue flannel jacket
+  description: An old fashioned blue flannel jacket for space autumn.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -369,8 +369,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterFlannelGreen
-  name: "зелена фланелева куртка"
-  description: "Старомодна зелена фланелева куртка для космічної осені."
+  name: green flannel jacket
+  description: An old fashioned green flannel jacket for space autumn.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/flannel_jacket.rsi
@@ -405,8 +405,8 @@
 - type: entity
   parent: ClothingOuterBase
   id: ClothingOuterRedRacoon
-  name: "костюм червоного єнота"
-  description: "Пухнастий костюм червоного єнота!"
+  name: red racoon suit
+  description: Fluffy suit of red racoon!
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Misc/red_racoon.rsi

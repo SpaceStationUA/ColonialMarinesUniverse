@@ -1,8 +1,8 @@
 - type: entity
   parent: ArmorHelmetM10
   id: RMCArmorHelmetM10CMB
-  name: "шолом для заворушень CMB зразка M11R"
-  description: "Варіант CMB стандартного зразка M10. Передня пластина посилена. Цей сидить набагато щільніше."
+  name: M11R pattern CMB Riot helmet
+  description: A CMB variant of the standard M10 pattern. The front plate is reinforced. This one is a lot more tight fitting.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/CMB/cmb_helmet.rsi

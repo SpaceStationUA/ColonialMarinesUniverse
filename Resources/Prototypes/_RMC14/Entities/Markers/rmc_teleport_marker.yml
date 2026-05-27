@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCTriggerTeleporter
-  name: "телепортер"
+  name: teleporter
   suffix: RMC14
   components:
   - type: Sprite
@@ -51,7 +51,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCTriggerTeleporterViewer
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: RMCTriggerTeleporterViewerMPStairs
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Fixtures
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: RMCTriggerTeleporterViewerBriefingStairs
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Fixtures
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: RMCTriggerTeleporterViewerFarNSWStairs
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Fixtures
@@ -150,7 +150,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: RMCTriggerTeleporterViewerFarNSWWStairs
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Fixtures
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: RMCTriggerTeleporterViewerSLBriefStairs
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Fixtures
@@ -196,7 +196,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: RMCTriggerTeleporterViewerSOStairs
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Fixtures
@@ -219,7 +219,7 @@
 - type: entity
   parent: RMCTriggerTeleporterViewer
   id: RMCTriggerTeleporterViewerAIStairs
-  name: "оглядач телепортера"
+  name: teleporter viewer
   suffix: RMC14
   components:
   - type: Fixtures

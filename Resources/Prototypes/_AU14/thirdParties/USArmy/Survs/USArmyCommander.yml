@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyCommander
-  name: "командир армії США (виж.)"
+  name: US Army Commander (Surv)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

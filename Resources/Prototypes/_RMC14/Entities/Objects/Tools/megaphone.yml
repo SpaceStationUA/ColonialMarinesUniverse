@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCMegaphone
-  name: "Мегафон"
-  description: "Пристрій для проєктування свого голосу. Гучно."
+  name: Megaphone
+  description: A device used to project your voice. Loudly.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/megaphone.rsi

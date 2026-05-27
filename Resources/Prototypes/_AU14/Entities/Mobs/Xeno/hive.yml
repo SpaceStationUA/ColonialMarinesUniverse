@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CMUCorruptedHive
-  name: "Спотворений вулик"
+  name: Corrupted Hive
   categories: [ HideSpawnMenu ]
   components:
   - type: Hive

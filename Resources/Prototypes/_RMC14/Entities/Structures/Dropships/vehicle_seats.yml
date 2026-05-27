@@ -1,8 +1,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMSeatPassenger
-  name: "пасажирське сидіння"
-  description: "Міцне крісло зі скобою, що опускається на твоє тіло. Запобігає тому, щоб тебе кидало по транспорту під час аварії, отже, від травм. Пристебніть ремені, діти! Ремонтуйте зварювачем у разі пошкодження."
+  name: passenger seat
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
   placement:
     mode: PlaceFree
   components:
@@ -15,7 +15,7 @@
 - type: entity
   parent: CMSeatPassenger
   id: RMCSeatVehiclePassenger
-  description: "Міцне крісло зі скобою, що опускається на твоє тіло. Запобігає тому, щоб тебе кидало по транспорту під час аварії, отже, від травм. Пристебніть ремені, діти!"
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids!
   components:
   - type: RemoveComponents
     components:
@@ -26,8 +26,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMSeatPilot
-  name: "пілотське крісло"
-  description: "Спеціально розроблене крісло для пілотів."
+  name: pilot's chair
+  description: A specially designed chair for pilots to sit in.
   placement:
     mode: PlaceFree
   components:
@@ -43,8 +43,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCSeatDriver
-  name: "водійське крісло"
-  description: "Спеціально розроблене крісло для водія."
+  name: driver's chair
+  description: A specially designed chair for driver to sit in.
   placement:
     mode: SnapgridCenter
   components:
@@ -66,8 +66,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCSeatHunter
-  name: "мисливське крісло"
-  description: "Витончено виготовлене крісло для великого мисливця-гуманоїда."
+  name: hunter chair
+  description: An exquisitely crafted chair for a large humanoid hunter.
   placement:
     mode: PlaceFree
   components:
@@ -80,8 +80,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCSeatWhite
-  name: "пасажирське сидіння"
-  description: "Міцне крісло зі скобою, що опускається на твоє тіло. Запобігає тому, щоб тебе кидало по транспорту під час аварії, отже, від травм. Пристебніть ремені, діти! Ремонтуйте зварювачем у разі пошкодження."
+  name: passenger seat
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
   placement:
     mode: PlaceFree
   components:
@@ -94,8 +94,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCSeatDark
-  name: "пасажирське сидіння"
-  description: "Міцне крісло зі скобою, що опускається на твоє тіло. Запобігає тому, щоб тебе кидало по транспорту під час аварії, отже, від травм. Пристебніть ремені, діти! Ремонтуйте зварювачем у разі пошкодження."
+  name: passenger seat
+  description: A sturdy chair with a brace that lowers over your body. Prevents being flung around in vehicle during crash being injured as a result. Fasten your seatbelts, kids! Fix with welding tool in case of damage.
   placement:
     mode: PlaceFree
   components:
@@ -109,8 +109,8 @@
   abstract: true
   parent: CMSeatBase
   id: RMCSeatArmoredBase
-  name: "броньоване сидіння"
-  description: "Укріплене крісло, призначене для салонів транспорту."
+  name: armored seat
+  description: A reinforced chair designed for vehicle interiors.
   placement:
     mode: PlaceFree
   components:
@@ -128,12 +128,12 @@
 - type: entity
   parent: RMCSeatArmoredBase
   id: RMCSeatArmored
-  name: "броньоване сидіння"
+  name: armored seat
 
 - type: entity
   parent: RMCSeatArmoredBase
   id: RMCSeatArmoredDriver
-  name: "броньоване водійське сидіння"
+  name: armored driver's seat
   components:
   - type: VehicleDriverSeat
     skills:
@@ -142,7 +142,7 @@
 - type: entity
   parent: RMCSeatArmoredBase
   id: RMCSeatArmoredWeaponsOperator
-  name: "броньоване сидіння оператора зброї"
+  name: armored weapons operator seat
   components:
   - type: VehicleWeaponsSeat
     skills:
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCSeatArmoredBase
   id: RMCSeatArmoredPortGunOperator
-  name: "броньоване сидіння оператора лівобортної гармати"
+  name: armored port gun operator seat
   components:
   - type: VehiclePortGunSeat
     skills:
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCSeatArmoredBase
   id: RMCSeatTankDriver
-  name: "сидіння водія танка"
+  name: tank driver seat
   placement:
     mode: SnapgridCenter
   components:
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCSeatArmoredBase
   id: RMCSeatTankGunner
-  name: "сидіння стрільця танка"
+  name: tank gunner seat
   placement:
     mode: SnapgridCenter
   components:
@@ -208,7 +208,7 @@
 - type: entity
   parent: RMCSeatArmoredBase
   id: RMCSeatTankCommander
-  name: "сидіння командира танка"
+  name: tank commander seat
   placement:
     mode: SnapgridCenter
   components:
@@ -233,7 +233,7 @@
   abstract: true
   parent: CMSeatBase
   id: RMCSeatHumveeBase
-  name: "сидіння Хамві"
+  name: humvee seat
   placement:
     mode: PlaceFree
   components:
@@ -254,12 +254,12 @@
 - type: entity
   parent: RMCSeatHumveeBase
   id: RMCSeatHumveePassenger
-  name: "пасажирське сидіння Хамві"
+  name: humvee passenger seat
 
 - type: entity
   parent: RMCSeatHumveeBase
   id: RMCSeatHumveeDriver
-  name: "водійське сидіння Хамві"
+  name: humvee driver seat
   components:
   - type: VehicleDriverSeat
     skills:
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCSeatHumveeBase
   id: RMCSeatHumveeWeaponsOperator
-  name: "сидіння стрільця Хамві"
+  name: humvee gunner seat
   components:
   - type: VehicleWeaponsSeat
     skills:

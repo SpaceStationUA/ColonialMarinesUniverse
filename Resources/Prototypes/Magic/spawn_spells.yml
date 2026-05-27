@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSpawnMagicarpSpell
-  name: "Прикликати магікарпа"
-  description: "Це закляття прикликає трьох магі-карпів на допомогу! Вони можуть повернутися проти користувача."
+  name: Summon Magicarp
+  description: This spell summons three Magi-Carp to your aid! May or may not turn on user.
   components:
   - type: Action
     useDelay: 10

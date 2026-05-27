@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCDropshipAttachmentWeapon
   id: RMCDropshipAttachmentLaserCannon
-  name: "лазерна гармата LWU-6B"
-  description: "Сучасна технологія, нещодавно отримана UNMC, від акумуляторного живлення стріляє пульсуючим лазерним променем майже зі швидкістю світла, підпалюючи все, чого торкається. Для переміщення знадобиться якийсь підйомник. Приймає високоємні лазерні батареї BTU-17/LW."
+  name: LWU-6B Laser Cannon
+  description: State of the art technology recently acquired by the UNMC, it fires a battery-fed pulsed laser beam at near lightspeed setting on fire everything it touches. Moving this will require some sort of lifter. Accepts the BTU-17/LW Hi-Cap Laser Batteries.
   components:
   - type: Sprite
     layers:
@@ -30,8 +30,8 @@
 - type: entity
   parent: RMCDropshipAttachmentAmmo
   id: RMCDropshipAttachmentAmmoLaserCannon
-  name: "високоємна лазерна батарея BTU-17/LW"
-  description: "Високоємна лазерна батарея, що використовується для живлення лазерних променевих озброєнь. Може бути завантажена в лазерну гармату LWU-6B."
+  name: BTU-17/LW Hi-Cap Laser Battery
+  description: A high-capacity laser battery used to power laser beam weapons.  Can be loaded into the LWU-6B Laser Cannon.
   components:
   - type: Sprite
     layers:

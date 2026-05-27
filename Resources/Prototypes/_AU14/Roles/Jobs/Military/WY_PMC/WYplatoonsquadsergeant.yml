@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantWYPMC
-  name: "Командир відділення ПВК"
+  name: PMC Squad Leader
   ranks:
     AU14RankWeYuEnforcerSenior:
     - !type:RoleTimeRequirement

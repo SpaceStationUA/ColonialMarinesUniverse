@@ -1,19 +1,19 @@
 - type: construction
   parent: RMC
-  name: "колючий дріт"
+  name: barbed wire
   id: Barbedwire
   graph: BarbedWireGraph
   startNode: start
   targetNode: nodeBarbedWire
   category: construction-category-cm-materials
-  description: "Створи колючий дріт, щоб прикрасити свої барикади."
+  description: Create barbed wire to decorate your barricades.
   objectType: Item
 
 - type: construction
   parent: RMC
   id: CMSheetGlassReinforced
-  name: "армоване скло"
-  description: "Армований лист скла."
+  name: reinforced glass
+  description: A reinforced sheet of glass.
   graph: CMGlass
   startNode: start
   targetNode: SheetGlassReinforced

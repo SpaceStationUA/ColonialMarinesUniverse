@@ -1,9 +1,9 @@
 - type: entity
   parent: AccessConfiguratorUniversal
   id: RMCAdminAccessConfigurator
-  name: "конфігуратор адмін-доступу"
+  name: admin access configurator
   suffix: RMC, Admin
-  description: "Якщо знайдено, поверніть найближчому посадовцеві Вищого Командування."
+  description: If found, please return to your nearest High Command official.
   components:
   - type: AccessOverrider
     accessLevels:

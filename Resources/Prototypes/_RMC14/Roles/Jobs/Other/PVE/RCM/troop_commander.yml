@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVETroopCommander
-  name: "спавнер командира військ RCM"
+  name: RCM troop commander spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesTroopCommanderPVE

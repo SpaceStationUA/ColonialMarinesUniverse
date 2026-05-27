@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCHeadsetIconsWeYa
   id: RMCHeadsetHvHWeYaPMC
-  name: "корпоративна гарнітура «Ве-Я»"
-  description: "Спеціальна гарнітура, яку використовує корпоративний персонал."
+  name: WeYa corporate headset
+  description: A special headset used by corporate personnel.
   suffix: WeYa, PMC, HvH,
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCHeadsetHvHWeYaPMC
   id: RMCHeadsetHvHWeYaPMCMedic
-  name: "гарнітура ПВК-МЕД"
+  name: PMC-MED headset
   components:
   - type: ContainerFill
     containers:
@@ -37,7 +37,7 @@
 - type: entity
   parent: RMCHeadsetHvHWeYaPMC
   id: RMCHeadsetHvHWeYaPMCEngineer
-  name: "гарнітура ПВК-CCT"
+  name: PMC-CCT headset
   components:
   - type: ContainerFill
     containers:
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCHeadsetHvHWeYaPMC
   id: RMCHeadsetHvHWeYaPMCLeader
-  name: "гарнітура ПВК-CMD"
+  name: PMC-CMD headset
   components:
   - type: ContainerFill
     containers:
@@ -59,9 +59,9 @@
 - type: entity
   parent: RMCHeadsetHvHWeYaPMC
   id: RMCHeadsetHvHWeYaPMCCommando
-  name: "гарнітура командос «Ве-Я»"
+  name: We-Ya Commando headset
   suffix: WeYa, PMC Commando, HvH
-  description: "Спеціальна гарнітура, яку використовують невідомі оперативники."
+  description: A special headset used by unidentified operatives.
   components:
   - type: ContainerFill
     containers:

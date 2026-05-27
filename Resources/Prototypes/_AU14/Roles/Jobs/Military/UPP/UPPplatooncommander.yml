@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatCoBase
   id: AU14JobGOVFORPlatCoUPP
-  name: "Командир взводу"
+  name: Platoon Commander
   spawnMenuRoleName: Platoon Commander (UPP)
   ranks:
     UPP_Captain:

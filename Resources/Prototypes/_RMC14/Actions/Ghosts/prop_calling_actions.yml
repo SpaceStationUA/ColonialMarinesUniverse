@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: ActionTogglePropCalling
   parent: BaseToggleAction
-  name: "Перемкнути Виклик Реквізиту"
-  description: "Приєднатися або покинути список виклику реквізиту."
+  name: Toggle Prop Calling
+  description: Join or leave the prop calling list.
   components:
   - type: Action
     checkCanInteract: false
@@ -12,8 +12,8 @@
 - type: entity
   id: ActionCallProps
   parent: BaseMentalAction
-  name: "Викликати Реквізит"
-  description: "Викликає всіх сутностей, які підписалися на виклик реквізиту."
+  name: Call Props
+  description: Calls over all entities who have signed up for prop calling.
   components:
   - type: Action
     icon:

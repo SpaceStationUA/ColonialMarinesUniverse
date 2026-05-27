@@ -43,7 +43,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoCMBDeputy
-  name: "спавнер cmb-помічника кутьєво"
+  name: kutjevo cmb deputy spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoCMBDeputy
@@ -55,5 +55,5 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetKutjevoCMBDeputy
-  name: "пресет колоніста-бандита кутьєво"
+  name: kutjevo goon colonist preset
   categories: [ HideSpawnMenu ]

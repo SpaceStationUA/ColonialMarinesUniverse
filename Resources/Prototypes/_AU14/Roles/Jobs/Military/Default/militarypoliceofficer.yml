@@ -72,7 +72,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORMilitaryPoliceMan
-  name: "точка появи військового поліцейського ГОВФОР"
+  name: Spawn Point GOVFOR Military Policeman
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORMilitaryPoliceMan

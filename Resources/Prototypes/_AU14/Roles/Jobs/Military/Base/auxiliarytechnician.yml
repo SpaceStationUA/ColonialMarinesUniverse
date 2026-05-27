@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobAuxTechBase
-  name: "au14-job-name-govforauxtech"
-  description: "au14-job-description-govforauxtech"
+  name: au14-job-name-govforauxtech
+  description: au14-job-description-govforauxtech
   playTimeTracker: AU14JobGOVFORAuxTech
   basePlaytimeTracker: true
   hidden: true

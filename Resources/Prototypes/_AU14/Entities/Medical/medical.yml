@@ -274,7 +274,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterOsteoCalc
-  name: "пляшечка пігулок остеокальку"
+  name: osteocalc pill bottle
   suffix: osteocalc, 16
   components:
   - type: Item
@@ -297,7 +297,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterCardiocaine
-  name: "пляшечка пігулок кардіокаїну"
+  name: cardiocaine pill bottle
   suffix: cardiocaine, 16
   components:
   - type: Item
@@ -320,7 +320,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterNephronate
-  name: "пляшечка пігулок нефронату"
+  name: nephronate pill bottle
   suffix: nephronate, 16
   components:
   - type: Item
@@ -343,7 +343,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterPulmovine
-  name: "пляшечка пігулок пульмовіну"
+  name: pulmovine pill bottle
   suffix: pulmovine, 16
   components:
   - type: Item
@@ -366,7 +366,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterHepatocytin
-  name: "пляшечка пігулок гепатоцитину"
+  name: hepatocytin pill bottle
   suffix: hepatocytin, 16
   components:
   - type: Item
@@ -389,8 +389,8 @@
 - type: entity
   parent: CMPacketPills
   id: AU14PacketPillsTramadol
-  name: "пакет пігулок трамадолу"
-  description: "Цей пакет містить пігулки трамадолу. Полегшує помірний біль. Щойно ви їх дістанете, назад вони вже не повернуться. Не приймайте більше ніж 1 пігулку за короткий проміжок часу."
+  name: tramadol pill packet
+  description: This packet contains tramadol pills. Alleviates moderate amounts of pain. Once you take them out, they don't go back in. Don't take more than 1 pill in a short period.
   components:
   - type: Sprite
     state: tramadol_packet
@@ -404,8 +404,8 @@
 - type: entity
   parent: CMPacketPills
   id: AU14PacketPillsEmpty
-  name: "пакет пігулок"
-  description: "Порожній пакет для пігулок."
+  name: pill packet
+  description: An empty pills packet.
   components:
   - type: Sprite
     state: pill_packet
@@ -416,7 +416,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterParacetamol
-  name: "пляшечка пігулок парацетамолу"
+  name: paracetamol pill bottle
   suffix: paracetamol, 16
   components:
   - type: Item
@@ -439,7 +439,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterTramadol
-  name: "пляшечка пігулок трамадолу"
+  name: tramadol pill bottle
   suffix: tramadol, 16
   components:
   - type: Item
@@ -462,7 +462,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterOxycodone
-  name: "пляшечка пігулок оксикодону"
+  name: oxycodone pill bottle
   suffix: oxycodone, 16
   components:
   - type: Item
@@ -485,7 +485,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterEthylredoxrazine
-  name: "пляшечка пігулок етилредоксразину"
+  name: ethylredoxrazine pill bottle
   suffix: ethylredoxrazine, 16
   components:
   - type: Item
@@ -508,7 +508,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterDermaline
-  name: "пляшечка пігулок дермаліну"
+  name: dermaline pill bottle
   suffix: dermaline, 16
   components:
   - type: Item
@@ -531,7 +531,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterMeralyne
-  name: "пляшечка пігулок мераліну"
+  name: meralyne pill bottle
   suffix: meralyne, 16
   components:
   - type: Item
@@ -554,7 +554,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterImidazoline
-  name: "пляшечка пігулок імідазоліну"
+  name: imidazoline pill bottle
   suffix: imidazoline, 16
   components:
   - type: Item
@@ -577,7 +577,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterCryoxadone
-  name: "пляшечка пігулок кріоксадону"
+  name: cryoxadone pill bottle
   suffix: cryoxadone, 16
   components:
   - type: Item
@@ -600,7 +600,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterLeporazine
-  name: "пляшечка пігулок лепоразину"
+  name: leporazine pill bottle
   suffix: leporazine, 16
   components:
   - type: Item
@@ -623,7 +623,7 @@
 - type: entity
   parent: CMPillCanister
   id: AU14PillCanisterAlbuterol
-  name: "пляшечка пігулок альбутеролу"
+  name: albuterol pill bottle
   suffix: albuterol, 16
   components:
   - type: Item
@@ -707,8 +707,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14NaloxoneAutoInjector
-  name: "автоін’єктор налоксону"
-  description: "Автоін’єктор, заряджений налоксоном, використовується для миттєвої протидії токсичним ушкодженням. Переважно застосовується для лікування передозувань. Не потребує жодної підготовки для використання."
+  name: naloxone autoinjector
+  description: An autoinjector loaded with naloxone, used to instantly counteract toxin damage. Primarily used to treat overdoses. Doesn't require any training to use.
   components:
   - type: Sprite
     sprite: _AU14/Items/naloxone_auto_injector.rsi
@@ -741,8 +741,8 @@
 - type: entity
   parent: CMTricordrazineAutoInjector
   id: AU14FirstAidAutoInjectorNoSkill
-  name: "автоін’єктор першої допомоги"
-  description: "Автоін’єктор, заряджений дозою трикордразину та невеликою кількістю дексаліну, щоб поранені солдати могли лікувати себе самостійно."
+  name: first-aid autoinjector
+  description: An autoinjector loaded with a dose of tricordrazine and a small ammount of dexalin for wounded soldiers to treat themselves with.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/auto_injectors.rsi
@@ -775,8 +775,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14MeraBicAutoInjector
-  name: "автоін’єктор мера-бік"
-  description: "Автоін’єктор, заряджений 3 використаннями мераліну та бікаридину."
+  name: mera-bic autoinjector
+  description: An autoinjector loaded with 3 uses of both Meralyne and Bicaridine.
   components:
   - type: Hypospray
     transferAmount: 30
@@ -799,8 +799,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14KeloDermAutoInjector
-  name: "автоін’єктор кело-дерм"
-  description: "Автоін’єктор, заряджений 3 використаннями мераліну та бікаридину."
+  name: kelo-derm autoinjector
+  description: An autoinjector loaded with 3 uses of both Meralyne and Bicaridine.
   components:
   - type: Hypospray
     transferAmount: 30
@@ -823,8 +823,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14RevivalMixAutoInjector
-  name: "автоін’єктор реанімаційної суміші"
-  description: "Автоін’єктор, заряджений 3 використаннями епінефрину, інапроваліну та трикордразину."
+  name: revival mix autoinjector
+  description: An autoinjector loaded with 3 uses of Epinephrine, Inaprovaline and Tricordrazine.
   components:
   - type: Hypospray
     transferAmount: 30
@@ -850,8 +850,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14AlbuDexAutoInjector
-  name: "автоін’єктор альбу-декс"
-  description: "Автоін’єктор, заряджений 3 використаннями альбутеролу та дексаліну, а також малою дозою Дексаліну+."
+  name: albu-dex autoinjector
+  description: An autoinjector loaded with 3 uses of Albuterol and Dexalin as well as a small dose of Dexalin+.
   components:
   - type: Hypospray
     transferAmount: 30
@@ -877,8 +877,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14OxycodoneAutoInjector
-  name: "автоін’єктор оксикодону"
-  description: "Автоін’єктор, заряджений 3 використаннями оксикодону."
+  name: oxycodone autoinjector
+  description: An autoinjector loaded with 3 uses of Oxycodone.
   components:
   - type: Hypospray
     transferAmount: 20
@@ -898,8 +898,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14TramadolAutoInjector
-  name: "автоін’єктор трамадолу"
-  description: "Автоін’єктор, заряджений 3 дозами трамадолу."
+  name: tramadol autoinjector
+  description: An autoinjector loaded with 3 uses of Tramadol.
   components:
   - type: Hypospray
     transferAmount: 20
@@ -919,8 +919,8 @@
 - type: entity
   parent: CMAutoInjector
   id: AU14ParacetamolAutoInjector
-  name: "автоін’єктор парацетамолу"
-  description: "Автоін’єктор, заряджений 3 дозами парацетамолу."
+  name: paracetamol autoinjector
+  description: An autoinjector loaded with 3 uses of Paracetamol.
   components:
   - type: Hypospray
     transferAmount: 20
@@ -942,8 +942,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: AU14HemostaticGauzePacket
-  name: "пакет гемостатичної марлі"
-  description: "Вакуумно запаяний пакет хімічно обробленої марлі, створеної для швидкої зупинки артеріальної кровотечі. Порошок пече як пекло, але працює. Одноразовий. Роздери пакунок, запхай у рану й сподівайся на краще."
+  name: hemostatic gauze packet
+  description: A vacuum sealed packet of chemically treated gauze designed to stop arterial bleeding fast. The powder burns like hell, but it works. Single-use. Rip it open, jam it in, hope for the best.
   components:
   - type: Sprite
     sprite: _AU14/Items/quickclot.rsi
@@ -965,8 +965,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: AU14HemostaticGauzePacketTrash
-  name: "використаний пакет гемостатичної марлі"
-  description: "Вакуумно запаяний пакет хімічно обробленої марлі, створеної для швидкої зупинки артеріальної кровотечі. Порошок пече як пекло, але працює. Одноразовий. Цей уже сміття, його вже використали!"
+  name: used hemostatic gauze packet
+  description: A vacuum sealed packet of chemically treated gauze designed to stop arterial bleeding fast. The powder burns like hell, but it works. Single-use. This one is trash, its already been used!
   components:
   - type: Sprite
     sprite: _AU14/Items/quickclot.rsi
@@ -982,8 +982,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: AU14HemostaticGauze
-  name: "гемостатична марля"
-  description: "Смуга марлі, просочена порошкоподібним засобом для згортання крові. Щойно витягнеш її з пакета, час пішов, запхай її глибоко в рану та зупини кровотечу, поки не стало надто пізно."
+  name: hemostatic gauze
+  description: A strip of gauze soaked with a powdery clotting agent. Once it’s out of the packet, the clock’s ticking, stuff it deep into the wound and stop the bleeding before it’s too late.
   components:
   - type: Tag
     tags:
@@ -1032,8 +1032,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: AU14Tourniquet
-  name: "турнікет CAT"
-  description: "Одноразовий турнікет, створений для самостійного накладання під вогнем. CAT використовує високоміцну липучку Velcro та закрутку, щоб перекрити артеріальну кровотечу на кінцівках. Ефективно, боляче й зовсім не делікатно. Надмірне використання може призвести до ушкодження нервів або ампутації. Утім, краще покалічений, ніж мертвий."
+  name: CAT tourniquet
+  description: A single use tourniquet designed for self-application under fire. The CAT uses a high-tension Velcro strap and windlass rod to cut off arterial bleeding on limbs. Effective, painful and not exactly gentle. Overuse can lead to nerve damage or amputation. Still, better maimed than dead.
   components:
   - type: Tag
     tags:

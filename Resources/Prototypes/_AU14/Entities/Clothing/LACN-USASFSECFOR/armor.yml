@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNArmorStandard
-  name: "броня ЛАКН BL-1"
-  description: "Комплект балістичної броні, який використовують десантні сили ЛАКН."
+  name: LACN BL-1 Armor
+  description: A set of ballistic armor used by the LACN landing forces.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/Armor/lacninfantryarmor.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNArmorStandardPadless
-  name: "броня ЛАКН BL-1 без накладок"
-  description: "Комплект балістичної броні, який використовують десантні сили ЛАКН. У цього комплекту відсутні поножі та наплічники."
+  name: Padless LACN BL-1 Armor
+  description: A set of ballistic armor used by the LACN landing forces. This one is missing the grieves and shoulder pads.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/Armor/lacninfantryarmorstripped.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNArmorSL
-  name: "броня ЛАКН BL-2"
-  description: "Комплект балістичної броні, який використовують унтерофіцери та офіцери десантних сил ЛАКН."
+  name: LACN BL-2 Armor
+  description: A set of ballistic armor used by the LACN landing forces NCOs and Officers.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/Armor/lacninfantryarmorsl.rsi
@@ -61,8 +61,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNCommandoArmorStandard
-  name: "броня ЛАКН BL-4L"
-  description: "Комплект балістичної броні, який використовують морські командос ЛАКН."
+  name: LACN BL-4L Armor
+  description: A set of ballistic armor used by the LACN naval commandos.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/Armor/lacncommandoarmor.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14CLFFlakVest
-  name: "бронежилет КФВ"
-  description: "Імпортований бронежилет, що прибув від вашого іноземного покупця в УПП. Ви не маєте жодного уявлення про його походження."
+  name: CLF flak vest
+  description: An imported flak vest that comes from your foreign buyer in the UPP. You have no idea the origin of it.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/Armor/lacncommandoarmor.rsi
@@ -101,8 +101,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNCommandoArmorScout
-  name: "розвідувальна броня ЛАКН BL-4L"
-  description: "Комплект балістичної броні, який використовують розвідники морських командос ЛАКН."
+  name: LACN BL-4L Scout Armor
+  description: A set of ballistic armor used by the LACN naval commando scouts.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/Armor/lacncommandoscoutarmor.rsi
@@ -121,8 +121,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNCommandoArmorPointman
-  name: "броня передового бійця ЛАКН BL-4L"
-  description: "Комплект балістичної броні, який використовують передові бійці морських командос ЛАКН."
+  name: LACN BL-4L Pointman Armor
+  description: A set of ballistic armor used by the LACN naval commando pointmen.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/Armor/lacncommandopointmanarmor.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingHazardVest, RMCBaseJacket]
   id: AU14USASFSECFORChestrig
-  name: "нагрудний розвантажувальний жилет сил безпеки Аерокосмічних сил США"
-  description: "Зовнішній нагрудний розвантажувальний жилет, який використовує SECFOR Аерокосмічних сил США."
+  name: USASF Security Forces Chestrig
+  description: An exterior chestrig used by USASF SECFOR.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/chestrig.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14LACNICPS2
-  name: "броня екіпажу ЛАКН ICPS-2"
-  description: "Комплект балістичної броні, який використовує екіпаж ЛАКН."
+  name: LACN ICPS-2 Aircrew Armor
+  description: A set of ballistic armor used by LACN aircrew.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/PilotGear/armor.rsi

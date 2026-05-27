@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCCanisterBase
-  name: "балон"
-  description: "Газовий балон."
+  name: canister
+  description: A gas canister.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -44,8 +44,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterGrey
-  name: "балон (Повітря)"
-  description: "Газовий балон."
+  name: canister (Air)
+  description: A gas canister.
   components:
   - type: Sprite
     state: grey 
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBlack
-  name: "балон (CO2)"
-  description: "Газовий балон."
+  name: canister (CO2)
+  description: A gas canister.
   components:
   - type: Sprite
     state: black 
@@ -62,8 +62,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBlue
-  name: "балон (O2)"
-  description: "Газовий балон."
+  name: canister (O2)
+  description: A gas canister.
   components:
   - type: Sprite
     state: blue
@@ -71,8 +71,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterRed
-  name: "балон (N2)"
-  description: "Газовий балон."
+  name: canister (N2)
+  description: A gas canister.
   components:
   - type: Sprite
     state: red
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterOrange
-  name: "балон (Форон)"
-  description: "Газовий балон."
+  name: canister (Phoron)
+  description: A gas canister.
   components:
   - type: Sprite
     state: orange 
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterRedWhite
-  name: "балон (N2O)"
-  description: "Газовий балон."
+  name: canister (N2O)
+  description: A gas canister.
   components:
   - type: Sprite
     state: redws
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCCanisterBase
   id: RMCCanisterBrokenBase
-  name: "зламаний балон"
-  description: "Зламаний газовий балон. Повністю непридатний."
+  name: broken canister
+  description: A broken gas canister. Completely useless.
   components:  
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
