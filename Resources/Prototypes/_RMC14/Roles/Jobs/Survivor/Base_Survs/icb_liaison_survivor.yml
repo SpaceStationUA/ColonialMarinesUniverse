@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorICB
-  name: "спавнер icb-вцілілого"
+  name: survivor icb spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor

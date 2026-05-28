@@ -1,7 +1,7 @@
 - type: entity
   id: ActionVehicleToggleView
-  name: "Перемкнути Вид"
-  description: "Перемикайтеся між видом інтер'єру та екстер'єру."
+  name: Toggle View
+  description: Switch between the interior and exterior view.
   components:
   - type: InstantAction
     event: !type:VehicleToggleViewActionEvent
@@ -12,8 +12,8 @@
 
 - type: entity
   id: ActionVehicleDeploy
-  name: "Розгорнути Транспорт"
-  description: "Розгорнути або згорнути транспорт."
+  name: Deploy Vehicle
+  description: Deploy or retract the vehicle.
   components:
   - type: InstantAction
     event: !type:VehicleDeployActionEvent
@@ -22,8 +22,8 @@
 
 - type: entity
   id: ActionVehicleLock
-  name: "Перемкнути Замок Транспорту"
-  description: "Замикає або відмикає вхідні двері транспорту."
+  name: Toggle Vehicle Lock
+  description: Locks or unlocks vehicle entry doors.
   components:
   - type: InstantAction
     event: !type:VehicleLockActionEvent
@@ -38,8 +38,8 @@
 
 - type: entity
   id: ActionVehicleSelectHardpoint
-  name: "Обрати Точку Кріплення"
-  description: "Оберіть цю точку кріплення для стрільби."
+  name: Select Hardpoint
+  description: Select this hardpoint for firing.
   components:
   - type: InstantAction
     event: !type:VehicleHardpointSelectActionEvent

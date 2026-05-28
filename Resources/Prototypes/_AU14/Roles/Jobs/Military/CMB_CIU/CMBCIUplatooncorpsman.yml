@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanCMBCIU
-  name: "тактичний медик"
+  name: Tactical Medic
   description: au14-job-description-govforplatooncorpsman
   setPreference: false
   ranks:

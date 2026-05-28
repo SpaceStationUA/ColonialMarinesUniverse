@@ -87,7 +87,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORAuxSupportSynth
-  name: "точка появи синтетика підтримки ГОВФОР"
+  name: Spawn Point GOVFOR Support Synth
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORAuxSupportSynth

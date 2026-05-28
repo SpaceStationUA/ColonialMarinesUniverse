@@ -8,7 +8,7 @@
 - type: entity
   parent: RMCRandomHumanoidPMCWhiteout
   id: RMCRandomHumanoidPMCWhiteoutGunner
-  name: "DEATHSQUAD pmc привид-роль стрільця Вайтаут"
+  name: DEATHSQUAD pmc ghost role whiteout gunner
   components:
   - type: RandomHumanoidSpawner
     settings: RMCPMCWhiteoutGunner

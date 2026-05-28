@@ -1,7 +1,7 @@
 - type: entity
   id: RMCTelecomBusMainframe
-  name: "Шинний мейнфрейм"
-  description: "Потужне обладнання, що використовується для швидкої передачі великих обсягів даних."
+  name: Bus Mainframe
+  description: A mighty piece of hardware used to send massive amounts of data quickly.
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -46,8 +46,8 @@
 - type: entity
   id: RMCTelecomReceiver
   parent: RMCTelecomBusMainframe
-  name: "Підпросторовий приймач"
-  description: "Ця машина має форму тарілки із зеленими вогниками. Призначена для виявлення та обробки підпросторової радіоактивності."
+  name: Subspace Receiver
+  description: This machine has a dish-like shape and green lights. It is designed to detect and process subspace radio activity.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -59,8 +59,8 @@
 - type: entity
   id: RMCTelecomBroadcaster #gets put ontop of stuff
   parent: RMCTelecomBusMainframe
-  name: "Підпросторовий передавач"
-  description: "Тарілкоподібна машина для трансляції оброблених підпросторових сигналів."
+  name: Subspace Broadcaster
+  description: A dish-shaped machine used to broadcast processed subspace signals.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -80,8 +80,8 @@
 - type: entity
   id: RMCTelecomRelay #gets put ontop of stuff
   parent: RMCTelecomBusMainframe
-  name: "Релейна станція зв'язку"
-  description: "Потужне обладнання, що використовується для передачі великих обсягів даних на велику відстань."
+  name: Telecomms Relay
+  description: A mighty piece of hardware used to send massive amounts of data far away.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -101,8 +101,8 @@
 - type: entity
   id: RMCTelecomProcessorUnit #gets put ontop of stuff
   parent: RMCTelecomBusMainframe
-  name: "Процесорний блок"
-  description: "Ця машина використовується для обробки великих обсягів інформації."
+  name: Processor Unit
+  description: This machine is used to process large quantities of information.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -122,8 +122,8 @@
 - type: entity
   id: RMCTelecomHub
   parent: RMCTelecomBusMainframe
-  name: "Телекомунікаційний хаб"
-  description: "Потужне обладнання, що використовується для передачі/прийому великих обсягів даних."
+  name: Telecommunication Hub
+  description: A mighty piece of hardware used to send/receive massive amounts of data.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -135,8 +135,8 @@
 - type: entity
   id: RMCTelecomOSServerBox
   parent: RMCTelecomBusMainframe
-  name: "Серверний блок We-Yu OS"
-  description: "We-Yu OS — це власницька операційна система, яку Компанія використовує для запуску майже всіх своїх серверів, банківських та управлінських систем. Витік коду у 2144 році змусив деяких хакерів-аматорів повірити, що We-Yu OS приблизно базується на релізі TempleOS 2017 року. Але Компанія спростувала ці заяви."
+  name: We-Yu OS server box
+  description: We-Yu OS is a proprietary operating system used by the Company to run most all of their servers, banking, and management systems. A code leak in 2144 led some amateur hackers to believe that We-Yu OS is loosely based on the 2017 release of TempleOS. But the Company has refuted these claims.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -148,8 +148,8 @@
 - type: entity
   id: RMCTelecomBlackBox
   parent: RMCTelecomBusMainframe
-  name: "Реєстратор чорної скриньки"
-  description: "Реєстратор чорної скриньки — це пристрій для запису даних із систем корабля. Спроектований стійким до втручань і витримує екстремальні умови." #custom
+  name: Blackbox Recorder
+  description: The blackbox recorder is a device used to record data from the ship's systems. It is designed to be tamper-proof and can withstand extreme conditions. #custom
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -180,8 +180,8 @@
 - type: entity
   id: RMCTelecomSensorComputer
   parent: RMCTelecomBusMainframe
-  name: "сенсорний комп'ютер"
-  description: "Комп'ютер IBM серії 10, переобладнаний для роботи як сенсорний комп'ютер корабля. Хоч і трохи застарілий, досі виконує своє призначення."
+  name: sensor computer
+  description: The IBM series 10 computer retrofitted to work as a sensor computer for the ship. While somewhat dated it still serves its purpose.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -206,8 +206,8 @@
 - type: entity
   id: RMCTelecomSensorComputer2
   parent: RMCTelecomBusMainframe
-  name: "сенсорний комп'ютер"
-  description: "Комп'ютер IBM серії 10, переобладнаний для роботи як сенсорний комп'ютер корабля. Хоч і трохи застарілий, досі виконує своє призначення."
+  name: sensor computer
+  description: The IBM series 10 computer retrofitted to work as a sensor computer for the ship. While somewhat dated it still serves its purpose.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -232,8 +232,8 @@
 - type: entity
   id: RMCTelecomSensorComputer3
   parent: RMCTelecomBusMainframe
-  name: "сенсорний комп'ютер"
-  description: "Комп'ютер IBM серії 10, переобладнаний для роботи як сенсорний комп'ютер корабля. Хоч і трохи застарілий, досі виконує своє призначення."
+  name: sensor computer
+  description: The IBM series 10 computer retrofitted to work as a sensor computer for the ship. While somewhat dated it still serves its purpose.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -258,8 +258,8 @@
 - type: entity
   id: RMCTelecomMappingComputer
   parent: RMCTelecomBusMainframe
-  name: "комп'ютер CMPS II"
-  description: "Загальна система виробництва карт версії II дозволяє отримувати сенсорні дані із супутників та корабельних систем для створення планетарних карт у стандартизованому форматі для всіх пілотів ОНМП."
+  name: CMPS II computer
+  description: The Common Mapping Production System version II allows for sensory input from satellites and ship systems to derive planetary maps in a standardized fashion for all UNMC pilots.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -282,8 +282,8 @@
 - type: entity
   id: RMCTelecomMissionPlanningSystem
   parent: RMCTelecomBusMainframe
-  name: "комп'ютер MPS IV"
-  description: "Система планування місій IV (MPS IV) — удосконалення в плануванні й картографуванні місій для пілотів десантних кораблів ОНМП. Повністю здатна налаштовувати їхні маршрути та комплектацію відповідно до бойових потреб."
+  name: MPS IV computer
+  description: The Mission Planning System IV (MPS IV), an enhancement in mission planning and charting for dropship pilots across the UNMC. Fully capable of customizing their flight paths and loadouts to suit their combat needs.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi
@@ -308,8 +308,8 @@
 - type: entity
   id: RMCTelecomServerRack
   parent: RMCTelecomBusMainframe
-  name: "серверна стійка"
-  description: "Серверна стійка — це обладнання для розміщення серверів та іншого комп'ютерного обладнання. Спроектована модульною і легко розширюється чи перенастроюється." #custom
+  name: server rack
+  description: The server rack is a piece of hardware used to house servers and other computer equipment. It is designed to be modular and can be easily expanded or reconfigured. #custom
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/telecommunication.rsi
@@ -334,7 +334,7 @@
 - type: entity
   id: RMCBlackMappingComputer
   parent: RMCTelecomSensorComputer
-  name: "консоль"
+  name: computer
   description: ""
   components:
   - type: Sprite

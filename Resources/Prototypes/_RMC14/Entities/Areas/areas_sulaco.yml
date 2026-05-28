@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Sulaco
-  name: "Десантний корабель Аламо"
+  name: Dropship Alamo
   components:
   - type: Sprite
     state: shuttlered
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1LV624
-  name: "Десантний корабель Аламо"
+  name: Dropship Alamo
   components:
   - type: Sprite
     state: shuttle
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Prison
-  name: "Десантний корабель Аламо"
+  name: Dropship Alamo
   components:
   - type: Sprite
     state: shuttle
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1BigRed
-  name: "Десантний корабель Аламо"
+  name: Dropship Alamo
   components:
   - type: Sprite
     state: shuttle
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1IceColony
-  name: "Десантний корабель Аламо"
+  name: Dropship Alamo
   components:
   - type: Sprite
     state: shuttle
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1DesertDam
-  name: "Десантний корабель Аламо"
+  name: Dropship Alamo
   components:
   - type: Sprite
     state: shuttle
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Transit
-  name: "Транзит десантного корабля Аламо"
+  name: Dropship Alamo Transit
   components:
   - type: Sprite
     state: shuttle2
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Lz1
-  name: "Зона висадки Аламо"
+  name: Alamo Landing Zone
   components:
   - type: Sprite
     state: away1
@@ -112,7 +112,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Sulaco
-  name: "Десантний корабель Нормандія"
+  name: Dropship Normandy
   components:
   - type: Sprite
     state: shuttle
@@ -120,7 +120,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2LV624
-  name: "Десантний корабель Нормандія"
+  name: Dropship Normandy
   components:
   - type: Sprite
     state: shuttle2
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Prison
-  name: "Десантний корабель Нормандія"
+  name: Dropship Normandy
   components:
   - type: Sprite
     state: shuttle2
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2BigRed
-  name: "Десантний корабель Нормандія"
+  name: Dropship Normandy
   components:
   - type: Sprite
     state: shuttle2
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2IceColony
-  name: "Десантний корабель Нормандія"
+  name: Dropship Normandy
   components:
   - type: Sprite
     state: shuttle2
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2DesertDam
-  name: "Десантний корабель Нормандія"
+  name: Dropship Normandy
   components:
   - type: Sprite
     state: shuttle2
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Transit
-  name: "Транзит десантного корабля Нормандія"
+  name: Dropship Normandy Transit
   components:
   - type: Sprite
     state: shuttlered
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Lz2
-  name: "Зона висадки Нормандії"
+  name: Normandy Landing Zone
   components:
   - type: Sprite
     state: away2
@@ -180,7 +180,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressStart
-  name: "Шатл лиха"
+  name: Distress Shuttle
   components:
   - type: Sprite
     state: away1
@@ -188,7 +188,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressTransit
-  name: "Транзит шатлу лиха"
+  name: Distress Shuttle Transit
   components:
   - type: Sprite
     state: away2
@@ -196,7 +196,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressStartPmc
-  name: "Шатл лиха PMC"
+  name: Distress Shuttle PMC
   components:
   - type: Sprite
     state: away1
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressTransitPmc
-  name: "Транзит шатлу лиха PMC"
+  name: Distress Shuttle PMC Transit
   components:
   - type: Sprite
     state: away2
@@ -212,7 +212,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressStartUpp
-  name: "Шатл лиха SPP"
+  name: Distress Shuttle SPP
   components:
   - type: Sprite
     state: away1
@@ -220,7 +220,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressTransitUpp
-  name: "Транзит шатлу лиха SPP"
+  name: Distress Shuttle SPP Transit
   components:
   - type: Sprite
     state: away2
@@ -228,7 +228,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressStartBig
-  name: "Великий шатл лиха"
+  name: Distress Shuttle Big
   components:
   - type: Sprite
     state: away1
@@ -236,7 +236,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressTransitBig
-  name: "Транзит великого шатлу лиха"
+  name: Distress Shuttle Big Transit
   components:
   - type: Sprite
     state: away2
@@ -244,7 +244,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressArrive1
-  name: "Шатл лиха"
+  name: Distress Shuttle
   components:
   - type: Sprite
     state: away3
@@ -252,7 +252,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressArrive2
-  name: "Шатл лиха"
+  name: Distress Shuttle
   components:
   - type: Sprite
     state: away4
@@ -260,7 +260,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressArrive3
-  name: "Шатл лиха"
+  name: Distress Shuttle
   components:
   - type: Sprite
     state: away
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressArriveNHangar
-  name: "Шатл лиха"
+  name: Distress Shuttle
   components:
   - type: Sprite
     state: away
@@ -276,7 +276,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressArriveSHangar
-  name: "Шатл лиха"
+  name: Distress Shuttle
   components:
   - type: Sprite
     state: away3
@@ -284,7 +284,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressStartSmall
-  name: "VIP-шатл"
+  name: VIP Shuttle
   components:
   - type: Sprite
     state: away3
@@ -292,7 +292,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressTransitSmall
-  name: "Транзит VIP-шатлу"
+  name: VIP Shuttle Transit
   components:
   - type: Sprite
     state: away2
@@ -300,7 +300,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressArriveNEngi
-  name: "VIP-шатл"
+  name: VIP Shuttle
   components:
   - type: Sprite
     state: away
@@ -308,7 +308,7 @@
 - type: entity
   parent: RMCAreaShuttleDistress
   id: RMCAreaShuttleDistressArriveSEngi
-  name: "VIP-шатл"
+  name: VIP Shuttle
   components:
   - type: Sprite
     state: away2

@@ -1,6 +1,6 @@
 - type: body
   id: CMUHumanBody
-  name: "людина"
+  name: "human"
   root: torso
   slots:
     head:

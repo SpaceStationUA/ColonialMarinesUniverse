@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyTARSPartyLeader #m41a/2
-  name: "Лідер Prodigy TARS"
+  name: Prodigy TARS Leader
   description: au14-prodigyrescue-description
   playTimeTracker: AU14JobProdigyTARSPartyLeaderTracker
   ranks:
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobProdigyTARSPartyLeader
-  name: "Лідер Prodigy TARS (3-тя сторона, M20a)"
+  name: Prodigy TARS Leader (3rd party, M20a)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

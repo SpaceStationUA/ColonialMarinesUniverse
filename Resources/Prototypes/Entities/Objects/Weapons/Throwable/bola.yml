@@ -1,8 +1,8 @@
 - type: entity
-  name: "бола"
+  name: bola
   parent: [BaseItem, BaseSecurityContraband]
   id: Bola
-  description: "З'єднані разом за допомогою запасних наручників та металу."
+  description: Linked together with some spare cuffs and metal.
   components:
   - type: Item
     size: Normal

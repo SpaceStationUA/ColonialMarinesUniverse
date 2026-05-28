@@ -38,7 +38,7 @@
 
 - type: entity
   id: RMCRandomHumanoidBureauObserver
-  name: "привид-роль спостерігача за міжзоряними правами життя бюро"
+  name: bureau ghost role interstellar life rights observer
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

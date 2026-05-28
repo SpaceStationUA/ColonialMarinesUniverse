@@ -1,8 +1,8 @@
 - type: entity
   id: AU14AICoreApolloCivilian
   parent: RMCAICore
-  name: "центральний Ш.І. APOLLO"
-  description: "Це система штучного інтелекту для моніторингу Воркінг Джо. Виготовлена корпорацією Сігсон."
+  name: APOLLO Central A.I.
+  description: This is the artificial intelligence system for monitoring the Working Joes. It is manufactured by Seegson Corporation.
   suffix: AU14, Colony
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   id: AU14AICoreApolloGOVFOR
   parent: AU14AICoreApolloCivilian
-  name: "центральний Ш.І. APOLLO"
+  name: APOLLO Central A.I.
   suffix: AU14, GOVFOR
   components:
   - type: IntrinsicRadioTransmitter
@@ -83,7 +83,7 @@
 - type: entity
   id: AU14AICoreApolloOPFOR
   parent: AU14AICoreApolloCivilian
-  name: "центральний Ш.І. APOLLO"
+  name: APOLLO Central A.I.
   suffix: AU14, OPFOR
   components:
   - type: IntrinsicRadioTransmitter
@@ -108,8 +108,8 @@
 - type: entity
   id: AU14AICoreCPU
   parent: RMCAICoreProcessor
-  name: "ЦП APOLLO"
-  description: "Це центральний процесор APOLLO. Виготовлений у корпусі, розрахованому на ядерні вибухи, ЦП також містить реєстратор чорного ящика APOLLO."
+  name: APOLLO CPU
+  description: This is APOLLO's central processor. Made of a casing designed to withstand nuclear blasts, the CPU also contains APOLLO's blackbox recorder.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -121,8 +121,8 @@
 - type: entity
   id: AU14AICoreSubstrate
   parent: RMCAICoreProcessor
-  name: "субстрат APOLLO"
-  description: "Субстрат пам’яті APOLLO, що містить складні протоколи та інформацію. Обмежені можливості можуть працювати лише на субстраті, без працездатного основного блока APOLLO."
+  name: APOLLO Substrate
+  description: The memory substrate of APOLLO, containing complex protocols and information. Limited capabilities can operate on substrate alone, without the main APOLLO Unit operational.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -133,8 +133,8 @@
 
 - type: entity
   id: APOLLOAICoreProcessor
-  name: "процесор APOLLO"
-  description: "Зовнішній процесор для APOLLO, що використовується для обробки величезних обсягів інформації."
+  name: APOLLO Processor
+  description: An external processor for APOLLO, used to process vast amounts of information.
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCAreaGA
   id: AU14AreaGAAI
-  name: "інтерфейс центрального Ш.І. APOLLO"
+  name: APOLLO Central A.I. Interface
   components:
   - type: Sprite
     state: wylab
@@ -198,7 +198,7 @@
 - type: entity
   parent: CMChairComfyARES
   id: AU14ChairComfyAI
-  name: "крісло інтерфейсу центрального Ш.І. APOLLO"
+  name: APOLLO Central A.I. interface chair
   suffix: AU14, APOLLO
   components:
   - type: Sprite

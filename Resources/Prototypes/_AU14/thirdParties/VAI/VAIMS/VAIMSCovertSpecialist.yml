@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAISOMedic
-  name: "медичний спеціаліст VAISO"
+  name: VAISO Medical Specialist
   components:
   - type: EquipEntityPreset
     preset: AU14VAISOBasePreset
@@ -52,7 +52,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "медичний спеціаліст VAISO"
+    name: VAISO Medical Specialist
     description: You have received intel on Weyland-Yutani's facility from local CLF insurgent group. Your mission is to raid the facility, securing any valuable intel. Do it without excessive attention.
     job: AU14VAISOMedic
     raffle:

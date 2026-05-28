@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: "пістолет-кулемет MP27"
+  name: MP27 submachinegun
   id: RMCWeaponSMGMP27
-  description: "Архаїчний дизайн, що сягає майже століття, MP27 був поширений у свій час. Сьогодні він рідко використовується як дешеві комп'ютерно-надруковані репліки чи сімейні реліквії. Надзвичайно ергономічний і легкий дизайн дозволяє легке масове виробництво й напрочуд гарне керування, але дешеві використовувані матеріали помітно шкодять розкиду зброї."
+  description: An archaic design going back almost a century, the MP27 was common in its day. Today it sees limited use as cheap computer-printed replicas or family heirlooms. An extremely ergonomic and lightweight design allows easy mass production and surpisingly good handling, but the cheap materials used hurt the weapon's scatter noticeably.
   suffix: Filled
   components:
   - type: Sprite
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGMP27
-  name: "Магазин MP27 (4.6x30мм)"
-  description: "Магазин 4.6мм для MP27. Стріляє великими, важкими кулями, що мають помітну силу удару для пістолета-кулемета, але також помітний розкид і втрату точності."
+  name: MP27 magazine (4.6x30mm)
+  description: A 4.6mm magazine for the MP27. Fires large, heavy bullets that have noticeable punch for an SMG but also have equally noticeable scatter and a loss of accuracy.
   components:
   - type: Tag
     tags:
@@ -134,8 +134,8 @@
 - type: entity
   parent: RMCMagazineSMGMP27
   id: RMCMagazineSMGMP27Extend
-  name: "Подовжений магазин MP27 (4.6x30мм)"
-  description: "Подовжений магазин 4.6мм для MP27. Стріляє великими, важкими кулями, що мають помітну силу удару для пістолета-кулемета, але також помітний розкид і втрату точності."
+  name: MP27 magazine extended (4.6x30mm)
+  description: A 4.6mm extended magazine for the MP27. Fires large, heavy bullets that have noticeable punch for an SMG but also have equally noticeable scatter and a loss of accuracy.
   components:
   - type: Tag
     tags:
@@ -159,8 +159,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge46x30mm
-  name: "набій (46x30мм SMG)"
-  description: "Набій 4.6мм для пістолета-кулемета MP27"
+  name: cartridge (46x30mm SMG)
+  description: A 4.6mm cartridge for the MP27 Submachinegun
   components:
   - type: Tag
     tags:

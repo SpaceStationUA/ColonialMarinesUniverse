@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMUCastItem
-  name: "медичний гіпс"
-  description: "Жорсткий гіпс, що іммобілізує і повільно лікує переломи до простого ступеня тяжкості."
+  name: medical cast
+  description: A rigid cast that immobilises and slowly heals fractures up to Simple severity.
   components:
   - type: Item
     size: Small

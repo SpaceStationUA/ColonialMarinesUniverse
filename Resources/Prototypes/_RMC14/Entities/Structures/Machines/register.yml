@@ -2,8 +2,8 @@
   abstract: true
   parent: [ CMBaseStructure, BaseBagOpenClose ]
   id: RMCCashRegisterBase
-  name: "касовий апарат"
-  description: "Касовий апарат бренду Novaris, який приймає кредитні чіти... і готівку, якщо ним хтось керує. Кажуть, у них та сама логічна плата, що в Novaris Average Joes. Ти починаєш фінансово нестабільніти."
+  name: cash register
+  description: A Novaris brand point of sales system that accepts credit chits... and cash assuming it is operated. Rumor has it these use the same logic board as Novaris Average Joes. You are becoming financially unstable.
   components:
   - type: Storage
     grid:

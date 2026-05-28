@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseCurtains
   id: RMCCurtainBase
-  name: "штора"
+  name: curtain
   abstract: true
   components:
   - type: InteractionOutline
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCCurtainBase
   id: RMCCurtainMedical
-  name: "пластикова штора"
+  name: plastic curtain
   components:
   - type: Sprite
     snapCardinals: true
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCCurtainBase
   id: RMCCurtainShower
-  name: "штора для душу"
+  name: shower curtain
   components:
   - type: Sprite
     snapCardinals: true
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCCurtainBase
   id: RMCCurtainRed
-  name: "червона штора"
+  name: red curtain
   components:
   - type: Sprite
     snapCardinals: true
@@ -106,7 +106,7 @@
 - type: entity
   parent: RMCCurtainBase
   id: RMCCurtainColourableTransparent
-  name: "жалюзі"
+  name: blinds
   components:
   - type: Sprite
     snapCardinals: true
@@ -134,7 +134,7 @@
 - type: entity
   parent: RMCCurtainColourableTransparent
   id: RMCCurtainColourableTransparentAlt
-  name: "жалюзі"
+  name: blinds
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Curtains/colorable_transparent_alt.rsi

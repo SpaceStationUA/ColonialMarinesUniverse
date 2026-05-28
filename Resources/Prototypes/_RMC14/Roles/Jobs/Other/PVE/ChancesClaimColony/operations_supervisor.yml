@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorOperationsSupervisor
-  name: "спавн пойнт"
+  name:  spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -76,7 +76,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorOperationsSupervisor
-  name: "привид-роль наглядача операцій chances"
+  name: chances operations supervisor ghost role
   components:
   - type: Sprite
     layers:

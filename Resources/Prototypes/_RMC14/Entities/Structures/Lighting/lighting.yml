@@ -4,8 +4,8 @@
 - type: entity
   parent: AlwaysPoweredWallLight
   id: RMCLightFixtureAlwaysPowered
-  name: "освітлювальний прилад"
-  description: "Освітлювальний прилад, оснащений яскравою люмінесцентною лампою. Якщо дивитися на нього занадто довго, очі починають сльозитися."
+  name: light fixture
+  description: A lighting fixture that is fitted with a bright fluorescent light tube. Looking at it for too long makes your eyes go watery.
   suffix: Always powered, DO NOT MAP
   components:
   - type: Transform
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCLightFixtureAlwaysPowered
   id: RMCLightFixtureDoubleAlwaysPowered
-  description: "Освітлювальний прилад, у який можна вставити дві яскраві люмінесцентні лампи для додаткової сльозогінної насолоди."
+  description: A lighting fixture that can be fitted with two bright fluorescent light tubes for that extra eye-watering goodness.
   components:
   - type: Sprite
     state: ptube1
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCLightFixtureEmpty
   id: RMCLightFixtureDoubleEmpty
-  description: "Освітлювальний прилад, у який можна вставити дві яскраві люмінесцентні лампи для додаткової сльозогінної насолоди."
+  description: A lighting fixture that can be fitted with two bright fluorescent light tubes for that extra eye-watering goodness.
   components:
   - type: Sprite
     state: ptube1
@@ -316,7 +316,7 @@
 - type: entity
   parent: RMCLightFixture
   id: RMCLightFixtureDouble
-  description: "Освітлювальний прилад, у який можна вставити дві яскраві люмінесцентні лампи для додаткової сльозогінної насолоди."
+  description: A lighting fixture that can be fitted with two bright fluorescent light tubes for that extra eye-watering goodness.
   components:
   - type: Sprite
     state: ptube1
@@ -406,7 +406,7 @@
 - type: entity
   parent: RMCLightFixtureAlwaysPowered
   id: RMCLightFixtureSmallAlwaysPowered
-  description: "Малий освітлювальний прилад, оснащений яскравою люмінесцентною лампою. Якщо дивитися на нього занадто довго, очі починають сльозитися."
+  description: A small lighting fixture that is fitted with a bright fluorescent light bulb. Looking at it for too long makes your eyes go watery.
   suffix: Always powered, DO NOT MAP
   components:
   - type: Sprite

@@ -14,8 +14,8 @@
     price: 0
 
 - type: entity
-  name: "мазь"
-  description: "Використовується для лікування неприємних опіків. Менш ефективний при опіках їдкими речовинами."
+  name: ointment
+  description: Used to treat those nasty burns. Less effective on caustic burns.
   parent: BaseHealingItem
   id: Ointment
   suffix: Full
@@ -71,8 +71,8 @@
     count: 10
 
 - type: entity
-  name: "регенеративна сітка"
-  description: "Використовується для лікування навіть найнеприємніших опіків. Також ефективний при опіках їдкими речовинами."
+  name: regenerative mesh
+  description: Used to treat even the nastiest burns. Also effective against caustic burns.
   parent: BaseHealingItem
   id: RegenerativeMesh
   suffix: Full
@@ -128,8 +128,8 @@
     count: 0
 
 - type: entity
-  name: "пакет від синців"
-  description: "Лікувальний гель-пакет та бинти, призначені для лікування травм від ударів тупими предметами."
+  name: bruise pack
+  description: A therapeutic gel pack and bandages designed to treat blunt-force trauma.
   parent: BaseHealingItem
   id: Brutepack
   suffix: Full
@@ -182,8 +182,8 @@
     count: 10
 
 - type: entity
-  name: "медикаментозний шов"
-  description: "Шов, просочений ліками, ефективно лікує травми від ударів тупими предметами та закриває рани."
+  name: medicated suture
+  description: A suture soaked in medicine, treats blunt-force trauma effectively and closes wounds.
   parent: BaseHealingItem
   id: MedicatedSuture
   suffix: Full
@@ -238,8 +238,8 @@
     count: 0
 
 - type: entity
-  name: "пакет крові"
-  description: "Містить революційний універсальний кровозамінник, створений передовою медичною наукою Nanotrasen."
+  name: blood pack
+  description: Contains a groundbreaking universal blood replacement created by Nanotrasen's advanced medical science.
   parent: BaseHealingItem
   id: Bloodpack
   suffix: Full
@@ -295,8 +295,8 @@
 - type: entity
   parent: BaseHealingItem
   id: Tourniquet
-  name: "джгут"
-  description: "Зупиняє кровотечу! Сподіваюся."
+  name: tourniquet
+  description: Stops bleeding! Hopefully.
   components:
     - type: Tag
       tags:
@@ -327,8 +327,8 @@
           variation: 0.125
 
 - type: entity
-  name: "рулон марлі"
-  description: "Стерильну марлю, щоб обмотати закривавлені обрубки."
+  name: roll of gauze
+  description: Some sterile gauze to wrap around bloody stumps.
   parent: BaseHealingItem
   id: Gauze
   suffix: Full
@@ -391,8 +391,8 @@
     count: 10
 
 - type: entity
-  name: "крем з алое"
-  description: "Місцевий крем від опіків."
+  name: aloe cream
+  description: A topical cream for burns.
   parent: Ointment ##Yes it's a direct reskin
   id: AloeCream
   components:
@@ -406,8 +406,8 @@
 - type: entity
   parent: BaseHealingItem
   id: HealingToolbox
-  name: "інструментарій зцілення"
-  description: "Потужний набір інструментів, просякнутий сильною енергією. Він може зцілити ваші рани і наповнити вас вбивчим наміром."
+  name: healing toolbox
+  description: A powerful toolbox imbued with robust energy. It can heal your wounds and fill you with murderous intent.
   categories: [ DoNotMap ]
   components:
   - type: Sprite
@@ -437,7 +437,7 @@
 
 # Pills
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Dexalin 10u
   parent: Pill
   id: PillDexalin
@@ -457,7 +457,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterDexalin
   suffix: Dexalin 10u, 7
@@ -470,7 +470,7 @@
       amount: 7
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Dylovene 10u
   parent: Pill
   id: PillDylovene
@@ -490,7 +490,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterDylovene
   suffix: Dylovene 10u, 5
@@ -503,7 +503,7 @@
       amount: 5
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Hyronalin 10u
   parent: Pill
   id: PillHyronalin
@@ -523,7 +523,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterHyronalin
   suffix: Hyronalin 10u, 5
@@ -536,7 +536,7 @@
       amount: 5
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Potassium iodide 10u
   parent: Pill
   id: PillPotassiumIodide
@@ -556,7 +556,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterPotassiumIodide
   suffix: Potassium iodide 10u, 5
@@ -569,7 +569,7 @@
       amount: 5
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Iron 10u
   parent: Pill
   id: PillIron
@@ -589,7 +589,7 @@
           Quantity: 10
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Copper 10u
   parent: Pill
   id: PillCopper
@@ -609,7 +609,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterIron
   suffix: Iron 10u, 5
@@ -622,7 +622,7 @@
       amount: 5
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterCopper
   suffix: Copper 10u, 5
@@ -635,7 +635,7 @@
       amount: 5
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Kelotane 10u
   parent: Pill
   id: PillKelotane
@@ -655,7 +655,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterKelotane
   suffix: Kelotane 10u, 5
@@ -668,7 +668,7 @@
       amount: 5
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Dermaline 10u
   parent: Pill
   id: PillDermaline
@@ -688,7 +688,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterDermaline
   suffix: Dermaline 10u, 5
@@ -701,7 +701,7 @@
       amount: 5
 
 - type: entity
-  name: "космічний міраж"
+  name: space mirage
   parent: Pill
   id: PillSpaceDrugs
   components:
@@ -714,7 +714,7 @@
           Quantity: 15
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Tricordrazine 10u
   parent: Pill
   id: PillTricordrazine
@@ -734,7 +734,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterTricordrazine
   suffix: Tricordrazine 10u, 5
@@ -747,7 +747,7 @@
       amount: 5
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Bicaridine 10u
   parent: Pill
   id: PillBicaridine
@@ -767,7 +767,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterBicaridine
   suffix: Bicaridine 10u, 5
@@ -780,7 +780,7 @@
       amount: 5
 
 - type: entity
-  name: "таблетка"
+  name: pill
   suffix: Charcoal 10u
   parent: Pill
   id: PillCharcoal
@@ -800,7 +800,7 @@
           Quantity: 10
 
 - type: entity
-  name: "контейнер для таблеток"
+  name: pill canister
   parent: PillCanister
   id: PillCanisterCharcoal
   suffix: Charcoal 10u, 3
@@ -813,7 +813,7 @@
       amount: 3
 
 - type: entity
-  name: "ромерол таблетки"
+  name: romerol pill
   parent: Pill
   id: PillRomerol
   components:
@@ -826,7 +826,7 @@
           Quantity: 10
 
 - type: entity
-  name: "амбузол таблетки"
+  name: ambuzol pill
   parent: Pill
   id: PillAmbuzol
   components:
@@ -839,7 +839,7 @@
               Quantity: 10
 
 - type: entity
-  name: "амбузол плюс таблетки"
+  name: ambuzol plus pill
   parent: Pill
   id: PillAmbuzolPlus
   components:

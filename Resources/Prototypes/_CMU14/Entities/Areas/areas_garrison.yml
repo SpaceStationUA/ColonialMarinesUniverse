@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: AU14AreaGarrison
-  name: "Стайна гарнізон"
+  name: Stable Garrison
   abstract: true
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   parent: AU14AreaGarrison
   id: AU14AreaGarrisonOutdoors
-  name: "Гарнізон — Зовні"
+  name: Garrison - Outdoors
   abstract: true
   components:
   - type: Area
@@ -33,7 +33,7 @@
 - type: entity
   parent: AU14AreaGarrison
   id: AU14AreaGarrisonIndoors
-  name: "Гарнізон — Усередині"
+  name: Garrison - Indoors
   abstract: true
   components:
   - type: Area
@@ -51,7 +51,7 @@
 - type: entity
   parent: AU14AreaGarrison
   id: AU14AreaGarrisonCaves
-  name: "Гарнізон — Печери"
+  name: Garrison - Caves
   abstract: true
   components:
   - type: Area
@@ -69,7 +69,7 @@
 - type: entity
   parent: AU14AreaGarrison
   id: AU14AreaGarrisonFullProtection
-  name: "Гарнізон — Безпечна зона"
+  name: Garrison - Safe Zone
   abstract: true
   components:
   - type: Area
@@ -87,7 +87,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaGarrisonOutofBounds
-  name: "Поза межами"
+  name: Out of Bounds
   components:
   - type: Sprite
     state: oob
@@ -97,7 +97,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaGarrisonOutofBoundsCreators
-  name: "Ротонда Творців — Поза межами"
+  name: Creator's Rotunda - Out of Bounds
   components:
   - type: Sprite
     state: oob
@@ -107,7 +107,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaStableGarrisonLZ
-  name: "Стайна гарнізон — Зони висадки"
+  name: Stable Garrison - Landing Zones
   components:
   - type: Sprite
     state: lz_pad
@@ -117,7 +117,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonReq
-  name: "Стайна гарнізон — Реквізиції"
+  name: Stable Garrison - Requisitions
   components:
   - type: Sprite
     state: kutjevo
@@ -127,7 +127,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonPillboxes
-  name: "Стайна гарнізон — Доти"
+  name: Stable Garrison - Pillboxes
   components:
   - type: Sprite
     state: stone_fields
@@ -137,7 +137,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonPrep
-  name: "Стайна гарнізон — Кімнати підготовки"
+  name: Stable Garrison - Preperations Rooms
   components:
   - type: Sprite
     state: power
@@ -147,7 +147,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonMedbay
-  name: "Стайна гарнізон — Медблок"
+  name: Stable Garrison - Medbay
   components:
   - type: Sprite
     state: med1
@@ -157,7 +157,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonBrig
-  name: "Стайна гарнізон — Бриг"
+  name: Stable Garrison - Brig
   components:
   - type: Sprite
     state: colony_int
@@ -167,7 +167,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonCIC
-  name: "Стайна гарнізон — CIC"
+  name: Stable Garrison - CIC
   components:
   - type: Sprite
     state: weed_int
@@ -177,7 +177,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonFrontGate
-  name: "Стайна гарнізон — Передні ворота"
+  name: Stable Garrison - Front Gate
   components:
   - type: Sprite
     state: rf_overlook
@@ -187,7 +187,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonNorth
-  name: "Стайна гарнізон — Північ"
+  name: Stable Garrison - North
   components:
   - type: Sprite
     state: rf_dunes
@@ -197,7 +197,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonSouth
-  name: "Стайна гарнізон — Південь"
+  name: Stable Garrison - South
   components:
   - type: Sprite
     state: rf_bridge
@@ -207,7 +207,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonMotorPool
-  name: "Стайна гарнізон — Моторний басейн"
+  name: Stable Garrison - Motor Pool
   components:
   - type: Sprite
     state: foremans
@@ -217,7 +217,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreetSpaceport
-  name: "Шлях космопорту"
+  name: Spaceport Way
   components:
   - type: Sprite
     state: colony_caves_0
@@ -227,7 +227,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreetUoAMedicalServiceRoad
-  name: "UoA Сервісна дорога медичного"
+  name: UoA Medical Service Road
   components:
   - type: Sprite
     state: colony_caves_1
@@ -237,7 +237,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreetSchafer
-  name: "Меморіальна дорога Шафера"
+  name: Schafer Memorial Drive
   components:
   - type: Sprite
     state: colony_caves_2
@@ -247,7 +247,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonYutaniDrive
-  name: "Дорога Ютані"
+  name: Yutani Drive
   components:
   - type: Sprite
     state: colony_caves_3
@@ -257,7 +257,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonCarParkCorpo
-  name: "Корпоративний паркінг"
+  name: Corporate Car Park
   components:
   - type: Sprite
     state: colony_caves_3
@@ -267,7 +267,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreet1stAvenue
-  name: "1-ша авеню"
+  name: 1st Avenue
   components:
   - type: Sprite
     state: colony_caves_3
@@ -277,7 +277,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreet2ndAvenue
-  name: "2-га авеню"
+  name: 2nd Avenue
   components:
   - type: Sprite
     state: colony_caves_3
@@ -287,7 +287,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreet3rdAvenue
-  name: "3-тя авеню"
+  name: 3rd Avenue
   components:
   - type: Sprite
     state: colony_caves_3
@@ -297,7 +297,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreet4thAvenue
-  name: "4-та авеню"
+  name: 4th Avenue
   components:
   - type: Sprite
     state: colony_caves_3
@@ -307,7 +307,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonStreetMainStreet
-  name: "Головна вулиця"
+  name: Main Street
   components:
   - type: Sprite
     state: ext
@@ -317,7 +317,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonCMBOutpost
-  name: "Аванпост CMB"
+  name: CMB Outpost
   components:
   - type: Sprite
     state: int
@@ -327,7 +327,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonCMBOutpostCheckpoint
-  name: "Чекпоінт CMB"
+  name: CMB Checkpoint
   components:
   - type: Sprite
     state: int
@@ -337,7 +337,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonCMBNETunnels
-  name: "Північно-східні тунелі"
+  name: Northeast Tunnels
   components:
   - type: Sprite
     state: int
@@ -347,7 +347,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonFiltration
-  name: "Фільтрація"
+  name: Filtration
   components:
   - type: Sprite
     state: int
@@ -357,7 +357,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonFiltrationOverflow
-  name: "Перелив фільтрації"
+  name: Filtration Overflow
   components:
   - type: Sprite
     state: int
@@ -367,7 +367,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonEastMaintTunnel
-  name: "Східні тунелі обслуговування"
+  name: Eastern Maintenance Tunnels
   components:
   - type: Sprite
     state: int
@@ -377,7 +377,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonCLHouse
-  name: "Будинок корпоративного лізона"
+  name: Corporate Liaison's House
   components:
   - type: Sprite
     state: int
@@ -387,7 +387,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonHouseUpscale
-  name: "Елітний будинок"
+  name: Upscale House
   components:
   - type: Sprite
     state: int
@@ -397,7 +397,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonGeoThermalGenerators
-  name: "Кімната генератора колонії"
+  name: Colony Generator Room
   components:
   - type: Sprite
     state: int
@@ -407,7 +407,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonGeneratorPlaza
-  name: "Площа кімнати генераторів"
+  name: Generator Room Plaza
   components:
   - type: Sprite
     state: ext
@@ -417,7 +417,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonSouthWestAlley
-  name: "Південно-західний провулок"
+  name: South West Alley
   components:
   - type: Sprite
     state: ext
@@ -427,7 +427,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonWasteWater
-  name: "Колектор стічних вод"
+  name: Waste Water Collection Pool
   components:
   - type: Sprite
     state: ext
@@ -437,7 +437,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonWeyMart
-  name: "Кутовий магазин WeyMart"
+  name: WeyMart Corner Store
   components:
   - type: Sprite
     state: int
@@ -447,7 +447,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonAlbacetireNews
-  name: "Альбасетіра Новини"
+  name: Albacetire News
   components:
   - type: Sprite
     state: int
@@ -457,7 +457,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonHotelmuylimpio
-  name: "Студентське житло VII секції"
+  name: Section VII Student Housing
   components:
   - type: Sprite
     state: int
@@ -467,7 +467,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonDistributionEngineering
-  name: "Інженерія та розповсюдження колонії"
+  name: Colony Engineering & Distribution
   components:
   - type: Sprite
     state: int
@@ -477,7 +477,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonWeyShop
-  name: "Аутлет-молл WeyShop"
+  name: WeyShop Outlet Mall
   components:
   - type: Sprite
     state: int
@@ -487,7 +487,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonClothingShop
-  name: "Магазин одягу Modern Thread"
+  name: Modern Thread Clothing Store
   components:
   - type: Sprite
     state: med0
@@ -497,7 +497,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonSurplusStore
-  name: "Військовий магазин Джека"
+  name: Jack's Military Surplus
   components:
   - type: Sprite
     state: med2
@@ -507,7 +507,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonGroceryStore
-  name: "Бакалія Weymart+"
+  name: Weymart Grocery+
   components:
   - type: Sprite
     state: med2
@@ -517,7 +517,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonPsychology
-  name: "Психологія Артура та братів"
+  name: Arthur & Brothers Psychology
   components:
   - type: Sprite
     state: int
@@ -527,7 +527,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonManagementOffice
-  name: "Кабінет управління колонією Вейланд-Ютані"
+  name: Weyland-Yutani Colony Management Office
   components:
   - type: Sprite
     state: int
@@ -537,7 +537,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonERO
-  name: "Кабінет аварійного реагування"
+  name: Emergency Response Office
   components:
   - type: Sprite
     state: int
@@ -547,7 +547,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonCMBMotorpool
-  name: "Моторний басейн ділянки CMB"
+  name: CMB Precinct Motorpool
   components:
   - type: Sprite
     state: botany2
@@ -557,7 +557,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonSouthEastColonyGrounds
-  name: "Південно-західна територія колонії"
+  name: Southwest Colony Grounds
   components:
   - type: Sprite
     state: botany2
@@ -567,7 +567,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonSouthCentralColonyGrounds
-  name: "Південно-центральна територія колонії"
+  name: South Central Colony Grounds
   components:
   - type: Sprite
     state: botany2
@@ -577,7 +577,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonSouthEast2ColonyGrounds
-  name: "Південно-східна територія колонії"
+  name: Southeast Colony Grounds
   components:
   - type: Sprite
     state: botany2
@@ -587,7 +587,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonNorthWestColonyGrounds
-  name: "Північно-західна територія колонії"
+  name: Northwest Colony Grounds
   components:
   - type: Sprite
     state: botany2
@@ -597,7 +597,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonNorthEastColonyGrounds
-  name: "Північно-східна територія колонії"
+  name: Northeast Colony Grounds
   components:
   - type: Sprite
     state: botany2
@@ -607,7 +607,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonHospitalParking
-  name: "Паркінг регіонального космопорту Альбасетіра"
+  name: Albacetire Regional Spaceport Parking
   components:
   - type: Sprite
     state: construction3
@@ -617,7 +617,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonCMBPrecinct
-  name: "Ділянка CMB"
+  name: CMB Precinct
   components:
   - type: Sprite
     state: int
@@ -627,7 +627,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonHospital
-  name: "Лікарня Університету Альбасетіра"
+  name: University of Albacetire Hospital
   components:
   - type: Sprite
     state: int
@@ -637,7 +637,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonBar
-  name: "Бар і аркада Генка"
+  name: Hank's Spirits & Arcade
   components:
   - type: Sprite
     state: int
@@ -647,7 +647,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonNorthApartments
-  name: "Квартири Льюїстон Північ"
+  name: Lewiston Apartments North
   components:
   - type: Sprite
     state: int
@@ -657,7 +657,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonSouthApartments
-  name: "Квартири Льюїстон Південь"
+  name: Lewiston Apartments South
   components:
   - type: Sprite
     state: int
@@ -667,7 +667,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonBiologySchool
-  name: "UoA — Школа ксенобіології"
+  name: UoA - School of Xenobiology
   components:
   - type: Sprite
     state: int
@@ -677,7 +677,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonSpaceportATC
-  name: "ATC регіонального космопорту Альбасетіра"
+  name: Albacetire Regional Spaceport ATC
   components:
   - type: Sprite
     state: med_ext
@@ -687,7 +687,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonSpaceport
-  name: "Регіональний космопорт Альбасетіра"
+  name: Albacetire Regional Spaceport
   components:
   - type: Sprite
     state: int
@@ -697,7 +697,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonSpaceportAdmin
-  name: "Колоніальна адміністрація"
+  name: Colonial Administration
   components:
   - type: Sprite
     state: med1
@@ -707,7 +707,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonNorthDesert
-  name: "Північні джунглі"
+  name: Northern Jungle
   components:
   - type: Sprite
     state: construction3
@@ -717,7 +717,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonSouthDesert
-  name: "Південні джунглі"
+  name: Southern Jungle
   components:
   - type: Sprite
     state: colony_int
@@ -727,7 +727,7 @@
 - type: entity
   parent: AU14AreaGarrisonOutdoors
   id: AU14AreaGarrisonTemp
-  name: "Гарнізон (ТИМЧ)"
+  name: Garrison (TEMP)
   components:
   - type: Sprite
     state: colony_int
@@ -737,7 +737,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaGarrisonSouthDesertTunnel
-  name: "Тунель південних джунглів"
+  name: Southern Jungle Tunnel
   components:
   - type: Sprite
     state: colony_int
@@ -747,7 +747,7 @@
 - type: entity
   parent: AU14AreaGarrisonCaves
   id: AU14AreaGarrisonCaves2
-  name: "Західні печери"
+  name: Western Caves
   components:
   - type: Sprite
     state: colony_int
@@ -757,7 +757,7 @@
 - type: entity
   parent: AU14AreaGarrisonCaves
   id: AU14AreaGarrisonCaves3
-  name: "Глибокі західні печери"
+  name: Deep Western Caves
   components:
   - type: Sprite
     state: colony_int
@@ -767,7 +767,7 @@
 - type: entity
   parent: AU14AreaGarrisonCaves
   id: AU14AreaGarrisonMiningCamp
-  name: "Шахтарський табір"
+  name: Mining Camp
   components:
   - type: Sprite
     state: colony_int
@@ -777,7 +777,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonSewers
-  name: "Стайна гарнізон — Каналізація захід"
+  name: Stable Garrison - Sewers West
   components:
   - type: Sprite
     state: colony_caves_1
@@ -787,7 +787,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonSewer1
-  name: "Стайна гарнізон — Каналізаційний канал"
+  name: Stable Garrison - Sewer Canal
   components:
   - type: Sprite
     state: colony_int
@@ -797,7 +797,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonSewer2
-  name: "Стайна гарнізон — Каналізація північний схід"
+  name: Stable Garrison - Sewer Northeast
   components:
   - type: Sprite
     state: colony_caves_2
@@ -807,7 +807,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonSewer3
-  name: "Стайна гарнізон — Каналізація південний схід"
+  name: Stable Garrison - Sewer Southeast
   components:
   - type: Sprite
     state: int
@@ -817,7 +817,7 @@
 - type: entity
   parent: AU14AreaGarrisonFullProtection
   id: AU14AreaStableGarrisonWeyland
-  name: "Стайна гарнізон — Лабораторія біозброї Вейланд-Ютані"
+  name: Stable Garrison - Weyland-Yutani Bioweapons Lab
   components:
   - type: Sprite
     state: colony_int
@@ -827,7 +827,7 @@
 - type: entity
   parent: AU14AreaGarrisonIndoors
   id: AU14AreaStableGarrisonWeyland1
-  name: "Стайна гарнізон — Вхід обєкту Вейланд-Ютані"
+  name: Stable Garrison - Weyland-Yutani Facility Enterance
   components:
   - type: Sprite
     state: colony_int

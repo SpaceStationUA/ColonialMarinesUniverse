@@ -1,8 +1,8 @@
 - type: entity
   id: VehicleBlackfootBase
   abstract: true
-  name: "AD-71E Блекфут"
-  description: "Компактний VTOL-літак, призначений для операцій на кількох Z-рівнях."
+  name: AD-71E Blackfoot
+  description: A compact VTOL aircraft intended for multi-Z operations.
   components:
   - type: Vehicle
     movementKind: Grid

@@ -2,7 +2,7 @@
   parent: AU14JobPlatCoBase
   id: AU14JobGOVFORPlatCoCMBCIU
   requirements: []
-  name: "командир взводу"
+  name: Platoon Commander
   description: au14-job-description-govforplatco
   icon: "AU14JobIconPlatCo"
   spawnMenuRoleName: Platoon Commander (CMBCIU)

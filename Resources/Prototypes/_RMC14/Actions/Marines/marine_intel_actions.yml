@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCActionViewIntelObjectives
-  name: "Переглянути Розвідцілі"
+  name: View Intel Objectives
   components:
   - type: Action
     checkCanInteract: false

@@ -3,8 +3,8 @@
   abstract: true
   parent: ClothingBeltBase
   id: CMBeltBase
-  name: "пояс"
-  description: "Може вміщати різні речі."
+  name: belt
+  description: Can hold various things.
   components:
   - type: Appearance
   - type: Item

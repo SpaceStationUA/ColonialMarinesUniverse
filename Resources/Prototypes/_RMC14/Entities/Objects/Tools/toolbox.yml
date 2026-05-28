@@ -29,7 +29,7 @@
       - Xeno
 
 - type: entity
-  name: "аварійний набір інструментів"
+  name: emergency toolbox
   parent: [RMCToolboxBase, ToolboxEmergency]
   id: RMCToolboxEmergency
   components:
@@ -57,7 +57,7 @@
   suffix: RMC14, Filled
 
 - type: entity
-  name: "електричний ящик для інструментів"
+  name: electrical toolbox
   parent: [RMCToolboxBase, ToolboxElectrical]
   id: RMCToolboxElectrical
   components:
@@ -87,7 +87,7 @@
   suffix: RMC14, Filled
 
 - type: entity
-  name: "ящик для інструментів механіка"
+  name: mechanical toolbox
   parent: [RMCToolboxBase, ToolboxMechanical]
   id: RMCToolboxMechanical
   components:
@@ -128,8 +128,8 @@
   suffix: RMC14, Filled, Green
 
 - type: entity
-  name: "підозрілий ящик інструментів"
-  description: "Компактний і підозрілий на вигляд ящик інструментів. Цей достатньо малий, щоб поміститися в сумку."
+  name: suspicious toolbox
+  description: A compact and suspicious looking toolbox. This one is small enough to fit into a bag.
   parent: RMCToolboxBase
   id: RMCToolboxSyndicate
   components:

@@ -14,8 +14,8 @@
 - type: entity
   parent: [ RMCBaseMeleeWeapon, BaseKnife, RMCAttachableBase ]
   id: RMCM5Bayonet # bayonet
-  name: "штик-ніж M5 «Нічний Рейдер»"
-  description: "Стандартний штик-ніж морпіхів. Можна засунути в чобіт або прикріпити до кінчика гвинтівки."
+  name: "M5 'Night Raider' bayonet"
+  description: The standard-issue bayonet of the Marines. You can slide this knife into your boots, or attach it to the end of a rifle.
   components:
   - type: Clothing
     slots:
@@ -73,8 +73,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCCombatUtilityKnifeA
-  name: "бойовий ніж-утиліта «Дружина»"
-  description: "Важкий бойовий ніж, розроблений для спецпризначенців СПН. Його вага та міцність роблять його популярним для різних польових завдань."
+  name: "'Druzhina' combat utility knife"
+  description: A heavy combat knife, designed for SPP special forces. Its heft and durability makes it popular for various uses in the field.
   components:
   - type: Clothing
     slots:
@@ -95,8 +95,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCCombatUtilityKnifeB
-  name: "бойовий ніж-утиліта «Дружина»"
-  description: "Важкий бойовий ніж, розроблений для спецпризначенців СПН. Його вага та міцність роблять його популярним для різних польових завдань."
+  name: "'Druzhina' combat utility knife"
+  description: A heavy combat knife, designed for SPP special forces. Its heft and durability makes it popular for various uses in the field.
   components:
   - type: Clothing
     slots:
@@ -117,8 +117,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCTantoA # bayonet
-  name: "танто піхотний MK3"
-  description: "Викуваний для еліти Морської Піхоти Королівського Командос; витончена, загартована конструкція цього клинка отримала похвалу від своїх власників."
+  name: "MK3 infantry service tanto"
+  description: Forged for the elite forces of the Royal Marines Commando, the sleek, tempered construction of this blade has been lauded by its wielders.
   components:
   - type: Clothing
     slots:
@@ -139,8 +139,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCTantoB # bayonet
-  name: "танто піхотний MK3"
-  description: "Викуваний для еліти Морської Піхоти Королівського Командос; витончена, загартована конструкція цього клинка отримала похвалу від своїх власників."
+  name: "MK3 infantry service tanto"
+  description: Forged for the elite forces of the Royal Marines Commando, the sleek, tempered construction of this blade has been lauded by its wielders.
   components:
   - type: Clothing
     slots:
@@ -161,8 +161,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCSawtoothDaggerA # bayonet
-  name: "траншейний кинджал зразка Фіоре"
-  description: "Цей тонкий, але жорсткий кинджал цінують за поєднання елегантних рис і смертоносності в рукопашному бою."
+  name: "Fiore-pattern trench dagger"
+  description: This thin, yet rigid dagger is favored for its combination of elegant features and lethality in hand-to-hand combat.
   components:
   - type: Clothing
     slots:
@@ -183,8 +183,8 @@
 - type: entity
   parent: RMCM5Bayonet
   id: RMCSawtoothDaggerB # bayonet
-  name: "траншейний кинджал зразка Фіоре"
-  description: "Цей тонкий, але жорсткий кинджал цінують за поєднання елегантних рис і смертоносності в рукопашному бою."
+  name: "Fiore-pattern trench dagger"
+  description: This thin, yet rigid dagger is favored for its combination of elegant features and lethality in hand-to-hand combat.
   components:
   - type: Clothing
     slots:
@@ -203,10 +203,10 @@
     prefix: daggerb
 
 - type: entity
-  name: "метальний ніж M11"
+  name: M11 throwing knife
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: CMM11Knife
-  description: "Військовий ніж, призначений для метання у ворога."
+  description: A military knife designed to be thrown at the enemy.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/m11_knife.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: CMM2132Machete
-  name: "мачете M2132"
-  description: "Останній випуск мачете морпіха."
+  name: M2132 machete
+  description: Latest issue of the Marine Machete.
   components:
   - type: Clothing
     slots:
@@ -289,8 +289,8 @@
 - type: entity
   parent: CMM2132Machete
   id: RMCCeremonialSword
-  name: "церемоніальна шабля"
-  description: "Вишукана церемоніальна шабля, що передається з покоління в покоління. Попри це, за нею добре доглядали, і вона в чудовому стані."
+  name: ceremonial sabre
+  description: A fancy ceremonial sabre passed down from generation to generation. Despite this, it has been very well cared for, and is in top condition.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Melee/co_sabre.rsi
@@ -306,8 +306,8 @@
 - type: entity
   parent: CMM2132Machete
   id: RMCM2100Machete
-  name: "мачете M2100 «Нґаджи»"
-  description: "Старіший випуск мачете ОНМП, що так і не вийшов з випробувань. Розроблений у Центральноафриканській Республіці. Зубчатість ускладнювала його чистку, тож ОНМП відмовилися його прийняти, попри переважаючу ударну силу."
+  name: M2100 "Ngájhe" machete
+  description: An older issue UNMC machete, never left testing. Designed in the Central African Republic. The notching made it hard to clean, and as such the UNMC refused to adopt it - despite the superior bludgeoning power offered.
   components:
   - type: Tag
     tags:
@@ -327,8 +327,8 @@
 - type: entity
   parent: [ RMCBaseMeleeWeapon, BaseKnife ]
   id: RMCStraightRazor
-  name: "небезпечна бритва"
-  description: "Улюблена зброя коменданта проти морпіхів, що насмілюються порушити стандарти зовнішнього вигляду."
+  name: straight razor
+  description: The commandant's favorite weapon against marines who dare break the grooming standards.
   components:
   - type: Tag
     tags:

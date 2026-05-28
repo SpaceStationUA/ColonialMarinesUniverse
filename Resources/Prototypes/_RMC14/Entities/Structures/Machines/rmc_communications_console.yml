@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCGroundsideOperationsConsole
-  name: "консоль наземних операцій"
-  description: "Можна використовувати для різних важливих функцій."
+  name: groundside operations console
+  description: This can be used for various important functions.
   components:
   - type: ActivatableUI
     key: enum.MarineCommunicationsComputerUI.Key
@@ -86,8 +86,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCWarshipControlConsole
-  name: "консоль керування «Алмаєра»"
-  description: "Використовується для керування кораблем та його функціями."
+  name: almayer control console
+  description: This is used for controlling ship and its related functions.
   components:
   - type: ActivatableUI
     key: enum.MarineControlComputerUi.Key
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCOverwatchConsole
-  name: "консоль спостереження"
-  description: "Найсучасніша техніка для віддання наказів загону."
+  name: overwatch console
+  description: State of the art machinery for giving orders to a squad.
   components:
   - type: Transform
     anchored: false
@@ -144,8 +144,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTacticalMapTable
-  name: "картовий стіл"
-  description: "Стіл, що відображає мапу поточного місця операції."
+  name: map table
+  description: A table that displays a map of the current operation location.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/map_table.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCEscapePodController
-  name: "контролер рятувальної капсули"
-  description: "Комп'ютер керування шатлом."
+  name: escape pod controller
+  description: A shuttle control computer.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/escape_pod_panel.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCLifeboatConsole
-  name: "консоль рятувального човна"
-  description: "Комп'ютер керування рятувальним човном."
+  name: lifeboat console
+  description: A lifeboat control computer.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi

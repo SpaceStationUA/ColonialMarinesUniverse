@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: RMCCasingBase
-  name: "базова гільза"
-  description: "Порожня гільза."
+  name: base casing
+  description:  An empty casing.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/CustomOrdnance/m40grenadecasing.rsi
@@ -12,8 +12,8 @@
     size: Small
 
 - type: entity
-  name: "гільза 30-мм гранати"
-  description: "Гільза для 30-мм гранати."
+  name: 30mm grenade casing
+  description: A casing for an 30mm Grenade.
   parent: RMCCasingBase
   id: RMCM40GrenadeCasing
   components:
@@ -24,8 +24,8 @@
       CMSteel: 4250
 
 - type: entity
-  name: "гільза гранати M15"
-  description: "Гільза для гранати M15."
+  name: M15 grenade casing
+  description: A casing for an M15 Grenade.
   parent: RMCCasingBase
   id: RMCM15GrenadeCasing
   components:
@@ -36,8 +36,8 @@
       CMSteel: 7000
 
 - type: entity
-  name: "гільза міни M20"
-  description: "Гільза для міни-клеймора M20."
+  name: M20 mine casing
+  description: A casing for an M20 Claymore mine.
   parent: RMCCasingBase
   id: RMCM20MineCasing
   components:
@@ -48,8 +48,8 @@
       CMSteel: 3750
 
 - type: entity
-  name: "гільза пластикової вибухівки C4"
-  description: "Гільза для пластикової вибухівки."
+  name: C4 plastic casing
+  description: A casing for a plastic explosive.
   parent: RMCCasingBase
   id: RMCC4PlasticCasing
   components:
@@ -61,8 +61,8 @@
       RMCPlastic: 2000
 
 - type: entity
-  name: "84-мм ракетна труба"
-  description: "Труба для 84-мм ракети."
+  name: 84mm rocket tube
+  description: A tube for a 84mm rocket.
   parent: RMCCasingBase
   id: RMC84mmRocketTube
   components:
@@ -73,8 +73,8 @@
       CMSteel: 7500
 
 - type: entity
-  name: "84-мм бойова частина ракети"
-  description: "Бойова частина для 84-мм ракети."
+  name: 84mm rocket warhead
+  description: A warhead for a 84mm rocket.
   parent: RMCCasingBase
   id: RMC84mmRocketWarhead
   components:
@@ -85,8 +85,8 @@
       CMSteel: 11250
 
 - type: entity
-  name: "гільза 80-мм мінометного снаряда"
-  description: "Гільза для 84-мм міномета."
+  name: 80mm mortar shell casing
+  description: A shell for a 84mm mortar.
   parent: RMCCasingBase
   id: RMC80mmMortarShell
   components:
@@ -97,8 +97,8 @@
       CMSteel: 18750
 
 - type: entity
-  name: "бойова частина 80-мм мінометного снаряда"
-  description: "Бойова частина для 84-мм міномета."
+  name: 80mm mortar shell warhead
+  description: A warhead for a 84mm mortar.
   parent: RMCCasingBase
   id: RMC80mmMortarWarhead
   components:
@@ -109,8 +109,8 @@
       CMSteel: 11250
 
 - type: entity
-  name: "камерна бойова частина 80-мм мінометного снаряда"
-  description: "Камерна бойова частина для 84-мм міномета."
+  name: 80mm mortar shell camera warhead
+  description: A camera warhead for a 84mm mortar.
   parent: RMCCasingBase
   id: RMC80mmMortarCameraWarhead
   components:
@@ -121,8 +121,8 @@
       CMSteel: 15000
 
 - type: entity
-  name: "кастомний димовий бак M34"
-  description: "Неповний паливний бак, що зберігає дим для використання в пристрої-спалювачі M34."
+  name: Custom M34 smoke tank
+  description: An incomplete fuel tank used to store smoke for use in the M34 incinerator unit.
   parent: RMCCasingBase
   id: RMCCustomM34A1SmokeTankCase
   components:

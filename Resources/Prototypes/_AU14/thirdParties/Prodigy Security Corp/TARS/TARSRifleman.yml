@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobTARSPartyContractorBase
-  name: "Базовий контрактор Prodigy TARS"
+  name: Prodigy TARS Contractor Base
   description: au14-prodigyrescue-description
   playTimeTracker: AU14JobTARSPartyContractorTracker
   basePlaytimeTracker: true
@@ -10,7 +10,7 @@
 - type: job
   parent: AU14JobTARSPartyContractorBase
   id: AU14JobTARSPartyContractor
-  name: "Контрактор Prodigy TARS (M41A/2)"
+  name: Prodigy TARS Contractor (M41A/2)
   description: au14-prodigyrescue-description
   ranks:
     AU14RankPrDAssociate: []
@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobTARSPartyRifleman
-  name: "Стрілець групи Prodigy TARS (3-тя сторона, M20a)"
+  name: Prodigy TARS Party Rifleman (3rd party, M20a)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

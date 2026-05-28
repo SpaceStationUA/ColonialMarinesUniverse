@@ -5,7 +5,7 @@
   abstract: true
   parent: RMCBaseMobSpeciesOrganic
   id: CMUMobTribal
-  name: "Племінник"
+  name: Tribal
   suffix: CMU14
   components:
   - type: Tribal
@@ -227,7 +227,7 @@
   save: false
   parent: CMMobSlimePerson
   id: TribalSlime
-  name: "Уріст В.М. МакСлайм"
+  name: Urist C.M McSlime
   suffix: RMC14
   components:
   - type: Tribal
@@ -235,10 +235,10 @@
 # Tribal Weapons
 
 - type: entity
-  name: "племінний спис"
+  name: tribal spear
   parent: Spear
   id: TribalSpear
-  description: "Спис, виготовлений племінними воїнами. Жорстокий при ударі, смертельний при кидку."
+  description: A spear crafted by tribal warriors. Vicious when stabbed, lethal when thrown.
   components:
   - type: Tag
     tags:
@@ -282,8 +282,8 @@
 - type: entity
   parent: ArrowImprovised
   id: TribalArrow
-  name: "кістяна стріла"
-  description: "Колюче древко з кістяним наконечником, оперене пірям. Бє як автобус."
+  name: bone arrow
+  description: A barbed bone-tipped shaft fletched with feathers. Hits like a bus.
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -303,10 +303,10 @@
         Piercing: 130
 
 - type: entity
-  name: "племінний лук"
+  name: tribal bow
   parent: BaseBow
   id: TribalBow
-  description: "Грубий лук, виготовлений племінними воїнами. Можуть використовувати лише племінники."
+  description: A crude bow made by tribal warriors. Only usable by tribals.
   components:
   - type: Tag
     tags:

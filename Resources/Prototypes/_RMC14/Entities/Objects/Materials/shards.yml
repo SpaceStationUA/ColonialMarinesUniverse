@@ -57,8 +57,8 @@
 - type: entity
   parent: CMShardBase
   id: CMShardGlass
-  name: "скляний уламок"
-  description: "Уламок розбитого скла. Можна, мабуть, використати як... метальну зброю?"
+  name: glass shard
+  description: A shard of broken glass. Could probably be used as ... a throwing weapon?
   components:
   - type: ToolRefinable
     refineResult:
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMShardBase
   id: RMCShardIce
-  name: "крижаний уламок"
-  description: "Уламок льоду. Можна, мабуть, використати як... метальну зброю?"
+  name: ice shard
+  description: A shard of ice. Could probably be used as ... a throwing weapon?
   components:
   - type: Tag
     tags:
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMShardBase
   id: CMShardPhoron
-  name: "форонний уламок"
-  description: "Уламок розбитого форонного скла. Значно міцніший за звичайні скляні уламки. Очевидно, не настільки міцний, щоб бути вікном."
+  name: phoron shard
+  description: A shard of broken phoron glass. Considerably tougher than normal glass shards. Apparently not tough enough to be a window.
   components:
   - type: Sprite
     layers:

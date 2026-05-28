@@ -44,8 +44,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnPointXeno
-  name: "спавнер ксено"
-  description: "Спавнер RMC14. Використовується для ксенів."
+  name: xeno spawn point
+  description: A RMC14 spawner. Used for xenos.
   components:
   - type: XenoSpawnPoint
   - type: Sprite
@@ -55,8 +55,8 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnPointXenoLeader
-  name: "спавнер лідера ксенів"
-  description: "Спавнер RMC14. Використовується для ксено-королев."
+  name: xeno leader spawn point
+  description: A RMC14 spawner. Used for xenos Queens.
   components:
   - type: XenoLeaderSpawnPoint
   - type: Sprite

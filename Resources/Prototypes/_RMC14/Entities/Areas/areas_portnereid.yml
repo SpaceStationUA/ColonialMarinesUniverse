@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1PortNereid
-  name: "Порт Нереїд — Карго-депо AC-170 — LZ1"
+  name: Port Nereid Cargo Depot AC-170 - LZ1
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -24,7 +24,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1PortNereid
   id: RMCAreaShuttleDrop2PortNereid
-  name: "Порт Нереїд — Міжнародний космопорт — LZ2"
+  name: Port Nereid International Spaceport - LZ2
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -37,7 +37,7 @@
 - type: entity
   parent: RMCAreaProtectionOne
   id: RMCAreaPortNereidCargo
-  name: "Порт Нереїд — Карго-депо AC-170"
+  name: Port Nereid - AC-170 Cargo Depot
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCAreaPortNereidSecurity
   id: RMCAreaPortNereidMining
-  name: "Порт Нереїд — Шахтарський аванпост TMCC"
+  name: Port Nereid - TMCC Mining Outpost
   components:
   - type: Sprite
     state: tunnels0
@@ -69,7 +69,7 @@
 - type: entity
   parent: RMCAreaProtectionFour
   id: RMCAreaPortNereidDeepsiteUAS1
-  name: "Порт Нереїд — Глибоке родовище UAS-1"
+  name: Port Nereid - Deepsite UAS-1
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCAreaProtectionTwo
   id: RMCAreaPortNereidSecurity
-  name: "Порт Нереїд — Штаб охорони"
+  name: Port Nereid - Security Headquarters
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargo
   id: RMCAreaPortNereidEngineering
-  name: "Порт Нереїд — Інженерний відсік"
+  name: Port Nereid - Engineering Bay
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargo
   id: RMCAreaPortNereidSpaceport
-  name: "Порт Нереїд — Міжнародний космопорт Порту Нереїд"
+  name: Port Nereid - Port Nereid International Spaceport
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargo
   id: RMCAreaPortNereidHeavyHaulter
-  name: "Порт Нереїд — Тяговий ваговоз WEYA"
+  name: Port Nereid - WEYA Hauler
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -147,7 +147,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargo
   id: RMCAreaPortNereidShack
-  name: "Порт Нереїд — Хижка біля озера"
+  name: Port Nereid - Lakeside Shack
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCAreaProtectionThree
   id: RMCAreaPortNereidStorage
-  name: "Порт Нереїд — Склад"
+  name: Port Nereid - Storage
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -180,7 +180,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaPortNereidCargoComms
-  name: "Порт Нереїд — Карго-зв'язок"
+  name: Port Nereid - Cargo Comms
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -200,7 +200,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargoComms
   id: RMCAreaPortNereidSouthWestJungle
-  name: "Порт Нереїд — Південно-західні джунглі"
+  name: Port Nereid - South West Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -211,7 +211,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargoComms
   id: RMCAreaPortNereidSouthEastJungle
-  name: "Порт Нереїд — Південно-східні джунглі"
+  name: Port Nereid - South East Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -222,7 +222,7 @@
 - type: entity
   parent: RMCAreaPortNereidSecurity
   id: RMCAreaPortNereidWeymart
-  name: "Порт Нереїд — Веймарт"
+  name: Port Nereid - Weymart
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCAreaPortNereidSecurity
   id: RMCAreaPortNereidHabitationEast
-  name: "Порт Нереїд — Східний житловий комплекс"
+  name: Port Nereid - Eastern Habitation Complex
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -246,7 +246,7 @@
 - type: entity
   parent: RMCAreaPortNereidSecurity
   id: RMCAreaPortNereidHabitationWest
-  name: "Порт Нереїд — Західний житловий комплекс"
+  name: Port Nereid - Western Habitation Complex
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -258,7 +258,7 @@
 - type: entity
   parent: RMCAreaPortNereidSecurity
   id: RMCAreaPortNereidMedical
-  name: "Порт Нереїд — Медична клініка"
+  name: Port Nereid - Medical Clinic
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -270,7 +270,7 @@
 - type: entity
   parent: RMCAreaPortNereidSecurity
   id: RMCAreaPortNereidBotany
-  name: "Порт Нереїд — Ботанічний відсік"
+  name: Port Nereid - Botany Bay
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -282,7 +282,7 @@
 - type: entity
   parent: RMCAreaPortNereidSecurity
   id: RMCAreaPortNereidDisposals
-  name: "Порт Нереїд — Утилізація та обробка відходів"
+  name: Port Nereid - Disposals & Waste Processing
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -294,7 +294,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargo
   id: RMCAreaPortNereidDam
-  name: "Порт Нереїд — Гребля"
+  name: Port Nereid - River Dam
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargoComms
   id: RMCAreaPortNereidNorthWestJungle
-  name: "Порт Нереїд — Північно-західні джунглі"
+  name: Port Nereid - North West Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -317,7 +317,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargoComms
   id: RMCAreaPortNereidNorthEastJungle
-  name: "Порт Нереїд — Північно-східні джунглі"
+  name: Port Nereid - North East Jungle
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -328,7 +328,7 @@
 - type: entity
   parent: RMCAreaReinforcedMetal
   id: RMCAreaPortNereidCentralAtmosphericProcessor
-  name: "Порт Нереїд — Центральний важкий атмосферний процесор PAEK-500 (Двофазний термоядерний рушій атмосферної обробки)"
+  name: Port Nereid - Central PAEK-500 Heavy Atmospheric Processor (Duel-Fusion Atmospheric Processing Engine)
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -349,7 +349,7 @@
 - type: entity
   parent: RMCAreaReinforcedMetal
   id: RMCAreaPortNereidWestAtmosphericProcessor
-  name: "Порт Нереїд — Західний важкий атмосферний процесор PAEK-500 (Запаси охолоджувача реактора та керування)"
+  name: Port Nereid - West PAEK-500 Heavy Atmospheric Processor (Reactor Coolant Reserves & Control)
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -370,7 +370,7 @@
 - type: entity
   parent: RMCAreaReinforcedMetal
   id: RMCAreaPortNereidEastAtmosphericProcessor
-  name: "Порт Нереїд — Східний важкий атмосферний процесор PAEK-500 (Первинна мережа генератора живлення)"
+  name: Port Nereid - East PAEK-500 Heavy Atmospheric Processor (Primary Power Generator Grid)
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -391,7 +391,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargoComms
   id: RMCAreaPortNereidRoadSystem
-  name: "Порт Нереїд — Дорожня система"
+  name: Port Nereid - Road System
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -403,7 +403,7 @@
 - type: entity
   parent: RMCAreaPortNereidCargoComms
   id: RMCAreaPortNereidPort
-  name: "Порт Нереїд — Океанічний порт"
+  name: Port Nereid - Oceanside Port
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_varadero.rsi
@@ -415,7 +415,7 @@
 - type: entity
   parent: RMCAreaVaraderoInteriorOob
   id: RMCAreaPortNereidOob
-  name: "Порт Нереїд — Поза межами"
+  name: Port Nereid - Out Of Bounds
   components:
   - type: Sprite
     state: oob

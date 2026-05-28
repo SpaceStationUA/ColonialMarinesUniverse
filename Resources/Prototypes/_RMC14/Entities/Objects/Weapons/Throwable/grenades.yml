@@ -2,8 +2,8 @@
   abstract: true
   parent: GrenadeBase
   id: CMGrenadeBase
-  name: "граната"
-  description: "Пригнись і ховайся."
+  name: grenade
+  description: Duck and cover.
   components:
   - type: Explosive
     explosionType: RMC
@@ -38,8 +38,8 @@
     - RMCGrenadeM40
 
 - type: entity
-  name: "світлошумова граната"
-  description: "Чудова для зупинки груп заворушень. Не сподівайся, що сонячні окуляри тебе захистять..."
+  name: flashbang
+  description: Excellent for stopping groups of Rioters. Don't expect sunglasses to protect you...
   parent: CMGrenadeBase
   id: RMCGrenadeFlashBang
   components:
@@ -69,8 +69,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeHighExplosive
-  name: "30-мм граната HEDP"
-  description: "Фугасна двоцільова. Невелика, але оманливо потужна вибухова граната, що поступово витісняє фугасні M15 разом із 30-мм HEFA. Можна заряджати в гранатомети або метати рукою."
+  name: 30mm HEDP grenade
+  description: High-Explosive Dual-Purpose. A small, but deceptively strong blast grenade that has been phasing out the M15 HE grenades alongside the 30mm HEFA. Capable of being loaded in grenade launchers, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hedp.rsi
@@ -96,8 +96,8 @@
   - CMGrenadeBase
   - RMCM40DPTags
   id: CMGrenadeSmoke
-  name: "30-мм димова граната HSDP"
-  description: "30-мм HSDP — невелика, але потужна димова граната. Створена на тій самій платформі, що й 30-мм HEDP. Налаштована на детонацію через 1 секунду."
+  name: 30mm HSDP smoke grenade
+  description: The 30mm HSDP is a small, but powerful smoke grenade. Based off the same platform as the 30mm HEDP. It is set to detonate in 1 second.
   components:
   - type: OnUseTimerTrigger
     delay: 1
@@ -231,8 +231,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFrag
-  name: "30-мм граната HEFA"
-  description: "Фугасна осколкова протипіхотна. Невелика, але оманливо потужна осколкова граната, що поступово витісняє осколкові M15 разом із 30-мм HEDP. Можна заряджати в гранатомети або метати рукою."
+  name: 30mm HEFA grenade
+  description: High-Explosive Fragmenting-Antipersonnel. A small, but deceptively strong fragmentation grenade that has been phasing out the M15 fragmentation grenades alongside the 30mm HEDP. Capable of being loaded in grenade launchers, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hefa.rsi
@@ -264,8 +264,8 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: CMGrenadeFragOld
-  name: "осколкова граната M15"
-  description: "Застаріла осколкова граната ОНМП. Маючи десятиліття служби в ОНМП, стара осколкова граната M15 повільно замінюється трохи безпечнішими гранатами 30-мм серії. Налаштована детонувати за 4 секунди."
+  name: M15 fragmentation grenade
+  description: An outdated UNMC Fragmentation Grenade. With decades of service in the UNMC, the old M15 Fragmentation Grenade is slowly being replaced by the slightly safer 30mm-series grenades. It is set to detonate in 4 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m15frag.rsi
@@ -295,8 +295,8 @@
 - type: entity
   parent: CMGrenadeFragOld
   id: RMCGrenadeBlastM12
-  name: "вибухова граната M12"
-  description: "Фугасна граната, вироблена для приватних охоронних фірм. Вибухає приблизно через 4 секунди після висмикування чеки."
+  name: M12 blast grenade
+  description: A high-explosive grenade produced for private security firms. It explodes around 4 seconds after the pin has been pulled.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m12blast.rsi
@@ -324,8 +324,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeTraining
-  name: "Навчальна граната M07"
-  description: "Нешкідлива багаторазова версія 30-мм HEDP, що використовується для тренувань. Можна заряджати в гранатомет або метати рукою."
+  name: M07 Training Grenade
+  description: A harmless reusable version of the 30mm HEDP, used for training. Capable of being loaded into a grenade launcher, or thrown by hand.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m07training.rsi
@@ -344,8 +344,8 @@
   - RMCM40DPTags
   - CMGrenadeBase
   id: RMCGrenadeIncendiary
-  name: "30-мм граната HIAM"
-  description: "30-мм Фугасно-запалювальна, протимобільна граната — невелика, але оманливо потужна запалювальна граната, призначена порушувати мобільність ворога довготривалим напалмом типу B. Налаштована детонувати за 4 секунди."
+  name: 30mm HIAM grenade
+  description: The 30mm High-explosive-Incendiary, Anti-Mobility grenade is a small, but deceptively strong incendiary grenade designed to disrupt enemy mobility with long-lasting Type B napalm. It is set to detonate in 4 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40hidp.rsi
@@ -362,8 +362,8 @@
   - RMCM40DPTags
   - CMGrenadeBase
   id: RMCGrenadeWhitePhosphorus
-  name: "30-мм фосфорна граната WPDP"
-  description: "30-мм WPDP — невелика, але потужна фосфорна граната. Налаштована детонувати за 2 секунди."
+  name: 30mm WPDP white phosphorus grenade
+  description: The 30mm WPDP is a small, but powerful phosphorus grenade. It is set to detonate in 2 seconds.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/m40wpdp.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: RMCGrenadeWhitePhosphorus
   id: RMCGrenadeWhitePhosphorusCompound
-  name: "30-мм граната хімічної сполуки CCDP"
-  description: "30-мм CCDP — невелика, але потужна граната хімічної сполуки, схожа за ефектом на WPDP. Подейкують, що CCDP насправді випускає не білий фосфор, а якусь іншу хімічну речовину, розроблену в лабораторіях «Ве-Я»."
+  name: 30mm CCDP chemical compound grenade
+  description: The 30mm CCDP is a small, but powerful chemical compound grenade, similar in effect to WPDP. Word on the block says that the CCDP doesn't actually release White Phosphorus, but some other chemical developed in We-Ya labs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/ied.rsi
@@ -394,8 +394,8 @@
 - type: entity
   parent: CMUIEDBase
   id: RMCGrenadeMolotov
-  name: "імпровізована запалювальна бомба"
-  description: "Потужна, імпровізована запалювальна бомба, поєднана зі щіпкою пороху. Дешева, дуже ефективна та смертельна в замкнених приміщеннях. Часто зустрічається в руках повстанців і терористів. Може бути складно передбачити, скільки секунд є до її спрацьовування, тож будь обережним. Цілком можливо, що вона вибухне тобі в обличчя."
+  name: improvised firebomb
+  description: A potent, improvised firebomb, coupled with a pinch of gunpowder. Cheap, very effective, and deadly in confined spaces. Commonly found in the hands of rebels and terrorists. It can be difficult to predict how many seconds you have before it goes off, so be careful. Chances are, it might explode in your face.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/molotov.rsi
@@ -421,8 +421,8 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenadeIED
-  name: "метальний саморобний вибуховий пристрій"
-  description: "Саморобна хімічна вибухова граната. Призначена вбивати уламками."
+  name: throwable improvised explosive device
+  description: An improvised chemical explosive grenade. Designed to kill through fragmentation.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/ied.rsi
@@ -450,9 +450,9 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenade20mmIncendiary
-  name: "20-мм запалювальна граната L109A2"
+  name: L109A2 20mm incendiary grenade
   suffix: PvE
-  description: "20-мм граната, що створює полум'я при ударі. Менш потужна за повнорозмірні гранати. Поводься з ними обережно."
+  description: A 20mm grenade that creates flames upon impact. Less powerful than full-sized grenades. Be careful how you handle these.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/rcm20mm/incend.rsi
@@ -472,9 +472,9 @@
 - type: entity
   parent: CMGrenadeBase
   id: RMCGrenade20mmHE
-  name: "20-мм фугасна граната L109A1"
+  name: L109A1 20mm HE grenade
   suffix: PVE
-  description: "20-мм граната, що вибухає при ударі. Менш потужна за повнорозмірні гранати. Поводься з ними обережно."
+  description: A 20mm grenade that explodes upon impact. Less powerful than full-sized grenades. Be careful how you handle these.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Grenades/rcm20mm/he.rsi

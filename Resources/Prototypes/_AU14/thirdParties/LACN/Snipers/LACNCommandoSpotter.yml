@@ -42,7 +42,7 @@
   parent: AU14BaseMobSpeciesOrganicLACN
   suffix: AU14, LACN
   id: AU14JobCommandoSniperTeamSpotter
-  name: "коригувальник коммандос ЛАКН (третя сторона)"
+  name: LACN Commando Spotter (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
