@@ -40,4 +40,4 @@ ui-vote-fluff = Працює на Robust™ Anti-Tamper Technology
 cmd-votemenu-desc = Відкриває меню голосування.
 cmd-votemenu-help = Використання: votemenu
 
-ui-vote-call-disabled = Виклики голосування наразі вимкнені.
+ui-vote-call-disabled = Виклики голосування наразі вимкнені

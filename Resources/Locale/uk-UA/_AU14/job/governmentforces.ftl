@@ -169,4 +169,4 @@ au14-job-prefix-specialist-pyro = ПІРО
 au14-job-name-govforsquadautomaticrifleman-plural = Кулеметники
 au14-job-name-govforplatooncorpsman-plural = Санітари
 au14-job-name-radiotelephoneoperator-alt = Радіотелефоніст
-au14-job-name-govfork9handler = Кінолог K9
+au14-job-name-govfork9handler = Кінолог К9

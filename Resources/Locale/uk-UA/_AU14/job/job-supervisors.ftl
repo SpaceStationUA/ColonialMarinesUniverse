@@ -16,3 +16,5 @@ au14-job-supervisors-orbital = Орбітального менеджера
 au14-job-supervisors-orbitalmanager = Менеджера сонячної системи
 
 au14-job-supervisors-tribal = старійшини племені
+
+au14-job-supervisors-loner-k9 = Ви самі та ваш собачий компаньйон
