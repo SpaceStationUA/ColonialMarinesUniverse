@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCLF
-  name: modified colony encryption key
-  description: An encryption key used to communicate on colony and CLF radio channels.
+  name: "модифікований колоніальний ключ шифрування"
+  description: "Ключ шифрування для зв’язку на радіоканалах колонії та КФВ."
   components:
   - type: EncryptionKey
     channels:
@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCBaseUniformAccessory
   id: AU14CLFHeadset
-  name: CLF earpiece
-  description: A small, concealable earpiece used by CLF operatives. Virtually invisible when worn, it clips discreetly onto a uniform.
+  name: "навушник КФВ"
+  description: "Малий приховуваний навушник, який використовують оперативники КФВ. Майже непомітний під час носіння, він непомітно кріпиться до форми."
   suffix: CLF, Colony
   components:
   - type: Sprite

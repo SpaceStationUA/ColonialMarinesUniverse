@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYPMCPartyLeader #m41a/2
-  name: PMC Leader
+  name: "лідер ПВК"
   description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartyLeader
   ranks:
@@ -48,7 +48,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyLeader
-  name: WY PMC Party Leader (3rd party, M41A/2)
+  name: "лідер загону ПВК ВЮ (третя сторона, M41A/2)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -57,7 +57,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Leader
+    name: "лідер ПВК"
     description: au14-pmcparty-description
     reregister: false
     job: AU14JobWYPMCPartyLeader

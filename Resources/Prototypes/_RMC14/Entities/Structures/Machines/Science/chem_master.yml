@@ -1,8 +1,8 @@
 - type: entity
   id: CMChemMaster
   parent: [ BaseMachinePowered, ConstructibleMachine ]
-  name: ChemMaster 3000
-  description: An industrial grade chemical manipulator with pill and bottle production included.
+  name: "ChemMaster 3000"
+  description: "Промисловий хімічний маніпулятор із вбудованим виробництвом пігулок і пляшечок."
   placement:
     mode: SnapgridCenter
   components:
@@ -100,8 +100,8 @@
 - type: entity
   parent: CMChemMaster
   id: RMCChemMasterIndustrial
-  name: industrial chemical mixer
-  description: An industrial grade chemical manipulator.
+  name: "промисловий хімічний змішувач"
+  description: "Промисловий хімічний маніпулятор."
   placement:
     mode: SnapgridCenter
   components:

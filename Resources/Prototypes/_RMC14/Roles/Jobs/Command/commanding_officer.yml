@@ -82,7 +82,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCommandingOfficer
-  name: commanding officer spawn point
+  name: "спавнер командувача"
   components:
   - type: SpawnPoint
     job_id: CMCommandingOfficer
@@ -96,8 +96,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleCO
-  name: The Commanding Officer
-  description: The Commanding Officer.
+  name: "Командувач"
+  description: "Командувач."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCMBMarshal
-  name: Spawn Point Civilian CMB Marshal
+  name: "точка появи цивільного маршала CMB"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCMBMarshal
@@ -69,7 +69,7 @@
 - type: entity
   parent: MarkerBase
   id: aumarshallghost
-  name: Marshall colonist ghost role
+  name: "примарна роль колоніста-маршала"
   components:
   - type: Sprite
     layers:

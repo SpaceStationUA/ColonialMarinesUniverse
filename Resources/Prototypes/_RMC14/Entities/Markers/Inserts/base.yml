@@ -2,7 +2,7 @@
   parent: MarkerBase
   id: RMCMapInsertBase
   abstract: true
-  name: Map Insert Base
+  name: "Базова мапа-вставка"
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

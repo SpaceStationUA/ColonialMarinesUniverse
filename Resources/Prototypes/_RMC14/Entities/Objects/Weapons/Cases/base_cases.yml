@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStorageItem
   id: RMCCaseBase
-  name: case
+  name: "кейс"
   components:
   - type: Sprite
     noRot: true
@@ -36,8 +36,8 @@
   parent: RMCCaseBase
   id: RMCGunCaseBase
   abstract: true
-  name: base gun case
-  description: A gun case.
+  name: "базовий кейс для зброї"
+  description: "Кейс для зброї."
   components:
   - type: RMCUnfoldCardboard
     spawns:
@@ -47,8 +47,8 @@
   parent: RMCCaseBase
   id: RMCBaseEquipmentCase
   abstract: true
-  name: base equipment case
-  description: A loadout case.
+  name: "базовий кейс зі спорядженням"
+  description: "Кейс із комплектом."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/loadout_kits.rsi

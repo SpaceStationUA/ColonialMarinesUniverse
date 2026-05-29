@@ -1,8 +1,8 @@
 - type: entity
   parent: [CMBaseMask, CMUBaseGasMaskFilterSlot]
   id: AU14MaskGasRMC
-  name: L7 pattern gasmask
-  description: The standard issue gasmask utilized by the TWE Royal Marines Commandos and IASF.
+  name: "протигаз зразка L7"
+  description: "Штатний протигаз, який використовують командос Королівської морської піхоти Імперії трьох світів та ІАСФ."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/mask/gasmask.rsi

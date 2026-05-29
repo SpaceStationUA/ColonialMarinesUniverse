@@ -1,8 +1,8 @@
 - type: entity
-  name: Footstep
+  name: "слід"
   id: Footstep
   save: false
-  description: Trace of liquid
+  description: "Слід рідини"
   components:
   - type: Clickable
   - type: Tag

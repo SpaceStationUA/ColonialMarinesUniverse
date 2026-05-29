@@ -59,7 +59,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointColonyWorkingJoe
-  name: Spawn Point Working Joe (Colony)
+  name: "точка появи Воркінг Джо (колонія)"
   components:
   - type: SpawnPoint
     job_id: AU14JobColonyWorkingJoe

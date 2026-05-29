@@ -1,7 +1,7 @@
 - type: entity
   id: AirAlarm
-  name: air alarm
-  description: An air alarm. Alarms... air?
+  name: "повітряна сигналізація"
+  description: "Повітряна тривога. Сигналізація... повітря?"
   placement:
     mode: SnapgridCenter
     snap:
@@ -120,8 +120,8 @@
 
 - type: entity
   id: AirAlarmAssembly
-  name: air alarm assembly
-  description: An air alarm. Doesn't look like it'll be alarming air any time soon.
+  name: "повітряна сигналізація в зборі"
+  description: "Повітряна тривога. Не схоже, що найближчим часом буде повітряна тривога."
   placement:
     mode: SnapgridCenter
     snap:
@@ -151,7 +151,7 @@
 - type: entity
   id: AirAlarmXeno
   parent: AirAlarm
-  description: An alien air alarm. Hopefully they didn't breathe poison.
+  description: "Іншопланетна повітряна тривога. Сподіваюся, вони не дихали отрутою."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi
@@ -164,7 +164,7 @@
 - type: entity
   id: AirAlarmAssemblyXeno
   parent: AirAlarmAssembly
-  description: An alien air alarm. Why are the wires pulsating?...
+  description: "Іншопланетна збірка повітряної тривоги. Чому дроти пульсують?..."
   components:
   - type: Sprite
     sprite: Structures/Wallmounts/air_monitors_xeno.rsi

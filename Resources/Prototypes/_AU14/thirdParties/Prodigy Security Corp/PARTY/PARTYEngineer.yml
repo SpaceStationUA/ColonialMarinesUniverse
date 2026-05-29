@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPARTYPartyContractorBase
   id: AU14JobPARTYPartyEngineer #m41a/2
-  name: Prodigy Yankee Combat Engineer
+  name: "Бойовий інженер Prodigy Yankee"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTYPartyEngineerTracker
   ranks:
@@ -30,7 +30,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobPARTYPartyEngineer
-  name: Prodigy Yankee Combat Engineer (3rd party)
+  name: "Бойовий інженер Prodigy Yankee (3-тя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -39,7 +39,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Prodigy Yankee Combat Engineer
+    name: "Бойовий інженер Prodigy Yankee"
     description: au14-prodigyparty-description
     reregister: false
     job: AU14JobPARTYPartyEngineer

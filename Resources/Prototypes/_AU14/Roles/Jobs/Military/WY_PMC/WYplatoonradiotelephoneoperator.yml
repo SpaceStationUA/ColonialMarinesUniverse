@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobRadioTelephoneOperatorBase
   id: AU14JobGOVFORRadioTelephoneOperatorWYPMC
-  name: PMC Communications Specialist
+  name: "Спеціаліст зі зв'язку ПВК"
   description: au14-job-description-radiotelephoneoperator
   setPreference: false
   ranks:

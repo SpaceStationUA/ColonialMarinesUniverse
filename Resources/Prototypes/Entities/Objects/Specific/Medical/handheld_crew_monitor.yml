@@ -1,10 +1,10 @@
 - type: entity
-  name: handheld crew monitor
+  name: "ручний монітор екіпажу"
   categories: [ DoNotMap ]
   parent: [ BaseHandheldComputer, BaseGrandTheftContraband ]
   # CMO-only bud, don't add more.
   id: HandheldCrewMonitor
-  description: A hand-held crew monitor displaying the status of suit sensors.
+  description: "Ручний монітор екіпажу, що відображає стан датчиків скафандра."
   components:
   - type: Item
     heldPrefix: scanner

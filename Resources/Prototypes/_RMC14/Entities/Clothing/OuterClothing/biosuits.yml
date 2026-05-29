@@ -13,8 +13,8 @@
 - type: entity
   parent: RMCBaseBioSuit
   id: RMCSuitBioGeneral
-  name: bio suit
-  description: A suit that protects against biological contamination.
+  name: "біозахисний костюм"
+  description: "Костюм, що захищає від біологічного забруднення."
   suffix: Generic, RMC
   components:
   - type: Sprite
@@ -31,8 +31,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: RMCArmorFirefighter
-  name: PT-LT firesuit
-  description: The 'PyroTex LT' is an advanced, lightweight firesuit developed by 'Fujin'. It provides protection against fire and heat, while also offering a degree of protection from blunt force trauma.
+  name: "пожежний костюм PT-LT"
+  description: "'PyroTex LT' - це просунутий легкий пожежний костюм, розроблений 'Fujin'. Він забезпечує захист від вогню та спеки, а також певний рівень захисту від тупих травм."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/firefighter.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingChefApron, ClothingOuterBase]
   id: RMCSuitFirefighter
-  name: firesuit
-  description: A suit that protects against fire and heat.
+  name: "пожежний костюм"
+  description: "Костюм, що захищає від вогню та спеки."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/firesuit.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCArmorFirefighter
   id: RMCArmorSPPFirefighter
-  name: T-20 fire response coat
-  description: A rugged, no-frills fire-resistant overcoat issued to UPP industrial and emergency crews. Based on the PyroTex LT design but using cheaper, domestically produced materials, it offers basic protection against heat and debris at the cost of weight and comfort.
+  name: "пожежне пальто T-20"
+  description: "Міцне вогнестійке пальто без надмірностей, яке видають промисловим та аварійним бригадам UPP. Створене на основі дизайну PyroTex LT, але з дешевших, вітчизняних матеріалів, воно дає базовий захист від спеки та уламків ціною ваги й комфорту."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/firefighter.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCBaseBioSuit
   id: RMCSuitBioWeYa
-  name: WeYu-TSS MK I - bio suit
-  description: The 'Weyland-Yutani TerraScientia bio-suit MK I'. An advanced light-weight bio-suit developed in-house by Weyland-Yutani. It's a suit that protects against biological contamination.
+  name: "біокостюм WeYu-TSS MK I"
+  description: "'Біокостюм Вейланд-Ютані TerraScientia MK I'. Просунутий легкий біокостюм, розроблений Вейланд-Ютані власними силами. Це костюм, що захищає від біологічного забруднення."
   suffix: Generic, WeYu
   components:
   - type: Sprite

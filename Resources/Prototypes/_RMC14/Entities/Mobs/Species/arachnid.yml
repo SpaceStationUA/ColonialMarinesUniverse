@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: Urist C.M McWeb
+  name: "Уріст В.М. МакПавук"
   parent: RMCBaseMobSpeciesOrganic
   id: CMMobArachnid
   suffix: RMC14

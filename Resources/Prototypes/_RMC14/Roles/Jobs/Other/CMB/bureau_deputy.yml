@@ -45,7 +45,7 @@
 
 - type: entity
   id: RMCRandomHumanoidBureauDeputy
-  name: bureau ghost role deputy
+  name: "привид-роль помічника бюро"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCOrbitalCannonDerelict
-  name: orbital cannon
-  description: "The USCMC Orbital Cannon System. Used for shooting large targets on the planet that is orbited. It accelerates its payload with solid fuel for devastating results upon impact."
+  name: "орбітальна гармата"
+  description: "Орбітальна Гарматна Система КМП США. Використовується для ураження великих цілей на планеті, навколо якої здійснюється орбіта. Прискорює корисне навантаження твердим паливом для нищівного ефекту при ударі."
   placement:
     mode: SnapgridCenter
   components:
@@ -36,8 +36,8 @@
 - type: entity
   parent: RMCOrbitalCannonDerelict
   id: RMCOrbitalCannon
-  name: orbital cannon
-  description: "The UNMC Orbital Cannon System. Used for shooting large targets on the planet that is orbited. It accelerates its payload with solid fuel for devastating results upon impact."
+  name: "орбітальна гармата"
+  description: "Орбітальна Гарматна Система ОНМП. Використовується для ураження великих цілей на планеті, навколо якої здійснюється орбіта. Прискорює корисне навантаження твердим паливом для нищівного ефекту при ударі."
   components:
   - type: OrbitalCannon
     warheadTypes:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: RMCOrbitalCannonFuel
-  name: solid fuel
+  name: "тверде паливо"
   placement:
     mode: SnapgridCenter
   components:
@@ -72,7 +72,7 @@
 - type: entity
   abstract: true
   id: RMCOrbitalCannonWarheadBase
-  name: orbital warhead
+  name: "орбітальна боєголовка"
   placement:
     mode: SnapgridCenter
   components:
@@ -96,8 +96,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadExplosive
-  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for use in heavily-fortified areas, and causes a large circular explosion if it manages to reach the ground."
-  name: HE orbital warhead
+  description: "Орбітальна боєголовка, призначена для стрільби із системи Орбітальної Гармати ОНМП після завантаження достатньої кількості твердого палива. Ця конкретна модель розроблена для використання у сильно укріплених зонах і спричиняє великий круговий вибух, якщо їй вдається досягти землі."
+  name: "фугасна орбітальна боєголовка"
   components:
   - type: Sprite
     state: ob_warhead_1
@@ -107,8 +107,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadIncendiary
-  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for cutting off enemy forces, and creates a large diamond of ultra-hot blue fire."
-  name: incendiary orbital warhead
+  description: "Орбітальна боєголовка, призначена для стрільби із системи Орбітальної Гармати ОНМП після завантаження достатньої кількості твердого палива. Ця конкретна модель розроблена для відсікання ворожих сил і створює великий ромб ультрагарячого синього вогню."
+  name: "запалювальна орбітальна боєголовка"
   components:
   - type: Sprite
     state: ob_warhead_2
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadCluster
-  description: "An orbital warhead designed to be fired from the UNMC Orbital Cannon system, after sufficient solid fuel has been inserted. This particular model is designed for use in cramped heavily-fortified areas, and causes multiple explosions in a vaguely rectangular shape."
-  name: cluster orbital warhead
+  description: "Орбітальна боєголовка, призначена для стрільби із системи Орбітальної Гармати ОНМП після завантаження достатньої кількості твердого палива. Ця конкретна модель розроблена для використання у тісних, сильно укріплених зонах, спричиняє кілька вибухів приблизно прямокутної форми."
+  name: "касетна орбітальна боєголовка"
   components:
   - type: Sprite
     state: ob_warhead_3
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCOrbitalCannonWarheadBase
   id: RMCOrbitalCannonWarheadAegis
-  description: "AEG-328-KRA, or KRAKEN, an experimental phoron-based orbital warhead, straight from the R&D Division of AEGIS. Designed to be used against targets where a single orbital warhead is simply not enough."
-  name:  AEG-328-KRA
+  description: "AEG-328-KRA, або «КРАКЕН» — експериментальна форонова орбітальна боєголовка з підрозділу досліджень і розробок AEGIS. Розроблена для цілей, проти яких однієї орбітальної боєголовки просто замало."
+  name: "AEG-328-KRA"
   components:
   - type: WarpPoint
   - type: TacticalMapIcon
@@ -156,8 +156,8 @@
 
 - type: entity
   id: RMCOrbitalCannonWarheadSpawner
-  name: random orbital warhead
-  description: "This is a random orbital warhead."
+  name: "випадкова орбітальна боєголовка"
+  description: "Це випадкова орбітальна боєголовка."
   placement:
     mode: SnapgridCenter
   components:
@@ -174,7 +174,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionExplosive
-  name: explosive OB explosion
+  name: "фугасний вибух ОУ"
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -203,7 +203,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionAegis
-  name: explosive Aegis OB explosion
+  name: "вибух AEGIS ОУ"
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -233,7 +233,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionIncendiary
-  name: incendiary OB explosion
+  name: "запалювальний вибух ОУ"
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -253,7 +253,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCOrbitalCannonExplosionCluster
-  name: cluster OB explosion
+  name: "касетний вибух ОУ"
   suffix: FIRES AN OB!!!
   placement:
     mode: SnapgridCenter
@@ -276,8 +276,8 @@
 
 - type: entity
   id: RMCOrbitalCannonComputer
-  name: orbital cannon console
-  description: "The console controlling the orbital cannon loading systems."
+  name: "консоль орбітальної гармати"
+  description: "Консоль, що керує системами завантаження орбітальної гармати."
   placement:
     mode: SnapgridCenter
   components:
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMSeatBase
   id: RMCOrbitalCannonChair
-  name: seat
-  description: "A comfortable seat."
+  name: "сидіння"
+  description: "Зручне сидіння."
   placement:
     mode: SnapgridCenter
   components:
@@ -321,8 +321,8 @@
 
 - type: entity
   id: RMCOrbitalCannonCableConnector
-  name: cannon cable connector
-  description: "A connector for the large cannon cables."
+  name: "з'єднувач кабелю гармати"
+  description: "З'єднувач для великих гарматних кабелів."
   placement:
     mode: SnapgridCenter
   components:
@@ -347,8 +347,8 @@
 
 - type: entity
   id: RMCOrbitalCannonCable
-  name: cannon cables
-  description: "Some large cables."
+  name: "гарматні кабелі"
+  description: "Кілька великих кабелів."
   placement:
     mode: SnapgridCenter
   components:
@@ -386,8 +386,8 @@
 # Tray
 - type: entity
   id: RMCOrbitalCannonTray
-  name: loading tray
-  description: "The orbital cannon's loading tray."
+  name: "завантажувальна таця"
+  description: "Завантажувальна таця орбітальної гармати."
   suffix: Cannon spawns with one that's linked to it.
   placement:
     mode: SnapgridCenter

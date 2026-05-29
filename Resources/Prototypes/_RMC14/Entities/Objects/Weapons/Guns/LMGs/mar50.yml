@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: MAR-50 light machine gun
+  name: "легкий кулемет MAR-50"
   id: RMCWeaponMar50LMG
-  description: A cheap, reliable LMG chambered in 7.62x39mm. Commonly found in the hands of slightly better funded criminals.
+  description: "Дешевий, надійний ЛМГ калібру 7.62x39мм. Часто зустрічається в руках трохи більш забезпечених злочинців."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/LMGs/mar50.rsi

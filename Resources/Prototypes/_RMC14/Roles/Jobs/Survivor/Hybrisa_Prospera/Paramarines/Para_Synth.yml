@@ -66,7 +66,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointParaSupportSynthetic
-  name: paramarine support synthetic spawn point
+  name: "спавнер синтетика підтримки парамарина"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorParaSupportSynthetic

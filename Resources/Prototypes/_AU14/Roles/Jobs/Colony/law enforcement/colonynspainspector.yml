@@ -63,7 +63,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianNSPAInspector
-  name: Spawn Point Civilian NSPA Inspector
+  name: "точка появи цивільного інспектора NSPA"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianNSPAInspector
@@ -72,7 +72,7 @@
 - type: entity
   parent: MarkerBase
   id: aughostinspector
-  name: Inspector colonist ghost role
+  name: "примарна роль колоніста-інспектора"
   components:
   - type: Sprite
     layers:

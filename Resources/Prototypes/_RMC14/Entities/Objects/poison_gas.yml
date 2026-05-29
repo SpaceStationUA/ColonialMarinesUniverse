@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCLandingZoneGas
-  name: CN20-X miasma
+  name: "міазма CN20-X"
   components:
   - type: Transform
     anchored: true
@@ -43,7 +43,7 @@
 
 - type: entity
   id: RMCGasWeedKiller
-  name: C10-W weedkiller
+  name: "гербіцид C10-W"
   components:
   - type: Transform
     anchored: true

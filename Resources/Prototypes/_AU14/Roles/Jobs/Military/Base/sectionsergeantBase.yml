@@ -72,7 +72,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSectionSergeant
-  name: Spawn Point GOVFOR Section Sergeant
+  name: "точка появи сержанта секції ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSectionSergeant

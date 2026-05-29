@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantWYPMC
-  name: PMC Platoon Leader
+  name: "лідер взводу ПВК"
   description: au14-job-description-govforSSG
   setPreference: false
   ranks:

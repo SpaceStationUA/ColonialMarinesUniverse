@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPVanRoofBase
-  name: SPP van interior roof
-  description: Side door
+  name: "дах інтер'єру фургона СПП"
+  description: "Бічні двері"
   placement:
     mode: PlaceFree
   components:
@@ -29,8 +29,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPVanInteriorBase
-  name: SPP van interior piece
-  description: A decorative interior piece for an SPP van.
+  name: "елемент інтер'єру фургона СПП"
+  description: "Декоративний елемент інтер'єру для фургона СПП."
   placement:
     mode: PlaceFree
   components:
@@ -42,8 +42,8 @@
 - type: entity
   abstract: true
   id: VehicleSPPVanChassisBase
-  name: SPP van interior chassis
-  description: A chassis segment for an SPP van interior.
+  name: "шасі інтер'єру фургона СПП"
+  description: "Сегмент шасі для інтер'єру фургона СПП."
   placement:
     mode: PlaceFree
   components:
@@ -179,7 +179,7 @@
 - type: entity
   parent: VehicleSPPVanInteriorDoor
   id: VehicleSPPVanInteriorDoorRoof
-  name: SPP van interior roof door
+  name: "двері в даху інтер'єру фургона СПП"
   components:
   - type: Sprite
     drawdepth: BelowMobs
@@ -206,8 +206,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleSPPVanStorageBase
-  name: SPP van storage
-  description: A small storage locker for an SPP van interior.
+  name: "сховище фургона СПП"
+  description: "Невелика шафка для зберігання в інтер'єрі фургона СПП."
   placement:
     mode: PlaceFree
   components:
@@ -234,13 +234,13 @@
 - type: entity
   parent: VehicleSPPVanStorageBase
   id: VehicleSPPVanSmallStorage
-  name: SPP van small storage
+  name: "мале сховище фургона СПП"
 
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleSPPVanAmmoLoader
-  name: SPP van ammo loader
-  description: A loader for SPP vehicle hardpoint ammunition.
+  name: "заряджувач боєприпасів фургона СПП"
+  description: "Заряджувач боєприпасів для вузлів кріплення техніки СПП."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/Interiors/sppvan.rsi

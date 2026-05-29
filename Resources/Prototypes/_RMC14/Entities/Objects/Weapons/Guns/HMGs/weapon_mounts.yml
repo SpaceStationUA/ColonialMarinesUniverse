@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: RMCBaseWeaponMount
-  name: weapon mount
-  description: A mount to place a weapon on
+  name: "кріплення зброї"
+  description: "Кріплення для розміщення зброї"
   components:
   - type: Appearance
   - type: Corrodible
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCBaseWeaponMount
   id: RMCML66DNestSandbag
-  name: scoped M56D heavy machine gun nest
-  description: A scoped M56D heavy machine gun mounted upon a small reinforced post with sandbags to provide a small machine gun nest for all your defensive needs.
+  name: "оптичне гніздо важкого кулемета M56D"
+  description: "Важкий кулемет M56D з оптикою, встановлений на невеликій укріпленій платформі з мішками з піском, що утворює невелике кулеметне гніздо для всіх твоїх оборонних потреб."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/HMGs/ML66D/mount.rsi
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCML66DNestSandbag
   id: RMCML66DNestMetal
-  name: scoped M56D heavy machine gun
-  description: A scoped M56D heavy machine gun mounted behind a metal shield.
+  name: "важкий кулемет M56D з оптикою"
+  description: "Важкий кулемет M56D з оптикою, встановлений за металевим щитом."
   components:
   - type: Sprite
     state: towergun_folding
@@ -88,8 +88,8 @@
 - type: entity
   parent: [RMCBaseWeaponMount, BaseDeployFoldable, BaseItem]
   id: RMCML66DMount
-  name: M56D mount
-  description: A foldable mount for the M56D, provides stability to the M56D.
+  name: "кріплення M56D"
+  description: "Складне кріплення для M56D, забезпечує стабільність M56D."
   suffix: Folded
   components:
   - type: Item
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCML66DMount
   id: RMCML66DMountAssembled
-  name: M56D heavy machine gun
-  description: A deployable, heavy machine gun. It fires specialized tungsten rounds for increased armor penetration.
+  name: "важкий кулемет M56D"
+  description: "Розгортуваний важкий кулемет. Стріляє спеціалізованими вольфрамовими набоями для збільшеної бронепробивності."
   suffix: Folded, Assembled
   components:
   - type: Sprite
@@ -195,8 +195,8 @@
 - type: entity
   parent: [RMCBaseWeaponMount, BaseItem]
   id: RMCM2CMount
-  name: M2C heavy machine gun
-  description: The disassembled M2C HMG, with its telescopic tripods folded up and unable to fire.
+  name: "важкий кулемет M2C"
+  description: "Розібраний M2C HMG зі складеним телескопічним триногом, не може стріляти."
   components:
   - type: Item
     size: Huge

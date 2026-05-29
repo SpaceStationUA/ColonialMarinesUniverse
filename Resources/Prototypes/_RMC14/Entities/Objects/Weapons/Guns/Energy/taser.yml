@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseWeaponBatterySmall
   id: RMCWeaponTaser
-  name: projectile taser
-  description: An advanced stun device capable of firing a taser cartridge. Used for nonlethal takedowns. Requires recharging after every use.
+  name: "снарядний тазер"
+  description: "Просунутий шоковий пристрій, здатний стріляти тазер-картриджем. Використовується для нелетального захоплення. Потребує перезарядки після кожного використання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Energy/taser.rsi

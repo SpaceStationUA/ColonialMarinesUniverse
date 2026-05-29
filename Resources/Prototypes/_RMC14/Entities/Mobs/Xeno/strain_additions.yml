@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCXenoCarrierBase
   id: CMXenoReaper
-  name: Reaper
-  description: A xeno support beast that harvests fallen flesh into resin.
+  name: "Жнець"
+  description: "Ксенозвір підтримки, що перетворює полеглу плоть на смолу."
   components:
   - type: Sprite
     sprite: _CM13/Mobs/Xenos/Reaper/reaper.rsi
