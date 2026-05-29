@@ -37,6 +37,7 @@
   - CMAccessPilot
   - CMAccessCrewman
   - CMAccessMedical
+  - CMAccessRequisitions # CMU Pirates: додано доступ до карго
 
 - type: accessGroup
   id: DropshipCrewChief
