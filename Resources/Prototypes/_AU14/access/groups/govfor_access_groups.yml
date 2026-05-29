@@ -55,6 +55,7 @@
   tags:
   - AU14AccessGovfor
   - AU14AccessGovforPilot
+  - AU14AccessGovforReq # CMU Pirates: додано доступ до карго
 
 - type: accessGroup
   id: AU14GovforGunner
