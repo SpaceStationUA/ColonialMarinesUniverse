@@ -97,8 +97,6 @@
   changes:
   - message: Велика турель ксеноса kudzu
     type: Add
-  - message: Велика турель ксеноса kudzu
-    type: Add
   - message: Мала турель ксеноса kudzu
     type: Add
   - message: Ксено Kudzu
@@ -1131,7 +1129,7 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/978
 - author: maertayn
   changes:
-  - message: Синти більше не забирають частку вашого важко заробленого зарплатного дня!
+  - message: Синти більше не забирають частку вашої важко заробленої зарплати!
     type: Fix
   id: 102
   time: '2026-05-10T05:47:51.0000000+00:00'
@@ -1471,7 +1469,7 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1100
 - author: troytroy400
   changes:
-  - message: Тайли решіток MultiZ зі знищенними та незнищенними версіями.
+  - message: Тайли решіток MultiZ зі знищуваними та незнищенними версіями.
     type: Add
   - message: Мапінг-ассети, потрібні для порту CM13 Navalis.
     type: Add
