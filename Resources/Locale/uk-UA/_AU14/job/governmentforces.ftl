@@ -21,7 +21,7 @@ au14-job-prefix-govfordspilot = ПДК
 
 AU14JobGOVFORDCC = Бортмеханік десантного корабля
 au14-job-name-govfordcc = Бортмеханік десантного корабля
-au14-job-description-govfordcc = Обслуговуйте "пташку". Координуйте вантаж, пасажирів і допомагайте пілоту.
+au14-job-description-govfordcc = Обслуговуй десантні кораблі. Координуй вантаж, пасажирів та допомагай пілотам.
 au14-job-prefix-govfordcc = БМ
 
 AU14JobGOVFORSectionSergeant = Старший сержант
