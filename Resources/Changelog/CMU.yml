@@ -1,85 +1,85 @@
 ﻿Entries:
 - author: maertayn
   changes:
-  - message: Added changelog.
+  - message: Додано список змін.
     type: Add
-  - message: Removed changelog.
+  - message: Видалено список змін.
     type: Remove
-  - message: Tweaked the changelog.
+  - message: Підкориговано список змін.
     type: Tweak
-  - message: Fixed the changelogs.
+  - message: Виправлено списки змін.
     type: Fix
-  - message: Mapped a changelog.
+  - message: Замаплено список змін.
     type: Map
-  - message: Coded a changelog.
+  - message: Закодовано список змін.
     type: Code
-  - message: Administered a changelog.
+  - message: Адміністровано список змін.
     type: Admin
   id: 1
   time: '2025-06-01T06:07:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1083
 - author: JaSeNeSaJ
   changes:
-  - message: Added SheperdsLACN
+  - message: Додано SheperdsLACN
     type: Add
-  - message: Added SheperdsFOFLACN
+  - message: Додано SheperdsFOFLACN
     type: Add
   - message: sheperdsforceonforce.yml > sheperdsfof.yml
     type: Tweak
   - message: SheperdsForceonForce > SheperdsFOF
     type: Tweak
-  - message: Spare Office fax machine is no longer Unknown.
+  - message: Запасний офісний факс більше не Unknown.
     type: Fix
-  - message: Areas and area .rsi are now just generic Military.
+  - message: Зони та .rsi зон тепер просто загальні Military.
     type: Tweak
   id: 2
   time: '2025-06-11T07:32:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/179
 - author: JaSeNeSaJ
   changes:
-  - message: Changed over Govfor access(es) to new lists
+  - message: Перероблено доступи Govfor на нові списки
     type: Tweak
-  - message: Opfor access(es) to mirror Govfor
+  - message: Доступи Opfor дзеркалять Govfor
     type: Add
-  - message: Opfor variant airlocks & doors
+  - message: Шлюзи та двері варіанту Opfor
     type: Add
-  - message: Opfor variant shuttle consoles
+  - message: Консолі шатлів варіанту Opfor
     type: Add
-  - message: Govfor variants of above entities
+  - message: Варіанти Govfor для сутностей вище
     type: Tweak
-  - message: Military vendors to the new access(es)
+  - message: Військові вендори переведено на нові доступи
     type: Tweak
-  - message: USSRiptide locked airlocks/doors to temporarily be on new Govfor access(es)
+  - message: Заблоковані шлюзи/двері USSRiptide тимчасово на нових доступах Govfor
     type: Tweak
   id: 3
   time: '2025-08-21T19:21:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/330
 - author: johnnny34y
   changes:
-  - message: added HAZOPS platoon, currently available on Gixen's Caverns and Shepard's.
-      Just pray Freeman doesn't show up.
+  - message: додано взвод HAZOPS, наразі доступний на Gixen's Caverns та Shepard's.
+      Просто моліться, щоб не з'явився Freeman.
     type: Add
   id: 4
   time: '2025-08-24T03:16:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/342
 - author: JaSeNeSaJ
   changes:
-  - message: DayNightCycle component
+  - message: Компонент DayNightCycle
     type: Add
-  - message: OPFOR dropship destination.
+  - message: Точка призначення десантного шатла OPFOR.
     type: Add
-  - message: Freezer light position
+  - message: Позиція світла в морозильнику
     type: Fix
   id: 5
   time: '2025-10-02T05:58:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/381
 - author: JaSeNeSaJ
   changes:
-  - message: New osprey sprites
+  - message: Нові спрайти osprey
     type: Add
-  - message: Alamo layout
+  - message: Макет Alamo
     type: Tweak
-  - message: Alamo sprites
+  - message: Спрайти Alamo
     type: Fix
   - message: platoons.yml
     type: Tweak
@@ -88,92 +88,94 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/385
 - author: J C Denton
   changes:
-  - message: Most of the Xenos sprites were replaced to CM-SS-13 variants.
+  - message: Більшість спрайтів Ксеносів замінено на варіанти з CM-SS-13.
     type: Tweak
   id: 7
   time: '2025-10-27T00:45:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/387
 - author: JaSeNeSaJ
   changes:
-  - message: Big kudzu xeno turret
+  - message: Велика турель ксеноса kudzu
     type: Add
-  - message: Small kudzu xeno turret
+  - message: Велика турель ксеноса kudzu
     type: Add
-  - message: Xeno Kudzu
+  - message: Мала турель ксеноса kudzu
     type: Add
-  - message: Spawner for randomizing between weed nodes and turrets
+  - message: Ксено Kudzu
     type: Add
-  - message: APCs regained their offset from upstream, so I reverted that.
+  - message: Спавнер для рандомізації між вузлами бур'яну та турелями
+    type: Add
+  - message: APC повернули свій офсет з апстріму, тож я це відкотив.
     type: Fix
-  - message: Changed the tiles on Flight in stairwells to hide the disposal pipes.
+  - message: Змінено тайли на Flight у сходових прольотах, щоб приховати труби утилізації.
     type: Fix
-  - message: The basement area is now very protected.
+  - message: Зона підвалу тепер дуже захищена.
     type: Tweak
   id: 8
   time: '2026-01-16T22:46:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/422
 - author: JaSeNeSaJ
   changes:
-  - message: Xeno Kudzu Turrets are damageable by gun fire.
+  - message: Турелі ксеноса Kudzu тепер можна пошкодити вогнем зі зброї.
     type: Fix
-  - message: Empty tiles on Flight are now unbreakable
+  - message: Порожні тайли на Flight тепер незнищенні
     type: Fix
-  - message: Can no longer build on or break the tiles in the stairways on Flight
+  - message: На Flight більше не можна будувати на тайлах сходів чи ламати їх
     type: Fix
-  - message: Teleporter viewers are now placed on Flight in the stairways.
+  - message: Оглядачі телепортера тепер розміщені на Flight у сходах.
     type: Fix
   id: 9
   time: '2026-01-17T05:31:15.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/424
 - author: potatoed6
   changes:
-  - message: Changed Support Synthetic rank to WO.
+  - message: Змінено ранг Support Synthetic на WO.
     type: Tweak
   id: 10
   time: '2026-01-27T00:07:41.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/544
 - author: potatoed6
   changes:
-  - message: Added TWE Royal Marines Commandos platoon. For the Queen!
+  - message: Додано взвод TWE Royal Marines Commandos. За Королеву!
     type: Add
   id: 11
   time: '2026-01-27T00:49:09.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/449
 - author: potatoed6
   changes:
-  - message: Added RMC to the UNISC Peacekeepers.
+  - message: Додано RMC до UNISC Peacekeepers.
     type: Add
   id: 12
   time: '2026-01-30T03:35:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/564
 - author: potatoed6
   changes:
-  - message: Fixed playtimers
+  - message: Виправлено таймери відіграного часу
     type: Fix
-  - message: added SupportSynth and CT job override
+  - message: додано перевизначення робіт SupportSynth та CT
     type: Add
   id: 13
   time: '2026-02-02T03:04:50.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/578
 - author: potatoed6
   changes:
-  - message: Added L164A3 MGL
+  - message: Додано L164A3 MGL
     type: Add
-  - message: Added L64A3 DMR
+  - message: Додано L64A3 DMR
     type: Add
-  - message: Added RMC ERT
+  - message: Додано RMC ERT
     type: Add
-  - message: Rebalanced L90
+  - message: Перебалансовано L90
     type: Tweak
-  - message: F9030 renamed to L90
+  - message: F9030 перейменовано на L90
     type: Tweak
-  - message: TWE RMC now get L23 as their main rifle
+  - message: TWE RMC тепер отримують L23 як основну гвинтівку
     type: Tweak
-  - message: Now RMC gets new spec kits
+  - message: Тепер RMC отримує нові спец-кіти
     type: Add
-  - message: RMC spec vendor now will give spec kit specific prefix
+  - message: Спец-вендор RMC тепер видає префікс конкретного спец-кіту
     type: Tweak
-  - message: Added 20-mm grenades for RMC
+  - message: Додано 20-мм гранати для RMC
     type: Add
   id: 14
   time: '2026-02-06T01:08:09.0000000+00:00'
@@ -182,373 +184,373 @@
   changes:
   - message: Normandy
     type: Add
-  - message: Opfor prototype cockpit for Normandy
+  - message: Прототип кокпіта Opfor для Normandy
     type: Add
-  - message: Two generic ERT shuttles, cmb transport shuttle, and icrc transport shuttle.
+  - message: Два загальні шатли ERT, транспортний шатл cmb та транспортний шатл icrc.
     type: Add
-  - message: Updated Alamo doors file to near RMC parity. This adds the 1x2 and 1x3
-      doors for Alamo.
+  - message: Оновлено файл дверей Alamo майже до паритету з RMC. Це додає двері 1x2
+      та 1x3 для Alamo.
     type: Tweak
-  - message: Removed floor from some shuttle sprites.
+  - message: Прибрано підлогу з деяких спрайтів шатлів.
     type: Tweak
   id: 15
   time: '2026-02-07T09:33:20.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/592
 - author: Berkin101
   changes:
-  - message: Even more voice lines, this time Scottish!
+  - message: Ще більше голосових ліній, цього разу шотландських!
     type: Add
   id: 16
   time: '2026-02-08T19:35:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/584
 - author: potatoed6
   changes:
-  - message: Nerfed FBS-B shield, now it has 70% HP of the previous version!
+  - message: Ослаблено щит FBS-B, тепер у нього 70% HP від попередньої версії!
     type: Tweak
-  - message: Fixed L23 rail attachments bug!
+  - message: Виправлено баг рейкових кріплень L23!
     type: Fix
   id: 17
   time: '2026-02-09T20:43:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/603
 - author: JaSeNeSaJ
   changes:
-  - message: ColonyArmory access to CMB & CA
+  - message: Доступ ColonyArmory до CMB та CA
     type: Add
-  - message: Runner & Acider offset in sprites
+  - message: Офсет Runner та Acider у спрайтах
     type: Tweak
-  - message: Default ERT shuttle is now "/Maps/_CMU14/Shuttles/black_ert.yml"
+  - message: Типовий шатл ERT тепер "/Maps/_CMU14/Shuttles/black_ert.yml"
     type: Tweak
-  - message: Acider primed sprite now correct style
+  - message: Праймований спрайт Acider тепер у коректному стилі
     type: Fix
-  - message: 'Acider primed sprite color shifted #22FF22, closer to CM parity'
+  - message: 'Колір праймованого спрайта Acider зміщено на #22FF22, ближче до паритету з CM'
     type: Fix
-  - message: Brown trench coat giving CLF tag
+  - message: Коричневий плащ давав тег CLF
     type: Fix
   id: 18
   time: '2026-02-11T19:32:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/613
 - author: Zetera-Tertia
   changes:
-  - message: Fixed OPFOR/GOVFOR Advisors not having the correct Skillset.
+  - message: Виправлено, що Радники OPFOR/GOVFOR не мали коректного набору навичок.
     type: Fix
   id: 19
   time: '2026-02-17T01:36:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/622
 - author: Zetera-Tertia
   changes:
-  - message: Advisors being able to see new players
+  - message: Радники можуть бачити нових гравців
     type: Add
   id: 20
   time: '2026-02-17T22:19:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/623
 - author: potatoed6
   changes:
-  - message: Fixed rank timers again!
+  - message: Знову виправлено таймери рангів!
     type: Fix
   id: 21
   time: '2026-02-18T00:46:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/625
 - author: potatoed6
   changes:
-  - message: AG80 for UPP
+  - message: AG80 для UPP
     type: Add
-  - message: OG60 for UPP. Check reqs for it!
+  - message: OG60 для UPP. Перевірте реквізиції для нього!
     type: Add
-  - message: New uniform, belts, garb for UPP
+  - message: Нова форма, ремені, спорядження для UPP
     type: Add
-  - message: Changed UPP's reqs for proper one.
+  - message: Змінено реквізиції UPP на правильні.
     type: Tweak
-  - message: Type 88 DMR nerfed to be slightly better than TWE's DMR
+  - message: Type 88 DMR ослаблено, щоб бути трохи кращим за DMR від TWE
     type: Tweak
-  - message: Fixed uniforms
+  - message: Виправлено форму
     type: Fix
-  - message: Added some QoL for UPP.
+  - message: Додано трохи QoL для UPP.
     type: Add
   id: 22
   time: '2026-02-19T00:35:01.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/586
 - author: potatoed6
   changes:
-  - message: Now every xeno has Cm13 sprite!
+  - message: Тепер кожен ксенос має спрайт з Cm13!
     type: Add
   id: 23
   time: '2026-02-20T05:53:58.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/630
 - author: JaSeNeSaJ
   changes:
-  - message: Complete remake
+  - message: Повний ремейк
     type: Add
-  - message: Layout
+  - message: Макет
     type: Tweak
-  - message: Areas
+  - message: Зони
     type: Tweak
-  - message: WYGuard equipment vendor
+  - message: Вендор спорядження WYGuard
     type: Add
   id: 24
   time: '2026-02-20T12:50:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/634
 - author: JaSeNeSaJ
   changes:
-  - message: Trees
+  - message: Дерева
     type: Add
-  - message: Random tree spawner entities
+  - message: Сутності спавнера випадкових дерев
     type: Add
-  - message: Colony Synth spawn room
+  - message: Кімната спавну Синта колонії
     type: Add
-  - message: Added CMAccessColonyCommand access to auadmin accessGroup.
+  - message: Додано доступ CMAccessColonyCommand до accessGroup auadmin.
     type: Tweak
   id: 25
   time: '2026-02-21T20:15:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/641
 - author: JaSeNeSaJ
   changes:
-  - message: Corporate Manager spawn
+  - message: Спавн Corporate Manager
     type: Fix
-  - message: Conifer spawner
+  - message: Спавнер хвойних дерев
     type: Fix
-  - message: GOVFOR objective console
+  - message: Консоль цілей GOVFOR
     type: Fix
-  - message: Soda Fountain
+  - message: Содовий фонтан
     type: Fix
-  - message: Liaison office
+  - message: Офіс зв'язкового
     type: Tweak
-  - message: Objectives
+  - message: Цілі
     type: Tweak
   id: 26
   time: '2026-02-22T20:20:04.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/648
 - author: Berkin101
   changes:
-  - message: New Warcry and Medic Voice Lines
+  - message: Нові голосові лінії Warcry та Medic
     type: Add
   id: 27
   time: '2026-02-22T20:43:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/637
 - author: potatoed6
   changes:
-  - message: Added PaP third party
+  - message: Додано третю сторону PaP
     type: Add
-  - message: Added UPP Territorial Defense third party!
+  - message: Додано третю сторону UPP Territorial Defense!
     type: Add
   id: 28
   time: '2026-02-23T00:56:01.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/635
 - author: potatoed6
   changes:
-  - message: Added FORECON Survs!
+  - message: Додано FORECON Survs!
     type: Add
-  - message: Added FORECON Marksman and Sniper team to be bought in GOVFOR intel!
+  - message: Додано команду снайперів та марксменів FORECON, яку можна купити в розвідці GOVFOR!
     type: Add
-  - message: Added US Army 1st Cavalry Regiment survs!
+  - message: Додано survs 1-го кавалерійського полку Армії США!
     type: Add
-  - message: Added US Army 32nd Armored Division Lost Tank Crew 3rd party!
+  - message: Додано третю сторону — загублений танковий екіпаж 32-ї бронетанкової дивізії Армії США!
     type: Add
-  - message: Added US Army 32nd Arm Division intel-bought reinforce team!
+  - message: Додано команду підкріплення 32-ї бронетанкової дивізії Армії США, яку можна викликати через розвідку!
     type: Add
   id: 29
   time: '2026-02-25T02:05:18.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/638
 - author: NexusLeader
   changes:
-  - message: Added Assistant Manager to playtime ranks for Colony Liasion groundside.
+  - message: Додано Assistant Manager до рангів відіграного часу для Colony Liaison на землі.
     type: Add
   id: 30
   time: '2026-02-26T13:26:42.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/658
 - author: JaSeNeSaJ
   changes:
-  - message: Parasite Runner third party
+  - message: Третя сторона Parasite Runner
     type: Add
-  - message: Carp Mob not showing when it's facehugged (poorly)
+  - message: Моб Carp не відображався, коли його захопив фейсхаггер (погано)
     type: Fix
-  - message: Carp will now go unconscious when facehugged.
+  - message: Carp тепер втрачає свідомість, коли його захопив фейсхаггер.
     type: Tweak
-  - message: .rsi locations
+  - message: Розташування .rsi
     type: Tweak
-  - message: Prototype locations
+  - message: Розташування прототипів
     type: Tweak
-  - message: Sheperds' pride prototypes and metadata names.
+  - message: Прототипи та імена в метаданих для Sheperds' pride.
     type: Tweak
   id: 31
   time: '2026-02-26T16:17:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/659
 - author: NexusLeader
   changes:
-  - message: Fixed Colonial CL's headset
+  - message: Виправлено гарнітуру Colonial CL
     type: Fix
-  - message: Fixed Calendars
+  - message: Виправлено календарі
     type: Fix
   id: 32
   time: '2026-02-28T22:03:48.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/663
 - author: JaSeNeSaJ
   changes:
-  - message: Burrower sprites now more centered
+  - message: Спрайти Burrower тепер більш центровані
     type: Fix
   id: 33
   time: '2026-02-28T22:15:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/665
 - author: Zetera-Tertia
   changes:
-  - message: Professor von Bandolier in all his/her glory. Mostly.
+  - message: Професор von Bandolier у всій своїй красі. Майже.
     type: Add
-  - message: Made it so PMC armor does not specifically require PMC Fatigues. (The
-      Safari Jacket was parented off the PMC armor for some reason)
+  - message: Зроблено так, що броня PMC більше не вимагає саме PMC Fatigues. (Safari
+      Jacket з якоїсь причини був успадкований від броні PMC)
     type: Tweak
   id: 34
   time: '2026-03-02T05:30:35.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/666
 - author: potatoed6
   changes:
-  - message: Adds and fixes squads for major 3rd parties
+  - message: Додає та виправляє загони для основних третіх сторін
     type: Add
-  - message: Fixes trackers for 3rd parties
+  - message: Виправляє трекери для третіх сторін
     type: Fix
-  - message: Restructurizes RMC RRT
+  - message: Реструктуризує RMC RRT
     type: Code
   id: 35
   time: '2026-03-08T09:42:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/672
 - author: potatoed6
   changes:
-  - message: Ported Designer's texture from CM13!
+  - message: Портовано текстуру Designer з CM13!
     type: Add
-  - message: Nuked _CMU14 texture folder!
+  - message: Знищено теку текстур _CMU14!
     type: Code
   id: 36
   time: '2026-03-17T06:48:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/670
 - author: potatoed6
   changes:
-  - message: LPO80 added to UPP
+  - message: LPO80 додано до UPP
     type: Add
-  - message: AG80 is buffed to be similar to Mk1/Mk2
+  - message: AG80 підсилено, щоб бути схожим на Mk1/Mk2
     type: Tweak
-  - message: FP9000 is now a rifle, with similar stats. Still has AP but has similar
-      (slightly better) performance than Mk1
+  - message: FP9000 тепер гвинтівка зі схожими характеристиками. Досі має AP, але має
+      схожу (трохи кращу) ефективність ніж Mk1
     type: Tweak
-  - message: Type 71 has buffed RoF
+  - message: Type 71 має підсилену скорострільність
     type: Tweak
-  - message: MP5 has buffed accuracy and RoF to be somewhat competitive to P90
+  - message: MP5 має підсилену точність та скорострільність, щоб бути дещо конкурентним з P90
     type: Tweak
-  - message: L42A now has Full Auto with high RoF but low accuracy. Mag capacity has
-      been nerfed to 20.
+  - message: L42A тепер має повний автоматичний режим з високою скорострільністю, але
+      низькою точністю. Місткість магазину знижено до 20.
     type: Tweak
   id: 37
   time: '2026-03-23T09:13:30.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/695
 - author: JaSeNeSaJ
   changes:
-  - message: Podlocks are now on the power grid (preventing prying)
+  - message: Podlock'и тепер під'єднані до енергомережі (запобігає відкриванню ломом)
     type: Fix
-  - message: Lights are now the offset versions.
+  - message: Світло тепер у версіях з офсетом.
     type: Tweak
-  - message: Always powered lights are replaced with breakable versions (they're still
-      always powered)
+  - message: Завжди увімкнене світло замінено на ламкі версії (вони все одно завжди
+      увімкнені)
     type: Fix
-  - message: Ranger station has brig timers
+  - message: Станція рейнджерів має таймери брига
     type: Add
-  - message: APC to Military Yard
+  - message: APC до Military Yard
     type: Add
-  - message: Removed Church APC
+  - message: Прибрано APC церкви
     type: Remove
-  - message: clothing vendor to CLF (they'll now be clothing ID'd)
+  - message: вендор одягу до CLF (тепер вони матимуть ID одягу)
     type: Add
-  - message: Rechargers to Military, Rangers, & We-Yu
+  - message: Зарядники до Military, Rangers та We-Yu
     type: Add
-  - message: Welding Helmet & Goggles to CLF Base
+  - message: Зварювальний шолом та окуляри до бази CLF
     type: Add
-  - message: Access for We-Yu to Checkpoint airlock
+  - message: Доступ для We-Yu до шлюзу контрольного пункту
     type: Add
-  - message: Junior Officer vendor
+  - message: Вендор молодшого офіцера
     type: Add
-  - message: Intel Computer for Govfor
+  - message: Консоль розвідки для Govfor
     type: Add
-  - message: Lights should now always be powered and be breakable (CMB Cell light
-      exception)
+  - message: Світло тепер має бути завжди увімкненим та ламким (виняток — світло в
+      камері CMB)
     type: Fix
-  - message: Alamo & Normandy now have engine attach points.
+  - message: Alamo та Normandy тепер мають точки кріплення двигунів.
     type: Fix
-  - message: AlamoWall40&41 from Normandy (North most engine walls)
+  - message: AlamoWall40&41 з Normandy (найпівнічніші стіни двигунів)
     type: Remove
   id: 38
   time: '2026-03-23T21:51:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/697
 - author: MACMAN2003
   changes:
-  - message: The synth spawn room in solaris now has the vendor it needed.
+  - message: Кімната спавну синтів у solaris тепер має вендор, який їй був потрібен.
     type: Fix
   id: 39
   time: '2026-03-24T13:42:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/696
 - author: potatoed6
   changes:
-  - message: M41A Mk1 recon
+  - message: M41A Mk1 розвідник
     type: Add
-  - message: M41AE2 recon
+  - message: M41AE2 розвідник
     type: Add
-  - message: MOPP kits for UPP and USCMC
+  - message: Набори MOPP для UPP та USCMC
     type: Add
-  - message: FORECON MOPP Thirdparty (for GK larp)
+  - message: Третя сторона FORECON MOPP (для GK larp)
     type: Add
-  - message: FORECON Sniper Scout's Kill Team (low chance on highpop or admin spawn)
+  - message: Команда FORECON Sniper Scout's Kill Team (низький шанс на highpop або спавн адміном)
     type: Add
-  - message: US Army spawn menu names now distinct if they are ERT or Survs
+  - message: Імена в меню спавну Армії США тепер відрізняються, якщо це ERT чи Survs
     type: Tweak
-  - message: M41AE2 now can take M41A MK1 mags, parity and soul
+  - message: M41AE2 тепер може приймати магазини M41A MK1, паритет та душа
     type: Tweak
-  - message: Now some of FORECON get infiltration boots
+  - message: Тепер дехто з FORECON отримує інфільтраційні черевики
     type: Tweak
-  - message: Changed FORECON's M4RA custom to M49.
+  - message: Змінено кастомний M4RA від FORECON на M49.
     type: Tweak
   id: 40
   time: '2026-03-25T22:23:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/703
 - author: potatoed6
   changes:
-  - message: Fixed yaml linte errors.
+  - message: Виправлено помилки yaml-лінтера.
     type: Code
-  - message: Fixed some RSI errors.
+  - message: Виправлено деякі помилки RSI.
     type: Code
   id: 41
   time: '2026-03-26T07:52:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/704
 - author: Berkin101
   changes:
-  - message: More Voicelines
+  - message: Більше голосових ліній
     type: Add
   id: 42
   time: '2026-03-27T21:00:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/706
 - author: JaSeNeSaJ
   changes:
-  - message: Some rotations of RMCEntityDesertWaterShallowCorner
+  - message: Деякі повороти RMCEntityDesertWaterShallowCorner
     type: Fix
-  - message: Some rotations of RMCEntityDesertWaterShallowCornerEdge
+  - message: Деякі повороти RMCEntityDesertWaterShallowCornerEdge
     type: Fix
   id: 43
   time: '2026-03-27T21:17:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/705
 - author: shamblestf
   changes:
-  - message: Platoon armors now protect you against xeno slashes, and light armor
-      is slightly less protective now.
+  - message: Броня взводів тепер захищає від ударів ксеносів, а легка броня тепер
+      трохи менш захисна.
     type: Tweak
   id: 44
   time: '2026-03-29T04:46:20.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/669
 - author: potatoed6
   changes:
-  - message: Fixes Synth ranks, add spawnmenurolename for every militray job so we
-      dont get one gajilion same jobs.
+  - message: Виправляє ранги синтів, додає spawnmenurolename для кожної військової
+      роботи, щоб ми не отримували мільярд однакових робіт.
     type: Code
   id: 45
   time: '2026-03-29T15:34:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/671
 - author: MACMAN2003
   changes:
-  - message: Added a 10 point synth subversion key to the CLF requisitions vendor.
-      It can be used to convert synths to the CLF.
+  - message: Додано ключ підриву синтів на 10 очок до вендора реквізицій CLF. Його
+      можна використати, щоб навернути синтів до CLF.
     type: Add
   id: 46
   time: '2026-03-31T11:44:35.0000000+00:00'
@@ -561,1109 +563,1094 @@
     type: Add
   - message: Colony working joe
     type: Add
-  - message: APOLLO for all three WJs as a ghost role or for admins
+  - message: APOLLO для всіх трьох WJ як роль привида або для адмінів
     type: Add
-  - message: 2 third parties - 1 apollo 2 WJs and just 2 WJs
+  - message: 2 треті сторони — 1 apollo 2 WJs та просто 2 WJs
     type: Add
-  - message: adds maintenance jack for synths
+  - message: додає maintenance jack для синтів
     type: Add
-  - message: adds a menu for WJs for synthesized with around 200 voice lines.
+  - message: додає меню для WJ для синтезованих з близько 200 голосовими лініями.
     type: Add
   id: 47
   time: '2026-04-01T22:16:21.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/721
 - author: JaSeNeSaJ
   changes:
-  - message: Flight is out of rotation.
+  - message: Flight виведено з ротації.
     type: Remove
-  - message: Random Clothing Spawner for map use
+  - message: Спавнер випадкового одягу для використання на мапі
     type: Add
-  - message: 20 minute fog wall for FOF
+  - message: 20-хвилинна стіна туману для FOF
     type: Add
-  - message: Inverted wall remove jungle vegetation for Colony Fall
+  - message: Інвертована стіна прибирає рослинність джунглів для Colony Fall
     type: Add
   id: 48
   time: '2026-04-03T05:06:05.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/724
 - author: potatoed6
   changes:
-  - message: PMC Party - ERT, extraction team, kill team. Whatever admins want to
-      order them. They have M41A/2's, 1 m39b2, 1 NSG-23, 1 M42A, 1 SGO. Maybe will
-      add a Synth later.
+  - message: 'Третя сторона PMC — ERT, команда евакуації, kill team. Що завгодно,
+      що захочуть замовити адміни. У них є M41A/2, 1 m39b2, 1 NSG-23, 1 M42A, 1 SGO.
+      Можливо, пізніше додамо синта.'
     type: Add
-  - message: Hazard Transportation - CL, 2 goons, 2 scientists. They have a random
-      chance to have either (66%) speed demon drug or mindbreaker toxin (in large
-      amounts, discussed with EG) or (33%) 2 xeno eggs/MMI with SS14 vanilla implanter
-      that gibs you upon death (yes, evil, but it is WeYu + we need to gib someone
-      to use in MMI). In case there's no lab on map present, they have 2 medical tents.
+  - message: 'Hazard Transportation — CL, 2 goons, 2 науковці. Вони мають випадковий
+      шанс мати або (66%) наркотик speed demon чи токсин mindbreaker (у великих кількостях,
+      обговорено з EG), або (33%) 2 яйця ксеносів/MMI з ванільним імплантером SS14,
+      що гібує тебе після смерті (так, зло, але це WeYu + нам треба когось гібнути,
+      щоб використати в MMI). Якщо на мапі немає лабораторії, у них є 2 медичні намети.'
     type: Add
   - message: 'Intelectual Property Infringement Enforcement: 1 Lawyer 1 Personal Protection
-      Officer. Note: Lawyer can spawn as a synth - there is a huge disclamer in the
-      ghost menu regarding that. Synth is undercover, as it seems to be a common thing
-      for WeYu''s high ranking officers in movies.'
+      Officer. Примітка: Lawyer може заспавнитися як синт — у меню привида є величезне
+      попередження про це. Синт під прикриттям, оскільки це, схоже, звична річ для
+      високопосадовців WeYu у фільмах.'
     type: Add
   id: 49
   time: '2026-04-04T15:50:08.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/726
 - author: Berkin101
   changes:
-  - message: Now you can hear your squad leader shout their lungs out when they issue
-      an order.
+  - message: Тепер ви можете чути, як ваш лідер загону кричить на повні легені, коли
+      віддає наказ.
     type: Add
   id: 50
   time: '2026-04-04T15:52:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/725
 - author: potatoed6
   changes:
-  - message: Now Cultists have a proper job
+  - message: Тепер у Культистів є належна робота
     type: Add
-  - message: Now Cultists have a menu to buy supplies
+  - message: Тепер у Культистів є меню для купівлі припасів
     type: Add
-  - message: Now eggs can fit in cultist's bag
+  - message: Тепер яйця вміщуються в сумку культиста
     type: Tweak
-  - message: Cultists can hijack Synths
+  - message: Культисти можуть викрадати Синтів
     type: Tweak
-  - message: Fixed egg sprite bug
+  - message: Виправлено баг спрайта яйця
     type: Fix
-  - message: Fixed WJ's lines
+  - message: Виправлено лінії WJ
     type: Fix
-  - message: Now APOLLO can access radio channels
+  - message: Тепер APOLLO може отримувати доступ до радіоканалів
     type: Fix
-  - message: WJ's now have 500 HP. They will crit at 300 HP.
+  - message: WJ тепер мають 500 HP. Вони впадуть у крит на 300 HP.
     type: Tweak
-  - message: Synth hijack system now supports changing factions, components and stuff
+  - message: Система викрадення синтів тепер підтримує зміну фракцій, компонентів тощо
     type: Tweak
-  - message: APOLLO is now purely admin role.
+  - message: APOLLO тепер суто адмінська роль.
     type: Tweak
   id: 51
   time: '2026-04-04T16:32:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/729
 - author: potatoed6
   changes:
-  - message: Fixed yaml linter
+  - message: Виправлено yaml-лінтер
     type: Code
   id: 52
   time: '2026-04-06T02:21:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/732
 - author: MACMAN2003
   changes:
-  - message: 'Added a new map: Barker''s Lament, a colony on the surface of LV-376
-      "Ulixes"'
+  - message: 'Додано нову мапу: Barker''s Lament, колонія на поверхні LV-376 "Ulixes"'
     type: Add
-  - message: Added a CMU Access configurator, you can find it in the spawn menu by
-      typing the "CMU, Admin" suffix
+  - message: Додано конфігуратор доступу CMU, його можна знайти в меню спавну, ввівши
+      суфікс "CMU, Admin"
     type: Admin
   id: 53
   time: '2026-04-10T23:23:08.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/733
 - author: potatoed6
   changes:
-  - message: Xeno postfix and prefix have 0 hours requirement now.
+  - message: Постфікс та префікс ксеносів тепер мають вимогу 0 годин.
     type: Tweak
   id: 54
   time: '2026-04-13T23:34:50.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/747
 - author: potatoed6
   changes:
-  - message: Added specializations for Aux Synths, COS'es, ERO, Journalists, Recruiters
+  - message: Додано спеціалізації для Aux Synths, COS'ів, ERO, Журналістів, Рекрутерів
     type: Add
-  - message: Added loadouts
+  - message: Додано лоадаути
     type: Add
   id: 55
   time: '2026-04-14T00:56:42.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/745
 - author: potatoed6
   changes:
-  - message: WJ UI related
+  - message: Пов'язане з UI WJ
     type: Fix
-  - message: WJ access related
+  - message: Пов'язане з доступом WJ
     type: Fix
-  - message: WJ door bumping
+  - message: Стукання WJ у двері
     type: Fix
-  - message: WJs have mob speed change in test.
+  - message: WJ мають зміну швидкості пересування в тесті.
     type: Tweak
-  - message: stuff for AI core. MOTHER and FATHER AI
+  - message: матеріал для ядра ШІ. ШІ MOTHER та FATHER
     type: Add
   id: 56
   time: '2026-04-14T01:34:04.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/746
 - author: Teragenic
   changes:
-  - message: PMC Leader also gets a medhud
+  - message: PMC Leader також отримує medhud
     type: Add
-  - message: PMC SG and Medic now get Endurance Skills
+  - message: PMC SG та Medic тепер отримують навички Endurance
     type: Add
-  - message: PMC Helmets from 15 to 25 (Base RMC helmets give 20)
+  - message: Шоломи PMC з 15 до 25 (базові шоломи RMC дають 20)
     type: Tweak
-  - message: PMC Medic not getting a Medhud
+  - message: PMC Medic не отримував Medhud
     type: Fix
   id: 57
   time: '2026-04-14T20:08:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/754
 - author: nicholast013
   changes:
-  - message: medical skill for WY Scientist and access to medical stuffs
+  - message: медична навичка для WY Scientist та доступ до медичних речей
     type: Add
   id: 58
   time: '2026-04-14T20:08:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/753
 - author: nicholast013
   changes:
-  - message: Changed from surgery to medical skill requirement for using blood bag
-      or iv drip
+  - message: Змінено вимогу з хірургічної на медичну навичку для використання пакета
+      крові чи крапельниці
     type: Tweak
   id: 59
   time: '2026-04-16T22:10:41.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/768
 - author: Teragenic
   changes:
-  - message: Gave PaP Inspectors CMB CM13 Equiv Skillset
+  - message: Дано інспекторам PaP набір навичок CMB, еквівалентний CM13
     type: Tweak
   id: 60
   time: '2026-04-16T22:28:50.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/769
 - author: Piticzu
   changes:
-  - message: Parasites no longer automatically unhide when leaping.
+  - message: Паразити більше не виходять зі схованки автоматично під час стрибка.
     type: Tweak
   id: 61
   time: '2026-04-17T19:28:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/775
 - author: MarshesAndMeadows
   changes:
-  - message: Added the Trapper boiler strain, a further specialized boiler focusing
-      on ambushes and rapidly chewing through marine static defenses.
+  - message: Додано штам boiler Trapper — ще більш спеціалізований boiler, що зосереджений
+      на засідках та швидкому прогризанні статичної оборони морпіхів.
     type: Add
-  - message: Added the Deploy Traps ability, a rapid deployment of snaring traps to
-      snare prey, able to even be deployed right under their feet, though easily destroyed
-      by shooting or with a melee attack. Includes SFX for getting snared. Deploy
-      Traps can also be empowered by Insight, and will in turn empower Acid Mine when
-      cast this way.
+  - message: Додано здатність Deploy Traps — швидке розгортання сильцевих пасток для
+      ловлі здобичі, які можна розгорнути навіть прямо під ногами, хоч їх легко знищити
+      пострілом чи ближньою атакою. Включає SFX за потрапляння в сильце. Deploy Traps
+      також можна підсилити через Insight, що своєю чергою підсилить Acid Mine, коли
+      її застосовано так.
     type: Add
-  - message: Added the Acid Mine attack, a remote detonation of acid that has a short
-      delay before dealing damage. Deals increased damage to structures, includes
-      VFX and SFX. Also reduces the cooldown of Deploy Traps when you hit mobs.
+  - message: Додано атаку Acid Mine — дистанційний підрив кислоти з короткою затримкою
+      перед нанесенням шкоди. Завдає збільшеної шкоди структурам, включає VFX та SFX.
+      Також зменшує перезарядку Deploy Traps, коли ви влучаєте по мобах.
     type: Add
-  - message: Added the Acid Shotgun attack, a close range blast of acid that does
-      high damage, further increased if the victim is snared in a trap.
+  - message: Додано атаку Acid Shotgun — ближній викид кислоти, що завдає високої
+      шкоди, ще більшої, якщо жертва спіймана в пастку.
     type: Add
-  - message: Added the Insight mechanic; hitting pellets of the Acid Shotgun grants
-      you Insight stacks, potentially empowering your next use of Deploy Traps
+  - message: Додано механіку Insight; влучання гранулами Acid Shotgun дає вам стаки
+      Insight, потенційно підсилюючи ваше наступне використання Deploy Traps
     type: Add
-  - message: Added Adrenaline Surge, after getting hit, you get a speed boost for
-      a short duration.
+  - message: Додано Adrenaline Surge — після отримання удару ви отримуєте приріст
+      швидкості на короткий час.
     type: Add
   id: 62
   time: '2026-04-21T08:28:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/784
 - author: MACMAN2003
   changes:
-  - message: Added gas mask filters, to block out nasty airborne contaminants. Airborne
-      contaminants not included.
+  - message: Додано фільтри для газмасок, щоб блокувати неприємні забрудники в повітрі.
+      Забрудники в повітрі не включені.
     type: Add
   id: 63
   time: '2026-04-23T08:19:03.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/798
 - author: sunzu432
   changes:
-  - message: Additional rooms, phones, RP areas to Barker's Lament military base.
+  - message: Додаткові кімнати, телефони, RP-зони на військовій базі Barker's Lament.
     type: Add
-  - message: Changes to all buildings in the Barker's Lament military base.
+  - message: Зміни до всіх будівель на військовій базі Barker's Lament.
     type: Tweak
   id: 64
   time: '2026-04-23T08:46:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/799
 - author: Tyzemol
   changes:
-  - message: Removed ape roundstart threat
+  - message: Прибрано загрозу ape на старті раунду
     type: Remove
   id: 65
   time: '2026-04-23T09:13:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/801
 - author: maertayn
   changes:
-  - message: Clarified 5.56x45mm cartridges to distinguish between the M16 and L83A
-      rifles upon inspection.
+  - message: Уточнено патрони 5.56x45mm, щоб розрізняти гвинтівки M16 та L83A під час огляду.
     type: Fix
   id: 66
   time: '2026-04-23T10:20:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/789
 - author: maertayn
   changes:
-  - message: Clarified 7.62x25mm cartridges to distinguish T73/T74 pistol rounds from
-      Type-19 SMG rounds upon inspection.
+  - message: Уточнено патрони 7.62x25mm, щоб розрізняти пістолетні набої T73/T74 від
+      набоїв SMG Type-19 під час огляду.
     type: Fix
   id: 67
   time: '2026-04-23T10:21:28.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/787
 - author: maertayn
   changes:
-  - message: Clarified 7.62x51mm cartridges to distinguish between the AR10 and M60-LMG
-      upon inspection.
+  - message: Уточнено патрони 7.62x51mm, щоб розрізняти AR10 та M60-LMG під час огляду.
     type: Fix
   id: 68
   time: '2026-04-23T10:21:51.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/788
 - author: Tyzemol
   changes:
-  - message: Apes produce more meat when butchered and have more blood.
+  - message: Ape'и дають більше м'яса при оброблянні та мають більше крові.
     type: Tweak
-  - message: Apes are no longer insanely slow form taking a single scratch.
+  - message: Ape'и більше не стають шалено повільними від єдиної подряпини.
     type: Fix
-  - message: Apes no longer spontaneously gib from mere 400 blunt damage
+  - message: Ape'и більше не гібуються спонтанно від якихось 400 одиниць тупої шкоди
     type: Fix
   id: 69
   time: '2026-04-23T11:19:24.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/793
 - author: sunzu432
   changes:
-  - message: Barracks hypersleep chambers
+  - message: Камери гіперсну в казармах
     type: Add
-  - message: Prep room re-orientation and extension to more clearly separate vendors
+  - message: Переорієнтація та розширення кімнати підготовки для чіткішого розділення вендорів
     type: Tweak
-  - message: Other small tweaks to Barker's Lament Military Base
+  - message: Інші невеликі правки до військової бази Barker's Lament
     type: Tweak
-  - message: Temporary fix for military base medbay
+  - message: Тимчасове виправлення медбею військової бази
     type: Fix
-  - message: Aux colony entrance podlock doors
+  - message: Podlock-двері допоміжного входу в колонію
     type: Fix
   id: 70
   time: '2026-04-24T15:25:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/817
 - author: maertayn
   changes:
-  - message: Fixed the AG80 Extended Magazines using improper 10x24mm to use 9.7x16mm
-      UPP ammunition.
+  - message: Виправлено, що розширені магазини AG80 використовували неправильний
+      10x24mm — тепер використовують боєприпаси UPP 9.7x16mm.
     type: Fix
   id: 71
   time: '2026-04-24T15:27:10.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/790
 - author: sunzu432
   changes:
-  - message: Gear room, command, checkpoint areas
+  - message: Зони кімнати спорядження, командування, контрольного пункту
     type: Fix
-  - message: Medical vendor access
+  - message: Доступ до медичного вендора
     type: Fix
   id: 72
   time: '2026-04-25T05:58:56.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/826
 - author: JaSeNeSaJ
   changes:
-  - message: UA Flag to UA Embassy
+  - message: Прапор UA до посольства UA
     type: Add
-  - message: UPP Flag to UPP Embassy
+  - message: Прапор UPP до посольства UPP
     type: Add
-  - message: Floor under UPP front door.
+  - message: Підлога під передніми дверима UPP.
     type: Fix
   id: 73
   time: '2026-04-25T06:09:54.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/829
 - author: maertayn
   changes:
-  - message: boomsticks! fight those tall metal boilers
+  - message: бумстіки! битися з тими високими металевими boiler'ами
     type: Add
-  - message: synths are excluded from Colony Fall KillAllColonist game end rule, no
-      more killing fake hosts to end
+  - message: синтів виключено з правила завершення гри Colony Fall KillAllColonist,
+      більше жодного вбивства фейкових хостів задля завершення
     type: Fix
-  - message: civilian and govfor (apparel & special-weapons) vendors have had their
-      stock increased to support ~40 people per dispenser
+  - message: вендори цивільних та govfor (одяг та спецзброя) отримали збільшений запас
+      для підтримки ~40 людей на диспенсер
     type: Tweak
-  - message: non-lethal 9mm rubber bullets for the We-Yu corpo guards
+  - message: нелетальні гумові кулі 9mm для корпоративних охоронців We-Yu
     type: Add
-  - message: duplicate civilian jobs have been hidden from the lobby loadout/preference
-      menu
+  - message: дублікати цивільних робіт приховано з меню лоадаутів/налаштувань лоббі
     type: Tweak
-  - message: K9 received specialised corpsman equipment instead of being in skivvies
+  - message: K9 отримав спеціалізоване спорядження санітара замість того, щоб бути в спідній білизні
     type: Fix
   id: 74
   time: '2026-04-25T06:11:03.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/825
 - author: nicholast013
   changes:
-  - message: Added pipe bomb back
+  - message: Повернуто саморобну бомбу
     type: Add
   id: 75
   time: '2026-04-25T15:29:02.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/783
 - author: maertayn
   changes:
-  - message: L90 and MK1 can get ammo from UNISC weapons rack
+  - message: L90 та MK1 можуть отримувати боєприпаси зі стійки зброї UNISC
     type: Fix
-  - message: HAR and M75amas can now use a variety of attachments (UNISC)
+  - message: HAR та M75amas тепер можуть використовувати різноманітні насадки (UNISC)
     type: Fix
   id: 76
   time: '2026-04-25T15:30:24.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/833
 - author: KeiKiyomi
   changes:
-  - message: Added ASRS access to DP (Sorry DCC)
+  - message: Додано доступ ASRS до DP (Вибач, DCC)
     type: Add
-  - message: Fixed Req budget (increased from 10k to 45k)
+  - message: Виправлено бюджет реквізицій (збільшено з 10k до 45k)
     type: Fix
   id: 77
   time: '2026-04-26T15:48:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/862
 - author: KeiKiyomi
   changes:
-  - message: Added mortar kit to mortar crate ASRS option
+  - message: Додано набір мінометів до опції ASRS-ящика з мінометом
     type: Tweak
-  - message: increased amount of shells per crate
+  - message: збільшено кількість снарядів на ящик
     type: Tweak
   id: 78
   time: '2026-04-27T10:59:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/865
 - author: MarshesAndMeadows
   changes:
-  - message: Changed how Deploy Traps places traps, should be more reliable however.
+  - message: Змінено, як Deploy Traps розміщує пастки, тепер має бути надійніше.
     type: Tweak
-  - message: Fixed LOS check for acid mine, should be much easier to use now
+  - message: Виправлено перевірку LOS для acid mine, тепер має бути значно легше використовувати
     type: Fix
-  - message: Fixed Acid Mine going on cooldown when failing the LOS check.
+  - message: Виправлено, що Acid Mine ішла на перезарядку при невдалій перевірці LOS.
     type: Fix
   id: 79
   time: '2026-04-27T11:00:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/824
 - author: MarshesAndMeadows
   changes:
-  - message: Fixed crusher charge sometimes phasing through barricades. It should
-      now stop at the barricade and still deal damage.
+  - message: Виправлено, що ривок crusher іноді проходив крізь барикади. Тепер він
+      має зупинятися біля барикади і все одно завдавати шкоди.
     type: Fix
-  - message: Fixed handrails being treated like barricades for crushers charge.
+  - message: Виправлено, що поручні сприймалися як барикади для ривка crusher.
     type: Fix
-  - message: Fixed crushers charge stopping when hitting friendly hive structures
-      like recovery nodes, clusters and so on.
+  - message: Виправлено, що ривок crusher зупинявся при зіткненні з дружніми структурами
+      вулика, як-от вузли відновлення, кластери тощо.
     type: Fix
-  - message: Fixed crushers charge not dealing damage to many very specific objects
-      (Wey-Ya vendors, certain machines, directional windows, many more)
+  - message: Виправлено, що ривок crusher не завдавав шкоди багатьом дуже специфічним
+      об'єктам (вендори Wey-Ya, певні машини, спрямовані вікна та багато іншого)
     type: Fix
-  - message: Fixed crushers charge stopping on the first table it hits, it now continues
-      through tables while destroying them.
+  - message: Виправлено, що ривок crusher зупинявся на першому столі, який він зачепив,
+      тепер він проходить крізь столи, знищуючи їх.
     type: Fix
-  - message: Fixed crushers charge dealing lower damage than intended to walls and
-      Rwalls, it now deals the correct 750 structural damage.
+  - message: Виправлено, що ривок crusher завдавав меншої шкоди ніж задумано стінам
+      та Rwall'ам, тепер він завдає коректних 750 структурної шкоди.
     type: Fix
-  - message: "Fixed crushers knockback not matching parity (1\xBD -> 3 tiles)"
+  - message: "Виправлено, що відкидання crusher не відповідало паритету (1\xBD -> 3 тайли)"
     type: Fix
-  - message: Fixed crusher charge not being targetable, causing it to always travel
-      the full length, regardless of targeting.
+  - message: Виправлено, що ривок crusher не можна було націлити, через що він завжди
+      долав повну відстань, незалежно від націлювання.
     type: Fix
-  - message: Fixed crusher charge not correctly destroying window frames.
+  - message: Виправлено, що ривок crusher некоректно знищував рами вікон.
     type: Fix
-  - message: Fixed crusher charge not dealing damage to reagent tanks.
+  - message: Виправлено, що ривок crusher не завдавав шкоди резервуарам з реагентами.
     type: Fix
   id: 80
   time: '2026-04-27T11:01:09.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/782
 - author: L0pz
   changes:
-  - message: Added ATM sprites!
+  - message: Додано спрайти банкомата!
     type: Add
   id: 81
   time: '2026-04-29T13:49:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/880
 - author: maertayn
   changes:
-  - message: access for MPs and military doctors (GOVFOR/OPFOR)
+  - message: доступ для MP та військових лікарів (GOVFOR/OPFOR)
     type: Fix
   id: 82
   time: '2026-04-30T18:24:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/889
 - author: maertayn
   changes:
-  - message: IED vests can no longer be duplicated when equipping/dropping at the
-      same time.
+  - message: Жилети IED більше не можна дублювати при одночасному надяганні/скиданні.
     type: Fix
   id: 83
   time: '2026-05-01T03:50:14.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/896
 - author: maertayn
   changes:
-  - message: autocomplete of admin round commands for devs & setgovfor / setopforship
+  - message: автодоповнення адмінських команд раунду для розробників та setgovfor / setopforship
     type: Add
   id: 84
   time: '2026-05-01T17:26:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/901
 - author: KeiKiyomi
   changes:
-  - message: Fixed Mortar Operators JTAC skill to match JO's
+  - message: Виправлено навичку JTAC операторів мінометів, щоб відповідала JO
     type: Fix
   id: 85
   time: '2026-05-02T13:03:58.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/910
 - author: MarshesAndMeadows
   changes:
-  - message: Fixed basecrusher charge hitting friendly benos
+  - message: Виправлено, що ривок basecrusher влучав по дружніх benos
     type: Fix
-  - message: Fixed basecrusher charge costing 40 plasma rather than 20.
+  - message: Виправлено, що ривок basecrusher коштував 40 плазми замість 20.
     type: Fix
   id: 86
   time: '2026-05-02T13:05:17.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/907
 - author: JaSeNeSaJ
   changes:
-  - message: Invasive carp (Sharkminnow)
+  - message: Інвазивний carp (Sharkminnow)
     type: Add
-  - message: Abstract carp
+  - message: Абстрактний carp
     type: Add
   - message: carp
     type: Tweak
-  - message: Invasive carp third party (Spawns only 1, nonscaling, can be roundstart)
+  - message: Третя сторона інвазивного carp (спавнить лише 1, без масштабування, може бути на старті раунду)
     type: Add
   id: 87
   time: '2026-05-02T13:16:03.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/915
 - author: maertayn
   changes:
-  - message: Deputy and Marshal have their respective badges
+  - message: Deputy та Marshal мають свої відповідні значки
     type: Add
   id: 88
   time: '2026-05-02T16:14:24.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/917
 - author: SurfinNinja1
   changes:
-  - message: Shepherd's Pride has had its military medbay renovated.
+  - message: Військовий медбей на Shepherd's Pride відремонтовано.
     type: Tweak
   id: 89
   time: '2026-05-03T01:37:05.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/925
 - author: JaSeNeSaJ
   changes:
-  - message: rockwallremoveinshybrisia_colonyfall to rockwallremoveinshybrisia_colonyfall_inverted
+  - message: rockwallremoveinshybrisia_colonyfall на rockwallremoveinshybrisia_colonyfall_inverted
     type: Tweak
   id: 90
   time: '2026-05-03T18:17:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/931
 - author: maertayn
   changes:
-  - message: Revolver belts to military apparel vendors
+  - message: Ремені для револьверів до вендорів військового одягу
     type: Add
-  - message: JTAC comms for FTLs
+  - message: Зв'язок JTAC для FTL
     type: Add
-  - message: NewMeds added to the Medical Belt whitelist
+  - message: NewMeds додано до білого списку медичного ременя
     type: Add
-  - message: Bipods firerate has been nerfed - kramer AR buffed
+  - message: Скорострільність сошок ослаблено — AR kramer підсилено
     type: Tweak
-  - message: Carps can now be cut into pieces with a butcher's knife
+  - message: Carp'ів тепер можна розрізати на шматки ножем м'ясника
     type: Fix
-  - message: Marine Orders not working for Commander and Junior Officers
+  - message: Накази морпіхів не працювали для Commander та Junior Officers
     type: Fix
   id: 91
   time: '2026-05-03T22:21:18.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/934
 - author: KeiKiyomi
   changes:
-  - message: Fixed Mortar Crate on ASRS to include full kit now
+  - message: Виправлено ящик з мінометом на ASRS, щоб тепер включав повний набір
     type: Fix
   id: 92
   time: '2026-05-04T01:57:44.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/935
 - author: KeiKiyomi
   changes:
-  - message: Fixed LIFEPAK Removal from suit time
+  - message: Виправлено час вилучення LIFEPAK з костюма
     type: Fix
   id: 93
   time: '2026-05-07T01:36:37.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/959
 - author: maertayn
   changes:
-  - message: beanieclava for the CLF (similar to the beanie) - early work
+  - message: beanieclava для CLF (схожа на beanie) — рання робота
     type: Add
-  - message: MRE/IRP rations for RMC/UPP
+  - message: Раціони MRE/IRP для RMC/UPP
     type: Add
-  - message: Heads of Colony can use each others' department consoles
+  - message: Голови колонії можуть користуватися консолями департаментів одне одного
     type: Tweak
-  - message: K9 is now a third-party spawn not loyal to Govfor/Opfor
+  - message: K9 тепер спавн третьої сторони, не вірний Govfor/Opfor
     type: Fix
-  - message: Ravager (Hedgehog) not showing their dead sprite
+  - message: Ravager (Hedgehog) не показував свій мертвий спрайт
     type: Fix
   id: 94
   time: '2026-05-07T19:24:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/968
 - author: L0pz
   changes:
-  - message: Resprited pipe bombs
+  - message: Перемальовано саморобні бомби
     type: Tweak
   id: 95
   time: '2026-05-07T19:29:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/964
 - author: Arcticular1
   changes:
-  - message: Added 4x scope to LACN sniper
+  - message: Додано 4x приціл до снайпера LACN
     type: Add
-  - message: Fixed LACN sniper being unable to used aimed shot.
+  - message: Виправлено, що снайпер LACN не міг використовувати прицільний постріл.
     type: Fix
   id: 96
   time: '2026-05-07T19:30:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/962
 - author: Arcticular1
   changes:
-  - message: WEYU and UPP command some soul in their vendors!
+  - message: Командуванню WEYU та UPP трохи душі в їхні вендори!
     type: Tweak
   id: 97
   time: '2026-05-07T19:31:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/961
 - author: Tyzemol
   changes:
-  - message: Faction intel analyzers are now indestructible (and unmeltable by xenos)
+  - message: Аналізатори розвідки фракцій тепер незнищенні (і ксеноси не можуть їх розплавити)
     type: Tweak
   id: 98
   time: '2026-05-07T19:31:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/960
 - author: KeiKiyomi
   changes:
-  - message: Added Promotion times to all military roles and WEYU-SEC and WEYU-SCI
+  - message: Додано час підвищення до всіх військових ролей та WEYU-SEC і WEYU-SCI
     type: Add
   id: 99
   time: '2026-05-07T19:32:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/956
 - author: Arcticular1
   changes:
-  - message: Removed FORECON Sniper Team
+  - message: Прибрано FORECON Sniper Team
     type: Remove
-  - message: Prices for GOVFOR reinforcements have been nerfed.
+  - message: Ціни на підкріплення GOVFOR ослаблено.
     type: Tweak
   id: 100
   time: '2026-05-08T21:05:28.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/973
 - author: Arcticular1
   changes:
-  - message: New firearms into the Commander's loadout
+  - message: Нова вогнепальна зброя в лоадаут Commander
     type: Add
   id: 101
   time: '2026-05-09T20:55:30.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/978
 - author: maertayn
   changes:
-  - message: Synths no longer take a share of your hard-earned payday!
+  - message: Синти більше не забирають частку вашого важко заробленого зарплатного дня!
     type: Fix
   id: 102
   time: '2026-05-10T05:47:51.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/983
 - author: flex5hybrid
   changes:
-  - message: Failed third-party support calls no longer spend console funds or consume
-      the call.
+  - message: Невдалі виклики підтримки третьої сторони більше не витрачають кошти
+      консолі й не споживають виклик.
     type: Fix
   id: 103
   time: '2026-05-11T04:20:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/987
 - author: Arcticular1
   changes:
-  - message: Aimed shot has been nerfed, and now snipers have to rely on their spotters
-      more.
+  - message: Прицільний постріл ослаблено, і тепер снайпери мають більше покладатися
+      на своїх споттерів.
     type: Tweak
   id: 104
   time: '2026-05-11T07:36:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/971
 - author: KeiKiyomi
   changes:
-  - message: Changed Throwing Knife Damage from 50 to 25
+  - message: Змінено шкоду метального ножа з 50 на 25
     type: Tweak
   id: 105
   time: '2026-05-14T19:45:58.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1001
 - author: Piticzu
   changes:
-  - message: Wendigo now has fully custom sounds for all emotes (growl, hiss, roar,
-      help).
+  - message: Wendigo тепер має повністю кастомні звуки для всіх емоцій (гарчання,
+      шипіння, рев, допомога).
     type: Add
-  - message: Wendigo breathing emote.
+  - message: Емоція дихання Wendigo.
     type: Add
-  - message: Wendigo custom death sounds.
+  - message: Кастомні звуки смерті Wendigo.
     type: Add
-  - message: Wendigo Doom screech ability (turns off lights, dazes nearby hostiles).
+  - message: Здатність Doom screech у Wendigo (вимикає світло, оглушує ворогів поблизу).
     type: Add
-  - message: Wendigo headbite plays a close-range screech and a map-wide directional
-      screech on cooldown.
+  - message: Headbite Wendigo програє ближній screech та поширений мапою спрямований
+      screech на перезарядці.
     type: Add
-  - message: Map-wide screech is muffled for players indoors.
+  - message: Поширений мапою screech приглушений для гравців у приміщеннях.
     type: Add
-  - message: Wendigo leap now plays custom attack sounds.
+  - message: Стрибок Wendigo тепер програє кастомні звуки атаки.
     type: Tweak
-  - message: New WendigoHeadbiteAudioComponent and WendigoHeadbiteAudioSystem for
-      directional audio with roof-based muffling.
+  - message: Нові WendigoHeadbiteAudioComponent та WendigoHeadbiteAudioSystem для
+      спрямованого звуку з приглушенням на основі даху.
     type: Code
   id: 106
   time: '2026-05-14T22:41:14.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1000
 - author: OmerF-afk
   changes:
-  - message: Added bunch of stuff to vendors and such and CLF additions.
+  - message: Додано купу всього до вендорів тощо та доповнення для CLF.
     type: Add
   id: 107
   time: '2026-05-14T22:45:48.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/993
 - author: Kadeo64
   changes:
-  - message: abominations are now a gamble experiment just like the rest of the weyu
-      experiments.
+  - message: тепер abomination'и — азартний експеримент, як і решта експериментів weyu.
     type: Remove
   id: 108
   time: '2026-05-17T09:31:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1017
 - author: Piticzu
   changes:
-  - message: Wendigo now has new sprites made by Aleksh.
+  - message: Wendigo тепер має нові спрайти від Aleksh.
     type: Add
-  - message: Wendigo head-bite screech now audible to all players including the Wendigo.
+  - message: Screech від head-bite Wendigo тепер чутний усім гравцям, включно з самим Wendigo.
     type: Tweak
-  - message: Screech no longer overlaps with close sound.
+  - message: Screech більше не перекривається з ближнім звуком.
     type: Fix
   id: 109
   time: '2026-05-17T09:32:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1015
 - author: Arcticular1
   changes:
-  - message: Buffed infiltrator boots
+  - message: Підсилено інфільтраційні черевики
     type: Tweak
   id: 110
   time: '2026-05-17T09:35:48.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/997
 - author: MACMAN2003
   changes:
-  - message: Added the Corrupted Hive. Currently only admin spawn.
+  - message: Додано Corrupted Hive. Наразі лише спавн адміном.
     type: Add
-  - message: To spawn the corrupted hive, you will need to type "spawn CMUCorruptedHive"
+  - message: Щоб заспавнити corrupted hive, потрібно ввести "spawn CMUCorruptedHive"
     type: Admin
   id: 111
   time: '2026-05-17T09:38:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1018
 - author: maertayn
   changes:
-  - message: Machete buff, throwing-knife nerf, maint. jack nerf
+  - message: Підсилення мачете, ослаблення метального ножа, ослаблення maint. jack
     type: Tweak
-  - message: Kramer LMG lost their bipod, bipods are now influencing the firerate
-      again
+  - message: LMG Kramer втратив свою сошку, сошки тепер знову впливають на скорострільність
     type: Tweak
-  - message: Backpacks/satchels no longer fit in the limited-size RTOs
+  - message: Рюкзаки/сумки більше не вміщуються в RTO обмеженого розміру
     type: Fix
-  - message: 'Scaling adjustments: no 2-3 queen spawns, many cultists and 2 MPs/1Aux-Tech'
+  - message: 'Коригування масштабування: жодних спавнів 2-3 королев, багато культистів та 2 MP/1 Aux-Tech'
     type: Tweak
-  - message: Synths not getting the EyeProtection/FlashImmunity components
+  - message: Синти не отримували компоненти EyeProtection/FlashImmunity
     type: Fix
-  - message: Radio channels have a 'radio' prefix to prevent obscure naming
+  - message: Радіоканали мають префікс 'radio', щоб запобігти незрозумілому найменуванню
     type: Code
-  - message: Ambassador, Colony & Corporate consoles accesses
+  - message: Доступи консолей Ambassador, Colony та Corporate
     type: Fix
-  - message: Craftable mine & traffic director signs
+  - message: Craftable знаки міни та регулювальника руху
     type: Add
-  - message: OW will sort marines alphabetically instead of per hash-key
+  - message: OW сортуватиме морпіхів за алфавітом замість за хеш-ключем
     type: Tweak
-  - message: Lesser Drones are ignored & CLF in prisoner jumpsuits are eliminated
-      from victory conditions
+  - message: Lesser Drones ігноруються, а CLF у тюремних комбінезонах виключені з умов перемоги
     type: Tweak
   id: 112
   time: '2026-05-17T21:46:59.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1012
 - author: Arcticular1
   changes:
-  - message: Yautja vendor improvements
+  - message: Покращення вендора Yautja
     type: Tweak
-  - message: Yautja Speed + weapon storage
+  - message: Швидкість Yautja + сховище зброї
     type: Fix
   id: 113
   time: '2026-05-18T20:38:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1026
 - author: KeiKiyomi
   changes:
-  - message: Prodigy 3rd party
+  - message: Третя сторона Prodigy
     type: Add
   id: 114
   time: '2026-05-20T01:16:33.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1034
 - author: MACMAN2003
   changes:
-  - message: CLF and cultists now properly appear in the round end menu
+  - message: CLF та культисти тепер коректно з'являються в меню завершення раунду
     type: Fix
-  - message: Added two new verbs to the antag verb menu, one to turn someone into
-      a cultist, and another to turn someone into a CLF recruit.
+  - message: Додано два нові verb до меню verb антагоніста — один, щоб перетворити
+      когось на культиста, інший — щоб перетворити когось на рекрута CLF.
     type: Admin
   id: 115
   time: '2026-05-20T01:17:01.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1038
 - author: L0pz
   changes:
-  - message: Added new synthetic key sprites
+  - message: Додано нові спрайти синтетичного ключа
     type: Add
   id: 116
   time: '2026-05-20T02:19:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1023
 - author: OmerF-afk
   changes:
-  - message: Added Scissors to MPs and Advisor's satchel
+  - message: Додано ножиці до сумки MP та Advisor
     type: Add
   id: 117
   time: '2026-05-20T13:41:52.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1044
 - author: NzzyFk
   changes:
-  - message: Basira AP increase, Damage falloff reduced
+  - message: Збільшено AP Basira, зменшено спад шкоди
     type: Tweak
   id: 118
   time: '2026-05-21T00:43:45.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1048
 - author: mikusssssss
   changes:
-  - message: Added the M34-T Flamethrower as a purchasable kit to the ASRS.
+  - message: Додано вогнемет M34-T як набір, який можна придбати в ASRS.
     type: Add
-  - message: Added 3 new napalm recipes.
+  - message: Додано 3 нові рецепти напалму.
     type: Add
   id: 119
   time: '2026-05-21T00:44:18.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1043
 - author: OmerF-afk
   changes:
-  - message: Added more crafting options to wood.
+  - message: Додано більше опцій крафту з дерева.
     type: Add
   id: 120
   time: '2026-05-21T00:44:38.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1045
 - author: MACMAN2003
   changes:
-  - message: 'New HRP Role: Entertainment Service Worker. Intended to act like a real
-      life clown.'
+  - message: 'Нова HRP-роль: Entertainment Service Worker. Задумана діяти як справжній клоун.'
     type: Add
   id: 121
   time: '2026-05-21T00:45:12.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1052
 - author: OmerF-afk
   changes:
-  - message: Added Exp mesons to Synthetic loadout.
+  - message: Додано Exp mesons до лоадауту Synthetic.
     type: Add
   id: 122
   time: '2026-05-21T01:15:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1046
 - author: mikusssssss
   changes:
-  - message: The requisitions M34-T kit now has a filled broiler at the compensation
-      of one less custom tank.
+  - message: Набір M34-T у реквізиціях тепер має наповнений broiler ціною на один кастомний бак менше.
     type: Tweak
   id: 123
   time: '2026-05-21T07:24:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1057
 - author: mikusssssss
   changes:
-  - message: GOVFOR roles and others should now be able to use the M34-T flamer properly.
+  - message: Ролі GOVFOR та інші тепер мають коректно користуватися вогнеметом M34-T.
     type: Fix
   id: 124
   time: '2026-05-21T19:55:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1063
 - author: mikusssssss
   changes:
-  - message: Added 3 berets to the support synthetic loadout.
+  - message: Додано 3 берети до лоадауту support synthetic.
     type: Add
   id: 125
   time: '2026-05-21T19:57:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1060
 - author: deponiann
   changes:
-  - message: CMB deputy parka can now hold a gun in the suit storage slot.
+  - message: Парка deputy CMB тепер може тримати зброю в слоті сховища костюма.
     type: Tweak
   id: 126
   time: '2026-05-21T19:57:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1059
 - author: maertayn
   changes:
-  - message: Changelog is pulled and updated from PR descriptions.
+  - message: Список змін витягується та оновлюється з описів PR.
     type: Code
   id: 127
   time: '2026-05-22T01:59:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1039
 - author: Piticzu
   changes:
-  - message: Removed Queen spit entirely
+  - message: Повністю прибрано плювок Королеви
     type: Remove
-  - message: Queen screech no longer stuns or paralyzes, now applies heavy slowdown.
+  - message: Screech Королеви більше не оглушує й не паралізує, тепер накладає сильне сповільнення.
     type: Tweak
-  - message: Queen knocks down enemies she walks over
+  - message: Королева збиває з ніг ворогів, по яких проходить
     type: Add
-  - message: Queen tackle chance adjusted
+  - message: Скориговано шанс tackle Королеви
     type: Tweak
-  - message: Queen claw hits have a 40% chance to sever arms or legs
+  - message: Удари кігтів Королеви мають 40% шанс відрубати руки чи ноги
     type: Add
-  - message: Tackle formula adjusted to progressive scaling
+  - message: Формулу tackle скориговано на прогресивне масштабування
     type: Tweak
-  - message: Pulling after attacking no longer has a delay
+  - message: Тягнення після атаки більше не має затримки
     type: Tweak
-  - message: Parasite leap windup bar hidden from other players
+  - message: Смугу замаху стрибка паразита приховано від інших гравців
     type: Tweak
   id: 128
   time: '2026-05-22T13:25:52.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1031
 - author: CrazeTheDragon
   changes:
-  - message: now Xeno Queen can use both marine shuttles to hijack.
+  - message: тепер Xeno Queen може використовувати обидва шатли морпіхів для захоплення.
     type: Fix
   id: 129
   time: '2026-05-22T13:31:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1074
 - author: troytroy400
   changes:
-  - message: New flannel and floral shirts for VAIPO and civilians.
+  - message: Нові фланелеві та квіткові сорочки для VAIPO та цивільних.
     type: Add
-  - message: Updated rulebook.
+  - message: Оновлено правила.
     type: Tweak
   id: 130
   time: '2026-05-22T15:10:59.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1075
 - author: mikusssssss
   changes:
-  - message: Added a lock to the XM99A Plasma Pulse Rifle
+  - message: Додано замок до плазмової імпульсної гвинтівки XM99A
     type: Add
   id: 131
   time: '2026-05-22T16:40:36.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1025
 - author: troytroy400
   changes:
-  - message: Added plantable flags to requisitions vendors.
+  - message: Додано прапори, що встановлюються, до вендорів реквізицій.
     type: Add
   id: 132
   time: '2026-05-22T17:14:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1077
 - author: maertayn
   changes:
-  - message: Squad Sergeant (SL), JO/CO are role examples of abstraction/inheritance
+  - message: Squad Sergeant (SL), JO/CO — приклади ролей абстракції/наслідування
     type: Code
-  - message: Overwatch & Spawnmenu names now support locale, will fallback to raw
-      strings
+  - message: Імена Overwatch та Spawnmenu тепер підтримують локалізацію, з відкатом до сирих рядків
     type: Code
   id: 133
   time: '2026-05-23T19:46:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1086
 - author: Piticzu
   changes:
-  - message: Queen melee delimb chance reduced from 40% to 20% against targets wearing
-      armour with strike resistance. Unarmoured targets remain at 40%.
+  - message: Шанс відрубання кінцівок у ближньому бою Королеви знижено з 40% до 20%
+      проти цілей у броні зі стійкістю до ударів. Цілі без броні залишаються на 40%.
     type: Tweak
-  - message: Queen melee delimb now favours arms (60%) over legs (40%) instead of
-      picking uniformly at random.
+  - message: Відрубання кінцівок у ближньому бою Королеви тепер віддає перевагу рукам
+      (60%) над ногами (40%) замість рівномірного випадкового вибору.
     type: Tweak
   id: 134
   time: '2026-05-23T22:12:33.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1079
 - author: CrazeTheDragon
   changes:
-  - message: bioscan broken locales
+  - message: зламані локалі bioscan
     type: Fix
   id: 135
   time: '2026-05-23T22:13:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1090
 - author: MarshesAndMeadows
   changes:
-  - message: Added wendigo audio menu, similar to working joe menu.
+  - message: Додано аудіо-меню wendigo, схоже на меню working joe.
     type: Add
   id: 136
   time: '2026-05-23T22:41:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1093
 - author: Piticzu
   changes:
-  - message: 'Queen gains Acid Volley on maturity: fires 3 acid projectiles in a narrow
-      cone (each target hit once max)'
+  - message: 'Королева отримує Acid Volley при дозріванні: випускає 3 кислотні снаряди
+      у вузькому конусі (кожна ціль уражається максимум раз)'
     type: Add
-  - message: Queen screech now restricts vision to 2 tiles, adds weapon scatter
+  - message: Screech Королеви тепер обмежує зір до 2 тайлів, додає розкид зброї
     type: Tweak
-  - message: Queen screech effects unified to 7-tile range, all debuffs last 8 seconds
+  - message: Ефекти screech Королеви уніфіковано до дальності 7 тайлів, усі дебафи тривають 8 секунд
     type: Tweak
-  - message: Removed parasite stun from queen screech
+  - message: Прибрано оглушення паразита від screech Королеви
     type: Remove
-  - message: Removed close/far range distinction from queen screech
+  - message: Прибрано розрізнення ближньої/дальньої дистанції зі screech Королеви
     type: Remove
   id: 137
   time: '2026-05-24T17:20:59.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1106
 - author: maertayn
   changes:
-  - message: Weston-Yamada has been restored to canon Weyland-Yutani
+  - message: Weston-Yamada відновлено до канонічної Weyland-Yutani
     type: Tweak
   id: 138
   time: '2026-05-24T17:21:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1100
 - author: troytroy400
   changes:
-  - message: MultiZ grate tiles w/ destructible + indestructible versions.
+  - message: Тайли решіток MultiZ зі знищенними та незнищенними версіями.
     type: Add
-  - message: Mapping assets needed for CM13 Navalis port.
+  - message: Мапінг-ассети, потрібні для порту CM13 Navalis.
     type: Add
   id: 139
   time: '2026-05-25T20:49:52.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1112
 - author: troytroy400
   changes:
-  - message: Removed a lot of hairstyles that either don't fit the CM style or are
-      goofily out of place when compared to the game setting (floor length, overly
-      tall or protruding, meme hair, etc).
+  - message: Прибрано багато зачісок, які або не відповідають стилю CM, або безглуздо
+      недоречні порівняно з сетингом гри (до підлоги, надмірно високі чи стирчать,
+      мем-зачіски тощо).
     type: Remove
   id: 140
   time: '2026-05-26T01:36:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1113
 - author: Arcticular1
   changes:
-  - message: Dancer Impale, base damage and dodge has been buffed!
+  - message: Impale від Dancer, базову шкоду та ухилення підсилено!
     type: Tweak
-  - message: Base Praetorian can now use acid ball while moving!
+  - message: Базовий Praetorian тепер може використовувати acid ball під час руху!
     type: Tweak
   id: 141
   time: '2026-05-26T03:08:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1101
 - author: KeiKiyomi
   changes:
-  - message: Added Prodigy Armed Repair Team
+  - message: Додано Prodigy Armed Repair Team
     type: Add
   id: 142
   time: '2026-05-26T06:10:17.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1078
 - author: potatoed6
   changes:
-  - message: mob id not changing job to colonist
+  - message: ID моба не змінював роботу на colonist
     type: Fix
-  - message: mob not having civ rank
+  - message: моб не мав цивільного рангу
     type: Fix
-  - message: requirements for doctors and synths
+  - message: вимоги для лікарів та синтів
     type: Add
-  - message: colony synths are now 2 gen with no mechanical changes
+  - message: синти колонії тепер 2-го покоління без механічних змін
     type: Tweak
   id: 143
   time: '2026-05-26T06:11:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1107
 - author: Berkin101
   changes:
-  - message: Added dirt mounds.
+  - message: Додано земляні горбки.
     type: Add
-  - message: Added sand mounds.
+  - message: Додано піщані горбки.
     type: Add
   id: 144
   time: '2026-05-26T06:12:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/580
 - author: maertayn
   changes:
-  - message: Victory conditions were broken
+  - message: Умови перемоги були зламані
     type: Fix
-  - message: Pilots/CO/MP/Doctors to be without squads & Synths/JO assigned to Auxy
+  - message: Pilots/CO/MP/Doctors будуть без загонів, а Synths/JO призначені до Auxy
     type: Fix
-  - message: Working Joes receiving haircuts & ghostrole character names bug
+  - message: Working Joes отримували стрижки та баг з іменами персонажів ролей привидів
     type: Fix
   id: 145
   time: '2026-05-27T01:12:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1116
 - author: troytroy400
   changes:
-  - message: Z-Level ladders, manholes and hatches for mapping.
+  - message: Сходи між Z-рівнями, люки та лази для мапінгу.
     type: Add
   id: 146
   time: '2026-05-27T01:12:46.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1122
 - author: sunzu432
   changes:
-  - message: Hope's Retreat map for INS, CF and DS.
+  - message: Мапа Hope's Retreat для INS, CF та DS.
     type: Add
   id: 147
   time: '2026-05-27T03:15:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1125
 - author: maertayn
   changes:
-  - message: Pilots have squandered their ASRS access in 26 days.
+  - message: Pilots змарнували свій доступ ASRS за 26 днів.
     type: Remove
   id: 148
   time: '2026-05-27T14:01:21.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1129
 - author: maertayn
   changes:
-  - message: If you're mapping things you shouldn't, the map checker test will fail.
+  - message: Якщо ви мапите те, що не слід, тест перевірки мапи провалиться.
     type: Map
   id: 149
   time: '2026-05-27T14:19:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1102
 - author: mikusssssss
   changes:
-  - message: Added the good, not absurdly long bedheads back.
+  - message: Повернуто хороші, не надмірно довгі bedhead'и.
     type: Add
   id: 150
   time: '2026-05-27T21:16:04.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1130
 - author: Piticzu
   changes:
-  - message: Crusher charge now bowls flung marines through other marines in the path,
-      damaging and knocking down each one
+  - message: Ривок crusher тепер прокидає відкинутих морпіхів крізь інших морпіхів
+      на шляху, завдаючи шкоди та збиваючи з ніг кожного
     type: Add
-  - message: "Crusher stomp is now a targeted 90\xB0 cone aimed at your mouse with\
-      \ a preview overlay"
+  - message: "Стомп crusher тепер цілеспрямований конус 90\xB0, націлений на вашу\
+      \ мишу, з оверлеєм передперегляду"
     type: Add
-  - message: Crusher defensive shield now reflects enemy projectiles (40% front, 30%
-      sides, 25% back)
+  - message: Захисний щит crusher тепер відбиває ворожі снаряди (40% спереду, 30%
+      з боків, 25% ззаду)
     type: Add
-  - message: 'Crusher gains Soak ability: absorb 240 damage in 6 seconds to heal 120
-      HP'
+  - message: 'Crusher отримує здатність Soak: поглинає 240 шкоди за 6 секунд, щоб зцілити 120 HP'
     type: Add
-  - message: Crusher charge has a path preview overlay
+  - message: Ривок crusher має оверлей передперегляду шляху
     type: Add
-  - message: Crusher HP increased to 800/900
+  - message: HP crusher збільшено до 800/900
     type: Tweak
-  - message: 'Crusher armor is now directional: 45 front, 30 sides, 25 back'
+  - message: 'Броня crusher тепер спрямована: 45 спереду, 30 з боків, 25 ззаду'
     type: Tweak
-  - message: "Crusher wide swing restored: 60\xB0 arc, 2 max targets"
+  - message: "Широкий замах crusher відновлено: дуга 60\xB0, 2 макс. цілі"
     type: Tweak
-  - message: 'Crusher charge: faster wind-up, 90 damage, distance-scaled knockback
-      (5-10 tiles)'
+  - message: 'Ривок crusher: швидший замах, 90 шкоди, відкидання, що масштабується
+      з відстанню (5-10 тайлів)'
     type: Tweak
-  - message: 'Crusher stomp: 80 damage, 1s paralyze, 2 tile knockback, screen shake'
+  - message: 'Стомп crusher: 80 шкоди, 1с параліч, відкидання на 2 тайли, тряска екрана'
     type: Tweak
-  - message: 'Crusher brutalize splash: 20 Blunt with 10 armor piercing'
+  - message: 'Сплеск brutalize crusher: 20 Blunt з 10 бронебійності'
     type: Tweak
-  - message: 'Crusher defensive shield: 100 HP (was 200), 8 damage reduction (was
-      10)'
+  - message: 'Захисний щит crusher: 100 HP (було 200), 8 зниження шкоди (було 10)'
     type: Tweak
-  - message: Added per-weapon MaxTargets override to MeleeWeaponComponent
+  - message: Додано перевизначення MaxTargets для конкретної зброї до MeleeWeaponComponent
     type: Code
   id: 151
   time: '2026-05-27T21:17:38.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1133
 - author: NzzyFk
   changes:
-  - message: M2C cost reduced
+  - message: Вартість M2C знижено
     type: Tweak
-  - message: Type 73 cost increased
+  - message: Вартість Type 73 збільшено
     type: Tweak
-  - message: Reduced amount of AP mags for Type 71 ( 6 --> 2 )
+  - message: Зменшено кількість AP-магазинів для Type 71 ( 6 --> 2 )
     type: Tweak
   id: 152
   time: '2026-05-28T00:23:31.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1081
 - author: maertayn
   changes:
-  - message: Bullets (cartridges), magazines and rations can no longer be sold for
-      profit at the ASRS.
+  - message: Кулі (патрони), магазини та раціони більше не можна продавати з прибутком на ASRS.
     type: Remove
   id: 153
   time: '2026-05-28T01:58:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1135
 - author: Omonda2
   changes:
-  - message: Changed most of 3rd party's skillset for sake's of parity
+  - message: Змінено більшість наборів навичок третіх сторін задля паритету
     type: Tweak
-  - message: Fixed SupportAuxSynth ID.
+  - message: Виправлено ID SupportAuxSynth.
     type: Fix
   id: 154
   time: '2026-05-28T09:54:35.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1118
 - author: Piticzu
   changes:
-  - message: Crusher stomp damage now falls off with distance (80 close, 65 at max
-      range)
+  - message: Шкода стомпу crusher тепер спадає з відстанню (80 зблизька, 65 на максимальній дальності)
     type: Tweak
-  - message: Crusher stomp cone is now blocked by barricades
+  - message: Конус стомпу crusher тепер блокується барикадами
     type: Tweak
-  - message: Crusher frontal armor reduced from 45 to 35
+  - message: Фронтальну броню crusher знижено з 45 до 35
     type: Tweak
   id: 155
   time: '2026-05-28T23:47:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1142
 - author: maertayn
   changes:
-  - message: Military jobs now use abstraction - this reduces bloat. Use inheritance/parenting,
-      only include overwrites on derived prototypes.
+  - message: Військові роботи тепер використовують абстракцію — це зменшує роздуття.
+      Використовуйте наслідування/батьківство, включайте лише перевизначення в похідних прототипах.
     type: Code
-  - message: K9 more capable to perform S&R -> skill buffs to medical, surgery, fireman,
-      construction, piloting.
+  - message: K9 здатніший виконувати S&R -> підсилення навичок медицини, хірургії,
+      пожежника, будівництва, пілотування.
     type: Add
   id: 156
   time: '2026-05-29T03:13:28.0000000+00:00'
