@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforPlatOp
-  name: Spawn Point opfor Platoon Operations Officer
+  name: "точка появи офіцера взводних операцій ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforPlatOp

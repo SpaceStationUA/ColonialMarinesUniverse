@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotUPP
-  name: Dropship Pilot
+  name: "Пілот десантного корабля"
   spawnMenuRoleName: Pilot Officer (UPP)
   ranks:
     UPP_Lieutenant:

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCLadder
-  name: ladder
-  description: A sturdy metal ladder.
+  name: "драбина"
+  description: "Міцна металева драбина."
   placement:
     mode: SnapgridCenter
   components:
@@ -52,8 +52,8 @@
 - type: entity
   parent: RMCLadder
   id: RMCLadderRope
-  name: rope
-  description: A sturdy rope.
+  name: "мотузка"
+  description: "Міцна мотузка."
   components:
   - type: Sprite
     state: rope
@@ -69,8 +69,8 @@
 - type: entity
   id: CMUZLevelLadderBase
   abstract: true
-  name: z-level ladder
-  description: A sturdy metal ladder that passes between Z-levels.
+  name: "драбина Z-рівня"
+  description: "Міцна металева драбина, що проходить між Z-рівнями."
   placement:
     mode: SnapgridCenter
   components:
@@ -174,8 +174,8 @@
 - type: entity
   parent: CMUZLevelLadderThrough
   id: CMUZLevelRopeThroughUp
-  name: z-level rope
-  description: A climbable rope that passes between Z-levels.
+  name: "мотузка Z-рівня"
+  description: "Мотузка для лазіння, що проходить між Z-рівнями."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/ladder.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: CMUZLevelLadderThroughDown
   id: CMUZLevelRopeThroughDown2
-  name: z-level rope
-  description: A climbable rope that passes between Z-levels.
+  name: "мотузка Z-рівня"
+  description: "Мотузка для лазіння, що проходить між Z-рівнями."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/ladder.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: CMUZLevelLadderThroughDown
   id: CMUZLevelHatchThroughDown
-  name: z-level hatch
-  description: A a hatch entrance that passes between Z-levels.
+  name: "люк Z-рівня"
+  description: "Люк, що проходить між Z-рівнями."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_tunnel.rsi
@@ -208,8 +208,8 @@
 - type: entity
   parent: CMUZLevelLadderThroughDown
   id: CMUZLevelManholeThroughDown
-  name: z-level manhole entrance
-  description: A manhole entrance that passes between Z-levels.
+  name: "каналізаційний люк Z-рівня"
+  description: "Каналізаційний люк, що проходить між Z-рівнями."
   components:
   - type: Sprite
     sprite: _AU14/Structures/ladders.rsi
@@ -219,8 +219,8 @@
 - type: entity
   parent: CMUZLevelLadderThroughDown
   id: CMUZLevelManholeCoveredThroughDown
-  name: z-level manhole entrance
-  description: A manhole entrance that passes between Z-levels.
+  name: "каналізаційний люк Z-рівня"
+  description: "Каналізаційний люк, що проходить між Z-рівнями."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Xenos/xeno_tunnel.rsi

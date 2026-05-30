@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: M39B/2 submachine gun
+  name: "пістолет-кулемет M39B/2"
   id: RMCWeaponSMGM63B2
-  description: A modified version M39 submachinegun, re-engineered for better weight, handling and accuracy. Given only to elite units.
+  description: "Модифікована версія пістолета-кулемета M39, перероблена для кращої ваги, керування й точності. Видається лише елітним підрозділам."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/m63b2.rsi

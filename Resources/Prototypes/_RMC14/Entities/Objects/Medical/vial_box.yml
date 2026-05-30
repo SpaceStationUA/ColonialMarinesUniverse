@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: BaseStorageItem
-  name: vial storage box
-  description: A place to store your fragile vials when you are not using them.
+  name: "коробка для зберігання флаконів"
+  description: "Місце для зберігання твоїх крихких флаконів, коли ти ними не користуєшся."
   id: RMCVialBox
   components:
   - type: Sprite

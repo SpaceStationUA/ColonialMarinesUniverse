@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechEquipmentSEA
-  name: ColMarTech SEA equipment rack
-  description: An automated rack hooked up to a colossal storage of Senior Enlisted Advisor standard-issue equipment.
+  name: "Стелаж обладнання ССР ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження Старшого Радника зі складу рядових."
   suffix: SEA
   components:
   - type: AccessReader
@@ -113,8 +113,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGunsSEA
-  name: ColMarTech SEA weapon rack
-  description: An automated rack hooked up to a colossal storage of Senior Enlisted Advisor standard-issue equipment.
+  name: "Стелаж зброї ССР ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження Старшого Радника зі складу рядових."
   suffix: SEA
   components:
   - type: AccessReader

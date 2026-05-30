@@ -1,7 +1,7 @@
 - type: entity
   id: BoxingBell
-  name: boxing bell
-  description: Ding ding!
+  name: "боксерський дзвін"
+  description: "Дінь-дінь!"
   placement:
     mode: SnapgridCenter
     snap:

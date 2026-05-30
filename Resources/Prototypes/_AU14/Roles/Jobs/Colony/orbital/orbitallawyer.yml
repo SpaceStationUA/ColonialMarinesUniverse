@@ -53,7 +53,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardOrbitalLawyer
-  name: orbital counsel ID card
+  name: "iD-картка орбітального радника"
   components:
   - type: PresetIdCard
     job: AU14JobCivilianOrbitalLawyer
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOrbitalLawyer
-  name: Spawn Point Orbital Lawyer
+  name: "Точка появи орбітального радника"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianOrbitalLawyer
@@ -94,16 +94,16 @@
 
 - type: rank
   id: AU14RankOrbitalLawyer
-  name: Orbital Counsel
+  name: "Орбітальний Радник"
   prefix: Orb. Csnl.
 
 - type: rank
   id: AU14RankSeniorOrbitalLawyer
-  name: Senior Orbital Counsel
+  name: "Старший Орбітальний Радник"
   prefix: Sr. Orb. Csnl.
 
 - type: entity
   parent: ClothingNeckLawyerbadge
   id: AU14MedalLawyerBadge
-  name: Counselor's Badge
-  description: A worn but official badge bearing the seal of the Orbital Court, issued by the Arbiter. It certifies the wearer as a qualified legal counsel, authorised to argue, defend, and prosecute.
+  name: "Значок Радника"
+  description: "Поношений, але офіційний значок із печаткою Орбітального Суду, виданий Арбітром. Він засвідчує власника як кваліфікованого юридичного радника, уповноваженого вести спір, захищати та звинувачувати."

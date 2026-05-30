@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCTeamLeadPVE
-  name: weya pmc team lead spawn point
+  name: "спавнер лідера команди weya pmc"
   suffix: PVE
   components:
   - type: SpawnPoint

@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624MedicalTechnician
-  name: survivor lv624 medical technician spawn point
+  name: "спавнер lv624 медтехніка-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -53,4 +53,4 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetLV624MedicalTechnician
-  name: lv624 medical technician colonist preset
+  name: "пресет колоніста-медтехніка lv624"

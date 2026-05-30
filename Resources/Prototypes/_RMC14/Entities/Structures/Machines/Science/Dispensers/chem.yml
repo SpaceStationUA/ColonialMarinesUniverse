@@ -51,8 +51,8 @@
   abstract: true
   parent: RMCDispenserBase
   id: RMCChemDispenserBase
-  name: chemical dispenser
-  description: A complex machine for mixing elements into chemicals. A We-Yu product.
+  name: "хімічний дозатор"
+  description: "Складна машина для змішування елементів у хімікати. Продукт «Ве-Я»."
   placement:
     mode: SnapgridCenter
   components:
@@ -122,8 +122,8 @@
 - type: entity
   abstract: true
   id: RMCChemStorageBase
-  name: chemical storage system
-  description: Storage system for a large supply of chemicals, which slowly recharges.
+  name: "система зберігання хімікатів"
+  description: "Система зберігання великих запасів хімікатів, що повільно перезаряджається."
   placement:
     mode: SnapgridCenter
   components:
@@ -182,8 +182,8 @@
 - type: entity
   parent: RMCChemDispenserBase
   id: RMCChemDispenserCorpsmanBase
-  name: pressurized chemical dispenser
-  description: A more basic chemical dispenser, designed for use with pressurized reagent canisters. A We-Yu product.
+  name: "пресуризований хімічний дозатор"
+  description: "Більш простий хімічний дозатор, призначений для використання з балонами пресуризованих реагентів. Продукт «Ве-Я»."
   abstract: true
   components:
     - type: RequiresSkill

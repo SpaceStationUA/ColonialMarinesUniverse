@@ -7,8 +7,8 @@
   id: AU14CashVendorBase
   abstract: true
   parent: CMBaseStructureCorrodible
-  name: vending machine
-  description: Insert cash and select an item to purchase.
+  name: "торговий автомат"
+  description: "Вставте готівку й виберіть предмет для купівлі."
   components:
   - type: ItemSlots
     slots:
@@ -75,8 +75,8 @@
 - type: entity
   id: AU14CashDrinkMachine
   parent: AU14CashVendorShopkeepBase
-  name: WY Refreshments
-  description: A Weyland-Yutani branded beverage dispenser. Insert cash to purchase a drink. Prices subject to colonial sales tax.
+  name: "напої ВЮ"
+  description: "Брендований диспенсер напоїв Вейланд-Ютані. Вставте готівку, щоб купити напій. Ціни підлягають колоніальному податку з продажів."
   suffix: Cash, Drinks
   components:
   - type: Sprite
@@ -88,8 +88,8 @@
 - type: entity
   id: AU14CashVendorHotDrinks
   parent: AU14CashVendorBase
-  name: WY Hot Drinks
-  description: A Weyland-Yutani branded hot drinks machine. Insert cash to purchase coffee, tea, or cocoa.
+  name: "Гарячі напої В-Ю"
+  description: "Автомат гарячих напоїв під брендом Вейланд-Ютані. Вставте готівку, щоб придбати каву, чай чи какао."
   suffix: Cash, Hot Drinks
   components:
   - type: Sprite
@@ -116,8 +116,8 @@
 - type: entity
   id: AU14CashVendorSodas
   parent: AU14CashVendorBase
-  name: Souto Softdrinks
-  description: A softdrink vending machine by Souto Soda Company. Insert cash to purchase a cold drink.
+  name: "Безалкогольні напої Соуто"
+  description: "Автомат безалкогольних напоїв від компанії Соуто Сода. Вставте готівку, щоб придбати холодний напій."
   suffix: Cash, Sodas
   components:
   - type: Sprite
@@ -174,8 +174,8 @@
 - type: entity
   id: AU14CashVendorSnackMachine
   parent: AU14CashVendorBase
-  name: WY Hot Foods
-  description: A Weyland-Yutani snack machine stocked with packaged foods. Insert cash to purchase a snack.
+  name: "Гаряча їжа В-Ю"
+  description: "Автомат закусок Вейланд-Ютані з пакованими продуктами. Вставте готівку, щоб придбати закуску."
   suffix: Cash, Snacks
   components:
   - type: Sprite
@@ -220,8 +220,8 @@
 - type: entity
   id: AU14CashVendorPreparedMeals
   parent: AU14CashVendorBase
-  name: ColMarTech Provisions
-  description: A ColMarTech food vendor dispensing standard military prepared meals and flasks. Insert cash to purchase.
+  name: "Провізія КолМарТех"
+  description: "Харчовий автомат КолМарТех, що видає стандартні військові готові страви та фляги. Вставте готівку для придбання."
   suffix: Cash, Prepared Meals
   components:
   - type: Sprite
@@ -272,8 +272,8 @@
 - type: entity
   id: AU14CashVendorKitchenware
   parent: AU14CashVendorBase
-  name: WY Dinnerware
-  description: A Weyland-Yutani kitchen and restaurant equipment vending machine. Insert cash to purchase kitchenware.
+  name: "Посуд В-Ю"
+  description: "Автомат кухонного та ресторанного обладнання Вейланд-Ютані. Вставте готівку, щоб придбати посуд."
   suffix: Cash, Kitchenware
   components:
   - type: Sprite
@@ -345,8 +345,8 @@
 - type: entity
   id: AU14CashVendorGames
   parent: AU14CashVendorBase
-  name: WY Rec-Vend
-  description: A Weyland-Yutani recreation vending machine. Insert cash to purchase cassettes, cards, magazines, and more.
+  name: "Рек-Автомат В-Ю"
+  description: "Розважальний автомат Вейланд-Ютані. Вставте готівку, щоб придбати касети, карти, журнали та інше."
   suffix: Cash, Games
   components:
   - type: Sprite
@@ -405,8 +405,8 @@
 - type: entity
   id: AU14CashVendorCigarettes
   parent: AU14CashVendorBase
-  name: WY Cigarette Machine
-  description: A Weyland-Yutani branded cigarette vending machine. Insert cash to purchase tobacco products.
+  name: "Сигаретний автомат В-Ю"
+  description: "Сигаретний автомат під брендом Вейланд-Ютані. Вставте готівку, щоб придбати тютюнові вироби."
   suffix: Cash, Cigarettes
   components:
   - type: Sprite
@@ -447,8 +447,8 @@
 - type: entity
   id: AU14CashVendorTools
   parent: AU14CashVendorBase
-  name: WY Tool Vend
-  description: A Weyland-Yutani branded tool vending machine. Insert cash to purchase tools and equipment.
+  name: "Автомат інструментів В-Ю"
+  description: "Автомат інструментів під брендом Вейланд-Ютані. Вставте готівку, щоб придбати інструменти та спорядження."
   suffix: Cash, Tools
   components:
   - type: Sprite
@@ -487,8 +487,8 @@
 - type: entity
   id: AU14CashVendorMedicalGeneral
   parent: AU14CashVendorBase
-  name: WY-Med General
-  description: A Weyland-Yutani general medical vending machine stocked with field supplies and autoinjectors. Insert cash or use department budget.
+  name: "В-Ю-Мед Загальний"
+  description: "Загальний медичний автомат Вейланд-Ютані з польовими припасами та автоін'єкторами. Вставте готівку або скористайтеся бюджетом відділу."
   suffix: Cash, Medical General
   components:
   - type: Sprite
@@ -563,8 +563,8 @@
 - type: entity
   id: AU14CashVendorMedicalPharmacy
   parent: AU14CashVendorBase
-  name: WY-Chem Pharmacy
-  description: A Weyland-Yutani pharmacy vending machine stocked with pill canisters, liquid medicines, and chemistry supplies. Insert cash or use department budget.
+  name: "В-Ю-Хем Аптека"
+  description: "Аптечний автомат Вейланд-Ютані з контейнерами таблеток, рідкими ліками та хімічними припасами. Вставте готівку або скористайтеся бюджетом відділу."
   suffix: Cash, Pharmacy
   components:
   - type: Sprite
@@ -660,8 +660,8 @@
 - type: entity
   id: AU14CashVendorMedicalSurgery
   parent: AU14CashVendorBase
-  name: WY-Med Surgical
-  description: A Weyland-Yutani surgical supply vending machine. Insert cash or use department budget to purchase surgical equipment and wound care supplies.
+  name: "В-Ю-Мед Хірургічний"
+  description: "Автомат хірургічних припасів Вейланд-Ютані. Вставте готівку або скористайтеся бюджетом відділу, щоб придбати хірургічне обладнання та засоби для догляду за ранами."
   suffix: Cash, Surgery
   components:
   - type: Sprite
@@ -718,8 +718,8 @@
 - type: entity
   id: AU14CashVendorLawEnforcement
   parent: AU14CashVendorBase
-  name: WY SecTech
-  description: A Weyland-Yutani law enforcement equipment vending machine. Insert cash or use department budget to purchase security supplies.
+  name: "В-Ю СекТех"
+  description: "Автомат спорядження для правоохоронців Вейланд-Ютані. Вставте готівку або скористайтеся бюджетом відділу, щоб придбати припаси охорони."
   suffix: Cash, Law Enforcement
   components:
   - type: Sprite
@@ -761,8 +761,8 @@
 - type: entity
   id: AU14CashSnackMachine
   parent: AU14CashVendorBase
-  name: WY Provisions
-  description: A Weyland-Yutani branded snack dispenser. Insert cash to purchase a snack. Prices subject to colonial sales tax.
+  name: "провізія ВЮ"
+  description: "Брендований диспенсер снеків Вейланд-Ютані. Вставте готівку, щоб купити снек. Ціни підлягають колоніальному податку з продажів."
   suffix: Cash, Snacks
   components:
   - type: Sprite

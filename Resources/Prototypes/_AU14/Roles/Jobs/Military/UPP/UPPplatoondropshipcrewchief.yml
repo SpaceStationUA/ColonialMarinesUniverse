@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobDCCBase
   id: AU14JobGOVFORDCCUPP
-  name: Dropship Crew Chief
+  name: "Старшина екіпажу десантного корабля"
   spawnMenuRoleName: Dropship Crew Chief (UPP)
   ranks:
     UPP_Chotar:

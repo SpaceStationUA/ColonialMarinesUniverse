@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianColonyPilot
-  name: Spawn Point Commercial Pilot
+  name: "точка появи комерційного пілота"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonyPilot

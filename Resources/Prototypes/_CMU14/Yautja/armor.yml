@@ -33,8 +33,8 @@
 - type: entity
   parent: CMUYautjaArmorBase
   id: CMUYautjaAncientAlienArmor
-  name: ancient alien armor
-  description: Ancient armor made from a strange alloy. It feels cold with an alien weight.
+  name: "стародавня прибулецька броня"
+  description: "Стародавня броня з дивного сплаву. Вона холодна на дотик з прибулецькою вагою."
   components:
   - type: CMArmor
     melee: 35
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMUYautjaHeavyClanArmor
   id: CMUYautjaStoneArmor
-  name: alien stone armor
-  description: A suit of armor made entirely out of stone. It looks incredibly heavy.
+  name: "прибулецька кам'яна броня"
+  description: "Костюм броні, повністю зроблений з каменю. Виглядає неймовірно важким."
   suffix: Yautja, Flavor
   components:
   - type: Sprite
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMUYautjaArmorBase
   id: CMUYautjaClanArmor
-  name: clan armor
-  description: A suit of armor with light padding. It looks old, yet functional.
+  name: "клановий обладунок"
+  description: "Костюм броні з легким набивкою. Виглядає старим, але функціональним."
 
 - type: entity
   parent: CMUYautjaClanArmor
@@ -459,8 +459,8 @@
 - type: entity
   parent: CMUYautjaClanArmor
   id: CMUYautjaThrallArmorEbony
-  name: ebony thrall armor
-  description: A human-sized suit of alien thrall armor.
+  name: "ебенова рабська броня"
+  description: "Костюм прибулецької рабської броні людського розміру."
   suffix: Thrall, Ebony
   components:
   - type: Sprite
@@ -516,8 +516,8 @@
 - type: entity
   parent: CMUYautjaClanArmor
   id: CMUYautjaHeavyClanArmor
-  name: heavy clan armor
-  description: A suit of armor with heavy padding. It looks old, yet functional.
+  name: "важкий клановий обладунок"
+  description: "Костюм броні з важким набивкою. Виглядає старим, але функціональним."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_heavy_clan.rsi
@@ -581,8 +581,8 @@
 - type: entity
   parent: CMUYautjaClanArmor
   id: CMUYautjaBadBloodArmorPatchwork
-  name: patchwork clan armor
-  description: A suit of Yautja armor rebuilt from scavenged and mismatched plates.
+  name: "клаптевий клановий обладунок"
+  description: "Костюм броні Яутжа, перебудований зі знайдених і несумісних плит."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_badblood_patchwork.rsi
@@ -597,7 +597,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorLunatic
-  name: lunatic clan armor
+  name: "божевільний клановий обладунок"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_badblood_lunatic.rsi
@@ -607,7 +607,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorScavenger
-  name: scavenger clan armor
+  name: "клановий обладунок сміттяра"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_badblood_scavenger.rsi
@@ -617,7 +617,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorVenator
-  name: venator clan armor
+  name: "клановий обладунок мисливця"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_badblood_venator.rsi
@@ -627,7 +627,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorCommando
-  name: commando clan armor
+  name: "клановий обладунок командо"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_badblood_commando.rsi
@@ -637,7 +637,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorBane
-  name: bane clan armor
+  name: "клановий обладунок прокльоном"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_badblood_bane.rsi
@@ -647,7 +647,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorPatchworkAlt
-  name: alternate patchwork clan armor
+  name: "альтернативний клаптевий клановий обладунок"
   suffix: Alternate
   components:
   - type: Sprite
@@ -658,7 +658,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorScavengerAlt
-  name: alternate scavenger clan armor
+  name: "альтернативний клановий обладунок сміттяра"
   suffix: Alternate
   components:
   - type: Sprite
@@ -669,7 +669,7 @@
 - type: entity
   parent: CMUYautjaBadBloodArmorPatchwork
   id: CMUYautjaBadBloodArmorCommandoAlt
-  name: alternate commando clan armor
+  name: "альтернативний клановий обладунок командо"
   suffix: Alternate
   components:
   - type: Sprite
@@ -681,9 +681,9 @@
 - type: entity
   parent: CMUYautjaClanArmor
   id: CMUYautjaEmissaryArmorClassic
-  name: YM4 pattern clan armor
+  name: "клановий обладунок схеми YM4"
   suffix: Classic
-  description: A suit of oversized armor built from M3 pattern plating and smart-gunner mesh, built for something larger than any normal man.
+  description: "Костюм негабаритної броні, побудований з плит схеми M3 і сітки смартганера, побудований для чогось більшого, ніж будь-яка нормальна людина."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/armor_emissary_classic.rsi
@@ -738,8 +738,8 @@
 - type: entity
   parent: RMCUniformBase
   id: CMUYautjaBodyMesh
-  name: body mesh
-  description: A set of very fine chainlink in a meshwork for comfort and utility.
+  name: "тілесна сітка"
+  description: "Набір дуже тонких ланцюжків у сітці для комфорту і утиліту."
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/body_mesh.rsi
@@ -756,14 +756,14 @@
 - type: entity
   parent: CMUYautjaBodyMesh
   id: CMUYautjaAncientAlienMesh
-  name: ancient alien mesh suit
-  description: A strange alloy weave in the form of a vest. It feels cold with an alien weight.
+  name: "стародавній прибулецький сітчастий костюм"
+  description: "Дивне сплавне плетиво у формі жилета. Воно холодне на дотик з прибулецькою вагою."
 
 - type: entity
   parent: CMUYautjaBodyMesh
   id: CMUYautjaThrallChainshirt
-  name: thrall chainshirt
-  description: A light alien mesh undersuit sized for a human thrall.
+  name: "рабська ланцюжкова сорочка"
+  description: "Легкий прибулецький сітчастий підкостюм розміром для людського раба."
   suffix: Yautja, Thrall
   components:
   - type: CMArmor
@@ -804,14 +804,14 @@
 - type: entity
   parent: CMUYautjaGreavesBase
   id: CMUYautjaAncientAlienGreaves
-  name: ancient alien greaves
-  description: Greaves made from scraps of cloth and a strange alloy. They feel cold with an alien weight.
+  name: "стародавні прибулецькі поножі"
+  description: "Поножі з шматків тканини і дивного сплаву. Вони холодні на дотик з прибулецькою вагою."
 
 - type: entity
   parent: CMUYautjaClanGreaves2
   id: CMUYautjaStoneGreaves
-  name: alien stone greaves
-  description: Heavy stone greaves balanced for hunters who can carry the impossible.
+  name: "прибулецькі кам'яні поножі"
+  description: "Важкі кам'яні поножі, збалансовані для мисливців, які можуть нести неможливе."
   suffix: Yautja, Flavor
   components:
   - type: Sprite
@@ -827,8 +827,8 @@
 - type: entity
   parent: CMUYautjaGreavesBase
   id: CMUYautjaClanGreaves
-  name: clan greaves
-  description: A pair of armored, perfectly balanced boots. Ideal for running through the jungle.
+  name: "кланові поножі"
+  description: "Пара броньованих, ідеально збалансованих чобіт. Ідеальні для бігу через джунглі."
 
 - type: entity
   parent: CMUYautjaClanGreaves
@@ -1024,8 +1024,8 @@
 - type: entity
   parent: CMUYautjaClanGreaves
   id: CMUYautjaThrallGreavesEbony
-  name: ebony thrall greaves
-  description: Human-sized alien greaves for a Yautja thrall.
+  name: "ебенові рабські поножі"
+  description: "Прибулецькі поножі людського розміру для раба Яутжа."
   suffix: Thrall, Ebony
   components:
   - type: Sprite
@@ -1081,7 +1081,7 @@
 - type: entity
   parent: CMUYautjaClanGreaves
   id: CMUYautjaBadBloodGreavesPatchwork
-  name: patchwork clan greaves
+  name: "клаптеві кланові поножі"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/greaves_badblood_patchwork.rsi
@@ -1091,7 +1091,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesLunatic
-  name: lunatic clan greaves
+  name: "божевільні кланові поножі"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/greaves_badblood_lunatic.rsi
@@ -1101,7 +1101,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesScavenger
-  name: scavenger clan greaves
+  name: "кланові поножі сміттяра"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/greaves_badblood_scavenger.rsi
@@ -1111,7 +1111,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesVenator
-  name: venator clan greaves
+  name: "кланові поножі мисливця"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/greaves_badblood_venator.rsi
@@ -1121,7 +1121,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesCommando
-  name: commando clan greaves
+  name: "кланові поножі командо"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/greaves_badblood_commando.rsi
@@ -1131,7 +1131,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesBane
-  name: bane clan greaves
+  name: "кланові поножі прокльоном"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/greaves_badblood_bane.rsi
@@ -1141,7 +1141,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesPatchworkAlt
-  name: alternate patchwork clan greaves
+  name: "альтернативні клаптеві кланові поножі"
   suffix: Alternate
   components:
   - type: Sprite
@@ -1152,7 +1152,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesScavengerAlt
-  name: alternate scavenger clan greaves
+  name: "альтернативні кланові поножі сміттяра"
   suffix: Alternate
   components:
   - type: Sprite
@@ -1163,7 +1163,7 @@
 - type: entity
   parent: CMUYautjaBadBloodGreavesPatchwork
   id: CMUYautjaBadBloodGreavesCommandoAlt
-  name: alternate commando clan greaves
+  name: "альтернативні кланові поножі командо"
   suffix: Alternate
   components:
   - type: Sprite
@@ -1175,7 +1175,7 @@
 - type: entity
   parent: CMUYautjaClanGreaves
   id: CMUYautjaEmissaryGreavesClassic
-  name: YM4 pattern clan greaves
+  name: "кланові поножі схеми YM4"
   suffix: Classic
   components:
   - type: Sprite
@@ -1246,8 +1246,8 @@
 - type: entity
   parent: CMUYautjaCapeBase
   id: CMUYautjaCapeFull
-  name: battle-worn cape
-  description: A battle-worn cape passed down by elder Yautja.
+  name: "бойова накидка"
+  description: "Бойова накидка, передана старшими Яутжа."
 
 - type: entity
   parent: CMUYautjaCapeFull
@@ -1296,7 +1296,7 @@
 - type: entity
   parent: CMUYautjaCapeFull
   id: CMUYautjaCapePoncho
-  name: councilor poncho
+  name: "пончо радника"
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/cape_poncho.rsi

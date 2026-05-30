@@ -5,8 +5,8 @@
   id: AU14ShopkeeperVendorBase
   abstract: true
   parent: CMBaseStructureCorrodible
-  name: shop counter
-  description: A customisable vendor. Authorized staff can stock it with items and set prices.
+  name: "крамнична стійка"
+  description: "Налаштовуваний торговий автомат. Уповноважений персонал може заповнювати його предметами та встановлювати ціни."
   components:
   - type: AU14ShopkeeperVendor
   - type: ItemSlots
@@ -53,6 +53,6 @@
 - type: entity
   id: AU14ShopkeeperVendor
   parent: AU14ShopkeeperVendorBase
-  name: shop counter
-  description: A customisable counter. The shopkeeper can stock it with any items and set prices. Prices are subject to the colony sales tax.
+  name: "крамнична стійка"
+  description: "Налаштовувана стійка. Крамар може заповнювати її будь-якими предметами та встановлювати ціни. Ціни підлягають колоніальному податку з продажів."
   suffix: Shopkeeper

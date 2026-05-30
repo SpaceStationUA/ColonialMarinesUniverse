@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleSSG45NoLock
-  name: NSG-23 Assault Rifle
-  description: Developed by Weyland-Yutani as a modern successor to the aging M5 platform, the SpezialSturmGewehr is engineered for precision mid-to-long range combat. The primary rifle of the Weyland-Yutani PMCs.
+  name: "Штурмова гвинтівка NSG-23"
+  description: "Розроблена «Вейленд-Ютані» як сучасний наступник застарілої платформи M5, SpezialSturmGewehr спроектована для прицільного бою на середній і далекій дистанції. Основна гвинтівка ПВК «Вейленд-Ютані»."
   suffix: No ID Lock
   components:
   - type: Sprite
@@ -170,7 +170,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleSSG45
-  name: "NSG-23 magazine (10x24mm)"
+  name: "Магазин NSG-23 (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45Extended
-  name: "NSG-23 extended magazine (10x24mm)"
+  name: "Подовжений магазин NSG-23 (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45AP
-  name: "NSG-23 AP magazine (10x24mm)"
+  name: "Бронебійний магазин NSG-23 (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45HEAP
-  name: "NSG-23 HEAP magazine (10x24mm)"
+  name: "Магазин NSG-23 HEAP (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -285,7 +285,7 @@
 - type: entity
   parent: RMCMagazineRifleSSG45
   id: RMCMagazineRifleSSG45Incend
-  name: "NSG-23 Incendiary magazine (10x24mm)"
+  name: "Запалювальний магазин NSG-23 (10x24мм)"
   components:
   - type: Tag
     tags:

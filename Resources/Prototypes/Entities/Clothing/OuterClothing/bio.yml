@@ -1,9 +1,9 @@
 - type: entity
   parent: ClothingOuterBaseLarge
   id: ClothingOuterBioGeneral
-  name: bio suit
+  name: "біокостюм"
   suffix: Generic
-  description: A suit that protects against biological contamination.
+  description: "Костюм, що захищає від біологічного зараження."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/general.rsi
@@ -23,9 +23,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioCmo
-  name: bio suit
+  name: "біокостюм"
   suffix: CMO
-  description: An advanced suit that protects against biological contamination, in CMO colors.
+  description: "Просунутий костюм, що захищає від біологічного зараження, у кольорах головного лікаря."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/cmo.rsi
@@ -35,9 +35,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioJanitor
-  name: bio suit
+  name: "біокостюм"
   suffix: Janitor
-  description: A suit that protects against biological contamination and caustic spills.
+  description: "Костюм, що захищає від біологічного зараження та їдких розливів."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/janitor.rsi
@@ -51,9 +51,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioScientist
-  name: bio suit
+  name: "біокостюм"
   suffix: Science
-  description: A suit that protects against biological contamination, in Scientist colors.
+  description: "Костюм, що захищає від біологічного зараження, у кольорах науковця."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/scientist.rsi
@@ -63,9 +63,9 @@
 - type: entity
   parent: [ClothingOuterBioGeneral, BaseSecurityContraband]
   id: ClothingOuterBioSecurity
-  name: bio suit
+  name: "біокостюм"
   suffix: Security
-  description: A suit that protects against biological contamination, kitted out with additional armor.
+  description: "Костюм, що захищає від біологічного зараження та оснащений додатковою бронею."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/security.rsi
@@ -83,9 +83,9 @@
 - type: entity
   parent: ClothingOuterBioGeneral
   id: ClothingOuterBioVirology
-  name: bio suit
+  name: "біокостюм"
   suffix: Virology
-  description: A suit that strongly protects against biological contamination.
+  description: "Костюм, що надійно захищає від біологічного зараження."
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Bio/virology.rsi

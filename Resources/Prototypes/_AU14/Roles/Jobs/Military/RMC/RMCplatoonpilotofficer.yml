@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotRMC
-  name: RMC Pilot Officer
+  name: "Пілот-офіцер РМК"
   spawnMenuRoleName: Pilot Officer (TWE RMC)
   ranks:
     RMC_Lieutenant:

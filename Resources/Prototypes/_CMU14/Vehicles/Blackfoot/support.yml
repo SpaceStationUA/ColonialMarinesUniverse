@@ -32,8 +32,8 @@
 - type: entity
   parent: CMUBlackfootMountedSupportBase
   id: CMUBlackfootFuelPump
-  name: Blackfoot fuel pump
-  description: A fuel service pump for AD-71E Blackfoot landing pads.
+  name: "паливний насос Блекфута"
+  description: "Паливний сервісний насос для посадкових майданчиків AD-71E Блекфут."
   components:
   - type: Transform
     anchored: false
@@ -52,8 +52,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: CMUBlackfootLandingPadFoldedProp
-  name: folded Blackfoot landing pad
-  description: A folded landing pad ready for Blackfoot support operations.
+  name: "складений посадковий майданчик Блекфута"
+  description: "Складений посадковий майданчик, готовий до операцій підтримки Блекфута."
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_structures.rsi
@@ -74,8 +74,8 @@
 
 - type: entity
   id: CMUBlackfootLandingPadLight
-  name: Blackfoot landing pad light
-  description: A low-profile landing pad guide light.
+  name: "ліхтар посадкового майданчика Блекфута"
+  description: "Низькопрофільний напрямний ліхтар посадкового майданчика."
   placement:
     mode: SnapgridCenter
   components:
@@ -109,8 +109,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: CMUBlackfootFuelPumpCrate
-  name: Blackfoot fuel pump case
-  description: A packed Blackfoot fuel pump assembly.
+  name: "кейс паливного насоса Блекфута"
+  description: "Запакований вузол паливного насоса Блекфута."
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_peripherals.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: CMUBlackfootFlightComputerCrate
-  name: Blackfoot flight computer case
-  description: A packed Blackfoot flight computer assembly.
+  name: "кейс польотного комп’ютера Блекфута"
+  description: "Запакований вузол польотного комп’ютера Блекфута."
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_peripherals.rsi
@@ -155,8 +155,8 @@
 - type: entity
   parent: VehicleAmmoBoxFlareLauncher
   id: CMUBlackfootAmmoBoxFlareLauncher
-  name: Blackfoot flare launcher ammo box
-  description: Ammunition for Blackfoot flare launcher pods.
+  name: "ящик боєприпасів для сигнальної пускової установки Блекфута"
+  description: "Боєприпаси для сигнальних пускових блоків Блекфута."
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_peripherals.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: VehicleAmmoBoxGrenadeLauncher
   id: CMUBlackfootAmmoBoxDoorGun
-  name: Blackfoot door gun ammo box
-  description: Ammunition for Blackfoot M866 automatic grenade launchers.
+  name: "ящик боєприпасів для дверного гранатомета Блекфута"
+  description: "Боєприпаси для автоматичних гранатометів M866 Блекфута."
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_peripherals.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: CMUBlackfootAerospaceTug
-  name: Blackfoot aerospace tug
-  description: A compact tow unit carried under the Blackfoot cockpit for moving the aircraft around a prepared landing area.
+  name: "аерокосмічний тягач Блекфута"
+  description: "Компактний буксирний вузол, який перевозиться під кабіною Блекфута для переміщення літака підготовленою посадковою зоною."
   components:
   - type: Sprite
     drawdepth: BelowMobs

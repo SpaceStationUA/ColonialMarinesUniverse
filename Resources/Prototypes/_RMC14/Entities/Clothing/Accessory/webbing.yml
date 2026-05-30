@@ -2,7 +2,7 @@
   parent: BaseItem
   abstract: true
   id: CMWebbingBase
-  name: webbing
+  name: "розвантаження"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbing
-  name: webbing
-  description: A sturdy mess of synthcotton belts and buckles, ready to share your burden.
+  name: "розвантаження"
+  description: "Міцне плетиво синтбавовняних ременів і пряжок, готове розділити твою ношу."
   components:
   - type: Sprite
     state: webbing
@@ -98,8 +98,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouch
-  name: leg pouch
-  description: A camo conforming leg pouch usually worn by hunters, military and people who dream of being military.
+  name: "стегновий підсумок"
+  description: "Камуфляжний стегновий підсумок, який зазвичай носять мисливці, військові та люди, що мріють стати військовими."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/classic.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMWebbingBrown
   id: RMCWebbingLegPouchBlack
-  name: black leg pouch
-  description: A black leg pouch usually worn by hunters, military and people who dream of being military.
+  name: "чорний стегновий підсумок"
+  description: "Чорний стегновий підсумок, який зазвичай носять мисливці, військові та люди, що мріють стати військовими."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/leg_pouch/black.rsi
@@ -126,7 +126,7 @@
 - type: entity
   parent: CMWebbing
   id: RMCWebbingBlackSmall
-  name: black webbing
+  name: "чорне розвантаження"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black_small.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingBlack
-  name: black webbing vest
-  description: Robust black synthcotton vest with lots of pockets to hold whatever you need, but cannot hold in hands.
+  name: "чорний розвантажувальний жилет"
+  description: "Міцний чорний синтбавовняний жилет із безліччю кишень для всього, що потрібно носити, але не можеш тримати в руках."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_black.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMWebbingBlack
   id: CMWebbingBrown
-  name: brown webbing vest
-  description: Worn brownish synthcotton vest with lots of pockets to unload your hands.
+  name: "коричневий розвантажувальний жилет"
+  description: "Поношений коричневий синтбавовняний жилет із безліччю кишень, щоб розвантажити руки."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
@@ -223,8 +223,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingHolster
-  name: shoulder holster
-  description: A handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: "наплічна кобура"
+  description: "Кобура для пістолета з прикріпленим підсумком, що дозволяє разом із нею носити два магазини або спідлоадери."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: CMWebbing
   id: RMCParaWebbing
-  name: paramarine webbing
-  description: A durable harness system issued to the RCM's Paramarines, designed to distribute weight evenly for comfort and mobility. Fitted with reinforced pouches for carrying essential gear during high-risk insertions.
+  name: "розвантаження парамарина"
+  description: "Витривала система ременів, яку видають парамаринам МКК. Призначена рівномірно розподіляти вагу для зручності й мобільності. Оснащена посиленими підсумками для перенесення необхідного спорядження під час високоризикових висадок."
   suffix: Paramarine, Survivor
   components:
     - type: Sprite
@@ -309,7 +309,7 @@
 - type: entity
   parent: RMCParaWebbing
   id: RMCParaWebbingL88
-  name: paramarine webbing
+  name: "розвантаження парамарина"
   suffix: Paramarine, Survivor, Filled, L88
   components:
     - type: StorageFill
@@ -321,7 +321,7 @@
 - type: entity
   parent: RMCParaWebbing
   id: RMCParaWebbingPDW90AP
-  name: paramarine webbing
+  name: "розвантаження парамарина"
   suffix: Paramarine, Survivor, Filled, PDW90
   components:
     - type: StorageFill
@@ -344,8 +344,8 @@
 - type: entity
   parent: CMWebbingHolster
   id: RMCWebbingHolsterBlack
-  name: black shoulder holster
-  description: A black handgun holster with an attached pouch, allowing two magazines or speedloaders to be stored along with it.
+  name: "чорна наплічна кобура"
+  description: "Чорна кобура для пістолета з прикріпленим підсумком, що дозволяє разом із нею носити два магазини або спідлоадери."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_holster_black.rsi
@@ -402,8 +402,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingDropPouch
-  name: drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: "скидний підсумок"
+  description: "Зручний підсумок для перенесення дрібних речей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch.rsi
@@ -451,8 +451,8 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCWebbingDropPouchBlack
-  name: black drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: "чорний скидний підсумок"
+  description: "Зручний підсумок для перенесення дрібних речей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/drop_pouch_black.rsi
@@ -492,8 +492,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingClipOnPouch
-  name: clip-on pouch
-  description: A clip on synth-leather pouch designed to house a small collection of items for ML66A weapon operators.
+  name: "підсумок-кліпса"
+  description: "Підсумок-кліпса з синтшкіри, призначений для зберігання невеликого набору речей операторів зброї ML66A."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/ml66a_pouch.rsi
@@ -530,8 +530,8 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingGrenade
-  name: clip-on grenade band
-  description: A sturdy mess of synth-leather band designed to store a few grenades for ML66A weapon operators.
+  name: "гранатна стрічка-кліпса"
+  description: "Міцне плетиво з синтшкіряної стрічки, призначене для зберігання кількох гранат для операторів зброї ML66A."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/grenade_pouch.rsi
@@ -562,8 +562,8 @@
 - type: entity
   parent: CMWebbing
   id: RMCToolWebbingSmall
-  name: small tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage. This is the small low-budget version.
+  name: "мале інструментальне розвантаження"
+  description: "Коричневе синтбавовняне розвантаження, схоже за функцією на цивільні інструментальні фартухи, але міцніше для польового використання. Це мала бюджетна версія."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_brown.rsi
@@ -661,8 +661,8 @@
 - type: entity
   parent: RMCToolWebbingSmall
   id: RMCToolWebbing
-  name: tool webbing
-  description: A brown synthcotton webbing that is similar in function to civilian tool aprons, but is more durable for field usage.
+  name: "інструментальне розвантаження"
+  description: "Коричневе синтбавовняне розвантаження, схоже за функцією на цивільні інструментальні фартухи, але міцніше для польового використання."
   components:
   - type: Storage
     grid:
@@ -782,8 +782,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingKnives
-  name: M272 pattern knife vest
-  description: An older generation M272 pattern knife vest once employed by the UNMC. Can hold up to 5 knives. It is made of synthcotton.
+  name: "ножовий жилет зразка M272"
+  description: "Ножовий жилет зразка M272 старого покоління, що колись використовувався ОНМП. Може вмістити до 5 ножів. Виготовлений із синтбавовни."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_knife.rsi
@@ -930,8 +930,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalGreen
-  name: surgical webbing vest
-  description: A robust webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: "хірургічний розвантажувальний жилет"
+  description: "Міцний розвантажувальний жилет, спеціально розроблений для зберігання повного комплекту хірургічного спорядження. Зазвичай видається польовим лікарям або синтетикам."
   suffix: Medical, Filled
   components:
   - type: Sprite
@@ -986,8 +986,8 @@
 - type: entity
   parent: CMWebbingBase
   id: CMWebbingSurgicalBlue
-  name: surgical webbing vest
-  description: A robust blue webbing vest specially designed to hold a fully array of surgical equipment. Typically issued to field doctors or synthetic personnel.
+  name: "хірургічний розвантажувальний жилет"
+  description: "Міцний синій розвантажувальний жилет, спеціально розроблений для зберігання повного комплекту хірургічного спорядження. Зазвичай видається польовим лікарям або синтетикам."
   suffix: Medical, Filled
   components:
   - type: Sprite
@@ -1042,8 +1042,8 @@
 - type: entity
   parent: RMCWebbingDropPouch
   id: RMCToolDropPouchFilled
-  name: tool drop pouch
-  description: A drop pouch loaded with essential field repair tools.
+  name: "інструментальний скидний підсумок"
+  description: "Скидний підсумок, заповнений необхідними інструментами для польового ремонту."
   components:
   - type: Storage
     grid:
@@ -1074,9 +1074,9 @@
 - type: entity
   parent: CMWebbingBase
   id: RMCWebbingSurgicalRCM
-  name: MOLS medical carry harness
+  name: "медична переносна підвісна система MOLS"
   suffix: Royal
-  description: The L1 pattern Modular Operational Load-Bearing System designates the standard issue set of lightweight load-carrying equipment for the RCM. This configuration features a harness and webbing capable of fitting a wide variety of surgical equipment.
+  description: "Модульна Оперативна Вантажоносна Система зразка L1 — стандартний комплект легкого вантажоносного спорядження для МКК. Ця конфігурація містить підвісну систему та розвантаження, здатні вмістити широкий асортимент хірургічного обладнання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Webbing/webbing_surgical_blue.rsi

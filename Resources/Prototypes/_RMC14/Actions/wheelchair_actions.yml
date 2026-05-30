@@ -1,7 +1,7 @@
 - type: entity
   id: ActionWheelchairBell
-  name: Ring Bell
-  description: Ring the wheelchair bell
+  name: "Дзвонити в Дзвоник"
+  description: "Дзвонити в дзвоник інвалідного візка"
   components:
   - type: InstantAction
     event: !type:RingBellActionEvent

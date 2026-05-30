@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobTARSPartyContractorBase
   id: AU14JobProdigyTARSPartySynth
-  name: Prodigy TARS Support Synthetic
+  name: "Синтетик підтримки Prodigy TARS"
   description: au14-prodigyrescue-description
   playTimeTracker: AU14JobProdigyTARSPartySynthTracker
   whitelisted: true
@@ -86,7 +86,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesSyntheticProdigy
   id: AU14JobProdigyTARSPartySynth
-  name: Prodigy TARS Support Synthetic (AU14, 3rd Party)
+  name: "Синтетик підтримки Prodigy TARS (AU14, 3-тя сторона)"
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

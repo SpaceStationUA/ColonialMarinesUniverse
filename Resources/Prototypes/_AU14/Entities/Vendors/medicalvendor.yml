@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14GeneralMedicalVendor
-  name: We-Yu Medical Supply Vendor
-  description: An automated supply vendor hooked up to a storage of medical supplies.
+  name: "автомат медичного постачання Ве-Ю"
+  description: "Автоматизований автомат постачання, під’єднаний до запасу медичних припасів."
   suffix: AU14 MED
   components:
   - type: Sprite
@@ -125,8 +125,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: AU14VendorBlood
-  name: WeYu Blood Dispenser
-  description: The WeYu Med-Sci Brand Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today! #dont update year, that`s a joke from cm13
+  name: "диспенсер крові ВеЮ"
+  description: "Диспенсер пакетів крові бренду ВеЮ Мед-Сай — провідний, найкращий у своєму класі диспенсер крові 2105 року! Замовте свій уже сьогодні!" #dont update year, that`s a joke from cm13
   suffix: AU14 MED
   components:
   - type: Sprite
@@ -160,8 +160,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: AU14VendorBloodField
-  name: WeYu Field Blood Dispenser
-  description: The WeYu Med-Sci Brand Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today! #dont update year, that`s a joke from cm13
+  name: "польовий диспенсер крові ВеЮ"
+  description: "Диспенсер пакетів крові бренду ВеЮ Мед-Сай — провідний, найкращий у своєму класі диспенсер крові 2105 року! Замовте свій уже сьогодні!" #dont update year, that`s a joke from cm13
   suffix: AU14 MED
   components:
   - type: Sprite
@@ -206,8 +206,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: AU14GeneralMedicalVendorLight
-  name: WeYu Medical Field Supply Vendor
-  description: Medical Pharmaceutical dispenser with basic medical supplies.
+  name: "польовий автомат медичного постачання ВеЮ"
+  description: "Медико-фармацевтичний диспенсер із базовими медичними припасами."
   components:
   - type: Fixtures
     fixtures:

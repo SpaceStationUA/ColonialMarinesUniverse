@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCWeaponFlamer
   id: RMCWeaponFL3Flamer
-  name: flammenwerfer 3 heavy incineration unit
-  description: A heavy industrial incineration unit produced by the Weyland Corporation and later by Weyland-Yutani. Often found among foliage cleaning missions on frontier colonies, it usually isn't seen in combat, but is devastating when actually used.
+  name: "важкий спалювач Flammenwerfer 3"
+  description: "Важкий промисловий пристрій-спалювач виробництва Корпорації Вейленд, а пізніше Вейленд-Ютані. Часто зустрічається на місіях очищення флори у фронтирних колоніях, у бою його зазвичай не бачать, але коли таки використовують — спустошливий ефект."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/FL3/fl3_inhands.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerFL3
-  name: FW3 heavy incinerator tank
-  description: A heavy, high capacity tank utilized by the Flammenwerfer 3 Heavy Incineration Unit. This one has a blue, heat-resistant Weyland-Yutani logo on it.
+  name: "важкий бак спалювача FW3"
+  description: "Важкий високоємнісний бак, що використовується важким спалювачем Flammenwerfer 3. На цьому є синій термостійкий логотип «Вейланд-Ютані»."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/fl3.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCTankFlamerFL3
   id: RMCTankFlamerFL3Whiteout
-  name: FW3 heavy incinerator tank (EX)
-  description: A heavy fuel tank of Ultra Thick Napthal Fuel type EX, a sticky combustible liquid chemical that burns so hot it melts straight through most flame-resistant materials, utilized by the Flammenwerfer 3 Heavy Incineration Unit. This has a blue, heat-resistant Weyland-Yutani logo on it. Handle with care.
+  name: "важкий бак спалювача FW3 (EX)"
+  description: "Важкий паливний бак Ультра-густого Напталь палива типу EX, липкої горючої рідкої хімічної речовини, що горить настільки гаряче, що плавить більшість вогнестійких матеріалів, що використовується важким спалювачем Flammenwerfer 3. Має синій термостійкий логотип «Вейланд-Ютані». Поводитися обережно."
   components:
   - type: SolutionContainerManager
     solutions:

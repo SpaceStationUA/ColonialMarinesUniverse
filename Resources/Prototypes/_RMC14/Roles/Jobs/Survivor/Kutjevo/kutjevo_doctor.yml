@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoDoctor
-  name: survivor kurjevo doctor spawn point
+  name: "спавнер лікаря кутьєво-вцілілого"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoDoctor
@@ -52,5 +52,5 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetKutjevoDoctor
-  name: kutjevo doctor colonist preset
+  name: "пресет колоніста-лікаря кутьєво"
   categories: [ HideSpawnMenu ]

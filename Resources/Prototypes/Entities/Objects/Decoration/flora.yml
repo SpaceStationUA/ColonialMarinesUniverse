@@ -1,7 +1,7 @@
 - type: entity
   id: BaseRock
-  name: boulder
-  description: Heavy as a really heavy thing.
+  name: "валун"
+  description: "Важкий, як дуже важка річ."
   abstract: true
   components:
   - type: Clickable
@@ -35,7 +35,7 @@
 
 - type: entity
   id: BaseTree
-  description: Yep, it's a tree.
+  description: "Так, це дерево."
   abstract: true
   components:
   - type: SpriteFade
@@ -161,8 +161,8 @@
         rocksolid03: ""
 
 - type: entity
-  name: stalagmite
-  description: Natural stone spikes.
+  name: "сталагміт"
+  description: "Природні кам'яні шипи."
   parent: BaseRock
   id: FloraStalagmite
   components:
@@ -214,7 +214,7 @@
 - type: entity
   parent: BaseTree
   id: FloraTree
-  name: tree
+  name: "дерево"
   components:
   - type: Sprite
     layers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: BaseTreeSnow
   id: FloraTreeSnow
-  name: snowy tree
+  name: "засніжене дерево"
   components:
   - type: Sprite
     layers:
@@ -252,7 +252,7 @@
 - type: entity
   parent: BaseTreeSnow
   id: FloraTreeStump
-  name: tree stump
+  name: "пеньок"
   components:
   - type: Sprite
     state: treestump
@@ -260,7 +260,7 @@
 - type: entity
   parent: BaseTreeLarge
   id: FloraTreeLarge
-  name: large tree
+  name: "велике дерево"
   components:
   - type: Sprite
     layers:
@@ -279,7 +279,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeConifer
-  name: snowy conifer
+  name: "засніжене хвойне дерево"
   components:
   - type: Sprite
     layers:
@@ -295,7 +295,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeChristmas01
-  name: christmas tree
+  name: "ялинка"
   components:
   - type: Sprite
     state: treechristmas01
@@ -304,7 +304,7 @@
   parent: BaseTreeConifer
   id: FloraTreeChristmas02
   suffix: Safe Presents
-  name: christmas tree
+  name: "ялинка"
   components:
   - type: Sprite
     state: treechristmas02
@@ -335,7 +335,7 @@
   parent: FloraTreeChristmas02
   id: FloraTreeChristmas03
   suffix: Insane Presents
-  name: christmas tree
+  name: "ялинка"
   components:
   - type: LimitedItemGiver
     spawnEntries:
@@ -351,7 +351,7 @@
 - type: entity
   parent: BaseTreeConifer
   id: FloraTreeStumpConifer
-  name: tree stump
+  name: "пеньок"
   components:
   - type: Sprite
     state: treestumpconifer
@@ -359,8 +359,8 @@
 - type: entity
   parent: FloraTree
   id: ShadowTree
-  name: dark wood
-  description: The leaves are whispering about you.
+  name: "темне дерево"
+  description: "Листя шепоче про тебе."
   components:
   - type: Sprite
     sprite: Objects/Decoration/Flora/flora_shadow_trees.rsi
@@ -368,8 +368,8 @@
 - type: entity
   parent: BaseTree
   id: LightTree
-  name: glowing tree
-  description: A marvelous tree filled with strange energy.
+  name: "сяюче дерево"
+  description: "Дивовижне дерево, наповнене дивною енергією."
   components:
   - type: PointLight
     radius: 2.0

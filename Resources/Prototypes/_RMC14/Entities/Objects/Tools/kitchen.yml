@@ -1,8 +1,8 @@
 - type: entity
   parent: RollingPin
   id: RMCRollingPin
-  name: rolling pin
-  description: Used to knock out the Bartender.
+  name: "качалка"
+  description: "Використовується, щоб приголомшити Бармена."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Kitchen/rolling_pin.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: Fork
   id: RMCFork
-  name: fork
-  description: It's a fork. Sure is pointy.
+  name: "виделка"
+  description: "Це виделка. Точно гостра."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Kitchen/fork.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: RMCFork
   id: RMCForkPlastic
-  name: plastic fork
-  description: Yay, no washing up to do.
+  name: "пластикова виделка"
+  description: "Ура, не потрібно мити посуд."
   components:
   - type: Sprite
     state: plastic
@@ -31,8 +31,8 @@
 - type: entity
   parent: Spoon
   id: RMCSpoon
-  name: spoon
-  description: It's a spoon. You can see your own upside-down face in it.
+  name: "ложка"
+  description: "Це ложка. У ній видно своє відображення догори дриґом."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tools/Kitchen/spoon.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: RMCSpoon
   id: RMCSpoonPlastic
-  name: plastic spoon
-  description: It's a plastic spoon. How dull.
+  name: "пластикова ложка"
+  description: "Це пластикова ложка. Як нудно."
   components:
   - type: Sprite
     state: plastic

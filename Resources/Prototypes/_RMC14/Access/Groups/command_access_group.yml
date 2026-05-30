@@ -58,7 +58,7 @@
 - type: accessGroup
   id: CO
   parent: RMCBaseCommandJob
-  name: Commanding Officer
+  name: "Командувач"
   tags:
   - CMAccessAlpha # Squad prep access
   - CMAccessArmory # MP weapon vault
@@ -107,7 +107,7 @@
 - type: accessGroup
   id: MarineMain
   parent: RMCBaseCommandJob
-  name: Executive Officer
+  name: "Виконавчий офіцер"
   tags:
   - CMAccessAlpha
   - CMAccessArmory
@@ -149,7 +149,7 @@
 - type: accessGroup
   id: SEA
   parent: RMCBaseAuxiliaryJob
-  name: Senior Enlisted Advisor
+  name: "Старший рядовий радник"
   tags:
   - CMAccessAlpha
   - CMAccessArmory
@@ -191,7 +191,7 @@
 - type: accessGroup
   id: SO
   parent: RMCBaseCommandJob
-  name: Staff Officer
+  name: "Штабний офіцер"
   tags:
   - RMCAccessCommand
   - CMAccessDropship
@@ -208,7 +208,7 @@
 - type: accessGroup
   id: Synth
   parent: RMCBaseMiscellaneousJob
-  name: Synthetic
+  name: "Синтетик"
   tags:
   - RMCAccessSynth
   - RMCAccessDatabase

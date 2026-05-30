@@ -68,7 +68,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVEAssistantSL
-  name: forecon assistant squad lead spawn point
+  name: "спавнер помічника лідера загону forecon"
   suffix: PVE
   components:
   - type: Sprite

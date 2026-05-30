@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointParaMedicalTechnician
-  name: paramarine combat medical technician spawn point
+  name: "спавнер бойового медтехніка парамарина"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorParaMedicalTechnician

@@ -75,7 +75,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforRadioTelephoneOperator
-  name: Spawn Point opfor Radio Telephone Operator
+  name: "точка появи радіотелефоніста ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforRadioTelephoneOperator

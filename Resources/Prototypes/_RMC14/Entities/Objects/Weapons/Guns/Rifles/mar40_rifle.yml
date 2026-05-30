@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: WeaponRifleMAR40
-  name: MAR-40 battle rifle
-  description: A cheap, reliable assault rifle chambered in 7.62x39mm. Commonly found in the hands of criminals or mercenaries, or in the hands of the UPP or CLF.
+  name: "бойова гвинтівка MAR-40"
+  description: "Дешева, надійна штурмова гвинтівка калібру 7.62x39мм. Часто зустрічається в руках злочинців чи найманців, а також у руках СПН або КФЗ."
   suffix: Filled
   components:
   - type: Sprite
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleMAR40
-  name: MAR magazine (7.62x39mm)
-  description: A 7.62x39mm magazine for the MAR series of firearms.
+  name: "Магазин MAR (7.62x39мм)"
+  description: "Магазин 7.62x39мм для серії вогнепальної зброї MAR."
   components:
   - type: Tag
     tags:
@@ -142,8 +142,8 @@
 - type: entity
   parent: RMCMagazineRifleMAR40
   id: RMCMagazineRifleMAR40Ext
-  name: MAR extended magazine (7.62x39mm)
-  description: A 7.62x39mm MAR magazine, this one carries more rounds than the average magazine.
+  name: "Подовжений магазин MAR (7.62x39мм)"
+  description: "Магазин MAR 7.62x39мм, цей вміщає більше набоїв, ніж пересічний магазин."
   components:
   - type: Tag
     tags:
@@ -172,8 +172,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineMar50LMG
-  name: MAR drum magazine (7.62x39mm)
-  description: A 7.62x39mm drum magazine for the MAR-50 LMG.
+  name: "Барабанний магазин MAR (7.62x39мм)"
+  description: "Барабанний магазин 7.62x39мм для ЛМГ MAR-50."
   components:
   - type: Tag
     tags:
@@ -200,8 +200,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleMAR40
-  name: Cartridge (7.62x39mm)
-  description: A 7.62x39mm rifle cartridge
+  name: "Набій (7.62x39мм)"
+  description: "Гвинтівочний набій 7.62x39мм"
   components:
   - type: Tag
     tags:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMRadioHandheld
-  name: marine radiophone
-  description: Also known as a Walkie-Talkie, this device allows for long range communication when telecommunications are down.
+  name: "радіофон морпіха"
+  description: "Також відомий як «вокі-токі», цей пристрій дозволяє далекобійний зв'язок, коли телекомунікації не працюють."
   components:
   - type: RadioMicrophone
     broadcastChannel: Handheld

@@ -35,7 +35,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaXenobiologist
-  name: xenobiologist spawn point
+  name: "спавнер ксенобіолога"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCGearSurvivorPresetHybrisaXenobiologist
-  name: xenobiologist preset
+  name: "пресет ксенобіолога"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

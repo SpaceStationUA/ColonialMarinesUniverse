@@ -1,9 +1,9 @@
 - type: entity
   id: AU14WeaponXM99A
   parent: [BaseWeaponBatterySmall, BaseGrandTheftContraband]
-  name: XM99A phased plasma pulse rifle
+  name: "фазова плазмова імпульсна гвинтівка XM99A"
   suffix: USCM
-  description: An experimental directed energy weapon system designed by Armat, the XM99A is a long-range prototype rifle that fires super-heated blasts of plasma. The XM99A will slowly recharge its lithium battery drum over time using static electricity.
+  description: "Експериментальна система спрямованої енергетичної зброї, розроблена Арматом. XM99A — далекобійна прототипна гвинтівка, що стріляє перегрітими плазмовими зарядами. XM99A повільно перезаряджає свій літієвий батарейний барабан з часом, використовуючи статичну електрику."
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/USCM/XM99A.rsi
@@ -105,8 +105,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseXM99A
-  name: XM99A phased plasma pulse rifle case
-  description: A large case for storing an phased plasma pulse rifle, an experimental directed energy weapon system designed by Armat
+  name: "кейс фазової плазмової імпульсної гвинтівки XM99A"
+  description: "Великий кейс для зберігання фазової плазмової імпульсної гвинтівки, експериментальної системи спрямованої енергетичної зброї, розробленої Арматом"
   components:
   - type: Sprite
     sprite: _AU14/Items/Cases/XM99ACase.rsi

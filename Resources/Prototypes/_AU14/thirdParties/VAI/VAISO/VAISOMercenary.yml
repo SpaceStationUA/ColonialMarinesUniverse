@@ -40,7 +40,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAISOMercenary
-  name: VAISO Mercenary
+  name: "найманець VAISO"
   components:
   - type: EquipEntityPreset
     preset: AU14VAISOPreset
@@ -51,7 +51,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: VAISO Mercenary
+    name: "найманець VAISO"
     description: You have received intel on Weyland-Yutani's facility from local CLF insurgent group. Your mission is to raid the facility, securing any valuable intel. Do it without excessive attention.
     job: AU14VAISOMercenary
     raffle:
@@ -59,7 +59,7 @@
 
 - type: entity
   id: AU14VAISOPreset
-  name: vaiso mercenary preset
+  name: "пресет найманця VAISO"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

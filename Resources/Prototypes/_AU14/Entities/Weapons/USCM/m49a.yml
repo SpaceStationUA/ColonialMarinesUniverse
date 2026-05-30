@@ -1,9 +1,9 @@
 - type: entity
   parent: WeaponRifleM4SPRCustom
-  name: M49A2 battle rifle
+  name: "бойова гвинтівка M49A2"
   id: AU14WeaponRifleM49A
   suffix: Recon
-  description: An early modification of the M49A marksman rifle, the A2 has a tweaked gas-system and fire-control-group, giving it better cyclic rate and a two round burst-fire mode. Fielded almost exclusively by FORECON units in the USCM. This one is painted in a fresh coat of the newer Humbrol 76 camouflage.
+  description: "Рання модифікація марксманської гвинтівки M49A. A2 має допрацьовану газову систему та ударно-спускову групу, що дає їй кращий темп стрільби і режим черги по два постріли. Використовується майже виключно підрозділами ФОРЕКОН у КМП США. Цей екземпляр пофарбований свіжим шаром новішого камуфляжу Humbrol 76."
   components:
   - type: GuideHelp
     guides:

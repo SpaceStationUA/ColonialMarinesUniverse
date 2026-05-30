@@ -1,8 +1,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankLTBCannon
-  name: LTB cannon
-  description: A light tank cannon hardpoint.
+  name: "гармата LTB"
+  description: "Вузол кріплення легкої танкової гармати."
   components:
   - type: Sprite
     state: ltb_cannon
@@ -63,8 +63,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankLTAAAPMinigun
-  name: LTAAAP minigun
-  description: A light anti-air minigun hardpoint.
+  name: "мініган LTAAAP"
+  description: "Вузол кріплення легкого зенітного мінігана."
   components:
   - type: Sprite
     state: ltaaap_minigun
@@ -146,8 +146,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankAceAutocannon
-  name: ACE autocannon
-  description: An ACE autocannon hardpoint.
+  name: "автогармата ACE"
+  description: "Вузол кріплення автогармати ACE."
   components:
   - type: Sprite
     state: ace_autocannon
@@ -213,8 +213,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankDragonFlamer
-  name: DRGN flamer
-  description: A DRGN flamer hardpoint.
+  name: "вогнемет DRGN"
+  description: "Вузол кріплення вогнемета DRGN."
   components:
   - type: Sprite
     state: drgn_flamer

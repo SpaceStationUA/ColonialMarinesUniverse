@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMMRE
-  name: UNMC MRE
-  description: A Meal, Ready-to-Eat. A single-meal combat ration designed to provide a soldier with enough nutrients for a day of strenuous work. Its expiration date is at least 20 years ahead of your combat life expectancy.
+  name: "MRE UNMC"
+  description: "«Meal, Ready-to-Eat» — готова до вживання страва. Бойовий пайок на одне приймання їжі, призначений забезпечити солдата достатньою кількістю поживних речовин на день виснажливої роботи. Термін придатності щонайменше на 20 років перевищує очікувану тривалість вашого бойового життя."
   components:
   - type: Tag
     tags:
@@ -100,8 +100,8 @@
   abstract: true
   parent: BaseItem
   id: CMMREComponentBase
-  name: MRE component
-  description: A package from a Meal Ready-to-Eat, property of the Marines. Contains a part of a meal, prepared for field consumption.
+  name: "компонент MRE"
+  description: "Упаковка з готового до вживання пайка, власність морпіхів. Містить частину прийому їжі, підготовлену для польового споживання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_components.rsi
@@ -116,7 +116,7 @@
   abstract: true
   parent: CMFoodBase
   id: CMMREFoodBase
-  description: The contents of a Marine Standard issue MRE.
+  description: "Вміст стандартного MRE морпіха."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_contents.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: RMCBoxMREEmpty
-  name: box of MREs (x12)
-  description: A box of MREs. Nutritious, but not delicious.
+  name: "ящик MRE (x12)"
+  description: "Ящик MRE. Поживно, але не смачно."
   components:
   - type: Construction
     graph: RMCBoxMagazine
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMMRE
   id: RMCMRESPP # TODO RMC14 - Custom Contents
-  name: SPP IRP ration pack
-  description: An Individual Meal Ration, mainly composed of a selection of canned food, despite being heavier, it has proven to be a lot more reliable.
+  name: "пайок SPP IRP"
+  description: "Індивідуальний пайок, переважно складається з добірки консервованої їжі; попри більшу вагу, він виявився набагато надійнішим."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_spp.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMMRE
   id: RMCMREWeYa
-  name: We-Ya brand ration pack
-  description: "A more or less cohesive ration, intended for colonist and corporate security, packed with a medium quality foods with a long shelf life. On the box is the Weyland-Yutani logo, with a slogan surrounding it: WEYLAND-YUTANI. FEEDING THE FUTURE."
+  name: "пайок бренду Ві-Я"
+  description: "Більш-менш цілісний пайок, призначений для колоністів та корпоративної безпеки, наповнений середньоякісними продуктами тривалого зберігання. На коробці логотип Вейланд-Ютані, навколо якого слоган: ВЕСТОН-ЯМАДА. ГОДУЄМО МАЙБУТНЄ."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_weya.rsi
@@ -230,8 +230,8 @@
 - type: entity
   parent: CMMRE
   id: RMCMREWeYaPMC # TODO RMC14 - Custom Contents
-  name: PMC CFR ration
-  description: A Combat Field Ration. Uses similar to UNMC MRE format, but utilizes expensive preserving materials and methods and not less expensive foods, not much different from going to a restaurant. Eating better worlds.
+  name: "пайок PMC CFR"
+  description: "Бойовий польовий пайок. Використовує формат, схожий на MRE UNMC, але з дорогими консервуючими матеріалами та методами і не менш дорогою їжею, не дуже відмінною від походу до ресторану. Краще годуючи світи."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_weya_pmc.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: CMMRE
   id: RMCMRETSE # TODO RMC14 - Custom Contents
-  name: TSE ORP ration
-  description: An Operation Ration Pack. Uses similar to UNMC MRE format, but utilizes expensive preserving materials and methods and not less expensive meals from TSE cuisine.
+  name: "пайок TSE ORP"
+  description: "Операційний пайок. Використовує формат, схожий на MRE UNMC, але з дорогими консервуючими матеріалами та методами і не менш дорогими стравами кухні TSE."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_tse.rsi
@@ -248,8 +248,8 @@
 - type: entity
   parent: BaseItem
   id: RMCMRECLF
-  name: wrapped makeshift meal
-  description: Some home cooked or salvaged meal, you do what you must within your capabilities.
+  name: "загорнутий саморобний обід"
+  description: "Якась домашня або підібрана їжа — робиш те, що мусиш у межах своїх можливостей."
   components:
   - type: Tag
     tags:
@@ -279,8 +279,8 @@
 - type: entity
   parent: BaseItem
   id: RMCSurvivalRationSPP
-  name: SPP survival ration
-  description: A small compressed package containing a single portion of food you cannot distinguish.
+  name: "пайок виживання SPP"
+  description: "Маленька пресована упаковка, що містить одну порцію їжі, яку ви не можете розпізнати."
   components:
   - type: RMCLoreExaminable
     content: rmc-lore-examinable-spp-survival-ration
@@ -309,9 +309,9 @@
 - type: entity
   parent: RMCBoxMREEmpty
   id: RMCBoxMRETSEEmpty
-  name: box of ORPs (x12)
+  name: "ящик ORP (x12)"
   suffix: TSE
-  description: A box of ORPs. Scrummy!
+  description: "Ящик ORP. Смакота!"
   components:
   - type: CMItemSlots
     count: 12
@@ -331,8 +331,8 @@
 
 - type: entity
   parent: RMCBoxMREEmpty
-  name: box of WEYA-brand Ration Packs (x12)
-  description: A box of Weyland-Yutani Ration Packs. Often found on Company-owned colonies.
+  name: "ящик пайків бренду WEYU (x12)"
+  description: "Ящик пайків Вейланд-Ютані. Часто зустрічається на колоніях, що належать Компанії."
   id: RMCBoxMREWEYA
   suffix: Filled, WEYA
   components:

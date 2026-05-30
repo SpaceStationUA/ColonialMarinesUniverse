@@ -1,7 +1,7 @@
 ﻿- type: accessGroup
   id: CMP
   parent: RMCBaseMPJob
-  name: Chief MP
+  name: "Головний військовий поліцейський"
   tags:
   - CMAccessBrig
   - CMAccessArmory
@@ -24,7 +24,7 @@
 - type: accessGroup
   id: MP
   parent: RMCBaseMPJob
-  name: Military Police
+  name: "Військова поліція"
   tags:
   - CMAccessBrig
   - RMCAccessCommand
@@ -44,7 +44,7 @@
 - type: accessGroup
   id: CMWarden
   parent: RMCBaseMPJob
-  name: Military Warden
+  name: "Військовий варден"
   tags:
   - CMAccessBrig
   - RMCAccessCommand

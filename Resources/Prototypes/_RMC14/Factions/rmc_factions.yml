@@ -9,7 +9,7 @@
 
 - type: npcFaction
   id: RMCXeno
-  name: Prime Hive
+  name: "Первинний вулик"
   hostile:
   - UNMC
   - NanoTrasen
@@ -27,7 +27,7 @@
 
 - type: npcFaction
   id: CMUAPE
-  name: Apes
+  name: "Мавпи"
   hostile:
   - UNMC
   - NanoTrasen

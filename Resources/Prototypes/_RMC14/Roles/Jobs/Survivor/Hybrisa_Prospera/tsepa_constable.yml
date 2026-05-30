@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCSurvivorPresetHybrisaConstable
-  name: constable colonist preset
+  name: "пресет колоніста-констебля"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -122,8 +122,8 @@
 - type: entity
   parent: RMCBaseTesla
   id: RMCTesla
-  name: UN 21S tesla coil
-  description: A perfected way of producing high-voltage, low-current and high-frequency electricity. Minor modifications allow it to only hit hostile targets with a devastating shock.
+  name: "катушка тесла UN 21S"
+  description: "Удосконалений спосіб виробництва високовольтної, низькострумової та високочастотної електрики. Невеликі модифікації дозволяють їй вражати лише ворожі цілі нищівним ударом струму."
   components:
   - type: Icon
     sprite: _RMC14/Objects/Weapons/Sentries/tesla.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: RMCTesla
   id: RMCTeslaMicro
-  name: UN 25S micro tesla coil
-  description: A perfected way of producing high-voltage, low-current and high-frequency electricity. Minor modifications allow it to only hit hostile targets with a devastating shock. This one is smaller and more lightweight.
+  name: "мікрокатушка тесла UN 25S"
+  description: "Удосконалений спосіб виробництва високовольтної, низькострумової та високочастотної електрики. Невеликі модифікації дозволяють їй вражати лише ворожі цілі нищівним ударом струму. Ця менша й легша."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/tesla.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: RMCTesla
   id: RMCTeslaOverclocked
-  name: UN 21S overclocked tesla coil
-  description: A perfected way of producing high-voltage, low-current and high-frequency electricity. Minor modifications allow it to only hit hostile targets with a devastating shock. This one is significantly overclocked, providing a lot more voltage at the cost of speed.
+  name: "розгінна катушка тесла UN 21S"
+  description: "Удосконалений спосіб виробництва високовольтної, низькострумової та високочастотної електрики. Невеликі модифікації дозволяють їй вражати лише ворожі цілі нищівним ударом струму. Цю значно розігнали, що дає набагато більше напруги ціною швидкості."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Sentries/tesla.rsi
@@ -227,7 +227,7 @@
 - type: entity
   parent: RMCTesla
   id: RMCTeslaTSE
-  name: L10D tesla coil
+  name: "катушка тесла L10D"
   suffix: PVE, RCM IFF
   components:
   - type: UserIFF

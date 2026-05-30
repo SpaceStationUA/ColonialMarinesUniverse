@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBarricadeSnow
   id: dirtMound
-  name: dirt mound
-  description: A pile of dirt that can be used as cover. Statistically better than thin air as cover.
+  name: "земляний насип"
+  description: "Купа землі, яку можна використати як укриття. Статистично краща за тонке повітря як укриття."
   components:
   - type: Sprite
     color: "#4d3e36"

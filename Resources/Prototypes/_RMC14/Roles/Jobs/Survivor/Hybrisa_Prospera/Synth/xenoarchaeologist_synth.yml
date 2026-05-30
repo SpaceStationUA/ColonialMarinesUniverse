@@ -68,7 +68,7 @@
 
 - type: entity
   id: RMCSurvivorPresetHybrisaSynthXenoarch
-  name: survivor synth hybrisa Xenoarch preset
+  name: "пресет вцілілого синтетика-ксеноархеолога гібріси"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,7 +1,7 @@
 - type: entity
   id: RMCPodDoorButton
-  name: button
-  description: A remote control-switch for a door.
+  name: "кнопка"
+  description: "Дистанційний перемикач для дверей."
   placement:
     mode: SnapgridCenter
     snap:
@@ -43,14 +43,14 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonShip
-  name: button
-  description: A basic button that does basic things.
+  name: "кнопка"
+  description: "Проста кнопка, що робить прості речі."
 
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonMP
-  name: button
-  description: A button locked to Military Police.
+  name: "кнопка"
+  description: "Кнопка, заблокована для Військової Поліції."
   suffix: Locked, Brig & Command
   components:
   - type: AccessReader
@@ -59,8 +59,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCommand
-  name: button
-  description: A basic button locked to Command.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Командування."
   suffix: Locked, Command
   components:
   - type: AccessReader
@@ -69,8 +69,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonSeniorCommand
-  name: button
-  description: A basic button locked to Senior Command.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Старшого Командування."
   suffix: Locked, Senior Command
   components:
   - type: AccessReader
@@ -79,8 +79,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonPilot
-  name: button
-  description: A basic button locked to pilots and crew chiefs.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для пілотів і командирів екіпажу."
   suffix: Locked, Dropship & Command
   components:
   - type: AccessReader
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonRequisitions
-  name: button
-  description: A basic button locked to requisitions staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для персоналу постачання."
   suffix: Locked, Requisitions & Command
   components:
   - type: AccessReader
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonKitchen
-  name: button
-  description: A basic button locked to kitchen staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для кухонного персоналу."
   suffix: Locked, Kitchen & Command
   components:
   - type: AccessReader
@@ -109,8 +109,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonEngineering
-  name: button
-  description: A basic button locked to engineering staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для інженерного персоналу."
   suffix: Locked, Engineering & Command
   components:
   - type: AccessReader
@@ -119,8 +119,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonVehicle
-  name: button
-  description: A basic button locked to Vehicle Crewmen.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для водіїв транспорту."
   suffix: Locked, Vehicle Crewmen & Command
   components:
   - type: AccessReader
@@ -129,8 +129,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonOrdnance
-  name: button
-  description: A basic button locked to Ordnance Techs.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для техніків боєприпасів."
   suffix: Locked, Ordnance & Command
   components:
   - type: AccessReader
@@ -139,8 +139,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonMedical
-  name: button
-  description: A basic button locked to medical staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для медичного персоналу."
   suffix: Locked, Medical & Command
   components:
   - type: AccessReader
@@ -149,8 +149,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonMorgue
-  name: button
-  description: A basic button locked to medical staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для медичного персоналу."
   suffix: Locked, Morgue
   components:
   - type: AccessReader
@@ -159,8 +159,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonChemistry
-  name: button
-  description: A basic button locked to chemistry.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для хімії."
   suffix: Locked, Chemistry & Command
   components:
   - type: AccessReader
@@ -169,8 +169,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonResearch
-  name: button
-  description: A basic button locked to research staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для дослідницького персоналу."
   suffix: Locked, Research & Command
   components:
   - type: AccessReader
@@ -179,8 +179,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonSynth
-  name: button
-  description: A basic button locked to Synthetics.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Синтетиків."
   suffix: Locked, Synthetic
   components:
   - type: AccessReader
@@ -189,8 +189,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCMO
-  name: button
-  description: A basic button locked to the Chief Medical Officer.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Головного Медичного Офіцера."
   suffix: Locked, CMO
   components:
   - type: AccessReader
@@ -199,8 +199,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCE
-  name: button
-  description: A basic button locked to the Chief Engineer.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Головного Інженера."
   suffix: Locked, CE
   components:
   - type: AccessReader
@@ -209,8 +209,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonCO
-  name: button
-  description: A basic button locked to the Commanding Officer.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Командира."
   suffix: Locked, CO
   components:
   - type: AccessReader
@@ -219,8 +219,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonSEA
-  name: button
-  description: A basic button locked to Senior Enlisted Advisors.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Старших Радників зі складу рядових."
   suffix: Locked, SEA
   components:
   - type: AccessReader
@@ -229,8 +229,8 @@
 - type: entity
   parent: RMCPodDoorButtonShip
   id: RMCPodDoorButtonArmory
-  name: button
-  description: A basic button locked to Armory.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Арсеналу."
   suffix: Locked, Armory
   components:
   - type: AccessReader
@@ -241,8 +241,8 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonBigRed
-  name: button
-  description: A remote control-switch for a door.
+  name: "кнопка"
+  description: "Дистанційний перемикач для дверей."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/door_button_br.rsi
@@ -255,14 +255,14 @@
 - type: entity
   parent: RMCPodDoorButtonBigRed
   id: RMCPodDoorButtonBigRedShip
-  name: button
-  description: A basic button that does basic things.
+  name: "кнопка"
+  description: "Проста кнопка, що робить прості речі."
 
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedMP
-  name: button
-  description: A button locked to Military Police.
+  name: "кнопка"
+  description: "Кнопка, заблокована для Військової Поліції."
   suffix: Locked, Brig & Command
   components:
   - type: AccessReader
@@ -271,8 +271,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCommand
-  name: button
-  description: A basic button locked to Command.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Командування."
   suffix: Locked, Command
   components:
   - type: AccessReader
@@ -281,8 +281,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedSeniorCommand
-  name: button
-  description: A basic button locked to Senior Command.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Старшого Командування."
   suffix: Locked, Senior Command
   components:
   - type: AccessReader
@@ -291,8 +291,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedPilot
-  name: button
-  description: A basic button locked to pilots and crew chiefs.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для пілотів і командирів екіпажу."
   suffix: Locked, Dropship & Command
   components:
   - type: AccessReader
@@ -301,8 +301,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedRequisitions
-  name: button
-  description: A basic button locked to requisitions staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для персоналу постачання."
   suffix: Locked, Requisitions & Command
   components:
   - type: AccessReader
@@ -311,8 +311,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedKitchen
-  name: button
-  description: A basic button locked to kitchen staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для кухонного персоналу."
   suffix: Locked, Kitchen & Command
   components:
   - type: AccessReader
@@ -321,8 +321,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedEngineering
-  name: button
-  description: A basic button locked to engineering staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для інженерного персоналу."
   suffix: Locked, Engineering & Command
   components:
   - type: AccessReader
@@ -331,8 +331,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedVehicle
-  name: button
-  description: A basic button locked to Vehicle Crewmen.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для водіїв транспорту."
   suffix: Locked, Vehicle Crewmen & Command
   components:
   - type: AccessReader
@@ -341,8 +341,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedOrdnance
-  name: button
-  description: A basic button locked to Ordnance Techs.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для техніків боєприпасів."
   suffix: Locked, Ordnance & Command
   components:
   - type: AccessReader
@@ -351,8 +351,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedMedical
-  name: button
-  description: A basic button locked to medical staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для медичного персоналу."
   suffix: Locked, Medical & Command
   components:
   - type: AccessReader
@@ -361,8 +361,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedChemistry
-  name: button
-  description: A basic button locked to chemistry.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для хімії."
   suffix: Locked, Chemistry & Command
   components:
   - type: AccessReader
@@ -371,8 +371,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedResearch
-  name: button
-  description: A basic button locked to research staff.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для дослідницького персоналу."
   suffix: Locked, Research & Command
   components:
   - type: AccessReader
@@ -381,8 +381,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedSynth
-  name: button
-  description: A basic button locked to Synthetics.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Синтетиків."
   suffix: Locked, Synthetic
   components:
   - type: AccessReader
@@ -391,8 +391,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCMO
-  name: button
-  description: A basic button locked to the Chief Medical Officer.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Головного Медичного Офіцера."
   suffix: Locked, CMO
   components:
   - type: AccessReader
@@ -401,8 +401,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCE
-  name: button
-  description: A basic button locked to the Chief Engineer.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Головного Інженера."
   suffix: Locked, CE
   components:
   - type: AccessReader
@@ -411,8 +411,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedCO
-  name: button
-  description: A basic button locked to the Commanding Officer.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Командира."
   suffix: Locked, CO
   components:
   - type: AccessReader
@@ -421,8 +421,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedSEA
-  name: button
-  description: A basic button locked to Senior Enlisted Advisors.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Старших Радників зі складу рядових."
   suffix: Locked, SEA
   components:
   - type: AccessReader
@@ -431,8 +431,8 @@
 - type: entity
   parent: RMCPodDoorButtonBigRedShip
   id: RMCPodDoorButtonBigRedArmory
-  name: button
-  description: A basic button locked to Armory.
+  name: "кнопка"
+  description: "Проста кнопка, заблокована для Арсеналу."
   suffix: Locked, Armory
   components:
   - type: AccessReader
@@ -451,7 +451,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeDoor
-  name: Office Door Shutter
+  name: "Заслінка дверей офісу"
   components:
   - type: RMCDoorButton
     id: cl_office_door
@@ -459,7 +459,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeWindows
-  name: Office Windows Shutters
+  name: "Заслінки вікон офісу"
   components:
   - type: RMCDoorButton
     id: cl_office_windows
@@ -467,7 +467,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeRoomDivider
-  name: Room Divider
+  name: "Розділювач кімнат"
   components:
   - type: RMCDoorButton
     id: RoomDivider
@@ -475,7 +475,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeEvacPod
-  name: Evac Pod Door Control
+  name: "Керування дверима евакуаційної капсули"
   components:
   - type: RMCDoorButton
     id: cl_evac
@@ -483,7 +483,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeQuarterDoor
-  name: Quarter Door Shutter
+  name: "Заслінка дверей казарми"
   components:
   - type: RMCDoorButton
     id: cl_quarter_door
@@ -491,7 +491,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeMaintenanceDoor
-  name: Maintenance Door Shutter
+  name: "Заслінка дверей техзони"
   components:
   - type: RMCDoorButton
     id: cl_quarter_maintenance
@@ -499,7 +499,7 @@
 - type: entity
   parent: RMCPodDoorButtonWeYa
   id: RMCPodDoorButtonWeYaOfficeQuarterWindows
-  name: Quarter Windows Shutters
+  name: "Заслінки вікон казарми"
   components:
   - type: RMCDoorButton
     id: cl_quarter_windows
@@ -515,7 +515,7 @@
 - type: entity
   parent: RMCPodDoorButton
   id: RMCPodDoorButtonHybrisaCavesLockdown
-  name: Caves Lockdown
+  name: "Блокування печер"
   suffix: Hybrisa
   components:
   - type: RMCDoorButton

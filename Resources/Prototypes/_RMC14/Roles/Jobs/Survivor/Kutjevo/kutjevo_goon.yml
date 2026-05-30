@@ -20,7 +20,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorKutjevoGoon
-  name: kutjevo goon spawn point
+  name: "спавнер бандита кутьєво"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorKutjevoGoon

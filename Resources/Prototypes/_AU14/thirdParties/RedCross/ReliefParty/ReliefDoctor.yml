@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobRedCrossDoctor
-  name: ICRC Medical Staff Doctor
-  description: You are a member of the medical staff assigned to an International Committee of the Red Cross relief mission, traveling from colony to colony to provide vaccines, medical aid and humanitarian assistance. Provide care to those you encounter and help the people of the Neroid Sector.
+  name: "лікар медперсоналу МКЧХ"
+  description: "Ви є членом медичного персоналу, прикріпленого до гуманітарної місії Міжнародного комітету Червоного Хреста, що подорожує від колонії до колонії, надаючи вакцини, медичну допомогу та гуманітарну підтримку. Надавайте допомогу тим, кого зустрінете, і допомагайте людям сектору Нероїд."
   setPreference: true
   canBeAntag: false
   playTimeTracker: AU14JobRedCrossDoctor
@@ -60,7 +60,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicRedCross
   id: AU14PartyJobICRCDoctor
-  name: ICRC Medical Staff Doctor
+  name: "лікар медперсоналу МКЧХ"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -68,8 +68,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: ICRC Medical Staff Doctor
-    description: You are a member of the medical staff assigned to an International Committee of the Red Cross relief mission, traveling from colony to colony to provide vaccines, medical aid and humanitarian assistance. Provide care to those you encounter and help the people of the Neroid Sector.
+    name: "лікар медперсоналу МКЧХ"
+    description: "Ви є членом медичного персоналу, прикріпленого до гуманітарної місії Міжнародного комітету Червоного Хреста, що подорожує від колонії до колонії, надаючи вакцини, медичну допомогу та гуманітарну підтримку. Надавайте допомогу тим, кого зустрінете, і допомагайте людям сектору Нероїд."
     reregister: false
     job: AU14JobRedCrossDoctor
     raffle:
