@@ -3,7 +3,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaStrata
-  name: "Сорокіне Страта"
+  name: Sorokyne Strata
   suffix: Sorokyne Strata
   components:
   - type: Sprite
@@ -17,7 +17,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorOutOfBounds
-  name: "Поза межами"
+  name: Out of Bounds
   components:
   - type: Sprite
     state: ag_i
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataExterior
-  name: "Зовні"
+  name: Exterior
   components:
   - type: Sprite
     state: ag_e
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataInterior
-  name: "Усередині"
+  name: Interior
   components:
   - type: Sprite
     state: ag_i
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorLandingZones
-  name: "Не використовувати."
+  name: Do not use.
   components:
   - type: Sprite
     state: landingzone_2
@@ -87,7 +87,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorLandingZones
-  name: "Не використовувати."
+  name: Do not use.
   components:
   - type: Sprite
     state: landingzone_1
@@ -97,7 +97,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorLandingZones
   id: RMCAreaStrataExteriorLandingZonesLz2
-  name: "Майданчик зони висадки 2 — Кам'янисті поля"
+  name: Landing Zone 2 Pad - Rocky Fields
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -105,7 +105,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorLandingZones
   id: RMCAreaStrataExteriorLandingZonesNearLz2
-  name: "Зона висадки 2 — Кам'янисті поля"
+  name: Landing Zone 2 - Rocky Fields
   components:
   - type: Sprite
     state: nearlz2
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorLandingZones
   id: RMCAreaStrataInteriorLandingZonesLz1
-  name: "Майданчик зони висадки 1 — Шахтарський аеродром"
+  name: Landing Zone 1 Pad - Mining Aerodrome
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorLandingZones
   id: RMCAreaStrataInteriorLandingZonesNearLz1
-  name: "Зона висадки 1 — Шахтарський аеродром"
+  name: Landing Zone 1 - Mining Aerodrome
   components:
   - type: Sprite
     state: nearlz1
@@ -133,7 +133,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorShedFiveCaves
-  name: "Верхня доріжка терміналу 5"
+  name: Terminal Five Topside Pathway
   components:
   - type: Sprite
     state: lzcaves
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorLzCaves
-  name: "Зовнішня доріжка шахтарського аеродрому"
+  name: External Mining Aerodrome Pathway
   components:
   - type: Sprite
     state: lzcaves
@@ -151,7 +151,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorMarsh
-  name: "Не використовувати."
+  name: Do not use.
   components:
   - type: Sprite
     state: marsh
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshSpringMarshes
-  name: "Болота геотермальних джерел"
+  name: Geothermal Springs Marshes
   components:
   - type: Area
     linkedLz: dropship_lz1, dropship_lz2
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshWaterMarshes
-  name: "Геотермальні водні болота"
+  name: Geothermal Water Marshes
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshIslandMarshes
-  name: "Геотермальні острівні болота"
+  name: Geothermal Island Marshes
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshRelayMarshes
-  name: "Болота геотермального ретранслятора"
+  name: Geothermal Relay Marshes
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -191,7 +191,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshCenter
-  name: "Геотермальні джерела"
+  name: Geothermal Springs
   components:
   - type: Sprite
     state: marshcenter
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshRiver
-  name: "Геотермальна річка"
+  name: Geothermal River
   components:
   - type: Sprite
     state: marshriver
@@ -211,7 +211,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshCrash
-  name: "Геотермальний десантний корабель, що зазнав аварії"
+  name: Geothermal Crashed Dropship
   components:
   - type: Sprite
     state: marshship
@@ -221,7 +221,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorMarsh
   id: RMCAreaStrataExteriorMarshWater
-  name: "Геотермальна вода"
+  name: Geothermal Water
   components:
   - type: Sprite
     state: marshwater
@@ -231,7 +231,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorVanyard
-  name: "Автостоянка контролю польотів"
+  name: Flight Control Vehicle Yard
   components:
   - type: Sprite
     state: garage
@@ -241,7 +241,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorOutpostDecks
-  name: "Аванпост — Палуби"
+  name: Outpost - Decks
   components:
   - type: Sprite
     state: rdecks
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorFlightControlExterior
-  name: "Зовнішня частина контролю польотів"
+  name: Flight Control Exterior
   components:
   - type: Sprite
     state: path
@@ -261,7 +261,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorMiningOutpostExterior
-  name: "Шахтарський аванпост — Зовні"
+  name: Mining Outpost - Exterior
   components:
   - type: Sprite
     state: path
@@ -271,7 +271,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorNorthOutpost
-  name: "Аванпост — Північний канал доступу"
+  name: Outpost - North Access Channel
   components:
   - type: Sprite
     state: path
@@ -281,7 +281,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorFarNorthOutpost
-  name: "Далеко на північ від аванпосту"
+  name: Far North Of The Outpost
   components:
   - type: Sprite
     state: path
@@ -289,7 +289,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorSouthOutpost
-  name: "На південь від аванпосту"
+  name: South Of The Outpost
   components:
   - type: Sprite
     state: path
@@ -299,7 +299,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsMiningCaves
-  name: "Шахтарський шлях — ретранслятор"
+  name: Mining Pathway Relay
   components:
   - type: Sprite
     state: tcomms1
@@ -307,7 +307,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsVehicleYard
-  name: "Автостоянка — ретранслятор"
+  name: Vehicle Yard Relay
   components:
   - type: Sprite
     state: tcomms1
@@ -317,7 +317,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsCrashedDropship
-  name: "Десантний корабель, що зазнав аварії — ретранслятор"
+  name: Crashed Dropship Relay
   components:
   - type: Sprite
     state: tcomms1
@@ -325,7 +325,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsGeosprings
-  name: "Геотермальні джерела — ретранслятор"
+  name: Geothermal Springs Relay
   components:
   - type: Sprite
     state: tcomms1
@@ -333,7 +333,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorTcommsEngineeringPartsStorage
-  name: "Інженерія — Платформа складу деталей — ретранслятор"
+  name: Engineering - Parts Storage Platform Relay
   components:
   - type: Sprite
     state: tcomms1
@@ -344,7 +344,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorOutpost
-  name: "Аванпост Сорокіне"
+  name: Sorokyne Outpost
   components:
   - type: Sprite
     state: shed_x_ag
@@ -354,7 +354,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostFoyer
-  name: "Аванпост — Головний фойє"
+  name: Outpost - Main Foyer
   components:
   - type: Sprite
     state: outpost_gen_1
@@ -362,7 +362,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostMaint
-  name: "Аванпост — Їдальня — Східне обслуговування"
+  name: Outpost - Canteen - Eastern Maintenance
   components:
   - type: Sprite
     state: outpost_maint
@@ -370,7 +370,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostMed
-  name: "Аванпост — Медичний"
+  name: Outpost - Medical
   components:
   - type: Sprite
     state: outpost_med
@@ -380,7 +380,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostEngi
-  name: "Аванпост — Інженерний"
+  name: Outpost - Engineering
   components:
   - type: Sprite
     state: outpost_engi_0
@@ -390,7 +390,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostEngi
   id: RMCAreaStrataInteriorOutpostEngiDrome
-  name: "Аванпост — Аеродром"
+  name: Outpost - Aerodome
   components:
   - type: Sprite
     state: outpost_engi_4
@@ -398,7 +398,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostEngiDrome
   id: RMCAreaStrataInteriorOutpostEngiDromeShuttle
-  name: "Розібраний VDVK Eagle Mk 4"
+  name: Dismantled VDVK Eagle Mk 4
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -406,7 +406,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostEngiDrome
   id: RMCAreaStrataInteriorOutpostEngiDromeShuttleMK3
-  name: "VDVK Eagle Mk 3"
+  name: VDVK Eagle Mk 3
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -414,7 +414,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorShuttleSof
-  name: "UPP-DS-3 «Ворон»"
+  name: UPP-DS-3 'Voron'
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -422,7 +422,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorSupplyShuttleSof
-  name: "UPP-DS-3 «Волк»"
+  name: UPP-DS-3 'Volk'
   components:
   - type: Sprite
     state: outpost_engi_3
@@ -430,7 +430,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostSecurity
-  name: "Аванпост — Охорона"
+  name: Outpost - Security
   components:
   - type: Sprite
     state: outpost_sec_0
@@ -440,7 +440,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostAdmin
-  name: "Аванпост — Адміністрація"
+  name: Outpost - Administration
   components:
   - type: Sprite
     state: outpost_admin_0
@@ -459,7 +459,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostCanteen
-  name: "Аванпост — Їдальня"
+  name: Outpost - Canteen
   components:
   - type: Sprite
     state: outpost_canteen_0
@@ -477,7 +477,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorOutpostCanteen
   id: RMCAreaStrataInteriorOutpostCanteenBar
-  name: "Аванпост — Бар"
+  name: Outpost - Bar
   components:
   - type: Sprite
     state: outpost_canteen_2
@@ -485,7 +485,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorMiningOutpost
-  name: "Шахтарський аванпост — Центральний"
+  name: Mining Outpost - Central
   components:
   - type: Sprite
     state: dorms_0
@@ -496,7 +496,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostSouthDormitories
-  name: "Шахтарський аванпост — Південні гуртожитки"
+  name: Mining Outpost - South Dormitories
   components:
   - type: Sprite
     state: dorms_3
@@ -514,7 +514,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostMaintenance
-  name: "Шахтарський аванпост — Обслуговування гуртожитку"
+  name: Mining Outpost - Dormitory Maintenance
   components:
   - type: Sprite
     state: outpost_maint
@@ -522,7 +522,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostHive
-  name: "Шахтарський аванпост — Геотермальний склад гуртожитку"
+  name: Mining Outpost - Dormitory Geothermal Storage
   components:
   - type: Sprite
     state: dorms_beno
@@ -530,7 +530,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostCanteen
-  name: "Шахтарський аванпост — Їдальня гуртожитку"
+  name: Mining Outpost - Dormitory Canteen
   components:
   - type: Sprite
     state: dorms_canteen
@@ -548,7 +548,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorMiningOutpost
   id: RMCAreaStrataInteriorMiningOutpostFlightControl
-  name: "Шахтарський аванпост — Контроль польотів"
+  name: Mining Outpost - Flight Control
   components:
   - type: Sprite
     state: dorms_lobby
@@ -556,7 +556,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorAdministration
-  name: "Офіси контролю польотів"
+  name: Flight Control Offices
   components:
   - type: Sprite
     state: offices
@@ -567,7 +567,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorWoodenHospital
-  name: "Дерев'яна лікарня — Власне лікарня"
+  name: Wooden Hospital - Hospital Proper
   components:
   - type: Sprite
     state: cabin3
@@ -577,7 +577,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorWoodenRuins
-  name: "Стара дерев'яна будівля"
+  name: Old Wooden Building
   components:
   - type: Sprite
     state: cabin3
@@ -596,22 +596,22 @@
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsNorthArmor
-  name: "Північний броньований чекпоінт охорони"
+  name: North Security Armored Checkpoint
 
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsNorth
-  name: "Чекпоінт охорони північної зони висадки"
+  name: Landing Zone North Security Checkpoint
 
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsWest
-  name: "Чекпоінт охорони західної зони висадки"
+  name: Landing Zone West Security Checkpoint
 
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsSouth
-  name: "Чекпоінт охорони південної зони висадки"
+  name: Landing Zone South Security Checkpoint
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -619,7 +619,7 @@
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsOutpost
-  name: "Аванпост — Чекпоінт охорони палуби"
+  name: Outpost - Deck Security Checkpoint
   components:
   - type: Sprite
     state: rdecks_sec
@@ -627,7 +627,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorPartsStorage
-  name: "Інженерія — Склад деталей"
+  name: Engineering - Parts Storage
   components:
   - type: Sprite
     state: outpost_engi_1
@@ -637,7 +637,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorGeneratorSubstation
-  name: "Інженерія — Підстанція генератора"
+  name: Engineering - Generator Substation
   components:
   - type: Sprite
     state: outpost_engi_1
@@ -645,7 +645,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorPartsStorageExterior
-  name: "Інженерія — Зовнішня частина складу деталей"
+  name: Engineering - Parts Storage Exterior
   components:
   - type: Sprite
     state: outpost_engi_4
@@ -663,7 +663,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorPartsStorageCave
-  name: "Інженерія — Зовнішня частина складу деталей"
+  name: Engineering - Parts Storage Exterior
   components:
   - type: Sprite
     state: outpost_engi_4
@@ -682,7 +682,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorBball
-  name: "Аванпост — Баскетбольний майданчик"
+  name: Outpost - Basket Ball Court
   components:
   - type: Sprite
     state: outpost_gen_4
@@ -692,7 +692,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorBballCave
-  name: "Аванпост — Печери баскет-зала"
+  name: Outpost - B-Ball Caves
   components:
   - type: Sprite
     state: hive_1
@@ -711,7 +711,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorSecureCheckpoint
-  name: "Прохід через захищений чекпоінт"
+  name: Secure Checkpoint Passthrough
   components:
   - type: Sprite
     state: outpost_engi_0
@@ -730,7 +730,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorUndergroundDorms
-  name: "Не використовувати."
+  name: Do not use.
   components:
   - type: Sprite
     state: ug_jung_dorm
@@ -749,52 +749,52 @@
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsSec1
-  name: "Глибокі джунглі — Гуртожиток охорони #1"
+  name: Deep Jungle - Security Dorm \#1
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsSec2
-  name: "Глибокі джунглі — Гуртожиток охорони #2"
+  name: Deep Jungle - Security Dorm \#2
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin1
-  name: "Глибокі джунглі — Гуртожиток загального персоналу #1"
+  name: Deep Jungle - General Staff Dorm \#1
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin2
-  name: "Глибокі джунглі — Гуртожиток загального персоналу #2"
+  name: Deep Jungle - General Staff Dorm \#2
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin3
-  name: "Глибокі джунглі — Гуртожиток загального персоналу #3"
+  name: Deep Jungle - General Staff Dorm \#3
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsAdmin4
-  name: "Глибокі джунглі — Гуртожиток загального персоналу #4"
+  name: Deep Jungle - General Staff Dorm \#4
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsMed1
-  name: "Глибокі джунглі — Медичний гуртожиток #1"
+  name: Deep Jungle - Medical Dorm \#1
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsMed2
-  name: "Глибокі джунглі — Медичний гуртожиток #2"
+  name: Deep Jungle - Medical Dorm \#2
 
 - type: entity
   parent: RMCAreaStrataInteriorUndergroundDorms
   id: RMCAreaStrataInteriorUndergroundDormsBotany
-  name: "Ботанічна дослідницька станція"
+  name: Botanical Research Station
 
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorOutpostPlatform
-  name: "Глибокі джунглі — Платформа"
+  name: Deep Jungle - Platform
   components:
   - type: Sprite
     state: ug_jung_1
@@ -804,7 +804,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorCarplakeCenter
-  name: "Глибокі джунглі — Центральний острів озера"
+  name: Deep Jungle - Lake Center Island
   components:
   - type: Sprite
     state: ug_jung_1
@@ -812,7 +812,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorDeepJungle
-  name: "Не використовувати."
+  name: Do not use.
   components:
   - type: Sprite
     state: ug_jung_0
@@ -831,7 +831,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleCarplakeNorth
-  name: "Глибокі джунглі — На північ від Озера Карпів"
+  name: Deep Jungle - North of Carp Lake
   components:
   - type: Sprite
     state: ug_jung_6
@@ -839,7 +839,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleCarplakeEast
-  name: "Глибокі джунглі — На схід від Озера Карпів"
+  name: Deep Jungle - East of Carp Lake
   components:
   - type: Sprite
     state: ug_jung_5
@@ -847,7 +847,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJunglePlatform
-  name: "Глибокі джунглі — На південь від платформи"
+  name: Deep Jungle - South of the Platform
   components:
   - type: Sprite
     state: ug_jung_4
@@ -855,7 +855,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJunglePlatformEast
-  name: "Глибокі джунглі — На схід від платформи"
+  name: Deep Jungle - East of the Platform
   components:
   - type: Sprite
     state: ug_jung_0
@@ -873,7 +873,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleHotSprings
-  name: "Глибокі джунглі — Гарячі джерела"
+  name: Deep Jungle - Hot Springs
   components:
   - type: Sprite
     state: ug_jung_4
@@ -883,7 +883,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleOldTunnels
-  name: "Глибокі джунглі — Стара стежка — На захід від таємної дослідницької станції"
+  name: Deep Jungle - Old Path - West of Classified Research Station
   components:
   - type: Sprite
     state: ug_jung_mine_1
@@ -902,7 +902,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleNorth
-  name: "Глибокі джунглі — На південь від таємної дослідницької станції"
+  name: Deep Jungle - South of Classified Research Station
   components:
   - type: Sprite
     state: ug_jung_6
@@ -912,7 +912,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleWest
-  name: "Глибокі джунглі — На захід від моніторингу планетарного ядра"
+  name: Deep Jungle - West of Planetary Core Monitoring
   components:
   - type: Sprite
     state: ug_jung_6
@@ -922,7 +922,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleSouth
-  name: "Глибокі джунглі — На південь від моніторингу планетарного ядра"
+  name: Deep Jungle - South of Planetary Core Monitoring
   components:
   - type: Sprite
     state: ug_jung_7
@@ -932,7 +932,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleEast
-  name: "Глибокі джунглі — На схід від моніторингу планетарного ядра"
+  name: Deep Jungle - East of Planetary Core Monitoring
   components:
   - type: Sprite
     state: ug_jung_8
@@ -942,7 +942,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJunglePlanetCoreResearchStationExterior
-  name: "Глибокі джунглі — Дослідницька станція моніторингу планетарного ядра"
+  name: Deep Jungle - Planetary Core Monitoring Research Station
   components:
   - type: Sprite
     state: ug_jung_8
@@ -952,7 +952,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleRuin
-  name: "Глибокі джунглі — Стародавні гуртожитки"
+  name: Deep Jungle - Ancient Dorms
   components:
   - type: Sprite
     state: ug_jung_mine_4
@@ -960,7 +960,7 @@
 - type: entity
   parent: RMCAreaStrataExteriorDeepJungle
   id: RMCAreaStrataExteriorDeepJungleTearlake
-  name: "Глибокі джунглі — Сльозливе озеро"
+  name: Deep Jungle - Weeping Pool
   components:
   - type: Sprite
     state: ug_jung_3
@@ -968,7 +968,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorPlanetCoreResearchStation
-  name: "Глибокі джунглі — Дослідницька станція моніторингу планетарного ядра"
+  name: Deep Jungle - Planetary Core Monitoring Research Station
   components:
   - type: Sprite
     state: ug_jung_5
@@ -987,7 +987,7 @@
 - type: entity
   parent: RMCAreaStrataInterior
   id: RMCAreaStrataInteriorResearch
-  name: "Глибокі джунглі — Таємна дослідницька станція"
+  name: Deep Jungle - Classified Research Station
   components:
   - type: Sprite
     state: ug_jung_2
@@ -1006,7 +1006,7 @@
 - type: entity
   parent: RMCAreaStrataExterior
   id: RMCAreaStrataExteriorRestricted
-  name: "Суперсекретна кімната кредитів"
+  name: Super Secret Credits Room
   components:
   - type: Sprite
     state: marshwater
@@ -1030,14 +1030,14 @@
 - type: entity
   parent: RMCAreaStrataInteriorCheckpoints
   id: RMCAreaStrataInteriorCheckpointsClf
-  name: "Бронечекпоінт далекої півночі"
+  name: Far North Armored Checkpoint
 
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostClfDorms
-  name: "Гуртожиток далекої півночі"
+  name: Far North Dormitory
 
 - type: entity
   parent: RMCAreaStrataInteriorOutpost
   id: RMCAreaStrataInteriorOutpostClfOffice
-  name: "Офіс далекої півночі"
+  name: Far North Office

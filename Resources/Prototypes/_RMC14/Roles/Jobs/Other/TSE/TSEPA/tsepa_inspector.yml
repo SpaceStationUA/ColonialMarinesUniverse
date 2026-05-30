@@ -65,7 +65,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointTSEPAInspector
-  name: "спавнер інспектора tsepa"
+  name: tsepa inspector spawn point
   components:
   - type: SpawnPoint
     job_id: RMCTSEPAInspector

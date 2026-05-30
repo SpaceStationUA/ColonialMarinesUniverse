@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateRestrictedEquipmentArmorM4
   parent: RMCCrateBase
-  name: "ящик броні морпіхів схеми M4 (x1 шолом, x1 броня)"
+  name: M4 pattern marine armor crate (x1 helmet, x1 armor)
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   id: RMCCrateRestrictedEquipmentArmorB12
   parent: RMCCrateBase
-  name: "ящик броні морпіхів схеми B12 (x1 шолом, x1 броня)"
+  name: B12 pattern marine armor crate (x1 helmet, x1 armor)
   components:
   - type: StorageFill
     contents:
@@ -20,7 +20,7 @@
 - type: entity
   id: RMCCrateRestrictedEquipmentIntelSupportKit
   parent: RMCCrateBase
-  name: "ящик польової розвідувальної підтримки (x1 фултон, x1 детектор даних, 1x памфлет розвідки, 1x велика документна сумка, 1x ключ радіо розвідки)"
+  name: Field Intelligence Support Kit crate (x1 fulton, x1 data detector, 1x intel pamphlet, 1x large document pouch, 1x intel radio key)
   components:
   - type: StorageFill
     contents:

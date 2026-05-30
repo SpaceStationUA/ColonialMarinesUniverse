@@ -77,8 +77,8 @@
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14FatiguesUPPGROM
   suffix: AU14, GROM
-  name: "польова форма флотської піхоти УПП"
-  description: "Стандартний комплект польової форми Союзу Прогресивних Народів. У нього вшиті фрагменти легкого кевлару для кращого захисту від уламків. Ця вже просочена кров’ю та сльозами після незліченних битв."
+  name: UPP naval infantry fatigues
+  description: A standard set of Union of Progressive Peoples Fatigues. It has shards of light Kevlar to help protect against shrapnel. This one has blood and tears after countless battles.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/jumpsuits/upprecon.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: RMCHeadsetMarine
   id: RMCHeadsetGROM
-  name: "гарнітура ССО УПП"
-  description: "Видається виключно силам спеціальних операцій УПП, таким як Kommando Spezialkrafte та GROM."
+  name: UPP SOF headset
+  description: Issued exclusively to UPP Special Forces such as Kommando Spezialkrafte and GROM.
   suffix: GROM
   components:
   - type: Sprite

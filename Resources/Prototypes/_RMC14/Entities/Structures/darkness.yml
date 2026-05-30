@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCPerspectiveDarkness
-  name: "темрява"
+  name: darkness
   placement:
     mode: SnapgridCenter
   components:

@@ -1,8 +1,8 @@
 - type: entity
   id: VehicleAPCBase
   abstract: true
-  name: "броньований транспортер"
-  description: "Міцний броньований транспортер, оснащений для підтримки на полі бою."
+  name: armored personnel carrier
+  description: A rugged armored personnel carrier outfitted for battlefield support.
   components:
   - type: Vehicle
     movementKind: Grid
@@ -200,8 +200,8 @@
 - type: entity
   parent: VehicleAPCBase
   id: VehicleAPCMed
-  name: "броньований транспортер (медичний)"
-  description: "БТР медичної конфігурації, оснащений позначками для сортування поранених."
+  name: armored personnel carrier (medical)
+  description: A medical-configured APC outfitted with triage markings.
   components:
   - type: Sprite
     layers:
@@ -241,8 +241,8 @@
 - type: entity
   parent: VehicleAPCBase
   id: VehicleAPCCommand
-  name: "броньований транспортер (командний)"
-  description: "БТР командної конфігурації, нашпигований датчиками та обладнанням зв'язку."
+  name: armored personnel carrier (command)
+  description: A command-configured APC bristling with sensors and comms gear.
   components:
   - type: Sprite
     layers:
@@ -282,8 +282,8 @@
 - type: entity
   parent: VehicleAPCBase
   id: VehicleSPPAPC
-  name: "броньований транспортер СПП"
-  description: "Броньований транспортер, налаштований для сил СПП."
+  name: SPP armored personnel carrier
+  description: An armored personnel carrier configured for SPP forces.
   components:
   - type: GridVehicleMover
     maxSpeed: 5

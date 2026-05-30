@@ -2,8 +2,8 @@
 - type: job
   parent: CMJobBase
   id: RMCWeYaLawyer
-  name: "rmc-job-title-corporate-executive-specialist"
-  description: "rmc-ghost-role-information-corporate-executive-specialist-description"
+  name: rmc-job-title-corporate-executive-specialist
+  description: rmc-ghost-role-information-corporate-executive-specialist-description
   playTimeTracker: RMCJobWeYaLawyer
   ranks:
     RMCRankWeYaLegalSpecialist: []
@@ -58,7 +58,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidWeYaLawyer
-  name: "weya корпоративний привид-роль юриста"
+  name: weya corporate ghost role lawyer
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -73,7 +73,7 @@
   components:
   - type: GhostRole
     name: rmc-ghost-role-information-corporate-executive-specialist-name
-    description: "rmc-ghost-role-information-corporate-executive-specialist-description"
+    description: rmc-ghost-role-information-corporate-executive-specialist-description
     rules: ghost-role-information-nonantagonist-rules
     reregister: false
     job: RMCWeYaLawyer

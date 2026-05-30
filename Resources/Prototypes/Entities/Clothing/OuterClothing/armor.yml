@@ -7,8 +7,8 @@
   abstract: true
   parent: [ClothingOuterBaseMedium, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterArmorBase
-  name: "бронежилет"
-  description: "Стандартний бронежилет типу I, що забезпечує пристойний захист від більшості типів ушкоджень."
+  name: armor vest
+  description: A standard Type I armored vest that provides decent protection against most types of damage.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security.rsi
@@ -38,9 +38,9 @@
 - type: entity
   parent: ClothingOuterArmorBasic
   id: ClothingOuterArmorBasicSlim
-  name: "бронежилет"
+  name: armor vest
   suffix: slim
-  description: "Тонкий бронежилет типу I, що забезпечує пристойний захист від більшості типів ушкоджень."
+  description: A slim Type I armored vest that provides decent protection against most types of damage.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/security_slim.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorBulletproof
-  name: "куленепробивний жилет"
-  description: "Важкий куленепробивний жилет типу III, який чудово захищає носія від традиційної стрілецької зброї та певною мірою від вибухівки."
+  name: bulletproof vest
+  description: A Type III heavy bulletproof vest that excels in protecting the wearer against traditional projectile weaponry and explosives to a minor extent.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bulletproof.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: ClothingOuterArmorBase
   id: ClothingOuterArmorReflective
-  name: "рефлективний жилет"
-  description: "Бронежилет із передовим щитом для захисту від енергетичної зброї."
+  name: reflective vest
+  description: An armored vest with advanced shielding to protect against energy weapons.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/armor_reflec.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: [ClothingOuterArmorBase, BaseSecurityContraband]
   id: ClothingOuterVestDetective
-  name: "жилет детектива"
-  description: "Бронежилет крутого приватного детектива старої школи."
+  name: detective's vest
+  description: A hard-boiled private investigator's armored vest.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/detvest.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: [ClothingOuterArmorBaseCarapace, BaseCommandContraband]
   id: ClothingOuterArmorCaptainCarapace
-  name: "карапас капітана"
-  description: "Броньований нагрудник, що забезпечує захист, водночас зберігаючи максимальну рухливість і гнучкість. Видається лише найкращим на станції."
+  name: captain's carapace
+  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to the station's finest.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/captain_carapace.rsi
@@ -141,8 +141,8 @@
 - type: entity
   parent: [ClothingOuterArmorBaseCarapace, BaseCentcommContraband]
   id: ClothingOuterArmorCentcommCarapace
-  name: "карапас ЦентКому"
-  description: "Броньований нагрудник, що забезпечує захист, водночас зберігаючи максимальну рухливість і гнучкість. Видається лише офіційним особам і агентам ЦентКому."
+  name: centcomm carapace
+  description: An armored chestpiece that provides protection whilst still offering maximum mobility and flexibility. Issued only to centcomm officials and agents.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/centcomm_carapace.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
   id: ClothingOuterVestWeb
-  name: "павутинний жилет"
-  description: "Синтетичний бронежилет. У цьому додано павутинну обв’язку та балістичні пластини."
+  name: web vest
+  description: A synthetic armor vest. This one has added webbing and ballistic plates.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/webvest.rsi
@@ -176,8 +176,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, AllowSuitStorageClothing, BaseSyndicateContraband]
   id: ClothingOuterVestWebElite
-  name: "елітний павутинний жилет"
-  description: "Синтетичний бронежилет. У цьому додано павутинну обв’язку та термостійкі волокна."
+  name: elite web vest
+  description: A synthetic armor vest. This one has added webbing and heat resistant fibers.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/elitevest.rsi
@@ -206,8 +206,8 @@
 - type: entity
   parent: [ BaseMajorContraband, ClothingOuterVestWeb] #web vest so it should have some pockets for ammo
   id: ClothingOuterVestWebMerc
-  name: "павутинний жилет найманця"
-  description: "Високоякісний бронежилет із твердого синтетичного матеріалу. Попри грізні бронепластини, він напрочуд гнучкий і легкий."
+  name: mercenary web vest
+  description: A high-quality armored vest made from a hard synthetic material. It's surprisingly flexible and light, despite formidable armor plating.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Vests/mercwebvest.rsi
@@ -228,8 +228,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSyndicateContraband ]
   id: ClothingOuterArmorRaid
-  name: "рейдовий костюм синдикату"
-  description: "Досить гнучкий і добре броньований костюм із потужним ліхтарем на плечі, виготовлений у фірмовій криваво-червоній кольоровій схемі Gorlex Marauders. Не захищає носія від космосу."
+  name: syndicate raid suit
+  description: A somewhat flexible and well-armored suit with a powerful shoulder mounted flashlight manufactured in the Gorlex Marauder's iconic blood-red color scheme, it does not protect its wearer from space.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/syndie-raid.rsi
@@ -308,8 +308,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing, BaseSecurityContraband]
   id: ClothingOuterArmorRiot
-  name: "костюм для придушення заворушень"
-  description: "Костюм із напівгнучкої полікарбонатної броні з важкою підкладкою для захисту від рукопашних атак. Ідеально для боротьби з хуліганами на станції."
+  name: riot suit
+  description: A suit of semi-flexible polycarbonate body armor with heavy padding to protect against melee attacks. Perfect for fighting delinquents around the station.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/riot.rsi
@@ -330,8 +330,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorCult
-  name: "броня аколіта"
-  description: "Зловісний елемент культової броні, зроблений із кісток."
+  name: acolyte armor
+  description: An evil-looking piece of cult armor, made of bones.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/cult_armour.rsi
@@ -349,8 +349,8 @@
 - type: entity
   parent: [ClothingOuterBaseLarge, AllowSuitStorageClothing]
   id: ClothingOuterArmorHeavy
-  name: "важкий бронекостюм"
-  description: "Важко броньований костюм, що захищає від надмірних ушкоджень."
+  name: heavy armor suit
+  description: A heavily armored suit that protects against excessive damage.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavy.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyGreen
-  name: "зелений важкий бронекостюм"
-  description: "Важко броньований костюм із зеленими акцентами, що захищає від надмірних ушкоджень."
+  name: green heavy armor suit
+  description: A heavily armored suit with green accents that protects against excessive damage.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavygreen.rsi
@@ -383,8 +383,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorHeavyRed
-  name: "червоний важкий бронекостюм"
-  description: "Важко броньований костюм із червоними акцентами, що захищає від надмірних ушкоджень."
+  name: red heavy armor suit
+  description: A heavily armored suit with red accents that protects against excessive damage.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/heavyred.rsi
@@ -394,8 +394,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorMagusblue
-  name: "синя броня мага"
-  description: "Синій бронекостюм, що забезпечує добрий захист."
+  name: blue magus armor
+  description: An blue armored suit that provides good protection.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusblue.rsi
@@ -405,8 +405,8 @@
 - type: entity
   parent: ClothingOuterArmorHeavy
   id: ClothingOuterArmorMagusred
-  name: "червона броня мага"
-  description: "Червоний бронекостюм, що забезпечує добрий захист."
+  name: red magus armor
+  description: A red armored suit that provides good protection.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/magusred.rsi
@@ -416,8 +416,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorChangeling
-  name: "хітинова броня"
-  description: "Роздуває тіло чейнджлінга у всеохопну хітинову масу броні."
+  name: chitinous armor
+  description: Inflates the changeling's body into an all-consuming chitinous mass of armor.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/lingarmor.rsi
@@ -444,8 +444,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorBone
-  name: "кістяна броня"
-  description: "Сидить на тобі, наче друга шкіра."
+  name: bone armor
+  description: Sits on you like a second skin.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/bone_armor.rsi
@@ -473,8 +473,8 @@
 - type: entity
   parent: [ ClothingOuterBaseLarge, BaseMajorContraband, AllowSuitStorageClothing ]
   id: ClothingOuterArmorPodWars
-  name: "броня Ironclad II"
-  description: "Перероблений комплект броні Ironclad II, реліквія воєн подів."
+  name: ironclad II armor
+  description: A repurposed suit of ironclad II armor, a relic of the pod wars.
   components:
   - type: Sprite
     sprite: Clothing/OuterClothing/Armor/podwars_armor.rsi

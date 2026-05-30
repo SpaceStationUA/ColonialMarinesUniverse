@@ -1,6 +1,6 @@
 - type: platoon
   id: exampleplatoon
-  name: "приклад взводу"
+  name: exampleplatoon
   lorePrimer: AU14PrimerPlatoonHAZOPS
   reqlist: USCMCargoCatalog
   VendorToMarker:
@@ -27,7 +27,7 @@
 
 - type: platoon
   id: USCM
-  name: "колоніальна морська піхота США"
+  name: US Colonial Marines
   lorePrimer: AU14PrimerPlatoonUSCM
   Allegiance: UA
   reqlist: USCMCargoCatalog
@@ -60,7 +60,7 @@
 
 - type: platoon
   id: LACN
-  name: "десантні сили ЛАКН"
+  name: LACN Landing Forces
   lorePrimer: AU14PrimerPlatoonLACN
   Allegiance: UA
   reqlist: LACNCargoCatalog
@@ -92,7 +92,7 @@
 - type: platoon
   id: UPP
   language: russian
-  name: "флотська піхота УПП"
+  name: UPP Naval Infantry
   lorePrimer: AU14PrimerPlatoonUPP
   Allegiance: UPP
   reqlist: UPPCargoCatalog
@@ -135,7 +135,7 @@
 
 - type: platoon
   id: WEYU
-  name: "ПВК ВЮ"
+  name: WY PMC
   lorePrimer: AU14PrimerPlatoonWEYU
   reqlist: WEYUCargoCatalog
   VendorToMarker:
@@ -180,7 +180,7 @@
 
 - type: platoon
   id: CMBCIU
-  name: "кризове втручання CMB"
+  name: CMB Crisis Intervention
   lorePrimer: AU14PrimerPlatoonCMBCIU
   Allegiance: UA
   reqlist: CMBCIUCargoCatalog
@@ -225,7 +225,7 @@
 
 - type: platoon
   id: HAZOPS
-  name: "підрозділ небезпечних операцій ККМП США"
+  name: USCM Hazardous Operations Unit
   lorePrimer: AU14PrimerPlatoonHAZOPS
   Allegiance: UA
   reqlist: HAZOPSCargoCatalog
@@ -258,7 +258,7 @@
 
 - type: platoon
   id: ProdigySF
-  name: "сили безпеки Продіджі"
+  name: Prodigy Security Forces
   lorePrimer: AU14PrimerPlatoonProdigySF
   reqlist: ProdigyCargoCatalog
   VendorToMarker:
@@ -293,7 +293,7 @@
 
 - type: platoon
   id: VAIPO
-  name: "основні операції VAI"
+  name: VAI Primary Operations
   lorePrimer: AU14PrimerPlatoonVAIPO
   reqlist: VAIPOCargoCatalog
   VendorToMarker:
@@ -327,7 +327,7 @@
 
 - type: platoon
   id: RMC
-  name: "коммандос Королівської морської піхоти ІТС"
+  name: TWE Royal Marine Commandos
   lorePrimer: AU14PrimerPlatoonRMC
   Allegiance: TWE
   reqlist: RMCCargoCatalog

@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: AU14USArmyTankLoader
   name: au14-job-name-usarmy-tankloader
-  description: "au14-job-description-usarmy-tankccrew"
+  description: au14-job-description-usarmy-tankccrew
   playTimeTracker: AU14JobUSArmyTankLoader
   ranks:
     USArmy_Corporal:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTankLoader
-  name: "заряджальник танка армії США"
+  name: US Army Tank Loader
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

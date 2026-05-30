@@ -1,8 +1,8 @@
 - type: entity
   id: AU14AICoreFARTHURGOVFOR
   parent: AU14AICoreApolloGOVFOR
-  name: "FAR/TH/UR 2600 Ш.І."
-  description: "Це система штучного інтелекту для моніторингу космічних кораблів, колоній або станцій. Виготовлена Вейланд-Ютані."
+  name: FAR/TH/UR 2600 A.I.
+  description: This is the artificial intelligence system for monitoring the space ships, colonies or stations. It is manufactured by Weyland-Yutani.
   suffix: AU14, GOVFOR
   components:
   - type: NameModifier
@@ -11,8 +11,8 @@
 - type: entity
   id: AU14AICoreFARTHUROPFOR
   parent: AU14AICoreApolloOPFOR
-  name: "FAR/TH/UR 2600 Ш.І."
-  description: "Це система штучного інтелекту для моніторингу космічних кораблів, колоній або станцій. Виготовлена Вейланд-Ютані."
+  name: FAR/TH/UR 2600 A.I.
+  description: This is the artificial intelligence system for monitoring the space ships, colonies or stations. It is manufactured by Weyland-Yutani.
   suffix: AU14, OPFOR
   components:
   - type: NameModifier
@@ -21,25 +21,25 @@
 - type: entity
   id: AU14AICoreCPUFARTHUR
   parent: AU14AICoreCPU
-  name: "ЦП FAR/TH/UR 2600 Ш.І"
-  description: "Це центральний процесор FAR/TH/UR. Виготовлений у корпусі, розрахованому на ядерні вибухи, ЦП також містить реєстратор чорного ящика FAR/TH/UR."
+  name: FAR/TH/UR 2600 A.I. CPU
+  description: This is FAR/TH/UR's central processor. Made of a casing designed to withstand nuclear blasts, the CPU also contains FAR/TH/UR's blackbox recorder.
 
 - type: entity
   id: AU14AICoreSubstrateFARTHUR
   parent: AU14AICoreSubstrate
-  name: "субстрат FAR/TH/UR 2600 Ш.І"
-  description: "Субстрат пам’яті FAR/TH/UR, що містить складні протоколи та інформацію. Обмежені можливості можуть працювати лише на субстраті, без працездатного основного блока FAR/TH/UR."
+  name: FAR/TH/UR 2600 A.I. Substrate
+  description: The memory substrate of FAR/TH/UR, containing complex protocols and information. Limited capabilities can operate on substrate alone, without the main FAR/TH/UR Unit operational.
 
 - type: entity
   parent: APOLLOAICoreProcessor
   id: FARTHURAICoreProcessor
-  name: "процесор FAR/TH/UR 2600 Ш.І"
-  description: "Зовнішній процесор для FAR/TH/UR, що використовується для обробки величезних обсягів інформації."
+  name: FAR/TH/UR 2600 A.I. Processor
+  description: An external processor for FAR/TH/UR, used to process vast amounts of information.
 
 - type: entity
   parent: RMCAreaGA
   id: AU14AreaGAAIFARTHUR
-  name: "інтерфейс FAR/TH/UR 2600 Ш.І"
+  name: FAR/TH/UR 2600 A.I. Interface
   components:
   - type: Sprite
     state: wylab
@@ -47,7 +47,7 @@
 - type: entity
   parent: CMChairComfyARES
   id: AU14ChairComfyAIFARTHUR
-  name: "крісло інтерфейсу FAR/TH/UR 2600 Ш.І"
+  name: FAR/TH/UR 2600 A.I. interface chair
   suffix: AU14, FARTHUR
   components:
   - type: Sprite

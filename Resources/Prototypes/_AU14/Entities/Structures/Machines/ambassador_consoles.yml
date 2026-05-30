@@ -6,8 +6,8 @@
   abstract: true
   parent: RMCCommunicationsConsoleBase
   id: AU14AmbassadorConsoleBase
-  name: "консоль посла"
-  description: "Консоль для дипломатичних функцій і стороннього зв’язку."
+  name: ambassador console
+  description: A console for diplomatic functions and third party communication.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -45,8 +45,8 @@
 - type: entity
   id: AU14AmbassadorConsoleUPP
   parent: AU14AmbassadorConsoleBase
-  name: "дипломатична консоль УПП"
-  description: "Дипломатична консоль Союзу прогресивних народів. Може запитувати підтримку спецпризначенців ГРОМ."
+  name: UPP diplomatic console
+  description: A Union of Progressive Peoples diplomatic console. Can request GROM special forces support.
   suffix: UPP, GROM
   components:
   - type: Sprite
@@ -66,8 +66,8 @@
 - type: entity
   id: AU14AmbassadorConsoleUA
   parent: AU14AmbassadorConsoleBase
-  name: "дипломатична консоль ОА"
-  description: "Дипломатична консоль Об’єднаних Америк. Може запитувати підтримку армії США або ВАІ."
+  name: UA diplomatic console
+  description: A United Americas diplomatic console. Can request US Army or VAI support.
   suffix: UA, Army
   components:
   - type: Sprite
@@ -86,8 +86,8 @@
 - type: entity
   id: AU14AmbassadorConsoleTWE
   parent: AU14AmbassadorConsoleBase
-  name: "дипломатична консоль ІТС"
-  description: "Дипломатична консоль Імперії трьох світів. Може запитувати підтримку НСПА або королівських морпіхів."
+  name: TWE diplomatic console
+  description: A Three World Empire diplomatic console. Can request NSPA or Royal Marines' support.
   suffix: TWE, PMC
   components:
   - type: Sprite
@@ -106,8 +106,8 @@
 - type: entity
   id: AU14AmbassadorConsoleIS
   parent: AU14AmbassadorConsoleBase
-  name: "дипломатична консоль ІКСК"
-  description: "Дипломатична консоль Колоній незалежних центральних систем."
+  name: ICSC diplomatic console
+  description: An Independent Core System Colonies diplomatic console.
   suffix: ICSC, PMC
   components:
   - type: Sprite

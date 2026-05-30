@@ -54,7 +54,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMSupportTech
-  name: "технік підтримки ГРОМ УПП"
+  name: UPP GROM Support Tech
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

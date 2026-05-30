@@ -2,13 +2,13 @@
   abstract: true
   parent: CMTileBase
   id: CMFloorStrataMetalBase
-  name: "tiles-cm-default-metal"
+  name: tiles-cm-default-metal
   suffix: Sorokyne
 
 - type: tile
   parent: CMFloorStrataMetalBase
   id: CMFloorStrataMultitile1
-  name: "металева плитка"
+  name: metal tile
   sprite: /Textures/_RMC14/Tiles/strata/multi_tiles1.png
 
 - type: tile
@@ -39,7 +39,7 @@
 - type: tile
   parent: CMFloorStrataMetalBase
   id: CMFloorStrataGreyMultitile1
-  name: "сіра металева плитка"
+  name: grey metal tile
   sprite: /Textures/_RMC14/Tiles/strata/grey_multi_tiles1.png
 
 - type: tile

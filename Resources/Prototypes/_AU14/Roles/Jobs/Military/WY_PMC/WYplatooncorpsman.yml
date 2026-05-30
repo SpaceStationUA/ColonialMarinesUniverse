@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanWYPMC
-  name: "Бойовий рятувальник ПВК"
+  name: PMC Combat Lifesaver
   spawnMenuRoleName: Hospital Corpsman (WYPMC)
   ranks:
     AU14RankWeYuSeniorOperator:

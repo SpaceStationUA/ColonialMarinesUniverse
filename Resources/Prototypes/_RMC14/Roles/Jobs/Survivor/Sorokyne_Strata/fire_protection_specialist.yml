@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFireProtectionSpecialist
-  name: "спавнер спеціаліста з пожежної безпеки"
+  name: fire protection specialist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -60,7 +60,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetFireProtectionSpecialist
-  name: "пресет спеціаліста з пожежної безпеки"
+  name: fire protection specialist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechSurplus
   id: RMCSPPSurplusPVE
-  name: "Автомат запасної форми H-Tech"
-  description: "Автоматизований стелаж постачання, під'єднаний до невеликого сховища стандартної форми СПН."
+  name: H-Tech Surplus Uniform Vendor
+  description: An automated supply rack hooked up to a small storage of standard UPP uniforms.
   suffix: PVE, SPP
   components:
   - type: Sprite
@@ -143,8 +143,8 @@
   parent: ColMarTechUtilities
   id: RMCSPPUtilitiesPVE
   suffix: PVE, SPP
-  name: "Автоматизований автомат утиліт загону H-Tech"
-  description: "Автоматизований стелаж постачання, під'єднаний до невеликого сховища різних утиліт та інструментів."
+  name: H-Tech Automated Utilities Squad Vendor
+  description: An automated supply rack hooked up to a small storage of various utilities and tools.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/spp_gear.rsi

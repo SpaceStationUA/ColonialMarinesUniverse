@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicPAPThirdparty
   id: AU14JobPaPThirdpartyInvestigator
-  name: "слідчий PAP УПП"
+  name: UPP PAP Investigator
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

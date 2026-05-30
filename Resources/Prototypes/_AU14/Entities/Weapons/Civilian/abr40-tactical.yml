@@ -1,6 +1,6 @@
 - type: entity
   parent: RMCWeaponRifleABR40Tactical
-  name: "тактична мисливська гвинтівка ABR-40"
+  name: ABR-40 Tactical hunting rifle
   id: AU14WeaponRifleABR40TacticalVAI
   suffix: Filled, Tactical
   components:

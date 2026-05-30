@@ -1,6 +1,6 @@
 - type: entity
   id: RMCASRSAccount
-  name: "обліковий запис ASRS"
+  name: ASRS account
   categories: [ HideSpawnMenu ]
   components:
   - type: RequisitionsAccount
@@ -36,8 +36,8 @@
 - type: entity
   parent: [ CMBaseStructureCorrodible, CMCargoCatalog ]
   id: CMASRSConsole
-  name: "консоль ASRS"
-  description: "Консоль для Автоматизованої Системи Видачі зі Сховищ."
+  name: ASRS console
+  description: A console for the Automated Storage Retrieval System.
   suffix: Requisitions
   components:
   - type: ItemSlots
@@ -136,7 +136,7 @@
 
 - type: entity
   id: CMCargoElevator
-  name: "вантажний ліфт"
+  name: cargo elevator
   suffix: Lowered, Requisitions
   placement:
     mode: SnapgridCenter
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMRailing
-  name: "висувне поруччя"
-  description: "Виглядає так, ніби нелегко відкрити."
+  name: retractable railing
+  description: That looks like it doesn't open easily.
   suffix: Raised
   components:
   - type: Transform
@@ -214,7 +214,7 @@
 
 - type: entity
   id: CMGear
-  name: "шестерня"
+  name: gear
   description: ""
   placement:
     mode: SnapgridCenter
@@ -234,7 +234,7 @@
 - type: entity
   parent: [ CMASRSConsole ]
   id: CMASRSConsoleGovfor
-  name: "консоль ASRS (Govfor)"
+  name: ASRS console (Govfor)
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforCommand" ], [ "AU14AccessGovforReq" ] ]
@@ -244,7 +244,7 @@
 - type: entity
   parent: [ CMASRSConsole ]
   id: CMASRSConsoleOpfor
-  name: "консоль ASRS (Opfor)"
+  name: ASRS console (Opfor)
   components:
   - type: AccessReader
     access: [ [ "AU14AccessOpforCommand" ], [ "AU14AccessOpforReq" ] ]
@@ -254,7 +254,7 @@
 - type: entity
   parent: CMCargoElevator
   id: CMCargoElevatorGovfor
-  name: "вантажний ліфт (Govfor)"
+  name: cargo elevator (Govfor)
   components:
   - type: RequisitionsElevator
     faction: govfor
@@ -262,7 +262,7 @@
 - type: entity
   parent: CMCargoElevator
   id: CMCargoElevatorOpfor
-  name: "вантажний ліфт (Opfor)"
+  name: cargo elevator (Opfor)
   components:
   - type: RequisitionsElevator
     faction: opfor
@@ -270,7 +270,7 @@
 - type: entity
   parent: [ CMASRSConsole ]
   id: CMASRSConsoleColony
-  name: "консоль ASRS (Колонія)"
+  name: ASRS console (Colony)
   components:
   - type: AccessReader
     access: [ [ "CMAccessRequisitions" ], [ "CMAccessColonyCommand" ] ]
@@ -280,7 +280,7 @@
 - type: entity
   parent: CMCargoElevator
   id: CMCargoElevatorColony
-  name: "вантажний ліфт (Колонія)"
+  name: cargo elevator (Colony)
   components:
   - type: RequisitionsElevator
     faction: colony

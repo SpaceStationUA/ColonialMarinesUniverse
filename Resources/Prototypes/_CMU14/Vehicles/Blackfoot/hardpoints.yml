@@ -24,8 +24,8 @@
 - type: entity
   parent: VehicleBlackfootThrustersBase
   id: VehicleBlackfootThrusters
-  name: "рушії Блекфута"
-  description: "Посилені VTOL-рушії для AD-71E Блекфут."
+  name: Blackfoot thrusters
+  description: Reinforced VTOL thrusters for an AD-71E Blackfoot.
   components:
   - type: Sprite
     state: engines
@@ -50,8 +50,8 @@
 - type: entity
   parent: VehicleBlackfootLaunchersBase
   id: VehicleBlackfootLaunchers
-  name: "сигнальний пусковий блок Блекфута"
-  description: "Керований пілотом допоміжний сигнальний пусковий блок Блекфута."
+  name: Blackfoot flare launcher pod
+  description: A Blackfoot pilot-operated utility flare launcher pod.
   components:
   - type: Sprite
     state: launchers
@@ -111,8 +111,8 @@
 - type: entity
   parent: VehicleBlackfootDoorGunHardpointBase
   id: VehicleBlackfootDoorGun
-  name: "автоматичний гранатомет M866"
-  description: "Автоматичний гранатомет задніх дверей для AD-71E Блекфут."
+  name: M866 automatic grenade launcher
+  description: A rear-door automatic grenade launcher for the AD-71E Blackfoot.
   components:
   - type: Sprite
     state: doorgun-module
@@ -185,8 +185,8 @@
 - type: entity
   parent: VehicleBlackfootReconSystemBase
   id: VehicleBlackfootReconSystem
-  name: "розвідсистема Блекфута"
-  description: "Пакет прихованості та розвідувальної підтримки Блекфута."
+  name: Blackfoot recon system
+  description: A Blackfoot stealth and reconnaissance support package.
   components:
   - type: Sprite
     state: radar
@@ -211,8 +211,8 @@
 - type: entity
   parent: VehicleBlackfootSensorArrayBase
   id: VehicleBlackfootSensorArray
-  name: "сенсорний масив Блекфута"
-  description: "Відкладений сенсорний пакет для розвідувального варіанта Блекфута."
+  name: Blackfoot sensor array
+  description: A deferred sensor package for a Blackfoot recon variant.
   components:
   - type: Sprite
     state: radar

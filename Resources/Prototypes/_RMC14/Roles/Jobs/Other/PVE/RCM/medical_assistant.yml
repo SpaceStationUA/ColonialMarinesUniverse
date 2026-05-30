@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVEMedicalAssistant
-  name: "спавнер медичного помічника RCM"
+  name: RCM medical assistant spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesMedicPVE

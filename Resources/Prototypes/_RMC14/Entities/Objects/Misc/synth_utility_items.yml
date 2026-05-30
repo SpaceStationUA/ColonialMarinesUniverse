@@ -1,20 +1,20 @@
 - type: entity
   parent: DoorElectronics
   id: CMAirlockCircuitBoard
-  name: "плата шлюзу"
-  description: "Електронна плата, що використовується в шлюзах."
+  name: airlock circuit board
+  description: An electronics board used in airlocks.
 
 - type: entity
   parent: CMMiniTank
   id: RMCES11MobileFuelCanister
-  name: "мобільний паливний балон ES-11"
-  description: "Компактний балон зварювального палива для польового ремонту й заправки."
+  name: ES-11 mobile fuel canister
+  description: A compact welding fuel canister for field repairs and refills.
 
 - type: entity
   parent: BaseStorageItem
   id: RMCSynthRepairKit
-  name: "набір для ремонту синтетика"
-  description: "Компактний набір польових інструментів і запасних кабелів для структурного ремонту синтетика."
+  name: synthetic repair kit
+  description: A compact kit of field tools and replacement cabling for synthetic structural repairs.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/engineer_kit.rsi
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCSynthRepairKit
   id: RMCSynthRepairKitEliteFilled
-  name: "елітний набір для ремонту синтетика"
+  name: elite synthetic repair kit
   suffix: Filled
   components:
   - type: StorageFill

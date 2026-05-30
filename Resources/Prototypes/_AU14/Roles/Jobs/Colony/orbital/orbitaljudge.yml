@@ -55,7 +55,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardOrbitalArbiter
-  name: "iD-картка орбітального арбітра"
+  name: orbital arbiter ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianOrbitalArbiter
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOrbitalArbiter
-  name: "Точка появи орбітального арбітра"
+  name: Spawn Point Orbital Arbiter
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianOrbitalArbiter
@@ -96,10 +96,10 @@
 
 - type: rank
   id: AU14RankOrbitalArbiter
-  name: "Орбітальний Арбітр"
+  name: Orbital Arbiter
   prefix: Orb. Arb.
 
 - type: rank
   id: AU14RankSeniorOrbitalArbiter
-  name: "Старший Орбітальний Арбітр"
+  name: Senior Orbital Arbiter
   prefix: Sr. Orb. Arb.

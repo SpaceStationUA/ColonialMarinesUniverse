@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: AU14WeaponPistolM50HAZOPS
-  name: "ручна гармата M50 «Лисий Орел»"
-  description: "Виготовлений Арматом на честь майбутнього 400-річчя Сполучених Штатів, цей пістолет стріляє реактивними набоями .50 AE, що завдають великої шкоди й можуть пробивати броню. ХАЗОПС люблять його за поєднання мобільності з високою шкодою. Після кожного магазина потребує зведення."
+  name: M50 'Bald Eagle' Handcannon
+  description: Produced by Armat in celebration of the upcoming United States' 400th anniversary, this pistol fires jet-propelled .50 AE rounds, which does high damage and can penetrate armor. Loved by HAZOPS due to it's mobility combined with high-damage. Must be cocked after every mag.
   suffix: Filled
   components:
   - type: RMCSelectiveFire
@@ -55,8 +55,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: AU14MagazinePistolM50
-  name: "магазин ручної гармати M50 «Лисий Орел» (.50 JP)"
-  description: "Пістолетний магазин."
+  name: M50 Bald Eagle handcannon magazine (.50 JP)
+  description: A pistol magazine.
   components:
   - type: Tag
     tags:
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMCartridgePistolBase
   id: AU14CartridgePistol50JP
-  name: ".50 JP"
+  name: .50 JP
   components:
   - type: Tag
     tags:
@@ -100,7 +100,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol50JP
-  name: "реактивний набій .50 AE"
+  name: jet-propelled .50 AE round
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

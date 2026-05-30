@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseMarineArmorLight
   id: AU14BaseArmor
-  name: "приклад"
-  description: "Штатна броня, яку використовують багато військових організацій Об’єднаних Америк. Забезпечує помірний захист від кульових і ближніх атак. Також має встановлений на плечі напрямний ліхтар для нічного бою."
+  name: Example
+  description: Standard Issue Armor used by many UA military organizations. Provides modest protection from bullet and melee attacks. It also has a shoulder-mounted directional flashlight for night time combat.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCBaseArmor
   id: AU14BaseArmorLight
-  name: "приклад"
-  description: "Приклад"
+  name: Example
+  description: Example
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCBaseArmor
   id: AU14BaseArmorVest # For shitty armor, f.e. 6B80 of UPP's reservists
-  name: "приклад"
-  description: "Приклад"
+  name: Example
+  description: Example
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Armor/m3/standard/padded/jungle.rsi
@@ -193,7 +193,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3JungleOne
-  name: "гладка джунглева броня ККМП США зразка M3"
+  name: M3 pattern jungle smooth USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmorone.rsi
@@ -201,7 +201,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3JungleTwo
-  name: "ребриста джунглева броня ККМП США зразка M3"
+  name: M3 pattern jungle ribbed USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmortwo.rsi
@@ -209,7 +209,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3JungleThree
-  name: "рельєфна джунглева броня ККМП США зразка M3"
+  name: M3 pattern jungle dimpled USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmorthree.rsi
@@ -217,7 +217,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3DesertOne
-  name: "гладка пустельна броня ККМП США зразка M3"
+  name: M3 pattern desert smooth USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmorone.rsi
@@ -225,7 +225,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3DesertTwo
-  name: "ребриста пустельна броня ККМП США зразка M3"
+  name: M3 pattern desert ribbed USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmortwo.rsi
@@ -233,7 +233,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3DesertThree
-  name: "рельєфна пустельна броня ККМП США зразка M3"
+  name: M3 pattern desert dimpled USCM armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmorthree.rsi
@@ -241,7 +241,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3UACG
-  name: "броня колоніальної гвардії зразка M3"
+  name: M3 pattern colonial guard armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/uacgarmor.rsi
@@ -249,8 +249,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14ArmorBallisticVest
-  description: "Легкий балістичний жилет."
-  name: "балістичний жилет"
+  description: A light ballistic vest.
+  name: ballistic vest
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ballisticarmor.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14ArmorPilotFlakJacket
-  name: "осколковий жилет авіаекіпажу"
-  description: "Легкий осколковий жилет, розроблений для авіаекіпажу ККМП США. Забезпечує дуже слабкий захист."
+  name: aircrew flak jacket
+  description: A light flak jacket designed for USCM aircrew. Provides very little protection.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/pilotflakvest.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
   id: AU14ArmorSmartGunDesertCombatHarness
-  name: "пустельна бойова упряж M56"
-  description: "Бойова упряж M56, спеціально виготовлена для смартганерів."
+  name: M56 Desert Combat Harness
+  description: An M56 Combat Harness specially made for Smartgunners.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertArmor/uscmarmorsmartgunner.rsi
@@ -287,8 +287,8 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
   id: AU14ArmorSmartGunJungleCombatHarness
-  name: "джунглева бойова упряж M56"
-  description: "Бойова упряж M56, спеціально виготовлена для смартганерів."
+  name: M56 Jungle Harness
+  description: An M56 Combat Harness specially made for Smartgunners.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleArmor/uscmarmorsmartgunner.rsi
@@ -307,8 +307,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, RMCAllowSuitStorageClothingExternalWebbing]
   id: AU14ExternalWebbing
-  name: "зовнішнє розвантаження"
-  description: "Призначене для носіння поверх комбінезона, а не для кріплення кліпсами."
+  name: external webbing
+  description: Designed to be worn over a jumpsuit rather than clipped on.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/external_webbing.rsi
@@ -328,8 +328,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14USASFICPS2
-  name: "броня авіаекіпажу ICPS-2 Аерокосмічних сил США"
-  description: "Комплект балістичної броні, який використовують авіаекіпажі Аерокосмічних сил США."
+  name: USASF ICPS-2 Aircrew Armor
+  description: A set of ballistic armor used by USASF aircrew.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/armor.rsi
@@ -344,8 +344,8 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor, RMCHelmetBase]
   id: foldabletestarmor
-  name: "броня авіаекіпажу ICPS-2 Аерокосмічних сил США"
-  description: "Комплект балістичної броні, який використовують авіаекіпажі Аерокосмічних сил США."
+  name: USASF ICPS-2 Aircrew Armor
+  description: A set of ballistic armor used by USASF aircrew.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/armor.rsi
@@ -436,8 +436,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorGhillie
-  name: "джунглева броня-гілі зразка M45"
-  description: "Легкий маскувальний костюм гілі, який використовують снайпери Об’єднаних Америк на розвідувальних місіях. Дуже легкий, але майже не захищає."
+  name: M45 pattern jungle ghillie armor
+  description: A lightweight ghillie camouflage suit, used by UA snipers on recon missions. Very lightweight, but doesn't protect much.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Armor/ghillie.rsi
@@ -467,8 +467,8 @@
   parent: AU14BaseArmorVest
   id: AU14ArmorUSArmy
   suffix: Survivor
-  name: "система персональної броні"
-  description: "Система персональної броні є штатною бронею армії США, прийнятою замість броні серії M4 під час польових випробувань. Дивовижно незручна, але забезпечує значно кращий захист, ніж броня серій M3 або M4. За вчетверо більшу ціну."
+  name: Personal Body Armor System
+  description: The Personnel Body Armor System is the standard issue armor of the US Army, adopted over the M4 series pattern armor during field trials. Surprisingly uncomfortable, but offering far superior protection to the M3 or M4 series armor. At four times the price.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Armor/armor.rsi
@@ -486,8 +486,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorUSArmyNormal
-  name: "система персональної броні"
-  description: "Система персональної броні є штатною бронею армії США, прийнятою замість броні серії M4 під час польових випробувань. Дивовижно незручна, але забезпечує значно кращий захист, ніж броня серій M3 або M4. За вчетверо більшу ціну."
+  name: Personal Body Armor System
+  description: The Personnel Body Armor System is the standard issue armor of the US Army, adopted over the M4 series pattern armor during field trials. Surprisingly uncomfortable, but offering far superior protection to the M3 or M4 series armor. At four times the price.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Armor/armor.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: CMArmorM3VLSynth
   id: AU14ArmorUSArmySynth
-  name: "система броні для синтетиків"
-  description: "Це варіант системи персональної броні, значно модифікований для використання синтетиками армії США. Забезпечує легкий захист, максимальну мобільність і більше внутрішнього місця, ніж її відповідник ККМП США. Вартість цього предмета могла б спорядити ціле відділення морпіхів ККМП США, але ви варті цієї ціни."
+  name: Synthetic Body Armor System
+  description: This is a variant of the Personnel Body Armor System, it has been modified extensively to be used by US Army Synthetics. It offers light protection, maximum mobility and more internal storage than its USCM counterpart. The cost of this item could outfit an entire squad of USCM Marines, but you are worth this cost.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Armor/synth.rsi
@@ -507,7 +507,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorM3RForecon
-  name: "легка броня зразка M3-R"
+  name: M3-R pattern light armor
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Armor/forecon.rsi
@@ -518,8 +518,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorCBRN
-  name: "броня CBRN M3-M"
-  description: "Хоч ця броня й не має вигляду броні зразка M3, яку носять на звичайній службі, вона все одно є її похідною. Її значно модифікували, щоб вона надягалася поверх костюма MOPP, прибравши додаткову підкладку та композитні шари Венлару, аби не обмежувати рухи носія. Однак через зменшення кількості композитних шарів персональний захист нижчий за бажаний, і скарги на це подають ще з 2165 року."
+  name: CBRN M3-M armor
+  description: While lacking the appearance of the M3 pattern armor worn in regular service, this armor piece is still a derivative of it. It has been heavily modified to fit over the MOPP suit with additional padding and Venlar composite layers removed, so as not to restrict the wearer’s movement. However, with the reduction of composite layers, the personal protection offered is less than desired with complaints having been lodged since 2165.
   suffix: AU14
   components:
   - type: CMArmor

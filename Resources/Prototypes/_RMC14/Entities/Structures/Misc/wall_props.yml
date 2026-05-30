@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCWallPropBase
   id: RMCWallPropBloodWallFloor
-  name: "кров"
+  name: blood
   suffix: Wall Blood, Floor Blood, RMC14
   components:
   - type: Sprite
@@ -39,7 +39,7 @@
 - type: entity
   parent: RMCWallPropBloodWallFloor
   id: RMCWallPropBloodWall
-  name: "кров"
+  name: blood
   suffix: Wall Blood, RMC14
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCWallPropBloodWallFloor
   id: RMCWallPropBloodWallAlt
-  name: "кров"
+  name: blood
   suffix: Wall Blood, RMC14, Alt
   components:
   - type: Sprite
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCWallPropBase
   id: RMCWallPropGraffiti
-  name: "графіті"
+  name: graffiti
   suffix: Wall Graffiti, RMC14, One
   components:
   - type: Sprite
@@ -116,8 +116,8 @@
 - type: entity
   parent: RMCWallPropBase
   id: RMCWallPropDeadPilot
-  name: "обезголовлений пілот «Вейланд-Ютані»"
-  description: "Те, що залишилося від пілота «Вейланд-Ютані». Уся голова відсутня. Куди ж вона закотилася?..."
+  name: decapitated Weyland-Yutani Pilot
+  description: What remains of a Weyland-Yutani Pilot. Their entire head is missing. Where'd it roll off to?...
   suffix: RMC14
   components:
   - type: Sprite

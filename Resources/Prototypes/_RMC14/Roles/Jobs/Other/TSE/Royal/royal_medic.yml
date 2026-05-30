@@ -45,7 +45,7 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesMedic
-  name: "королівські морпіхи корони привид-роль медика"
+  name: royal crown marines ghost role medic
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

@@ -6,8 +6,8 @@
 - type: entity
   parent: CMASRSConsole
   id: AU14CorporateASRSConsole
-  name: "консоль корпоративного постачання"
-  description: "Термінал керування корпоративним постачанням Вейланд-Ютані. Замовлення, зроблені тут, підлягають поточній ставці податку з продажів."
+  name: corporate supply console
+  description: A Weyland-Yutani corporate supply management terminal. Orders placed here are subject to the current sales tax rate.
   suffix: Corporate, ASRS
   components:
   - type: RequisitionsComputer
@@ -44,8 +44,8 @@
 - type: entity
   parent: CMCargoElevator
   id: AU14CorporateASRSElevator
-  name: "ліфт корпоративного постачання"
-  description: "Ліфт корпоративного постачання Вейланд-Ютані. Доставляє замовлення, зроблені через систему корпоративного постачання."
+  name: corporate supply elevator
+  description: A Weyland-Yutani corporate supply elevator. Delivers orders placed through the corporate supply system.
   suffix: Corporate, ASRS
   components:
   - type: RequisitionsElevator

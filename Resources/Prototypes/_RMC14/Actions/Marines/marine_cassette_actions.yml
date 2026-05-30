@@ -9,8 +9,8 @@
 - type: entity
   parent: RMCActionCassetteBase
   id: RMCActionCassettePlayPause
-  name: "Грати/Пауза"
-  description: "Запускає або зупиняє відтворення музики."
+  name: Play/Pause
+  description: Starts or stops playing music.
   components:
   - type: Action
     icon:
@@ -22,8 +22,8 @@
 - type: entity
   parent: RMCActionCassetteBase
   id: RMCActionCassetteNext
-  name: "Наступна пісня"
-  description: "Переходить до наступного треку."
+  name: Next song
+  description: Moves to the next track.
   components:
   - type: Action
     icon:
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCActionCassetteBase
   id: RMCActionCassetteRestart
-  name: "Перезапустити пісню"
-  description: "Перезапускає поточний трек."
+  name: Restart song
+  description: Restarts the current track.
   components:
   - type: Action
     icon:

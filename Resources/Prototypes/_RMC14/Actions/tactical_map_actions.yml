@@ -1,7 +1,7 @@
 ﻿- type: entity
   abstract: true
   id: RMCActionOpenTacticalMap
-  name: "Відкрити Тактичну Карту"
+  name: Open Tactical Map
   components:
   - type: Action
     itemIconStyle: NoItem

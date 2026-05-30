@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadBandGreen
-  name: "зелена пов'язка на голову"
-  description: "Шматок тканини, який обмотують навколо голови."
+  name: green headband
+  description: Piece of cloth to wrap around the head.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/green.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandBrown
-  name: "коричнева пов'язка на голову"
+  name: brown headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/brown.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandGray
-  name: "сіра пов'язка на голову"
+  name: gray headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/gray.rsi
@@ -61,7 +61,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandRed
-  name: "червона пов'язка на голову"
+  name: red headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/red.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandTan
-  name: "пісочна пов'язка на голову"
+  name: tan headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/tan.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMHeadBandGreen
   id: RMCHeadBandSquad
-  name: "пов'язка на голову загону UNMC"
+  name: UNMC squad headband
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -116,8 +116,8 @@
 - type: entity
   parent: CMHeadBandGreen
   id: CMHeadBandAlpha
-  name: "пов'язка на голову Альфа"
-  description: "Шматок тканини кольорів вашого загону."
+  name: alpha headband
+  description: Piece of cloth in colors of your squad.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/alpha.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandBravo
-  name: "пов'язка на голову Браво"
+  name: bravo headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/bravo.rsi
@@ -151,7 +151,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandCharlie
-  name: "пов'язка на голову Чарлі"
+  name: charlie headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/charlie.rsi
@@ -168,7 +168,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandDelta
-  name: "пов'язка на голову Дельта"
+  name: delta headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/delta.rsi
@@ -185,7 +185,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandEcho
-  name: "пов'язка на голову Ехо"
+  name: echo headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/echo.rsi
@@ -202,7 +202,7 @@
 - type: entity
   parent: CMHeadBandAlpha
   id: CMHeadBandFoxtrot
-  name: "пов'язка на голову Фокстрот"
+  name: foxtrot headband
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/foxtrot.rsi
@@ -220,8 +220,8 @@
 - type: entity
   parent: CMHeadBandRed
   id: CMHeadBandIntel
-  name: "пов'язка на голову розвідки"
-  description: "Шматок тканини, що належав досвідченому оперативнику спецпризначення, хоча ніхто, схоже, не пам'ятає його ім'я. Вайпер?.. Серпент?."
+  name: intel headband
+  description: A piece of cloth that belonged to an experienced special forces operative, nobody seems to recall his name though. Viper..? Serpent..?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/intel.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: CMHeadCap
   id: CMHeadBandRebel
-  name: "повстанська пов'язка на голову"
-  description: "Пов'язка на голову, зроблена з простої смужки тканини. Спереду красуються слова \"ГЕТЬ ТИРАНІВ\"."
+  name: rebel headband
+  description: A headband made from a simple strip of cloth. The words "DOWN WITH TYRANTS" are emblazoned on the front.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/headband/rebel.rsi

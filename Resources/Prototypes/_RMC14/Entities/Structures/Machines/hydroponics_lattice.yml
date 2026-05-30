@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCHydroponicsLattice
-  name: "Гідропонна решітка"
-  description: "Корінна решітка, з'єднана з двома плавучими понтонами."
+  name: Hydroponics Lattice
+  description: A root lattice connected to two floating pontoons.
   placement:
     mode: PlaceFree
   components:

@@ -7,8 +7,8 @@
 - type: entity
   parent: BaseKudzu
   id: AU14AbominationFleshKudzu
-  name: "сухожилля"
-  description: "Пульсуючий килим зі злитих сухожиль. Здається, він схлипує."
+  name: tendons
+  description: A pulsing carpet of fused sinew. It sounds like it's sobbing.
   placement:
     mode: SnapgridCenter
     snap:

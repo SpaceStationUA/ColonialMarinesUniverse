@@ -1,7 +1,7 @@
 - type: entity
   parent: Bookshelf
   id: RMCBookcase
-  name: "книжкова шафа"
+  name: bookcase
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/bookshelf.rsi
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCBookcase
   id: RMCBookcaseMedical
-  name: "книжкова шафа з медичними посібниками"
+  name: medical manuals bookcase
 #  components:
 #  - type: StorageFill
 #    contents:
@@ -56,7 +56,7 @@
 - type: entity
   parent: RMCBookcase
   id: RMCBookcaseEngineering
-  name: "книжкова шафа з інженерними посібниками"
+  name: engineering manuals bookcase
 #  components:
 #  - type: StorageFill
 #    contents:

@@ -26,7 +26,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyBrig
-  name: "Бриг"
+  name: Brig
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -35,19 +35,19 @@
 - type: entity
   parent:  RMCAreaBerkleyBrig
   id: RMCAreaBerkleyBrigOB
-  name: "Кімната орбітальної гармати"
+  name: Orbital Cannon Room
 
 - type: entity
   parent:  RMCAreaBerkleyBrig
   id: RMCAreaBerkleyPointDefense
-  name: "Точкова оборона"
+  name: Point Defense
 
 # COMMAND
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCIC
-  name: "Бойовий інформаційний центр"
+  name: Combat Information Center
   components:
   - type: Sprite
     state: command
@@ -57,22 +57,22 @@
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyLiaison
-  name: "Офіс лізона"
+  name: Liaison Office
 
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyCICingOfficer
-  name: "Каюта командувача"
+  name: Commanding Officer Bunks
 
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyCryo
-  name: "Командна кріокамера"
+  name: Command Cryo
 
 - type: entity
   parent:  RMCAreaBerkleyCIC
   id: RMCAreaBerkleyIO
-  name: "Кабінет IO"
+  name: IO office
   components:
   - type: Area
     retrieveItemObjective: true
@@ -82,7 +82,7 @@
 - type: entity
   parent: RMCAreaBerkley
   id: RMCAreaBerkleyMedical
-  name: "Медичний"
+  name: Medical
   components:
   - type: Sprite
     sprite: _RMC14/Areas/berkley.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent:  RMCAreaBerkleyMedical
   id: RMCAreaBerkleyMedicalResearch
-  name: "Дослідження"
+  name: Research
   components:
   - type: Area
     retrieveItemObjective: true
@@ -102,7 +102,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyRequisitions
-  name: "Реквізиції"
+  name: Requisitions
   components:
   - type: Sprite
     state: requi
@@ -110,29 +110,29 @@
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyHangarPort
-  name: "Ангар лівого борту"
+  name: Hangar Port
 
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyHangarStarboard
-  name: "Ангар правого борту"
+  name: Hangar Starboard
 
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyPilotsRoom
-  name: "Кімната пілотів"
+  name: Pilots Room
 
 - type: entity
   parent:  RMCAreaBerkleyRequisitions
   id: RMCAreaBerkleyCanteen
-  name: "Їдальня"
+  name: Canteen
 
 # PREP
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyAlphaBravo
-  name: "Підготовка Альфа-Браво"
+  name: Alpha-Bravo Preparation
   components:
   - type: Sprite
     state: alpha_bravo
@@ -140,7 +140,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyAlpha
-  name: "Підготовка Альфа"
+  name: Alpha Preparation
   components:
   - type: Sprite
     state: alpha
@@ -148,7 +148,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyBravo
-  name: "Підготовка Браво"
+  name: Bravo Preparation
   components:
   - type: Sprite
     state: bravo
@@ -156,7 +156,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCharlieDelta
-  name: "Підготовка Чарлі-Дельта"
+  name: Charlie-Delta Preparation
   components:
   - type: Sprite
     state: charlie_delta
@@ -164,7 +164,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCharlie
-  name: "Підготовка Чарлі"
+  name: Charlie Preparation
   components:
   - type: Sprite
     state: charlie
@@ -172,7 +172,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyDelta
-  name: "Підготовка Дельта"
+  name: Delta Preparation
   components:
   - type: Sprite
     state: delta
@@ -182,7 +182,7 @@
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyEngineering
-  name: "Інженерний"
+  name: Engineering
   components:
   - type: Sprite
     sprite: _RMC14/Areas/savannah.rsi
@@ -209,51 +209,51 @@
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpStarboardBow
-  name: "Носовий насос правого борту"
+  name: Starboard Bow Pump
 
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpStarboardQuarter
-  name: "Кормовий насос правого борту"
+  name: Starboard Quarter Pump
 
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpPortBow
-  name: "Носовий насос лівого борту"
+  name: Port Bow Pump
 
 - type: entity
   parent:  RMCAreaBerkleyPumpBase
   id: RMCAreaBerkleyPumpPortQuarter
-  name: "Кормовий насос лівого борту"
+  name: Port Quarter Pump
 
 # OTHER
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyCorridor
-  name: "Серединний коридор"
+  name: Amidship Corridor
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleySEA
-  name: "Кабінет SEA"
+  name: SEA Office
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyBriefing
-  name: "Брифінг"
+  name: Briefing
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyLifeboat
-  name: "Док рятувального човна"
+  name: Lifeboat Docking
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleySynthetic
-  name: "Склад синтетика"
+  name: Synthetic Storage
 
 - type: entity
   parent:  RMCAreaBerkley
   id: RMCAreaBerkleyPress
-  name: "Кореспондент"
+  name: Correspondent

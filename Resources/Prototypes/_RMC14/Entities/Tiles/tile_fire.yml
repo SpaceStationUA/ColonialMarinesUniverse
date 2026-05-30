@@ -1,6 +1,6 @@
 - type: entity
   id: RMCTileFire
-  name: "вогонь"
+  name: fire
   placement:
     mode: SnapgridCenter
   components:
@@ -340,8 +340,8 @@
 - type: entity
   parent: RMCTileFire
   id: RMCTileFireForever
-  name: "вогонь"
-  description: "Він не згасне у найближчому майбутньому!!"
+  name: fire
+  description: That isn't going out any time soon!!
   suffix: Undying, Very Strong
   placement:
     mode: PlaceFree

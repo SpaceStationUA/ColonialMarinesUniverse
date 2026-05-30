@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCWPSRanger
-  name: "точка появи цивільного рейнджера CWPS"
+  name: Spawn Point Civilian CWPS Ranger
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCWPSRanger

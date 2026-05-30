@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleL24B
-  name: "штурмова гвинтівка L23B «Брічер»"
-  description: "Імпульсно-діюча безгільзова штурмова гвинтівка 8.8x51мм Морської Піхоти Королівського Командос, особистий друг будь-якого командос морпіхів. Поставляється з режимами вогню напівавто та черги і має вбудований 30-мм гранатомет, що може утримувати дві гранати в резерві та одну в патроннику"
+  name: L23B 'Breacher' assault rifle
+  description: Pulse action 8.8x51mm caseless assault rifle of the Royal Marine Commandos, personal friend of any Marine Commando. Comes with semi-auto and burst-fire firemodes and features an integrated 30mm grenade launcher that can hold two grenades on backup with one in the chamber
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/RMC/L23.rsi

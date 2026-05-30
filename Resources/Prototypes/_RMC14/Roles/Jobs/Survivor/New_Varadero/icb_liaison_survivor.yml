@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorVaraderoICB
-  name: "спавнер icb-вцілілого"
+  name: survivor icb spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -54,5 +54,5 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetICB
-  name: "пресет колоніста icb"
+  name: icb colonist preset
   categories: [ HideSpawnMenu ]

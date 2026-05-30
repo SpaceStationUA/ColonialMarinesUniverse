@@ -2,41 +2,41 @@
 
 - type: rank
   id: RMCRankTSEPAConstable
-  name: "Констебль"
+  name: Constable
   prefix: Cst.
 
 - type: rank
   id: RMCRankTSEPASeniorConstable
-  name: "Старший Констебль"
+  name: Senior Constable
   prefix: Sr. Cst.
 
 - type: rank
   id: RMCRankTSEPASergeant
-  name: "Сержант"
+  name: Sergeant
   prefix: Sgt.
 
 - type: rank
   id: RMCRankTSEPAInspector
-  name: "Інспектор"
+  name: Inspector
   prefix: Insp.
 
 - type: rank
   id: RMCRankTSEPAChiefInspector
-  name: "Головний Інспектор"
+  name: Chief Inspector
   prefix: Ch. Insp.
 
 - type: rank
   id: RMCRankTSEPACommander
-  name: "Командор"
+  name: Commander
   prefix: Cmdr.
 
 - type: rank
   id: RMCRankTSEPADeputyCommissioner
-  name: "Заступник Комісара"
+  name: Deputy Commissioner
   prefix: Dep. Com.
 
 - type: rank
   id: RMCRankTSEPACommissioner
-  name: "Комісар"
+  name: Commissioner
   prefix: Com.
 

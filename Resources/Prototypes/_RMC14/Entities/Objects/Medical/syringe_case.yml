@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCSyringeCase
-  name: "кейс для шприців"
-  description: "Це медичний кейс для зберігання шприців і пляшечок."
+  name: syringe case
+  description: It's a medical case for storing syringes and bottles.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/syringe_case.rsi

@@ -1,7 +1,7 @@
 - type: entity
   id: RMCAegisBox
-  name: "Захищена скриня AEGIS"
-  description: "Захищена скриня для транспортування спорядження AEGIS. Здається досить міцною, щоб витримати будь-які удари, окрім орбітального. Замкнена й потребує перепустку AEGIS, щоб відкрити."
+  name: AEGIS Secure Crate
+  description: A secure storage crate for transportation of AEGIS equipment. Seems sturdy enough to withstand any blows outside of an orbital strike. It is locked and requires an AEGIS ID card to open.
   placement:
     mode: SnapgridCenter
   components:
