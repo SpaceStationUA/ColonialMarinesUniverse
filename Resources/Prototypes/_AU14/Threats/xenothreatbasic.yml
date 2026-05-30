@@ -16,12 +16,12 @@
   leadersToSpawn:
     CMXenoQueen: 1
   gruntsToSpawn:
-    CMXenoLarva: 6
+    CMXenoLarva: 1
   spawnTogether: true
   scaling:
     CMXenoLarva:
       scale: 0.16
-      whenToBeginScaling: 30
+      whenToBeginScaling: 7
 
 
 - type: threat
