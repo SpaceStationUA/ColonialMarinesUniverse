@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateDomeCL
-  name: "спавнер lv624 спецкорпоративного лізона"
+  name: special survivor lv624 coporate liaison spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624CorporateDomeCL
@@ -62,4 +62,4 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetLV624CorporateDomeCL
-  name: "пресет колоніста lv624"
+  name: lv624 colonist preset

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantShop
-  name: "Магазин"
-  description: "Відкриває крамницю здібностей."
+  name: Shop
+  description: Opens the ability shop.
   components:
   - type: Action
     icon: Interface/Actions/shop.png
@@ -12,8 +12,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantDefile
-  name: "Осквернити"
-  description: "Коштує 30 Есенції."
+  name: Defile
+  description: Costs 30 Essence.
   components:
   - type: Action
     useDelay: 15
@@ -24,8 +24,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantOverloadLights
-  name: "Перевантажити лампи"
-  description: "Коштує 40 Есенції."
+  name: Overload Lights
+  description: Costs 40 Essence.
   components:
   - type: Action
     icon: Interface/Actions/overloadlight.png
@@ -48,8 +48,8 @@
 - type: entity
   parent: BaseAction
   id: ActionRevenantMalfunction
-  name: "Несправність"
-  description: "Коштує 60 Есенції."
+  name: Malfunction
+  description: Costs 60 Essence.
   components:
   - type: Action
     icon: Interface/Actions/malfunction.png

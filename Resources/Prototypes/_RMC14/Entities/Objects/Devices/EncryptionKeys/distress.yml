@@ -2,7 +2,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyBureau
-  name: "ключ шифрування Бюро"
+  name: bureau encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyBureauDamaged
-  name: "пошкоджений ключ шифрування Бюро"
+  name: damaged bureau encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyDukes
-  name: "ключ шифрування Дюків"
+  name: duke encryption key
   components:
   - type: EncryptionKey
     channels:

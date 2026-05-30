@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPrisoner
-  name: "спавнер в'язня-вцілілого"
+  name: survivor prisoner spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorPrisoner
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetPrisoner
-  name: "пресет в'язня-вцілілого"
+  name: prisoner survivor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

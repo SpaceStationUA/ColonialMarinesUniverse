@@ -38,7 +38,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobReturningColonist
-  name: "колоніст, що повернувся (цивільний)"
+  name: Returning Colonist (civilian)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -46,7 +46,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "колоніст, що повернувся (цивільний)"
+    name: Returning Colonist (civilian)
     description: You are a local colonist that is returning to the colony. You were on vacations, went to work abroad or any other factinating story. But no one cares now. Get back to work.
     reregister: false
     job: AU14JobReturningColonist
@@ -56,7 +56,7 @@
 
 - type: entity
   id: AU14ReturningColonistPreset
-  name: "пресет колоніста, що повернувся"
+  name: returning colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

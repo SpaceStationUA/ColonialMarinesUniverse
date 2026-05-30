@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCBarricadeRazorwire
-  name: "лезовий дріт"
-  description: "Набір лезового дроту, здатний уповільнити все, що спробує крізь нього пройти. Перекуси кусачками, щоб вимкнути, тоді відкрути ключем, щоб забрати."
+  name: razorwire
+  description: A set of razorwire, able to slow down anything that tries to move through it. Cut with wirecutters to disable, then unwrench to recover.
   placement:
     mode: SnapgridCenter
   components:
@@ -82,8 +82,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCBarricadeRazorwireCut
-  name: "перекушений лезовий дріт"
-  description: "Набір лезового дроту, який перекусили. Більше не функціональний. Скористайся ключем, щоб зняти його та отримати залишки дроту."
+  name: cut razorwire
+  description: A set of razorwire that has been cut. No longer functional. Use a wrench to tear it up and recover the remaining wire.
   placement:
     mode: SnapgridCenter
   components:

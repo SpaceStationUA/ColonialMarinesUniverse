@@ -1,6 +1,6 @@
 
 - type: entity
-  name: "загальна мітка появи лідера загрози"
+  name: Generic Threat Leader Spawn Marker
   parent: MarkerBase
   id: threatleaderspawnmarker
   components:
@@ -12,7 +12,7 @@
 
 
 - type: entity
-  name: "загальна мітка появи члена загрози"
+  name: Generic Threat Member Spawn Marker
   parent: MarkerBase
   id: threatmemberspawnmarker
   components:
@@ -24,7 +24,7 @@
 
 
 - type: entity
-  name: "загальна мітка появи сутності загрози"
+  name: Generic Threat Entity Spawn Marker
   parent: MarkerBase
   id: threatentityspawnmarker
   components:
@@ -38,7 +38,7 @@
 
 
 - type: entity
-  name: "мітка парашута"
+  name: Parachute Marker
   parent: MarkerBase
   id: parachutemarker
   components:
@@ -49,7 +49,7 @@
 
 
 - type: entity
-  name: "загальна мітка появи лідера третьої сторони"
+  name: Generic Third Party  Spawn Marker
   parent: MarkerBase
   id: thirdpartyleaderspawnmarker
   components:
@@ -62,7 +62,7 @@
 
 
 - type: entity
-  name: "загальна мітка появи члена третьої сторони"
+  name: Generic Third Party Member Spawn Marker
   parent: MarkerBase
   id: thirdpartymemberspawnmarker
   components:
@@ -74,7 +74,7 @@
 
 
 - type: entity
-  name: "загальна мітка появи сутності третьої сторони"
+  name: Generic Third Party Entity Spawn Marker
   parent: MarkerBase
   id: thirdpartyentityspawnmarker
   components:
@@ -89,7 +89,7 @@
 
 
 - type: entity
-  name: "мітка появи сутності ксено CF-загрози"
+  name: xeno cf threat entity Spawn Marker
   parent: MarkerBase
   id: xenocfthreatentityspawnmarker
   components:
@@ -102,7 +102,7 @@
 
 
 - type: entity
-  name: "мітка появи члена ксено CF-загрози"
+  name: xeno cf threat member Spawn Marker
   parent: MarkerBase
   id: xenocfthreatmemberspawnmarker
   components:
@@ -114,7 +114,7 @@
 
 
 - type: entity
-  name: "мітка появи лідера ксено CF-загрози"
+  name: xeno cf threat Leader Spawn Marker
   parent: MarkerBase
   id: xenocfthreatleaderspawnmarker
   components:
@@ -125,7 +125,7 @@
     ID: xenocf
 
 - type: entity
-  name: "мітка появи члена культистської CF-загрози"
+  name: cultist cf threat member spawn marker
   parent: MarkerBase
   id: cultistcfthreatmemberspawnmarker
   components:
@@ -136,7 +136,7 @@
     ID: cultcfmarker
 
 - type: entity
-  name: "мітка появи лідера культистської CF-загрози"
+  name: cultist cf threat leader spawn marker
   parent: MarkerBase
   id: cultistcfthreatleaderspawnmarker
   components:

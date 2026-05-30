@@ -2,8 +2,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallMetal
-  name: "стіна"
-  description: "Велетенський шмат металу, що використовується для розділення кімнат."
+  name: wall
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/metal.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayer
-  name: "стіна"
-  description: "Велетенський шмат металу, що використовується для розділення кімнат."
+  name: wall
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallAlmayerDeco1
-  name: "стіна"
+  name: wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMWallMetal
   id: CMWallMetalAlmayerWhite
-  name: "стіна"
-  description: "Велетенський шмат металу, що використовується для розділення кімнат."
+  name: wall
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMBaseWall
   id: RMCBaseWallReinforced
-  name: "укріплена стіна"
-  description: "Велетенський шмат укріпленого металу, що використовується для розділення кімнат."
+  name: reinforced wall
+  description: A huge chunk of reinforced metal used to separate rooms.
   abstract: true
   components:
   - type: Sprite
@@ -201,8 +201,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: CMWallReinforcedAlmayer
-  name: "укріплений корпус"
-  description: "Укріплена металева стіна, що розділяє кімнати та формує корабель."
+  name: reinforced hull
+  description: A reinforced metal wall used to separate rooms and make up the ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -219,7 +219,7 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallAlmayerReinforcedDeco1
-  name: "укріплений корпус"
+  name: reinforced hull
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: CMWallReinforcedAlmayerWhite
-  name: "укріплений корпус"
-  description: "Укріплена металева стіна, що розділяє кімнати та формує корабель."
+  name: reinforced hull
+  description: A reinforced metal wall used to separate rooms and make up the ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -312,8 +312,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: CMWallReinforcedAlmayerAI
-  name: "укріплений корпус"
-  description: "Укріплена металева стіна, що використовується для ізоляції потенційно небезпечних зон."
+  name: reinforced hull
+  description: A reinforced metal wall used to isolate potentially dangerous areas.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
@@ -331,8 +331,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallReinforcedHeavy
-  name: "важкий укріплений корпус"
-  description: "Велетенський шмат ультраукріпленого металу для розділення кімнат. Виглядає практично незнищенним."
+  name: heavy reinforced hull
+  description: A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/rwall.rsi
@@ -351,8 +351,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayer
-  name: "важкий укріплений корпус"
-  description: "Сильно укріплена металева стіна, що розділяє кімнати та формує корабель. Щоб послабити цю стіну, потрібен серйозний удар."
+  name: heavy reinforced hull
+  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -369,7 +369,7 @@
 - type: entity
   parent: CMWallReinforcedHeavyAlmayer
   id: RMCWallAlmayerReinforcedHeavyDeco1
-  name: "важкий укріплений корпус"
+  name: heavy reinforced hull
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_black.rsi
@@ -444,8 +444,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerWhite
-  name: "важкий укріплений корпус"
-  description: "Сильно укріплена металева стіна, що розділяє кімнати та формує корабель. Щоб послабити цю стіну, потрібен серйозний удар."
+  name: heavy reinforced hull
+  description: A highly reinforced metal wall used to separate rooms and make up the ship. It would take a great impact to weaken this wall.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_white.rsi
@@ -462,8 +462,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerAI
-  name: "важкий укріплений корпус"
-  description: "Надзвичайно укріплена металева стіна для ізоляції потенційно небезпечних зон. Виглядає практично незнищенною."
+  name: heavy reinforced hull
+  description: An extremely reinforced metal wall used to isolate potentially dangerous areas. Looks virtually indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore.rsi
@@ -480,8 +480,8 @@
 - type: entity
   parent: CMWallReinforcedHeavy
   id: CMWallReinforcedHeavyAlmayerAINoLights
-  name: "важкий укріплений корпус"
-  description: "Надзвичайно укріплена металева стіна для ізоляції потенційно небезпечних зон. Виглядає практично незнищенною."
+  name: heavy reinforced hull
+  description: An extremely reinforced metal wall used to isolate potentially dangerous areas. Looks virtually indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/almayer_aicore_nolights.rsi
@@ -531,8 +531,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallRock
-  name: "кам'яна стіна"
-  description: "Нерівна стіна затверділої породи."
+  name: rock wall
+  description: A rough wall of hardened rock.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cave.rsi
@@ -551,8 +551,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallCult
-  name: "стіна"
-  description: "Візерунки, вигравірувані на стіні, здаються рухомими, коли ти намагаєшся зосередити на них погляд. Тебе нудить."
+  name: wall
+  description: The patterns engraved on the wall seem to shift as you try to focus on them. You feel sick.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/cult.rsi
@@ -584,8 +584,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMWallWood
-  name: "дерев'яна стіна"
-  description: "Дерев'яна стіна, що розділяє кімнати."
+  name: wood wall
+  description: A wooden wall used to separate rooms.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/wood.rsi
@@ -616,8 +616,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: CMWallJungle
-  name: "джунглева рослинність"
-  description: "Виключно густа рослинність, крізь яку нічого не видно."
+  name: jungle vegetation
+  description: Exceptionally dense vegetation that you can't see through.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/jungle.rsi
@@ -656,7 +656,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevator
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -676,7 +676,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevatorBroken
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -690,7 +690,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallElevatorNoConnect1
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -702,7 +702,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect2
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -714,7 +714,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect3
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -726,7 +726,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect4
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -738,7 +738,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect5
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -750,7 +750,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect6
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -762,7 +762,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect7
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -774,7 +774,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorNoConnect8
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator_single.rsi
@@ -786,7 +786,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonArrivals
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -798,7 +798,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonDorm
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -810,7 +810,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonFreight
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -822,7 +822,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorButtonResearch
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -834,7 +834,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorArrivals
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -846,7 +846,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorDorm
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -858,7 +858,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorFreight
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -870,7 +870,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorResearch
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -882,7 +882,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorGear
-  name: "стіна ліфта"
+  name: elevator wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/elevator.rsi
@@ -894,7 +894,7 @@
 - type: entity
   parent: RMCWallElevatorNoConnect1
   id: RMCWallElevatorGearAnimated
-  name: "стіна ліфта"
+  name: elevator wall
   suffix: animated
   components:
   - type: Sprite
@@ -909,7 +909,7 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallContainment
-  name: "стіна камери"
+  name: cell wall
   description : A metal wall used to separate rooms and make up the ship
   components:
   - type: Sprite
@@ -1021,7 +1021,7 @@
 - type: entity
   parent: RMCWallContainment
   id: RMCWallContainmentWindow
-  name: "вікно камери"
+  name: cell window
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/containment.rsi
@@ -1045,8 +1045,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHunter
-  name: "мисливська стіна"
-  description: "Майже незнищенні стіни, що формують корпус мисливського корабля."
+  name: hunter wall
+  description: Nigh indestructible walls that make up the hull of a hunter ship.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hunter.rsi
@@ -1066,8 +1066,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHunterDegraded
-  name: "деградована мисливська стіна"
-  description: "Невимірно стародавні, ці стіни формують корпус судна нелюдського походження. Попри це, їх можна знести пластиковою вибухівкою, як і будь-який непрозорий бар'єр."
+  name: degraded hunter wall
+  description: Ancient beyond measure, these walls make up the hull of a vessel of non human origin. Despite this, they can be felled with plastic explosives like any other opaque blocker.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hunter_degraded.rsi

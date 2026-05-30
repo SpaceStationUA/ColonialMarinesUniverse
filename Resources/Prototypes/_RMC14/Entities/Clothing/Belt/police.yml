@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltSecurity
-  name: "розвантаження охорони зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця конфігурація поширена серед військової поліції морпіхів і миротворців, хоча вміщає деякі легкі боєприпаси."
+  name: M276 pattern security rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This configuration is commonly seen among Marine Military Police and peacekeepers, though it can hold some light munitions.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/security.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: CMBeltSecurity
   id: CMBeltSecurityMP
-  name: "розвантаження військової поліції зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія заповнена набором невеликих підсумків для перенесення несмертельного спорядження та засобів обмеження."
+  name: M276 pattern military police rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -48,20 +48,20 @@
 - type: entity
   parent: CMBeltSecurity
   id: RMCBeltSecurityWeYa
-  name: "розвантаження корпоративної охорони M276-C"
-  description: "Адаптація вантажоносного спорядження M276 від «Вейленд-Ютані», розроблена для корпоративних сил безпеки. Це модульне чорне розвантаження має кілька підсумків для перенесення засобів обмеження, боєприпасів і суміші смертельного й несмертельного спорядження для підтримання порядку."
+  name: M276-C corporate security rig
+  description: A Weyland-Yutani adaptation of the M276 load-bearing equipment, designed for corporate security forces. This modular black rig features multiple pouches for carrying restraints, ammunition, and a mix of lethal and non-lethal equipment for maintaining order.
 
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecuritySPP
-  name: "розвантаження військової поліції Type 43"
-  description: "Type 43 — стандартне вантажоносне спорядження СПН. Складається з модульного пояса з різними кліпсами. Ця версія заповнена набором невеликих підсумків для перенесення несмертельного спорядження та засобів обмеження."
+  name: Type 43 military police rig
+  description: The Type 43 is the standard load-bearing equipment of the UPP. It consists of a modular belt with various clips. This version is filled with an array of small pouches, meant to carry non-lethal equipment and restraints.
 
 - type: entity
   parent: CMBeltSecurityMP
   id: CMBeltSecurityMarshal
-  name: "службовий пояс правоохоронця"
-  description: "Чорний службовий пояс для перенесення інструментів правоохоронця. Це важкий поліцейський пояс із кількома підсумками для різних правоохоронних речей."
+  name: law enforcement duty belt
+  description: The black duty belt used to carry the instruments of a law enforcement officer. It is a heavy police belt with several pouches to contain various law enforcement items.
   components:
   - type: Storage
     maxItemSize: Normal

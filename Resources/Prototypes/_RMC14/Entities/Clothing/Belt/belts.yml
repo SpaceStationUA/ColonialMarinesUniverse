@@ -2,8 +2,8 @@
 - type: entity
   parent: ClothingBeltBase
   id: CMBeltInflatable
-  name: "надувна качка"
-  description: "Не треба ні тонути, ні плисти, коли можна просто триматися на воді!"
+  name: inflatable duck
+  description: No bother to sink or swim when you can just float!
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/inflatable.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltMarine
-  name: "патронне розвантаження зразка M276"
-  description: "M276 — це стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різноманітними кліпсами. Це стандартний варіант, призначений для перенесення великих обсягів боєприпасів."
+  name: M276 pattern ammo load rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This is the standard variant, designed for bulk ammunition-carrying operations.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/marine/jungle-classic.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: RMCBeltBaseStorageNoVisuals
   id: RMCM276ShotgunShellLoadingRig
-  name: "розвантаження зразка M276 для набоїв до дробовика"
-  description: "Патронний пояс, призначений для зберігання набоїв до дробовика." # or individual bullets. TODO RMC14
+  name: M276 pattern shotgun shell loading rig
+  description: An ammunition belt designed to hold shotgun shells. # or individual bullets. TODO RMC14
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/shotgun/jungle-classic.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltPMC
-  name: "патронне розвантаження зразка M305"
-  description: "M305 — стандартне вантажоносне спорядження ПВК «Вейленд-Ютані». Складається з модульного пояса з різноманітними кліпсами. Це стандартний варіант, призначений для перенесення великих обсягів боєприпасів."
+  name: M305 pattern ammo load rig
+  description: The M305 is the standard load-bearing equipment of Weyland-Yutani PMCs. It consists of a modular belt with various clips. This is the standard variant, designed for bulk ammunition-carrying operations.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/pmc.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltUtility
-  name: "інструментальне розвантаження зразка M276"
-  description: "M276 — це стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Цій версії бракує бойового функціоналу, її зазвичай використовують інженери для перенесення важливих інструментів."
+  name: M276 pattern toolbelt rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version lacks any combat functionality, and is commonly used by engineers to transport important tools.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/utility.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: CMBeltUtility
   id: RMCBeltConstruction
-  name: "будівельне розвантаження зразка M277"
-  description: "M277 — поширене розвантаження, яке Бойові Техніки використовують для перенесення матеріалів та інших припасів. Складається з модульного пояса з різними кліпсами. Ця версія жертвує місцем для зберігання заради спеціалізованих кліпс для завантаження матеріалів."
+  name: M277 pattern construction rig
+  description: The M277 is a common rig used by Combat Technicians to carry around materials and other supplies. It consists of a modular belt with various clips. This version sacrifices storage space for specialized material loading clips.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/construction.rsi
@@ -277,8 +277,8 @@
 - type: entity
   parent: CMBeltUtility
   id: CMBeltUtilityCombat
-  name: "бойове інструментальне розвантаження зразка M276"
-  description: "Бойове інструментальне розвантаження зразка M276 — альтернативне вантажоносне спорядження КМП США для інженерів, що проводять ремонт у бойових зонах. Складається з модульного пояса з різними кліпсами та підсумками для інструментів і кобурою для пістолета. Через громіздкість пістолета вміщає менше інструментів за стандартний аналог."
+  name: M276 pattern combat toolbelt rig
+  description: The M276 pattern combat toolbelt rig is an alternative load-bearing equipment of the USCM for engineers conducting repairs within combat zones. It consists of a modular belt with various clips and pouches for tools along with a holster for a sidearm. Due to the bulk of the sidearm, it is unable to hold as many tools as its standard counterpart.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/combat_utility.rsi
@@ -342,8 +342,8 @@
 - type: entity
   parent: CMBeltBase
   id: CMBeltKnife
-  name: "ножове розвантаження зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія спеціально розроблена для зберігання ножів. Не часто видається, але залишається на службі."
+  name: M276 pattern knife rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is specially designed to store knives. Not commonly issued, but kept in service.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/knife/jungle-classic.rsi
@@ -372,8 +372,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltMedical
-  name: "медичне розвантаження зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія — менш поширена конфігурація, призначена для перенесення громіздкіших медичних запасів."
+  name: M276 pattern medical storage rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is a less common configuration, designed to transport bulkier medical supplies.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medical.rsi
@@ -440,8 +440,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMBeltMortar
-  name: "пояс мінометника зразка M276"
-  description: "Розвантаження M276, налаштоване на перенесення боєприпасів до міномета M402 разом із пістолетом."
+  name: M276 pattern mortar operator belt
+  description: An M276 load-bearing rig configured to carry ammunition for the M402 mortar, along with a sidearm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/mortar/jungle-classic.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: CMBeltMarine
   id: CMBeltSmartGunOperator
-  name: "барабанний пояс оператора смартгана зразка M280"
-  description: "Незважаючи на те, що 1. барабанні магазини жахливо неергономічні, а 2. вимагають надзвичайно точної обробки, щоб підходити універсально (спойлер — не підходять, посилюючи міф про «Особистості Смартгана»), Морпіхи вирішили видавати модифікований пояс (більш формально відомий за позначенням M280) із гачками та пиловими кришками (надто складними для пересічного бритоголового) для барабанних боєприпасів системи ML66A. Коли защіпка для перенесення на барабані не застрягає в промасленому липкому липчаку, розвантаження насправді непогано тримає чималу кількість барабанів. Але врешті-решт, у порівнянні зі стандартними розвантаженнями... воно — лайно, але хіба не в цьому суть бути морпіхом?"
+  name: M280 pattern smart gun operator drum belt
+  description: Despite the fact that 1. drum magazines are incredibly non-ergonomical, and 2. require incredibly precise machining in order to fit universally (spoiler, they don't, adding further to the myth of 'Smart Gun Personalities'), the Marines decided to issue a modified marine belt (more formally known by the designation M280) with hooks and dust covers (overly complex for the average jarhead) for the ML66A system's drum munitions. When the carry catch on the drum isn't getting stuck in the oiled up velcro, the rig actually does do a decent job at holding a plentiful amount of drums. But at the end of the day, compared to standard rigs... it sucks, but isn't that what being a Marine is all about?
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_gun_operator/jungle-classic.rsi
@@ -532,8 +532,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltSmartGunOperatorPistol
-  name: "розвантаження оператора смартгана з кобурою зразка M802"
-  description: "M802 — обмежено видаване вантажоносне спорядження КМП США, призначене для перенесення боєприпасів до смартгана та пістолета."
+  name: M802 pattern smart gun operator sidearm rig
+  description: The M802 is a limited-issue mark of USCM load-bearing equipment, designed to carry smartgun ammunition and a sidearm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_gun_operator_pistol.rsi
@@ -608,8 +608,8 @@
 - type: entity
   parent: RMCBeltSmartGunOperatorPistol
   id: RMCBeltSmartGunOperatorPistolCLF
-  name: "розвантаження «Свобода» оператора смартгана з кобурою зразка M802"
-  description: "Модифікація стандартного вантажоносного спорядження M802, призначена для перенесення боєприпасів до смартгана та револьвера «Матеба». На цьому над клеймом виробника вирізьблено логотип КФЗ."
+  name: M802 pattern 'Freedom' smart gun operator sidearm rig
+  description: A modification of the standard M802 load-bearing equipment, designed to carry smart gun ammunition and a Mateba revolver. This one has the CLF logo carved over the manufacturing stamp.
   suffix: Filled, Mateba
   components:
   - type: StorageFill
@@ -622,8 +622,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltGrenade
-  name: "гранатне розвантаження M40 зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія розрахована на перенесення до 12 гранат серії M40."
+  name: M276 pattern M40 grenade rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is designed to carry up to 12 of the M40 series of grenades.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/grenade.rsi
@@ -643,8 +643,8 @@
 - type: entity
   parent: RMCBeltGrenade
   id: RMCBeltGrenadeLarge
-  name: "30-мм гранатне розвантаження зразка M276 Mk. II"
-  description: "M276 Mk. II — оновлена версія гранатного розвантаження M276 із більшою місткістю."
+  name: M276 pattern 30mm grenade rig Mk. II
+  description: The M276 Mk. II is an upgraded version of the M276 grenade rig, with more storage capacity.
   components:
   - type: Storage
     maxItemSize: Normal
@@ -658,8 +658,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltSmartPistol
-  name: "розвантаження-кобура SU-6 для смартпістолета зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія — для смартпістолета SU-6."
+  name: M276 pattern SU-6 smart pistol holster rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is for the SU-6 smartpistol.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_pistol.rsi
@@ -717,8 +717,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltHolsterPistol
-  name: "розвантаження-кобура для пістолетів зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія має кобурний блок, що дозволяє носити більшість поширених пістолетів. Також містить бічні підсумки для зберігання більшості пістолетних магазинів."
+  name: M276 pattern general pistol holster rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_pistol/classic-jungle.rsi
@@ -877,8 +877,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolWeYa
-  name: "розвантаження-кобура для пістолетів зразка WY-TM892"
-  description: "WY-TM892 — стандартне вантажоносне спорядження сил безпеки В-Ю. Складається з модульного пояса з різними кліпсами. Ця версія має кобурний блок, що дозволяє носити більшість поширених пістолетів. Також містить бічні підсумки для зберігання більшості пістолетних магазинів."
+  name: WY-TM892 pattern general pistol holster rig
+  description: The WY-TM892 is the standard load-bearing equipment of the W-Y security forces. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_pistol_weya.rsi
@@ -901,8 +901,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolSPP
-  name: "розвантаження-кобура для пістолета Type 47-S"
-  description: "Type 47-S — стандартне вантажоносне спорядження СПН. Складається з модульного пояса з різними кліпсами. Ця версія має кобурний блок, що дозволяє носити більшість поширених пістолетів. Також містить бічні підсумки для зберігання більшості пістолетних магазинів."
+  name: Type 47-S pistol holster rig
+  description: The Type 47-S is the standard load-bearing equipment of the UPP. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_pistol_spp.rsi
@@ -936,8 +936,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolTSE
-  name: "пістолетний пояс"
-  description: "Темно-коричневий шкіряний пістолетний пояс. Вміщає більшість пістолетів разом із запасними магазинами. Стандартний у правоохоронних, військових і охоронних силах."
+  name: pistol belt
+  description: A dark brown leather pistol belt. It accommodates most sidearms along with spare magazines. Standard issue across law enforcement, military, and security forces.
   suffix: NSPA
   components:
   - type: Sprite
@@ -950,14 +950,14 @@
 - type: entity
   parent: RMCBeltHolsterPistolSPP
   id: RMCBeltHolsterPistolPMC
-  name: "розвантаження-кобура для пістолета M301"
-  description: "M301 — стандартне вантажоносне спорядження ПВК «Вейленд-Ютані». Складається з модульного пояса з різними кліпсами. Ця версія має кобурний блок, що дозволяє носити більшість поширених пістолетів. Також містить бічні підсумки для зберігання більшості пістолетних магазинів."
+  name: M301 pistol holster rig
+  description: The M301 is the standard load-bearing equipment of Weyland-Yutani PMC. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
 
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltHolsterRevolver
-  name: "розвантаження-кобура для револьвера зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія — універсальна та регульована під різні револьвери, із шістьма невеликими підсумками для спідлоадерів. Слабо відгонить сіном."
+  name: M276 pattern general revolver holster rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is universal and adjustable for different revolvers, along with six small pouches for speedloaders. It smells faintly of hay.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_revolver.rsi
@@ -1057,8 +1057,8 @@
 - type: entity
   parent: ClothingBeltBase # Can't have storage slots on this one
   id: RMCBeltHolsterSMG
-  name: "розвантаження-кобура M39 зразка M276"
-  description: "Спеціальний варіант M276, розрахований на пістолет-кулемет M39."
+  name: M276 pattern M39 holster rig
+  description: Special issue variant of the M276 designed to holster a M39 submachine gun.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_smg.rsi
@@ -1104,8 +1104,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltUtilityGeneral
-  name: "загальний утилітарний підсумок M276 G8-A"
-  description: "Невеликий легкий підсумок, який можна кріпити на броню зразка M3 для додаткового зберігання. Новіша модель G8-A, хоч і незручна, може також кріпитися навколо пояса."
+  name: M276 G8-A general utility pouch
+  description: A small, lightweight pouch that can be clipped onto M3 Pattern armor to provide additional storage. The newer G8-A model, while uncomfortable, can also be clipped around the waist.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/sparepouch/jungle-classic.rsi
@@ -1139,8 +1139,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltHolsterSMGPouch
-  name: "розвантаження-кобура M39 зразка M276"
-  description: "Спеціальний варіант M276, розрахований на пістолет-кулемет M39 та два запасні магазини. Нечасто видається допоміжному та спеціалізованому персоналу КМП США."
+  name: M276 pattern M39 holster rig
+  description: Special issue variant of the M276 designed to holster a M39 submachine gun and two spare magazines. Uncommonly issued to USCM support and specialist personnel.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smg_mags.rsi
@@ -1209,8 +1209,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCMatebaBelt
-  name: "розвантаження-кобура «Матеба» зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія — для потужного магнум-револьвера «Матеба» з п'ятьма невеликими підсумками для спідлоадерів. Поставлялася разом із поштовим випуском «Матеби»-авторевольвера версії КМП США на початку 2170-х."
+  name: M276 pattern Mateba holster rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is for the powerful Mateba magnum revolver, along with five small pouches for speedloaders. It was included with the mail-order USCM edition of the Mateba autorevolver in the early 2170s.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/mateba_belt.rsi
@@ -1257,8 +1257,8 @@
 - type: entity
   parent: RMCMatebaBelt
   id: RMCMatebaBeltLuxurious
-  name: "розкішне розвантаження-кобура «Матеба» зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія — для потужного магнум-револьвера «Матеба» з п'ятьма невеликими підсумками для спідлоадерів. Конкретно це — пофарбоване в чорний та оздоблене золотим гравіруванням, сильно кастомізоване для високопоставленого посадовця."
+  name: luxurious M276 pattern Mateba holster rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is for the powerful Mateba magnum revolver, along with five small pouches for speedloaders. This specific one is tinted black and engraved with gold, heavily customized for a high-ranking official.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/amateba_belt.rsi
@@ -1400,8 +1400,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltXM51
-  name: "розвантаження-кобура XM51 зразка M276"
-  description: "M276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія — для штурмового дробовика XM51, що полегшує зберігання зброї. Має підсумки для двох магазинів і додаткових набоїв."
+  name: M276 pattern XM51 holster rig
+  description: The M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is for the XM51 breaching scattergun, allowing easier storage of the weapon. It features pouches for storing two magazines along with extra shells.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm51.rsi
@@ -1454,8 +1454,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCM300SOCOMBelt
-  name: "патронне розвантаження .458 SOCOM зразка M300"
-  description: "Патронний пояс, призначений для перенесення великих набоїв калібру .458 SOCOM для важкої гвинтівки XM88."
+  name: M300 pattern .458 SOCOM loading rig
+  description: An ammunition belt designed to hold the large .458 SOCOM caliber bullets for the XM88 heavy rifle.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/xm88/jungle-classic.rsi
@@ -1533,8 +1533,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltHolsterM13
-  name: "розвантаження-кобура M13 зразка M276"
-  description: "Спеціальний варіант M276 — розрахований виключно на надійне розміщення автоматичного пістолета M13 та семи запасних магазинів, що дає швидкий доступ у боях на близькій відстані. Ідеальний для оборони від загрози абордажу, цей пояс підтримує швидке розгортання скорострільної зброї, зберігаючи стабільність у середовищі нульової гравітації."
+  name: M276 pattern M13 holster rig
+  description: Special issue variant of the M276 - designed exclusively to securely hold an M13 Auto Pistol and seven spare magazines, allowing quick access in close-quarters situations. Ideal for defending against boarding threats, this belt supports rapid deployment of high-rate sidearms while maintaining stability in zero-G environments.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_autopistol.rsi
@@ -1681,8 +1681,8 @@
 - type: entity
   parent: RMCBeltSmartGunOperatorPistol
   id: RMCBeltSmartGunOperatorPistolPMC
-  name: "розвантаження смартганера з кобурою зразка WY-TM410"
-  description: "Спеціальний зразок бойового пояса від «Ве-Я», призначений для перенесення боєприпасів до смартгана та пістолета."
+  name: WY-TM410 pattern smargunner sidearm rig
+  description: A special pattern of We-Ya made combat belt, designed to carry smartgun ammunition and a sidearm.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/smart_gun_operator_pistol_wy.rsi
@@ -1735,8 +1735,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterNailgun
-  name: "кастомна кобура для цвяхомета"
-  description: "Комбінація пістолетної кобури M276 та інженерного інструментального пояса, переплавлена в унікальний пояс, який вміщує компактний цвяхомет і два запасні магазини до нього."
+  name: customized nailgun holster
+  description: Combination of a M276 pistol holster and engineering toolbelt that have been cannibalized into a unique belt that can holster a compact nailgun and two spare nailgun magazines.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_nailgun.rsi
@@ -1816,8 +1816,8 @@
 - type: entity
   parent: RMCBeltBaseStorageNoVisuals
   id: RMCM82FHolster
-  name: "розвантаження-кобура для сигнальної ракетниці M82F зразка M276"
-  description: "m276 — стандартне вантажоносне спорядження КМП США. Складається з модульного пояса з різними кліпсами. Ця версія — для сигнальної ракетниці M82F і додатково вміщує до 16 ракет."
+  name: M276 pattern M82F flare gun holster rig
+  description: he M276 is the standard load-bearing equipment of the USCM. It consists of a modular belt with various clips. This version is for the M82F flare gun and can additionally store up to 16 flares.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/holster_flaregun.rsi
@@ -1887,8 +1887,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltSPPBrown
-  name: "патронне розвантаження зразка 6Б80"
-  description: "6Б80 — застаріле, але надійне патронне розвантаження, колишнє стандартне для Армії СПН. Модульний пояс утримує різні боєприпаси, досі використовується силами безпеки та резервом СПН за свою міцну конструкцію."
+  name: 6B80 pattern ammo rig
+  description: The 6B80 is an outdated but reliable ammo rig, formerly standard for the UPP Army. Its modular belt holds various munitions, still used by UPP security forces and reserves for its rugged design.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/spp_brown.rsi
@@ -1910,8 +1910,8 @@
 - type: entity
   parent: CMBeltUtility
   id: RMCBeltMachineGunner
-  name: "вантажне розвантаження кулеметника M804"
-  description: "Вантажне розвантаження кулеметника M804 — це інструментальний пояс зразка M276, модифікований для перенесення боєприпасів до важких кулеметних систем та інженерних інструментів стрільця."
+  name: M804 heavygunner storage rig
+  description: The M804 heavygunner storage rig is an M276 pattern toolbelt rig modified to carry ammunition for heavy machinegun systems, and engineering tools for the gunner.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/machinegunner.rsi
@@ -1953,8 +1953,8 @@
 - type: entity
   parent: CMBeltMedical
   id: RMCMedicalL75RCM
-  name: "медичне розвантаження зразка L75"
-  description: "L75 — стандартне вантажоносне спорядження МКК. Складається з модульного пояса з різними кліпсами. Ця версія розрахована на перенесення медичних запасів та пістолетних боєприпасів."
+  name: L75 pattern medical storage rig
+  description: The L75 is the standard load-bearing equipment of the RCM. It consists of a modular belt with various clips. This version is designed to transport medical supplies and pistol ammunition.
   suffix: RCM, Medical
   components:
     - type: Sprite
@@ -2022,8 +2022,8 @@
 - type: entity
   parent: CMBeltMarine
   id: RMCBeltRCM
-  name: "патронне розвантаження зразка L70"
-  description: "Чудово підходить для перенесення додаткових боєприпасів у спеці джунглів. Зроблене зі спеціальної гнилостійкої тканини."
+  name: L70 pattern ammo load rig
+  description: Good for carrying around extra ammo in the heat of the jungle. Made of special rot-resistant fabric.
   suffix: RCM, Ammo
   components:
     - type: Sprite
@@ -2036,8 +2036,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltUtilityGeneralRCM
-  name: "загальний утилітарний пояс L26"
-  description: "Невеликий легкий підсумок, який можна кріпити на броню для додаткового зберігання. Ця нова модель МКК, хоч і незручна, може також кріпитися навколо пояса."
+  name: L26 general utility belt
+  description: A small, lightweight pouch that can be clipped onto armor to provide additional storage. This new RCM model, while uncomfortable, can also be clipped around the waist.
   suffix: PVP, RCM
   components:
   - type: Sprite
@@ -2062,8 +2062,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolRCM
-  name: "розвантаження-кобура для пістолета L80"
-  description: "L80 — стандартне вантажоносне спорядження Морпіхів Королівської Корони. Складається з модульного пояса з різними кліпсами. Ця версія має кобурний блок, що дозволяє носити більшість поширених пістолетів. Також містить бічні підсумки для зберігання більшості пістолетних магазинів."
+  name: L80 general pistol holster rig
+  description: The L80 is the standard load-bearing equipment of the Royal Crown Marines. It consists of a modular belt with various clips. This version has a holster assembly that allows one to carry the most common pistols. It also contains side pouches that can store most pistol magazines.
   suffix: RCM, Pistol Belt
   components:
     - type: Sprite
@@ -2076,8 +2076,8 @@
 - type: entity
   parent: RMCBeltHolsterPistol
   id: RMCBeltHolsterPistolPara
-  name: "вантажоносне розвантаження парамарина"
-  description: "Міцний пояс із чорною шкіряною кобурою, розроблений для парамаринів МКК. Великий утилітарний підсумок і кілька менших відділень забезпечують достатньо місця для додаткових боєприпасів та польових необхідностей — стандартне спорядження для парамаринів, що десантуються на ворожу територію."
+  name: paramarine load bearing rig
+  description: A sturdy belt fitted with a black leather holster designed for RCM Paramarines. A large utility pouch and several smaller compartments provide ample space for extra ammunition and field essentials — standard gear for Paramarines dropping into hostile territory.
   suffix: Paramarine, Survivor
   components:
     - type: Sprite
@@ -2181,8 +2181,8 @@
 - type: entity
   parent: RMCBeltHolsterPistolPara
   id: RMCBeltHolsterPistolParaCustom
-  name: "кастомне вантажоносне розвантаження парамарина"
-  description: "Модифікований пояс парамарина МКК із чорною шкіряною кобурою із золотою інкрустацією, великим утилітарним підсумком та кількома меншими відділеннями, що забезпечують достатньо місця для додаткових боєприпасів та польових необхідностей — стандартне спорядження для парамаринів, що десантуються на ворожу територію."
+  name: paramarine custom load-bearing rig
+  description: A modified RCM Paramarine belt featuring a black leather holster with gold inlay, a large utility pouch, and several smaller compartments provide ample space for extra ammunition and field essentials — standard gear for Paramarines dropping into hostile territory.
   suffix: Paramarine, Survivor, Filled, L54 Custom
   components:
     - type: Sprite
@@ -2230,8 +2230,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: RMCBeltRoyalMortar
-  name: "вантажоносне розвантаження зразка L79"
-  description: "Вантажоносне розвантаження зразка L79, налаштоване на перенесення боєприпасів підтримки для легкого міномета або багатозарядного гранатомета L989A2 разом із пістолетом і магазином. Зроблене зі спеціальної гнилостійкої тканини."
+  name: L79 pattern load-bearing rig
+  description: An L79 pattern load-bearing rig configured to carry support ammunition for either the light mortar or L989A2 multiple grenade launcher, along with a sidearm & magazine. Made of special rot-resistant fabric.
   suffix: PVE, RCM, Filled
   components:
   - type: Sprite
@@ -2298,8 +2298,8 @@
 - type: entity
   parent: RMCBeltHolsterPistolTSE
   id: RMCBeltHolsterPistolRCML29Filled
-  name: "кобурне розвантаження L29"
-  description: "Темно-коричневий шкіряний пістолетний пояс, який зазвичай видають офіцерам МКК. Хоча він і розроблений для службового пістолета L14, вміщає більшість пістолетів разом із запасними магазинами. Стандартний у правоохоронних, військових та охоронних силах ІТС."
+  name: L29 sidearm rig
+  description: A dark brown leather pistol belt commonly issued to RCM officers. Although designed for the L14 service pistol, it accommodates most sidearms along with spare magazines. Standard issue across TSE law enforcement, military, and security forces.
   suffix: PVE, RCM, Filled
   components:
   - type: StorageFill

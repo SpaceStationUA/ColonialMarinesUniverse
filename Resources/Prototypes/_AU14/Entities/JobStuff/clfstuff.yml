@@ -6,8 +6,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CLFObjectiveWeaponsVendor
-  name: "стелаж постачання КФВ"
-  description: "Високовартісний тайник зі зброєю, доступний лише за оперативні кошти КФВ."
+  name: CLF Requisitions Rack
+  description: A high-value weapons cache accessible only with CLF operational funds.
   suffix: CLF, Objective Points
   components:
   - type: Pullable
@@ -290,8 +290,8 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: AU14CLFCellKit
-  name: "важкий комплект осередку КФВ"
-  description: "Важкий польовий кейс низького профілю, що використовується для облаштування схованки осередку КФВ."
+  name: heavy CLF cell kit
+  description: A heavy, low-profile field case used to establish a CLF cell hideout.
   components:
   - type: Sprite
     layers:
@@ -335,7 +335,7 @@
       offset: 1.5, -2
 
 - type: entity
-  name: "загальна мітка схованки"
+  name: Generic Safhouse Marker
   parent: MarkerBase
   id: safehousemarker
   components:
@@ -347,8 +347,8 @@
 - type: entity
   parent: RMCCrateBase
   id: AU14CrateCLFinitalTools
-  name: "тайник інструментів КФВ"
-  description: "Польовий тайник зі зброєю, утилітарним спорядженням та ремонтними інструментами для щойно створеного осередку КФВ."
+  name: CLF tool cache
+  description: A field cache of weapons, utilities, and repair tools for a newly established CLF cell.
   components:
   - type: Sprite
     state: crate
@@ -378,8 +378,8 @@
 - type: entity
   parent: RMCCrateBase
   id: AU14CrateCLFRecruitmentKit
-  name: "тайник вербування КФВ"
-  description: "Компактний тайник для посвячення нових членів КФВ і роздачі прихованого зв’язку осередку."
+  name: CLF recruitment cache
+  description: A compact cache for inducting new CLF members and handing out covert cell comms.
   components:
   - type: Sprite
     state: crate
@@ -406,8 +406,8 @@
 - type: entity
   parent: RMCWeaponRevolverM44Custom
   id: AU14WeaponRevolverM44Inscribed
-  name: "гравірований бойовий револьвер M44"
-  description: "Добряче поношений бойовий револьвер M44 із грубими написами, видряпаними на стволі та руків’ї. Уздовж боку вигравірувано слова «СВОБОДА АБО СМЕРТЬ». Ця зброя явно бачила чимало битв."
+  name: inscribed M44 combat revolver
+  description: A well-worn M44 combat revolver with crude inscriptions scratched into the barrel and grip. The words 'FREEDOM OR DEATH' are etched along the side. This weapon has clearly seen many battles.
   components:
   - type: RevolverAmmoProvider
     proto: RMCCartridgeRevolver44
@@ -418,10 +418,10 @@
     baseFireRate: 6
 
 - type: entity
-  name: "татуювальна машинка"
+  name: Tattoo Gun
   parent: BaseStorageItem
   id: AU14TattooGun
-  description: "Використовується для посвячення людей до лав КФВ."
+  description: Used to induct people into the CLF.
   components:
   - type: TattooGun
   - type: Sprite
@@ -451,8 +451,8 @@
 - type: entity
   parent: BaseItem
   id: AU14TattooInkCartridge
-  name: "картридж із чорнилом для татуювань"
-  description: "Малий картридж із темним чорнилом для використання в татуювальній машинці."
+  name: tattoo ink cartridge
+  description: A small cartridge of dark ink for use with a tattoo gun.
   components:
   - type: Sprite
     sprite: _AU14/Objects/Misc/TattooGun/tattoogunmag.rsi
@@ -473,8 +473,8 @@
 - type: entity
   parent: CMJumpsuitColonist
   id: AU14CMJumpsuitColonistCLF
-  name: "форма колоніста"
-  description: "Стильний сіро-зелений комбінезон, стандартна уніформа колоністів. До коміра в цього прикріплена маленька гарнітура."
+  name: colonist uniform
+  description: A stylish gray-green jumpsuit - standard issue for colonists. This one has a small earpiece clipped to the collar.
   suffix: CLF
   components:
   - type: UniformAccessoryHolder
@@ -495,8 +495,8 @@
 - type: entity
   parent: RMCJumpsuitCivilian
   id: AU14RMCJumpsuitCivilianCLF
-  name: "сіра утилітарна форма"
-  description: "Стильний сірий комбінезон, який широко видають контрактним працівникам ООН на фронтирі. До коміра в цього прикріплена маленька гарнітура."
+  name: gray utility uniform
+  description: A stylish gray jumpsuit, popularly issued to UN contract workers on the frontier. This one has a small earpiece clipped to the collar.
   suffix: CLF
   components:
   - type: UniformAccessoryHolder

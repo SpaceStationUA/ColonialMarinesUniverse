@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadRiflemanBase
   id: AU14JobGOVFORSquadRiflemanCMBCIU
-  name: "Тактичний офіцер"
+  name: Tactical Officer
   ranks:
     AU14RankCMBSrDeputy:
     - !type:RoleTimeRequirement

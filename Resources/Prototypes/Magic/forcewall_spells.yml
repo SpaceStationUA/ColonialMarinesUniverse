@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionForceWall
-  name: "силова стіна"
-  description: "Створює магічний бар’єр."
+  name: forcewall
+  description: Creates a magical barrier.
   components:
   - type: Action
     useDelay: 15

@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomTools
-  name: "спавнер випадкових інструментів"
-  description: "Це випадковий інструмент."
+  name: random tools spawner
+  description: This is a random tool.
   components:
     - type: Sprite
       layers:
@@ -21,8 +21,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomToolbox
-  name: "спавнер випадкового ящика з інструментами"
-  description: "Це випадковий ящик з інструментами."
+  name: random toolbox spawner
+  description: This is a random toolbox.
   components:
     - type: Sprite
       layers:
@@ -43,8 +43,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomPowercell
-  name: "спавнер випадкового енергоосередку"
-  description: "Це випадковий енергоосередок."
+  name: random powercell spawner
+  description: This is a random powercell.
   components:
     - type: Sprite
       layers:
@@ -71,8 +71,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerBombSupply
-  name: "постачання бомб"
-  description: "Це випадкове постачання бомб"
+  name: bomb supply
+  description: This is a random bomb supply
   components:
     - type: Sprite
       layers:
@@ -89,8 +89,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomTechSupply
-  name: "спавнер випадкового технічного постачання"
-  description: "Це випадковий шматок технологічного постачання."
+  name: random tech supply spawner
+  description: This is a random piece of technology supplies.
   components:
     - type: Sprite
       layers:

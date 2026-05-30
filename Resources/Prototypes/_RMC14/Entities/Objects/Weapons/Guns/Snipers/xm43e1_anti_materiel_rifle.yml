@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseWeaponSniperRifle
   id: RMCXM43E1AntiMaterielRifle
-  name: "протиматеріальна гвинтівка XM43E1"
-  description: "Експериментальна протиматеріальна гвинтівка виробництва AEGIS Armaments, нещодавно повторно отримана зі складу глибокого зберігання покинутого прототипічного об'єкта. Ця конкретно зараз проходить польові випробування. Калібр 10x99мм безгільзовий. Ця зброя може пробивати тонке металеве оббиття та стіни, хоча в процесі втратить більшість смертоносності. Може використовуватися навіть для підривних робіт; досвідчені користувачі відомі тим, що в полі розбирають ділянки суцільних, укріплених стін одним стандартним магазином 10x99мм. Замість вибухівки чи інженера вони використовують кожен з 8 пострілів, щоб ламати критичні структурні опори, демонтуючи стіну в процесі."
+  name: XM43E1 anti-materiel rifle
+  description: An experimental anti-materiel rifle produced by AEGIS Armaments, recently reacquired from the deep storage of an abandoned prototyping facility. This one in particular is currently undergoing field testing. Chambered in 10x99mm Caseless. This weapon can punch through thin metal plating and walls, though it'll lose most of its lethality in the process. It can even work for demolitions, with experienced users known to disassemble segments of solid, reinforced walls in the field with just a single standard magazine of 10x99mm. In lieu of explosives or an engineer, they instead use each of the 8 shots to break down vital structural supports, taking the wall apart in the process.
   components:
   - type: GuideHelp
     guides:
@@ -88,8 +88,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: RMCMagazineSniperXM43E1AntiMateriel
-  name: "снайперський магазин XM43E1 (10x99мм)"
-  description: "Магазин безгільзових протиматеріальних набоїв 10x99мм, здатних пробивати більшість піхотних матеріалів. Залежно від того, у що ти влучив, в них може бути достатньо енергії, щоб поранити щось і за ціллю."
+  name: XM43E1 marksman magazine (10x99mm)
+  description: A magazine of caseless 10x99mm anti-materiel rounds, capable of penetrating through most infantry-level materiel. Depending on what you hit, it might even have enough energy to wound anything behind the target.
   components:
   - type: Tag
     tags:
@@ -113,7 +113,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: RMCCartridgeSniper10x99mmAntiMateriel
-  name: "набій (10x99мм) (протиматеріальний)"
+  name: cartridge (10x99mm) (AntiMateriel)
   components:
   - type: Tag
     tags:
@@ -125,7 +125,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: RMCBulletSniper10x99mmAntiMateriel
-  name: "куля (10x99мм)"
+  name: bullet (10x99mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

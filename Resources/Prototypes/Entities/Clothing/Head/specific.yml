@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: ClothingHeadBase
   id: ClothingHeadHatChameleon
-  name: "берет"
-  description: "Берет, улюблений головний убір митця."
+  name: beret
+  description: A beret, an artists favorite headwear.
   suffix: Chameleon
   components:
     - type: Tag
@@ -22,8 +22,8 @@
 - type: entity
   parent: ClothingHeadHatFedoraBrown
   id: ClothingHeadHatDetGadget
-  name: "капелюх go-go"
-  description: "Новаторський капелюх із вбудованим набором інструментів. Автоматично зберігає та дістає предмети за ключовою фразою!"
+  name: go go hat
+  description: A novel hat with a built in toolkit. Automatically stores and retrieves items at the say of a phrase!
   components:
   - type: Tag
     tags: [] # ignore "WhitelistChameleon" tag

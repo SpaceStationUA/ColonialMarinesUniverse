@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidEchoCombatTech
-  name: "ехо привид-роль бойового техніка"
+  name: echo ghost role combat technician
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidEchoFireteamLeader
-  name: "ехо привид-роль лідера вогневої команди"
+  name: echo ghost role fireteam leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidEchoHospitalCorpsman
-  name: "ехо привид-роль шпитального корпсмена"
+  name: echo ghost role hospital corpsman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidEchoRifleman
-  name: "ехо привид-роль стрільця"
+  name: echo ghost role rifleman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidEchoSmartGunOperator
-  name: "ехо привид-роль оператора смартгана"
+  name: echo ghost role smart gun operator
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidEchoSquadLeader
-  name: "ехо привид-роль лідера загону"
+  name: echo ghost role squad leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidEchoWeaponsSpecialist
-  name: "ехо привид-роль спеціаліста з озброєння"
+  name: echo ghost role weapons specialist
   suffix: Spawner, Player
   components:
   - type: Sprite

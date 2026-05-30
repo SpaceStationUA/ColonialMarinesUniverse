@@ -1,5 +1,5 @@
 - type: entity
-  name: "ціль заарештувати ворогів"
+  name: Arrest enemies Objective
   parent: MarkerBase
   id: arrestteamobjective
   components:
@@ -25,7 +25,7 @@
 
 
 - type: entity
-  name: "ціль заарештувати КФВ"
+  name: Arrest CLF Objective
   parent: MarkerBase
   id: arrestclfobjective
   components:
@@ -49,7 +49,7 @@
     removekillmark: true
 
 - type: entity
-  name: "ціль заарештувати ГОВФОР"
+  name: Arrest GOVFOR Objective
   parent: MarkerBase
   id: arrestgovforobjective
   components:

@@ -94,8 +94,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleBicaridine
-  name: "пляшечка бікаридину"
-  description: "Маленька пляшечка. Містить бікаридин — використовується для лікування фізичних ушкоджень."
+  name: bicaridine bottle
+  description: A small bottle. Contains Bicaridine - Used to treat brute damage.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleKelotane
-  name: "пляшечка келотану"
-  description: "Маленька пляшечка. Містить келотан — використовується для лікування обпечених ділянок."
+  name: kelotane bottle
+  description: A small bottle. Contains kelotane - used to treat burned areas.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -128,8 +128,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleDylovene
-  name: "пляшечка диловену"
-  description: "Маленька пляшечка диловену. Протидіє отрутам та лікує токсичні ушкодження. Чудодійні ліки."
+  name: dylovene bottle
+  description: A small bottle of dylovene. Counters poisons, and repairs toxin damage. A wonder drug.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -145,8 +145,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleDexalin
-  name: "пляшечка дексаліну"
-  description: "Маленька пляшечка. Містить дексалін — використовується для лікування кисневого голодування."
+  name: dexalin bottle
+  description: A small bottle. Contains dexalin - used to treat oxygen deprivation.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleInaprovaline
-  name: "пляшечка інапровалину"
-  description: "Маленька пляшечка. Містить інапровалін — використовується для стабілізації пацієнтів."
+  name: inaprovaline bottle
+  description: A small bottle. Contains inaprovaline - used to stabilize patients.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -179,8 +179,8 @@
 - type: entity
   parent: CMBottleFilled
   id: CMBottleTricordrazine
-  name: "пляшечка трикордразину"
-  description: "Маленька пляшечка. Містить трикордразин — слабкі, але універсальні ліки для лікування різноманітних ушкоджень."
+  name: tricordrazine bottle
+  description: A small bottle. Contains tricordrazine - A weak but catch-all medicine for treating all sorts of damage.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -199,8 +199,8 @@
   parent: CMBottleFilled
   id: RMCBottleAntiZed
   suffix: DO NOT MAP
-  name: "пляшечка ліків від «Патогену»"
-  description: "На пляшечці спереду символ біонебезпеки та етикетка, що позначає її використання проти агента A0-3959X.91–15, в народі відомого як «Чорна Жижа»."
+  name: "'Pathogen' cure bottle"
+  description: The bottle has a biohazard symbol on the front, and has a label, designating its use against Agent A0-3959X.91–15, colloquially known as the "Black Goo".
   components:
   - type: Sprite
     layers:
@@ -223,8 +223,8 @@
 - type: entity
   parent: CMBottleFilled
   id: RMCBottleMindbreaker
-  name: "пляшечка майндбрейкера"
-  description: "Маленька пляшечка. Містить токсин майндбрейкер — звихне будь-кого, хто його прийме."
+  name: mindbreaker bottle
+  description: A small bottle. Contains mindbreaker toxin - Fucks up anyone who takes it.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -242,7 +242,7 @@
 - type: entity
   parent: CMBottleEmpty
   id: RMCLargeBottleEmpty
-  name: "велика пляшка."
+  name: A large bottle.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -277,8 +277,8 @@
 - type: entity
   parent: RMCLargeBottleFilled
   id: RMCLargeBottleDexalinPlus
-  name: "велика пляшка дексаліну плюс"
-  description: "Велика пляшка. Містить дексалін плюс — використовується для миттєвого лікування кисневого голодування."
+  name: large dexalin plus bottle
+  description: A large bottle. Contains dexalin plus - used to instantly treat oxygen deprivation.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -294,8 +294,8 @@
 - type: entity
   parent: RMCLargeBottleFilled
   id: RMCLargeBottleMeralyneBicaridine
-  name: "велика пляшка мераліну-бікаридину"
-  description: "Велика пляшка. Містить суміш мераліну та бікаридину — використовується для лікування фізичних ушкоджень."
+  name: large meralyne-bicaridine bottle
+  description: A large bottle. Contains a mix of meralyne and bicaridine - used to treat brute damage.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -314,8 +314,8 @@
 - type: entity
   parent: RMCLargeBottleFilled
   id: RMCLargeBottleKelotaneDermaline
-  name: "велика пляшка келотану-дермаліну"
-  description: "Велика пляшка. Містить суміш келотану та дермаліну — використовується для лікування обпечених ділянок."
+  name: large kelotane-dermaline bottle
+  description: A large bottle. Contains a mix of kelotane and dermaline - used to treat burned areas.
   components:
   - type: SolutionContainerManager
     solutions:

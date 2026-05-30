@@ -1,5 +1,5 @@
 - type: entity
-  name: "здобути необтаніум"
+  name: Fetch Unobtanium obj
   parent: MarkerBase
   id: fetchcrystalobjective
   components:

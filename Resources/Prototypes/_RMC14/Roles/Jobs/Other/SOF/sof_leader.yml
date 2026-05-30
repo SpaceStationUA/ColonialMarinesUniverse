@@ -56,7 +56,7 @@
 
 - type: entity
   id: RMCRandomHumanoidMarineRaiderLead
-  name: "DEATHSQUAD привид-роль лідера команди рейдерів-морпіхів"
+  name: DEATHSQUAD marine raider team leader ghost role
   suffix: Role
   components:
   - type: Sprite
@@ -117,7 +117,7 @@
 - type: entity
   parent: CMIDCardStandardDogtag
   id: RMCDogtagMarineRaiderLeader
-  name: "жетони лідера команди рейдерів-морпіхів"
+  name: Marine Raider Team Leader's dogtags
   components:
   - type: PresetIdCard
     job: CMMarineRaiderLeader

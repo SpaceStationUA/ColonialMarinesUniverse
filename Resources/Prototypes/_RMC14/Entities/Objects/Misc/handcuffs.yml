@@ -1,8 +1,8 @@
 - type: entity
   parent: Handcuffs
   id: RMCHandcuffs
-  name: "наручники"
-  description: "Використовуй для тримання в'язнів у строю."
+  name: handcuffs
+  description: Use this to keep prisoners in line.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/handcuffs.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: RMCHandcuffs
   id: RMCZipties
-  name: "застібки-наручники"
-  description: "Міцні одноразові пластикові застібки-блискавки, ідеально підходять для стримування буйних ув'язнених."
+  name: zipties
+  description: Tough single-use plastic zipties, ideal for restraining rowdy prisoners.
   suffix: RMC
   components:
   - type: UseDelay

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPouchStorage
   id: RMCPouchReagentCanister
-  name: "підсумок для герметичного каністера реагентів"
-  description: "Підсумок для герметичного каністера реагентів. Використовується для заправки кастомних ін'єкторів і також може зберігати один. Може заправлятися з бака реагентів або хімічного диспенсера. Його можна носити, прикріпивши до кишені."
+  name: pressurized reagent canister pouch
+  description: A pressurized reagent canister pouch. It is used to refill custom injectors, and can also store one. May be refilled with a reagent tank or a Chemical Dispenser. Can be worn by attaching it to a pocket.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Pouches/pressurized_reagent_canister.rsi

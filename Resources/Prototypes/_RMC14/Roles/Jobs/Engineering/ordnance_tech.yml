@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointOrdnanceTech
-  name: "спавнер техніка боєприпасів"
+  name: ordnance tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMOrdnanceTech

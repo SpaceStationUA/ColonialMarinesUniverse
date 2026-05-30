@@ -68,7 +68,7 @@
 
 - type: entity
   id: RMCSurvivorPresetHybrisaSynthExecBodyguard
-  name: "пресет вцілілого синтетика-охоронця виконавчого гібріси"
+  name: survivor synth hybrisa executive bodyguard preset
   categories: [ HideSpawnMenu ] # Todo random research notes, telebaton in backpack
   components:
   - type: EntityPreset

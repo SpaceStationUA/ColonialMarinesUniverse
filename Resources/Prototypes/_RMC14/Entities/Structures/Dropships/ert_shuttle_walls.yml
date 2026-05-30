@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: RMCBaseERTShuttleWall
-  name: "Стіна шатла РРГ"
+  name: ERT Shuttle Wall
   components:
   - type: Corrodible
     isCorrodible: false
@@ -17,7 +17,7 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCBaseERTShuttleEngine
-  name: "Двигун шатла"
+  name: Shuttle Engine
   components:
   - type: Occluder
     enabled: false
@@ -88,12 +88,12 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallStandard
-  name: "Стандартна стіна шатла"
+  name: Standard Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandardEngineLeft
-  name: "Стандартний двигун шатла"
+  name: Standard Shuttle Engine
   suffix: Left
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCERTShuttleWallStandard
   id: RMCERTShuttleWallStandardEngineRight
-  name: "Стандартний двигун шатла"
+  name: Standard Shuttle Engine
   suffix: Right
   components:
   - type: Sprite
@@ -360,12 +360,12 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallWeYa
-  name: "Стіна шатла WeYa"
+  name: WeYa Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYaEngineLeft
-  name: "Двигун шатла WeYa"
+  name: WeYa Shuttle Engine
   suffix: Left
   components:
   - type: Sprite
@@ -376,7 +376,7 @@
 - type: entity
   parent: RMCERTShuttleWallWeYa
   id: RMCERTShuttleWallWeYaEngineRight
-  name: "Двигун шатла WeYa"
+  name: WeYa Shuttle Engine
   suffix: Right
   components:
   - type: Sprite
@@ -602,12 +602,12 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallSPP
-  name: "Стіна шатла СПН"
+  name: SPP Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPPEngineLeft
-  name: "Двигун шатла СПН"
+  name: SPP Shuttle Engine
   suffix: Left
   components:
   - type: Sprite
@@ -618,7 +618,7 @@
 - type: entity
   parent: RMCERTShuttleWallSPP
   id: RMCERTShuttleWallSPPEngineRight
-  name: "Двигун шатла СПН"
+  name: SPP Shuttle Engine
   suffix: Right
   components:
   - type: Sprite
@@ -774,12 +774,12 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallTSE
-  name: "Стіна шатла ІТС"
+  name: TSE Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSEEngineLeft
-  name: "Двигун шатла ІТС"
+  name: TSE Shuttle Engine
   suffix: Left
   components:
   - type: Sprite
@@ -790,7 +790,7 @@
 - type: entity
   parent: RMCERTShuttleWallTSE
   id: RMCERTShuttleWallTSEEngineRight
-  name: "Двигун шатла ІТС"
+  name: TSE Shuttle Engine
   suffix: Right
   components:
   - type: Sprite
@@ -946,12 +946,12 @@
   abstract: true
   parent: RMCBaseERTShuttleWall
   id: RMCERTShuttleWallNightmareSPP
-  name: "Стіна кошмарного шатла СПН"
+  name: Nightmare SPP Shuttle Wall
 
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineLeft01
-  name: "Двигун кошмарного шатла СПН"
+  name: Nightmare SPP Shuttle Engine
   suffix: Left 01
   components:
   - type: Sprite
@@ -962,7 +962,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineLeft02
-  name: "Двигун кошмарного шатла СПН"
+  name: Nightmare SPP Shuttle Engine
   suffix: Left 02
   components:
   - type: Sprite
@@ -973,7 +973,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineRight01
-  name: "Двигун кошмарного шатла СПН"
+  name: Nightmare SPP Shuttle Engine
   suffix: Right 01
   components:
   - type: Sprite
@@ -984,7 +984,7 @@
 - type: entity
   parent: RMCERTShuttleWallNightmareSPP
   id: RMCERTShuttleWallNightmareSPPEngineRight02
-  name: "Двигун кошмарного шатла СПН"
+  name: Nightmare SPP Shuttle Engine
   suffix: Right 02
   components:
   - type: Sprite

@@ -1,6 +1,6 @@
 - type: entity
   parent: RMCArmorHelmetMARSOC
   id: AU14ArmorHelmetCovert
-  name: "прихований шолом M10"
-  description: "Версія морпіхотного шолома M10, розроблена для використання в затемнених середовищах. Покрита спеціальною антивідблисковою фарбою."
+  name: M10 covert helmet
+  description: An M10 marine helmet version designed for use in darkened enviroments. It is coated with a special anti-reflective paint.
   suffix: VAISO

@@ -3,8 +3,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleL89A1
-  name: "снайперська гвинтівка L89A1"
-  description: "L89A1 — стандартна гвинтівка призначеного снайпера парамаринських полків МКК, легка й надійна снайперська гвинтівка з вбудованою 2x оптикою."
+  name: L89A1 marksman rifle
+  description: The L89A1 is the standard-issue DMR of the RMC's Paramarine regiments, a lightweight and reliable marksman rifle that boasts an integrated 2x optic.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/l89.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCWeaponRifleL89A1
   id: RMCWeaponRifleL89A2
-  name: "снайперська гвинтівка L89A2"
-  description: "L89A2 — оновлена гвинтівка призначеного снайпера парамаринських полків МКК, легка й надійна снайперська гвинтівка з вбудованою 2x оптикою, тепер з більшою модульністю завдяки планці, що тягнеться знизу цівки."
+  name: L89A2 marksman rifle
+  description: The L89A2 is the upgraded DMR of the RMC's Paramarine regiments, a lightweight and reliable marksman rifle that boasts an integrated 2x optic now with greater modularity with a rail spanning the underside of the handguard.
   components:
   - type: AttachableHolder
     slots:

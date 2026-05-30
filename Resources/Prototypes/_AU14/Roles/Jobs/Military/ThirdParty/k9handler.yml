@@ -78,7 +78,7 @@
 
 - type: entity
   id: AU14SkillPresetThirdPartyK9Handler
-  name: "Шпитальний корпсмен"
+  name: Hospital Corpsman
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORK9Handler
-  name: "(НЕ МАПИТИ) точка появи кінолога ГОВФОР"
+  name: (DO NOT MAP) Spawn Point GOVFOR K9 Handler
   components:
   - type: SpawnPoint
     job_id: AU14JobThirdPartyK9Handler

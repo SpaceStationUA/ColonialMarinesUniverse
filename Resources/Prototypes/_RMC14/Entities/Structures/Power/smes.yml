@@ -3,8 +3,8 @@
   abstract: true
   parent: BaseSMES
   id: CMSMESBase
-  name: "SMES"
-  description: "Надпровідний магнітний накопичувач енергії (SMES) великої ємності."
+  name: SMES
+  description: A high-capacity superconducting magnetic energy storage (SMES) unit.
   components:
     - type: GuideHelp
       guides:

@@ -1,6 +1,6 @@
 - type: entity
-  name: "коробка сірників"
-  description: "Маленька коробка преміальних «Космо-стійких» сірників."
+  name: match box
+  description: A small box of 'Space-Proof' premium matches.
   parent: [ SmallboxItem, BaseBagOpenClose ]
   id: RMCMatchbox
   components:
@@ -52,7 +52,7 @@
       state: helmet
 
 - type: entity
-  name: "коробка сірників"
+  name: match box
   parent: RMCMatchbox
   id: RMCMatchboxFull
   suffix: Full
@@ -63,8 +63,8 @@
       amount: 14
 
 - type: entity
-  name: "сірник"
-  description: "Звичайний сірник, що використовується для розпалювання гарних курильних виробів."
+  name: match
+  description: A simple match stick, used for lighting fine smokables.
   parent: Matchstick
   id: RMCMatchstick
   components:
@@ -73,8 +73,8 @@
     state: match_unlit
 
 - type: entity
-  name: "паперовий сірник"
-  description: "Звичайний сірник, що використовується для розпалювання гарних курильних виробів."
+  name: paper match
+  description: A simple match stick, used for lighting fine smokables.
   parent: RMCMatchstick
   id: RMCMatchstickPaper
   components:

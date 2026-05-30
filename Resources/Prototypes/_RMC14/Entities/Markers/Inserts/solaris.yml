@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisMedbay
-  name: "Медблок v3"
+  name: Medbay v3
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisMedbayPassage
-  name: "Прохід медблоку"
+  name: Medbay Passage
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -36,7 +36,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisLambdaCaveExtratunnel
-  name: "Доптунель Лямбда-печери"
+  name: Lambda Cave Extratunnel
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisLambdaCaveMushroom
-  name: "Гриб Лямбда-печери"
+  name: Lambda Cave Mushroom
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisSeCheckpoint
-  name: "SE Чекпоінт"
+  name: SE Checkpoint
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisTCommsOpen
-  name: "Відкритий T-Comms"
+  name: TComms Open
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisETATunnelOpen
-  name: "Відкритий тунель ETA"
+  name: ETA Tunnel Open
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisViroOpen
-  name: "Відкрита Вірологія"
+  name: Virology Open
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisViroRockOpen
-  name: "Відкриті Камені Вірології"
+  name: Virology Rocks Open
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -114,7 +114,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisLZ1CaveFlank
-  name: "Фланг печери LZ1"
+  name: LZ1 Cave Flank
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -125,7 +125,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisLZ1Entrance
-  name: "Вхід LZ1"
+  name: LZ1 Entrance
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -136,7 +136,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisLZ1NorthMining
-  name: "Північні шахти LZ1"
+  name: LZ1 North Mining
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -147,7 +147,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisLambdaGraveyard
-  name: "Цвинтар Лямбди"
+  name: Lambda Graveyard
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -159,7 +159,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisDormsParty
-  name: "Вечірка в гуртожитках"
+  name: Dorms Party
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -171,7 +171,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisAdminPMC
-  name: "Адміністрація PMC"
+  name: Admin PMC
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisFiltrationRestored
-  name: "Відновлена фільтрація"
+  name: Filtration Restored
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -195,7 +195,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisVault
-  name: "Сховище V2"
+  name: Vault V2
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -206,7 +206,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisCLFMining
-  name: "Шахти CLF"
+  name: CLF Mining
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -219,7 +219,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisCrashlandingOffices
-  name: "Аварійна посадка — Офіси"
+  name: Crashlanding Offices
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -232,7 +232,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisCargoContainers
-  name: "Вантажні контейнери"
+  name: Cargo Containers
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -243,7 +243,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisLZ1ContainersScramble
-  name: "Перемішані контейнери LZ1"
+  name: LZ1 Containers Scramble
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisReactorMeltdown
-  name: "Розплавлення реактора"
+  name: Reactor Meltdown
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -265,7 +265,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisChapelCult
-  name: "Каплиця культу"
+  name: Chapel Cult
   suffix: Insert Solaris
   components:
   - type: MapInsert
@@ -277,7 +277,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisCrashlandingEva
-  name: "Аварійна посадка Ева"
+  name: Crashlanding Eva
   suffix: Insert Solaris
   components:
     - type: MapInsert
@@ -292,7 +292,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisSurvSpawnAdmin
-  name: "Спавн вцілілого — Адмін"
+  name: Admin Surv Spawn
   suffix: Insert Solaris
   components:
     - type: MapInsert
@@ -305,7 +305,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisSurvSpawnBar
-  name: "Спавн вцілілого — Бар"
+  name: Bar Surv Spawn
   suffix: Insert Solaris
   components:
     - type: MapInsert
@@ -318,7 +318,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisSurvSpawnOffice
-  name: "Спавн вцілілого — Офіс"
+  name: Office Surv Spawn
   suffix: Insert Solaris
   components:
     - type: MapInsert
@@ -331,7 +331,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisSurvSpawnSouthMarshals
-  name: "Спавн вцілілого — Південні Маршали"
+  name: South Marshals Surv Spawn
   suffix: Insert Solaris
   components:
     - type: MapInsert
@@ -344,7 +344,7 @@
 - type: entity
   parent: RMCMapInsertSolarisBase
   id: RMCMapInsertSolarisSurvSpawnStorage
-  name: "Спавн вцілілого — Склад"
+  name: Storage Surv Spawn
   suffix: Insert Solaris
   components:
     - type: MapInsert

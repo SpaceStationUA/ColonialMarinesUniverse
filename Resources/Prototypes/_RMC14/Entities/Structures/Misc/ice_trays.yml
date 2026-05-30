@@ -1,8 +1,8 @@
 - type: entity
   id: RMCIceSlabTrayBase
   abstract: true
-  name: "таця з крижаними плитами"
-  description: "Таця, заповнена плитами темного льоду."
+  name: ice slab tray
+  description: It is a tray filled with slabs of dark ice.
   placement:
     mode: SnapgridCenter
   components:

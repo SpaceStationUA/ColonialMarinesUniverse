@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianMiner
-  name: "точка появи цивільного шахтаря"
+  name: Spawn Point Civilian Miner
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianMiner

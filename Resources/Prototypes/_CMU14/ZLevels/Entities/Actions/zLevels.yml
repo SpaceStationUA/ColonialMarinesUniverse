@@ -1,7 +1,7 @@
 - type: entity
   id: CMUActionZLevelUp
-  name: "Рух вгору"
-  description: "Піднятися на один Z-рівень"
+  name: Move up
+  description: Move up one Z-level
   components:
   - type: Action
     checkCanInteract: false
@@ -13,8 +13,8 @@
 
 - type: entity
   id: CMUActionZLevelDown
-  name: "Рух вниз"
-  description: "Спуститися на один Z-рівень"
+  name: Move down
+  description: Move down one Z-level
   components:
   - type: Action
     checkCanInteract: false
@@ -26,8 +26,8 @@
 
 - type: entity
   id: CMUActionToggleLookUp
-  name: "Подивитися вгору"
-  description: "Ви піднімаєте голову й дивитеся в небо."
+  name: Look up
+  description: You lift your head and look up at the sky.
   components:
   - type: Action
     checkCanInteract: false

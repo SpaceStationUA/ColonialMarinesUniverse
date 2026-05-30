@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyGOVFOR
-  name: "колоніальна камера"
+  name: colony-grade camera
   suffix: Colony, Govfor
   placement:
     mode: SnapgridCenter
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyWEYU
-  name: "колоніальна камера"
+  name: colony-grade camera
   suffix: Colony, We-Yu
   placement:
     mode: SnapgridCenter
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: CMUSurveillanceCameraColonyCMB
-  name: "колоніальна камера"
+  name: colony-grade camera
   suffix: Colony, CMB
   placement:
     mode: SnapgridCenter
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyGovfor
-  name: "колоніальні камери охорони"
-  description: "Використовується для доступу до різних камер на колонії."
+  name: colony security cameras
+  description: Used to access the various cameras on the colony.
   suffix: Colony, Govfor
   components:
   - type: RMCCameraComputer
@@ -51,8 +51,8 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyWEYU
-  name: "колоніальні камери охорони"
-  description: "Використовується для доступу до різних камер на колонії."
+  name: colony security cameras
+  description: Used to access the various cameras on the colony.
   suffix: Colony, We-Yu
   components:
   - type: RMCCameraComputer
@@ -62,8 +62,8 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyWEYUSpy
-  name: "камери безпеки"
-  description: "Використовується для доступу до різних камер на об’єкті та в колонії."
+  name: security cameras
+  description: Used to access the various cameras in the facility and the colony.
   suffix: Colony, We-Yu, Spy
   components:
   - type: RMCCameraComputer
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyGovforSpy
-  name: "камери безпеки"
-  description: "Використовується для доступу до різних камер на базі та в колонії."
+  name: security cameras
+  description: Used to access the various cameras in the base and the colony.
   suffix: Colony, Govfor, Spy
   components:
   - type: RMCCameraComputer
@@ -86,8 +86,8 @@
 - type: entity
   parent: RMCMonitorCameraAlmayer
   id: CMUMonitorCameraColonyCMB
-  name: "колоніальні камери охорони"
-  description: "Використовується для доступу до різних камер на колонії."
+  name: colony security cameras
+  description: Used to access the various cameras on the colony.
   suffix: Colony, CMB
   components:
   - type: RMCCameraComputer

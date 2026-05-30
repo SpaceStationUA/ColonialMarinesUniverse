@@ -1,5 +1,5 @@
 - type: entity
-  name: "електричний промінь"
+  name: electric beam
   id: EffectTeslaBeam
   categories: [ HideSpawnMenu ]
   components:

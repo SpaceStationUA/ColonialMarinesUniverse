@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14WYPMCHelmet
-  name: "шолом ПВК ВЮ"
-  description: "Шолом ПВК ВЮ."
+  name: WY PMC Helmet
+  description: A WY PMC helmet.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/wypmchelmet.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14WYPMCSniperHat
-  name: "снайперський капелюх ПВК ВЮ"
-  description: "Шолом ПВК ВЮ."
+  name: WY PMC Sniper Hat
+  description: A WY PMC helmet.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/sniperhat.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: [ArmorHelmetPMC, RMCMarineHelmetWithLightBase]
   id: AU14ArmorHelmetPMCTactical
-  name: "тактичний шолом ПВК ВЮ"
-  description: "Претендент на прийняття на озброєння командос Королівської морської піхоти; наразі його ексклюзивно випробовують у польових умовах найманці Вейланд-Ютані. Має балістичну маску та вбудований дисплей, під’єднаний до візора."
+  name: WY PMC Tactical Helmet
+  description: A contender for service with the Royal Marines Commandos, it is presently, exclusively, field tested by Weyland-Yutani mercenaries. Features a ballistic mask and integrated display connected to the visor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/pmchelmet_closed.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: AU14ArmorHelmetPMCTactical
   id: AU14ArmorHelmetPMCTacticalEngi
-  name: "тактичний інженерний шолом ПВК ВЮ"
-  description: "Претендент на прийняття на озброєння командос Королівської морської піхоти; наразі його ексклюзивно випробовують у польових умовах найманці Вейланд-Ютані. Має балістичну маску та вбудований дисплей, під’єднаний до візора."
+  name: WY PMC Tactical Engineer Helmet
+  description: A contender for service with the Royal Marines Commandos, it is presently, exclusively, field tested by Weyland-Yutani mercenaries. Features a ballistic mask and integrated display connected to the visor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/pmchelmet_engi.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14WYPMCHelmetHeavy
-  name: "важкий шолом ПВК ВЮ"
-  description: "Шолом ПВК ВЮ."
+  name: WY PMC Heavy Helmet
+  description: A WY PMC helmet.
   components:
   - type: IdentityBlocker
   - type: Sprite

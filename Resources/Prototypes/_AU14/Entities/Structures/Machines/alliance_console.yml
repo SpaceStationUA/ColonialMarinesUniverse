@@ -2,8 +2,8 @@
   abstract: true
   parent: RMCCommunicationsConsoleBase
   id: AU14AllianceConsoleBase
-  name: "консоль альянсу"
-  description: "Захищений командний термінал для керування дипломатичними відносинами з фракціями третьої сторони. Дружні фракції не обстрілюватимуться вашими турелями."
+  name: alliance console
+  description: A secured command terminal for managing diplomatic standing with third-party factions. Friendly factions will not be engaged by your sentries.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -22,9 +22,9 @@
 - type: entity
   parent: AU14AllianceConsoleBase
   id: AU14AllianceConsoleGovfor
-  name: "консоль альянсу (ҐовФор)"
+  name: alliance console (GovFor)
   suffix: GovFor
-  description: "Командний термінал ҐовФор для керування дипломатичними відносинами з фракціями третьої сторони."
+  description: A GovFor command terminal for managing diplomatic standing with third-party factions.
   components:
   - type: AllianceConsole
     faction: govfor
@@ -32,9 +32,9 @@
 - type: entity
   parent: AU14AllianceConsoleBase
   id: AU14AllianceConsoleOpfor
-  name: "консоль альянсу (ОпФор)"
+  name: alliance console (OpFor)
   suffix: OpFor
-  description: "Командний термінал ОпФор для керування дипломатичними відносинами з фракціями третьої сторони."
+  description: An OpFor command terminal for managing diplomatic standing with third-party factions.
   components:
   - type: AllianceConsole
     faction: opfor

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: FoodGoldenApple
   id: RMCFoodGoldenApple
-  name: "золоте яблуко"
-  description: "На яблуці випалено слово «Каллісті»."
+  name: golden apple
+  description: Emblazoned upon the apple is the word 'Kallisti'.
   components:
   - type: SolutionContainerManager
     solutions:

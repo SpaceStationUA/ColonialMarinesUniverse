@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14UPPBoonie
-  name: "панама УПП"
-  description: "Головний убір УПП, який видають солдатам, коли не очікується бойове зіткнення; його можуть запитувати офіцери й старші за званням."
+  name: UPP boonie
+  description: UPP headgear issued to soldiers when they're not expected to face combat, and may be requested by officers and above.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/hats/uppboonie.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14UPPPatrolCap
-  name: "патрульна кепка УПП UL2"
-  description: "Головний убір УПП, який видають солдатам, коли не очікується бойове зіткнення; його можуть запитувати офіцери й старші за званням."
+  name: UPP UL2 patrol cap
+  description: UPP headgear issued to soldiers when they're not expected to face combat, and may be requested by officers and above.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/hats/uppcap.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14UPPUshanka
-  name: "ушанка УПП UL8"
-  description: "Головний убір УПП, який видають солдатам, коли не очікується бойове зіткнення; його можуть запитувати офіцери й старші за званням."
+  name: UPP UL8 ushanka
+  description: UPP headgear issued to soldiers when they're not expected to face combat, and may be requested by officers and above.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/hats/uppushanka.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14UPPCBRNHood
-  name: "капюшон MOPP УПП"
-  description: "Капюшон із костюма MOPP Збройних сил УПП."
+  name: UPP MOPP hood
+  description: Hood from the UPP's Armed Forces MOPP costume.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/hats/cbrn.rsi

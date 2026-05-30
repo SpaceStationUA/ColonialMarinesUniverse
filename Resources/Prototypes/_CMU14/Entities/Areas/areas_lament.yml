@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: CMUAreaLV376
-  name: "LV-376 Уліксес"
+  name: LV-376 Ulixes
   components:
   - type: Sprite
     state: unknown
@@ -15,7 +15,7 @@
 - type: entity
   parent: CMUAreaLV376
   id: CMUAreaLV376Outside
-  name: "Поверхня LV-376 Уліксес"
+  name: LV-376 Ulixes Surface
   suffix: Outdoors
   components:
   - type: Area
@@ -32,7 +32,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376NW
-  name: "Плач Баркера — Північно-західна колонія"
+  name: Barker's Lament - Northwest Colony
   components:
   - type: Sprite
     state: northwest
@@ -40,7 +40,7 @@
 - type: entity
   parent: CMUAreaLV376NW
   id: CMUAreaLV376NWO
-  name: "Північно-західна долина"
+  name: Northwest Valley
   components:
   - type: Sprite
     state: valley_north_west
@@ -48,7 +48,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376Scrapyard
-  name: "Звалище"
+  name: Scrapyard
   components:
   - type: Sprite
     state: mining_living
@@ -56,7 +56,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376N
-  name: "Плач Баркера — Північна колонія"
+  name: Barker's Lament - North Colony
   components:
   - type: Sprite
     state: north
@@ -64,7 +64,7 @@
 - type: entity
   parent: CMUAreaLV376N
   id: CMUAreaLV376NO
-  name: "Північна долина"
+  name: North Valley
   components:
   - type: Sprite
     state: valley_north
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376NE
-  name: "Плач Баркера — Північно-східна колонія"
+  name: Barker's Lament - Northeast Colony
   components:
   - type: Sprite
     state: northeast
@@ -80,7 +80,7 @@
 - type: entity
   parent: CMUAreaLV376NE
   id: CMUAreaLV376NEO
-  name: "Північно-східна долина"
+  name: Northeast Valley
   components:
   - type: Sprite
     state: valley_north_east
@@ -88,7 +88,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376W
-  name: "Плач Баркера — Західна колонія"
+  name: Barker's Lament - West Colony
   components:
   - type: Sprite
     state: west
@@ -96,7 +96,7 @@
 - type: entity
   parent: CMUAreaLV376W
   id: CMUAreaLV376WO
-  name: "Західна долина"
+  name: West Valley
   components:
   - type: Sprite
     state: valley_west
@@ -104,7 +104,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376C
-  name: "Плач Баркера — Центральна колонія"
+  name: Barker's Lament - Central Colony
   components:
   - type: Sprite
     state: central
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376E
-  name: "Плач Баркера — Східна колонія"
+  name: Barker's Lament - East Colony
   components:
   - type: Sprite
     state: east
@@ -120,7 +120,7 @@
 - type: entity
   parent: CMUAreaLV376E
   id: CMUAreaLV376EO
-  name: "Східна долина"
+  name: East Valley
   components:
   - type: Sprite
     state: valley_east
@@ -128,7 +128,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376SW
-  name: "Плач Баркера — Південно-західна колонія"
+  name: Barker's Lament - Southwest Colony
   components:
   - type: Sprite
     state: southwest
@@ -136,7 +136,7 @@
 - type: entity
   parent: CMUAreaLV376SW
   id: CMUAreaLV376SWO
-  name: "Південно-західний арройо"
+  name: Southwest Arroyo
   components:
   - type: Sprite
     state: valley_south_west
@@ -144,7 +144,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376S
-  name: "Плач Баркера — Південна колонія"
+  name: Barker's Lament - South Colony
   components:
   - type: Sprite
     state: south
@@ -152,7 +152,7 @@
 - type: entity
   parent: CMUAreaLV376S
   id: CMUAreaLV376SO
-  name: "Південний арройо"
+  name: South Arroyo
   components:
   - type: Sprite
     state: valley_south
@@ -160,7 +160,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376SE
-  name: "Плач Баркера — Південно-східна колонія"
+  name: Barker's Lament - Southeast Colony
   components:
   - type: Sprite
     state: southeast
@@ -168,7 +168,7 @@
 - type: entity
   parent: CMUAreaLV376SE
   id: CMUAreaLV376SEO
-  name: "Південно-східний арройо"
+  name: Southeast Arroyo
   components:
   - type: Sprite
     state: valley_south_excv
@@ -176,7 +176,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376LZ1
-  name: "Плач Баркера — LZ1"
+  name: Barker's Lament - LZ1
   components:
   - type: Sprite
     state: bluenew
@@ -187,7 +187,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376LZ2
-  name: "Плач Баркера — LZ2"
+  name: Barker's Lament - LZ2
   components:
   - type: Sprite
     state: bluenew
@@ -205,7 +205,7 @@
 - type: entity
   parent: CMUAreaLV376River
   id: CMUAreaLV376RiverW
-  name: "Річка — Захід"
+  name: River - West
   components:
   - type: Sprite
     state: yellow
@@ -213,7 +213,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376RiverIsland
-  name: "Річка — Острівець"
+  name: River - Islet
   components:
   - type: Sprite
     state: theatre
@@ -221,7 +221,7 @@
 - type: entity
   parent: CMUAreaLV376River
   id: CMUAreaLV376RiverC
-  name: "Річка — Центр"
+  name: River - Central
   components:
   - type: Sprite
     state: blue-red2
@@ -229,7 +229,7 @@
 - type: entity
   parent: CMUAreaLV376River
   id: CMUAreaLV376RiverN
-  name: "Річка — Північ"
+  name: River - North
   components:
   - type: Sprite
     state: blue-red-d
@@ -237,7 +237,7 @@
 - type: entity
   parent: CMUAreaLV376River
   id: CMUAreaLV376RiverRavine
-  name: "Річка — Яр"
+  name: River - Ravine
   components:
   - type: Sprite
     state: blue2
@@ -245,7 +245,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376Ravine
-  name: "Яр"
+  name: Ravine
   components:
   - type: Sprite
     state: bluenew
@@ -253,7 +253,7 @@
 - type: entity
   parent: CMUAreaLV376River
   id: CMUAreaLV376RiverE
-  name: "Річка — Схід"
+  name: River - East
   components:
   - type: Sprite
     state: bluenew
@@ -261,7 +261,7 @@
 - type: entity
   parent: CMUAreaLV376Outside
   id: CMUAreaLV376OutsideMB
-  name: "Військова база"
+  name: Military Base
   components:
   - type: Area
     powerNet: military
@@ -269,7 +269,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MilitaryCheckpoint
-  name: "Військова база — Зовні чекпоінту"
+  name: Military Base - Checkpoint Exterior
   components:
   - type: Sprite
     state: red2
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBNW
-  name: "Військова база — Північний захід"
+  name: Military Base - Northwest
   components:
   - type: Sprite
     state: northwest
@@ -285,7 +285,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBN
-  name: "Військова база — Північ"
+  name: Military Base - North
   components:
   - type: Sprite
     state: north
@@ -293,7 +293,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBNE
-  name: "Військова база — Північний схід"
+  name: Military Base - Northeast
   components:
   - type: Sprite
     state: northeast
@@ -301,7 +301,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBW
-  name: "Військова база — Захід"
+  name: Military Base - West
   components:
   - type: Sprite
     state: west
@@ -309,7 +309,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBC
-  name: "Військова база — Центр"
+  name: Military Base - Central
   components:
   - type: Sprite
     state: central
@@ -317,7 +317,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBE
-  name: "Військова база — Схід"
+  name: Military Base - East
   components:
   - type: Sprite
     state: east
@@ -325,7 +325,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBSW
-  name: "Військова база — Південний захід"
+  name: Military Base - Southwest
   components:
   - type: Sprite
     state: southwest
@@ -333,7 +333,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBS
-  name: "Військова база — Південь"
+  name: Military Base - South
   components:
   - type: Sprite
     state: south
@@ -341,7 +341,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBSE
-  name: "Військова база — Південний схід"
+  name: Military Base - Southeast
   components:
   - type: Sprite
     state: southeast
@@ -349,7 +349,7 @@
 - type: entity
   parent: CMUAreaLV376OutsideMB
   id: CMUAreaLV376MBLZ
-  name: "Військова база — Зона висадки"
+  name: Military Base - Landing Zone
   components:
   - type: Sprite
     state: bluenew
@@ -372,7 +372,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376MinerOuthouse
-  name: "Шахта Келланд — Туалет"
+  name: Kelland Mine - Outhouse
   components:
   - type: Sprite
     state: unexplored
@@ -382,7 +382,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376MinerBunks
-  name: "Шахта Келланд — Каюти"
+  name: Kelland Mine - Bunks
   components:
   - type: Sprite
     state: mining_living
@@ -392,7 +392,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376MinerCells
-  name: "Шахта Келланд - камери"
+  name: Kelland Mine - Cells
   components:
   - type: Sprite
     state: mining_living
@@ -403,7 +403,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376MinerOffice
-  name: "Шахта Келланд — Офіс"
+  name: Kelland Mine - Office
   components:
   - type: Sprite
     state: mining_outpost
@@ -413,7 +413,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376ScrapyardOffice
-  name: "Звалище — Офіс"
+  name: Scrapyard - Office
   components:
   - type: Sprite
     state: mining_outpost
@@ -421,7 +421,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376WaterTreatment
-  name: "Плач Баркера — Водоочисна"
+  name: Barker's Lament - Water Treatment
   components:
   - type: Sprite
     state: bluenew
@@ -431,7 +431,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Engineering
-  name: "Плач Баркера — Інженерна"
+  name: Barker's Lament - Engineering
   components:
   - type: Sprite
     state: maint_engineering
@@ -441,7 +441,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376EngineeringOuthouse
-  name: "Плач Баркера — Інженерний туалет"
+  name: Barker's Lament - Engineering Outhouse
   components:
   - type: Sprite
     state: unexplored
@@ -451,7 +451,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Foreman
-  name: "Плач Баркера — Кабінет бригадира"
+  name: Barker's Lament - Foreman Office
   components:
   - type: Sprite
     state: yellow
@@ -461,7 +461,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Hydroponics
-  name: "Плач Баркера — Гідропоніка"
+  name: Barker's Lament - Hydroponics
   components:
   - type: Sprite
     state: hydro
@@ -469,7 +469,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376JournalistOffice
-  name: "Плач Баркера - офіс журналіста"
+  name: Barker's Lament - Journalist Office
   components:
   - type: Sprite
     state: hydro
@@ -477,7 +477,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Outhouse
-  name: "Плач Баркера — Колоніальний туалет"
+  name: Barker's Lament - Colony Outhouse
   components:
   - type: Sprite
     state: unexplored
@@ -485,7 +485,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376AdminOffice
-  name: "Плач Баркера — Адміністрація"
+  name: Barker's Lament - Administration
   components:
   - type: Sprite
     state: captain
@@ -495,7 +495,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376CorpoOffice
-  name: "Плач Баркера — Піца"
+  name: Barker's Lament - Pizza
   components:
   - type: Sprite
     state: captain
@@ -503,7 +503,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Bunks
-  name: "Плач Баркера — Каюти"
+  name: Barker's Lament - Bunks
   components:
   - type: Sprite
     state: crew_quarters
@@ -511,7 +511,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Bar
-  name: "Плач Баркера — Їдальня"
+  name: Barker's Lament - Canteen
   components:
   - type: Sprite
     state: bar
@@ -519,7 +519,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376CrackHome
-  name: "Покинута хижка"
+  name: Abandoned Shack
   components:
   - type: Sprite
     state: unexplored
@@ -527,7 +527,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376ATC
-  name: "Плач Баркера — ATC і посольство"
+  name: Barker's Lament - ATC & Embassy
   components:
   - type: Sprite
     state: red2
@@ -537,7 +537,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Med
-  name: "Плач Баркера — Медичний"
+  name: Barker's Lament - Medical
   components:
   - type: Sprite
     state: medbay
@@ -547,7 +547,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376MedMorgue
-  name: "Плач Баркера — Медичний морг"
+  name: Barker's Lament - Medical Morgue
   components:
   - type: Sprite
     state: morgue
@@ -557,12 +557,12 @@
 - type: entity
   parent: CMUAreaLV376Med
   id: CMUAreaLV376MedGarage
-  name: "Плач Баркера — Медичний гараж"
+  name: Barker's Lament - Medical Garage
 
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Cargo
-  name: "Плач Баркера — Реквізиції"
+  name: Barker's Lament - Requisitions
   components:
   - type: Sprite
     state: primarystorage
@@ -572,7 +572,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376Waste
-  name: "Плач Баркера — Утилізація сміття"
+  name: Barker's Lament - Garbage Disposal
   components:
   - type: Sprite
     state: disposal
@@ -582,7 +582,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376CMB
-  name: "Плач Баркера — Бюро колоніальних маршалів"
+  name: Barker's Lament - Colony Marshall Bureau
   components:
   - type: Sprite
     state: security
@@ -592,7 +592,7 @@
 - type: entity
   parent: CMUAreaLV376CMB
   id: CMUAreaLV376CMBCells
-  name: "Плач Баркера — Камери Бюро колоніальних маршалів"
+  name: Barker's Lament - Colony Marshall Bureau Cells
   components:
   - type: Sprite
     state: blue-red-d
@@ -602,7 +602,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376VehicleBay
-  name: "Плач Баркера — Транспортний відсік"
+  name: Barker's Lament - Vehicle Bay
   components:
   - type: Sprite
     state: yellow
@@ -612,7 +612,7 @@
 - type: entity
   parent: CMUAreaLV376Inside
   id: CMUAreaLV376InsideMB
-  name: "Будівля військової бази"
+  name: Military Base Building
   components:
   - type: Area
     powerNet: military
@@ -620,7 +620,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryBooth
-  name: "Військова база — Будка чекпоінту"
+  name: Military Base - Checkpoint Booth
   components:
   - type: Sprite
     state: security
@@ -628,7 +628,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryBarracks
-  name: "Військова база — Казарми"
+  name: Military Base - Barracks
   components:
   - type: Sprite
     state: crew_quarters
@@ -636,7 +636,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryCanteen
-  name: "Військова база — Кафетерій"
+  name: Military Base - Cafeteria
   components:
   - type: Sprite
     state: cafeteria
@@ -644,7 +644,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryArmory
-  name: "Військова база — Збройова"
+  name: Military Base - Armory
   components:
   - type: Sprite
     state: armory
@@ -652,7 +652,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryCIC
-  name: "Військова база — Командний центр"
+  name: Military Base - Command Center
   components:
   - type: Sprite
     state: bridge
@@ -662,7 +662,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryReq
-  name: "Військова база — Реквізиції"
+  name: Military Base - Requisitions
   components:
   - type: Sprite
     state: primarystorage
@@ -672,7 +672,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryEngineering
-  name: "Військова база — Інженерна"
+  name: Military Base - Engineering
   components:
   - type: Sprite
     state: maint_engineering
@@ -682,7 +682,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryPolice
-  name: "Військова база — Військова поліція"
+  name: Military Base - Military Police
   components:
   - type: Sprite
     state: brig
@@ -692,7 +692,7 @@
 - type: entity
   parent: CMUAreaLV376MilitaryPolice
   id: CMUAreaLV376Brig
-  name: "Військова база — Камери бригу"
+  name: Military Base - Brig Cells
   components:
   - type: Sprite
     state: blue-red-d
@@ -702,7 +702,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryMedical
-  name: "Військова база — Медичний"
+  name: Military Base - Medical
   components:
   - type: Sprite
     state: medbay
@@ -712,7 +712,7 @@
 - type: entity
   parent: CMUAreaLV376InsideMB
   id: CMUAreaLV376MilitaryMorgue
-  name: "Військова база — Морг"
+  name: Military Base - Morgue
   components:
   - type: Sprite
     state: morgue
@@ -733,7 +733,7 @@
 - type: entity
   parent: CMUAreaLV376Building
   id: CMUAreaLV376WYFacade
-  name: "Офіс Вейланд-Ютані"
+  name: Weyland-Yutani Office
   components:
   - type: Sprite
     state: red2
@@ -744,7 +744,7 @@
 - type: entity
   parent: CMUAreaLV376Building
   id: CMUAreaLV376Weymart
-  name: "Веймарт"
+  name: Weymart
   components:
   - type: Sprite
     state: red2
@@ -764,7 +764,7 @@
 - type: entity
   parent: CMUAreaLV376SoftUnderground
   id: CMUAreaLV376MobBasement
-  name: "Сховок банди"
+  name: Mob Hideout
   components:
   - type: Sprite
     state: yellow
@@ -772,7 +772,7 @@
 - type: entity
   parent: CMUAreaLV376SoftUnderground
   id: CMUAreaLV376WYAccessTunnel
-  name: "Обєкт Вейланд-Ютані — Південний тунель доступу"
+  name: Weyland-Yutani Facility - South Access Tunnel
   components:
   - type: Area
     minimapColor: '#C19504E7'
@@ -783,12 +783,12 @@
 - type: entity
   parent: CMUAreaLV376WYAccessTunnel
   id: CMUAreaLV376WYAccessTunnelNorth
-  name: "Обєкт Вейланд-Ютані — Північний тунель доступу"
+  name: Weyland-Yutani Facility - North Access Tunnel
 
 - type: entity
   parent: CMUAreaLV376SoftUnderground
   id: CMUAreaLV376Atmospherics
-  name: "Плач Баркера — Завод мікроатмосферної обробки"
+  name: Barker's Lament - Micro Atmospheric Processing Plant
   components:
   - type: Sprite
     state: atmos
@@ -798,7 +798,7 @@
 - type: entity
   parent: CMUAreaLV376SoftUnderground
   id: CMUAreaLV376ShallowMine
-  name: "Шахта Келланд — Розкопки"
+  name: Kelland Mine - Excavation
   components:
   - type: Sprite
     state: red2
@@ -806,7 +806,7 @@
 - type: entity
   parent: CMUAreaLV376SoftUnderground
   id: CMUAreaLV376Caves
-  name: "Печера"
+  name: Cave
   components:
   - type: Sprite
     state: cave
@@ -814,7 +814,7 @@
 - type: entity
   parent: CMUAreaLV376SoftUnderground
   id: CMUAreaLV376Dam
-  name: "Плач Баркера — Гребля"
+  name: Barker's Lament - Dam
   components:
   - type: Sprite
     state: substation
@@ -833,7 +833,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376WYUndergroundTunnel
-  name: "Обєкт Вейланд-Ютані — Південний тунель доступу"
+  name: Weyland-Yutani Facility - South Access Tunnel
   components:
   - type: Sprite
     state: purple
@@ -843,12 +843,12 @@
 - type: entity
   parent: CMUAreaLV376WYUndergroundTunnel
   id: CMUAreaLV376WYUndergroundTunnelNorth
-  name: "Обєкт Вейланд-Ютані — Північний тунель доступу"
+  name: Weyland-Yutani Facility - North Access Tunnel
 
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376WYFacility
-  name: "Обєкт Вейланд-Ютані"
+  name: Weyland-Yutani Facility
   components:
   - type: Sprite
     state: yellow
@@ -857,7 +857,7 @@
 
 - type: entity
   parent: CMUAreaLV376WYFacility
-  name: "Обєкт Вейланд-Ютані — Гуртожитки науковців"
+  name: Weyland-Yutani Facility - Scientist Dorms
   id: CMUAreaLV376WYFacilitySD
   components:
   - type: Sprite
@@ -865,7 +865,7 @@
 
 - type: entity
   parent: CMUAreaLV376WYFacility
-  name: "Обєкт Вейланд-Ютані — Охорона"
+  name: Weyland-Yutani Facility - Security
   id: CMUAreaLV376WYFacilitySec
   components:
   - type: Sprite
@@ -875,7 +875,7 @@
 
 - type: entity
   parent: CMUAreaLV376WYFacility
-  name: "Обєкт Вейланд-Ютані — Хімічні дослідження"
+  name: Weyland-Yutani Facility - Chemical Research
   id: CMUAreaLV376WYFacilityCR
   components:
   - type: Sprite
@@ -885,7 +885,7 @@
 
 - type: entity
   parent: CMUAreaLV376WYFacility
-  name: "Обєкт Вейланд-Ютані — Ботанічні дослідження"
+  name: Weyland-Yutani Facility - Botanical Research
   id: CMUAreaLV376WYFacilityBR
   components:
   - type: Sprite
@@ -895,7 +895,7 @@
 
 - type: entity
   parent: CMUAreaLV376WYFacility
-  name: "Обєкт Вейланд-Ютані — Ядро ШІ"
+  name: Weyland-Yutani Facility - AI Core
   id: CMUAreaLV376WYFacilityAC
   components:
   - type: Sprite
@@ -905,7 +905,7 @@
 
 - type: entity
   parent: CMUAreaLV376WYFacility
-  name: "Обєкт Вейланд-Ютані — Склад"
+  name: Weyland-Yutani Facility - Storage
   id: CMUAreaLV376WYFacilityASRS
   components:
   - type: Sprite
@@ -916,7 +916,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376WYMedbay
-  name: "Обєкт Вейланд-Ютані — Медблок"
+  name: Weyland-Yutani Facility - Medbay
   components:
   - type: Sprite
     state: medbay
@@ -927,7 +927,7 @@
 - type: entity
   parent: CMUAreaLV376WYMedbay
   id: CMUAreaLV376WYMorgue
-  name: "Обєкт Вейланд-Ютані — Морг"
+  name: Weyland-Yutani Facility - Morgue
   components:
   - type: Sprite
     state: morgue
@@ -935,7 +935,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376WYCIC
-  name: "Обєкт Вейланд-Ютані — Командний центр"
+  name: Weyland-Yutani Facility - Command Center
   components:
   - type: Sprite
     state: bridge
@@ -946,7 +946,7 @@
 - type: entity
   parent: CMUAreaLV376WYResearch
   id: CMUAreaLV376WYCells
-  name: "Обєкт Вейланд-Ютані — Камери для піддослідних"
+  name: Weyland-Yutani Facility - Subject Cells
   components:
   - type: Sprite
     state: blue-red-d
@@ -956,7 +956,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376WYResearch
-  name: "Обєкт Вейланд-Ютані — Засекречено"
+  name: Weyland-Yutani Facility - Classified
   components:
   - type: Sprite
     state: blue-red2
@@ -967,7 +967,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376Mine
-  name: "Шахта Келланд — Розкопки"
+  name: Kelland Mine - Excavation
   components:
   - type: Sprite
     state: blue2
@@ -975,7 +975,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376WaterCave
-  name: "Підземне озеро"
+  name: Underground Lake
   components:
   - type: Sprite
     state: bluenew
@@ -983,7 +983,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376ShipCave
-  name: "Печера"
+  name: Cave
   components:
   - type: Sprite
     state: hangar
@@ -991,7 +991,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376Ship
-  name: "Прибулецька структура"
+  name: Alien Structure
   components:
   - type: Sprite
     state: red2
@@ -1000,7 +1000,7 @@
 - type: entity
   parent: CMUAreaLV376Underground
   id: CMUAreaLV376OOB
-  name: "Невідомо"
+  name: Unknown
   components:
   - type: Sprite
     state: noop

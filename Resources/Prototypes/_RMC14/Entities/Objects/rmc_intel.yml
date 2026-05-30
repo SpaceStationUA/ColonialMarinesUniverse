@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: RMCIntelBase
-  name: "розвідматеріал"
+  name: intel item
   components:
   - type: Corrodible
     isCorrodible: false
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelPaperScrap
-  name: "клапоть паперу"
-  description: "Клапоть паперу, ти думаєш, деякі слова на ньому ще можна прочитати."
+  name: paper scrap
+  description: A scrap of paper, you think some of the words might still be readable.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelProgressReport
-  name: "звіт про прогрес"
-  description: "Письмовий звіт когось своєму керівнику про статус якогось проєкту."
+  name: progress report
+  description: A written report from someone for their supervisor about the status of some kind of project.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelFolder
-  name: "папка з розвідматеріалами"
-  description: "Папка з якимись документами всередині."
+  name: intel folder
+  description: A folder with some documents inside.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCIntelReadableBase
   id: RMCIntelTechnicalManual
-  name: "технічний посібник"
-  description: "Високоспеціалізований технічний посібник, може бути корисний комусь у відповідній галузі."
+  name: technical manual
+  description: A highly specified technical manual, may be of use to someone in the relevant field.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Books/Other/book.rsi
@@ -128,8 +128,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsole
-  name: "консоль дерева технологій"
-  description: "Консоль для здійснення технологічних покупок."
+  name: tech tree console
+  description: A console used to make tech purchases.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntel
-  name: "розвідкомп'ютер"
-  description: "Розвідкомп'ютер UNMC для каталогізації та розповсюдження даних."
+  name: intel computer
+  description: An UNMC Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntelGovfor
-  name: "розвідкомп'ютер GovFor"
-  description: "Розвідкомп'ютер GovFor для каталогізації та розповсюдження даних."
+  name: govfor intel computer
+  description: A GovFor Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntelOpfor
-  name: "розвідкомп'ютер OpFor"
-  description: "Розвідкомп'ютер OpFor для каталогізації та розповсюдження даних."
+  name: opfor intel computer
+  description: An OpFor Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCComputerIntelCLF
-  name: "розвідкомп'ютер CLF"
-  description: "Розвідкомп'ютер CLF для каталогізації та розповсюдження даних."
+  name: CLF intel computer
+  description: A CLF Intel Computer for data cataloguing and distribution.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -217,7 +217,7 @@
 
 - type: entity
   id: RMCIntelTechTree
-  name: "дерево технологій розвідки"
+  name: intel tech tree
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -417,8 +417,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsoleGovfor
-  name: "консоль дерева технологій GovFor"
-  description: "Технологічна консоль GovFor для здійснення технологічних покупок для GovFor."
+  name: govfor tech tree console
+  description: A GovFor tech console used to make tech purchases for GovFor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -440,8 +440,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsoleOpfor
-  name: "консоль дерева технологій OpFor"
-  description: "Технологічна консоль OpFor для здійснення технологічних покупок для OpFor."
+  name: opfor tech tree console
+  description: An OpFor tech console used to make tech purchases for OpFor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCTechTreeConsoleCLF
-  name: "консоль дерева технологій CLF"
-  description: "Технологічна консоль CLF для здійснення технологічних покупок для CLF."
+  name: CLF tech tree console
+  description: A CLF tech console used to make tech purchases for CLF.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/computer.rsi
@@ -502,7 +502,7 @@
 - type: entity
   id: RMCIntelTechTree_opfor
   parent: RMCIntelTechTree
-  name: "дерево технологій розвідки (OpFor)"
+  name: intel tech tree (OpFor)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -537,7 +537,7 @@
 - type: entity
   id: RMCIntelTechTree_ua
   parent: RMCIntelTechTree
-  name: "дерево технологій розвідки (UA)"
+  name: intel tech tree (UA)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -698,7 +698,7 @@
 - type: entity
   id: RMCIntelTechTree_govfor
   parent: RMCIntelTechTree
-  name: "дерево технологій розвідки (GovFor)"
+  name: intel tech tree (GovFor)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
@@ -759,7 +759,7 @@
 - type: entity
   id: RMCIntelTechTree_clf
   parent: RMCIntelTechTree
-  name: "дерево технологій розвідки (CLF)"
+  name: intel tech tree (CLF)
   categories: [ HideSpawnMenu ]
   components:
   - type: IntelTechTree
