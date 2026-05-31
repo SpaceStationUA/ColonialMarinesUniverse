@@ -58,6 +58,8 @@ public sealed partial class SkillsSystem : EntitySystem
         SubscribeLocalEvent<GetMeleeDamageEvent>(OnGetMeleeDamage);
 
         SubscribeLocalEvent<SkillsComponent, MapInitEvent>(OnSkillsMapInit);
+        // AU14 temporary fix for our job-special changes until upstream handles late-added skill presets.
+        SubscribeLocalEvent<SkillsComponent, ComponentStartup>(OnSkillsStartup);
         SubscribeLocalEvent<SkillsComponent, GetVerbsEvent<ExamineVerb>>(OnSkillsVerbExamine);
 
         SubscribeLocalEvent<MedicallyUnskilledDoAfterComponent, AttemptHyposprayUseEvent>(OnAttemptHyposprayUse);
@@ -100,7 +102,23 @@ public sealed partial class SkillsSystem : EntitySystem
 
     private void OnSkillsMapInit(Entity<SkillsComponent> ent, ref MapInitEvent args)
     {
+        ApplyPreset(ent);
+    }
+
+    // AU14 temporary fix for our job-special changes until upstream handles late-added skill presets.
+    private void OnSkillsStartup(Entity<SkillsComponent> ent, ref ComponentStartup args)
+    {
+        ApplyPreset(ent);
+    }
+
+    // AU14 temporary fix for our job-special changes until upstream handles late-added skill presets.
+    private void ApplyPreset(Entity<SkillsComponent> ent)
+    {
         if (ent.Comp.Preset is not { } presetPrototype)
+            return;
+
+        // AU14 temporary fix: preserve manually-filled skills while applying late-added presets.
+        if (ent.Comp.Skills.Count > 0)
             return;
 
         if (!presetPrototype.TryGet(out var skillPreset, _prototypes, _compFactory))
