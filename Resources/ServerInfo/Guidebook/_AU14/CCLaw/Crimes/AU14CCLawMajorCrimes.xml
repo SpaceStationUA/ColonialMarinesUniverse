@@ -1,83 +1,83 @@
 <Document>
-  # MAJOR CRIMES
+  # СЕРЙОЗНІ ЗЛОЧИНИ
 
-  ## Disorderly Conduct
-  Severely disrupting colony operations, emergency response, or essential services (blocking emergency response, interfering with evacuation, causing panic during emergency operations, disrupting medical triage).
-  - 10 min
+  ## Порушення громадського порядку
+  Серйозне порушення роботи колонії, реагування на надзвичайні ситуації або критичних служб (блокування аварійного реагування, перешкоджання евакуації, спричинення паніки під час аварійних операцій, зрив медичного сортування).
+  - 10 хв
 
-  ## Assault
-  Threatening or using physical force with hostile intent.
-  - 10 min unarmed | 15 min with a deadly weapon
+  ## Напад
+  Погроза фізичною силою або її застосування з ворожим наміром.
+  - 10 хв без зброї | 15 хв зі смертельною зброєю
 
-  ## Manslaughter
-  Killing someone without malicious intent due to reckless or negligent conduct.
-  - 20 min + possible license revocation, job removal, or permanent confinement if the person remains a danger
+  ## Ненавмисне вбивство
+  Вбивство когось без злого наміру через безрозсудну або недбалу поведінку.
+  - 20 хв + можливе відкликання ліцензії, усунення з посади або постійне ув'язнення, якщо особа залишається небезпечною
 
-  ## Illegal Confinement
-  Unlawfully restraining, kidnapping, or imprisoning another person. Does not apply to lawful quarantine, arrest, or protective custody.
-  - 20 min
+  ## Незаконне ув'язнення
+  Незаконне зв'язування, викрадення або ув'язнення іншої особи. Не застосовується до законного карантину, арешту або захисного утримання.
+  - 20 хв
 
-  ## Major Theft
-  Stealing colony funds, emergency supplies, weapons, vehicles, access cards, or restricted equipment.
-  - 15 min + return of property
+  ## Велика крадіжка
+  Викрадення коштів колонії, аварійних запасів, зброї, транспорту, карт доступу або обмеженого обладнання.
+  - 15 хв + повернення майна
 
-  ## Unauthorized Access to Corporate Property
-  Accessing company equipment, labs, records, or restricted areas without authorization.
-  - 7 min (minor access) | 15 min if restricted materials, vehicles, records, or systems are involved
+  ## Несанкціонований доступ до корпоративного майна
+  Доступ до обладнання компанії, лабораторій, записів або обмежених зон без дозволу.
+  - 7 хв (дрібний доступ) | 15 хв, якщо залучені обмежені матеріали, транспорт, записи або системи
 
-  ## Misuse of Colony Infrastructure
-  Improperly operating, disabling, or modifying colony systems (atmosphere processors, reactor systems, airlocks, water processors, emergency shelters, fuel systems).
-  - 15 min | 20 min if public safety endangered | Permanent confinement if mass death or colony collapse risk
+  ## Зловживання інфраструктурою колонії
+  Неналежна експлуатація, вимкнення або модифікація систем колонії (атмосферні процесори, реакторні системи, шлюзи, водоочисні системи, аварійні укриття, паливні системи).
+  - 15 хв | 20 хв, якщо громадська безпека під загрозою | Постійне ув'язнення, якщо є ризик масової загибелі або колапсу колонії
 
-  ## Sabotage
-  Damaging, disabling, or compromising colony infrastructure, utilities, or safety/security systems.
-  - 20 min | Permanent confinement if the act creates mass danger
+  ## Саботаж
+  Пошкодження, вимкнення або компрометація інфраструктури колонії, комунальних служб або систем безпеки/охорони.
+  - 20 хв | Постійне ув'язнення, якщо дія створює масову небезпеку
 
-  ## Possession of Restricted Contraband
-  Possessing restricted drugs, military equipment, explosives, illegal weapons, classified material, or dangerous organisms.
-  - 15-20 min + confiscation
+  ## Володіння обмеженою контрабандою
+  Володіння обмеженими наркотиками, військовим обладнанням, вибухівкою, незаконною зброєю, засекреченими матеріалами або небезпечними організмами.
+  - 15-20 хв + конфіскація
 
-  ## Unauthorized Distress Signal
-  Sending a distress call, emergency beacon, or evacuation signal without lawful authorization.
-  - 15 min | 20 min if it causes panic, military deployment, or operational disruption
+  ## Несанкціонований сигнал лиха
+  Надсилання виклику лиха, аварійного маяка або сигналу евакуації без законного дозволу.
+  - 15 хв | 20 хв, якщо це спричиняє паніку, військове розгортання або операційний збій
 
-  ## Interference with Emergency Response
-  Obstructing marshals, medical staff, evacuation crews, or other lawful emergency responders.
-  - 15 min | 20 min if injury, death, contamination, or major delay results
+  ## Перешкоджання аварійному реагуванню
+  Перешкоджання маршалам, медичному персоналу, евакуаційним екіпажам або іншим законним аварійним службам.
+  - 15 хв | 20 хв, якщо це призвело до травми, смерті, забруднення або значної затримки
 
-  ## Biohazard Noncompliance
-  Refusing lawful quarantine, decontamination, medical screening, or isolation procedures.
-  - 20 min | Permanent confinement if the violation risks outbreak, mass infection, or colony‑wide contamination
+  ## Невиконання вимог щодо біозагрози
+  Відмова від законного карантину, деконтамінації, медичної перевірки або процедур ізоляції.
+  - 20 хв | Постійне ув'язнення, якщо порушення створює ризик спалаху, масового зараження або забруднення всієї колонії
 
-  ## Possession of Restricted Biological Material
-  Possessing, hiding, transporting, or selling dangerous biological material without authorization (unknown eggs, parasitic organisms, pathogen samples, infected tissue, invasive lifeform remains, unknown organic material from restricted zones).
-  - 20 min + confiscation/destruction + mandatory quarantine | Permanent confinement if colony safety endangered
+  ## Володіння обмеженим біологічним матеріалом
+  Володіння, приховування, транспортування або продаж небезпечного біологічного матеріалу без дозволу (невідомі яйця, паразитичні організми, зразки патогенів, заражені тканини, рештки інвазивних форм життя, невідомий органічний матеріал з обмежених зон).
+  - 20 хв + конфіскація/знищення + обов'язковий карантин | Постійне ув'язнення, якщо безпека колонії під загрозою
 
-  ## Harboring a Contaminated Person
-  Knowingly hiding or assisting a person under quarantine or suspected of carrying a dangerous pathogen.
-  - 20 min | Permanent confinement if outbreak risk is created
+  ## Переховування зараженої особи
+  Свідоме переховування або допомога особі під карантином або підозрюваній у носійстві небезпечного патогену.
+  - 20 хв | Постійне ув'язнення, якщо створено ризик спалаху
 
-  ## Corporate Espionage
-  Stealing, copying, or transmitting restricted corporate, scientific, or biological research data.
-  - 20 min | Permanent confinement if tied to hostile powers, terrorist groups, or hazardous biological research
+  ## Корпоративне шпигунство
+  Викрадення, копіювання або передача обмежених корпоративних, наукових чи біологічних дослідницьких даних.
+  - 20 хв | Постійне ув'язнення, якщо пов'язано з ворожими силами, терористичними групами або небезпечними біологічними дослідженнями
 
-  ## Unauthorized Disclosure
-  Releasing restricted colony, scientific, military, or biological information without authorization.
-  - 10 min (minor) | 20 min if it causes panic or operational disruption | Permanent confinement if mass casualties or colony collapse risk
+  ## Несанкціоноване розголошення
+  Поширення обмеженої колоніальної, наукової, військової або біологічної інформації без дозволу.
+  - 10 хв (дрібне) | 20 хв, якщо це спричиняє паніку або операційний збій | Постійне ув'язнення, якщо є ризик масових жертв або колапсу колонії
 
-  ## Corruption
-  Using public, law enforcement, or administrative authority for personal gain or unlawful punishment.
-  - 15 min + removal from position
+  ## Корупція
+  Використання публічної, правоохоронної або адміністративної влади для особистої вигоди чи незаконного покарання.
+  - 15 хв + усунення з посади
 
-  ## Abuse of Authority
-  Issuing unlawful arrests, searches, seizures, administrative orders, or emergency directives.
-  - 15 min + removal from position
+  ## Зловживання владою
+  Видача незаконних арештів, обшуків, вилучень, адміністративних наказів або надзвичайних розпоряджень.
+  - 15 хв + усунення з посади
 
-  ## Harboring a Fugitive
-  Knowingly hiding or assisting a person wanted for a major or capital crime.
-  - 15 min
+  ## Переховування втікача
+  Свідоме переховування або допомога особі, розшукуваній за серйозний або капітальний злочин.
+  - 15 хв
 
-  ## Rioting
-  Participating in violent public unrest involving property damage, assault, theft, arson, or obstruction of emergency services.
-  - 20 min
+  ## Масові заворушення
+  Участь у насильницьких громадських заворушеннях із пошкодженням майна, нападом, крадіжкою, підпалом або перешкоджанням аварійним службам.
+  - 20 хв
 </Document>

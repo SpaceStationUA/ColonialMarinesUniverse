@@ -1,37 +1,37 @@
 <Document>
-  # CAPITAL CRIMES
-  All capital crimes are punished by:
-  - Permanent confinement
-  - Revocation of weapon licenses
-  - Removal from public office or security authority
-  - Possible off-world transfer or exile (if approved by the proper authority)
-  Execution remains illegal.
+  # КАПІТАЛЬНІ ЗЛОЧИНИ
+  Усі капітальні злочини караються:
+  - Постійним ув'язненням
+  - Відкликанням ліцензій на зброю
+  - Усуненням з публічної посади або повноважень у сфері безпеки
+  - Можливою позапланетною передачею або вигнанням (якщо схвалено належною владою)
+  Страта залишається незаконною.
 
-  ## Murder
-  Killing another person with malicious intent.
+  ## Вбивство
+  Вбивство іншої особи зі злим наміром.
 
-  ## Attempted Murder
-  Attempting to kill another person with malicious intent.
+  ## Замах на вбивство
+  Спроба вбити іншу особу зі злим наміром.
 
-  ## Mass Casualty Sabotage
-  Damaging colony systems in a way that could cause mass death or colony collapse (reactor/atmospheric/water system sabotage, disabling evacuation systems, disabling quarantine controls, opening colony defenses during hostile contact).
+  ## Саботаж з масовими жертвами
+  Пошкодження систем колонії у спосіб, що може спричинити масову загибель або колапс колонії (саботаж реактора/атмосферних/водних систем, вимкнення систем евакуації, вимкнення карантинного контролю, відкриття оборони колонії під час ворожого контакту).
 
-  ## Terrorism
-  Using violence, sabotage, hostage-taking, threats, or mass panic to coerce the colony, government, or civilian population.
+  ## Тероризм
+  Використання насильства, саботажу, захоплення заручників, погроз або масової паніки для примусу колонії, уряду або цивільного населення.
 
-  ## Sedition
-  Attempting to violently overthrow or replace the lawful colonial government or civil administration. Includes armed revolt against lawful colony authority during an emergency.
+  ## Заколот
+  Спроба насильно повалити або замінити законний колоніальний уряд чи цивільну адміністрацію. Включає збройне повстання проти законної влади колонії під час надзвичайної ситуації.
 
-  ## Crimes Against Humanity
-  Heinous acts against human life or dignity (torture, forced infection, unlawful human experimentation, intentional exposure to dangerous organisms, biological weapon deployment, sacrificing civilians to preserve corporate or scientific assets, knowingly allowing a preventable outbreak for profit or concealment).
+  ## Злочини проти людства
+  Мерзенні дії проти людського життя або гідності (катування, примусове зараження, незаконні експерименти на людях, навмисне наражання на небезпечні організми, розгортання біологічної зброї, принесення цивільних у жертву для збереження корпоративних або наукових активів, свідоме допущення спалаху, якому можна було запобігти, заради прибутку або приховування).
 
-  ## Jailbreak / Escape
-  Escaping, attempting escape, or assisting escape from lawful confinement.
-  - Permanent confinement (major/capital offenders) | 20 min + original sentence (minor offenders)
+  ## Втеча з ув'язнення
+  Втеча, спроба втечі або допомога у втечі із законного ув'язнення.
+  - Постійне ув'язнення (серйозні/капітальні порушники) | 20 хв + початковий вирок (дрібні порушники)
 
-  ## Use of Prohibited Weapons
-  Using explosives, chemical/biological/radiological weapons, or engineered pathogens against people or colony assets.
+  ## Використання забороненої зброї
+  Використання вибухівки, хімічної/біологічної/радіологічної зброї або інженерних патогенів проти людей чи активів колонії.
 
-  ## Specimen Trafficking
-  Selling, concealing, or attempting to export restricted biological material without lawful authorization.
+  ## Торгівля зразками
+  Продаж, приховування або спроба експорту обмеженого біологічного матеріалу без законного дозволу.
 </Document>

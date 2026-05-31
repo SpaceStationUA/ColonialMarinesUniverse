@@ -1,25 +1,25 @@
 <Document>
-  # OPTIONAL ADD-ON CHARGES
+  # ОПЦІОНАЛЬНІ ДОДАТКОВІ ЗВИНУВАЧЕННЯ
 
-  These charges may be added to an existing crime and are served in addition to the base sentence.
+  Ці звинувачення можуть бути додані до наявного злочину та відбуваються на додачу до базового вироку.
 
-  ## Resisting Arrest
-  Refusing or fleeing a lawful arrest or search.
-  - 5 min (refusing orders) | 10 min (fleeing or using force)
+  ## Опір арешту
+  Відмова підкоритися законному арешту чи обшуку або втеча від нього.
+  - 5 хв (відмова виконувати накази) | 10 хв (втеча або застосування сили)
 
-  ## Aiding and Abetting
-  Materially assisting another person in committing a crime.
-  - Same punishment as the crime assisted.
+  ## Сприяння та підбурювання
+  Суттєва допомога іншій особі у вчиненні злочину.
+  - Те ж покарання, що й за злочин, якому сприяли.
 
-  ## Disorderly Conduct in Holding
-  Significant disruption while legally detained.
-  - 5 min
+  ## Безладна поведінка в утриманні
+  Значне порушення порядку під час законного затримання.
+  - 5 хв
 
-  ## Possession During a Crime
-  Carrying illegal weapons, contraband, or unauthorized equipment while committing another offense.
-  - +5 min + confiscation
+  ## Володіння під час злочину
+  Носіння незаконної зброї, контрабанди або несанкціонованого обладнання під час вчинення іншого правопорушення.
+  - +5 хв + конфіскація
 
-  ## Abuse of Emergency Conditions
-  Using an emergency as cover to commit another crime (e.g. looting during evacuation, stealing weapons during lockdown, impersonating emergency personnel).
-  - +5 min | May escalate the underlying charge if colony safety is endangered.
+  ## Зловживання надзвичайними умовами
+  Використання надзвичайної ситуації як прикриття для вчинення іншого злочину (наприклад, мародерство під час евакуації, викрадення зброї під час локдауну, видавання себе за аварійний персонал).
+  - +5 хв | Може підвищити базове звинувачення, якщо безпека колонії під загрозою.
 </Document>

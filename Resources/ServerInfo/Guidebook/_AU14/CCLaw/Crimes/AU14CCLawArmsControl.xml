@@ -1,21 +1,21 @@
 <Document>
-  # ARMS CONTROL & STATUTES
+  # КОНТРОЛЬ ЗБРОЇ ТА СТАТУТИ ЩОДО ЗБРОЇ
 
-  Weapons possession is a licensed privilege, not an unrestricted right. Unauthorized weapons are treated as a public safety threat due to pressurized habitats and volatile infrastructure.
+  Володіння зброєю є ліцензованим привілеєм, а не необмеженим правом. Несанкціонована зброя розглядається як загроза громадській безпеці через герметизовані житлові зони та нестабільну інфраструктуру.
 
-  ## Weapon Classes
-  - [bold]Class A — Civilian Tools[/bold] (knives, hatchets, crowbars, industrial/mining/welding tools). Legal when used lawfully. Become illegal if brandished, used to threaten, carried into restricted areas, modified into weapons, or used during a crime.
-  - [bold]Class B — Civilian Firearms[/bold] (pistols, shotguns, hunting rifles, low-capacity rifles). Require a Colonial Firearm License. Must be registered, serialized, and safely stored. Not openly carried in public without authorization. Concealed carry requires a separate permit.
-  - [bold]Class C — Restricted Weapons[/bold] (automatic weapons, smartguns, flamethrowers, grenades, explosives, armor-piercing ammunition, rocket launchers). Illegal for civilians. Only authorized for military forces, Marshals and authorized security, or authorized militia under emergency order.
-  - [bold]Class D — Prohibited Weapons[/bold] (chemical/biological/radiological weapons, improvised explosives, engineered pathogens, weaponized organisms, torture devices). Illegal for all persons. Possession is a major or capital offense depending on risk and use.
+  ## Класи зброї
+  - [bold]Клас A - цивільні інструменти[/bold] (ножі, сокири, ломи, промислові/шахтарські/зварювальні інструменти). Законні за правомірного використання. Стають незаконними, якщо ними розмахують, використовують для погроз, носять в обмежені зони, модифікують у зброю або використовують під час злочину.
+  - [bold]Клас B - цивільна вогнепальна зброя[/bold] (пістолети, дробовики, мисливські гвинтівки, гвинтівки з малою місткістю магазину). Потребують колоніальної ліцензії на вогнепальну зброю. Мають бути зареєстровані, мати серійні номери та безпечно зберігатися. Відкрите носіння в публічних місцях без дозволу заборонене. Приховане носіння потребує окремого дозволу.
+  - [bold]Клас C - обмежена зброя[/bold] (автоматична зброя, смартгани, вогнемети, гранати, вибухівка, бронебійні боєприпаси, ракетні пускові установки). Незаконна для цивільних. Дозволена лише військовим силам, маршалам та уповноваженій охороні або уповноваженому ополченню за надзвичайним наказом.
+  - [bold]Клас D - заборонена зброя[/bold] (хімічна/біологічна/радіологічна зброя, саморобна вибухівка, інженерні патогени, організми, перетворені на зброю, пристрої для катувань). Незаконна для всіх осіб. Володіння є серйозним або капітальним злочином залежно від ризику та використання.
 
-  ## Weapons Charges
-  - [bold]Illegal Possession:[/bold] 10 min Class B | 15 min Class C | 20 min Class D + confiscation
-  - [bold]Brandishing:[/bold] 10 min + confiscation + possible license suspension
-  - [bold]Unlawful Carry in Restricted Area:[/bold] 10 min + confiscation + possible suspension
-  - [bold]Illegal Firearm Transfer:[/bold] 15 min + confiscation + license revocation
-  - [bold]Unsafe Storage:[/bold] 10 min + confiscation until compliance
-  - [bold]Use of Firearm During a Crime:[/bold] +10 min + confiscation + license revocation
-  - [bold]Unauthorized Discharge:[/bold] 15 min + confiscation + possible revocation
-  - [bold]Emergency Weapon Suspension:[/bold] During declared emergencies, the Marshal and Colony Administrator, acting together, may order all civilian weapons surrendered. Failure to comply: 20 min + confiscation + revocation | Permanent confinement if weapon is used against responders or lawful authorities.
+  ## Збройові звинувачення
+  - [bold]Незаконне володіння:[/bold] 10 хв клас B | 15 хв клас C | 20 хв клас D + конфіскація
+  - [bold]Погрозливе розмахування зброєю:[/bold] 10 хв + конфіскація + можливе призупинення ліцензії
+  - [bold]Незаконне носіння в обмеженій зоні:[/bold] 10 хв + конфіскація + можливе призупинення
+  - [bold]Незаконна передача вогнепальної зброї:[/bold] 15 хв + конфіскація + відкликання ліцензії
+  - [bold]Небезпечне зберігання:[/bold] 10 хв + конфіскація до усунення порушення
+  - [bold]Використання вогнепальної зброї під час злочину:[/bold] +10 хв + конфіскація + відкликання ліцензії
+  - [bold]Несанкціонований постріл:[/bold] 15 хв + конфіскація + можливе відкликання
+  - [bold]Надзвичайне призупинення дозволів на зброю:[/bold] Під час оголошених надзвичайних ситуацій маршал і Адміністратор колонії, діючи спільно, можуть наказати здати всю цивільну зброю. Невиконання: 20 хв + конфіскація + відкликання | Постійне ув'язнення, якщо зброю використано проти служб реагування або законної влади.
 </Document>

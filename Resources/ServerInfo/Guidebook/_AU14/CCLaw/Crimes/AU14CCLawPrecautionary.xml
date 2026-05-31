@@ -1,17 +1,17 @@
 <Document>
-  # PRECAUTIONARY CONFINEMENT
-  Not criminal charges, used for protection of the colony.
+  # ЗАПОБІЖНЕ УТРИМАННЯ
+  Не є кримінальними звинуваченнями, використовується для захисту колонії.
 
-  ## Mental Instability / Danger to Self or Others
-  Held until medically cleared. Must be reviewed by medical staff or administration when possible (attempted suicide, severe delusions with violent behavior, attempting to breach exterior doors or tamper with life-support).
+  ## Психічна нестабільність / небезпека для себе чи інших
+  Утримання до медичного дозволу. Має бути переглянуте медичним персоналом або адміністрацією, коли це можливо (спроба самогубства, тяжкі марення з насильницькою поведінкою, спроби зламати зовнішні двері або втрутитися в життєзабезпечення).
 
-  ## Quarantine / Contamination Risk
-  Isolated until cleared by medical or scientific authority. Escape from quarantine may become a capital crime if it endangers the colony.
-  Public records should use general language (unknown pathogen, biological hazard, hostile lifeform, contamination risk) unless specific classifications have been formally released by lawful authority.
+  ## Карантин / ризик забруднення
+  Ізоляція до дозволу медичної або наукової влади. Втеча з карантину може стати капітальним злочином, якщо вона загрожує колонії.
+  Публічні записи мають використовувати загальні формулювання (невідомий патоген, біологічна загроза, ворожа форма життя, ризик забруднення), якщо конкретні класифікації не були формально оприлюднені законною владою.
 
-  ## Enemy Combatant / Prisoner of War
-  Detained hostile combatant, pirate, terrorist, or armed attacker. Discretionary confinement, usually permanent until transferred or released by proper authority.
+  ## Ворожий комбатант / військовополонений
+  Затриманий ворожий комбатант, пірат, терорист або озброєний нападник. Дискреційне утримання, зазвичай постійне до передачі або звільнення належною владою.
 
-  ## Protective Custody
-  Temporary hold for a person's own safety during active threats. Released once the threat passes. Not a criminal charge.
+  ## Захисне утримання
+  Тимчасове утримання заради власної безпеки особи під час активних загроз. Звільняється після зникнення загрози. Не є кримінальним звинуваченням.
 </Document>
