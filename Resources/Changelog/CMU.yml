@@ -1,85 +1,118 @@
 ﻿Entries:
 - author: maertayn
   changes:
-  - message: Додано список змін.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0441\u043F\u0438\u0441\u043E\u043A\
+      \ \u0437\u043C\u0456\u043D."
     type: Add
-  - message: Видалено список змін.
+  - message: "\u0412\u0438\u0434\u0430\u043B\u0435\u043D\u043E \u0441\u043F\u0438\u0441\
+      \u043E\u043A \u0437\u043C\u0456\u043D."
     type: Remove
-  - message: Підкориговано список змін.
+  - message: "\u041F\u0456\u0434\u043A\u043E\u0440\u0438\u0433\u043E\u0432\u0430\u043D\
+      \u043E \u0441\u043F\u0438\u0441\u043E\u043A \u0437\u043C\u0456\u043D."
     type: Tweak
-  - message: Виправлено списки змін.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0441\u043F\
+      \u0438\u0441\u043A\u0438 \u0437\u043C\u0456\u043D."
     type: Fix
-  - message: Замаплено список змін.
+  - message: "\u0417\u0430\u043C\u0430\u043F\u043B\u0435\u043D\u043E \u0441\u043F\u0438\
+      \u0441\u043E\u043A \u0437\u043C\u0456\u043D."
     type: Map
-  - message: Закодовано список змін.
+  - message: "\u0417\u0430\u043A\u043E\u0434\u043E\u0432\u0430\u043D\u043E \u0441\u043F\
+      \u0438\u0441\u043E\u043A \u0437\u043C\u0456\u043D."
     type: Code
-  - message: Адміністровано список змін.
+  - message: "\u0410\u0434\u043C\u0456\u043D\u0456\u0441\u0442\u0440\u043E\u0432\u0430\
+      \u043D\u043E \u0441\u043F\u0438\u0441\u043E\u043A \u0437\u043C\u0456\u043D."
     type: Admin
   id: 1
   time: '2025-06-01T06:07:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1083
 - author: JaSeNeSaJ
   changes:
-  - message: Додано SheperdsLACN
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E SheperdsLACN"
     type: Add
-  - message: Додано SheperdsFOFLACN
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E SheperdsFOFLACN"
     type: Add
   - message: sheperdsforceonforce.yml > sheperdsfof.yml
     type: Tweak
   - message: SheperdsForceonForce > SheperdsFOF
     type: Tweak
-  - message: Запасний офісний факс більше не Unknown.
+  - message: "\u0417\u0430\u043F\u0430\u0441\u043D\u0438\u0439 \u043E\u0444\u0456\u0441\
+      \u043D\u0438\u0439 \u0444\u0430\u043A\u0441 \u0431\u0456\u043B\u044C\u0448\u0435\
+      \ \u043D\u0435 Unknown."
     type: Fix
-  - message: Зони та .rsi зон тепер просто загальні Military.
+  - message: "\u0417\u043E\u043D\u0438 \u0442\u0430 .rsi \u0437\u043E\u043D \u0442\
+      \u0435\u043F\u0435\u0440 \u043F\u0440\u043E\u0441\u0442\u043E \u0437\u0430\u0433\
+      \u0430\u043B\u044C\u043D\u0456 Military."
     type: Tweak
   id: 2
   time: '2025-06-11T07:32:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/179
 - author: JaSeNeSaJ
   changes:
-  - message: Перероблено доступи Govfor на нові списки
+  - message: "\u041F\u0435\u0440\u0435\u0440\u043E\u0431\u043B\u0435\u043D\u043E \u0434\
+      \u043E\u0441\u0442\u0443\u043F\u0438 Govfor \u043D\u0430 \u043D\u043E\u0432\u0456\
+      \ \u0441\u043F\u0438\u0441\u043A\u0438"
     type: Tweak
-  - message: Доступи Opfor дзеркалять Govfor
+  - message: "\u0414\u043E\u0441\u0442\u0443\u043F\u0438 Opfor \u0434\u0437\u0435\u0440\
+      \u043A\u0430\u043B\u044F\u0442\u044C Govfor"
     type: Add
-  - message: Шлюзи та двері варіанту Opfor
+  - message: "\u0428\u043B\u044E\u0437\u0438 \u0442\u0430 \u0434\u0432\u0435\u0440\
+      \u0456 \u0432\u0430\u0440\u0456\u0430\u043D\u0442\u0443 Opfor"
     type: Add
-  - message: Консолі шатлів варіанту Opfor
+  - message: "\u041A\u043E\u043D\u0441\u043E\u043B\u0456 \u0448\u0430\u0442\u043B\u0456\
+      \u0432 \u0432\u0430\u0440\u0456\u0430\u043D\u0442\u0443 Opfor"
     type: Add
-  - message: Варіанти Govfor для сутностей вище
+  - message: "\u0412\u0430\u0440\u0456\u0430\u043D\u0442\u0438 Govfor \u0434\u043B\
+      \u044F \u0441\u0443\u0442\u043D\u043E\u0441\u0442\u0435\u0439 \u0432\u0438\u0449\
+      \u0435"
     type: Tweak
-  - message: Військові вендори переведено на нові доступи
+  - message: "\u0412\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u0456 \u0432\u0435\u043D\
+      \u0434\u043E\u0440\u0438 \u043F\u0435\u0440\u0435\u0432\u0435\u0434\u0435\u043D\
+      \u043E \u043D\u0430 \u043D\u043E\u0432\u0456 \u0434\u043E\u0441\u0442\u0443\u043F\
+      \u0438"
     type: Tweak
-  - message: Заблоковані шлюзи/двері USSRiptide тимчасово на нових доступах Govfor
+  - message: "\u0417\u0430\u0431\u043B\u043E\u043A\u043E\u0432\u0430\u043D\u0456 \u0448\
+      \u043B\u044E\u0437\u0438/\u0434\u0432\u0435\u0440\u0456 USSRiptide \u0442\u0438\
+      \u043C\u0447\u0430\u0441\u043E\u0432\u043E \u043D\u0430 \u043D\u043E\u0432\u0438\
+      \u0445 \u0434\u043E\u0441\u0442\u0443\u043F\u0430\u0445 Govfor"
     type: Tweak
   id: 3
   time: '2025-08-21T19:21:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/330
 - author: johnnny34y
   changes:
-  - message: додано взвод HAZOPS, наразі доступний на Gixen's Caverns та Shepard's.
-      Просто моліться, щоб не з'явився Freeman.
+  - message: "\u0434\u043E\u0434\u0430\u043D\u043E \u0432\u0437\u0432\u043E\u0434\
+      \ HAZOPS, \u043D\u0430\u0440\u0430\u0437\u0456 \u0434\u043E\u0441\u0442\u0443\
+      \u043F\u043D\u0438\u0439 \u043D\u0430 Gixen's Caverns \u0442\u0430 Shepard's.\
+      \ \u041F\u0440\u043E\u0441\u0442\u043E \u043C\u043E\u043B\u0456\u0442\u044C\u0441\
+      \u044F, \u0449\u043E\u0431 \u043D\u0435 \u0437'\u044F\u0432\u0438\u0432\u0441\
+      \u044F Freeman."
     type: Add
   id: 4
   time: '2025-08-24T03:16:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/342
 - author: JaSeNeSaJ
   changes:
-  - message: Компонент DayNightCycle
+  - message: "\u041A\u043E\u043C\u043F\u043E\u043D\u0435\u043D\u0442 DayNightCycle"
     type: Add
-  - message: Точка призначення десантного шатла OPFOR.
+  - message: "\u0422\u043E\u0447\u043A\u0430 \u043F\u0440\u0438\u0437\u043D\u0430\u0447\
+      \u0435\u043D\u043D\u044F \u0434\u0435\u0441\u0430\u043D\u0442\u043D\u043E\u0433\
+      \u043E \u0448\u0430\u0442\u043B\u0430 OPFOR."
     type: Add
-  - message: Позиція світла в морозильнику
+  - message: "\u041F\u043E\u0437\u0438\u0446\u0456\u044F \u0441\u0432\u0456\u0442\u043B\
+      \u0430 \u0432 \u043C\u043E\u0440\u043E\u0437\u0438\u043B\u044C\u043D\u0438\u043A\
+      \u0443"
     type: Fix
   id: 5
   time: '2025-10-02T05:58:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/381
 - author: JaSeNeSaJ
   changes:
-  - message: Нові спрайти osprey
+  - message: "\u041D\u043E\u0432\u0456 \u0441\u043F\u0440\u0430\u0439\u0442\u0438\
+      \ osprey"
     type: Add
-  - message: Макет Alamo
+  - message: "\u041C\u0430\u043A\u0435\u0442 Alamo"
     type: Tweak
-  - message: Спрайти Alamo
+  - message: "\u0421\u043F\u0440\u0430\u0439\u0442\u0438 Alamo"
     type: Fix
   - message: platoons.yml
     type: Tweak
@@ -88,92 +121,136 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/385
 - author: J C Denton
   changes:
-  - message: Більшість спрайтів Ксеносів замінено на варіанти з CM-SS-13.
+  - message: "\u0411\u0456\u043B\u044C\u0448\u0456\u0441\u0442\u044C \u0441\u043F\u0440\
+      \u0430\u0439\u0442\u0456\u0432 \u041A\u0441\u0435\u043D\u043E\u0441\u0456\u0432\
+      \ \u0437\u0430\u043C\u0456\u043D\u0435\u043D\u043E \u043D\u0430 \u0432\u0430\
+      \u0440\u0456\u0430\u043D\u0442\u0438 \u0437 CM-SS-13."
     type: Tweak
   id: 7
   time: '2025-10-27T00:45:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/387
 - author: JaSeNeSaJ
   changes:
-  - message: Велика турель ксеноса kudzu
+  - message: "\u0412\u0435\u043B\u0438\u043A\u0430 \u0442\u0443\u0440\u0435\u043B\u044C\
+      \ \u043A\u0441\u0435\u043D\u043E\u0441\u0430 kudzu"
     type: Add
-  - message: Мала турель ксеноса kudzu
+  - message: "\u041C\u0430\u043B\u0430 \u0442\u0443\u0440\u0435\u043B\u044C \u043A\
+      \u0441\u0435\u043D\u043E\u0441\u0430 kudzu"
     type: Add
-  - message: Ксено Kudzu
+  - message: "\u041A\u0441\u0435\u043D\u043E Kudzu"
     type: Add
-  - message: Спавнер для рандомізації між вузлами бур'яну та турелями
+  - message: "\u0421\u043F\u0430\u0432\u043D\u0435\u0440 \u0434\u043B\u044F \u0440\
+      \u0430\u043D\u0434\u043E\u043C\u0456\u0437\u0430\u0446\u0456\u0457 \u043C\u0456\
+      \u0436 \u0432\u0443\u0437\u043B\u0430\u043C\u0438 \u0431\u0443\u0440'\u044F\u043D\
+      \u0443 \u0442\u0430 \u0442\u0443\u0440\u0435\u043B\u044F\u043C\u0438"
     type: Add
-  - message: APC повернули свій офсет з апстріму, тож я це відкотив.
+  - message: "APC \u043F\u043E\u0432\u0435\u0440\u043D\u0443\u043B\u0438 \u0441\u0432\
+      \u0456\u0439 \u043E\u0444\u0441\u0435\u0442 \u0437 \u0430\u043F\u0441\u0442\u0440\
+      \u0456\u043C\u0443, \u0442\u043E\u0436 \u044F \u0446\u0435 \u0432\u0456\u0434\
+      \u043A\u043E\u0442\u0438\u0432."
     type: Fix
-  - message: Змінено тайли на Flight у сходових прольотах, щоб приховати труби утилізації.
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E \u0442\u0430\u0439\u043B\u0438\
+      \ \u043D\u0430 Flight \u0443 \u0441\u0445\u043E\u0434\u043E\u0432\u0438\u0445\
+      \ \u043F\u0440\u043E\u043B\u044C\u043E\u0442\u0430\u0445, \u0449\u043E\u0431\
+      \ \u043F\u0440\u0438\u0445\u043E\u0432\u0430\u0442\u0438 \u0442\u0440\u0443\u0431\
+      \u0438 \u0443\u0442\u0438\u043B\u0456\u0437\u0430\u0446\u0456\u0457."
     type: Fix
-  - message: Зона підвалу тепер дуже захищена.
+  - message: "\u0417\u043E\u043D\u0430 \u043F\u0456\u0434\u0432\u0430\u043B\u0443\
+      \ \u0442\u0435\u043F\u0435\u0440 \u0434\u0443\u0436\u0435 \u0437\u0430\u0445\
+      \u0438\u0449\u0435\u043D\u0430."
     type: Tweak
   id: 8
   time: '2026-01-16T22:46:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/422
 - author: JaSeNeSaJ
   changes:
-  - message: Турелі ксеноса Kudzu тепер можна пошкодити вогнем зі зброї.
+  - message: "\u0422\u0443\u0440\u0435\u043B\u0456 \u043A\u0441\u0435\u043D\u043E\u0441\
+      \u0430 Kudzu \u0442\u0435\u043F\u0435\u0440 \u043C\u043E\u0436\u043D\u0430 \u043F\
+      \u043E\u0448\u043A\u043E\u0434\u0438\u0442\u0438 \u0432\u043E\u0433\u043D\u0435\
+      \u043C \u0437\u0456 \u0437\u0431\u0440\u043E\u0457."
     type: Fix
-  - message: Порожні тайли на Flight тепер незнищенні
+  - message: "\u041F\u043E\u0440\u043E\u0436\u043D\u0456 \u0442\u0430\u0439\u043B\u0438\
+      \ \u043D\u0430 Flight \u0442\u0435\u043F\u0435\u0440 \u043D\u0435\u0437\u043D\
+      \u0438\u0449\u0435\u043D\u043D\u0456"
     type: Fix
-  - message: На Flight більше не можна будувати на тайлах сходів чи ламати їх
+  - message: "\u041D\u0430 Flight \u0431\u0456\u043B\u044C\u0448\u0435 \u043D\u0435\
+      \ \u043C\u043E\u0436\u043D\u0430 \u0431\u0443\u0434\u0443\u0432\u0430\u0442\u0438\
+      \ \u043D\u0430 \u0442\u0430\u0439\u043B\u0430\u0445 \u0441\u0445\u043E\u0434\
+      \u0456\u0432 \u0447\u0438 \u043B\u0430\u043C\u0430\u0442\u0438 \u0457\u0445"
     type: Fix
-  - message: Оглядачі телепортера тепер розміщені на Flight у сходах.
+  - message: "\u041E\u0433\u043B\u044F\u0434\u0430\u0447\u0456 \u0442\u0435\u043B\u0435\
+      \u043F\u043E\u0440\u0442\u0435\u0440\u0430 \u0442\u0435\u043F\u0435\u0440 \u0440\
+      \u043E\u0437\u043C\u0456\u0449\u0435\u043D\u0456 \u043D\u0430 Flight \u0443\
+      \ \u0441\u0445\u043E\u0434\u0430\u0445."
     type: Fix
   id: 9
   time: '2026-01-17T05:31:15.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/424
 - author: potatoed6
   changes:
-  - message: Змінено ранг Support Synthetic на WO.
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E \u0440\u0430\u043D\u0433\
+      \ Support Synthetic \u043D\u0430 WO."
     type: Tweak
   id: 10
   time: '2026-01-27T00:07:41.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/544
 - author: potatoed6
   changes:
-  - message: Додано взвод TWE Royal Marines Commandos. За Королеву!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0432\u0437\u0432\u043E\u0434\
+      \ TWE Royal Marines Commandos. \u0417\u0430 \u041A\u043E\u0440\u043E\u043B\u0435\
+      \u0432\u0443!"
     type: Add
   id: 11
   time: '2026-01-27T00:49:09.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/449
 - author: potatoed6
   changes:
-  - message: Додано RMC до UNISC Peacekeepers.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E RMC \u0434\u043E UNISC Peacekeepers."
     type: Add
   id: 12
   time: '2026-01-30T03:35:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/564
 - author: potatoed6
   changes:
-  - message: Виправлено таймери відіграного часу
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0442\u0430\
+      \u0439\u043C\u0435\u0440\u0438 \u0432\u0456\u0434\u0456\u0433\u0440\u0430\u043D\
+      \u043E\u0433\u043E \u0447\u0430\u0441\u0443"
     type: Fix
-  - message: додано перевизначення робіт SupportSynth та CT
+  - message: "\u0434\u043E\u0434\u0430\u043D\u043E \u043F\u0435\u0440\u0435\u0432\u0438\
+      \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0440\u043E\u0431\u0456\u0442\
+      \ SupportSynth \u0442\u0430 CT"
     type: Add
   id: 13
   time: '2026-02-02T03:04:50.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/578
 - author: potatoed6
   changes:
-  - message: Додано L164A3 MGL
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E L164A3 MGL"
     type: Add
-  - message: Додано L64A3 DMR
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E L64A3 DMR"
     type: Add
-  - message: Додано RMC ERT
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E RMC ERT"
     type: Add
-  - message: Перебалансовано L90
+  - message: "\u041F\u0435\u0440\u0435\u0431\u0430\u043B\u0430\u043D\u0441\u043E\u0432\
+      \u0430\u043D\u043E L90"
     type: Tweak
-  - message: F9030 перейменовано на L90
+  - message: "F9030 \u043F\u0435\u0440\u0435\u0439\u043C\u0435\u043D\u043E\u0432\u0430\
+      \u043D\u043E \u043D\u0430 L90"
     type: Tweak
-  - message: TWE RMC тепер отримують L23 як основну гвинтівку
+  - message: "TWE RMC \u0442\u0435\u043F\u0435\u0440 \u043E\u0442\u0440\u0438\u043C\
+      \u0443\u044E\u0442\u044C L23 \u044F\u043A \u043E\u0441\u043D\u043E\u0432\u043D\
+      \u0443 \u0433\u0432\u0438\u043D\u0442\u0456\u0432\u043A\u0443"
     type: Tweak
-  - message: Тепер RMC отримує нові спец-кіти
+  - message: "\u0422\u0435\u043F\u0435\u0440 RMC \u043E\u0442\u0440\u0438\u043C\u0443\
+      \u0454 \u043D\u043E\u0432\u0456 \u0441\u043F\u0435\u0446-\u043A\u0456\u0442\u0438"
     type: Add
-  - message: Спец-вендор RMC тепер видає префікс конкретного спец-кіту
+  - message: "\u0421\u043F\u0435\u0446-\u0432\u0435\u043D\u0434\u043E\u0440 RMC \u0442\
+      \u0435\u043F\u0435\u0440 \u0432\u0438\u0434\u0430\u0454 \u043F\u0440\u0435\u0444\
+      \u0456\u043A\u0441 \u043A\u043E\u043D\u043A\u0440\u0435\u0442\u043D\u043E\u0433\
+      \u043E \u0441\u043F\u0435\u0446-\u043A\u0456\u0442\u0443"
     type: Tweak
-  - message: Додано 20-мм гранати для RMC
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E 20-\u043C\u043C \u0433\u0440\u0430\
+      \u043D\u0430\u0442\u0438 \u0434\u043B\u044F RMC"
     type: Add
   id: 14
   time: '2026-02-06T01:08:09.0000000+00:00'
@@ -182,373 +259,578 @@
   changes:
   - message: Normandy
     type: Add
-  - message: Прототип кокпіта Opfor для Normandy
+  - message: "\u041F\u0440\u043E\u0442\u043E\u0442\u0438\u043F \u043A\u043E\u043A\u043F\
+      \u0456\u0442\u0430 Opfor \u0434\u043B\u044F Normandy"
     type: Add
-  - message: Два загальні шатли ERT, транспортний шатл cmb та транспортний шатл icrc.
+  - message: "\u0414\u0432\u0430 \u0437\u0430\u0433\u0430\u043B\u044C\u043D\u0456\
+      \ \u0448\u0430\u0442\u043B\u0438 ERT, \u0442\u0440\u0430\u043D\u0441\u043F\u043E\
+      \u0440\u0442\u043D\u0438\u0439 \u0448\u0430\u0442\u043B cmb \u0442\u0430 \u0442\
+      \u0440\u0430\u043D\u0441\u043F\u043E\u0440\u0442\u043D\u0438\u0439 \u0448\u0430\
+      \u0442\u043B icrc."
     type: Add
-  - message: Оновлено файл дверей Alamo майже до паритету з RMC. Це додає двері 1x2
-      та 1x3 для Alamo.
+  - message: "\u041E\u043D\u043E\u0432\u043B\u0435\u043D\u043E \u0444\u0430\u0439\u043B\
+      \ \u0434\u0432\u0435\u0440\u0435\u0439 Alamo \u043C\u0430\u0439\u0436\u0435\
+      \ \u0434\u043E \u043F\u0430\u0440\u0438\u0442\u0435\u0442\u0443 \u0437 RMC.\
+      \ \u0426\u0435 \u0434\u043E\u0434\u0430\u0454 \u0434\u0432\u0435\u0440\u0456\
+      \ 1x2 \u0442\u0430 1x3 \u0434\u043B\u044F Alamo."
     type: Tweak
-  - message: Прибрано підлогу з деяких спрайтів шатлів.
+  - message: "\u041F\u0440\u0438\u0431\u0440\u0430\u043D\u043E \u043F\u0456\u0434\u043B\
+      \u043E\u0433\u0443 \u0437 \u0434\u0435\u044F\u043A\u0438\u0445 \u0441\u043F\u0440\
+      \u0430\u0439\u0442\u0456\u0432 \u0448\u0430\u0442\u043B\u0456\u0432."
     type: Tweak
   id: 15
   time: '2026-02-07T09:33:20.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/592
 - author: Berkin101
   changes:
-  - message: Ще більше голосових ліній, цього разу шотландських!
+  - message: "\u0429\u0435 \u0431\u0456\u043B\u044C\u0448\u0435 \u0433\u043E\u043B\
+      \u043E\u0441\u043E\u0432\u0438\u0445 \u043B\u0456\u043D\u0456\u0439, \u0446\u044C\
+      \u043E\u0433\u043E \u0440\u0430\u0437\u0443 \u0448\u043E\u0442\u043B\u0430\u043D\
+      \u0434\u0441\u044C\u043A\u0438\u0445!"
     type: Add
   id: 16
   time: '2026-02-08T19:35:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/584
 - author: potatoed6
   changes:
-  - message: Ослаблено щит FBS-B, тепер у нього 70% HP від попередньої версії!
+  - message: "\u041E\u0441\u043B\u0430\u0431\u043B\u0435\u043D\u043E \u0449\u0438\u0442\
+      \ FBS-B, \u0442\u0435\u043F\u0435\u0440 \u0443 \u043D\u044C\u043E\u0433\u043E\
+      \ 70% HP \u0432\u0456\u0434 \u043F\u043E\u043F\u0435\u0440\u0435\u0434\u043D\
+      \u044C\u043E\u0457 \u0432\u0435\u0440\u0441\u0456\u0457!"
     type: Tweak
-  - message: Виправлено баг рейкових кріплень L23!
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0431\u0430\
+      \u0433 \u0440\u0435\u0439\u043A\u043E\u0432\u0438\u0445 \u043A\u0440\u0456\u043F\
+      \u043B\u0435\u043D\u044C L23!"
     type: Fix
   id: 17
   time: '2026-02-09T20:43:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/603
 - author: JaSeNeSaJ
   changes:
-  - message: Доступ ColonyArmory до CMB та CA
+  - message: "\u0414\u043E\u0441\u0442\u0443\u043F ColonyArmory \u0434\u043E CMB \u0442\
+      \u0430 CA"
     type: Add
-  - message: Офсет Runner та Acider у спрайтах
+  - message: "\u041E\u0444\u0441\u0435\u0442 Runner \u0442\u0430 Acider \u0443 \u0441\
+      \u043F\u0440\u0430\u0439\u0442\u0430\u0445"
     type: Tweak
-  - message: Типовий шатл ERT тепер "/Maps/_CMU14/Shuttles/black_ert.yml"
+  - message: "\u0422\u0438\u043F\u043E\u0432\u0438\u0439 \u0448\u0430\u0442\u043B\
+      \ ERT \u0442\u0435\u043F\u0435\u0440 \"/Maps/_CMU14/Shuttles/black_ert.yml\""
     type: Tweak
-  - message: Праймований спрайт Acider тепер у коректному стилі
+  - message: "\u041F\u0440\u0430\u0439\u043C\u043E\u0432\u0430\u043D\u0438\u0439 \u0441\
+      \u043F\u0440\u0430\u0439\u0442 Acider \u0442\u0435\u043F\u0435\u0440 \u0443\
+      \ \u043A\u043E\u0440\u0435\u043A\u0442\u043D\u043E\u043C\u0443 \u0441\u0442\u0438\
+      \u043B\u0456"
     type: Fix
-  - message: 'Колір праймованого спрайта Acider зміщено на #22FF22, ближче до паритету з CM'
+  - message: "\u041A\u043E\u043B\u0456\u0440 \u043F\u0440\u0430\u0439\u043C\u043E\u0432\
+      \u0430\u043D\u043E\u0433\u043E \u0441\u043F\u0440\u0430\u0439\u0442\u0430 Acider\
+      \ \u0437\u043C\u0456\u0449\u0435\u043D\u043E \u043D\u0430 #22FF22, \u0431\u043B\
+      \u0438\u0436\u0447\u0435 \u0434\u043E \u043F\u0430\u0440\u0438\u0442\u0435\u0442\
+      \u0443 \u0437 CM"
     type: Fix
-  - message: Коричневий плащ давав тег CLF
+  - message: "\u041A\u043E\u0440\u0438\u0447\u043D\u0435\u0432\u0438\u0439 \u043F\u043B\
+      \u0430\u0449 \u0434\u0430\u0432\u0430\u0432 \u0442\u0435\u0433 CLF"
     type: Fix
   id: 18
   time: '2026-02-11T19:32:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/613
 - author: Zetera-Tertia
   changes:
-  - message: Виправлено, що Радники OPFOR/GOVFOR не мали коректного набору навичок.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0420\u0430\u0434\u043D\u0438\u043A\u0438 OPFOR/GOVFOR \u043D\u0435\
+      \ \u043C\u0430\u043B\u0438 \u043A\u043E\u0440\u0435\u043A\u0442\u043D\u043E\u0433\
+      \u043E \u043D\u0430\u0431\u043E\u0440\u0443 \u043D\u0430\u0432\u0438\u0447\u043E\
+      \u043A."
     type: Fix
   id: 19
   time: '2026-02-17T01:36:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/622
 - author: Zetera-Tertia
   changes:
-  - message: Радники можуть бачити нових гравців
+  - message: "\u0420\u0430\u0434\u043D\u0438\u043A\u0438 \u043C\u043E\u0436\u0443\u0442\
+      \u044C \u0431\u0430\u0447\u0438\u0442\u0438 \u043D\u043E\u0432\u0438\u0445 \u0433\
+      \u0440\u0430\u0432\u0446\u0456\u0432"
     type: Add
   id: 20
   time: '2026-02-17T22:19:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/623
 - author: potatoed6
   changes:
-  - message: Знову виправлено таймери рангів!
+  - message: "\u0417\u043D\u043E\u0432\u0443 \u0432\u0438\u043F\u0440\u0430\u0432\u043B\
+      \u0435\u043D\u043E \u0442\u0430\u0439\u043C\u0435\u0440\u0438 \u0440\u0430\u043D\
+      \u0433\u0456\u0432!"
     type: Fix
   id: 21
   time: '2026-02-18T00:46:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/625
 - author: potatoed6
   changes:
-  - message: AG80 для UPP
+  - message: "AG80 \u0434\u043B\u044F UPP"
     type: Add
-  - message: OG60 для UPP. Перевірте реквізиції для нього!
+  - message: "OG60 \u0434\u043B\u044F UPP. \u041F\u0435\u0440\u0435\u0432\u0456\u0440\
+      \u0442\u0435 \u0440\u0435\u043A\u0432\u0456\u0437\u0438\u0446\u0456\u0457 \u0434\
+      \u043B\u044F \u043D\u044C\u043E\u0433\u043E!"
     type: Add
-  - message: Нова форма, ремені, спорядження для UPP
+  - message: "\u041D\u043E\u0432\u0430 \u0444\u043E\u0440\u043C\u0430, \u0440\u0435\
+      \u043C\u0435\u043D\u0456, \u0441\u043F\u043E\u0440\u044F\u0434\u0436\u0435\u043D\
+      \u043D\u044F \u0434\u043B\u044F UPP"
     type: Add
-  - message: Змінено реквізиції UPP на правильні.
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E \u0440\u0435\u043A\u0432\u0456\
+      \u0437\u0438\u0446\u0456\u0457 UPP \u043D\u0430 \u043F\u0440\u0430\u0432\u0438\
+      \u043B\u044C\u043D\u0456."
     type: Tweak
-  - message: Type 88 DMR ослаблено, щоб бути трохи кращим за DMR від TWE
+  - message: "Type 88 DMR \u043E\u0441\u043B\u0430\u0431\u043B\u0435\u043D\u043E,\
+      \ \u0449\u043E\u0431 \u0431\u0443\u0442\u0438 \u0442\u0440\u043E\u0445\u0438\
+      \ \u043A\u0440\u0430\u0449\u0438\u043C \u0437\u0430 DMR \u0432\u0456\u0434 TWE"
     type: Tweak
-  - message: Виправлено форму
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0444\u043E\
+      \u0440\u043C\u0443"
     type: Fix
-  - message: Додано трохи QoL для UPP.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0442\u0440\u043E\u0445\u0438\
+      \ QoL \u0434\u043B\u044F UPP."
     type: Add
   id: 22
   time: '2026-02-19T00:35:01.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/586
 - author: potatoed6
   changes:
-  - message: Тепер кожен ксенос має спрайт з Cm13!
+  - message: "\u0422\u0435\u043F\u0435\u0440 \u043A\u043E\u0436\u0435\u043D \u043A\
+      \u0441\u0435\u043D\u043E\u0441 \u043C\u0430\u0454 \u0441\u043F\u0440\u0430\u0439\
+      \u0442 \u0437 Cm13!"
     type: Add
   id: 23
   time: '2026-02-20T05:53:58.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/630
 - author: JaSeNeSaJ
   changes:
-  - message: Повний ремейк
+  - message: "\u041F\u043E\u0432\u043D\u0438\u0439 \u0440\u0435\u043C\u0435\u0439\u043A"
     type: Add
-  - message: Макет
+  - message: "\u041C\u0430\u043A\u0435\u0442"
     type: Tweak
-  - message: Зони
+  - message: "\u0417\u043E\u043D\u0438"
     type: Tweak
-  - message: Вендор спорядження WYGuard
+  - message: "\u0412\u0435\u043D\u0434\u043E\u0440 \u0441\u043F\u043E\u0440\u044F\u0434\
+      \u0436\u0435\u043D\u043D\u044F WYGuard"
     type: Add
   id: 24
   time: '2026-02-20T12:50:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/634
 - author: JaSeNeSaJ
   changes:
-  - message: Дерева
+  - message: "\u0414\u0435\u0440\u0435\u0432\u0430"
     type: Add
-  - message: Сутності спавнера випадкових дерев
+  - message: "\u0421\u0443\u0442\u043D\u043E\u0441\u0442\u0456 \u0441\u043F\u0430\u0432\
+      \u043D\u0435\u0440\u0430 \u0432\u0438\u043F\u0430\u0434\u043A\u043E\u0432\u0438\
+      \u0445 \u0434\u0435\u0440\u0435\u0432"
     type: Add
-  - message: Кімната спавну Синта колонії
+  - message: "\u041A\u0456\u043C\u043D\u0430\u0442\u0430 \u0441\u043F\u0430\u0432\u043D\
+      \u0443 \u0421\u0438\u043D\u0442\u0430 \u043A\u043E\u043B\u043E\u043D\u0456\u0457"
     type: Add
-  - message: Додано доступ CMAccessColonyCommand до accessGroup auadmin.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0434\u043E\u0441\u0442\u0443\u043F\
+      \ CMAccessColonyCommand \u0434\u043E accessGroup auadmin."
     type: Tweak
   id: 25
   time: '2026-02-21T20:15:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/641
 - author: JaSeNeSaJ
   changes:
-  - message: Спавн Corporate Manager
+  - message: "\u0421\u043F\u0430\u0432\u043D Corporate Manager"
     type: Fix
-  - message: Спавнер хвойних дерев
+  - message: "\u0421\u043F\u0430\u0432\u043D\u0435\u0440 \u0445\u0432\u043E\u0439\u043D\
+      \u0438\u0445 \u0434\u0435\u0440\u0435\u0432"
     type: Fix
-  - message: Консоль цілей GOVFOR
+  - message: "\u041A\u043E\u043D\u0441\u043E\u043B\u044C \u0446\u0456\u043B\u0435\u0439\
+      \ GOVFOR"
     type: Fix
-  - message: Содовий фонтан
+  - message: "\u0421\u043E\u0434\u043E\u0432\u0438\u0439 \u0444\u043E\u043D\u0442\u0430\
+      \u043D"
     type: Fix
-  - message: Офіс зв'язкового
+  - message: "\u041E\u0444\u0456\u0441 \u0437\u0432'\u044F\u0437\u043A\u043E\u0432\
+      \u043E\u0433\u043E"
     type: Tweak
-  - message: Цілі
+  - message: "\u0426\u0456\u043B\u0456"
     type: Tweak
   id: 26
   time: '2026-02-22T20:20:04.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/648
 - author: Berkin101
   changes:
-  - message: Нові голосові лінії Warcry та Medic
+  - message: "\u041D\u043E\u0432\u0456 \u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0456\
+      \ \u043B\u0456\u043D\u0456\u0457 Warcry \u0442\u0430 Medic"
     type: Add
   id: 27
   time: '2026-02-22T20:43:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/637
 - author: potatoed6
   changes:
-  - message: Додано третю сторону PaP
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0442\u0440\u0435\u0442\u044E\
+      \ \u0441\u0442\u043E\u0440\u043E\u043D\u0443 PaP"
     type: Add
-  - message: Додано третю сторону UPP Territorial Defense!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0442\u0440\u0435\u0442\u044E\
+      \ \u0441\u0442\u043E\u0440\u043E\u043D\u0443 UPP Territorial Defense!"
     type: Add
   id: 28
   time: '2026-02-23T00:56:01.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/635
 - author: potatoed6
   changes:
-  - message: Додано FORECON Survs!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E FORECON Survs!"
     type: Add
-  - message: Додано команду снайперів та марксменів FORECON, яку можна купити в розвідці GOVFOR!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043A\u043E\u043C\u0430\u043D\u0434\
+      \u0443 \u0441\u043D\u0430\u0439\u043F\u0435\u0440\u0456\u0432 \u0442\u0430 \u043C\
+      \u0430\u0440\u043A\u0441\u043C\u0435\u043D\u0456\u0432 FORECON, \u044F\u043A\
+      \u0443 \u043C\u043E\u0436\u043D\u0430 \u043A\u0443\u043F\u0438\u0442\u0438 \u0432\
+      \ \u0440\u043E\u0437\u0432\u0456\u0434\u0446\u0456 GOVFOR!"
     type: Add
-  - message: Додано survs 1-го кавалерійського полку Армії США!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E survs 1-\u0433\u043E \u043A\u0430\
+      \u0432\u0430\u043B\u0435\u0440\u0456\u0439\u0441\u044C\u043A\u043E\u0433\u043E\
+      \ \u043F\u043E\u043B\u043A\u0443 \u0410\u0440\u043C\u0456\u0457 \u0421\u0428\
+      \u0410!"
     type: Add
-  - message: Додано третю сторону — загублений танковий екіпаж 32-ї бронетанкової дивізії Армії США!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0442\u0440\u0435\u0442\u044E\
+      \ \u0441\u0442\u043E\u0440\u043E\u043D\u0443 \u2014 \u0437\u0430\u0433\u0443\
+      \u0431\u043B\u0435\u043D\u0438\u0439 \u0442\u0430\u043D\u043A\u043E\u0432\u0438\
+      \u0439 \u0435\u043A\u0456\u043F\u0430\u0436 32-\u0457 \u0431\u0440\u043E\u043D\
+      \u0435\u0442\u0430\u043D\u043A\u043E\u0432\u043E\u0457 \u0434\u0438\u0432\u0456\
+      \u0437\u0456\u0457 \u0410\u0440\u043C\u0456\u0457 \u0421\u0428\u0410!"
     type: Add
-  - message: Додано команду підкріплення 32-ї бронетанкової дивізії Армії США, яку можна викликати через розвідку!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043A\u043E\u043C\u0430\u043D\u0434\
+      \u0443 \u043F\u0456\u0434\u043A\u0440\u0456\u043F\u043B\u0435\u043D\u043D\u044F\
+      \ 32-\u0457 \u0431\u0440\u043E\u043D\u0435\u0442\u0430\u043D\u043A\u043E\u0432\
+      \u043E\u0457 \u0434\u0438\u0432\u0456\u0437\u0456\u0457 \u0410\u0440\u043C\u0456\
+      \u0457 \u0421\u0428\u0410, \u044F\u043A\u0443 \u043C\u043E\u0436\u043D\u0430\
+      \ \u0432\u0438\u043A\u043B\u0438\u043A\u0430\u0442\u0438 \u0447\u0435\u0440\u0435\
+      \u0437 \u0440\u043E\u0437\u0432\u0456\u0434\u043A\u0443!"
     type: Add
   id: 29
   time: '2026-02-25T02:05:18.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/638
 - author: NexusLeader
   changes:
-  - message: Додано Assistant Manager до рангів відіграного часу для Colony Liaison на землі.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E Assistant Manager \u0434\u043E\
+      \ \u0440\u0430\u043D\u0433\u0456\u0432 \u0432\u0456\u0434\u0456\u0433\u0440\u0430\
+      \u043D\u043E\u0433\u043E \u0447\u0430\u0441\u0443 \u0434\u043B\u044F Colony\
+      \ Liaison \u043D\u0430 \u0437\u0435\u043C\u043B\u0456."
     type: Add
   id: 30
   time: '2026-02-26T13:26:42.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/658
 - author: JaSeNeSaJ
   changes:
-  - message: Третя сторона Parasite Runner
+  - message: "\u0422\u0440\u0435\u0442\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430\
+      \ Parasite Runner"
     type: Add
-  - message: Моб Carp не відображався, коли його захопив фейсхаггер (погано)
+  - message: "\u041C\u043E\u0431 Carp \u043D\u0435 \u0432\u0456\u0434\u043E\u0431\u0440\
+      \u0430\u0436\u0430\u0432\u0441\u044F, \u043A\u043E\u043B\u0438 \u0439\u043E\u0433\
+      \u043E \u0437\u0430\u0445\u043E\u043F\u0438\u0432 \u0444\u0435\u0439\u0441\u0445\
+      \u0430\u0433\u0433\u0435\u0440 (\u043F\u043E\u0433\u0430\u043D\u043E)"
     type: Fix
-  - message: Carp тепер втрачає свідомість, коли його захопив фейсхаггер.
+  - message: "Carp \u0442\u0435\u043F\u0435\u0440 \u0432\u0442\u0440\u0430\u0447\u0430\
+      \u0454 \u0441\u0432\u0456\u0434\u043E\u043C\u0456\u0441\u0442\u044C, \u043A\u043E\
+      \u043B\u0438 \u0439\u043E\u0433\u043E \u0437\u0430\u0445\u043E\u043F\u0438\u0432\
+      \ \u0444\u0435\u0439\u0441\u0445\u0430\u0433\u0433\u0435\u0440."
     type: Tweak
-  - message: Розташування .rsi
+  - message: "\u0420\u043E\u0437\u0442\u0430\u0448\u0443\u0432\u0430\u043D\u043D\u044F\
+      \ .rsi"
     type: Tweak
-  - message: Розташування прототипів
+  - message: "\u0420\u043E\u0437\u0442\u0430\u0448\u0443\u0432\u0430\u043D\u043D\u044F\
+      \ \u043F\u0440\u043E\u0442\u043E\u0442\u0438\u043F\u0456\u0432"
     type: Tweak
-  - message: Прототипи та імена в метаданих для Sheperds' pride.
+  - message: "\u041F\u0440\u043E\u0442\u043E\u0442\u0438\u043F\u0438 \u0442\u0430\
+      \ \u0456\u043C\u0435\u043D\u0430 \u0432 \u043C\u0435\u0442\u0430\u0434\u0430\
+      \u043D\u0438\u0445 \u0434\u043B\u044F Sheperds' pride."
     type: Tweak
   id: 31
   time: '2026-02-26T16:17:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/659
 - author: NexusLeader
   changes:
-  - message: Виправлено гарнітуру Colonial CL
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0433\u0430\
+      \u0440\u043D\u0456\u0442\u0443\u0440\u0443 Colonial CL"
     type: Fix
-  - message: Виправлено календарі
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043A\u0430\
+      \u043B\u0435\u043D\u0434\u0430\u0440\u0456"
     type: Fix
   id: 32
   time: '2026-02-28T22:03:48.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/663
 - author: JaSeNeSaJ
   changes:
-  - message: Спрайти Burrower тепер більш центровані
+  - message: "\u0421\u043F\u0440\u0430\u0439\u0442\u0438 Burrower \u0442\u0435\u043F\
+      \u0435\u0440 \u0431\u0456\u043B\u044C\u0448 \u0446\u0435\u043D\u0442\u0440\u043E\
+      \u0432\u0430\u043D\u0456"
     type: Fix
   id: 33
   time: '2026-02-28T22:15:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/665
 - author: Zetera-Tertia
   changes:
-  - message: Професор von Bandolier у всій своїй красі. Майже.
+  - message: "\u041F\u0440\u043E\u0444\u0435\u0441\u043E\u0440 von Bandolier \u0443\
+      \ \u0432\u0441\u0456\u0439 \u0441\u0432\u043E\u0457\u0439 \u043A\u0440\u0430\
+      \u0441\u0456. \u041C\u0430\u0439\u0436\u0435."
     type: Add
-  - message: Зроблено так, що броня PMC більше не вимагає саме PMC Fatigues. (Safari
-      Jacket з якоїсь причини був успадкований від броні PMC)
+  - message: "\u0417\u0440\u043E\u0431\u043B\u0435\u043D\u043E \u0442\u0430\u043A\
+      , \u0449\u043E \u0431\u0440\u043E\u043D\u044F PMC \u0431\u0456\u043B\u044C\u0448\
+      \u0435 \u043D\u0435 \u0432\u0438\u043C\u0430\u0433\u0430\u0454 \u0441\u0430\u043C\
+      \u0435 PMC Fatigues. (Safari Jacket \u0437 \u044F\u043A\u043E\u0457\u0441\u044C\
+      \ \u043F\u0440\u0438\u0447\u0438\u043D\u0438 \u0431\u0443\u0432 \u0443\u0441\
+      \u043F\u0430\u0434\u043A\u043E\u0432\u0430\u043D\u0438\u0439 \u0432\u0456\u0434\
+      \ \u0431\u0440\u043E\u043D\u0456 PMC)"
     type: Tweak
   id: 34
   time: '2026-03-02T05:30:35.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/666
 - author: potatoed6
   changes:
-  - message: Додає та виправляє загони для основних третіх сторін
+  - message: "\u0414\u043E\u0434\u0430\u0454 \u0442\u0430 \u0432\u0438\u043F\u0440\
+      \u0430\u0432\u043B\u044F\u0454 \u0437\u0430\u0433\u043E\u043D\u0438 \u0434\u043B\
+      \u044F \u043E\u0441\u043D\u043E\u0432\u043D\u0438\u0445 \u0442\u0440\u0435\u0442\
+      \u0456\u0445 \u0441\u0442\u043E\u0440\u0456\u043D"
     type: Add
-  - message: Виправляє трекери для третіх сторін
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u044F\u0454 \u0442\u0440\u0435\
+      \u043A\u0435\u0440\u0438 \u0434\u043B\u044F \u0442\u0440\u0435\u0442\u0456\u0445\
+      \ \u0441\u0442\u043E\u0440\u0456\u043D"
     type: Fix
-  - message: Реструктуризує RMC RRT
+  - message: "\u0420\u0435\u0441\u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0438\u0437\
+      \u0443\u0454 RMC RRT"
     type: Code
   id: 35
   time: '2026-03-08T09:42:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/672
 - author: potatoed6
   changes:
-  - message: Портовано текстуру Designer з CM13!
+  - message: "\u041F\u043E\u0440\u0442\u043E\u0432\u0430\u043D\u043E \u0442\u0435\u043A\
+      \u0441\u0442\u0443\u0440\u0443 Designer \u0437 CM13!"
     type: Add
-  - message: Знищено теку текстур _CMU14!
+  - message: "\u0417\u043D\u0438\u0449\u0435\u043D\u043E \u0442\u0435\u043A\u0443\
+      \ \u0442\u0435\u043A\u0441\u0442\u0443\u0440 _CMU14!"
     type: Code
   id: 36
   time: '2026-03-17T06:48:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/670
 - author: potatoed6
   changes:
-  - message: LPO80 додано до UPP
+  - message: "LPO80 \u0434\u043E\u0434\u0430\u043D\u043E \u0434\u043E UPP"
     type: Add
-  - message: AG80 підсилено, щоб бути схожим на Mk1/Mk2
+  - message: "AG80 \u043F\u0456\u0434\u0441\u0438\u043B\u0435\u043D\u043E, \u0449\u043E\
+      \u0431 \u0431\u0443\u0442\u0438 \u0441\u0445\u043E\u0436\u0438\u043C \u043D\u0430\
+      \ Mk1/Mk2"
     type: Tweak
-  - message: FP9000 тепер гвинтівка зі схожими характеристиками. Досі має AP, але має
-      схожу (трохи кращу) ефективність ніж Mk1
+  - message: "FP9000 \u0442\u0435\u043F\u0435\u0440 \u0433\u0432\u0438\u043D\u0442\
+      \u0456\u0432\u043A\u0430 \u0437\u0456 \u0441\u0445\u043E\u0436\u0438\u043C\u0438\
+      \ \u0445\u0430\u0440\u0430\u043A\u0442\u0435\u0440\u0438\u0441\u0442\u0438\u043A\
+      \u0430\u043C\u0438. \u0414\u043E\u0441\u0456 \u043C\u0430\u0454 AP, \u0430\u043B\
+      \u0435 \u043C\u0430\u0454 \u0441\u0445\u043E\u0436\u0443 (\u0442\u0440\u043E\
+      \u0445\u0438 \u043A\u0440\u0430\u0449\u0443) \u0435\u0444\u0435\u043A\u0442\u0438\
+      \u0432\u043D\u0456\u0441\u0442\u044C \u043D\u0456\u0436 Mk1"
     type: Tweak
-  - message: Type 71 має підсилену скорострільність
+  - message: "Type 71 \u043C\u0430\u0454 \u043F\u0456\u0434\u0441\u0438\u043B\u0435\
+      \u043D\u0443 \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u0440\u0456\u043B\u044C\
+      \u043D\u0456\u0441\u0442\u044C"
     type: Tweak
-  - message: MP5 має підсилену точність та скорострільність, щоб бути дещо конкурентним з P90
+  - message: "MP5 \u043C\u0430\u0454 \u043F\u0456\u0434\u0441\u0438\u043B\u0435\u043D\
+      \u0443 \u0442\u043E\u0447\u043D\u0456\u0441\u0442\u044C \u0442\u0430 \u0441\u043A\
+      \u043E\u0440\u043E\u0441\u0442\u0440\u0456\u043B\u044C\u043D\u0456\u0441\u0442\
+      \u044C, \u0449\u043E\u0431 \u0431\u0443\u0442\u0438 \u0434\u0435\u0449\u043E\
+      \ \u043A\u043E\u043D\u043A\u0443\u0440\u0435\u043D\u0442\u043D\u0438\u043C \u0437\
+      \ P90"
     type: Tweak
-  - message: L42A тепер має повний автоматичний режим з високою скорострільністю, але
-      низькою точністю. Місткість магазину знижено до 20.
+  - message: "L42A \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u0454 \u043F\u043E\u0432\
+      \u043D\u0438\u0439 \u0430\u0432\u0442\u043E\u043C\u0430\u0442\u0438\u0447\u043D\
+      \u0438\u0439 \u0440\u0435\u0436\u0438\u043C \u0437 \u0432\u0438\u0441\u043E\u043A\
+      \u043E\u044E \u0441\u043A\u043E\u0440\u043E\u0441\u0442\u0440\u0456\u043B\u044C\
+      \u043D\u0456\u0441\u0442\u044E, \u0430\u043B\u0435 \u043D\u0438\u0437\u044C\u043A\
+      \u043E\u044E \u0442\u043E\u0447\u043D\u0456\u0441\u0442\u044E. \u041C\u0456\u0441\
+      \u0442\u043A\u0456\u0441\u0442\u044C \u043C\u0430\u0433\u0430\u0437\u0438\u043D\
+      \u0443 \u0437\u043D\u0438\u0436\u0435\u043D\u043E \u0434\u043E 20."
     type: Tweak
   id: 37
   time: '2026-03-23T09:13:30.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/695
 - author: JaSeNeSaJ
   changes:
-  - message: Podlock'и тепер під'єднані до енергомережі (запобігає відкриванню ломом)
+  - message: "Podlock'\u0438 \u0442\u0435\u043F\u0435\u0440 \u043F\u0456\u0434'\u0454\
+      \u0434\u043D\u0430\u043D\u0456 \u0434\u043E \u0435\u043D\u0435\u0440\u0433\u043E\
+      \u043C\u0435\u0440\u0435\u0436\u0456 (\u0437\u0430\u043F\u043E\u0431\u0456\u0433\
+      \u0430\u0454 \u0432\u0456\u0434\u043A\u0440\u0438\u0432\u0430\u043D\u043D\u044E\
+      \ \u043B\u043E\u043C\u043E\u043C)"
     type: Fix
-  - message: Світло тепер у версіях з офсетом.
+  - message: "\u0421\u0432\u0456\u0442\u043B\u043E \u0442\u0435\u043F\u0435\u0440\
+      \ \u0443 \u0432\u0435\u0440\u0441\u0456\u044F\u0445 \u0437 \u043E\u0444\u0441\
+      \u0435\u0442\u043E\u043C."
     type: Tweak
-  - message: Завжди увімкнене світло замінено на ламкі версії (вони все одно завжди
-      увімкнені)
+  - message: "\u0417\u0430\u0432\u0436\u0434\u0438 \u0443\u0432\u0456\u043C\u043A\u043D\
+      \u0435\u043D\u0435 \u0441\u0432\u0456\u0442\u043B\u043E \u0437\u0430\u043C\u0456\
+      \u043D\u0435\u043D\u043E \u043D\u0430 \u043B\u0430\u043C\u043A\u0456 \u0432\u0435\
+      \u0440\u0441\u0456\u0457 (\u0432\u043E\u043D\u0438 \u0432\u0441\u0435 \u043E\
+      \u0434\u043D\u043E \u0437\u0430\u0432\u0436\u0434\u0438 \u0443\u0432\u0456\u043C\
+      \u043A\u043D\u0435\u043D\u0456)"
     type: Fix
-  - message: Станція рейнджерів має таймери брига
+  - message: "\u0421\u0442\u0430\u043D\u0446\u0456\u044F \u0440\u0435\u0439\u043D\u0434\
+      \u0436\u0435\u0440\u0456\u0432 \u043C\u0430\u0454 \u0442\u0430\u0439\u043C\u0435\
+      \u0440\u0438 \u0431\u0440\u0438\u0433\u0430"
     type: Add
-  - message: APC до Military Yard
+  - message: "APC \u0434\u043E Military Yard"
     type: Add
-  - message: Прибрано APC церкви
+  - message: "\u041F\u0440\u0438\u0431\u0440\u0430\u043D\u043E APC \u0446\u0435\u0440\
+      \u043A\u0432\u0438"
     type: Remove
-  - message: вендор одягу до CLF (тепер вони матимуть ID одягу)
+  - message: "\u0432\u0435\u043D\u0434\u043E\u0440 \u043E\u0434\u044F\u0433\u0443\
+      \ \u0434\u043E CLF (\u0442\u0435\u043F\u0435\u0440 \u0432\u043E\u043D\u0438\
+      \ \u043C\u0430\u0442\u0438\u043C\u0443\u0442\u044C ID \u043E\u0434\u044F\u0433\
+      \u0443)"
     type: Add
-  - message: Зарядники до Military, Rangers та We-Yu
+  - message: "\u0417\u0430\u0440\u044F\u0434\u043D\u0438\u043A\u0438 \u0434\u043E\
+      \ Military, Rangers \u0442\u0430 We-Yu"
     type: Add
-  - message: Зварювальний шолом та окуляри до бази CLF
+  - message: "\u0417\u0432\u0430\u0440\u044E\u0432\u0430\u043B\u044C\u043D\u0438\u0439\
+      \ \u0448\u043E\u043B\u043E\u043C \u0442\u0430 \u043E\u043A\u0443\u043B\u044F\
+      \u0440\u0438 \u0434\u043E \u0431\u0430\u0437\u0438 CLF"
     type: Add
-  - message: Доступ для We-Yu до шлюзу контрольного пункту
+  - message: "\u0414\u043E\u0441\u0442\u0443\u043F \u0434\u043B\u044F We-Yu \u0434\
+      \u043E \u0448\u043B\u044E\u0437\u0443 \u043A\u043E\u043D\u0442\u0440\u043E\u043B\
+      \u044C\u043D\u043E\u0433\u043E \u043F\u0443\u043D\u043A\u0442\u0443"
     type: Add
-  - message: Вендор молодшого офіцера
+  - message: "\u0412\u0435\u043D\u0434\u043E\u0440 \u043C\u043E\u043B\u043E\u0434\u0448\
+      \u043E\u0433\u043E \u043E\u0444\u0456\u0446\u0435\u0440\u0430"
     type: Add
-  - message: Консоль розвідки для Govfor
+  - message: "\u041A\u043E\u043D\u0441\u043E\u043B\u044C \u0440\u043E\u0437\u0432\u0456\
+      \u0434\u043A\u0438 \u0434\u043B\u044F Govfor"
     type: Add
-  - message: Світло тепер має бути завжди увімкненим та ламким (виняток — світло в
-      камері CMB)
+  - message: "\u0421\u0432\u0456\u0442\u043B\u043E \u0442\u0435\u043F\u0435\u0440\
+      \ \u043C\u0430\u0454 \u0431\u0443\u0442\u0438 \u0437\u0430\u0432\u0436\u0434\
+      \u0438 \u0443\u0432\u0456\u043C\u043A\u043D\u0435\u043D\u0438\u043C \u0442\u0430\
+      \ \u043B\u0430\u043C\u043A\u0438\u043C (\u0432\u0438\u043D\u044F\u0442\u043E\
+      \u043A \u2014 \u0441\u0432\u0456\u0442\u043B\u043E \u0432 \u043A\u0430\u043C\
+      \u0435\u0440\u0456 CMB)"
     type: Fix
-  - message: Alamo та Normandy тепер мають точки кріплення двигунів.
+  - message: "Alamo \u0442\u0430 Normandy \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\
+      \u044E\u0442\u044C \u0442\u043E\u0447\u043A\u0438 \u043A\u0440\u0456\u043F\u043B\
+      \u0435\u043D\u043D\u044F \u0434\u0432\u0438\u0433\u0443\u043D\u0456\u0432."
     type: Fix
-  - message: AlamoWall40&41 з Normandy (найпівнічніші стіни двигунів)
+  - message: "AlamoWall40&41 \u0437 Normandy (\u043D\u0430\u0439\u043F\u0456\u0432\
+      \u043D\u0456\u0447\u043D\u0456\u0448\u0456 \u0441\u0442\u0456\u043D\u0438 \u0434\
+      \u0432\u0438\u0433\u0443\u043D\u0456\u0432)"
     type: Remove
   id: 38
   time: '2026-03-23T21:51:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/697
 - author: MACMAN2003
   changes:
-  - message: Кімната спавну синтів у solaris тепер має вендор, який їй був потрібен.
+  - message: "\u041A\u0456\u043C\u043D\u0430\u0442\u0430 \u0441\u043F\u0430\u0432\u043D\
+      \u0443 \u0441\u0438\u043D\u0442\u0456\u0432 \u0443 solaris \u0442\u0435\u043F\
+      \u0435\u0440 \u043C\u0430\u0454 \u0432\u0435\u043D\u0434\u043E\u0440, \u044F\
+      \u043A\u0438\u0439 \u0457\u0439 \u0431\u0443\u0432 \u043F\u043E\u0442\u0440\u0456\
+      \u0431\u0435\u043D."
     type: Fix
   id: 39
   time: '2026-03-24T13:42:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/696
 - author: potatoed6
   changes:
-  - message: M41A Mk1 розвідник
+  - message: "M41A Mk1 \u0440\u043E\u0437\u0432\u0456\u0434\u043D\u0438\u043A"
     type: Add
-  - message: M41AE2 розвідник
+  - message: "M41AE2 \u0440\u043E\u0437\u0432\u0456\u0434\u043D\u0438\u043A"
     type: Add
-  - message: Набори MOPP для UPP та USCMC
+  - message: "\u041D\u0430\u0431\u043E\u0440\u0438 MOPP \u0434\u043B\u044F UPP \u0442\
+      \u0430 USCMC"
     type: Add
-  - message: Третя сторона FORECON MOPP (для GK larp)
+  - message: "\u0422\u0440\u0435\u0442\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430\
+      \ FORECON MOPP (\u0434\u043B\u044F GK larp)"
     type: Add
-  - message: Команда FORECON Sniper Scout's Kill Team (низький шанс на highpop або спавн адміном)
+  - message: "\u041A\u043E\u043C\u0430\u043D\u0434\u0430 FORECON Sniper Scout's Kill\
+      \ Team (\u043D\u0438\u0437\u044C\u043A\u0438\u0439 \u0448\u0430\u043D\u0441\
+      \ \u043D\u0430 highpop \u0430\u0431\u043E \u0441\u043F\u0430\u0432\u043D \u0430\
+      \u0434\u043C\u0456\u043D\u043E\u043C)"
     type: Add
-  - message: Імена в меню спавну Армії США тепер відрізняються, якщо це ERT чи Survs
+  - message: "\u0406\u043C\u0435\u043D\u0430 \u0432 \u043C\u0435\u043D\u044E \u0441\
+      \u043F\u0430\u0432\u043D\u0443 \u0410\u0440\u043C\u0456\u0457 \u0421\u0428\u0410\
+      \ \u0442\u0435\u043F\u0435\u0440 \u0432\u0456\u0434\u0440\u0456\u0437\u043D\u044F\
+      \u044E\u0442\u044C\u0441\u044F, \u044F\u043A\u0449\u043E \u0446\u0435 ERT \u0447\
+      \u0438 Survs"
     type: Tweak
-  - message: M41AE2 тепер може приймати магазини M41A MK1, паритет та душа
+  - message: "M41AE2 \u0442\u0435\u043F\u0435\u0440 \u043C\u043E\u0436\u0435 \u043F\
+      \u0440\u0438\u0439\u043C\u0430\u0442\u0438 \u043C\u0430\u0433\u0430\u0437\u0438\
+      \u043D\u0438 M41A MK1, \u043F\u0430\u0440\u0438\u0442\u0435\u0442 \u0442\u0430\
+      \ \u0434\u0443\u0448\u0430"
     type: Tweak
-  - message: Тепер дехто з FORECON отримує інфільтраційні черевики
+  - message: "\u0422\u0435\u043F\u0435\u0440 \u0434\u0435\u0445\u0442\u043E \u0437\
+      \ FORECON \u043E\u0442\u0440\u0438\u043C\u0443\u0454 \u0456\u043D\u0444\u0456\
+      \u043B\u044C\u0442\u0440\u0430\u0446\u0456\u0439\u043D\u0456 \u0447\u0435\u0440\
+      \u0435\u0432\u0438\u043A\u0438"
     type: Tweak
-  - message: Змінено кастомний M4RA від FORECON на M49.
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E \u043A\u0430\u0441\u0442\u043E\
+      \u043C\u043D\u0438\u0439 M4RA \u0432\u0456\u0434 FORECON \u043D\u0430 M49."
     type: Tweak
   id: 40
   time: '2026-03-25T22:23:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/703
 - author: potatoed6
   changes:
-  - message: Виправлено помилки yaml-лінтера.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043F\u043E\
+      \u043C\u0438\u043B\u043A\u0438 yaml-\u043B\u0456\u043D\u0442\u0435\u0440\u0430\
+      ."
     type: Code
-  - message: Виправлено деякі помилки RSI.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0434\u0435\
+      \u044F\u043A\u0456 \u043F\u043E\u043C\u0438\u043B\u043A\u0438 RSI."
     type: Code
   id: 41
   time: '2026-03-26T07:52:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/704
 - author: Berkin101
   changes:
-  - message: Більше голосових ліній
+  - message: "\u0411\u0456\u043B\u044C\u0448\u0435 \u0433\u043E\u043B\u043E\u0441\u043E\
+      \u0432\u0438\u0445 \u043B\u0456\u043D\u0456\u0439"
     type: Add
   id: 42
   time: '2026-03-27T21:00:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/706
 - author: JaSeNeSaJ
   changes:
-  - message: Деякі повороти RMCEntityDesertWaterShallowCorner
+  - message: "\u0414\u0435\u044F\u043A\u0456 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\
+      \u0438 RMCEntityDesertWaterShallowCorner"
     type: Fix
-  - message: Деякі повороти RMCEntityDesertWaterShallowCornerEdge
+  - message: "\u0414\u0435\u044F\u043A\u0456 \u043F\u043E\u0432\u043E\u0440\u043E\u0442\
+      \u0438 RMCEntityDesertWaterShallowCornerEdge"
     type: Fix
   id: 43
   time: '2026-03-27T21:17:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/705
 - author: shamblestf
   changes:
-  - message: Броня взводів тепер захищає від ударів ксеносів, а легка броня тепер
-      трохи менш захисна.
+  - message: "\u0411\u0440\u043E\u043D\u044F \u0432\u0437\u0432\u043E\u0434\u0456\u0432\
+      \ \u0442\u0435\u043F\u0435\u0440 \u0437\u0430\u0445\u0438\u0449\u0430\u0454\
+      \ \u0432\u0456\u0434 \u0443\u0434\u0430\u0440\u0456\u0432 \u043A\u0441\u0435\
+      \u043D\u043E\u0441\u0456\u0432, \u0430 \u043B\u0435\u0433\u043A\u0430 \u0431\
+      \u0440\u043E\u043D\u044F \u0442\u0435\u043F\u0435\u0440 \u0442\u0440\u043E\u0445\
+      \u0438 \u043C\u0435\u043D\u0448 \u0437\u0430\u0445\u0438\u0441\u043D\u0430."
     type: Tweak
   id: 44
   time: '2026-03-29T04:46:20.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/669
 - author: potatoed6
   changes:
-  - message: Виправляє ранги синтів, додає spawnmenurolename для кожної військової
-      роботи, щоб ми не отримували мільярд однакових робіт.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u044F\u0454 \u0440\u0430\u043D\
+      \u0433\u0438 \u0441\u0438\u043D\u0442\u0456\u0432, \u0434\u043E\u0434\u0430\u0454\
+      \ spawnmenurolename \u0434\u043B\u044F \u043A\u043E\u0436\u043D\u043E\u0457\
+      \ \u0432\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u043E\u0457 \u0440\u043E\u0431\
+      \u043E\u0442\u0438, \u0449\u043E\u0431 \u043C\u0438 \u043D\u0435 \u043E\u0442\
+      \u0440\u0438\u043C\u0443\u0432\u0430\u043B\u0438 \u043C\u0456\u043B\u044C\u044F\
+      \u0440\u0434 \u043E\u0434\u043D\u0430\u043A\u043E\u0432\u0438\u0445 \u0440\u043E\
+      \u0431\u0456\u0442."
     type: Code
   id: 45
   time: '2026-03-29T15:34:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/671
 - author: MACMAN2003
   changes:
-  - message: Додано ключ підриву синтів на 10 очок до вендора реквізицій CLF. Його
-      можна використати, щоб навернути синтів до CLF.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043A\u043B\u044E\u0447 \u043F\
+      \u0456\u0434\u0440\u0438\u0432\u0443 \u0441\u0438\u043D\u0442\u0456\u0432 \u043D\
+      \u0430 10 \u043E\u0447\u043E\u043A \u0434\u043E \u0432\u0435\u043D\u0434\u043E\
+      \u0440\u0430 \u0440\u0435\u043A\u0432\u0456\u0437\u0438\u0446\u0456\u0439 CLF.\
+      \ \u0419\u043E\u0433\u043E \u043C\u043E\u0436\u043D\u0430 \u0432\u0438\u043A\
+      \u043E\u0440\u0438\u0441\u0442\u0430\u0442\u0438, \u0449\u043E\u0431 \u043D\u0430\
+      \u0432\u0435\u0440\u043D\u0443\u0442\u0438 \u0441\u0438\u043D\u0442\u0456\u0432\
+      \ \u0434\u043E CLF."
     type: Add
   id: 46
   time: '2026-03-31T11:44:35.0000000+00:00'
@@ -561,1124 +843,1896 @@
     type: Add
   - message: Colony working joe
     type: Add
-  - message: APOLLO для всіх трьох WJ як роль привида або для адмінів
+  - message: "APOLLO \u0434\u043B\u044F \u0432\u0441\u0456\u0445 \u0442\u0440\u044C\
+      \u043E\u0445 WJ \u044F\u043A \u0440\u043E\u043B\u044C \u043F\u0440\u0438\u0432\
+      \u0438\u0434\u0430 \u0430\u0431\u043E \u0434\u043B\u044F \u0430\u0434\u043C\u0456\
+      \u043D\u0456\u0432"
     type: Add
-  - message: 2 треті сторони — 1 apollo 2 WJs та просто 2 WJs
+  - message: "2 \u0442\u0440\u0435\u0442\u0456 \u0441\u0442\u043E\u0440\u043E\u043D\
+      \u0438 \u2014 1 apollo 2 WJs \u0442\u0430 \u043F\u0440\u043E\u0441\u0442\u043E\
+      \ 2 WJs"
     type: Add
-  - message: додає maintenance jack для синтів
+  - message: "\u0434\u043E\u0434\u0430\u0454 maintenance jack \u0434\u043B\u044F \u0441\
+      \u0438\u043D\u0442\u0456\u0432"
     type: Add
-  - message: додає меню для WJ для синтезованих з близько 200 голосовими лініями.
+  - message: "\u0434\u043E\u0434\u0430\u0454 \u043C\u0435\u043D\u044E \u0434\u043B\
+      \u044F WJ \u0434\u043B\u044F \u0441\u0438\u043D\u0442\u0435\u0437\u043E\u0432\
+      \u0430\u043D\u0438\u0445 \u0437 \u0431\u043B\u0438\u0437\u044C\u043A\u043E 200\
+      \ \u0433\u043E\u043B\u043E\u0441\u043E\u0432\u0438\u043C\u0438 \u043B\u0456\u043D\
+      \u0456\u044F\u043C\u0438."
     type: Add
   id: 47
   time: '2026-04-01T22:16:21.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/721
 - author: JaSeNeSaJ
   changes:
-  - message: Flight виведено з ротації.
+  - message: "Flight \u0432\u0438\u0432\u0435\u0434\u0435\u043D\u043E \u0437 \u0440\
+      \u043E\u0442\u0430\u0446\u0456\u0457."
     type: Remove
-  - message: Спавнер випадкового одягу для використання на мапі
+  - message: "\u0421\u043F\u0430\u0432\u043D\u0435\u0440 \u0432\u0438\u043F\u0430\u0434\
+      \u043A\u043E\u0432\u043E\u0433\u043E \u043E\u0434\u044F\u0433\u0443 \u0434\u043B\
+      \u044F \u0432\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u0430\u043D\u043D\u044F\
+      \ \u043D\u0430 \u043C\u0430\u043F\u0456"
     type: Add
-  - message: 20-хвилинна стіна туману для FOF
+  - message: "20-\u0445\u0432\u0438\u043B\u0438\u043D\u043D\u0430 \u0441\u0442\u0456\
+      \u043D\u0430 \u0442\u0443\u043C\u0430\u043D\u0443 \u0434\u043B\u044F FOF"
     type: Add
-  - message: Інвертована стіна прибирає рослинність джунглів для Colony Fall
+  - message: "\u0406\u043D\u0432\u0435\u0440\u0442\u043E\u0432\u0430\u043D\u0430 \u0441\
+      \u0442\u0456\u043D\u0430 \u043F\u0440\u0438\u0431\u0438\u0440\u0430\u0454 \u0440\
+      \u043E\u0441\u043B\u0438\u043D\u043D\u0456\u0441\u0442\u044C \u0434\u0436\u0443\
+      \u043D\u0433\u043B\u0456\u0432 \u0434\u043B\u044F Colony Fall"
     type: Add
   id: 48
   time: '2026-04-03T05:06:05.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/724
 - author: potatoed6
   changes:
-  - message: 'Третя сторона PMC — ERT, команда евакуації, kill team. Що завгодно,
-      що захочуть замовити адміни. У них є M41A/2, 1 m39b2, 1 NSG-23, 1 M42A, 1 SGO.
-      Можливо, пізніше додамо синта.'
+  - message: "\u0422\u0440\u0435\u0442\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430\
+      \ PMC \u2014 ERT, \u043A\u043E\u043C\u0430\u043D\u0434\u0430 \u0435\u0432\u0430\
+      \u043A\u0443\u0430\u0446\u0456\u0457, kill team. \u0429\u043E \u0437\u0430\u0432\
+      \u0433\u043E\u0434\u043D\u043E, \u0449\u043E \u0437\u0430\u0445\u043E\u0447\u0443\
+      \u0442\u044C \u0437\u0430\u043C\u043E\u0432\u0438\u0442\u0438 \u0430\u0434\u043C\
+      \u0456\u043D\u0438. \u0423 \u043D\u0438\u0445 \u0454 M41A/2, 1 m39b2, 1 NSG-23,\
+      \ 1 M42A, 1 SGO. \u041C\u043E\u0436\u043B\u0438\u0432\u043E, \u043F\u0456\u0437\
+      \u043D\u0456\u0448\u0435 \u0434\u043E\u0434\u0430\u043C\u043E \u0441\u0438\u043D\
+      \u0442\u0430."
     type: Add
-  - message: 'Hazard Transportation — CL, 2 goons, 2 науковці. Вони мають випадковий
-      шанс мати або (66%) наркотик speed demon чи токсин mindbreaker (у великих кількостях,
-      обговорено з EG), або (33%) 2 яйця ксеносів/MMI з ванільним імплантером SS14,
-      що гібує тебе після смерті (так, зло, але це WeYu + нам треба когось гібнути,
-      щоб використати в MMI). Якщо на мапі немає лабораторії, у них є 2 медичні намети.'
+  - message: "Hazard Transportation \u2014 CL, 2 goons, 2 \u043D\u0430\u0443\u043A\
+      \u043E\u0432\u0446\u0456. \u0412\u043E\u043D\u0438 \u043C\u0430\u044E\u0442\u044C\
+      \ \u0432\u0438\u043F\u0430\u0434\u043A\u043E\u0432\u0438\u0439 \u0448\u0430\u043D\
+      \u0441 \u043C\u0430\u0442\u0438 \u0430\u0431\u043E (66%) \u043D\u0430\u0440\u043A\
+      \u043E\u0442\u0438\u043A speed demon \u0447\u0438 \u0442\u043E\u043A\u0441\u0438\
+      \u043D mindbreaker (\u0443 \u0432\u0435\u043B\u0438\u043A\u0438\u0445 \u043A\
+      \u0456\u043B\u044C\u043A\u043E\u0441\u0442\u044F\u0445, \u043E\u0431\u0433\u043E\
+      \u0432\u043E\u0440\u0435\u043D\u043E \u0437 EG), \u0430\u0431\u043E (33%) 2\
+      \ \u044F\u0439\u0446\u044F \u043A\u0441\u0435\u043D\u043E\u0441\u0456\u0432\
+      /MMI \u0437 \u0432\u0430\u043D\u0456\u043B\u044C\u043D\u0438\u043C \u0456\u043C\
+      \u043F\u043B\u0430\u043D\u0442\u0435\u0440\u043E\u043C SS14, \u0449\u043E \u0433\
+      \u0456\u0431\u0443\u0454 \u0442\u0435\u0431\u0435 \u043F\u0456\u0441\u043B\u044F\
+      \ \u0441\u043C\u0435\u0440\u0442\u0456 (\u0442\u0430\u043A, \u0437\u043B\u043E\
+      , \u0430\u043B\u0435 \u0446\u0435 WeYu + \u043D\u0430\u043C \u0442\u0440\u0435\
+      \u0431\u0430 \u043A\u043E\u0433\u043E\u0441\u044C \u0433\u0456\u0431\u043D\u0443\
+      \u0442\u0438, \u0449\u043E\u0431 \u0432\u0438\u043A\u043E\u0440\u0438\u0441\u0442\
+      \u0430\u0442\u0438 \u0432 MMI). \u042F\u043A\u0449\u043E \u043D\u0430 \u043C\
+      \u0430\u043F\u0456 \u043D\u0435\u043C\u0430\u0454 \u043B\u0430\u0431\u043E\u0440\
+      \u0430\u0442\u043E\u0440\u0456\u0457, \u0443 \u043D\u0438\u0445 \u0454 2 \u043C\
+      \u0435\u0434\u0438\u0447\u043D\u0456 \u043D\u0430\u043C\u0435\u0442\u0438."
     type: Add
-  - message: 'Intelectual Property Infringement Enforcement: 1 Lawyer 1 Personal Protection
-      Officer. Примітка: Lawyer може заспавнитися як синт — у меню привида є величезне
-      попередження про це. Синт під прикриттям, оскільки це, схоже, звична річ для
-      високопосадовців WeYu у фільмах.'
+  - message: "Intelectual Property Infringement Enforcement: 1 Lawyer 1 Personal Protection\
+      \ Officer. \u041F\u0440\u0438\u043C\u0456\u0442\u043A\u0430: Lawyer \u043C\u043E\
+      \u0436\u0435 \u0437\u0430\u0441\u043F\u0430\u0432\u043D\u0438\u0442\u0438\u0441\
+      \u044F \u044F\u043A \u0441\u0438\u043D\u0442 \u2014 \u0443 \u043C\u0435\u043D\
+      \u044E \u043F\u0440\u0438\u0432\u0438\u0434\u0430 \u0454 \u0432\u0435\u043B\u0438\
+      \u0447\u0435\u0437\u043D\u0435 \u043F\u043E\u043F\u0435\u0440\u0435\u0434\u0436\
+      \u0435\u043D\u043D\u044F \u043F\u0440\u043E \u0446\u0435. \u0421\u0438\u043D\
+      \u0442 \u043F\u0456\u0434 \u043F\u0440\u0438\u043A\u0440\u0438\u0442\u0442\u044F\
+      \u043C, \u043E\u0441\u043A\u0456\u043B\u044C\u043A\u0438 \u0446\u0435, \u0441\
+      \u0445\u043E\u0436\u0435, \u0437\u0432\u0438\u0447\u043D\u0430 \u0440\u0456\u0447\
+      \ \u0434\u043B\u044F \u0432\u0438\u0441\u043E\u043A\u043E\u043F\u043E\u0441\u0430\
+      \u0434\u043E\u0432\u0446\u0456\u0432 WeYu \u0443 \u0444\u0456\u043B\u044C\u043C\
+      \u0430\u0445."
     type: Add
   id: 49
   time: '2026-04-04T15:50:08.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/726
 - author: Berkin101
   changes:
-  - message: Тепер ви можете чути, як ваш лідер загону кричить на повні легені, коли
-      віддає наказ.
+  - message: "\u0422\u0435\u043F\u0435\u0440 \u0432\u0438 \u043C\u043E\u0436\u0435\
+      \u0442\u0435 \u0447\u0443\u0442\u0438, \u044F\u043A \u0432\u0430\u0448 \u043B\
+      \u0456\u0434\u0435\u0440 \u0437\u0430\u0433\u043E\u043D\u0443 \u043A\u0440\u0438\
+      \u0447\u0438\u0442\u044C \u043D\u0430 \u043F\u043E\u0432\u043D\u0456 \u043B\u0435\
+      \u0433\u0435\u043D\u0456, \u043A\u043E\u043B\u0438 \u0432\u0456\u0434\u0434\u0430\
+      \u0454 \u043D\u0430\u043A\u0430\u0437."
     type: Add
   id: 50
   time: '2026-04-04T15:52:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/725
 - author: potatoed6
   changes:
-  - message: Тепер у Культистів є належна робота
+  - message: "\u0422\u0435\u043F\u0435\u0440 \u0443 \u041A\u0443\u043B\u044C\u0442\
+      \u0438\u0441\u0442\u0456\u0432 \u0454 \u043D\u0430\u043B\u0435\u0436\u043D\u0430\
+      \ \u0440\u043E\u0431\u043E\u0442\u0430"
     type: Add
-  - message: Тепер у Культистів є меню для купівлі припасів
+  - message: "\u0422\u0435\u043F\u0435\u0440 \u0443 \u041A\u0443\u043B\u044C\u0442\
+      \u0438\u0441\u0442\u0456\u0432 \u0454 \u043C\u0435\u043D\u044E \u0434\u043B\u044F\
+      \ \u043A\u0443\u043F\u0456\u0432\u043B\u0456 \u043F\u0440\u0438\u043F\u0430\u0441\
+      \u0456\u0432"
     type: Add
-  - message: Тепер яйця вміщуються в сумку культиста
+  - message: "\u0422\u0435\u043F\u0435\u0440 \u044F\u0439\u0446\u044F \u0432\u043C\
+      \u0456\u0449\u0443\u044E\u0442\u044C\u0441\u044F \u0432 \u0441\u0443\u043C\u043A\
+      \u0443 \u043A\u0443\u043B\u044C\u0442\u0438\u0441\u0442\u0430"
     type: Tweak
-  - message: Культисти можуть викрадати Синтів
+  - message: "\u041A\u0443\u043B\u044C\u0442\u0438\u0441\u0442\u0438 \u043C\u043E\u0436\
+      \u0443\u0442\u044C \u0432\u0438\u043A\u0440\u0430\u0434\u0430\u0442\u0438 \u0421\
+      \u0438\u043D\u0442\u0456\u0432"
     type: Tweak
-  - message: Виправлено баг спрайта яйця
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0431\u0430\
+      \u0433 \u0441\u043F\u0440\u0430\u0439\u0442\u0430 \u044F\u0439\u0446\u044F"
     type: Fix
-  - message: Виправлено лінії WJ
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043B\u0456\
+      \u043D\u0456\u0457 WJ"
     type: Fix
-  - message: Тепер APOLLO може отримувати доступ до радіоканалів
+  - message: "\u0422\u0435\u043F\u0435\u0440 APOLLO \u043C\u043E\u0436\u0435 \u043E\
+      \u0442\u0440\u0438\u043C\u0443\u0432\u0430\u0442\u0438 \u0434\u043E\u0441\u0442\
+      \u0443\u043F \u0434\u043E \u0440\u0430\u0434\u0456\u043E\u043A\u0430\u043D\u0430\
+      \u043B\u0456\u0432"
     type: Fix
-  - message: WJ тепер мають 500 HP. Вони впадуть у крит на 300 HP.
+  - message: "WJ \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u044E\u0442\u044C 500\
+      \ HP. \u0412\u043E\u043D\u0438 \u0432\u043F\u0430\u0434\u0443\u0442\u044C \u0443\
+      \ \u043A\u0440\u0438\u0442 \u043D\u0430 300 HP."
     type: Tweak
-  - message: Система викрадення синтів тепер підтримує зміну фракцій, компонентів тощо
+  - message: "\u0421\u0438\u0441\u0442\u0435\u043C\u0430 \u0432\u0438\u043A\u0440\u0430\
+      \u0434\u0435\u043D\u043D\u044F \u0441\u0438\u043D\u0442\u0456\u0432 \u0442\u0435\
+      \u043F\u0435\u0440 \u043F\u0456\u0434\u0442\u0440\u0438\u043C\u0443\u0454 \u0437\
+      \u043C\u0456\u043D\u0443 \u0444\u0440\u0430\u043A\u0446\u0456\u0439, \u043A\u043E\
+      \u043C\u043F\u043E\u043D\u0435\u043D\u0442\u0456\u0432 \u0442\u043E\u0449\u043E"
     type: Tweak
-  - message: APOLLO тепер суто адмінська роль.
+  - message: "APOLLO \u0442\u0435\u043F\u0435\u0440 \u0441\u0443\u0442\u043E \u0430\
+      \u0434\u043C\u0456\u043D\u0441\u044C\u043A\u0430 \u0440\u043E\u043B\u044C."
     type: Tweak
   id: 51
   time: '2026-04-04T16:32:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/729
 - author: potatoed6
   changes:
-  - message: Виправлено yaml-лінтер
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E yaml-\u043B\
+      \u0456\u043D\u0442\u0435\u0440"
     type: Code
   id: 52
   time: '2026-04-06T02:21:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/732
 - author: MACMAN2003
   changes:
-  - message: 'Додано нову мапу: Barker''s Lament, колонія на поверхні LV-376 "Ulixes"'
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043D\u043E\u0432\u0443 \u043C\
+      \u0430\u043F\u0443: Barker's Lament, \u043A\u043E\u043B\u043E\u043D\u0456\u044F\
+      \ \u043D\u0430 \u043F\u043E\u0432\u0435\u0440\u0445\u043D\u0456 LV-376 \"Ulixes\""
     type: Add
-  - message: Додано конфігуратор доступу CMU, його можна знайти в меню спавну, ввівши
-      суфікс "CMU, Admin"
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043A\u043E\u043D\u0444\u0456\u0433\
+      \u0443\u0440\u0430\u0442\u043E\u0440 \u0434\u043E\u0441\u0442\u0443\u043F\u0443\
+      \ CMU, \u0439\u043E\u0433\u043E \u043C\u043E\u0436\u043D\u0430 \u0437\u043D\u0430\
+      \u0439\u0442\u0438 \u0432 \u043C\u0435\u043D\u044E \u0441\u043F\u0430\u0432\u043D\
+      \u0443, \u0432\u0432\u0456\u0432\u0448\u0438 \u0441\u0443\u0444\u0456\u043A\u0441\
+      \ \"CMU, Admin\""
     type: Admin
   id: 53
   time: '2026-04-10T23:23:08.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/733
 - author: potatoed6
   changes:
-  - message: Постфікс та префікс ксеносів тепер мають вимогу 0 годин.
+  - message: "\u041F\u043E\u0441\u0442\u0444\u0456\u043A\u0441 \u0442\u0430 \u043F\
+      \u0440\u0435\u0444\u0456\u043A\u0441 \u043A\u0441\u0435\u043D\u043E\u0441\u0456\
+      \u0432 \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u044E\u0442\u044C \u0432\u0438\
+      \u043C\u043E\u0433\u0443 0 \u0433\u043E\u0434\u0438\u043D."
     type: Tweak
   id: 54
   time: '2026-04-13T23:34:50.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/747
 - author: potatoed6
   changes:
-  - message: Додано спеціалізації для Aux Synths, COS'ів, ERO, Журналістів, Рекрутерів
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0441\u043F\u0435\u0446\u0456\u0430\
+      \u043B\u0456\u0437\u0430\u0446\u0456\u0457 \u0434\u043B\u044F Aux Synths, COS'\u0456\
+      \u0432, ERO, \u0416\u0443\u0440\u043D\u0430\u043B\u0456\u0441\u0442\u0456\u0432\
+      , \u0420\u0435\u043A\u0440\u0443\u0442\u0435\u0440\u0456\u0432"
     type: Add
-  - message: Додано лоадаути
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043B\u043E\u0430\u0434\u0430\u0443\
+      \u0442\u0438"
     type: Add
   id: 55
   time: '2026-04-14T00:56:42.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/745
 - author: potatoed6
   changes:
-  - message: Пов'язане з UI WJ
+  - message: "\u041F\u043E\u0432'\u044F\u0437\u0430\u043D\u0435 \u0437 UI WJ"
     type: Fix
-  - message: Пов'язане з доступом WJ
+  - message: "\u041F\u043E\u0432'\u044F\u0437\u0430\u043D\u0435 \u0437 \u0434\u043E\
+      \u0441\u0442\u0443\u043F\u043E\u043C WJ"
     type: Fix
-  - message: Стукання WJ у двері
+  - message: "\u0421\u0442\u0443\u043A\u0430\u043D\u043D\u044F WJ \u0443 \u0434\u0432\
+      \u0435\u0440\u0456"
     type: Fix
-  - message: WJ мають зміну швидкості пересування в тесті.
+  - message: "WJ \u043C\u0430\u044E\u0442\u044C \u0437\u043C\u0456\u043D\u0443 \u0448\
+      \u0432\u0438\u0434\u043A\u043E\u0441\u0442\u0456 \u043F\u0435\u0440\u0435\u0441\
+      \u0443\u0432\u0430\u043D\u043D\u044F \u0432 \u0442\u0435\u0441\u0442\u0456."
     type: Tweak
-  - message: матеріал для ядра ШІ. ШІ MOTHER та FATHER
+  - message: "\u043C\u0430\u0442\u0435\u0440\u0456\u0430\u043B \u0434\u043B\u044F\
+      \ \u044F\u0434\u0440\u0430 \u0428\u0406. \u0428\u0406 MOTHER \u0442\u0430 FATHER"
     type: Add
   id: 56
   time: '2026-04-14T01:34:04.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/746
 - author: Teragenic
   changes:
-  - message: PMC Leader також отримує medhud
+  - message: "PMC Leader \u0442\u0430\u043A\u043E\u0436 \u043E\u0442\u0440\u0438\u043C\
+      \u0443\u0454 medhud"
     type: Add
-  - message: PMC SG та Medic тепер отримують навички Endurance
+  - message: "PMC SG \u0442\u0430 Medic \u0442\u0435\u043F\u0435\u0440 \u043E\u0442\
+      \u0440\u0438\u043C\u0443\u044E\u0442\u044C \u043D\u0430\u0432\u0438\u0447\u043A\
+      \u0438 Endurance"
     type: Add
-  - message: Шоломи PMC з 15 до 25 (базові шоломи RMC дають 20)
+  - message: "\u0428\u043E\u043B\u043E\u043C\u0438 PMC \u0437 15 \u0434\u043E 25 (\u0431\
+      \u0430\u0437\u043E\u0432\u0456 \u0448\u043E\u043B\u043E\u043C\u0438 RMC \u0434\
+      \u0430\u044E\u0442\u044C 20)"
     type: Tweak
-  - message: PMC Medic не отримував Medhud
+  - message: "PMC Medic \u043D\u0435 \u043E\u0442\u0440\u0438\u043C\u0443\u0432\u0430\
+      \u0432 Medhud"
     type: Fix
   id: 57
   time: '2026-04-14T20:08:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/754
 - author: nicholast013
   changes:
-  - message: медична навичка для WY Scientist та доступ до медичних речей
+  - message: "\u043C\u0435\u0434\u0438\u0447\u043D\u0430 \u043D\u0430\u0432\u0438\u0447\
+      \u043A\u0430 \u0434\u043B\u044F WY Scientist \u0442\u0430 \u0434\u043E\u0441\
+      \u0442\u0443\u043F \u0434\u043E \u043C\u0435\u0434\u0438\u0447\u043D\u0438\u0445\
+      \ \u0440\u0435\u0447\u0435\u0439"
     type: Add
   id: 58
   time: '2026-04-14T20:08:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/753
 - author: nicholast013
   changes:
-  - message: Змінено вимогу з хірургічної на медичну навичку для використання пакета
-      крові чи крапельниці
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E \u0432\u0438\u043C\u043E\u0433\
+      \u0443 \u0437 \u0445\u0456\u0440\u0443\u0440\u0433\u0456\u0447\u043D\u043E\u0457\
+      \ \u043D\u0430 \u043C\u0435\u0434\u0438\u0447\u043D\u0443 \u043D\u0430\u0432\
+      \u0438\u0447\u043A\u0443 \u0434\u043B\u044F \u0432\u0438\u043A\u043E\u0440\u0438\
+      \u0441\u0442\u0430\u043D\u043D\u044F \u043F\u0430\u043A\u0435\u0442\u0430 \u043A\
+      \u0440\u043E\u0432\u0456 \u0447\u0438 \u043A\u0440\u0430\u043F\u0435\u043B\u044C\
+      \u043D\u0438\u0446\u0456"
     type: Tweak
   id: 59
   time: '2026-04-16T22:10:41.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/768
 - author: Teragenic
   changes:
-  - message: Дано інспекторам PaP набір навичок CMB, еквівалентний CM13
+  - message: "\u0414\u0430\u043D\u043E \u0456\u043D\u0441\u043F\u0435\u043A\u0442\u043E\
+      \u0440\u0430\u043C PaP \u043D\u0430\u0431\u0456\u0440 \u043D\u0430\u0432\u0438\
+      \u0447\u043E\u043A CMB, \u0435\u043A\u0432\u0456\u0432\u0430\u043B\u0435\u043D\
+      \u0442\u043D\u0438\u0439 CM13"
     type: Tweak
   id: 60
   time: '2026-04-16T22:28:50.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/769
 - author: Piticzu
   changes:
-  - message: Паразити більше не виходять зі схованки автоматично під час стрибка.
+  - message: "\u041F\u0430\u0440\u0430\u0437\u0438\u0442\u0438 \u0431\u0456\u043B\u044C\
+      \u0448\u0435 \u043D\u0435 \u0432\u0438\u0445\u043E\u0434\u044F\u0442\u044C \u0437\
+      \u0456 \u0441\u0445\u043E\u0432\u0430\u043D\u043A\u0438 \u0430\u0432\u0442\u043E\
+      \u043C\u0430\u0442\u0438\u0447\u043D\u043E \u043F\u0456\u0434 \u0447\u0430\u0441\
+      \ \u0441\u0442\u0440\u0438\u0431\u043A\u0430."
     type: Tweak
   id: 61
   time: '2026-04-17T19:28:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/775
 - author: MarshesAndMeadows
   changes:
-  - message: Додано штам boiler Trapper — ще більш спеціалізований boiler, що зосереджений
-      на засідках та швидкому прогризанні статичної оборони морпіхів.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0448\u0442\u0430\u043C boiler\
+      \ Trapper \u2014 \u0449\u0435 \u0431\u0456\u043B\u044C\u0448 \u0441\u043F\u0435\
+      \u0446\u0456\u0430\u043B\u0456\u0437\u043E\u0432\u0430\u043D\u0438\u0439 boiler,\
+      \ \u0449\u043E \u0437\u043E\u0441\u0435\u0440\u0435\u0434\u0436\u0435\u043D\u0438\
+      \u0439 \u043D\u0430 \u0437\u0430\u0441\u0456\u0434\u043A\u0430\u0445 \u0442\u0430\
+      \ \u0448\u0432\u0438\u0434\u043A\u043E\u043C\u0443 \u043F\u0440\u043E\u0433\u0440\
+      \u0438\u0437\u0430\u043D\u043D\u0456 \u0441\u0442\u0430\u0442\u0438\u0447\u043D\
+      \u043E\u0457 \u043E\u0431\u043E\u0440\u043E\u043D\u0438 \u043C\u043E\u0440\u043F\
+      \u0456\u0445\u0456\u0432."
     type: Add
-  - message: Додано здатність Deploy Traps — швидке розгортання сильцевих пасток для
-      ловлі здобичі, які можна розгорнути навіть прямо під ногами, хоч їх легко знищити
-      пострілом чи ближньою атакою. Включає SFX за потрапляння в сильце. Deploy Traps
-      також можна підсилити через Insight, що своєю чергою підсилить Acid Mine, коли
-      її застосовано так.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0437\u0434\u0430\u0442\u043D\u0456\
+      \u0441\u0442\u044C Deploy Traps \u2014 \u0448\u0432\u0438\u0434\u043A\u0435\
+      \ \u0440\u043E\u0437\u0433\u043E\u0440\u0442\u0430\u043D\u043D\u044F \u0441\u0438\
+      \u043B\u044C\u0446\u0435\u0432\u0438\u0445 \u043F\u0430\u0441\u0442\u043E\u043A\
+      \ \u0434\u043B\u044F \u043B\u043E\u0432\u043B\u0456 \u0437\u0434\u043E\u0431\
+      \u0438\u0447\u0456, \u044F\u043A\u0456 \u043C\u043E\u0436\u043D\u0430 \u0440\
+      \u043E\u0437\u0433\u043E\u0440\u043D\u0443\u0442\u0438 \u043D\u0430\u0432\u0456\
+      \u0442\u044C \u043F\u0440\u044F\u043C\u043E \u043F\u0456\u0434 \u043D\u043E\u0433\
+      \u0430\u043C\u0438, \u0445\u043E\u0447 \u0457\u0445 \u043B\u0435\u0433\u043A\
+      \u043E \u0437\u043D\u0438\u0449\u0438\u0442\u0438 \u043F\u043E\u0441\u0442\u0440\
+      \u0456\u043B\u043E\u043C \u0447\u0438 \u0431\u043B\u0438\u0436\u043D\u044C\u043E\
+      \u044E \u0430\u0442\u0430\u043A\u043E\u044E. \u0412\u043A\u043B\u044E\u0447\u0430\
+      \u0454 SFX \u0437\u0430 \u043F\u043E\u0442\u0440\u0430\u043F\u043B\u044F\u043D\
+      \u043D\u044F \u0432 \u0441\u0438\u043B\u044C\u0446\u0435. Deploy Traps \u0442\
+      \u0430\u043A\u043E\u0436 \u043C\u043E\u0436\u043D\u0430 \u043F\u0456\u0434\u0441\
+      \u0438\u043B\u0438\u0442\u0438 \u0447\u0435\u0440\u0435\u0437 Insight, \u0449\
+      \u043E \u0441\u0432\u043E\u0454\u044E \u0447\u0435\u0440\u0433\u043E\u044E \u043F\
+      \u0456\u0434\u0441\u0438\u043B\u0438\u0442\u044C Acid Mine, \u043A\u043E\u043B\
+      \u0438 \u0457\u0457 \u0437\u0430\u0441\u0442\u043E\u0441\u043E\u0432\u0430\u043D\
+      \u043E \u0442\u0430\u043A."
     type: Add
-  - message: Додано атаку Acid Mine — дистанційний підрив кислоти з короткою затримкою
-      перед нанесенням шкоди. Завдає збільшеної шкоди структурам, включає VFX та SFX.
-      Також зменшує перезарядку Deploy Traps, коли ви влучаєте по мобах.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0430\u0442\u0430\u043A\u0443\
+      \ Acid Mine \u2014 \u0434\u0438\u0441\u0442\u0430\u043D\u0446\u0456\u0439\u043D\
+      \u0438\u0439 \u043F\u0456\u0434\u0440\u0438\u0432 \u043A\u0438\u0441\u043B\u043E\
+      \u0442\u0438 \u0437 \u043A\u043E\u0440\u043E\u0442\u043A\u043E\u044E \u0437\u0430\
+      \u0442\u0440\u0438\u043C\u043A\u043E\u044E \u043F\u0435\u0440\u0435\u0434 \u043D\
+      \u0430\u043D\u0435\u0441\u0435\u043D\u043D\u044F\u043C \u0448\u043A\u043E\u0434\
+      \u0438. \u0417\u0430\u0432\u0434\u0430\u0454 \u0437\u0431\u0456\u043B\u044C\u0448\
+      \u0435\u043D\u043E\u0457 \u0448\u043A\u043E\u0434\u0438 \u0441\u0442\u0440\u0443\
+      \u043A\u0442\u0443\u0440\u0430\u043C, \u0432\u043A\u043B\u044E\u0447\u0430\u0454\
+      \ VFX \u0442\u0430 SFX. \u0422\u0430\u043A\u043E\u0436 \u0437\u043C\u0435\u043D\
+      \u0448\u0443\u0454 \u043F\u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u043A\
+      \u0443 Deploy Traps, \u043A\u043E\u043B\u0438 \u0432\u0438 \u0432\u043B\u0443\
+      \u0447\u0430\u0454\u0442\u0435 \u043F\u043E \u043C\u043E\u0431\u0430\u0445."
     type: Add
-  - message: Додано атаку Acid Shotgun — ближній викид кислоти, що завдає високої
-      шкоди, ще більшої, якщо жертва спіймана в пастку.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0430\u0442\u0430\u043A\u0443\
+      \ Acid Shotgun \u2014 \u0431\u043B\u0438\u0436\u043D\u0456\u0439 \u0432\u0438\
+      \u043A\u0438\u0434 \u043A\u0438\u0441\u043B\u043E\u0442\u0438, \u0449\u043E\
+      \ \u0437\u0430\u0432\u0434\u0430\u0454 \u0432\u0438\u0441\u043E\u043A\u043E\u0457\
+      \ \u0448\u043A\u043E\u0434\u0438, \u0449\u0435 \u0431\u0456\u043B\u044C\u0448\
+      \u043E\u0457, \u044F\u043A\u0449\u043E \u0436\u0435\u0440\u0442\u0432\u0430\
+      \ \u0441\u043F\u0456\u0439\u043C\u0430\u043D\u0430 \u0432 \u043F\u0430\u0441\
+      \u0442\u043A\u0443."
     type: Add
-  - message: Додано механіку Insight; влучання гранулами Acid Shotgun дає вам стаки
-      Insight, потенційно підсилюючи ваше наступне використання Deploy Traps
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043C\u0435\u0445\u0430\u043D\u0456\
+      \u043A\u0443 Insight; \u0432\u043B\u0443\u0447\u0430\u043D\u043D\u044F \u0433\
+      \u0440\u0430\u043D\u0443\u043B\u0430\u043C\u0438 Acid Shotgun \u0434\u0430\u0454\
+      \ \u0432\u0430\u043C \u0441\u0442\u0430\u043A\u0438 Insight, \u043F\u043E\u0442\
+      \u0435\u043D\u0446\u0456\u0439\u043D\u043E \u043F\u0456\u0434\u0441\u0438\u043B\
+      \u044E\u044E\u0447\u0438 \u0432\u0430\u0448\u0435 \u043D\u0430\u0441\u0442\u0443\
+      \u043F\u043D\u0435 \u0432\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u0430\u043D\
+      \u043D\u044F Deploy Traps"
     type: Add
-  - message: Додано Adrenaline Surge — після отримання удару ви отримуєте приріст
-      швидкості на короткий час.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E Adrenaline Surge \u2014 \u043F\u0456\
+      \u0441\u043B\u044F \u043E\u0442\u0440\u0438\u043C\u0430\u043D\u043D\u044F \u0443\
+      \u0434\u0430\u0440\u0443 \u0432\u0438 \u043E\u0442\u0440\u0438\u043C\u0443\u0454\
+      \u0442\u0435 \u043F\u0440\u0438\u0440\u0456\u0441\u0442 \u0448\u0432\u0438\u0434\
+      \u043A\u043E\u0441\u0442\u0456 \u043D\u0430 \u043A\u043E\u0440\u043E\u0442\u043A\
+      \u0438\u0439 \u0447\u0430\u0441."
     type: Add
   id: 62
   time: '2026-04-21T08:28:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/784
 - author: MACMAN2003
   changes:
-  - message: Додано фільтри для газмасок, щоб блокувати неприємні забрудники в повітрі.
-      Забрудники в повітрі не включені.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0444\u0456\u043B\u044C\u0442\u0440\
+      \u0438 \u0434\u043B\u044F \u0433\u0430\u0437\u043C\u0430\u0441\u043E\u043A,\
+      \ \u0449\u043E\u0431 \u0431\u043B\u043E\u043A\u0443\u0432\u0430\u0442\u0438\
+      \ \u043D\u0435\u043F\u0440\u0438\u0454\u043C\u043D\u0456 \u0437\u0430\u0431\u0440\
+      \u0443\u0434\u043D\u0438\u043A\u0438 \u0432 \u043F\u043E\u0432\u0456\u0442\u0440\
+      \u0456. \u0417\u0430\u0431\u0440\u0443\u0434\u043D\u0438\u043A\u0438 \u0432\
+      \ \u043F\u043E\u0432\u0456\u0442\u0440\u0456 \u043D\u0435 \u0432\u043A\u043B\
+      \u044E\u0447\u0435\u043D\u0456."
     type: Add
   id: 63
   time: '2026-04-23T08:19:03.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/798
 - author: sunzu432
   changes:
-  - message: Додаткові кімнати, телефони, RP-зони на військовій базі Barker's Lament.
+  - message: "\u0414\u043E\u0434\u0430\u0442\u043A\u043E\u0432\u0456 \u043A\u0456\u043C\
+      \u043D\u0430\u0442\u0438, \u0442\u0435\u043B\u0435\u0444\u043E\u043D\u0438,\
+      \ RP-\u0437\u043E\u043D\u0438 \u043D\u0430 \u0432\u0456\u0439\u0441\u044C\u043A\
+      \u043E\u0432\u0456\u0439 \u0431\u0430\u0437\u0456 Barker's Lament."
     type: Add
-  - message: Зміни до всіх будівель на військовій базі Barker's Lament.
+  - message: "\u0417\u043C\u0456\u043D\u0438 \u0434\u043E \u0432\u0441\u0456\u0445\
+      \ \u0431\u0443\u0434\u0456\u0432\u0435\u043B\u044C \u043D\u0430 \u0432\u0456\
+      \u0439\u0441\u044C\u043A\u043E\u0432\u0456\u0439 \u0431\u0430\u0437\u0456 Barker's\
+      \ Lament."
     type: Tweak
   id: 64
   time: '2026-04-23T08:46:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/799
 - author: Tyzemol
   changes:
-  - message: Прибрано загрозу ape на старті раунду
+  - message: "\u041F\u0440\u0438\u0431\u0440\u0430\u043D\u043E \u0437\u0430\u0433\u0440\
+      \u043E\u0437\u0443 ape \u043D\u0430 \u0441\u0442\u0430\u0440\u0442\u0456 \u0440\
+      \u0430\u0443\u043D\u0434\u0443"
     type: Remove
   id: 65
   time: '2026-04-23T09:13:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/801
 - author: maertayn
   changes:
-  - message: Уточнено патрони 5.56x45mm, щоб розрізняти гвинтівки M16 та L83A під час огляду.
+  - message: "\u0423\u0442\u043E\u0447\u043D\u0435\u043D\u043E \u043F\u0430\u0442\u0440\
+      \u043E\u043D\u0438 5.56x45mm, \u0449\u043E\u0431 \u0440\u043E\u0437\u0440\u0456\
+      \u0437\u043D\u044F\u0442\u0438 \u0433\u0432\u0438\u043D\u0442\u0456\u0432\u043A\
+      \u0438 M16 \u0442\u0430 L83A \u043F\u0456\u0434 \u0447\u0430\u0441 \u043E\u0433\
+      \u043B\u044F\u0434\u0443."
     type: Fix
   id: 66
   time: '2026-04-23T10:20:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/789
 - author: maertayn
   changes:
-  - message: Уточнено патрони 7.62x25mm, щоб розрізняти пістолетні набої T73/T74 від
-      набоїв SMG Type-19 під час огляду.
+  - message: "\u0423\u0442\u043E\u0447\u043D\u0435\u043D\u043E \u043F\u0430\u0442\u0440\
+      \u043E\u043D\u0438 7.62x25mm, \u0449\u043E\u0431 \u0440\u043E\u0437\u0440\u0456\
+      \u0437\u043D\u044F\u0442\u0438 \u043F\u0456\u0441\u0442\u043E\u043B\u0435\u0442\
+      \u043D\u0456 \u043D\u0430\u0431\u043E\u0457 T73/T74 \u0432\u0456\u0434 \u043D\
+      \u0430\u0431\u043E\u0457\u0432 SMG Type-19 \u043F\u0456\u0434 \u0447\u0430\u0441\
+      \ \u043E\u0433\u043B\u044F\u0434\u0443."
     type: Fix
   id: 67
   time: '2026-04-23T10:21:28.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/787
 - author: maertayn
   changes:
-  - message: Уточнено патрони 7.62x51mm, щоб розрізняти AR10 та M60-LMG під час огляду.
+  - message: "\u0423\u0442\u043E\u0447\u043D\u0435\u043D\u043E \u043F\u0430\u0442\u0440\
+      \u043E\u043D\u0438 7.62x51mm, \u0449\u043E\u0431 \u0440\u043E\u0437\u0440\u0456\
+      \u0437\u043D\u044F\u0442\u0438 AR10 \u0442\u0430 M60-LMG \u043F\u0456\u0434\
+      \ \u0447\u0430\u0441 \u043E\u0433\u043B\u044F\u0434\u0443."
     type: Fix
   id: 68
   time: '2026-04-23T10:21:51.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/788
 - author: Tyzemol
   changes:
-  - message: Ape'и дають більше м'яса при оброблянні та мають більше крові.
+  - message: "Ape'\u0438 \u0434\u0430\u044E\u0442\u044C \u0431\u0456\u043B\u044C\u0448\
+      \u0435 \u043C'\u044F\u0441\u0430 \u043F\u0440\u0438 \u043E\u0431\u0440\u043E\
+      \u0431\u043B\u044F\u043D\u043D\u0456 \u0442\u0430 \u043C\u0430\u044E\u0442\u044C\
+      \ \u0431\u0456\u043B\u044C\u0448\u0435 \u043A\u0440\u043E\u0432\u0456."
     type: Tweak
-  - message: Ape'и більше не стають шалено повільними від єдиної подряпини.
+  - message: "Ape'\u0438 \u0431\u0456\u043B\u044C\u0448\u0435 \u043D\u0435 \u0441\u0442\
+      \u0430\u044E\u0442\u044C \u0448\u0430\u043B\u0435\u043D\u043E \u043F\u043E\u0432\
+      \u0456\u043B\u044C\u043D\u0438\u043C\u0438 \u0432\u0456\u0434 \u0454\u0434\u0438\
+      \u043D\u043E\u0457 \u043F\u043E\u0434\u0440\u044F\u043F\u0438\u043D\u0438."
     type: Fix
-  - message: Ape'и більше не гібуються спонтанно від якихось 400 одиниць тупої шкоди
+  - message: "Ape'\u0438 \u0431\u0456\u043B\u044C\u0448\u0435 \u043D\u0435 \u0433\u0456\
+      \u0431\u0443\u044E\u0442\u044C\u0441\u044F \u0441\u043F\u043E\u043D\u0442\u0430\
+      \u043D\u043D\u043E \u0432\u0456\u0434 \u044F\u043A\u0438\u0445\u043E\u0441\u044C\
+      \ 400 \u043E\u0434\u0438\u043D\u0438\u0446\u044C \u0442\u0443\u043F\u043E\u0457\
+      \ \u0448\u043A\u043E\u0434\u0438"
     type: Fix
   id: 69
   time: '2026-04-23T11:19:24.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/793
 - author: sunzu432
   changes:
-  - message: Камери гіперсну в казармах
+  - message: "\u041A\u0430\u043C\u0435\u0440\u0438 \u0433\u0456\u043F\u0435\u0440\u0441\
+      \u043D\u0443 \u0432 \u043A\u0430\u0437\u0430\u0440\u043C\u0430\u0445"
     type: Add
-  - message: Переорієнтація та розширення кімнати підготовки для чіткішого розділення вендорів
+  - message: "\u041F\u0435\u0440\u0435\u043E\u0440\u0456\u0454\u043D\u0442\u0430\u0446\
+      \u0456\u044F \u0442\u0430 \u0440\u043E\u0437\u0448\u0438\u0440\u0435\u043D\u043D\
+      \u044F \u043A\u0456\u043C\u043D\u0430\u0442\u0438 \u043F\u0456\u0434\u0433\u043E\
+      \u0442\u043E\u0432\u043A\u0438 \u0434\u043B\u044F \u0447\u0456\u0442\u043A\u0456\
+      \u0448\u043E\u0433\u043E \u0440\u043E\u0437\u0434\u0456\u043B\u0435\u043D\u043D\
+      \u044F \u0432\u0435\u043D\u0434\u043E\u0440\u0456\u0432"
     type: Tweak
-  - message: Інші невеликі правки до військової бази Barker's Lament
+  - message: "\u0406\u043D\u0448\u0456 \u043D\u0435\u0432\u0435\u043B\u0438\u043A\u0456\
+      \ \u043F\u0440\u0430\u0432\u043A\u0438 \u0434\u043E \u0432\u0456\u0439\u0441\
+      \u044C\u043A\u043E\u0432\u043E\u0457 \u0431\u0430\u0437\u0438 Barker's Lament"
     type: Tweak
-  - message: Тимчасове виправлення медбею військової бази
+  - message: "\u0422\u0438\u043C\u0447\u0430\u0441\u043E\u0432\u0435 \u0432\u0438\u043F\
+      \u0440\u0430\u0432\u043B\u0435\u043D\u043D\u044F \u043C\u0435\u0434\u0431\u0435\
+      \u044E \u0432\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u043E\u0457 \u0431\u0430\
+      \u0437\u0438"
     type: Fix
-  - message: Podlock-двері допоміжного входу в колонію
+  - message: "Podlock-\u0434\u0432\u0435\u0440\u0456 \u0434\u043E\u043F\u043E\u043C\
+      \u0456\u0436\u043D\u043E\u0433\u043E \u0432\u0445\u043E\u0434\u0443 \u0432 \u043A\
+      \u043E\u043B\u043E\u043D\u0456\u044E"
     type: Fix
   id: 70
   time: '2026-04-24T15:25:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/817
 - author: maertayn
   changes:
-  - message: Виправлено, що розширені магазини AG80 використовували неправильний
-      10x24mm — тепер використовують боєприпаси UPP 9.7x16mm.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u043E\u0437\u0448\u0438\u0440\u0435\u043D\u0456 \u043C\u0430\u0433\
+      \u0430\u0437\u0438\u043D\u0438 AG80 \u0432\u0438\u043A\u043E\u0440\u0438\u0441\
+      \u0442\u043E\u0432\u0443\u0432\u0430\u043B\u0438 \u043D\u0435\u043F\u0440\u0430\
+      \u0432\u0438\u043B\u044C\u043D\u0438\u0439 10x24mm \u2014 \u0442\u0435\u043F\
+      \u0435\u0440 \u0432\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\
+      \u044E\u0442\u044C \u0431\u043E\u0454\u043F\u0440\u0438\u043F\u0430\u0441\u0438\
+      \ UPP 9.7x16mm."
     type: Fix
   id: 71
   time: '2026-04-24T15:27:10.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/790
 - author: sunzu432
   changes:
-  - message: Зони кімнати спорядження, командування, контрольного пункту
+  - message: "\u0417\u043E\u043D\u0438 \u043A\u0456\u043C\u043D\u0430\u0442\u0438\
+      \ \u0441\u043F\u043E\u0440\u044F\u0434\u0436\u0435\u043D\u043D\u044F, \u043A\
+      \u043E\u043C\u0430\u043D\u0434\u0443\u0432\u0430\u043D\u043D\u044F, \u043A\u043E\
+      \u043D\u0442\u0440\u043E\u043B\u044C\u043D\u043E\u0433\u043E \u043F\u0443\u043D\
+      \u043A\u0442\u0443"
     type: Fix
-  - message: Доступ до медичного вендора
+  - message: "\u0414\u043E\u0441\u0442\u0443\u043F \u0434\u043E \u043C\u0435\u0434\
+      \u0438\u0447\u043D\u043E\u0433\u043E \u0432\u0435\u043D\u0434\u043E\u0440\u0430"
     type: Fix
   id: 72
   time: '2026-04-25T05:58:56.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/826
 - author: JaSeNeSaJ
   changes:
-  - message: Прапор UA до посольства UA
+  - message: "\u041F\u0440\u0430\u043F\u043E\u0440 UA \u0434\u043E \u043F\u043E\u0441\
+      \u043E\u043B\u044C\u0441\u0442\u0432\u0430 UA"
     type: Add
-  - message: Прапор UPP до посольства UPP
+  - message: "\u041F\u0440\u0430\u043F\u043E\u0440 UPP \u0434\u043E \u043F\u043E\u0441\
+      \u043E\u043B\u044C\u0441\u0442\u0432\u0430 UPP"
     type: Add
-  - message: Підлога під передніми дверима UPP.
+  - message: "\u041F\u0456\u0434\u043B\u043E\u0433\u0430 \u043F\u0456\u0434 \u043F\
+      \u0435\u0440\u0435\u0434\u043D\u0456\u043C\u0438 \u0434\u0432\u0435\u0440\u0438\
+      \u043C\u0430 UPP."
     type: Fix
   id: 73
   time: '2026-04-25T06:09:54.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/829
 - author: maertayn
   changes:
-  - message: бумстіки! битися з тими високими металевими boiler'ами
+  - message: "\u0431\u0443\u043C\u0441\u0442\u0456\u043A\u0438! \u0431\u0438\u0442\
+      \u0438\u0441\u044F \u0437 \u0442\u0438\u043C\u0438 \u0432\u0438\u0441\u043E\u043A\
+      \u0438\u043C\u0438 \u043C\u0435\u0442\u0430\u043B\u0435\u0432\u0438\u043C\u0438\
+      \ boiler'\u0430\u043C\u0438"
     type: Add
-  - message: синтів виключено з правила завершення гри Colony Fall KillAllColonist,
-      більше жодного вбивства фейкових хостів задля завершення
+  - message: "\u0441\u0438\u043D\u0442\u0456\u0432 \u0432\u0438\u043A\u043B\u044E\u0447\
+      \u0435\u043D\u043E \u0437 \u043F\u0440\u0430\u0432\u0438\u043B\u0430 \u0437\u0430\
+      \u0432\u0435\u0440\u0448\u0435\u043D\u043D\u044F \u0433\u0440\u0438 Colony Fall\
+      \ KillAllColonist, \u0431\u0456\u043B\u044C\u0448\u0435 \u0436\u043E\u0434\u043D\
+      \u043E\u0433\u043E \u0432\u0431\u0438\u0432\u0441\u0442\u0432\u0430 \u0444\u0435\
+      \u0439\u043A\u043E\u0432\u0438\u0445 \u0445\u043E\u0441\u0442\u0456\u0432 \u0437\
+      \u0430\u0434\u043B\u044F \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u043D\
+      \u044F"
     type: Fix
-  - message: вендори цивільних та govfor (одяг та спецзброя) отримали збільшений запас
-      для підтримки ~40 людей на диспенсер
+  - message: "\u0432\u0435\u043D\u0434\u043E\u0440\u0438 \u0446\u0438\u0432\u0456\u043B\
+      \u044C\u043D\u0438\u0445 \u0442\u0430 govfor (\u043E\u0434\u044F\u0433 \u0442\
+      \u0430 \u0441\u043F\u0435\u0446\u0437\u0431\u0440\u043E\u044F) \u043E\u0442\u0440\
+      \u0438\u043C\u0430\u043B\u0438 \u0437\u0431\u0456\u043B\u044C\u0448\u0435\u043D\
+      \u0438\u0439 \u0437\u0430\u043F\u0430\u0441 \u0434\u043B\u044F \u043F\u0456\u0434\
+      \u0442\u0440\u0438\u043C\u043A\u0438 ~40 \u043B\u044E\u0434\u0435\u0439 \u043D\
+      \u0430 \u0434\u0438\u0441\u043F\u0435\u043D\u0441\u0435\u0440"
     type: Tweak
-  - message: нелетальні гумові кулі 9mm для корпоративних охоронців We-Yu
+  - message: "\u043D\u0435\u043B\u0435\u0442\u0430\u043B\u044C\u043D\u0456 \u0433\u0443\
+      \u043C\u043E\u0432\u0456 \u043A\u0443\u043B\u0456 9mm \u0434\u043B\u044F \u043A\
+      \u043E\u0440\u043F\u043E\u0440\u0430\u0442\u0438\u0432\u043D\u0438\u0445 \u043E\
+      \u0445\u043E\u0440\u043E\u043D\u0446\u0456\u0432 We-Yu"
     type: Add
-  - message: дублікати цивільних робіт приховано з меню лоадаутів/налаштувань лоббі
+  - message: "\u0434\u0443\u0431\u043B\u0456\u043A\u0430\u0442\u0438 \u0446\u0438\u0432\
+      \u0456\u043B\u044C\u043D\u0438\u0445 \u0440\u043E\u0431\u0456\u0442 \u043F\u0440\
+      \u0438\u0445\u043E\u0432\u0430\u043D\u043E \u0437 \u043C\u0435\u043D\u044E \u043B\
+      \u043E\u0430\u0434\u0430\u0443\u0442\u0456\u0432/\u043D\u0430\u043B\u0430\u0448\
+      \u0442\u0443\u0432\u0430\u043D\u044C \u043B\u043E\u0431\u0431\u0456"
     type: Tweak
-  - message: K9 отримав спеціалізоване спорядження санітара замість того, щоб бути в спідній білизні
+  - message: "K9 \u043E\u0442\u0440\u0438\u043C\u0430\u0432 \u0441\u043F\u0435\u0446\
+      \u0456\u0430\u043B\u0456\u0437\u043E\u0432\u0430\u043D\u0435 \u0441\u043F\u043E\
+      \u0440\u044F\u0434\u0436\u0435\u043D\u043D\u044F \u0441\u0430\u043D\u0456\u0442\
+      \u0430\u0440\u0430 \u0437\u0430\u043C\u0456\u0441\u0442\u044C \u0442\u043E\u0433\
+      \u043E, \u0449\u043E\u0431 \u0431\u0443\u0442\u0438 \u0432 \u0441\u043F\u0456\
+      \u0434\u043D\u0456\u0439 \u0431\u0456\u043B\u0438\u0437\u043D\u0456"
     type: Fix
   id: 74
   time: '2026-04-25T06:11:03.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/825
 - author: nicholast013
   changes:
-  - message: Повернуто саморобну бомбу
+  - message: "\u041F\u043E\u0432\u0435\u0440\u043D\u0443\u0442\u043E \u0441\u0430\u043C\
+      \u043E\u0440\u043E\u0431\u043D\u0443 \u0431\u043E\u043C\u0431\u0443"
     type: Add
   id: 75
   time: '2026-04-25T15:29:02.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/783
 - author: maertayn
   changes:
-  - message: L90 та MK1 можуть отримувати боєприпаси зі стійки зброї UNISC
+  - message: "L90 \u0442\u0430 MK1 \u043C\u043E\u0436\u0443\u0442\u044C \u043E\u0442\
+      \u0440\u0438\u043C\u0443\u0432\u0430\u0442\u0438 \u0431\u043E\u0454\u043F\u0440\
+      \u0438\u043F\u0430\u0441\u0438 \u0437\u0456 \u0441\u0442\u0456\u0439\u043A\u0438\
+      \ \u0437\u0431\u0440\u043E\u0457 UNISC"
     type: Fix
-  - message: HAR та M75amas тепер можуть використовувати різноманітні насадки (UNISC)
+  - message: "HAR \u0442\u0430 M75amas \u0442\u0435\u043F\u0435\u0440 \u043C\u043E\
+      \u0436\u0443\u0442\u044C \u0432\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\
+      \u0432\u0443\u0432\u0430\u0442\u0438 \u0440\u0456\u0437\u043D\u043E\u043C\u0430\
+      \u043D\u0456\u0442\u043D\u0456 \u043D\u0430\u0441\u0430\u0434\u043A\u0438 (UNISC)"
     type: Fix
   id: 76
   time: '2026-04-25T15:30:24.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/833
 - author: KeiKiyomi
   changes:
-  - message: Додано доступ ASRS до DP (Вибач, DCC)
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0434\u043E\u0441\u0442\u0443\u043F\
+      \ ASRS \u0434\u043E DP (\u0412\u0438\u0431\u0430\u0447, DCC)"
     type: Add
-  - message: Виправлено бюджет реквізицій (збільшено з 10k до 45k)
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0431\u044E\
+      \u0434\u0436\u0435\u0442 \u0440\u0435\u043A\u0432\u0456\u0437\u0438\u0446\u0456\
+      \u0439 (\u0437\u0431\u0456\u043B\u044C\u0448\u0435\u043D\u043E \u0437 10k \u0434\
+      \u043E 45k)"
     type: Fix
   id: 77
   time: '2026-04-26T15:48:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/862
 - author: KeiKiyomi
   changes:
-  - message: Додано набір мінометів до опції ASRS-ящика з мінометом
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043D\u0430\u0431\u0456\u0440\
+      \ \u043C\u0456\u043D\u043E\u043C\u0435\u0442\u0456\u0432 \u0434\u043E \u043E\
+      \u043F\u0446\u0456\u0457 ASRS-\u044F\u0449\u0438\u043A\u0430 \u0437 \u043C\u0456\
+      \u043D\u043E\u043C\u0435\u0442\u043E\u043C"
     type: Tweak
-  - message: збільшено кількість снарядів на ящик
+  - message: "\u0437\u0431\u0456\u043B\u044C\u0448\u0435\u043D\u043E \u043A\u0456\u043B\
+      \u044C\u043A\u0456\u0441\u0442\u044C \u0441\u043D\u0430\u0440\u044F\u0434\u0456\
+      \u0432 \u043D\u0430 \u044F\u0449\u0438\u043A"
     type: Tweak
   id: 78
   time: '2026-04-27T10:59:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/865
 - author: MarshesAndMeadows
   changes:
-  - message: Змінено, як Deploy Traps розміщує пастки, тепер має бути надійніше.
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E, \u044F\u043A Deploy Traps\
+      \ \u0440\u043E\u0437\u043C\u0456\u0449\u0443\u0454 \u043F\u0430\u0441\u0442\u043A\
+      \u0438, \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u0454 \u0431\u0443\u0442\
+      \u0438 \u043D\u0430\u0434\u0456\u0439\u043D\u0456\u0448\u0435."
     type: Tweak
-  - message: Виправлено перевірку LOS для acid mine, тепер має бути значно легше використовувати
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043F\u0435\
+      \u0440\u0435\u0432\u0456\u0440\u043A\u0443 LOS \u0434\u043B\u044F acid mine,\
+      \ \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u0454 \u0431\u0443\u0442\u0438\
+      \ \u0437\u043D\u0430\u0447\u043D\u043E \u043B\u0435\u0433\u0448\u0435 \u0432\
+      \u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\u0432\u0430\u0442\
+      \u0438"
     type: Fix
-  - message: Виправлено, що Acid Mine ішла на перезарядку при невдалій перевірці LOS.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E Acid Mine \u0456\u0448\u043B\u0430 \u043D\u0430 \u043F\u0435\u0440\u0435\
+      \u0437\u0430\u0440\u044F\u0434\u043A\u0443 \u043F\u0440\u0438 \u043D\u0435\u0432\
+      \u0434\u0430\u043B\u0456\u0439 \u043F\u0435\u0440\u0435\u0432\u0456\u0440\u0446\
+      \u0456 LOS."
     type: Fix
   id: 79
   time: '2026-04-27T11:00:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/824
 - author: MarshesAndMeadows
   changes:
-  - message: Виправлено, що ривок crusher іноді проходив крізь барикади. Тепер він
-      має зупинятися біля барикади і все одно завдавати шкоди.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u0456\u043D\u043E\u0434\u0456\
+      \ \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0432 \u043A\u0440\u0456\u0437\u044C\
+      \ \u0431\u0430\u0440\u0438\u043A\u0430\u0434\u0438. \u0422\u0435\u043F\u0435\
+      \u0440 \u0432\u0456\u043D \u043C\u0430\u0454 \u0437\u0443\u043F\u0438\u043D\u044F\
+      \u0442\u0438\u0441\u044F \u0431\u0456\u043B\u044F \u0431\u0430\u0440\u0438\u043A\
+      \u0430\u0434\u0438 \u0456 \u0432\u0441\u0435 \u043E\u0434\u043D\u043E \u0437\
+      \u0430\u0432\u0434\u0430\u0432\u0430\u0442\u0438 \u0448\u043A\u043E\u0434\u0438\
+      ."
     type: Fix
-  - message: Виправлено, що поручні сприймалися як барикади для ривка crusher.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u043F\u043E\u0440\u0443\u0447\u043D\u0456 \u0441\u043F\u0440\u0438\u0439\
+      \u043C\u0430\u043B\u0438\u0441\u044F \u044F\u043A \u0431\u0430\u0440\u0438\u043A\
+      \u0430\u0434\u0438 \u0434\u043B\u044F \u0440\u0438\u0432\u043A\u0430 crusher."
     type: Fix
-  - message: Виправлено, що ривок crusher зупинявся при зіткненні з дружніми структурами
-      вулика, як-от вузли відновлення, кластери тощо.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u0437\u0443\u043F\u0438\u043D\
+      \u044F\u0432\u0441\u044F \u043F\u0440\u0438 \u0437\u0456\u0442\u043A\u043D\u0435\
+      \u043D\u043D\u0456 \u0437 \u0434\u0440\u0443\u0436\u043D\u0456\u043C\u0438 \u0441\
+      \u0442\u0440\u0443\u043A\u0442\u0443\u0440\u0430\u043C\u0438 \u0432\u0443\u043B\
+      \u0438\u043A\u0430, \u044F\u043A-\u043E\u0442 \u0432\u0443\u0437\u043B\u0438\
+      \ \u0432\u0456\u0434\u043D\u043E\u0432\u043B\u0435\u043D\u043D\u044F, \u043A\
+      \u043B\u0430\u0441\u0442\u0435\u0440\u0438 \u0442\u043E\u0449\u043E."
     type: Fix
-  - message: Виправлено, що ривок crusher не завдавав шкоди багатьом дуже специфічним
-      об'єктам (вендори Wey-Ya, певні машини, спрямовані вікна та багато іншого)
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u043D\u0435 \u0437\u0430\u0432\
+      \u0434\u0430\u0432\u0430\u0432 \u0448\u043A\u043E\u0434\u0438 \u0431\u0430\u0433\
+      \u0430\u0442\u044C\u043E\u043C \u0434\u0443\u0436\u0435 \u0441\u043F\u0435\u0446\
+      \u0438\u0444\u0456\u0447\u043D\u0438\u043C \u043E\u0431'\u0454\u043A\u0442\u0430\
+      \u043C (\u0432\u0435\u043D\u0434\u043E\u0440\u0438 Wey-Ya, \u043F\u0435\u0432\
+      \u043D\u0456 \u043C\u0430\u0448\u0438\u043D\u0438, \u0441\u043F\u0440\u044F\u043C\
+      \u043E\u0432\u0430\u043D\u0456 \u0432\u0456\u043A\u043D\u0430 \u0442\u0430 \u0431\
+      \u0430\u0433\u0430\u0442\u043E \u0456\u043D\u0448\u043E\u0433\u043E)"
     type: Fix
-  - message: Виправлено, що ривок crusher зупинявся на першому столі, який він зачепив,
-      тепер він проходить крізь столи, знищуючи їх.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u0437\u0443\u043F\u0438\u043D\
+      \u044F\u0432\u0441\u044F \u043D\u0430 \u043F\u0435\u0440\u0448\u043E\u043C\u0443\
+      \ \u0441\u0442\u043E\u043B\u0456, \u044F\u043A\u0438\u0439 \u0432\u0456\u043D\
+      \ \u0437\u0430\u0447\u0435\u043F\u0438\u0432, \u0442\u0435\u043F\u0435\u0440\
+      \ \u0432\u0456\u043D \u043F\u0440\u043E\u0445\u043E\u0434\u0438\u0442\u044C\
+      \ \u043A\u0440\u0456\u0437\u044C \u0441\u0442\u043E\u043B\u0438, \u0437\u043D\
+      \u0438\u0449\u0443\u044E\u0447\u0438 \u0457\u0445."
     type: Fix
-  - message: Виправлено, що ривок crusher завдавав меншої шкоди ніж задумано стінам
-      та Rwall'ам, тепер він завдає коректних 750 структурної шкоди.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u0437\u0430\u0432\u0434\u0430\
+      \u0432\u0430\u0432 \u043C\u0435\u043D\u0448\u043E\u0457 \u0448\u043A\u043E\u0434\
+      \u0438 \u043D\u0456\u0436 \u0437\u0430\u0434\u0443\u043C\u0430\u043D\u043E \u0441\
+      \u0442\u0456\u043D\u0430\u043C \u0442\u0430 Rwall'\u0430\u043C, \u0442\u0435\
+      \u043F\u0435\u0440 \u0432\u0456\u043D \u0437\u0430\u0432\u0434\u0430\u0454 \u043A\
+      \u043E\u0440\u0435\u043A\u0442\u043D\u0438\u0445 750 \u0441\u0442\u0440\u0443\
+      \u043A\u0442\u0443\u0440\u043D\u043E\u0457 \u0448\u043A\u043E\u0434\u0438."
     type: Fix
-  - message: "Виправлено, що відкидання crusher не відповідало паритету (1\xBD -> 3 тайли)"
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0432\u0456\u0434\u043A\u0438\u0434\u0430\u043D\u043D\u044F crusher\
+      \ \u043D\u0435 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u0430\u043B\u043E\
+      \ \u043F\u0430\u0440\u0438\u0442\u0435\u0442\u0443 (1\xBD -> 3 \u0442\u0430\u0439\
+      \u043B\u0438)"
     type: Fix
-  - message: Виправлено, що ривок crusher не можна було націлити, через що він завжди
-      долав повну відстань, незалежно від націлювання.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u043D\u0435 \u043C\u043E\u0436\
+      \u043D\u0430 \u0431\u0443\u043B\u043E \u043D\u0430\u0446\u0456\u043B\u0438\u0442\
+      \u0438, \u0447\u0435\u0440\u0435\u0437 \u0449\u043E \u0432\u0456\u043D \u0437\
+      \u0430\u0432\u0436\u0434\u0438 \u0434\u043E\u043B\u0430\u0432 \u043F\u043E\u0432\
+      \u043D\u0443 \u0432\u0456\u0434\u0441\u0442\u0430\u043D\u044C, \u043D\u0435\u0437\
+      \u0430\u043B\u0435\u0436\u043D\u043E \u0432\u0456\u0434 \u043D\u0430\u0446\u0456\
+      \u043B\u044E\u0432\u0430\u043D\u043D\u044F."
     type: Fix
-  - message: Виправлено, що ривок crusher некоректно знищував рами вікон.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u043D\u0435\u043A\u043E\u0440\
+      \u0435\u043A\u0442\u043D\u043E \u0437\u043D\u0438\u0449\u0443\u0432\u0430\u0432\
+      \ \u0440\u0430\u043C\u0438 \u0432\u0456\u043A\u043E\u043D."
     type: Fix
-  - message: Виправлено, що ривок crusher не завдавав шкоди резервуарам з реагентами.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A crusher \u043D\u0435 \u0437\u0430\u0432\
+      \u0434\u0430\u0432\u0430\u0432 \u0448\u043A\u043E\u0434\u0438 \u0440\u0435\u0437\
+      \u0435\u0440\u0432\u0443\u0430\u0440\u0430\u043C \u0437 \u0440\u0435\u0430\u0433\
+      \u0435\u043D\u0442\u0430\u043C\u0438."
     type: Fix
   id: 80
   time: '2026-04-27T11:01:09.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/782
 - author: L0pz
   changes:
-  - message: Додано спрайти банкомата!
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0441\u043F\u0440\u0430\u0439\u0442\
+      \u0438 \u0431\u0430\u043D\u043A\u043E\u043C\u0430\u0442\u0430!"
     type: Add
   id: 81
   time: '2026-04-29T13:49:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/880
 - author: maertayn
   changes:
-  - message: доступ для MP та військових лікарів (GOVFOR/OPFOR)
+  - message: "\u0434\u043E\u0441\u0442\u0443\u043F \u0434\u043B\u044F MP \u0442\u0430\
+      \ \u0432\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u0438\u0445 \u043B\u0456\u043A\
+      \u0430\u0440\u0456\u0432 (GOVFOR/OPFOR)"
     type: Fix
   id: 82
   time: '2026-04-30T18:24:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/889
 - author: maertayn
   changes:
-  - message: Жилети IED більше не можна дублювати при одночасному надяганні/скиданні.
+  - message: "\u0416\u0438\u043B\u0435\u0442\u0438 IED \u0431\u0456\u043B\u044C\u0448\
+      \u0435 \u043D\u0435 \u043C\u043E\u0436\u043D\u0430 \u0434\u0443\u0431\u043B\u044E\
+      \u0432\u0430\u0442\u0438 \u043F\u0440\u0438 \u043E\u0434\u043D\u043E\u0447\u0430\
+      \u0441\u043D\u043E\u043C\u0443 \u043D\u0430\u0434\u044F\u0433\u0430\u043D\u043D\
+      \u0456/\u0441\u043A\u0438\u0434\u0430\u043D\u043D\u0456."
     type: Fix
   id: 83
   time: '2026-05-01T03:50:14.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/896
 - author: maertayn
   changes:
-  - message: автодоповнення адмінських команд раунду для розробників та setgovfor / setopforship
+  - message: "\u0430\u0432\u0442\u043E\u0434\u043E\u043F\u043E\u0432\u043D\u0435\u043D\
+      \u043D\u044F \u0430\u0434\u043C\u0456\u043D\u0441\u044C\u043A\u0438\u0445 \u043A\
+      \u043E\u043C\u0430\u043D\u0434 \u0440\u0430\u0443\u043D\u0434\u0443 \u0434\u043B\
+      \u044F \u0440\u043E\u0437\u0440\u043E\u0431\u043D\u0438\u043A\u0456\u0432 \u0442\
+      \u0430 setgovfor / setopforship"
     type: Add
   id: 84
   time: '2026-05-01T17:26:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/901
 - author: KeiKiyomi
   changes:
-  - message: Виправлено навичку JTAC операторів мінометів, щоб відповідала JO
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u043D\u0430\
+      \u0432\u0438\u0447\u043A\u0443 JTAC \u043E\u043F\u0435\u0440\u0430\u0442\u043E\
+      \u0440\u0456\u0432 \u043C\u0456\u043D\u043E\u043C\u0435\u0442\u0456\u0432, \u0449\
+      \u043E\u0431 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u0430\u043B\u0430\
+      \ JO"
     type: Fix
   id: 85
   time: '2026-05-02T13:03:58.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/910
 - author: MarshesAndMeadows
   changes:
-  - message: Виправлено, що ривок basecrusher влучав по дружніх benos
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A basecrusher \u0432\u043B\u0443\u0447\u0430\
+      \u0432 \u043F\u043E \u0434\u0440\u0443\u0436\u043D\u0456\u0445 benos"
     type: Fix
-  - message: Виправлено, що ривок basecrusher коштував 40 плазми замість 20.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0440\u0438\u0432\u043E\u043A basecrusher \u043A\u043E\u0448\u0442\u0443\
+      \u0432\u0430\u0432 40 \u043F\u043B\u0430\u0437\u043C\u0438 \u0437\u0430\u043C\
+      \u0456\u0441\u0442\u044C 20."
     type: Fix
   id: 86
   time: '2026-05-02T13:05:17.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/907
 - author: JaSeNeSaJ
   changes:
-  - message: Інвазивний carp (Sharkminnow)
+  - message: "\u0406\u043D\u0432\u0430\u0437\u0438\u0432\u043D\u0438\u0439 carp (Sharkminnow)"
     type: Add
-  - message: Абстрактний carp
+  - message: "\u0410\u0431\u0441\u0442\u0440\u0430\u043A\u0442\u043D\u0438\u0439 carp"
     type: Add
   - message: carp
     type: Tweak
-  - message: Третя сторона інвазивного carp (спавнить лише 1, без масштабування, може бути на старті раунду)
+  - message: "\u0422\u0440\u0435\u0442\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430\
+      \ \u0456\u043D\u0432\u0430\u0437\u0438\u0432\u043D\u043E\u0433\u043E carp (\u0441\
+      \u043F\u0430\u0432\u043D\u0438\u0442\u044C \u043B\u0438\u0448\u0435 1, \u0431\
+      \u0435\u0437 \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u0443\u0432\u0430\u043D\
+      \u043D\u044F, \u043C\u043E\u0436\u0435 \u0431\u0443\u0442\u0438 \u043D\u0430\
+      \ \u0441\u0442\u0430\u0440\u0442\u0456 \u0440\u0430\u0443\u043D\u0434\u0443)"
     type: Add
   id: 87
   time: '2026-05-02T13:16:03.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/915
 - author: maertayn
   changes:
-  - message: Deputy та Marshal мають свої відповідні значки
+  - message: "Deputy \u0442\u0430 Marshal \u043C\u0430\u044E\u0442\u044C \u0441\u0432\
+      \u043E\u0457 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\u0434\u043D\u0456 \u0437\
+      \u043D\u0430\u0447\u043A\u0438"
     type: Add
   id: 88
   time: '2026-05-02T16:14:24.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/917
 - author: SurfinNinja1
   changes:
-  - message: Військовий медбей на Shepherd's Pride відремонтовано.
+  - message: "\u0412\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u0438\u0439 \u043C\u0435\
+      \u0434\u0431\u0435\u0439 \u043D\u0430 Shepherd's Pride \u0432\u0456\u0434\u0440\
+      \u0435\u043C\u043E\u043D\u0442\u043E\u0432\u0430\u043D\u043E."
     type: Tweak
   id: 89
   time: '2026-05-03T01:37:05.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/925
 - author: JaSeNeSaJ
   changes:
-  - message: rockwallremoveinshybrisia_colonyfall на rockwallremoveinshybrisia_colonyfall_inverted
+  - message: "rockwallremoveinshybrisia_colonyfall \u043D\u0430 rockwallremoveinshybrisia_colonyfall_inverted"
     type: Tweak
   id: 90
   time: '2026-05-03T18:17:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/931
 - author: maertayn
   changes:
-  - message: Ремені для револьверів до вендорів військового одягу
+  - message: "\u0420\u0435\u043C\u0435\u043D\u0456 \u0434\u043B\u044F \u0440\u0435\
+      \u0432\u043E\u043B\u044C\u0432\u0435\u0440\u0456\u0432 \u0434\u043E \u0432\u0435\
+      \u043D\u0434\u043E\u0440\u0456\u0432 \u0432\u0456\u0439\u0441\u044C\u043A\u043E\
+      \u0432\u043E\u0433\u043E \u043E\u0434\u044F\u0433\u0443"
     type: Add
-  - message: Зв'язок JTAC для FTL
+  - message: "\u0417\u0432'\u044F\u0437\u043E\u043A JTAC \u0434\u043B\u044F FTL"
     type: Add
-  - message: NewMeds додано до білого списку медичного ременя
+  - message: "NewMeds \u0434\u043E\u0434\u0430\u043D\u043E \u0434\u043E \u0431\u0456\
+      \u043B\u043E\u0433\u043E \u0441\u043F\u0438\u0441\u043A\u0443 \u043C\u0435\u0434\
+      \u0438\u0447\u043D\u043E\u0433\u043E \u0440\u0435\u043C\u0435\u043D\u044F"
     type: Add
-  - message: Скорострільність сошок ослаблено — AR kramer підсилено
+  - message: "\u0421\u043A\u043E\u0440\u043E\u0441\u0442\u0440\u0456\u043B\u044C\u043D\
+      \u0456\u0441\u0442\u044C \u0441\u043E\u0448\u043E\u043A \u043E\u0441\u043B\u0430\
+      \u0431\u043B\u0435\u043D\u043E \u2014 AR kramer \u043F\u0456\u0434\u0441\u0438\
+      \u043B\u0435\u043D\u043E"
     type: Tweak
-  - message: Carp'ів тепер можна розрізати на шматки ножем м'ясника
+  - message: "Carp'\u0456\u0432 \u0442\u0435\u043F\u0435\u0440 \u043C\u043E\u0436\u043D\
+      \u0430 \u0440\u043E\u0437\u0440\u0456\u0437\u0430\u0442\u0438 \u043D\u0430 \u0448\
+      \u043C\u0430\u0442\u043A\u0438 \u043D\u043E\u0436\u0435\u043C \u043C'\u044F\u0441\
+      \u043D\u0438\u043A\u0430"
     type: Fix
-  - message: Накази морпіхів не працювали для Commander та Junior Officers
+  - message: "\u041D\u0430\u043A\u0430\u0437\u0438 \u043C\u043E\u0440\u043F\u0456\u0445\
+      \u0456\u0432 \u043D\u0435 \u043F\u0440\u0430\u0446\u044E\u0432\u0430\u043B\u0438\
+      \ \u0434\u043B\u044F Commander \u0442\u0430 Junior Officers"
     type: Fix
   id: 91
   time: '2026-05-03T22:21:18.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/934
 - author: KeiKiyomi
   changes:
-  - message: Виправлено ящик з мінометом на ASRS, щоб тепер включав повний набір
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u044F\u0449\
+      \u0438\u043A \u0437 \u043C\u0456\u043D\u043E\u043C\u0435\u0442\u043E\u043C \u043D\
+      \u0430 ASRS, \u0449\u043E\u0431 \u0442\u0435\u043F\u0435\u0440 \u0432\u043A\u043B\
+      \u044E\u0447\u0430\u0432 \u043F\u043E\u0432\u043D\u0438\u0439 \u043D\u0430\u0431\
+      \u0456\u0440"
     type: Fix
   id: 92
   time: '2026-05-04T01:57:44.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/935
 - author: KeiKiyomi
   changes:
-  - message: Виправлено час вилучення LIFEPAK з костюма
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E \u0447\u0430\
+      \u0441 \u0432\u0438\u043B\u0443\u0447\u0435\u043D\u043D\u044F LIFEPAK \u0437\
+      \ \u043A\u043E\u0441\u0442\u044E\u043C\u0430"
     type: Fix
   id: 93
   time: '2026-05-07T01:36:37.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/959
 - author: maertayn
   changes:
-  - message: beanieclava для CLF (схожа на beanie) — рання робота
+  - message: "beanieclava \u0434\u043B\u044F CLF (\u0441\u0445\u043E\u0436\u0430 \u043D\
+      \u0430 beanie) \u2014 \u0440\u0430\u043D\u043D\u044F \u0440\u043E\u0431\u043E\
+      \u0442\u0430"
     type: Add
-  - message: Раціони MRE/IRP для RMC/UPP
+  - message: "\u0420\u0430\u0446\u0456\u043E\u043D\u0438 MRE/IRP \u0434\u043B\u044F\
+      \ RMC/UPP"
     type: Add
-  - message: Голови колонії можуть користуватися консолями департаментів одне одного
+  - message: "\u0413\u043E\u043B\u043E\u0432\u0438 \u043A\u043E\u043B\u043E\u043D\u0456\
+      \u0457 \u043C\u043E\u0436\u0443\u0442\u044C \u043A\u043E\u0440\u0438\u0441\u0442\
+      \u0443\u0432\u0430\u0442\u0438\u0441\u044F \u043A\u043E\u043D\u0441\u043E\u043B\
+      \u044F\u043C\u0438 \u0434\u0435\u043F\u0430\u0440\u0442\u0430\u043C\u0435\u043D\
+      \u0442\u0456\u0432 \u043E\u0434\u043D\u0435 \u043E\u0434\u043D\u043E\u0433\u043E"
     type: Tweak
-  - message: K9 тепер спавн третьої сторони, не вірний Govfor/Opfor
+  - message: "K9 \u0442\u0435\u043F\u0435\u0440 \u0441\u043F\u0430\u0432\u043D \u0442\
+      \u0440\u0435\u0442\u044C\u043E\u0457 \u0441\u0442\u043E\u0440\u043E\u043D\u0438\
+      , \u043D\u0435 \u0432\u0456\u0440\u043D\u0438\u0439 Govfor/Opfor"
     type: Fix
-  - message: Ravager (Hedgehog) не показував свій мертвий спрайт
+  - message: "Ravager (Hedgehog) \u043D\u0435 \u043F\u043E\u043A\u0430\u0437\u0443\
+      \u0432\u0430\u0432 \u0441\u0432\u0456\u0439 \u043C\u0435\u0440\u0442\u0432\u0438\
+      \u0439 \u0441\u043F\u0440\u0430\u0439\u0442"
     type: Fix
   id: 94
   time: '2026-05-07T19:24:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/968
 - author: L0pz
   changes:
-  - message: Перемальовано саморобні бомби
+  - message: "\u041F\u0435\u0440\u0435\u043C\u0430\u043B\u044C\u043E\u0432\u0430\u043D\
+      \u043E \u0441\u0430\u043C\u043E\u0440\u043E\u0431\u043D\u0456 \u0431\u043E\u043C\
+      \u0431\u0438"
     type: Tweak
   id: 95
   time: '2026-05-07T19:29:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/964
 - author: Arcticular1
   changes:
-  - message: Додано 4x приціл до снайпера LACN
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E 4x \u043F\u0440\u0438\u0446\u0456\
+      \u043B \u0434\u043E \u0441\u043D\u0430\u0439\u043F\u0435\u0440\u0430 LACN"
     type: Add
-  - message: Виправлено, що снайпер LACN не міг використовувати прицільний постріл.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E, \u0449\
+      \u043E \u0441\u043D\u0430\u0439\u043F\u0435\u0440 LACN \u043D\u0435 \u043C\u0456\
+      \u0433 \u0432\u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\u0432\
+      \u0430\u0442\u0438 \u043F\u0440\u0438\u0446\u0456\u043B\u044C\u043D\u0438\u0439\
+      \ \u043F\u043E\u0441\u0442\u0440\u0456\u043B."
     type: Fix
   id: 96
   time: '2026-05-07T19:30:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/962
 - author: Arcticular1
   changes:
-  - message: Командуванню WEYU та UPP трохи душі в їхні вендори!
+  - message: "\u041A\u043E\u043C\u0430\u043D\u0434\u0443\u0432\u0430\u043D\u043D\u044E\
+      \ WEYU \u0442\u0430 UPP \u0442\u0440\u043E\u0445\u0438 \u0434\u0443\u0448\u0456\
+      \ \u0432 \u0457\u0445\u043D\u0456 \u0432\u0435\u043D\u0434\u043E\u0440\u0438\
+      !"
     type: Tweak
   id: 97
   time: '2026-05-07T19:31:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/961
 - author: Tyzemol
   changes:
-  - message: Аналізатори розвідки фракцій тепер незнищенні (і ксеноси не можуть їх розплавити)
+  - message: "\u0410\u043D\u0430\u043B\u0456\u0437\u0430\u0442\u043E\u0440\u0438 \u0440\
+      \u043E\u0437\u0432\u0456\u0434\u043A\u0438 \u0444\u0440\u0430\u043A\u0446\u0456\
+      \u0439 \u0442\u0435\u043F\u0435\u0440 \u043D\u0435\u0437\u043D\u0438\u0449\u0435\
+      \u043D\u043D\u0456 (\u0456 \u043A\u0441\u0435\u043D\u043E\u0441\u0438 \u043D\
+      \u0435 \u043C\u043E\u0436\u0443\u0442\u044C \u0457\u0445 \u0440\u043E\u0437\u043F\
+      \u043B\u0430\u0432\u0438\u0442\u0438)"
     type: Tweak
   id: 98
   time: '2026-05-07T19:31:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/960
 - author: KeiKiyomi
   changes:
-  - message: Додано час підвищення до всіх військових ролей та WEYU-SEC і WEYU-SCI
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0447\u0430\u0441 \u043F\u0456\
+      \u0434\u0432\u0438\u0449\u0435\u043D\u043D\u044F \u0434\u043E \u0432\u0441\u0456\
+      \u0445 \u0432\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u0438\u0445 \u0440\u043E\
+      \u043B\u0435\u0439 \u0442\u0430 WEYU-SEC \u0456 WEYU-SCI"
     type: Add
   id: 99
   time: '2026-05-07T19:32:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/956
 - author: Arcticular1
   changes:
-  - message: Прибрано FORECON Sniper Team
+  - message: "\u041F\u0440\u0438\u0431\u0440\u0430\u043D\u043E FORECON Sniper Team"
     type: Remove
-  - message: Ціни на підкріплення GOVFOR ослаблено.
+  - message: "\u0426\u0456\u043D\u0438 \u043D\u0430 \u043F\u0456\u0434\u043A\u0440\
+      \u0456\u043F\u043B\u0435\u043D\u043D\u044F GOVFOR \u043E\u0441\u043B\u0430\u0431\
+      \u043B\u0435\u043D\u043E."
     type: Tweak
   id: 100
   time: '2026-05-08T21:05:28.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/973
 - author: Arcticular1
   changes:
-  - message: Нова вогнепальна зброя в лоадаут Commander
+  - message: "\u041D\u043E\u0432\u0430 \u0432\u043E\u0433\u043D\u0435\u043F\u0430\u043B\
+      \u044C\u043D\u0430 \u0437\u0431\u0440\u043E\u044F \u0432 \u043B\u043E\u0430\u0434\
+      \u0430\u0443\u0442 Commander"
     type: Add
   id: 101
   time: '2026-05-09T20:55:30.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/978
 - author: maertayn
   changes:
-  - message: Синти більше не забирають частку вашої важко заробленої зарплати!
+  - message: "\u0421\u0438\u043D\u0442\u0438 \u0431\u0456\u043B\u044C\u0448\u0435\
+      \ \u043D\u0435 \u0437\u0430\u0431\u0438\u0440\u0430\u044E\u0442\u044C \u0447\
+      \u0430\u0441\u0442\u043A\u0443 \u0432\u0430\u0448\u043E\u0457 \u0432\u0430\u0436\
+      \u043A\u043E \u0437\u0430\u0440\u043E\u0431\u043B\u0435\u043D\u043E\u0457 \u0437\
+      \u0430\u0440\u043F\u043B\u0430\u0442\u0438!"
     type: Fix
   id: 102
   time: '2026-05-10T05:47:51.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/983
 - author: flex5hybrid
   changes:
-  - message: Невдалі виклики підтримки третьої сторони більше не витрачають кошти
-      консолі й не споживають виклик.
+  - message: "\u041D\u0435\u0432\u0434\u0430\u043B\u0456 \u0432\u0438\u043A\u043B\u0438\
+      \u043A\u0438 \u043F\u0456\u0434\u0442\u0440\u0438\u043C\u043A\u0438 \u0442\u0440\
+      \u0435\u0442\u044C\u043E\u0457 \u0441\u0442\u043E\u0440\u043E\u043D\u0438 \u0431\
+      \u0456\u043B\u044C\u0448\u0435 \u043D\u0435 \u0432\u0438\u0442\u0440\u0430\u0447\
+      \u0430\u044E\u0442\u044C \u043A\u043E\u0448\u0442\u0438 \u043A\u043E\u043D\u0441\
+      \u043E\u043B\u0456 \u0439 \u043D\u0435 \u0441\u043F\u043E\u0436\u0438\u0432\u0430\
+      \u044E\u0442\u044C \u0432\u0438\u043A\u043B\u0438\u043A."
     type: Fix
   id: 103
   time: '2026-05-11T04:20:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/987
 - author: Arcticular1
   changes:
-  - message: Прицільний постріл ослаблено, і тепер снайпери мають більше покладатися
-      на своїх споттерів.
+  - message: "\u041F\u0440\u0438\u0446\u0456\u043B\u044C\u043D\u0438\u0439 \u043F\u043E\
+      \u0441\u0442\u0440\u0456\u043B \u043E\u0441\u043B\u0430\u0431\u043B\u0435\u043D\
+      \u043E, \u0456 \u0442\u0435\u043F\u0435\u0440 \u0441\u043D\u0430\u0439\u043F\
+      \u0435\u0440\u0438 \u043C\u0430\u044E\u0442\u044C \u0431\u0456\u043B\u044C\u0448\
+      \u0435 \u043F\u043E\u043A\u043B\u0430\u0434\u0430\u0442\u0438\u0441\u044F \u043D\
+      \u0430 \u0441\u0432\u043E\u0457\u0445 \u0441\u043F\u043E\u0442\u0442\u0435\u0440\
+      \u0456\u0432."
     type: Tweak
   id: 104
   time: '2026-05-11T07:36:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/971
 - author: KeiKiyomi
   changes:
-  - message: Змінено шкоду метального ножа з 50 на 25
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E \u0448\u043A\u043E\u0434\u0443\
+      \ \u043C\u0435\u0442\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043D\u043E\u0436\
+      \u0430 \u0437 50 \u043D\u0430 25"
     type: Tweak
   id: 105
   time: '2026-05-14T19:45:58.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1001
 - author: Piticzu
   changes:
-  - message: Wendigo тепер має повністю кастомні звуки для всіх емоцій (гарчання,
-      шипіння, рев, допомога).
+  - message: "Wendigo \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u0454 \u043F\u043E\
+      \u0432\u043D\u0456\u0441\u0442\u044E \u043A\u0430\u0441\u0442\u043E\u043C\u043D\
+      \u0456 \u0437\u0432\u0443\u043A\u0438 \u0434\u043B\u044F \u0432\u0441\u0456\u0445\
+      \ \u0435\u043C\u043E\u0446\u0456\u0439 (\u0433\u0430\u0440\u0447\u0430\u043D\
+      \u043D\u044F, \u0448\u0438\u043F\u0456\u043D\u043D\u044F, \u0440\u0435\u0432\
+      , \u0434\u043E\u043F\u043E\u043C\u043E\u0433\u0430)."
     type: Add
-  - message: Емоція дихання Wendigo.
+  - message: "\u0415\u043C\u043E\u0446\u0456\u044F \u0434\u0438\u0445\u0430\u043D\u043D\
+      \u044F Wendigo."
     type: Add
-  - message: Кастомні звуки смерті Wendigo.
+  - message: "\u041A\u0430\u0441\u0442\u043E\u043C\u043D\u0456 \u0437\u0432\u0443\u043A\
+      \u0438 \u0441\u043C\u0435\u0440\u0442\u0456 Wendigo."
     type: Add
-  - message: Здатність Doom screech у Wendigo (вимикає світло, оглушує ворогів поблизу).
+  - message: "\u0417\u0434\u0430\u0442\u043D\u0456\u0441\u0442\u044C Doom screech\
+      \ \u0443 Wendigo (\u0432\u0438\u043C\u0438\u043A\u0430\u0454 \u0441\u0432\u0456\
+      \u0442\u043B\u043E, \u043E\u0433\u043B\u0443\u0448\u0443\u0454 \u0432\u043E\u0440\
+      \u043E\u0433\u0456\u0432 \u043F\u043E\u0431\u043B\u0438\u0437\u0443)."
     type: Add
-  - message: Headbite Wendigo програє ближній screech та поширений мапою спрямований
-      screech на перезарядці.
+  - message: "Headbite Wendigo \u043F\u0440\u043E\u0433\u0440\u0430\u0454 \u0431\u043B\
+      \u0438\u0436\u043D\u0456\u0439 screech \u0442\u0430 \u043F\u043E\u0448\u0438\
+      \u0440\u0435\u043D\u0438\u0439 \u043C\u0430\u043F\u043E\u044E \u0441\u043F\u0440\
+      \u044F\u043C\u043E\u0432\u0430\u043D\u0438\u0439 screech \u043D\u0430 \u043F\
+      \u0435\u0440\u0435\u0437\u0430\u0440\u044F\u0434\u0446\u0456."
     type: Add
-  - message: Поширений мапою screech приглушений для гравців у приміщеннях.
+  - message: "\u041F\u043E\u0448\u0438\u0440\u0435\u043D\u0438\u0439 \u043C\u0430\u043F\
+      \u043E\u044E screech \u043F\u0440\u0438\u0433\u043B\u0443\u0448\u0435\u043D\u0438\
+      \u0439 \u0434\u043B\u044F \u0433\u0440\u0430\u0432\u0446\u0456\u0432 \u0443\
+      \ \u043F\u0440\u0438\u043C\u0456\u0449\u0435\u043D\u043D\u044F\u0445."
     type: Add
-  - message: Стрибок Wendigo тепер програє кастомні звуки атаки.
+  - message: "\u0421\u0442\u0440\u0438\u0431\u043E\u043A Wendigo \u0442\u0435\u043F\
+      \u0435\u0440 \u043F\u0440\u043E\u0433\u0440\u0430\u0454 \u043A\u0430\u0441\u0442\
+      \u043E\u043C\u043D\u0456 \u0437\u0432\u0443\u043A\u0438 \u0430\u0442\u0430\u043A\
+      \u0438."
     type: Tweak
-  - message: Нові WendigoHeadbiteAudioComponent та WendigoHeadbiteAudioSystem для
-      спрямованого звуку з приглушенням на основі даху.
+  - message: "\u041D\u043E\u0432\u0456 WendigoHeadbiteAudioComponent \u0442\u0430\
+      \ WendigoHeadbiteAudioSystem \u0434\u043B\u044F \u0441\u043F\u0440\u044F\u043C\
+      \u043E\u0432\u0430\u043D\u043E\u0433\u043E \u0437\u0432\u0443\u043A\u0443 \u0437\
+      \ \u043F\u0440\u0438\u0433\u043B\u0443\u0448\u0435\u043D\u043D\u044F\u043C \u043D\
+      \u0430 \u043E\u0441\u043D\u043E\u0432\u0456 \u0434\u0430\u0445\u0443."
     type: Code
   id: 106
   time: '2026-05-14T22:41:14.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1000
 - author: OmerF-afk
   changes:
-  - message: Додано купу всього до вендорів тощо та доповнення для CLF.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043A\u0443\u043F\u0443 \u0432\
+      \u0441\u044C\u043E\u0433\u043E \u0434\u043E \u0432\u0435\u043D\u0434\u043E\u0440\
+      \u0456\u0432 \u0442\u043E\u0449\u043E \u0442\u0430 \u0434\u043E\u043F\u043E\u0432\
+      \u043D\u0435\u043D\u043D\u044F \u0434\u043B\u044F CLF."
     type: Add
   id: 107
   time: '2026-05-14T22:45:48.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/993
 - author: Kadeo64
   changes:
-  - message: тепер abomination'и — азартний експеримент, як і решта експериментів weyu.
+  - message: "\u0442\u0435\u043F\u0435\u0440 abomination'\u0438 \u2014 \u0430\u0437\
+      \u0430\u0440\u0442\u043D\u0438\u0439 \u0435\u043A\u0441\u043F\u0435\u0440\u0438\
+      \u043C\u0435\u043D\u0442, \u044F\u043A \u0456 \u0440\u0435\u0448\u0442\u0430\
+      \ \u0435\u043A\u0441\u043F\u0435\u0440\u0438\u043C\u0435\u043D\u0442\u0456\u0432\
+      \ weyu."
     type: Remove
   id: 108
   time: '2026-05-17T09:31:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1017
 - author: Piticzu
   changes:
-  - message: Wendigo тепер має нові спрайти від Aleksh.
+  - message: "Wendigo \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u0454 \u043D\u043E\
+      \u0432\u0456 \u0441\u043F\u0440\u0430\u0439\u0442\u0438 \u0432\u0456\u0434 Aleksh."
     type: Add
-  - message: Screech від head-bite Wendigo тепер чутний усім гравцям, включно з самим Wendigo.
+  - message: "Screech \u0432\u0456\u0434 head-bite Wendigo \u0442\u0435\u043F\u0435\
+      \u0440 \u0447\u0443\u0442\u043D\u0438\u0439 \u0443\u0441\u0456\u043C \u0433\u0440\
+      \u0430\u0432\u0446\u044F\u043C, \u0432\u043A\u043B\u044E\u0447\u043D\u043E \u0437\
+      \ \u0441\u0430\u043C\u0438\u043C Wendigo."
     type: Tweak
-  - message: Screech більше не перекривається з ближнім звуком.
+  - message: "Screech \u0431\u0456\u043B\u044C\u0448\u0435 \u043D\u0435 \u043F\u0435\
+      \u0440\u0435\u043A\u0440\u0438\u0432\u0430\u0454\u0442\u044C\u0441\u044F \u0437\
+      \ \u0431\u043B\u0438\u0436\u043D\u0456\u043C \u0437\u0432\u0443\u043A\u043E\u043C\
+      ."
     type: Fix
   id: 109
   time: '2026-05-17T09:32:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1015
 - author: Arcticular1
   changes:
-  - message: Підсилено інфільтраційні черевики
+  - message: "\u041F\u0456\u0434\u0441\u0438\u043B\u0435\u043D\u043E \u0456\u043D\u0444\
+      \u0456\u043B\u044C\u0442\u0440\u0430\u0446\u0456\u0439\u043D\u0456 \u0447\u0435\
+      \u0440\u0435\u0432\u0438\u043A\u0438"
     type: Tweak
   id: 110
   time: '2026-05-17T09:35:48.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/997
 - author: MACMAN2003
   changes:
-  - message: Додано Corrupted Hive. Наразі лише спавн адміном.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E Corrupted Hive. \u041D\u0430\u0440\
+      \u0430\u0437\u0456 \u043B\u0438\u0448\u0435 \u0441\u043F\u0430\u0432\u043D \u0430\
+      \u0434\u043C\u0456\u043D\u043E\u043C."
     type: Add
-  - message: Щоб заспавнити corrupted hive, потрібно ввести "spawn CMUCorruptedHive"
+  - message: "\u0429\u043E\u0431 \u0437\u0430\u0441\u043F\u0430\u0432\u043D\u0438\u0442\
+      \u0438 corrupted hive, \u043F\u043E\u0442\u0440\u0456\u0431\u043D\u043E \u0432\
+      \u0432\u0435\u0441\u0442\u0438 \"spawn CMUCorruptedHive\""
     type: Admin
   id: 111
   time: '2026-05-17T09:38:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1018
 - author: maertayn
   changes:
-  - message: Підсилення мачете, ослаблення метального ножа, ослаблення maint. jack
+  - message: "\u041F\u0456\u0434\u0441\u0438\u043B\u0435\u043D\u043D\u044F \u043C\u0430\
+      \u0447\u0435\u0442\u0435, \u043E\u0441\u043B\u0430\u0431\u043B\u0435\u043D\u043D\
+      \u044F \u043C\u0435\u0442\u0430\u043B\u044C\u043D\u043E\u0433\u043E \u043D\u043E\
+      \u0436\u0430, \u043E\u0441\u043B\u0430\u0431\u043B\u0435\u043D\u043D\u044F maint.\
+      \ jack"
     type: Tweak
-  - message: LMG Kramer втратив свою сошку, сошки тепер знову впливають на скорострільність
+  - message: "LMG Kramer \u0432\u0442\u0440\u0430\u0442\u0438\u0432 \u0441\u0432\u043E\
+      \u044E \u0441\u043E\u0448\u043A\u0443, \u0441\u043E\u0448\u043A\u0438 \u0442\
+      \u0435\u043F\u0435\u0440 \u0437\u043D\u043E\u0432\u0443 \u0432\u043F\u043B\u0438\
+      \u0432\u0430\u044E\u0442\u044C \u043D\u0430 \u0441\u043A\u043E\u0440\u043E\u0441\
+      \u0442\u0440\u0456\u043B\u044C\u043D\u0456\u0441\u0442\u044C"
     type: Tweak
-  - message: Рюкзаки/сумки більше не вміщуються в RTO обмеженого розміру
+  - message: "\u0420\u044E\u043A\u0437\u0430\u043A\u0438/\u0441\u0443\u043C\u043A\u0438\
+      \ \u0431\u0456\u043B\u044C\u0448\u0435 \u043D\u0435 \u0432\u043C\u0456\u0449\
+      \u0443\u044E\u0442\u044C\u0441\u044F \u0432 RTO \u043E\u0431\u043C\u0435\u0436\
+      \u0435\u043D\u043E\u0433\u043E \u0440\u043E\u0437\u043C\u0456\u0440\u0443"
     type: Fix
-  - message: 'Коригування масштабування: жодних спавнів 2-3 королев, багато культистів та 2 MP/1 Aux-Tech'
+  - message: "\u041A\u043E\u0440\u0438\u0433\u0443\u0432\u0430\u043D\u043D\u044F \u043C\
+      \u0430\u0441\u0448\u0442\u0430\u0431\u0443\u0432\u0430\u043D\u043D\u044F: \u0436\
+      \u043E\u0434\u043D\u0438\u0445 \u0441\u043F\u0430\u0432\u043D\u0456\u0432 2-3\
+      \ \u043A\u043E\u0440\u043E\u043B\u0435\u0432, \u0431\u0430\u0433\u0430\u0442\
+      \u043E \u043A\u0443\u043B\u044C\u0442\u0438\u0441\u0442\u0456\u0432 \u0442\u0430\
+      \ 2 MP/1 Aux-Tech"
     type: Tweak
-  - message: Синти не отримували компоненти EyeProtection/FlashImmunity
+  - message: "\u0421\u0438\u043D\u0442\u0438 \u043D\u0435 \u043E\u0442\u0440\u0438\
+      \u043C\u0443\u0432\u0430\u043B\u0438 \u043A\u043E\u043C\u043F\u043E\u043D\u0435\
+      \u043D\u0442\u0438 EyeProtection/FlashImmunity"
     type: Fix
-  - message: Радіоканали мають префікс 'radio', щоб запобігти незрозумілому найменуванню
+  - message: "\u0420\u0430\u0434\u0456\u043E\u043A\u0430\u043D\u0430\u043B\u0438 \u043C\
+      \u0430\u044E\u0442\u044C \u043F\u0440\u0435\u0444\u0456\u043A\u0441 'radio',\
+      \ \u0449\u043E\u0431 \u0437\u0430\u043F\u043E\u0431\u0456\u0433\u0442\u0438\
+      \ \u043D\u0435\u0437\u0440\u043E\u0437\u0443\u043C\u0456\u043B\u043E\u043C\u0443\
+      \ \u043D\u0430\u0439\u043C\u0435\u043D\u0443\u0432\u0430\u043D\u043D\u044E"
     type: Code
-  - message: Доступи консолей Ambassador, Colony та Corporate
+  - message: "\u0414\u043E\u0441\u0442\u0443\u043F\u0438 \u043A\u043E\u043D\u0441\u043E\
+      \u043B\u0435\u0439 Ambassador, Colony \u0442\u0430 Corporate"
     type: Fix
-  - message: Craftable знаки міни та регулювальника руху
+  - message: "Craftable \u0437\u043D\u0430\u043A\u0438 \u043C\u0456\u043D\u0438 \u0442\
+      \u0430 \u0440\u0435\u0433\u0443\u043B\u044E\u0432\u0430\u043B\u044C\u043D\u0438\
+      \u043A\u0430 \u0440\u0443\u0445\u0443"
     type: Add
-  - message: OW сортуватиме морпіхів за алфавітом замість за хеш-ключем
+  - message: "OW \u0441\u043E\u0440\u0442\u0443\u0432\u0430\u0442\u0438\u043C\u0435\
+      \ \u043C\u043E\u0440\u043F\u0456\u0445\u0456\u0432 \u0437\u0430 \u0430\u043B\
+      \u0444\u0430\u0432\u0456\u0442\u043E\u043C \u0437\u0430\u043C\u0456\u0441\u0442\
+      \u044C \u0437\u0430 \u0445\u0435\u0448-\u043A\u043B\u044E\u0447\u0435\u043C"
     type: Tweak
-  - message: Lesser Drones ігноруються, а CLF у тюремних комбінезонах виключені з умов перемоги
+  - message: "Lesser Drones \u0456\u0433\u043D\u043E\u0440\u0443\u044E\u0442\u044C\
+      \u0441\u044F, \u0430 CLF \u0443 \u0442\u044E\u0440\u0435\u043C\u043D\u0438\u0445\
+      \ \u043A\u043E\u043C\u0431\u0456\u043D\u0435\u0437\u043E\u043D\u0430\u0445 \u0432\
+      \u0438\u043A\u043B\u044E\u0447\u0435\u043D\u0456 \u0437 \u0443\u043C\u043E\u0432\
+      \ \u043F\u0435\u0440\u0435\u043C\u043E\u0433\u0438"
     type: Tweak
   id: 112
   time: '2026-05-17T21:46:59.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1012
 - author: Arcticular1
   changes:
-  - message: Покращення вендора Yautja
+  - message: "\u041F\u043E\u043A\u0440\u0430\u0449\u0435\u043D\u043D\u044F \u0432\u0435\
+      \u043D\u0434\u043E\u0440\u0430 Yautja"
     type: Tweak
-  - message: Швидкість Yautja + сховище зброї
+  - message: "\u0428\u0432\u0438\u0434\u043A\u0456\u0441\u0442\u044C Yautja + \u0441\
+      \u0445\u043E\u0432\u0438\u0449\u0435 \u0437\u0431\u0440\u043E\u0457"
     type: Fix
   id: 113
   time: '2026-05-18T20:38:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1026
 - author: KeiKiyomi
   changes:
-  - message: Третя сторона Prodigy
+  - message: "\u0422\u0440\u0435\u0442\u044F \u0441\u0442\u043E\u0440\u043E\u043D\u0430\
+      \ Prodigy"
     type: Add
   id: 114
   time: '2026-05-20T01:16:33.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1034
 - author: MACMAN2003
   changes:
-  - message: CLF та культисти тепер коректно з'являються в меню завершення раунду
+  - message: "CLF \u0442\u0430 \u043A\u0443\u043B\u044C\u0442\u0438\u0441\u0442\u0438\
+      \ \u0442\u0435\u043F\u0435\u0440 \u043A\u043E\u0440\u0435\u043A\u0442\u043D\u043E\
+      \ \u0437'\u044F\u0432\u043B\u044F\u044E\u0442\u044C\u0441\u044F \u0432 \u043C\
+      \u0435\u043D\u044E \u0437\u0430\u0432\u0435\u0440\u0448\u0435\u043D\u043D\u044F\
+      \ \u0440\u0430\u0443\u043D\u0434\u0443"
     type: Fix
-  - message: Додано два нові verb до меню verb антагоніста — один, щоб перетворити
-      когось на культиста, інший — щоб перетворити когось на рекрута CLF.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0434\u0432\u0430 \u043D\u043E\
+      \u0432\u0456 verb \u0434\u043E \u043C\u0435\u043D\u044E verb \u0430\u043D\u0442\
+      \u0430\u0433\u043E\u043D\u0456\u0441\u0442\u0430 \u2014 \u043E\u0434\u0438\u043D\
+      , \u0449\u043E\u0431 \u043F\u0435\u0440\u0435\u0442\u0432\u043E\u0440\u0438\u0442\
+      \u0438 \u043A\u043E\u0433\u043E\u0441\u044C \u043D\u0430 \u043A\u0443\u043B\u044C\
+      \u0442\u0438\u0441\u0442\u0430, \u0456\u043D\u0448\u0438\u0439 \u2014 \u0449\
+      \u043E\u0431 \u043F\u0435\u0440\u0435\u0442\u0432\u043E\u0440\u0438\u0442\u0438\
+      \ \u043A\u043E\u0433\u043E\u0441\u044C \u043D\u0430 \u0440\u0435\u043A\u0440\
+      \u0443\u0442\u0430 CLF."
     type: Admin
   id: 115
   time: '2026-05-20T01:17:01.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1038
 - author: L0pz
   changes:
-  - message: Додано нові спрайти синтетичного ключа
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043D\u043E\u0432\u0456 \u0441\
+      \u043F\u0440\u0430\u0439\u0442\u0438 \u0441\u0438\u043D\u0442\u0435\u0442\u0438\
+      \u0447\u043D\u043E\u0433\u043E \u043A\u043B\u044E\u0447\u0430"
     type: Add
   id: 116
   time: '2026-05-20T02:19:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1023
 - author: OmerF-afk
   changes:
-  - message: Додано ножиці до сумки MP та Advisor
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043D\u043E\u0436\u0438\u0446\u0456\
+      \ \u0434\u043E \u0441\u0443\u043C\u043A\u0438 MP \u0442\u0430 Advisor"
     type: Add
   id: 117
   time: '2026-05-20T13:41:52.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1044
 - author: NzzyFk
   changes:
-  - message: Збільшено AP Basira, зменшено спад шкоди
+  - message: "\u0417\u0431\u0456\u043B\u044C\u0448\u0435\u043D\u043E AP Basira, \u0437\
+      \u043C\u0435\u043D\u0448\u0435\u043D\u043E \u0441\u043F\u0430\u0434 \u0448\u043A\
+      \u043E\u0434\u0438"
     type: Tweak
   id: 118
   time: '2026-05-21T00:43:45.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1048
 - author: mikusssssss
   changes:
-  - message: Додано вогнемет M34-T як набір, який можна придбати в ASRS.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0432\u043E\u0433\u043D\u0435\u043C\
+      \u0435\u0442 M34-T \u044F\u043A \u043D\u0430\u0431\u0456\u0440, \u044F\u043A\
+      \u0438\u0439 \u043C\u043E\u0436\u043D\u0430 \u043F\u0440\u0438\u0434\u0431\u0430\
+      \u0442\u0438 \u0432 ASRS."
     type: Add
-  - message: Додано 3 нові рецепти напалму.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E 3 \u043D\u043E\u0432\u0456 \u0440\
+      \u0435\u0446\u0435\u043F\u0442\u0438 \u043D\u0430\u043F\u0430\u043B\u043C\u0443\
+      ."
     type: Add
   id: 119
   time: '2026-05-21T00:44:18.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1043
 - author: OmerF-afk
   changes:
-  - message: Додано більше опцій крафту з дерева.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0431\u0456\u043B\u044C\u0448\u0435\
+      \ \u043E\u043F\u0446\u0456\u0439 \u043A\u0440\u0430\u0444\u0442\u0443 \u0437\
+      \ \u0434\u0435\u0440\u0435\u0432\u0430."
     type: Add
   id: 120
   time: '2026-05-21T00:44:38.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1045
 - author: MACMAN2003
   changes:
-  - message: 'Нова HRP-роль: Entertainment Service Worker. Задумана діяти як справжній клоун.'
+  - message: "\u041D\u043E\u0432\u0430 HRP-\u0440\u043E\u043B\u044C: Entertainment\
+      \ Service Worker. \u0417\u0430\u0434\u0443\u043C\u0430\u043D\u0430 \u0434\u0456\
+      \u044F\u0442\u0438 \u044F\u043A \u0441\u043F\u0440\u0430\u0432\u0436\u043D\u0456\
+      \u0439 \u043A\u043B\u043E\u0443\u043D."
     type: Add
   id: 121
   time: '2026-05-21T00:45:12.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1052
 - author: OmerF-afk
   changes:
-  - message: Додано Exp mesons до лоадауту Synthetic.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E Exp mesons \u0434\u043E \u043B\u043E\
+      \u0430\u0434\u0430\u0443\u0442\u0443 Synthetic."
     type: Add
   id: 122
   time: '2026-05-21T01:15:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1046
 - author: mikusssssss
   changes:
-  - message: Набір M34-T у реквізиціях тепер має наповнений broiler ціною на один кастомний бак менше.
+  - message: "\u041D\u0430\u0431\u0456\u0440 M34-T \u0443 \u0440\u0435\u043A\u0432\
+      \u0456\u0437\u0438\u0446\u0456\u044F\u0445 \u0442\u0435\u043F\u0435\u0440 \u043C\
+      \u0430\u0454 \u043D\u0430\u043F\u043E\u0432\u043D\u0435\u043D\u0438\u0439 broiler\
+      \ \u0446\u0456\u043D\u043E\u044E \u043D\u0430 \u043E\u0434\u0438\u043D \u043A\
+      \u0430\u0441\u0442\u043E\u043C\u043D\u0438\u0439 \u0431\u0430\u043A \u043C\u0435\
+      \u043D\u0448\u0435."
     type: Tweak
   id: 123
   time: '2026-05-21T07:24:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1057
 - author: mikusssssss
   changes:
-  - message: Ролі GOVFOR та інші тепер мають коректно користуватися вогнеметом M34-T.
+  - message: "\u0420\u043E\u043B\u0456 GOVFOR \u0442\u0430 \u0456\u043D\u0448\u0456\
+      \ \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u044E\u0442\u044C \u043A\u043E\
+      \u0440\u0435\u043A\u0442\u043D\u043E \u043A\u043E\u0440\u0438\u0441\u0442\u0443\
+      \u0432\u0430\u0442\u0438\u0441\u044F \u0432\u043E\u0433\u043D\u0435\u043C\u0435\
+      \u0442\u043E\u043C M34-T."
     type: Fix
   id: 124
   time: '2026-05-21T19:55:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1063
 - author: mikusssssss
   changes:
-  - message: Додано 3 берети до лоадауту support synthetic.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E 3 \u0431\u0435\u0440\u0435\u0442\
+      \u0438 \u0434\u043E \u043B\u043E\u0430\u0434\u0430\u0443\u0442\u0443 support\
+      \ synthetic."
     type: Add
   id: 125
   time: '2026-05-21T19:57:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1060
 - author: deponiann
   changes:
-  - message: Парка deputy CMB тепер може тримати зброю в слоті сховища костюма.
+  - message: "\u041F\u0430\u0440\u043A\u0430 deputy CMB \u0442\u0435\u043F\u0435\u0440\
+      \ \u043C\u043E\u0436\u0435 \u0442\u0440\u0438\u043C\u0430\u0442\u0438 \u0437\
+      \u0431\u0440\u043E\u044E \u0432 \u0441\u043B\u043E\u0442\u0456 \u0441\u0445\u043E\
+      \u0432\u0438\u0449\u0430 \u043A\u043E\u0441\u0442\u044E\u043C\u0430."
     type: Tweak
   id: 126
   time: '2026-05-21T19:57:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1059
 - author: maertayn
   changes:
-  - message: Список змін витягується та оновлюється з описів PR.
+  - message: "\u0421\u043F\u0438\u0441\u043E\u043A \u0437\u043C\u0456\u043D \u0432\
+      \u0438\u0442\u044F\u0433\u0443\u0454\u0442\u044C\u0441\u044F \u0442\u0430 \u043E\
+      \u043D\u043E\u0432\u043B\u044E\u0454\u0442\u044C\u0441\u044F \u0437 \u043E\u043F\
+      \u0438\u0441\u0456\u0432 PR."
     type: Code
   id: 127
   time: '2026-05-22T01:59:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1039
 - author: Piticzu
   changes:
-  - message: Повністю прибрано плювок Королеви
+  - message: "\u041F\u043E\u0432\u043D\u0456\u0441\u0442\u044E \u043F\u0440\u0438\u0431\
+      \u0440\u0430\u043D\u043E \u043F\u043B\u044E\u0432\u043E\u043A \u041A\u043E\u0440\
+      \u043E\u043B\u0435\u0432\u0438"
     type: Remove
-  - message: Screech Королеви більше не оглушує й не паралізує, тепер накладає сильне сповільнення.
+  - message: "Screech \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0438 \u0431\u0456\
+      \u043B\u044C\u0448\u0435 \u043D\u0435 \u043E\u0433\u043B\u0443\u0448\u0443\u0454\
+      \ \u0439 \u043D\u0435 \u043F\u0430\u0440\u0430\u043B\u0456\u0437\u0443\u0454\
+      , \u0442\u0435\u043F\u0435\u0440 \u043D\u0430\u043A\u043B\u0430\u0434\u0430\u0454\
+      \ \u0441\u0438\u043B\u044C\u043D\u0435 \u0441\u043F\u043E\u0432\u0456\u043B\u044C\
+      \u043D\u0435\u043D\u043D\u044F."
     type: Tweak
-  - message: Королева збиває з ніг ворогів, по яких проходить
+  - message: "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0430 \u0437\u0431\u0438\u0432\
+      \u0430\u0454 \u0437 \u043D\u0456\u0433 \u0432\u043E\u0440\u043E\u0433\u0456\u0432\
+      , \u043F\u043E \u044F\u043A\u0438\u0445 \u043F\u0440\u043E\u0445\u043E\u0434\
+      \u0438\u0442\u044C"
     type: Add
-  - message: Скориговано шанс tackle Королеви
+  - message: "\u0421\u043A\u043E\u0440\u0438\u0433\u043E\u0432\u0430\u043D\u043E \u0448\
+      \u0430\u043D\u0441 tackle \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0438"
     type: Tweak
-  - message: Удари кігтів Королеви мають 40% шанс відрубати руки чи ноги
+  - message: "\u0423\u0434\u0430\u0440\u0438 \u043A\u0456\u0433\u0442\u0456\u0432\
+      \ \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0438 \u043C\u0430\u044E\u0442\u044C\
+      \ 40% \u0448\u0430\u043D\u0441 \u0432\u0456\u0434\u0440\u0443\u0431\u0430\u0442\
+      \u0438 \u0440\u0443\u043A\u0438 \u0447\u0438 \u043D\u043E\u0433\u0438"
     type: Add
-  - message: Формулу tackle скориговано на прогресивне масштабування
+  - message: "\u0424\u043E\u0440\u043C\u0443\u043B\u0443 tackle \u0441\u043A\u043E\
+      \u0440\u0438\u0433\u043E\u0432\u0430\u043D\u043E \u043D\u0430 \u043F\u0440\u043E\
+      \u0433\u0440\u0435\u0441\u0438\u0432\u043D\u0435 \u043C\u0430\u0441\u0448\u0442\
+      \u0430\u0431\u0443\u0432\u0430\u043D\u043D\u044F"
     type: Tweak
-  - message: Тягнення після атаки більше не має затримки
+  - message: "\u0422\u044F\u0433\u043D\u0435\u043D\u043D\u044F \u043F\u0456\u0441\u043B\
+      \u044F \u0430\u0442\u0430\u043A\u0438 \u0431\u0456\u043B\u044C\u0448\u0435 \u043D\
+      \u0435 \u043C\u0430\u0454 \u0437\u0430\u0442\u0440\u0438\u043C\u043A\u0438"
     type: Tweak
-  - message: Смугу замаху стрибка паразита приховано від інших гравців
+  - message: "\u0421\u043C\u0443\u0433\u0443 \u0437\u0430\u043C\u0430\u0445\u0443\
+      \ \u0441\u0442\u0440\u0438\u0431\u043A\u0430 \u043F\u0430\u0440\u0430\u0437\u0438\
+      \u0442\u0430 \u043F\u0440\u0438\u0445\u043E\u0432\u0430\u043D\u043E \u0432\u0456\
+      \u0434 \u0456\u043D\u0448\u0438\u0445 \u0433\u0440\u0430\u0432\u0446\u0456\u0432"
     type: Tweak
   id: 128
   time: '2026-05-22T13:25:52.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1031
 - author: CrazeTheDragon
   changes:
-  - message: тепер Xeno Queen може використовувати обидва шатли морпіхів для захоплення.
+  - message: "\u0442\u0435\u043F\u0435\u0440 Xeno Queen \u043C\u043E\u0436\u0435 \u0432\
+      \u0438\u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\u0432\u0430\u0442\
+      \u0438 \u043E\u0431\u0438\u0434\u0432\u0430 \u0448\u0430\u0442\u043B\u0438 \u043C\
+      \u043E\u0440\u043F\u0456\u0445\u0456\u0432 \u0434\u043B\u044F \u0437\u0430\u0445\
+      \u043E\u043F\u043B\u0435\u043D\u043D\u044F."
     type: Fix
   id: 129
   time: '2026-05-22T13:31:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1074
 - author: troytroy400
   changes:
-  - message: Нові фланелеві та квіткові сорочки для VAIPO та цивільних.
+  - message: "\u041D\u043E\u0432\u0456 \u0444\u043B\u0430\u043D\u0435\u043B\u0435\u0432\
+      \u0456 \u0442\u0430 \u043A\u0432\u0456\u0442\u043A\u043E\u0432\u0456 \u0441\u043E\
+      \u0440\u043E\u0447\u043A\u0438 \u0434\u043B\u044F VAIPO \u0442\u0430 \u0446\u0438\
+      \u0432\u0456\u043B\u044C\u043D\u0438\u0445."
     type: Add
-  - message: Оновлено правила.
+  - message: "\u041E\u043D\u043E\u0432\u043B\u0435\u043D\u043E \u043F\u0440\u0430\u0432\
+      \u0438\u043B\u0430."
     type: Tweak
   id: 130
   time: '2026-05-22T15:10:59.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1075
 - author: mikusssssss
   changes:
-  - message: Додано замок до плазмової імпульсної гвинтівки XM99A
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0437\u0430\u043C\u043E\u043A\
+      \ \u0434\u043E \u043F\u043B\u0430\u0437\u043C\u043E\u0432\u043E\u0457 \u0456\
+      \u043C\u043F\u0443\u043B\u044C\u0441\u043D\u043E\u0457 \u0433\u0432\u0438\u043D\
+      \u0442\u0456\u0432\u043A\u0438 XM99A"
     type: Add
   id: 131
   time: '2026-05-22T16:40:36.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1025
 - author: troytroy400
   changes:
-  - message: Додано прапори, що встановлюються, до вендорів реквізицій.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043F\u0440\u0430\u043F\u043E\u0440\
+      \u0438, \u0449\u043E \u0432\u0441\u0442\u0430\u043D\u043E\u0432\u043B\u044E\u044E\
+      \u0442\u044C\u0441\u044F, \u0434\u043E \u0432\u0435\u043D\u0434\u043E\u0440\u0456\
+      \u0432 \u0440\u0435\u043A\u0432\u0456\u0437\u0438\u0446\u0456\u0439."
     type: Add
   id: 132
   time: '2026-05-22T17:14:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1077
 - author: maertayn
   changes:
-  - message: Squad Sergeant (SL), JO/CO — приклади ролей абстракції/наслідування
+  - message: "Squad Sergeant (SL), JO/CO \u2014 \u043F\u0440\u0438\u043A\u043B\u0430\
+      \u0434\u0438 \u0440\u043E\u043B\u0435\u0439 \u0430\u0431\u0441\u0442\u0440\u0430\
+      \u043A\u0446\u0456\u0457/\u043D\u0430\u0441\u043B\u0456\u0434\u0443\u0432\u0430\
+      \u043D\u043D\u044F"
     type: Code
-  - message: Імена Overwatch та Spawnmenu тепер підтримують локалізацію, з відкатом до сирих рядків
+  - message: "\u0406\u043C\u0435\u043D\u0430 Overwatch \u0442\u0430 Spawnmenu \u0442\
+      \u0435\u043F\u0435\u0440 \u043F\u0456\u0434\u0442\u0440\u0438\u043C\u0443\u044E\
+      \u0442\u044C \u043B\u043E\u043A\u0430\u043B\u0456\u0437\u0430\u0446\u0456\u044E\
+      , \u0437 \u0432\u0456\u0434\u043A\u0430\u0442\u043E\u043C \u0434\u043E \u0441\
+      \u0438\u0440\u0438\u0445 \u0440\u044F\u0434\u043A\u0456\u0432"
     type: Code
   id: 133
   time: '2026-05-23T19:46:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1086
 - author: Piticzu
   changes:
-  - message: Шанс відрубання кінцівок у ближньому бою Королеви знижено з 40% до 20%
-      проти цілей у броні зі стійкістю до ударів. Цілі без броні залишаються на 40%.
+  - message: "\u0428\u0430\u043D\u0441 \u0432\u0456\u0434\u0440\u0443\u0431\u0430\u043D\
+      \u043D\u044F \u043A\u0456\u043D\u0446\u0456\u0432\u043E\u043A \u0443 \u0431\u043B\
+      \u0438\u0436\u043D\u044C\u043E\u043C\u0443 \u0431\u043E\u044E \u041A\u043E\u0440\
+      \u043E\u043B\u0435\u0432\u0438 \u0437\u043D\u0438\u0436\u0435\u043D\u043E \u0437\
+      \ 40% \u0434\u043E 20% \u043F\u0440\u043E\u0442\u0438 \u0446\u0456\u043B\u0435\
+      \u0439 \u0443 \u0431\u0440\u043E\u043D\u0456 \u0437\u0456 \u0441\u0442\u0456\
+      \u0439\u043A\u0456\u0441\u0442\u044E \u0434\u043E \u0443\u0434\u0430\u0440\u0456\
+      \u0432. \u0426\u0456\u043B\u0456 \u0431\u0435\u0437 \u0431\u0440\u043E\u043D\
+      \u0456 \u0437\u0430\u043B\u0438\u0448\u0430\u044E\u0442\u044C\u0441\u044F \u043D\
+      \u0430 40%."
     type: Tweak
-  - message: Відрубання кінцівок у ближньому бою Королеви тепер віддає перевагу рукам
-      (60%) над ногами (40%) замість рівномірного випадкового вибору.
+  - message: "\u0412\u0456\u0434\u0440\u0443\u0431\u0430\u043D\u043D\u044F \u043A\u0456\
+      \u043D\u0446\u0456\u0432\u043E\u043A \u0443 \u0431\u043B\u0438\u0436\u043D\u044C\
+      \u043E\u043C\u0443 \u0431\u043E\u044E \u041A\u043E\u0440\u043E\u043B\u0435\u0432\
+      \u0438 \u0442\u0435\u043F\u0435\u0440 \u0432\u0456\u0434\u0434\u0430\u0454 \u043F\
+      \u0435\u0440\u0435\u0432\u0430\u0433\u0443 \u0440\u0443\u043A\u0430\u043C (60%)\
+      \ \u043D\u0430\u0434 \u043D\u043E\u0433\u0430\u043C\u0438 (40%) \u0437\u0430\
+      \u043C\u0456\u0441\u0442\u044C \u0440\u0456\u0432\u043D\u043E\u043C\u0456\u0440\
+      \u043D\u043E\u0433\u043E \u0432\u0438\u043F\u0430\u0434\u043A\u043E\u0432\u043E\
+      \u0433\u043E \u0432\u0438\u0431\u043E\u0440\u0443."
     type: Tweak
   id: 134
   time: '2026-05-23T22:12:33.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1079
 - author: CrazeTheDragon
   changes:
-  - message: зламані локалі bioscan
+  - message: "\u0437\u043B\u0430\u043C\u0430\u043D\u0456 \u043B\u043E\u043A\u0430\u043B\
+      \u0456 bioscan"
     type: Fix
   id: 135
   time: '2026-05-23T22:13:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1090
 - author: MarshesAndMeadows
   changes:
-  - message: Додано аудіо-меню wendigo, схоже на меню working joe.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0430\u0443\u0434\u0456\u043E\
+      -\u043C\u0435\u043D\u044E wendigo, \u0441\u0445\u043E\u0436\u0435 \u043D\u0430\
+      \ \u043C\u0435\u043D\u044E working joe."
     type: Add
   id: 136
   time: '2026-05-23T22:41:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1093
 - author: Piticzu
   changes:
-  - message: 'Королева отримує Acid Volley при дозріванні: випускає 3 кислотні снаряди
-      у вузькому конусі (кожна ціль уражається максимум раз)'
+  - message: "\u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0430 \u043E\u0442\u0440\u0438\
+      \u043C\u0443\u0454 Acid Volley \u043F\u0440\u0438 \u0434\u043E\u0437\u0440\u0456\
+      \u0432\u0430\u043D\u043D\u0456: \u0432\u0438\u043F\u0443\u0441\u043A\u0430\u0454\
+      \ 3 \u043A\u0438\u0441\u043B\u043E\u0442\u043D\u0456 \u0441\u043D\u0430\u0440\
+      \u044F\u0434\u0438 \u0443 \u0432\u0443\u0437\u044C\u043A\u043E\u043C\u0443 \u043A\
+      \u043E\u043D\u0443\u0441\u0456 (\u043A\u043E\u0436\u043D\u0430 \u0446\u0456\u043B\
+      \u044C \u0443\u0440\u0430\u0436\u0430\u0454\u0442\u044C\u0441\u044F \u043C\u0430\
+      \u043A\u0441\u0438\u043C\u0443\u043C \u0440\u0430\u0437)"
     type: Add
-  - message: Screech Королеви тепер обмежує зір до 2 тайлів, додає розкид зброї
+  - message: "Screech \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0438 \u0442\u0435\
+      \u043F\u0435\u0440 \u043E\u0431\u043C\u0435\u0436\u0443\u0454 \u0437\u0456\u0440\
+      \ \u0434\u043E 2 \u0442\u0430\u0439\u043B\u0456\u0432, \u0434\u043E\u0434\u0430\
+      \u0454 \u0440\u043E\u0437\u043A\u0438\u0434 \u0437\u0431\u0440\u043E\u0457"
     type: Tweak
-  - message: Ефекти screech Королеви уніфіковано до дальності 7 тайлів, усі дебафи тривають 8 секунд
+  - message: "\u0415\u0444\u0435\u043A\u0442\u0438 screech \u041A\u043E\u0440\u043E\
+      \u043B\u0435\u0432\u0438 \u0443\u043D\u0456\u0444\u0456\u043A\u043E\u0432\u0430\
+      \u043D\u043E \u0434\u043E \u0434\u0430\u043B\u044C\u043D\u043E\u0441\u0442\u0456\
+      \ 7 \u0442\u0430\u0439\u043B\u0456\u0432, \u0443\u0441\u0456 \u0434\u0435\u0431\
+      \u0430\u0444\u0438 \u0442\u0440\u0438\u0432\u0430\u044E\u0442\u044C 8 \u0441\
+      \u0435\u043A\u0443\u043D\u0434"
     type: Tweak
-  - message: Прибрано оглушення паразита від screech Королеви
+  - message: "\u041F\u0440\u0438\u0431\u0440\u0430\u043D\u043E \u043E\u0433\u043B\u0443\
+      \u0448\u0435\u043D\u043D\u044F \u043F\u0430\u0440\u0430\u0437\u0438\u0442\u0430\
+      \ \u0432\u0456\u0434 screech \u041A\u043E\u0440\u043E\u043B\u0435\u0432\u0438"
     type: Remove
-  - message: Прибрано розрізнення ближньої/дальньої дистанції зі screech Королеви
+  - message: "\u041F\u0440\u0438\u0431\u0440\u0430\u043D\u043E \u0440\u043E\u0437\u0440\
+      \u0456\u0437\u043D\u0435\u043D\u043D\u044F \u0431\u043B\u0438\u0436\u043D\u044C\
+      \u043E\u0457/\u0434\u0430\u043B\u044C\u043D\u044C\u043E\u0457 \u0434\u0438\u0441\
+      \u0442\u0430\u043D\u0446\u0456\u0457 \u0437\u0456 screech \u041A\u043E\u0440\
+      \u043E\u043B\u0435\u0432\u0438"
     type: Remove
   id: 137
   time: '2026-05-24T17:20:59.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1106
 - author: maertayn
   changes:
-  - message: Weston-Yamada відновлено до канонічної Weyland-Yutani
+  - message: "Weston-Yamada \u0432\u0456\u0434\u043D\u043E\u0432\u043B\u0435\u043D\
+      \u043E \u0434\u043E \u043A\u0430\u043D\u043E\u043D\u0456\u0447\u043D\u043E\u0457\
+      \ Weyland-Yutani"
     type: Tweak
   id: 138
   time: '2026-05-24T17:21:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1100
 - author: troytroy400
   changes:
-  - message: Тайли решіток MultiZ зі знищуваними та незнищенними версіями.
+  - message: "\u0422\u0430\u0439\u043B\u0438 \u0440\u0435\u0448\u0456\u0442\u043E\u043A\
+      \ MultiZ \u0437\u0456 \u0437\u043D\u0438\u0449\u0443\u0432\u0430\u043D\u0438\
+      \u043C\u0438 \u0442\u0430 \u043D\u0435\u0437\u043D\u0438\u0449\u0435\u043D\u043D\
+      \u0438\u043C\u0438 \u0432\u0435\u0440\u0441\u0456\u044F\u043C\u0438."
     type: Add
-  - message: Мапінг-ассети, потрібні для порту CM13 Navalis.
+  - message: "\u041C\u0430\u043F\u0456\u043D\u0433-\u0430\u0441\u0441\u0435\u0442\u0438\
+      , \u043F\u043E\u0442\u0440\u0456\u0431\u043D\u0456 \u0434\u043B\u044F \u043F\
+      \u043E\u0440\u0442\u0443 CM13 Navalis."
     type: Add
   id: 139
   time: '2026-05-25T20:49:52.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1112
 - author: troytroy400
   changes:
-  - message: Прибрано багато зачісок, які або не відповідають стилю CM, або безглуздо
-      недоречні порівняно з сетингом гри (до підлоги, надмірно високі чи стирчать,
-      мем-зачіски тощо).
+  - message: "\u041F\u0440\u0438\u0431\u0440\u0430\u043D\u043E \u0431\u0430\u0433\u0430\
+      \u0442\u043E \u0437\u0430\u0447\u0456\u0441\u043E\u043A, \u044F\u043A\u0456\
+      \ \u0430\u0431\u043E \u043D\u0435 \u0432\u0456\u0434\u043F\u043E\u0432\u0456\
+      \u0434\u0430\u044E\u0442\u044C \u0441\u0442\u0438\u043B\u044E CM, \u0430\u0431\
+      \u043E \u0431\u0435\u0437\u0433\u043B\u0443\u0437\u0434\u043E \u043D\u0435\u0434\
+      \u043E\u0440\u0435\u0447\u043D\u0456 \u043F\u043E\u0440\u0456\u0432\u043D\u044F\
+      \u043D\u043E \u0437 \u0441\u0435\u0442\u0438\u043D\u0433\u043E\u043C \u0433\u0440\
+      \u0438 (\u0434\u043E \u043F\u0456\u0434\u043B\u043E\u0433\u0438, \u043D\u0430\
+      \u0434\u043C\u0456\u0440\u043D\u043E \u0432\u0438\u0441\u043E\u043A\u0456 \u0447\
+      \u0438 \u0441\u0442\u0438\u0440\u0447\u0430\u0442\u044C, \u043C\u0435\u043C\
+      -\u0437\u0430\u0447\u0456\u0441\u043A\u0438 \u0442\u043E\u0449\u043E)."
     type: Remove
   id: 140
   time: '2026-05-26T01:36:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1113
 - author: Arcticular1
   changes:
-  - message: Impale від Dancer, базову шкоду та ухилення підсилено!
+  - message: "Impale \u0432\u0456\u0434 Dancer, \u0431\u0430\u0437\u043E\u0432\u0443\
+      \ \u0448\u043A\u043E\u0434\u0443 \u0442\u0430 \u0443\u0445\u0438\u043B\u0435\
+      \u043D\u043D\u044F \u043F\u0456\u0434\u0441\u0438\u043B\u0435\u043D\u043E!"
     type: Tweak
-  - message: Базовий Praetorian тепер може використовувати acid ball під час руху!
+  - message: "\u0411\u0430\u0437\u043E\u0432\u0438\u0439 Praetorian \u0442\u0435\u043F\
+      \u0435\u0440 \u043C\u043E\u0436\u0435 \u0432\u0438\u043A\u043E\u0440\u0438\u0441\
+      \u0442\u043E\u0432\u0443\u0432\u0430\u0442\u0438 acid ball \u043F\u0456\u0434\
+      \ \u0447\u0430\u0441 \u0440\u0443\u0445\u0443!"
     type: Tweak
   id: 141
   time: '2026-05-26T03:08:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1101
 - author: KeiKiyomi
   changes:
-  - message: Додано Prodigy Armed Repair Team
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E Prodigy Armed Repair Team"
     type: Add
   id: 142
   time: '2026-05-26T06:10:17.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1078
 - author: potatoed6
   changes:
-  - message: ID моба не змінював роботу на colonist
+  - message: "ID \u043C\u043E\u0431\u0430 \u043D\u0435 \u0437\u043C\u0456\u043D\u044E\
+      \u0432\u0430\u0432 \u0440\u043E\u0431\u043E\u0442\u0443 \u043D\u0430 colonist"
     type: Fix
-  - message: моб не мав цивільного рангу
+  - message: "\u043C\u043E\u0431 \u043D\u0435 \u043C\u0430\u0432 \u0446\u0438\u0432\
+      \u0456\u043B\u044C\u043D\u043E\u0433\u043E \u0440\u0430\u043D\u0433\u0443"
     type: Fix
-  - message: вимоги для лікарів та синтів
+  - message: "\u0432\u0438\u043C\u043E\u0433\u0438 \u0434\u043B\u044F \u043B\u0456\
+      \u043A\u0430\u0440\u0456\u0432 \u0442\u0430 \u0441\u0438\u043D\u0442\u0456\u0432"
     type: Add
-  - message: синти колонії тепер 2-го покоління без механічних змін
+  - message: "\u0441\u0438\u043D\u0442\u0438 \u043A\u043E\u043B\u043E\u043D\u0456\u0457\
+      \ \u0442\u0435\u043F\u0435\u0440 2-\u0433\u043E \u043F\u043E\u043A\u043E\u043B\
+      \u0456\u043D\u043D\u044F \u0431\u0435\u0437 \u043C\u0435\u0445\u0430\u043D\u0456\
+      \u0447\u043D\u0438\u0445 \u0437\u043C\u0456\u043D"
     type: Tweak
   id: 143
   time: '2026-05-26T06:11:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1107
 - author: Berkin101
   changes:
-  - message: Додано земляні горбки.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u0437\u0435\u043C\u043B\u044F\u043D\
+      \u0456 \u0433\u043E\u0440\u0431\u043A\u0438."
     type: Add
-  - message: Додано піщані горбки.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043F\u0456\u0449\u0430\u043D\u0456\
+      \ \u0433\u043E\u0440\u0431\u043A\u0438."
     type: Add
   id: 144
   time: '2026-05-26T06:12:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/580
 - author: maertayn
   changes:
-  - message: Умови перемоги були зламані
+  - message: "\u0423\u043C\u043E\u0432\u0438 \u043F\u0435\u0440\u0435\u043C\u043E\u0433\
+      \u0438 \u0431\u0443\u043B\u0438 \u0437\u043B\u0430\u043C\u0430\u043D\u0456"
     type: Fix
-  - message: Pilots/CO/MP/Doctors будуть без загонів, а Synths/JO призначені до Auxy
+  - message: "Pilots/CO/MP/Doctors \u0431\u0443\u0434\u0443\u0442\u044C \u0431\u0435\
+      \u0437 \u0437\u0430\u0433\u043E\u043D\u0456\u0432, \u0430 Synths/JO \u043F\u0440\
+      \u0438\u0437\u043D\u0430\u0447\u0435\u043D\u0456 \u0434\u043E Auxy"
     type: Fix
-  - message: Working Joes отримували стрижки та баг з іменами персонажів ролей привидів
+  - message: "Working Joes \u043E\u0442\u0440\u0438\u043C\u0443\u0432\u0430\u043B\u0438\
+      \ \u0441\u0442\u0440\u0438\u0436\u043A\u0438 \u0442\u0430 \u0431\u0430\u0433\
+      \ \u0437 \u0456\u043C\u0435\u043D\u0430\u043C\u0438 \u043F\u0435\u0440\u0441\
+      \u043E\u043D\u0430\u0436\u0456\u0432 \u0440\u043E\u043B\u0435\u0439 \u043F\u0440\
+      \u0438\u0432\u0438\u0434\u0456\u0432"
     type: Fix
   id: 145
   time: '2026-05-27T01:12:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1116
 - author: troytroy400
   changes:
-  - message: Сходи між Z-рівнями, люки та лази для мапінгу.
+  - message: "\u0421\u0445\u043E\u0434\u0438 \u043C\u0456\u0436 Z-\u0440\u0456\u0432\
+      \u043D\u044F\u043C\u0438, \u043B\u044E\u043A\u0438 \u0442\u0430 \u043B\u0430\
+      \u0437\u0438 \u0434\u043B\u044F \u043C\u0430\u043F\u0456\u043D\u0433\u0443."
     type: Add
   id: 146
   time: '2026-05-27T01:12:46.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1122
 - author: sunzu432
   changes:
-  - message: Мапа Hope's Retreat для INS, CF та DS.
+  - message: "\u041C\u0430\u043F\u0430 Hope's Retreat \u0434\u043B\u044F INS, CF \u0442\
+      \u0430 DS."
     type: Add
   id: 147
   time: '2026-05-27T03:15:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1125
 - author: maertayn
   changes:
-  - message: Pilots змарнували свій доступ ASRS за 26 днів.
+  - message: "Pilots \u0437\u043C\u0430\u0440\u043D\u0443\u0432\u0430\u043B\u0438\
+      \ \u0441\u0432\u0456\u0439 \u0434\u043E\u0441\u0442\u0443\u043F ASRS \u0437\u0430\
+      \ 26 \u0434\u043D\u0456\u0432."
     type: Remove
   id: 148
   time: '2026-05-27T14:01:21.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1129
 - author: maertayn
   changes:
-  - message: Якщо ви мапите те, що не слід, тест перевірки мапи провалиться.
+  - message: "\u042F\u043A\u0449\u043E \u0432\u0438 \u043C\u0430\u043F\u0438\u0442\
+      \u0435 \u0442\u0435, \u0449\u043E \u043D\u0435 \u0441\u043B\u0456\u0434, \u0442\
+      \u0435\u0441\u0442 \u043F\u0435\u0440\u0435\u0432\u0456\u0440\u043A\u0438 \u043C\
+      \u0430\u043F\u0438 \u043F\u0440\u043E\u0432\u0430\u043B\u0438\u0442\u044C\u0441\
+      \u044F."
     type: Map
   id: 149
   time: '2026-05-27T14:19:47.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1102
 - author: mikusssssss
   changes:
-  - message: Повернуто хороші, не надмірно довгі bedhead'и.
+  - message: "\u041F\u043E\u0432\u0435\u0440\u043D\u0443\u0442\u043E \u0445\u043E\u0440\
+      \u043E\u0448\u0456, \u043D\u0435 \u043D\u0430\u0434\u043C\u0456\u0440\u043D\u043E\
+      \ \u0434\u043E\u0432\u0433\u0456 bedhead'\u0438."
     type: Add
   id: 150
   time: '2026-05-27T21:16:04.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1130
 - author: Piticzu
   changes:
-  - message: Ривок crusher тепер прокидає відкинутих морпіхів крізь інших морпіхів
-      на шляху, завдаючи шкоди та збиваючи з ніг кожного
+  - message: "\u0420\u0438\u0432\u043E\u043A crusher \u0442\u0435\u043F\u0435\u0440\
+      \ \u043F\u0440\u043E\u043A\u0438\u0434\u0430\u0454 \u0432\u0456\u0434\u043A\u0438\
+      \u043D\u0443\u0442\u0438\u0445 \u043C\u043E\u0440\u043F\u0456\u0445\u0456\u0432\
+      \ \u043A\u0440\u0456\u0437\u044C \u0456\u043D\u0448\u0438\u0445 \u043C\u043E\
+      \u0440\u043F\u0456\u0445\u0456\u0432 \u043D\u0430 \u0448\u043B\u044F\u0445\u0443\
+      , \u0437\u0430\u0432\u0434\u0430\u044E\u0447\u0438 \u0448\u043A\u043E\u0434\u0438\
+      \ \u0442\u0430 \u0437\u0431\u0438\u0432\u0430\u044E\u0447\u0438 \u0437 \u043D\
+      \u0456\u0433 \u043A\u043E\u0436\u043D\u043E\u0433\u043E"
     type: Add
-  - message: "Стомп crusher тепер цілеспрямований конус 90\xB0, націлений на вашу\
-      \ мишу, з оверлеєм передперегляду"
+  - message: "\u0421\u0442\u043E\u043C\u043F crusher \u0442\u0435\u043F\u0435\u0440\
+      \ \u0446\u0456\u043B\u0435\u0441\u043F\u0440\u044F\u043C\u043E\u0432\u0430\u043D\
+      \u0438\u0439 \u043A\u043E\u043D\u0443\u0441 90\xB0, \u043D\u0430\u0446\u0456\
+      \u043B\u0435\u043D\u0438\u0439 \u043D\u0430 \u0432\u0430\u0448\u0443 \u043C\u0438\
+      \u0448\u0443, \u0437 \u043E\u0432\u0435\u0440\u043B\u0435\u0454\u043C \u043F\
+      \u0435\u0440\u0435\u0434\u043F\u0435\u0440\u0435\u0433\u043B\u044F\u0434\u0443"
     type: Add
-  - message: Захисний щит crusher тепер відбиває ворожі снаряди (40% спереду, 30%
-      з боків, 25% ззаду)
+  - message: "\u0417\u0430\u0445\u0438\u0441\u043D\u0438\u0439 \u0449\u0438\u0442\
+      \ crusher \u0442\u0435\u043F\u0435\u0440 \u0432\u0456\u0434\u0431\u0438\u0432\
+      \u0430\u0454 \u0432\u043E\u0440\u043E\u0436\u0456 \u0441\u043D\u0430\u0440\u044F\
+      \u0434\u0438 (40% \u0441\u043F\u0435\u0440\u0435\u0434\u0443, 30% \u0437 \u0431\
+      \u043E\u043A\u0456\u0432, 25% \u0437\u0437\u0430\u0434\u0443)"
     type: Add
-  - message: 'Crusher отримує здатність Soak: поглинає 240 шкоди за 6 секунд, щоб зцілити 120 HP'
+  - message: "Crusher \u043E\u0442\u0440\u0438\u043C\u0443\u0454 \u0437\u0434\u0430\
+      \u0442\u043D\u0456\u0441\u0442\u044C Soak: \u043F\u043E\u0433\u043B\u0438\u043D\
+      \u0430\u0454 240 \u0448\u043A\u043E\u0434\u0438 \u0437\u0430 6 \u0441\u0435\u043A\
+      \u0443\u043D\u0434, \u0449\u043E\u0431 \u0437\u0446\u0456\u043B\u0438\u0442\u0438\
+      \ 120 HP"
     type: Add
-  - message: Ривок crusher має оверлей передперегляду шляху
+  - message: "\u0420\u0438\u0432\u043E\u043A crusher \u043C\u0430\u0454 \u043E\u0432\
+      \u0435\u0440\u043B\u0435\u0439 \u043F\u0435\u0440\u0435\u0434\u043F\u0435\u0440\
+      \u0435\u0433\u043B\u044F\u0434\u0443 \u0448\u043B\u044F\u0445\u0443"
     type: Add
-  - message: HP crusher збільшено до 800/900
+  - message: "HP crusher \u0437\u0431\u0456\u043B\u044C\u0448\u0435\u043D\u043E \u0434\
+      \u043E 800/900"
     type: Tweak
-  - message: 'Броня crusher тепер спрямована: 45 спереду, 30 з боків, 25 ззаду'
+  - message: "\u0411\u0440\u043E\u043D\u044F crusher \u0442\u0435\u043F\u0435\u0440\
+      \ \u0441\u043F\u0440\u044F\u043C\u043E\u0432\u0430\u043D\u0430: 45 \u0441\u043F\
+      \u0435\u0440\u0435\u0434\u0443, 30 \u0437 \u0431\u043E\u043A\u0456\u0432, 25\
+      \ \u0437\u0437\u0430\u0434\u0443"
     type: Tweak
-  - message: "Широкий замах crusher відновлено: дуга 60\xB0, 2 макс. цілі"
+  - message: "\u0428\u0438\u0440\u043E\u043A\u0438\u0439 \u0437\u0430\u043C\u0430\u0445\
+      \ crusher \u0432\u0456\u0434\u043D\u043E\u0432\u043B\u0435\u043D\u043E: \u0434\
+      \u0443\u0433\u0430 60\xB0, 2 \u043C\u0430\u043A\u0441. \u0446\u0456\u043B\u0456"
     type: Tweak
-  - message: 'Ривок crusher: швидший замах, 90 шкоди, відкидання, що масштабується
-      з відстанню (5-10 тайлів)'
+  - message: "\u0420\u0438\u0432\u043E\u043A crusher: \u0448\u0432\u0438\u0434\u0448\
+      \u0438\u0439 \u0437\u0430\u043C\u0430\u0445, 90 \u0448\u043A\u043E\u0434\u0438\
+      , \u0432\u0456\u0434\u043A\u0438\u0434\u0430\u043D\u043D\u044F, \u0449\u043E\
+      \ \u043C\u0430\u0441\u0448\u0442\u0430\u0431\u0443\u0454\u0442\u044C\u0441\u044F\
+      \ \u0437 \u0432\u0456\u0434\u0441\u0442\u0430\u043D\u043D\u044E (5-10 \u0442\
+      \u0430\u0439\u043B\u0456\u0432)"
     type: Tweak
-  - message: 'Стомп crusher: 80 шкоди, 1с параліч, відкидання на 2 тайли, тряска екрана'
+  - message: "\u0421\u0442\u043E\u043C\u043F crusher: 80 \u0448\u043A\u043E\u0434\u0438\
+      , 1\u0441 \u043F\u0430\u0440\u0430\u043B\u0456\u0447, \u0432\u0456\u0434\u043A\
+      \u0438\u0434\u0430\u043D\u043D\u044F \u043D\u0430 2 \u0442\u0430\u0439\u043B\
+      \u0438, \u0442\u0440\u044F\u0441\u043A\u0430 \u0435\u043A\u0440\u0430\u043D\u0430"
     type: Tweak
-  - message: 'Сплеск brutalize crusher: 20 Blunt з 10 бронебійності'
+  - message: "\u0421\u043F\u043B\u0435\u0441\u043A brutalize crusher: 20 Blunt \u0437\
+      \ 10 \u0431\u0440\u043E\u043D\u0435\u0431\u0456\u0439\u043D\u043E\u0441\u0442\
+      \u0456"
     type: Tweak
-  - message: 'Захисний щит crusher: 100 HP (було 200), 8 зниження шкоди (було 10)'
+  - message: "\u0417\u0430\u0445\u0438\u0441\u043D\u0438\u0439 \u0449\u0438\u0442\
+      \ crusher: 100 HP (\u0431\u0443\u043B\u043E 200), 8 \u0437\u043D\u0438\u0436\
+      \u0435\u043D\u043D\u044F \u0448\u043A\u043E\u0434\u0438 (\u0431\u0443\u043B\u043E\
+      \ 10)"
     type: Tweak
-  - message: Додано перевизначення MaxTargets для конкретної зброї до MeleeWeaponComponent
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E \u043F\u0435\u0440\u0435\u0432\u0438\
+      \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F MaxTargets \u0434\u043B\u044F\
+      \ \u043A\u043E\u043D\u043A\u0440\u0435\u0442\u043D\u043E\u0457 \u0437\u0431\u0440\
+      \u043E\u0457 \u0434\u043E MeleeWeaponComponent"
     type: Code
   id: 151
   time: '2026-05-27T21:17:38.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1133
 - author: NzzyFk
   changes:
-  - message: Вартість M2C знижено
+  - message: "\u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044C M2C \u0437\u043D\u0438\
+      \u0436\u0435\u043D\u043E"
     type: Tweak
-  - message: Вартість Type 73 збільшено
+  - message: "\u0412\u0430\u0440\u0442\u0456\u0441\u0442\u044C Type 73 \u0437\u0431\
+      \u0456\u043B\u044C\u0448\u0435\u043D\u043E"
     type: Tweak
-  - message: Зменшено кількість AP-магазинів для Type 71 ( 6 --> 2 )
+  - message: "\u0417\u043C\u0435\u043D\u0448\u0435\u043D\u043E \u043A\u0456\u043B\u044C\
+      \u043A\u0456\u0441\u0442\u044C AP-\u043C\u0430\u0433\u0430\u0437\u0438\u043D\
+      \u0456\u0432 \u0434\u043B\u044F Type 71 ( 6 --> 2 )"
     type: Tweak
   id: 152
   time: '2026-05-28T00:23:31.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1081
 - author: maertayn
   changes:
-  - message: Кулі (патрони), магазини та раціони більше не можна продавати з прибутком на ASRS.
+  - message: "\u041A\u0443\u043B\u0456 (\u043F\u0430\u0442\u0440\u043E\u043D\u0438\
+      ), \u043C\u0430\u0433\u0430\u0437\u0438\u043D\u0438 \u0442\u0430 \u0440\u0430\
+      \u0446\u0456\u043E\u043D\u0438 \u0431\u0456\u043B\u044C\u0448\u0435 \u043D\u0435\
+      \ \u043C\u043E\u0436\u043D\u0430 \u043F\u0440\u043E\u0434\u0430\u0432\u0430\u0442\
+      \u0438 \u0437 \u043F\u0440\u0438\u0431\u0443\u0442\u043A\u043E\u043C \u043D\u0430\
+      \ ASRS."
     type: Remove
   id: 153
   time: '2026-05-28T01:58:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1135
 - author: Omonda2
   changes:
-  - message: Змінено більшість наборів навичок третіх сторін задля паритету
+  - message: "\u0417\u043C\u0456\u043D\u0435\u043D\u043E \u0431\u0456\u043B\u044C\u0448\
+      \u0456\u0441\u0442\u044C \u043D\u0430\u0431\u043E\u0440\u0456\u0432 \u043D\u0430\
+      \u0432\u0438\u0447\u043E\u043A \u0442\u0440\u0435\u0442\u0456\u0445 \u0441\u0442\
+      \u043E\u0440\u0456\u043D \u0437\u0430\u0434\u043B\u044F \u043F\u0430\u0440\u0438\
+      \u0442\u0435\u0442\u0443"
     type: Tweak
-  - message: Виправлено ID SupportAuxSynth.
+  - message: "\u0412\u0438\u043F\u0440\u0430\u0432\u043B\u0435\u043D\u043E ID SupportAuxSynth."
     type: Fix
   id: 154
   time: '2026-05-28T09:54:35.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1118
 - author: Piticzu
   changes:
-  - message: Шкода стомпу crusher тепер спадає з відстанню (80 зблизька, 65 на максимальній дальності)
+  - message: "\u0428\u043A\u043E\u0434\u0430 \u0441\u0442\u043E\u043C\u043F\u0443\
+      \ crusher \u0442\u0435\u043F\u0435\u0440 \u0441\u043F\u0430\u0434\u0430\u0454\
+      \ \u0437 \u0432\u0456\u0434\u0441\u0442\u0430\u043D\u043D\u044E (80 \u0437\u0431\
+      \u043B\u0438\u0437\u044C\u043A\u0430, 65 \u043D\u0430 \u043C\u0430\u043A\u0441\
+      \u0438\u043C\u0430\u043B\u044C\u043D\u0456\u0439 \u0434\u0430\u043B\u044C\u043D\
+      \u043E\u0441\u0442\u0456)"
     type: Tweak
-  - message: Конус стомпу crusher тепер блокується барикадами
+  - message: "\u041A\u043E\u043D\u0443\u0441 \u0441\u0442\u043E\u043C\u043F\u0443\
+      \ crusher \u0442\u0435\u043F\u0435\u0440 \u0431\u043B\u043E\u043A\u0443\u0454\
+      \u0442\u044C\u0441\u044F \u0431\u0430\u0440\u0438\u043A\u0430\u0434\u0430\u043C\
+      \u0438"
     type: Tweak
-  - message: Фронтальну броню crusher знижено з 45 до 35
+  - message: "\u0424\u0440\u043E\u043D\u0442\u0430\u043B\u044C\u043D\u0443 \u0431\u0440\
+      \u043E\u043D\u044E crusher \u0437\u043D\u0438\u0436\u0435\u043D\u043E \u0437\
+      \ 45 \u0434\u043E 35"
     type: Tweak
   id: 155
   time: '2026-05-28T23:47:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1142
 - author: maertayn
   changes:
-  - message: Військові роботи тепер використовують абстракцію — це зменшує роздуття.
-      Використовуйте наслідування/батьківство, включайте лише перевизначення в похідних прототипах.
+  - message: "\u0412\u0456\u0439\u0441\u044C\u043A\u043E\u0432\u0456 \u0440\u043E\u0431\
+      \u043E\u0442\u0438 \u0442\u0435\u043F\u0435\u0440 \u0432\u0438\u043A\u043E\u0440\
+      \u0438\u0441\u0442\u043E\u0432\u0443\u044E\u0442\u044C \u0430\u0431\u0441\u0442\
+      \u0440\u0430\u043A\u0446\u0456\u044E \u2014 \u0446\u0435 \u0437\u043C\u0435\u043D\
+      \u0448\u0443\u0454 \u0440\u043E\u0437\u0434\u0443\u0442\u0442\u044F. \u0412\u0438\
+      \u043A\u043E\u0440\u0438\u0441\u0442\u043E\u0432\u0443\u0439\u0442\u0435 \u043D\
+      \u0430\u0441\u043B\u0456\u0434\u0443\u0432\u0430\u043D\u043D\u044F/\u0431\u0430\
+      \u0442\u044C\u043A\u0456\u0432\u0441\u0442\u0432\u043E, \u0432\u043A\u043B\u044E\
+      \u0447\u0430\u0439\u0442\u0435 \u043B\u0438\u0448\u0435 \u043F\u0435\u0440\u0435\
+      \u0432\u0438\u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F \u0432 \u043F\u043E\
+      \u0445\u0456\u0434\u043D\u0438\u0445 \u043F\u0440\u043E\u0442\u043E\u0442\u0438\
+      \u043F\u0430\u0445."
     type: Code
-  - message: K9 здатніший виконувати S&R -> підсилення навичок медицини, хірургії,
-      пожежника, будівництва, пілотування.
+  - message: "K9 \u0437\u0434\u0430\u0442\u043D\u0456\u0448\u0438\u0439 \u0432\u0438\
+      \u043A\u043E\u043D\u0443\u0432\u0430\u0442\u0438 S&R -> \u043F\u0456\u0434\u0441\
+      \u0438\u043B\u0435\u043D\u043D\u044F \u043D\u0430\u0432\u0438\u0447\u043E\u043A\
+      \ \u043C\u0435\u0434\u0438\u0446\u0438\u043D\u0438, \u0445\u0456\u0440\u0443\
+      \u0440\u0433\u0456\u0457, \u043F\u043E\u0436\u0435\u0436\u043D\u0438\u043A\u0430\
+      , \u0431\u0443\u0434\u0456\u0432\u043D\u0438\u0446\u0442\u0432\u0430, \u043F\
+      \u0456\u043B\u043E\u0442\u0443\u0432\u0430\u043D\u043D\u044F."
     type: Add
   id: 156
   time: '2026-05-29T03:13:28.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1145
 - author: maertayn
   changes:
-  - message: Додано Orbital Arbiter (суддя) та Orbital Counsel (адвокат) — наразі
-      вони частина Колонії, але згодом будуть на космічній станції.
+  - message: "\u0414\u043E\u0434\u0430\u043D\u043E Orbital Arbiter (\u0441\u0443\u0434\
+      \u0434\u044F) \u0442\u0430 Orbital Counsel (\u0430\u0434\u0432\u043E\u043A\u0430\
+      \u0442) \u2014 \u043D\u0430\u0440\u0430\u0437\u0456 \u0432\u043E\u043D\u0438\
+      \ \u0447\u0430\u0441\u0442\u0438\u043D\u0430 \u041A\u043E\u043B\u043E\u043D\u0456\
+      \u0457, \u0430\u043B\u0435 \u0437\u0433\u043E\u0434\u043E\u043C \u0431\u0443\
+      \u0434\u0443\u0442\u044C \u043D\u0430 \u043A\u043E\u0441\u043C\u0456\u0447\u043D\
+      \u0456\u0439 \u0441\u0442\u0430\u043D\u0446\u0456\u0457."
     type: Add
-  - message: 'Є 2 нові рівні доступу: AU14AccessOrbitalManagement для кабінету судді
-      та AU14AccessOrbitalLaw для приміщень адвоката.'
+  - message: "\u0404 2 \u043D\u043E\u0432\u0456 \u0440\u0456\u0432\u043D\u0456 \u0434\
+      \u043E\u0441\u0442\u0443\u043F\u0443: AU14AccessOrbitalManagement \u0434\u043B\
+      \u044F \u043A\u0430\u0431\u0456\u043D\u0435\u0442\u0443 \u0441\u0443\u0434\u0434\
+      \u0456 \u0442\u0430 AU14AccessOrbitalLaw \u0434\u043B\u044F \u043F\u0440\u0438\
+      \u043C\u0456\u0449\u0435\u043D\u044C \u0430\u0434\u0432\u043E\u043A\u0430\u0442\
+      \u0430."
     type: Map
   id: 157
   time: '2026-05-29T18:27:14.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1148
 - author: maertayn
   changes:
-  - message: AddComponentSpecial можна успадковувати посадами через булеве значення
-      inheritAddComponentSpecials, щоб зменшити роздуття
+  - message: "AddComponentSpecial \u043C\u043E\u0436\u043D\u0430 \u0443\u0441\u043F\
+      \u0430\u0434\u043A\u043E\u0432\u0443\u0432\u0430\u0442\u0438 \u043F\u043E\u0441\
+      \u0430\u0434\u0430\u043C\u0438 \u0447\u0435\u0440\u0435\u0437 \u0431\u0443\u043B\
+      \u0435\u0432\u0435 \u0437\u043D\u0430\u0447\u0435\u043D\u043D\u044F inheritAddComponentSpecials,\
+      \ \u0449\u043E\u0431 \u0437\u043C\u0435\u043D\u0448\u0438\u0442\u0438 \u0440\
+      \u043E\u0437\u0434\u0443\u0442\u0442\u044F"
     type: Code
-  - message: Перевизначення класів посад для WYPMC - UPP - RMC - CMBCIU
+  - message: "\u041F\u0435\u0440\u0435\u0432\u0438\u0437\u043D\u0430\u0447\u0435\u043D\
+      \u043D\u044F \u043A\u043B\u0430\u0441\u0456\u0432 \u043F\u043E\u0441\u0430\u0434\
+      \ \u0434\u043B\u044F WYPMC - UPP - RMC - CMBCIU"
     type: Add
   id: 158
   time: '2026-05-29T18:27:45.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1146
 - author: BadaBoomie
   changes:
-  - message: DCC тепер краще лагодить речі, тоді як пілоти — гірше.
+  - message: "DCC \u0442\u0435\u043F\u0435\u0440 \u043A\u0440\u0430\u0449\u0435 \u043B\
+      \u0430\u0433\u043E\u0434\u0438\u0442\u044C \u0440\u0435\u0447\u0456, \u0442\u043E\
+      \u0434\u0456 \u044F\u043A \u043F\u0456\u043B\u043E\u0442\u0438 \u2014 \u0433\
+      \u0456\u0440\u0448\u0435."
     type: Tweak
-  - message: DCC тепер має два слоти замість одного.
+  - message: "DCC \u0442\u0435\u043F\u0435\u0440 \u043C\u0430\u0454 \u0434\u0432\u0430\
+      \ \u0441\u043B\u043E\u0442\u0438 \u0437\u0430\u043C\u0456\u0441\u0442\u044C\
+      \ \u043E\u0434\u043D\u043E\u0433\u043E."
     type: Tweak
   id: 159
   time: '2026-05-29T21:47:20.0000000+00:00'
