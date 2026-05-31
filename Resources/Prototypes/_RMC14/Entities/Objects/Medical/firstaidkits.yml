@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMFirstAidKit
-  name: first-aid kit
-  description: It's an emergency medical kit for those serious boo-boos. With medical training you can fit this in a backpack.
+  name: "аптечка"
+  description: "Це аптечка для серйозних бо-бо. З медичною підготовкою її можна помістити в рюкзак."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/first_aid_kits.rsi
@@ -81,7 +81,7 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitSurgery
-  name: basic field surgery kit
+  name: "базовий польовий хірургічний набір"
   components:
   - type: Storage
     maxItemSize: Small
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidKitFilled
-  description: It's an emergency medical kit containing basic medication and equipment. No training required to use. With medical training you can fit this in a backpack.
+  description: "Це аптечка з базовими ліками та обладнанням. Не потребує підготовки для використання. З медичною підготовкою її можна помістити в рюкзак."
   suffix: Filled
   components:
   - type: StorageFill
@@ -150,7 +150,7 @@
 - type: entity
   parent: CMFirstAidKitSurgery
   id: CMFirstAidKitSurgeryFilled
-  description: Contains a surgical line, cautery, scalpel, hemostat, retractor, drapes and an oxycodone injector for tending wounds surgically. With medical training you can fit this in a backpack.
+  description: "Містить хірургічну нитку, каутер, скальпель, затискач, ретрактор, серветки та ін'єктор оксикодону для хірургічного догляду за ранами. З медичною підготовкою її можна помістити в рюкзак."
   suffix: Filled
   components:
   - type: StorageFill
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMBurnAidKit
-  name: fire first-aid kit
-  description: It's an emergency medical kit for when the dropship ammo storage spontaneously burns down. With medical training you can fit this in a backpack.
+  name: "аптечка від опіків"
+  description: "Це аптечка для випадків, коли сховище боєприпасів десантного корабля спонтанно згорає. З медичною підготовкою її можна помістити в рюкзак."
   components:
   - type: Sprite
     layers:
@@ -195,8 +195,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMFirstAidO2Kit
-  name: oxygen deprivation first-aid kit
-  description: A box full of reoxygenating goodies. With medical training you can fit this in a backpack.
+  name: "аптечка від кисневого голодування"
+  description: "Коробка, повна реоксигенаторних смаколиків. З медичною підготовкою її можна помістити в рюкзак."
   components:
   - type: Sprite
     layers:
@@ -224,8 +224,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMAdvFirstAidKit
-  name: advanced first-aid kit
-  description: Contains more effective methods of medical treatment than a basic first-aid kit, such as burn and trauma kits. With medical training you can fit this in a backpack.
+  name: "просунута аптечка"
+  description: "Містить ефективніші методи медичного лікування, ніж базова аптечка, такі як набори від опіків і травматичні набори. З медичною підготовкою її можна помістити в рюкзак."
   components:
   - type: Sprite
     layers:
@@ -253,8 +253,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: CMToxinAidKit
-  name: toxin first-aid kit
-  description: It's an emergency medical kit containing lifesaving anti-toxic medication. With medical training you can fit this in a backpack.
+  name: "токсикологічна аптечка"
+  description: "Це аптечка з рятівними антитоксичними ліками. З медичною підготовкою її можна помістити в рюкзак."
   components:
   - type: Sprite
     layers:
@@ -280,8 +280,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCRadiationAidKit
-  name: radiation first-aid kit
-  description: Contains treatment for radiation exposure. With medical training you can fit this in a backpack.
+  name: "радіаційна аптечка"
+  description: "Містить лікування від радіаційного впливу. З медичною підготовкою її можна помістити в рюкзак."
   components:
   - type: Sprite
     layers:
@@ -307,8 +307,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCStandardAidKitPVE
-  name: standard-issue first-aid pack
-  description: A soft first-aid pack typically containing essential medical supplies for use in the field.
+  name: "стандартний пакет першої допомоги"
+  description: "М'який пакет першої допомоги, що зазвичай містить основні медичні засоби для використання в полі."
   suffix: PVE
   components:
   - type: Sprite
@@ -336,8 +336,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCBruteAidKitPVE
-  name: brute first-aid pack
-  description: A soft first-aid pack containing equipment for physical treatment in the field.
+  name: "пакет від фізичних ушкоджень"
+  description: "М'який пакет першої допомоги, що містить обладнання для лікування фізичних ушкоджень в полі."
   suffix: PVE
   components:
   - type: Sprite
@@ -365,8 +365,8 @@
 - type: entity
   parent: CMFirstAidKit
   id: RMCBurnAidKitPVE
-  name: burn first-aid pack
-  description: A soft first-aid pack containing equipment for burns treatment in the field.
+  name: "пакет від опіків"
+  description: "М'який пакет першої допомоги, що містить обладнання для лікування опіків в полі."
   suffix: PVE
   components:
   - type: Sprite

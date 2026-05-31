@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianKellandWarden
-  name: Spawn Point Kelland Warden
+  name: "точка появи наглядача Келланд"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianKellandWarden

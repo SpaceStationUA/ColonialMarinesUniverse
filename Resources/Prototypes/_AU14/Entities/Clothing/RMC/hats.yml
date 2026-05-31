@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14HeadTurbanRMC
-  name: royal marine turban
-  description: A standard military turban found in the Three World Empire Royal Marines Commando. Considered a rare item, these kind of turbans are prized by collectors.
+  name: "тюрбан королівського морпіха"
+  description: "Стандартний військовий тюрбан, який зустрічається в командос королівської морської піхоти Імперії Трьох Світів. Вважається рідкісним предметом; такі тюрбани цінуються колекціонерами."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/hats/turban.rsi
@@ -12,9 +12,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14HeadBeretRMC
-  name: royal marine beret
+  name: "берет королівського морпіха"
   suffix: AU14
-  description: A green beret belonging to the Three World Empire Royal Marines Commando.
+  description: "Зелений берет командос королівської морської піхоти Імперії Трьох Світів."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/hats/beret.rsi
@@ -24,9 +24,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14HeadBeretRMCLead
-  name: royal marine sergeant beret
+  name: "берет сержанта королівської морської піхоти"
   suffix: AU14
-  description: A green beret belonging to the Three World Empire Royal Marines Commando.
+  description: "Зелений берет командос королівської морської піхоти Імперії Трьох Світів."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/hats/beret_tl.rsi
@@ -36,9 +36,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14HeadBeretRMCOfficer
-  name: royal marine officer beret
+  name: "берет офіцера королівської морської піхоти"
   suffix: AU14
-  description: A green beret belonging to the Three World Empire Royal Marines Commando.
+  description: "Зелений берет командос королівської морської піхоти Імперії Трьох Світів."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/hats/beret_tl.rsi
@@ -48,9 +48,9 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14HeadCapOfficerRMC
-  name: royal marine officer peaked cap
+  name: "офіцерський кашкет королівської морської піхоти"
   suffix: AU14
-  description: Gray peaked cap belonging to the Three World Empire Royal Marines Commando officer. Shown to show your men who's the boss.
+  description: "Сірий кашкет офіцера командос королівської морської піхоти Імперії Трьох Світів. Показує вашим людям, хто тут головний."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/hats/co_peaked.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCAttachmentMagneticHarness
   id: AU14AttachmentTwoPointSling
-  name: two-point sling
-  description: A traditional strip of toughened nylon fabric with clips on either end for attaching to suitable mounting points on most longarms.
+  name: "двоточковий ремінь"
+  description: "Традиційна смуга зміцненої нейлонової тканини з кліпсами на обох кінцях для кріплення до відповідних точок монтажу на більшості довгоствольної зброї."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rifle_sling/classic-desert-jungle.rsi

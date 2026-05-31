@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVEPlatoonCommander
-  name: PVE platoon commander spawn point
+  name: "спавнер командира взводу PVE"
   components:
   - type: SpawnPoint
     job_id: CMPVEPlatoonCommander

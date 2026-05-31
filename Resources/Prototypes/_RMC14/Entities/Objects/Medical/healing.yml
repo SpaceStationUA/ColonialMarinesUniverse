@@ -21,8 +21,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMOintment
-  name: ointment
-  description: Used to treat those nasty burns. Less effective on caustic burns.
+  name: "мазь"
+  description: "Використовується для лікування неприємних опіків. Менш ефективний при опіках їдкими речовинами."
   suffix: Ten
   components:
   - type: Tag
@@ -70,7 +70,7 @@
 
 - type: stack
   id: CMOintment
-  name: ointment
+  name: "мазь"
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: ointment }
   spawn: CMOintment1
   maxCount: 10
@@ -97,8 +97,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMGauze
-  name: medical gauze
-  description: Some sterile gauze to wrap around bloody stumps and lacerations.
+  name: "медична марля"
+  description: "Стерильна марля для перев'язування кривавих кукс і розсічень."
   suffix: Ten
   components:
   - type: Tag
@@ -144,7 +144,7 @@
 
 - type: stack
   id: CMGauze
-  name: gauze
+  name: "марля"
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: gauze }
   spawn: CMGauze1
   maxCount: 10
@@ -168,8 +168,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSurgicalLine
-  name: surgical line
-  description: A roll of military-grade surgical line, able to seamlessly sew up any wound. Also works as a robust fishing line for maritime deployments.
+  name: "хірургічна нитка"
+  description: "Рулон хірургічної нитки військового зразка, здатної безшовно зашити будь-яку рану. Також працює як міцна волосінь для морських розгортань."
   components:
   - type: Tag
     tags:
@@ -220,8 +220,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSynthGraft
-  name: synth graft
-  description: An applicator for silicon skin field grafts. The stuff reeks, itches like the dickens, hurts going on, and the color is a perfectly averaged multiethnic tone that doesn't blend with anyone's complexion. But at least you don't have to stay in sickbay.
+  name: "синт-трансплантат"
+  description: "Аплікатор для польових трансплантатів силіконової шкіри. Ця штука смердить, страшенно свербить, боляче, коли її наносять, а її колір — ідеально усереднений мультиетнічний тон, який не пасує жодному кольору шкіри. Але принаймні вам не доведеться сидіти у медблоці."
   components:
   - type: Tag
     tags:
@@ -265,8 +265,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMBurnKit
-  name: burn kit
-  description: A treatment kit for severe burns.
+  name: "набір від опіків"
+  description: "Лікувальний набір від важких опіків."
   suffix: Ten
   components:
   - type: Stack
@@ -332,7 +332,7 @@
 
 - type: stack
   id: CMBurnKit
-  name: advanced burn kit
+  name: "покращений набір від опіків"
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit }
   spawn: CMBurnKit1
   maxCount: 10
@@ -341,8 +341,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMTraumaKit
-  name: trauma kit
-  description: A trauma kit for severe injuries.
+  name: "травматичний набір"
+  description: "Травматичний набір для важких поранень."
   suffix: Ten
   components:
   - type: Stack
@@ -403,7 +403,7 @@
 
 - type: stack
   id: CMTraumaKit
-  name: advanced trauma kit
+  name: "покращений травматичний набір"
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit }
   spawn: CMTraumaKit1
   maxCount: 10
@@ -412,8 +412,8 @@
   parent: CMBurnKit
   abstract: true
   id: CMUpgradedBurnKit
-  name: upgraded burn kit
-  description: An upgraded burn treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical burns.
+  name: "покращений набір від опіків"
+  description: "Покращений набір для лікування опіків. Утричі ефективніший за стандартний, не поповнюваний. Використовуйте економно та лише для найкритичніших опіків."
   components:
   - type: Sprite
     state: burnkit_upgraded
@@ -459,7 +459,7 @@
 
 - type: stack
   id: CMUpgradedBurnKit
-  name: upgraded burn kit
+  name: "покращений набір від опіків"
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit_upgraded }
   spawn: CMUpgradedBurnKit1
   maxCount: 10
@@ -467,8 +467,8 @@
 - type: entity
   parent: CMTraumaKit
   id: CMUpgradedTraumaKit
-  name: upgraded trauma kit
-  description: An upgraded trauma treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical wounds.
+  name: "покращений травматичний набір"
+  description: "Покращений травматичний набір. Утричі ефективніший за стандартний, не поповнюваний. Використовуйте економно та лише для найкритичніших ран."
   components:
   - type: Sprite
     state: traumakit_upgraded
@@ -501,7 +501,7 @@
 
 - type: stack
   id: CMUpgradedTraumaKit
-  name: upgraded trauma kit
+  name: "покращений травматичний набір"
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit_upgraded }
   spawn: CMUpgradedTraumaKit1
   maxCount: 10

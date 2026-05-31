@@ -2,7 +2,7 @@
   parent: CMSurvivor
   id: RMCSurvivorPMCBase
   name: rmc-job-name-pmc-standard
-  description: rmc-job-description-survivor
+  description: "rmc-job-description-survivor"
   ranks:
     RMCRankOperator: []
   supervisors: cm-job-supervisors-we-ya
@@ -43,7 +43,7 @@
 
 - type: entity
   id: RMCGearSurvivorPresetPMCGun
-  name: pmc survivor weapons preset
+  name: "пресет зброї pmc-вцілілого"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -58,5 +58,5 @@
 - type: entity
   parent: [ RMCSurvivorPresetNoGun, RMCGearSurvivorPresetPMCGun ]
   id: RMCGearSurvivorPresetPMCBase
-  name: pmc base survivor preset
+  name: "базовий пресет pmc-вцілілого"
   categories: [ HideSpawnMenu ]

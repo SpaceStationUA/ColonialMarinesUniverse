@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCBoxMagazinePistolBase
   id:  AU14BoxMagazinePistolL165A1Empty
-  name: magazine box (L165A1 x 16)
+  name: "коробка магазинів (L165A1 x 16)"
   components:
   - type: Construction
     graph: RMCBoxMagazine

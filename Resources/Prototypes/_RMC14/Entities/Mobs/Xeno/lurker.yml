@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: RMCXenoLurkerBase
-  name: Lurker
-  description: A beefy, fast alien with sharp claws.
+  name: "Лазун"
+  description: "Кремезний, швидкий прибулець з гострими кігтями."
   components:
   - type: GhostRole
     name: cm-job-name-xeno-lurker

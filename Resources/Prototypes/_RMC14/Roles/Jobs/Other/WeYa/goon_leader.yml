@@ -92,7 +92,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidWeYaGoonLead
-  name: weya corporate ghost role goon leader
+  name: "weya корпоративний привид-роль лідера бандитів"
   suffix: Spawner, Player
   components:
   - type: Sprite

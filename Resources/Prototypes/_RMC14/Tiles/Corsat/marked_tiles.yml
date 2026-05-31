@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: CMFloorCorsatMarkedBase
-  name: tiles-cm-default-marked
+  name: "tiles-cm-default-marked"
 
 - type: tile
   parent: CMFloorCorsatMarkedBase

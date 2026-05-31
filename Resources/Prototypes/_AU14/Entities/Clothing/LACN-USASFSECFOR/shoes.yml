@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBootsBlack
   id: AU14LACNBoots
-  name: LACN Boots
-  description: Standard issue LACN boots.
+  name: "чоботи ЛАКН"
+  description: "Стандартні чоботи ЛАКН."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/lacnboots.rsi

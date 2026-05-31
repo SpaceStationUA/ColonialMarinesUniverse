@@ -1,9 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseWeaponSniperRifle
   id: CMM96SSniperRifle
-  name: M42A scoped rifle
-  description: "A heavy sniper rifle manufactured by ARMAT. It has a scope system and fires armor penetrating rounds out of a 15-round magazine.
-    'Peace Through Superior Firepower'"
+  name: "снайперська гвинтівка M42A з оптикою"
+  description: "Важка снайперська гвинтівка виробництва ARMAT. Має систему оптичних прицілів і стріляє бронебійними набоями з 15-зарядного магазина. «Мир через перевагу вогнепальної сили»"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Snipers/m96s/desert.rsi
@@ -84,8 +83,8 @@
 - type: entity
   parent: BaseItem
   id: CMMagazineSniperM96S
-  name: "M42A marksman magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will deal significant damage.
+  name: "снайперський магазин M42A (10x28мм)"
+  description: "Магазин снайперських боєприпасів. Прицільний постріл ним завдає значної шкоди."
   components:
   - type: Tag
     tags:
@@ -123,8 +122,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SIncendiary
-  name: "M42A incendiary magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will temporarily blind the targe and kindle the blaze further.
+  name: "запалювальний магазин M42A (10x28мм)"
+  description: "Магазин снайперських боєприпасів. Прицільний постріл ним тимчасово засліплює ціль і додатково розпалює полум'я."
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgeSniper10x28mmIncendiary
@@ -142,8 +141,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: CMMagazineSniperM96SFlak
-  name: "M42A flak magazine (10x28mm)"
-  description: A magazine of sniper rifle ammo. An aimed shot with it will temporarily slow the target and minimize the backlash.
+  name: "зенітний магазин M42A (10x28мм)"
+  description: "Магазин снайперських боєприпасів. Прицільний постріл ним тимчасово сповільнює ціль і мінімізує віддачу."
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgeSniper10x28mmFlak
@@ -161,7 +160,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: CMCartridgeSniper10x28mmIncendiary
-  name: cartridge (10x28mm) (incendiary)
+  name: "набій (10x28мм) (запалювальний)"
   components:
   - type: CartridgeAmmo
     proto: CMBulletSniper10x28mmIncendiary
@@ -169,7 +168,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: CMCartridgeSniper10x28mmFlak
-  name: cartridge (10x28mm) (Flak)
+  name: "набій (10x28мм) (зенітний)"
   components:
   - type: CartridgeAmmo
     proto: CMBulletSniper10x28mmFlak
@@ -177,7 +176,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: CMBulletSniper10x28mm
-  name: bullet (10x28mm)
+  name: "куля (10x28мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -210,7 +209,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: CMBulletSniper10x28mmIncendiary
-  name: bullet (10x28mm)
+  name: "куля (10x28мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -229,7 +228,7 @@
 - type: entity
   parent: CMBulletSniper10x28mm
   id: CMBulletSniper10x28mmFlak
-  name: bullet (10x28mm)
+  name: "куля (10x28мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

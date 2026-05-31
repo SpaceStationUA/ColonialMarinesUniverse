@@ -2,7 +2,7 @@
 - type: entity
   parent: RMCSensorTower
   id: AU14SensorTower
-  name: SA-2X experimental sensor-array tower
+  name: "експериментальна вишка з масивом сенсорів SA-2X"
 # TODO: Govfor/Opfor ownership
 
 - type: entity

@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPMedic
   name: rmc-job-name-spp-medic
-  description: rmc-job-description-spp-medic
+  description: "rmc-job-description-spp-medic"
   playTimeTracker: CMJobSPPMedic
   ranks:
     RMCRankSPPMladshiySerzhant: []
@@ -34,7 +34,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPMedicHostile
-  name: spp ghost role medic
+  name: "spp привид-роль медика"
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPMedicFriendly
-  name: spp ghost role medic
+  name: "spp привид-роль медика"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

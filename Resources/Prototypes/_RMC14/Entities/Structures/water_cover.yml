@@ -1,7 +1,7 @@
 - type: entity
   parent: CMCatwalk
   id: RMCWaterCover
-  name: water cover
+  name: "водяне покриття"
   description: ""
   components:
   - type: Sprite

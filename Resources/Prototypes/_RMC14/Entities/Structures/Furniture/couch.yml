@@ -2,8 +2,8 @@
 - type: entity
   parent: SeatBase
   id: RMCCouchMid
-  name: couch
-  description: A piece of Swedish flat pack furniture, just dont ask the MTs for an Allen key.
+  name: "диван"
+  description: "Шматок шведських меблів пласкою упаковкою — лише не проси у техніків шестигранник."
   suffix: Mid
   placement:
     mode: SnapgridCenter
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchMidRed
-  name: red couch
+  name: "червоний диван"
   suffix: Mid
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchEndLowerRed
-  name: red couch
+  name: "червоний диван"
   suffix: End, Lower
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCCouchMid
   id: RMCCouchEndUpperRed
-  name: red couch
+  name: "червоний диван"
   suffix: End, Upper
   components:
   - type: Sprite
@@ -92,8 +92,8 @@
   parent: RMCCouchMid
   id: RMCCouchLeftBar
   suffix: Left
-  name: bar booth
-  description: An old wooden booth with red cushioning. There are stains in the cushions.
+  name: "барна кабінка"
+  description: "Стара дерев'яна кабінка з червоною набивкою. На набивці є плями."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/couch_bar.rsi

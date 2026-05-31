@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseAttachableHolder, RMCBaseWeaponMagazineVisuals ]
-  name: Basira-Armstrong bolt-action hunting rifle
+  name: "мисливська гвинтівка з ковзним затвором Basira-Armstrong"
   id: RMCWeaponBoltActionRifle
-  description: Named after its eccentric designers, the Basira-Armstrong is a cheap but reliable civilian bolt-action rifle frequently found in the outer colonies. Despite its legally-mandated limited magazine capacity, its light weight and legendary accuracy makes it popular among hunters and competitive shooters.
+  description: "Названа на честь своїх ексцентричних конструкторів, Basira-Armstrong — дешева, але надійна цивільна гвинтівка з ковзним затвором, часто зустрічається в зовнішніх колоніях. Попри юридично обмежену місткість магазина, її мала вага та легендарна точність роблять її популярною серед мисливців і стрільців-спортсменів."
   suffix: Filled
   components:
   - type: Sprite
@@ -94,7 +94,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleHunting
-  name: "Basira-Armstrong magazine (6.5mm)"
+  name: "магазин Basira-Armstrong (6.5мм)"
   components:
   - type: Item
     size: Small
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeBoltActionRifle
-  name: cartridge (6.5mm)
-  description: "A 6.5mm cartridge for the Basira-Armstrong hunting rifle. Compliant with the 15-cartridge limit on civilian hunting rifles."
+  name: "набій (6.5мм)"
+  description: "Набій 6.5мм для мисливської гвинтівки Basira-Armstrong. Відповідає обмеженню в 15 набоїв для цивільних мисливських гвинтівок."
   components:
   - type: Tag
     tags:

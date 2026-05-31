@@ -1,8 +1,8 @@
 - type: entity
-  name: genetic ancestor
+  name: "генетичний предок"
   id: CMUBaseMobCarp
   parent: SimpleMobBase
-  description: The genetic bipedal ancestor of... Uh... Something. Yeah, there's definitely something on the planet that descended from whatever this is.
+  description: "Генетичний двоногий предок... Ну... Чогось. Так, на планеті точно є щось, що походить від цього."
   abstract: true
   components:
   - type: CombatMode
@@ -79,8 +79,8 @@
 - type: entity
   parent: [RMCSimpleMob, CMUBaseMobCarp, RMCSmallHost]
   id: CMUMobCarp
-  name: carp
-  description: It's a carp. Adapted to migrate up hill both ways.
+  name: "короп"
+  description: "Це короп. Адаптований мігрувати в гору в обидва боки."
   suffix: CMU
   components:
   - type: RotationVisuals
@@ -117,7 +117,7 @@
     displayName: Mask
 
 - type: entity
-  name: Carp Spawner
+  name: "Спавнер коропа"
   id: CMUSpawnMobCarp
   parent: MarkerBase
   suffix: CMU

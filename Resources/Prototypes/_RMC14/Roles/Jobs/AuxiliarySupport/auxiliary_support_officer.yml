@@ -109,7 +109,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointASO
-  name: auxiliary support officer spawn point
+  name: "спавнер офіцера допоміжної підтримки"
   components:
   - type: SpawnPoint
     job_id: CMAuxiliarySupportOfficer
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleASO
-  name: Auxiliary Support Officer
+  name: "Офіцер допоміжної підтримки"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

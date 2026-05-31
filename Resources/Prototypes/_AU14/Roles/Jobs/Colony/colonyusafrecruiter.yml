@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianUSASFRecruiter
-  name: Spawn Point USASF Recruiter LV624 SPECIFIC
+  name: "точка появи вербувальника USASF, лише для LV624"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianUSASFRecruiter

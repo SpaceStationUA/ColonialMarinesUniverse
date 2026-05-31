@@ -2,8 +2,8 @@
 
 - type: entity
   id: CMMedilinkSupplyPort
-  name: medilink supply port
-  description: A complex network of pipes and machinery, linking to large storage systems below the deck. Medical vendors linked to this port will be able to infinitely restock supplies.
+  name: "постачальний порт medilink"
+  description: "Складна мережа труб і механізмів, що з'єднується з великими системами зберігання під палубою. Медичні автомати, під'єднані до цього порту, зможуть нескінченно поповнювати запаси."
   placement:
     mode: SnapgridCenter
   components:
@@ -19,8 +19,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorMedicalAllAccess
-  name: We-Yu-Med Plus
-  description: Medical pharmaceutical dispenser. Provided by We-Yu Pharmaceuticals Division(TM).
+  name: "Ве-Я-Мед Плюс"
+  description: "Дозатор медичних фармацевтичних препаратів. Надано Фармацевтичним відділом «Ве-Я»(TM)."
   suffix: All Access
   components:
   - type: Sprite
@@ -261,8 +261,8 @@
 - type: entity
   parent: CMVendorMedical
   id: CMVendorChemistry
-  name: We-Yu-Chem Plus
-  description: Medical chemistry dispenser. Provided by We-Yu Pharmaceuticals Division(TM).
+  name: "Ве-Я-Хім Плюс"
+  description: "Дозатор медичної хімії. Надано Фармацевтичним відділом «Ве-Я»(TM)."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/chem.rsi
@@ -316,8 +316,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: ColMarTechMarineMedical
-  name: ColMarTech MarineMed
-  description: Medical Pharmaceutical dispenser with basic medical supplies for marines.
+  name: "ColMarTech MarineMed"
+  description: "Дозатор медичних фармпрепаратів із базовими медзапасами для морпіхів."
   components:
   - type: Fixtures
     fixtures:
@@ -385,8 +385,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: RMCNanoMed
-  name: NanoMed
-  description: A wall-mounted medical equipment dispenser.
+  name: "NanoMed"
+  description: "Настінний дозатор медичного обладнання."
   components:
   - type: Fixtures
     fixtures:
@@ -440,7 +440,7 @@
 - type: entity
   parent: RMCNanoMed
   id: RMCNanoMedLimited
-  description: A wall-mounted medical equipment dispenser. This version is more limited than standard UNMC NanoMeds.
+  description: "Настінний дозатор медичного обладнання. Ця версія обмеженіша за стандартні NanoMed ОНМП."
   suffix: Limited
   components:
   - type: CMSolutionRefiller
@@ -458,8 +458,8 @@
 - type: entity
   parent: RMCNanoMed
   id: RMCBobdaMed
-  name: BobdaMed
-  description: In Bobdaland (Trademark pending), one is never more than 6ft away from canned Havana goodness. Drink a Bobda today! For a full selection of Bobda products please visit a licensed retailer or vending machine. Also doubles as basic first aid station.
+  name: "BobdaMed"
+  description: "У країні Бобди (товарний знак очікує реєстрації) ти ніколи не далі за 6 футів від консервованої гаванської насолоди. Випий сьогодні Бобду! Повний асортимент продукції Бобда — у ліцензованого роздрібного продавця або в торговельній машині. Слугує також базовою станцією першої допомоги."
   components:
   - type: Sprite
     drawdepth: WallMountedItems
@@ -513,8 +513,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorBlood
-  name: MM Blood Dispenser
-  description: The Marine Med Brand Blood Pack Dispensary is the premier, top-of-the-line blood dispenser of 2105! Get yours today! #dont update year, that`s a joke from cm13
+  name: "Дозатор крові MM"
+  description: "Дозатор пакетів крові від Marine Med — найкращий, найновіший дозатор крові 2105 року! Купи свій сьогодні!" #dont update year, that`s a joke from cm13
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/blood.rsi

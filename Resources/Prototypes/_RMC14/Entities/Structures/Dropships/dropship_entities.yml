@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCDropshipDoorBlocker
-  name: dropship door blocker
-  description: Blocks barricades from being pulled into the dropship.
+  name: "блокувач дверей десантного корабля"
+  description: "Запобігає затягуванню барикад у десантний корабель."
   components:
   - type: Transform
     anchored: true
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCUtilityAttachmentPoint
-  name: utility attach point
-  description: An attachment point for utility systems
+  name: "точка кріплення утиліт"
+  description: "Точка кріплення утилітарних систем"
   components:
   - type: GuideHelp
     guides:
@@ -53,8 +53,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCEngineAttachmentPoint
-  name: engine system attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка кріплення двигуна"
+  description: "Місце, де важке обладнання можна встановити силовим завантажувачем."
   components:
   - type: GuideHelp
     guides:
@@ -94,8 +94,8 @@
   parent: CMBaseStructureCorrodible
   id: RMCElectronicSystemAttachPoint
   categories: [ HideSpawnMenu ]
-  name: electronic system attach point
-  description: A place where heavy equipment can be installed with a powerloader.
+  name: "точка кріплення електронної системи"
+  description: "Місце, де важке обладнання можна встановити силовим завантажувачем."
   components:
   - type: InteractionOutline
   - type: Clickable

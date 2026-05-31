@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14UNISCM10Helmet
-  name: UNISC M10 Helmet
-  description: Standard Issue Helmet used by UNISC. Provides modest protection from bullet and melee attacks at the head. It also has an inbuilt camera allowing for command staff to observe the squad's actions.
+  name: "шолом M10 МКМООН"
+  description: "Штатний шолом, який використовує МКМООН. Забезпечує помірний захист голови від куль і ближніх атак. Також має вбудовану камеру, що дозволяє командному складу спостерігати за діями відділення."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UNISC/m10helmet.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14UNISCM11Helmet
-  name: UNISC M11 Helmet
-  description: A slightly fancier helmet for UNISC leadership. This one contains a small built-in camera and has cushioning to project your fragile brain.
+  name: "шолом M11 МКМООН"
+  description: "Трохи вишуканіший шолом для керівництва МКМООН. Має невелику вбудовану камеру та амортизацію, щоб захистити ваш крихкий мозок."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UNISC/m11helmet.rsi

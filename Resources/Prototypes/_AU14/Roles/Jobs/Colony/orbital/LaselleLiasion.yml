@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianLaselleLiaison
-  name: Spawn Point Civilian Laselle Liaison
+  name: "точка появи цивільного зв’язкового Ласелль"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianLaselleLiaison

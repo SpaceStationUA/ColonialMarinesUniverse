@@ -1,8 +1,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankWarningArray
-  name: integrated weapons sensor array
-  description: An integrated sensor array that improves accuracy and fire rate of onboard weapons.
+  name: "інтегрований сенсорний масив озброєння"
+  description: "Інтегрований сенсорний масив, який покращує точність і швидкострільність бортового озброєння."
   components:
   - type: Sprite
     state: warray
@@ -23,8 +23,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankOverdriveEnhancer
-  name: overdrive enhancer
-  description: An overdrive enhancer support attachment for a tank.
+  name: "прискорювач овердрайву"
+  description: "Допоміжне кріплення прискорювача овердрайву для танка."
   components:
   - type: Sprite
     state: odrive_enhancer
@@ -44,8 +44,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankRocketLauncher
-  name: smoke launcher
-  description: A smoke launcher support attachment for a tank.
+  name: "димова пускова установка"
+  description: "Допоміжне кріплення димової пускової установки для танка."
   components:
   - type: Sprite
     state: slauncher_0
@@ -101,8 +101,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankFlareModule
-  name: flare module
-  description: A flare launcher support attachment for a tank.
+  name: "модуль сигнальних ракет"
+  description: "Допоміжне кріплення пускової установки сигнальних ракет для танка."
   components:
   - type: Sprite
     state: slauncher_1
@@ -161,8 +161,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankArtilleryModule
-  name: artillery module
-  description: An artillery support module for a tank.
+  name: "артилерійський модуль"
+  description: "Допоміжний артилерійський модуль для танка."
   components:
   - type: Sprite
     state: artillery

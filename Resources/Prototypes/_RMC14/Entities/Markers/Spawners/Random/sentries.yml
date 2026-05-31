@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomSentry
-  name: sentry loot spawner
-  description: This is a random sentry, for survivors.
+  name: "спавнер лута турелі"
+  description: "Це випадкова турель для вцілілийів."
   suffix: Guaranteed
   components:
   - type: Sprite

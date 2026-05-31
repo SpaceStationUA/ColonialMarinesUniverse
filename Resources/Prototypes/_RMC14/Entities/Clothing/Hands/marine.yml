@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHandsBase
   id: CMHandsBlackMarine # TODO RMC14 armor
-  name: marine combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'."
+  name: "морські бойові рукавички"
+  description: "Стандартні тактичні рукавички морпіхів. На них написано: 'зв'язано Асоціацією Морських Вдів'."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/black.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsLatexMarine # TODO RMC14 armor
-  name: marine medical combat gloves
-  description: Standard issue marine sterile gloves, offers regular protection whilst offering the user a better grip when performing medical work.
+  name: "морські медичні бойові рукавички"
+  description: "Стандартні стерильні рукавички морпіхів, дають звичайний захист і водночас кращий хват під час медичної роботи."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/latex.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsDeluxeMarine
-  name: deluxe combat gloves
-  description: Combat gloves finished in an almost golden-looking fabric. Insulated, fashionable, and capable of protecting the soft hands it's likely wrapped around.
+  name: "розкішні бойові рукавички"
+  description: "Бойові рукавички, оздоблені тканиною майже золотого вигляду. Ізольовані, модні й здатні захистити ніжні руки, які вони, ймовірно, обгортають."
   components:
   - type: Insulated
   - type: Sprite
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsM3G4
-  name: M3-G4 grenadier gloves
-  description: A pair of plated, but nimble, gloves.
+  name: "гренадерські рукавички M3-G4"
+  description: "Пара пластинчастих, але спритних рукавичок."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/grenadier.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsBrownMarine
-  name: marine brown combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'. These are brown instead of the classic black."
+  name: "коричневі морські бойові рукавички"
+  description: "Стандартні тактичні рукавички морпіхів. На них написано: 'зв'язано Асоціацією Морських Вдів'. Ці коричневі замість класичних чорних."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/brown.rsi
@@ -83,8 +83,8 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsGreyMarine
-  name: marine grey combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'. These are a shade of grey instead of the classic black."
+  name: "сірі морські бойові рукавички"
+  description: "Стандартні тактичні рукавички морпіхів. На них написано: 'зв'язано Асоціацією Морських Вдів'. Ці сірого відтінку замість класичних чорних."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/grey.rsi
@@ -94,5 +94,5 @@
 - type: entity
   parent: CMHandsBlackMarine
   id: RMCHandsFingerlessMarine
-  name: marine fingerless combat gloves
-  description: "Standard issue marine tactical gloves. It reads: 'knit by Marine Widows Association'. These ones have been modified by having the fingertips removed."
+  name: "морські бойові рукавички без пальців"
+  description: "Стандартні тактичні рукавички морпіхів. На них написано: 'зв'язано Асоціацією Морських Вдів'. У цих кінчики пальців було зрізано."

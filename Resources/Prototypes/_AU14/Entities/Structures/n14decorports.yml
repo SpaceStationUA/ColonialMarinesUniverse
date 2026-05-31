@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: Rails
-  name: railway
+  name: "залізниця"
   placement:
     mode: SnapgridCenter
   components:
@@ -132,8 +132,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard1
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_ns-1
@@ -141,8 +141,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard2
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_ns-2
@@ -150,8 +150,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard3
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_ns-3
@@ -159,8 +159,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard4
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_ns-4
@@ -168,8 +168,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard5
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_ns-5
@@ -177,8 +177,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard6
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_ns-6
@@ -186,8 +186,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard7
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_we-1
@@ -195,8 +195,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard8
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_we-2
@@ -204,8 +204,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard9
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_we-3
@@ -213,8 +213,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard10
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_we-4
@@ -222,8 +222,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard11
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_we-5
@@ -231,8 +231,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard12
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_drought_we-6
@@ -240,8 +240,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard13
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_ns-1
@@ -249,8 +249,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard14
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_ns-2
@@ -258,8 +258,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard15
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_ns-3
@@ -267,8 +267,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard16
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_ns-4
@@ -276,8 +276,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard17
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_ns-5
@@ -285,8 +285,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard18
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_ns-6
@@ -294,8 +294,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard19
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_we-1
@@ -303,8 +303,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard20
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_we-2
@@ -312,8 +312,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard21
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_we-3
@@ -321,8 +321,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard22
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_we-4
@@ -330,8 +330,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard23
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_we-5
@@ -339,8 +339,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorFloorBoard24
-  name: floor board
-  description: Keep the mud off your feet.
+  name: "настилова дошка"
+  description: "Не забруднюйте ноги багнюкою."
   components:
   - type: Sprite
     state: boards_mammoth_we-6
@@ -348,8 +348,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorStalagmite1
-  name: stalagmite
-  description: Pointy rocks! Mites go up, tites come...
+  name: "сталагміт"
+  description: "Гострі камені! Міти ростуть угору, тити йдуть..."
   components:
   - type: Sprite
     state: stalagmite
@@ -403,8 +403,8 @@
 - type: entity
   parent: DecorStalagmite1
   id: DecorMinecart
-  name: minecrart
-  description: It seems to have fallen over...
+  name: "вагонетка"
+  description: "Здається, вона перекинулася..."
   components:
   - type: Sprite
     state: minecart_fallen
@@ -412,8 +412,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorSignLeftMine
-  name: sign
-  description: A sign, for a mine, pointing li...left
+  name: "знак"
+  description: "Знак для шахти, вказує лі... ліворуч"
   components:
   - type: Sprite
     state: sign_left
@@ -421,8 +421,8 @@
 - type: entity
   parent: DecorFloorBase
   id: DecorSignRightMine
-  name: sign
-  description: A sign, pointing right.
+  name: "знак"
+  description: "Знак, що вказує праворуч."
   components:
   - type: Sprite
     state: sign_right
@@ -439,8 +439,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorPaper
-  name: scattered paper
-  description: A mess of papers
+  name: "розкидані папери"
+  description: "Купа паперів"
   suffix: 8 states
   components:
   - type: Sprite
@@ -452,8 +452,8 @@
   parent: DecorFloorWorldBase
   id: DecorFloorPaper1
   suffix: 4 states
-  name: scattered paper
-  description: A mess of papers
+  name: "розкидані папери"
+  description: "Купа паперів"
   components:
   - type: Sprite
     state: papers_1
@@ -475,8 +475,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorScrapwood
-  name: wood scraps
-  description: wood scraps
+  name: "дерев’яні уламки"
+  description: "дерев’яні уламки"
   suffix: 6 states
   components:
   - type: Sprite
@@ -485,8 +485,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorBrickrubble
-  name: brick rubble
-  description: brick rubble
+  name: "цегляний щебінь"
+  description: "цегляний щебінь"
   suffix: "6 states"
   components:
   - type: Sprite
@@ -495,8 +495,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorCardboard
-  name: cardboard boxes
-  description: cardboard scrap boxes
+  name: "картонні коробки"
+  description: "картонні коробки з брухту"
   suffix: "6 states"
   components:
   - type: Sprite
@@ -506,8 +506,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorPallet
-  name: pallet
-  description: a wooden pallet.
+  name: "піддон"
+  description: "дерев’яний піддон."
   suffix: "2 states"
   components:
   - type: Sprite
@@ -523,8 +523,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorPalletStack
-  name: pallet stack
-  description: a stack of wooden pallets
+  name: "стос піддонів"
+  description: "стос дерев’яних піддонів"
   suffix: "2 states"
   components:
   - type: Sprite
@@ -551,8 +551,8 @@
 - type: entity
   parent: DecorFloorPalletStack
   id: DecorFloorBrickStack
-  name: brick stack
-  description: a neat stack of bricks
+  name: "стос цегли"
+  description: "акуратний стос цегли"
   components:
   - type: Sprite
     state: brickpile
@@ -560,8 +560,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorBookstack1
-  name: book stack
-  description: a stack of books
+  name: "стос книг"
+  description: "стос книг"
   components:
   - type: Sprite
     state: bookstack_1
@@ -584,8 +584,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorBookPile1
-  name: book pile
-  description: a pile of books
+  name: "купа книг"
+  description: "купа книг"
   components:
   - type: Sprite
     state: bookpile_1
@@ -629,8 +629,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorFood1
-  name: food stuff
-  description: some old food stuff
+  name: "залишки їжі"
+  description: "якісь старі залишки їжі"
   components:
   - type: Sprite
     state: foodstuff_1
@@ -673,8 +673,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorTrashbags1
-  name: trash bags
-  description: some old trash bags
+  name: "сміттєві мішки"
+  description: "якісь старі сміттєві мішки"
   components:
   - type: Sprite
     state: trashbags_1
@@ -728,8 +728,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorGlass1
-  name: glass bottles
-  description: some old glass scraps
+  name: "скляні пляшки"
+  description: "якісь старі скляні уламки"
   components:
   - type: Sprite
     state: glass_1
@@ -773,8 +773,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorSignMines
-  name: mines
-  description: danger of mines and death...
+  name: "міни"
+  description: "небезпека мін і смерті..."
   components:
   - type: Sprite
     state: mine_sign
@@ -782,8 +782,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorFloorSkeleton
-  name: skeleton
-  description: looks a little worse for wear
+  name: "скелет"
+  description: "виглядає трохи пошарпаним"
   components:
   - type: Sprite
     state: skeleton
@@ -791,8 +791,8 @@
 - type: entity
   parent: DecorFloorWorldBase
   id: DecorBarrels
-  name: barrels
-  description: a bunch of old rusty barrels.
+  name: "бочки"
+  description: "купа старих іржавих бочок."
   components:
   - type: Sprite
     layers:

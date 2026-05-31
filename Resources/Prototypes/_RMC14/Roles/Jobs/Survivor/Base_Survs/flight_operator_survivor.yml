@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFlightOperator
-  name: survivor flight operator spawn point
+  name: "спавнер льотного оператора-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivorFlightOperator
@@ -58,7 +58,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorFlightOperator
-  name: flight operator colonist ghost role
+  name: "привид-роль колоніста-льотного оператора"
   components:
   - type: Sprite
     layers:
@@ -76,5 +76,5 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetFlightOperator
-  name: flight operator colonist preset
+  name: "пресет колоніста-льотного оператора"
   categories: [ HideSpawnMenu ]

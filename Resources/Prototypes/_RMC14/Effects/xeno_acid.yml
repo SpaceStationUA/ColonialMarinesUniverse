@@ -1,7 +1,7 @@
 - type: entity
   id: XenoAcidNormal
-  name: corrosive acid
-  description: Burbling corrosive stuff. I wouldn't want to touch it.
+  name: "їдка кислота"
+  description: "Булькаюча їдка речовина. Я б не хотів до неї торкатися."
   components:
   - type: Transform
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: XenoAcidNormal
   id: XenoAcidWeak
-  name: weak corrosive acid
+  name: "слабка їдка кислота"
   components:
   - type: Sprite
     layers:
@@ -34,7 +34,7 @@
 - type: entity
   parent: XenoAcidNormal
   id: XenoAcidStrong
-  name: strong corrosive acid
+  name: "сильна їдка кислота"
   components:
   - type: Sprite
     layers:
@@ -42,8 +42,8 @@
 
 - type: entity
   id: XenoAcidSprayWeak
-  name: weak splatter
-  description: It burns! It burns, but not as much!
+  name: "слабкі бризки"
+  description: "Пече! Пече, але не так сильно!"
   components:
   - type: Transform
   - type: Physics
@@ -92,8 +92,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayStrong
-  name: splatter
-  description: It burns! It burns like hygiene!
+  name: "бризки"
+  description: "Пече! Пече, як гігієна!"
   components:
   - type: Sprite
     layers:
@@ -111,8 +111,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayAcidStacks
-  name: splatter
-  description: It burns! It burns like hygiene!
+  name: "бризки"
+  description: "Пече! Пече, як гігієна!"
   components:
   - type: Sprite
     layers:
@@ -145,7 +145,7 @@
 
 - type: entity
   id: XenoFleshBloom
-  name: flesh bloom
+  name: "цвітіння плоті"
   categories: [ HideSpawnMenu ]
   components:
   - type: Transform
@@ -166,8 +166,8 @@
 - type: entity
   parent: XenoAcidSprayWeak
   id: XenoAcidSprayTrap
-  name: splatter
-  description: It burns! It burns like hygiene!
+  name: "бризки"
+  description: "Пече! Пече, як гігієна!"
   components:
   - type: Sprite
     layers:
@@ -186,8 +186,8 @@
 - type: entity
   parent: XenoAcidSprayTrap
   id: XenoAcidSprayTrapWeak
-  name: weak splatter
-  description: It burns! It burns, but not as much!
+  name: "слабкі бризки"
+  description: "Пече! Пече, але не так сильно!"
   components:
   - type: Sprite
     layers:
@@ -208,8 +208,8 @@
 - type: entity
   parent: XenoAcidSprayTrap
   id: XenoAcidSprayTrapStrong
-  name: strong splatter
-  description: It burns a lot!
+  name: "сильні бризки"
+  description: "Пече дуже сильно!"
   components:
   - type: Sprite
     layers:
@@ -230,7 +230,7 @@
 - type: entity
   parent: RMCBaseEffect
   id: XenoAcidExtinguishEffect
-  description: It's cold...
+  description: "Холодно..."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

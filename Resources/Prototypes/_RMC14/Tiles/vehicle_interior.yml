@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBaseUnpryable
   id: RMCFloorVehicleInteriorBase
-  name: vehicle interior floor
+  name: "підлога інтер'єру транспорту"
 
 - type: tile
   parent: RMCFloorVehicleInteriorBase

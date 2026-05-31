@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantUPP
-  name: Platoon Leader
+  name: "Командир взводу"
   spawnMenuRoleName: Platoon Sergeant (UPP)
   ranks:
     UPP_Chotar:

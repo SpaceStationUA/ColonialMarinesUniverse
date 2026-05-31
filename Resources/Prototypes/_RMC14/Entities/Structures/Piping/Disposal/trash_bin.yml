@@ -2,8 +2,8 @@
   abstract: true
   id: RMCTrashBinBase
   parent: BaseStructure
-  name: trash bin
-  description: A Weyland-Yutani trash bin used for disposing your unwanted items, or you can just throw your shit on the ground like every other asshole.
+  name: "смітник"
+  description: "Смітник «Вейланд-Ютані» для викидання непотрібних речей. Або ж можна просто кидати свій мотлох на підлогу, як усі інші гімнюки."
   placement:
     mode: SnapgridCenter
     snap:

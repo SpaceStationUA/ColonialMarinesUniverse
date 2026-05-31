@@ -37,7 +37,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCMedic
-  name: weya pmc ghost role medic
+  name: "weya pmc привид-роль медика"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -49,7 +49,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCMedic
-  name: weya pmc medic spawn point
+  name: "спавнер медика weya pmc"
   components:
   - type: SpawnPoint
     job_id: RMCPMCMedic

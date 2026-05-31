@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: Type-19 Submachinegun
+  name: "Пістолет-кулемет Type-19"
   id: RMCWeaponSMGType19
-  description: An outdated, but reliable and powerful, submachinegun originating in the Union of Progressive Peoples, it is still in limited service in the UPP but is most often used by paramilitary groups or corporate security forces. It is usually used with a 35 round stick magazine, or a 71 round drum.
+  description: "Застарілий, але надійний і потужний пістолет-кулемет, що походить із Союзу Прогресивних Народів, досі обмежено на службі в СПН, але найчастіше використовується воєнізованими групами або корпоративними силами безпеки. Зазвичай використовується з 35-зарядним секторним магазином або 71-зарядним барабаном."
   suffix: Filled
   components:
   - type: Sprite
@@ -98,8 +98,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGType19
-  name: Type-19 stick magazine (7.62x25mm)
-  description: A 35-round stick magazine for the Type-19 SMG.
+  name: "Секторний магазин Type-19 (7.62x25мм)"
+  description: "35-зарядний секторний магазин для ПК Type-19."
   components:
   - type: Tag
     tags:
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGType19Drum
-  name: Type-19 drum magazine (7.62x25mm)
-  description: A 71-round drum magazine for the Type-19 SMG.
+  name: "Барабанний магазин Type-19 (7.62x25мм)"
+  description: "71-зарядний барабанний магазин для ПК Type-19."
   components:
   - type: Tag
     tags:
@@ -160,8 +160,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge762x25mm
-  name: cartridge (7.62x25mm SMG)
-  description: A 7.62x25mm cartridge for the Type-19 SMG.
+  name: "набій (7.62x25мм SMG)"
+  description: "Набій 7.62x25мм для ПК Type-19."
   components:
   - type: Tag
     tags:

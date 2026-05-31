@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalGear
-  name: ColMarTech squad medical gear rack
-  description: An automated gear rack for hospital corpsmen.
+  name: "Стелаж медичного спорядження загону ColMarTech"
+  description: "Автоматизований стелаж спорядження для санітарів."
   components:
   - type: AccessReader
     access:
@@ -211,8 +211,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMedicalEquipment
-  name: ColMarTech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
+  name: "Стелаж медичного обладнання загону ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження санітара."
   components:
   - type: AccessReader
     access:
@@ -330,8 +330,8 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCColMarTechMedicalEquipmentPVE
-  name: ColMarTech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of hospital corpsman standard-issue equipment.
+  name: "Стелаж медичного обладнання загону ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження санітара."
   suffix: PVE
   components:
   - type: AccessReader
@@ -409,8 +409,8 @@
 - type: entity
   parent: RMCColMarTechMedicalEquipmentPVE
   id: RMCPMCMedicalEquipmentPVE
-  name: We-Yu squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of corporate medic standard-issue equipment.
+  name: "Стелаж медичного обладнання загону «Ве-Я»"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження корпоративного медика."
   suffix: PVE, PMC
   components:
   - type: CMAutomatedVendor
@@ -466,8 +466,8 @@
 - type: entity
   parent: RMCColMarTechMedicalEquipmentPVE
   id: RMCSPPMedicalEquipmentPVE
-  name: H-Tech squad medical equipment rack
-  description: An automated rack hooked up to a colossal storage of UPP corpsman standard-issue equipment.
+  name: "Стелаж медичного обладнання загону H-Tech"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження санітара СПН."
   suffix: PVE, SPP
   components:
   - type: CMAutomatedVendor
@@ -528,8 +528,8 @@
   parent: RMCColMarTechMedicalEquipmentPVE
   id: ColMarTechMedicalChemicalPVE
   suffix: PVE
-  name: ColMarTech squad medical chemical rack
-  description: An automated gear rack for specialized chemicals for the hospital corpsman.
+  name: "Стелаж медичних хімікатів загону ColMarTech"
+  description: "Автоматизований стелаж спорядження зі спеціалізованими хімікатами для санітара."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/medical_chemical.rsi
@@ -575,8 +575,8 @@
   parent: ColMarTechMedicalChemicalPVE
   id: RMCRCMMedicalChemicalPVE
   suffix: PVE, RCM
-  name: We-Yu section medical chemical rack
-  description: An automated gear rack for specialized chemicals for the medical assistants.
+  name: "Стелаж медичних хімікатів секції «Ве-Я»"
+  description: "Автоматизований стелаж спорядження зі спеціалізованими хімікатами для медичних асистентів."
   components:
   - type: CMAutomatedVendor
     jobs:
