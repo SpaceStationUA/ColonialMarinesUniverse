@@ -85,3 +85,8 @@ trait-category-speech = Риси мовлення
 trait-category-quirks = Дивацтва
 
 humanoid-profile-editor-job-fallback-label = Запасна професія
+humanoid-profile-editor-government-forces-label = Урядові сили / { $segmentTitle }
+humanoid-profile-editor-segment-command = Командування
+humanoid-profile-editor-segment-flight = Авіація
+humanoid-profile-editor-segment-support = Підтримка
+humanoid-profile-editor-segment-line = Лінійна піхота

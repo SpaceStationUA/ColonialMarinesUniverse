@@ -2737,5 +2737,102 @@
   id: 159
   time: '2026-05-29T21:47:20.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1155
+- author: potatoed6
+  changes:
+  - message: XM4RA - карабін на базі M4RA, XM4RA1 - повністю автоматичний карабін,
+      а XM4RA1 SOPMOD - фактично M4RA з повним авто, чергою та підствольним гранатометом.
+      Наразі використовується лише XM4RA.
+    type: Add
+  - message: Морська охорона для посла ОА - двоє охоронців з XM4RA. Переважно для
+      ларпу, але вони також можуть захищати посольство від слабких загроз.
+    type: Add
+  - message: Виправлено, що найманець VAISP третьої сторони спавнився без ID і гарнітури.
+    type: Fix
+  id: 160
+  time: '2026-05-30T21:35:36.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1164
+- author: maertayn
+  changes:
+  - message: Колоніальне цивільне право вже тут, це WIP. Будь ласка, використовуйте
+      гілку фідбеку для скарг, покращень і доповнень. Від вас поки не очікують буквального
+      дотримання; зараз це базова основа, доки деякі невідомі особливості не будуть
+      оцінені й відшліфовані.
+    type: Add
+  - message: Описи наборів молодших офіцерів для IO/EO/AO/SO - пояснюють новачкам,
+      чим мають займатися ці ролі.
+    type: Add
+  id: 161
+  time: '2026-05-30T21:38:14.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1163
+- author: potatoed6
+  changes:
+  - message: Змінено штатні гвинтівки, SMG та карабіни
+    type: Tweak
+  id: 162
+  time: '2026-05-30T21:39:21.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1150
+- author: toot621
+  changes:
+  - message: Додано третю сторону транспортування умовно звільненого КБМ
+    type: Add
+  - message: Додано третю сторону мандрівних місіонерів
+    type: Add
+  - message: Додано третю сторону нових колоністів
+    type: Add
+  - message: Додано третю сторону іноземної злочинної банди
+    type: Add
+  - message: Додано третю сторону контрабандиста наркотиків
+    type: Add
+  id: 163
+  time: '2026-05-30T21:40:45.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1138
+- author: NzzyFk
+  changes:
+  - message: Підвищено темп стрільби SG (4.3 --> 10, для порівняння GAU HAZOPS десь
+      близько 9.3)
+    type: Tweak
+  - message: Перероблено шкоду SG (DPS на близькій дистанції має бути здебільшого
+      таким самим або трохи кращим завдяки збільшенню темпу стрільби)
+    type: Tweak
+  - message: Сильно зменшено падіння шкоди SG, щоб зброя СПРАВДІ працювала як засіб
+      придушення
+    type: Tweak
+  - message: Зменшено гучність SFX SG (LUFS --> -30), також внесено незначні, майже
+      непомітні зміни висоти тону
+    type: Tweak
+  id: 164
+  time: '2026-05-30T21:42:05.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1160
+- author: NzzyFk
+  changes:
+  - message: ЗНОВУ збільшено тривалість димової гранати (14 --> 22 секунди)
+    type: Tweak
+  - message: Збільшено таймер димової гранати (1 - 2.5 секунди)
+    type: Tweak
+  id: 165
+  time: '2026-05-30T21:42:46.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1161
+- author: NzzyFk
+  changes:
+  - message: Виправлено спрайт шолома третьої сторони Продіджі
+    type: Fix
+  id: 166
+  time: '2026-05-30T21:43:15.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1166
+- author: Kadeo64
+  changes:
+  - message: Знижено шанс появи токсину мерзоти в ящиках дослідного експерименту.
+    type: Tweak
+  id: 167
+  time: '2026-05-30T21:43:54.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1159
+- author: deepdarkdepths
+  changes:
+  - message: Видалено фони заростей зі спрайтів ксено-пасток, щоб вони були менш
+      помітними.
+    type: Tweak
+  id: 168
+  time: '2026-05-30T21:44:37.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1136
 Name: CMU
 Order: -1
