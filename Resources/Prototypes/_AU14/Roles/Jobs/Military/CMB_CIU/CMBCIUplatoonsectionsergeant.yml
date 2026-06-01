@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantCMBCIU
-  name: "Командир підрозділу"
+  name: Unit Leader
   ranks:
     AU14RankCMBChiefDeputy: []
   spawnMenuRoleName: Section Sergeant (CMBCIU)

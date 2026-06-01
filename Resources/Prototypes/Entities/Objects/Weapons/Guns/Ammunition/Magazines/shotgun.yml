@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazineShotgun
-  name: "базовий барабан для набоїв (.50 shells)"
+  name: ammo drum (.50 shells)
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -44,7 +44,7 @@
 
 - type: entity
   id: MagazineShotgunEmpty
-  name: "барабан для набоїв (.50 shells any)"
+  name: ammo drum (.50 shells any)
   suffix: empty
   parent: BaseMagazineShotgun
   components:
@@ -53,7 +53,7 @@
 
 - type: entity
   id: MagazineShotgun
-  name: "барабан для набоїв (.50 pellet)"
+  name: ammo drum (.50 pellet)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -77,7 +77,7 @@
 
 - type: entity
   id: MagazineShotgunBeanbag
-  name: "барабан для набоїв (.50 beanbags)"
+  name: ammo drum (.50 beanbags)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -101,7 +101,7 @@
 
 - type: entity
   id: MagazineShotgunSlug
-  name: "барабан для набоїв (.50 slug)"
+  name: ammo drum (.50 slug)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider
@@ -125,7 +125,7 @@
 
 - type: entity
   id: MagazineShotgunIncendiary
-  name: "барабан для набоїв (.50 incendiary)"
+  name: ammo drum (.50 incendiary)
   parent: BaseMagazineShotgun
   components:
   - type: BallisticAmmoProvider

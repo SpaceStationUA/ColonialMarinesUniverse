@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallSPPReinforced
-  name: "укріплена стіна"
-  description: "Товста й масивна металева стіна. Поверхня — гола й зловісна."
+  name: reinforced wall
+  description: A thick and chunky metal wall. The surface is barren and imposing.
   suffix: SPP
   components:
   - type: Sprite
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallSPPHull
-  name: "ребристий корпус"
-  description: "Товста й масивна металева стіна. Поверхня — гола й зловісна."
+  name: ribbed hull walls
+  description: "A thick and chunky metal wall. The surface is barren and imposing."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/spp_wall.rsi

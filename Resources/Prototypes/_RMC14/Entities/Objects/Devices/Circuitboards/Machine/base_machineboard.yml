@@ -1,7 +1,7 @@
 - type: entity
   id: CMBaseMachineCircuitboard
   parent: BaseMachineCircuitboard
-  name: "плата верстата"
+  name: machine board
   abstract: true
   suffix: Machine Board
   components:

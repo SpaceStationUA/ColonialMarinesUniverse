@@ -21,7 +21,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorShivasDoctor
-  name: "спавнер лікаря шиви-вцілілого"
+  name: survivor shivas doctor spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorShivasDoctor

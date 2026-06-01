@@ -1,43 +1,43 @@
 - type: accessLevel
   id: AU14AccessOpfor
-  name: "ОПФОР"
+  name: Opfor
 
 - type: accessLevel
   id: AU14AccessOpforSquad
-  name: "відділення ОПФОР"
+  name: Opfor Squad
 
 - type: accessLevel
   id: AU14AccessOpforCommand
-  name: "командування ОПФОР"
+  name: Opfor Command
 
 - type: accessLevel
   id: AU14AccessOpforSecurity
-  name: "безпека ОПФОР"
+  name: Opfor Security
 
 - type: accessLevel
   id: AU14AccessOpforMedical
-  name: "медичний доступ ОПФОР"
+  name: Opfor Medical
 
 - type: accessLevel
   id: AU14AccessOpforEngineering
-  name: "інженерний доступ ОПФОР"
+  name: Opfor Engineering
 
 - type: accessLevel
   id: AU14AccessOpforFTL
-  name: "сержант відділення ОПФОР"
+  name: Opfor Squad Sergeant
 
 - type: accessLevel
   id: AU14AccessOpforGunner
-  name: "оператор смартгана ОПФОР"
+  name: Opfor Smart Gun Operator
 
 - type: accessLevel
   id: AU14AccessOpforPilot
-  name: "пілот ОПФОР"
+  name: Opfor Pilot
 
 - type: accessLevel
   id: AU14AccessOpforJuniorOfficer
-  name: "Молодший офіцер"
+  name: Junior Officer
 
 - type: accessLevel
   id: AU14AccessOpforReq
-  name: "Постачання GOVFOR"
+  name: Govfor Requisitions

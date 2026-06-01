@@ -1,8 +1,8 @@
 - type: entity
   parent: BasePlushie
   id: CMPlushieBase
-  name: "звичайна плюшева іграшка"
-  description: "абсолютно звичайна"
+  name: generic plushie
+  description: perfectly generic
   suffix: RMC
   components:
   - type: Sprite
@@ -85,8 +85,8 @@
 - type: entity
   parent: RMCPlushieSharkBlue
   id: RMCShorkMedicalOfficer
-  name: "плюшевий медичний офіцер «Шорк»"
-  description: "Медичний офіцер «Шорк» розчарований, що знову бачить тебе на операції. Може, варто краще піклуватися про себе?"
+  name: Shork medical officer plushie
+  description: The Shork Medical Officer is disappointed to see you in surgery yet again. Maybe you should take better care of yourself?
   suffix: RMC
   components:
   - type: Sprite
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieFarwa
-  name: "плюшевий Фарва"
-  description: "Плюшева лялька Фарва. М'яка та заспокійлива!"
+  name: Farwa plush
+  description: A Farwa plush doll. It's soft and comforting!
   components:
   - type: Sprite
     state: farwa
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBarricade
-  name: "плюшева барикада"
-  description: "Чудова, щоб стискати, коли тобі страшно. Або трохи боляче. Або в будь-якій іншій ситуації."
+  name: plushie barricade
+  description: Great for squeezing whenever you're scared. Or lightly hurt. Or in any other situation.
   components:
   - type: Sprite
     state: barricade
@@ -120,8 +120,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieBee
-  name: "плюшева бджола"
-  description: "Мила іграшка, що пробуджує бойовий дух у найстриманіших морпіхів."
+  name: bee plush
+  description: A cute toy that awakens the warrior spirit in the most reserved marine.
   components:
   - type: Sprite
     state: bee
@@ -129,8 +129,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRock
-  name: "плюшева скеля"
-  description: "Принаймні на бирці написано, що це плюшева іграшка."
+  name: rock plush
+  description: It says it is a plush on the tag, at least.
   components:
   - type: Sprite
     state: rock
@@ -138,8 +138,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieTherapy
-  name: "терапевтична плюшева іграшка"
-  description: "Терапевтична іграшка, що допомагає морпіхам відновлюватися від психічних і поведінкових розладів після травм бойів."
+  name: therapy plush
+  description: A therapeutic toy to assist marines in recovering from mental and behavioral disorders after experiencing the trauma of battles.
   components:
   - type: Sprite
     layers:
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMPlushieBase
   id: CMPlushieRunnerBeret
-  name: "терапевтична плюшева іграшка XX"
-  description: "Не сумуй! Радій (що ти живий)!"
+  name: XX therapy plush
+  description: Don't be sad! Be glad (that you're alive)!
   components:
   - type: Sprite
     state: runner_beret
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RCMPlushieRounyLizard
-  name: "дурненька плюшева Роуні"
-  description: "Дурненька плюшева Роуні, виготовлена ОНМП для зменшення стресу в морпіхів; виявилася високоефективною, коли її кидати в стіни."
+  name: silly rouny plushie
+  description: A silly rouny plushie produced by the UNMC to reduce stress in marines, shown to be highly effective when thrown into walls.
   components:
   - type: Sprite
     state: rouny_plushie
@@ -172,8 +172,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieAlec
-  name: "примітна плюшева іграшка"
-  description: "Ти майже відчуваєш злість, що від неї віє. На спині — невелика бирка зі списком кількох дешевих і гіпоалергенних тканин, з яких вона зроблена. У самому низу — назва виробника, Drake Industries."
+  name: conspicuous plush
+  description: You can almost feel spite emanating from it. On it's back is a small tag listing the several cheap and hypoallergenic textiles it's made of. At the very bottom is the name of the maker, Drake Industries.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Fun/alec_plushie.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieNyx
-  name: "проклята плюшева іграшка"
-  description: "Подейкують, якщо попросити в цієї плюшевої іграшки металу — твоя душа потрапить у яму. Також подейкують, що ця плюшева іграшка зроблена з 99% бавовни."
+  name: accursed plush
+  description: It's rumoured if you ask this plushie for metal, your soul gets trapped in the pit. It's also rumoured that this plushie was made with 99% cotton.
   components:
   - type: Sprite
     state: plushie_moth
@@ -218,8 +218,8 @@
 - type: entity
   parent: RMCPlushieNyx
   id: RMCPlushieMotivationalMoth
-  name: "мотиваційна морпіх-метелиха"
-  description: "М'який, пухнастий маленький морпіх-компаньйон для тих, кому просто потрібна невелика мотивація, щоб дійти до фінішу. Ти впораєшся, такточно! Радісно цвірінькає, коли її стискати!"
+  name: motivational marine moth
+  description: A soft, fluffy little marine companion for those who just need a little motivation to make it across the finish line. You can do it, yesyes! It chitters happily when squeezed!
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -228,8 +228,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieXippy
-  name: "кіспі"
-  description: "Проклятий агент хаосу й насильства."
+  name: xippy
+  description: An accursed agent of chaos and violence.
   components:
   - type: Sprite
     state: xippy
@@ -252,8 +252,8 @@
 - type: entity
   parent: CMPlushieBase
   id: RMCPlushieGnarpGnarp
-  name: "плюшевий гнарп"
-  description: "гнарп гнарп."
+  name: gnarp plush
+  description: gnarp gnarp.
   components:
   - type: Sprite
     state: gnarp
@@ -261,9 +261,9 @@
 - type: entity
   parent: RMCPlushieGnarpGnarp
   id: RMCPlushieGnarpGnarpAlt
-  name: "плюшевий гнарп"
+  name: gnarp plush
   suffix: Alternate
-  description: "гнарп гнарп."
+  description: gnarp gnarp.
   components:
   - type: Sprite
     state: gnarp_alt
@@ -271,8 +271,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieProvost
-  name: "залякуюча плюшева іграшка"
-  description: "Ікона для всіх палких платників податків і правоохоронців — Не дайте нікому дізнатися, що ця плюшева іграшка насправді заборгувала по податках."
+  name: intimidating plush
+  description: An icon for all avid tax payers and law enforcement personnel - Don't let anyone know that this plushie is actually behind on their taxes.
   components:
   - type: Sprite
     state: provost
@@ -304,8 +304,8 @@
 - type: entity
   parent: RMCPlushieBaseAdmin
   id: RMCPlushieCrow
-  name: "плюшева ворона"
-  description: "привіт ворон"
+  name: crow plushie
+  description: hello cro
   components:
   - type: Sprite
     state: crow

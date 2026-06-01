@@ -1,6 +1,6 @@
 - type: entity
   save: false
-  name: "Уріст МакРат"
+  name: Urist McRat
   parent: RMCBaseMobSpeciesOrganic
   id: CMMobRodentia
   suffix: RMC14
@@ -85,11 +85,11 @@
 
 - type: entity
   save: false
-  name: "Манекен роденції"
+  name: Rodentia Dummy
   parent: BaseSpeciesDummy
   id: MobRodentiaDummy
   categories: [ HideSpawnMenu ]
-  description: "Фіктивна роденція, призначена для використання в наборі символів."
+  description: A dummy rodentia meant to be used in character setup.
   components:
   - type: HumanoidAppearance
     species: Rodentia

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMCrowbar
   id: Test
-  name: "тестовий джунглевий камуфляж"
-  description: "джунлі"
+  name: jungle camo test
+  description: junjle
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/camotest/jungle.rsi

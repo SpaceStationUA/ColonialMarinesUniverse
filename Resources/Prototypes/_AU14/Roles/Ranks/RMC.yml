@@ -1,134 +1,134 @@
 # enlisted
 - type: rank
   id: RMC_Recruit
-  name: "рекрут"
+  name: Recruit
   prefix: Rct.
   paygrade: E1
 
 - type: rank
   id: RMC_Marine
-  name: "морпіх"
+  name: Marine
   prefix: Mne.
   paygrade: E2
 
 - type: rank
   id: RMC_LanceCorporal
-  name: "молодший капрал"
+  name: Lance Corporal
   prefix: LCpl.
   paygrade: E3
 
 - type: rank
   id: RMC_Corporal
-  name: "капрал"
+  name: Corporal
   prefix: Cpl.
   paygrade: E4
 
 - type: rank
   id: RMC_Sergeant
-  name: "сержант"
+  name: Sergeant
   prefix: Sgt.
   paygrade: E5
 
 - type: rank
   id: RMC_ColourSergeant
-  name: "колор-сержант"
+  name: Colour Sergeant
   prefix: CSgt.
   paygrade: E7
 
 #  warrant Officers
 - type: rank
   id: RMC_WarrantOfficer2
-  name: "ворент-офіцер 2-го класу"
+  name: Warrant Officer Class 2
   prefix: WO2.
   paygrade: W1
 
 - type: rank
   id: RMC_WarrantOfficer1
-  name: "ворент-офіцер 1-го класу"
+  name: Warrant Officer Class 1
   prefix: WO1.
   paygrade: W2
 
 # officers
 - type: rank
   id: RMC_OfficerCader
-  name: "офіцер-кадет"
+  name: Officer Cadet
   prefix: OCdt.
 
 - type: rank
   id: RMC_2Lieutenant
-  name: "молодший лейтенант"
+  name: Second Lieutenant
   prefix: 2Lt.
   paygrade: O1
 
 - type: rank
   id: RMC_Lieutenant
-  name: "лейтенант"
+  name: Lieutenant
   prefix: Lt.
   paygrade: O2
 
 - type: rank
   id: RMC_Captain
-  name: "капітан"
+  name: Captain
   prefix: Capt.
   paygrade: O3
 
 #field officers
 - type: rank
   id: RMC_Major
-  name: "майор"
+  name: Major
   prefix: Maj.
   paygrade: O4
 
 - type: rank
   id: RMC_LieutenantColonel
-  name: "підполковник"
+  name: Lieutenant Colonel
   prefix: Lt Col.
   paygrade: O5
 
 - type: rank
   id: RMC_Colonel
-  name: "полковник"
+  name: Colonel
   prefix: Col.
   paygrade: O6
 
 - type: rank
   id: RMC_Brigadier
-  name: "бригадир"
+  name: Brigadier
   prefix: Brig.
   paygrade: O7
 
 - type: rank
   id: RMC_CommandantDeputy
-  name: "заступник генерал-коменданта"
+  name: Deputy Commandant General
   prefix: DCG.
   paygrade: O7
 
 # Generals
 - type: rank
   id: RMC_MajorGeneral
-  name: "генерал-майор"
+  name: Major-General
   prefix: GenMaj.
   paygrade: O8
 
 - type: rank
   id: RMC_LieutenantGeneral
-  name: "генерал-лейтенант"
+  name: Lieutenant-General
   prefix: Lt Gen.
   paygrade: O9
 
 - type: rank
   id: RMC_General
-  name: "генерал"
+  name: General
   prefix: Gen.
   paygrade: O10
 
 - type: rank
   id: RMC_CommandantGeneral
-  name: "генерал-комендант Королівської морської піхоти"
+  name: Commandant General Royal Marines
   prefix: CGRM.
   paygrade: O10
 
 - type: rank
   id: RMC_CaptainGeneral
-  name: "капітан-генерал Королівської морської піхоти"
+  name: Captain General Royal Marines
   prefix: Capt-Gen.

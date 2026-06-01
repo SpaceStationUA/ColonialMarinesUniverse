@@ -9,8 +9,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: JumpsuitMarine
-  name: "форма USCMC"
-  description: "Стандартна форма морпіхів Сполучених Штатів. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC uniform
+  description: Standard-issue United States Marine uniform. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/standard/jungle.rsi
@@ -32,7 +32,7 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitMarineFormal
-  name: "парадна форма морпіха"
+  name: formal marine uniform
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/formal.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineEngineer
-  name: "форма ComTech USCMC"
-  description: "Стандартна бойова форма бойових техніків морпіхів Сполучених Штатів. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC ComTech uniform
+  description: Standard-issue United States Marine combat technician fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/engineer/jungle.rsi
@@ -63,8 +63,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineMedic
-  name: "форма санітара USCMC"
-  description: "Стандартна форма корабельних санітарів морпіхів Сполучених Штатів. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC corpsman uniform
+  description: Standard-issue United States Marine hospital corpsman fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/medic/jungle.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineRTO
-  name: "форма радіотелефоніста USCMC"
-  description: "Стандартна форма RTO Сполучених Штатів. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC radio telephone operator uniform
+  description: Standard-issue United States RTO fatigues. They have shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/rto/jungle.rsi
@@ -107,13 +107,13 @@
 - type: entity
   parent: JumpsuitMarine
   id: CMJumpsuitMarineSniper
-  name: "форма снайпера USCMC"
+  name: USCMC sniper uniform
 
 # Tanker
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitMarineTanker
-  name: "форма танкіста USCMC"
+  name: USCMC tanker uniform
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/tanker/jungle.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCCBRNSuit
-  name: "костюм M3 MOPP"
-  description: "Костюми M3 MOPP спеціально спроєктовані та розроблені для захисту носія від неекранованого впливу будь-яких Хімічних, Біологічних, Радіологічних чи Ядерних (CBRN) загроз у польових умовах. Рекомендований термін служби костюма становить двадцять чотири години після контакту з токсичним середовищем, але залежно від серйозності він може скоротитися до восьми годин або менше."
+  name: M3 MOPP Suit
+  description: M3 MOPP suits are specially designed and engineered to protect the wearer from unshielded exposure to any Chemical, Biological, Radiological, or Nuclear (CBRN) threats in the field. The suit has a recommended lifespan of twenty-four hours once contact with a toxic environment is made, but depending on the severity this can be shortened to eight hours or less.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Marine/cbrnsuit.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitQM
-  name: "костюм офіцера логістики"
-  description: "Гарно скроєний військовий костюм для офіцера логістики. У ньому є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: Logistics Officer suit
+  description: A nicely-fitting military suit for a Logistics Officer. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/ro.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitCargoTech
-  name: "форма техніка постачання USCMC"
-  description: "Стандартна форма техніка постачання Корпусу морської піхоти Сполучених Штатів."
+  name: USCMC Requisitions Technician Uniform
+  description: A standard-issue United States Marine Corps requisitions tech uniform.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/cargo_tech.rsi
@@ -177,8 +177,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitMessTech
-  name: "форма техніка їдальні USCMC"
-  description: "Стандартна форма техніка їдальні Корпусу морської піхоти Сполучених Штатів. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC Mess Technician uniform
+  description: Standard-issue United States Marine Corps Mess Technician uniform. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Supply/chef.rsi
@@ -189,8 +189,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitChiefEngineer
-  name: "форма головного інженера USCMC"
-  description: "Форма для військового інженера. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC Chief Engineer Uniform
+  description: A uniform for a military engineer. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Engineering/ec.rsi
@@ -201,8 +201,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: CMJumpsuitMaintTech
-  name: "форма техніка"
-  description: "Форма для військового інженера. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: Technician Uniform
+  description: A uniform for a military engineer. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Engineering/mt.rsi
@@ -213,8 +213,8 @@
 - type: entity
   parent: CMJumpsuitMaintTech
   id: CMJumpsuitOrdnanceTech
-  name: "форма інженера з боєприпасів USCMC"
-  description: "Форма для професійного бомбора. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї, куль і вибухових уламків. Посилена додатковими пластинами, щоб приймати на себе основний удар вибуху."
+  name: USCMC Ordnance Engineer Uniform
+  description: A uniform for a professional bomb maker. It has shards of light Kevlar to help protect against stabbing weapons, bullets, and shrapnel from explosions. Padded with extra plates to take the brunt force of an explosion.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Engineering/ot.rsi
@@ -227,8 +227,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitCO
-  name: "форма командувача USCMC"
-  description: "Стандартна форма командувача Корпусу морської піхоти Сполучених Штатів."
+  name: USCMC Commanding Officer Uniform
+  description: A standard-issue United States Marine Corps commanding officer uniform.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/standard/jungle.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: CMJumpsuitCO
   id: CMJumpsuitCOFormalBlack
-  name: "парадна форма командувача USCMC"
-  description: "Стандартна парадна форма командувача Корпусу морської піхоти Сполучених Штатів."
+  name: USCMC Formal Commanding Officer Uniform
+  description: The standard-issue formal uniform for a United States Marine Corps commanding officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/formal_black.rsi
@@ -255,8 +255,8 @@
 - type: entity
   parent: CMJumpsuitCO
   id: CMJumpsuitCOFormalWhite
-  name: "парадна форма командувача USCMC"
-  description: "Стандартна парадна форма командувача Корпусу морської піхоти Сполучених Штатів."
+  name: USCMC Formal Commanding Officer Uniform
+  description: The standard-issue formal uniform for a United States Marine Corps commanding officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/formal_white.rsi
@@ -266,8 +266,8 @@
 - type: entity
   parent: CMJumpsuitCO
   id: CMJumpsuitCOService
-  name: "парадна сорочка командувача USCMC"
-  description: "Сорочка й краватка двокомпонентної парадної флотської форми для офіцерів високого рангу. Носіть зі стилем і змістом."
+  name: USCMC Commanding Officer's Dress Shirt
+  description: The shirt and tie of a two-piece Navy service dress uniform for high-ranking officers. Wear with style and substance.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/service.rsi
@@ -277,14 +277,14 @@
 - type: entity
   parent: CMJumpsuitCOService
   id: RMCJumsuitWhiteService
-  name: "біла службова форма"
-  description: "Біла парадна сорочка й краватка з елегантними штанами. Стандартний одяг для всіх, хто займається професійними справами."
+  name: White Service Uniform
+  description: A white dress shirt and tie with sleek pants. Standard clothing for anyone on professional business.
 
 - type: entity
   parent: CMJumpsuitCO
   id: RMCJumpsuitCOUniform
-  name: "офіцерська форма USCMC"
-  description: "Добре випрасувана утилітарна форма офіцера USCMC. Навіть неправильний погляд на неї може закінчитися трибуналом. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC officer uniform
+  description: The well-ironed utility uniform of a USCMC officer. Even looking at it the wrong way could result in being court-martialed. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/jumpsuit.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: CMJumpsuitCO
   id: RMCJumpsuitCOUniformGray
-  name: "сіра парадна форма командувача"
-  description: "Добре випрасувана офіцерська форма USCMC, призначена для парадів або спекотної погоди. Носіть її з гордістю."
+  name: Commanding Officer's gray formal uniform
+  description: A well-ironed USCMC officer uniform  intended for parades or hot weather. Wear this with pride.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/CO/grey_jumpsuit.rsi
@@ -307,8 +307,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitXOFormal
-  name: "парадна службова форма морпіха USCMC"
-  description: "Парадна службова форма, яку зазвичай носять морпіхи UNMC. Залишається практичною, водночас будучи формальнішою за стандартну службову форму."
+  name: USCMC Marine Formal Service Uniform
+  description: A formal service uniform typically worn by marines of the UNMC. Still practicable while still being more formal than the standard service uniform.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/formal_service.rsi
@@ -321,8 +321,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitASOBlack
-  name: "чорна форма офіцера допоміжної підтримки USCMC"
-  description: "Службова форма, яку зазвичай використовують офіцери допоміжної підтримки. Ця пофарбована в чорний."
+  name: USCMC Auxiliary Support Officer Black Uniform
+  description: A service uniform typycally used by Auxiliary Support Officers. This one is colored black.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/ASO/aso_black.rsi
@@ -333,8 +333,8 @@
 - type: entity
   parent: RMCJumpsuitASOBlack
   id: RMCJumpsuitASOFormal
-  name: "парадна форма офіцера допоміжної підтримки USCMC"
-  description: "Перлинно-біла парадна форма, яку використовують офіцери допоміжної підтримки."
+  name: USCMC Auxiliary Support Officer Formal Uniform
+  description: A pearly white formal uniform used by Auxiliary Support Officers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/ASO/aso_formal.rsi
@@ -343,9 +343,9 @@
 - type: entity
   parent: RMCJumpsuitASOBlack
   id: RMCJumpsuitASOFormalAlt
-  name: "парадна форма офіцера допоміжної підтримки USCMC"
+  name: USCMC Auxiliary Support Officer Formal Uniform
   suffix: Alternative
-  description: "Перлинно-біла парадна форма з чорними штанами, яку використовують офіцери допоміжної підтримки."
+  description: A pearly white formal uniform with black pants used by Auxiliary Support Officers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/ASO/aso_formal_alt.rsi
@@ -353,9 +353,9 @@
 - type: entity
   parent: RMCJumpsuitASOBlack
   id: RMCJumpsuitASOBlackAlt
-  name: "чорна форма офіцера допоміжної підтримки"
+  name: Auxiliary Support Officer Black Uniform
   suffix: Alternative
-  description: "Службова форма, яку зазвичай використовують офіцери допоміжної підтримки. Ця пофарбована в чорний із зеленими смугами."
+  description: A service uniform typycally used by Auxiliary Support Officers. This one is colored black with green stripes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/ASO/aso_black_alt.rsi
@@ -363,8 +363,8 @@
 - type: entity
   parent: RMCJumpsuitASOBlack
   id: RMCJumpsuitASOOperations
-  name: "операційна форма офіцера допоміжної підтримки"
-  description: "Операційна форма, яку зазвичай використовують офіцери допоміжної підтримки. Ця має темно-синій камуфляжний візерунок."
+  name: auxiliary support officer operations uniform
+  description: An operations uniform typically used by Auxiliary Support Officers. This one has a dark blue camo pattern.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/ASO/aso_operations.rsi
@@ -373,8 +373,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitBO
-  name: "службова форма морпіха USCMC"
-  description: "Службова форма, яку носять члени USCMC. Прославляйте корпус. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC Marine Service Uniform
+  description: A service uniform worn by members of the USCMC. Do the corps proud. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/bo.rsi
@@ -385,8 +385,8 @@
 - type: entity
   parent: CMJumpsuitBO
   id: CMJumpsuitOperations
-  name: "операційна форма морпіха USCMC"
-  description: "Операційна форма, яку носять члени USCMC. Прославляйте корпус. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC Marine Operations Uniform
+  description: An operations uniform worn by members of the USCMC. Do the corps proud. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/boiler/jungle.rsi
@@ -406,8 +406,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: RMCUniformIntel
-  name: "форма офіцера морської розвідки USCMC"
-  description: "Тісніша за лещата. Гладкіша за олію для бороди. Вкрита з голови до п'ят підсумками, кишенями, сумками, ременями та пасами. Очевидно, ви не лише найрозумніший серед офіцерів розвідки, а й наймодніший. На розробку цього костюма ціла команда R&D витратила п'ять днів. Він коштує дорожче за весь Almayer... мабуть."
+  name: USCMC Marine Intelligence Officer Uniform
+  description: Tighter than a vice. Slicker than beard oil. Covered from head to toe in pouches, pockets, bags, straps, and belts. Clearly, you are not only the most intelligent of intelligence officers, but the most fashionable as well. This suit took an entire R&D team five days to develop. It is more expensive than the entire Almayer... probably.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/intel/jungle.rsi
@@ -433,8 +433,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitPilot
-  name: "пілотський бодікостюм USCMC"
-  description: "Бодікостюм, який носять пілоти морпіхів Сполучених Штатів, призначений для виживання в негостинних умовах. Несіть морпіхів до слави. У ньому є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC Pilot Bodysuit
+  description: A bodysuit worn by pilots of the united states marines, and is meant for survival in inhospitable conditions. Fly the marines onwards to glory. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Auxiliary/pilot/jungle.rsi
@@ -445,8 +445,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: RMCJumpsuitPilotAlt
-  name: "тактичний льотний костюм пілота-офіцера"
-  description: "Льотний костюм, який носять пілоти-офіцери UNMC, з безліччю шкіряних ременів, підсумків та іншого необхідного спорядження, яким ви ніколи не скористаєтесь. Виглядає круто."
+  name: tactical pilot officer flightsuit
+  description: A flightsuit worn by pilot officers of the UNMC, with plenty of leather straps, pouches, and other essential gear you will never use. Looks badass.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Auxiliary/pilot_alt.rsi
@@ -455,8 +455,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: CMJumpsuitDCC
-  name: "бодікостюм старшого екіпажу десантного корабля USCMC"
-  description: "Бодікостюм, який носять старші екіпажі десантних кораблів USCMC і який призначений для виживання в негостинних умовах. У ньому є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль."
+  name: USCMC Dropship Crew Chief Bodysuit
+  description: A bodysuit worn by dropship crew chiefs of the USCMC, and is meant for survival in inhospitable conditions. It has shards of light Kevlar to help protect against stabbing weapons and bullets.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Auxiliary/crewchief.rsi
@@ -467,8 +467,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitTShirtWhite
-  name: "біла футболка"
-  description: "Проста пара футболки та штанів."
+  name: white tshirt
+  description: Simple pair of tshirt and pants.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/T-shirt/white.rsi
@@ -476,7 +476,7 @@
 - type: entity
   parent: CMJumpsuitTShirtWhite
   id: CMJumpsuitTShirtRed
-  name: "червона футболка"
+  name: red tshirt
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/T-shirt/red.rsi
@@ -484,7 +484,7 @@
 - type: entity
   parent: CMJumpsuitTShirtWhite
   id: CMJumpsuitTShirtGray
-  name: "сіра футболка"
+  name: gray tshirt
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/T-shirt/gray.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitColonist
-  name: "форма колоніста"
-  description: "Стильний сіро-зелений комбінезон - стандартне спорядження для колоністів."
+  name: colonist uniform
+  description: A stylish gray-green jumpsuit - standard issue for colonists.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Survivor/colonist.rsi
@@ -505,8 +505,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitSurvivorMarine
-  name: "форма USCMC"
-  description: "Порвана, обпалена та заляпана кров'ю. Ця форма бачила значно більше, ніж ви могли б собі уявити."
+  name: USCMC uniform
+  description: Torn, Burned and blood stained. This uniform has seen much more than you could possibly imagine.
   suffix: FORECON, Survivor
   components:
   - type: Sprite
@@ -533,8 +533,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitGeneral
-  name: "форма генерала"
-  description: "Форма, яку носить флотський генерал. Має відтінок глибокого чорного та легке мерехтіння. Плетіння виглядає достатньо міцним, щоб давати певний легкий захист."
+  name: general's uniform
+  description: A uniform worn by a fleet general. It comes in a shade of deep black, and has a light shimmer to it. The weave looks strong enough to provide some light protections.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Command/general.rsi
@@ -543,8 +543,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: CMJumpsuitSyntheticPristine
-  name: "бездоганна форма підтримки USCMC"
-  description: "Проста форма для синтетичних членів екіпажу, ця виконана у фірмовій чорно-помаранчевій кольоровій схемі Weyland-Yutani."
+  name: USCMC pristine support uniform
+  description: A simple uniform made for synthetic crew members, this one is in Weyland-Yutani's signature black and orange color scheme.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Synthetic/pristine.rsi
@@ -555,8 +555,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitAverageJoe
-  name: "форма робочого Джо"
-  description: "Дешева утилітарна форма, створена для лінійки синтетиків Working Joe від Novaris Industries."
+  name: working joe uniform
+  description: A cheap, utilitarian uniform made for Novaris Industries' Working Joe line of synthetics.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Synthetic/joe.rsi
@@ -564,8 +564,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: CMJumpsuitSyntheticOutdated
-  name: "застаріла форма підтримки синтетика"
-  description: "Застаріла версія форми підтримки синтетиків USCMC. Попри вік, вона все ще дуже стильна й практична."
+  name: outdated synthetic support uniform
+  description: An outdated version of the USCMC synthetic support uniform. Despite the age, it is still very stylish and practical.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Synthetic/outdated_synth.rsi
@@ -573,8 +573,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitSynthetic
-  name: "форма підтримки USCMC"
-  description: "Проста форма, створена для синтетичних членів екіпажу"
+  name: USCMC Support Uniform
+  description: A simple uniform made for Synthetic crewmembers
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/Synthetic/synthetic_support.rsi

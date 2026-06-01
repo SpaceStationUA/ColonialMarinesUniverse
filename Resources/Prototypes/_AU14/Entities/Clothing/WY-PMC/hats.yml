@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14WYPMCBallCap
-  name: "бейсболка ПВК ВЮ"
-  description: "Патрульна кепка ПВК ВЮ."
+  name: WY PMC Ball Cap
+  description: A WY PMC patrol cap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/wypmccap.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14WYPPOCap
-  name: "бейсболка ОПЗ ВЮ"
-  description: "Кепка офіцера персональної охорони ВЮ."
+  name: WY PPO Ball Cap
+  description: A WY Personal Protection Officer cap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/ppo_cap.rsi

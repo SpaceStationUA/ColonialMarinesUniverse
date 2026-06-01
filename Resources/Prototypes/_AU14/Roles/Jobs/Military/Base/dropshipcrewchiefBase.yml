@@ -74,7 +74,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORDCC
-  name: "точка появи старшини екіпажу десантного корабля ГОВФОР"
+  name: Spawn Point GOVFOR Dropship Crew Chief
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORDCC

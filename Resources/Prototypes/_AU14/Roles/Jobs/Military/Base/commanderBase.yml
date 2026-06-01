@@ -76,7 +76,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORPlatCo
-  name: "точка появи командира взводу ГОВФОР"
+  name: Spawn Point GOVFOR Platoon Commander
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORPlatCo

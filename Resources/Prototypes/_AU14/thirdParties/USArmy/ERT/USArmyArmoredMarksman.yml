@@ -55,7 +55,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyMarksmanArmored
-  name: "марксман армії США (ЕРТ)"
+  name: US Army Marksman (ERT)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

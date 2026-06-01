@@ -30,7 +30,7 @@
 
 - type: entity
   id: RMCRandomHumanoidProvostAdvisor
-  name: "привид-роль радника провоста"
+  name: provost ghost role advisor
   suffix: Spawner, Player, Friendly, Low Law Understanding
   components:
   - type: Sprite

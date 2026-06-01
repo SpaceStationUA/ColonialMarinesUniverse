@@ -86,7 +86,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSurvivor
-  name: "спавнер вцілілого"
+  name: survivor spawn point
   suffix: Job Spawn, Main
   components:
   - type: SpawnPoint
@@ -99,7 +99,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleSurvivor
-  name: "Вцілілий"
+  name: Survivor
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -112,7 +112,7 @@
 
 - type: entity
   id: RMCSurvivorPresetNoGun
-  name: "пресет колоніста без зброї"
+  name: no gun colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCSurvivorPresetNoGun
   id: RMCSurvivorPresetCivilian
-  name: "пресет цивільного колоніста"
+  name: civilian colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -146,7 +146,7 @@
 
 - type: entity
   id: RMCSurvivorPresetCivilianRareItem
-  name: "пресет цивільного колоніста з рідкісним предметом"
+  name: civilian colonist preset with rare item
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -182,7 +182,7 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCSurvivorPresetCivilianOutfits
-  name: "пресет цивільного колоніста з випадковими костюмами"
+  name: civilian colonist preset with random outfits
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -196,7 +196,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorCivilian
-  name: "привид-роль цивільного колоніста"
+  name: civilian colonist ghost role
   components:
   - type: Sprite
     layers:

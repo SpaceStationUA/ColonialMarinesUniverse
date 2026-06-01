@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseStorageItem
   id: CMPacketBase
-  name: "набір"
+  name: packet
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/packets.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeHighExplosive
-  name: "набір гранат HEDP"
-  description: "Містить три фугасні гранати HEDP."
+  name: HEDP grenade packet
+  description: It contains three HEDP high explosive grenades.
   components:
   - type: Sprite
     layers:
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFrag
-  name: "набір гранат HEFA"
-  description: "Містить три гранати HEFA. Не кажи Ордену ХЕФА."
+  name: HEFA grenade packet
+  description: It contains three HEFA grenades. Don't tell the HEFA order.
   components:
   - type: Sprite
     layers:
@@ -81,7 +81,7 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCPacketGrenadeFlashBang
-  name: "коробка світлошумових гранат (УВАГА)"
+  name: box of flashbangs (WARNING)
   suffix: Filled
   components:
   - type: Sprite
@@ -120,8 +120,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeSmoke
-  name: "набір гранат HSDP"
-  description: "Містить три димові гранати HSDP."
+  name: HSDP grenade packet
+  description: It contains three HSDP smoke grenades.
   components:
   - type: Sprite
     layers:
@@ -143,8 +143,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMF
-  name: "набір гранат M74 AGM-F"
-  description: "Містить три повітряно-вибухові гранати M74AGM-Frag."
+  name: M74 AGM-F grenade packet
+  description: It contains three M74AGM-Frag airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMI
-  name: "набір гранат M74AGM-I"
-  description: "Містить три запалювальні повітряно-вибухові гранати M74AGM-Incendiary."
+  name: M74AGM-I grenade packet
+  description: It contains three M74AGM-Incendiary airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMS
-  name: "набір гранат M74AGM-S"
-  description: "Містить три димові повітряно-вибухові гранати M74AGM-Smoke."
+  name: M74AGM-S grenade packet
+  description: It contains three M74AGM-Smoke airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -212,8 +212,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMSHornet
-  name: "набір гранат M74AGM-S «Шершень»"
-  description: "Містить три повітряно-вибухові гранати M74AGM-S «Шершень»."
+  name: M74AGM-S Hornet grenade packet
+  description: It contains three M74AGM-S Hornet airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -235,8 +235,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeM74AGMSStarShell
-  name: "набір гранат M74AGM-S «Старшел»"
-  description: "Містить три повітряно-вибухові гранати M74AGM-S «Старшел»."
+  name: M74AGM-S Starshell grenade packet
+  description: It contains three M74AGM-S Starshell airburst grenades.
   components:
   - type: Sprite
     layers:
@@ -258,8 +258,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeBatonSlugHIRR
-  name: "набір кийкових слагів HIRR"
-  description: "Містить три кийкові слаги HIRR."
+  name: HIRR Baton Slug packet
+  description: It contains three HIRR Baton Slug rounds.
   components:
   - type: Sprite
     layers:
@@ -281,8 +281,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeIncendiary
-  name: "набір гранат HIAM"
-  description: "Містить три фугасно-запалювальні протимобільні гранати M77."
+  name: HIAM grenade packet
+  description: It contains three M77 High-explosive-Incendiary, Anti-Mobility grenades.
   components:
   - type: Sprite
     layers:
@@ -304,8 +304,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeWhitePhosphorus
-  name: "набір гранат WPDP"
-  description: "Містить три фосфорні гранати WPDP."
+  name: WPDP grenade packet
+  description: It contains three WPDP white phosphorus grenades.
   components:
   - type: Sprite
     layers:
@@ -327,8 +327,8 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenadeWhitePhosphorusCompound
-  name: "набір гранат CCDP"
-  description: "Містить три гранати хімічної сполуки CCDP."
+  name: CCDP grenade packet
+  description: It contains three CCDP chemical compound grenades.
   components:
   - type: Sprite
     layers:
@@ -350,8 +350,8 @@
 - type: entity
   parent: CMPacketBase
   id: CMPacketGrenadeFragOld
-  name: "набір осколкових гранат M15"
-  description: "Містить три осколкові гранати M15. Поводься обережно."
+  name: M15 frag grenade packet
+  description: It contains three M15 fragmentation grenades. Handle with care.
   components:
   - type: Sprite
     layers:
@@ -377,8 +377,8 @@
   abstract: true
   parent: CMPacketBase
   id: RMCBoxBase
-  name: "коробка гранат"
-  description: "Захищена коробка з гранатами. Фугасна, не зберігай біля вогнеметного палива."
+  name: grenade box
+  description: A secure box holding grenades. High explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -403,8 +403,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxHEDP
-  name: "коробка 30-мм гранат HEDP"
-  description: "Захищена коробка з 25 30-мм фугасними двоцільовими гранатами. Фугасна, не зберігай біля вогнеметного палива."
+  name: 30mm HEDP grenade box
+  description: A secure box holding 25 30mm High-Explosive Dual-Purpose grenades. High explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -426,8 +426,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxHEFA
-  name: "коробка 30-мм гранат HEFA"
-  description: "Захищена коробка з 25 30-мм фугасними осколковими протипіхотними гранатами. Фугасна, не зберігай біля вогнеметного палива."
+  name: 30mm HEFA grenade box
+  description: A secure box holding 25 30mm High-Explosive Fragmenting-Antipersonnel grenades. High explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -449,8 +449,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxAGMF
-  name: "коробка гранат M74 AGM-F"
-  description: "Захищена коробка з 25 осколковими гранатами M74 AGM. Вибухова, не зберігай біля вогнеметного палива."
+  name: M74 AGM-F grenade box
+  description: A secure box holding 25 M74 AGM Fragmentation grenades. Explosive, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -472,8 +472,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxAGMI
-  name: "коробка гранат M74 AGM-I"
-  description: "Захищена коробка з 25 запалювальними гранатами M74 AGM. Дуже легкозаймиста, не зберігай біля вогнеметного палива."
+  name: M74 AGM-I grenade box
+  description: A secure box holding 25 M74 AGM Incendiary grenades. Highly flammable, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -495,8 +495,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxWPDP
-  name: "коробка 30-мм гранат WPDP"
-  description: "Захищена коробка з 25 30-мм фосфорними гранатами WPDP. Дуже легкозаймиста, не зберігай біля вогнеметного палива."
+  name: 30mm WPDP grenade box
+  description: A secure box holding 25 30mm WPDP White Phosphorus grenades. Highly flammable, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -518,8 +518,8 @@
 - type: entity
   parent: RMCBoxBase
   id: RMCBoxCCDP
-  name: "коробка 30-мм гранат CCDP"
-  description: "Захищена коробка з 25 30-мм гранатами хімічної сполуки CCDP. Дуже легкозаймиста, не зберігай біля вогнеметного палива."
+  name: 30mm CCDP grenade box
+  description: A secure box holding 25 30mm CCDP Chemical Compound grenades. Highly flammable, don't store near the flamer fuel.
   components:
   - type: Sprite
     layers:
@@ -541,9 +541,9 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenade20mmHE
-  name: "набір 20-мм гранат L109A1 HE"
+  name: L109A1 HE grenade packet
   suffix: PVE
-  description: "Містить вісім 20-мм фугасних гранат L109A1."
+  description: It contains eight L109A1 20mm HE grenades.
   components:
   - type: Tag
     tags:
@@ -575,9 +575,9 @@
 - type: entity
   parent: CMPacketBase
   id: RMCPacketGrenade20mmIncendiary
-  name: "набір 20-мм гранат L109A2 (запалювальних)"
+  name: L109A2 Incendiary grenade packet
   suffix: PVE
-  description: "Містить вісім 20-мм запалювальних гранат L109A2."
+  description: It contains eight L109A2 20mm incendiary grenades.
   components:
   - type: Tag
     tags:

@@ -1,7 +1,7 @@
 ﻿- type: accessGroup
   id: QuarterMaster
   parent: RMCBaseRequisitionsJob
-  name: "Офіцер логістики"
+  name: Logistics Officer
   tags:
   - CMAccessRequisitions
   - CMAccessQM
@@ -16,13 +16,13 @@
 - type: accessGroup
   id: CMCargoTech
   parent: RMCBaseRequisitionsJob
-  name: "Технік постачання"
+  name: Requisitions Technician
   tags:
   - CMAccessRequisitions
 
 - type: accessGroup
   id: MessTech
   parent: RMCBaseRequisitionsJob
-  name: "Технік їдальні"
+  name: Mess Technician
   tags:
   - CMAccessKitchen

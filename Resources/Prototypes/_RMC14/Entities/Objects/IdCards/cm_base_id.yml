@@ -2,8 +2,8 @@
 - type: entity
   parent: [Clothing, CMIDCardBase]
   id: CMIDCardStandardDogtag
-  name: "жетон"
-  description: "Жетон морпіха."
+  name: dog tag
+  description: A marine dog tag.
   categories: [ HideSpawnMenu ]
   components:
   - type: Item
@@ -74,8 +74,8 @@
 - type: entity
   parent: BaseItem
   id: RMCInformationDogtagProp
-  name: "вицвілий інформаційний жетон"
-  description: "Інформаційний жетон загиблого морпіха. Виглядає побитим, ім'я стерте."
+  name: faded information dog tag
+  description: A fallen marine's information dog tag. It looks battered and the name is worn out.
   components:
   - type: Item
     size: Tiny
@@ -89,8 +89,8 @@
 - type: entity
   parent: BaseItem
   id: RMCInformationDogtag
-  name: "інформаційний жетон"
-  description: "Інформаційний жетон загиблого морпіха."
+  name: information dog tag
+  description: A fallen marine's information dog tag.
   components:
   - type: Item
     size: Tiny
@@ -138,8 +138,8 @@
 
 - type: entity
   id: RMCDogtagProp
-  name: "жетон"
-  description: "Жетон загиблого морпіха, тіла ніде не видно."
+  name: dog tag
+  description: A fallen marine's dog tag, no body in sight.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/dogtags.rsi
@@ -151,8 +151,8 @@
 - type: entity
   parent: Clothing
   id: CMIDCardBase
-  name: "голо-значок ідентифікації"
-  description: "Шматок зашифрованого стиснутого скловолокна. Використовується для ідентифікації та контролю доступу."
+  name: identification holo-badge
+  description: A slice of encoded compressed fiber glass. Used for identification and access control.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardGold
-  name: "золотий голо-значок ідентифікації"
-  description: "Позолочений голо-значок, що демонструє силу й могутність."
+  name: gold identification holo-badge
+  description: A gold plated holo-badge which shows power and might.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -195,8 +195,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardSilver
-  name: "срібний голо-значок ідентифікації"
-  description: "Посріблений голо-значок, що демонструє честь і відданість."
+  name: silver identification holo-badge
+  description: A silver plated holo-badge which shows honour and dedication.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -210,8 +210,8 @@
 - type: entity
   parent: CMIDCardBase
   id: CMIDCardLanyard
-  name: "голо-шнурок ідентифікації"
-  description: "Грубий голо-шнурок. Дешевший не буває."
+  name: identification holo-lanyard
+  description: A crude holo-lanyard. As cheap as they come.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

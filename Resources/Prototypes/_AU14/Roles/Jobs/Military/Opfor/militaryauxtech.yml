@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORAuxTech
-  name: "Точка появи допоміжного техніка OPFOR"
+  name: Spawn Point OPFOR Auxiliary Technician
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORAuxTech

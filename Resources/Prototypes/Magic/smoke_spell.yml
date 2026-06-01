@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseAction
   id: ActionSmoke
-  name: "Дим"
-  description: "Створює дим навколо користувача."
+  name: Smoke
+  description: Summons smoke around the user.
   components:
   - type: Action
     useDelay: 10

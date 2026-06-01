@@ -2,7 +2,7 @@
   abstract: true
   parent: RadioHandheld
   id: RMCRadioHandheldColonyBase
-  name: "короткохвильова рація"
+  name: shortwave radio
   description: ""
   components:
   - type: Sprite

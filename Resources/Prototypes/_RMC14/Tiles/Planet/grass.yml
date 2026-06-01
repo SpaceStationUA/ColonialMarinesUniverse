@@ -77,152 +77,152 @@
 - type: tile
   parent: CMPlanetBase
   id: CMPlanetGrassDirt
-  name: "трава-ґрунт"
+  name: grass dirt
   sprite: /Textures/_RMC14/Tiles/planet/grass1/grass.png
   weedsSpreadable: false
 
 - type: tile
   parent: CMPlanetGrassDirt
   id: CMPlanetGrassDirtNW
-  name: "трава-ґрунт пз"
+  name: grass dirt nw
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner_0.png
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtNW # reparent to inherit semiweedable property
   id: CMPlanetGrassDirtNE
-  name: "трава-ґрунт пс"
+  name: grass dirt ne
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner_1.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtSE
-  name: "трава-ґрунт пдс"
+  name: grass dirt se
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner_2.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtSW
-  name: "трава-ґрунт пдз"
+  name: grass dirt sw
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner_3.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtNW2
-  name: "трава-ґрунт пз 2"
+  name: grass dirt nw 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner2_0.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtSE2
-  name: "трава-ґрунт пдс 2"
+  name: grass dirt se 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner2_1.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtNE2
-  name: "трава-ґрунт пс 2"
+  name: grass dirt ne 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner2_2.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtSW2
-  name: "трава-ґрунт пдз 2"
+  name: grass dirt sw 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_corner2_3.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtNorth
-  name: "трава-ґрунт північ"
+  name: grass dirt north
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_edge_0.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtSouth
-  name: "трава-ґрунт південь"
+  name: grass dirt south
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_edge_1.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtWest
-  name: "трава-ґрунт захід"
+  name: grass dirt west
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_edge_2.png
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtEast
-  name: "трава-ґрунт схід"
+  name: grass dirt east
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt_edge_3.png
 
 - type: tile
   parent: CMPlanetGrassDirt
   id: CMPlanetGrassDirt2NW
-  name: "трава-ґрунт2 пз"
+  name: grass dirt2 nw
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner_0.png
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2NW # reparent to inherit semiweedable property
   id: CMPlanetGrassDirt2NE
-  name: "трава-ґрунт2 пс"
+  name: grass dirt2 ne
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner_1.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2SE
-  name: "трава-ґрунт2 пдс"
+  name: grass dirt2 se
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner_2.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2SW
-  name: "трава-ґрунт2 пдз"
+  name: grass dirt2 sw
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner_3.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2NW2
-  name: "трава-ґрунт2 пз 2"
+  name: grass dirt2 nw 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner2_0.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2SE2
-  name: "трава-ґрунт2 пдс 2"
+  name: grass dirt2 se 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner2_1.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2NE2
-  name: "трава-ґрунт2 пс 2"
+  name: grass dirt2 ne 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner2_2.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2SW2
-  name: "трава-ґрунт2 пдз 2"
+  name: grass dirt2 sw 2
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_corner2_3.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2North
-  name: "трава-ґрунт2 північ"
+  name: grass dirt2 north
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_edge_0.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2South
-  name: "трава-ґрунт2 південь"
+  name: grass dirt2 south
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_edge_1.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2West
-  name: "трава-ґрунт2 захід"
+  name: grass dirt2 west
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_edge_2.png
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2East
-  name: "трава-ґрунт2 схід"
+  name: grass dirt2 east
   sprite: /Textures/_RMC14/Tiles/planet/grass_dirt/grassdirt2_edge_3.png

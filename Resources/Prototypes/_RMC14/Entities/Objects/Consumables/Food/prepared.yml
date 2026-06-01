@@ -25,8 +25,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealCornbread
-  name: "готова страва (кукурудзяний хліб)"
-  description: "Піднос зі стандартною їжею. Зачерствілий кукурудзяний хліб, томатна паста та трохи зеленої ліпучки заповнюють цей піднос."
+  name: prepared meal (cornbread)
+  description: A tray of standard food. Stale cornbread, tomato paste and some green goop fill this tray.
   components:
   - type: Sprite
     state: cornbread
@@ -43,8 +43,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealChicken
-  name: "готова страва (курка)"
-  description: "Піднос зі стандартною їжею. Соковита курка, сухий рис та трохи пригнічений шматок броколі заповнюють цей піднос."
+  name: prepared meal (chicken)
+  description: A tray of standard food. Moist chicken, dry rice and a mildly depressed piece of broccoli fill this tray.
   components:
   - type: Sprite
     state: chicken
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealPasta
-  name: "готова страва (макарони)"
-  description: "Піднос зі стандартною їжею. Переварені спагеті, перенасичена водою морква та дві картоплі фрі заповнюють цей піднос."
+  name: prepared meal (pasta)
+  description: A tray of standard food. Overcooked spaghetti, waterlogged carrots and two french fries fill this tray.
   components:
   - type: Sprite
     state: pasta
@@ -79,8 +79,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealPizza
-  name: "готова страва (піца)"
-  description: "Піднос зі стандартною їжею. Холодна піца, мокра зелена квасоля та паршиве яйце заповнюють цей піднос. Візьми щось окрім піци, жирухо."
+  name: prepared meal (pizza)
+  description: A tray of standard food. Cold pizza, wet green beans and a shitty egg fill this tray. Get something other than pizza, lardass.
   components:
   - type: Sprite
     state: pizza
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealPork
-  name: "готова страва (свинина)"
-  description: "Піднос зі стандартною їжею. Частково сира свинина, ліпуча кукурудза та водянисте картопляне пюре заповнюють цей піднос."
+  name: prepared meal (pork)
+  description: A tray of standard food. Partially raw pork, goopy corn and some watery mashed potatoes fill this tray.
   components:
   - type: Sprite
     state: pork
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: CMMarinePreparedMealTofu
-  name: "готова страва (тофу)"
-  description: "Тут не подають тофу, ти, хіпі, що жере траву. Прапор означає твою поразку."
+  name: prepared meal (tofu)
+  description: The doesn't serve tofu you grass sucking hippie. The flag signifies your defeat.
   components:
   - type: Sprite
     state: tofu
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPBanush
-  name: "готова страва (банош)"
-  description: "Бануш — кукурудзяна каша в українському стилі, сушені абрикоси та пара віденських сосисок."
+  name: prepared meal (banush)
+  description: A Ukrainian style Banush cornmeal stew, dried apricots, and a couple vienna sausages.
   components:
   - type: Sprite
     state: spp_banush
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPChowMein
-  name: "готова страва (чоу-мейн)"
-  description: "Чоу-мейн з імітацією креветок, два трохи переварених спрінг-роли, якась каша та маленький кубик тофу."
+  name: prepared meal (chow mein)
+  description: Chow mein with imitation shrimp, two slightly overcooked spring rolls, some type of porridge and a small tofu cube.
   components:
   - type: Sprite
     state: spp_chowmein
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPCuban
-  name: "готова страва (кубинський рис)"
-  description: "Кубинський рис із досить прісними шматочками яєць, томатний соус, картопляний салат і сухий бісквіт."
+  name: prepared meal (cuban rice)
+  description: Cuban rice with bland-ish eggs pieces, tomato sauce, potato salad, and a dry biscuit.
   components:
   - type: Sprite
     state: spp_cuban
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPFrankfurter
-  name: "готова страва (франкфуртер)"
-  description: "Великий, соковитий франкфуртер з картопляним пюре, хрусткими картопляними млинцями та квашеною капустою."
+  name: prepared meal (frankfurter)
+  description: A large, juicy frankfurter with mashed potato, crispy potato pancakes and saurkraut.
   components:
   - type: Sprite
     state: spp_frankfurter
@@ -207,8 +207,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPJiaozi
-  name: "готова страва (цзяоцзи)"
-  description: "Чотири варені пельмені, соєво-оцтовий соус для занурення, мариновані червоні огірки та два житніх бісквіти."
+  name: prepared meal (jiaozi)
+  description: Four boiled dumplings, soy-vinegar dipping sauce, pickled red cucumbers and two rye biscuits.
   components:
   - type: Sprite
     state: spp_jiaozi
@@ -225,8 +225,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPLuncheon
-  name: "готова страва (ланч)"
-  description: "Дві порції злегка підсохлого рису, квадратик якогось обіднього м'яса, дві морквяні палички та «фруктовий» батончик."
+  name: prepared meal (luncheon)
+  description: Two scoops of slightly dried out rice, a square of some kind of luncheon meat, two carrot sticks, and a 'fruit' bar.
   components:
   - type: Sprite
     state: spp_luncheon
@@ -243,8 +243,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPMeatballs
-  name: "готова страва (фрикадельки)"
-  description: "Кенігсбергські клопси, вершковий соус, шпинат і порція рису. Один з кращих варіантів серед готових упакованих страв, який рідко коли можна знайти в наявності."
+  name: prepared meal (meatballs)
+  description: Königsberger Klopse meatballs, a creamy sauce, some spinach, and a scoop of rice. One of the better options out of the pre-packaged meals and is rarely ever in stock.
   components:
   - type: Sprite
     state: spp_meatballs
@@ -261,8 +261,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPShrimp
-  name: "готова страва (креветки)"
-  description: "Жирний рисовий пиріжок зі шматочками штучних імітованих креветок та яєчним ароматом. Пахне досить дивно. Збоку трохи розкислений спрінг-рол."
+  name: prepared meal (shrimp)
+  description: A greasy rice patty with bits of fake imitation shrimp and egg flavoring. Smells quite off. On the side there's a slightly soggy spring roll.
   components:
   - type: Sprite
     state: spp_meatballs
@@ -279,8 +279,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealSPPWursts
-  name: "готова страва (вурсти)"
-  description: "Дві порції рису, два вінерських вурста, тортилья з томатним соусом і невелика мисочка супу з машу заповнюють цей піднос."
+  name: prepared meal (wursts)
+  description: Two scoops of rice, two Weiner wursts, a tortilla with tomato sauce and a small bowl of Mungbean soup fill this tray.
   components:
   - type: Sprite
     state: spp_wursts
@@ -306,8 +306,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealPMCIkanBakar
-  name: "готова страва PMC (Ікан Бакар)"
-  description: "Шматок смаженої риби, Гадо-Гадо з 2 круто звареними яйцями та коржик із ферментованої сої заповнюють цей піднос."
+  name: PMC prepared meal (Ikan Bakar)
+  description: A chunk of grilled fish, Gado-Gado with 2 hard-boiled eggs, and a fermented soybean cake fill this tray.
   components:
   - type: Sprite
     state: pmc_ikanbakar
@@ -324,8 +324,8 @@
 - type: entity
   parent: RMCMarinePreparedMealPMCIkanBakar
   id: RMCMarinePreparedMealPMCSoba
-  name: "готова страва PMC (локшина соба)"
-  description: "Локшина соба з кунжутом, 2 шматочки оніґірі та мисочка супу місо з напрочуд непоганими шматочками тофу."
+  name: PMC prepared meal (Soba Noodles)
+  description: Soba Noodles with Sesame seeds, 2 pieces of Onigiri, and a bowl of Miso soup with surprisingly okay tofu chunks.
   components:
   - type: Sprite
     state: pmc_soba
@@ -333,8 +333,8 @@
 - type: entity
   parent: RMCMarinePreparedMealPMCIkanBakar
   id: RMCMarinePreparedMealPMCAlooGobi
-  name: "готова страва PMC (карі Алу Гобі)"
-  description: "Піднос із карі Алу Гобі, товстим шматком парати та кількома жирними овочевими пакорами. Найкращий вегетаріанський варіант для PMC."
+  name: PMC prepared meal (Aloo Gobi Curry)
+  description: A tray filled with Aloo Gobi curry, A thick piece of Paratha flatbread, and a few greasy vegetable Pekoras. A foremost vegetarian option for PMCs.
   components:
   - type: Sprite
     state: pmc_aloogobi
@@ -342,8 +342,8 @@
 - type: entity
   parent: RMCMarinePreparedMealPMCIkanBakar
   id: RMCMarinePreparedMealPMCFishAndChips
-  name: "готова страва PMC (Фіш-енд-Чіпс)"
-  description: "Піднос зі шматком хрусткої смаженої риби, 3 сухими йоркширськими пудингами та кількома ложками рідких запечених бобів."
+  name: PMC prepared meal (Fish & Chips)
+  description: A tray filled with a piece of crispy fried fish, 3 dry Yorkshire puddings, and a few spoonfuls of runny Baked Beans.
   components:
   - type: Sprite
     state: pmc_fishandchips
@@ -351,8 +351,8 @@
 - type: entity
   parent: RMCMarinePreparedMealPMCIkanBakar
   id: RMCMarinePreparedMealPMCButterChicken
-  name: "готова страва PMC (бьоттер чікен)"
-  description: "Порція бьоттер чікен, викладеного на пухнастий рис, разом із кількома самосами та Алу Тіккі з тамариндовим соусом."
+  name: PMC prepared meal (Butter Chicken)
+  description: A helping of Butter Chicken loaded onto a bed of fluffy rice, alongside a few Samosas and Aloo Tikki with Tamarind sauce.
   components:
   - type: Sprite
     state: pmc_butterchicken
@@ -360,8 +360,8 @@
 - type: entity
   parent: RMCMarinePreparedMealPMCIkanBakar
   id: RMCMarinePreparedMealPMCBirria
-  name: "готова страва PMC (Бірріа)"
-  description: "Піднос зі шматком бірріа, кількома ложками апельсинового рису та консоме для занурення."
+  name: PMC prepared meal (Birria)
+  description: A tray filled with a piece of Birria, alongside a few spoonfuls of Orange Rice and some consommé for dipping.
   components:
   - type: Sprite
     state: pmc_birria
@@ -369,8 +369,8 @@
 - type: entity
   parent: RMCMarinePreparedMealPMCIkanBakar
   id: RMCMarinePreparedMealPMCBobotie
-  name: "готова страва PMC (Бобоці)"
-  description: "Піднос зі шматком бобоці, великою хлібною булкою рустеркук і пряним чакалакою."
+  name: PMC prepared meal (Bobotie)
+  description: A tray filled with a slice of Bobotie, a large Roosterkoek breadroll, and spicy Chakalaka.
   components:
   - type: Sprite
     state: pmc_bobotie
@@ -378,7 +378,7 @@
 - type: entity
   parent: RMCTrayEmpty
   id: RMCTrayEmptyPMC
-  description: "Стандартний пластиковий піднос виробництва WEYA, створений для PMC силами PMC, щоб допомогти PMC задовольняти їхні потреби в поживних речовинах."
+  description: A standard WEYA-produced plastic tray, built for PMCs, by PMCs, to help PMCs meet their nutrient requirements.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/prepared.rsi
@@ -389,8 +389,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealCookies
-  name: "Страва «X-MAS»: цукрове печиво"
-  description: "Страва M25 «Цукрове печиво» була розроблена, щоб дати морпіхам відчуття різдвяної радості. Але, на подив старших офіцерів, заходи економії — простого виготовлення протеїнових батончиків у формі печива з шоколадним замінником і заміни очікуваного молока штучно забарвленою водою — не сподобалися більшості морпіхів."
+  name: "'X-MAS' Meal: Sugar Cookies"
+  description: The M25 Sugar Cookies Meal was designed to give marines a feeling of Christmas joy. But to the bemusement of superior officers, the costs-savings measure of simply fabricating protein bars in the shape of cookies with chocolate substitute chips and the replacement of the expected milk with artificially colored water did not go over well with most marines.
   components:
   - type: Sprite
     state: cookies
@@ -409,8 +409,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealGingerbread
-  name: "Страва «X-MAS»: імбирне печиво"
-  description: "Страва M25 «Імбирне печиво» була розроблена, щоб дати морпіхам зручний і дешевий доступ до імбирного печива як заміни щорічних занять із виготовлення імбирного печива через зростання витрат і комічно низькі показники успіху Базового курсу святкових заходів. Однак через заходи економії це печиво рідко надихає на щастя чи святковий настрій."
+  name: "'X-MAS' Meal: Gingerbread Cookies"
+  description: The M25 Gingerbread Cookies Meal was designed to give marines convenient and cheap access to gingerbread cookies as a replacement for annual gingerbread making classes due to rising expenses and comically low success rates for the Basic Holidays Festivities Course. However, due to cost saving measures, these cookies seldom inspire happiness, nor holiday spirit.
   components:
   - type: Sprite
     state: gingerbread
@@ -429,8 +429,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealFruitcake
-  name: "Страва «X-MAS»: фруктовий пиріг"
-  description: "Страва M25 «Фруктовий пиріг» була третьою стравою, розробленою комітетом офіцерів у рамках Проєкту M25; це проявляється в жахливій твердості та терпкості хліба й родзинкових фруктів. Можна логічно дедукувати, що люди, які запропонували цей варіант, гірші за Грінча та Скнару разом узятих, як і ті, хто розробив і приготував цей фруктовий пиріг."
+  name: "'X-MAS' Meal: Fruitcake"
+  description: The M25 Fruitcake Meal was the third meal designed by an officers' committee as part of the M25 Project; this shows through the terrible hardness and tartness of the bread and raisined fruits. It can be logically deduced that the people who vended this option are worse than the Grinch and the Miser combined, along with the people who designed and prepared this fruitcake.
   components:
   - type: Sprite
     state: fruit_cake
@@ -451,8 +451,8 @@
 - type: entity
   parent: BaseItem
   id: RMCTrayEmpty
-  name: "порожній піднос"
-  description: "Закінчив свій тур обов'язку."
+  name: empty tray
+  description: Finished with its tour of duty.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/prepared.rsi
@@ -470,8 +470,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealRCMFish
-  name: "готова страва RCM (асорті з морепродуктів)"
-  description: "Численні види суші займають бічні слоти цього підносу, головним компонентом є кілька шматочків лососевого сашимі поверх холодного вареного рису."
+  name: RCM prepared meal (seafood platter)
+  description: Numerous kinds of sushi occupy the side-component slots of this tray, with the main component being several slices of salmon sashimi atop cold, boiled rice.
   components:
   - type: Sprite
     state: rmc_fish
@@ -488,8 +488,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealRCMKatsu
-  name: "готова страва RCM (карі-кацу)"
-  description: "Смужки курки в паніровці, политі японським соусом карі. Подається з порцією пухнастого рису та незрозумілою купою переварених овочів як бічними компонентами."
+  name: RCM prepared meal (katsu curry)
+  description: Breaded chicken strips slathered in a Japanese style curry sauce. Comes with a helping of fluffy rice and an unidentifiable mound of overcooked veg as the side components.
   components:
   - type: Sprite
     state: rmc_katsu
@@ -506,8 +506,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealRCMSausage
-  name: "готова страва RCM (сосиски та яйця)"
-  description: "Кілька пересмажених сосисок, шматок яєчні-бовтанки та купа картоплі фрі зі солодкої картоплі та зеленої квасолі заповнюють цей піднос."
+  name: RCM prepared meal (sausage and eggs)
+  description: Several overdone sausages, a wodge of scrambled eggs, and a load of sweet potato fries & green beans fill this tray.
   components:
   - type: Sprite
     state: rmc_sausage
@@ -524,8 +524,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealRCMMeat
-  name: "готова страва RCM (ростбіф)"
-  description: "Шмат імітованої яловичини, политий занадто солоною підливою, з порцією недовареного гороху, розкисленої моркви та дивно сухого картопляного пюре."
+  name: RCM prepared meal (roast beef)
+  description: A slab of imitation beef drenched in too-salty gravy, with a portion of undercooked peas, soggy carrots and oddly dry mashed potatoes.
   components:
   - type: Sprite
     state: rmc_meat
@@ -542,8 +542,8 @@
 - type: entity
   parent: CMMarinePreparedMealBase
   id: RMCMarinePreparedMealRCMTikka
-  name: "готова страва RCM (карі тікка)"
-  description: "Шматочки свинини та картоплі, занурені в масу м'якого індійського соусу карі, з гарніром із пухнастого рису та теплуватим шматочком коржика наан."
+  name: RCM prepared meal (tikka curry)
+  description: Chunks of pork and potato submerged in a mass of mild Indian curry sauce, with a side of fluffy rice and a lukewarm bit of naan flatbread.
   components:
   - type: Sprite
     state: rmc_tikka

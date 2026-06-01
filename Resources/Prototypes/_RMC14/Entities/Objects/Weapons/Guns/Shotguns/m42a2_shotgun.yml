@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: "помповий дробовик M42A2"
+  name: M42A2 pump shotgun
   id: WeaponShotgunM42A2
-  description: "Сучасне бачення вічної класики від AEGIS, що поєднує вогневу силу ближньої дистанції з довгостроковою надійністю. Потребує помпування."
+  description: An AEGIS modern take on an all-time classic, combining close range firepower with long-term reliability. Requires a pump.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m42a2/desert.rsi

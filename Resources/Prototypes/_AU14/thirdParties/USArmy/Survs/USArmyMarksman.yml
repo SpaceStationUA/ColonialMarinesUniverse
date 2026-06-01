@@ -47,7 +47,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyMarksman
-  name: "марксман армії США (виж.)"
+  name: US Army Marksman (Surv)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

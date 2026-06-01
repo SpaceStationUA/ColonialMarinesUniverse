@@ -3,7 +3,7 @@
   abstract: true
   parent: CMMREComponentBase
   id: CMMRESnackComponentBase
-  description: "Закусочний компонент MRE. Містить легку закуску на випадок, якщо ви не дуже голодні."
+  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry.
   components:
   - type: Sprite
     state: snack
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentBiscuit
-  name: "компонент MRE (бісквіт)"
-  description: "Закусочний компонент MRE. Містить легку закуску на випадок, якщо ви не дуже голодні. Цей — бісквіт."
+  name: MRE component (biscuit)
+  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is biscuit.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentMeatballs
-  name: "компонент MRE (фрикадельки)"
-  description: "Закусочний компонент MRE. Містить легку закуску на випадок, якщо ви не дуже голодні. Цей — фрикадельки."
+  name: MRE component (meatballs)
+  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is meatballs.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: RMCMREComponentMeatzels
-  name: "компонент MRE (м'ясцелі)"
-  description: "Закусочний компонент MRE. Містить легку закуску на випадок, якщо ви не дуже голодні. Цей — це.. м'ясцелі ?"
+  name: MRE component (meatzels)
+  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is.. meatzels ?
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentPretzels
-  name: "компонент MRE (претцелі)"
-  description: "Закусочний компонент MRE. Містить легку закуску на випадок, якщо ви не дуже голодні. Цей — претцелі."
+  name: MRE component (pretzels)
+  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is pretzels.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentPeanuts
-  name: "компонент MRE (арахіс)"
-  description: "Закусочний компонент MRE. Містить легку закуску на випадок, якщо ви не дуже голодні. Цей — арахіс."
+  name: MRE component (peanuts)
+  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is peanuts.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMMRESnackComponentBase
   id: CMMREComponentSushi
-  name: "компонент MRE (суші)"
-  description: "Закусочний компонент MRE. Містить легку закуску на випадок, якщо ви не дуже голодні. Цей — суші."
+  name: MRE component (sushi)
+  description: An MRE snack component. Contains a light snack in case you weren't feeling terribly hungry. This one is sushi.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodBiscuit
-  name: "бісквіт"
-  description: "Вміст стандартного MRE морпіха. Цей — бісквіт."
+  name: biscuit
+  description: The contents of a Marine Standard issue MRE. This one is a biscuit.
   components:
   - type: Sprite
     state: biscuit
@@ -101,8 +101,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodMeatballs
-  name: "фрикадельки"
-  description: "Вміст стандартного MRE морпіха. Цей — фрикадельки."
+  name: meatballs
+  description: The contents of a Marine Standard issue MRE. This one is meatballs.
   components:
   - type: Sprite
     state: meatballs
@@ -113,8 +113,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: RMCMREFoodMeatzels
-  name: "м'ясцелі"
-  description: "Вміст стандартного MRE морпіха. Цей — це.. м'ясцелі ?"
+  name: meatzels
+  description: The contents of a Marine Standard issue MRE. This one is.. meatzels ?
   components:
   - type: Sprite
     state: meatzels
@@ -125,8 +125,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodPretzels
-  name: "претцелі"
-  description: "Вміст стандартного MRE морпіха. Цей — претцелі."
+  name: pretzels
+  description: The contents of a Marine Standard issue MRE. This one is pretzels.
   components:
   - type: Sprite
     state: pretzels
@@ -137,8 +137,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodPeanuts
-  name: "арахіс"
-  description: "Вміст стандартного MRE морпіха. Цей — арахіс."
+  name: peanuts
+  description: The contents of a Marine Standard issue MRE. This one is peanuts.
   components:
   - type: Sprite
     state: peanuts
@@ -149,8 +149,8 @@
 - type: entity
   parent: CMMREFoodSnack
   id: CMMREFoodSushi
-  name: "суші"
-  description: "Вміст стандартного MRE морпіха. Цей — суші."
+  name: sushi
+  description: The contents of a Marine Standard issue MRE. This one is sushi.
   components:
   - type: Sprite
     state: sushi
@@ -162,24 +162,24 @@
 - type: flavor
   id: Biscuit
   flavorType: Complex
-  description: "як бісквіти"
+  description: like biscuits
 
 - type: flavor
   id: Meatballs
   flavorType: Complex
-  description: "як фрикадельки"
+  description: like meatballs
 
 - type: flavor
   id: Pretzels
   flavorType: Complex
-  description: "як претцелі"
+  description: like pretzels
 
 - type: flavor
   id: Peanuts
   flavorType: Complex
-  description: "як арахіс"
+  description: like peanuts
 
 - type: flavor
   id: Sushi
   flavorType: Complex
-  description: "як суші"
+  description: like sushi

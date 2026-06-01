@@ -16,7 +16,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAISPTeamLeader
-  name: "командир групи VAISP"
+  name: VAISP team leader
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

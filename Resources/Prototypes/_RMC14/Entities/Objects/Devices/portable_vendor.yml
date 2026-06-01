@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPortableVendor
-  name: "автоматизований кейс зберігання"
-  description: "Автоматизована система зберігання й видачі розміром з валізку. Спроектована ефективно зберігати й вибірково видавати малі предмети."
+  name: automated storage briefcase
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/Briefcases/secure.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: RMCPortableVendor
   id: RMCPortableVendorCorporate
-  name: "автоматизований кейс зберігання Weyland-Yutani"
-  description: "Автоматизована система зберігання й видачі розміром з валізку. Спроектована ефективно зберігати й вибірково видавати малі предмети. На цьому збоку відштамповано логотип Weyland-Yutani."
+  name: Weyland-Yutani automated storage briefcase
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has the Weyland-Yutani logo stamped on its side.
   components:
   - type: CMAutomatedVendor
     jobs:

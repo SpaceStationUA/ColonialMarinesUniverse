@@ -54,7 +54,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVEGPMGGunner
-  name: "спавнер стрільця GPMG RCM"
+  name: RCM gpmg gunner spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesSmartgunnerPVE

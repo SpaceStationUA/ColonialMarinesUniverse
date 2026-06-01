@@ -3,9 +3,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackM34IncineratorEmpty
-  name: "стелаж спалювача M34"
+  name: M34 Incinerator rack
   suffix: M34 Incinerator, Empty
-  description: "Виготовлений AEGIS збройний стелаж для зберігання довгої зброї. Хоча початкова модель мала бути дуже модифікованою, ОНМП замовили стелажі з фіксованими слотами, у які поміщаються лише пристрої-спалювачі M34. Дехто каже, вони дешевші, інші — що головна причина в тому, що морпіхи легко ламають усе складніше за вольфрамову кульку."
+  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, UNMC commissioned racks with fixed slots which only fit M34 Incinerator Units. Some say they were cheaper, and some say the main reason was marine's ability to easily break anything more complex than a tungsten ball.
   components:
   - type: ContainerContainer
     containers:
@@ -61,9 +61,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackMAR50WallEmpty
-  name: "дерев'яний стелаж MAR-50"
+  name: MAR-50 wooden rack
   suffix: MAR-50, Empty
-  description: "Дерев'яний стелаж, прикріплений до стіни з відкритими виїмками, на яких лежить MAR-50."
+  description: A wooden rack, mounted onto a wall with exposed notches to rest a MAR-50 on.
   components:
   - type: ContainerContainer
     containers:
@@ -103,9 +103,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackM357WallEmpty
-  name: "дерев'яний стелаж M357 Rival"
+  name: M357 Rival wooden rack
   suffix: M357 Rival, Empty
-  description: "Дерев'яний стелаж, прикріплений до стіни з відкритими виїмками, на яких лежить M357 Rival."
+  description: A wooden rack, mounted onto a wall with exposed notches to rest a M357 Rival on.
   components:
   - type: ContainerContainer
     containers:

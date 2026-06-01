@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCBasketballHoop
-  name: "баскетбольне кільце"
-  description: "Бум, Шакалака!"
+  name: basketball hoop
+  description: Boom, Shakalaka!
   placement:
     mode: SnapgridCenter
   components:

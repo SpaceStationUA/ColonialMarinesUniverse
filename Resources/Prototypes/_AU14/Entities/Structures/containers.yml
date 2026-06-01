@@ -1,8 +1,8 @@
 ﻿- type: entity
   abstract: true
   id: AU14ContainerBase
-  name: "вантажний контейнер"
-  description: "Величезний промисловий транспортний контейнер."
+  name: cargo container
+  description: A huge industrial shipping container.
   placement:
     mode: SnapgridCenter
   components:

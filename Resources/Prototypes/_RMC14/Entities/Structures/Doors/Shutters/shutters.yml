@@ -2,8 +2,8 @@
   parent: CMBaseStructureCorrodible
   id: RMCShutterBaseIndestructible
   abstract: true
-  name: "заслінки"
-  description: "Виглядає так, ніби нелегко відкрити."
+  name: shutters
+  description: That looks like it doesn't open easily.
   placement:
     mode: SnapgridCenter
   components:
@@ -106,7 +106,7 @@
 - type: entity
   parent: RMCShutterAlmayer
   id: RMCShutterAlmayerCL
-  name: "приватні заслінки корпоративного зв'язківця"
+  name: corporate liaison privacy shutters
 
 - type: entity
   parent: RMCShutterAlmayerCL
@@ -151,12 +151,12 @@
 - type: entity
   parent: RMCShutterAlmayer
   id: RMCShutterAlmayerAntiTheft
-  name: "антикрадіжкові заслінки"
+  name: anti-theft shutters
 
 - type: entity
   parent: RMCShutterAlmayer
   id: RMCShutterAlmayerUniformVendors
-  name: "заслінки автомата з формою"
+  name: uniform vendor shutters
 
 - type: entity
   parent: RMCShutterAlmayer

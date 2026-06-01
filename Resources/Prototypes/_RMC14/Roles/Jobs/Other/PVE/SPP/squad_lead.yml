@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSPPSquadLeadPVE
-  name: "спавнер лідера загону spp"
+  name: spp squad lead spawn point
   suffix: PVE
   components:
   - type: SpawnPoint

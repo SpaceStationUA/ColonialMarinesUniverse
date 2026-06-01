@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointRecruit
-  name: "спавнер новобранця"
+  name: recruit spawn point
   components:
   - type: SpawnPoint
     job_id: RMCRecruit

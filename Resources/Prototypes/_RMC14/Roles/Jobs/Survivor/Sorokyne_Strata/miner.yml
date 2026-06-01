@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSoroMiner
-  name: "спавнер шахтаря сорокіне"
+  name: sorokyne miner spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor

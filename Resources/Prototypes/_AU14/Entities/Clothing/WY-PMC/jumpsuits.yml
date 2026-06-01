@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14WYPMCFatigues
-  name: "польова форма ПВК ВЮ"
-  description: "Стандартний комплект польової форми ПВК Вейланд-Ютані. Має пластини з легкого кевлару, що допомагають захистити від уламків."
+  name: WY PMC Fatigues
+  description: A standard set of Weyland-Yutani PMC Fatigues. It has shards of light Kevlar to help protect against shrapnel.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/wypmcfatigues.rsi
@@ -10,9 +10,9 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: AU14JumpsuitVeteranPMCCorporate
-  name: "форма корпоративної безпеки Ве-Ю"
+  name: We-Yu corporate security uniform
   suffix: AU14
-  description: "Броньована форма, яку носять співробітники корпоративної безпеки Ве-Ю. Цей варіант зазвичай носять ті, кого називають «громилами»."
+  description: An armored uniform worn by We-Yu corporate security members. This variant is commonly worn by what are known as 'goons'.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/corporate.rsi
@@ -23,9 +23,9 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: AU14JumpsuitVeteranPMCCorporateLead
-  name: "форма корпоративної безпеки Ве-Ю"
+  name: We-Yu corporate security uniform
   suffix: AU14
-  description: "Броньована форма, яку носять співробітники корпоративної безпеки Ве-Ю. Цей варіант зазвичай носить ватажок «загону громил», як їх розмовно називають."
+  description: An armored uniform worn by We-Yu corporate security members. This variant is commonly worn by the lead of the 'goonsquad', as they are colloquially known.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/PMC/corporate_lead.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14WYPMCFatiguesEngineer
-  name: "інженерна польова форма ПВК ВЮ"
-  description: "Стандартний комплект інженерної польової форми ПВК Вейланд-Ютані. Має пластини з легкого кевлару, що допомагають захистити від уламків."
+  name: WY PMC Engineer Fatigues
+  description: A standard set of Weyland-Yutani PMC Engineer Fatigues. It has shards of light Kevlar to help protect against shrapnel.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/wypmcengiuniform.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14WYGuardFatigues
-  name: "польова форма охорони ВЮ"
-  description: "Стандартний комплект польової форми охорони Вейланд-Ютані. Має пластини з легкого кевлару, що допомагають захистити від уламків."
+  name: WY Guard Fatigues
+  description: A standard set of Weyland-Yutani Guard Fatigues. It has shards of light Kevlar to help protect against shrapnel.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/wy_ppo.rsi

@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointDoctor
-  name: "спавнер лікаря"
+  name: doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMDoctor
@@ -72,7 +72,7 @@
 - type: entity
   parent: CMGuidebookRole
   id: CMGuidebookRoleDoctor
-  name: "Лікар"
+  name: Doctor
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

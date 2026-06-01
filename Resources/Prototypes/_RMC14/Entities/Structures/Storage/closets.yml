@@ -2,8 +2,8 @@
 - type: entity
   parent: ClosetBase
   id: CMClosetBaseUnanchored
-  name: "шафа"
-  description: "Це базова шафа для зберігання."
+  name: closet
+  description: It's a basic storage unit.
   suffix: Unanchored
   components:
   - type: Physics
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCCabinetBase
-  name: "шафа"
-  description: "Старе завжди в моді."
+  name: cabinet
+  description: Old will forever be in fashion.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cabinet.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetBlack
-  name: "урочистий гардероб"
-  description: "Це приміщення для зберігання урочистого одягу."
+  name: formal closet
+  description: It's a storage unit for formal clothing.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/black.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetBlue
-  name: "юридичний гардероб"
-  description: "Це сховище для зберігання одягу та предметів, необхідних для роботи в суді."
+  name: legal closet
+  description: It's a storage unit for courtroom apparel and items.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/blue.rsi
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMClosetBase
   id: RMCClosetPurple
-  name: "шафа для зберігання цінностей"
-  description: "Це приміщення для зберігання одягу та інвентарю двірників."
+  name: custodial closet
+  description: It's a storage unit for janitorial clothes and gear.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/purple.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetEmergency
-  name: "аварійна шафа"
-  description: "Це шафа для зберігання аварійних дихальних масок і кисневих балонів."
+  name: emergency closet
+  description: It's a storage unit for emergency breathmasks and o2 tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/emergency.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetFire
-  name: "протипожежна шафа"
-  description: "Це склад для зберігання протипожежного приладдя."
+  name: fire-safety closet
+  description: It's a storage unit for fire-fighting supplies.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/firecloset.rsi
@@ -145,8 +145,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetTool
-  name: "шафа для інструментів"
-  description: "Це місце для зберігання інструментів."
+  name: tool closet
+  description: It's a storage unit for tools.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/toolcloset.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetRadiation
-  name: "шафа з протирадіаційним костюмом"
-  description: "Це шафа для зберігання протирадіаційних костюмів."
+  name: radiation suit closet
+  description: It's a storage unit for rad-protective suits.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/radsuit.rsi
@@ -163,8 +163,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetBomb
-  name: "шафа для вибухозахисного костюму"
-  description: "Це шафа для зберігання вибухозахисних костюмів."
+  name: EOD closet
+  description: It's a storage unit for explosion-protective suits.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bombsuit.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetBio
-  name: "шафа з біозахисним костюмом 3-го рівня"
-  description: "Це шафа для зберігання біозахисного спорядження 3-го рівня."
+  name: level-3 biohazard suit closet
+  description: It's a storage unit for level-3 biohazard gear.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/bio.rsi
@@ -215,8 +215,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMClosetAlien
-  name: "дивна шафа"
-  description: "Виглядає інопланетно!"
+  name: strange closet
+  description: It looks alien!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/acloset.rsi
@@ -225,7 +225,7 @@
 - type: entity
   parent: CMClosetBaseUnanchored
   id: RMCClosetMiner
-  name: "спорядження шахтаря"
+  name: miner's equipment
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Closets/mining.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: CMClosetBaseUnanchored
   id: RMCClosetGoldenArrowGear
-  name: "особиста шафа"
-  description: "Нерухома шафа для зберігання."
+  name: personal locker
+  description: An immobile storage unit.
   suffix: PvE, Sun Riders
   components:
   - type: EntityTableContainerFill
@@ -276,7 +276,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMTroopSgtGear
-  name: "шафа сержанта взводу"
+  name: troop sergeant locker
   suffix: PVE, RCM, Troop Sergeant
   components:
   - type: EntityTableContainerFill
@@ -287,7 +287,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMSectionLeaderGear
-  name: "шафа лідера секції"
+  name: section leader locker
   suffix: PVE, RCM, Section Leader
   components:
   - type: EntityTableContainerFill
@@ -298,7 +298,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMGPMGGear
-  name: "шафа кулеметника GPMG"
+  name: GPMG gunner locker
   suffix: PVE, RCM, GPMG Gunner
   components:
   - type: EntityTableContainerFill
@@ -309,7 +309,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMTeamLeaderGear
-  name: "шафа лідера команди"
+  name: team leader locker
   suffix: PVE, RCM, Team Leader
   components:
   - type: EntityTableContainerFill
@@ -320,7 +320,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMTroopCommanderGear
-  name: "шафа командира взводу"
+  name: troop commander locker
   suffix: PVE, RCM, Troop Commander
   components:
   - type: EntityTableContainerFill
@@ -331,7 +331,7 @@
 - type: entity
   parent: RMCClosetGoldenArrowGear
   id: RMCClosetRCMSapperGear
-  name: "шафа сапера"
+  name: sapper locker
   suffix: PVE, RCM, Sapper
   components:
   - type: EntityTableContainerFill

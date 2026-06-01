@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: CMIV
-  name: "крапельниця"
-  description: "Дозволяє вводити кров пацієнту або забирати в нього кров для переливання."
+  name: intravenous drip
+  description: Allows you to inject blood into a patient or extract blood from them to do a blood transfusion.
   suffix: IV, empty
   components:
   - type: Physics
@@ -60,8 +60,8 @@
 - type: entity
   parent: BaseItem
   id: CMBloodPack # TODO RMC14 blood types
-  name: "пакет крові"
-  description: "Пакет крові. Містить рідини, зазвичай використовується для переливання."
+  name: blood pack
+  description: A blood pack. Contains fluids, typically used for transfusions.
   suffix: CM, empty
   components:
   - type: BloodPack
@@ -116,7 +116,7 @@
 - type: entity
   parent: CMBloodPack
   id: CMBloodPackFull # TODO RMC14 blood types
-  name: "пакет крові"
+  name: blood pack
   suffix: CM, Full
   components:
   - type: SolutionContainerManager

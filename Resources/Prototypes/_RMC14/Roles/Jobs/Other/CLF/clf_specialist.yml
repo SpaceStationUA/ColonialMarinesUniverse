@@ -51,7 +51,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFSpecialist
-  name: "привид-роль спеціаліста clf"
+  name: clf ghost role specialist
   suffix: Spawner, Player
   components:
   - type: Sprite

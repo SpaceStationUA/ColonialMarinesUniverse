@@ -61,7 +61,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorAdministrativeClerk
-  name: "спавн пойнт"
+  name:  spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -77,7 +77,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorAdministrativeClerk
-  name: "привид-роль адміністративного клерка chances"
+  name: chances administrative clerk ghost role
   components:
   - type: Sprite
     layers:

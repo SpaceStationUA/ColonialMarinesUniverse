@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoBurrower
-  name: "Норник"
-  description: "Кремезний прибулець з гострими кігтями."
+  name: Burrower
+  description: A beefy alien with sharp claws.
   components:
   - type: CanBuildThickFromConstructNode
   - type: GuideHelp

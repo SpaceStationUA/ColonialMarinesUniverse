@@ -7,7 +7,7 @@
 - type: accessGroup
   id: RMCWeYaExec
   parent: RMCBaseMiscellaneousJob
-  name: "Корпоративний зв'язковий"
+  name: Corporate Liaison
   tags:
   - AU14AccessCorporateWEYU
   - RMCAccessCommand

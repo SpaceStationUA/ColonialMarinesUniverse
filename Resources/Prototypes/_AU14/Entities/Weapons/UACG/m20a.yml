@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: "імпульсна гвинтівка M20a"
+  name: M20a Pulse Rifle
   id: AUWeaponRifleM20A
-  description: "Більш відома як гвинтівка Гаррінгтон, колишнє позначення ККМП США і витіснений попередник імпульсної гвинтівки M41A. Частіше зустрічається в руках територіальної гвардії або в колоніальних арсеналах на випадок надзвичайних ситуацій."
+  description: More commonly known as the Harrington Rifle, a past designation of the USCMC and the phased out predecessor of the M41A Pulse Rifle. More commonly seen in the hands of territorial guard or in colony armories for emergencies.
   suffix: Filled
   components:
   - type: Sprite
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14MagazineRifleM20A
-  name: "магазин M20a (10x24mm)"
+  name: "M20a Magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -110,8 +110,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: AU14CartridgeRifleM20A
-  name: "набій (10x24mm)"
-  description: "Гвинтівковий набій 10x24mm"
+  name: Cartridge (10x24mm)
+  description: A 10x24mm rifle cartridge
   components:
   - type: Tag
     tags:
@@ -153,7 +153,7 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: AU14AttachmentM20AUnderbarrelShotgun
-  name: "підствольний дробовик M20A"
+  name: M20A underbarrel shotgun
   components:
   - type: Sprite
     state: masterkeygone

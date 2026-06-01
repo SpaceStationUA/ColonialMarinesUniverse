@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: Dropper
-  description: "Піпетка. Переносить 5 одиниць."
+  description: A dropper. Transfers 5 units.
   id: RMCDropper
   components:
   - type: Sprite

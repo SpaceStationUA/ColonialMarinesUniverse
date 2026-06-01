@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCTabletCO
   id: AU14TabletOpfor
-  name: "командний планшет Опфор"
-  description: "Портативний командний інтерфейс для командування Опфор, під'єднаний до систем їхньої фракції."
+  name: opfor command tablet
+  description: A portable command interface for Opfor command, linked to their faction's systems.
   components:
   - type: AccessReader
     access: [[ "AU14AccessOpforCommand" ]]

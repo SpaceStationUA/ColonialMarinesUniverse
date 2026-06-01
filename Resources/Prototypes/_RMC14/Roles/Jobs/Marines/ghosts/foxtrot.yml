@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidFoxtrotCombatTech
-  name: "фокстрот привид-роль бойового техніка"
+  name: foxtrot ghost role combat technician
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidFoxtrotFireteamLeader
-  name: "фокстрот привид-роль лідера вогневої команди"
+  name: foxtrot ghost role fireteam leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidFoxtrotHospitalCorpsman
-  name: "фокстрот привид-роль шпитального корпсмена"
+  name: foxtrot ghost role hospital corpsman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidFoxtrotRifleman
-  name: "фокстрот привид-роль стрільця"
+  name: foxtrot ghost role rifleman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidFoxtrotSmartGunOperator
-  name: "фокстрот привид-роль оператора смартгана"
+  name: foxtrot ghost role smart gun operator
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidFoxtrotSquadLeader
-  name: "фокстрот привид-роль лідера загону"
+  name: foxtrot ghost role squad leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidFoxtrotWeaponsSpecialist
-  name: "фокстрот привид-роль спеціаліста з озброєння"
+  name: foxtrot ghost role weapons specialist
   suffix: Spawner, Player
   components:
   - type: Sprite

@@ -2,7 +2,7 @@
 # Survivor Skills
 - type: entity
   id: RMCSkillPresetPMCCommando
-  name: "Вцілілий командо Ві-Ю"
+  name: Survivor We-Ya Commando
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset

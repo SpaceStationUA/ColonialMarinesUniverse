@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: Cane
   id: RMCHollowCane
-  name: "елегантна тростина"
-  description: "Тростина з чорного дерева з елегантним, на вигляд золотим наконечником. На дотик здається порожньою всередині."
+  name: fancy cane
+  description: An ebony cane with a fancy, seemingly-golden tip. Feels hollow to the touch.
   suffix: Hollow
   components:
   - type: Sprite
