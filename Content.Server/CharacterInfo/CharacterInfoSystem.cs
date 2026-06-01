@@ -31,6 +31,7 @@ public sealed partial class CharacterInfoSystem : EntitySystem
     [Dependency] private PlatoonSpawnRuleSystem _platoons = default!;
     [Dependency] private IPrototypeManager _prototypes = default!;
     [Dependency] private IRobustRandom _random = default!;
+    [Dependency] private ILocalizationManager _loc = default!;
 
     private int _knowledgeRoundId = -1;
     private string? _roundKnowledgeLine;
@@ -207,7 +208,7 @@ public sealed partial class CharacterInfoSystem : EntitySystem
     private void AddRoundKnowledgeLine(List<string> lines)
     {
         if (!string.IsNullOrWhiteSpace(_roundKnowledgeLine))
-            lines.Add(_roundKnowledgeLine);
+            lines.Add(LocalizeLoreLine(_roundKnowledgeLine));
     }
 
     private void AddInsurgencyPlatoonLine(List<string> lines, string? jobId)
@@ -250,12 +251,12 @@ public sealed partial class CharacterInfoSystem : EntitySystem
             _prototypes.TryIndex(planetPrimerId, out LorePrimerPrototype? primer) &&
             !string.IsNullOrWhiteSpace(primer.PlanetText))
         {
-            lines.Add(primer.PlanetText);
+            lines.Add(LocalizeLoreLine(primer.PlanetText, $"lore-primer-{planetPrimerId}-planet-text"));
             return;
         }
 
         if (!string.IsNullOrWhiteSpace(selectedPlanet.Announcement))
-            lines.Add(selectedPlanet.Announcement);
+            lines.Add(LocalizeLoreLine(selectedPlanet.Announcement));
     }
 
     private void AddPlatoonLine(List<string> lines, PlatoonPrototype? platoon)
@@ -268,14 +269,16 @@ public sealed partial class CharacterInfoSystem : EntitySystem
             !string.IsNullOrWhiteSpace(primer.PlatoonInfo))
         {
             var platoonInfo = primer.PlatoonInfo.Trim();
-            lines.Add(platoonInfo.StartsWith("Platoon:", StringComparison.OrdinalIgnoreCase)
-                ? platoonInfo
-                : $"Platoon: {platoonInfo}");
+            var localizedPlatoonInfo = LocalizeLoreLine(platoonInfo, $"lore-primer-{platoonPrimerId}-platoon-info");
+            lines.Add(localizedPlatoonInfo.StartsWith("Platoon:", StringComparison.OrdinalIgnoreCase) ||
+                localizedPlatoonInfo.StartsWith("Взвод:", StringComparison.OrdinalIgnoreCase)
+                    ? localizedPlatoonInfo
+                    : Loc.GetString("character-info-lore-platoon", ("platoon", localizedPlatoonInfo)));
             return;
         }
 
         if (!string.IsNullOrWhiteSpace(platoon.Name))
-            lines.Add($"Platoon: {platoon.Name}");
+            lines.Add(Loc.GetString("character-info-lore-platoon", ("platoon", platoon.Name)));
     }
 
     private bool IsThreatMind(MindComponent mind)
@@ -296,8 +299,32 @@ public sealed partial class CharacterInfoSystem : EntitySystem
     private void AddThreatRolePrimer(List<string> lines)
     {
 
-        lines.Add("You are aligned with the active threat. Keep your identity and goals in mind.");
+        lines.Add(Loc.GetString("character-info-lore-active-threat"));
+    }
+
+    private string LocalizeLoreLine(string line, string? key = null)
+    {
+        if (key != null && _loc.TryGetString(key, out var localized))
+            return localized;
+
+        var locId = line
+            .ToLowerInvariant()
+            .Replace(" ", "-")
+            .Replace("'", "")
+            .Replace("\"", "")
+            .Replace(".", "")
+            .Replace(",", "")
+            .Replace(":", "")
+            .Replace(";", "")
+            .Replace("!", "")
+            .Replace("?", "")
+            .Replace("(", "")
+            .Replace(")", "")
+            .Replace("/", "-");
+
+        return _loc.TryGetString($"lore-primer-line-{locId}", out localized)
+            ? localized
+            : line;
     }
 
 }
-

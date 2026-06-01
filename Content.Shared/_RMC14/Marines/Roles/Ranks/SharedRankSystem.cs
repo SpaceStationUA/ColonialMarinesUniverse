@@ -91,6 +91,20 @@ public abstract partial class SharedRankSystem : EntitySystem
     }
 
     /// <summary>
+    ///     Tries to get a localized version of a rank's full name from locale files,
+    ///     falling back to an existing localization key or the raw YAML value.
+    /// </summary>
+    private string LocalizeName(RankPrototype rank)
+    {
+        if (_loc.TryGetString($"rank-{rank.ID}", out var localized, ("attribute", "name")))
+            return localized;
+
+        return _loc.TryGetString(rank.Name, out var locName)
+            ? locName
+            : rank.Name;
+    }
+
+    /// <summary>
     ///     Gets the rank name of a given mob.
     /// </summary>
     public string? GetRankString(EntityUid uid, bool isShort = false, bool hasPaygrade = false)
@@ -120,10 +134,12 @@ public abstract partial class SharedRankSystem : EntitySystem
             return LocalizePrefix(rank, genderPrefix);
         }
 
-        if (hasPaygrade && rank.Paygrade != null)
-            return $"({Loc.GetString(rank.Paygrade)}) {Loc.GetString(rank.Name)}";
+        var localizedName = LocalizeName(rank);
 
-        return rank.Name;
+        if (hasPaygrade && rank.Paygrade != null)
+            return $"({Loc.GetString(rank.Paygrade)}) {localizedName}";
+
+        return localizedName;
     }
 
     /// <summary>

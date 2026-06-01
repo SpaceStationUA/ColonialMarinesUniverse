@@ -54,6 +54,7 @@ public sealed partial class TacticalMapControl : TextureRect
 
     [Dependency] private IResourceCache _resourceCache = default!;
     [Dependency] private IEntityManager _entityManager = default!;
+    [Dependency] private ILocalizationManager _loc = default!;
 
     private readonly Font _font;
     private readonly Label? _tunnelInfoLabel;
@@ -208,9 +209,45 @@ public sealed partial class TacticalMapControl : TextureRect
         }
 
         Texture = Texture.LoadFromImage(image);
-        _areaLabels = new Dictionary<Vector2i, string>(grid.Comp.Labels);
+        _areaLabels = new Dictionary<Vector2i, string>();
+        foreach ((var position, var label) in grid.Comp.Labels)
+        {
+            _areaLabels[position] = LocalizeAreaLabel(label);
+        }
 
         ApplyViewSettings();
+    }
+
+    private string LocalizeAreaLabel(string label)
+    {
+        var locId = $"tactical-map-label-{NormalizeLocId(label)}";
+        return _loc.TryGetString(locId, out var localized)
+            ? localized
+            : label;
+    }
+
+    private static string NormalizeLocId(string value)
+    {
+        var builder = new System.Text.StringBuilder(value.Length);
+        var lastWasDash = false;
+
+        foreach (var c in value.ToLowerInvariant())
+        {
+            if (char.IsLetterOrDigit(c))
+            {
+                builder.Append(c);
+                lastWasDash = false;
+                continue;
+            }
+
+            if (lastWasDash)
+                continue;
+
+            builder.Append('-');
+            lastWasDash = true;
+        }
+
+        return builder.ToString().Trim('-');
     }
 
     public void UpdateBlips(TacticalMapBlip[]? blips)
