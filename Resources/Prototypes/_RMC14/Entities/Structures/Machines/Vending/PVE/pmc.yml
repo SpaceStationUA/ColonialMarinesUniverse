@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCColMarTechSurplusPMCPVE
-  name: "Автомат форми ПВК"
-  description: "Автоматизований стелаж, під'єднаний до невеликого сховища стандартної форми ПВК."
+  name: PMC Uniform Vendor
+  description: An automated rack hooked up to a small storage of standard PMC uniforms.
   suffix: PVE, PMC
   components:
   - type: Sprite
@@ -120,8 +120,8 @@
   parent: ColMarTechBase
   id: RMCColMarTechUtilitiesPMCPVE
   suffix: PVE, PMC
-  name: "Автоматизований автомат утиліт загону ПВК"
-  description: "Автоматизований стелаж постачання, під'єднаний до невеликого сховища різних утиліт та інструментів. Доступний будь-якому оператору ПВК."
+  name: PMC Automated Utilities Squad Vendor
+  description: An automated supply rack hooked up to a small storage of various utilities and tools. Can be accessed by any PMC Operator.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/prep.rsi

@@ -3,8 +3,8 @@
 - type: entity
   parent: RMCArmoredUniformBase
   id: RMCJumpsuitTSEPA
-  name: "форма NSPA"
-  description: "Стандартна форма офіцера Поліцейського управління сектору Нероїд."
+  name: nspa uniform
+  description: The standard uniform of a Neroid Sector Policing Authority officer.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/TSE/TSEPA/standard.rsi
@@ -16,8 +16,8 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitMarineRoyal
-  name: "форма коммандос королівських морпіхів"
-  description: "Польова форма коммандос королівських морпіхів. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль. За рівнем спорядження не поступається подібному обладнанню USCMC."
+  name: royal marine commando uniform
+  description: The field uniform of the royal marine commandoes. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar USCMC equipment.
   suffix: Filled, Royal
   components:
   - type: Sprite
@@ -58,8 +58,8 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCAlternateFoldableUniformBase]
   id: RMCJumpsuitMarineRoyalTeamlead
-  name: "форма коммандос королівських морпіхів"
-  description: "Польова форма коммандос королівських морпіхів. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль. За рівнем спорядження не поступається подібному обладнанню USCMC."
+  name: royal marine commando uniform
+  description: The field uniform of the royal marine commandoes. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar USCMC equipment.
   suffix: Filled, Royal, Teamlead
   components:
   - type: Sprite
@@ -76,8 +76,8 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
   id: RMCJumpsuitMarineRoyalPVE
-  name: "форма королівських морпіхів Корони"
-  description: "Польова форма королівських морпіхів Корони. У ній є вкраплення легкого кевлару, що допомагають захищати від колючої зброї та куль. За рівнем спорядження не поступається подібному обладнанню UNMC."
+  name: royal crown marine uniform
+  description: The field uniform of the royal crown marines. They have shards of light Kevlar to help protect against stabbing weapons and bullets. Onpar with similar UNMC equipment.
   suffix: Royal, PVE
   components:
   - type: Sprite
@@ -98,8 +98,8 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
   id: RMCJumpsuitMarinePara
-  name: "бойова форма парамаринів"
-  description: "BDU зразка No.8, який використовують полки парамаринів RCM. Ідентичний за кроєм і захистом стандартній формі, але видається в лісовому камуфляжі. Легка кевларова сітка дає обмежений захист від уламків та загроз ближнього бою."
+  name: paramarine battle dress uniform
+  description: No.8 Pattern BDU used by the RCM's Paramarine regiments. Identical in cut and protection to standard issue uniforms, but issued in woodland camouflage. Lightweight Kevlar mesh offers limited protection against shrapnel and close-quarters threats.
   suffix: Survivor, Paramarine
   components:
   - type: Sprite
@@ -138,8 +138,8 @@
 - type: entity
   parent: [RMCJumpsuitTSEPA, RMCFoldableUniformBase]
   id: RMCJumpsuitMarineParaService
-  name: "службова форма парамаринів"
-  description: "Парадна службова форма No.2, яку носять офіцери RCM-P. Має такий самий крій верхньої частини тіла, як і BDU No.8, але поєднана з випрасуваними штанами кольору хакі. Видається для інспекцій, церемоніальних обов'язків або під час розгортання в дорадчій ролі."
+  name: paramarine service uniform
+  description: A formal No.2 service uniform worn by RCM-P officers. Features the same upper torso cut as the No.8 BDU, but paired with pressed khaki trousers. Issued for inspections, ceremonial duties, or when deployed in an advisory role.
   suffix: Survivor, Paramarine
   components:
     - type: Sprite

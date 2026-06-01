@@ -33,7 +33,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisILRCPeacekeeper
-  name: "спавнер ILRC миротворця соляріс-вцілілого"
+  name: survivor solaris ILRC peacekeeper spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorSolarisILRCPeacekeeper

@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaPizzaGalaxy
-  name: "спавнер водія pizza galaxy гібріси"
+  name: hybrisa pizza galaxy delivery driver spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaPizzaGalaxy
-  name: "пресет водія pizza galaxy гібріси"
+  name: hybrisa pizza galaxy delivery driver preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

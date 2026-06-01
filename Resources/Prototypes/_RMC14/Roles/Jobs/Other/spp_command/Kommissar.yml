@@ -46,7 +46,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPKommissarNeutral
-  name: "привид-роль Комісара"
+  name: Kommissar ghost role
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -146,7 +146,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPBattalionKommissarNeutral
-  name: "привид-роль Батальйонного Комісара"
+  name: Battalion Kommissar ghost role
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -229,7 +229,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPSrBattalionKommissarNeutral
-  name: "привид-роль Старшого Батальйонного Комісара"
+  name: Sr. Battalion. Kommissar ghost role
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -312,7 +312,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPRegimentalKommissarNeutral
-  name: "привид-роль Полкового Комісара"
+  name: Regimental Kommissar ghost role
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite
@@ -395,7 +395,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPBrigadeKommissarNeutral
-  name: "привид-роль Бригадного Комісара"
+  name: Brigade Kommissar ghost role
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite

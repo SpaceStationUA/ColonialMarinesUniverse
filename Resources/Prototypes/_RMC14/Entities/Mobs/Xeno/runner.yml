@@ -9,8 +9,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoRunnerBase
-  name: "Бігун"
-  description: "Маленький червоний прибулець, що виглядає так, ніби може бігати досить швидко..."
+  name: Runner
+  description: A small red alien that looks like it could run fairly quickly...
   components:
   - type: GhostRole
     name: cm-job-name-xeno-runner

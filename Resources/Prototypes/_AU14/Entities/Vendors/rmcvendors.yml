@@ -3,7 +3,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCclothingequipmentvendor
-  name: "автомат одягу королівських морпіхів"
+  name: Royal Marines apparel vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos apparel.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -251,7 +251,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCequipmentvendor
-  name: "автомат спорядження королівських морпіхів"
+  name: Royal Marines equipment vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos equipment.
     Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
@@ -390,7 +390,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCcorpsmanvendor
-  name: "медичний автомат санітара королівських морпіхів"
+  name: Royal Marines corpsman medical vendor
   description: >-
     An automated medical rack, hooked up to a compact stock of Royal Marine Commandos trauma supplies.
     Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
@@ -522,7 +522,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCaircrewvendor
-  name: "автомат авіаекіпажу королівських морпіхів"
+  name: Royal Marines aircrew vendor
   description: >-
     An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos aircrew flight and support gear.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -706,7 +706,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCcommandequipmentvendor
-  name: "командний автомат королівських морпіхів"
+  name: Royal Marines command vendor
   description: >-
     An automated command rack, hooked up to a restricted storage of Royal Marine Commandos command-leadership equipment.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -789,7 +789,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCSGequipmentvendor
-  name: "автомат спорядження смартганера королівських морпіхів"
+  name: Royal Marines smartgunner equipment vendor
   description: >-
     An automated smartgunner rack, hooked up to a small armory of Royal Marine Commandos heavy-weapon operator systems.
     Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
@@ -830,7 +830,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCsectionleaderequipmentvendor
-  name: "автомат командира секції королівських морпіхів"
+  name: Royal Marines section leader vendor
   description: >-
     An automated equipment rack, hooked up to a compact storage of Royal Marine Commandos section-leadership equipment.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -870,7 +870,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCWeaponsVendor
-  name: "збройова стійка королівських морпіхів"
+  name: Royal Marines weapons rack
   description: >-
     An automated weapons rack, hooked up to a small armory of Royal Marine Commandos weaponry.
     Standard issue across the frontier where threats can appear without warning.
@@ -916,8 +916,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCRTOVendor
-  name: "стійка радіотелефоніста королівських морпіхів"
-  description: "Автоматизована стійка, під’єднана до невеликого запасу радіоспорядження."
+  name: Royal Marines radio telephone operator rack
+  description: An automated rack hooked up to a small storage of radio equipment.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforFTL" ], [ "AU14AccessOpforFTL" ] ]
@@ -952,7 +952,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCSpecialWeaponsVendor
-  name: "стійка спеціальної зброї королівських морпіхів"
+  name: Royal Marines special weapons rack
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of Royal Marine Commandos heavy and breaching ordnance.
     Standard issue only for qualified operators.
@@ -1032,7 +1032,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCAircrewWeaponsVendor
-  name: "збройова стійка авіаекіпажу королівських морпіхів"
+  name: Royal Marines aircrew weapons rack
   description: >-
     An automated dispenser rack, hooked up to a small storage of Royal Marine Commandos aircrew flight and support gear.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -1073,8 +1073,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14RMCComtechGearVendor
-  name: "стійка спорядження бойових техніків королівських морпіхів"
-  description: "Автоматизована стійка спорядження для бойових техніків."
+  name: Royal Marines combat technicians gear rack
+  description: An automated gear rack for combat technicians.
   components:
   - type: AccessReader
     access: [ [ "AU14AccessGovforEngineering" ], [ "AU14AccessOpforEngineering" ] ]
@@ -1152,8 +1152,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14RMCRequisitionVendor
-  name: "автоматизований автомат постачання королівських морпіхів"
-  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
+  name: royal marines automated requisitions vendor
+  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

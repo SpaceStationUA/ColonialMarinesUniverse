@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPARTYPartyContractorBase
   id: AU14JobProdigyPartySmartgunner
-  name: "Оператор смартгана ПВК"
+  name: PMC Smartgun Operator
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartySmartgunnerTracker
   ranks:
@@ -39,7 +39,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobProdigyPartySmartgunner
-  name: "Оператор смартгана Prodigy Yankee (3-тя сторона)"
+  name: Prodigy Yankee Smartgun Operator (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

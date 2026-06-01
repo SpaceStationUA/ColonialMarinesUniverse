@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCLightStick
-  name: "червоний світловий стрижень"
-  description: "Можна встромляти в землю."
+  name: red lightstick
+  description: You can stick them in the ground.
   placement:
     mode: SnapgridCenter
   components:
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCLightStick
   id: RMCLightStickBlueSmall
-  name: "синій світловий стрижень"
+  name: blue lightstick
   components:
   - type: Sprite
     state: lightstick_blue_variant1

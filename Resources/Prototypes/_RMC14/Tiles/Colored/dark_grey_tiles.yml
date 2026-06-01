@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: CMFloorSteelPlanetDarkGreyBase
-  name: "tiles-cm-default-dark-grey"
+  name: tiles-cm-default-dark-grey
 
 - type: tile
   parent: CMFloorSteelPlanetDarkGreyBase

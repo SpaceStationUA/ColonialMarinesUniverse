@@ -2,8 +2,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechGuns
-  name: "Автоматизований стелаж зброї ColMarTech"
-  description: "Автоматизований збройний стелаж, під'єднаний до великого сховища стандартної зброї."
+  name: ColMarTech automated weapons rack
+  description: An automated weapon rack hooked up to a big storage of standard-issue weapons.
   components:
   - type: AccessReader
     access:
@@ -142,8 +142,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechSurplus
-  name: "Автомат запасної форми ColMarTech"
-  description: "Автоматизований стелаж, під'єднаний до невеликого сховища стандартної форми морпіхів."
+  name: ColMarTech surplus uniform vendor
+  description: An automated rack hooked up to a small storage of standard marine uniforms.
   components:
   - type: AccessReader
     access:
@@ -379,8 +379,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechMunitions
-  name: "Автоматизований автомат боєприпасів загону ColMarTech"
-  description: "Автоматизований стелаж постачання, під'єднаний до невеликого сховища різних типів боєприпасів. Доступний будь-якому стрільцю-морпіху."
+  name: ColMarTech automated munition squad vendor
+  description: An automated supply rack hooked up to a small storage of various ammunition types. Can be accessed by any Marine Rifleman.
   components:
   - type: AccessReader
     access:
@@ -450,8 +450,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechUtilities
-  name: "Автоматизований автомат утиліт загону ColMarTech"
-  description: "Автоматизований стелаж постачання, під'єднаний до невеликого сховища різних утиліт та інструментів. Доступний будь-якому стрільцю-морпіху."
+  name: ColMarTech automated utilities squad vendor
+  description: An automated supply rack hooked up to a small storage of various utilities and tools. Can be accessed by any Marine Rifleman.
   components:
   - type: AccessReader
     access:
@@ -528,8 +528,8 @@
 - type: entity
   parent: ColMarTechBase
   id: CMVendorAttachments
-  name: "Автомат аксесуарів загону ARMAT Battlefield Systems"
-  description: "Автоматизований стелаж постачання, під'єднаний до невеликого сховища аксесуарів зброї. Доступний будь-якому стрільцю-морпіху."
+  name: ARMAT Battlefield Systems squad attachments vendor
+  description: An automated supply rack hooked up to a small storage of weapons attachments. Can be accessed by any Marine Rifleman.
   components:
   - type: AccessReader
     access:

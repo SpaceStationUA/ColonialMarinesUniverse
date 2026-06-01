@@ -1,13 +1,13 @@
 # Airlocks
 - type: construction
   parent: RMC
-  name: "повітряний шлюз"
+  name: airlock
   id: CMAirlock
   graph: CMAirlock
   startNode: start
   targetNode: airlock
   category: construction-category-cm-structures
-  description: "Він відкривається, закривається і, можливо, розчавить вас."
+  description: It opens, it closes, and maybe crushes you.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -16,13 +16,13 @@
 
 - type: construction
   parent: RMC
-  name: "скляний шлюз"
+  name: glass airlock
   id: CMAirlockGlass
   graph: CMAirlock
   startNode: start
   targetNode: glassAirlock
   category: construction-category-cm-structures
-  description: "Він відкривається, закривається і, можливо, розчавить вас."
+  description: It opens, it closes, and maybe crushes you.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -32,13 +32,13 @@
   # Directional Windows
 - type: construction
   parent: RMC
-  name: "спрямоване вікно"
+  name: directional window
   id: RMCWindowDirectional
   graph: RMCWindowDirectional
   startNode: start
   targetNode: windowDirectional
   category: construction-category-cm-structures
-  description: "Скляне вікно. Виглядає тонким і крихким."
+  description: A glass window. It looks thin and flimsy.
   canBuildInImpassable: true
   conditions:
   - !type:EmptyOrWindowValidInTile
@@ -48,13 +48,13 @@
 
 - type: construction
   parent: RMC
-  name: "спрямоване посилене вікно"
+  name: directional reinforced window
   id: RMCWindowReinforcedDirectional
   graph: RMCWindowDirectional
   startNode: start
   targetNode: windowReinforcedDirectional
   category: construction-category-cm-structures
-  description: "Скляне вікно, посилене стрижнями жорсткості. Виглядає досить міцним."
+  description: A glass window reinforced with bracing rods. It looks rather strong.
   canBuildInImpassable: true
   conditions:
   - !type:EmptyOrWindowValidInTile
@@ -65,13 +65,13 @@
 # Windoors
 - type: construction
   parent: RMC
-  name: "віндур"
+  name: windoor
   id: CMWindoor
   graph: CMWindoor
   startNode: start
   targetNode: windoor
   category: construction-category-cm-structures
-  description: "Відчиняється, зачиняється, і крізь нього можна бачити!"
+  description: It opens, it closes, and you can see through it!
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: true
@@ -80,13 +80,13 @@
 
 - type: construction
   parent: RMC
-  name: "захищений віндур"
+  name: secure windoor
   id: CMWindoorSecure
   graph: CMWindoor
   startNode: start
   targetNode: windoorSecure
   category: construction-category-cm-structures
-  description: "Відчиняється, зачиняється, і крізь нього можна бачити! Цей виглядає міцним."
+  description: It opens, it closes, and you can see through it! This one looks tough.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: true
@@ -96,13 +96,13 @@
   # Barricades
 - type: construction
   parent: RMC
-  name: "металева барикада"
+  name: Metal Barricade
   id: CMBarricadeMetal
   graph: BarricadeMetalGraph
   startNode: start
   targetNode: nodeMetal
   category: construction-category-cm-structures
-  description: "Металева барикада військового класу."
+  description: A military-grade metal barricade.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -113,13 +113,13 @@
 
 - type: construction
   parent: RMC
-  name: "пласталева барикада"
+  name: Plasteel Barricade
   id: RMCBarricadePlasteel
   graph: BarricadePlasteelGraph
   startNode: start
   targetNode: nodePlasteel
   category: construction-category-cm-structures
-  description: "Загартована пласталева барикада військового класу."
+  description: A military-grade hardened plasteel barricade.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -130,13 +130,13 @@
 
 - type: construction
   parent: RMC
-  name: "дерев'яна барикада"
+  name: Wooden Barricade
   id: RMCBarricadeWood
   graph: BarricadeWoodGraph
   startNode: start
   targetNode: nodeWood
   category: construction-category-cm-structures
-  description: "Імпровізована дерев'яна барикада."
+  description: A makeshift wooden barricade.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -147,13 +147,13 @@
 
 - type: construction
   parent: RMC
-  name: "складна металева барикада"
+  name: Folding Metal Barricade
   id: CMBarricadeMetalDoor
   graph: BarricadeMetalDoorGraph
   startNode: start
   targetNode: nodeBarricadeMetalDoor
   category: construction-category-cm-structures
-  description: "Барикада, яку можна скласти або відкрити, щоб пропускати морпіхів."
+  description: A barricade that can be folded or opened to allow marines through.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -164,13 +164,13 @@
 
 - type: construction
   parent: RMC
-  name: "складна пласталева барикада"
+  name: Folding Plasteel Barricade
   id: CMBarricadePlasteelDoor
   graph: BarricadePlasteelDoorGraph
   startNode: start
   targetNode: nodeBarricadePlasteelDoor
   category: construction-category-cm-structures
-  description: "Барикада, яку можна скласти або відкрити, щоб пропускати морпіхів. Виготовлена із загартованої пласталі."
+  description: A barricade that can be folded or opened to allow marines through. Made from hardened plasteel.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -182,13 +182,13 @@
 #lighting
 - type: construction
   parent: RMC
-  name: "кріплення для трубчастої лампи"
+  name: tube light fixture
   id: RMCLightTubeFixture
   graph: RMCLightFixture
   startNode: start
   targetNode: tubeLight
   category: construction-category-cm-structures
-  description: "Настінне кріплення для трубчастих ламп."
+  description: A wallmounted fixture for tube lights.
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: true
@@ -198,13 +198,13 @@
 
 - type: construction
   parent: RMC
-  name: "кріплення для лампочки"
+  name: bulb light fixture
   id: RMCLightBulbFixture
   graph: RMCLightFixture
   startNode: start
   targetNode: bulbLight
   category: construction-category-cm-structures
-  description: "Настінне кріплення для лампочок."
+  description: A wallmounted fixture for bulb lights.
   objectType: Structure
   placementMode: SnapgridCenter
   canRotate: true

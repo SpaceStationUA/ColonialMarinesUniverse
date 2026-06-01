@@ -10,8 +10,8 @@
 - type: entity
   parent: RMCMechPropBase
   id: RMCMechPropDrill
-  name: "бур"
-  description: "Це бур, що пробьє небеса!"
+  name: drill
+  description: This is the drill that'll pierce the heavens!
   components:
     - type: Sprite
       state: mecha_drill
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCMechPropBase
   id: RMCMechPropClamp
-  name: "Гідравлічний затискач"
+  name: Hydraulic Clamp
   components:
     - type: Sprite
       state: mecha_clamp
@@ -27,8 +27,8 @@
 - type: entity
   parent: RMCMechPropBase
   id: RMCMechPropArmorBooster
-  name: "Модуль посилення броні (Зброя ближнього бою)"
-  description: "Посилює броню екзоскелета проти озброєних ударів ближнього бою. Потребує енергії для роботи."
+  name: "Armor Booster Module (Close Combat Weaponry)"
+  description: Boosts exosuit armor against armed melee attacks. Requires energy to operate.
   components:
     - type: Sprite
       state: mecha_abooster_ccw

@@ -2,8 +2,8 @@
   parent: CMBaseStructureCorrodible
   abstract: true
   id: AU14LandingSignBase
-  name: "знак"
-  description: "Знак."
+  name: sign
+  description: A sign.
   components:
   - type: Transform
     anchored: false
@@ -19,8 +19,8 @@
 - type: entity
   parent: AU14LandingSignBase
   id: AU14LandingSignStableSpacePort
-  name: "знак космопорту Албасетіре"
-  description: "Великий знак із написом «Космопорт Албасетіре»."
+  name: Albacetire spaceport sign
+  description: A large sign reading 'Albacetire Spaceport'.
   components:
   - type: Sprite
     state: stable_spaceport
@@ -28,8 +28,8 @@
 - type: entity
   parent: AU14LandingSignBase
   id: AU14LandingSignStableColony
-  name: "знак колонії Албасетіре"
-  description: "Великий знак із написом «Ласкаво просимо до Гарнізону Один — Албасетіре, Зовнішнє кільце»."
+  name: Albacetire colony sign
+  description: A large sign reading 'Welcome to Garrison One - Albacetire Outer Rim'.
   components:
   - type: Sprite
     state: stable_welcome
@@ -38,8 +38,8 @@
   parent: CMBaseStructureCorrodible
   abstract: true
   id: AU14LandingSignBaseMilitary
-  name: "знак"
-  description: "Знак."
+  name: sign
+  description: A sign.
   components:
   - type: Transform
     anchored: false
@@ -54,8 +54,8 @@
 - type: entity
   parent: AU14LandingSignBaseMilitary
   id: AU14LandingSignStableMilitary
-  name: "знак об’єднаної бази Шефер"
-  description: "Великий знак із написом «Об’єднана база Шефер»."
+  name: joint base schaefer sign
+  description: A large sign reading 'Joint Base Schaefer'.
   components:
   - type: Sprite
     state: schaefer_clean
@@ -63,8 +63,8 @@
 - type: entity
   parent: AU14LandingSignBaseMilitary
   id: AU14LandingSignStableMilitaryDirty
-  name: "знак об’єднаної бази Шефер"
-  description: "Великий знак із написом «Об’єднана база Шефер»."
+  name: joint base schaefer sign
+  description: A large sign reading 'Joint Base Schaefer'.
   components:
   - type: Sprite
     state: schaefer_dirty

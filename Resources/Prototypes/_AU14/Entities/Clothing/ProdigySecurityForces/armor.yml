@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: CMUArmorProdigyFlakVest
-  description: "Легкий осколковий жилет."
-  name: "осколковий розвантажувальний жилет"
+  description: A light flak vest.
+  name: flak webbing vest
   components:
   - type: ClothingSpeedModifier
     walkModifier: 0.825
@@ -18,8 +18,8 @@
 - type: entity
   parent: CMUArmorProdigyFlakVest
   id: CMUArmorProdigyFlakVestAlt
-  description: "Легкий осколковий жилет."
-  name: "осколковий жилет"
+  description: A light flak vest.
+  name: flak vest
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/flakvestlight.rsi
@@ -27,8 +27,8 @@
 - type: entity
   parent: CMUArmorProdigyFlakVest
   id: CMUArmorProdigyFlakVestMedical
-  description: "Легкий осколковий жилет."
-  name: "медичний осколковий жилет"
+  description: A light flak vest.
+  name: medical flak vest
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/flakvestmedical.rsi
@@ -36,8 +36,8 @@
 - type: entity
   parent: CMArmorM4
   id: AU14ArmorProdigyXAS23
-  name: "бойовий обладунок зразка PRU-XAS-23"
-  description: "Міцніший за сталь, тихіший за шепіт, бойовий обладунок зразка PRU-XAS-23 забезпечує надійний захист у поєднанні з експериментальним вбудованим детектором руху. Команда розробників створила його за вихідні, а коштує він більше за станцію Ромул... напевно. Коли одягнений, до уніформи неможливо прикріпити аксесуари на кшталт розгрузки, оскільки кліпси зайняті датчиками руху, проте розширене сховище на самому обладунку це компенсує. Через свою громіздкість він потребує кліпсів на уніформі Підрозділу реагування Продіджі."
+  name: PRU-XAS-23 pattern battle armor
+  description: Tougher than steel, quieter than whispers, the PRU-XAS-23 Pattern Battle Armor provides capable protection combined with an experimental integrated motion tracker. It took an R&D team a weekend to develop and costs more than the Romulus Station... probably. When worn, uniform accessories such as webbing cannot be attached due to the motion sensors occupying the clips, although the expanded storage on the physical armor makes up for it. Due to its awkardness it requires the clips on the Prodigy Response Unit uniform to wear.
   components:
   - type: RMCArmorSpeedTier
     speedTier: light
@@ -78,8 +78,8 @@
 - type: entity
   parent: AU14ArmorProdigyXAS23
   id: AU14ArmorProdigyXAS23G
-  name: "бойовий обладунок зразка PRU-XAS-23-G"
-  description: "Міцніший за сталь, тихіший за шепіт, бойовий обладунок зразка PRU-XAS-23-G забезпечує надійний захист для смартганерів, відкидаючи вбудований детектор руху на користь обв'язки смартгана. Коли одягнений, до уніформи неможливо прикріпити аксесуари на кшталт розгрузки, оскільки кліпси зайняті обв'язкою смартгана, проте розширене сховище на самому обладунку це компенсує. Через свою громіздкість і посилене бронювання порівняно зі звичайною моделлю він потребує кліпсів на уніформі Підрозділу реагування Продіджі."
+  name: PRU-XAS-23-G pattern battle armor
+  description: Tougher than steel, quieter than whispers, the PRU-XAS-23-G Pattern Battle Armor provides capable protection for smart gunners, ditching the built in motion detector for SG rigs. When worn, uniform accessories such as webbing cannot be attached due to the gunner rig occupying the clips, although the expanded storage on the physical armor makes up for it. Due to its awkwardness and increased armor from the normal model it requires the clips on the Prodigy Response Unit uniform to wear.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/ArmedRepairTeam/PARTArmors/partarmor3.rsi
@@ -103,8 +103,8 @@
 - type: entity
   parent: AU14ArmorProdigyXAS23
   id: AU14ArmorProdigyXAS23S
-  name: "бойовий обладунок зразка PRU-XAS-23-S"
-  description: "Міцніший за кевлар, тихіший за шепіт, бойовий обладунок зразка PRU-XAS-23-S забезпечує надійний захист для синтетиків у поєднанні з експериментальним вбудованим детектором руху. Коли одягнений, до уніформи неможливо прикріпити аксесуари на кшталт розгрузки, оскільки кліпси зайняті детектором руху, проте розширене сховище на самому обладунку це компенсує. Через свою громіздкість і легше бронювання порівняно зі звичайною моделлю він потребує кліпсів на уніформі Підрозділу реагування Продіджі."
+  name: PRU-XAS-23-S pattern battle armor
+  description: Tougher than kevlar, quieter than whispers, the PRU-XAS-23-S Pattern Battle Armor provides capable protection for synthetics, combined with an experimental integrated motion trackers. When worn, uniform accessories such as webbing cannot be attached due to the motion detector occupying the clips, although the expanded storage on the physical armor makes up for it. Due to its awkwardness and lighter armor from the normal model it requires the clips on the Prodigy Response Unit uniform to wear.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/ArmedRepairTeam/PARTArmors/partarmor2.rsi

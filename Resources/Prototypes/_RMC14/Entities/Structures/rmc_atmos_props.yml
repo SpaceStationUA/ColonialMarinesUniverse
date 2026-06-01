@@ -2,8 +2,8 @@
 - type: entity
   id: RMCAirScrubberPortable
   parent: BaseStructureDynamic
-  name: "портативний скрубер повітря"
-  description: "Він фільтрує — портативно!"
+  name: portable air scrubber
+  description: It scrubs, portably!
   components:
   - type: Transform
   - type: Physics
@@ -64,8 +64,8 @@
 - type: entity
   id: RMCAirScrubberStationary
   parent: RMCAirScrubberPortable
-  name: "стаціонарний скрубер повітря"
-  description: "Він великий і надійно закріплений."
+  name: stationary air scrubber
+  description: It's large and securely attached.
   components:
   - type: Physics
     bodyType: Static
@@ -83,8 +83,8 @@
 - type: entity
   id: RMCAirPumpPortable
   parent: RMCAirScrubberPortable
-  name: "портативний повітряний насос"
-  description: "Рухомий насос, що рухає повітря довкола."
+  name: portable air pump
+  description: A movable pump that can move air around.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -106,8 +106,8 @@
 - type: entity
   id: RMCAirPumpStationary
   parent: RMCAirPumpPortable
-  name: "стаціонарний повітряний насос"
-  description: "Він великий і надійно закріплений."
+  name: stationary air pump
+  description: It's large and securely attached.
   components:
   - type: Physics
     bodyType: Static
@@ -124,8 +124,8 @@
 # Heaters
 - type: entity
   id: RMCRadiator
-  name: "радіатор"
-  description: "Це радіатор. Він нагріває кімнату через конвекцію за допомогою гарячої води."
+  name: radiator
+  description: It's a radiator. It heats the room through convection with hot water.
   components:
   - type: Transform
   - type: Physics
@@ -160,8 +160,8 @@
 - type: entity
   id: RMCRadiatorRed
   parent: RMCRadiator
-  name: "радіатор"
-  description: "Це радіатор. Він нагріває кімнату через конвекцію за допомогою гарячої води. У цього червона ручка."
+  name: radiator
+  description: It's a radiator. It heats the room through convection with hot water. This one has a red handle.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/atmos.rsi
@@ -170,8 +170,8 @@
 - type: entity
   id: RMCSpaceHeater
   parent: BaseStructureDynamic
-  name: "космічний обігрівач"
-  description: "Це електричний космічний обігрівач. Він нагріває кімнату випромінюванням за допомогою електрики."
+  name: space heater
+  description: It's an electric space heater. It heats the room through radiation with electricity.
   components:
   - type: VehicleSmashable
   - type: Transform

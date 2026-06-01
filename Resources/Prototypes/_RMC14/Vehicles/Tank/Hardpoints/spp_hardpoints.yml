@@ -12,8 +12,8 @@
 - type: entity
   parent: VehicleTankTurret
   id: VehicleSPPTankTurret
-  name: "турель танка СПП"
-  description: "Танкова турель, налаштована під бронетехніку СПП."
+  name: SPP tank turret
+  description: A tank turret configured for SPP armor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/spptank.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: VehicleTankLTAAAPMinigun
   id: VehicleSPPTankP17702
-  name: "роторна гармата P-17702"
-  description: "Танковий вузол кріплення роторної гармати СПП."
+  name: P-17702 rotary cannon
+  description: An SPP rotary cannon tank hardpoint.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/spptank.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: VehicleTankLTBCannon
   id: VehicleSPPTankRailgun
-  name: "рейкотрон СПП"
-  description: "Вузол кріплення рейкотрона для турелей танка СПП."
+  name: SPP railgun
+  description: A railgun hardpoint for SPP tank turrets.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/spptank.rsi
@@ -138,8 +138,8 @@
 - type: entity
   parent: VehicleTankTowLauncher
   id: VehicleSPPTankHJ35TLauncher
-  name: "пускова установка HJ35T"
-  description: "Протиброньова пускова установка СПП для танкових турелей."
+  name: HJ35T launcher
+  description: An SPP anti-armor launcher for tank turrets.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/spptank.rsi
@@ -173,8 +173,8 @@
 - type: entity
   parent: VehicleTankM56Cupola
   id: VehicleSPPTankCupola
-  name: "командирська башточка T60P3M"
-  description: "Зброя, встановлена на командирській башточці, для бронетехніки СПП."
+  name: T60P3M cupola
+  description: A cupola-mounted weapon fitted to SPP armor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/spptank.rsi
@@ -211,8 +211,8 @@
 - type: entity
   parent: VehicleTankArmorBallistic
   id: VehicleSPPTankReactiveArmor
-  name: "реактивна бронеплита"
-  description: "Реактивна бронеплита для танка СПП."
+  name: reactive armor plating
+  description: Reactive armor plating for an SPP tank.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/spptank.rsi
@@ -225,8 +225,8 @@
 - type: entity
   parent: VehicleTankRocketLauncher
   id: VehicleSPPTankRocketLauncher
-  name: "димова пускова установка СПП"
-  description: "Допоміжне кріплення димової пускової установки для танка СПП."
+  name: SPP smoke launcher
+  description: A smoke launcher support attachment for an SPP tank.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/spptank.rsi
@@ -239,8 +239,8 @@
 - type: entity
   parent: VehicleTankFlareModule
   id: VehicleSPPTankFlareModule
-  name: "модуль сигнальних ракет СПП"
-  description: "Допоміжне кріплення пускової установки сигнальних ракет для танка СПП."
+  name: SPP flare module
+  description: A flare launcher support attachment for an SPP tank.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/hardpoints/spptank.rsi
@@ -253,8 +253,8 @@
 - type: entity
   parent: VehicleTankWarningArray
   id: VehicleSPPTankWarningArray
-  name: "сенсорний масив попередження СПП"
-  description: "Інтегрований сенсорний масив озброєння для допоміжних слотів танка СПП."
+  name: SPP warning array
+  description: An integrated weapons sensor array for SPP tank support slots.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/spptank.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: VehicleTankOverdriveEnhancer
   id: VehicleSPPTankOverdriveEnhancer
-  name: "прискорювач овердрайву СПП"
-  description: "Допоміжне кріплення прискорювача овердрайву для танка СПП."
+  name: SPP overdrive enhancer
+  description: An overdrive enhancer support attachment for an SPP tank.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/spptank.rsi
@@ -281,8 +281,8 @@
 - type: entity
   parent: VehicleTankArtilleryModule
   id: VehicleSPPTankArtilleryModule
-  name: "артилерійський модуль СПП"
-  description: "Допоміжний артилерійський модуль для танка СПП."
+  name: SPP artillery module
+  description: An artillery support module for an SPP tank.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/spptank.rsi

@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidIntelCombatTech
-  name: "розвідка привид-роль бойового техніка"
+  name: intel ghost role combat technician
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidIntelFireteamLeader
-  name: "розвідка привид-роль лідера вогневої команди"
+  name: intel ghost role fireteam leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidIntelHospitalCorpsman
-  name: "розвідка привид-роль шпитального корпсмена"
+  name: intel ghost role hospital corpsman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidIntelRifleman
-  name: "розвідка привид-роль стрільця"
+  name: intel ghost role rifleman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidIntelSmartGunOperator
-  name: "розвідка привид-роль оператора смартгана"
+  name: intel ghost role smart gun operator
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidIntelSquadLeader
-  name: "розвідка привид-роль лідера загону"
+  name: intel ghost role squad leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidIntelWeaponsSpecialist
-  name: "розвідка привид-роль спеціаліста з озброєння"
+  name: intel ghost role weapons specialist
   suffix: Spawner, Player
   components:
   - type: Sprite

@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: AU14USArmyTankDriver
   name: au14-job-name-usarmy-tankdriver
-  description: "au14-job-description-usarmy-tankccrew"
+  description: au14-job-description-usarmy-tankccrew
   playTimeTracker: AU14JobUSArmyTankDriver
   ranks:
     USArmy_PFC:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTankDriver
-  name: "водій танка армії США"
+  name: US Army Tank Driver
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

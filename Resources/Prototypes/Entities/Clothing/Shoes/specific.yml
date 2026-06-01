@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesChef
-  name: "кухарські туфлі"
-  description: "Міцне взуття, що зменшує травми від падіння предметів або ножів."
+  name: chef shoes
+  description: Sturdy shoes that minimize injury from falling objects or knives.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/chef.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: ClothingShoesClownBase
   id: ClothingShoesClown
-  name: "клоунські туфлі"
-  description: "Стандартні клоунські туфлі для жартівника. Чорт забирай, які ж вони великі!"
+  name: clown shoes
+  description: "The prankster's standard-issue clowning shoes. Damn they're huge!"
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/clown.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesClownBanana
-  name: "бананові клоунські туфлі"
-  description: "Коли гумор і взуття поєднуються в нових рівнях абсурду."
+  name: banana clown shoes
+  description: "When humor and footwear combine into new levels of absurdity."
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/clown_banana.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: ClothingShoesClownBase
   id: ClothingShoesBling
-  name: "блискучі клоунські туфлі"
-  description: "Зроблені з очищеного бананіуму та відполіровані м’якоттю свіжої бананової шкірки. Вони роблять яскраву заяву."
+  name: bling clown shoes
+  description: Made of refined bananium and shined with the pulp of a fresh banana peel. These make a flashy statement.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/bling.rsi
@@ -96,8 +96,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesCult
-  name: "культові чоботи"
-  description: "Пара чобіт, яку носять послідовники Нар'Сі."
+  name: cult shoes
+  description: A pair of boots worn by the followers of Nar'Sie.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/cult.rsi
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ ClothingShoesBase, BaseJanitorContraband ]
   id: ClothingShoesGaloshes
-  name: "калоші"
-  description: "Гумові чоботи."
+  name: galoshes
+  description: Rubber boots.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/galoshes.rsi
@@ -124,8 +124,8 @@
 - type: entity
   parent: [ClothingShoesBaseButcherable, BaseMajorContraband]
   id: ClothingShoesSpaceNinja
-  name: "взуття космічного ніндзя"
-  description: "Пара нанопокращених чобіт із вбудованими магнітними присосками."
+  name: space ninja shoes
+  description: A pair of nano-enhanced boots with built-in magnetic suction cups.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/spaceninja.rsi
@@ -143,8 +143,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSwat
-  name: "взуття SWAT"
-  description: "Коли хочеш підкрутити жару."
+  name: swat shoes
+  description: When you want to turn up the heat.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/swat.rsi
@@ -154,8 +154,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesWizard
-  name: "черевики чарівника"
-  description: "Пара магічних черевиків."
+  name: wizard shoes
+  description: A pair of magic shoes.
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/wizard.rsi
@@ -165,9 +165,9 @@
 - type: entity
   parent: ClothingShoesBase
   id: ClothingShoesChameleon
-  name: "чорні туфлі"
+  name: black shoes
   suffix: Chameleon
-  description: "Стильні чорні туфлі."
+  description: Stylish black shoes.
   components:
     - type: Tag
       tags: [] # ignore "WhitelistChameleon" tag
@@ -205,17 +205,17 @@
 - type: entity
   parent: ClothingShoesChameleon
   id: ClothingShoesChameleonNoSlips
-  name: "чорні туфлі" #actual name and description in uplink_catalog.yml
+  name: black shoes #actual name and description in uplink_catalog.yml
   suffix: No-slip, Chameleon
-  description: "Стильні чорні туфлі."
+  description: Stylish black shoes.
   components:
   - type: NoSlip
 
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesJester
-  name: "туфлі блазня"
-  description: "Туфлі придворного блазня, оновлені сучасною технологією писку."
+  name: jester shoes
+  description: A court jester's shoes, updated with modern squeaking technology.
   components:
     - type: Sprite
       sprite: Clothing/Shoes/Specific/jester.rsi
@@ -230,9 +230,9 @@
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesCluwne
-  name: "туфлі клувня"
+  name: cluwne shoes
   suffix: Unremoveable
-  description: "Проклята пара туфель клувня."
+  description: "Cursed pair of cluwne shoes."
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/cluwne.rsi
@@ -243,8 +243,8 @@
 - type: entity
   parent: ClothingShoesClown
   id: ClothingShoesClownLarge
-  name: "великі клоунські туфлі"
-  description: "Коли тобі треба виділятися в кімнаті, повній клоунів!"
+  name: large clown shoes
+  description: "When you need to stand out in a room full of clowns!"
   components:
   - type: Sprite
     state: "icon"
@@ -265,8 +265,8 @@
 - type: entity
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesSkates
-  name: "роликові ковзани"
-  description: "Одягай ковзани!"
+  name: roller skates
+  description: "Get your skates on!"
   components:
   - type: Sprite
     sprite: Clothing/Shoes/Specific/skates.rsi

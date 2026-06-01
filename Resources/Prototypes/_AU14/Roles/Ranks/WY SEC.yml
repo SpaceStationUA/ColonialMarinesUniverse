@@ -1,29 +1,29 @@
 - type: rank
   id: AU14RankWYSecurityOfficerChief
-  name: "головний офіцер корпоративної безпеки"
+  name: Chief Corporate Security Officer
   prefix: CCSO.
   paygrade: CORP-SEC5
 
 - type: rank
   id: AU14RankWYSecurityOfficerMaster
-  name: "майстер-офіцер корпоративної безпеки"
+  name: Master Corporate Security Officer
   prefix: MCSO.
   paygrade: CORP-SEC4
 
 - type: rank
   id: AU14RankWYSecurityOfficerSenior
-  name: "старший офіцер корпоративної безпеки"
+  name: Senior Corporate Security Officer
   prefix: SCSO.
   paygrade: CORP-SEC3
 
 - type: rank
   id: AU14RankWYSecurityOfficer
-  name: "офіцер корпоративної безпеки"
+  name: Corporate Security Officer
   prefix: CSO.
   paygrade: CORP-SEC2
 
 - type: rank
   id: AU14RankWYSecurityOfficerJunior
-  name: "молодший офіцер корпоративної безпеки"
+  name: Junior Corporate Security Officer
   prefix: JCSO.
   paygrade: CORP-SEC1

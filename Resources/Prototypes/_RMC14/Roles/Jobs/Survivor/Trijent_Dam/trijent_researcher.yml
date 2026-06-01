@@ -22,7 +22,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentResearcher
-  name: "спавнер дослідника triджент-вцілілого"
+  name: survivor trijent researcher spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorTrijentResearcher
@@ -34,5 +34,5 @@
 - type: entity
   parent: RMCSurvivorPresetScientist
   id: RMCSurvivorPresetTrijentResearcher
-  name: "пресет колоніста-дослідника triджент" # TODO RMC14 random research notes
+  name: trijent researcher colonist preset # TODO RMC14 random research notes
   categories: [ HideSpawnMenu ]

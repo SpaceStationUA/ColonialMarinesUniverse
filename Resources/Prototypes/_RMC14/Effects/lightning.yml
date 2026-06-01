@@ -1,5 +1,5 @@
 - type: entity
-  name: "Фіолетова блискавка"
+  name: Purple Lightning
   id: RMCPurpleLightning
   categories: [ HideSpawnMenu ]
   components:

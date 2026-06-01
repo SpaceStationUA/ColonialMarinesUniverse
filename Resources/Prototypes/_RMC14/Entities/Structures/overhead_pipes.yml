@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: CMOverheadPipe
-  name: "верхній відрізок труби"
+  name: overhead pipe segment
   placement:
     mode: SnapgridCenter
     snap:
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMOverheadPipe
   id: RMCOverheadFuelLine1
-  name: "щільна паливна лінія"
-  description: "Швидше за все, вкрай легкозаймиста."
+  name: dense fuel line
+  description: Likely to be incredibly flammable.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/overhead_fuel.rsi

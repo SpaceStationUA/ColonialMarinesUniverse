@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaMedicalDoctor
-  name: "спавнер медичного лікаря"
+  name: medical doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetHybrisaMedicalDoctor
-  name: "пресет медичного лікаря"
+  name: medical doctor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

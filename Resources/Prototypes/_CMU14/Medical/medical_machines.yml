@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUAutodocPod
-  name: "капсула автодока"
-  description: "Автоматизована хірургічна капсула. Навчений хірург може ставити процедури в чергу з підключеної консолі."
+  name: autodoc pod
+  description: An automated surgical pod. A trained surgeon can queue procedures from its linked console.
   placement:
     mode: SnapgridCenter
   components:
@@ -71,8 +71,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUAutodocConsole
-  name: "консоль автодока"
-  description: "Спеціалізований термінал для постановки процедур у чергу для сусідньої капсули автодока."
+  name: autodoc console
+  description: A dedicated terminal for queuing procedures on a nearby autodoc pod.
   placement:
     mode: SnapgridCenter
   components:
@@ -117,8 +117,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUBodyScannerPod
-  name: "капсула сканера тіла"
-  description: "Повнотілий діагностичний сканер із закритим відсіком для пацієнта."
+  name: body scanner pod
+  description: A full-body diagnostic scanner with an enclosed patient bay.
   placement:
     mode: SnapgridCenter
   components:
@@ -171,8 +171,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUBodyScannerConsole
-  name: "консоль сканера тіла"
-  description: "Медична консоль для перегляду закритих сканувань тіла та калібрування хірургічної допомоги."
+  name: body scanner console
+  description: A medical console for reviewing enclosed body scans and calibrating surgical assistance.
   placement:
     mode: SnapgridCenter
   components:
@@ -217,8 +217,8 @@
 - type: entity
   parent: BaseStructure
   id: CMULimbPrinter
-  name: "принтер кінцівок"
-  description: "Хірургічний біопринтер, що вирощує замінні людські руки та ноги з матричного реагенту і зразка крові."
+  name: limb printer
+  description: A surgical bioprinter that grows replacement human arms and legs from matrix reagent and a blood sample.
   placement:
     mode: SnapgridCenter
   components:
@@ -299,7 +299,7 @@
 - type: entity
   parent: CMBeakerLarge
   id: CMULimbPrinterMatrixBeaker
-  name: "мензурка біогенної матриці"
+  name: biogenic matrix beaker
   suffix: CMU, Filled
   components:
   - type: Label

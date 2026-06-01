@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponGun, BaseItem]
   id: RMCSmartGunMounted
-  name: "важкий кулемет M56D"
-  description: "Верхня половина поста важкого кулемета M56D. Однак без триноги він не дуже корисний."
+  name: M56D heavy machine gun
+  description: The top half of a M56D heavy machine gun post. However it ain't much use without the tripod.
   components:
   - type: Item
     size: Huge
@@ -132,7 +132,7 @@
 - type: entity
   parent: RMCSmartGunMounted
   id: RMCSmartGunMountedStatic
-  name: "важкий кулемет M56D"
+  name: M56D heavy machine gun
   suffix: Scoped
   components:
   - type: MagazineAmmoProvider
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineML66D
-  name: "Барабанний магазин M56D (10x28мм)"
-  description: "Коробка з 700 безгільзовими вольфрамовими набоями 10x28мм для системи важкого кулемета M56D."
+  name: M56D drum magazine (10x28mm)
+  description: A box of 700, 10x28mm caseless tungsten rounds for the M56D heavy machine gun system.
   components:
   - type: Tag
     tags:
@@ -200,8 +200,8 @@
 - type: entity
   parent: RMCMagazineML66D
   id: RMCMagazineML66DLarge
-  name: "великий барабанний магазин M56D (10x28мм)"
-  description: "Коробка з 1500 безгільзовими вольфрамовими набоями 10x28мм для системи важкого кулемета M56D."
+  name: large M56D drum magazine (10x28mm)
+  description: A box of 1500, 10x28mm caseless tungsten rounds for the M56D heavy machine gun system.
   components:
   - type: Tag
     tags:
@@ -218,7 +218,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeHMG10x28mm
-  name: "набій (10x28мм)"
+  name: cartridge (10x28mm)
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCCartridgeHMG10x28mm
   id: RMCCartridgeHMG10x28mmOffset #DIfferent muzzle flash location
-  name: "набій (10x28мм)"
+  name: cartridge (10x28mm)
   components:
   - type: CartridgeAmmo
     muzzleFlashOffset: 0.25, 0
@@ -245,7 +245,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletHMG10x28mm
-  name: "куля (10x28мм)"
+  name: bullet (10x28mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

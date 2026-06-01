@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMUBoneGraftItem
-  name: "кістковий трансплантат"
-  description: "Флакон синтетичного кісткового матеріалу для пересадки роздроблених переломів."
+  name: bone graft
+  description: A vial of synthetic bone material for grafting comminuted fractures.
   components:
   - type: Item
     size: Small

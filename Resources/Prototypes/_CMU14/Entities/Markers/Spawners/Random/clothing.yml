@@ -1,6 +1,6 @@
 - type: entity
   id: CMURandomClothingCivilian
-  name: "спавнер випадкового цивільного одягу"
+  name: random civilian clothing spawner
   parent: MarkerBase
   suffix: CMU
   components:

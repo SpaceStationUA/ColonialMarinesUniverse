@@ -1,8 +1,8 @@
 - type: entity
   parent: CMMobMonkey
   id: CMUMobApe
-  name: "Мавпа"
-  description: "Здатна та небезпечна мегафауна з високими калорійними потребами."
+  name: Ape
+  description: A capable and dangerous megafauna, high caloric needs.
   suffix: CMU
   components:
   - type: DropshipHijacker
@@ -20,7 +20,7 @@
         layer:
         - MobLayer
   - type: GhostRole
-    name: "Мавпа"
+    name: Ape
     description: OO OO AH AH
     prob: 1.0
     raffle:
@@ -212,7 +212,7 @@
 - type: entity
   id: OrganApeStomach
   parent: OrganAnimalStomach
-  name: "шлунок"
+  name: stomach
   categories: [ HideSpawnMenu ]
   components:
   - type: Metabolizer
@@ -221,7 +221,7 @@
 - type: entity
   id: OrganApeLiver
   parent: OrganAnimalLiver
-  name: "печінка"
+  name: liver
   categories: [ HideSpawnMenu ]
   components:
   - type: Metabolizer
@@ -230,7 +230,7 @@
 - type: entity
   id: OrganApeHeart
   parent: OrganAnimalHeart
-  name: "серце"
+  name: heart
   categories: [ HideSpawnMenu ]
   components:
   - type: Metabolizer
@@ -238,7 +238,7 @@
 
 - type: body
   id: ApeBody
-  name: "мавпа"
+  name: "ape"
   root: torso
   slots:
     torso:

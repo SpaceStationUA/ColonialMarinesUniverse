@@ -29,7 +29,7 @@
 - type: entity
   parent: RMCOreBase
   id: RMCCoal
-  name: "вуглецева порода"
+  name: carbonaceous rock
   suffix: Full
   components:
   - type: Stack
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCOreBase
   id: RMCDiamondOre
-  name: "діаманти"
+  name: diamonds
   suffix: Full
   components:
   - type: Stack
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCOreBase
   id: RMCGoldOre
-  name: "самородна золота руда"
+  name: native gold ore
   suffix: Full
   components:
   - type: Stack
@@ -121,7 +121,7 @@
 - type: entity
   parent: RMCOreBase
   id: RMCIronOre
-  name: "гематит"
+  name: hematite
   suffix: Full
   components:
   - type: Stack
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCOreBase
   id: RMCPlasmaOre
-  name: "форонові кристали"
+  name: phoron crystals
   suffix: Full
   components:
   - type: Stack
@@ -182,7 +182,7 @@
 - type: entity
   parent: RMCOreBase
   id: RMCPlatinumOre
-  name: "необроблена платина"
+  name: raw platinum
   suffix: Full
   components:
   - type: Stack
@@ -210,7 +210,7 @@
 - type: entity
   parent: RMCOreBase
   id: RMCSilverOre
-  name: "самородна срібна руда"
+  name: native silver ore
   suffix: Full
   components:
   - type: Stack
@@ -238,8 +238,8 @@
 - type: entity
   parent: RMCOreBase
   id: RMCUraniumOre
-  name: "настуран"
-  description: "Руда, що містить уран. Просто від погляду на неї паморочиться в голові... Вона трохи світиться."
+  name: pitchblende
+  description: An ore containing Uranium. Just looking at it makes your head feel fuzzy... it's slightly luminescent.
   suffix: Full
   components:
   - type: Stack

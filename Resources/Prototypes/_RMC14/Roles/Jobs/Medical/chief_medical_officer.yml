@@ -96,7 +96,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCMO
-  name: "спавнер головного медичного офіцера"
+  name: chief medical officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMCMO
@@ -110,8 +110,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleCMO
-  name: "CMO"
-  description: "Головний медичний офіцер."
+  name: The CMO
+  description: The Chief Medical Officer.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

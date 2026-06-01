@@ -61,7 +61,7 @@
 
 - type: entity
   id: RMCRandomHumanoidBureauMarshal
-  name: "привид-роль маршала бюро"
+  name: bureau ghost role marshal
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

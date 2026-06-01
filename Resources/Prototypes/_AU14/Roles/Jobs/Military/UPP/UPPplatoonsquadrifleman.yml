@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadRiflemanBase
   id: AU14JobGOVFORSquadRiflemanUPP
-  name: "Стрілець"
+  name: Rifleman
   spawnMenuRoleName: Rifleman (UPP)
   ranks:
     UPP_Gefreiter:

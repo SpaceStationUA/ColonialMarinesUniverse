@@ -35,7 +35,7 @@
 
 - type: entity
   id: RMCRandomHumanoidICBLiaison
-  name: "привид-роль лізона бюро міжзоряної торгівлі"
+  name: interstellar commerce bureau liaison ghost role
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite

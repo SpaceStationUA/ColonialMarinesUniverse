@@ -10,8 +10,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyAdmin
-  name: "ключ шифрування адміністрації колонії"
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалах колонії та КБМ."
+  name: colony admin encryption key
+  description: An encryption key used to communicate on colony and CMB radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -22,8 +22,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyWEYU
-  name: "колоніальний ключ шифрування Вейланд"
-  description: "Ключ шифрування для зв’язку на радіоканалах колонії та Вейланд."
+  name: Weyland colonial encryption key
+  description: An encryption key used to communicate on colony and weyland radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -34,9 +34,9 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCMB
-  name: "ключ шифрування БКМ"
+  name: CMB encryption key
   suffix: Colony, CMB
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалах колонії та КБМ."
+  description: An encryption key used to communicate on colony and CMB radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -47,8 +47,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCMBOnly
-  name: "ключ шифрування БКМ"
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалі КМБ."
+  name: CMB encryption key
+  description: An encryption key used to communicate on the CMB radio channel.
   components:
   - type: EncryptionKey
     channels:
@@ -58,8 +58,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyOrbital
-  name: "орбітальний ключ шифрування"
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалах колонії та Орбітальної станції."
+  name: orbital encryption key
+  description: An encryption key used to communicate on colony and Orbital radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -78,8 +78,8 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyAdminHeadset
-  name: "гарнітура адміністрації колонії"
-  description: "Гарнітура, яку адміністрація колонії використовує для зв’язку."
+  name: colony administration headset
+  description: A headset used by the colony administration to communicate.
   suffix: CMB, Colony
   components:
   - type: ContainerFill
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyWeylandHeadset
-  name: "гарнітура колонії Вейланд-Ютані"
-  description: "Гарнітура, яку Вейланд-Ютані використовує для зв’язку."
+  name: colony weyland yutani headset
+  description: A headset used by weyland yutani to communicate.
   suffix: Colony, WEYU
   components:
   - type: ContainerFill
@@ -102,8 +102,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadset
-  name: "гарнітура БКМ"
-  description: "Гарнітура, яку БКМ використовує для зв’язку."
+  name: CMB headset
+  description: A headset used by the CMB to communicate.
   suffix: CMB, Colony
   components:
   - type: ContainerFill
@@ -114,8 +114,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadsetOnlyCMB
-  name: "навушник БКМ"
-  description: "Гарнітура, яку БКМ використовує для зв’язку."
+  name: CMB Earpiece
+  description: A headset used by the CMB to communicate.
   suffix: CMB
   components:
   - type: ContainerFill
@@ -129,8 +129,8 @@
 - type: entity
   parent: AU14HeadsetColonist
   id: AU14HeadsetWorkingJoe
-  name: "гарнітура Воркінг Джо"
-  description: "Звичайна гарнітура, яку використовують Воркінг Джо."
+  name: Working Joe headset
+  description: A common headset used by Working Joes.
   components:
   - type: Sprite
     state: generic_headset
@@ -139,8 +139,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14ColonyAmbassadorTWEHeadset
-  name: "гарнітура комісара ІТС"
-  description: "Гарнітура, яку комісари ІТС використовують для зв’язку."
+  name: twe commissioner headset
+  description: A headset used by TWE's commissioners to communicate.
   suffix: Colony
   components:
   - type: RMCHeadset
@@ -150,8 +150,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorUAHeadset
-  name: "гарнітура посла ОА"
-  description: "Гарнітура, яку посли ОА використовують для зв’язку."
+  name: ua ambassador headset
+  description: A headset used by UA's ambassadors to communicate.
   suffix: Colony
   components:
   - type: RMCHeadset
@@ -162,8 +162,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorUPPHeadset
-  name: "гарнітура посла УПП"
-  description: "Гарнітура, яку посли УПП використовують для зв’язку."
+  name: upp ambassador headset
+  description: A headset used by UPP's ambassadors to communicate.
   suffix: Colony
   components:
   - type: RMCHeadset
@@ -173,8 +173,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorICSCHeadset
-  name: "гарнітура посла ІКСК"
-  description: "Гарнітура, яку посли ІКСК використовують для зв’язку."
+  name: icsc ambassador headset
+  description: A headset used by ICSC' ambassadors to communicate.
   suffix: Colony
   components:
   - type: RMCHeadset
@@ -185,8 +185,8 @@
 - type: entity
   parent: AU14HeadsetColonist
   id: AU14OrbitalHeadset
-  name: "гарнітура орбітального персоналу"
-  description: "Гарнітура, яку використовує орбітальний персонал для зв'язку з колонією та орбітальною станцією."
+  name: orbital personnel headset
+  description: A headset used by orbital personnel to communicate with the colony and the orbital station.
   suffix: Orbital, Colony
   components:
   - type: ContainerFill
@@ -197,7 +197,7 @@
 - type: entity
   parent: AU14HeadsetColonist
   id: AU14OrbitalHeadsetManagement
-  name: "гарнітура орбітального керівництва"
+  name: orbital management headset
   suffix: Orbital, Colony, Admin
   components:
   - type: ContainerFill

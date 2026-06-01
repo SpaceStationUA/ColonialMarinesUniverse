@@ -2,8 +2,8 @@
   parent: BaseItem
   id: BaseAnomalyCore
   abstract: true
-  name: "ядро аномалії"
-  description: "Ядро зруйнованого незрозумілого об'єкта."
+  name: anomaly core
+  description: The core of a destroyed incomprehensible object.
   components:
   - type: Sprite
     sprite: Structures/Specific/Anomalies/Cores/gravity_core.rsi
@@ -79,7 +79,7 @@
 - type: entity
   parent: BaseAnomalyCore
   id: AnomalyCoreFlesh
-  description: "Ядро знищеної аномалії плоті. Огидно пульсує, але може стати ситною стравою, якщо його приготувати."
+  description: The core of a destroyed flesh anomaly. Pulsates sickeningly, but might be a hearty meal if cooked.
   suffix: Flesh
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 - type: entity
   parent: BaseAnomalyInertCore
   id: AnomalyCoreFleshInert # Can be microwaved to turn it into a massive piece of meat
-  description: "Інертне ядро знищеної аномалії плоті. Огидно пульсує, але в правильних руках може стати непоганою їжею?"
+  description: The inert core of a destroyed flesh anomaly. Pulsates sickeningly, but might be good food in the right hands?
   suffix: Flesh, Inert
   components:
   - type: Sprite
