@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleInteriorGeneralBase
-  name: vehicle interior piece
-  description: A decorative vehicle interior fixture.
+  name: "елемент інтер'єру техніки"
+  description: "Декоративний елемент інтер'єру техніки."
   placement:
     mode: SnapgridCenter
   components:
@@ -17,8 +17,8 @@
   abstract: true
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorWallMountedBase
-  name: vehicle interior wall mount
-  description: A wall-mounted vehicle interior fixture.
+  name: "настінне кріплення інтер'єру техніки"
+  description: "Настінний елемент інтер'єру техніки."
   placement:
     mode: PlaceFree
   components:
@@ -29,8 +29,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleInteriorLockerBase
-  name: vehicle interior locker
-  description: A storage locker for vehicle interiors.
+  name: "шафка інтер'єру техніки"
+  description: "Шафка для зберігання в інтер'єрах техніки."
   placement:
     mode: PlaceFree
   components:
@@ -57,8 +57,8 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleAmmoLoader
-  name: vehicle ammo loader
-  description: A loader for vehicle hardpoint ammunition.
+  name: "заряджувач боєприпасів техніки"
+  description: "Заряджувач боєприпасів для вузлів кріплення техніки."
   components:
   - type: Sprite
     state: weapons_loader
@@ -76,7 +76,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChairOld
-  name: armor chair (old)
+  name: "броньоване крісло (старе)"
   components:
   - type: Sprite
     state: armor_chair_old
@@ -87,7 +87,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChairUnfold
-  name: armor chair (unfolded)
+  name: "броньоване крісло (розкладене)"
   components:
   - type: Sprite
     state: armor_chair_unfold
@@ -98,7 +98,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChair
-  name: armor chair
+  name: "броньоване крісло"
   components:
   - type: Sprite
     state: armor_chair
@@ -109,7 +109,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorArmorChairBuckled
-  name: armor chair (buckled)
+  name: "броньоване крісло (пристебнуте)"
   components:
   - type: Sprite
     state: armor_chair_buckled
@@ -120,7 +120,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleSeat
-  name: vehicle seat
+  name: "сидіння техніки"
   components:
   - type: Sprite
     state: vehicle_seat
@@ -128,7 +128,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleSeatBuckled
-  name: vehicle seat (buckled)
+  name: "сидіння техніки (пристебнуте)"
   components:
   - type: Sprite
     state: vehicle_seat_buckled
@@ -136,7 +136,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleBars
-  name: vehicle bars
+  name: "поручні техніки"
   components:
   - type: Sprite
     state: vehicle_bars
@@ -144,7 +144,7 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInteriorVehicleSeatDestroyed
-  name: vehicle seat (destroyed)
+  name: "сидіння техніки (знищене)"
   components:
   - type: Sprite
     state: vehicle_seat_destroyed
@@ -152,7 +152,7 @@
 - type: entity
   parent: VehicleInteriorLockerBase
   id: VehicleInteriorLockerOpen
-  name: interior locker (open)
+  name: "шафка інтер'єру (відкрита)"
   components:
   - type: EntityStorageVisuals
     stateBaseClosed: locker_open
@@ -161,12 +161,12 @@
 - type: entity
   parent: VehicleInteriorLockerBase
   id: VehicleInteriorLocker
-  name: interior locker
+  name: "шафка інтер'єру"
 
 - type: entity
   parent: VehicleInteriorLockerBase
   id: VehicleInteriorLockerMedical
-  name: interior locker (medical)
+  name: "шафка інтер'єру (медична)"
   components:
   - type: Sprite
     layers:
@@ -182,8 +182,8 @@
   abstract: true
   parent: RMCExtinguisherCabinet
   id: VehicleInteriorExtinguisherCabinetBase
-  name: interior extinguisher cabinet
-  description: A wall-mounted fire extinguisher cabinet for vehicle interiors.
+  name: "шафа вогнегасника інтер'єру"
+  description: "Настінна шафа для вогнегасника в інтер'єрах техніки."
   placement:
     mode: PlaceFree
   components:
@@ -213,7 +213,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisher
-  name: interior extinguisher
+  name: "вогнегасник інтер'єру"
   components:
   - type: ContainerFill
     containers:
@@ -223,7 +223,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherClosed
-  name: interior extinguisher (closed)
+  name: "вогнегасник інтер'єру (закритий)"
   components:
   - type: ContainerFill
     containers:
@@ -233,7 +233,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherFull
-  name: interior extinguisher (full)
+  name: "вогнегасник інтер'єру (повний)"
   components:
   - type: Openable
     opened: true
@@ -245,7 +245,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherMini
-  name: interior extinguisher (mini)
+  name: "вогнегасник інтер'єру (міні)"
   components:
   - type: Openable
     opened: true
@@ -273,7 +273,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherCabinetBase
   id: VehicleInteriorExtinguisherEmpty
-  name: interior extinguisher (empty)
+  name: "вогнегасник інтер'єру (порожній)"
   components:
   - type: Openable
     opened: true
@@ -281,7 +281,7 @@
 - type: entity
   parent: RMCNanoMed
   id: VehicleInteriorNanomed
-  name: nanomed
+  name: "наномед"
   placement:
     mode: PlaceFree
   components:
@@ -305,17 +305,17 @@
 - type: entity
   parent: VehicleInteriorNanomed
   id: VehicleInteriorNanomedVend
-  name: nanomed (vend)
+  name: "наномед (видача)"
 
 - type: entity
   parent: VehicleInteriorNanomed
   id: VehicleInteriorNanomedDeny
-  name: nanomed (deny)
+  name: "наномед (відмова)"
 
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendor
-  name: medical vendor
+  name: "медичний автомат"
   components:
   - type: Sprite
     state: med
@@ -323,7 +323,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorVend
-  name: medical vendor (vend)
+  name: "медичний автомат (видача)"
   components:
   - type: Sprite
     state: med_vend
@@ -331,7 +331,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorDeny
-  name: medical vendor (deny)
+  name: "медичний автомат (відмова)"
   components:
   - type: Sprite
     state: med_deny
@@ -339,7 +339,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorOff
-  name: medical vendor (off)
+  name: "медичний автомат (вимкнений)"
   components:
   - type: Sprite
     state: med_off
@@ -347,7 +347,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorBroken
-  name: medical vendor (broken)
+  name: "медичний автомат (зламаний)"
   components:
   - type: Sprite
     state: med_broken
@@ -355,7 +355,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorMedVendorPanel
-  name: medical vendor (panel)
+  name: "медичний автомат (панель)"
   components:
   - type: Sprite
     state: med_panel
@@ -363,7 +363,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendor
-  name: blood vendor
+  name: "автомат із кров'ю"
   components:
   - type: Sprite
     state: blood
@@ -371,7 +371,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorVend
-  name: blood vendor (vend)
+  name: "автомат із кров'ю (видача)"
   components:
   - type: Sprite
     state: blood_vend
@@ -379,7 +379,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorDeny
-  name: blood vendor (deny)
+  name: "автомат із кров'ю (відмова)"
   components:
   - type: Sprite
     state: blood_deny
@@ -387,7 +387,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorOff
-  name: blood vendor (off)
+  name: "автомат із кров'ю (вимкнений)"
   components:
   - type: Sprite
     state: blood_off
@@ -395,7 +395,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorBroken
-  name: blood vendor (broken)
+  name: "автомат із кров'ю (зламаний)"
   components:
   - type: Sprite
     state: blood_broken
@@ -403,7 +403,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorBloodVendorPanel
-  name: blood vendor (panel)
+  name: "автомат із кров'ю (панель)"
   components:
   - type: Sprite
     state: blood_panel
@@ -411,7 +411,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendor
-  name: supply vendor
+  name: "постачальний автомат"
   components:
   - type: Sprite
     state: supply
@@ -419,7 +419,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendorOff
-  name: supply vendor (off)
+  name: "постачальний автомат (вимкнений)"
   components:
   - type: Sprite
     state: supply_off
@@ -427,7 +427,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendorBroken
-  name: supply vendor (broken)
+  name: "постачальний автомат (зламаний)"
   components:
   - type: Sprite
     state: supply_broken
@@ -435,7 +435,7 @@
 - type: entity
   parent: VehicleInteriorWallMountedBase
   id: VehicleInteriorSupplyVendorPanel
-  name: supply vendor (panel)
+  name: "постачальний автомат (панель)"
   components:
   - type: Sprite
     state: supply_panel
@@ -443,7 +443,7 @@
 - type: entity
   parent: RMCRotaryPhoneWallmount
   id: VehicleInteriorWallPhone
-  name: wall phone
+  name: "настінний телефон"
   placement:
     mode: PlaceFree
   components:
@@ -464,17 +464,17 @@
 - type: entity
   parent: VehicleInteriorWallPhone
   id: VehicleInteriorWallPhoneRing
-  name: wall phone (ringing)
+  name: "настінний телефон (дзвонить)"
 
 - type: entity
   parent: VehicleInteriorWallPhone
   id: VehicleInteriorWallPhoneEar
-  name: wall phone (off hook)
+  name: "настінний телефон (знята слухавка)"
 
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: VehicleInteriorCamera
-  name: vehicle camera
+  name: "камера техніки"
   placement:
     mode: PlaceFree
   components:
@@ -497,7 +497,7 @@
 - type: entity
   parent: VehicleInteriorCamera
   id: VehicleInteriorCameraEMP
-  name: vehicle camera (EMP)
+  name: "камера техніки (ЕМІ)"
   components:
   - type: SurveillanceCameraVisuals
     sprites:
@@ -509,8 +509,8 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInvisibleWall
-  name: invisible wall (blocks vision)
-  description: An invisible blocking wall for vehicle interiors.
+  name: "невидима стіна (блокує огляд)"
+  description: "Невидима блокувальна стіна для інтер'єрів техніки."
   placement:
     mode: PlaceFree
   components:
@@ -542,8 +542,8 @@
 - type: entity
   parent: VehicleInteriorGeneralBase
   id: VehicleInvisibleWallNoVision
-  name: invisible wall (no vision block)
-  description: An invisible blocking wall for vehicle interiors that does not block vision or light.
+  name: "невидима стіна (не блокує огляд)"
+  description: "Невидима блокувальна стіна для інтер'єрів техніки, яка не блокує огляд або світло."
   placement:
     mode: PlaceFree
   components:

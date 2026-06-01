@@ -9,8 +9,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAirlock
-  name: airlock semiotic
-  description: "Semiotic Standard denoting the nearby presence of an airlock."
+  name: "семіотичний знак шлюзу"
+  description: "Семіотичний знак, що позначає неподалік присутність шлюзу."
   components:
   - type: Sprite
     state: airlock
@@ -18,8 +18,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAmmunition
-  name: ammunition storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of an ammunition storage."
+  name: "семіотичний знак боєскладу"
+  description: "Семіотичний знак, що позначає неподалік присутність боєскладу."
   components:
   - type: Sprite
     state: ammo
@@ -27,8 +27,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAnalysis_lab
-  name: analysis laboratory semiotic
-  description: "Semiotic Standard denoting the nearby presence of an analysis laboratory."
+  name: "семіотичний знак аналітичної лабораторії"
+  description: "Семіотичний знак, що позначає неподалік присутність аналітичної лабораторії."
   components:
   - type: Sprite
     state: analysislab
@@ -36,8 +36,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAutodoc
-  name: autodoc semiotic
-  description: "Semiotic Standard denoting the nearby presence of an autodoc."
+  name: "семіотичний знак автодока"
+  description: "Семіотичний знак, що позначає неподалік присутність автодока."
   components:
   - type: Sprite
     state: autodoc
@@ -45,8 +45,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAutoopenclose
-  name: automatic opener/closer semiotic
-  description: "Semiotic Standard denoting the nearby presence of an automatic shutoff valve."
+  name: "семіотичний знак автоматичного клапана"
+  description: "Семіотичний знак, що позначає неподалік присутність автоматичного запірного клапана."
   components:
   - type: Sprite
     state: autoopenclose
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBathmens
-  name: men's bathroom semiotic
-  description: "Semiotic Standard denoting the nearby presence of a men's bathroom."
+  name: "семіотичний знак чоловічого санвузла"
+  description: "Семіотичний знак, що позначає неподалік присутність чоловічого санвузла."
   components:
   - type: Sprite
     state: bathmens
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBathunisex
-  name: unisex bathroom semiotic
-  description: "Semiotic Standard denoting the nearby presence of a unisex bathroom."
+  name: "семіотичний знак універсального санвузла"
+  description: "Семіотичний знак, що позначає неподалік присутність універсального санвузла."
   components:
   - type: Sprite
     state: bathunisex
@@ -72,8 +72,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBathwomens
-  name: women's bathroom semiotic
-  description: "Semiotic Standard denoting the nearby presence of a women's bathroom."
+  name: "семіотичний знак жіночого санвузла"
+  description: "Семіотичний знак, що позначає неподалік присутність жіночого санвузла."
   components:
   - type: Sprite
     state: bathwomens
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBiohazard
-  name: biohazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a biohazard."
+  name: "семіотичний знак біологічної небезпеки"
+  description: "Семіотичний знак, що позначає неподалік присутність біологічної небезпеки."
   components:
   - type: Sprite
     state: biohazard
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBiolab
-  name: biological laboratory semiotic
-  description: "Semiotic Standard denoting the nearby presence of a biological laboratory."
+  name: "семіотичний знак біолабораторії"
+  description: "Семіотичний знак, що позначає неподалік присутність біологічної лабораторії."
   components:
   - type: Sprite
     state: biolab
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBridge
-  name: bridge semiotic
-  description: "Semiotic Standard denoting the nearby presence of a starship's bridge."
+  name: "семіотичний знак містка"
+  description: "Семіотичний знак, що позначає неподалік присутність містка зорельота."
   components:
   - type: Sprite
     state: bridge
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticBulkhead_door
-  name: bulkhead door semiotic
-  description: "Semiotic Standard denoting the nearby presence of a bulkhead door."
+  name: "семіотичний знак переборкових дверей"
+  description: "Семіотичний знак, що позначає неподалік присутність переборкових дверей."
   components:
   - type: Sprite
     state: bulkheaddoor
@@ -117,8 +117,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticChem_lab
-  name: chemical laboratory semiotic
-  description: "Semiotic Standard denoting the nearby presence of a chemical laboratory."
+  name: "семіотичний знак хімлабораторії"
+  description: "Семіотичний знак, що позначає неподалік присутність хімічної лабораторії."
   components:
   - type: Sprite
     state: chemlab
@@ -126,8 +126,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticCoffee
-  name: coffee semiotic
-  description: "Semiotic Standard denoting the nearby presence of coffee: the lifeblood of any starship crew."
+  name: "семіотичний знак кави"
+  description: "Семіотичний знак, що позначає неподалік присутність кави — основи життя будь-якого екіпажу зорельота."
   components:
   - type: Sprite
     state: coffee
@@ -135,8 +135,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticCommline_connection
-  name: point of connection for a communication line semiotic
-  description: "Semiotic Standard denoting the nearby presence of a comm line connection."
+  name: "семіотичний знак точки під'єднання комунікаційної лінії"
+  description: "Семіотичний знак, що позначає неподалік присутність точки під'єднання комунікаційної лінії."
   components:
   - type: Sprite
     state: commlineconnection
@@ -144,8 +144,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticConference_room
-  name: conference room semiotic
-  description: "Semiotic Standard denoting the nearby presence of a conference room."
+  name: "семіотичний знак конференц-залу"
+  description: "Семіотичний знак, що позначає неподалік присутність конференц-залу."
   components:
   - type: Sprite
     state: confroom
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticCryo
-  name: cryogenic vault semiotic
-  description: "Semiotic Standard denoting the nearby presence of a cryogenics vault."
+  name: "семіотичний знак кріовідсіку"
+  description: "Семіотичний знак, що позначає неподалік присутність кріогенного сховища."
   components:
   - type: Sprite
     state: cryo
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticDebark_lounge
-  name: debarkation lounge semiotic
-  description: "Semiotic Standard denoting the nearby presence of a debarkation lounge."
+  name: "семіотичний знак залу висадки"
+  description: "Семіотичний знак, що позначає неподалік присутність залу висадки."
   components:
   - type: Sprite
     state: debarkationlounge
@@ -171,8 +171,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticDistribution_pipes
-  name: distribution pipes semiotic
-  description: "Semiotic Standard denoting the nearby presence of a distribution pipeline."
+  name: "семіотичний знак розподільних труб"
+  description: "Семіотичний знак, що позначає неподалік присутність розподільних труб."
   components:
   - type: Sprite
     state: distpipe
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticEast
-  name: East semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the East."
+  name: "семіотичний знак «Схід»"
+  description: "Семіотичний знак, що позначає неподалік присутність чогось на сході."
   components:
   - type: Sprite
     state: east
@@ -189,8 +189,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticElectronics
-  name: astronic systems semiotic
-  description: "Semiotic Standard denoting the nearby presence of astronic systems. That's a fancy way of saying electrical systems."
+  name: "семіотичний знак астронних систем"
+  description: "Семіотичний знак, що позначає неподалік присутність астронних систем. Це вишуканий спосіб сказати «електричні системи»."
   components:
   - type: Sprite
     state: astronics
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticElevator
-  name: elevator semiotic
-  description: "Semiotic Standard denoting the nearby presence of an elevator."
+  name: "семіотичний знак ліфта"
+  description: "Семіотичний знак, що позначає неподалік присутність ліфта."
   components:
   - type: Sprite
     state: elevator
@@ -207,8 +207,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticEscapepod
-  name: escape pod semiotic
-  description: "Semiotic Standard denoting an escape pod."
+  name: "семіотичний знак рятувальної капсули"
+  description: "Семіотичний знак, що позначає рятувальну капсулу."
   components:
   - type: Sprite
     state: escapepod
@@ -216,8 +216,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticExhaust
-  name: exhaust semiotic
-  description: "Semiotic Standard denoting the nearby presence of an engine or generator exhaust."
+  name: "семіотичний знак вихлопу"
+  description: "Семіотичний знак, що позначає неподалік присутність вихлопу двигуна або генератора."
   components:
   - type: Sprite
     state: exhaust
@@ -225,8 +225,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFire_haz
-  name: fire hazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a fire hazard."
+  name: "семіотичний знак пожежної небезпеки"
+  description: "Семіотичний знак, що позначає неподалік присутність пожежної небезпеки."
   components:
   - type: Sprite
     state: firehaz
@@ -234,8 +234,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFiringrange
-  name: firing range semiotic
-  description: "Semiotic Standard denoting the nearby presence of a live ammunition firing range."
+  name: "семіотичний знак стрільбища"
+  description: "Семіотичний знак, що позначає неподалік присутність стрільбища з бойовими набоями."
   components:
   - type: Sprite
     state: firingrange
@@ -243,8 +243,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFood_storage
-  name: organic storage (foodstuffs) semiotic
-  description: "Semiotic Standard denoting the nearby presence of unrefrigerated food storage."
+  name: "семіотичний знак органічного сховища (продукти)"
+  description: "Семіотичний знак, що позначає неподалік присутність неохолоджуваного продуктового сховища."
   components:
   - type: Sprite
     state: foodstorage
@@ -252,8 +252,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticGalley
-  name: galley semiotic
-  description: "Semiotic Standard denoting the nearby presence of a galley."
+  name: "семіотичний знак камбуза"
+  description: "Семіотичний знак, що позначає неподалік присутність камбуза."
   components:
   - type: Sprite
     state: galley
@@ -261,8 +261,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHazard
-  name: hazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a hazard. Watch out!"
+  name: "семіотичний знак небезпеки"
+  description: "Семіотичний знак, що позначає неподалік присутність небезпеки. Бережись!"
   components:
   - type: Sprite
     state: hazard
@@ -270,8 +270,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHigh_rad
-  name: high radioactivity semiotic
-  description: "Semiotic Standard denoting the nearby presence of a highly radioactive area."
+  name: "семіотичний знак сильної радіоактивності"
+  description: "Семіотичний знак, що позначає неподалік присутність зони сильної радіоактивності."
   components:
   - type: Sprite
     state: highrad
@@ -279,8 +279,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHigh_voltage
-  name: high voltage semiotic
-  description: "Semiotic Standard denoting the nearby presence of a high voltage electrical current."
+  name: "семіотичний знак високої напруги"
+  description: "Семіотичний знак, що позначає неподалік присутність високовольтного електричного струму."
   components:
   - type: Sprite
     state: highvoltage
@@ -288,8 +288,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHvac
-  name: HVAC semiotic
-  description: "Semiotic Standard denoting the nearby presence of...an HVAC system. This sign must have been updated to the new standard."
+  name: "семіотичний знак ОВВК (HVAC)"
+  description: "Семіотичний знак, що позначає неподалік присутність... системи ОВВК. Цей знак, мабуть, оновлено до нового стандарту."
   components:
   - type: Sprite
     state: hvac
@@ -297,8 +297,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticHvac_old
-  name: HVAC semiotic
-  description: "Semiotic Standard denoting the nearby presence of an HVAC system. This sign is still using the old standard."
+  name: "семіотичний знак ОВВК (HVAC)"
+  description: "Семіотичний знак, що позначає неподалік присутність системи ОВВК. Цей знак досі використовує старий стандарт."
   components:
   - type: Sprite
     state: hvacold
@@ -306,8 +306,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticIntercom
-  name: intercom semiotic
-  description: "Semiotic Standard denoting the nearby presence of an intercom."
+  name: "семіотичний знак інтеркома"
+  description: "Семіотичний знак, що позначає неподалік присутність інтеркома."
   components:
   - type: Sprite
     state: comm
@@ -315,8 +315,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLadder
-  name: ladder semiotic
-  description: "Semiotic Standard denoting the nearby presence of a ladder."
+  name: "семіотичний знак драбини"
+  description: "Семіотичний знак, що позначає неподалік присутність драбини."
   components:
   - type: Sprite
     state: ladder
@@ -324,8 +324,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLaser
-  name: laser semiotic
-  description: "Semiotic Standard denoting the nearby presence of lasers. It's usually not as cool as it sounds."
+  name: "семіотичний знак лазера"
+  description: "Семіотичний знак, що позначає неподалік присутність лазерів. Зазвичай не так круто, як звучить."
   components:
   - type: Sprite
     state: laser
@@ -333,8 +333,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLife_support
-  name: life support system semiotic
-  description: "Semiotic Standard denoting the nearby presence of a life support system."
+  name: "семіотичний знак системи життєзабезпечення"
+  description: "Семіотичний знак, що позначає неподалік присутність системи життєзабезпечення."
   components:
   - type: Sprite
     state: lifesupport
@@ -342,8 +342,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMaint
-  name: maintenance semiotic
-  description: "Semiotic Standard denoting the nearby presence of maintenance access."
+  name: "семіотичний знак техобслуговування"
+  description: "Семіотичний знак, що позначає неподалік присутність доступу до техобслуговування."
   components:
   - type: Sprite
     state: maint
@@ -351,8 +351,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticManualopenclose
-  name: manual opener/closer semiotic
-  description: "Semiotic Standard denoting the nearby presence of a manual shutoff valve."
+  name: "семіотичний знак ручного клапана"
+  description: "Семіотичний знак, що позначає неподалік присутність ручного запірного клапана."
   components:
   - type: Sprite
     state: manualopenclose
@@ -360,8 +360,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMed_cryo
-  name: medical cryostasis vault semiotic
-  description: "Semiotic Standard denoting the nearby presence of a medical cryostasis vault."
+  name: "семіотичний знак медичного кріостазисного сховища"
+  description: "Семіотичний знак, що позначає неподалік присутність медичного кріостазисного сховища."
   components:
   - type: Sprite
     state: medcryo
@@ -369,8 +369,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMed_life_support
-  name: medical life support semiotic
-  description: "Semiotic Standard denoting the nearby presence of a life support system for a medbay."
+  name: "семіотичний знак медичного життєзабезпечення"
+  description: "Семіотичний знак, що позначає неподалік присутність системи життєзабезпечення для медвідсіку."
   components:
   - type: Sprite
     state: medlifesupport
@@ -378,8 +378,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticMedical
-  name: medical semiotic
-  description: "Semiotic Standard denoting the nearby presence of a medbay."
+  name: "семіотичний знак медицини"
+  description: "Семіотичний знак, що позначає неподалік присутність медвідсіку."
   components:
   - type: Sprite
     state: medical
@@ -387,8 +387,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNonpress
-  name: non-pressurized area beyond semiotic
-  description: "Semiotic Standard denoting that the area beyond isn't pressurized."
+  name: "семіотичний знак непресуризованої зони"
+  description: "Семіотичний знак, що позначає, що зона за ним непресуризована."
   components:
   - type: Sprite
     state: nonpressarea
@@ -396,8 +396,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNonpress_ag
-  name: artificial gravity area, non-pressurized, suit required semiotic
-  description: "Semiotic Standard denoting the nearby presence of an area with artificial gravity lacking in pressurization."
+  name: "семіотичний знак зони штучної гравітації, непресуризованої, потрібен скафандр"
+  description: "Семіотичний знак, що позначає неподалік присутність зони зі штучною гравітацією без пресуризації."
   components:
   - type: Sprite
     state: nonpressag
@@ -405,8 +405,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNonpress_0g
-  name: non-pressurized area, no gravity, suit required semiotic
-  description: "Semiotic Standard denoting that the area beyond isn't pressurized and has no artificial gravity."
+  name: "семіотичний знак непресуризованої зони, без гравітації, потрібен скафандр"
+  description: "Семіотичний знак, що позначає, що зона за ним непресуризована й не має штучної гравітації."
   components:
   - type: Sprite
     state: nonpresszerog
@@ -414,8 +414,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNorth
-  name: North semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the North."
+  name: "семіотичний знак «Північ»"
+  description: "Семіотичний знак, що позначає неподалік присутність чогось на півночі."
   components:
   - type: Sprite
     state: north
@@ -423,8 +423,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticOpens_up
-  name: opens upwards semiotic
-  description: "Semiotic Standard denoting the nearby door opens upwards."
+  name: "семіотичний знак «відкривається догори»"
+  description: "Семіотичний знак, що позначає, що сусідні двері відкриваються догори."
   components:
   - type: Sprite
     state: opensup
@@ -432,8 +432,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticOutpatient
-  name: outpatient clinic semiotic
-  description: "Semiotic Standard denoting the nearby presence of an outpatient clinic."
+  name: "семіотичний знак амбулаторії"
+  description: "Семіотичний знак, що позначає неподалік присутність амбулаторної клініки."
   components:
   - type: Sprite
     state: outpatient
@@ -441,8 +441,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFibre_optics
-  name: photonics systems (fibre optics) semiotic
-  description: "Semiotic Standard denoting the nearby presence of fibre optics lines."
+  name: "семіотичний знак фотонних систем (оптоволокна)"
+  description: "Семіотичний знак, що позначає неподалік присутність оптоволоконних ліній."
   components:
   - type: Sprite
     state: fibreoptic
@@ -450,8 +450,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticPress_area_ag
-  name: pressurized with artificial gravity semiotic
-  description: "Semiotic Standard denoting the nearby presence of a pressurized area without artificial gravity."
+  name: "семіотичний знак «пресуризована зона зі штучною гравітацією»"
+  description: "Семіотичний знак, що позначає неподалік присутність пресуризованої зони без штучної гравітації."
   components:
   - type: Sprite
     state: pressareaag
@@ -459,8 +459,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticPress_area
-  name: pressurized area semiotic
-  description: "Semiotic Standard denoting the nearby presence of a pressurized area."
+  name: "семіотичний знак пресуризованої зони"
+  description: "Семіотичний знак, що позначає неподалік присутність пресуризованої зони."
   components:
   - type: Sprite
     state: pressarea
@@ -468,8 +468,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRad_haz
-  name: radiation hazard semiotic
-  description: "Semiotic Standard denoting the nearby presence of a radiation hazard."
+  name: "семіотичний знак радіаційної небезпеки"
+  description: "Семіотичний знак, що позначає неподалік присутність радіаційної небезпеки."
   components:
   - type: Sprite
     state: radhaz
@@ -477,8 +477,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRad_shield
-  name: area shielded from radiation semiotic
-  description: "Semiotic Standard denoting the nearby presence of an area shielded from radiation."
+  name: "семіотичний знак зони, захищеної від радіації"
+  description: "Семіотичний знак, що позначає неподалік присутність зони, захищеної від радіації."
   components:
   - type: Sprite
     state: radshield
@@ -486,8 +486,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRadio_rad
-  name: radiation of radio waves semiotic
-  description: "Semiotic Standard denoting the nearby presence of radiation from a radio tower."
+  name: "семіотичний знак радіохвильового випромінювання"
+  description: "Семіотичний знак, що позначає неподалік присутність випромінювання радіовежі."
   components:
   - type: Sprite
     state: radiorad
@@ -495,8 +495,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticReception
-  name: reception semiotic
-  description: "Semiotic Standard denoting the nearby presence of a reception area."
+  name: "семіотичний знак рецепції"
+  description: "Семіотичний знак, що позначає неподалік присутність зони рецепції."
   components:
   - type: Sprite
     state: reception
@@ -504,8 +504,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticReduction
-  name: reduction dilation of area semiotic
-  description: "Semiotic Standard denoting that the area gets smaller ahead."
+  name: "семіотичний знак звуження зони"
+  description: "Семіотичний знак, що позначає, що попереду зона звужується."
   components:
   - type: Sprite
     state: reduction
@@ -513,8 +513,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRef_bio_storage
-  name: refrigerated biological storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of refrigerated biological storage."
+  name: "семіотичний знак охолоджуваного біологічного сховища"
+  description: "Семіотичний знак, що позначає неподалік присутність охолоджуваного біологічного сховища."
   components:
   - type: Sprite
     state: refbiostorage
@@ -522,8 +522,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRef_chem_storage
-  name: refrigerated chemical storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of refrigerated chemical storage."
+  name: "семіотичний знак охолоджуваного хімічного сховища"
+  description: "Семіотичний знак, що позначає неподалік присутність охолоджуваного хімічного сховища."
   components:
   - type: Sprite
     state: refchemstorage
@@ -531,8 +531,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRestrictedarea
-  name: restricted area semiotic
-  description: "Semiotic Standard denoting the nearby presence of a restricted area."
+  name: "семіотичний знак зони обмеженого доступу"
+  description: "Семіотичний знак, що позначає неподалік присутність зони обмеженого доступу."
   components:
   - type: Sprite
     state: restrictedarea
@@ -540,8 +540,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFridge
-  name: refrigerated storage (organic foodstuffs) semiotic
-  description: "Semiotic Standard denoting the nearby presence of a fridge."
+  name: "семіотичний знак охолоджуваного сховища (продукти)"
+  description: "Семіотичний знак, що позначає неподалік присутність холодильника."
   components:
   - type: Sprite
     state: fridge
@@ -549,8 +549,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRefridgeration
-  name: refrigeration semiotic
-  description: "Semiotic Standard denoting the nearby presence of non-food refrigeration."
+  name: "семіотичний знак охолодження"
+  description: "Семіотичний знак, що позначає неподалік присутність непродуктового охолодження."
   components:
   - type: Sprite
     state: refridgeration
@@ -558,8 +558,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticRewire
-  name: rewire system semiotic
-  description: "Semiotic Standard denoting the nearby presence of a rewire system."
+  name: "семіотичний знак системи перепрошивки"
+  description: "Семіотичний знак, що позначає неподалік присутність системи перепрошивки."
   components:
   - type: Sprite
     state: rewire
@@ -567,8 +567,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSecurity
-  name: security semiotic
-  description: "Semiotic Standard denoting the nearby presence of law enforcement or a security force."
+  name: "семіотичний знак охорони"
+  description: "Семіотичний знак, що позначає неподалік присутність правоохоронних органів або сил безпеки."
   components:
   - type: Sprite
     state: security
@@ -576,8 +576,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSouth
-  name: South semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the South."
+  name: "семіотичний знак «Південь»"
+  description: "Семіотичний знак, що позначає неподалік присутність чогось на півдні."
   components:
   - type: Sprite
     state: south
@@ -585,8 +585,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticStairs
-  name: stairs semiotic
-  description: "Semiotic Standard denoting the nearby presence of a staircase."
+  name: "семіотичний знак сходів"
+  description: "Семіотичний знак, що позначає неподалік присутність сходів."
   components:
   - type: Sprite
     state: stairs
@@ -594,8 +594,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticStorage
-  name: storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of a general dry storage room."
+  name: "семіотичний знак складу"
+  description: "Семіотичний знак, що позначає неподалік присутність загального сухого складського приміщення."
   components:
   - type: Sprite
     state: storage
@@ -603,8 +603,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSuit_storage
-  name: pressure suit locker semiotic
-  description: "Semiotic Standard denoting the nearby presence of a pressure suit storage locker."
+  name: "семіотичний знак шафи зі скафандрами"
+  description: "Семіотичний знак, що позначає неподалік присутність шафи зі скафандрами."
   components:
   - type: Sprite
     state: suitstorage
@@ -612,8 +612,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSilicon_storage
-  name: silicon storage semiotic
-  description: "Semiotic Standard denoting the nearby presence of a silicon unit storage room."
+  name: "семіотичний знак сховища силіконових юнітів"
+  description: "Семіотичний знак, що позначає неподалік присутність кімнати зі сховищем силіконових юнітів."
   components:
   - type: Sprite
     state: siliconstorage
@@ -621,8 +621,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTerminal
-  name: computer terminal semiotic
-  description: "Semiotic Standard denoting the nearby presence of a computer terminal."
+  name: "семіотичний знак комп'ютерного терміналу"
+  description: "Семіотичний знак, що позначає неподалік присутність комп'ютерного терміналу."
   components:
   - type: Sprite
     state: terminal
@@ -630,8 +630,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTram
-  name: tram line semiotic
-  description: "Semiotic Standard denoting the nearby presence of a tram line."
+  name: "семіотичний знак трамвайної лінії"
+  description: "Семіотичний знак, що позначає неподалік присутність трамвайної лінії."
   components:
   - type: Sprite
     state: tramline
@@ -639,8 +639,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTwilight_zone_terminator
-  name: twilight zone terminator semiotic
-  description: "Semiotic Standard denoting the nearby presence of a twilight zone terminator. It's way less cool than it sounds."
+  name: "семіотичний знак межі сутінкової зони"
+  description: "Семіотичний знак, що позначає неподалік присутність межі сутінкової зони. Це набагато менш круто, ніж звучить."
   components:
   - type: Sprite
     state: twilightzoneterminator
@@ -648,8 +648,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticWater
-  name: water semiotic
-  description: "Semiotic Standard denoting the nearby presence of water."
+  name: "семіотичний знак води"
+  description: "Семіотичний знак, що позначає неподалік присутність води."
   components:
   - type: Sprite
     state: water
@@ -657,8 +657,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticWaterhazard
-  name: water hazard semiotic
-  description: "Semiotic Standard denoting a water hazard. Keep electronics away."
+  name: "семіотичний знак водяної небезпеки"
+  description: "Семіотичний знак, що позначає водяну небезпеку. Тримай електроніку подалі."
   components:
   - type: Sprite
     state: waterhaz
@@ -666,8 +666,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticWest
-  name: West semiotic
-  description: "Semiotic Standard denoting the nearby presence of something to the West."
+  name: "семіотичний знак «Захід»"
+  description: "Семіотичний знак, що позначає неподалік присутність чогось на заході."
   components:
   - type: Sprite
     state: west
@@ -675,8 +675,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticZero_g
-  name: artificial gravity absent semiotic
-  description: "Semiotic Standard denoting the nearby lack of artificial gravity."
+  name: "семіотичний знак «штучна гравітація відсутня»"
+  description: "Семіотичний знак, що позначає неподалік відсутність штучної гравітації."
   components:
   - type: Sprite
     state: zerog
@@ -684,8 +684,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFlightcontrol
-  name: flight control semiotic
-  description: "Semiotic Standard denoting an area used by or for flight control systems."
+  name: "семіотичний знак управління польотами"
+  description: "Семіотичний знак, що позначає зону, яка використовується системами управління польотами або для них."
   components:
   - type: Sprite
     state: flightcontrol
@@ -693,8 +693,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticAirtraffictower
-  name: air traffic tower semiotic
-  description: "Semiotic Standard denoting an air traffic tower nearby."
+  name: "семіотичний знак вежі авіадиспетчерської служби"
+  description: "Семіотичний знак, що позначає вежу авіадиспетчерської служби неподалік."
   components:
   - type: Sprite
     state: airtraffictower
@@ -702,8 +702,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLuggageclaim
-  name: luggage claim semiotic
-  description: "Semiotic Standard denoting the presecense of a luggage claim area nearby."
+  name: "семіотичний знак видачі багажу"
+  description: "Семіотичний знак, що позначає присутність зони видачі багажу неподалік."
   components:
   - type: Sprite
     state: luggageclaim
@@ -711,8 +711,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticLandingzone
-  name: landing zone semiotic
-  description: "Semiotic Standard denoting the presecense of a landing zone nearby."
+  name: "семіотичний знак зони висадки"
+  description: "Семіотичний знак, що позначає присутність зони висадки неподалік."
   components:
   - type: Sprite
     state: landingzone
@@ -720,8 +720,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticZero
-  name: zero semiotic
-  description: "Semiotic Standard denoting the number zero."
+  name: "семіотичний знак «нуль»"
+  description: "Семіотичний знак, що позначає число нуль."
   components:
   - type: Sprite
     state: 0
@@ -729,8 +729,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticOne
-  name: one semiotic
-  description: "Semiotic Standard denoting the number one."
+  name: "семіотичний знак «один»"
+  description: "Семіотичний знак, що позначає число один."
   components:
   - type: Sprite
     state: 1
@@ -738,8 +738,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticTwo
-  name: two semiotic
-  description: "Semiotic Standard denoting the number two."
+  name: "семіотичний знак «два»"
+  description: "Семіотичний знак, що позначає число два."
   components:
   - type: Sprite
     state: 2
@@ -747,8 +747,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticThree
-  name: three semiotic
-  description: "Semiotic Standard denoting the number three."
+  name: "семіотичний знак «три»"
+  description: "Семіотичний знак, що позначає число три."
   components:
   - type: Sprite
     state: 3
@@ -756,8 +756,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFour
-  name: four semiotic
-  description: "Semiotic Standard denoting the number four."
+  name: "семіотичний знак «чотири»"
+  description: "Семіотичний знак, що позначає число чотири."
   components:
   - type: Sprite
     state: 4
@@ -765,8 +765,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticFive
-  name: five semiotic
-  description: "Semiotic Standard denoting the number five."
+  name: "семіотичний знак «п'ять»"
+  description: "Семіотичний знак, що позначає число п'ять."
   components:
   - type: Sprite
     state: 5
@@ -774,8 +774,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSix
-  name: six semiotic
-  description: "Semiotic Standard denoting the number six."
+  name: "семіотичний знак «шість»"
+  description: "Семіотичний знак, що позначає число шість."
   components:
   - type: Sprite
     state: 6
@@ -783,8 +783,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticSeven
-  name: seven semiotic
-  description: "Semiotic Standard denoting the number seven."
+  name: "семіотичний знак «сім»"
+  description: "Семіотичний знак, що позначає число сім."
   components:
   - type: Sprite
     state: 7
@@ -792,8 +792,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticEight
-  name: eight semiotic
-  description: "Semiotic Standard denoting the number eight."
+  name: "семіотичний знак «вісім»"
+  description: "Семіотичний знак, що позначає число вісім."
   components:
   - type: Sprite
     state: 8
@@ -801,8 +801,8 @@
 - type: entity
   parent: CMSemioticBase
   id: CMSemioticNine
-  name: nine semiotic
-  description: "Semiotic Standard denoting the number nine."
+  name: "семіотичний знак «дев'ять»"
+  description: "Семіотичний знак, що позначає число дев'ять."
   components:
   - type: Sprite
     state: 9

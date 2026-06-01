@@ -1,9 +1,9 @@
 - type: entity
-  name: FBS-B ballistic shield
+  name: "балістичний щит FBS-B"
   parent: [ BaseShield, BaseSecurityContraband ]
   id: AU14BallisticShieldRMC
   suffix: RM
-  description: Ballistic shield used by the royal marines commando. This shield is commonly used during boarding actions due to its lightweight but durable design. Does not help against explosives.
+  description: "Балістичний щит, який використовують командос королівської морської піхоти. Цей щит часто застосовується під час абордажів завдяки легкій, але міцній конструкції. Не допомагає проти вибухів."
   components:
     - type: ItemToggle
     - type: ComponentToggler

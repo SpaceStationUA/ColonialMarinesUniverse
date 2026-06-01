@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigyclothingequipmentvendor
-  name: Prodigy Security Forces apparel vendor
+  name: "автомат одягу сил безпеки Продіджі"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Security Forces apparel from the Prodigy Corporation.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -181,7 +181,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigyequipmentvendor
-  name: Prodigy Security Forces equipment vendor
+  name: "автомат спорядження сил безпеки Продіджі"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Security Forces equipment from the Prodigy Corporation.
     Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
@@ -279,7 +279,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigycorpsmanvendor
-  name: Prodigy Security Forces medical vendor
+  name: "медичний автомат сил безпеки Продіджі"
   description: >-
     An automated medical rack, hooked up to a compact stock of Security Forces trauma supplies from the Prodigy Corporation.
     Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
@@ -409,7 +409,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigyaircrewvendor
-  name: Prodigy Security Forces aircrew vendor
+  name: "автомат авіаекіпажу сил безпеки Продіджі"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Security Forces aircrew flight and support gear from the Prodigy Corporation.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -585,7 +585,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigycommandequipmentvendor
-  name: Prodigy Security Forces command vendor
+  name: "командний автомат сил безпеки Продіджі"
   description: >-
     An automated command rack, hooked up to a restricted storage of Security Forces command-leadership equipment from the Prodigy Corporation.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -642,7 +642,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigySGequipmentvendor
-  name: Prodigy Security Forces smartgunner equipment vendor
+  name: "автомат спорядження смартганера сил безпеки Продіджі"
   description: >-
     An automated smartgunner rack, hooked up to a small armory of Security Forces heavy-weapon operator systems from the Prodigy Corporation.
     Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
@@ -680,7 +680,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigysectionleaderequipmentvendor
-  name: Prodigy Security Forces section leader vendor
+  name: "автомат командира секції сил безпеки Продіджі"
   description: >-
     An automated equipment rack, hooked up to a compact storage of Security Forces section-leadership equipment from the Prodigy Corporation.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -705,7 +705,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigyWeaponsVendor
-  name: Prodigy Security Forces weapons rack
+  name: "збройова стійка сил безпеки Продіджі"
   description: >-
     An automated weapons rack, hooked up to a small armory of Security Forces weaponry from the Prodigy Corporation.
     Standard issue across the frontier where threats can appear without warning.
@@ -749,7 +749,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14prodigySpecialWeaponsVendor
-  name: Prodigy Security Forces special weapons rack
+  name: "стійка спеціальної зброї сил безпеки Продіджі"
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of Security Forces heavy and breaching ordnance from the Prodigy Corporation.
     Standard issue only for qualified operators.
@@ -790,8 +790,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14ProdigyRequisitionVendor
-  name: prodigy automated requisitions vendor
-  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
+  name: "автоматизований автомат постачання Продіджі"
+  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

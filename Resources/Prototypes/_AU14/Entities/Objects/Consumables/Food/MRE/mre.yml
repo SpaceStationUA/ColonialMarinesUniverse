@@ -1,8 +1,8 @@
 - type: entity
   parent: CMMRE
   id: AU14MRETWERMC
-  name: RMC ration pack
-  description: An Operation Ration Pack. Uses similar to USCM MRE format, but utilizes expensive preserving materials and methods and not less expensive meals from TWE cuisine.
+  name: "раціонний пакет КМП"
+  description: "Операційний раціонний пакет. Використовує формат, подібний до MRE ККМП США, але застосовує дорогі матеріали та методи консервації, а не дешевші страви з кухні ІТС."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_tse.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: CMMRE
   id: AU14MREUPP
-  name: UPP ration pack
-  description: An Individual Meal Ration, mainly composed of a selection of canned food, despite being heavier, it has proven to be a lot more reliable.
+  name: "раціонний пакет УПП"
+  description: "Індивідуальний харчовий раціон, переважно складений із добірки консервованої їжі; попри більшу вагу, він виявився значно надійнішим."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/mre_spp.rsi
@@ -19,12 +19,12 @@
 - type: entity
   parent: RMCBoxMREEmpty
   id: AU14BoxMREUPPEmpty
-  name: box of UPP MREs (x12)
+  name: "коробка MRE УПП (x12)"
 
 - type: entity
   parent: RMCBoxMREEmpty
   id: AU14BoxMREUPP
-  name: box of UPP MREs (x12)
+  name: "коробка MRE УПП (x12)"
   suffix: Filled
   components:
   - type: CMItemSlots
@@ -33,12 +33,12 @@
 - type: entity
   parent: RMCBoxMREEmpty
   id: AU14BoxMRETWERMCEmpty
-  name: box of RMC MREs (x12)
+  name: "коробка MRE КМП (x12)"
 
 - type: entity
   parent: AU14BoxMRETWERMCEmpty
   id: AU14BoxMRETWERMC
-  name: box of RMC MREs (x12)
+  name: "коробка MRE КМП (x12)"
   suffix: Filled
   components:
   - type: CMItemSlots

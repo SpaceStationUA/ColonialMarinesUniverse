@@ -21,8 +21,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowCorsatReinforced
-  name: reinforced window
-  description: A glass window with a special rod matrix inside a wall frame. It looks rather strong. Might take a few good hits to shatter it.
+  name: "укріплене вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/corsat_rwindow.rsi
@@ -78,7 +78,7 @@
 - type: entity
   parent: RMCWindowCorsatReinforced
   id: RMCWindowCorsatReinforcedSecurity
-  description: A red tinted glass window with a special rod matrix inside a wall frame. It looks very strong.
+  description: "Червоне тоноване скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає дуже міцно."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/corsat_rwindow_sec.rsi
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCWindowCorsatReinforced
   id: RMCWindowCorsatReinforcedResearch
-  description: A purple tinted glass window with a special rod matrix inside a wall frame. It looks quite strong. Might take some good hits to shatter it.
+  description: "Фіолетове тоноване скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/corsat_rwindow_sci.rsi
@@ -114,8 +114,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowCorsatHull
-  name: hull window
-  description: A glass window with a special rod matrix inside a wall frame. This one has an automatic shutter system to prevent any atmospheric breach.
+  name: "корпусне вікно"
+  description: "Скляне вікно зі спеціальною матрицею стрижнів у стінному каркасі. Це обладнане автоматичною системою заслінок для запобігання атмосферному прориву."
   components:
   - type: Corrodible
     isCorrodible: false

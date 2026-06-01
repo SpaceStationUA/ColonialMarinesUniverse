@@ -1,7 +1,7 @@
 - type: announcementPreset
   id: XenoQueen
-  name: "Xeno Queen"
-  description: "Queen psychic directive announcements"
+  name: "Ксенокоролева"
+  description: "Оголошення психічних директив королеви"
   target: Xenos
   showSprite: false
   style:

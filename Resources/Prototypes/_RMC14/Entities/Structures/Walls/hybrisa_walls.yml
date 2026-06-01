@@ -3,8 +3,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHybrisaRock
-  name: rock wall
-  description: Massive columns comprised of anicent sedimentary rocks loom before you.
+  name: "кам'яна стіна"
+  description: "Перед тобою височіють масивні колони з давніх осадових порід."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rock.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallEngineer
-  name: strange metal wall
-  description: Nigh indestructible walls that make up the hull of an unknown ancient ship, looks like nothing you can do will penetrate the hull.
+  name: "дивна металева стіна"
+  description: "Майже незнищенні стіни, що формують корпус невідомого стародавнього корабля; схоже, нічим, що в тебе є, не можна пробити цей корпус."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_engineership.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallHybrisa
-  name: bare metal walls
-  description: A thick and chunky metal wall. The surface is barren and imposing.
+  name: "голі металеві стіни"
+  description: "Товста й масивна металева стіна. Поверхня — гола й зловісна."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_wall.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallHybrisaReinforced
-  name: ribbed metal walls
-  description: A thick and chunky metal wall covered in jagged ribs.
+  name: "ребристі металеві стіни"
+  description: "Товста й масивна металева стіна, вкрита зубчастими ребрами."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall.rsi
@@ -109,9 +109,9 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallHybrisaHull
-  name: ribbed metal walls
+  name: "ребристі металеві стіни"
   suffix: hull
-  description: A thick and chunky metal wall that is, just by virtue of its placement and imposing presence, entirely indestructible.
+  description: "Товста й масивна металева стіна, яка завдяки самому лише розташуванню та зловісній присутності повністю незнищенна."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_rwall.rsi
@@ -221,8 +221,8 @@
 - type: entity
   parent: RMCWallHybrisa
   id: RMCWallHybrisaSpacePort
-  name: metal wall
-  description: A huge chunk of metal used to separate rooms.
+  name: "металева стіна"
+  description: "Велетенський шмат металу, що використовується для розділення кімнат."
   suffix: space port
   components:
   - type: Sprite
@@ -242,8 +242,8 @@
   parent: RMCWallHybrisaReinforced
   id: RMCWallHybrisaSpacePortReinforced
   suffix: space port
-  name: reinforced metal wall
-  description: A huge chunk of metal used to separate rooms.
+  name: "укріплена металева стіна"
+  description: "Велетенський шмат металу, що використовується для розділення кімнат."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_spaceport_reinforced.rsi
@@ -262,8 +262,8 @@
   parent: RMCWallHybrisaHull
   id: RMCWallHybrisaSpacePortHull
   suffix: space port, hull
-  name: heavy reinforced wall
-  description: A huge chunk of ultra-reinforced metal used to separate rooms. Looks virtually indestructible.
+  name: "важка укріплена стіна"
+  description: "Велетенський шмат ультраукріпленого металу, що використовується для розділення кімнат. Виглядає практично незнищенним."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/hybrisa_spaceport_reinforced.rsi

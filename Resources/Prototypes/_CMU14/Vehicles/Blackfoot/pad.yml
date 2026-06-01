@@ -1,7 +1,7 @@
 - type: entity
   id: CMUBlackfootLandingPad
-  name: Blackfoot landing pad
-  description: A deployable pad for parking, refueling, and recharging Blackfoots.
+  name: "посадковий майданчик Блекфута"
+  description: "Розгортний майданчик для паркування, дозаправлення та заряджання Блекфутів."
   placement:
     mode: SnapgridCenter
   components:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMUBlackfootMountedSupportBase
   id: CMUBlackfootFlightComputer
-  name: Blackfoot flight computer
-  description: A compact control terminal for a nearby Blackfoot landing pad.
+  name: "польотний комп’ютер Блекфута"
+  description: "Компактний керівний термінал для найближчого посадкового майданчика Блекфута."
   components:
   - type: Transform
     anchored: false

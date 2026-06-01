@@ -40,8 +40,8 @@
 - type: entity
   parent: CMSyringe
   id: RMCSyringeLethal
-  name: lethal injection syringe
-  description: A syringe used for lethal injections.
+  name: "шприц для смертельної ін'єкції"
+  description: "Шприц, що використовується для смертельних ін'єкцій."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/lethal_syringe.rsi

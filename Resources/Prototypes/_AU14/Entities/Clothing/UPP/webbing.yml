@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14WebbingDropPouch
   id: AU14WebbingDropPouchUPP
-  name: UPP marine drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: "скидна підсумка морпіха УПП"
+  description: "Зручна підсумка для перенесення дрібних речей."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/RMC/webbings/droppouch.rsi
@@ -32,8 +32,8 @@
 - type: entity
   parent: AU14WebbingAdminPouch
   id: AU14WebbingAdminPouchUPP
-  name: UPP marine admin pouch
-  description: A pouch to carry your administrative equipment around.
+  name: "адміністративна підсумка морпіха УПП"
+  description: "Підсумка для перенесення адміністративного спорядження."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/RMC/webbings/adminpouch.rsi

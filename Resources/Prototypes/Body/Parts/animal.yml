@@ -5,7 +5,7 @@
 - type: entity
   id: PartAnimal
   parent: BaseItem
-  name: "animal body part"
+  name: "частина тіла тварини"
   abstract: true
   components:
   # yes these sprites dont make sense i dont care its better than them being invisible
@@ -34,7 +34,7 @@
 
 - type: entity
   id: HandsAnimal
-  name: animal hands
+  name: "лапи тварини"
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -48,7 +48,7 @@
 
 - type: entity
   id: LegsAnimal
-  name: animal legs
+  name: "ноги тварини"
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -62,7 +62,7 @@
 
 - type: entity
   id: FeetAnimal
-  name: animal feet
+  name: "стопи тварини"
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -75,7 +75,7 @@
 
 - type: entity
   id: TorsoAnimal
-  name: animal torso
+  name: "торс тварини"
   parent: PartAnimal
   categories: [ HideSpawnMenu ]
   components:
@@ -97,7 +97,7 @@
 - type: entity
   parent: PartAnimal
   id: LeftHandSmartCorgi
-  name: corgi hand
+  name: "лапа коргі"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -110,7 +110,7 @@
 - type: entity
   parent: PartAnimal
   id: RightHandSmartCorgi
-  name: corgi hand
+  name: "лапа коргі"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

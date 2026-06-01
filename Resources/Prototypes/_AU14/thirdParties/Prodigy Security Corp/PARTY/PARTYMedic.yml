@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPARTYPartyContractorBase
   id: AU14JobWYProdigyPartyMedic #m41a/2
-  name: Prodigy Yankee Combat Lifesaver
+  name: "Бойовий медик Prodigy Yankee"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartyMedicTracker
   ranks:
@@ -39,7 +39,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYProdigyPartyMedic
-  name: Prodigy Yankee Combat Lifesaver (3rd party, M41A/2)
+  name: "Бойовий медик Prodigy Yankee (3-тя сторона, M41A/2)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -48,7 +48,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Prodigy Yankee Combat Lifesaver
+    name: "Бойовий медик Prodigy Yankee"
     description: au14-prodigyparty-description
     reregister: false
     job: AU14JobWYProdigyPartyMedic

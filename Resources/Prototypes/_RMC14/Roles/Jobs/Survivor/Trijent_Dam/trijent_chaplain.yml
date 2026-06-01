@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentChaplain
-  name: survivor trijent chaplain spawn point
+  name: "спавнер капелана triджент-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -64,5 +64,5 @@
 - type: entity
   parent: [RMCSurvivorPresetCivilianRareItem, RMCSurvivorPresetCivilian]
   id: RMCGearSurvivorPresetTrijentChaplain
-  name: trijent chaplain preset
+  name: "пресет капелана triджент"
   categories: [ HideSpawnMenu ]

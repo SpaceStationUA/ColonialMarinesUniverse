@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AU14UADeskFlag
-  name: UA desk flag
-  description: A desk flag of the United Americas.
+  name: "настільний прапорець ОА"
+  description: "Настільний прапорець Об’єднаних Америк."
   components:
   - type: Transform
     anchored: false
@@ -16,8 +16,8 @@
 - type: entity
   parent: BaseItem
   id: AU14USCMDeskFlag
-  name: USCM desk flag
-  description: A desk flag of the United States Colonial Marine Corps.
+  name: "настільний прапорець ККМП США"
+  description: "Настільний прапорець Корпусу колоніальної морської піхоти США."
   components:
   - type: Transform
     anchored: false

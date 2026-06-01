@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaHF
-  name: Haurchefant
+  name: "Орчефант"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFHypersleepStorageA
-  name: Hypersleep Storage
+  name: "Склад гіперсну"
   components:
   - type: Sprite
     state: medical
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFHypersleepGearLockers
-  name: Hypersleep Gear Lockers
+  name: "Шафки спорядження гіперсну"
   components:
   - type: Sprite
     state: derelictship
@@ -43,37 +43,37 @@
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFMessHall
-  name: Mess Hall
+  name: "Їдальня"
 
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFBathroom
-  name: Bathroom
+  name: "Туалет"
 
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFOffice
-  name: Office
+  name: "Офіс"
 
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFEngineering
-  name: Engineering
+  name: "Інженерний"
 
 - type: entity
   parent: RMCAreaHFEngineering
   id: RMCAreaHFSyntheticCloset
-  name: Synthetic Closet
+  name: "Шафа синтетика"
 
 - type: entity
   parent: RMCAreaHFEngineering
   id: RMCAreaHFAICore
-  name: AI Core
+  name: "Ядро ШІ"
 
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFDisposals
-  name: Disposals
+  name: "Утилізація"
   components:
   - type: Sprite
     state: recycling
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFMedical
-  name: Medical
+  name: "Медичний"
   components:
   - type: Sprite
     state: medical
@@ -89,7 +89,7 @@
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFBriefRoom
-  name: Briefing Room
+  name: "Кімната брифінгу"
   components:
   - type: Sprite
     state: caves_central
@@ -97,12 +97,12 @@
 - type: entity
   parent: RMCAreaHFBriefRoom
   id: RMCAreaHFCommandDeck
-  name: Force Command Deck
+  name: "Командна палуба сил"
 
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFPrep
-  name: Force Prep
+  name: "Підготовка сил"
   components:
   - type: Sprite
     state: security_hub
@@ -110,12 +110,12 @@
 - type: entity
   parent: RMCAreaHFPrep
   id: RMCAreaHFArmoury
-  name: Force Armoury
+  name: "Збройова сил"
 
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFHangar
-  name: Hangar
+  name: "Ангар"
   components:
   - type: Sprite
     state: lz
@@ -123,12 +123,12 @@
 - type: entity
   parent: RMCAreaHFHangar
   id: RMCAreaHFHangar2
-  name: Lower Hangar
+  name: "Нижній ангар"
 
 - type: entity
   parent: RMCAreaHF
   id: RMCAreaHFOOB
-  name: Out Of Bounds
+  name: "Поза межами"
   components:
   - type: Sprite
     state: oob

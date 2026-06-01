@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCAreaPVE
   id: RMCAreaPVEOOB
-  name: Out Of Bounds
+  name: "Поза межами"
   components:
   - type: Sprite
     state: oob
@@ -36,7 +36,7 @@
 - type: entity
   parent: RMCAreaPVE
   id: RMCAreaPVEOutdoors
-  name: Outdoors
+  name: "Назовні"
   components:
   - type: Sprite
     state: base_icon
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCAreaPVEOutdoors
   id: RMCAreaPVELZ
-  name: Landing Zone
+  name: "Зона висадки"
   components:
   - type: Sprite
     state: base_icon
@@ -75,7 +75,7 @@
 - type: entity
   parent: RMCAreaPVE
   id: RMCAreaPVEIndoors
-  name: Indoors
+  name: "Усередині"
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_kutjevo.rsi
@@ -95,7 +95,7 @@
 - type: entity
   parent: RMCAreaPVEIndoors
   id: RMCAreaPVEShuttle
-  name: Shuttle
+  name: "Шатл"
   components:
   - type: Area
     alwaysPowered: true

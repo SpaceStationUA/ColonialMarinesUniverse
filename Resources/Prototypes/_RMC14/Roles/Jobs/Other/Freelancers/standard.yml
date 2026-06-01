@@ -34,7 +34,7 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerStandardHostile
-  name: freelancer ghost role rifleman
+  name: "фрілансер привид-роль стрільця"
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -45,7 +45,7 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerStandardFriendly
-  name: freelancer ghost role rifleman
+  name: "фрілансер привид-роль стрільця"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

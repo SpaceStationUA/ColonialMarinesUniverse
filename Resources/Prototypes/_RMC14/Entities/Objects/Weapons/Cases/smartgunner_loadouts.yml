@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSmartGunOperatorEquipmentCase
-  name: M56B smart gun system case
+  name: "кейс системи смартгана M56B"
   description: "A large case containing an M56B Smartgun, M56 combat harness, head mounted sight and powerpack.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: CMCOSmartGunOperatorEquipmentCase
-  name: M56B smart gun system case
+  name: "кейс системи смартгана M56B"
   description: "A large case containing an M56C 'cavalier' Smartgun, M56 combat harness, head mounted sight and powerpack.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite

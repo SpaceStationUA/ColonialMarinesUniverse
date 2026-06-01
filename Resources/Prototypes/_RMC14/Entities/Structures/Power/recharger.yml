@@ -1,7 +1,7 @@
 - type: entity
   parent: BaseRecharger
   id: RMCRecharger
-  name: recharger
+  name: "зарядний пристрій"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Power/recharger.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMUCircuitboardRecharger
-  name: circuit board (recharger)
-  description: A machine printed circuit board for a recharger.
+  name: "плата (зарядник)"
+  description: "Машинно надрукована плата для зарядника."
   components:
   - type: MachineBoard
     prototype: RMCRecharger

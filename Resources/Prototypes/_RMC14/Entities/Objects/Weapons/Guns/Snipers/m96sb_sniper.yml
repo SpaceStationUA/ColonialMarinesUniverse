@@ -1,9 +1,8 @@
 - type: entity
   parent: RMCBaseWeaponSniperRifle
   id: RMCM96SBSniperRifle
-  name: M96S-B suppressed scoped rifle 
-  description: "A heavy sniper rifle manufactured by AEGIS Armaments. Modified with an integral suppressor, it has a scope system and fires armor penetrating rounds out of a 15-round magazine.
-    'Peace Through Superior Firepower'"
+  name: "снайперська гвинтівка M96S-B з глушником і оптикою"
+  description: "Важка снайперська гвинтівка виробництва AEGIS Armaments. Модифікована вбудованим глушником, має систему оптичних прицілів і стріляє бронебійними набоями з 15-зарядного магазина. «Мир через перевагу вогнепальної сили»"
   components:
   - type: GuideHelp
     guides:

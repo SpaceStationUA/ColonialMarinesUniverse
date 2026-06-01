@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadeSnow
-  name: snow barricade
-  description: A mound of snow shaped into a sloped wall. Statistically better than thin air as cover.
+  name: "снігова барикада"
+  description: "Купа снігу, сформована у похилу стіну. Статистично краща за порожнечу як укриття."
   components:
   - type: Sprite
     drawdepth: WallTops

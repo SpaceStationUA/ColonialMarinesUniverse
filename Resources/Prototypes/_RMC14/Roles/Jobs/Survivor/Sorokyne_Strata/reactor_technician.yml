@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorReactorTechnician
-  name: reactor technician spawn point
+  name: "спавнер техніка реактора"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetReactorTechnician
-  name: reactor technician preset
+  name: "пресет техніка реактора"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

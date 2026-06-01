@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesMiner
-  name: chances miner spawn point
+  name: "спавнер шахтаря chances"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -62,7 +62,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesMiner
-  name: chances mining surveyor ghost role
+  name: "привид-роль шахтарського геодезиста chances"
   components:
   - type: Sprite
     layers:

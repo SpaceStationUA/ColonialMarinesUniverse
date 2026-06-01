@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSupportTech
-  name: forecon support tech spawn point
+  name: "спавнер техніка підтримки forecon"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSupportTech
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCSurvivorPresetForeconNoPistol
   id: RMCSurvivorPresetForeconSupportTech
-  name: forecon support technician survivor preset
+  name: "пресет вцілілого техніка підтримки forecon"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

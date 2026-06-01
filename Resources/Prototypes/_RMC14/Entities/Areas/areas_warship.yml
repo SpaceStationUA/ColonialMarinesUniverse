@@ -1,6 +1,6 @@
 - type: entity
   id: RMCAreaWarship
-  name: Warship
+  name: "Бойовий корабель"
   suffix: Warship Area
   components:
   - type: Sprite
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipASOsOffice
-  name: ASOs Office
+  name: "Кабінет ASO"
   components:
   - type: Sprite
     color: "#619020"
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipIOPreparations
-  name: IO Preparations
+  name: "Підготовка IO"
   components:
   - type: Sprite
     color: "#A97B9C"
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipIntelligenceLab
-  name: Intelligence Lab
+  name: "Розвідувальна лабораторія"
   components:
   - type: Sprite
     color: "#9DCD4A"
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipDropshipPreparations
-  name: Dropship Preparations
+  name: "Підготовка десантного корабля"
   components:
   - type: Sprite
     color: "#4E6537"
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipDropshipCrewQuarters
-  name: Dropship Crew Quarters
+  name: "Каюти екіпажу десантного корабля"
   components:
   - type: Sprite
     color: "#60EB41"
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipHangerCrewLounge
-  name: Hangar Crew Lounge
+  name: "Зала екіпажу ангара"
   components:
   - type: Sprite
     color: "#003807"
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipVehicleCrewQuarters
-  name: Vehicle Crew Quarters
+  name: "Каюти екіпажу транспорту"
   components:
   - type: Sprite
     color: "#6C4BF4"
@@ -84,7 +84,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipVehicleCrewPreparations
-  name: Vehicle Crew Preparations
+  name: "Підготовка екіпажу транспорту"
   components:
   - type: Sprite
     color: "#6CE7D8"
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipHangerConstruction
-  name: Hangar Construction
+  name: "Будівництво ангара"
   components:
   - type: Sprite
     color: "#A4E8F4"
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipHangerBriefing
-  name: Hangar Briefing
+  name: "Брифінг ангара"
   components:
   - type: Sprite
     color: "#EEA0F1"
@@ -108,7 +108,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipHangerHallwaySouth
-  name: Hangar Hallway South
+  name: "Південний коридор ангара"
   components:
   - type: Sprite
     color: "#BAA871"
@@ -116,7 +116,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipDropshipHanger
-  name: Dropship Hangar
+  name: "Ангар десантного корабля"
   components:
   - type: Sprite
     color: "#BC92F6"
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipIntelligenceMaintenance
-  name: Intelligence Maintenance
+  name: "Обслуговування розвідки"
   components:
   - type: Sprite
     color: "#4A8DC6"
@@ -132,7 +132,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEastEngineeringReactors
-  name: East Engineering Reactors
+  name: "Східні інженерні реактори"
   components:
   - type: Sprite
     color: "#A26C6E"
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEastEngineeringReactorsMaintenance
-  name: East Engineering Reactors Maintenance
+  name: "Обслуговування східних інженерних реакторів"
   components:
   - type: Sprite
     color: "#A2006E"
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMemorialandChapel
-  name: Memorial and Chapel
+  name: "Меморіал і каплиця"
   components:
   - type: Sprite
     color: "#5E4315"
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMorguePreparation
-  name: Morgue Preparation
+  name: "Підготовка моргу"
   components:
   - type: Sprite
     color: "#634D65"
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMorgue
-  name: Morgue
+  name: "Морг"
   components:
   - type: Sprite
     color: "#7E4E5A"
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFieldDoctorsPreparations
-  name: Field Doctors Preparations
+  name: "Підготовка польових лікарів"
   components:
   - type: Sprite
     color: "#C94EB2"
@@ -185,7 +185,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalORs
-  name: Medical ORs
+  name: "Медичні операційні"
   components:
   - type: Sprite
     color: "#CB4F98"
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedialORLobby
-  name: Medical OR Lobby
+  name: "Лобі медичних операційних"
   components:
   - type: Sprite
     color: "#7E020A"
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCMOsOffice
-  name: CMOs Office
+  name: "Кабінет CMO"
   components:
   - type: Sprite
     color: "#DC8B7B"
@@ -209,7 +209,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalJanitorial
-  name: Medical Janitorial
+  name: "Медичне прибирання"
   components:
   - type: Sprite
     color: "#596B47"
@@ -217,7 +217,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipChemistry
-  name: Chemistry
+  name: "Хімія"
   components:
   - type: Sprite
     color: "#7A8082"
@@ -225,7 +225,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalBreakRoom
-  name: Medical Break Room
+  name: "Медична кімната відпочинку"
   components:
   - type: Sprite
     color: "#9356F7"
@@ -233,7 +233,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalArmory
-  name: Medical Armory
+  name: "Медична збройова"
   components:
   - type: Sprite
     color: "#F03997"
@@ -243,7 +243,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipNursePrep
-  name: Nurse Prep
+  name: "Підготовка медсестер"
   components:
   - type: Sprite
     color: "#912F5A"
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalMaintenance
-  name: Medical Maintenance
+  name: "Медичне обслуговування"
   components:
   - type: Sprite
     color: "#614165"
@@ -259,7 +259,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalCheckpoint
-  name: Medical Checkpoint
+  name: "Медичний чекпоінт"
   components:
   - type: Sprite
     color: "#B27C5A"
@@ -267,7 +267,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalHallway
-  name: Medical Hallway
+  name: "Медичний коридор"
   components:
   - type: Sprite
     color: "#B27C5F"
@@ -275,7 +275,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalRecovery
-  name: Medical Recovery
+  name: "Медичне відновлення"
   components:
   - type: Sprite
     color: "#B27C50"
@@ -283,7 +283,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipResearchChemistry
-  name: Research Chemistry
+  name: "Дослідницька хімія"
   components:
   - type: Sprite
     color: "#3FDE4F"
@@ -292,7 +292,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipResearchLaboratories
-  name: Research Laboratories
+  name: "Дослідницькі лабораторії"
   components:
   - type: Sprite
     color: "#6EBAEF"
@@ -301,7 +301,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipResearchContainment
-  name: Research Containment
+  name: "Дослідницьке стримання"
   components:
   - type: Sprite
     color: "#5293B8"
@@ -315,7 +315,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipResearchHallway
-  name: Research Hallway
+  name: "Дослідницький коридор"
   components:
   - type: Sprite
     color: "#F153E9"
@@ -323,7 +323,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFiringRangeHallway
-  name: Firing Range Hallway
+  name: "Коридор стрільбища"
   components:
   - type: Sprite
     color: "#26BFD1"
@@ -331,7 +331,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSouthBriefingHallway
-  name: South Briefing Hallway
+  name: "Південний коридор брифінгу"
   components:
   - type: Sprite
     color: "#05E0BC"
@@ -339,7 +339,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipNorthBriefingHallway
-  name: North Briefing Hallway
+  name: "Північний коридор брифінгу"
   components:
   - type: Sprite
     color: "#4B23FC"
@@ -347,7 +347,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSouthRequisitionsHallway
-  name: South Requisitions Hallway
+  name: "Південний коридор реквізицій"
   components:
   - type: Sprite
     color: "#DA4BCA"
@@ -355,7 +355,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipNorthRequisitionsHallway
-  name: North Requisitions Hallway
+  name: "Північний коридор реквізицій"
   components:
   - type: Sprite
     color: "#B21A5C"
@@ -363,7 +363,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipRearDeltaPreparations
-  name: East Delta Preparations
+  name: "Підготовка Дельта — Схід"
   components:
   - type: Sprite
     color: "#0CA6FA"
@@ -371,7 +371,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFrontDeltaPreparations
-  name: Front Delta Preparations
+  name: "Підготовка Дельта — Перед"
   components:
   - type: Sprite
     color: "#C5CAA0"
@@ -379,7 +379,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipRearCharliePreparations
-  name: East Charlie Preparations
+  name: "Підготовка Чарлі — Схід"
   components:
   - type: Sprite
     color: "#2714A2"
@@ -387,7 +387,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFrontCharliePreparations
-  name: Front Charlie Preparations
+  name: "Підготовка Чарлі — Перед"
   components:
   - type: Sprite
     color: "#2DC5AD"
@@ -395,7 +395,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFrontBravoPreparations
-  name: Front Bravo Preparations
+  name: "Підготовка Браво — Перед"
   components:
   - type: Sprite
     color: "#9317BF"
@@ -403,7 +403,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipRearBravoPreparations
-  name: East Bravo Preparations
+  name: "Підготовка Браво — Схід"
   components:
   - type: Sprite
     color: "#A7B1CC"
@@ -411,7 +411,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFrontAlphaPreparations
-  name: Front Alpha Preparations
+  name: "Підготовка Альфа — Перед"
   components:
   - type: Sprite
     color: "#E3D7AB"
@@ -419,7 +419,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipRearAlphaPreparations
-  name: East Alpha Preparations
+  name: "Підготовка Альфа — Схід"
   components:
   - type: Sprite
     color: "#57C329"
@@ -427,7 +427,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEchoPreparations
-  name: Echo Preparations
+  name: "Підготовка Ехо"
   components:
   - type: Sprite
     color: "#EA901B"
@@ -435,7 +435,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFoxtrotPreparations
-  name: Foxtrot Preparations
+  name: "Підготовка Фокстрот"
   components:
   - type: Sprite
     color: "#1DB383"
@@ -443,7 +443,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSEATrainingRange
-  name: SEA Training Range
+  name: "Тренувальне стрільбище SEA"
   components:
   - type: Sprite
     color: "#9E77FB"
@@ -453,7 +453,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSEAOfficeOne
-  name: SEA Office One
+  name: "Кабінет SEA №1"
   components:
   - type: Sprite
     color: "#CE679C"
@@ -461,7 +461,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSEAOfficeTwo
-  name: SEA Office Two
+  name: "Кабінет SEA №2"
   components:
   - type: Sprite
     color: "#4B69CB"
@@ -469,7 +469,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLowerEngineering
-  name: Lower Engineering
+  name: "Нижня інженерія"
   components:
   - type: Sprite
     color: "#7BA269"
@@ -477,7 +477,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLowerEngineeringAtmospherics
-  name: Lower Engineering Atmospherics
+  name: "Атмосферика нижньої інженерії"
   components:
   - type: Sprite
     color: "#E4F6EE"
@@ -485,7 +485,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipOrbitalCannonStorage
-  name: Orbital Cannon Storage
+  name: "Склад орбітальної гармати"
   components:
   - type: Sprite
     color: "#5126C7"
@@ -493,7 +493,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipRequisitionsExternal
-  name: Requisitions External
+  name: "Зовнішня частина реквізицій"
   components:
   - type: Sprite
     color: "#D23EB2"
@@ -501,7 +501,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipRequisitionsInternal
-  name: Requisitions Internal
+  name: "Внутрішня частина реквізицій"
   components:
   - type: Sprite
     color: "#C9BA06"
@@ -509,7 +509,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipRequisitionsArmory
-  name: Requisitions Armory
+  name: "Збройова реквізицій"
   components:
   - type: Sprite
     color: "#F03997"
@@ -519,7 +519,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFiringRange
-  name: Firing Range
+  name: "Стрільбище"
   components:
   - type: Sprite
     color: "#25E796"
@@ -527,7 +527,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMPFiringRangeOffice
-  name: MP Firing Range Office
+  name: "Кабінет MP стрільбища"
   components:
   - type: Sprite
     color: "#E6E81A"
@@ -535,7 +535,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipNCOLounge
-  name: NCO Lounge
+  name: "Зала NCO"
   components:
   - type: Sprite
     color: "#CD7653"
@@ -543,7 +543,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSquadBriefing
-  name: Squad Briefing
+  name: "Брифінг загону"
   components:
   - type: Sprite
     color: "#64A57E"
@@ -551,7 +551,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMessHall
-  name: Mess Hall
+  name: "Їдальня"
   components:
   - type: Sprite
     color: "#954D28"
@@ -559,7 +559,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMessHallKitchen
-  name: Mess Hall Kitchen
+  name: "Кухня їдальні"
   components:
   - type: Sprite
     color: "#775B6A"
@@ -567,7 +567,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLowerCentralCheckpoint
-  name: Lower Central Checkpoint
+  name: "Нижній центральний чекпоінт"
   components:
   - type: Sprite
     color: "#CFE201"
@@ -575,7 +575,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFiringRangeCheckpoint
-  name: Firing Range Checkpoint
+  name: "Чекпоінт стрільбища"
   components:
   - type: Sprite
     color: "#876E79"
@@ -583,7 +583,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipAlphaBravoMaintenance
-  name: Alpha Bravo Maintenance
+  name: "Обслуговування Альфа-Браво"
   components:
   - type: Sprite
     color: "#49AD8B"
@@ -591,7 +591,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCharlieDeltaMaintenance
-  name: Charlie Delta Maintenance
+  name: "Обслуговування Чарлі-Дельта"
   components:
   - type: Sprite
     color: "#CF9FA6"
@@ -599,7 +599,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFiringRangeMaintenance
-  name: Firing Range Maintenance
+  name: "Обслуговування стрільбища"
   components:
   - type: Sprite
     color: "#947427"
@@ -607,7 +607,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipResearchMaintenance
-  name: Research Maintenance
+  name: "Обслуговування досліджень"
   components:
   - type: Sprite
     color: "#F4C036"
@@ -615,7 +615,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLowerSecureBunker
-  name: Lower Secure Bunker
+  name: "Нижній захищений бункер"
   components:
   - type: Sprite
     color: "#212217"
@@ -623,7 +623,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipAEGISTargetedRailgun
-  name: AEGIS Targeted Railgun
+  name: "Цільовий рейлган AEGIS"
   components:
   - type: Sprite
     color: "#371830"
@@ -631,7 +631,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckEngineeringSouth
-  name: Upper Deck Engineering South
+  name: "Інженерія верхньої палуби — Південь"
   components:
   - type: Sprite
     color: "#2446FB"
@@ -639,7 +639,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckEngineeringNorth
-  name: Upper Deck Engineering North
+  name: "Інженерія верхньої палуби — Північ"
   components:
   - type: Sprite
     color: "#7D7436"
@@ -647,7 +647,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEngineeringHypersleep
-  name: Engineering Hypersleep
+  name: "Гіперсон інженерії"
   components:
   - type: Sprite
     color: "#34BC66"
@@ -655,7 +655,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEngineeringArmory
-  name: Engineering Armory
+  name: "Інженерна збройова"
   components:
   - type: Sprite
     color: "#9B841F"
@@ -665,7 +665,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEngineeringArmorer
-  name: Engineering Armorer
+  name: "Інженер-збройовик"
   components:
   - type: Sprite
     color: "#9B841F"
@@ -673,7 +673,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipOrdnance
-  name: Ordnance
+  name: "Боєприпаси"
   components:
   - type: Sprite
     color: "#13177C"
@@ -681,7 +681,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEngineeringStorage
-  name: Engineering Storage
+  name: "Інженерний склад"
   components:
   - type: Sprite
     color: "#AF9903"
@@ -689,7 +689,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipChiefEngineersOffice
-  name: Chief Engineers Office
+  name: "Кабінет головного інженера"
   components:
   - type: Sprite
     color: "#2A65CF"
@@ -697,7 +697,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBasketBallandGym
-  name: Basket Ball and Gym
+  name: "Баскетбол і спортзал"
   components:
   - type: Sprite
     color: "#BB26B1"
@@ -705,7 +705,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipExecutiveChefsOffice
-  name: Executive Chefs Office
+  name: "Кабінет шеф-кухаря"
   components:
   - type: Sprite
     color: "#DF99FA"
@@ -713,7 +713,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperWestNorthCheckpoint
-  name: Upper Deck West North Checkpoint
+  name: "Чекпоінт верхньої палуби — Захід-північ"
   components:
   - type: Sprite
     color: "#593F6B"
@@ -721,7 +721,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperWestSouthCheckpoint
-  name: Upper Deck West South Checkpoint
+  name: "Чекпоінт верхньої палуби — Захід-південь"
   components:
   - type: Sprite
     color: "#D46A94"
@@ -729,7 +729,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperWestNorthPump
-  name: Upper Deck West North Pump
+  name: "Насос верхньої палуби — Захід-північ"
   components:
   - type: Sprite
     color: "#58471A"
@@ -742,7 +742,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperWestSouthPump
-  name: Upper Deck West South Pump
+  name: "Насос верхньої палуби — Захід-південь"
   components:
   - type: Sprite
     color: "#5E0D81"
@@ -755,7 +755,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperEastNorthPump
-  name: Upper Deck East North Pump
+  name: "Насос верхньої палуби — Схід-північ"
   components:
   - type: Sprite
     color: "#7332CC"
@@ -768,7 +768,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperEastSouthPump
-  name: Upper Deck East South Pump
+  name: "Насос верхньої палуби — Схід-південь"
   components:
   - type: Sprite
     color: "#9B3D71"
@@ -781,7 +781,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLaundryRoom
-  name: Laundry Room
+  name: "Пральня"
   components:
   - type: Sprite
     color: "#5AFABB"
@@ -789,7 +789,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperNorthEngineeringMaintenance
-  name: Upper Deck North Engineering Maintenance
+  name: "Обслуговування північної інженерії верхньої палуби"
   components:
   - type: Sprite
     color: "#F917E0"
@@ -797,7 +797,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperNorthEngineeringHallway
-  name: Upper Deck North Engineering Hallway
+  name: "Коридор північної інженерії верхньої палуби"
   components:
   - type: Sprite
     color: "#F917E0"
@@ -805,7 +805,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperSouthEngineeringHallway
-  name: Upper Deck South Engineering Hallway
+  name: "Коридор південної інженерії верхньої палуби"
   components:
   - type: Sprite
     color: "#F917E0"
@@ -813,7 +813,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperSouthEngineeringMaintenance
-  name: Upper Deck South Engineering Maintenance
+  name: "Обслуговування південної інженерії верхньої палуби"
   components:
   - type: Sprite
     color: "#9DAE18"
@@ -821,7 +821,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUNMCRecruitment
-  name: UNMC Recruitment
+  name: "Рекрутинг UNMC"
   components:
   - type: Sprite
     color: "#A637E5"
@@ -829,7 +829,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipTemporaryCrewQuarters
-  name: Temporary Crew Quarters
+  name: "Тимчасові каюти екіпажу"
   components:
   - type: Sprite
     color: "#FD8952"
@@ -837,7 +837,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUNMCRecruitmentMaintenance
-  name: UNMC Recruitment Maintenance
+  name: "Обслуговування рекрутингу UNMC"
   components:
   - type: Sprite
     color: "#07E063"
@@ -845,7 +845,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperNorthMilitaryPoliceMaintenance
-  name: Upper Deck North Military Police Maintenance
+  name: "Обслуговування північної військової поліції верхньої палуби"
   components:
   - type: Sprite
     color: "#36C40A"
@@ -853,7 +853,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperSouthMilitaryPoliceMaintenance
-  name: Upper Deck South Military Police Maintenance
+  name: "Обслуговування південної військової поліції верхньої палуби"
   components:
   - type: Sprite
     color: "#423BF0"
@@ -861,7 +861,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEvacuationNorthMaintenance
-  name: Evacuation North Maintenance
+  name: "Обслуговування північної евакуації"
   components:
   - type: Sprite
     color: "#28ACB9"
@@ -869,7 +869,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEvacuationSouthMaintenance
-  name: Evacuation South Maintenance
+  name: "Обслуговування південної евакуації"
   components:
   - type: Sprite
     color: "#6F9134"
@@ -877,7 +877,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEvacuation
-  name: Evacuation
+  name: "Евакуація"
   components:
   - type: Sprite
     color: "#961955"
@@ -885,7 +885,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipNorthEvacuationCheckpoint
-  name: North Evacuation Checkpoint
+  name: "Північний чекпоінт евакуації"
   components:
   - type: Sprite
     color: "#E72A03"
@@ -893,7 +893,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCentralEvacuationCheckpoint
-  name: Central Evacuation Checkpoint
+  name: "Центральний чекпоінт евакуації"
   components:
   - type: Sprite
     color: "#5BCB0A"
@@ -901,7 +901,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSouthEvacuationCheckpoint
-  name: South Evacuation Checkpoint
+  name: "Південний чекпоінт евакуації"
   components:
   - type: Sprite
     color: "#1753AA"
@@ -909,7 +909,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMPFiringRange
-  name: MP Firing Range
+  name: "Стрільбище MP"
   components:
   - type: Sprite
     color: "#83B936"
@@ -917,7 +917,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMPBunks
-  name: MP Bunks
+  name: "Каюти MP"
   components:
   - type: Sprite
     color: "#5B9C96"
@@ -925,7 +925,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipExecutionChamber
-  name: Execution Chamber
+  name: "Кімната страт"
   components:
   - type: Sprite
     color: "#254BF7"
@@ -933,7 +933,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipExecutionChamberEngineering
-  name: Execution Chamber Engineering
+  name: "Інженерна кімната страт"
   components:
   - type: Sprite
     color: "#C3D5D4"
@@ -941,7 +941,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipPermanentConfinementMaintenance
-  name: Permanent Confinement Maintenance
+  name: "Обслуговування постійного ув'язнення"
   components:
   - type: Sprite
     color: "#1D2F76"
@@ -949,7 +949,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipPermanentConfinement
-  name: Permanent Confinement
+  name: "Постійне ув'язнення"
   components:
   - type: Sprite
     color: "#F0046A"
@@ -957,7 +957,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipPermanentConfinementHallway
-  name: Permanent Confinement Hallway
+  name: "Коридор постійного ув'язнення"
   components:
   - type: Sprite
     color: "#6F78A1"
@@ -965,7 +965,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigHolding
-  name: Brig Holding
+  name: "Утримання у бригу"
   components:
   - type: Sprite
     color: "#BBB99A"
@@ -973,7 +973,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigHoldingHallway
-  name: Brig Holding Hallway
+  name: "Коридор утримання у бригу"
   components:
   - type: Sprite
     color: "#C52762"
@@ -981,7 +981,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigHoldingObservation
-  name: Brig Holding Observation
+  name: "Спостереження утримання у бригу"
   components:
   - type: Sprite
     color: "#9431C3"
@@ -989,7 +989,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigMedical
-  name: Brig Medical
+  name: "Медблок бригу"
   components:
   - type: Sprite
     color: "#CDEA1F"
@@ -997,7 +997,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigLobby
-  name: Brig Lobby
+  name: "Лобі бригу"
   components:
   - type: Sprite
     color: "#3D0E86"
@@ -1005,7 +1005,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMilitaryWardensOffice
-  name: Military Wardens Office
+  name: "Кабінет військового наглядача"
   components:
   - type: Sprite
     color: "#E3D164"
@@ -1013,7 +1013,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCMPsOffice
-  name: CMPs Office
+  name: "Кабінет CMP"
   components:
   - type: Sprite
     color: "#7783F3"
@@ -1021,7 +1021,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigReception
-  name: Brig Reception
+  name: "Ресепшн бригу"
   components:
   - type: Sprite
     color: "#E6F82F"
@@ -1029,7 +1029,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipDrunkTank
-  name: Drunk Tank
+  name: "Витверезник"
   components:
   - type: Sprite
     color: "#F05AFE"
@@ -1037,7 +1037,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMPPrep
-  name: MP Prep
+  name: "Підготовка MP"
   components:
   - type: Sprite
     color: "#3D66CA"
@@ -1045,7 +1045,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMPArmory
-  name: MP Armory
+  name: "Збройова MP"
   components:
   - type: Sprite
     color: "#ED3793"
@@ -1055,7 +1055,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigEvidence
-  name: Brig Evidence
+  name: "Докази бригу"
   components:
   - type: Sprite
     color: "#59989D"
@@ -1063,7 +1063,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigInterview
-  name: Brig Interview
+  name: "Допит бригу"
   components:
   - type: Sprite
     color: "#0D169D"
@@ -1071,7 +1071,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigSecureHallway
-  name: Brig Secure Hallway
+  name: "Захищений коридор бригу"
   components:
   - type: Sprite
     color: "#EBC312"
@@ -1079,7 +1079,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigEntranceHallway
-  name: Brig Entrance Hallway
+  name: "Вхідний коридор бригу"
   components:
   - type: Sprite
     color: "#64A271"
@@ -1087,7 +1087,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperNorthBrigHallway
-  name: Upper Deck North Brig Hallway
+  name: "Північний коридор бригу верхньої палуби"
   components:
   - type: Sprite
     color: "#B41A75"
@@ -1095,7 +1095,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperSouthBrigHallway
-  name: Upper Deck South Brig Hallway
+  name: "Південний коридор бригу верхньої палуби"
   components:
   - type: Sprite
     color: "#FA3D1A"
@@ -1103,7 +1103,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperNorthCentralHallway
-  name: Upper Deck North Central Hallway
+  name: "Північний центральний коридор верхньої палуби"
   components:
   - type: Sprite
     color: "#B5B0CB"
@@ -1111,7 +1111,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperCentralHallway
-  name: Upper Deck Central Hallway
+  name: "Центральний коридор верхньої палуби"
   components:
   - type: Sprite
     color: "#CBDB24"
@@ -1119,7 +1119,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperSouthCentralHallway
-  name: Upper Deck South Central Hallway
+  name: "Південний центральний коридор верхньої палуби"
   components:
   - type: Sprite
     color: "#FCB8E8"
@@ -1127,7 +1127,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipPressBriefing
-  name: Press Briefing
+  name: "Брифінг для преси"
   components:
   - type: Sprite
     color: "#F00605"
@@ -1135,7 +1135,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipHighCommandAdjutantsOffice
-  name: High Command Adjutants Office
+  name: "Кабінет ад'ютантів вищого командування"
   components:
   - type: Sprite
     color: "#E4EC92"
@@ -1143,7 +1143,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipPressHallway
-  name: Press Hallway
+  name: "Коридор для преси"
   components:
   - type: Sprite
     color: "#89E1E1"
@@ -1151,7 +1151,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipPressMeetingRoom
-  name: Press Meeting Room
+  name: "Кімната зустрічей з пресою"
   components:
   - type: Sprite
     color: "#C073E4"
@@ -1159,7 +1159,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipPressQuarters
-  name: Press Quarters
+  name: "Каюти преси"
   components:
   - type: Sprite
     color: "#5F6A9E"
@@ -1167,7 +1167,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSquadLeaderBriefing
-  name: Squad Leader Briefing
+  name: "Брифінг лідерів загонів"
   components:
   - type: Sprite
     color: "#A381C0"
@@ -1175,7 +1175,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipWardroomHallway
-  name: Wardroom Hallway
+  name: "Коридор офіцерської їдальні"
   components:
   - type: Sprite
     color: "#F6BEB4"
@@ -1183,7 +1183,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipWardroom
-  name: Wardroom
+  name: "Офіцерська їдальня"
   components:
   - type: Sprite
     color: "#B48212"
@@ -1191,7 +1191,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipWardroomKitchen
-  name: Wardroom Kitchen
+  name: "Кухня офіцерської їдальні"
   components:
   - type: Sprite
     color: "#B5453F"
@@ -1199,7 +1199,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipStaffOfficersQuarters
-  name: Staff Officers Quarters
+  name: "Каюти штабних офіцерів"
   components:
   - type: Sprite
     color: "#EC8540"
@@ -1207,7 +1207,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipWardroomReception
-  name: Wardroom Reception
+  name: "Ресепшн офіцерської їдальні"
   components:
   - type: Sprite
     color: "#732E4E"
@@ -1215,7 +1215,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckSouthViewingRoom
-  name: Upper Deck South Viewing Room
+  name: "Південна оглядова кімната верхньої палуби"
   components:
   - type: Sprite
     color: "#83C604"
@@ -1223,7 +1223,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckNorthViewingRoom
-  name: Upper Deck North Viewing Room
+  name: "Північна оглядова кімната верхньої палуби"
   components:
   - type: Sprite
     color: "#67B395"
@@ -1231,7 +1231,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckMedical
-  name: Upper Deck Medical
+  name: "Медичний верхньої палуби"
   components:
   - type: Sprite
     color: "#05318D"
@@ -1239,7 +1239,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckMasterWashroom
-  name: Upper Deck Master Washroom
+  name: "Головна вмивальна верхньої палуби"
   components:
   - type: Sprite
     color: "#D76ED7"
@@ -1247,7 +1247,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCorporateHallway
-  name: Corporate Hallway
+  name: "Корпоративний коридор"
   components:
   - type: Sprite
     color: "#32FE89"
@@ -1255,7 +1255,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCorporateLiaisonsMainOffice
-  name: Corporate Liaisons Main Office
+  name: "Головний кабінет корпоративного лізона"
   components:
   - type: Sprite
     color: "#8CC71A"
@@ -1263,7 +1263,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCorporateLiaisonsQuarters
-  name: Corporate Liaisons Quarters
+  name: "Каюти корпоративного лізона"
   components:
   - type: Sprite
     color: "#73CBC5"
@@ -1271,7 +1271,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCorporateLiaisonsResearch
-  name: Corporate Liaisons Research
+  name: "Дослідження корпоративного лізона"
   components:
   - type: Sprite
     color: "#73CBC5"
@@ -1279,7 +1279,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCorporateMeetingRoom
-  name: Corporate Meeting Room
+  name: "Корпоративна кімната зустрічей"
   components:
   - type: Sprite
     color: "#04C2B5"
@@ -1287,7 +1287,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCorporateMaintenance
-  name: Corporate Maintenance
+  name: "Корпоративне обслуговування"
   components:
   - type: Sprite
     color: "#F63F9E"
@@ -1295,7 +1295,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCorporateMeetingRoomMaintenance
-  name: Corporate Meeting Room Maintenance
+  name: "Обслуговування корпоративної кімнати зустрічей"
   components:
   - type: Sprite
     color: "#7A9F3C"
@@ -1303,7 +1303,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSecureRelay
-  name: Secure Relay
+  name: "Захищений ретранслятор"
   components:
   - type: Sprite
     color: "#6EAA48"
@@ -1311,7 +1311,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipTelecommunications
-  name: Telecommunications
+  name: "Телекомунікації"
   components:
   - type: Sprite
     color: "#2EE514"
@@ -1319,7 +1319,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipTelecommunicationsEntrance
-  name: Telecommunications Entrance
+  name: "Вхід до телекомунікацій"
   components:
   - type: Sprite
     color: "#F60EAC"
@@ -1327,7 +1327,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSyntheticPreparations
-  name: Synthetic Preparations
+  name: "Підготовка синтетика"
   components:
   - type: Sprite
     color: "#E4ED8F"
@@ -1335,7 +1335,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipARESBase
-  name: ARES Base
+  name: "База ARES"
   components:
   - type: Area
     resinAllowed: False
@@ -1345,7 +1345,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipARESReception
-  name: ARES Reception
+  name: "Ресепшн ARES"
   components:
   - type: Sprite
     color: "#70AE36"
@@ -1353,7 +1353,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipARESCore
-  name: ARES Core
+  name: "Ядро ARES"
   components:
   - type: Sprite
     color: "#AEED34"
@@ -1361,7 +1361,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipARESHallway
-  name: ARES Hallway
+  name: "Коридор ARES"
   components:
   - type: Sprite
     color: "#84E956"
@@ -1369,7 +1369,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipARESStorage
-  name: ARES Storage
+  name: "Склад ARES"
   components:
   - type: Sprite
     color: "#09092B"
@@ -1377,7 +1377,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipARESSecureStorage
-  name: ARES Secure Storage
+  name: "Захищений склад ARES"
   components:
   - type: Sprite
     color: "#CAE618"
@@ -1385,7 +1385,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCommandingOfficersQuarters
-  name: Commanding Officers Quarters
+  name: "Каюта командувача"
   components:
   - type: Sprite
     color: "#22B460"
@@ -1393,7 +1393,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipExecutiveOfficersQuarters
-  name: Executive Officers Quarters
+  name: "Каюта виконавчого офіцера"
   components:
   - type: Sprite
     color: "#5810A0"
@@ -1401,7 +1401,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCombatInformationCenter
-  name: Combat Information Center
+  name: "Бойовий інформаційний центр"
   components:
   - type: Sprite
     color: "#6109C1"
@@ -1409,7 +1409,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCICArmory
-  name: CIC Armory
+  name: "Збройова CIC"
   components:
   - type: Sprite
     color: "#6A4C3E"
@@ -1419,7 +1419,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipStaffOfficerPrep
-  name: Staff Officer Prep
+  name: "Підготовка штабного офіцера"
   components:
   - type: Sprite
     color: "#5E9C0F"
@@ -1429,7 +1429,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCICReception
-  name: CIC Reception
+  name: "Ресепшн CIC"
   components:
   - type: Sprite
     color: "#F03997"
@@ -1437,7 +1437,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCICWarRoom
-  name: CIC War Room
+  name: "Військова кімната CIC"
   components:
   - type: Sprite
     color: "#F07E95"
@@ -1445,7 +1445,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCICHallwayNorth
-  name: CIC Hallway North
+  name: "Північний коридор CIC"
   components:
   - type: Sprite
     color: "#1954FC"
@@ -1453,7 +1453,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipCICHallwaySouth
-  name: CIC Hallway South
+  name: "Південний коридор CIC"
   components:
   - type: Sprite
     color: "#D94DD1"
@@ -1461,7 +1461,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipAstroNav
-  name: AstroNav
+  name: "Астронавігація"
   components:
   - type: Sprite
     color: "#C5F07A"
@@ -1474,7 +1474,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipEscapePod
-  name: Escape Pod
+  name: "Рятувальна капсула"
   components:
   - type: Sprite
     color: "#14B36A"
@@ -1482,7 +1482,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLifeBoat
-  name: Life Boat
+  name: "Рятувальний човен"
   components:
   - type: Sprite
     color: "#14B36A"
@@ -1490,7 +1490,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipNoEntry
-  name: Unknown
+  name: "Невідомо"
   components:
   - type: Area
     noTunnel: true
@@ -1501,7 +1501,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLaundryHallway
-  name: Laundry Hallway
+  name: "Коридор пральні"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1509,7 +1509,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckNorthCentralHallway
-  name: Upper Deck North Central Hallway
+  name: "Північний центральний коридор верхньої палуби"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1517,7 +1517,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckSouthCentralHallway
-  name: Upper Deck South Central Hallway
+  name: "Південний центральний коридор верхньої палуби"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1527,7 +1527,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipDockingPort
-  name: Docking Port
+  name: "Док"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1537,7 +1537,7 @@
 - type: entity
   parent: RMCAreaWarshipDockingPort
   id: RMCAreaWarshipDockingPortLE
-  name: Lower East Docking Port
+  name: "Нижній східний док"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1545,7 +1545,7 @@
 - type: entity
   parent: RMCAreaWarshipDockingPort
   id: RMCAreaWarshipDockingPortLN
-  name: Lower North Docking Port
+  name: "Нижній північний док"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1553,7 +1553,7 @@
 - type: entity
   parent: RMCAreaWarshipDockingPort
   id: RMCAreaWarshipDockingPortLS
-  name: Lower South Docking Port
+  name: "Нижній південний док"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1561,7 +1561,7 @@
 - type: entity
   parent: RMCAreaWarshipDockingPort
   id: RMCAreaWarshipDockingPortUNW
-  name: Upper Deck North West Docking Port
+  name: "Північно-західний док верхньої палуби"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1569,7 +1569,7 @@
 - type: entity
   parent: RMCAreaWarshipDockingPort
   id: RMCAreaWarshipDockingPortUSE
-  name: Upper Deck South East Docking Port
+  name: "Південно-східний док верхньої палуби"
   components:
   - type: Sprite
     color: "#EE679E"
@@ -1579,7 +1579,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipWestNorthStairwell
-  name: West North Stairwell
+  name: "Західно-північний сходовий проліт"
   components:
   - type: Sprite
     color: "#A1A4FD"
@@ -1587,7 +1587,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipWestSouthStairwell
-  name: West South Stairwell
+  name: "Західно-південний сходовий проліт"
   components:
   - type: Sprite
     color: "#A1A4FD"
@@ -1595,7 +1595,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipSouthCentralStairwell
-  name: South Central Stairwell
+  name: "Південно-центральний сходовий проліт"
   components:
   - type: Sprite
     color: "#EF829D"
@@ -1603,7 +1603,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipNorthCentralStairwell
-  name: North Central Stairwell
+  name: "Північно-центральний сходовий проліт"
   components:
   - type: Sprite
     color: "#B3B990"
@@ -1611,7 +1611,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipMedicalStairwell
-  name: Medical Stairwell
+  name: "Медичний сходовий проліт"
   components:
   - type: Sprite
     color: "#C11C55"
@@ -1619,7 +1619,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipFiringRangeStairwell
-  name: Firing Range Stairwell
+  name: "Сходовий проліт стрільбища"
   components:
   - type: Sprite
     color: "#94EB0D"
@@ -1627,7 +1627,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipBrigStairwell
-  name: Brig Stairwell
+  name: "Сходовий проліт бригу"
   components:
   - type: Sprite
     color: "#978D21"
@@ -1635,7 +1635,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckCICStairwell
-  name: Upper Deck CIC Stairwell
+  name: "Сходовий проліт CIC верхньої палуби"
   components:
   - type: Sprite
     color: "#0CE74F"
@@ -1643,7 +1643,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckStaffOfficerStairwell
-  name: Upper Deck SO Stairwell
+  name: "Сходовий проліт SO верхньої палуби"
   components:
   - type: Sprite
     color: "#0C074F"
@@ -1651,7 +1651,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipUpperDeckWardroomStairwell
-  name: Upper Deck Wardroom Stairwell
+  name: "Сходовий проліт офіцерської їдальні верхньої палуби"
   components:
   - type: Sprite
     color: "#0CE70F"
@@ -1661,7 +1661,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipWardroomMaints
-  name: Upper Deck Wardroom Maintenance
+  name: "Обслуговування офіцерської їдальні верхньої палуби"
   components:
   - type: Sprite
     color: "#0CE70F"
@@ -1671,7 +1671,7 @@
 - type: entity
   parent: RMCAreaWarship
   id: RMCAreaWarshipLateWakeCryo
-  name: Late Wake Cryopods
+  name: "Кріокапсули пізнього пробудження"
   components:
   - type: Sprite
     color: "#0CE70F"

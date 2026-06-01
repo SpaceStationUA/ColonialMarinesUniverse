@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSquadRifleman
-  name: Spawn Point opfor Squad Rifleman
+  name: "точка появи стрільця відділення ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOpforSquadRifleman

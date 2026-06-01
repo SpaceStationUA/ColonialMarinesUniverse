@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisuals, CMWeaponPistolBase]
   id: RMCWeaponPistolNP92
-  name: NP92 pistol
-  description: The standard issue sidearm of the UPP. The NP92 is a small but powerful sidearm, well-liked by most it is issued to, although some prefer the weapon it was meant to replace, the Type 73. Takes 12 round magazines.
+  name: "пістолет NP92"
+  description: "Стандартний штатний пістолет СПН. NP92 — невеликий, але потужний пістолет, який подобається більшості, кому він видається, хоча дехто надає перевагу зброї, яку він мав замінити, — Type 73. Приймає 12-зарядні магазини."
   components:
   - type: Tag
     tags:
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolNPZ92
-  name: NPZ92 pistol
-  description: The NPZ92 is a version of the NP92 that includes an integrated suppressor, issued sparingly to Kommando units.
+  name: "пістолет NPZ92"
+  description: "NPZ92 — це версія NP92 із вбудованим глушником, видається обмежено підрозділам Командос."
   components:
   - type: Tag
     tags:
@@ -167,7 +167,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolNP92
-  name: NP92 magazine (9mm)
+  name: "Магазин NP92 (9мм)"
   components:
   - type: Tag
     tags:
@@ -193,7 +193,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: RMCMagazinePistolNP92Extended
-  name: NP92 extended magazine (9mm)
+  name: "Подовжений магазин NP92 (9мм)"
   components:
   - type: Tag
     tags:
@@ -219,7 +219,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletPistolNP92
-  name: bullet (9mm)
+  name: "куля (9мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -229,7 +229,7 @@
 
 - type: entity
   id: RMCCartridgePistolNP92
-  name: cartridge (9mm)
+  name: "набій (9мм)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag

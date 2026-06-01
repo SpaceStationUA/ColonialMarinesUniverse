@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFStandardPVE
-  name: clf standard spawn point
+  name: "спавнер стандарту clf"
   suffix: PVE
   components:
   - type: SpawnPoint

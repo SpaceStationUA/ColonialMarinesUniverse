@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidBravoCombatTech
-  name: bravo ghost role combat technician
+  name: "браво привид-роль бойового техніка"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidBravoFireteamLeader
-  name: bravo ghost role fireteam leader
+  name: "браво привид-роль лідера вогневої команди"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidBravoHospitalCorpsman
-  name: bravo ghost role hospital corpsman
+  name: "браво привид-роль шпитального корпсмена"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidBravoRifleman
-  name: bravo ghost role rifleman
+  name: "браво привид-роль стрільця"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidBravoSmartGunOperator
-  name: bravo ghost role smart gun operator
+  name: "браво привид-роль оператора смартгана"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidBravoSquadLeader
-  name: bravo ghost role squad leader
+  name: "браво привид-роль лідера загону"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidBravoWeaponsSpecialist
-  name: bravo ghost role weapons specialist
+  name: "браво привид-роль спеціаліста з озброєння"
   suffix: Spawner, Player
   components:
   - type: Sprite

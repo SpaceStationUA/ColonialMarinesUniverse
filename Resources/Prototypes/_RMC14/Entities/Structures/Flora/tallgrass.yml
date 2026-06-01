@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseStructure
   id: RMCGrassTallBase
-  name: tallgrass
+  name: "високотрав'я"
   suffix: Centre
   components:
   # make this slashable by only machete

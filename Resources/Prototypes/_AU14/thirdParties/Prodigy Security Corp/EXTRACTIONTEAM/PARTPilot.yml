@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPARTSPartyContractorBase
   id: AU14JobPARTPilot
-  name: Prodigy Extraction Pilot
+  name: "Пілот евакуації Prodigy"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTPilotTracker
   ranks:
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobPARTPilot
-  name: Prodigy Extraction Pilot (3rd party)
+  name: "Пілот евакуації Prodigy (3-тя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -50,7 +50,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Prodigy Extraction Pilot
+    name: "Пілот евакуації Prodigy"
     description: au14-prodigyextract-descriptionn
     reregister: false
     job: AU14JobPARTPilot

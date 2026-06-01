@@ -28,7 +28,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORK9Handler
-  name: (DO NOT MAP) Spawn Point OPFOR K9 Handler
+  name: "(НЕ МАПИТИ) точка появи кінолога ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORk9handler

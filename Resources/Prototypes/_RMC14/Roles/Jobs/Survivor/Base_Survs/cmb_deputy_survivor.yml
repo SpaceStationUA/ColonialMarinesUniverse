@@ -53,7 +53,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCMBDeputy
-  name: survivor cmb deputy spawn point
+  name: "спавнер помічника CMB-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -71,4 +71,4 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetCMBDeputy
-  name: cmb deputy colonist preset
+  name: "пресет колоніста-помічника CMB"

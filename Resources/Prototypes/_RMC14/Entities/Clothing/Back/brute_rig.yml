@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBackpack
   id: RMCM271A2BruteLauncherRig
-  name: M271A2 pattern launcher rig
-  description: A specialized back harness for carrying the M6H-BRUTE breaching launcher and M5510 rockets.
+  name: "підвісна система пускового пристрою зразка M271A2"
+  description: "Спеціалізована наспинна система для перенесення штурмового гранатомета M6H-BRUTE та ракет M5510."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/Backpacks/Marines/brute_rig.rsi

@@ -2,7 +2,7 @@
   parent: CMBaseDoor
   id: RMCDropshipDoorBase
   abstract: true
-  name: crew hatch
+  name: "люк екіпажу"
   placement:
     mode: SnapgridCenter
   components:
@@ -58,7 +58,7 @@
   parent: RMCDropshipDoorBase
   id: RMCDropshipCockpitBase
   abstract: true
-  name: cockpit
+  name: "кокпіт"
   components:
   - type: Sprite
     layers:

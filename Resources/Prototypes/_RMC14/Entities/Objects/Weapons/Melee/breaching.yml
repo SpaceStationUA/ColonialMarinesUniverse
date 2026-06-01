@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseMeleeWeapon, Sledgehammer]
   id: RMCSynthBreachingHammer
-  name: b5 breaching hammer
-  description: This 100-pound monstrosity of a sledgehammer is made of solid tungsten carbide and hits with enough force to level walls like they’re made of paper. It tears through steel and concrete without slowing down, and is completely unusable by anyone without superhuman strength. It’s too heavy for a normal person to even lift.
+  name: "штурмовий молот b5"
+  description: "Ця 100-фунтова чудовиська-кувалда виготовлена з твердого карбіду вольфраму й б'є з силою, достатньою, щоб ламати стіни, ніби вони з паперу. Вона рве крізь сталь і бетон, не сповільнюючись, і повністю непридатна для будь-кого без надлюдської сили. Вона надто важка, щоб звичайна людина її навіть підняла."
   suffix: RMC
   components:
   - type: Sprite

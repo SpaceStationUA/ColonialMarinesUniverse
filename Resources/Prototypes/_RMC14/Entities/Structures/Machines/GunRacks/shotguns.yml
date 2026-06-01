@@ -1,9 +1,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackM42A2Empty
-  name: M42A2 gun rack
+  name: "збройний стелаж M42A2"
   suffix: M42A2, Empty
-  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, UNMC commissioned racks with fixed slots which only fit M42A2 shotguns. Some say they were cheaper, and some say the main reason was marine's ability to easily break anything more complex than a tungsten ball.
+  description: "Виготовлений AEGIS збройний стелаж для зберігання довгої зброї. Хоча початкова модель мала бути дуже модифікованою, ОНМП замовили стелажі з фіксованими слотами, у які поміщаються лише дробовики M42A2. Дехто каже, вони дешевші, інші — що головна причина в тому, що морпіхи легко ламають усе складніше за вольфрамову кульку."
   components:
   - type: ContainerContainer
     containers:
@@ -57,9 +57,9 @@
 - type: entity
   parent: RMCGunRackM42A2Empty
   id: RMCGunRackType23Empty
-  name: Type 23 gun rack
+  name: "збройний стелаж Type 23"
   suffix: Type 23, Empty
-  description: Some off-branded gun rack. Per SOF and UPP Army regulations, weapons should be stored in secure safes and only given out when necessary. Of course, most (but not all!) units overlook this regulation, only storing their firearms in safes when inspection arrives.
+  description: "Якийсь небрендовий збройний стелаж. Згідно з регламентами ССО і Армії СПН, зброю слід зберігати в надійних сейфах і видавати лише за потреби. Звісно, більшість (але не всі!) підрозділів обходять це правило, складаючи свою вогнепальну зброю в сейфи лише на час інспекції."
   components:
   - type: ItemSlots
     slots:

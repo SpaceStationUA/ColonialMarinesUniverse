@@ -25,8 +25,8 @@
 - type: entity
   parent: CMBarFoodBase
   id: CMMarineProteinBar
-  name: stale Marine protein bar
-  description: The most fake-looking protein bar you have ever laid eyes on, covered in a substitution chocolate. The powder used to make these is a substitute of a substitute of whey substitute.
+  name: "черствий протеїновий батончик морпіха"
+  description: "Найбільш фальшиво виглядаючий протеїновий батончик, який ви коли-небудь бачили, покритий шоколадним замінником. Порошок, що використовується для його виготовлення, є замінником замінника замінника сироватки."
   components:
   - type: Sprite
     state: protein_bar
@@ -34,8 +34,8 @@
 - type: entity
   parent: CMBarFoodBase
   id: RMCMarineRCMSnackBar
-  name: Biscuits Brown snack bar
-  description: The devil in disguise. Quick to eat, with a fairly pleasant taste and texture, but consuming more than one in a short span of time will ensure you won't be digging latrine holes out in the field for at least two weeks.
+  name: "батончик «Бісквіт Браун»"
+  description: "Диявол у маскуванні. Швидко з'їдається, з досить приємним смаком та текстурою, але споживання більше одного за короткий проміжок часу гарантує, що ви не будете копати ями для туалетів у полі щонайменше два тижні."
   components:
   - type: Sprite # TODO RMC14 find a proper sprite for this
     sprite: _RMC14/Objects/Consumable/Food/packaged.rsi
