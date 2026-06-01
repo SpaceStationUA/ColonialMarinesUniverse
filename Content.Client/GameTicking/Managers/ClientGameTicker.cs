@@ -1,12 +1,15 @@
 using Content.Client.Administration.Managers;
 using Content.Client.Gameplay;
+using Content.Client.Launcher;
 using Content.Client.Lobby;
 using Content.Client.RoundEnd;
 using Content.Shared.GameTicking;
 using Content.Shared.GameWindow;
 using Content.Shared.Roles;
 using JetBrains.Annotations;
+using Robust.Client;
 using Robust.Client.Graphics;
+using Robust.Client.Player;
 using Robust.Client.State;
 using Robust.Client.UserInterface;
 using Robust.Shared.Prototypes;
@@ -20,8 +23,10 @@ namespace Content.Client.GameTicking.Managers
     {
         [Dependency] private IStateManager _stateManager = default!;
         [Dependency] private IClientAdminManager _admin = default!;
+        [Dependency] private IBaseClient _baseClient = default!;
         [Dependency] private IClyde _clyde = default!;
         [Dependency] private IGameTiming _timing = default!;
+        [Dependency] private IPlayerManager _playerManager = default!;
         [Dependency] private IUserInterfaceManager _userInterfaceManager = default!;
 
         private Dictionary<NetEntity, Dictionary<ProtoId<JobPrototype>, int?>>  _jobsAvailable = new();
@@ -68,13 +73,44 @@ namespace Content.Client.GameTicking.Managers
             SubscribeNetworkEvent<TickerJobsAvailableEvent>(UpdateJobsAvailable);
 
             _admin.AdminStatusUpdated += OnAdminUpdated;
+            _baseClient.RunLevelChanged += OnRunLevelChanged;
+            _playerManager.LocalPlayerAttached += OnLocalPlayerAttached;
             OnAdminUpdated();
         }
 
         public override void Shutdown()
         {
             _admin.AdminStatusUpdated -= OnAdminUpdated;
+            _baseClient.RunLevelChanged -= OnRunLevelChanged;
+            _playerManager.LocalPlayerAttached -= OnLocalPlayerAttached;
             base.Shutdown();
+        }
+
+        private void OnRunLevelChanged(object? sender, RunLevelChangedEventArgs args)
+        {
+            if (args.NewLevel == ClientRunLevel.InGame)
+                EnsureGameplayStateForAttachedPlayer();
+        }
+
+        private void OnLocalPlayerAttached(EntityUid uid)
+        {
+            EnsureGameplayStateForAttachedPlayer();
+        }
+
+        private void EnsureGameplayStateForAttachedPlayer()
+        {
+            if (_baseClient.RunLevel != ClientRunLevel.InGame ||
+                _playerManager.LocalEntity == null ||
+                _stateManager.CurrentState is GameplayState)
+            {
+                return;
+            }
+
+            if (_stateManager.CurrentState is not LauncherConnecting)
+                return;
+
+            Log.Debug($"ClientGameTicker: local player is attached while state is {_stateManager.CurrentState.GetType().Name}; requesting GameplayState");
+            _stateManager.RequestStateChange<GameplayState>();
         }
 
         private void OnAdminUpdated()
