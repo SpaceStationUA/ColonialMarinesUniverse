@@ -23,3 +23,8 @@ rmc-xeno-parasite-ghost-carrier-reserved = {THE($xeno)} зарезервував
 rmc-xeno-parasite-ghost-carrier-dead = {THE($xeno)} мертвий і всі {POSS-ADJ($xeno)} діти померли разом із {OBJECT($xeno)}.
 
 rmc-xeno-parasite-carrier-death = Гомінка маса крихітних прибульців намагається втекти від {THE($xeno)}!
+
+rmc-xeno-parasite-larva-claim-title = Стати личинкою?
+rmc-xeno-parasite-larva-claim-message = Хочете стати личинкою, якщо цей носій її породить?
+rmc-xeno-parasite-larva-claim-yes = Так
+rmc-xeno-parasite-larva-claim-no = Ні

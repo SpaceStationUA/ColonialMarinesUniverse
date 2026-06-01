@@ -27,3 +27,12 @@ rmc-xeno-tracker-target-HiveCore = Ядро Вулика
 rmc-xeno-ui-ovi-needed-label = [bold][color=red]Королева має бути у своєму\nяйцекладі, щоб ви отримували очки![/color][/bold]
 rmc-xeno-ui-evolution-points = Очки еволюції: { $points } / { $maxPoints }
 rmc-ui-xeno-strain-confirm = Підтвердити
+
+rmc-xeno-larva-queue-title = Приєднатися як ксено
+rmc-xeno-larva-queue-hives = Доступні вулики
+rmc-xeno-larva-queue-option = Увійти/вийти з черги личинок ({$hive})
+rmc-xeno-larva-queue-round-delay = Приєднання до вулика під час спостереження вимкнене на початку раунду (залишилось {$seconds} секунд).
+rmc-xeno-larva-queue-removed = Вас прибрано з черги личинок.
+rmc-xeno-larva-queue-added = Вас додано до черги личинок на позицію {$position}.
+rmc-xeno-larva-prequeue-added = Вас додано до попередньої черги личинок (залишилось {$seconds} секунд).
+rmc-xeno-larva-queue-position = Тепер ви на позиції {$position} у черзі личинок.

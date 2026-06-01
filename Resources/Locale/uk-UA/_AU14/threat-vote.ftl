@@ -1,0 +1,13 @@
+au14-threat-ghost-role-name = Загроза
+au14-threat-leader-ghost-role-name = Лідер загрози
+au14-threat-ghost-role-description = Приєднатися як незайняте тіло раундової загрози.
+au14-threat-ghost-role-rules = Ви — раундова загроза. Виконуйте цілі своєї загрози.
+au14-threat-vote-title = Голосування за загрозу
+au14-threat-vote-option-xeno = Загроза ксено
+au14-threat-vote-option-abominations = Загроза потвор
+au14-threat-vote-option-cultist-xeno = Загроза культистів і ксено
+au14-threat-vote-option-tribal = Загроза племені
+au14-threat-vote-option-ape = Загроза мавп
+au14-threat-vote-option-wendigo = Загроза вендиго
+au14-threat-vote-option-generic = {$threat}
+au14-threat-vote-colony-fall-observer-warning = Загроза з'явиться приблизно через {$min}-{$max} хвилин. Ви можете оглянутися як спостерігач, але не перепідключайтеся і не приєднуйтеся до ролі привида, інакше втратите свій шанс на загрозу.
