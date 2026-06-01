@@ -71,6 +71,7 @@ namespace Content.Client.GameTicking.Managers
             SubscribeNetworkEvent<RequestWindowAttentionEvent>(OnAttentionRequest);
             SubscribeNetworkEvent<TickerLateJoinStatusEvent>(LateJoinStatus);
             SubscribeNetworkEvent<TickerJobsAvailableEvent>(UpdateJobsAvailable);
+            InitializeLobbyManifest();
 
             _admin.AdminStatusUpdated += OnAdminUpdated;
             _baseClient.RunLevelChanged += OnRunLevelChanged;

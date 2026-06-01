@@ -91,6 +91,7 @@ namespace Content.Client.Lobby
             Lobby.CharacterPreview.IgnoreAllegianceToggle.OnToggled += OnIgnoreAllegianceToggled;
             Lobby.ReadyButton.OnPressed += OnReadyPressed;
             Lobby.ReadyButton.OnToggled += OnReadyToggled;
+            InitializeLobbyManifestButton();
 
             _gameTicker.InfoBlobUpdated += UpdateLobbyUi;
             _gameTicker.LobbyStatusUpdated += LobbyStatusUpdated;
@@ -138,6 +139,7 @@ namespace Content.Client.Lobby
             Lobby.CharacterPreview.IgnoreAllegianceToggle.OnToggled -= OnIgnoreAllegianceToggled;
             Lobby!.ReadyButton.OnPressed -= OnReadyPressed;
             Lobby!.ReadyButton.OnToggled -= OnReadyToggled;
+            ShutdownLobbyManifestButton();
 
             // Unhook RMC14 buttons
             if (_joinGovforButton != null)

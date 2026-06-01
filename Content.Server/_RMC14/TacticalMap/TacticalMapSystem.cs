@@ -235,6 +235,7 @@ public sealed partial class TacticalMapSystem : SharedTacticalMapSystem
     private void OnUserMapInit(Entity<TacticalMapUserComponent> ent, ref MapInitEvent args)
     {
         _actions.AddAction(ent, ref ent.Comp.Action, ent.Comp.ActionId);
+        EnsureTacMapAlert(ent);
 
         if (TryGetTacticalMap(out var map))
             ent.Comp.Map = map;
@@ -242,6 +243,14 @@ public sealed partial class TacticalMapSystem : SharedTacticalMapSystem
         SyncUserFactionFlags(ent);
         SyncTrackedFaction(ent.Owner);
         Dirty(ent);
+    }
+
+    private void EnsureTacMapAlert(Entity<TacticalMapUserComponent> ent)
+    {
+        if (ent.Comp.ActionId != "RMCActionOpenTacticalMapMarine")
+            return;
+
+        EnsureComp<TacMapMarineAlertComponent>(ent);
     }
 
     private void OnUserFactionChanged<T>(Entity<TacticalMapUserComponent> ent, ref T args)

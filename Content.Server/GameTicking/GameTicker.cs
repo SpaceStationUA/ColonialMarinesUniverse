@@ -101,6 +101,7 @@ namespace Content.Server.GameTicking
             DebugTools.Assert(_prototypeManager.Index(FallbackOverflowJob).Name == FallbackOverflowJobName,
                 "Overflow role does not have the correct name!");
             InitializeGameRules();
+            InitializeLobbyManifest();
             InitializeReplays();
             SubscribeNetworkEvent<Content.Shared.GameTicking.TickerJoinLobbyEvent>(OnTickerJoinLobbyEvent);
             _initialized = true;

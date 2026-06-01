@@ -16,9 +16,10 @@ public sealed partial class TacMapMarineAlertSystem : EntitySystem
         SubscribeLocalEvent<GrantTacMapAlertComponent, GotEquippedEvent>(OnGotEquipped);
         SubscribeLocalEvent<GrantTacMapAlertComponent, GotUnequippedEvent>(OnGotUnequipped);
 
-        SubscribeLocalEvent<TacMapMarineAlertComponent, MapInitEvent>(OnMapInit);
+        SubscribeLocalEvent<TacMapMarineAlertComponent, ComponentStartup>(OnStartup);
         SubscribeLocalEvent<TacMapMarineAlertComponent, ComponentRemove>(OnRemove);
     }
+
     private void OnGotEquipped(Entity<GrantTacMapAlertComponent> ent, ref GotEquippedEvent args)
     {
         if (_timing.ApplyingState)
@@ -36,16 +37,26 @@ public sealed partial class TacMapMarineAlertSystem : EntitySystem
 
         if ((ent.Comp.Slots & args.SlotFlags) == 0)
             return;
-        if (!_inv.TryGetInventoryEntity<GrantTacMapAlertComponent>(args.Equipee, out _))
+        if (!_inv.TryGetInventoryEntity<GrantTacMapAlertComponent>(args.Equipee, out _) &&
+            !HasMarineTacticalMap(args.Equipee))
+        {
             RemCompDeferred<TacMapMarineAlertComponent>(args.Equipee);
+        }
     }
 
-    private void OnMapInit(Entity<TacMapMarineAlertComponent> ent, ref MapInitEvent args)
+    private void OnStartup(Entity<TacMapMarineAlertComponent> ent, ref ComponentStartup args)
     {
         _alerts.ShowAlert(ent, ent.Comp.Alert);
     }
+
     private void OnRemove(Entity<TacMapMarineAlertComponent> ent, ref ComponentRemove args)
     {
         _alerts.ClearAlert(ent, ent.Comp.Alert);
+    }
+
+    private bool HasMarineTacticalMap(EntityUid uid)
+    {
+        return TryComp(uid, out TacticalMapUserComponent? user) &&
+            user.ActionId == "RMCActionOpenTacticalMapMarine";
     }
 }
