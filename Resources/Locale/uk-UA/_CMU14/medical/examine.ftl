@@ -76,6 +76,7 @@ cmu-medical-examine-fracture = { $stabilized ->
 
 cmu-medical-examine-charred-burn-tissue = обвуглена тканина
 cmu-medical-examine-severed = відрізано
+cmu-medical-examine-active-bleeding = активна кровотеча
 
 cmu-medical-examine-sentence-two = { $a } та { $b }
 cmu-medical-examine-sentence-many = { $rest } та { $last }
@@ -84,3 +85,94 @@ cmu-medical-detailed-examine-verb = Оглянути травми
 cmu-medical-detailed-examine-verb-message = Уважніше оглянути їхні травми.
 cmu-medical-detailed-examine-start = Ви починаєте перевіряти { THE($target) } на травми.
 cmu-medical-detailed-examine-none = Очевидних травм не виявлено.
+cmu-medical-detailed-examine-wound = { $mechanism ->
+    [burn] { $size ->
+        [small] невеликий
+        [gaping] зяючий
+        [massive] масивний
+       *[deep] глибокий
+    } опік
+    [bullet] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } кульова рана
+    [stab] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } колота рана
+    [slash] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } різана рана
+    [crush] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } розчавлена рана
+    [blast] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } вибухова рана
+    [fragment] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } уламкова рана
+    [surgical] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } хірургічна рана
+   *[wound] { $size ->
+        [small] невелика
+        [gaping] зяюча
+        [massive] масивна
+       *[deep] глибока
+    } рана
+}
+cmu-medical-detailed-examine-treatment = { $quality ->
+    [optimal] оптимально оброблено
+    [adequate] достатньо оброблено
+   *[other] { $treated ->
+        [yes] оброблено
+       *[no] не оброблено
+    }
+}
+cmu-medical-detailed-examine-external-bleeding = зовнішня кровотеча: { $tier ->
+    [minor] незначна
+    [moderate] помірна
+    [severe] сильна
+    [arterial] артеріальна
+   *[none] немає
+}
+cmu-medical-detailed-examine-burn-eschar = опіковий струп: обвуглена тканина
+cmu-medical-detailed-examine-cleanup-needed = потрібне очищення: { $entries }
+cmu-medical-detailed-examine-cleanup = { $cleanup ->
+    [retained-fragments] застряглі уламки
+    [poor-closure] погане закриття
+    [charred-tissue] обвуглена тканина
+    [crush-debris] залишки розчавлення
+    [dirty-dressing] брудна пов’язка
+   *[other] проблема очищення
+}
+cmu-medical-detailed-examine-optimal = оптимально: { $hint }
+cmu-medical-detailed-examine-optimal-hint = { $hint ->
+    [remove-shrapnel] видалити уламки
+    [hemostatic-dressing] гемостатична травматична пов’язка
+    [sealing-dressing] герметизувальна травматична пов’язка
+    [burn-dressing] опікова травматична пов’язка
+    [compression-dressing] компресійна травматична пов’язка
+    [antiseptic-dressing] антисептична травматична пов’язка
+   *[other] лікування
+}
