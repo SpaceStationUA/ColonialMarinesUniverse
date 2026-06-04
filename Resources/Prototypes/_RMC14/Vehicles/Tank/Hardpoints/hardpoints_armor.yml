@@ -1,8 +1,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankArmorBallistic
-  name: ballistic armor plating
-  description: Ballistic armor plating for a tank.
+  name: "балістична бронеплита"
+  description: "Балістична бронеплита для танка."
   components:
   - type: Sprite
     state: ballistic_armor
@@ -23,8 +23,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankArmorConcussive
-  name: concussive armor plating
-  description: Concussive armor plating for a tank.
+  name: "ударостійка бронеплита"
+  description: "Ударостійка бронеплита для танка."
   components:
   - type: Sprite
     state: concussive_armor
@@ -46,8 +46,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankArmorCaustic
-  name: caustic armor plating
-  description: Caustic armor plating for a tank.
+  name: "каустична бронеплита"
+  description: "Каустична бронеплита для танка."
   components:
   - type: Sprite
     state: caustic_armor
@@ -68,8 +68,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankArmorPaladin
-  name: paladin armor plating
-  description: Paladin armor plating for a tank.
+  name: "бронеплита Паладин"
+  description: "Бронеплита Паладин для танка."
   components:
   - type: Sprite
     state: paladin_armor
@@ -91,8 +91,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankSnowplow
-  name: tank snowplow
-  description: A reinforced snowplow attachment for a tank.
+  name: "танковий сніговий відвал"
+  description: "Посилений сніговий відвал для танка."
   components:
   - type: Sprite
     state: snowplow

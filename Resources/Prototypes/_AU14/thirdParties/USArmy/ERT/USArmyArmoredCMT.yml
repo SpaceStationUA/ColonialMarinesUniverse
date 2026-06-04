@@ -54,7 +54,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyCMTArmored
-  name: US Army Combat Medical Technician (ERT)
+  name: "бойовий медичний технік армії США (ЕРТ)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

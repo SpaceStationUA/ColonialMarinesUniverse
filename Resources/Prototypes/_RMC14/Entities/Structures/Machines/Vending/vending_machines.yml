@@ -2,8 +2,8 @@
 - type: entity
   parent: VendingMachine
   id: CMVendor
-  name: Vendomat
-  description: A generic vending machine.
+  name: "Вендомат"
+  description: "Звичайна торговельна машина."
   components:
   - type: Transform
     anchored: false
@@ -124,8 +124,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCoffee
-  name: Hot Drinks machine
-  description: A vending machine which dispenses hot drinks.
+  name: "Машина з гарячими напоями"
+  description: "Торговельна машина, що видає гарячі напої."
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -159,7 +159,7 @@
 - type: entity
   parent: CMVendorCoffee
   id: RMCVendorCoffeeSimple
-  name: Hot Coffee Machine
+  name: "Машина з гарячою кавою"
   suffix: Simple, Coco and Coffee only
   components:
   - type: VendingMachine
@@ -176,8 +176,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSnack
-  name: Hot Foods Machine
-  description: A vending machine full of ready to cook meals, mhmmmm taste the nutritional goodness!
+  name: "Машина з гарячою їжею"
+  description: "Торговельна машина, повна готових до приготування страв — мммм, відчуй смак поживної благодаті!"
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -217,8 +217,8 @@
 - type: entity
   parent: CMVendorSnack
   id: RMCVendorSnackSPP
-  name: Surplus Ration Vendor
-  description: A vending machine full of surplus rations, viewed as the luxury of ready-avaliable UPP rations.
+  name: "Автомат запасних пайків"
+  description: "Торговельна машина, повна запасних пайків, що сприймаються як розкіш доступних пайків СПН."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/spp_snack.rsi
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCola
-  name: Souto Softdrinks
-  description: A softdrink vendor provided by Souto Soda Company, Havana.
+  name: "Безалкогольні напої Souto"
+  description: "Автомат безалкогольних напоїв від Souto Soda Company, Гавана."
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -265,7 +265,7 @@
 - type: entity
   parent: CMVendorCola
   id: RMCVendorColaResearch
-  description: A softdrink vendor provided by Bobda Soda Company, Havana. This one is bound to the Research Budget card and doesn't require swiping
+  description: "Автомат безалкогольних напоїв від Bobda Soda Company, Гавана. Цей прив'язаний до картки бюджету Досліджень і не потребує сканування"
   suffix: Research
   components:
   - type: VendingMachine
@@ -287,8 +287,8 @@
 - type: entity
   parent: CMVendorCola
   id: RMCVendorNutriCoDrink
-  name: NutriCo AutoDrink
-  description: A NutriCo AutoDrink dispenser, capable of making a variety of drinks to consume from a mixture of water and instant flavoring juice and caffeine additives.
+  name: "NutriCo АвтоНапій"
+  description: "Дозатор NutriCo АвтоНапій, здатний виготовляти різноманітні напої з суміші води та миттєвих ароматизованих соків і кофеїнових добавок."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/NutriCo/drink.rsi
@@ -297,8 +297,8 @@
 - type: entity
   parent: CMVendorCola
   id: RMCVendorColaSPP
-  name: Xuanshi Drinks
-  description: A drinks vendors from a long forgotten branch of the SPP, selling rationed water mixed with thrice diluted 5% flavourments.
+  name: "Напої Сюаньші"
+  description: "Автомат напоїв із давно забутої філії СПН, що продає нормовану воду, змішану з тричі розбавленими 5% ароматизаторами."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/spp_cola.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: RMCVendorColaSPP
   id: RMCVendorNutriCoDrinkSPP
-  name: drink dispenser
+  name: "дозатор напоїв"
   suffix: SPP
   components:
   - type: Sprite
@@ -316,8 +316,8 @@
 - type: entity
   parent: CMVendor
   id: RMCVendorSoda
-  name: Cold Drinks machine
-  description: A vending machine that contains cold drinks. This one appears to be produced by Tsumetai-Umi, a subsidairy of Neterai Foods International, which itself is subsidiary of Weyland-Yutani.
+  name: "Машина з холодними напоями"
+  description: "Торговельна машина з холодними напоями. Ця, схоже, вироблена Tsumetai-Umi, дочірньою компанією Neterai Foods International, яка, у свою чергу, є дочірньою компанією «Вейланд-Ютані»."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sodavend.rsi
@@ -344,8 +344,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorCigs
-  name: Cigarette Machine
-  description: If you want to get cancer, might as well do it in style!
+  name: "Сигаретна машина"
+  description: "Якщо вже хочеш заробити рак, то роби це зі стилем!"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/cigs.rsi
@@ -398,8 +398,8 @@
 - type: entity
   parent: CMVendorCigs
   id: RMCVendorCigsElectro
-  name: Electro Brand Cigarette Machine
-  description: An Electro brand cigarette vending machine. Comes with Lucky Sloths, Lady Fingers, Electro Golds of course, and a few smaller brands you've barely heard of.
+  name: "Сигаретна машина Electro"
+  description: "Сигаретна торговельна машина бренду Electro. Містить Lucky Sloths, Lady Fingers, Electro Golds, звісно, та кілька дрібніших брендів, про які ти ледве чув."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/electro_cigs.rsi
@@ -425,8 +425,8 @@
 - type: entity
   parent: CMVendorCigs
   id: RMCVendorCigsWeYa
-  name: Weyland-Yutani Brand Cigarette Machine
-  description: A Weyland-Yutani Brand cigarette vending machine, looks like a We-Yu Gold pack. Comes with Emerald Greens, We-Yu Golds of course, Arcturian Aces, and some Three Suns Empire brand you've barely heard of. Executive Selects are still out of stock due to shipping issues...
+  name: "Сигаретна машина «Вейланд-Ютані»"
+  description: "Сигаретна торговельна машина бренду «Вейланд-Ютані», виглядає як пачка We-Yu Gold. Містить Emerald Greens, We-Yu Golds, звісно, Arcturian Aces та якийсь бренд Імперії Трьох Сонць, про який ти ледве чув. Executive Selects досі немає у наявності через проблеми з постачанням..."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/weya_cigs.rsi
@@ -453,8 +453,8 @@
 - type: entity
   parent: CMVendorCigs
   id: RMCVendorCigsSPP
-  name: Komandir Cigarettes Vendor
-  description: A state-owned cigarette vendor. Its drab colour was chosen to discourage purchases, but its existence is an admittance to the necessity for such machines to exist in the first place.
+  name: "Автомат сигарет «Командир»"
+  description: "Державний автомат сигарет. Його тьмяний колір обрано, щоб відбити охоту купувати, але саме його існування є визнанням необхідності існування таких машин узагалі."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/spp_cigs.rsi
@@ -463,8 +463,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSec
-  name: SecTech
-  description: A security equipment vendor.
+  name: "SecTech"
+  description: "Автомат спорядження охорони."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sec.rsi
@@ -511,8 +511,8 @@
 - type: entity
   parent: CMVendor
   id: RMCVendorSecArmory
-  name: Riot Tech
-  description: A security riot equipment vendor.
+  name: "Riot Tech"
+  description: "Автомат спорядження для розгону заворушень."
   suffix: Military Police
   components:
   - type: Sprite
@@ -544,8 +544,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSEA
-  name: SEATech
-  description: An equipment vendor designed to save lives
+  name: "SEATech"
+  description: "Автомат спорядження, призначений рятувати життя"
   suffix: SEA
   components:
   - type: Sprite
@@ -576,8 +576,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorNutri
-  name: NutriMax
-  description: A plant nutrients vendor.
+  name: "NutriMax"
+  description: "Автомат добрив для рослин."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/nutri.rsi
@@ -608,8 +608,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSeeds
-  name: MegaSeed Servitor
-  description: When you need seeds fast!
+  name: "MegaSeed Servitor"
+  description: "Коли тобі швидко потрібне насіння!"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/seeds.rsi
@@ -669,8 +669,8 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorDinnerware
-  name: Dinnerware
-  description: A kitchen and restaurant equipment vendor.
+  name: "Посуд"
+  description: "Автомат кухонного та ресторанного приладдя."
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -785,8 +785,8 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSodaSoviet
-  name: BODA
-  description: An old sweet water vending machine, how did this end up here?
+  name: "БОДА"
+  description: "Стара торговельна машина солодкої води — як вона тут опинилася?"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sovietsoda.rsi
@@ -804,8 +804,8 @@
 - type: entity
   parent: CMVendorDinnerware
   id: CMVendorIngredients
-  name: Galley Auxiliary Storage Requisition System
-  description: A vending machine meant to be use for cooks.
+  name: "Допоміжна система постачання камбуза"
+  description: "Торговельна машина, призначена для кухарів."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/snack.rsi

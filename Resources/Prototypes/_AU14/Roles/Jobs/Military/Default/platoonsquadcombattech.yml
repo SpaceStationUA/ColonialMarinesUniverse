@@ -70,7 +70,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadCombatTech
-  name: Spawn Point GOVFOR Comtech
+  name: "точка появи бойового техніка ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadCombatTech

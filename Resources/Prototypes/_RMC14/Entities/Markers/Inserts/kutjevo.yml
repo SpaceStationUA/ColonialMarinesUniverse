@@ -2,7 +2,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertKutjevoCommunications
-  name: SE Checkpoint
+  name: "SE Чекпоінт"
   suffix: Insert Kutjevo
   components:
   - type: MapInsert
@@ -16,7 +16,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertKutjevoCleaningProgBotany
-  name: Cleaning Botany
+  name: "Прибиральна Ботаніка"
   suffix: Insert Kutjevo
   components:
   - type: MapInsert
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertKutjevoTrappedMonke
-  name: Trapped Clown
+  name: "Спійманий Клоун"
   suffix: Insert Kutjevo
   components:
   - type: MapInsert
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertSolarisPlinkingSpotNorthLZ
-  name: Plinking Spot North LZ
+  name: "Місце для пострілів — Північ LZ"
   suffix: Insert Kutjevo
   components:
   - type: MapInsert
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertKutjevoCLFSmugglers
-  name: CLF Smugglers
+  name: "Контрабандисти CLF"
   suffix: Insert Kutjevo
   components:
   - type: MapInsert
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertKutjevoLZ1Alternative
-  name: LZ1 Alternative
+  name: "LZ1 Альтернативний"
   suffix: Insert Kutjevo
   components:
   - type: MapInsert

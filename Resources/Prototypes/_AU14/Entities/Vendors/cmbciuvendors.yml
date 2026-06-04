@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUapparelvendor
-  name: CMB CIU apparel vendor
+  name: "автомат одягу ПКВ БКМ"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Crisis Intervention Unit apparel from the Colonial Marshall Bureau.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -179,7 +179,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUequipmentvendor
-  name: CMB CIU equipment vendor
+  name: "автомат спорядження ПКВ БКМ"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Crisis Intervention Unit equipment from the Colonial Marshall Bureau.
     Stocked with medical supplies and field gear for rapid deployment following cryogenic hypersleep or emergency mobilization.
@@ -270,7 +270,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUTacticalMedicVendor
-  name: CMB CIU Tactical Medic Vendor
+  name: "автомат тактичного медика ПКВ БКМ"
   description: >-
     An automated medical rack, hooked up to a compact stock of Crisis Intervention Unit trauma supplies from the Colonial Marshall Bureau.
     Standard issue for corpsmen aboard naval vessels, outposts and colonies where casualties arrive faster than reinforcements.
@@ -378,7 +378,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUPilotVendor
-  name: CMB CIU aircrew vendor
+  name: "автомат авіаекіпажу ПКВ БКМ"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Crisis Intervention Unit aircrew flight and support gear from the Colonial Marshall Bureau.
     Engineered to get flight personnel flight-ready in seconds after cryogenic hypersleep or scramble orders.
@@ -555,7 +555,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUCommandVendor
-  name: CMB CIU command vendor
+  name: "командний автомат ПКВ БКМ"
   description: >-
     An automated command rack, hooked up to a restricted storage of Crisis Intervention Unit leadership equipment from the Colonial Marshall Bureau.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -624,7 +624,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUGunnerVendor
-  name: CMB CIU automatic rifleman equipment vendor
+  name: "автомат спорядження автоматника ПКВ БКМ"
   description: >-
     An automated weapons rack, hooked up to a small armory of Crisis Intervention Unit light-machine gun equipment from the Colonial Marshall Bureau.
     Standard issue for designated LMG crews on naval vessels and outposts.
@@ -650,7 +650,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUSectionLeader
-  name: CMB CIU section leader vendor
+  name: "автомат командира секції ПКВ БКМ"
   description: >-
     An automated equipment rack, hooked up to a compact storage of Crisis Intervention Unit section-leadership equipment from the Colonial Marshall Bureau.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -671,7 +671,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUWeaponsVendor
-  name: CMB CIU weapons rack
+  name: "збройова стійка ПКВ БКМ"
   description: >-
     An automated weapons rack, hooked up to a small armory of Crisis Intervention Unit weaponry from the Colonial Marshall Bureau.
     Standard issue across the frontier where threats can appear without warning.
@@ -720,7 +720,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CMBCIUSpecialWeaponsVendor
-  name: CMB CIU Special Weapons Rack
+  name: "стійка спеціальної зброї ПКВ БКМ"
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of Crisis Intervention Unit heavy and breaching ordnance from the Colonial Marshall Bureau.
     Standard issue only for qualified operators.
@@ -782,8 +782,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14MilitaryPolicemanGenericVendorCIU
-  name: CMB CIU internal affairs equipment rack
-  description: An automated rack hooked up to a small storage of military police equipment.
+  name: "стійка спорядження внутрішніх справ ПКВ БКМ"
+  description: "Автоматизована стійка, під’єднана до невеликого запасу спорядження військової поліції."
   components:
   - type: Sprite
     sprite: _AU14/Structures/Vendors/assortedequipment.rsi
@@ -837,8 +837,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14CMBCIURequisitionVendor
-  name: CMB CIU automated requisitions vendor
-  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
+  name: "автоматизований автомат постачання ПКВ БКМ"
+  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetUSArmy
-  name: US Army headset
-  description: Issued to US Army units.
+  name: "гарнітура армії США"
+  description: "Видається підрозділам армії США."
   suffix: US Army
   components:
   - type: Sprite
@@ -24,8 +24,8 @@
 - type: entity
   parent: AU14HeadsetGovforCommand
   id: AU14HeadsetUSArmyERT
-  name: US Army ERT radio headset
-  description: Issued to US Army units.
+  name: "радіогарнітура ГШР армії США"
+  description: "Видається підрозділам армії США."
   components:
   - type: RMCHeadset
     channels:
@@ -34,14 +34,14 @@
 - type: entity
   parent: AU14HeadsetUSArmyERT
   id: AU14HeadsetFORECONERT
-  name: UNMC SOF headset
-  description: Issued exclusively to Marine Raiders and members of the UNMC's Force Reconnaissance.
+  name: "гарнітура ССО МК ООН"
+  description: "Видається виключно морським рейдерам і членам силової розвідки МК ООН."
 
 - type: entity
   parent: AU14HeadsetGovforCommand
   id: AU14HeadsetRMCRRT
-  name: RMC RRT radio headset
-  description: Issued to Royal Commandos units.
+  name: "радіогарнітура ГШР КМП"
+  description: "Видається підрозділам королівських командос."
   components:
   - type: RMCHeadset
     channels:
@@ -50,8 +50,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetVAI
-  name: vanguard's arrow headset
-  description: A special headset used by Vanguard's Arrow Incorporated mercenaries, features a non-standard brace.
+  name: "гарнітура Вангардс Ерроу"
+  description: "Спеціальна гарнітура, яку використовують найманці Вангардс Ерроу Інкорпорейтед; має нестандартну дужку."
   suffix: VAI, Ambassador
   components:
   - type: ContainerFill
@@ -69,9 +69,9 @@
 - type: entity
   parent: AU14HeadsetGovforCommand
   id: AU14HeadsetVAIERT
-  name: vanguard's arrow headset
+  name: "гарнітура Вангардс Ерроу"
   suffix: VAI, GOVFOR
-  description: A special headset used by Vanguard's Arrow Incorporated mercenaries, features a non-standard brace.
+  description: "Спеціальна гарнітура, яку використовують найманці Вангардс Ерроу Інкорпорейтед; має нестандартну дужку."
   components:
   - type: RMCHeadset
     channels:
@@ -80,8 +80,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14HeadsetVAIColony
-  name: vanguard's arrow headset
-  description: A special headset used by Vanguard's Arrow Incorporated mercenaries, features a non-standard brace.
+  name: "гарнітура Вангардс Ерроу"
+  description: "Спеціальна гарнітура, яку використовують найманці Вангардс Ерроу Інкорпорейтед; має нестандартну дужку."
   suffix: VAI, Colony
   components:
   - type: RMCHeadset
@@ -91,8 +91,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14HeadsetPART
-  name: Prodigy Armed Repair Team headset
-  description: A special headset used by Prodigy Armed Repair Team, features a unique brace.
+  name: "гарнітура Озброєної ремонтної групи Продіджі"
+  description: "Спеціальна гарнітура, що використовується Озброєною ремонтною групою Продіджі, має унікальне кріплення."
   suffix: PART, 3rd Party
   components:
   - type: ContainerFill

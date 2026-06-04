@@ -1,7 +1,7 @@
 - type: entity
   id: HiveAcidPillarXeno
-  name: acid pillar
-  description: A tall pillar that is capable of firing weak acid.
+  name: "кислотна колона"
+  description: "Висока колона, здатна вистрілювати слабкою кислотою."
   components:
   - type: Transform
     anchored: true

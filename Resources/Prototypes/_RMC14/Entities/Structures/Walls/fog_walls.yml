@@ -1,8 +1,8 @@
 ﻿# TODO RMC14 make a central system to manage these instead of ticking them all separately
 - type: entity
   id: RMCFogWallPermanent
-  name: dense fog
-  description: It looks way too dangerous to traverse.
+  name: "густий туман"
+  description: "Виглядає надто небезпечно, щоб пройти крізь нього."
   suffix: Permanent
   placement:
     mode: SnapgridCenter
@@ -36,7 +36,7 @@
 - type: entity
   parent: RMCFogWallPermanent
   id: RMCFogWall25
-  description: It looks way too dangerous to traverse. Best wait until it has cleared up.
+  description: "Виглядає надто небезпечно, щоб пройти крізь нього. Найкраще зачекати, поки розсіється."
   suffix: 25 minutes
   components:
   - type: TimedDespawn
@@ -53,8 +53,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCFogWallRemoverOne
-  name: random fog remover
-  description: Marks this fog for random removal at round-start.
+  name: "випадковий усувач туману"
+  description: "Позначає цей туман для випадкового видалення на початку раунду."
   suffix: group one
   components:
   - type: Sprite
@@ -70,8 +70,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCFogWallAdderOne
-  name: random fog spawner
-  description: Marks a spot for random fog spawning at round-start.
+  name: "випадковий генератор туману"
+  description: "Позначає місце для випадкової появи туману на початку раунду."
   suffix: group one, 25 minutes
   components:
   - type: Sprite
@@ -116,7 +116,7 @@
 
 - type: entity
   id: RMCFogShockwave
-  name: shockwave smoke
+  name: "ударний дим"
   components:
   - type: Transform
     anchored: true
@@ -133,7 +133,7 @@
 - type: entity
   id: RMCFogSpawner15
   parent: MarkerBase
-  name: fog blocker
+  name: "блокувальник туману"
   suffix: 15 minutes
   components:
   - type: Sprite

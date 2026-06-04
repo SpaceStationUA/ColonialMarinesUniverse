@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobWYPMCPartyContractorBase
   id: AU14JobWYSurvPMC
-  name: au14-job-name-wypmc
+  name: "au14-job-name-wypmc"
   description: au14-wysurv-greeting
   ranks:
     AU14RankWeYuRecruit: []
@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYSurvPMC
-  name: WY PMC Contractor (Survivor)
+  name: "Контрактор ПВК ВЮ (виживший)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

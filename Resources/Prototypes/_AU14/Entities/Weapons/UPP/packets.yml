@@ -1,9 +1,9 @@
 - type: entity
   parent: CMPacketBase
   id: AU14PacketGrenadeHighExplosiveUPP
-  name: Type 6 fragmentation grenade packet
+  name: "пакет осколкових гранат Тип 6"
   suffix: UPP
-  description: It contains six Type 6 fragmentation grenades. Handle with care.
+  description: "Містить шість осколкових гранат Тип 6. Поводьтеся обережно."
   components:
   - type: Sprite
     layers:
@@ -26,8 +26,8 @@
   parent: RMCBoxBase
   id: AU14BoxHEDPUPP
   suffix: UPP
-  name: Type 6 fragmentation grenade box
-  description: A secure box holding 12 type 6 fragmentation grenades. Ensure pins are in place before removing from the box.
+  name: "коробка осколкових гранат Тип 6"
+  description: "Захищена коробка з 12 осколковими гранатами Тип 6. Перед вийманням із коробки переконайтеся, що чеки на місці."
   components:
   - type: Sprite
     layers:
@@ -49,9 +49,9 @@
 - type: entity
   parent: CMPacketBase
   id: AU14PacketGrenadeSmokeUPP
-  name: RDG-17 smoke grenade packet
+  name: "пакет димових гранат RDG-17"
   suffix: UPP
-  description: It contains six RDG-17 smoke grenades.
+  description: "Містить шість димових гранат RDG-17."
   components:
   - type: Sprite
     layers:
@@ -74,8 +74,8 @@
   parent: RMCBoxBase
   id: AU14BoxSmokeUPP
   suffix: UPP
-  name: RDG-17 smoke grenade box
-  description: A secure box holding 12 RDG-17 smoke grenades. Ensure pins are in place before removing from the box.
+  name: "коробка димових гранат RDG-17"
+  description: "Захищена коробка з 12 димовими гранатами RDG-17. Перед вийманням із коробки переконайтеся, що чеки на місці."
   components:
   - type: Sprite
     layers:
@@ -97,9 +97,9 @@
 - type: entity
   parent: CMPacketBase
   id: AU14PacketGrenadeIncendiaryUPP
-  name: Type 8 incendiary grenade packet
+  name: "пакет запалювальних гранат Тип 8"
   suffix: UPP
-  description: It contains three type 8 white phosphorus grenades.
+  description: "Містить три фосфорні гранати Тип 8."
   components:
   - type: Sprite
     layers:
@@ -122,8 +122,8 @@
   parent: RMCBoxBase
   id: AU14BoxHIDPUPP
   suffix: UPP
-  name: Type 8 WP grenade box
-  description: A secure box holding 12 type 8 WP grenades. Ensure pins are in place before removing from the box.
+  name: "коробка фосфорних гранат Тип 8"
+  description: "Захищена коробка з 12 фосфорними гранатами Тип 8. Перед вийманням із коробки переконайтеся, що чеки на місці."
   components:
   - type: Sprite
     layers:

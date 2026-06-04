@@ -31,7 +31,7 @@
 - type: accessLevel
   id: CMAccessCE
   parent: RMCBaseEngineeringAccess
-  name: Chief Engineer
+  name: "Головний інженер"
 
 - type: accessLevel
   id: CMAccessASO
@@ -41,17 +41,17 @@
 - type: accessLevel
   id: CMAccessCorp
   parent: RMCBaseHidden
-  name: cm-job-name-corp
+  name: "cm-job-name-corp"
 
 - type: accessLevel
   id: RMCAccessDatabase
   parent: RMCBaseCommandAccess
-  name: Database
+  name: "База даних"
 
 - type: accessLevel
   id: RMCAccessSeniorCommand
   parent: RMCBaseCommandAccess
-  name: Senior Command
+  name: "Старше командування"
 
 # Admin only.
 - type: accessLevel

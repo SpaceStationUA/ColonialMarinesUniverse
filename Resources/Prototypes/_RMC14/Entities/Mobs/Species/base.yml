@@ -3,7 +3,7 @@
   parent: BaseMobSpecies
   id: RMCBaseMobSpeciesOrganic
   abstract: true
-  name: Urist C.M. McHands
+  name: "Уріст В.М. МакРукі"
   suffix: RMC14
   components:
   - type: Butcherable

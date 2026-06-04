@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCHandsVeteran
   id: AU14HandsProdigyRU
-  name: Prodigy Response Unit gloves
-  description: Standard issue kevlon fiber gloves manufactured for and by Prodigy Security Corp. They are insulated against electrical shock.
+  name: "рукавиці Підрозділу реагування Продіджі"
+  description: "Стандартні рукавиці з кевлонового волокна, виготовлені для корпорації Продіджі Сек'юриті та нею ж. Мають ізоляцію від електричного струму."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Hands/Gloves/pmc.rsi

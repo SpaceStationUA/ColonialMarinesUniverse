@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCPropBase
   id: RMCDrill
-  name: mining drill
-  description: An old mining drill, seemingly used for mining. And possibly drilling.
+  name: "шахтарський бур"
+  description: "Старий шахтарський бур, очевидно, використовується для видобутку. І, можливо, для буріння."
   components:
   - type: Fixtures
     fixtures:

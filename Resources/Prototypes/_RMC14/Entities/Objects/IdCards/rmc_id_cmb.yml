@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMIDCardBase
   id: RMCIDCardCMBDeputy
-  name: CMB deputy silver badge
-  description: The silver badge which represents that the wearer is a CMB Deputy. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "срібний значок депутата БКМ"
+  description: "Срібний значок, що позначає його носія як депутата БКМ. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/cmb_deputy.rsi
@@ -17,14 +17,14 @@
 - type: entity
   parent: RMCIDCardCMBDeputy
   id: RMCIDCardCMBRiotOfficer
-  name: CMB riot control officer silver badge
-  description: The silver badge which represents that the wearer is a CMB Riot Control Officer. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "срібний значок офіцера розгону заворушень БКМ"
+  description: "Срібний значок, що позначає його носія як офіцера розгону заворушень БКМ. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
 
 - type: entity
   parent: CMIDCardBase
   id: RMCIDCardCMBMarshal
-  name: CMB marshal gold badge
-  description: A coveted gold badge signifying that the wearer is one of the few CMB Marshals patroling the outer rim. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "золотий значок маршала БКМ"
+  description: "Жаданий золотий значок, що позначає його носія як одного з небагатьох маршалів БКМ, що патрулюють зовнішні околиці. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/cmb_marshal.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardCMBDeputySurvivor
-  name: bureau deputy silver badge
-  description: The silver badge which represents that the wearer is a Bureau Deputy. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "срібний значок депутата Бюро"
+  description: "Срібний значок, що позначає його носія як депутата Бюро. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/cmb_deputy.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardCMBMarshalSurvivor
-  name: bureau marshal gold badge
-  description: A coveted gold badge signifying that the wearer is one of the few CMB Marshals patroling the outer rim. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "золотий значок маршала Бюро"
+  description: "Жаданий золотий значок, що позначає його носія як одного з небагатьох маршалів БКМ, що патрулюють зовнішні околиці. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/cmb_marshal.rsi

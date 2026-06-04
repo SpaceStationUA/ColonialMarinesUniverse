@@ -1,8 +1,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: CMIntercom
-  name: intercom
-  description: An intercom. For when the marines just needs to know something.
+  name: "інтерком"
+  description: "Інтерком. Для тих випадків, коли морпіхам просто треба щось дізнатися."
   abstract: true
   components:
   - type: WallMount

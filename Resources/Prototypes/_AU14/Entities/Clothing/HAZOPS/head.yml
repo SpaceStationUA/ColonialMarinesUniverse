@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14HAZOPShecuBeret
-  name: HAZOPS beret
-  description: A beret bearing the insignia of the Hazardous Operations Unit. My. Ass. Is. HEAVY!
+  name: "берет ХАЗОПС"
+  description: "Берет зі знаками підрозділу небезпечних операцій. Моя. Дупа. ВАЖКА!"
   components:
   - type: Sprite
     sprite:  _AU14/Clothing/HAZOPS/hazopsberet.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14HAZOPShelmet
-  name: MAR-PASGT helmet
-  description: A much less expensive variant of the army's PASGT system helmet. More compact and lightweight, ideal for HAZOPS teams.
+  name: "шолом MAR-PASGT"
+  description: "Значно дешевший варіант армійського шолома системи PASGT. Компактніший і легший, ідеальний для команд ХАЗОПС."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/HAZOPS/pagst.rsi

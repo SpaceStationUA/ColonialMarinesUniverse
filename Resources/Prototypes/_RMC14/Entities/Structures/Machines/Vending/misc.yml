@@ -2,8 +2,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechFOBSupplies
-  name: ColMarTech Automated FOB Supplies Vendor
-  description: An automated restockable storage vendor for use in organizing FOB supplies.
+  name: "Автоматизований автомат постачання FOB ColMarTech"
+  description: "Автоматизований автомат сховища, що поповнюється, для організації постачання FOB."
   components:
   - type: ApcPowerReceiver
     powerLoad: 0

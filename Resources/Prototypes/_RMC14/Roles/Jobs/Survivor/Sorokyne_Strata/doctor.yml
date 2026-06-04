@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorMoHDoctor
-  name: ministry of health doctor spawn point
+  name: "спавнер лікаря міністерства охорони здоров'я"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -54,7 +54,7 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetMoHDoctor
-  name: ministry of health doctor preset
+  name: "пресет лікаря міністерства охорони здоров'я"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

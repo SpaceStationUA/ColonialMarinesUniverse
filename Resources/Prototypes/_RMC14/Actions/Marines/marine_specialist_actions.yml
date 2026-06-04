@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: ActionMarineToggleable
   id: RMCActionSpecialistBase
-  name: Spec Ability
+  name: "Здібність Спеціаліста"
   abstract: true
   components:
   - type: ActionBlockIfDevoured
@@ -9,8 +9,8 @@
 - type: entity
   parent: RMCActionSpecialistBase
   id: RMCActionGhilliePreparePosition
-  name: Prepare Position
-  description: Use the ghillie suit and the nearby environment to become near invisible.
+  name: "Підготувати Позицію"
+  description: "Використовуйте гільє-костюм і навколишнє середовище, щоб стати майже невидимим."
   components:
   - type: Action
     icon:
@@ -25,8 +25,8 @@
 - type: entity
   parent: RMCActionSpecialistBase
   id: RMCActionToggleCloak
-  name: Toggle Cloak
-  description: Enable or Disable your Thermal Cloak
+  name: "Перемкнути Маскування"
+  description: "Увімкнути або вимкнути ваш термальний плащ"
   components:
   - type: Action
     icon:
@@ -40,8 +40,8 @@
 - type: entity
   parent: RMCActionSpecialistBase
   id: RMCActionFireShield
-  name: Activate Fire Shield
-  description: Activate your armor's FIREWALK protocol for a short duration.
+  name: "Активувати Вогняний Щит"
+  description: "Активуйте протокол FIREWALK вашої броні на короткий час."
   components:
   - type: Action
     icon:

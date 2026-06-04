@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: AU14GogglesM1A1ClearBallistic
-  name: clear M1A1 ballistic goggles
-  description: Newer issue USCM goggles. They are capable of preventing insects, dust, and other things from getting into one's eyes.
+  name: "прозорі балістичні окуляри M1A1"
+  description: "Новіші штатні окуляри ККМП США. Вони здатні запобігати потраплянню комах, пилу та інших речей в очі."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Goggles/m1a1clear.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: AU14GogglesM1A1Ballistic
-  name: M1A1 ballistic goggles
-  description: Newer issue USCM goggles. They are capable of preventing insects, dust, and other things from getting into one's eyes.
+  name: "балістичні окуляри M1A1"
+  description: "Новіші штатні окуляри ККМП США. Вони здатні запобігати потраплянню комах, пилу та інших речей в очі."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Goggles/m1a1.rsi
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: AU14GogglesM1A1DarkBallistic
-  name: dark M1A1 ballistic goggles
-  description: Newer issue USCM goggles. They are capable of preventing insects, dust, and other things from getting into one's eyes.
+  name: "темні балістичні окуляри M1A1"
+  description: "Новіші штатні окуляри ККМП США. Вони здатні запобігати потраплянню комах, пилу та інших речей в очі."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Goggles/m1a1dark.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: AU14GogglesM60
-  name: M60 ballistic goggles
-  description: Older issue USCM goggles. They are capable of preventing insects, dust, and other things from getting into one's eyes.
+  name: "балістичні окуляри M60"
+  description: "Старіші штатні окуляри ККМП США. Вони здатні запобігати потраплянню комах, пилу та інших речей в очі."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Goggles/m1a1darkalt.rsi
@@ -73,8 +73,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: AU14GogglesM1A1LaserBallistic
-  name: laser shielded M1A1 ballistic goggles
-  description: Newer issue USCM goggles. They are capable of preventing insects, dust, and other things from getting into one's eyes. Also protects your eyes from lasers!
+  name: "лазерозахисні балістичні окуляри M1A1"
+  description: "Новіші штатні окуляри ККМП США. Вони здатні запобігати потраплянню комах, пилу та інших речей в очі. Також захищають очі від лазерів!"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Goggles/m1a1green.rsi
@@ -91,8 +91,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: AU14GogglesM1A1PolarizedBallistic
-  name: ventrax polarized goggles
-  description: On the market as civilian goggles, the brand’s pretty ambiguous, but they seem to be made by Ventrax, a subsidiary of some other Wey-Yu subsidiary. Figures. They were probably meant for skiing, you don’t really remember or care. Surprisingly, they make decent combat goggles... at least better than the M1A1s or God forbid, those M60s. The LT says the colored lens will get you killed by a sniper... but at least you’ll die looking cool.
+  name: "поляризовані окуляри Вентракс"
+  description: "На ринку продаються як цивільні окуляри; бренд досить неоднозначний, але, схоже, їх виготовляє Вентракс, дочірня компанія якоїсь іншої дочірньої компанії Ве-Ю. Типово. Напевно, вони призначалися для лиж, ви вже не дуже пам’ятаєте і вам байдуже. Дивно, але з них виходять пристойні бойові окуляри... принаймні кращі за M1A1 або, Боже збав, ті M60. Лейтенант каже, що кольорова лінза приведе вас до смерті від снайпера... але принаймні ви помрете зі стилем."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Goggles/m1a1polarized.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: AU14GogglesM1A1OrangeBallistic
-  name: ventrax orange goggles
-  description: On the market as civilian goggles, the brand’s pretty ambiguous, but they seem to be made by Ventrax, a subsidiary of some other Wey-Yu subsidiary. Figures. They were probably meant for skiing, you don’t really remember or care. Surprisingly, they make decent combat goggles... at least better than the M1A1s or God forbid, those M60s. You swear the orange tint makes you see better at night.
+  name: "помаранчеві окуляри Вентракс"
+  description: "На ринку продаються як цивільні окуляри; бренд досить неоднозначний, але, схоже, їх виготовляє Вентракс, дочірня компанія якоїсь іншої дочірньої компанії Ве-Ю. Типово. Напевно, вони призначалися для лиж, ви вже не дуже пам’ятаєте і вам байдуже. Дивно, але з них виходять пристойні бойові окуляри... принаймні кращі за M1A1 або, Боже збав, ті M60. Ви клянетеся, що помаранчевий відтінок допомагає краще бачити вночі."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Goggles/m1a1orange.rsi

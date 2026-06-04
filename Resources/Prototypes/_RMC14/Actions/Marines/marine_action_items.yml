@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScope
-  name: Toggle Optics
-  description: Scope in or out with your optics.
+  name: "Перемкнути Оптику"
+  description: "Зосередіть або відключіть свою оптику."
   components:
   - type: Action
     icon:
@@ -15,8 +15,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: Cycle Zoom Level
-  description: Change the level of magnification of your optics.
+  name: "Цикл Рівня Збільшення"
+  description: "Змінити рівень збільшення вашої оптики."
   components:
   - type: Action
     icon:
@@ -32,8 +32,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScoutVision
-  name: Toggle the M42 scout sight
-  description: Allows you to see even in complete darkness.
+  name: "Перемкнути приціл скаута M42"
+  description: "Дозволяє вам бачити навіть у повній темряві."
   components:
   - type: Action
     icon:
@@ -49,8 +49,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleExperimentalMesons
-  name: Toggle experimental meson goggles
-  description: Enables synthetic meson-assisted terrain imaging.
+  name: "Перемкнути експериментальні мезонні окуляри"
+  description: "Вмикає синтетичну допоміжну візуалізацію місцевості мезонами."
   components:
   - type: Action
     icon:
@@ -66,8 +66,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIDLock
-  name: Toggle ID lock
-  description: Toggles the ID lock on the gun, allowing anyone to use it.
+  name: "Перемкнути ID-блокування"
+  description: "Перемикає ID-блокування на пістолеті, дозволяючи будь-кому користуватися ним."
   components:
   - type: Action
     icon:
@@ -79,8 +79,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIFF
-  name: Toggle IFF
-  description: Toggles the IFF on the gun.
+  name: "Перемкнути IFF"
+  description: "Перемикає IFF на пістолеті."
   components:
   - type: Action
     icon:
@@ -92,8 +92,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleAttachable
-  name: Toggle Attachable
-  description: Toggle an attachable. If you're seeing this, someone forgot to set the description properly.
+  name: "Перемкнути обвіс"
+  description: "Перемкнути обвіс. Якщо ви це бачите, хтось забув правильно встановити опис."
   components:
   - type: Action
     icon:
@@ -105,8 +105,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: Whistle
-  description: Blow the whistle.
+  name: "Свистіти"
+  description: "Дути в свисток."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -120,8 +120,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionTelephone
-  name: Use Phone
-  description: Used to call another phone.
+  name: "Користуватися Телефоном"
+  description: "Використовується для виклику іншого телефона."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -138,8 +138,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleMedhud
-  name: Toggle Medical HUD
-  description: Toggle the optical matrix of the medical HUD.
+  name: "Перемкнути Медичний HUD"
+  description: "Перемкнути оптичну матрицю медичного HUD."
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -149,8 +149,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleSynthHud
-  name: Toggle Synthetic HUD
-  description: Toggle the integrated synthetic medical HUD.
+  name: "Перемкнути Синтетичний HUD"
+  description: "Перемкнути інтегрований медичний HUD синтетика."
   components:
   - type: Action
     icon:
@@ -166,8 +166,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleSechud
-  name: Toggle Security HUD
-  description: Toggle the optical matrix of the security HUD.
+  name: "Перемкнути HUD Охорони"
+  description: "Перемкнути оптичну матрицю HUD охорони."
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -177,8 +177,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleWeldingGoggles
-  name: Toggle the welding goggles
-  description: Change the positions of the welding goggles on your forehead.
+  name: "Перемкнути зварювальні окуляри"
+  description: "Змінити позицію зварювальних окулярів на лобі."
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -188,8 +188,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleVisor
-  name: Cycle helmet HUD
-  description: Cycles the currently active visor.
+  name: "Цикл шолом-HUD"
+  description: "Циклічно перемикає поточний активний візор."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -203,8 +203,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionSpotTarget
-  description: Hover your mouse over a target and press the unique action key to start spotting.
-  name: Spot Target
+  description: "Наведіть мишу на ціль і натисніть клавішу унікальної дії, щоб почати розмітку."
+  name: "Розмітити Ціль"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -217,8 +217,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleLaser
-  name: Toggle Laser
-  description: Toggles your laser on or off
+  name: "Перемкнути Лазер"
+  description: "Вмикає або вимикає ваш лазер"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -232,8 +232,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionAimedShot
-  name: Aimed Shot
-  description: While in combat mode and hovering your mouse over a target, press the unique action key to begin aiming.
+  name: "Прицільний Постріл"
+  description: "Перебуваючи в режимі бою і навівши мишу на ціль, натисніть клавішу унікальної дії, щоб почати прицілювання."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -246,8 +246,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionBroiler
-  name: Switch Tank
-  description: Switch to a different fuel tank.
+  name: "Замінити Бак"
+  description: "Перейти на інший паливний бак."
   components:
   - type: Action
   - type: InstantAction
@@ -256,8 +256,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionDismount
-  name: Dismount
-  description: Stop using the weapon
+  name: "Демонтувати"
+  description: "Перестати використовувати зброю"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -271,8 +271,8 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleCBRNHelmet
-  name: Toggle CBRN Mask
-  description: Raise or lower the integrated MOPP mask to toggle full fire protection.
+  name: "Перемкнути CBRN Маску"
+  description: "Підняти або опустити інтегровану MOPP маску для перемикання повного протипожежного захисту."
   components:
   - type: Action
     icon:

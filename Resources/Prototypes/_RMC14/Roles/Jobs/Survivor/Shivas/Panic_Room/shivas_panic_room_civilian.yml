@@ -8,7 +8,7 @@
 - type: entity
   parent: CMSpawnPointSurvivor
   id: CMSpawnPointPanicRoomSurvivor
-  name: special civilian panic room survivor spawn point
+  name: "спавнер спеццивільного-вцілілого панік-кімнати"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorShivasPanicRoomCivilian

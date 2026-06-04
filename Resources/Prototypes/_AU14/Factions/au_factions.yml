@@ -1,6 +1,6 @@
 ﻿- type: npcFaction
   id: GOVFOR
-  name: Government Forces
+  name: "Урядові сили"
   hostile:
   - RMCXeno
   #- CLF
@@ -10,7 +10,7 @@
 
 - type: npcFaction
   id: AUGoo
-  name: Goo
+  name: "Слиз"
   hostile:
   - GOVFOR
   - AUUpp
@@ -22,7 +22,7 @@
 
 - type: npcFaction
   id: CMUProdigy
-  name: Prodigy Corporation
+  name: "Корпорація «Продіджі»"
   hostile:
   - RMCXeno
   - AUGoo
@@ -30,7 +30,7 @@
   - Abomination
 - type: npcFaction
   id: CMUVAI
-  name: Vanguard's Arrow Incorporated
+  name: "Акціонерна компанія «Стріла Авангарду»"
   hostile:
   - RMCXeno
   - AUGoo
@@ -38,7 +38,7 @@
 
 - type: npcFaction
   id: AUUpp
-  name: Union of Progressive Peoples
+  name: "Союз прогресивних народів"
   hostile:
   - RMCXeno
   - AUGoo
@@ -47,14 +47,14 @@
 
 - type: npcFaction
   id: CLF
-  name: Colony Liberation Front
+  name: "Фронт визволення колоній"
   hostile:
   - GOVFOR
   - RMCXeno
 #hostile to govofr but not vice versa so turrets cant detect
 - type: npcFaction
   id: AUWeYu
-  name: Weyland-Yutani Corporation
+  name: "Корпорація «Вейланд-Ютані»"
   hostile:
   - RMCXeno
   - AUGoo
@@ -63,11 +63,11 @@
 
 - type: npcFaction
   id: ColonySynth
-  name: Colony Synthetics
+  name: "Колоніальні синтетики"
 
 - type: npcFaction
   id: AUColonist
-  name: Colonists
+  name: "Колоністи"
   hostile:
   - RMCXeno
   - AUGoo
@@ -76,7 +76,7 @@
 
 - type: npcFaction
   id: CMUTWE
-  name: Third World Empire
+  name: "Імперія Третього світу"
   hostile:
   - RMCXeno
   - AUGoo
@@ -85,7 +85,7 @@
 
 - type: npcFaction
   id: CMUUSCMC
-  name: United States Colonial Marines Corps
+  name: "Корпус колоніальної морської піхоти Сполучених Штатів"
   hostile:
   - RMCXeno
   - AUGoo
@@ -94,11 +94,11 @@
 
 - type: npcFaction
   id: CMUCorruptedHive
-  name: Corrupted Hive
+  name: "Спотворений вулик"
 
 - type: npcFaction
   id: AUBureau
-  name: Colonial Marshals
+  name: "Колоніальні маршали"
   hostile:
   - RMCXeno
   - AUGoo
@@ -106,7 +106,7 @@
 
 - type: npcFaction
   id: OPFOR
-  name: Opposing Forces
+  name: "Сили противника"
   hostile:
   - RMCXeno
   - CLF
@@ -116,7 +116,7 @@
 
 - type: npcFaction
   id: NSPA
-  name: Neroid Sector Policing Authority
+  name: "Поліцейське управління сектору Нероїд"
   hostile:
   - RMCXeno
   - CLF
@@ -125,7 +125,7 @@
 
 - type: npcFaction
   id: USAF
-  name: United States Armed Forces
+  name: "Збройні сили Сполучених Штатів"
   hostile:
   - RMCXeno
   - CLF
@@ -134,7 +134,7 @@
 
 - type: npcFaction
   id: AUUnitedAmericas
-  name: United Americas
+  name: "Об’єднані Америки"
   hostile:
   - RMCXeno
   - CLF

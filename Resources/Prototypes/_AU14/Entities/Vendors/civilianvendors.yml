@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CivilianClothingVendor
-  name: Civilian Clothing Wardrobe
-  description: A wardrobe containing all the clothes a civilian would ever need.
+  name: "цивільна шафа одягу"
+  description: "Шафа з усім одягом, який цивільному коли-небудь може знадобитися."
   suffix: Civ
   components:
   - type: Sprite
@@ -158,8 +158,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CivilianEngineerVendor
-  name: Civilian Engineering and Logistics Vendor
-  description: A vendor containing all the equipment an engineer or logistician would ever need.
+  name: "цивільний автомат інженерії та логістики"
+  description: "Автомат з усім спорядженням, яке інженеру або логісту коли-небудь може знадобитися."
   suffix: Civ
   components:
   - type: Sprite
@@ -227,8 +227,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CivilianMedicalClothingVendor
-  name: Civilian Medical Vendor
-  description: A wardrobe containing all the clothes and supplies medical personnel would ever need.
+  name: "цивільний медичний автомат"
+  description: "Шафа з усім одягом і припасами, які медичному персоналу коли-небудь можуть знадобитися."
   suffix: Civ
   components:
   - type: Sprite
@@ -315,8 +315,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CivilianEmergencyResponderOfficerVendor
-  name: Civilian Emergency Response Officer Vendor
-  description: A wardrobe containing all the clothes and supplies an ERO would ever need.
+  name: "цивільний автомат офіцера аварійного реагування"
+  description: "Шафа з усім одягом і припасами, які офіцеру аварійного реагування коли-небудь можуть знадобитися."
   suffix: Civ
   components:
   - type: Sprite
@@ -397,8 +397,8 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14CivilianColonyOperationsSyntheticVendor
-  name: Civilian Colony Operations Synthetic Vendor
-  description: A wardrobe containing all the clothes and supplies a COS would ever need.
+  name: "цивільний автомат синтетика колоніальних операцій"
+  description: "Шафа з усім одягом і припасами, які синтетику колоніальних операцій коли-небудь можуть знадобитися."
   suffix: Civ
   components:
   - type: Sprite

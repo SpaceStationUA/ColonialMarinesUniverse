@@ -29,7 +29,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaTMCCMiner
-  name: tmcc miner spawn point
+  name: "спавнер шахтаря tmcc"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaTMCCMiner
-  name: tmcc miner preset
+  name: "пресет шахтаря tmcc"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

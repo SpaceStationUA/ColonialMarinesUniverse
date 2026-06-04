@@ -51,7 +51,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVERifleman
-  name: forecon rifleman spawn point
+  name: "спавнер стрільця forecon"
   suffix: PVE
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   id: AU14CrateSecureWeYuXenoEggs
   parent: RMCCrateSecureWeYa
-  name: secure We-Yu crate
-  description: A secure crate with We-Yu insignia on it.
+  name: "захищений ящик ВЮ"
+  description: "Захищений ящик зі знаками ВЮ."
   suffix: AU14, Xeno Eggs
   components:
   - type: StorageFill
@@ -15,7 +15,7 @@
 - type: entity
   id: AU14CrateSecureWeYuMindBreaker
   parent: AU14CrateSecureWeYuXenoEggs
-  name: secure We-Yu crate
+  name: "захищений ящик ВЮ"
   suffix: AU14, MindBreaker
   components:
   - type: StorageFill
@@ -29,7 +29,7 @@
 - type: entity
   id: AU14CrateSecureWeYuDrug
   parent: AU14CrateSecureWeYuXenoEggs
-  name: secure We-Yu crate
+  name: "захищений ящик ВЮ"
   suffix: AU14, Speed Demon
   components:
   - type: StorageFill
@@ -42,7 +42,7 @@
 - type: entity
   id: AU14CrateSecureWeYuMMI
   parent: AU14CrateSecureWeYuXenoEggs
-  name: secure We-Yu crate
+  name: "захищений ящик ВЮ"
   suffix: AU14, MMI
   components:
   - type: StorageFill
@@ -60,7 +60,7 @@
 - type: entity
   id: AU14CrateSecureWeYuClottedSyringes
   parent: AU14CrateSecureWeYuXenoEggs
-  name: secure We-Yu crate
+  name: "захищений ящик ВЮ"
   suffix: AU14, Clotted Syringes
   components:
   - type: StorageFill

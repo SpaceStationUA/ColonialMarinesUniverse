@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolBase
   id: RMCWeaponPistolM77
-  name: Mod 88 combat pistol # TODO RMC14 sounds
-  description: Standard issue Marine firearm. Also found in the hands of We-Yu PMC teams. Fires 9mm armor shredding rounds and is capable of 3-round burst.
+  name: "бойовий пістолет Mod 88" # TODO RMC14 sounds
+  description: "Стандартна штатна вогнепальна зброя морпіхів. Також зустрічається в командах ПВК «Ве-Ю». Стріляє броне-розриваючими набоями 9мм і здатна на 3-зарядні черги."
   components:
   - type: Tag
     tags:
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM77AP
-  name: Mod 88 AP magazine (9mm)
-  description: A 19-round armor-piercing magazine for the Mod 88 combat pistol. It has found common use with We-Yu PMC operators to defeat armored threats when terminal effect is authorized.
+  name: "Бронебійний магазин Mod 88 (9мм)"
+  description: "19-зарядний бронебійний магазин для бойового пістолета Mod 88. Часто використовується операторами ПВК «Ве-Ю» для подолання броньованих загроз, коли санкціоновано смертельний вплив."
   components:
   - type: Tag
     tags:
@@ -129,7 +129,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistolM77AP
-  name: bullet (9mm AP)
+  name: "куля (9мм бронебійна)"
   components:
   - type: Projectile
     damage:
@@ -141,8 +141,8 @@
 - type: entity
   parent: CMCartridgePistolBase
   id: CMCartridgePistolM77AP
-  name: cartridge (9mm AP)
-  description: A 9mm armor-piercing cartridge for the Mod 88 combat pistol.
+  name: "набій (9мм бронебійний)"
+  description: "Бронебійний набій 9мм для бойового пістолета Mod 88."
   components:
   - type: Tag
     tags:
@@ -154,8 +154,8 @@
 - type: entity
   parent: RMCMagazinePistolM77Rubber
   id: CMMagazinePistolM88Rubber
-  name: Mod 88 rubber magazine (9mm)
-  description: A 19-round rubber magazine for the Mod 88 combat pistol. The blue stripe and safety markings designate the non-lethal load designed to deform and deliver blunt-force trauma on impact. Standard issue to leverage security and suppression without creating unnecessary casualties.
+  name: "Гумовий магазин Mod 88 (9мм)"
+  description: "19-зарядний гумовий магазин для бойового пістолета Mod 88. Синя смуга та маркування безпеки позначають несмертельний заряд, призначений деформуватися й завдавати тупої травми при ударі. Стандартно видається для забезпечення безпеки й пригнічення без зайвих жертв."
   components:
   - type: BallisticAmmoProvider
     proto: CMCartridgePistolM88Rubber
@@ -163,7 +163,7 @@
 - type: entity
   parent: RMCCartridgePistol9mmRubber
   id: CMCartridgePistolM88Rubber
-  description: A 9mm rubber projectile for the Mod 88 combat pistol.
+  description: "Гумовий снаряд 9мм для бойового пістолета Mod 88."
   # TODO: rubber sprite
 
 - type: Tag

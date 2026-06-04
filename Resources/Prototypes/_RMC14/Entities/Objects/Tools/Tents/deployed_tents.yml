@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStructure
   id: RMCTentBase
-  name: Field Tent
-  description: A standard Tent. This one is just a general purpose version. Unfold in a suitable location for micro-FOB vibes. ComTech not included. ENTRANCE TO THE SOUTH.
+  name: "Польовий намет"
+  description: "Стандартний намет. Це універсальна версія. Розгорни в придатному місці для атмосфери мікро-FOB. Комтехнік не входить. ВХІД ПІВДЕННИЙ."
   placement:
     mode: SnapgridCenter
     snap:
@@ -109,8 +109,8 @@
 - type: entity
   parent: RMCTentBase
   id: RMCTentUNMCBig
-  name: Big Tent
-  description: A standard Field Tent. This one is just a general purpose, large version. Unfold in a suitable location for micro-FOB vibes. ComTech not included. ENTRANCE TO THE SOUTH.
+  name: "Великий намет"
+  description: "Стандартний польовий намет. Це універсальна, велика версія. Розгорни в придатному місці для атмосфери мікро-FOB. Комтехнік не входить. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tents/deployed_tents.rsi
@@ -168,8 +168,8 @@
 - type: entity
   parent: RMCTentBase
   id: AU14TentBigMedical
-  name: Big Medical Tent
-  description: A large medical Field Tent. Unfold in a suitable location for micro-FOB vibes. ComTech not included. ENTRANCE TO THE SOUTH.
+  name: "Великий медичний намет"
+  description: "Великий медичний польовий намет. Розгорни в придатному місці для атмосфери мікро-FOB. Комтехнік не входить. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tents/deployed_tents.rsi
@@ -235,8 +235,8 @@
 - type: entity
   parent: RMCTentBase
   id: RMCTentUNMCStandardCommand
-  name: Command Tent
-  description: A standard Command Tent. This one comes equipped with a self-powered Overwatch Console and a Telephone. Unfold in a suitable location to maximize usefulness. Staff Officer not included. ENTRANCE TO THE SOUTH.
+  name: "Командний намет"
+  description: "Стандартний командний намет. Цей оснащений автономною Консоллю Спостереження та Телефоном. Розгорни в придатному місці для максимальної користі. Штабний офіцер не входить. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     layers:
@@ -250,8 +250,8 @@
 - type: entity
   parent: RMCTentBase
   id: RMCTentUNMCStandardMedical
-  name: Medical Tent
-  description: A standard Medical Tent. This one comes equipped with advanced field surgery facilities. Unfold in a suitable location to maximize health gains. Surgical Tray not included. ENTRANCE TO THE SOUTH.
+  name: "Медичний намет"
+  description: "Стандартний медичний намет. Цей оснащений сучасними польовими хірургічними засобами. Розгорни в придатному місці, щоб максимізувати приріст здоров'я. Хірургічна таця не входить. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     layers:
@@ -273,8 +273,8 @@
 - type: entity
   parent: RMCTentBase
   id: RMCTentUNMCExtended
-  name: Extended Field Tent
-  description: A standard Tent. This one is just an extended general purpose version. Unfold in a suitable location for mega FOB vibes. Mess Tech not included. ENTRANCE TO THE SOUTH.
+  name: "Розширений польовий намет"
+  description: "Стандартний намет. Це лише розширена універсальна версія. Розгорни в придатному місці для атмосфери мега-FOB. Комтехнік-кухар не входить. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     layers:
@@ -370,8 +370,8 @@
 - type: entity
   parent: RMCTentUNMCExtended
   id: RMCTentUNMCExtendedReq
-  name: Requisitions Tent
-  description: A standard Requisitions Tent. Now, you can enjoy req line anywhere you go! Unfold in a suitable location to maximize resource distribution. ASRS not included. ENTRANCE TO THE SOUTH.
+  name: "Намет постачання"
+  description: "Стандартний намет постачання. Тепер можна насолоджуватися чергою постачання, куди б не пішов! Розгорни в придатному місці, щоб максимізувати розподіл ресурсів. ASRS не входить. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     layers:
@@ -399,8 +399,8 @@
 - type: entity
   parent: RMCTentUNMCExtended
   id: RMCTentUNMCExtendedMess
-  name: Mess Tent
-  description: A standard Mess Tent. This one comes equipped with a kitchen and dining utilities. Unfold in a suitable location to maximize meal handouts. ENTRANCE TO THE SOUTH.
+  name: "Їдальневий намет"
+  description: "Стандартний їдальневий намет. Цей оснащений кухнею та обідніми зручностями. Розгорни в придатному місці, щоб максимізувати роздачу страв. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     layers:
@@ -428,8 +428,8 @@
 - type: entity
   parent: RMCTentUNMCExtended
   id: RMCTentUNMCExtendedMP
-  name: Military Police Tent
-  description: A standard Military Police Tent. This one comes equipped with a single detention cell and detainee handling equipment. Unfold in a suitable location to maximize order enforcement. ENTRANCE TO THE SOUTH.
+  name: "Намет військової поліції"
+  description: "Стандартний намет військової поліції. Цей оснащений однією камерою затримання та обладнанням для роботи із затриманими. Розгорни в придатному місці, щоб максимізувати наведення порядку. ВХІД ПІВДЕННИЙ."
   components:
   - type: Sprite
     layers:

@@ -2,7 +2,7 @@
   parent: CMFlare
   id: AU14FlareRMC
   suffix: Alt
-  description: An RMC issued flare that burns in both the visual and ultraviolet spectrum. There are instructions on the side, it reads 'pull cord, make light'.
+  description: "Сигнальна ракета, видана КМП, що горить у видимому й ультрафіолетовому спектрі. На боці є інструкція, там написано: «смикни шнур, зроби світло»."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/flares.rsi
@@ -26,9 +26,9 @@
   abstract: true
   parent: BaseItem
   id: AU14PackFlareBaseRMC
-  name: L96 marking flare pack
+  name: "пакет маркувальних фаєрів L96"
   suffix: Alt
-  description: A packet of eight M94 Marking Flares. Carried by Marine soldiers to light dark areas that cannot be reached with the usual TNR Shoulder Lamp.
+  description: "Пакет із восьми маркувальних фаєрів M94. Морські піхотинці носять їх, щоб освітлювати темні ділянки, куди не дістає звичайний плечовий ліхтар TNR."
   components:
   - type: Item
     size: Normal
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCBoxMagazineSupplySmallBase
   id: AU14BoxPackFlareRMCEmpty
-  name: box of L96 flare packs (x10)
-  description: A box of L96 marking flare packs, to brighten up your day.
+  name: "коробка пакетів фаєрів L96 (x10)"
+  description: "Коробка пакетів маркувальних фаєрів L96, щоб зробити ваш день яскравішим."
   components:
   - type: Construction
     graph: RMCBoxMagazine

@@ -1,6 +1,6 @@
 - type: entity
   id: RMCSimpleMob
-  name: abstract simple mob
+  name: "абстрактний простий моб"
   abstract: true
   components:
   - type: ShortExamine
@@ -33,7 +33,7 @@
 
 - type: entity
   id: RMCSmallHost
-  name: abstract small host
+  name: "абстрактний малий носій"
   abstract: true
   components:
   - type: Infectable
@@ -53,7 +53,7 @@
 - type: entity
   parent: [RMCSimpleMob, MobMonkey, RMCSmallHost]
   id: CMMobMonkey
-  name: monkey
+  name: "мавпа"
   suffix: CM
   components:
   - type: GhostRole
@@ -62,7 +62,7 @@
 - type: entity
   parent: [RMCSimpleMob, MobKobold, RMCSmallHost]
   id: CMMobKobold
-  name: kobold
+  name: "кобольд"
   suffix: CM
   components:
   - type: GhostRole
@@ -114,14 +114,14 @@
 - type: entity
   parent: CMMobMouse
   id: RMCMobMouseDoc
-  name: Doc
-  description: "Senior mouse researcher of the Almayer. Likes: cheese, experiments, explosions."
+  name: "Док"
+  description: "Старший миш-дослідник «Альмаєра». Любить: сир, експерименти, вибухи."
 
 - type: entity
-  name: rat
+  name: "щур"
   parent: [RMCSimpleMob, SimpleMobBase]
   id: RMCMobRat
-  description: It's a small laboratory rat.
+  description: "Це маленький лабораторний щур."
   suffix: RMC
   components:
   - type: Body
@@ -278,8 +278,8 @@
   parent: RMCMobRat
   id: RMCMobRatBrown
   suffix: RMC
-  name: rat
-  description: It's a big, disease-ridden rodent.
+  name: "щур"
+  description: "Це великий, заражений хворобами гризун."
   components:
   - type: Sprite
     layers:
@@ -331,8 +331,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCorgiPuppy]
   id: CMMobWiggles
-  name: Mister Wiggles
-  description: It's a corgi puppy. MISTER WIGGLES!! HE IS THE GREATEST!
+  name: "Містер Віґлс"
+  description: "Це цуценя коргі. МІСТЕР ВІҐЛС!! ВІН НАЙКРАЩИЙ!"
   components:
   - type: WarpPoint
     follow: true
@@ -348,8 +348,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCatCalico]
   id: CMMobJones
-  name: Jones
-  description: A tough, old stray whose origin no one seems to know.
+  name: "Джонс"
+  description: "Жорсткий старий безпритульний, чиєї походження ніхто, здається, не знає."
   components:
   - type: WarpPoint
     follow: true
@@ -365,8 +365,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCatCalico]
   id: RMCMobOrion
-  name: Orion
-  description: A domesticated, feline pet. The collar says 'Orion'.
+  name: "Оріон"
+  description: "Свійський улюбленець-кіт. На нашийнику написано «Оріон»."
   components:
   - type: WarpPoint
     follow: true
@@ -382,8 +382,8 @@
 - type: entity
   parent: [RMCSimpleMob, MobCat]
   id: RMCMobGarry
-  name: Garry
-  description: Her fur has the look and feel of velvet, and her tail quivers occasionally.
+  name: "Ґаррі"
+  description: "Її хутро на вигляд і на дотик, як оксамит, а її хвіст час від часу здригається."
   components:
   - type: WarpPoint
     follow: true
@@ -401,7 +401,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobMonkey
-  name: monkey spawner
+  name: "спавнер мавпи"
   suffix: RMC
   components:
   - type: Sprite
@@ -416,7 +416,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobKobold
-  name: kobold spawner
+  name: "спавнер кобольда"
   suffix: RMC
   components:
   - type: Sprite
@@ -443,7 +443,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnRatBlack
-  name: rat spawner
+  name: "спавнер щура"
   suffix: black
   components:
   - type: Sprite
@@ -500,7 +500,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobWiggles
-  name: Mr. Wiggles Spawner
+  name: "Спавнер Містера Віґлса"
   suffix: CM
   components:
   - type: Sprite
@@ -515,7 +515,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobJones
-  name: Jones Spawner
+  name: "Спавнер Джонса"
   suffix: CM
   components:
   - type: Sprite
@@ -530,7 +530,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobOrion
-  name: Orion Spawner
+  name: "Спавнер Оріона"
   suffix: RMC
   components:
   - type: Sprite
@@ -545,7 +545,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnMobGarry
-  name: Garry Spawner
+  name: "Спавнер Ґаррі"
   suffix: RMC
   components:
   - type: Sprite
@@ -560,7 +560,7 @@
 - type: entity
   parent: SpawnMobMouse
   id: RMCSpawnMobDoc
-  name: doc spawner
+  name: "спавнер дока"
   suffix: RMC
   components:
   - type: ConditionalSpawner

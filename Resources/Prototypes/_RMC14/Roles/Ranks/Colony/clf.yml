@@ -1,9 +1,9 @@
 - type: rank
   id: RMCRankCLFRebel
-  name: Rebel
+  name: "Повстанець"
   prefix: REB.
 
 - type: rank
   id: RMCRankCLFRebelCommander
-  name: Rebel Commander
+  name: "Командир Повстанців"
   prefix: REBC.

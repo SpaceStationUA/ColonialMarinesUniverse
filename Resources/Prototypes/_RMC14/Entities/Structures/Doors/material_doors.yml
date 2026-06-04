@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseMaterialDoor
   id: RMCBaseMaterialDoor
-  name: door
+  name: "двері"
   placement:
     mode: SnapgridCenter
   components:
@@ -42,9 +42,9 @@
 
 - type: entity
   id: RMCSandstoneDoor
-  name: sandstone door
+  name: "двері з пісковика"
   parent: RMCBaseMaterialDoor
-  description: It opens and closes.
+  description: "Відкриваються і закриваються."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Doors/Airlocks/doorrunedsand.rsi

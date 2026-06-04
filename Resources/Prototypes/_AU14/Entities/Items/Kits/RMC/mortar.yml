@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMortarEquipmentCase
   id: AU14MortarEquipmentCaseRMC
-  name: mortar kit
-  description: Contains the equipment needed for the mortar.
+  name: "мінометний комплект"
+  description: "Містить спорядження, потрібне для міномета."
   components:
   - type: StorageFill
     contents:

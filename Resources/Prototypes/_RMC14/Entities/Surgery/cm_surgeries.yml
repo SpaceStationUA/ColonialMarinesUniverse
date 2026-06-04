@@ -5,7 +5,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryOpenIncision
-  name: Open Incision
+  name: "Відкритий розріз"
   components:
   - type: CMSurgery
     steps:
@@ -16,7 +16,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryCloseIncision
-  name: Close Incision
+  name: "Закритий розріз"
   components:
   - type: CMSurgery
     priority: 1
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryOpenRibcage
-  name: Open Ribcage
+  name: "Розтин грудної клітки"
   components:
   - type: CMSurgery
     requirement: CMSurgeryOpenIncision
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMSurgeryBase
   id: CMSurgeryAlienEmbryoRemoval
-  name: Alien Embryo Removal
-  description: Removal of an alien embryo from the body.
+  name: "Видалення ембріона чужого"
+  description: "Видалення ембріона чужого з тіла."
   components:
   - type: CMSurgery
     priority: -1
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMSurgeryBase
   id: RMCSurgeryAlienHeartRemoval
-  name: Experimental Harvesting Surgery
-  description: Harvest the heart of an deceased alien.
+  name: "Експериментальна хірургія вилучення"
+  description: "Вилучення серця мертвого чужого."
   components:
   - type: CMSurgery
     priority: -1

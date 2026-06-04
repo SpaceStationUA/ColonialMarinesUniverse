@@ -1,7 +1,7 @@
 - type: entity
   id: RMCHefaDecalBase
-  name: strange paint marks
-  description: You think you can make out the iconography of a HEFA grenade.
+  name: "дивні плями фарби"
+  description: "Здається, можеш розрізнити іконографію гранати ХЕФА."
   abstract: true
   suffix: Floor
   placement:

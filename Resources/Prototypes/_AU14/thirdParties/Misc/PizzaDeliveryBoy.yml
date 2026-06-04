@@ -1,8 +1,8 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCivilianDeliveryPizzaBoy
-  name: Pizza Delivery Boy
-  description: You are a Pizza Galaxy deliveryman sent with an assortment of refreshing beverages and a choice of pizza to sell to anyone you may encounter.
+  name: "рознощик піци"
+  description: "Ви кур’єр Pizza Galaxy, якого відправили з набором освіжних напоїв і вибором піци, щоб продавати їх усім, кого зможете зустріти."
   setPreference: true
   playTimeTracker: AU14JobCivilianDeliveryPizzaBoy
   ranks:
@@ -35,7 +35,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobPizzaDeliveryBoy
-  name: Pizza Delivery Boy
+  name: "рознощик піци"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -43,8 +43,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Pizza Delivery Boy
-    description: You are a Pizza Galaxy deliveryman sent with an assortment of refreshing beverages and a choice of pizza to sell to anyone you may encounter.
+    name: "рознощик піци"
+    description: "Ви кур’єр Pizza Galaxy, якого відправили з набором освіжних напоїв і вибором піци, щоб продавати їх усім, кого зможете зустріти."
     reregister: false
     job: AU14JobCivilianDeliveryPizzaBoy
     raffle:
