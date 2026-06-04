@@ -51,3 +51,8 @@ cmu-medical-examine-severed = severed
 
 cmu-medical-examine-sentence-two = { $a } and { $b }
 cmu-medical-examine-sentence-many = { $rest }, and { $last }
+
+cmu-medical-detailed-examine-verb = Inspect injuries
+cmu-medical-detailed-examine-verb-message = Take a closer look at their injuries.
+cmu-medical-detailed-examine-start = You begin checking { THE($target) } for injuries.
+cmu-medical-detailed-examine-none = No obvious injuries found.
