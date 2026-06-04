@@ -960,44 +960,14 @@ public sealed partial class HardpointSystem : EntitySystem
 
     private string GetFailureName(VehicleHardpointFailure failure)
     {
-        return failure switch
-        {
-            VehicleHardpointFailure.ArmorCompromised => "armor plating breach",
-            VehicleHardpointFailure.FeedJam => "jammed feed system",
-            VehicleHardpointFailure.RunawayTrigger => "runaway trigger",
-            VehicleHardpointFailure.TurretTraverseDamage => "damaged traverse ring",
-            VehicleHardpointFailure.EngineMisfire => "engine misfire",
-            VehicleHardpointFailure.TransmissionSlip => "transmission slip",
-            VehicleHardpointFailure.WarpedFrame => "warped frame",
-            VehicleHardpointFailure.DamagedMount => "damaged mount",
-            VehicleHardpointFailure.TireBlowout => "tire blowout",
-            VehicleHardpointFailure.ThrownTread => "thrown tread",
-            VehicleHardpointFailure.EngineOverheat => "engine overheating",
-            VehicleHardpointFailure.ElectricalShort => "electrical short",
-            VehicleHardpointFailure.FuelLeak => "fuel leak",
-            _ => "hardpoint failure",
-        };
+        return Loc.GetString("rmc-hardpoint-failure-name",
+            ("failure", FailureKey(failure)));
     }
 
     private string GetFailureEffect(VehicleHardpointFailure failure)
     {
-        return failure switch
-        {
-            VehicleHardpointFailure.ArmorCompromised => "Armor protection from this hardpoint is offline.",
-            VehicleHardpointFailure.FeedJam => "This weapon can randomly jam or misfire.",
-            VehicleHardpointFailure.RunawayTrigger => "This weapon can discharge on its own while mounted.",
-            VehicleHardpointFailure.TurretTraverseDamage => "Turret traverse speed is severely reduced.",
-            VehicleHardpointFailure.EngineMisfire => "Vehicle acceleration and top speed are reduced.",
-            VehicleHardpointFailure.TransmissionSlip => "Vehicle acceleration, reverse speed, and top speed are reduced.",
-            VehicleHardpointFailure.WarpedFrame => "The vehicle frame drags and reduces movement performance.",
-            VehicleHardpointFailure.DamagedMount => "This hardpoint's output is weakened until the mount is reseated.",
-            VehicleHardpointFailure.TireBlowout => "The vehicle loses speed and traction from a damaged tire.",
-            VehicleHardpointFailure.ThrownTread => "The vehicle can barely move until the tread is re-seated.",
-            VehicleHardpointFailure.EngineOverheat => "The engine bogs down and acceleration is heavily reduced.",
-            VehicleHardpointFailure.ElectricalShort => "This hardpoint's electrical output is unreliable and weakened.",
-            VehicleHardpointFailure.FuelLeak => "The Blackfoot leaks fuel over time until repaired.",
-            _ => "The hardpoint is malfunctioning.",
-        };
+        return Loc.GetString("rmc-hardpoint-failure-effect",
+            ("failure", FailureKey(failure)));
     }
 
     private static IReadOnlyList<VehicleHardpointFailureRepairStep> GetFailureRepairSteps(VehicleHardpointFailure failure)
@@ -1067,18 +1037,29 @@ public sealed partial class HardpointSystem : EntitySystem
         return tool.ToString();
     }
 
+    private string GetFailureRepairInstruction(VehicleHardpointFailureRepairStep step)
+    {
+        return Loc.GetString(step.Instruction);
+    }
+
     private string GetFailureStatus(VehicleHardpointFailureComponent failures, VehicleHardpointFailure failure)
     {
         var stepIndex = GetFailureRepairProgress(failures, failure);
         if (!TryGetFailureRepairStep(failure, stepIndex, out var step))
             return GetFailureName(failure);
 
-        return $"{GetFailureName(failure)} ({stepIndex + 1}/{GetFailureRepairSteps(failure).Count}: {GetFailureRepairToolName(step)})";
+        return Loc.GetString("rmc-hardpoint-failure-status-with-step",
+            ("failure", GetFailureName(failure)),
+            ("step", stepIndex + 1),
+            ("count", GetFailureRepairSteps(failure).Count),
+            ("tool", GetFailureRepairToolName(step)));
     }
 
     private string GetFailureDiagnosticStatus(VehicleHardpointFailure failure)
     {
-        return $"{GetFailureName(failure)} - {GetFailureEffect(failure)}";
+        return Loc.GetString("rmc-hardpoint-failure-diagnostic-status",
+            ("failure", GetFailureName(failure)),
+            ("effect", GetFailureEffect(failure)));
     }
 
     private List<string> GetFailureStatuses(EntityUid uid, bool includeRepairStep)
@@ -1102,22 +1083,28 @@ public sealed partial class HardpointSystem : EntitySystem
 
     private string GetFailureAlertName(VehicleHardpointFailure failure)
     {
+        return Loc.GetString("rmc-hardpoint-failure-alert-name",
+            ("failure", FailureKey(failure)));
+    }
+
+    private static string FailureKey(VehicleHardpointFailure failure)
+    {
         return failure switch
         {
-            VehicleHardpointFailure.ArmorCompromised => "Armor plating breach",
-            VehicleHardpointFailure.FeedJam => "Weapon feed jam",
-            VehicleHardpointFailure.RunawayTrigger => "Runaway trigger",
-            VehicleHardpointFailure.TurretTraverseDamage => "Turret traverse damage",
-            VehicleHardpointFailure.EngineMisfire => "Engine misfire",
-            VehicleHardpointFailure.TransmissionSlip => "Transmission slip",
-            VehicleHardpointFailure.WarpedFrame => "Warped frame",
-            VehicleHardpointFailure.DamagedMount => "Damaged mount",
-            VehicleHardpointFailure.TireBlowout => "Tire blowout",
-            VehicleHardpointFailure.ThrownTread => "Thrown tread",
-            VehicleHardpointFailure.EngineOverheat => "Engine overheating",
-            VehicleHardpointFailure.ElectricalShort => "Electrical short",
-            VehicleHardpointFailure.FuelLeak => "Fuel leak",
-            _ => "Hardpoint failure",
+            VehicleHardpointFailure.ArmorCompromised => "armor-compromised",
+            VehicleHardpointFailure.FeedJam => "feed-jam",
+            VehicleHardpointFailure.RunawayTrigger => "runaway-trigger",
+            VehicleHardpointFailure.TurretTraverseDamage => "turret-traverse-damage",
+            VehicleHardpointFailure.EngineMisfire => "engine-misfire",
+            VehicleHardpointFailure.TransmissionSlip => "transmission-slip",
+            VehicleHardpointFailure.WarpedFrame => "warped-frame",
+            VehicleHardpointFailure.DamagedMount => "damaged-mount",
+            VehicleHardpointFailure.TireBlowout => "tire-blowout",
+            VehicleHardpointFailure.ThrownTread => "thrown-tread",
+            VehicleHardpointFailure.EngineOverheat => "engine-overheat",
+            VehicleHardpointFailure.ElectricalShort => "electrical-short",
+            VehicleHardpointFailure.FuelLeak => "fuel-leak",
+            _ => "hardpoint-failure",
         };
     }
 
@@ -1184,7 +1171,7 @@ public sealed partial class HardpointSystem : EntitySystem
                 return;
 
             hasFailures = true;
-            args.PushMarkup($"[color={FailureHeaderColor}][bold]Vehicle malfunctions[/bold][/color]");
+            args.PushMarkup($"[color={FailureHeaderColor}][bold]{Loc.GetString("rmc-hardpoint-failure-vehicle-header")}[/bold][/color]");
         }
 
         void PushFailures(string? label, EntityUid uid, bool includeRepairSteps)
@@ -1201,10 +1188,12 @@ public sealed partial class HardpointSystem : EntitySystem
             {
                 var title = string.IsNullOrWhiteSpace(label)
                     ? GetFailureAlertName(failure)
-                    : $"{GetFailureAlertName(failure)} on {label}";
+                    : Loc.GetString("rmc-hardpoint-failure-title-on-label",
+                        ("failure", GetFailureAlertName(failure)),
+                        ("label", label));
 
                 args.PushMarkup($"[color={FailureNameColor}]- {title}[/color]");
-                args.PushMarkup($"[color={FailureEffectColor}]  Effect: {GetFailureEffect(failure)}[/color]");
+                args.PushMarkup($"[color={FailureEffectColor}]  {Loc.GetString("rmc-hardpoint-failure-effect-line", ("effect", GetFailureEffect(failure)))}[/color]");
 
                 if (!includeRepairSteps)
                     continue;
@@ -1214,8 +1203,11 @@ public sealed partial class HardpointSystem : EntitySystem
                     continue;
 
                 args.PushMarkup(
-                    $"[color={FailureRepairColor}]  Repair: step {stepIndex + 1}/{GetFailureRepairSteps(failure).Count} - " +
-                    $"{step.Instruction} Use {GetFailureRepairToolName(step)}.[/color]");
+                    $"[color={FailureRepairColor}]  {Loc.GetString("rmc-hardpoint-failure-repair-line",
+                        ("step", stepIndex + 1),
+                        ("count", GetFailureRepairSteps(failure).Count),
+                        ("instruction", GetFailureRepairInstruction(step)),
+                        ("tool", GetFailureRepairToolName(step)))}[/color]");
             }
         }
 
@@ -1239,7 +1231,10 @@ public sealed partial class HardpointSystem : EntitySystem
 
         var frameFailures = GetFailureStatuses(vehicle, includeRepairStep: false);
         if (frameFailures.Count > 0)
-            lines.Add($"Hull: {string.Join(", ", frameFailures)}");
+        {
+            lines.Add(Loc.GetString("rmc-hardpoint-failure-hull-summary",
+                ("failures", string.Join(", ", frameFailures))));
+        }
 
         if (!Resolve(vehicle, ref hardpoints, logMissing: false) ||
             !Resolve(vehicle, ref itemSlots, logMissing: false))
@@ -1806,7 +1801,7 @@ public sealed partial class HardpointSystem : EntitySystem
             return;
         }
 
-        args.PushMarkup($"[color={FailureHeaderColor}][bold]Hardpoint malfunctions[/bold][/color]");
+        args.PushMarkup($"[color={FailureHeaderColor}][bold]{Loc.GetString("rmc-hardpoint-failure-hardpoint-header")}[/bold][/color]");
 
         foreach (var failure in failures.ActiveFailures)
         {
@@ -1814,14 +1809,17 @@ public sealed partial class HardpointSystem : EntitySystem
             var stepIndex = Math.Clamp(GetFailureRepairProgress(failures, failure), 0, Math.Max(steps.Count - 1, 0));
 
             args.PushMarkup($"[color={FailureNameColor}]- {GetFailureAlertName(failure)}[/color]");
-            args.PushMarkup($"[color={FailureEffectColor}]  Effect: {GetFailureEffect(failure)}[/color]");
+            args.PushMarkup($"[color={FailureEffectColor}]  {Loc.GetString("rmc-hardpoint-failure-effect-line", ("effect", GetFailureEffect(failure)))}[/color]");
 
             if (!TryGetFailureRepairStep(failure, stepIndex, out var step))
                 continue;
 
             args.PushMarkup(
-                $"[color={FailureRepairColor}]  Repair: step {stepIndex + 1}/{steps.Count} - " +
-                $"{step.Instruction} Use {GetFailureRepairToolName(step)}.[/color]");
+                $"[color={FailureRepairColor}]  {Loc.GetString("rmc-hardpoint-failure-repair-line",
+                    ("step", stepIndex + 1),
+                    ("count", steps.Count),
+                    ("instruction", GetFailureRepairInstruction(step)),
+                    ("tool", GetFailureRepairToolName(step)))}[/color]");
         }
     }
 
@@ -2157,7 +2155,9 @@ public sealed partial class HardpointSystem : EntitySystem
             if (TryGetFailureRepairStep(args.Failure, nextStep, out var next))
             {
                 _popup.PopupClient(
-                    $"{GetFailureName(args.Failure)} repair step complete. Next: {GetFailureRepairToolName(next)}.",
+                    Loc.GetString("rmc-hardpoint-failure-repair-step-complete",
+                        ("failure", GetFailureName(args.Failure)),
+                        ("tool", GetFailureRepairToolName(next))),
                     ent.Owner,
                     args.User);
             }

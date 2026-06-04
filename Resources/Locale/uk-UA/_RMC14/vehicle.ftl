@@ -24,6 +24,97 @@ rmc-hardpoint-ui-integrity = {$current}/{$max} ({$percent}%)
 rmc-hardpoint-ui-no-integrity = Немає даних про цілісність
 rmc-hardpoint-ui-remove = Зняти
 rmc-hardpoint-ui-removing = Знімаю...
+rmc-hardpoint-failure-vehicle-header = Несправності транспорту
+rmc-hardpoint-failure-hardpoint-header = Несправності точки кріплення
+rmc-hardpoint-failure-title-on-label = {$failure} на {$label}
+rmc-hardpoint-failure-effect-line = Ефект: {$effect}
+rmc-hardpoint-failure-repair-line = Ремонт: крок {$step}/{$count} - {$instruction} Використайте {$tool}.
+rmc-hardpoint-failure-status-with-step = {$failure} ({$step}/{$count}: {$tool})
+rmc-hardpoint-failure-diagnostic-status = {$failure} - {$effect}
+rmc-hardpoint-failure-hull-summary = Корпус: {$failures}
+rmc-hardpoint-failure-repair-step-complete = Крок ремонту "{$failure}" завершено. Далі: {$tool}.
+rmc-hardpoint-failure-name = { $failure ->
+    [armor-compromised] пробиття бронеплити
+    [feed-jam] заклинювання системи подачі
+    [runaway-trigger] неконтрольований спуск
+    [turret-traverse-damage] пошкоджене поворотне кільце
+    [engine-misfire] перебої двигуна
+    [transmission-slip] пробуксовування трансмісії
+    [warped-frame] деформована рама
+    [damaged-mount] пошкоджене кріплення
+    [tire-blowout] пробите колесо
+    [thrown-tread] скинута гусениця
+    [engine-overheat] перегрів двигуна
+    [electrical-short] коротке замикання
+    [fuel-leak] витік пального
+   *[hardpoint-failure] несправність точки кріплення
+}
+rmc-hardpoint-failure-alert-name = { $failure ->
+    [armor-compromised] Пробиття бронеплити
+    [feed-jam] Заклинювання подачі зброї
+    [runaway-trigger] Неконтрольований спуск
+    [turret-traverse-damage] Пошкодження повороту турелі
+    [engine-misfire] Перебої двигуна
+    [transmission-slip] Пробуксовування трансмісії
+    [warped-frame] Деформована рама
+    [damaged-mount] Пошкоджене кріплення
+    [tire-blowout] Пробите колесо
+    [thrown-tread] Скинута гусениця
+    [engine-overheat] Перегрів двигуна
+    [electrical-short] Коротке замикання
+    [fuel-leak] Витік пального
+   *[hardpoint-failure] Несправність точки кріплення
+}
+rmc-hardpoint-failure-effect = { $failure ->
+    [armor-compromised] Бронезахист цієї точки кріплення не працює.
+    [feed-jam] Ця зброя може випадково заклинити або дати осічку.
+    [runaway-trigger] Ця зброя може вистрілити сама, поки встановлена.
+    [turret-traverse-damage] Швидкість повороту турелі сильно знижена.
+    [engine-misfire] Прискорення й максимальна швидкість транспорту знижені.
+    [transmission-slip] Прискорення, задній хід і максимальна швидкість транспорту знижені.
+    [warped-frame] Рама транспорту чіпляє поверхню й погіршує рух.
+    [damaged-mount] Потужність цієї точки кріплення знижена, доки кріплення не посадять на місце.
+    [tire-blowout] Транспорт втрачає швидкість і зчеплення через пошкоджене колесо.
+    [thrown-tread] Транспорт ледве рухається, доки гусеницю не посадять назад.
+    [engine-overheat] Двигун захлинається, а прискорення сильно знижене.
+    [electrical-short] Електроживлення цієї точки кріплення нестабільне й ослаблене.
+    [fuel-leak] Блекфут втрачає пальне з часом, доки витік не полагодять.
+   *[hardpoint-failure] Точка кріплення несправна.
+}
+rmc-hardpoint-failure-repair-armor-compromised-1 = Затягніть кріплення броні й вирівняйте плиту затискачем.
+rmc-hardpoint-failure-repair-armor-compromised-2 = Заваріть і залатайте пробиті шви броні.
+rmc-hardpoint-failure-repair-feed-jam-1 = Відкрийте кришку подачі й приберіть погнуті ланки стрічки.
+rmc-hardpoint-failure-repair-feed-jam-2 = Прокрутіть привід подачі мультитулом.
+rmc-hardpoint-failure-repair-runaway-trigger-1 = Відкрийте корпус спуску й ізолюйте зношену тягу шептала.
+rmc-hardpoint-failure-repair-runaway-trigger-2 = Скиньте реле керування вогнем мультитулом.
+rmc-hardpoint-failure-repair-runaway-trigger-3 = Посадіть тягу спуску назад і затягніть її.
+rmc-hardpoint-failure-repair-turret-traverse-damage-1 = Затягніть і заново виставте поворотне кільце.
+rmc-hardpoint-failure-repair-turret-traverse-damage-2 = Піддомкратьте підшипник турелі й посадіть кільце назад.
+rmc-hardpoint-failure-repair-engine-misfire-1 = Відкрийте люк доступу до двигуна.
+rmc-hardpoint-failure-repair-engine-misfire-2 = Імпульсно перевірте контур запалювання мультитулом.
+rmc-hardpoint-failure-repair-engine-misfire-3 = Затягніть опори двигуна після стабілізації контуру.
+rmc-hardpoint-failure-repair-transmission-slip-1 = Підійміть і посадіть трансмісію назад сервісним домкратом.
+rmc-hardpoint-failure-repair-transmission-slip-2 = Затягніть болти корпусу трансмісії.
+rmc-hardpoint-failure-repair-warped-frame-1 = Піддомкратьте раму й зніміть напругу з деформованої ділянки.
+rmc-hardpoint-failure-repair-warped-frame-2 = Нагрійте й вирівняйте деформовані елементи рами зварювальним апаратом.
+rmc-hardpoint-failure-repair-warped-frame-3 = Повторно затягніть розпірки рами.
+rmc-hardpoint-failure-repair-damaged-mount-1 = Піддомкратьте точку кріплення над пошкодженим кронштейном.
+rmc-hardpoint-failure-repair-damaged-mount-2 = Посадіть кріплення назад і затягніть фіксатори.
+rmc-hardpoint-failure-repair-tire-blowout-1 = Відтисніть порвану шину від обода.
+rmc-hardpoint-failure-repair-tire-blowout-2 = Піддомкратьте маточину й встановіть запасний колісний вузол.
+rmc-hardpoint-failure-repair-tire-blowout-3 = Затягніть гайки колеса по черзі.
+rmc-hardpoint-failure-repair-thrown-tread-1 = Піддомкратьте ходову частину й послабте натяг гусениці.
+rmc-hardpoint-failure-repair-thrown-tread-2 = Відтисніть скинуті ланки гусениці назад на опорні котки.
+rmc-hardpoint-failure-repair-thrown-tread-3 = Зафіксуйте натягувач і затягніть пальці гусениці.
+rmc-hardpoint-failure-repair-engine-overheat-1 = Відкрийте кожух двигуна й випустіть накопичене тепло.
+rmc-hardpoint-failure-repair-engine-overheat-2 = Відтисніть деформований кожух вентилятора від радіатора.
+rmc-hardpoint-failure-repair-engine-overheat-3 = Імпульсно перевіряйте контролер насоса охолодження, доки потік не стабілізується.
+rmc-hardpoint-failure-repair-electrical-short-1 = Відріжте обгорілу проводку від джгута точки кріплення.
+rmc-hardpoint-failure-repair-electrical-short-2 = Простежте й скиньте керувальний контур мультитулом.
+rmc-hardpoint-failure-repair-electrical-short-3 = Закрийте люк доступу й закріпіть замінений джгут.
+rmc-hardpoint-failure-repair-fuel-leak-1 = Відкрийте сервісну панель пального й ізолюйте розірвану магістраль.
+rmc-hardpoint-failure-repair-fuel-leak-2 = Залатайте паливну магістраль, що протікає.
+rmc-hardpoint-failure-repair-fuel-leak-3 = Затягніть муфту паливної магістралі.
 rmc-vehicle-ammo-loader-no-vehicle = Завантажувач не підʼєднано до транспорту.
 rmc-vehicle-ammo-loader-no-hardpoint = Сумісну точку кріплення не встановлено.
 rmc-vehicle-ammo-loader-wrong-ammo = Ці набої не підходять до завантажувача.

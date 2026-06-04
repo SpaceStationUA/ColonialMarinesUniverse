@@ -24,6 +24,97 @@ rmc-hardpoint-ui-integrity = {$current}/{$max} ({$percent}%)
 rmc-hardpoint-ui-no-integrity = No integrity data
 rmc-hardpoint-ui-remove = Remove
 rmc-hardpoint-ui-removing = Removing...
+rmc-hardpoint-failure-vehicle-header = Vehicle malfunctions
+rmc-hardpoint-failure-hardpoint-header = Hardpoint malfunctions
+rmc-hardpoint-failure-title-on-label = {$failure} on {$label}
+rmc-hardpoint-failure-effect-line = Effect: {$effect}
+rmc-hardpoint-failure-repair-line = Repair: step {$step}/{$count} - {$instruction} Use {$tool}.
+rmc-hardpoint-failure-status-with-step = {$failure} ({$step}/{$count}: {$tool})
+rmc-hardpoint-failure-diagnostic-status = {$failure} - {$effect}
+rmc-hardpoint-failure-hull-summary = Hull: {$failures}
+rmc-hardpoint-failure-repair-step-complete = {$failure} repair step complete. Next: {$tool}.
+rmc-hardpoint-failure-name = { $failure ->
+    [armor-compromised] armor plating breach
+    [feed-jam] jammed feed system
+    [runaway-trigger] runaway trigger
+    [turret-traverse-damage] damaged traverse ring
+    [engine-misfire] engine misfire
+    [transmission-slip] transmission slip
+    [warped-frame] warped frame
+    [damaged-mount] damaged mount
+    [tire-blowout] tire blowout
+    [thrown-tread] thrown tread
+    [engine-overheat] engine overheating
+    [electrical-short] electrical short
+    [fuel-leak] fuel leak
+   *[hardpoint-failure] hardpoint failure
+}
+rmc-hardpoint-failure-alert-name = { $failure ->
+    [armor-compromised] Armor plating breach
+    [feed-jam] Weapon feed jam
+    [runaway-trigger] Runaway trigger
+    [turret-traverse-damage] Turret traverse damage
+    [engine-misfire] Engine misfire
+    [transmission-slip] Transmission slip
+    [warped-frame] Warped frame
+    [damaged-mount] Damaged mount
+    [tire-blowout] Tire blowout
+    [thrown-tread] Thrown tread
+    [engine-overheat] Engine overheating
+    [electrical-short] Electrical short
+    [fuel-leak] Fuel leak
+   *[hardpoint-failure] Hardpoint failure
+}
+rmc-hardpoint-failure-effect = { $failure ->
+    [armor-compromised] Armor protection from this hardpoint is offline.
+    [feed-jam] This weapon can randomly jam or misfire.
+    [runaway-trigger] This weapon can discharge on its own while mounted.
+    [turret-traverse-damage] Turret traverse speed is severely reduced.
+    [engine-misfire] Vehicle acceleration and top speed are reduced.
+    [transmission-slip] Vehicle acceleration, reverse speed, and top speed are reduced.
+    [warped-frame] The vehicle frame drags and reduces movement performance.
+    [damaged-mount] This hardpoint's output is weakened until the mount is reseated.
+    [tire-blowout] The vehicle loses speed and traction from a damaged tire.
+    [thrown-tread] The vehicle can barely move until the tread is re-seated.
+    [engine-overheat] The engine bogs down and acceleration is heavily reduced.
+    [electrical-short] This hardpoint's electrical output is unreliable and weakened.
+    [fuel-leak] The Blackfoot leaks fuel over time until repaired.
+   *[hardpoint-failure] The hardpoint is malfunctioning.
+}
+rmc-hardpoint-failure-repair-armor-compromised-1 = Tighten the armor fasteners and clamp the plate into alignment.
+rmc-hardpoint-failure-repair-armor-compromised-2 = Weld and patch the breached armor seams.
+rmc-hardpoint-failure-repair-feed-jam-1 = Open the feed cover and clear bent belt links.
+rmc-hardpoint-failure-repair-feed-jam-2 = Cycle the feed actuator with a multitool.
+rmc-hardpoint-failure-repair-runaway-trigger-1 = Open the trigger housing and isolate the worn sear linkage.
+rmc-hardpoint-failure-repair-runaway-trigger-2 = Reset the fire-control relay with a multitool.
+rmc-hardpoint-failure-repair-runaway-trigger-3 = Re-seat and tighten the trigger linkage.
+rmc-hardpoint-failure-repair-turret-traverse-damage-1 = Tighten and re-index the traverse ring.
+rmc-hardpoint-failure-repair-turret-traverse-damage-2 = Jack the turret bearing clear and re-seat the ring.
+rmc-hardpoint-failure-repair-engine-misfire-1 = Open the engine access panel.
+rmc-hardpoint-failure-repair-engine-misfire-2 = Pulse the ignition control circuit with a multitool.
+rmc-hardpoint-failure-repair-engine-misfire-3 = Tighten the engine mounts after the circuit stabilizes.
+rmc-hardpoint-failure-repair-transmission-slip-1 = Lift and re-seat the drivetrain with a maintenance jack.
+rmc-hardpoint-failure-repair-transmission-slip-2 = Tighten the transmission housing bolts.
+rmc-hardpoint-failure-repair-warped-frame-1 = Jack the frame and relieve pressure from the warped section.
+rmc-hardpoint-failure-repair-warped-frame-2 = Heat and straighten the warped frame members with a welder.
+rmc-hardpoint-failure-repair-warped-frame-3 = Re-torque the frame braces.
+rmc-hardpoint-failure-repair-damaged-mount-1 = Jack the hardpoint clear of the damaged mount.
+rmc-hardpoint-failure-repair-damaged-mount-2 = Re-seat and tighten the mount locking hardware.
+rmc-hardpoint-failure-repair-tire-blowout-1 = Pry the shredded tire casing clear of the rim.
+rmc-hardpoint-failure-repair-tire-blowout-2 = Jack the hub up and seat a replacement wheel assembly.
+rmc-hardpoint-failure-repair-tire-blowout-3 = Torque the wheel lugs down in sequence.
+rmc-hardpoint-failure-repair-thrown-tread-1 = Jack the running gear up and take tension off the tread.
+rmc-hardpoint-failure-repair-thrown-tread-2 = Pry the thrown tread links back onto the road wheels.
+rmc-hardpoint-failure-repair-thrown-tread-3 = Lock the tensioner and torque the tread pins.
+rmc-hardpoint-failure-repair-engine-overheat-1 = Open the engine shroud and vent trapped heat.
+rmc-hardpoint-failure-repair-engine-overheat-2 = Pry the warped fan guard away from the radiator.
+rmc-hardpoint-failure-repair-engine-overheat-3 = Pulse the coolant pump controller until flow stabilizes.
+rmc-hardpoint-failure-repair-electrical-short-1 = Cut away the burned wiring from the hardpoint harness.
+rmc-hardpoint-failure-repair-electrical-short-2 = Trace and reset the control circuit with a multitool.
+rmc-hardpoint-failure-repair-electrical-short-3 = Close the access panel and secure the replacement harness.
+rmc-hardpoint-failure-repair-fuel-leak-1 = Open the fuel service panel and isolate the ruptured line.
+rmc-hardpoint-failure-repair-fuel-leak-2 = Patch the leaking fuel line.
+rmc-hardpoint-failure-repair-fuel-leak-3 = Tighten the fuel line coupling.
 rmc-vehicle-ammo-loader-no-vehicle = The loader isn't connected to a vehicle.
 rmc-vehicle-ammo-loader-no-hardpoint = No compatible hardpoint is installed.
 rmc-vehicle-ammo-loader-wrong-ammo = That ammo doesn't fit this loader.
