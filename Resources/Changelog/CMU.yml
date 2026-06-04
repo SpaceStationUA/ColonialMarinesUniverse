@@ -2967,313 +2967,268 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1172
 - author: 7-62x54r
   changes:
-  - message: Added regular drone pheromones (tier 1) to burrower.
+  - message: Додано феромони звичайного дрона (тир 1) для заривача.
     type: Add
   id: 173
   time: '2026-06-01T00:24:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1144
 - author: troytroy400
   changes:
-  - message: Potted plants resprited.
+  - message: Оновлено спрайти рослин у горщиках.
     type: Tweak
-  - message: Palm trees resprited.
+  - message: Оновлено спрайти пальм.
     type: Tweak
   id: 174
   time: '2026-06-01T01:08:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1173
 - author: Piticzu
   changes:
-  - message: Crusher stomp no longer hits through walls, windows, or doors.
+  - message: Тупіт Дробарки більше не б'є крізь стіни, вікна чи двері.
     type: Tweak
-  - message: Crusher charge range increased from 8 to 9 tiles with max-range clamp
-      casting.
+  - message: Дальність ривка Дробарки збільшено з 8 до 9 тайлів із приведенням до максимальної дальності.
     type: Tweak
-  - message: Crusher charge now flings targets in the correct direction consistently.
+  - message: Ривок Дробарки тепер стабільно відкидає цілі у правильному напрямку.
     type: Tweak
-  - message: Crusher charge passes through furniture and small obstacles instead of
-      getting stuck.
+  - message: Ривок Дробарки проходить крізь меблі та дрібні перешкоди, а не застрягає.
     type: Tweak
-  - message: Crusher Defensive Shield now shows animated shield overlay.
+  - message: Захисний щит Дробарки тепер показує анімовану накладку щита.
     type: Tweak
-  - message: Crusher projectile reflect reduced to 10% front only.
+  - message: Відбиття снарядів Дробарки зменшено до 10% лише спереду.
     type: Tweak
-  - message: Crusher Brutalize passive reduced to 15 damage and 5 AP.
+  - message: Пасив Brutalize Дробарки зменшено до 15 шкоди та 5 AP.
     type: Tweak
-  - message: Crusher charge hit damage reduced from 90 to 80.
+  - message: Шкоду від влучання ривком Дробарки зменшено з 90 до 80.
     type: Tweak
-  - message: Fixed melee wide swing ignoring per-entity max target count on the client.
+  - message: Виправлено ігнорування клієнтом ліміту цілей на сутність для широкого удару ближнього бою.
     type: Fix
   id: 175
   time: '2026-06-01T20:56:59.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1179
 - author: Arcticular1
   changes:
-  - message: Added new loadout options for WY Security Guards and WY Liaison.
+  - message: Додано нові варіанти спорядження для охоронців WY та зв'язкового WY.
     type: Add
   id: 176
   time: '2026-06-01T21:42:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1174
 - author: potatoed6
   changes:
-  - message: fix marine guard not in ua amb console
+  - message: Виправлено відсутність морського охоронця в консолі амбасадора UA.
     type: Fix
-  - message: fixed survs spawn rates to be higher
+  - message: Збільшено частоту спавну виживших.
     type: Fix
   id: 177
   time: '2026-06-01T21:42:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1177
 - author: TheHellFireo
   changes:
-  - message: '"Added mechanism wounds for 8 injury sources: bullet, stab, slash, crush,
-      burn, blast, fragment, and surgical wounds. Mixed wounds on the same limb now
-      merge into larger wound records."'
+  - message: "Додано механізмні рани для 8 джерел травм: кульові, колоті, різані, розчавлені, опікові, вибухові, уламкові та хірургічні. Змішані рани на тій самій кінцівці тепер об'єднуються у більші записи ран."
     type: Add
-  - message: '"Added 4 wound sizes based on damage: small under 15, deep at 15+, gaping
-      at 35+, and massive at 60+."'
+  - message: "Додано 4 розміри ран залежно від шкоди: невелика до 15, глибока від 15, зяюча від 35 і масивна від 60."
     type: Add
-  - message: '"Wound sizes now require 1, 2, 3, and 4 treatment uses respectively,
-      with 0.5s, 1s, 2s, and 4s base treatment delays."'
+  - message: Розміри ран тепер потребують 1, 2, 3 та 4 застосувань лікування відповідно, з базовими затримками лікування 0.5с, 1с, 2с та 4с.
     type: Add
-  - message: '"Added limb health caps from active wounds and cleanup issues. Small,
-      deep, gaping, and massive wounds reduce the field-heal cap by 5%, 12%, 20%,
-      and 30% each, clamped to at least 35% limb health."'
+  - message: "Додано обмеження здоров'я кінцівок від активних ран і проблем очищення. Невеликі, глибокі, зяючі та масивні рани зменшують ліміт польового лікування на 5%, 12%, 20% і 30% кожна, але не нижче 35% здоров'я кінцівки."
     type: Add
-  - message: '"Added wound recovery after optimal treatment. Clean optimal wounds
-      regenerate linked brute or burn damage at 0.6 damage per second."'
+  - message: Додано відновлення ран після оптимального лікування. Чисті оптимально оброблені рани відновлюють пов'язану brute- або burn-шкоду зі швидкістю 0.6 шкоди на секунду.
     type: Add
-  - message: '"Adequate wound treatment restores limb health only up to the current
-      wound cap instead of enabling full recovery."'
+  - message: Достатнє лікування ран відновлює здоров'я кінцівки лише до поточного ліміту рани, а не дозволяє повне відновлення.
     type: Tweak
-  - message: '"Added separate external bleeding tiers. Minor, moderate, severe, and
-      arterial bleeding drain 0.08, 0.18, 0.35, and 0.70 blood per second."'
+  - message: Додано окремі рівні зовнішньої кровотечі. Незначна, помірна, сильна та артеріальна кровотеча віднімають 0.08, 0.18, 0.35 і 0.70 крові за секунду.
     type: Add
-  - message: '"Wound bleeding durations are now clamped between 5 and 60 seconds."'
+  - message: Тривалість кровотечі з ран тепер обмежена в межах від 5 до 60 секунд.
     type: Tweak
-  - message: '"Added 5 field-mixing ingredients in 50-unit stacks: coagulant powder,
-      antiseptic, burn gel, tissue sealant, and trauma foam."'
+  - message: "Додано 5 інгредієнтів для польового змішування у стаках по 50 одиниць: коагулянтний порошок, антисептик, гель від опіків, тканинний герметик і травматична піна."
     type: Add
-  - message: '"Added packed gauze and packed trauma kits as 50-use base stacks."'
+  - message: Додано упаковану марлю та упаковані травматичні набори як базові стаки на 50 застосувань.
     type: Add
-  - message: '"Packed gauze instantly controls non-arterial bleeding. Packed trauma
-      kits can also control arterial bleeding with a 1 second base delay."'
+  - message: Упакована марля миттєво зупиняє неартеріальну кровотечу. Упаковані травматичні набори також можуть зупиняти артеріальну кровотечу з базовою затримкою 1 секунду.
     type: Tweak
-  - message: '"Added 5 prepared gauze stacks with 10 uses each: hemostatic, antiseptic,
-      burn gel, sealing, and compression gauze."'
+  - message: "Додано 5 підготовлених стаків марлі по 10 застосувань: гемостатична, антисептична, з гелем від опіків, герметизувальна та компресійна марля."
     type: Add
-  - message: '"Added 5 prepared trauma dressing stacks with 6 uses each: hemostatic,
-      antiseptic, burn, sealing, and compression trauma dressings."'
+  - message: "Додано 5 підготовлених стаків травматичних пов'язок по 6 застосувань: гемостатичні, антисептичні, опікові, герметизувальні та компресійні травматичні пов'язки."
     type: Add
-  - message: '"Prepared gauze is instant and treats 1 wound use per application. Prepared
-      trauma dressings treat 2 wound uses per application and can stop arterial bleeding."'
+  - message: Підготовлена марля застосовується миттєво та лікує 1 застосування рани за раз. Підготовлені травматичні пов'язки лікують 2 застосування рани за раз і можуть зупиняти артеріальну кровотечу.
     type: Tweak
-  - message: '"Field mixing consumes 1 packed gauze or packed trauma kit use, plus
-      ingredient units based on medical skill: 5 units at medical 0-1, 2 units at
-      medical 2, and 1 unit at medical 3+."'
+  - message: "Польове змішування витрачає 1 застосування упакованої марлі або упакованого травматичного набору, плюс інгредієнти залежно від медичної навички: 5 одиниць на медичному 0-1, 2 одиниці на медичному 2 і 1 одиницю на медичному 3+."
     type: Tweak
-  - message: '"Updated corpsman vendors with packed gauze for 1 point, packed trauma
-      kits for 2 points, ingredients for 4 points each, prepared gauze for 2 points
-      each, prepared trauma dressings for 3 points each, and O- blood bags for 4'
+  - message: "Оновлено вендори санітарів: упакована марля за 1 очко, упаковані травматичні набори за 2 очки, інгредієнти за 4 очки кожен, підготовлена марля за 2 очки кожна, підготовлені травматичні пов'язки за 3 очки кожна та пакети крові O- за 4 очки."
     type: Tweak
-  - message: '"Added limited rifleman equipment-vendor access: packed gauze 5 points,
-      packed trauma kits 8 points, coagulant powder 15 points, burn gel 15 points,
-      hemostatic or burn gauze 8 points, and hemostatic or burn trauma dressings'
+  - message: "Додано обмежений доступ у вендорі спорядження стрільця: упакована марля за 5 очок, упаковані травматичні набори за 8 очок, коагулянтний порошок за 15 очок, гель від опіків за 15 очок, гемостатична або опікова марля за 8 очок і гемостатичні або опікові травматичні пов'язки."
     type: Tweak
-  - message: '"Added ASRS medical purchasables: 20 packed gauze, 16 packed trauma
-      kits, 12 of each ingredient, 16 of each prepared gauze, 10 of each prepared
-      trauma dressing, 16 full O- blood bags, and 8 empty blood bags."'
+  - message: "Додано медичні закупівлі ASRS: 20 упакованої марлі, 16 упакованих травматичних наборів, 12 кожного інгредієнта, 16 кожної підготовленої марлі, 10 кожної підготовленої травматичної пов'язки, 16 повних пакетів крові O- і 8 порожніх пакетів для крові."
     type: Tweak
-  - message: '"Updated medical examine and health analyzer data to show wound mechanisms,
-      treatment quality, cleanup issues, bleeding state, limb health caps, and ordered
-      body-part injury sections."'
+  - message: Оновлено дані медичного огляду та аналізатора здоров'я, щоб показувати механізми ран, якість лікування, проблеми очищення, стан кровотечі, ліміти здоров'я кінцівок і впорядковані секції травм частин тіла.
     type: Tweak
-  - message: '"Added trauma routing numbers for deeper injuries: ballistic trauma
-      can hit head organs at 55%, torso organs at 50%, and vascular damage at 3%;
-      piercing trauma can hit bones at 20%, organs at 35%, and vascular damage at
-      4%."'
+  - message: "Додано показники маршрутизації травми для глибших поранень: балістична травма може зачепити органи голови з шансом 55%, органи торса з шансом 50% і судинні ушкодження з шансом 3%; колота травма може зачепити кістки з шансом 20%, органи з шансом 35% і судинні ушкодження з шансом 4%."
     type: Tweak
-  - message: '"Surgery now supports condition-driven injected steps and re-arms after
-      failed or newly inserted steps instead of dropping the whole procedure flow."'
+  - message: Хірургія тепер підтримує кроки, що додаються за умовами, і повторно активує процедуру після провалених або нововставлених кроків, замість скидати весь перебіг процедури.
     type: Tweak
-  - message: '"Fixed retained fragments appearing on every wound instead of being
-      rare cleanup issues."'
+  - message: Виправлено появу застряглих уламків на кожній рані замість рідкісних проблем очищення.
     type: Fix
-  - message: '"Restored knife-based retained-fragment removal through the cleanup
-      flow."'
+  - message: Відновлено видалення застряглих уламків ножем через потік очищення.
     type: Fix
-  - message: '"Updated trauma governor, bone-breaking sounds, and medical item interactions
-      for the new wound and limb recovery foundation."'
+  - message: Оновлено травматичний стабілізатор, звуки ламання кісток і взаємодії медичних предметів для нової основи ран і відновлення кінцівок.
     type: Tweak
   id: 178
   time: '2026-06-02T00:37:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1184
 - author: troytroy400
   changes:
-  - message: Xeno spawn rates changed to be more proportional.
+  - message: Частоту спавну ксено змінено, щоб вона була пропорційнішою.
     type: Tweak
   id: 179
   time: '2026-06-02T00:50:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1186
 - author: KeiKiyomi
   changes:
-  - message: Fixed Prodigy spawns (again)
+  - message: Виправлено спавни Prodigy (знову).
     type: Fix
   id: 180
   time: '2026-06-02T01:47:15.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1187
 - author: 7-62x54r
   changes:
-  - message: Added pheromones to burrower (for real this time i hope)
+  - message: Додано феромони заривачу (цього разу справді, сподіваюся).
     type: Fix
   id: 181
   time: '2026-06-02T01:50:29.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1182
 - author: troytroy400
   changes:
-  - message: Tracer magazines for the M41A Mk1 and M2C.
+  - message: Додано трасувальні магазини для M41A Mk1 та M2C.
     type: Add
-  - message: HAZOPs can now get MK2 from req.
+  - message: HAZOPs тепер можуть отримати MK2 у постачанні.
     type: Add
-  - message: AP rockets are no longer free.
+  - message: AP-ракети більше не безкоштовні.
     type: Fix
-  - message: Modified blowtorch description fixed/loreified.
+  - message: Опис паяльної лампи виправлено та приведено до лору.
     type: Fix
-  - message: Equipment vendors now start with five sandbags and four barbed wire as
-      opposed to one.
+  - message: Вендори спорядження тепер починають із п'ятьма мішками з піском і чотирма мотками колючого дроту замість одного.
     type: Tweak
-  - message: CT essential kits now have an engineering kit, a stack of wood and full
-      versions of the material stacks.
+  - message: Базові набори CT тепер мають інженерний набір, стак деревини та повні версії стаків матеріалів.
     type: Tweak
   id: 182
   time: '2026-06-02T04:47:38.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1188
 - author: troytroy400
   changes:
-  - message: USS Bush Z-Levels, second and third floor.
+  - message: USS Bush - Z-рівні, другий і третій поверх.
     type: Add
-  - message: Slot scaling for AuxTech capped at five.
+  - message: Масштабування слотів для AuxTech обмежено п'ятьма.
     type: Tweak
-  - message: Random lore primer grammar.
+  - message: Виправлено граматику випадкового лорного вступу.
     type: Fix
-  - message: Camo is now correct for certain maps. No more snow camo on Kutjevo.
+  - message: Камуфляж тепер правильний для окремих мап. Більше жодного снігового камуфляжу на Kutjevo.
     type: Fix
   id: 183
   time: '2026-06-02T21:34:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1151
 - author: toot521
   changes:
-  - message: CLF Doctors and Surgeons now start with their Armband on the ground instead
-      of on their neckslot
+  - message: Лікарі та хірурги ФВК тепер стартують із пов'язкою на руці на підлозі, а не у слоті шиї.
     type: Tweak
   id: 184
   time: '2026-06-02T23:03:10.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1197
 - author: ver0098
   changes:
-  - message: M5A1 SLAW Added to UPP Requisitions purchase for 1.5k credits.
+  - message: M5A1 SLAW додано до закупівель постачання UPP за 1.5k кредитів.
     type: Add
-  - message: Multiple UPP Requisition items purchase tweaked.
+  - message: Змінено кілька предметів закупівель постачання UPP.
     type: Add
   id: 185
   time: '2026-06-02T23:04:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1194
 - author: Piticzu
   changes:
-  - message: M85A1 grenade launcher now requires opening and closing the breech between
-      shots.
+  - message: Гранатомет M85A1 тепер потребує відкривати та закривати казенник між пострілами.
     type: Tweak
   id: 186
   time: '2026-06-02T23:05:50.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1192
 - author: troytroy400
   changes:
-  - message: MultiZ USS Bush now loads properly.
+  - message: MultiZ USS Bush тепер завантажується правильно.
     type: Fix
   id: 187
   time: '2026-06-03T01:46:04.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1201
 - author: toot521
   changes:
-  - message: CLF survivor third party prototypes
+  - message: Додано прототипи третьої сторони для виживших ФВК.
     type: Add
   id: 188
   time: '2026-06-03T09:12:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1193
 - author: 400Ferrets
   changes:
-  - message: USS Bush is now weedable.
+  - message: USS Bush тепер можна вкривати бур'яном.
     type: Tweak
-  - message: USS Bush now has a thick roof.
+  - message: USS Bush тепер має товстий дах.
     type: Map
   id: 189
   time: '2026-06-03T18:48:17.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1202
 - author: toot521
   changes:
-  - message: Weyland Yutani Survivors now have more Flashlights and on average worse
-      guns
+  - message: Виживші Weyland-Yutani тепер мають більше ліхтариків і в середньому гіршу зброю.
     type: Tweak
   id: 190
   time: '2026-06-03T21:12:25.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1198
 - author: toot521
   changes:
-  - message: 'Added WeYu Survivors to: Corsat Station'
+  - message: 'Додано виживших WeYu до: Corsat Station'
     type: Add
-  - message: 'Added CLF Survivors to: Sorokyne Strata'
+  - message: 'Додано виживших ФВК до: Sorokyne Strata'
     type: Add
-  - message: 'Added CLF and WeYu Survivors to: Solaris Gulch, LV624 Green Hell, Hybrisa
-      Metropolitan, Port Neroid, Raijin Hydroelectric, Shiva''s Snowball, Kutjevo
-      Biolab, Fiorina Prison'
+  - message: 'Додано виживших ФВК та WeYu до: Solaris Gulch, LV624 Green Hell, Hybrisa Metropolitan, Port Neroid, Raijin Hydroelectric, Shiva''s Snowball, Kutjevo Biolab, Fiorina Prison'
     type: Add
   id: 191
   time: '2026-06-03T21:21:15.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1199
 - author: HotdogMan52
   changes:
-  - message: M19, a handheld CS grenade
+  - message: M19, ручна CS-граната.
     type: Add
-  - message: AGM-PDC, a CS Gas canister for the M85A1 Grenade Launcher
+  - message: AGM-PDC, каністра CS-газу для гранатомета M85A1.
     type: Add
-  - message: teargassmoke.yml which is just boiler gas but non-lethal and different
-      color
+  - message: teargassmoke.yml, тобто газ бойлера, але нелетальний і іншого кольору.
     type: Add
   id: 192
   time: '2026-06-03T21:25:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1206
 - author: toot521
   changes:
-  - message: CLF Survivor Surgeon to CLF survs
+  - message: Хірурга-вижившого ФВК додано до виживших ФВК.
     type: Add
-  - message: CLF Survs are now clearly labeled as hostile to their local government
+  - message: Виживші ФВК тепер чітко позначені як ворожі до свого місцевого уряду.
     type: Tweak
-  - message: CLF Surv Leader now has a flashlight roundstart
+  - message: Лідер виживших ФВК тепер має ліхтарик на старті раунду.
     type: Tweak
   id: 193
   time: '2026-06-04T00:50:41.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1209
 - author: troytroy400
   changes:
-  - message: The L33 DAAMSL, the TWE version of the SLAW. Replaces the SLAW on the
-      TWE Royal Marines platoon.
+  - message: L33 DAAMSL, TWE-версію SLAW, додано замість SLAW у взводі TWE Royal Marines.
     type: Add
-  - message: The L49 shotgun, a replacement for the old non-TWE shotgun. Comes with
-      its own unique breaching ammunition and storage belt.
+  - message: Додано дробовик L49, заміну старого не-TWE дробовика. Має власні унікальні боєприпаси для пробивання дверей і пояс для зберігання.
     type: Add
-  - message: Various unused TWE weapons added to the RMC platoon and loreified. Includes
-      two variants of marksman rifle and an automatic support weapon.
+  - message: Додано різну невикористану зброю TWE до взводу RMC і приведено її до лору. Включає два варіанти марксманської гвинтівки та автоматичну зброю підтримки.
     type: Add
-  - message: Prodigy moved to OPFOR on Trijent.
+  - message: Prodigy перенесено до OPFOR на Trijent.
     type: Tweak
-  - message: Added teargas grenade packets and adds them to relevant req vendors.
+  - message: Додано пакети зі сльозогінними гранатами та додано їх до відповідних вендорів постачання.
     type: Add
-  - message: Teargas detonate delay changed from 3.5 to 4.5.
+  - message: Затримку детонації сльозогінного газу змінено з 3.5 до 4.5.
     type: Tweak
-  - message: The surgical case now starts with a surgical saw and bonegel.
+  - message: Хірургічний кейс тепер стартує з хірургічною пилкою та кістковим гелем.
     type: Tweak
-  - message: Medical vendors buffed to have more of most items, medicines moved into
-      subcategories as QOL for new players.
+  - message: Медичні вендори посилено - тепер вони мають більше більшості предметів, а ліки перенесено у підкатегорії для зручності нових гравців.
     type: Tweak
-  - message: Corpsmen now get four first-aid packs, a rethemed first-aid kit.
+  - message: Санітари тепер отримують чотири аптечки першої допомоги, перетематизований набір першої допомоги.
     type: Tweak
   id: 194
   time: '2026-06-04T03:46:16.0000000+00:00'

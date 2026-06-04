@@ -24,7 +24,8 @@ rmc-xeno-tracker-target-HiveLeader = Лідер Вулика
 rmc-xeno-tracker-target-Tunnel = Тунельний
 rmc-xeno-tracker-target-HiveCore = Ядро Вулика
 
-rmc-xeno-ui-ovi-needed-label = [bold][color=red]Королева має бути у своєму\nяйцекладі, щоб ви отримували очки![/color][/bold]
+rmc-xeno-ui-ovi-needed-label = [bold][color=red]Королева має бути у своєму
+    яйцекладі, щоб ви отримували очки![/color][/bold]
 rmc-xeno-ui-evolution-points = Очки еволюції: { $points } / { $maxPoints }
 rmc-ui-xeno-strain-confirm = Підтвердити
 
@@ -36,3 +37,24 @@ rmc-xeno-larva-queue-removed = Вас прибрано з черги личин�
 rmc-xeno-larva-queue-added = Вас додано до черги личинок на позицію {$position}.
 rmc-xeno-larva-prequeue-added = Вас додано до попередньої черги личинок (залишилось {$seconds} секунд).
 rmc-xeno-larva-queue-position = Тепер ви на позиції {$position} у черзі личинок.
+
+rmc-xeno-larva-queue-search = Шукати вулики...
+rmc-xeno-larva-queue-count = {$count} вуликів
+rmc-xeno-larva-queue-empty = Немає доступних вуликів
+rmc-xeno-larva-queue-no-results = Немає відповідних вуликів
+rmc-xeno-larva-queue-status-available = Не в черзі
+rmc-xeno-larva-queue-status-position = Позиція {$position}
+rmc-xeno-larva-queue-status-waiting = Очікування черги
+rmc-xeno-larva-queue-join = Стати в чергу
+rmc-xeno-larva-queue-leave = Вийти з черги
+rmc-xeno-larva-queue-join-option = Стати в чергу личинок ({$hive})
+rmc-xeno-larva-queue-leave-option = Вийти з черги личинок ({$hive}) - позиція {$position}
+rmc-xeno-larva-prequeue-leave-option = Вийти з попередньої черги личинок ({$hive})
+rmc-xeno-larva-queue-confirm-title = Приєднатися як ксено
+rmc-xeno-larva-queue-confirm-message = Ви ось-ось станете {$xeno}. Натисніть тут, щоб підтвердити протягом {$seconds} секунд.
+rmc-xeno-larva-queue-confirm-option = Натисніть тут, щоб підтвердити
+rmc-xeno-larva-queue-confirm-decline-option = Відхилити
+rmc-xeno-larva-queue-confirm-timeout = Ви не підтвердили вчасно і втратили місце в черзі.
+rmc-xeno-larva-queue-confirm-declined = Ви відхилили і втратили місце в черзі.
+rmc-xeno-larva-queue-confirm-invalid = Цей ксено більше недоступний.
+rmc-xeno-larva-queue-burrowed-larva = закопана личинка

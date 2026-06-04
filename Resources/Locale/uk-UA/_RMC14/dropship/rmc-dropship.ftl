@@ -27,13 +27,11 @@ rmc-dropship-weapons-target-strike = Захоплення цілі
 
   Обрана ціль: {$target}
 
+  Вектор атаки {$vector}
+
   Зміщення {$xOffset},{$yOffset}
 
-#  Attack Vector {$vector}
-
-#  Offset 0,0
-
-#  Guidance computer INCOMPLETE
+#  Система наведення НЕЗАВЕРШЕНА
 
 rmc-dropship-weapons-equip-weapon-ammo = {$weapon}
   {$rounds} набоїв
@@ -72,7 +70,7 @@ rmc-dropship-weapons-next = v
 rmc-dropship-weapons-fire-no-weapon = Зброю не обрано.
 rmc-dropship-weapons-fire-not-flying = Десантні кораблі можуть стріляти лише в польоті.
 rmc-dropship-weapons-fire-not-skilled = У вас немає підготовки, щоб стріляти з цієї зброї!
-rmc-dropship-weapons-fire-no-ammo = У {$weapon} немає боєприпасів.
+rmc-dropship-weapons-fire-no-ammo = У {$weapon} недостатньо боєприпасів.
 rmc-dropship-weapons-fire-cooldown = {$weapon} щойно стріляла, зачекайте, поки вона охолоне.
 
 rmc-dropship-attached = У ньому встановлено {$attachment}.
@@ -142,3 +140,18 @@ rmc-dropship-launch-bay-screen-text-loaded = Внутрішній пускови
     Боєприпаси: {$current} / {$max}
 
 rmc-dropship-launch-alarm-xeno-shutdown = Ми б'ємо по {$console}, заглушаючи його скрекіт!
+
+rmc-dropship-weapons-view = ПЕРЕГЛ
+rmc-dropship-weapons-edit = РЕДАГ
+rmc-dropship-weapons-delete = ВИДАЛ
+rmc-dropship-firemission-warning-early = ВИ ЧУЄТЕ РЕВ ДЕСАНТНОГО КОРАБЛЯ, ЩО ГОТУЄТЬСЯ ВІДКРИТИ ВОГОНЬ ПОРУЧ!
+rmc-dropship-firemission-warning-early-above = ВИ ЧУЄТЕ РЕВ ДЕСАНТНОГО КОРАБЛЯ, ЩО ГОТУЄТЬСЯ ВІДКРИТИ ВОГОНЬ ПОРУЧ!
+rmc-dropship-firemission-invalid-value-admin-announcement = Гравець {$player} спробував встановити значення вогневої місії, яке не має бути можливим у звичайному ігровому процесі.
+rmc-dropship-firemission-vector-North = ПІВНІЧ
+rmc-dropship-firemission-vector-East = СХІД
+rmc-dropship-firemission-vector-South = ПІВДЕНЬ
+rmc-dropship-firemission-vector-West = ЗАХІД
+rmc-dropship-firemission-started = Вогнева місія триває!
+rmc-dropship-firemission-cooldown = Вогнева місія виконується.
+rmc-dropship-firemission-edit = Оберіть зброю.
+rmc-dropship-firemission-invalid-ammo = {$ammo} не можна використати під час вогневої місії.

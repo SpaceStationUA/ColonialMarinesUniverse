@@ -23,3 +23,6 @@ cmu-zlevel-ladder-start-self = Ви починаєте лізти драбино
 cmu-zlevel-ladder-start-others = {$user} починає лізти драбиною.
 cmu-zlevel-ladder-finish-self = Ви піднімаєтеся драбиною.
 cmu-zlevel-ladder-finish-others = {$user} піднімається драбиною.
+
+cmu-zlevel-ladder-look-up = Подивитися вгору
+cmu-zlevel-ladder-look-down = Подивитися вниз

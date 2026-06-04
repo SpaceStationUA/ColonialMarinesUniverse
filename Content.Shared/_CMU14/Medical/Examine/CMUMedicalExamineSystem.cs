@@ -276,7 +276,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         return false;
     }
 
-    private static string DescribeVisibleWound(BodyPartWoundComponent wounds, int index)
+    private string DescribeVisibleWound(BodyPartWoundComponent wounds, int index)
     {
         var wound = wounds.Wounds[index];
         var size = index < wounds.Sizes.Count ? wounds.Sizes[index] : WoundSize.Deep;
@@ -313,7 +313,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         return "trauma";
     }
 
-    private static string DescribeVisibleFracture(FractureSeverity severity, bool stabilized)
+    private string DescribeVisibleFracture(FractureSeverity severity, bool stabilized)
     {
         var severityKey = severity switch
         {
@@ -329,7 +329,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
             ("stabilized", stabilized ? "yes" : "no"));
     }
 
-    private static string DescribeDetailedWound(BodyPartWoundComponent wounds, int index)
+    private string DescribeDetailedWound(BodyPartWoundComponent wounds, int index)
     {
         var wound = wounds.Wounds[index];
         var size = index < wounds.Sizes.Count ? wounds.Sizes[index] : WoundSize.Deep;
@@ -375,7 +375,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         return string.Join("\n  ", sections);
     }
 
-    private static string PartHeader(BodyPartType type, BodyPartSymmetry symmetry)
+    private string PartHeader(BodyPartType type, BodyPartSymmetry symmetry)
     {
         return $"[bold]{Color(FormatPartName(type, symmetry), DetailedPartColor)}[/bold]";
     }
@@ -445,7 +445,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => treated ? "treated" : "untreated",
     };
 
-    private static string DescribeCleanup(WoundCleanupFlags cleanup)
+    private string DescribeCleanup(WoundCleanupFlags cleanup)
     {
         if (cleanup == WoundCleanupFlags.None)
             return string.Empty;
@@ -504,7 +504,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         _ => WoundMechanism.Generic,
     };
 
-    private static string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry)
+    private string FormatPartName(BodyPartType type, BodyPartSymmetry symmetry)
     {
         var key = (type, symmetry) switch
         {
@@ -562,7 +562,7 @@ public sealed partial class CMUMedicalExamineSystem : EntitySystem
         };
     }
 
-    private static string ToSentence(List<string> parts)
+    private string ToSentence(List<string> parts)
     {
         return parts.Count switch
         {

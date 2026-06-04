@@ -25,3 +25,12 @@ cmu-medical-pain-reflection-shock-3 = Не можу думати. Не можу 
 cmu-medical-pain-relief-1 = Знеболююче починає притуплювати найгостріше.
 cmu-medical-pain-relief-2 = Біль слабшає. Ви можете дихати трохи легше.
 cmu-medical-pain-relief-3 = Найгірше пом'якшилось, поки що.
+
+cmu-medical-shrapnel-none = Уламків, що застрягли, не знайдено.
+cmu-medical-shrapnel-extract-verb = Видалити уламки
+cmu-medical-shrapnel-extract-start = Ви починаєте видаляти уламки, що застрягли.
+cmu-medical-shrapnel-extract-finish = Видалено { $count } застрягл{ $count ->
+    [one] ий уламок
+   *[other] их уламків
+}.
+cmu-medical-shrapnel-movement-pain = Застряглі уламки болісно зміщуються.

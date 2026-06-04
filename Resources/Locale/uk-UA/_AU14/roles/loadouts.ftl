@@ -31,3 +31,10 @@ au14-loadout-group-militarylabcoat = Лабораторні халати
 au14-loadout-group-auxtech = Робочий одяг
 
 au14-loadout-group-role-clf-id = Підроблені посвідчення
+
+au14-loadout-group-corporate-pouches = Охоронні підсумки (ліворуч)
+au14-loadout-group-corporate-pouches-right = Охоронні підсумки (праворуч)
+au14-loadout-group-corporate-outerwear = Корпоративний верхній одяг
+au14-loadout-group-corporate-jumpsuit = Корпоративна уніформа
+au14-loadout-group-corporate-footwear = Корпоративне взуття
+au14-loadout-group-corporate-headwear = Корпоративні головні убори

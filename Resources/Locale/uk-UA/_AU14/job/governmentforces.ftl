@@ -170,3 +170,5 @@ au14-job-name-govforsquadautomaticrifleman-plural = Кулеметники
 au14-job-name-govforplatooncorpsman-plural = Санітари
 au14-job-name-radiotelephoneoperator-alt = Радіотелефоніст
 au14-job-name-govfork9handler = Кінолог К9
+
+au14-job-prefix-AU14JobGOVFORSquadCombatTechWYPMC = БТ

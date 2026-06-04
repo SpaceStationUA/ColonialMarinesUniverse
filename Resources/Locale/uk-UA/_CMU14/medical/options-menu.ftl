@@ -5,3 +5,5 @@ ui-options-function-cmu-cycle-body-zone-target-reverse = Циклічно пер
 
 ui-options-header-cmu-zlevels = CMU Z-рівні
 ui-options-function-cmu-toggle-shoot-down-z-level = Перемкнути стрільбу вниз на Z-рівень
+
+ui-options-function-cmu-inspect-injuries = Оглянути травми

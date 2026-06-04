@@ -72,6 +72,9 @@
   id: CMU14TearGas
   updatesPerSecond: 3
 
+- type: edgeSpreader
+  id: CMU14InstantTearGas
+  updatesPerSecond: 2
 
 - type: entity
   id: CMU14InstantTearGas
@@ -81,5 +84,4 @@
   - type: TimedDespawn
     lifetime: 6
   - type: EdgeSpreader
-    id: CMU14TearGas
-    updatesPerSecond: 1.5
+    id: CMU14InstantTearGas

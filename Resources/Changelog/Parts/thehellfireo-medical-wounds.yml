@@ -1,10 +1,10 @@
 author: TheHellFireo
 changes:
   - type: Add
-    message: Added a wound-driven medical foundation with mechanism wound types, limb health caps, bleeding control, and detailed injury examination.
+    message: "Додано медичну основу, керовану ранами: типи ран за механізмом, ліміти здоров'я кінцівок, контроль кровотечі та детальний огляд травм."
   - type: Add
-    message: Added field-mixed gauze and trauma dressing treatments with new medical ingredients and treatment sprites.
+    message: Додано польове змішування марлі та травматичних пов'язок із новими медичними інгредієнтами й спрайтами лікування.
   - type: Tweak
-    message: Updated health analyzers, surgery flow, medical vendors, rifleman equipment vendors, and ASRS medical purchasing for the new wound system.
+    message: Оновлено аналізатори здоров'я, перебіг хірургії, медичні вендори, вендори спорядження стрільця та медичні закупівлі ASRS під нову систему ран.
   - type: Fix
-    message: Fixed surgical lines, synth grafts, retained fragments, and trauma governor interactions against the new wound and limb recovery rules.
+    message: Виправлено хірургічні лінії, синтетичні трансплантати, застряглі уламки та взаємодії травматичного стабілізатора з новими правилами ран і відновлення кінцівок.

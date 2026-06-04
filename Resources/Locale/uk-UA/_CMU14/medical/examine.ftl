@@ -79,3 +79,8 @@ cmu-medical-examine-severed = відрізано
 
 cmu-medical-examine-sentence-two = { $a } та { $b }
 cmu-medical-examine-sentence-many = { $rest } та { $last }
+
+cmu-medical-detailed-examine-verb = Оглянути травми
+cmu-medical-detailed-examine-verb-message = Уважніше оглянути їхні травми.
+cmu-medical-detailed-examine-start = Ви починаєте перевіряти { THE($target) } на травми.
+cmu-medical-detailed-examine-none = Очевидних травм не виявлено.
