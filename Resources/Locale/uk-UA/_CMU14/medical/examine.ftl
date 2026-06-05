@@ -176,3 +176,28 @@ cmu-medical-detailed-examine-optimal-hint = { $hint ->
     [antiseptic-dressing] антисептична травматична пов’язка
    *[other] лікування
 }
+cmu-medical-detailed-examine-window-title = Травми - { $target }
+cmu-medical-detailed-examine-window-heading = Звіт про травми
+cmu-medical-detailed-examine-window-bleeding = Кровотеча: { $tier }
+cmu-medical-inspect-injuries-title = { $mechanism ->
+    [bullet] Кульові рани
+    [stab] Колоті рани
+    [slash] Різані рани
+    [crush] Розчавлені рани
+    [burn] Опіки
+    [blast] Вибухові рани
+    [fragment] Уламкові рани
+    [surgical] Хірургічні рани
+   *[wound] Рани
+}
+cmu-medical-inspect-injuries-severity = { $size ->
+    [small] Незначна
+    [gaping] Сильна
+    [massive] Масивна
+   *[deep] Помірна
+}
+cmu-medical-inspect-injuries-cleanup-required = Потрібне очищення
+cmu-medical-inspect-injuries-cleanup-required-with-entries = Потрібне очищення: { $entries }
+cmu-medical-inspect-injuries-optimal-treatment = Оптимально: { $treatment }
+cmu-medical-inspect-injuries-burn-eschar = Опіковий струп
+cmu-medical-inspect-injuries-arterial-bleeding = Артеріальна кровотеча

@@ -108,3 +108,28 @@ cmu-medical-detailed-examine-optimal-hint = { $hint ->
     [antiseptic-dressing] antiseptic dressing
    *[other] treatment
 }
+cmu-medical-detailed-examine-window-title = Injuries - { $target }
+cmu-medical-detailed-examine-window-heading = Injury report
+cmu-medical-detailed-examine-window-bleeding = Bleeding: { $tier }
+cmu-medical-inspect-injuries-title = { $mechanism ->
+    [bullet] Bullet Wounds
+    [stab] Stab Wounds
+    [slash] Slash Wounds
+    [crush] Crush Wounds
+    [burn] Burns
+    [blast] Blast Wounds
+    [fragment] Fragment Wounds
+    [surgical] Surgical Wounds
+   *[wound] Wounds
+}
+cmu-medical-inspect-injuries-severity = { $size ->
+    [small] Minor
+    [gaping] Severe
+    [massive] Massive
+   *[deep] Moderate
+}
+cmu-medical-inspect-injuries-cleanup-required = Cleanup Required
+cmu-medical-inspect-injuries-cleanup-required-with-entries = { $entries } Cleanup Required
+cmu-medical-inspect-injuries-optimal-treatment = Optimal Treatment: { $treatment }
+cmu-medical-inspect-injuries-burn-eschar = Burn Eschar
+cmu-medical-inspect-injuries-arterial-bleeding = Arterial Bleeding
