@@ -3664,97 +3664,75 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1210
 - author: KeiKiyomi
   changes:
-  - message: Fixed "ML79A 'Breaker' smart gun" damage and firerate
+  - message: Виправлено шкоду та скорострільність смартгана "ML79A 'Breaker'"
     type: Fix
   id: 195
   time: '2026-06-04T03:56:29.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1190
 - author: 400Ferrets
   changes:
-  - message: CORSAT weedkiller fog area is now much larger!
+  - message: Зону туману засобу проти бур'янів на CORSAT тепер значно збільшено!
     type: Add
   id: 196
   time: '2026-06-04T08:52:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1211
 - author: TheHellFireo
   changes:
-  - message: '"Added a dedicated injury report window for Inspect Injuries, showing
-      bleeding tier, grouped wound types, cleanup needs, optimal treatment hints,'
+  - message: "Додано окреме вікно звіту про травми для огляду травм, яке показує рівень кровотечі, згруповані типи ран, потребу в очищенні, підказки щодо оптимального лікування,"
     type: Add
-  - message: '"Corpsmen now inspect injuries in 0.4 seconds instead of 2 seconds."'
+  - message: "Санітари тепер оглядають травми за 0.4 секунди замість 2 секунд."
     type: Tweak
-  - message: '"Medical examine text now distinguishes adequately treated wounds from
-      optimally treated wounds."'
+  - message: "Текст медичного огляду тепер відрізняє достатньо оброблені рани від оптимально оброблених ран."
     type: Tweak
-  - message: '"Prepared trauma dressings and packed trauma kit bleed control are now
-      instant for corpsmen."'
+  - message: "Підготовлені травматичні пов'язки та зупинка кровотечі запакованим травматичним набором тепер миттєві для санітарів."
     type: Tweak
-  - message: '"Fixed burn treatments so ointment, burn kits, and upgraded burn kits
-      properly count as optimal burn treatment and clear burn cleanup issues."'
+  - message: "Виправлено лікування опіків: мазь, набори від опіків і поліпшені набори від опіків тепер правильно зараховуються як оптимальне лікування опіків і прибирають проблеми з очищенням опіків."
     type: Fix
-  - message: '"Added missing field-treatment supplies to platoon medical vendors,
-      including packed gauze, packed trauma kits, ingredients, prepared gauze, and'
+  - message: "Додано відсутні припаси для польового лікування до медичних вендорів взводу, зокрема запаковану марлю, запаковані травматичні набори, інгредієнти, підготовлену марлю та"
     type: Tweak
-  - message: '"Medical pouches can now store medium sized items"'
+  - message: "У медичних підсумках тепер можна зберігати предмети середнього розміру"
     type: Tweak
-  - message: '"Bulwark reflective shield now shows a blue aura and shield visual effect
-      when activated."'
+  - message: "Відбивний щит Bulwark тепер показує синю ауру та візуальний ефект щита під час активації."
     type: Add
-  - message: '"Larva queue can now offer abandoned adult xeno bodies when no larvae
-      are available."'
+  - message: "Черга личинок тепер може пропонувати покинуті тіла дорослих ксено, коли личинок немає."
     type: Add
-  - message: '"Disconnected xenos now take 10 minutes before being marked abandoned
-      for queue recovery."'
+  - message: "Відключені ксено тепер позначаються як покинуті для повернення в чергу лише через 10 хвилин."
     type: Tweak
-  - message: '"Larva queue confirmations now keep the player at the front of the queue
-      if the offered target is deleted or already claimed."'
+  - message: "Підтвердження в черзі личинок тепер залишає гравця на початку черги, якщо запропоновану ціль видалено або вже зайнято."
     type: Fix
-  - message: '"Humanoid ghost roles now keep the ghost role entity name instead of
-      taking the joining player''s selected character name."'
+  - message: "Гуманоїдні ролі привидів тепер зберігають назву сутності ролі привида, а не беруть вибране ім'я персонажа гравця, що приєднався."
     type: Fix
-  - message: '"Edge spreaders now support per-entity update-rate overrides."'
+  - message: "Поширювачі країв тепер підтримують перевизначення частоти оновлення для окремих сутностей."
     type: Tweak
-  - message: '"Removed a duplicate WY PMC squad combat tech job prefix localization
-      entry."'
+  - message: "Вилучено дубльований запис локалізації префікса посади бойового техніка загону WY PMC."
     type: Fix
-  - message: '"Added an Alt+C medical crafting menu for humans, Yautja, and tribals
-      to craft available prepared gauze and trauma dressings from packed'
+  - message: "Додано меню медичного крафту на Alt+C для людей, яутжа та племен, щоб створювати доступну підготовлену марлю та травматичні пов'язки із запакованих"
     type: Add
-  - message: '"Inspect Injuries now lists arterial bleeding in its own body-part section
-      and uses a distinct color for untreated wound locations."'
+  - message: "Огляд травм тепер показує артеріальну кровотечу в окремому розділі частини тіла та використовує окремий колір для місць необроблених ран."
     type: Tweak
-  - message: '"Adequately treated wounds now restore 50% more of their remaining field-treatment
-      health cap."'
+  - message: "Достатньо оброблені рани тепер відновлюють на 50% більше від залишкового ліміту здоров'я польового лікування."
     type: Tweak
-  - message: '"Reduced movement slowdown from damage: 60 damage now slows to 85% speed,
-      and 80 damage now slows to 75% speed."'
+  - message: "Зменшено сповільнення руху від шкоди: 60 шкоди тепер сповільнює до 85% швидкості, а 80 шкоди - до 75% швидкості."
     type: Tweak
-  - message: '"Fire Spreading is now disabled by default."'
+  - message: "Поширення вогню тепер вимкнено за замовчуванням."
     type: Tweak
-  - message: '"Removed vital organs now have consequences: missing brains cause permanent
-      death, missing hearts cause cardiac arrest and asphyxiation, and'
+  - message: "Видалення життєво важливих органів тепер має наслідки: відсутній мозок спричиняє остаточну смерть, відсутнє серце спричиняє зупинку серця та асфіксію, а"
     type: Add
-  - message: '"Added rmc.lobby_min_players to hold the lobby countdown and AU vote
-      sequence until enough players are connected."'
+  - message: "Додано rmc.lobby_min_players, щоб утримувати відлік лобі та послідовність голосування AU доки не підключиться достатньо гравців."
     type: Add
-  - message: '"Fixed AU vote sequences so planet selection uses the actual preset
-      vote winner and ignores stale vote callbacks."'
+  - message: "Виправлено послідовності голосувань AU: вибір планети тепер використовує фактичного переможця голосування за пресет і ігнорує застарілі callback-и голосування."
     type: Fix
-  - message: '"Added a missing observer spawn point to USSBushRedux."'
+  - message: "Додано відсутню точку спавну спостерігача на USSBushRedux."
     type: Fix
-  - message: '"Optimized CMU Z-level rendering to only render lower levels and projected
-      lighting through visible openings, reducing multi-Z rendering'
+  - message: "Оптимізовано рендеринг Z-рівнів CMU: нижні рівні та проєктоване освітлення тепер рендеряться лише через видимі отвори, зменшуючи multi-Z рендеринг"
     type: Tweak
-  - message: '"Added the cmu_zrender_debug client console command for inspecting multi-Z
-      render and projected lighting performance."'
+  - message: "Додано клієнтську консольну команду cmu_zrender_debug для перевірки multi-Z рендерингу та продуктивності проєктованого освітлення."
     type: Add
-  - message: '"Chat font styling now preserves existing radio message font sizes unless
-      an explicit style font size override is set."'
+  - message: "Стилізація шрифтів чату тепер зберігає наявні розміри шрифтів радіоповідомлень, якщо явно не задано перевизначення розміру шрифту стилю."
     type: Fix
-  - message: '"Command roles now properly use command-sized speech bubbles without
-      giving junior officers innate command speech."'
+  - message: "Командні ролі тепер правильно використовують бульбашки мовлення командного розміру, не надаючи молодшим офіцерам вроджене командне мовлення."
     type: Fix
-  - message: '"Added an updating Discord round status webhook embed."'
+  - message: "Додано оновлюваний embed вебхука статусу раунду Discord."
     type: Add
   id: 197
   time: '2026-06-05T01:03:04.0000000+00:00'

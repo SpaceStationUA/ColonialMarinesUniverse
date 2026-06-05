@@ -7,3 +7,5 @@ ui-options-header-cmu-zlevels = CMU Z-рівні
 ui-options-function-cmu-toggle-shoot-down-z-level = Перемкнути стрільбу вниз на Z-рівень
 
 ui-options-function-cmu-inspect-injuries = Оглянути травми
+
+ui-options-function-cmu-open-medical-crafting-menu = Відкрити меню медичного крафту
