@@ -1,58 +1,58 @@
 - type: rank
   id: RMCRankCMBDeputy
-  name: "Помічник CMB"
+  name: CMB Deputy
   prefix: Dep.
   paygrade: CMBD
 
 - type: rank
   id: RMCRankCMBMarshal
-  name: "Маршал CMB"
+  name: CMB Marshal
   prefix: Marshal
   paygrade: CMBM
 
 - type: rank
   id: RMCRankCMBInvestigativeSynthetic
-  name: "Слідчий синтетик CMB"
+  name: CMB Investigative Synthetic
   prefix: Syn.
 
 - type: rank
   id: RMCRankCMBRiotControlSynthetic
-  name: "Синтетик контролю заворушень CMB"
+  name: CMB Riot Control Synthetic
   prefix: Syn.
 
 - type: rank
   id: RMCRankCMBRiotControlOfficer
-  name: "Офіцер контролю заворушень CMB"
+  name: CMB Riot Control Officer
   prefix: Off.
 
 - type: rank
   id: RMCRankCMBMedicalTechnician
-  name: "Медичний технік CMB"
+  name: CMB Medical Technician
   prefix: Med.
 
 - type: rank
   id: RMCRankCMBBreachingTechnician
-  name: "Технік-проривник CMB"
+  name: CMB Breaching Technician
   prefix: Breach.
 
 - type: rank
   id: RMCRankCMBSWATSpecialist
-  name: "Спеціаліст SWAT CMB"
+  name: CMB SWAT Specialist
   prefix: Spec.
 
 - type: rank
   id: RMCRankICBAgent
-  name: "Агент Бюро Міжзоряної Торгівлі"
+  name: Interstellar Commerce Bureau Agent
   prefix: Agent
 
 - type: rank
   id: RMCRankICBCorporateLiaison
-  name: "Корпоративний Лізон Бюро Міжзоряної Торгівлі"
+  name: Interstellar Commerce Bureau Corporate Liaison
   prefix: ICB Rep.
   paygrade: ICBL
 
 - type: rank
   id: RMCRankIHROObserver
-  name: "Спостерігач за міжзоряними правами життя"
+  name: Interstellar Life Rights Observer
   prefix: "Obsv."
   paygrade: ILRO

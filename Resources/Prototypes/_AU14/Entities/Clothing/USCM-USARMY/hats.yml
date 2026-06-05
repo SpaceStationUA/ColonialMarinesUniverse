@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14ArtemisCap
-  name: "кепка USS «Артеміс»"
-  description: "Чорна кепка з нашивкою USS «Артеміс»."
+  name: USS Artemis Cap
+  description: A black cap with the patch of the USS Artemis.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ussartemiscap.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14DesertPatrolCap
-  name: "пустельна патрульна кепка"
-  description: "Проста патрульна кепка."
+  name: Desert Patrol Cap
+  description: A simple patrol cap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertHats/cap.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14DesertFlapCap
-  name: "пустельна патрульна кепка з клапаном"
-  description: "Проста патрульна кепка із сонцезахисним клапаном."
+  name: Desert Patrol Flap-Cap
+  description: A simple patrol cap with a sun flap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertHats/flapcap.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14DesertBoonieHat
-  name: "пустельна панама"
-  description: "Капелюх із полями, що захищає обличчя від сонця."
+  name: Desert Boonie Hat
+  description: A brimmed hat to protect your face from the sun.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertHats/booniehat.rsi
@@ -45,8 +45,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14JunglePatrolCap
-  name: "джунглева патрульна кепка"
-  description: "Проста патрульна кепка."
+  name: Jungle Patrol Cap
+  description: A simple patrol cap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleHats/cap.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14JungleFlapCap
-  name: "джунглева патрульна кепка з клапаном"
-  description: "Проста патрульна кепка із сонцезахисним клапаном."
+  name: Jungle Patrol Flap-Cap
+  description: A simple patrol cap with a sun flap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleHats/flapcap.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14JungleBoonieHat
-  name: "джунглева панама"
-  description: "Капелюх із полями, що захищає обличчя від сонця."
+  name: Jungle Boonie Hat
+  description: A brimmed hat to protect your face from the sun.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleHats/booniehat.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14UACGPatrolCap
-  name: "патрульна кепка УАКГ"
-  description: "Проста патрульна кепка."
+  name: UACG Patrol Cap
+  description: A simple patrol cap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/DesertHats/cap.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14USASFCap
-  name: "кепка Аерокосмічних сил США"
-  description: "Проста кепка Аерокосмічних сил США."
+  name: USASF Cap
+  description: A simple USASF cap.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/JungleHats/cap.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14BeretUSArmy
-  name: "берет армії США"
-  description: "Горда традиція 1-ї повітряної кавалерії армії США використовувати чорні берети для своїх бійців зберігається з XX століття."
+  name: US Army beret
+  description: The proud tradition of the US Army 1st Air Cav using black berets for their troopers is maintained since the 20th century.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/black_beret.rsi
@@ -111,13 +111,13 @@
 - type: entity
   parent: CMHeadBeretCOBlack
   id: AU14BeretUSArmyMajor
-  name: "чорний берет армійського командира"
+  name: army commander black beret
 
 - type: entity
   parent: ClothingHeadBase
   id: AU14HatUSArmy
-  name: "кавалерійський капелюх США"
-  description: "Також відомий як кавалерійський стетсон, цей капелюх є символом традиції та пам’яті про героїзм, що тягнеться ще з XIX століття. Навіть попри те, що кавалерійська дивізія проміняла коней на гелікоптери, гелікоптери на десантні кораблі й помчала космосом шукати собі пригод."
+  name: US cavalry hat
+  description: Also known as Cavalry Stetson, this hat is a symbol of tradition and remembrence of heroism that is ongoing from as far as 19th century. Even though cavalry divison had cashed in its horses for choppers, choppers for dropships, and gone tear-assing around space, looking for the shit.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/US_Army/Hats/cavalry.rsi

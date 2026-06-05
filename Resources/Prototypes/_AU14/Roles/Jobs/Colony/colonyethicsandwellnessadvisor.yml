@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianEthicsAndWellnessAdvisor
-  name: "точка появи цивільного радника з етики та добробуту"
+  name: Spawn Point Civilian Ethics And Wellness Advisor
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianEthicsAndWellnessAdvisor

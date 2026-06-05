@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Vox
-  name: "вокс"
+  name: "vox"
   root: torso
   slots:
     head:

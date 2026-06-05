@@ -39,7 +39,7 @@
     state: power_display_0
   - sprite: /Textures/_RMC14/Interface/Alerts/xeno_plasma.rsi
     state: power_display_empty
-  name: "Плотська смола"
-  description: "Ваш запас плотської смоли. Використовується здібностями Жнеця."
+  name: Flesh Resin
+  description: Your stored flesh resin. Used by Reaper abilities.
   minSeverity: 0
   maxSeverity: 18

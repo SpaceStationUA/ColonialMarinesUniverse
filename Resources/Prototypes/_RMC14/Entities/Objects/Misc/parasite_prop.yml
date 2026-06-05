@@ -2,7 +2,7 @@
   parent: BaseItem
   id: RMCParasiteProp
   name: "????"
-  description: "У нього на кінці хвоста якась трубка. Що це в біса таке?"
+  description: It has some sort of a tube at the end of its tail. What the hell is this thing?
   components:
   - type: Transform
     anchored: false

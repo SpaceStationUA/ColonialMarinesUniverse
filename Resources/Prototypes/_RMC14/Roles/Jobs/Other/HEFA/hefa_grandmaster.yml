@@ -31,7 +31,7 @@
 
 - type: entity
   id: RMCRandomHumanoidHEFAShrapnelswornHostile
-  name: "привид-роль HEFA гранд-майстер"
+  name: hefa ghost role grandmaster
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -42,7 +42,7 @@
 
 - type: entity
   id: RMCRandomHumanoidHEFAShrapnelswornFriendly
-  name: "привид-роль HEFA гранд-майстер"
+  name: hefa ghost role grandmaster
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

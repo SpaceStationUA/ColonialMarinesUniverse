@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCRefuelingHose
-  name: "заправний шланг"
-  description: "Довгий заправний шланг, що під'єднується до різних типів десантних кораблів"
+  name: refueling hose
+  description: "A long refueling hose that connects to various types of dropships"
   placement:
     mode: SnapgridCenter
   suffix: End

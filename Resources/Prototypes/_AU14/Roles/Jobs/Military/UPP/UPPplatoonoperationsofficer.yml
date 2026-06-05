@@ -2,7 +2,7 @@
   parent: AU14JobPlatOpBase
   id: AU14JobGOVFORPlatOpUPP
   requirements: []
-  name: "Штабний офіцер"
+  name: Staff Officer
   spawnMenuRoleName: Junior Officer (UPP)
   ranks:
     UPP_Lieutenant:

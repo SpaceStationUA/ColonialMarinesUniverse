@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianColonist
-  name: "точка появи цивільного колоніста"
+  name: Spawn Point Civilian Colonist
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonist

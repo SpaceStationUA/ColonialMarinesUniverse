@@ -31,7 +31,7 @@
 
 - type: entity
   id: RMCSurvivorPresetForeconNoPrimary
-  name: "пресет вцілілого forecon без основної зброї"
+  name: forecon no primary survivor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSurvivorPresetForeconNoPrimary
   id: RMCSurvivorPresetForecon
-  name: "пресет вцілілого forecon"
+  name: forecon survivor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCSurvivorPresetForecon
   id: RMCSurvivorPresetForeconNoPistol
-  name: "пресет вцілілого forecon"
+  name: forecon survivor preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,144 +1,144 @@
 - type: rank
   id: RMCRankNavySeamanRecruit
-  name: "Матрос-новобранець"
+  name: Seaman Recruit
   prefix: SR.
   paygrade: E1
 
 - type: rank
   id: RMCRankNavySeamanApprentice
-  name: "Матрос-учень"
+  name: Seaman Apprentice
   prefix: SA.
   paygrade: E2
 
 - type: rank
   id: RMCRankNavySeaman
-  name: "Матрос"
+  name: Seaman
   prefix: SN.
   paygrade: E3
 
 - type: rank
   id: RMCRankNavyPettyOfficer3rdClass
-  name: "Старший матрос 3-го класу"
+  name: Petty Officer 3rd Class
   prefix: PO3.
   paygrade: E4
 
 - type: rank
   id: RMCRankNavyPettyOfficer2ndClass
-  name: "Старший матрос 2-го класу"
+  name: Petty Officer 2nd Class
   prefix: PO2.
   paygrade: E5
 
 - type: rank
   id: RMCRankNavyPettyOfficer1stClass
-  name: "Старший матрос 1-го класу"
+  name: Petty Officer 1st Class
   prefix: PO1.
   paygrade: E6
 
 - type: rank
   id: RMCRankNavyChiefPettyOfficer
-  name: "Головний старший матрос"
+  name: Chief Petty Officer
   prefix: CPO.
   paygrade: E7
 
 - type: rank
   id: RMCRankNavySeniorChiefPettyOfficer
-  name: "Старший головний старший матрос"
+  name: Senior Chief Petty Officer
   prefix: SCPO.
   paygrade: E8
 
 - type: rank
   id: RMCRankNavyCommandSeniorChiefPettyOfficer
-  name: "Командний старший головний старший матрос"
+  name: Command Senior Chief Petty Officer
   prefix: CSCPO.
   paygrade: E8
 
 - type: rank
   id: RMCRankNavyMasterChiefPettyOfficer
-  name: "Майстер головний старший матрос"
+  name: Master Chief Petty Officer
   prefix: MCPO.
   paygrade: E9
 
 - type: rank
   id: RMCRankNavyCommandMasterChiefPettyOfficer
-  name: "Командний майстер головний старший матрос"
+  name: Command Master Chief Petty Officer
   prefix: CMCPO.
   paygrade: E9
 
 # Commissioned Officers
 - type: rank
   id: RMCRankNavyEnsign
-  name: "Енсин"
+  name: Ensign
   prefix: ENS.
   paygrade: O1
 
 - type: rank
   id: RMCRankNavyLieutenantJuniorGrade
-  name: "Лейтенант молодшого ступеня"
+  name: Lieutenant Junior Grade
   prefix: LTJG.
   paygrade: O2
 
 - type: rank
   id: RMCRankNavyLieutenant
-  name: "Лейтенант"
+  name: Lieutenant
   prefix: LT.
   paygrade: O3
 
 - type: rank
   id: RMCRankNavyLieutenantCommander
-  name: "Лейтенант-командор"
+  name: Lieutenant Commander
   prefix: LCDR.
   paygrade: O4
 
 - type: rank
   id: RMCRankNavyCommander
-  name: "Командор"
+  name: Commander
   prefix: CDR.
   paygrade: O5
 
 - type: rank
   id: RMCRankNavyCaptain
-  name: "Капітан"
+  name: Captain
   prefix: CAPT.
   paygrade: O6
 
 - type: rank
   id: RMCRankNavyCommodore
-  name: "Командор"
+  name: Commodore
   prefix: CDRE.
   paygrade: O7
 
 - type: rank
   id: RMCRankNavySeniorCommodore
-  name: "Старший Командор"
+  name: Senior Commodore
   prefix: Snr CDRE.
   paygrade: O7
 
 - type: rank
   id: RMCRankNavyRearAdmiralLowerHalf
-  name: "Контр-адмірал (нижня половина)"
+  name: Rear Admiral (Lower Half)
   prefix: RDML.
   paygrade: O8
 
 - type: rank
   id: RMCRankNavyRearAdmiralUpperHalf
-  name: "Контр-адмірал (верхня половина)"
+  name: Rear Admiral (Upper Half)
   prefix: RADM.
   paygrade: O9
 
 - type: rank
   id: RMCRankNavyViceAdmiral
-  name: "Віце-адмірал"
+  name: Vice Admiral
   prefix: VADM.
   paygrade: O9
 
 - type: rank
   id: RMCRankNavyAdmiral
-  name: "Адмірал"
+  name: Admiral
   prefix: ADM.
   paygrade: O10
 
 - type: rank
   id: RMCRankNavyChiefOfNavalOperations
-  name: "Начальник військово-морських операцій"
+  name: Chief of Naval Operations
   prefix: CNO.
   paygrade: O10

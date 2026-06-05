@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCSurveillanceCameraAlmayer
-  name: "камера корабельного класу"
-  description: "Використовується для нагляду за приміщеннями."
+  name: ship-grade camera
+  description: It's used to monitor rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCMonitorCameraAlmayer
-  name: "корабельні камери безпеки"
-  description: "Використовуються для доступу до різних камер на станції."
+  name: ship security cameras
+  description: Used to access the various cameras on the station.
   suffix: Almayer
   components:
   - type: Transform
@@ -94,7 +94,7 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: RMCMonitorCameraAlamo
-  description: "Використовується для нагляду за десантним кораблем."
+  description: It's used to monitor the dropship.
   suffix: "Alamo"
   components:
   - type: RMCCamera
@@ -103,7 +103,7 @@
 - type: entity
   parent: RMCSurveillanceCameraAlmayer
   id: RMCMonitorCameraNormandy
-  description: "Використовується для нагляду за десантним кораблем."
+  description: It's used to monitor the dropship.
   suffix: "Normandy"
   components:
   - type: RMCCamera
@@ -112,7 +112,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCMonitorCameraLandingZone
-  name: "камера зони висадки"
+  name: landing zone camera
   suffix: "LZ Detector"
   components:
   - type: Sprite

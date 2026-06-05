@@ -1,13 +1,13 @@
 #chairs
 - type: construction
   parent: RMC
-  name: "стілець"
+  name: chair
   id: CMChair
   graph: CMSeat
   startNode: start
   targetNode: chair
   category: construction-category-cm-furniture
-  description: "Звичайний стілець для сидіння."
+  description: A basic chair for sitting.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -16,13 +16,13 @@
 
 - type: construction
   parent: RMC
-  name: "табурет"
+  name: stool
   id: CMStool
   graph: CMSeat
   startNode: start
   targetNode: stool
   category: construction-category-cm-furniture
-  description: "Приклади сідниці."
+  description: Apply butt.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -31,13 +31,13 @@
 
 - type: construction
   parent: RMC
-  name: "темний офісний стілець"
+  name: dark office chair
   id: CMChairOfficeDark
   graph: CMSeat
   startNode: start
   targetNode: chairOfficeDark
   category: construction-category-cm-furniture
-  description: "Офісний стілець для сидіння."
+  description: An office chair for sitting.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -46,13 +46,13 @@
 
 - type: construction
   parent: RMC
-  name: "білий офісний стілець"
+  name: white office chair
   id: CMChairOfficeWhite
   graph: CMSeat
   startNode: start
   targetNode: chairOfficeWhite
   category: construction-category-cm-furniture
-  description: "Офісний стілець для сидіння."
+  description: An office chair for sitting.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false
@@ -65,8 +65,8 @@
 - type: construction
   parent: RMC
   id: RMCTable
-  name: "стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Корисна, щоб класти на неї речі."
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on.
   graph: RMCTable
   startNode: start
   targetNode: Tan
@@ -80,8 +80,8 @@
 - type: construction
   parent: RMC
   id: RMCTableReinforced
-  name: "посилений стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Цей має бокові панелі, тому корисний як письмовий стіл."
+  name: reinforced table
+  description: A square metal surface resting on four legs. This one has side panels, making it useful as a desk.
   graph: RMCTable
   startNode: start
   targetNode: Reinforced
@@ -95,8 +95,8 @@
 - type: construction
   parent: RMC
   id: RMCTableWood
-  name: "дерев'яний стіл"
-  description: "Квадратна дерев'яна поверхня на чотирьох ніжках. Корисна, щоб класти на неї речі."
+  name: wooden table
+  description: A square wood surface resting on four legs. Useful to put stuff on.
   graph: RMCTable
   startNode: start
   targetNode: Wood
@@ -110,8 +110,8 @@
 - type: construction
   parent: RMC
   id: RMCTableWoodPoor
-  name: "простенький дерев'яний стіл"
-  description: "Дещо грубо зроблена дерев'яна поверхня на чотирьох ніжках. Корисна, щоб класти на неї речі."
+  name: poor wooden table
+  description: A semi-poorly constructed wood surface resting on four legs. Useful to put stuff on.
   graph: RMCTable
   startNode: start
   targetNode: PoorWood
@@ -125,8 +125,8 @@
 - type: construction
   parent: RMC
   id: RMCTableWoodFancy
-  name: "вишуканий дерев'яний стіл"
-  description: "Гарно зроблена поверхня з червоного дерева на чотирьох ніжках. Корисна, щоб класти на неї речі."
+  name: fancy wooden table
+  description: A nicely crafted mahogany wood surface resting on four legs. Useful to put stuff on.
   graph: RMCTable
   startNode: start
   targetNode: FancyWood
@@ -140,8 +140,8 @@
 - type: construction
   parent: RMC
   id: RMCTableGambling
-  name: "гральний стіл"
-  description: "Вигнута дерев'яна й килимова поверхня на чотирьох ніжках. Використовується для азартних ігор."
+  name: gambling table
+  description: A curved wood and carpet surface resting on four legs. Used for gambling games.
   graph: RMCTable
   startNode: start
   targetNode: Gambling
@@ -155,8 +155,8 @@
 - type: construction
   parent: RMC
   id: RMCTableAlmayer
-  name: "стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Корисна, щоб класти на неї речі. У надзвичайних ситуаціях її можна перевернути й використовувати як укриття."
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on. Can be flipped in emergencies to act as cover.
   graph: RMCTable
   startNode: start
   targetNode: Almayer
@@ -172,8 +172,8 @@
 - type: construction
   parent: RMC
   id: RMCBed
-  name: "ліжко"
-  description: "Матрац, встановлений на прямокутній металевій рамі."
+  name: bed
+  description: A mattress seated on a rectangular metallic frame.
   graph: RMCBed
   startNode: start
   targetNode: bed
@@ -186,13 +186,13 @@
 
 - type: construction
   parent: RMC
-  name: "стелаж"
+  name: rack
   id: CMRack
   graph: RMCRack
   startNode: start
   targetNode: rack
   category: construction-category-cm-furniture
-  description: "Купа металевих полиць, складених одна на одну. Чудово підходить для зберігання, але не дуже як укриття."
+  description: A bunch of metal shelves stacked on top of each other. Excellent for storage purposes, less so as cover.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false

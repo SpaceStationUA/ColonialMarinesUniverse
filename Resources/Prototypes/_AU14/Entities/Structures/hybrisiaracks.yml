@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseStructure
   id: AU14WeymartRacks1
-  name: "магазинний стелаж"
-  description: "Купа металевих полиць, складених одна на одну, з товарами для продажу, розкладеними на полицях."
+  name: store rack
+  description: A bunch of metal shelves stacked on top of eachother, with items for sale lined up on the shelves.
   components:
   - type: Transform
     anchored: false
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14WeymartRacks2
-  name: "магазинний стелаж"
-  description: "Купа металевих полиць, складених одна на одну, з товарами для продажу, розкладеними на полицях."
+  name: store rack
+  description: A bunch of metal shelves stacked on top of eachother, with items for sale lined up on the shelves.
   components:
   - type: Transform
     anchored: false
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14WeymartRacks3
-  name: "магазинний стелаж"
-  description: "Купа металевих полиць, складених одна на одну, з товарами для продажу, розкладеними на полицях."
+  name: store rack
+  description: A bunch of metal shelves stacked on top of eachother, with items for sale lined up on the shelves.
   components:
   - type: Transform
     anchored: false
@@ -181,8 +181,8 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14WeymartRacks4
-  name: "магазинний стелаж"
-  description: "Купа металевих полиць, складених одна на одну, з товарами для продажу, розкладеними на полицях."
+  name: store rack
+  description: A bunch of metal shelves stacked on top of eachother, with items for sale lined up on the shelves.
   components:
   - type: Transform
     anchored: false
@@ -241,8 +241,8 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14WeymartRacks5
-  name: "магазинний стелаж"
-  description: "Купа металевих полиць, складених одна на одну, з товарами для продажу, розкладеними на полицях."
+  name: store rack
+  description: A bunch of metal shelves stacked on top of eachother, with items for sale lined up on the shelves.
   components:
   - type: Transform
     anchored: false
@@ -301,8 +301,8 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14WeymartRacks6
-  name: "магазинний стелаж"
-  description: "Купа металевих полиць, складених одна на одну, з товарами для продажу, розкладеними на полицях."
+  name: store rack
+  description: A bunch of metal shelves stacked on top of eachother, with items for sale lined up on the shelves.
   components:
   - type: Transform
     anchored: false
@@ -361,8 +361,8 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14WeymartRacks7
-  name: "магазинний стелаж"
-  description: "Купа металевих полиць, складених одна на одну, з товарами для продажу, розкладеними на полицях."
+  name: store rack
+  description: A bunch of metal shelves stacked on top of eachother, with items for sale lined up on the shelves.
   components:
   - type: Transform
     anchored: false

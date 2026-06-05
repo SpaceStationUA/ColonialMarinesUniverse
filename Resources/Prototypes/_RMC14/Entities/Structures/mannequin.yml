@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: RMCMannequin
   parent: Mannequin
-  name: "демонстраційний манекен"
-  description: "Звичайний демонстраційний манекен, що використовується для показу одягу."
+  name: display mannequin
+  description: A generic display mannequin, used to show off clothing.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/mannequin.rsi

@@ -10,8 +10,8 @@
   - BaseMob
   - MobDamageable
   id: AU14MobK9
-  name: "синтетичний K9"
-  description: "Синтетичний пес виробництва Вейланд-Ютані."
+  name: Synthetic K9
+  description: "A Weyland-Yutani produced synthetic dog."
   components:
   - type: RandomMetadata
     nameSegments:
@@ -129,8 +129,8 @@
   suffix: "Ghost Role"
   components:
   - type: GhostRole
-    name: "синтетичний K9"
-    description: "Синтетичний пес виробництва Вейланд-Ютані."
+    name: Synthetic K9
+    description: A Weyland-Yutani produced synthetic dog.
     raffle:
       settings: short
 
@@ -138,8 +138,8 @@
 - type: entity
   parent: AU14MobK9
   id: AU14MobK9BagMedic
-  name: "пошуково-рятувальний K9"
-  description: "Синтетичний пес виробництва Вейланд-Ютані. Ця модель призначена для допомоги в пошуку й порятунку та оснащена сховищем для медичного спорядження."
+  name: Search and Rescue K9
+  description: "A Weyland-Yutani produced synthetic dog. This model is designed to aid in search and rescue and comes equipped with medical equipment storage."
   suffix: "S&R"
   components:
   - type: Sprite
@@ -231,7 +231,7 @@
     allowSpeech: true
     allowMovement: true
     name: Synthetic Search and Rescue K9
-    description: "Синтетичний пес виробництва Вейланд-Ютані."
+    description: A Weyland-Yutani produced synthetic dog.
     raffle:
       settings: short
   - type: NpcFactionMember
@@ -242,8 +242,8 @@
 - type: entity
   parent: AU14MobK9
   id: AU14MobK9Bag
-  name: "синтетичний K9"
-  description: "Синтетичний пес виробництва Вейланд-Ютані. Цей оснащений сховищем для загального спорядження."
+  name: Synthetic K9
+  description: "A Weyland-Yutani produced synthetic dog. This one comes equipped with general equipment storage."
   suffix: Backpack
   components:
   - type: Sprite
@@ -282,8 +282,8 @@
   suffix: "Backpack, Ghost Role"
   components:
   - type: GhostRole
-    name: "синтетичний K9"
-    description: "Синтетичний пес виробництва Вейланд-Ютані."
+    name: Synthetic K9
+    description: A Weyland-Yutani produced synthetic dog.
     raffle:
       settings: short
 
@@ -291,8 +291,8 @@
 - type: entity
   parent: AU14MobK9
   id: AU14MobK9MP
-  name: "синтетичний K9"
-  description: "Синтетичний пес виробництва Вейланд-Ютані, призначений для підтримки персоналу військової поліції."
+  name: Synthetic K9
+  description: "A Weyland-Yutani produced synthetic dog designed to support Military Police personnel."
   suffix: MP
   components:
   - type: Sprite
@@ -317,7 +317,7 @@
   components:
   - type: GhostRole
     name: Synthetic Military Police K9
-    description: "Синтетичний пес виробництва Вейланд-Ютані."
+    description: A Weyland-Yutani produced synthetic dog.
     raffle:
       settings: short
 

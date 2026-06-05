@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCWallMeterBase
-  name: "лічильник"
+  name: meter
   description: ""
   abstract: true
   placement:

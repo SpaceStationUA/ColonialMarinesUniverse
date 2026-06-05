@@ -2,7 +2,7 @@
   parent: AU14JobLEOBase
   id: AU14JobForeignMobGoonJob
   name: au14-job-name-mobgoon
-  description: "Вас із вашим босом вигнали зі старої території, і ви втратили все. Але старі звички не зникають: переселіться на територію суперників і почніть заново."
+  description: You and your Boss have been evicted from your old territory and lost everything. But old habits die hard, move into rival territory and begin anew.
   setPreference: false
   playTimeTracker: AU14JobMobGoon
   startingGear: AU14GearForeignMobGoonGear
@@ -36,7 +36,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobForeignMobGoon
-  name: "Бандит мафії (злочинець)"
+  name: Mob Goon (Criminal)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -45,7 +45,7 @@
     allowSpeech: true
     allowMovement: true
     name: Mob Boss (Criminal)
-    description: "Вас із вашим босом вигнали зі старої території, і ви втратили все. Але старі звички не зникають: переселіться на територію суперників і почніть заново."
+    description: You and your Boss have been evicted from your old territory and lost everything. But old habits die hard, move into rival territory and begin anew.
     reregister: false
     job: AU14JobForeignMobGoonJob
     raffle:

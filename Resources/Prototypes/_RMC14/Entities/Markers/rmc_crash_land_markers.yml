@@ -24,13 +24,13 @@
 - type: entity
   parent: RMCBarrierBase
   id: RMCCrashLandBarrier
-  name: "бар'єр аварійної посадки при дотику"
+  name: crash land on touch barrier
   components:
   - type: CrashLandOnTouch
 
 - type: entity
   parent: RMCBarrierBase
   id: RMCDeleteCrashLandBarrier
-  name: "бар'єр видалення аварійно-посадочного при дотику"
+  name: delete crash landable on touch barrier
   components:
   - type: DeleteCrashLandableOnTouch

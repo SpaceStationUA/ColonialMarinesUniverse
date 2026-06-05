@@ -3,7 +3,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesHighExplosiveRMC
-  name: "ящик осколково-фугасних гранат 30 мм R2175/A HEDP (x6)"
+  name: 30mm R2175/A HEDP blast grenades crate (x6)
   suffix: RM
   components:
   - type: StorageFill
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesIncendiaryRMC
-  name: "ящик запалювальних гранат 30 мм R2175/B HIDP (x6)"
+  name: 30mm R2175/B HIDP incendiary grenades crate (x6)
   suffix: RM
   components:
   - type: StorageFill
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesSmokeRMC
-  name: "ящик димових гранат 30 мм HSDP (x6)"
+  name: 30mm HSDP smoke grenades crate (x6)
   suffix: RM
   components:
   - type: StorageFill
@@ -37,7 +37,7 @@
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesHighExplosiveBoxRMC
   suffix: RM
-  name: "ящик коробок з осколково-фугасними гранатами 30 мм R2175/A HEDP (x18)"
+  name: 30mm R2175/A HEDP blast grenade box crate (x18)
   components:
   - type: StorageFill
     contents:
@@ -47,7 +47,7 @@
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesIncendiaryBoxRMC
   suffix: RM
-  name: "ящик коробок із запалювальними гранатами 30 мм R2175/B HIDP (x18)"
+  name: 30mm R2175/B HIDP incendiary grenade box crate (x18)
   components:
   - type: StorageFill
     contents:
@@ -57,7 +57,7 @@
   parent: RMCCrateExplosives
   id: AU14Crate20MMGrenadesFragRMC
   suffix: RM
-  name: "ящик уламкових гранат 20 мм L104A1 (x8)"
+  name: 20mm L104A1 20mm fragmentation grenades crate (x8)
   components:
   - type: StorageFill
     contents:
@@ -68,7 +68,7 @@
   parent: RMCCrateExplosives
   id: AU14Crate20MMGrenadesFragDoubleRMC
   suffix: RM
-  name: "ящик уламкових гранат 20 мм L104A1 (x16)"
+  name: 20mm L104A1 20mm fragmentation grenades crate (x16)
   components:
   - type: StorageFill
     contents:
@@ -79,7 +79,7 @@
   parent: RMCCrateExplosives
   id: AU14Crate20MMGrenadesHERMC
   suffix: RM
-  name: "ящик фугасних гранат 20 мм L103A1 HE (x8)"
+  name: 20mm L103A1 20mm HE grenades crate (x8)
   components:
   - type: StorageFill
     contents:
@@ -90,7 +90,7 @@
   parent: RMCCrateExplosives
   id: AU14Crate20MMGrenadesIncendiaryRMC
   suffix: RM
-  name: "ящик запалювальних гранат 20 мм L103A1/I (x8)"
+  name: L103A1/I 20mm incendiary grenades crate (x8)
   components:
   - type: StorageFill
     contents:
@@ -101,7 +101,7 @@
   parent: RMCCrateExplosives
   id: AU14Crate20MMGrenadesHoloRMC
   suffix: RM
-  name: "ящик гранат 20 мм L103A1/H з голографічним наведенням (x8)"
+  name: L103A1/H 20mm holo-targetting grenades crate (x8)
   components:
   - type: StorageFill
     contents:
@@ -112,7 +112,7 @@
   parent: RMCCrateExplosives
   id: AU14Crate20MMGrenadesHESHRMC
   suffix: RM
-  name: "ящик гранат 20 мм L108A1 HESH (x8)"
+  name: L108A1 20mm HESH grenades crate (x8)
   components:
   - type: StorageFill
     contents:
@@ -123,7 +123,7 @@
   parent: RMCCrateExplosives
   id: AU14Crate20MMGrenadesHESHDoubleRMC
   suffix: RM
-  name: "ящик гранат 20 мм L108A1 HESH (x16)"
+  name: L108A1 20mm HESH grenades crate (x16)
   components:
   - type: StorageFill
     contents:
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesHighExplosiveUPP
-  name: "ящик уламкових гранат Type 6 (x6)"
+  name: Type 6 fragmentation grenades crate (x6)
   suffix: UPP
   components:
   - type: StorageFill
@@ -146,7 +146,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesIncendiaryUPP
-  name: "ящик запалювальних гранат Type 8 (x6)"
+  name: Type 8 incendiary grenades crate (x6)
   suffix: UPP
   components:
   - type: StorageFill
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesSmokeUPP
-  name: "ящик димових гранат RDG-17 (x6)"
+  name: RDG-17 smoke grenades crate (x6)
   suffix: UPP
   components:
   - type: StorageFill
@@ -169,7 +169,7 @@
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesHighExplosiveBoxUPP
   suffix: UPP
-  name: "ящик коробок з уламковими гранатами Type 6 (x12)"
+  name: Type 6 fragmentation grenade box crate (x12)
   components:
   - type: StorageFill
     contents:
@@ -179,7 +179,7 @@
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesIncendiaryBoxUPP
   suffix: UPP
-  name: "ящик коробок із запалювальними гранатами Type 8 (x12)"
+  name: Type 8 incendiary grenade box crate (x12)
   components:
   - type: StorageFill
     contents:
@@ -189,7 +189,7 @@
   parent: RMCCrateExplosives
   id: AU14CrateGrenadesSmokeBoxUPP
   suffix: UPP
-  name: "ящик димових гранат RDG-17 (x12)"
+  name: RDG-17 smoke grenades crate (x12)
   components:
   - type: StorageFill
     contents:

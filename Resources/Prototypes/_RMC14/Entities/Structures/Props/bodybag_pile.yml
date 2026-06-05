@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPropBase
   id: RMCPropBodybagPile
-  name: "купа мішків з тілами"
-  description: "Похмура купа мішків з тілами, складених абияк."
+  name: bodybag pile
+  description: A grim mound of body bags stacked haphazardly.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Props/bodybag_pile.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: RMCPropBodybagPile
   id: RMCPropBodybagPileCharred
-  name: "обгоріла купа мішків з тілами"
-  description: "Похмура купа мішків з тілами, складених абияк; їхні поверхні почорніли й вкрилися пухирями від сильного жару. Уміст частково обгорілий."
+  name: charred bodybag pile
+  description: A grim mound of body bags stacked haphazardly, their surfaces blackened and blistered from intense heat. The contents are partially burned.
   components:
   - type: Sprite
     state: bodybag_pile_charred

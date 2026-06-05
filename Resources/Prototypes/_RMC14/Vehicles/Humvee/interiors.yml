@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleHumveeInteriorBase
-  name: "елемент інтер'єру гамві"
-  description: "Декоративний елемент інтер'єру для гамві."
+  name: humvee interior piece
+  description: A decorative interior piece for the humvee.
   placement:
     mode: PlaceFree
   components:
@@ -14,8 +14,8 @@
 - type: entity
   abstract: true
   id: VehicleHumveeChassisBase
-  name: "шасі інтер'єру гамві"
-  description: "Сегмент шасі для інтер'єру гамві."
+  name: humvee interior chassis
+  description: A chassis segment for the humvee interior.
   placement:
     mode: PlaceFree
   components:
@@ -77,8 +77,8 @@
   abstract: true
   parent: VehicleHumveeInteriorBase
   id: VehicleHumveeRoofBase
-  name: "дах інтер'єру гамві"
-  description: "Знімна секція даху для інтер'єру гамві."
+  name: humvee interior roof
+  description: A removable roof section for the humvee interior.
   placement:
     mode: PlaceFree
   components:
@@ -115,7 +115,7 @@
 - type: entity
   parent: VehicleHumveeInteriorBase
   id: VehicleHumveeSeatDestroyed
-  name: "сидіння гамві (знищене)"
+  name: humvee seat (destroyed)
   components:
   - type: Sprite
     state: car_seat_destroyed
@@ -123,8 +123,8 @@
 - type: entity
   parent: VehicleHumveeWallMountedBase
   id: VehicleHumveeAmmoLoader
-  name: "заряджувач боєприпасів гамві"
-  description: "Заряджувач боєприпасів для вузлів кріплення гамві."
+  name: humvee ammo loader
+  description: A loader for humvee hardpoint ammunition.
   components:
   - type: Sprite
     state: weapons_loader
@@ -203,8 +203,8 @@
   abstract: true
   parent: CMClosetBase
   id: VehicleHumveeLockerBase
-  name: "шафка інтер'єру гамві"
-  description: "Шафка для зберігання в інтер'єрах гамві."
+  name: humvee interior locker
+  description: A storage locker for humvee interiors.
   placement:
     mode: PlaceFree
   components:
@@ -231,7 +231,7 @@
 - type: entity
   parent: VehicleHumveeLockerBase
   id: VehicleHumveeLockerMedical
-  name: "шафка гамві (медична)"
+  name: humvee locker (medical)
 
 - type: entity
   abstract: true

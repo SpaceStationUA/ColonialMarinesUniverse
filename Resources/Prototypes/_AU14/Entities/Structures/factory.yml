@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseStructureCorrodible
   id: AU14ConveyorBelt
-  name: "конвеєрна стрічка"
-  description: "Конвеєрна стрічка, яку часто використовують, щоб швидко перевозити велику кількість предметів в інше місце."
+  name: conveyor belt
+  description: A conveyor belt, commonly used to transport large numbers of items elsewhere quite quickly.
   placement:
     mode: SnapgridCenter
   components:
@@ -53,8 +53,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: AU14RoboticArm
-  name: "роботизована рука"
-  description: "Міцна роботизована рука, яку використовують у різних механічних процесах, зокрема складанні та пакуванні."
+  name: robotic arm
+  description: A robust robotic arm used in a range of mechanical processes, including assembly and packaging.
   components:
   - type: Fixtures
     fixtures:

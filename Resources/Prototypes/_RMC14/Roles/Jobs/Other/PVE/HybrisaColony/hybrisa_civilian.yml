@@ -37,7 +37,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVEHybrisaCivilian
-  name: "спавнер цивільного hybrisa"
+  name: hybrisa civilian spawn point
   components:
   - type: SpawnPoint
     job_id: RMCPVEHybrisaCivilian

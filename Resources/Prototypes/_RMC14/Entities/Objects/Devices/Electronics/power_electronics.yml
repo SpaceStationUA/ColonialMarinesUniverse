@@ -2,8 +2,8 @@
 - type: entity
   id: CMAPCElectronics
   parent: CMBaseElectronics
-  name: "модуль контролю живлення"
-  description: "Схема, що використовується при будівництві APC."
+  name: power control module
+  description: Circuit used in APC construction.
   components:
     - type: ApcElectronics
     - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMUOrganClampItem
-  name: "затискач судин органу"
-  description: "Хірургічний затискач для перекриття судин органу під час операції."
+  name: organ vessel clamp
+  description: A surgical clamp for sealing organ vessels mid-surgery.
   components:
   - type: Item
     size: Small

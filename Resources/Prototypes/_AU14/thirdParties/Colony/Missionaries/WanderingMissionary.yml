@@ -4,8 +4,8 @@
 - type: job
   parent: AU14JobLEOBase
   id: AU14JobWanderingMissionaryJob
-  name: "Мандрівний місіонер"
-  description: "Ваша церква відправила вас займатися місіонерською роботою на фронтирі. Надавайте громадські послуги та гуманітарну допомогу там, де це потрібно, і проповідуйте добре слово голодним душам тутешніх країв."
+  name: Wandering Missionary
+  description: You have been sent by your church to do missionary work on the frontier. Provide community serivce and humanitarian aid where needed and preach the good word to the hungry souls out here.
   setPreference: true
   playTimeTracker: AU14JobReturningColonist
   ranks:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobWanderingMissionary
-  name: "Мандрівний місіонер (цивільний)"
+  name: Wandering Missionary (civilian)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -51,7 +51,7 @@
     allowSpeech: true
     allowMovement: true
     name: Missionary (civilian)
-    description: "Ваша церква відправила вас займатися місіонерською роботою на фронтирі. Надавайте громадські послуги та гуманітарну допомогу там, де це потрібно, і проповідуйте добре слово голодним душам тутешніх країв."
+    description:  You have been sent by your church to do missionary work on the frontier. Provide community serivce and humanitarian aid where needed and preach the good word to the hungry souls out here.
     reregister: false
     job: AU14JobWanderingMissionaryJob
     raffle:
@@ -60,7 +60,7 @@
 
 - type: entity
   id: AU14WanderingMissionaryPreset
-  name: "пресет мандрівного місіонера"
+  name: wandering missionary preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

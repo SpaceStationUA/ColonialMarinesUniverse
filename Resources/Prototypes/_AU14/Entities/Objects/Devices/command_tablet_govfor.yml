@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCTabletCO
   id: AU14TabletGovfor
-  name: "командний планшет Говфор"
-  description: "Портативний командний інтерфейс для командування Говфор, під'єднаний до систем їхньої фракції."
+  name: govfor command tablet
+  description: A portable command interface for Govfor command, linked to their faction's systems.
   components:
   - type: AccessReader
     access: [[ "AU14AccessGovforCommand" ]]

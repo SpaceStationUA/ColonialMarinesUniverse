@@ -2,8 +2,8 @@
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14FatiguesUPP
   suffix: AU14
-  name: "польова форма морської піхоти УПП"
-  description: "Стандартний комплект польової форми Союзу прогресивних народів. Має пластини з легкого кевлару, що допомагають захистити від уламків."
+  name: UPP naval infantry fatigues
+  description: A standard set of Union of Progressive Peoples Fatigues. It has shards of light Kevlar to help protect against shrapnel.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/jumpsuits/uppfatigues.rsi
@@ -14,7 +14,7 @@
 
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
-  name: "інженерна польова форма УПП"
+  name: UPP engineer fatigues
   id: AU14JumpsuitEngiUPP
   suffix: AU14
   components:
@@ -24,7 +24,7 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
   id: AU14JumpsuitMPUPP
-  name: "польова форма військової поліції УПП"
+  name: UPP military police fatigues
   suffix: AU14
   components:
   - type: Sprite
@@ -32,7 +32,7 @@
   
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
-  name: "польова форма медика УПП"
+  name: UPP medic fatigues
   id: AU14JumpsuitMedicUPP
   suffix: AU14
   components:
@@ -41,7 +41,7 @@
 
 - type: entity
   parent: [RMCMarineUniformBase, RMCFoldableUniformBase]
-  name: "офіцерська польова форма УПП"
+  name: UPP officer fatigues
   id: AU14JumpsuitOfficerUPP
   suffix: AU14
   components:
@@ -55,8 +55,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14ServiceFatiguesUPP
-  name: "службова форма УПП"
-  description: "Штатна службова форма армії УПП. Зазвичай її носять офіцери."
+  name: UPP service uniform
+  description: Standart-issue UPP Army service uniform. Usually worn by officers.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/jumpsuits/uppservice.rsi
@@ -68,8 +68,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14BoilerFatiguesUPP
-  name: "робочий комбінезон УПП"
-  description: "Штатна службова форма армії УПП. Зазвичай її носять пілоти та авіаекіпажі."
+  name: UPP boiler jumpsuit
+  description: Standart-issue UPP Army service uniform. Usually worn by pilots and aircrews.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/jumpsuits/uppboiler.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14JumpsuitArmyUPP
-  name: "армійська польова форма УПП"
-  description: "Комплект польової форми УПП, масово вироблений для Збройного колективу Союзу прогресивних народів. Рідкісне видовище, особливо в зонах Імперії трьох світів. Саме цей комплект має стандартний візерунок УПП 202-го піхотного полку армії УПП."
+  name: UPP army fatigues
+  description: A set of UPP fatigues, mass produced for the Armed Collective of the Union of Progressive Peoples. A rare sight, especially in 3WE zones. This particular set sports the standard UPP pattern of the UPP Army's 202nd Infantry Regiment.
   suffix: AU14
   components:
   - type: Sprite
@@ -95,8 +95,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: AU14SuitCBRNUPP
-  name: "костюм MOPP УПП"
-  description: "Комбінезон із костюма MOPP Збройних сил УПП."
+  name: UPP MOPP suit
+  description: Jumpsuit from the UPP's Armed Forces MOPP suit.
   components:
   - type: Item
     size: Small

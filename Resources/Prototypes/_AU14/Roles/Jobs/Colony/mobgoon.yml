@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointMobGoon
-  name: "точка появи бандита мафії"
+  name: Spawn Point Mob Goon
   components:
   - type: SpawnPoint
     job_id: AU14JobMobGoon

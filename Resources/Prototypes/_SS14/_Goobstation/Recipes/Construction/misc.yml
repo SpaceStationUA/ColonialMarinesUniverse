@@ -4,11 +4,11 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: construction
-  name: "саморобна вудка"
+  name: makeshift fishing rod
   id: FishingRodMakeshift
   graph: FishingRodMakeshift
   startNode: start
   targetNode: makeshiftRod
   category: construction-category-misc
-  description: "Скоріш за все, зловити рибу цим буде непросто."
+  description: Probably would be hard to catch a fish using that.
   objectType: Item

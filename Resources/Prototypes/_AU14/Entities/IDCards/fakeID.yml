@@ -1,7 +1,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeFoodServiceWorker
-  name: "iD-карта працівника харчування"
+  name: food service worker ID carp
   components:
   - type: JobTitleChanger
     jobTitle: Food Service Worker
@@ -9,7 +9,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeJournalist
-  name: "iD-карта журналіста"
+  name: jurnalist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Journalist
@@ -17,7 +17,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeJournalistFreePress
-  name: "iD-карта журналіста вільної преси"
+  name: free press journalist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Free Press Journalist
@@ -25,7 +25,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeJournalistIndependent
-  name: "iD-карта незалежного журналіста"
+  name: indepentent journalist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Independent Journalist
@@ -33,7 +33,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeFreightSystemsSpecialist
-  name: "iD-карта фахівця вантажних систем"
+  name: frieght systems specialist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Freight Systems Specialist
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeEngineer
-  name: "iD-карта інженера"
+  name: enginneer ID card
   components:
   - type: JobTitleChanger
     jobTitle: Engineer
@@ -49,7 +49,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeWasteManagementSpecialist
-  name: "iD-карта фахівця з утилізації відходів"
+  name: waste management specialist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Waste Management Specialist
@@ -57,7 +57,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakePhysician
-  name: "iD-карта лікаря"
+  name: physician ID card
   components:
   - type: JobTitleChanger
     jobTitle: Physician
@@ -65,7 +65,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeNurse
-  name: "iD-карта медсестри"
+  name: nurse ID card
   components:
   - type: JobTitleChanger
     jobTitle: Nurse
@@ -73,7 +73,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFFakeEmergencyResponseOfficer
-  name: "iD-карта офіцера аварійного реагування"
+  name: emergency response officer ID card
   components:
   - type: JobTitleChanger
     jobTitle: Emergency Response Officer
@@ -81,7 +81,7 @@
 - type: entity
   parent: AU14IDCardColonyEmergencyResponseOfficer
   id: AU14IDCardCLFFakeEmergencyResponseOfficerParamedic
-  name: "iD-карта парамедика аварійного реагування"
+  name: emergency response paramedic ID card
   components:
   - type: JobTitleChanger
     jobTitle: Emergency Response Paramedic
@@ -89,7 +89,7 @@
 - type: entity
   parent: AU14IDCardColonyEmergencyResponseOfficer
   id: AU14IDCardCLFFakeEmergencyResponseOfficerFirefighter
-  name: "iD-карта пожежника аварійного реагування"
+  name: emergency response firefihgter ID card
   components:
   - type: JobTitleChanger
     jobTitle: Emergency Response Firefighter

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStorageItem
   id: CMMedicalUpgradeKit
-  name: "медичний апгрейд-набір"
-  description: "Цей набір містить покращені травматичні набори та набори від опіків для критичних ушкоджень."
+  name: medical upgrade kit
+  description: This kit holds upgraded trauma and burn kits, for critical injuries.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/medical_upgrade_kit.rsi

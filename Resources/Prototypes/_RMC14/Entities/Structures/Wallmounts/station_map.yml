@@ -1,7 +1,7 @@
 - type: entity
   id: RMCStationMap
-  name: "мапа судна"
-  description: "Віртуальна мапа судна, що використовується для навігації."
+  name: vessel map
+  description: A virtual map of the vessel, used for navigation.
   suffix: Wall
   placement:
     mode: SnapgridCenter

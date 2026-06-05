@@ -3,7 +3,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepSetSimpleBone
-  name: "Вирівняти простий перелом"
+  name: Realign simple fracture
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -20,7 +20,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRealignCompoundBone
-  name: "Вирівняти складний перелом"
+  name: Realign compound fracture
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepApplyBoneGel
-  name: "Нанести кістковий гель"
+  name: Apply bone gel
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRealignComminutedBone
-  name: "Вирівняти роздроблений перелом"
+  name: Realign comminuted fracture
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -83,7 +83,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepApplyComminutedBoneGel
-  name: "Нанести кістковий гель"
+  name: Apply bone gel
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepInsertBoneGraft
-  name: "Вставити кістковий трансплантат"
+  name: Insert bone graft
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -125,7 +125,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepFinalizeGraftedBone
-  name: "Остаточно зафіксувати трансплантовану кістку"
+  name: Final set grafted bone
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -148,7 +148,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepTieVascularTear
-  name: "перев’язати розірвану судину"
+  name: Tie off torn vessel
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -165,7 +165,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepExtractForeignBody
-  name: "витягти стороннє тіло"
+  name: Extract foreign body
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -182,7 +182,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRelieveCompartmentPressure
-  name: "зняти компартментний тиск"
+  name: Relieve compartment pressure
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -199,7 +199,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepDebrideContaminatedWound
-  name: "очистити забруднені тканини"
+  name: Debride contaminated tissue
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -216,7 +216,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRemoveBoneFragments
-  name: "видалити кісткові уламки"
+  name: Remove bone fragments
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -233,7 +233,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepFreeOrganAdhesions
-  name: "звільнити спайки органа"
+  name: Free organ adhesions
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -250,7 +250,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepPackOrganBleed
-  name: "тампонувати кровотечу органа"
+  name: Pack organ bleed
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -269,7 +269,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepCauterizeBleed
-  name: "Затиснути внутрішню кровотечу"
+  name: Clamp internal bleed
   components:
   - type: CMSurgeryStep
     skill: 1
@@ -288,7 +288,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepCloseIncision
-  name: "Закритий розріз"
+  name: Close incision
   components:
   - type: CMSurgeryStep
     tool:
@@ -315,7 +315,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepClampLiverVessels
-  name: "Затиснути судини печінки"
+  name: Clamp liver vessels
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -330,7 +330,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepExtractLiver
-  name: "Витягти печінку"
+  name: Extract liver
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -352,7 +352,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepReinsertLiver
-  name: "Вставити замінну печінку"
+  name: Insert replacement liver
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -368,7 +368,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepClampLungVessels
-  name: "Затиснути судини легень"
+  name: Clamp lung vessels
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -383,7 +383,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepExtractLung
-  name: "Витягти легені"
+  name: Extract lungs
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -405,7 +405,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepReinsertLung
-  name: "Вставити замінні легені"
+  name: Insert replacement lungs
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -421,7 +421,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepClampKidneyVessels
-  name: "Затиснути судини нирок"
+  name: Clamp kidney vessels
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -436,7 +436,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepExtractKidney
-  name: "Витягти нирки"
+  name: Extract kidneys
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -458,7 +458,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepReinsertKidney
-  name: "Вставити замінні нирки"
+  name: Insert replacement kidneys
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -474,7 +474,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepClampHeartVessels
-  name: "Затиснути судини серця"
+  name: Clamp heart vessels
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -489,7 +489,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepExtractHeart
-  name: "Витягти серце"
+  name: Extract heart
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -511,7 +511,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepTransplantHeart
-  name: "Пересадити донорське серце"
+  name: Transplant donor heart
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -527,7 +527,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepClampStomachVessels
-  name: "Затиснути судини шлунку"
+  name: Clamp stomach vessels
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -542,7 +542,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepExtractStomach
-  name: "Витягти шлунок"
+  name: Extract stomach
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -564,7 +564,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepReinsertStomach
-  name: "Вставити замінний шлунок"
+  name: Insert replacement stomach
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -582,7 +582,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepSutureLiver
-  name: "Зашити печінку"
+  name: Suture liver
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -602,7 +602,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepSutureLungs
-  name: "Зашити легені"
+  name: Suture lungs
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -622,7 +622,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepSutureKidneys
-  name: "Зашити нирки"
+  name: Suture kidneys
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -642,7 +642,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepSutureHeart
-  name: "Зашити серце"
+  name: Suture heart
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -662,7 +662,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepSutureStomach
-  name: "Зашити шлунок"
+  name: Suture stomach
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -684,7 +684,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepAmputateLimb
-  name: "Ампутувати кінцівку"
+  name: Amputate limb
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -703,7 +703,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRemoveStump
-  name: "Видалити некротичну куксу"
+  name: Trim necrotic stump
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -718,7 +718,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepPrepReattachSocket
-  name: "Підготувати гніздо для прикріплення"
+  name: Prep reattachment socket
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -733,7 +733,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepReattachLimb
-  name: "Прикріпити відірвану кінцівку"
+  name: Reattach severed limb
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -747,7 +747,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepCloseReattach
-  name: "Закритий розріз"
+  name: Close incision
   components:
   - type: CMSurgeryStep
     tool:
@@ -769,7 +769,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRepairBrain
-  name: "Полагодити мозок"
+  name: Repair brain
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -787,7 +787,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRepairEyes
-  name: "Полагодити очі"
+  name: Repair eyes
   components:
   - type: CMSurgeryStep
     skill: 2
@@ -805,7 +805,7 @@
 - type: entity
   parent: CMSurgeryStepBase
   id: CMUSurgeryStepRepairEars
-  name: "Полагодити вуха"
+  name: Repair ears
   components:
   - type: CMSurgeryStep
     skill: 2

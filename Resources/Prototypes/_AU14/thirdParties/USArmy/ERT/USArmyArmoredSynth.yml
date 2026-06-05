@@ -94,7 +94,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmySynthArmored
-  name: "синтетик армії США (ЕРТ)"
+  name: US Army Synthetic (ERT)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

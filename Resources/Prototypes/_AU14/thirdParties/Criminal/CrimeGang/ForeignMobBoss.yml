@@ -2,7 +2,7 @@
   parent: AU14JobLEOBase
   id: AU14JobForeignMobBossJob
   name: au14-job-name-mobboss
-  description: "Вас витіснили зі старої території, і ви втратили все. Але старі звички не зникають: переселіться на територію суперників разом зі своєю Родиною і почніть заново."
+  description: You have been ousted from your old territory and lost everything. But old habits die hard, move into rival territory with your Family and begin anew.
   setPreference: false
   playTimeTracker: AU14JobMobBoss
   startingGear: AU14ForeignGearMobBossGear
@@ -36,7 +36,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobForeignMobBoss
-  name: "Бос мафії (злочинець)"
+  name: Mob Boss (Criminal)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -44,8 +44,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Бос мафії (злочинець)"
-    description: "Вас витіснили зі старої території, і ви втратили все. Але старі звички не зникають: переселіться на територію суперників разом зі своєю Родиною і почніть заново."
+    name: Mob Boss (Criminal)
+    description: You have been ousted from your old territory and lost everything. But old habits die hard, move into rival territory with your Family and begin anew.
     reregister: false
     job: AU14JobForeignMobBossJob
     raffle:

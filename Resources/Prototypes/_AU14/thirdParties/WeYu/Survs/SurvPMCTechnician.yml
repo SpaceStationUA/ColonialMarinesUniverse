@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobLEOBase
   id: AU14JobWYSurvEngineer
-  name: "Бойовий інженер ПВК"
+  name: PMC Combat Engineer
   description: au14-wysurv-description
   ranks:
     AU14RankWeYuOperator: []
@@ -34,7 +34,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYSurvEngineer
-  name: "Бойовий інженер ПВК ВЮ (виживший)"
+  name: WY PMC Combat Engineer (Survivor)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -43,7 +43,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Бойовий інженер ПВК"
+    name: PMC Combat Engineer
     description: au14-wysurv-description
     reregister: false
     job: AU14JobWYSurvEngineer
