@@ -1,37 +1,37 @@
 <Document>
 
-  # Medical V2
+  # Медицина V2
 
-  ## Overview
-  - The medical system has heavily changed.
-  - Patients now suffer specific wounds on their limbs.
-  - Untreated wounds reduce the maximum health of the affected limb.
-  - Trauma kits, gauze, burn kits, ointment, and hemostatic gauze treat wounds normally.
-  - Once every wound on a limb is treated, the wounds passively recover and the limb can return to full health.
+  ## Огляд
+  - Медична система суттєво змінилася.
+  - Пацієнти тепер отримують конкретні рани на кінцівках.
+  - Необроблені рани зменшують максимальне здоров'я ураженої кінцівки.
+  - Травматичні набори, марля, опікові набори, мазь і гемостатична марля обробляють рани звичайним чином.
+  - Коли всі рани на кінцівці оброблені, вони поступово загоюються, а кінцівка може повернутися до повного здоров'я.
 
-  ## Field treatment crafting
-  - Use [keybind="CMUOpenMedicalCraftingMenu"] to fast craft medical treatments.
-  - Crafting uses one ingredient and one packed trauma kit.
-  - Coagulant powder and a packed trauma kit create a normal trauma kit.
-  - Burn gel and a packed trauma kit create a normal burn kit.
+  ## Створення польових засобів лікування
+  - Використовуйте [keybind="CMUOpenMedicalCraftingMenu"], щоб швидко створювати медичні засоби.
+  - Для створення потрібні один інгредієнт і один запакований травматичний набір.
+  - Коагулянтний порошок і запакований травматичний набір створюють звичайний травматичний набір.
+  - Опіковий гель і запакований травматичний набір створюють звичайний опіковий набір.
 
-  ## Ingredients
+  ## Інгредієнти
   <Box>
     <GuideEntityEmbed Entity="CMUCoagulantPowder1"/>
     <GuideEntityEmbed Entity="CMUBurnGel1"/>
-  </Box>\n
+  </Box>
 
-  ## Base items
+  ## Базові предмети
   <Box>
     <GuideEntityEmbed Entity="CMUPlainTraumaDressing10"/>
     <GuideEntityEmbed Entity="CMTraumaKit10"/>
     <GuideEntityEmbed Entity="CMBurnKit10"/>
   </Box>
 
-  ## Surgical line and synth graft
-  - Surgical line now heals limb health only.
-  - Synth graft now heals limb health only.
-  - Neither item treats wounds or restores maximum limb health by itself.
-  - Treat wounds first, then use line or graft when the limb still needs health.
+  ## Хірургічна нитка та синтетичний трансплантат
+  - Хірургічна нитка тепер відновлює лише здоров'я кінцівки.
+  - Синтетичний трансплантат тепер відновлює лише здоров'я кінцівки.
+  - Жоден із цих предметів сам по собі не обробляє рани й не відновлює максимальне здоров'я кінцівки.
+  - Спершу обробіть рани, а потім використовуйте нитку або трансплантат, якщо кінцівці ще потрібно відновити здоров'я.
 
 </Document>
