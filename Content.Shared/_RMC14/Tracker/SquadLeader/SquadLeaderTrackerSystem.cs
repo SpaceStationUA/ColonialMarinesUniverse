@@ -9,6 +9,7 @@ using Content.Shared.Alert;
 using Content.Shared.Database;
 using Content.Shared.Inventory;
 using Content.Shared.Inventory.Events;
+using System.Text;
 using Robust.Shared.Map;
 using Robust.Shared.Network;
 using Robust.Shared.Prototypes;
@@ -151,18 +152,14 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
         if (!_squad.TryGetMemberSquad(ent.Owner, out var squad))
             return;
 
-        UpdateDirection(ent, squad: Name(squad));
+        UpdateDirection(ent, squad: squad);
         ent.Comp.Fireteams = squad.Comp.Fireteams;
         Dirty(ent);
     }
 
     private void OnRemove(Entity<SquadLeaderTrackerComponent> ent, ref ComponentRemove args)
     {
-        _prototypeManager.TryIndex(ent.Comp.Mode, out var trackerMode);
-        if(trackerMode == null)
-            return;
-
-        _alerts.ClearAlert(ent, trackerMode.Alert);
+        _alerts.ClearAlertCategory(ent, SquadTrackerCategory);
     }
 
     private void OnSquadLeaderTrackerClicked(Entity<SquadLeaderTrackerComponent> ent, ref SquadLeaderTrackerClickedEvent args)
@@ -236,18 +233,16 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
             return;
 
         MapCoordinates? location = null;
-        var squadName = "";
+        Entity<SquadTeamComponent>? trackedSquad = null;
 
         // Update this here so there is no need to wait for the next delayed update for a smoother experience.
         if (ent.Comp.Target != null)
         {
             location = _transform.GetMapCoordinates(ent.Comp.Target.Value);
-            if (_squadMemberQuery.TryComp(ent.Comp.Target.Value, out var squad) &&
-                squad.Squad is { } memberSquadName)
-                squadName = Name(memberSquadName);
+            trackedSquad = GetMemberSquad(ent.Comp.Target.Value);
         }
 
-        UpdateDirection(ent, location, squadName);
+        UpdateDirection(ent, location, trackedSquad);
     }
 
     private void OnLeaderTrackerSelectTargetEvent(Entity<SquadLeaderTrackerComponent> ent, ref LeaderTrackerSelectTargetEvent args)
@@ -645,7 +640,7 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
         }
     }
 
-    private void UpdateDirection(Entity<SquadLeaderTrackerComponent> ent, MapCoordinates? coordinates = null, string squad = "")
+    private void UpdateDirection(Entity<SquadLeaderTrackerComponent> ent, MapCoordinates? coordinates = null, Entity<SquadTeamComponent>? squad = null)
     {
         _alerts.ClearAlertCategory(ent, SquadTrackerCategory);
 
@@ -657,12 +652,110 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
         var severity = TrackerSystem.CenterSeverity;
 
         if (ent.Comp.Mode == SquadLeaderMode)
-            alert += squad;
+            alert = GetSquadLeaderAlert(alert, squad);
 
         if (coordinates != null)
             severity = _tracker.GetAlertSeverity(ent.Owner, coordinates.Value);
 
         _alerts.ShowAlert(ent.Owner, alert, severity);
+    }
+
+    private ProtoId<AlertPrototype> GetSquadLeaderAlert(ProtoId<AlertPrototype> baseAlert, Entity<SquadTeamComponent>? squad)
+    {
+        if (squad is not { } squadEnt)
+            return baseAlert;
+
+        if (squadEnt.Comp.TrackerAlert is { } trackerAlert &&
+            _prototypeManager.HasIndex<AlertPrototype>(trackerAlert))
+        {
+            return trackerAlert;
+        }
+
+        foreach (var suffix in GetSquadAlertSuffixes(squadEnt))
+        {
+            var alert = baseAlert;
+            alert += suffix;
+            if (_prototypeManager.HasIndex<AlertPrototype>(alert))
+                return alert;
+        }
+
+        return baseAlert;
+    }
+
+    private IEnumerable<string> GetSquadAlertSuffixes(Entity<SquadTeamComponent> squad)
+    {
+        if (TryGetSquadAlertSuffix(squad.Comp.MinimapBackground?.RsiState, "background_", out var backgroundSuffix))
+            yield return backgroundSuffix;
+
+        var prototype = MetaData(squad.Owner).EntityPrototype?.ID;
+        if (TryGetSquadAlertSuffix(prototype, "Squad", out var prototypeSuffix))
+            yield return prototypeSuffix;
+    }
+
+    private Entity<SquadTeamComponent>? GetMemberSquad(EntityUid uid)
+    {
+        if (!_squadMemberQuery.TryComp(uid, out var member))
+            return null;
+
+        return GetSquad(member.Squad);
+    }
+
+    private Entity<SquadTeamComponent>? GetSquad(EntityUid? uid)
+    {
+        if (uid == null ||
+            !TryComp(uid.Value, out SquadTeamComponent? squad))
+        {
+            return null;
+        }
+
+        return (uid.Value, squad);
+    }
+
+    private static bool TryGetSquadAlertSuffix(string? value, string prefix, out string suffix)
+    {
+        suffix = string.Empty;
+        if (string.IsNullOrWhiteSpace(value) ||
+            !value.StartsWith(prefix, StringComparison.Ordinal) ||
+            value.Length == prefix.Length)
+        {
+            return false;
+        }
+
+        suffix = ToPascalCase(value[prefix.Length..]);
+        return suffix.Length > 0;
+    }
+
+    private static string ToPascalCase(string value)
+    {
+        var hasSeparator = false;
+        foreach (var c in value)
+        {
+            if (char.IsLetterOrDigit(c))
+                continue;
+
+            hasSeparator = true;
+            break;
+        }
+
+        if (!hasSeparator)
+            return char.ToUpperInvariant(value[0]) + value[1..];
+
+        var builder = new StringBuilder(value.Length);
+        var nextUpper = true;
+
+        foreach (var c in value)
+        {
+            if (!char.IsLetterOrDigit(c))
+            {
+                nextUpper = true;
+                continue;
+            }
+
+            builder.Append(nextUpper ? char.ToUpperInvariant(c) : char.ToLowerInvariant(c));
+            nextUpper = false;
+        }
+
+        return builder.ToString();
     }
 
     private void SetTarget(Entity<SquadLeaderTrackerComponent> ent, EntityUid? target)
@@ -787,7 +880,7 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
                 continue;
 
             tracker.UpdateAt = time + tracker.UpdateEvery;
-            var targetSquadName = "";
+            Entity<SquadTeamComponent>? targetSquadEntity = null;
 
             // Swap target to the new SquadLeader after it is swapped.
             if (tracker.Target != null && tracker.Mode == SquadLeaderMode && !HasComp<SquadLeaderComponent>(tracker.Target))
@@ -800,10 +893,9 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
                     _squad.TryGetSquadLeader((targetSquad, team), out var leader))
                 {
                     SetTarget((uid, tracker), leader);
-                    targetSquadName = Name(targetSquad);
                     var targetCoordinates = _transform.GetMapCoordinates(tracker.Target.Value);
 
-                    UpdateDirection((uid, tracker), targetCoordinates, targetSquadName);
+                    UpdateDirection((uid, tracker), targetCoordinates, (targetSquad, team));
                     continue;
                 }
             }
@@ -818,13 +910,13 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
                         _fireteamLeaders[fireteamIndex] is { } fireteam &&
                         fireteam.TryGetValue(squad, out var leader))
                     {
-                        UpdateDirection((uid, tracker), leader, Name(squad));
+                        UpdateDirection((uid, tracker), leader);
                         continue;
                     }
                 }
                 else if (tracker.Mode == SquadLeaderMode && _squadLeaders.TryGetValue(squad, out var squadLeader))
                 {
-                    targetSquadName = Name(squad);
+                    targetSquadEntity = GetSquad(squad);
 
                     if (HasComp<SquadLeaderComponent>(uid) &&
                         tracker.Target != null)
@@ -832,12 +924,12 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
                         if (_squadMemberQuery.TryComp(tracker.Target.Value, out var target) &&
                             target.Squad is { } targetSquad)
                         {
-                            targetSquadName = Name(targetSquad);
+                            targetSquadEntity = GetSquad(targetSquad);
                         }
                         squadLeader = _transform.GetMapCoordinates(tracker.Target.Value);
                     }
 
-                    UpdateDirection((uid, tracker), squadLeader, targetSquadName);
+                    UpdateDirection((uid, tracker), squadLeader, targetSquadEntity);
                     continue;
                 }
             }
@@ -860,10 +952,8 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
             // If the tracker is tracking an entity, point towards the target.
             if (tracker.Target != null)
             {
-                if (_squadMemberQuery.TryComp(tracker.Target, out var targetSquad) && targetSquad.Squad != null)
-                    targetSquadName = Name(targetSquad.Squad.Value);
-
-                UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value), targetSquadName);
+                targetSquadEntity = GetMemberSquad(tracker.Target.Value);
+                UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value), targetSquadEntity);
                 continue;
             }
 
@@ -883,7 +973,7 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
                         SetTarget((uid, tracker), trackableUid);
 
                         if (tracker.Target != null)
-                            UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value), targetSquadName);
+                            UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value));
                     }
                     break;
                 }
@@ -895,11 +985,9 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
                 if (originalRole != trackerMode.Job)
                     continue;
 
-                if (_squadMemberQuery.TryComp(tracker.Target, out var targetSquad) && targetSquad.Squad != null)
-                    targetSquadName = Name(targetSquad.Squad.Value);
-
                 tracker.Target = trackableUid;
-                UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value), targetSquadName);
+                targetSquadEntity = GetMemberSquad(trackableUid);
+                UpdateDirection((uid, tracker), _transform.GetMapCoordinates(tracker.Target.Value), targetSquadEntity);
                 break;
             }
 

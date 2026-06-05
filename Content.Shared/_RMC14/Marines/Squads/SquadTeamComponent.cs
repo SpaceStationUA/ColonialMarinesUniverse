@@ -1,6 +1,7 @@
 ﻿using Content.Shared._RMC14.TacticalMap;
 using Content.Shared._RMC14.Tracker.SquadLeader;
 using Content.Shared.Access;
+using Content.Shared.Alert;
 using Content.Shared.Radio;
 using Content.Shared.Roles;
 using Robust.Shared.GameStates;
@@ -34,6 +35,13 @@ public sealed partial class SquadTeamComponent : Component
 
     [DataField]
     public SpriteSpecifier.Rsi? MinimapBackground;
+
+    /// <summary>
+    ///     Alert prototype used by squad leader trackers for this squad.
+    ///     Leave null to derive it from stable prototype/minimap data instead of localized squad names.
+    /// </summary>
+    [DataField]
+    public ProtoId<AlertPrototype>? TrackerAlert;
 
     [DataField]
     public ProtoId<AccessLevelPrototype>[] AccessLevels = Array.Empty<ProtoId<AccessLevelPrototype>>();
