@@ -12,8 +12,8 @@
 - type: entity
   parent: [ RMCVisorBase, RMCPowerCellSlotUnremovableSuper ]
   id: RMCVisorNightVision
-  name: night vision optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a form of night vision and is standard issue in units with regular funding. It can be inserted into a recharger to recharge its internal battery.
+  name: "оптика нічного бачення"
+  description: "Вставний візорний HUD у стандартний шолом UNMC. Цей тип дає форму нічного бачення і є стандартним забезпеченням у підрозділах зі стабільним фінансуванням. Його можна вставити в зарядний пристрій, щоб перезарядити внутрішню батарею."
   components:
   - type: Sprite
     state: nvg_sight
@@ -41,8 +41,8 @@
 - type: entity
   parent: RMCVisorBase
   id: RMCVisorMedical
-  name: basic medical optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display that shows data about nearby humanoids health status.
+  name: "базова медична оптика"
+  description: "Вставний візорний HUD у стандартний шолом UNMC. Цей тип дає лобовий дисплей, що показує дані про стан здоров'я гуманоїдів поблизу."
   components:
   - type: Sprite
     state: med_sight
@@ -66,8 +66,8 @@
 - type: entity
   parent: RMCVisorMedical
   id: RMCVisorMedicalAdvanced
-  name: advanced medical optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display that shows data about nearby humanoids health status and research notes.
+  name: "покращена медична оптика"
+  description: "Вставний візорний HUD у стандартний шолом UNMC. Цей тип дає лобовий дисплей, що показує дані про стан здоров'я гуманоїдів поблизу та дослідницькі нотатки."
   components:
   - type: Sprite
     state: med_adv_sight
@@ -94,8 +94,8 @@
 - type: entity
   parent: RMCVisorBase
   id: RMCVisorWelding
-  name: welding visor
-  description: An insertable visor HUD into a standard UNMC helmet. This type protects the eyes from welders.
+  name: "зварювальний візор"
+  description: "Вставний візорний HUD у стандартний шолом UNMC. Цей тип захищає очі від зварювання."
   components:
   - type: Sprite
     state: sight_empty
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCVisorBase
   id: RMCVisorSquad
-  name: squad optic
-  description: An insertable visor HUD into a standard UNMC helmet. This type gives a heads-up display of marine squads.
+  name: "загонна оптика"
+  description: "Вставний візорний HUD у стандартний шолом UNMC. Цей тип дає лобовий дисплей загонів морпіхів."
   components:
   - type: Sprite
     state: hud_sight
@@ -150,8 +150,8 @@
 - type: entity
   parent: RMCVisorBase
   id: RMCVisorPilotBlack
-  name: MK30 black flight visor
-  description: A standard issue snap-on visor used by UNMC dropship pilots. Polarized to reduce glare and protect the eyes during atmospheric re-entry and orbital deployment.
+  name: "чорний льотний візор MK30"
+  description: "Стандартний знімний візор, який використовують пілоти десантних кораблів UNMC. Поляризований для зменшення відблисків і захисту очей під час входу в атмосферу та орбітального розгортання."
   components:
   - type: Sprite
     state: po_visor
@@ -175,7 +175,7 @@
 - type: entity
   parent: RMCVisorPilotBlack
   id: RMCVisorPilotDarkblue
-  name: MK30 dark blue flight visor
+  name: "темно-синій льотний візор MK30"
   components:
   - type: Sprite
     state: po_visor_darkblue
@@ -190,7 +190,7 @@
 - type: entity
   parent: RMCVisorPilotBlack
   id: RMCVisorPilotLightblue
-  name: MK30 light blue flight visor
+  name: "світло-синій льотний візор MK30"
   components:
   - type: Sprite
     state: po_visor_lightblue
@@ -205,7 +205,7 @@
 - type: entity
   parent: RMCVisorPilotBlack
   id: RMCVisorPilotPurple
-  name: MK30 purple flight visor
+  name: "фіолетовий льотний візор MK30"
   components:
   - type: Sprite
     state: po_visor_purple
@@ -220,7 +220,7 @@
 - type: entity
   parent: RMCVisorPilotBlack
   id: RMCVisorPilotRed
-  name: MK30 red flight visor
+  name: "червоний льотний візор MK30"
   components:
   - type: Sprite
     state: po_visor_red
@@ -235,7 +235,7 @@
 - type: entity
   parent: RMCVisorPilotBlack
   id: RMCVisorPilotYellow
-  name: MK30 yellow flight visor
+  name: "жовтий льотний візор MK30"
   components:
   - type: Sprite
     state: po_visor_yellow
@@ -255,22 +255,22 @@
 - type: entity
   parent: RMCVisorSquad
   id: AU14VisorSquadRMC
-  description: An insertable visor HUD into a standard RMC helmet.
+  description: "Вставний візорний HUD у стандартний шолом RMC."
 
 - type: entity
   parent: RMCVisorSquadIntegrated
   id: AU14VisorSquadIntegratedRMC
-  description: An insertable visor HUD into a standard RMC helmet.
+  description: "Вставний візорний HUD у стандартний шолом RMC."
 
 - type: entity
   parent: RMCVisorMedical
   id: AU14VisorMedicalRMC
-  name: HBVS visor
-  description: One of the few successful components from the otherwise disastrous Commando Upgrade Program ran in the mid 2170s, the head-mounted, biomonitor vision system comes as standard in all RMC helmets.
+  name: "візор HBVS"
+  description: "Один із небагатьох успішних компонентів інакше катастрофічної програми оновлення командос, що діяла в середині 2170-х; ця нашоломна система біомоніторного бачення є стандартом у всіх шоломах RMC."
 
 
 - type: entity
   parent: RMCVisorMedicalAdvancedIntegrated
   id: AU14VisorMedicalAdvancedIntegratedRMC
-  name: HBVS-A visor
-  description: One of the few successful components from the otherwise disastrous Commando Upgrade Program ran in the mid 2170s, the head-mounted, biomonitor vision system comes as standard in all RMC helmets.
+  name: "візор HBVS-A"
+  description: "Один із небагатьох успішних компонентів інакше катастрофічної програми оновлення командос, що діяла в середині 2170-х; ця нашоломна система біомоніторного бачення є стандартом у всіх шоломах RMC."

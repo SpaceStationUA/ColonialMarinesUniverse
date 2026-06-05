@@ -1,6 +1,6 @@
 - type: entity
-  name: Holy Bible
-  description: A book containing the sacred texts of that one popular guy you heard a lot about.
+  name: "Свята Біблія"
+  description: "Книга, що містить священні тексти того одного популярного хлопця, про якого ти багато чув."
   parent: BaseStorageItem
   id: RMCBible
   components:
@@ -33,8 +33,8 @@
 - type: entity
   parent: RMCBible
   id: RMCBibleHEFA
-  name: Holy texts of the High Explosive Fragmenting Anti-personnel hand grenade.
-  description: Praised be thee, reverend Clearsmire who has brought us into the light of the shrapnel! Sworn to the holy service of the HEFA lord are we, and while few, we are the voices of the silent many! Printed in the RESS.
+  name: "Священні тексти Фугасної Осколкової Протипіхотної ручної гранати"
+  description: "Хвала тобі, преподобний Кліарсмайр, що привів нас до світла уламків! Дано клятву святій службі повелителю ХЕФА; нас небагато, але ми голос мовчазних мільйонів! Надруковано в RESS."
   suffix: Filled
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: CMApcBase
-  name: area power controller
-  description: A control terminal for the area electrical systems.
+  name: "контролер живлення зони"
+  description: "Контрольний термінал для електричних систем зони."
   categories: [ HideSpawnMenu ]
   components:
   - type: GuideHelp

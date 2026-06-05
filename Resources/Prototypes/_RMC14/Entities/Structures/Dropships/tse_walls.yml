@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: RMCBaseTSEDropshipWall
-  name: UD4-UK wall
+  name: "стіна UD4-UK"
   components:
   - type: Corrodible
     isCorrodible: false

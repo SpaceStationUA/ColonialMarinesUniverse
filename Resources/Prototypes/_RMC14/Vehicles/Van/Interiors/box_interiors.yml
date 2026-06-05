@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehicleBoxVanRoofBase
-  name: box van interior roof
-  description: A removable roof section for the box van interior.
+  name: "дах інтер'єру коробчастого фургона"
+  description: "Знімна секція даху для інтер'єру коробчастого фургона."
   placement:
     mode: SnapgridCenter
   components:
@@ -106,8 +106,8 @@
 - type: entity
   abstract: true
   id: VehicleBoxVanInteriorBase
-  name: box van interior piece
-  description: A decorative interior piece for the box van.
+  name: "елемент інтер'єру коробчастого фургона"
+  description: "Декоративний елемент інтер'єру для коробчастого фургона."
   placement:
     mode: SnapgridCenter
   components:

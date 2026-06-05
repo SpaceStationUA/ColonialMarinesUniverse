@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: AK-4047 assault rifle
+  name: "штурмова гвинтівка AK-4047"
   id: RMCWeaponRifleAK4047
-  description: A UPP assault rifle, designed to mimic the performance of the American M41A. The 4047 is built with a more utilitarian approach, and can survive use in harsh environments, as long as its user maintains it regularly. Many civilian enthusiasts claim the weapon is nigh invincible, but anyone who has ever served with it will tell you nothing could be further from the truth.
+  description: "Штурмова гвинтівка СПН, спроектована імітувати характеристики американської M41A. 4047 побудована з більш утилітарним підходом і може витримувати використання у важких умовах, доки користувач регулярно обслуговує її. Багато цивільних ентузіастів стверджують, що зброя майже непереможна, але будь-хто, хто служив із нею, скаже тобі, що нічого не може бути далі від правди."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/ak4047.rsi
@@ -149,7 +149,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleAK4047
-  name: "AK4047 magazine (10x24mm)"
+  name: "Магазин AK4047 (10x24мм)"
   components:
   - type: Tag
     tags:
@@ -176,7 +176,7 @@
 - type: entity
   parent: RMCMagazineRifleAK4047
   id: RMCMagazineRifleAK4047AP
-  name: "AK4047 AP magazine (10x24mm)"
+  name: "Бронебійний магазин AK4047 (10x24мм)"
   suffix: AP
   components:
   - type: Tag
@@ -203,7 +203,7 @@
 - type: entity
   parent: RMCMagazineRifleAK4047
   id: RMCMagazineRifleAK4047Incendiary
-  name: "AK4047 Incendiary magazine (10x24mm)"
+  name: "Запалювальний магазин AK4047 (10x24мм)"
   suffix: Incendiary
   components:
   - type: Tag
@@ -230,7 +230,7 @@
 - type: entity
   parent: RMCMagazineRifleAK4047
   id: RMCMagazineRifleAK4047HEAP
-  name: "AK4047 HEAP magazine (10x24mm)"
+  name: "Магазин AK4047 HEAP (10x24мм)"
   suffix: HEAP
   components:
   - type: Tag

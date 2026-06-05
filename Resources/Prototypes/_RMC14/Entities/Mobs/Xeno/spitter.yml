@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoSpitter
-  name: Spitter
-  description: A gross, oozing alien of some kind.
+  name: "Плювач"
+  description: "Огидний, текучий якогось виду прибулець."
   components:
   - type: GuideHelp
     guides:

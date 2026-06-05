@@ -2,8 +2,8 @@
 - type: entity
   parent: Matchbox
   id: CMMatchBook
-  name: lucky sloths matchbook
-  description: A small book of cheap paper matches. Good luck getting them to light. Made by Lucky Sloths, but you'll be anything but lucky when you burn your hand trying to light a match on this.
+  name: "сірники «Удачливий Лінивець»"
+  description: "Маленька книжечка дешевих паперових сірників. Удачі вам їх запалити. Виготовлено «Лакі Слосс», але вам пощастить хіба що обпекти руку, намагаючись запалити сірник на цій штуці."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Matchboxes/matchbook.rsi
@@ -67,8 +67,8 @@
 - type: entity
   parent: CMMatchBook
   id: CMBrownMatchBook
-  name: brown matchbook
-  description: A small book of cheap paper matches. Good luck getting them to light. Made with generic brown paper.
+  name: "коричнева книжечка сірників"
+  description: "Маленька книжечка дешевих паперових сірників. Удачі вам їх запалити. Виготовлено зі звичайного коричневого паперу."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Matchboxes/brown_matchbook.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMMatchBook
   id: CMExecutiveSelectMatchbook
-  name: executive select matchbook
-  description: A small book of expensive paper matches. These ones light almost every time!
+  name: "книжечка сірників «Ексек'ютів Селект»"
+  description: "Маленька книжечка дорогих паперових сірників. Ці запалюються майже завжди!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Matchboxes/executive_select_matchbook.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: CMMatchBook
   id: CMElectroMatchbook
-  name: Electro matchbook
-  description: A small book of cheap paper matches. Good luck getting them to light.
+  name: "книжечка сірників «Електро»"
+  description: "Маленька книжечка дешевих паперових сірників. Удачі вам їх запалити."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Matchboxes/electro_matchbook.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: CMMatchBook
   id: CMExecutiveWEYAMatchbook
-  name: We-Ya gold matchbook
-  description: A small book of expensive paper matches. These ones light almost every time, or so the packaging claims.
+  name: "золота книжечка сірників Ві-Я"
+  description: "Маленька книжечка дорогих паперових сірників. Ці запалюються майже завжди, або принаймні так стверджує упаковка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Smokeables/Matchboxes/we_ya_matchbook.rsi

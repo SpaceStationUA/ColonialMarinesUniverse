@@ -1,9 +1,9 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorRMC
-  name: kestrel armoured vest
+  name: "бронежилет «Кестрел»"
   suffix: AU14
-  description: A customizable personal armor system used by the Royal Crown Marines.
+  description: "Налаштовувана система індивідуального бронезахисту, яку використовують Королівські коронні морпіхи."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/armor/armor.rsi
@@ -11,9 +11,9 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14ArmorLightRMC
-  name: kestrel light armoured vest
+  name: "легкий бронежилет «Кестрел»"
   suffix: AU14
-  description: A customizable personal armor system used by the Royal Crown Marines.
+  description: "Налаштовувана система індивідуального бронезахисту, яку використовують Королівські коронні морпіхи."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/armor/armor.rsi
@@ -21,9 +21,9 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorPaddedRMC
-  name: kestrel armoured carry vest
+  name: "розвантажувальний бронежилет «Кестрел»"
   suffix: AU14
-  description: A customizable personal armor system used by the Royal Crown Marines.
+  description: "Налаштовувана система індивідуального бронезахисту, яку використовують Королівські коронні морпіхи."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/armor/padded.rsi
@@ -31,9 +31,9 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
   id: AU14ArmorSmartGunDesertCombatHarnessRMC
-  name: kestrel armoured smart gun harness
+  name: "броньована упряж для смартгана «Кестрел»"
   suffix: AU14
-  description: Kestel smart gun harness specially made for Smartgunners.
+  description: "Упряж «Кестрел» для смартгана, спеціально виготовлена для смартганерів."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/armor/padded.rsi
@@ -52,7 +52,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorPointmanRMC
-  name: kestrel pointman armour
+  name: "броня пойнтмена «Кестрел»"
   suffix: AU14
   components:
   - type: Sprite
@@ -71,9 +71,9 @@
 - type: entity
   parent: [RMCAllowSuitStorageClothingArmorVest, RMCBaseArmor]
   id: AU14ICPS2RMC
-  name: royal marine ICPS-2 Aircrew Armor
+  name: "броня авіаекіпажу ICPS-2 королівських морпіхів"
   suffix: RM
-  description: A set of ballistic armor used by RMC aircrew.
+  description: "Комплект балістичної броні, який використовують авіаекіпажі КМП."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/armor.rsi

@@ -1,29 +1,29 @@
 - type: rank
   id: AU14RankUSASFTechnicalSergeant
-  name: Technical Sergeant
+  name: "технічний сержант"
   prefix: TSgt.
   paygrade: E6
 
 - type: rank
   id: AU14RankUSASFMasterSergeant
-  name: Master Sergeant
+  name: "майстер-сержант"
   prefix: MSgt.
   paygrade: E7
 
 - type: rank
   id: AU14RankUSASFSMSgt
-  name: Senior Master Sergeant
+  name: "старший майстер-сержант"
   prefix: SMSgt.
   paygrade: E8
 
 - type: rank
   id: AU14RankUSASFCMSgt
-  name: Chief Master Sergeant
+  name: "головний майстер-сержант"
   prefix: CMSgt.
   paygrade: E9
 
 - type: rank
   id: AU14RankUSASFCCMSgt
-  name: Command Chief Master Sergeant
+  name: "командний головний майстер-сержант"
   prefix: CCM.
   paygrade: E9

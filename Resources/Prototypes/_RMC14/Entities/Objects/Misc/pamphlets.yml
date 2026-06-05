@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMPamphlet
-  name: instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge.
+  name: "інструктивна брошура"
+  description: "Брошура, що використовується для швидкої передачі важливих знань."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/pamphlets.rsi
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletMedical
-  name: medical instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has a medical insignia.
+  name: "медична інструктивна брошура"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій є медичний знак."
   components:
   - type: Sprite
     state: pamphlet_medical
@@ -54,8 +54,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletEngineer
-  name: engineer instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has an engineering insignia.
+  name: "інженерна інструктивна брошура"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій є інженерний знак."
   components:
   - type: Sprite
     state: pamphlet_construction
@@ -68,8 +68,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletJTAC
-  name: JTAC instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a radio on it.
+  name: "інструктивна брошура JTAC"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій зображення рації."
   components:
   - type: Sprite
     state: pamphlet_jtac
@@ -81,8 +81,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletSpotter
-  name: spotter instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a pair of binoculars on it.
+  name: "інструктивна брошура спостерігача"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій зображення біноклів."
   components:
   - type: Sprite
     state: pamphlet_spotter
@@ -110,8 +110,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletPowerloader
-  name: powerloader instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has a powerloader insignia. The title reads 'Moving freight and squishing heads - a practical guide to a Work Loader'.
+  name: "інструктивна брошура силового завантажувача"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій знак силового завантажувача. Назва: «Перевезення вантажів і розплющення голів — практичний посібник з робочого завантажувача»."
   components:
     - type: Sprite
       state: pamphlet_powerloader
@@ -124,8 +124,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletPolice
-  name: policing instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a radio on it.
+  name: "поліцейська інструктивна брошура"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій зображення рації."
   components:
   - type: Sprite
     state: pamphlet_jtac
@@ -138,8 +138,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletSurgery
-  name: surgery instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has a medical insignia.
+  name: "хірургічна інструктивна брошура"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій є медичний знак."
   components:
   - type: Sprite
     state: pamphlet_medical
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletIntel
-  name: field intelligence instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has an intelligence insignia.
+  name: "інструктивна брошура польової розвідки"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій є знак розвідки."
   components:
   - type: Sprite
     state: pamphlet_reading
@@ -167,8 +167,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletLoader
-  name: loader instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a rocket on it.
+  name: "інструктивна брошура завантажувача"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій зображення ракети."
   components:
   - type: Sprite
     state: pamphlet_loader
@@ -196,8 +196,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletMortarOperator
-  name: mortar operator instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has the image of a mortar on it.
+  name: "інструктивна брошура мінометника"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій зображення міномета."
   components:
   - type: Sprite
     state: pamphlet_mortar
@@ -227,8 +227,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletHeavyMachineGunner
-  name: heavy machinegunner instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one has an engineering and a machinegun insignia
+  name: "інструктивна брошура важкого кулеметника"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. На цій є інженерний і кулеметний знаки"
   components:
   - type: Sprite
     state: pamphlet_machinegunner
@@ -243,8 +243,8 @@
 - type: entity
   parent: CMPamphlet
   id: RMCPamphletHonorGuard
-  name: honor guard instructional pamphlet
-  description: A pamphlet used to quickly impart vital knowledge. This one details the responsibilities of an Honor Guard.
+  name: "інструктивна брошура почесної варти"
+  description: "Брошура, що використовується для швидкої передачі важливих знань. У ній детально описано обов'язки Почесної Варти."
   components:
   - type: Sprite
     state: pamphlet_honorguard
@@ -270,38 +270,38 @@
 - type: entity
   parent: CMPamphlet
   id: CMPamphletLanguage
-  name: translation pamphlet
-  description: A pamphlet used by lazy Marine interpreters to quickly learn new languages on the spot.
+  name: "перекладацька брошура"
+  description: "Брошура, що використовується ледачими перекладачами морпіхів для швидкого вивчення нових мов на ходу."
   suffix: NOT IMPLEMENTED
 
 # gives japanese language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageJapanese
-  name: Pages of Turedobando Yohei Adobencha Zohuken
-  description: These are some torn pages from a famous isekai manga named 'Turedobando Yohei Adobencha Zohuken' or Japanese Mercenary Adventure Sequel about a travelling band of Freelancers sent into a fantasy world. Why do you even know this?
+  name: "Сторінки з Turedobando Yohei Adobencha Zohuken"
+  description: "Це кілька вирваних сторінок з відомої ісекай-манґи «Turedobando Yohei Adobencha Zohuken» або «Японська пригода найманця: продовження» — про мандрівну групу фрілансерів, відправлених у фентезійний світ. Чому ти взагалі це знаєш?"
 
 # gives chinese language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageChinese
-  name: Pages from the Little Red Book
-  description: Pages from the handbook to starting a famine that kills over 100 million of your people. Apparently this will help you learn Chinese.
+  name: "Сторінки з Маленької Червоної Книги"
+  description: "Сторінки з посібника, що допомагає розпочати голод, який убиває понад 100 мільйонів людей. Очевидно, це допоможе тобі вивчити китайську."
   # desc starts with "没有共产党就没有新中国!" but RMC14 doesnt support chinese letters :(
 
 # gives german language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageGerman
-  name: Translated Lyrics to 99 Luftballons
-  description: These hastily scribbled translations of 99 Luftballons, an iconic German hit of the 80s, were meant for the yearly Battalion Karaoke Night. I guess you can get some better use out of this.
+  name: "Перекладений текст пісні «99 Luftballons»"
+  description: "Ці нашвидкуруч надряпані переклади «99 Luftballons», знакового німецького хіта 80-х, призначалися для щорічного Батальйонного Караоке-Вечора. Гадаю, тепер можеш отримати з них кращу користь."
 
 # gives spanish language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageSpanish
-  name: America Latina - A Quick Translation Guide
-  description: This pamphlet was designed for Intelligence Officers to interact with the local populaces, but only for IOs who managed to sleep through Dialects and Mannerisms Class.
+  name: "Латинська Америка — Швидкий перекладацький посібник"
+  description: "Цю брошуру розроблено для офіцерів розвідки для взаємодії з місцевим населенням, але лише для тих ОР, які примудрилися проспати лекцію з діалектів і манер."
 
 
 # RESTRICTED LANGUAGES
@@ -311,22 +311,22 @@
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageYautja
-  name: stained parchment
-  description: A yellowed old piece of parchment covered in strange runes from an alien writing system. The letters seem to shift back and forth into place before your eyes.
+  name: "заплямований пергамент"
+  description: "Пожовклий старий шматок пергаменту, вкритий дивними рунами з інопланетної системи письма. Літери, здається, плавають і встають на місце на твоїх очах."
 
 # gives xenonid language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageXenonid
-  name: Xenobiologist's file
-  description: A xenobiologist's document recording and detailing observations on captive Xenonid communication via vocalisations and pheromones, as well as notes on attempting to reproduce them by human beings.
+  name: "Файл ксенобіолога"
+  description: "Документ ксенобіолога, що фіксує та детально описує спостереження за спілкуванням полонених ксеноїдів через вокалізацію та феромони, а також нотатки про спроби людей їх відтворити."
 
 # gives primitive language
 - type: entity
   parent: CMPamphletLanguage
   id: CMPamphletLanguageMonkey
-  name: scribbled drawings
-  description: A piece of paper covered in crude depictions of bananas and various types of primates. Probably drawn by a three-year-old child - or an unusually intelligent marine.
+  name: "надряпані малюнки"
+  description: "Шматок паперу, вкритий грубими зображеннями бананів і різних видів приматів. Ймовірно, намальований трирічною дитиною — або незвично розумним морпіхом."
 
 - type: Tag
   id: RMCSkillPamphlet

@@ -2,7 +2,7 @@
   parent: AU14JobPlatCoBase
   id: AU14JobGOVFORPlatCoUPP
   requirements: []
-  name: Platoon Commander
+  name: "Командир взводу"
   spawnMenuRoleName: Platoon Commander (UPP)
   ranks:
     UPP_Captain:

@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYSurvGoonShotgun
-  name: WY Corporate Goon Shotgun (Survivor)
+  name: "Корпоративний громило ВЮ із дробовиком (виживший)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

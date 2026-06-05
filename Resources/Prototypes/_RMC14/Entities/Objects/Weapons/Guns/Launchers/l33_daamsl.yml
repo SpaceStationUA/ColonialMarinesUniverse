@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCBaseWeaponLauncher
   id: RMCWeaponLauncherL33
-  name: L33 DAAMSL
+  name: "L33 DAAMSL"
   suffix: PVE, RCM, AT
   description: "The L33 Disposable Anti-Armour Missile Launcher, standard-issue anti-tank system of the TWE's Royal Marines; a single-use, shoulder-fired weapon capable of disabling or outright destroying moving vehicles even out to 1,250m.\n\nThe optic appears to be damaged. Guess you'll have to eyeball it."
   components:

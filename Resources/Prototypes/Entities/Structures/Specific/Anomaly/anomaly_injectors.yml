@@ -1,5 +1,5 @@
 - type: entity
-  name: anomaly injector
+  name: "інжектор аномалій"
   parent: MarkerBase
   id: BaseAnomalyInjector
   abstract: true

@@ -3,7 +3,7 @@
 - type: entity
   id: RMCMarkerSoundBase
   abstract: true
-  name: sound marker
+  name: "звуковий маркер"
   placement:
     mode: SnapgridCenter
   components:
@@ -27,7 +27,7 @@
   parent: RMCMarkerSoundBase
   id: RMCMarkerSoundAmbientBase
   abstract: true
-  name: ambient sound marker
+  name: "маркер фонового звуку"
   components:
   - type: AmbientSound
     enabled: true
@@ -40,7 +40,7 @@
   parent: RMCMarkerSoundBase
   id: RMCMarkerSoundSingleBase
   abstract: true
-  name: non-loop sound marker
+  name: "маркер незациклюваного звуку"
   components:
   - type: RMCEmitSoundOnSpawn
 

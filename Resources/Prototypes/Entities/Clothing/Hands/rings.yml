@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RingBase, GoldRingBase ]
   id: GoldRing
-  name: gold ring
-  description: A precious ring.
+  name: "золотий перстень"
+  description: "Коштовний перстень."
   components:
   - type: Sprite
     layers:
@@ -12,8 +12,8 @@
 - type: entity
   parent: [ RingBase, SilverRingBase ]
   id: SilverRing
-  name: silver ring
-  description: Looks slightly less valuable than a gold one.
+  name: "срібний перстень"
+  description: "Виглядає трохи менш цінним, ніж золотий."
   components:
   - type: Sprite
     layers:
@@ -22,8 +22,8 @@
 - type: entity
   parent: [ RingBase, GoldRingBase ]
   id: GoldRingDiamond
-  name: gold diamond ring
-  description: Made from ethically mined space diamonds.
+  name: "золотий перстень з діамантом"
+  description: "Виготовлений з етично видобутих космічних діамантів."
   components:
   - type: Sprite
     layers:
@@ -37,8 +37,8 @@
 - type: entity
   parent: [ RingBase, SilverRingBase ]
   id: SilverRingDiamond
-  name: silver diamond ring
-  description: Made from ethically mined space diamonds.
+  name: "срібний перстень з діамантом"
+  description: "Виготовлений з етично видобутих космічних діамантів."
   components:
   - type: Sprite
     layers:
@@ -51,8 +51,8 @@
 - type: entity
   parent: [ RingBase, GoldRingBase ]
   id: GoldRingGem
-  name: gold gem ring
-  description: Shiny and valuable!
+  name: "золотий перстень з самоцвітом"
+  description: "Блискучий і цінний!"
   components:
   - type: Sprite
     layers:
@@ -71,8 +71,8 @@
 - type: entity
   parent: [ RingBase, SilverRingBase ]
   id: SilverRingGem
-  name: silver gem ring
-  description: Shiny and not quite as valuable!
+  name: "срібний перстень з самоцвітом"
+  description: "Блискучий, але вже не такий цінний!"
   components:
   - type: Sprite
     layers:

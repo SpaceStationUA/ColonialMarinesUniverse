@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCHelmetBase
   id: RMCHardHat
-  name: hard hat
-  description: A piece of headgear used in dangerous working conditions to protect the head. Comes with a built-in flashlight.
+  name: "каска"
+  description: "Головний убір, який використовують у небезпечних умовах праці для захисту голови. Має вбудований ліхтарик."
   components:
   - type: Item
     heldPrefix: off
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCHardHat
   id: RMCHardhatRed
-  name: firefighter helmet
+  name: "пожежний шолом"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/Hardhats/red.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCHardHat
   id: RMCHardhatWhiteAlt
-  name: "Chǎnyè Combine mining helmet"
+  name: "шахтарський шолом Chǎnyè Combine"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/Hardhats/white_alt.rsi
@@ -133,4 +133,4 @@
 - type: entity
   parent: RMCHardhatRed
   id: RMCHardhatRedTMCC
-  name: tartarus-mining hard hat
+  name: "каска Tartarus-Mining"

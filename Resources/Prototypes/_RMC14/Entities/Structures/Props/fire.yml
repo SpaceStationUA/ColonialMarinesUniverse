@@ -1,7 +1,7 @@
 - type: entity
   id: RMCFireProp
-  name: fire
-  description: That isn't going out any time soon.
+  name: "вогонь"
+  description: "Це не згасне найближчим часом."
   suffix: Prop
   components:
   - type: Physics

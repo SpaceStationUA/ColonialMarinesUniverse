@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMPointman
-  name: UPP GROM Pointman
+  name: "пойнтмен ГРОМ УПП"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

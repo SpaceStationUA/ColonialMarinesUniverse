@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateFoodDonuts
   parent: RMCCratePlastic
-  name: donuts crate
+  name: "ящик пончиків"
   components:
   - type: StorageFill
     contents:
@@ -11,7 +11,7 @@
 - type: entity
   id: RMCCrateFoodMRE
   parent: RMCCratePlastic
-  name: MRE crate
+  name: "ящик MRE"
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   id: RMCCrateFoodPizza
   parent: RMCCratePlastic
-  name: pizza ready-to-eat crate
+  name: "ящик готової піци"
   components:
   - type: StorageFill
     contents:
@@ -31,7 +31,7 @@
 - type: entity
   id: RMCCrateFoodIngredients
   parent: RMCCratePlastic
-  name: ingredients crate
+  name: "ящик інгредієнтів"
   components:
   - type: StorageFill
     contents:

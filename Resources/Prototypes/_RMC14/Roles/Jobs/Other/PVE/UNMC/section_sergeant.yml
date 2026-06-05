@@ -76,7 +76,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVESectionSergeant
-  name: PVE section sergeant spawn point
+  name: "спавнер сержанта секції PVE"
   components:
   - type: SpawnPoint
     job_id: CMPVESectionSergeant

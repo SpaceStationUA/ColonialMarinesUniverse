@@ -8,8 +8,8 @@
 - type: entity
   id: ActionXenoPlantWeeds
   parent: ActionXenoBase
-  name: Plant Weeds (75) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread more weeds.
+  name: "Посадити бур'ян (75)" # TODO RMC14 proper plasma costs
+  description: "Посадити вузол бур'яну, що буде поширювати більше бур'яну."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -23,8 +23,8 @@
 - type: entity
   id: ActionXenoChooseStructure
   parent: ActionXenoBase
-  name: Choose Resin Structure
-  description: "Choose a structure to secrete with the 'Secrete Resin' action."
+  name: "Обрати резинову структуру"
+  description: "Оберіть структуру для виділення дією «Виділити резину»."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -47,8 +47,8 @@
 - type: entity
   id: ActionXenoSecreteStructure
   parent: ActionXenoBase
-  name: Secrete Resin
-  description: "Builds the structure chosen with the 'Choose Resin Structure' action."
+  name: "Виділити резину"
+  description: "Будує структуру, обрану дією «Обрати резинову структуру»."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -79,8 +79,8 @@
 - type: entity
   id: ActionXenoCoerceResin
   parent: ActionXenoBase
-  name: Coerce Resin
-  description: "Builds the structure chosen with the 'Choose Resin Structure' action. You may also build within line of sight if you are on weeds."
+  name: "Принудити резину"
+  description: "Будує структуру, обрану дією «Обрати резинову структуру». Ви також можете будувати у межах прямого зору, якщо знаходитесь на бур'яні."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -103,8 +103,8 @@
 - type: entity
   id: ActionXenoOrderConstruction
   parent: ActionXenoBase
-  name: Order Construction
-  description: Starts construction of an important hive structure.
+  name: "Замовити будівництво"
+  description: "Розпочинає будівництво важливої структури вулика."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -118,8 +118,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoOrderConstruction
-  name: Order Construction
-  description: Starts construction of an important hive structure.
+  name: "Замовити будівництво"
+  description: "Розпочинає будівництво важливої структури вулика."
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -128,8 +128,8 @@
 - type: entity
   id: ActionXenoResinHole
   parent: ActionXenoBase
-  name: Plant Resin Hole (200)
-  description: Places a resin hole on weeds. It can be filled with boiler gas, acid, or parasites.
+  name: "Посадити резинову нору (200)"
+  description: "Розміщує резинову нору на бур'яні. Її можна заповнити газом боулера, кислотою або паразитами."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -153,8 +153,8 @@
 - type: entity
   id: ActionXenoFruitChoose
   parent: ActionXenoBase
-  name: Change Fruit
-  description: Choose a fruit to be planted with 'Plant Resin Fruit' action.
+  name: "Змінити фрукт"
+  description: "Оберіть фрукт для посадки дією «Посадити резиновий фрукт»."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -168,8 +168,8 @@
 - type: entity
   id: ActionXenoFruitPlant
   parent: ActionXenoBase
-  name: Plant Resin Fruit (100)
-  description: Plant chosen resin fruit on weeds at the cost of health and plasma. Xenos can pick these fruits once they're mature, you can also pick a plant early to get rid of it. Xenos can use them in hand or eat them on the ground to gain their effects. They can also be used on other xenos to feed them. You can only have 6 fruits planted and picked at a time.
+  name: "Посадити резиновий фрукт (100)"
+  description: "Посадити обраний резиновий фрукт на бур'яні за рахунок здоров'я та плазми. Ксени можуть зривати ці фрукти, коли вони дозріють; також ви можете зірвати рослину раніше, щоб її позбутися. Ксени можуть використовувати їх в руці або з'їсти на землі, щоб отримати їхні ефекти. Їх також можна використовувати на інших ксенах, щоб годувати їх. Одночасно можна мати лише 6 фруктів посаджених і зірваних."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -183,8 +183,8 @@
 - type: entity
   id: ActionXenoPlantWeedsHardy
   parent: ActionXenoBase
-  name: Plant Hardy Weeds (125) # TODO RMC14 proper plasma costs
-  description: Plant a weed node that will spread hardier weeds, which grow fruit 25% faster, have slightly more health, and can be spread on some surfaces where normal weeds won't grow.
+  name: "Посадити витривалий бур'ян (125)" # TODO RMC14 proper plasma costs
+  description: "Посадити вузол бур'яну, що буде поширювати витриваліший бур'ян, який вирощує фрукти на 25% швидше, має трохи більше здоров'я і може поширюватися на деяких поверхнях, де звичайний бур'ян не зростає."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -201,8 +201,8 @@
 - type: entity
   id: ActionXenoFruitPlantLesser
   parent: ActionXenoFruitPlant
-  name: Plant Resin Fruit (50)
-  description: Plant resin fruit on weeds at the cost of health and plasma.
+  name: "Посадити резиновий фрукт (50)"
+  description: "Посадити резиновий фрукт на бур'яні за рахунок здоров'я та плазми."
   components:
   - type: InstantAction
     event: !type:XenoFruitPlantActionEvent
@@ -211,8 +211,8 @@
 - type: entity
   id: ActionXenoDigTunnel
   parent: ActionXenoBase
-  name: Dig Tunnel (200)
-  description: Dig a tunnel for speedy transportation across the hive.
+  name: "Викопати тунель (200)"
+  description: "Викопайте тунель для швидкого транспортування через вулик."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -251,8 +251,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoExpandWeeds
-  name: Expand Weeds (50) # TODO RMC14 proper plasma costs
-  description: Expand existing weeds or turn a weed tile into a node.
+  name: "Розширити бур'ян (50)" # TODO RMC14 proper plasma costs
+  description: "Розширити існуючий бур'ян або перетворити плитку бур'яну на вузол."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -270,8 +270,8 @@
 - type: entity
   id: ActionXenoDesignerSelectedDesign
   parent: ActionXenoBase
-  name: Selected Design
-  description: Toggle whether newly placed design nodes are wall or door nodes.
+  name: "Обраний дизайн"
+  description: "Перемикайте, чи будуть нові дизайн-вузли стіновими чи дверними вузлами."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -286,8 +286,8 @@
 - type: entity
   id: ActionXenoDesignerGreaterResinSurge
   parent: ActionXenoBase
-  name: Greater Resin Surge (250)
-  description: Consumes nearby design nodes to create temporary thick resin walls.
+  name: "Великий резиновий сплеск (250)"
+  description: "Споживає сусідні дизайн-вузли для створення тимчасових товстих резинових стін."
   components:
   - type: Action
     itemIconStyle: NoItem

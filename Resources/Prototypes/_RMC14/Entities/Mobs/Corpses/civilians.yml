@@ -390,7 +390,7 @@
 - type: entity
   id: RMCGuidebookCorpseColonistBurst
   parent: MobHuman
-  name: Dead Colonist
+  name: "Мертвий Колоніст"
   categories: [ DoNotMap, HideSpawnMenu ]
   components:
   - type: VictimBurst
@@ -408,7 +408,7 @@
 - type: entity
   id: RMCGuidebookCorpseMarine
   parent: MobHuman
-  name: Dead Marine
+  name: "Мертвий Морпіх"
   categories: [ DoNotMap, HideSpawnMenu ]
   components:
   - type: Loadout

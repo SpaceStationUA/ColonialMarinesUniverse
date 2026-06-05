@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCCrateAmmo
   id: AU14CrateGearPackFlareRMC
-  name: flare packs crate (x20)
+  name: "ящик наборів фаєрів (x20)"
   suffix: RM
   components:
   - type: StorageFill

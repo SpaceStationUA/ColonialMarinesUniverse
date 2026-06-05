@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCWeaponRevolverM44
   id: RMCWeaponRevolverM44Custom
-  name: Custom M44 combat revolver
-  description: A bulky revolver, occasionally carried by assault troops and officers in the Marine Corps, as well as civilian law enforcement. Fires .44 Magnum rounds. This one has had it's wooden grips replaced with gaudy ivory ones.
+  name: "Кастомний бойовий револьвер M44"
+  description: "Громіздкий револьвер, який інколи носять штурмові війська й офіцери Корпусу Морпіхів, а також цивільні правоохоронці. Стріляє набоями .44 Magnum. У цього дерев'яні рукоятки замінені на крикливі рукоятки зі слонової кістки."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/m44custom.rsi

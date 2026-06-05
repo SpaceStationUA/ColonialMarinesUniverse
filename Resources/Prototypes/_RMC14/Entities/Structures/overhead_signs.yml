@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCOverheadSign
   abstract: true
-  name: sign
+  name: "знак"
   placement:
     mode: SnapgridCenter
     snap:
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCOverheadSign
   id: RMCOverheadSignBarCrow
-  name: The Drowning Crow Bar
-  description: A sign for 'The Drowning Crow' bar. The sign is old and delapitated.
+  name: "Бар «The Drowning Crow»"
+  description: "Вивіска бару «The Drowning Crow». Вивіска стара й занедбана."
   components:
   - type: Sprite
     state: crow_bar

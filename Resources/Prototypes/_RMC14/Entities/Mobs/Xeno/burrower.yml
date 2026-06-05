@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoBurrower
-  name: Burrower
-  description: A hefty alien with sharp claws.
+  name: "Заривач"
+  description: "Міцний чужий із гострими кігтями."
   components:
   - type: CanBuildThickFromConstructNode
   - type: GuideHelp

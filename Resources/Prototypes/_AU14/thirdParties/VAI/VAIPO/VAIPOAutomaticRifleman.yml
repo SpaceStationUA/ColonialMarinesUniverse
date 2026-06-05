@@ -16,7 +16,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAIMachinegunner
-  name: VAIPO Machinegunner
+  name: "кулеметник VAIPO"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -25,7 +25,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: VAIPO Machinegunner
+    name: "кулеметник VAIPO"
     description: You have been dispatched to the colony by Vanguard's Arrow because of contract with local UA Ambassador. Assist the Ambassador with what you can.
     job: AU14VAIMachinegunner
     raffle:

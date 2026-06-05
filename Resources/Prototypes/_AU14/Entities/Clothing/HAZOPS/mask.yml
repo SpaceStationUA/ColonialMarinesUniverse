@@ -1,8 +1,8 @@
 - type: entity
   parent: [CMBaseMask, CMUBaseGasMaskFilterSlot]
   id: AU14MaskGasHAZOPSM40
-  name: M40A4 gas mask
-  description: The distant cousin of the M40 gasmask from the 1990s. Designed specifically for HAZOPS teams, it provides heightened resistance to biological contaminants.
+  name: "протигаз M40A4"
+  description: "Далекий родич протигаза M40 з 1990-х. Розроблений спеціально для команд ХАЗОПС, він забезпечує підвищену стійкість до біологічних забруднювачів."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/HAZOPS/M40gasmask,rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: [CMBaseMask, CMUBaseGasMaskFilterSlot]
   id: AU14MaskGasHAZOPSM17
-  name: M17A4 gas mask
-  description: The evolution of the same mask your great great grandaddy complained about during his deployment in 'Nam. Heavy, big, and uncomfortable to wear. Donned with a CBRN hood.
+  name: "протигаз M17A4"
+  description: "Еволюція тієї самої маски, на яку ваш прапрадід скаржився під час служби у В’єтнамі. Важка, велика й незручна в носінні. Одягається з капюшоном CBRN."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/HAZOPS/M17gasmask.rsi

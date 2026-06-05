@@ -1,7 +1,7 @@
 - type: entity
   parent: CMGrenadeHighExplosive
   id: AU14GrenadeHighExplosiveRMC
-  name: R2175/A HEDP grenade
+  name: "граната R2175/A HEDP"
   suffix: RM
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCGrenadeIncendiary
   id: AU14GrenadeIncendiaryRMC
-  name: R2175/B HIDP grenade
+  name: "граната R2175/B HIDP"
   suffix: RM
   components:
   - type: Sprite
@@ -37,8 +37,8 @@
   - CMGrenadeSmoke
   - RMCM40DPTags
   id: AU14GrenadeNeuroRMC
-  name: R2175/CN20 grenade
-  description: A small grenade containing a vial of deadly nerve gas. Usually knocks out the targets for long enough to allow RMCs to take them out. You can almost hear your Instructor's screaming in the back of your head, mentioning something about a gas mask. It is set to detonate in 3.5 seconds.
+  name: "граната R2175/CN20"
+  description: "Невелика граната з ампулою смертоносного нервово-паралітичного газу. Зазвичай вирубає цілі достатньо надовго, щоб RMC могли їх усунути. Ви майже чуєте крики інструктора в потилиці, який згадує щось про протигаз. Налаштована на детонацію за 3.5 секунди."
   suffix: RM
   components:
   - type: Sprite

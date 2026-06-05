@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: EffectVoidBlink
-  name: void blink
+  name: "порожнечевий блим"
   categories: [ HideSpawnMenu ]
   save: false
   components:

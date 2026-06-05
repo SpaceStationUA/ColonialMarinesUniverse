@@ -32,7 +32,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaGrindBarista
-  name: daily grind barista spawn point
+  name: "спавнер бариста daily grind"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaGrindBarista
-  name: daily grind barista preset
+  name: "пресет бариста daily grind"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

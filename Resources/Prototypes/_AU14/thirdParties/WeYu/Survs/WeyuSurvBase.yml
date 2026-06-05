@@ -101,7 +101,7 @@
   
 - type: entity
   id: AU14WYSurvRifleBackpackPreset
-  name: weyu surv rifle Backpack preset
+  name: "пресет рюкзака з гвинтівкою вижившого ВеЮ"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -115,7 +115,7 @@
 
 - type: entity
   id: AU14WYSurvRiflePreset
-  name: weyu surv rifle preset
+  name: "пресет гвинтівки вижившого ВеЮ"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -129,7 +129,7 @@
 
 - type: entity
   id: AU14WeYuSurvPistolPreset
-  name: WY Surv Pistol Preset
+  name: "пресет пістолета вижившого ВЮ"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMBedsheetBase
-  name: bedsheet
-  description: A surprisingly soft linen bedsheet.
+  name: "простирадло"
+  description: "Дивовижно м'яке полотняне простирадло."
   abstract: true
   placement:
     mode: SnapgridCenter
