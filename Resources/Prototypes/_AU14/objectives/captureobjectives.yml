@@ -1,9 +1,9 @@
 ## stable garrison
 - type: entity
-  name: "Захопити вулицю"
+  name: Capture the Street
   parent: AU14WallFlagUA
   id: captureuaflagobjective
-  description: "Захопіть головну вулицю для своєї фракції."
+  description: "Capture mainstreet  for your faction."
   components:
     - type: AuObjective
       id: captureuaflagobj
@@ -30,10 +30,10 @@
 
 
 - type: entity
-  name: "Захопити супермаркет"
+  name: Capture the Supermarket
   parent: AU14WallFlagUA
   id: capturesupermarketobjective
-  description: "Захопіть супермаркет для своєї фракції."
+  description: "Capture the supermarket  for your faction."
   components:
   - type: AuObjective
     id: capturesupermarketobjective
@@ -67,21 +67,21 @@
 - type: objectiveIntelTier
   id: supermarkettier0
   title: "Supermarket: Exterior Overview"
-  description: "Базова інформація про зовнішню частину супермаркету, входи та маршрути патрулювання."
+  description: "Basic information about the supermarket exterior, entrances, and patrol routes."
 - type: objectiveIntelTier
   id: supermarkettier1
   title: "Supermarket: Interior Layout"
-  description: "Докладне планування проходів, доступу до комори та місць високої цінності."
+  description: "Detailed layout of aisles, storeroom access, and high-value locations."
 - type: objectiveIntelTier
   id: supermarkettier2
   title: "Supermarket: Security Systems"
-  description: "Розташування камер, панелей тривоги та графіків охорони."
+  description: "Locations of cameras, alarm panels, and guard schedules."
 
 - type: entity
-  name: "Захопити тунель"
+  name: Capture the Tunnel
   parent: AU14WallFlagUA
   id: capturetunnelobjective
-  description: "Захопіть тунель для своєї фракції."
+  description: "Capture the Tunnel  for your faction."
   components:
   - type: AuObjective
     id: capturetunnelobjective
@@ -109,10 +109,10 @@
 
 
 - type: entity
-  name: "Захопити пустелю"
+  name: Capture the Desert
   parent: AU14WallFlagUA
   id: capturedesertobjective
-  description: "Захопіть пустелю для своєї фракції."
+  description: "Capture the Desert  for your faction."
   components:
   - type: AuObjective
     id: capturedesertobjective
@@ -141,10 +141,10 @@
 #gixens
 
 - type: entity
-  name: "Захопити шахту"
+  name: Capture the mine
   parent: AU14WallFlagUA
   id: capturemineobjective
-  description: "Захопіть гірську вершину та утримуйте LZ"
+  description: "Capture the Mountain Top and hold the LZ"
   components:
   - type: NavMapBeacon
     text: Mountain LZ
@@ -175,10 +175,10 @@
 
 #solaris
 - type: entity
-  name: "Захопити сонячні ферми"
+  name: Capture Solar Farms
   parent: AU14WallFlagUA
   id: capturesolarfarmsgobjective
-  description: "Захопіть сонячні ферми"
+  description: "Capture the Solar Farms"
   components:
   - type: AuObjective
     id: capturesolarfarmsobj
@@ -206,10 +206,10 @@
 
 
 - type: entity
-  name: "Захопити хатину"
+  name: Capture the cabin
   parent: AU14WallFlagUA
   id: capturhermitscabinobjective
-  description: "Захопіть хатину відлюдника"
+  description: "Capture the Hermits Cabin"
   components:
   - type: AuObjective
     id: capturehermitscabingobj
@@ -238,10 +238,10 @@
 
 
 - type: entity
-  name: "Захопити офіс адміністрації"
+  name: Capture the Admins Office
   parent: AU14WallFlagUA
   id: captureadminobjective
-  description: "Захопіть офіс адміністрації"
+  description: "Capture the Admins Office "
   components:
   - type: AuObjective
     id: captureadminofficeobj
@@ -269,10 +269,10 @@
 
 
 - type: entity
-  name: "Захопити покинутий табір"
+  name: Capture the Abandoned Camp
   parent: AU14WallFlagUA
   id: captureabandonedcampobjective
-  description: "Захопіть покинутий табір"
+  description: "Capture the Abandoned Camp "
   components:
   - type: AuObjective
     id: captureadminofficeobj
@@ -301,10 +301,10 @@
 
 # Flight
 - type: entity
-  name: "Захопити підвал"
+  name: Capture the Basement
   parent: AU14WallFlagUA
   id: capturebasementobj
-  description: "Захопіть підвал"
+  description: "Capture the basement "
   components:
   - type: AuObjective
     id: capturebasementobj
@@ -332,10 +332,10 @@
 
 
 - type: entity
-  name: "Захопити дах"
+  name: Capture the Roof
   parent: AU14WallFlagUA
   id: captureroofobj
-  description: "Захопіть дах"
+  description: "Capture the Roof "
   components:
   - type: AuObjective
     id: captureroofobj
@@ -363,10 +363,10 @@
 
 
 - type: entity
-  name: "Захопити середній поверх"
+  name: Capture the Middle Floor
   parent: AU14WallFlagUA
   id: capturemidobj
-  description: "Захопіть середній поверх"
+  description: "Capture the Middle floor "
   components:
   - type: AuObjective
     id: capturermidobj
@@ -395,10 +395,10 @@
 #Port Neroid
 
 - type: entity
-  name: "Захопити контроль реактора PAEK-500"
+  name: Capture the PAEK-500 Reactor Control
   parent: AU14WallFlagUA
   id: captureobjectiveneroidreactorcontrol
-  description: "Захопіть контроль реактора PAEK-500 для своєї фракції."
+  description: "Capture the PAEK-500 Reactor Control for your faction."
   components:
   - type: AuObjective
     id: captureneroidreactorcontrol
@@ -425,10 +425,10 @@
     text: PAEK-500 Reactor Control
 
 - type: entity
-  name: "Захопити контроль охолодження PAEK-500"
+  name: Capture the PAEK-500 Coolant Control
   parent: AU14WallFlagUA
   id: captureobjectiveneroidcoolantcontrol
-  description: "Захопіть контроль охолодження PAEK-500 для своєї фракції."
+  description: "Capture the PAEK-500 Coolant Control for your faction."
   components:
   - type: AuObjective
     id: captureneroidcoolantcontrol
@@ -455,10 +455,10 @@
     text: PAEK-500 Coolant Control
 
 - type: entity
-  name: "Захопити контроль двигуна PAEK-500"
+  name: Capture the PAEK-500 Engine Control
   parent: AU14WallFlagUA
   id: captureobjectiveneroidenginecontrol
-  description: "Захопіть контроль двигуна PAEK-500 для своєї фракції."
+  description: "Capture the PAEK-500 Engine Control for your faction."
   components:
   - type: AuObjective
     id: captureneroidenginecontrol
@@ -485,10 +485,10 @@
     text: PAEK-500 Engine Control
 
 - type: entity
-  name: "Захопити контроль турбіни PAEK-500"
+  name: Capture the PAEK-500 Turbine Control
   parent: AU14WallFlagUA
   id: captureobjectiveneroidturbinecontrol
-  description: "Захопіть контроль турбіни PAEK-500 для своєї фракції."
+  description: "Capture the PAEK-500 Turbine Control for your faction."
   components:
   - type: AuObjective
     id: captureneroidturbinecontrol
@@ -515,10 +515,10 @@
     text: PAEK-500 Turbine Control
 
 - type: entity
-  name: "Захопити кімнату колоніальних операцій"
+  name: Capture the Colony Operations Room
   parent: AU14WallFlagUA
   id: captureobjectiveneroidcolonyoperationsroom
-  description: "Захопіть кімнату колоніальних операцій для своєї фракції."
+  description: "Capture the Colony Operations Room for your faction."
   components:
   - type: AuObjective
     id: captureneroidoperationsroom
@@ -545,10 +545,10 @@
     text: Colony Operations Room
 
 - type: entity
-  name: "Захопити шахтарський майданчик UAS-1"
+  name: Capture the UAS-1 Mining Site
   parent: AU14WallFlagUA
   id: captureobjectiveneroidminingsite
-  description: "Захопіть шахтарський майданчик UAS-1 для своєї фракції."
+  description: "Capture the UAS-1 Mining Site for your faction."
   components:
   - type: AuObjective
     id: captureneroiduasminingsite
@@ -575,10 +575,10 @@
     text: UAS-1 Mining Site
 
 - type: entity
-  name: "Захопити геотермальні генератори"
+  name: Capture the Geothermal Generators
   parent: AU14WallFlagUA
   id: captureobjectiveneroidgeothermalgenerators
-  description: "Захопіть геотермальні генератори для своєї фракції."
+  description: "Capture the Geothermal Generators for your faction."
   components:
   - type: AuObjective
     id: captureneroidgeothermalgenerators
@@ -605,10 +605,10 @@
     text: Geothermal Generators
 
 - type: entity
-  name: "Захопити космопорт"
+  name: Capture the Spaceport
   parent: AU14WallFlagUA
   id: captureobjectiveneroidspaceport
-  description: "Захопіть космопорт для своєї фракції."
+  description: "Capture the Spaceport for your faction."
   components:
   - type: AuObjective
     id: captureneroidspaceport
@@ -635,10 +635,10 @@
     text: Spaceport
 
 - type: entity
-  name: "Захопити вантажне депо AC-170"
+  name: Capture the AC-170 Cargo Depot
   parent: AU14WallFlagUA
   id: captureobjectiveneroidac170cargodepot
-  description: "Захопіть вантажне депо AC-170 для своєї фракції."
+  description: "Capture the AC-170 Cargo Depot for your faction."
   components:
   - type: AuObjective
     id: captureneroidac170cargodepot
@@ -665,10 +665,10 @@
     text: AC-170 Cargo Depot
 
 - type: entity
-  name: "Захопити вантажний пірс"
+  name: Capture the Cargo Pier
   parent: AU14WallFlagUA
   id: captureobjectiveneroidcargopier
-  description: "Захопіть вантажний пірс для своєї фракції."
+  description: "Capture the Cargo Pier for your faction."
   components:
   - type: AuObjective
     id: captureneroidcargopier
@@ -697,10 +697,10 @@
 #Corsat
 
 - type: entity
-  name: "Захопити Біодом Тета"
+  name: Capture Biodome Theta
   parent: AU14WallFlagUA
   id: captureobjectivecorsatbiodometheta
-  description: "Захопіть Біодом Тета для своєї фракції."
+  description: "Capture Biodome Theta for your faction."
   components:
   - type: AuObjective
     id: capturecorsatbiodometheta
@@ -727,10 +727,10 @@
     text: Biodome Theta
 
 - type: entity
-  name: "Захопити Біодом Гамма"
+  name: Capture Biodome Gamma
   parent: AU14WallFlagUA
   id: captureobjectivecorsatbiodomegamma
-  description: "Захопіть Біодом Гамма для своєї фракції."
+  description: "Capture Biodome Gamma for your faction."
   components:
   - type: AuObjective
     id: capturecorsatbiodomegamma
@@ -757,10 +757,10 @@
     text: Biodome Gamma
 
 - type: entity
-  name: "Захопити Біодом Сигма"
+  name: Capture Biodome Sigma
   parent: AU14WallFlagUA
   id: captureobjectivecorsatbiodomesigma
-  description: "Захопіть Біодом Сигма для своєї фракції."
+  description: "Capture Biodome Sigma for your faction."
   components:
   - type: AuObjective
     id: capturecorsatbiodomesigma
@@ -787,10 +787,10 @@
     text: Biodome Sigma
 
 - type: entity
-  name: "Захопити адміністрацію станції"
+  name: Capture the Station Administration
   parent: AU14WallFlagUA
   id: captureobjectivecorsatstationadmin
-  description: "Захопіть адміністрацію станції для своєї фракції."
+  description: "Capture Station Administration for your faction."
   components:
   - type: AuObjective
     id: capturecorsatstationadmin
@@ -817,10 +817,10 @@
     text: Station Administration
 
 - type: entity
-  name: "Захопити дослідницький комплекс"
+  name: Capture the Research Complex
   parent: AU14WallFlagUA
   id: captureobjectivecorsatreseaechcomplex
-  description: "Захопіть дослідницький комплекс для своєї фракції."
+  description: "Capture the Research Complex for your faction."
   components:
   - type: AuObjective
     id: capturecorsatresearchcomplex

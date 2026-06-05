@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCWeaponFlamer
   id: RMCWeaponFlamerSpec
-  name: "пристрій-спалювач M34-T"
-  description: "Покращена версія пристрою-спалювача M34, модель M34-T здатна розпилювати ширше різноманіття типів палива."
+  name: M34-T incinerator unit
+  description: An improved version of the M34 incinerator unit, the M34-T model is capable of dispersing a larger variety of fuel types.
   components:
   - type: Corrodible
     isCorrodible: false
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerLarge
-  name: "великий бак спалювача M34"
-  description: "Великий паливний бак для використання в пристрої-спалювачі M34-T. Поводитися з надзвичайною обережністю."
+  name: M34 large incinerator tank
+  description: A large fuel tank for use in the M34-T incinerator unit. Handle with extreme caution.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi
@@ -77,8 +77,8 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeB
-  name: "великий бак спалювача M34 (B)"
-  description: "Великий паливний бак Ультра-густого Напталь палива типу B, спеціальний варіант напалму, що легко гаситься, але повільно горить, поширюючись по широкій території."
+  name: M34 large incinerator tank (B)
+  description: A large fuel tank of Ultra Thick Napthal Fuel type B, a special variant of napalm that is easily extinguished, but disperses over a wide area while burning slowly.
   components:
   - type: RMCFlamerTank
     maxRange: 6
@@ -93,8 +93,8 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeX
-  name: "великий бак спалювача M34 (X)"
-  description: "Великий паливний бак Ультра-густого Напталь палива типу X, липкої горючої рідкої хімічної речовини, що горить надзвичайно гаряче, для використання в пристрої-спалювачі M34-T. Поводитися з надзвичайною обережністю."
+  name: M34 large incinerator tank (X)
+  description: A large fuel tank of Ultra Thick Napthal Fuel type X, a sticky combustible liquid chemical that burns extremely hot, for use in the M34-T incinerator unit. Handle with extreme caution.
   components:
   - type: RMCFlamerTank
     maxRange: 6
@@ -109,8 +109,8 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeEX
-  name: "великий бак спалювача M34 (EX)"
-  description: "Великий паливний бак Ультра-густого Напталь палива типу EX, липкої горючої рідкої хімічної речовини, що горить настільки гаряче, що плавить більшість вогнестійких матеріалів, для використання в пристрої-спалювачі M34-T. Поводитися з надзвичайною обережністю."
+  name: M34 large incinerator tank (EX)
+  description: A large fuel tank of Ultra Thick Napthal Fuel type EX, a sticky combustible liquid chemical that burns so hot it melts straight through most flame-resistant materials, for use in the M34-T incinerator unit. Handle with extreme caution.
   components:
   - type: RMCFlamerTank
     maxRange: 7
@@ -125,8 +125,8 @@
 - type: entity
   parent: RMCTankFlamerLarge
   id: RMCTankFlamerLargeCustom
-  name: "великий кастомний бак спалювача M34"
-  description: "Великий паливний бак для використання в пристрої-спалювачі M34-T."
+  name: M34 large custom incinerator tank
+  description: A large fuel tank for use in the M34-T incinerator unit.
   # description: A large fuel tank for use in the M34-T incinerator unit. This one has been modified with a pressure regulator and a large internal propellant tank. Must be manually attached.
   components:
   - type: RMCFlamerTank

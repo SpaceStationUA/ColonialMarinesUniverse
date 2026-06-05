@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCVirtualPowerLoaderRight
-  name: "правий гідравлічний захват силового навантажувача"
+  name: power loader right hydraulic claw
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -10,7 +10,7 @@
 - type: entity
   parent: VirtualItem
   id: RMCVirtualPowerLoaderLeft
-  name: "лівий гідравлічний захват силового навантажувача"
+  name: power loader left hydraulic claw
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

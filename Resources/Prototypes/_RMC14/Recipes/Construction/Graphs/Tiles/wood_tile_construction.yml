@@ -1,8 +1,8 @@
 ﻿- type: construction
   parent: RMC
   id: RMCTileWood
-  name: "дерев'яна плитка підлоги"
-  description: "Дерев'яна плитка підлоги, яку легко укладати."
+  name: wooden floor tile
+  description: An easy to fit wooden floor tile.
   graph: RMCTileWood
   startNode: start
   targetNode: RMCTileWood

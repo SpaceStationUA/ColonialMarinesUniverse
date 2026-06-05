@@ -1,9 +1,9 @@
 ﻿- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: "штурмова рушниця L49"
+  name: L49 assault shotgun
   suffix: PVE, RCM
   id: RMCWeaponShotgunL49
-  description: "L49 — офіційне позначення помпової рушниці 12 калібру, яку видають штурмовим інженерам і брічерам Королівської морської піхоти TWE. Розроблена разом із пробивними набоями L49B, це жорстко ефективна, компактна й надійна комбінована зброя та інструмент для проломів."
+  description: L49 is the official designation for the pump action 12ga shotgun issued to TWE Royal Marine assault engineers and breachers. Designed in tandem with L49B breaching shells, it's a brutally effective, compact, and reliable combined weapon and breaching tool.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/l49.rsi

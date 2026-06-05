@@ -34,7 +34,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentCorporate
-  name: "спавнер лізона triджент-вцілілого"
+  name: survivor trijent liaison spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -46,5 +46,5 @@
 - type: entity
   parent: RMCSurvivorPresetCorporate
   id: RMCGearSurvivorPresetTrijentCorporate
-  name: "пресет лізона triджент"
+  name: trijent liaison preset
   categories: [ HideSpawnMenu ]

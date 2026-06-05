@@ -1,7 +1,7 @@
 - type: entity
   id: RMCKitchenReagentGrinder
   parent: KitchenReagentGrinder
-  name: "Універсальний подрібнювач"
+  name: All-In-One Grinder
   description: ""
   suffix: ""
   components:

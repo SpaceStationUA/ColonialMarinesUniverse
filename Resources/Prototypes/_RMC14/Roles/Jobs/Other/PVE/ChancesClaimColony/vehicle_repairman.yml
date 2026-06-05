@@ -40,7 +40,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesVehicleRepairman
-  name: "спавнер механіка транспорту"
+  name: vehicle repairman spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -56,7 +56,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesVehicleRepairman
-  name: "привид-роль механіка транспорту"
+  name: vehicle repairman ghost role
   components:
   - type: Sprite
     layers:

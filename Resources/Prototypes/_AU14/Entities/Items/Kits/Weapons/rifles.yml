@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponMar30
-  name: "кейс карабіна MAR-30"
+  name: MAR-30 carbine case
   components:
   - type: Item
     size: Ginormous
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponMar40
-  name: "кейс бойової гвинтівки MAR-40"
+  name: MAR-40 battle rifle case
   components:
   - type: Item
     size: Ginormous
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponABR40
-  name: "кейс тактичної мисливської гвинтівки ABR-40"
+  name: ABR-40 tactical hunting rifle case
   components:
   - type: Item
     size: Ginormous
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponM75A
-  name: "кейс гвинтівки M75A MAS"
+  name: M75A MAS rifle case
   components:
   - type: Item
     size: Ginormous
@@ -95,7 +95,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponM16A1
-  name: "кейс гвинтівки M16A1"
+  name: M16A1 rifle case
   components:
   - type: Item
     size: Ginormous
@@ -117,7 +117,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponM16A2
-  name: "кейс гвинтівки M16A2"
+  name: M16A2 rifle case
   components:
   - type: Item
     size: Ginormous
@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponKramer
-  name: "кейс гвинтівки Крамер"
+  name: kramer rifle case
   components:
   - type: Item
     size: Ginormous
@@ -163,7 +163,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponM20a
-  name: "кейс гвинтівки M20A"
+  name: M20A rifle case
   components:
   - type: Item
     size: Ginormous
@@ -185,7 +185,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponMCX
-  name: "кейс імпульсної гвинтівки MCS-X"
+  name: MCS-X pulse rifle case
   components:
   - type: Item
     size: Ginormous
@@ -209,7 +209,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponL23
-  name: "кейс гвинтівки L23"
+  name: L23 rifle case
   components:
   - type: Item
     size: Ginormous
@@ -233,7 +233,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponAG80
-  name: "кейс гвинтівки AG80"
+  name: AG80 rifle case
   components:
   - type: Item
     size: Ginormous
@@ -259,7 +259,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponM41AMK1
-  name: "кейс гвинтівки M41A MK1"
+  name: M41A MK1 rifle case
   components:
   - type: Item
     size: Ginormous
@@ -283,7 +283,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponM41AMK2
-  name: "кейс гвинтівки M41A MK2"
+  name: M41A MK2 rifle case
   components:
   - type: Item
     size: Ginormous

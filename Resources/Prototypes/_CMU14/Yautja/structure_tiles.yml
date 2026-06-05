@@ -4,214 +4,214 @@
   abstract: true
   parent: CMTileBaseUnpryable
   id: CMUYautjaHunterFloorBase
-  name: "підлога мисливця Яутжа"
+  name: yautja hunter floor
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsFloor
-  name: "підлога Яутжа"
+  name: yautja floor floor
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/floor.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsOuterhull
-  name: "зовнішній корпус Яутжа"
+  name: yautja floor outerhull
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/outerhull.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsDamaged1
-  name: "пошкоджена підлога Яутжа 1"
+  name: yautja floor damaged1
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/damaged1.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsDamaged2
-  name: "пошкоджена підлога Яутжа 2"
+  name: yautja floor damaged2
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/damaged2.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsDamaged3
-  name: "пошкоджена підлога Яутжа 3"
+  name: yautja floor damaged3
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/damaged3.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsDamaged4
-  name: "пошкоджена підлога Яутжа 4"
+  name: yautja floor damaged4
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/damaged4.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsDamaged5
-  name: "пошкоджена підлога Яутжа 5"
+  name: yautja floor damaged5
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/damaged5.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsOuterhullAlt
-  name: "зовнішній корпус Яутжа альт"
+  name: yautja floor outerhull alt
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/outerhull_alt.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterGlow
-  name: "сяючий мисливець Яутжа"
+  name: yautja floor hunter glow
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_glow.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterBridge
-  name: "міст мисливця Яутжа"
+  name: yautja floor hunter bridge
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_bridge.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterCatwalkAlpha
-  name: "катвок мисливця Яутжа альфа"
+  name: yautja floor hunter catwalk alpha
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_catwalk_alpha.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterCatwalk
-  name: "катвок мисливця Яутжа"
+  name: yautja floor hunter catwalk
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_catwalk.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterCatwalkAltAlpha
-  name: "катвок мисливця Яутжа альт альфа"
+  name: yautja floor hunter catwalk alt alpha
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_catwalk_alt_alpha.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterCatwalkAlt
-  name: "катвок мисливця Яутжа альт"
+  name: yautja floor hunter catwalk alt
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_catwalk_alt.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterCatwalkNewAlpha
-  name: "новий катвок мисливця Яутжа альфа"
+  name: yautja floor hunter catwalk new alpha
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_catwalk_new_alpha.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterCatwalkNew
-  name: "новий катвок мисливця Яутжа"
+  name: yautja floor hunter catwalk new
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_catwalk_new.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterGrille
-  name: "ґрати мисливця Яутжа"
+  name: yautja floor hunter grille
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_grille.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterGrilleAlpha
-  name: "ґрати мисливця Яутжа альфа"
+  name: yautja floor hunter grille alpha
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_grille_alpha.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsN611
-  name: "підлога Яутжа 6,11"
+  name: yautja floor 6,11
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/6,11.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsN612
-  name: "підлога Яутжа 6,12"
+  name: yautja floor 6,12
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/6,12.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsCorner1
-  name: "кутова підлога Яутжа 1"
+  name: yautja floor corner 1
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/corner_1.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsCorner2
-  name: "кутова підлога Яутжа 2"
+  name: yautja floor corner 2
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/corner_2.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsCorner3
-  name: "кутова підлога Яутжа 3"
+  name: yautja floor corner 3
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/corner_3.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsCorner4
-  name: "кутова підлога Яутжа 4"
+  name: yautja floor corner 4
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/corner_4.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsCorner6
-  name: "кутова підлога Яутжа 6"
+  name: yautja floor corner 6
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/corner_6.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsCorner7
-  name: "кутова підлога Яутжа 7"
+  name: yautja floor corner 7
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/corner_7.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsCorner8
-  name: "кутова підлога Яутжа 8"
+  name: yautja floor corner 8
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/corner_8.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterRed
-  name: "червоний мисливець Яутжа"
+  name: yautja floor hunter red
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_red.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterRed2
-  name: "червоний мисливець Яутжа 2"
+  name: yautja floor hunter red 2
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_red_2.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterRed3
-  name: "червоний мисливець Яутжа 3"
+  name: yautja floor hunter red 3
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_red_3.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterRed4
-  name: "червоний мисливець Яутжа 4"
+  name: yautja floor hunter red 4
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_red_4.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterRed5
-  name: "червоний мисливець Яутжа 5"
+  name: yautja floor hunter red 5
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_red_5.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsHunterRed6
-  name: "червоний мисливець Яутжа 6"
+  name: yautja floor hunter red 6
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/hunter_red_6.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsBorderlessV
-  name: "безмежна підлога Яутжа в"
+  name: yautja floor borderless v
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/borderless_v.png"
 
 - type: tile
   parent: CMUYautjaHunterFloorBase
   id: CMUYautjaTileHunterFloorsBorderlessH
-  name: "безмежна підлога Яутжа г"
+  name: yautja floor borderless h
   sprite: "/Textures/_CMU14/Tiles/Yautja/hunter_floors/borderless_h.png"

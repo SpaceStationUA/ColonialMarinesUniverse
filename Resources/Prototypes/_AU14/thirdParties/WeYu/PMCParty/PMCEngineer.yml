@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobWYPMCPartyEngineer #m41a/2
-  name: "бойовий інженер ПВК"
+  name: PMC Combat Engineer
   description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartyEngineer
   ranks:
@@ -35,7 +35,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartyEngineer
-  name: "бойовий інженер загону ПВК ВЮ (третя сторона, M41A/2)"
+  name: WY PMC Party Combat Engineer (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -44,7 +44,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "бойовий інженер ПВК"
+    name: PMC Combat Engineer
     description: au14-pmcparty-description
     reregister: false
     job: AU14JobWYPMCPartyEngineer

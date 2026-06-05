@@ -1,7 +1,7 @@
 # directional window
 - type: rmcConstruction
   id: RMCWindowDirectionalBuild
-  name: "спрямоване вікно"
+  name: directional window
   prototype: CMWindowDirectional
   doAfterTime: 2
   doAfterTimeMin: 1

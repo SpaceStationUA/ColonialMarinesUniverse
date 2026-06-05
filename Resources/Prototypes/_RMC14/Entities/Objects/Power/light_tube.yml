@@ -15,8 +15,8 @@
 - type: entity
   parent: RMCLightTubeBase
   id: RMCLightTube
-  name: "лампа-трубка"
-  description: "Запасна лампа-трубка."
+  name: light tube
+  description: A replacement light tube.
   suffix: Warm
   components:
   - type: LightBulb
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCLightTubeBase
   id: RMCLightTubeBroken
-  name: "лампа-трубка"
-  description: "Запасна лампа-трубка."
+  name: light tube
+  description: A replacement light tube.
   suffix: Broken
   components:
   - type: LightBulb

@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoDefenderBase
-  name: "Захисник"
-  description: "Прибулець з броньованим гребенем."
+  name: Defender
+  description: An alien with an armored crest.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-defender

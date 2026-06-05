@@ -4,7 +4,7 @@
 - type: reagentProperty
   abstract: true
   id: CMUProcgenChemNegative
-  name: "батьківська негативна процедурна хімічна властивість, ВИ НЕ МАЄТЕ ЦЬОГО БАЧИТИ!"
+  name: procgen chemical negative parent YOU SHOULD NOT SEE THIS!
   rarity: disabled
   category: toxicant
   hint: negative

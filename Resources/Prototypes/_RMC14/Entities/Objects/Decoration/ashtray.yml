@@ -1,8 +1,8 @@
 - type: entity
   parent: Ashtray
   id: RMCAshtray
-  name: "пластикова попільничка"
-  description: "Дешева пластикова попільничка."
+  name: plastic ashtray
+  description: Cheap platic ashtray.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Decoration/ashtray.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCAshtray
   id: RMCAshtrayBronze
-  name: "бронзова попільничка"
-  description: "Масивна бронзова попільничка."
+  name: bronze ashtray
+  description: Massive bronze ashtray.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Decoration/ashtray-br.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCAshtray
   id: RMCAshtrayGlass
-  name: "скляна попільничка"
-  description: "Скляна попільничка. Виглядає крихкою."
+  name: glass ashtray
+  description: Glass ashtray. Looks fragile.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Decoration/ashtray-gl.rsi

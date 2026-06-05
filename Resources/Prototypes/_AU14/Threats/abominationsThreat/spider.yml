@@ -3,8 +3,8 @@
 - type: entity
   parent: AU14AbominationBase
   id: AU14AbominationSpider
-  name: "абомінація-павук"
-  description: "Шурхотлива багатонога голова, увінчана надто великою кількістю зубів. Вона хоче опинитися у вас на обличчі."
+  name: spider abomination
+  description: A skittering, multi-legged head crowned with too many teeth. It wants on your face.
   components:
   - type: Sprite
     sprite: _AU14/Mobs/Abominations/spider.rsi

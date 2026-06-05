@@ -2,8 +2,8 @@
 - type: entity
   parent: CMClosetBase
   id: CMLockerBase
-  name: "захищена шафа"
-  description: "Це нерухома шафа із замком на картку."
+  name: secure locker
+  description: It's an immobile card-locked storage unit.
   components:
   - type: VehicleSmashable
   - type: Sprite
@@ -50,7 +50,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCommander
-  name: "шафа Командира"
+  name: commanding officer's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/commander.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCommanderSecure
-  name: "сейф Командира"
-  description: "Сейф для Командира, де він зберігає будь-яке спорядження, що має бути напоготові. Усередині записка, що каже: те, що раніше тут було, перенесли в інше місце."
+  name: commanding officer's secure box
+  description: A safe for the Commanding Officer to store any equipment they need to have ready at a moment's notice. There's a note inside saying that whatever was inside it before was moved out.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/safe.rsi
@@ -71,8 +71,8 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerSecureSafe
-  name: "захищений сейф"
-  description: "Сейф для важливої особи для зберігання цінностей чи потрібного спорядження. Завіси починають іржавіти."
+  name: secure safe
+  description: A safe for an important person to store any valuables or equipment they need. The hinges have begun to rust.
   suffix: All Access
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCLockerSecureSafe
   id: RMCLockerSecureSafeLiaison
-  description: "Велетенський шмат металу з вмонтованим диском. Дрібним написом на диску: «Scarborough Arms — 2-дисковий сейф, гарантовано стійкий до терміту і вибухів»"
+  description: A huge chunk of metal with a dial embedded in it. Fine print on the dial reads "Scarborough Arms - 2 tumbler safe, guaranteed thermite resistant, and explosion resistant."
   suffix: Corporate Liaison
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerStaff
-  name: "шафа штабного офіцера"
+  name: staff officer's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/staff.rsi
@@ -112,7 +112,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerPilot
-  name: "шафа пілота"
+  name: pilot's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/pilot.rsi
@@ -122,7 +122,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerPolice
-  name: "шафа військової поліції"
+  name: military police's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/police.rsi
@@ -132,13 +132,13 @@
 - type: entity
   parent: CMLockerPolice
   id: RMCLockerPoliceSoro
-  name: "шафка офіцера"
+  name: security officer's locker
 
 - type: entity
   parent: CMLockerBase
   id: RMCLockerGunBase
-  name: "збройна шафа"
-  description: "Це нерухома шафа із замком на картку."
+  name: gun cabinet
+  description: It's an immobile card-locked storage unit.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/gun_cabinet.rsi
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunStorageBrig
-  name: "Шафа для зберігання"
-  description: "Це нерухома шафа із замком на картку."
+  name: Storage Cabinet
+  description: It's an immobile card-locked storage unit.
   components:
   - type: AccessReader
     access: [["CMAccessBrig"]]
@@ -162,8 +162,8 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunStorageCommand
-  name: "Шафа для зберігання"
-  description: "Це нерухома шафа із замком на картку."
+  name: Storage Cabinet
+  description: It's an immobile card-locked storage unit.
   components:
   - type: AccessReader
     access: [["RMCAccessCommand"]]
@@ -171,8 +171,8 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGun
-  name: "збройна шафа"
-  description: "Це нерухома шафа із замком на картку."
+  name: gun cabinet
+  description: It's an immobile card-locked storage unit.
   suffix: Colony
   components:
   - type: AccessReader
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunBlue
-  name: "шафа спорядження для розгону заворушень"
+  name: riot control equipment Cabinet
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/armory_locker.rsi
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCLockerGunBase
   id: RMCLockerGunRed
-  name: "збройна шафа червоної тривоги"
+  name: red alert gun cabinet
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/armory_locker.rsi
@@ -204,7 +204,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCMP
-  name: "шафа головного ВП"
+  name: chief MP's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cmp.rsi
@@ -214,7 +214,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerWarden
-  name: "шафка наглядача"
+  name: warden's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/warden.rsi
@@ -224,7 +224,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerMedical
-  name: "шафка лікаря"
+  name: medical doctor's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/medical.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerMedicalWhite
-  name: "медична шафа"
+  name: medical locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/medical_white.rsi
@@ -244,7 +244,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerHydroResearch
-  name: "шафа гідропонічних досліджень"
+  name: hydroponics research locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/medical_white.rsi
@@ -254,7 +254,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerHydro
-  name: "шафка ботаніка"
+  name: botanist's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/hydro.rsi
@@ -264,7 +264,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerQM
-  name: "шафа Офіцера Логістики"
+  name: Logistics Officer's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/qm.rsi
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCargo
-  name: "шафа техніка постачання"
+  name: requisitions technician's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cargo.rsi
@@ -287,7 +287,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerSEA
-  name: "шафа ССР"
+  name: SEA's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/commander.rsi
@@ -297,7 +297,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerResearcher
-  name: "шафа дослідника"
+  name: researcher's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/researcher.rsi
@@ -307,7 +307,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCMO
-  name: "шафка головного лікаря"
+  name: chief medical officer's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cmo.rsi
@@ -318,7 +318,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCE
-  name: "шафка головного інженера"
+  name: chief engineer's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/ce.rsi
@@ -328,7 +328,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerEngineer
-  name: "шафка інженера"
+  name: engineer's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer.rsi
@@ -338,7 +338,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerEngineerElectrical
-  name: "електричне приладдя"
+  name: electrical supplies
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer_electric.rsi
@@ -348,7 +348,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerEngineerWelder
-  name: "зварювальне приладдя"
+  name: welding supplies
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer_welder.rsi
@@ -358,7 +358,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerEngineerGeneric
-  name: "майстерські матеріали"
+  name: workshop materials
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/engineer_generic.rsi
@@ -369,7 +369,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerAlpha
-  name: "шафа загону «Альфа»"
+  name: alpha squad locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/alpha.rsi
@@ -379,7 +379,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerBravo
-  name: "шафа загону «Браво»"
+  name: bravo squad locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/bravo.rsi
@@ -389,7 +389,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCharlie
-  name: "шафа загону «Чарлі»"
+  name: charlie squad locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/charlie.rsi
@@ -399,7 +399,7 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerDelta
-  name: "шафа загону «Дельта»"
+  name: delta squad locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/delta.rsi
@@ -411,7 +411,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerResearchDirector
-  name: "шафка наукового керівника"
+  name: research director's locker
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/rd.rsi
@@ -421,7 +421,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCCabinet
-  name: "шафа"
+  name: cabinet
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/cabinet.rsi
@@ -429,7 +429,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerDetective
-  name: "шафа детектива"
+  name: detective's cabinet
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Storage/Lockers/detective.rsi
@@ -439,7 +439,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerSquadLeader
-  name: "шафа сержанта секції"
+  name: section sergeant locker
   components:
   - type: AccessReader
     access: [["CMAccessSquadLeaderPrep"]]
@@ -451,7 +451,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerSmartGunOperatorOne
-  name: "шафа оператора смартгана першого загону"
+  name: squad one smartgun operator locker
   components:
   - type: AccessReader
     access: [["CMAccessSmartPrep"]]
@@ -463,22 +463,22 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorTwo
-  name: "шафа оператора смартгана другого загону"
+  name: squad two smartgun operator locker
 
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorThree
-  name: "шафа оператора смартгана третього загону"
+  name: squad three smartgun operator locker
 
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorFour
-  name: "шафа оператора смартгана четвертого загону"
+  name: squad four smartgun operator locker
 
 - type: entity
   parent: RMCLockerSquadLeader
   id: RMCLockerSquadLeaderPMC
-  name: "шафа лідера сил"
+  name: force lead locker
   components:
   - type: EntityTableContainerFill
     containers:
@@ -488,7 +488,7 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorPMCOne
-  name: "шафа кулеметника підтримки першого загону"
+  name: squad one support gunner locker
   components:
   - type: EntityTableContainerFill
     containers:
@@ -498,12 +498,12 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorPMCOne
   id: RMCLockerSmartGunOperatorPMCTwo
-  name: "шафа кулеметника підтримки другого загону"
+  name: squad two support gunner locker
 
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerHeavyGunnerCLF
-  name: "шафа важкого кулеметника"
+  name: heavy gunner locker
   components:
   - type: EntityTableContainerFill
     containers:
@@ -513,7 +513,7 @@
 - type: entity
   parent: RMCCabinet
   id: RMCCabinetTSEPAInspector
-  name: "шафа інспектора"
+  name: inspector's cabinet
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPAInspector"]]
@@ -521,7 +521,7 @@
 - type: entity
   parent: CMLockerBase
   id: RMCLockerTSEPASeniorConstable
-  name: "шафа старшого констебля"
+  name: senior constable's locker
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPABrig"]]
@@ -533,7 +533,7 @@
 - type: entity
   parent: CMLockerPolice
   id: RMCLockerTSEPA
-  name: "шафа констебля"
+  name: constable's locker
   components:
   - type: AccessReader
     access: [["RMCAccessTSEPA"]]
@@ -546,7 +546,7 @@
 - type: entity
   parent: RMCLockerSquadLeader
   id: RMCLockerSquadLeaderSPP
-  name: "шафа лідера секції"
+  name: section lead locker
   components:
   - type: EntityTableContainerFill
     containers:
@@ -556,7 +556,7 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorOne
   id: RMCLockerSmartGunOperatorSPPOne
-  name: "шафа важкого кулеметника першого загону"
+  name: squad one heavy gunner locker
   components:
   - type: EntityTableContainerFill
     containers:
@@ -566,4 +566,4 @@
 - type: entity
   parent: RMCLockerSmartGunOperatorSPPOne
   id: RMCLockerSmartGunOperatorSPPTwo
-  name: "шафа важкого кулеметника другого загону"
+  name: squad two heavy gunner locker

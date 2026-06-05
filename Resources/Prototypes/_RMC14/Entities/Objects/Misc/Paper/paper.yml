@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: CMBasePaper
-  name: "папір"
-  description: "Аркуш білого паперу."
+  name: paper
+  description: A piece of white paper.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -104,7 +104,7 @@
 - type: entity
   parent: CMBasePaperFaxable
   id: CMPaper
-  name: "папір"
+  name: paper
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/paper.rsi
@@ -131,7 +131,7 @@
 - type: entity
   parent: CMPaperWritten
   id: CMPaperJudgement
-  name: "вирок"
+  name: judgement
   components:
   - type: Paper
     content: "For crimes against the station, the offender is sentenced to:"
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMPaperWritten
   id: CMPaperAlmayerStorage
-  name: "записка про аварійне сховище «Алмаєра»"
+  name: almayer emergency storage note
   components:
   - type: Paper
     content: "Hey Garry, I got the boys to move most of the emergency supplies down into the ASRS hold just like ya' asked.
@@ -148,7 +148,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperAegisInfoFax
-  name: "Передача Вищого Командування"
+  name: High Command Transmission
   components:
     - type: Paper
       stampState: paper_stamp-marine
@@ -219,8 +219,8 @@
 - type: entity
   parent: CMBasePaper
   id: RMCPaperRequisitionInvoice
-  name: "рахунок-фактура постачання"
-  description: "Одна одиниця бюрократії, що чекає на схвалення."
+  name: requisition invoice
+  description: 'A single unit of bureaucracy awaiting for approval.'
   components:
   - type: Sprite
     layers:
@@ -248,7 +248,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperWeYa
-  name: "офіційний документ «Вейланд-Ютані»"
+  name: weyland-yutani official document
   components:
   - type: PaperVisuals
     headerImagePath: "/Textures/_RMC14/Interface/Paper/paper_heading_weya.svg.96dpi.png"
@@ -257,4 +257,4 @@
 - type: entity
   parent: RMCPaperWeYa
   id: RMCPaperWeYaLiaison
-  name: "документ «Вейланд-Ютані»"
+  name: weyland-yutani document

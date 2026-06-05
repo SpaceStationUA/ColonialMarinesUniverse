@@ -1,6 +1,6 @@
 - type: entity
   id: BaseShellShotgun
-  name: "базовий дробовий набій (.50)"
+  name: shell (.50)
   parent: BaseCartridge
   abstract: true
   components:
@@ -21,7 +21,7 @@
 
 - type: entity
   id: ShellShotgunBeanbag
-  name: "дробовий набій (.50 beanbag)"
+  name: shell (.50 beanbag)
   parent: [ BaseShellShotgun, BaseSecurityBartenderContraband ]
   components:
   - type: Tag
@@ -40,7 +40,7 @@
 
 - type: entity
   id: ShellShotgunSlug
-  name: "дробовий набій (.50 slug)"
+  name: shell (.50 slug)
   parent: [ BaseShellShotgun, BaseSecurityContraband]
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 
 - type: entity
   id: ShellShotgunFlare
-  name: "дробовий набій (.50 flare)"
+  name: shell (.50 flare)
   parent: BaseShellShotgun
   components:
   - type: Tag
@@ -73,7 +73,7 @@
 
 - type: entity
   id: ShellShotgun
-  name: "дробовий набій (.50 pellet)"
+  name: shell (.50 pellet)
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Sprite
@@ -85,7 +85,7 @@
 
 - type: entity
   id: ShellShotgunIncendiary
-  name: "дробовий набій (.50 incendiary)"
+  name: shell (.50 incendiary)
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Sprite
@@ -99,7 +99,7 @@
 
 - type: entity
   id: ShellShotgunPractice
-  name: "дробовий набій (.50 practice)"
+  name: shell (.50 practice)
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 
 - type: entity
   id: ShellTranquilizer
-  name: "дробовий набій (.50 tranquilizer)"
+  name: shell (.50 tranquilizer)
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Tag
@@ -141,8 +141,8 @@
 
 - type: entity
   id: ShellShotgunImprovised
-  name: "імпровізований дробовий снаряд"
-  description: "Саморобний дробовий снаряд, що стріляє болючими скляними осколками. Розліт настільки широкий, що він не міг влучити в широку сторону сараю"
+  name: improvised shotgun shell
+  description: A homemade shotgun shell that shoots painful glass shrapnel. The spread is so wide that it couldn't hit the broad side of a barn.
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
   - type: Tag
@@ -164,7 +164,7 @@
 
 - type: entity
   id: ShellShotgunUranium
-  name: "урановий дробовий снаряд"
+  name: uranium shotgun shell
   parent: [ BaseShellShotgun, BaseSecurityContraband ]
   components:
     - type: Sprite

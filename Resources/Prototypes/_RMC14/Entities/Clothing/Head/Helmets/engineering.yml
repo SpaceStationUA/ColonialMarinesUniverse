@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadHatWelding
   id: RMCHelmetWelding
-  name: "зварювальний шолом" # TODO RMC14 impairs vision when on
-  description: "Кріплений на голову щиток, створений для повного захисту носія від дугового опіку очей"
+  name: welding helmet # TODO RMC14 impairs vision when on
+  description: A head-mounted face cover designed to protect the wearer completely from space-arc eye
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/welding_helmet.rsi

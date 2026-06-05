@@ -65,7 +65,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianPaPOfficer
-  name: "точка появи цивільного офіцера PAP"
+  name: Spawn Point Civilian PAP Officer
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianPaPOfficer

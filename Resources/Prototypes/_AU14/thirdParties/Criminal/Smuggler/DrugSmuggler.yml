@@ -1,8 +1,8 @@
 - type: job
   parent: AU14JobLEOBase
   id: AU14DrugSmugglerJob
-  name: "Контрабандист наркотиків"
-  description: "Ви ледь утекли, коли КБМ накрило вашу стару нарколабораторію; на щастя, вам вдалося забрати частину товару, і вони не дізналися вашого імені. Час спробувати знову."
+  name: Drug Smuggler
+  description: You barely made it out as the CMB raided your old drug lab, luckily you managed to escape with some of the product and they didnt catch your name. Time to try again.
   setPreference: false
   startingGear: AU14DrugSmugglerGear
   icon: "CMJobIconEmpty"
@@ -37,7 +37,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14DrugSmuggler
-  name: "Наркоторговець (злочинець)"
+  name: Drug Dealer (Criminal)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -45,8 +45,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Наркоторговець (злочинець)"
-    description: "Ви ледь утекли, коли КБМ накрило вашу стару нарколабораторію; на щастя, вам вдалося забрати частину товару, і вони не дізналися вашого імені. Час спробувати знову."
+    name: Drug Dealer (Criminal)
+    description:  You barely made it out as the CMB raided your old drug lab, luckily you managed to escape with some of the product and they didnt catch your name. Time to try again.
     reregister: false
     job: AU14DrugSmugglerJob
     raffle:
@@ -63,7 +63,7 @@
 
 - type: entity
   id: AU14DrugSmugglerPreset
-  name: "пресет контрабандиста наркотиків"
+  name: drug smuggler preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

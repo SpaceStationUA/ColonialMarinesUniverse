@@ -3,7 +3,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCMortarExplosionHE
-  name: "фугасний мінометний вибух"
+  name: he mortar explosion
   suffix: Fires a mortar shell!
   placement:
     mode: SnapgridCenter
@@ -22,7 +22,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCMortarExplosionIncendiary
-  name: "запалювальний мінометний вибух"
+  name: incendiary mortar explosion
   suffix: Fires a mortar shell!
   placement:
     mode: SnapgridCenter
@@ -44,7 +44,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCMortarExplosionFlare
-  name: "мінометна сигнальна ракета/камера"
+  name: mortar flare/camera
   suffix: Fires a mortar shell!
   placement:
     mode: SnapgridCenter
@@ -58,7 +58,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCDropshipGauBurst
-  name: "черга багатоцільового GAU десантного корабля"
+  name: dropship Multi-Purpose GAU burst
   suffix: Fires a GAU burst!
   placement:
     mode: SnapgridCenter
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCDropshipGauBurst
   id: RMCDropshipGauBurstAntiTank
-  name: "протитанкова черга GAU десантного корабля"
+  name: dropship Anti-Tank GAU burst
   suffix: Fires a GAU burst!
   placement:
     mode: SnapgridCenter
@@ -101,7 +101,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCDropshipLaserFire
-  name: "лазер десантного корабля"
+  name: dropship laser
   suffix: Fires a laser!
   placement:
     mode: SnapgridCenter
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionWidowmaker
-  name: "вибух AIM-224B «Удовиця»"
+  name: AIM-224B 'Widowmaker' explosion
   components:
   - type: DropshipAmmo
     travelTime: 3
@@ -161,7 +161,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionKeeper
-  name: "вибух GBU-67 «Хранитель II»"
+  name: GBU-67 'Keeper II' explosion
   components:
   - type: DropshipAmmo
     travelTime: 2
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionNapalm
-  name: "вибух AGM-99 «Напалм»"
+  name: AGM-99 'Napalm' explosion
   components:
   - type: DropshipAmmo
     travelTime: 6
@@ -189,7 +189,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionHarpoon
-  name: "вибух AGM-184 «Гарпун II»"
+  name: AGM-184 'Harpoon II' explosion
   components:
   - type: DropshipAmmo
     travelTime: 5
@@ -201,7 +201,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionThermobaric
-  name: "вибух BLU-200 «Драконове Дихання»"
+  name: BLU-200 'Dragon's Breath' explosion
   components:
   - type: DropshipAmmo
     travelTime: 5
@@ -220,7 +220,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionBanshee
-  name: "вибух AGM-227 «Банші»"
+  name: AGM-227 'Banshee' explosion
   components:
   - type: DropshipAmmo
     travelTime: 6
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCDropshipMiniRocketExplosionBase
   id: RMCDropshipMiniRocketExplosionMiniMike
-  name: "вибух AGR-59 «Міні-Майк»"
+  name: AGR-59 'Mini-Mike' explosion
   components:
   - type: DropshipAmmo
     explosion:
@@ -268,7 +268,7 @@
 - type: entity
   parent: RMCDropshipMiniRocketExplosionMiniMike
   id: RMCDropshipMiniRocketExplosionMiniMikeIncindiary
-  name: "запалювальний вибух AGR-59-I «Міні-Майк»"
+  name: AGR-59-I 'Mini-Mike' explosion
   components:
   - type: DropshipAmmo
     fire:
@@ -278,7 +278,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionBurningPostman
-  name: "вибух GBU-89B NT «Палаючий Поштар»"
+  name: GBU-89B NT 'Burning Postman' explosion
   components:
   - type: DropshipAmmo
     travelTime: 11
@@ -297,7 +297,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionPostman
-  name: "вибух GBU-89B «Поштар»"
+  name: GBU-89B 'Postman' explosion
   components:
   - type: DropshipAmmo
     travelTime: 12
@@ -312,7 +312,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionDoubleWidow
-  name: "вибух AIM-224A «Подвійна Вдова»"
+  name: AIM-224A 'Double Widow' explosion
   components:
   - type: DropshipAmmo
     rounds: 2
@@ -328,7 +328,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionDoubleWidowADMIN
-  name: "вибух AIM-224A «Восьмерна Вдова» (НЕ ЗЛОВЖИВАТИ)"
+  name: "AIM-224A 'Octuple Widow' explosion (DO NOT ABUSE)"
   components:
   - type: DropshipAmmo
     rounds: 8
@@ -344,7 +344,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionCBU250
-  name: "CBU-250 «Вечеря»"
+  name: "CBU-250 'Dinner Spread'"
   components:
   - type: DropshipAmmo
     travelTime: 6
@@ -363,7 +363,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionOverpressure
-  name: "вибух BLU-176 «Надтиск»"
+  name: BLU-176 'Overpressure' explosion
   components:
   - type: DropshipAmmo
     travelTime: 5
@@ -384,7 +384,7 @@
 - type: entity
   parent: RMCDropshipMissileExplosionBase
   id: RMCDropshipMissileExplosionBansheeHorde
-  name: "вибух стелажа CBU-607 «Стрілець-тарілочник»"
+  name: CBU-607 'Skeet Shooter' Rack explosion
   components:
   - type: DropshipAmmo
     travelTime: 4

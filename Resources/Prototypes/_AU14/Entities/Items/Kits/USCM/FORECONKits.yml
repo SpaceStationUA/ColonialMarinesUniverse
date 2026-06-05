@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitFORECONDetachmentUniform
-  name: "комплект форми ФОРЕКОН"
+  name: FORECON Uniform Kit
   components:
   - type: Item
     size: Ginormous
@@ -29,8 +29,8 @@
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseM4RA
   suffix: AU14, FORECON
-  name: "кейс бойової гвинтівки M49A"
-  description: "Великий кейс для зберігання бойової гвинтівки M49A."
+  name: M49A battle rifle case
+  description: A large case for storing an M49A a battle rifle.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/rifle.rsi
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitFORECONDetachmentSpotter
-  name: "комплект коригувальника ФОРЕКОН"
+  name: FORECON Spotter Kit
   components:
   - type: Item
     size: Ginormous
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: AU14KitFORECONDetachmentSniper
-  name: "кейс спорядження снайпера ФОРЕКОН"
+  name: FORECON sniper equipment case
   description: "A large case containing your very own long-range M96S-B sniper rifle, M45 ghillie armor and helmet, ammunition and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Item

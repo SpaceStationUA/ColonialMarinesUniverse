@@ -10,7 +10,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyTSE
-  name: "ключ шифрування рації ІТС"
+  name: TSE radio encryption key
   components:
   - type: Sprite
     state: cmp_key
@@ -22,7 +22,7 @@
 - type: entity
   parent: RMCEncryptionKeyTSE
   id: RMCEncryptionKeyTSEPA
-  name: "ключ шифрування рації ПУ ІТС"
+  name: TSEPA radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -45,7 +45,7 @@
 - type: entity
   parent: RMCHeadsetTSEAbstract
   id: RMCHeadsetTSE
-  name: "гарнітура ІТС"
+  name: TSE headset
   components:
   - type: ContainerFill
     containers:
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCHeadsetTSEAbstract
   id: RMCHeadsetTSEPA
-  name: "гарнітура ПУ ІТС"
+  name: TSEPA headset
   components:
   - type: ContainerFill
     containers:

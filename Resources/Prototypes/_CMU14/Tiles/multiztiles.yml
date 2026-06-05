@@ -1,7 +1,7 @@
 - type: tile
   parent: CMPlanetBase
   id: AU14LatticeTile
-  name: "руйнована MultiZ-решітка 1"
+  name: MultiZ Destroyable Grate 1
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate1.png
   abstract: true
   baseTurf: Space
@@ -19,68 +19,68 @@
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTile2
-  name: "руйнована MultiZ-решітка 1"
+  name: MultiZ Destroyable Grate 1
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate1.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTile3
-  name: "руйнована MultiZ-решітка 2"
+  name: MultiZ Destroyable Grate 2
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate2.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTile4
-  name: "руйнована MultiZ-решітка 3"
+  name: MultiZ Destroyable Grate 3
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate3.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTile5
-  name: "руйнована MultiZ-решітка 4"
+  name: MultiZ Destroyable Grate 4
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate4.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTile6
-  name: "руйнована MultiZ-решітка 5"
+  name: MultiZ Destroyable Grate 5
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate5.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTile7
-  name: "руйнована MultiZ-решітка 6"
+  name: MultiZ Destroyable Grate 6
   sprite: /Textures/_CMU14/Tiles/multizgrates/rustygrate.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTileHalf1
-  name: "руйнована напіврешітка MultiZ 1"
+  name: MultiZ Destroyable Half Grate 1
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate1.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTileHalf2
-  name: "руйнована напіврешітка MultiZ 2"
+  name: MultiZ Destroyable Half Grate 2
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate2.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTileHalf3
-  name: "руйнована напіврешітка MultiZ 3"
+  name: MultiZ Destroyable Half Grate 3
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate3.png
 
 - type: tile
   parent: AU14LatticeTile
   id: AU14LatticeTileHalf4
-  name: "руйнована напіврешітка MultiZ 4"
+  name: MultiZ Destroyable Half Grate 4
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate4.png
 
 
 - type: tile
   parent: CMPlanetBase
   id: AU14LatticeTileIndestructible
-  name: "неруйнівна MultiZ-решітка 1"
+  name: MultiZ Indestructible Grate 1
   sprite: /Textures/_CMU14/Tiles/solidgrate1.png
   abstract: true
   baseTurf: Space
@@ -97,59 +97,59 @@
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTile2Indestructible
-  name: "неруйнівна MultiZ-решітка 1"
+  name: MultiZ Indestructible Grate 1
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate1.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTile3Indestructible
-  name: "неруйнівна MultiZ-решітка 2"
+  name: MultiZ Indestructible Grate 2
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate2.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTile4Indestructible
-  name: "неруйнівна MultiZ-решітка 3"
+  name: MultiZ Indestructible Grate 3
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate3.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTile5Indestructible
-  name: "неруйнівна MultiZ-решітка 4"
+  name: MultiZ Indestructible Grate 4
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate4.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTile6Indestructible
-  name: "неруйнівна MultiZ-решітка 5"
+  name: MultiZ Indestructible Grate 5
   sprite: /Textures/_CMU14/Tiles/multizgrates/solidgrate5.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTile8Indestructible
-  name: "неруйнівна MultiZ-решітка 6"
+  name: MultiZ Indestructible Grate 6
   sprite: /Textures/_CMU14/Tiles/multizgrates/rustygrate.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTileHalf1Indestructible
-  name: "руйнована напіврешітка MultiZ 1"
+  name: MultiZ Destroyable Half Grate 1
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate1.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTileHalf2Indestructible
-  name: "руйнована напіврешітка MultiZ 2"
+  name: MultiZ Destroyable Half Grate 2
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate2.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTileHalf3Indestructible
-  name: "руйнована напіврешітка MultiZ 3"
+  name: MultiZ Destroyable Half Grate 3
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate3.png
 
 - type: tile
   parent: AU14LatticeTileIndestructible
   id: AU14LatticeTileHalf4Indestructible
-  name: "руйнована напіврешітка MultiZ 4"
+  name: MultiZ Destroyable Half Grate 4
   sprite: /Textures/_CMU14/Tiles/multizgrates/zhalfgrate4.png

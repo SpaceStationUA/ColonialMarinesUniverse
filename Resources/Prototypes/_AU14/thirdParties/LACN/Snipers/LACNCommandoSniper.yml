@@ -35,7 +35,7 @@
   parent: AU14BaseMobSpeciesOrganicLACN
   suffix: AU14, LACN
   id: AU14JobCommandoSniperTeamSniper
-  name: "снайпер коммандос ЛАКН (третя сторона)"
+  name: LACN Commando Sniper (3rd party)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -2,7 +2,7 @@
   parent: CMSurvivor
   id: RMCSurvivorAssistantManager
   name: rmc-job-name-survivor-shivas-assman
-  description: "rmc-job-description-survivor"
+  description: rmc-job-description-survivor
   ranks:
     RMCRankWeYaAssistantManager: []
   supervisors: cm-job-supervisors-we-ya
@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorPanicRoomAssistantManager
-  name: "спавнер спецпомічника менеджера панік-кімнати"
+  name: special survivor panic room assistant manager spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorAssistantManager

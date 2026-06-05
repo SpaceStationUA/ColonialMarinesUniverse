@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: FloorDeathEntity
-  name: "смерть"
+  name: death
   placement:
     mode: SnapgridCenter
     snap:

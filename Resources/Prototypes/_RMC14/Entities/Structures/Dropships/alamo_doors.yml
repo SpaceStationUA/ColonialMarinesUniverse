@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCDropshipDoorBase
   id: CMAlamoDoor
-  name: "люк екіпажу «Фалуджа»"
+  name: fallujah crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/alamo.rsi
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCDropshipDoorAftBase
   id: CMAlamoDoorAft
-  name: "вантажний люк «Фалуджа»"
+  name: fallujah cargo door
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/alamo_cargo.rsi
@@ -36,7 +36,7 @@
 - type: entity
   parent: RMCDropshipDoorPortBase
   id: CMAlamoDoorPort
-  name: "люк екіпажу «Фалуджа»"
+  name: fallujah crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/alamo_doubledoor.rsi
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCDropshipDoorStarboardBase
   id: CMAlamoDoorStarboard
-  name: "люк екіпажу «Фалуджа»"
+  name: fallujah crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/alamo_doubledoor.rsi

@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorISR
-  name: "спавнер isr-вцілілого"
+  name: survivor isr spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorISR

@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: RMCOverheadCraneTracks
   abstract: true
-  name: "рейка вантажного крана"
-  description: "Рейка, по якій рухається вантажний кран."
+  name: cargo crane track
+  description: A track for a cargo crane to move along.
   placement:
     mode: SnapgridCenter
     snap:

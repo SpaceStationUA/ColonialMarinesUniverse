@@ -54,7 +54,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVESmartGunOperator
-  name: "спавнер оператора смартгана PVE"
+  name: PVE smart gun operator spawn point
   components:
   - type: SpawnPoint
     job_id: CMPVESmartGunOperator

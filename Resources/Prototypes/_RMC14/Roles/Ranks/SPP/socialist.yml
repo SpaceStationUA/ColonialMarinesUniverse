@@ -2,19 +2,19 @@
 
 - type: rank
   id: RMCRankSPPMlts
-  name: "Міліціонер"
+  name: Militsioner
   prefix: Milit.
   paygrade: MLTS
 
 - type: rank
   id: RMCRankSPPSMlts
-  name: "Старший Міліціонер"
+  name: Starshiy Militsioner
   prefix: St. Mlts.
   paygrade: SMLTS
 
 - type: rank
   id: RMCRankSPPStrsh
-  name: "Старшина"
+  name: Starshina
   prefix: Strsh.
   paygrade: STRSH
 
@@ -22,37 +22,37 @@
 
 - type: rank
   id: RMCRankSPPRyadovoy
-  name: "Рядовий"
+  name: Ryadovoy
   prefix: Rya.
   paygrade: E1
 
 - type: rank
   id: RMCRankSPPEfreitor
-  name: "Єфрейтор"
+  name: Efreitor
   prefix: Efr.
   paygrade: E2
 
 - type: rank
   id: RMCRankSPPMladshiySerzhant
-  name: "Молодший Сержант"
+  name: Mladshiy Serzhant
   prefix: MSzht.
   paygrade: E3
 
 - type: rank
   id: RMCRankSPPSerzhant
-  name: "Сержант"
+  name: Serzhant
   prefix: Sgt.
   paygrade: E4
 
 - type: rank
   id: RMCRankSPPStarshiySerzhant
-  name: "Старший Сержант"
+  name: Starshiy Serzhant
   prefix: SSgt.
   paygrade: E5
 
 - type: rank
   id: RMCRankSPPStarshyna
-  name: "Старшина"
+  name: Starshyna
   prefix: StS.
   paygrade: E6
 
@@ -60,19 +60,19 @@
 
 - type: rank
   id: RMCRankSPPJuniorKommando
-  name: "Молодший Командо"
+  name: Junior Kommando
   prefix: JKdo.
   paygrade: E7
 
 - type: rank
   id: RMCRankSPP2ndKommando
-  name: "Командо 2-го класу"
+  name: 2nd Kommando
   prefix: 2ndKdo.
   paygrade: E8
 
 - type: rank
   id: RMCRankSPP1stKommando
-  name: "Командо 1-го класу"
+  name: 1st Kommando
   prefix: 1stKdo.
   paygrade: E9
 
@@ -80,60 +80,60 @@
 
 - type: rank
   id: RMCRankSPPMladshiyLeytenant
-  name: "Молодший Лейтенант"
+  name: Mladshiy Leytenant
   prefix: MsLt.
   paygrade: O1
 
 - type: rank
   id: RMCRankSPPStarshiyLeytenant
-  name: "Старший Лейтенант"
+  name: Starshiy Leytenant
   prefix: SrLt.
   paygrade: O2
 
 - type: rank
   id: RMCRankSPPKapitan
-  name: "Капітан"
+  name: Kapitan
   prefix: Kpt.
   paygrade: O3
 
 - type: rank
   id: RMCRankSPPMayjor
-  name: "Майор"
+  name: Mayjor
   prefix: May.
   paygrade: O4
 
 - type: rank
   id: RMCRankSPPPodpolkovnik
-  name: "Підполковник"
+  name: Podpolkovnik
   prefix: Pdk.
   paygrade: O5
 
 - type: rank
   id: RMCRankSPPPolkovnik
-  name: "Полковник"
+  name: Polkovnik
   prefix: Plk.
   paygrade: O6
 
 - type: rank
   id: RMCRankSPPGeneralMayjor
-  name: "Генерал-майор"
+  name: General Mayjor
   prefix: GenMay.
   paygrade: O7
 
 - type: rank
   id: RMCRankSPPGeneralLeytenant
-  name: "Генерал-лейтенант"
+  name: General Leytenant
   prefix: GenLt.
   paygrade: O8
 
 - type: rank
   id: RMCRankSPPGeneralPolkovnik
-  name: "Генерал-полковник"
+  name: General Polkovnik
   prefix: GenPlk.
   paygrade: O9
 
 - type: rank
   id: RMCRankSPPGeneralArmii
-  name: "Генерал Армії"
+  name: General Armii
   prefix: GenArm.
   paygrade: O10

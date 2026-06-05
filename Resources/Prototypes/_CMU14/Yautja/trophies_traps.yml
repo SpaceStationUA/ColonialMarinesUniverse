@@ -10,8 +10,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanSkullTrophy
-  name: "трофейний череп"
-  description: "Очищений череп, узятий як мисливський трофей Яутжа."
+  name: skull trophy
+  description: A cleaned skull taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -24,8 +24,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanLeftArmBoneTrophy
-  name: "трофей лівої кістки руки"
-  description: "Очищена кістка руки, узята як мисливський трофей Яутжа."
+  name: left arm bone trophy
+  description: A cleaned arm bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanRightArmBoneTrophy
-  name: "трофей правої кістки руки"
-  description: "Очищена кістка руки, узята як мисливський трофей Яутжа."
+  name: right arm bone trophy
+  description: A cleaned arm bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanLeftHandBoneTrophy
-  name: "трофей лівої кістки кисті"
-  description: "Очищена кістка кисті, узята як мисливський трофей Яутжа."
+  name: left hand bone trophy
+  description: A cleaned hand bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -66,8 +66,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanRightHandBoneTrophy
-  name: "трофей правої кістки кисті"
-  description: "Очищена кістка кисті, узята як мисливський трофей Яутжа."
+  name: right hand bone trophy
+  description: A cleaned hand bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -80,8 +80,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanLeftLegBoneTrophy
-  name: "трофей лівої кістки ноги"
-  description: "Очищена кістка ноги, узята як мисливський трофей Яутжа."
+  name: left leg bone trophy
+  description: A cleaned leg bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -94,8 +94,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanRightLegBoneTrophy
-  name: "трофей правої кістки ноги"
-  description: "Очищена кістка ноги, узята як мисливський трофей Яутжа."
+  name: right leg bone trophy
+  description: A cleaned leg bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanLeftFootBoneTrophy
-  name: "трофей лівої кістки стопи"
-  description: "Очищена кістка стопи, узята як мисливський трофей Яутжа."
+  name: left foot bone trophy
+  description: A cleaned foot bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanRightFootBoneTrophy
-  name: "трофей правої кістки стопи"
-  description: "Очищена кістка стопи, узята як мисливський трофей Яутжа."
+  name: right foot bone trophy
+  description: A cleaned foot bone taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaHumanRibcageTrophy
-  name: "трофей грудної клітки"
-  description: "Очищена грудна клітка, узята як мисливський трофей Яутжа."
+  name: ribcage trophy
+  description: A cleaned ribcage taken as a Yautja hunting trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaXenoSkullTrophy
-  name: "трофей черепа ксена"
-  description: "Череп прибульця, покритий резиновими шрамами, узятий від поваленого змія."
+  name: xeno skull trophy
+  description: A resin-scarred alien skull taken from a fallen serpent.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: CMUYautjaTrophyBase
   id: CMUYautjaXenoPeltTrophy
-  name: "трофей шкіри ксена"
-  description: "Смуга прибулецької шкіри, обробленої як мисливський трофей."
+  name: xeno pelt trophy
+  description: A strip of alien hide cured as a hunter's trophy.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaQueenSkullTrophy
-  name: "трофей черепа королеви"
+  name: queen skull trophy
   components:
   - type: Sprite
     state: queen_skull
@@ -186,7 +186,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaKingSkullTrophy
-  name: "трофей черепа короля"
+  name: king skull trophy
   components:
   - type: Sprite
     state: king_skull
@@ -194,7 +194,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaCrusherSkullTrophy
-  name: "трофей черепа розчавлювача"
+  name: crusher skull trophy
   components:
   - type: Sprite
     state: crusher_skull
@@ -202,7 +202,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaPraetorianSkullTrophy
-  name: "трофей черепа преторіанця"
+  name: praetorian skull trophy
   components:
   - type: Sprite
     state: praetorian_skull
@@ -210,7 +210,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaCorroderSkullTrophy
-  name: "трофей черепа корродера"
+  name: corroder skull trophy
   components:
   - type: Sprite
     state: corroder_skull
@@ -218,7 +218,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaDespoilerSkullTrophy
-  name: "трофей черепа осквернювача"
+  name: despoiler skull trophy
   components:
   - type: Sprite
     state: despoiler_skull
@@ -226,7 +226,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaDeaconSkullTrophy
-  name: "трофей черепа диякона"
+  name: deacon skull trophy
   components:
   - type: Sprite
     state: deacon_skull
@@ -234,7 +234,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaRavagerSkullTrophy
-  name: "трофей черепа розривача"
+  name: ravager skull trophy
   components:
   - type: Sprite
     state: ravager_skull
@@ -242,7 +242,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaBoilerSkullTrophy
-  name: "трофей черепа Бойлера"
+  name: boiler skull trophy
   components:
   - type: Sprite
     state: boiler_skull
@@ -250,7 +250,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaDefenderSkullTrophy
-  name: "трофей черепа захисника"
+  name: defender skull trophy
   components:
   - type: Sprite
     state: defender_skull
@@ -258,7 +258,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaWarriorSkullTrophy
-  name: "трофей черепа воїна"
+  name: warrior skull trophy
   components:
   - type: Sprite
     state: warrior_skull
@@ -266,7 +266,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaCarrierSkullTrophy
-  name: "трофей черепа носія"
+  name: carrier skull trophy
   components:
   - type: Sprite
     state: carrier_skull
@@ -274,7 +274,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaHivelordSkullTrophy
-  name: "трофей черепа хайвлорда"
+  name: hivelord skull trophy
   components:
   - type: Sprite
     state: hivelord_skull
@@ -282,7 +282,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaBurrowerSkullTrophy
-  name: "трофей черепа норника"
+  name: burrower skull trophy
   components:
   - type: Sprite
     state: burrower_skull
@@ -290,7 +290,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaHunterSkullTrophy
-  name: "трофей черепа мисливця"
+  name: hunter skull trophy
   components:
   - type: Sprite
     state: hunter_skull
@@ -298,7 +298,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaLurkerSkullTrophy
-  name: "трофей черепа лазуна"
+  name: lurker skull trophy
   components:
   - type: Sprite
     state: lurker_skull
@@ -306,7 +306,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaSentinelSkullTrophy
-  name: "трофей черепа вартового"
+  name: sentinel skull trophy
   components:
   - type: Sprite
     state: sentinel_skull
@@ -314,7 +314,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaSpitterSkullTrophy
-  name: "трофей черепа плювача"
+  name: spitter skull trophy
   components:
   - type: Sprite
     state: spitter_skull
@@ -322,7 +322,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaRunnerSkullTrophy
-  name: "трофей черепа бігуна"
+  name: runner skull trophy
   components:
   - type: Sprite
     state: runner_skull
@@ -330,7 +330,7 @@
 - type: entity
   parent: CMUYautjaXenoSkullTrophy
   id: CMUYautjaDroneSkullTrophy
-  name: "трофей черепа дрона"
+  name: drone skull trophy
   components:
   - type: Sprite
     state: drone_skull
@@ -338,7 +338,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaQueenPeltTrophy
-  name: "трофей шкіри королеви"
+  name: queen pelt trophy
   components:
   - type: Sprite
     state: queen_pelt
@@ -346,7 +346,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaKingPeltTrophy
-  name: "трофей шкіри короля"
+  name: king pelt trophy
   components:
   - type: Sprite
     state: king_pelt
@@ -354,7 +354,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaCrusherPeltTrophy
-  name: "трофей шкіри розчавлювача"
+  name: crusher pelt trophy
   components:
   - type: Sprite
     state: crusher_pelt
@@ -362,7 +362,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaPraetorianPeltTrophy
-  name: "трофей шкіри преторіанця"
+  name: praetorian pelt trophy
   components:
   - type: Sprite
     state: praetorian_pelt
@@ -370,7 +370,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaCorroderPeltTrophy
-  name: "трофей шкіри корродера"
+  name: corroder pelt trophy
   components:
   - type: Sprite
     state: corroder_pelt
@@ -378,7 +378,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaDespoilerPeltTrophy
-  name: "трофей шкіри осквернювача"
+  name: despoiler pelt trophy
   components:
   - type: Sprite
     state: despoiler_pelt
@@ -386,7 +386,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaDeaconPeltTrophy
-  name: "трофей шкіри диякона"
+  name: deacon pelt trophy
   components:
   - type: Sprite
     state: deacon_pelt
@@ -394,7 +394,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaRavagerPeltTrophy
-  name: "трофей шкіри розривача"
+  name: ravager pelt trophy
   components:
   - type: Sprite
     state: ravager_pelt
@@ -402,7 +402,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaBoilerPeltTrophy
-  name: "трофей шкіри Бойлера"
+  name: boiler pelt trophy
   components:
   - type: Sprite
     state: boiler_pelt
@@ -410,7 +410,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaDefenderPeltTrophy
-  name: "трофей шкіри захисника"
+  name: defender pelt trophy
   components:
   - type: Sprite
     state: defender_pelt
@@ -418,7 +418,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaWarriorPeltTrophy
-  name: "трофей шкіри воїна"
+  name: warrior pelt trophy
   components:
   - type: Sprite
     state: warrior_pelt
@@ -426,7 +426,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaCarrierPeltTrophy
-  name: "трофей шкіри носія"
+  name: carrier pelt trophy
   components:
   - type: Sprite
     state: carrier_pelt
@@ -434,7 +434,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaHivelordPeltTrophy
-  name: "трофей шкіри хайвлорда"
+  name: hivelord pelt trophy
   components:
   - type: Sprite
     state: hivelord_pelt
@@ -442,7 +442,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaBurrowerPeltTrophy
-  name: "трофей шкіри норника"
+  name: burrower pelt trophy
   components:
   - type: Sprite
     state: burrower_pelt
@@ -450,7 +450,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaHunterPeltTrophy
-  name: "трофей шкіри мисливця"
+  name: hunter pelt trophy
   components:
   - type: Sprite
     state: hunter_pelt
@@ -458,7 +458,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaLurkerPeltTrophy
-  name: "трофей шкіри лазуна"
+  name: lurker pelt trophy
   components:
   - type: Sprite
     state: lurker_pelt
@@ -466,7 +466,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaSentinelPeltTrophy
-  name: "трофей шкіри вартового"
+  name: sentinel pelt trophy
   components:
   - type: Sprite
     state: sentinel_pelt
@@ -474,7 +474,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaSpitterPeltTrophy
-  name: "трофей шкіри плювача"
+  name: spitter pelt trophy
   components:
   - type: Sprite
     state: spitter_pelt
@@ -482,7 +482,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaRunnerPeltTrophy
-  name: "трофей шкіри бігуна"
+  name: runner pelt trophy
   components:
   - type: Sprite
     state: runner_pelt
@@ -490,7 +490,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaDronePeltTrophy
-  name: "трофей шкіри дрона"
+  name: drone pelt trophy
   components:
   - type: Sprite
     state: drone_pelt
@@ -498,7 +498,7 @@
 - type: entity
   parent: CMUYautjaXenoPeltTrophy
   id: CMUYautjaLarvaPeltTrophy
-  name: "трофей шкіри личинки"
+  name: larva pelt trophy
   components:
   - type: Sprite
     state: larva_pelt
@@ -506,8 +506,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaHumanHide
-  name: "оббіловане шкіра"
-  description: "Жахливий лист шкіри, знятий під час оброблення Яутжа."
+  name: flayed hide
+  description: A grisly sheet of skin removed during Yautja butchery.
   components:
   - type: Sprite
     sprite: Objects/Consumable/Food/meat.rsi
@@ -519,8 +519,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaHumanSpine
-  name: "хребет"
-  description: "Очищений хребет, узятий від обробленого тіла."
+  name: spine
+  description: A stripped spine taken from a butchered body.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -532,8 +532,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaHumanButcheredRemains
-  name: "оброблені останки"
-  description: "Купа залишків, що залишилися після ритуального оброблення Яутжа."
+  name: butchered remains
+  description: A heap of remains left by ritual Yautja butchery.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -545,8 +545,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaXenoButcheredRemains
-  name: "оброблені залишки ксена"
-  description: "Купа залишків, забруднених кислотою, що залишилися після ритуального оброблення Яутжа."
+  name: butchered xeno remains
+  description: A heap of acid-stained remains left by ritual Yautja butchery.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -558,8 +558,8 @@
 - type: entity
   parent: CMBeltBaseStorage
   id: CMUYautjaTrophyBelt
-  name: "трофейний пояс"
-  description: "Церемоніальний пояс Яутжа для демонстрації захоплених трофеїв і ритуальних перемог."
+  name: trophy belt
+  description: A ceremonial Yautja belt for displaying claimed trophies and ritual victories.
   suffix: Yautja
   components:
   - type: Sprite
@@ -579,8 +579,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaPolishingRag
-  name: "полірувальна ганчірка"
-  description: "Тонко зіткана тканина, що використовується Яутжа для очищення і полірування кісткових трофеїв."
+  name: polishing rag
+  description: A finely woven cloth used by Yautja to clean and polish bone trophies.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi
@@ -598,8 +598,8 @@
 - type: entity
   parent: BaseItem
   id: CMUYautjaHuntingTrap
-  name: "мисливська пастка"
-  description: "Компактна прибулецька пастка-сильце, що затискає живу здобич, коли активна."
+  name: hunting trap
+  description: A compact alien snare that clamps onto living prey when armed.
   components:
   - type: Sprite
     sprite: _CMU14/Yautja/yautja_items.rsi

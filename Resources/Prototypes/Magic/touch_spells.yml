@@ -26,8 +26,8 @@
 - type: entity
   parent: BaseSmiteAction
   id: ActionSmite
-  name: "Кара"
-  description: "Миттєво розриває ціль на шматки."
+  name: Smite
+  description: Instantly gibs a target.
   components:
   - type: Action
     sound: !type:SoundPathSpecifier
@@ -53,8 +53,8 @@
 - type: entity
   parent: BaseSmiteAction
   id: ActionCluwne
-  name: "Прокляття клувна"
-  description: "Перетворює когось на клувна!"
+  name: Cluwne's Curse
+  description: Turns someone into a Cluwne!
   components:
   - type: Action
     useDelay: 120
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseSmiteAction
   id: ActionSlippery
-  name: "Слизький схил"
-  description: "Робить когось слизьким."
+  name: Slippery Slope
+  description: Make someone slippery.
   components:
   - type: Action
     useDelay: 60

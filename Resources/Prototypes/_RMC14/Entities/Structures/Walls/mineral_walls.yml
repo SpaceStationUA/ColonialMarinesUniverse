@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWallReinforced
   id: RMCWallSandstone
-  name: "стіна з пісковика"
-  description: "Стіна з обшивкою з пісковика."
+  name: sandstone wall
+  description: A wall with sandstone plating.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/stone.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCWallSandstone
   id: RMCWallSandstoneTemple
-  name: "храмова стіна з пісковика"
-  description: "Важка стіна з пісковика."
+  name: sandstone temple wall
+  description: A heavy wall of sandstone.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/stone.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: RMCWallSandstone
   id: RMCWallSandstoneTempleRuned
-  name: "рунічна храмова стіна з пісковика"
-  description: "Важка стіна з пісковика з елегантним різьбленням та рунами, викарбуваними на її поверхні."
+  name: runed sandstone temple wall
+  description: A heavy wall of sandstone, with elegant carvings and runes inscribed upon its face.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/runedstone.rsi
@@ -73,13 +73,13 @@
 - type: entity
   parent: RMCWallSandstoneTempleGrey
   id: RMCWallSandstoneMemorial
-  name: "меморіальна стіна"
+  name: memorial wall
 
 - type: entity
   parent: RMCWallSandstone
   id: RMCWallUranium
-  name: "уранова стіна"
-  description: "Стіна з урановою обшивкою. Це, мабуть, погана ідея."
+  name: uranium wall
+  description: A wall with uranium plating. This is probably a bad idea.
   components:
   - type: Sprite
     color: '#1b4506'
@@ -87,8 +87,8 @@
 - type: entity
   parent: RMCWallSandstone
   id: RMCWallUraniumBroken
-  name: "розламана уранова стіна"
-  description: "Стіна з урановою обшивкою, з якої щось витікає. Уже від погляду на неї паморочиться в голові."
+  name: broken uranium wall
+  description: A uranium plated wall that's leaking something. Just looking at it makes you dizzy.
   components:
   - type: Sprite
     color: '#660202'
@@ -96,8 +96,8 @@
 - type: entity
   parent: CMBaseWall
   id: RMCWallGold
-  name: "золота стіна"
-  description: "Стіна із золотою обшивкою. Стиль!"
+  name: gold wall
+  description:  A wall with gold plating. Swag!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/gold.rsi
