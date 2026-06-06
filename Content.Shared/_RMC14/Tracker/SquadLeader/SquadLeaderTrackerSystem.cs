@@ -738,7 +738,12 @@ public sealed partial class SquadLeaderTrackerSystem : EntitySystem
         }
 
         if (!hasSeparator)
-            return char.ToUpperInvariant(value[0]) + value[1..];
+        {
+            var plainBuilder = new StringBuilder(value.Length);
+            plainBuilder.Append(char.ToUpperInvariant(value[0]));
+            plainBuilder.Append(value, 1, value.Length - 1);
+            return plainBuilder.ToString();
+        }
 
         var builder = new StringBuilder(value.Length);
         var nextUpper = true;
