@@ -1,8 +1,8 @@
 - type: entity
   id: ActionXenoRest
   parent: ActionXenoBase
-  name: Rest
-  description: Lie down to regenerate health more quickly while on weeds. [color=red]Your rest keybind will also activate this action, Shift+R by default.[/color]
+  name: "Відпочинок"
+  description: "Лягти, щоб швидше відновлювати здоров'я на бур'яні. [color=red]Ваша клавіша відпочинку також активує цю дію, Shift+R за замовчуванням.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -16,8 +16,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoRest
-  name: Rest
-  description: Lie down to regenerate health more quickly while on weeds. [color=red]Your rest keybind will also activate this action, Shift+R by default.[/color]
+  name: "Відпочинок"
+  description: "Лягти, щоб швидше відновлювати здоров'я на бур'яні. [color=red]Ваша клавіша відпочинку також активує цю дію, Shift+R за замовчуванням.[/color]"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   id: ActionXenoWatch
   parent: ActionXenoBase
-  name: Watch Xenonid
+  name: "Спостерігати за Ксенонідом"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -39,7 +39,7 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoWatch
-  name: Watch Xenonid
+  name: "Спостерігати за Ксенонідом"
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -48,8 +48,8 @@
 - type: entity
   id: ActionXenoPheromones
   parent: ActionXenoBase
-  name: Emit Pheromones (35) # TODO RMC14 proper plasma costs
-  description: Gives a buff to nearby xenonids. [color=cyan]Consumes 2.5 plasma per second.[/color]
+  name: "Випустити Феромони (35)" # TODO RMC14 proper plasma costs
+  description: "Дає бафф сусіднім ксенонідам. [color=cyan]Споживає 2,5 плазми на секунду.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoPheromones
-  name: Emit Pheromones
-  description: Gives a buff to nearby xenonids.
+  name: "Випустити Феромони"
+  description: "Дає бафф сусіднім ксенонідам."
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -73,8 +73,8 @@
 - type: entity
   id: ActionXenoHide
   parent: ActionXenoBase
-  name: Hide
-  description: Hide under tables and other objects.
+  name: "Сховатися"
+  description: "Сховатися під столами та іншими об'єктами."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -96,8 +96,8 @@
 - type: entity
   id: ActionXenoToggleCrest
   parent: ActionXenoBase
-  name: Toggle Crest Defense
-  description: Increases your resistance to direct damage but slows you down. You count as one size bigger while you're crest is lowered.
+  name: "Перемкнути Захист Гребеня"
+  description: "Збільшує вашу опірність прямій шкоді, але уповільнює вас. Ви рахуєтесь на один розмір більшим, поки гребінь опущений."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -119,8 +119,8 @@
 - type: entity
   id: ActionXenoFortify
   parent: ActionXenoBase
-  name: Fortify
-  description: Become immobile and impassable to mobs, dramatically increasing your resistance to direct damage and explosions. Damage is further reduced from the direction you are facing. You can't be stunned by minor explosions. You count as two sizes bigger while fortified and still can attack structures or use tail slam.
+  name: "Зміцнитися"
+  description: "Стати нерухомим і непрохідним для мобів, драматично збільшуючи опірність прямій шкоді і вибухам. Шкода далі знижена з напрямку, куди ви дивитесь. Вас не оглушать слабкі вибухи. Ви рахуєтесь на два розміри більшим, поки зміцнені, і все ще можете атакувати структури або використовувати хвостовий слем."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -142,14 +142,14 @@
 - type: entity
   id: ActionXenoFortifySteelcrest
   parent: ActionXenoFortify
-  name: Fortify
-  description: Become much slower, increasing your resistance to direct damage and explosions. Damage is greatly reduced from the direction you are facing. You count as two sizes bigger while fortified and still can attack structures or use tail slam, but your slashes do less damage.
+  name: "Зміцнитися"
+  description: "Стати набагато повільнішим, збільшуючи опірність прямій шкоді і вибухам. Шкода значно знижена з напрямку, куди ви дивитесь. Ви рахуєтесь на два розміри більшим, поки зміцнені, і все ще можете атакувати структури або використовувати хвостовий слем, але ваші удари завдають менше шкоди."
 
 - type: entity
   id: ActionXenoResinWalker
   parent: ActionXenoBase
-  name: Resin Walker (50) # TODO RMC14 proper plasma costs
-  description: Run faster on weeds. [color=cyan]Consumes 30 plasma per second.[/color]
+  name: "Резиновий Ходок (50)" # TODO RMC14 proper plasma costs
+  description: "Бігайте швидше на бур'яні. [color=cyan]Споживає 30 плазми на секунду.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -171,7 +171,7 @@
 - type: entity
   id: ActionXenoZoom
   parent: ActionXenoBase
-  name: Toggle Long-Range Sight
+  name: "Перемкнути Дальнобійний Зір"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -193,8 +193,8 @@
 - type: entity
   id: ActionXenoWordQueen
   parent: ActionXenoBase
-  name: Word of the Queen (50) # TODO RMC14 proper plasma costs
-  description: Sends a message to all members of your hive.
+  name: "Слово Королеви (50)" # TODO RMC14 proper plasma costs
+  description: "Надсилає повідомлення всім членам вашого вулика."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -210,8 +210,8 @@
 - type: entity
   id: ActionXenoGrowOvipositor
   parent: ActionXenoBase
-  name: Grow Ovipositor (700) # TODO RMC14 proper plasma costs
-  description: Become immobile and start laying eggs which will produce children. Has a 5 minute cooldown. [color=red]You must be in ovipositor mode for other xenonids to gain evolution points after round-start![/color]
+  name: "Виростити Овипозитор (700)" # TODO RMC14 proper plasma costs
+  description: "Стати нерухомим і почати відкладати яйця, що вироблятимуть дітей. Має 5-хвилинну перезарядку. [color=red]Ви маєте бути в режимі овипозитора, щоб інші ксеноніди отримували очки еволюції після початку раунду![/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -225,8 +225,8 @@
 - type: entity
   parent: CMGuidebookActionXenoBase
   id: RMCGuidebookActionXenoGrowOvipositor
-  name: Grow Ovipositor
-  description: Become immobile and start laying eggs which will produce parasites.
+  name: "Виростити Овипозитор"
+  description: "Стати нерухомим і почати відкладати яйця, що вироблятимуть паразитів."
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite
@@ -235,8 +235,8 @@
 - type: entity
   id: ActionXenoTurnInvisible
   parent: ActionXenoBase
-  name: Turn Invisible (20) # TODO RMC14 proper plasma costs
-  description: Become partially invisible for 30 seconds, or until you either damage or attempt to devour an enemy. Can be toggled off to become visible again, with a refund of 90% remaining cloak time. Increases your movement speed by 15% until the ability expires.
+  name: "Стати Невидимим (20)" # TODO RMC14 proper plasma costs
+  description: "Стати частково невидимим на 30 секунд або поки ви або не завдасте шкоди, або не спробуєте поглинути ворога. Можна вимкнути, щоб знову стати видимим, з поверненням 90% часу маскування. Збільшує вашу швидкість руху на 15% до закінчення здібності."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -257,8 +257,8 @@
 - type: entity
   id: ActionXenoDefensiveShield
   parent: ActionXenoBase
-  name: Defensive Shield (50)
-  description: Encase yourself in a protective shield that absorbs 100 damage for 7 seconds. Reduces incoming damage by 8 per hit. Reflects enemy projectiles while active. [color=red]Grants brief explosion immunity on activation.[/color]
+  name: "Захисний щит (50)"
+  description: "Огорніть себе захисним щитом, що поглинає 100 одиниць шкоди протягом 7 секунд. Зменшує вхідну шкоду на 8 за кожен удар. Відбиває ворожі снаряди, поки активний. [color=red]Надає короткочасний імунітет до вибухів при активації.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -280,8 +280,8 @@
 - type: entity
   id: ActionXenoRetrieveEgg
   parent: ActionXenoBase
-  name: Retrieve Egg
-  description: Retrieves an egg from your storage if you have an empty hand. Using this on an unplanted egg will pick up all nearby unplanted eggs. Using an egg in hand will put it into your storage.
+  name: "Дістати Яйце"
+  description: "Дістає яйце з вашого сховища, якщо ваша рука порожня. Використання цього на непосадженому яйці підбере всі сусідні непосаджені яйця. Використання яйця в руці помістить його у ваше сховище."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -307,8 +307,8 @@
 - type: entity
   id: ActionXenoThrowParasite
   parent: ActionXenoBase
-  name: Carrier's Bond
-  description: Retrieves a child from your storage if you have an empty hand. Using this on a child on the ground will pickup all nearby children. Targeting a tile with a child in hand will throw it up to 4 tiles away, where the child will be stunned for 5 seconds. Using a child in hand will add it to your storage. [color=green]Children won't die due to time while you hold or carry them.[/color]
+  name: "Зв'язок Носія"
+  description: "Дістає дитину з вашого сховища, якщо ваша рука порожня. Використання цього на дитині на землі підбере всіх сусідніх дітей. Цілячись на плитку з дитиною в руці, ви кинете її до 4 плиток, де дитина буде оглушена на 5 секунд. Використання дитини в руці додасть її у ваше сховище. [color=green]Діти не вмирають з часу, поки ви тримаєте або носите їх.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -335,8 +335,8 @@
 - type: entity
   id: ActionXenoParasiteReserve
   parent: ActionXenoBase
-  name: Set Child Reserve
-  description: Sets your child Reserves. Observers cannot join as a stored child if your children stored is less than or equal to your reserve.
+  name: "Встановити Резерв Дітей"
+  description: "Встановлює резерв ваших дітей. Спостерігачі не можуть приєднатися як збережена дитина, якщо ваших збережених дітей менше або дорівнює резерву."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -358,7 +358,7 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoManageHive
-  name: Manage The Hive
+  name: "Керувати Вуликом"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -372,8 +372,8 @@
 - type: entity
   id: ActionXenoDodge
   parent: ActionXenoBase
-  name: Dodge (200)
-  description: Gain a speed boost for 15 seconds and move through allies and enemies unimpeded. Your speed is doubled near standing enemies.
+  name: "Ухилитися (200)"
+  description: "Отримайте прискорення на 7 секунд і пересувайтеся через союзників і ворогів безперешкодно. Ваша швидкість подвоюється поблизу стоячих ворогів."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -389,8 +389,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoBurrow
-  name: Burrow
-  description: Burrow underground preventing you from getting hit from all sources. Once burrowed click a tile to move to it and resurface after a doafter that depends on distance.
+  name: "Закопатися"
+  description: "Закопайте під землю, запобігаючи отриманню ушкоджень з усіх джерел. Після закопування натисніть на плитку, щоб переміститися до неї і виринути після доафтер, що залежить від відстані."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -418,8 +418,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoSoak
-  name: Soak (20)
-  description: Soak in damage for 6 seconds. If you take 140 damage or higher, you regen 75 health and your tail slam gets refreshed.
+  name: "Поглинання (20)"
+  description: "Витримуйте шкоду 6 секунд. Якщо ви отримаєте 140+ шкоди, ви відновите 75 ХП і ваш хвостовий слем буде оновлений."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -434,14 +434,14 @@
 - type: entity
   parent: ActionXenoSoak
   id: ActionXenoCrusherSoak
-  name: Soak (20)
-  description: Brace yourself for incoming damage. If you absorb 240 damage within 6 seconds, heal 120 health and reset your tail stab cooldown. [color=red]If the threshold is not reached, the effect expires with no reward.[/color]
+  name: "Поглинання (20)"
+  description: "Приготуйтеся до вхідної шкоди. Якщо ви поглинете 240 одиниць шкоди протягом 6 секунд, відновіть 120 здоров'я та скиньте перезарядку удару хвостом. [color=red]Якщо поріг не досягнуто, ефект завершується без винагороди.[/color]"
 
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoEmpower
-  name: Empower (50)
-  description: On first activation it, gain a small amount of shield. After 6 seconds or using it again, get empowered based on surrounding enemies (max 6), gaining shield from each. If you empowered from at least 3 targets, you become Super-Empowered, gaing additional damage on melee attacks, and changing how some of your other abilities work.
+  name: "Підсилити (50)"
+  description: "При першій активації отримуєте невелику кількість щита. Через 6 секунд або при повторному використанні підсилюєтеся залежно від оточуючих ворогів (макс. 6), отримуючи щит від кожного. Якщо ви підсилилися від мінімум 3 цілей, ви станете Супер-Підсиленим, отримавши додаткову шкоду атак ближнього бою і змінивши роботу деяких інших ваших здібностей."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -463,8 +463,8 @@
 - type: entity
   parent: ActionXenoBase
   id: ActionXenoGenerateEggs
-  name: Generate Eggs (50)
-  description: Generate an egg every 30 seconds, which goes into your storage. [color=cyan]Consumes 15 plasma every 2 seconds.[/color]
+  name: "Виробляти Яйця (50)"
+  description: "Виробляє яйце кожні 30 секунд, яке потрапляє у ваше сховище. [color=cyan]Споживає 15 плазми кожні 2 секунди.[/color]"
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -485,8 +485,8 @@
 - type: entity
   id: ActionXenoSelfImmolate
   parent: ActionXenoBase
-  name: Self-Immolate (50)
-  description: Ignite yourself and build heat for Heatshield abilities.
+  name: "Самозаймання (50)"
+  description: "Підпаліть себе й накопичуйте жар для здібностей Теплощита."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -503,8 +503,8 @@
 - type: entity
   id: ActionXenoThermoregulation
   parent: ActionXenoBase
-  name: Thermoregulation (40)
-  description: Convert active flames into a short burst of speed, then extinguish yourself.
+  name: "Терморегуляція (40)"
+  description: "Перетворіть активне полум’я на короткий ривок швидкості, а потім загасіть себе."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -521,8 +521,8 @@
 - type: entity
   id: ActionXenoStoreAcid
   parent: ActionXenoBase
-  name: Store Acid (150)
-  description: Store an acid charge, lowering your armor until the charge is spent to hasten an offensive acid ability.
+  name: "Накопичити кислоту (150)"
+  description: "Накопичте кислотний заряд, знижуючи свою броню, доки заряд не буде витрачено для пришвидшення наступної кислотної атаки."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -539,8 +539,8 @@
 - type: entity
   id: ActionXenoEncasedPlates
   parent: ActionXenoBase
-  name: Encased Plates
-  description: Toggle a slower defensive stance with stronger frontal plates.
+  name: "Укріплені пластини"
+  description: "Перемкніть повільнішу оборонну стійку з міцнішими фронтальними пластинами."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -555,8 +555,8 @@
 - type: entity
   id: ActionXenoReflectiveShield
   parent: ActionXenoBase
-  name: Reflective Shield
-  description: Brace your plates to reflect incoming bullets for a short time.
+  name: "Відбивний щит"
+  description: "Напружте пластини, щоб на короткий час відбивати вхідні кулі."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -571,8 +571,8 @@
 - type: entity
   id: ActionXenoSelectChemical
   parent: ActionXenoBase
-  name: Select Chemical
-  description: Select the chemical produced by your alchemist glands.
+  name: "Вибрати хімікат"
+  description: "Виберіть хімікат, який вироблятимуть ваші алхімічні залози."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -586,8 +586,8 @@
 - type: entity
   id: ActionXenoProduceChemical
   parent: ActionXenoBase
-  name: Produce Chemical (50)
-  description: Convert plasma into the selected alchemical stockpile.
+  name: "Виробити хімікат (50)"
+  description: "Перетворіть плазму на запас вибраного алхімічного хімікату."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -604,8 +604,8 @@
 - type: entity
   id: ActionXenoRemoveChemical
   parent: ActionXenoBase
-  name: Purge Chemical
-  description: Purge the selected alchemical stockpile.
+  name: "Очистити хімікат"
+  description: "Очистіть вибраний алхімічний запас."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -619,8 +619,8 @@
 - type: entity
   id: ActionXenoCarrionMantle
   parent: ActionXenoBase
-  name: Carrion Mantle
-  description: Spend flesh resin to mantle yourself or a hivemate in hardened carrion.
+  name: "Мантія падла"
+  description: "Витратьте плотську смолу, щоб огорнути себе або члена вулика затверділим падлом."
   components:
   - type: Action
     itemIconStyle: NoItem

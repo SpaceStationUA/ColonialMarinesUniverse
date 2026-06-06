@@ -84,7 +84,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORadvisor
-  name: Spawn Point GOVFOR Advisor
+  name: "точка появи радника ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORadvisor

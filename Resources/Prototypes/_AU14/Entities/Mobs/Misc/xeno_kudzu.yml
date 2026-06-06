@@ -1,9 +1,9 @@
 - type: entity
   parent: Kudzu
   id: CMUXenoKudzu
-  name: roots
+  name: "корені"
   suffix: Xeno, Kudzu
-  description: A weird, rapidly growing cluster of roots.
+  description: "Дивне скупчення коренів, що швидко росте."
   components:
   - type: Sprite
     drawdepth: HighFloorObjects
@@ -58,9 +58,9 @@
 - type: entity
   parent: BaseStructure
   id: CMUSentryXenoKudzu
-  name: xeno turret
+  name: "ксено-турель"
   suffix: Xeno, Kudzu
-  description: Shoots 9mm acid projectiles.
+  description: "Стріляє 9mm кислотними снарядами."
   components:
   - type: Clickable
   - type: InteractionOutline
@@ -153,8 +153,8 @@
 - type: entity
   parent: CMUSentryXenoKudzu
   id: CMUSentryXenoKudzuBig
-  name: big xeno turret
-  description: Shoots .700in acid projectiles.
+  name: "велика ксено-турель"
+  description: "Стріляє .700in кислотними снарядами."
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/Turrets/xenoturretbig.rsi
@@ -199,7 +199,7 @@
 - type: entity
   parent: BulletAcid
   id: CMUBulletAcidBig
-  name: big acid spit
+  name: "великий кислотний плювок"
   categories: [ HideSpawnMenu ]
   components:
   - type: Fixtures

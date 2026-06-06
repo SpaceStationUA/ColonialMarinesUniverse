@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCGooeyGreyMass
-  name: gooey grey mass
-  description: It looks like a melted... something.
+  name: "липка сіра маса"
+  description: "Виглядає як розтоплене... щось."
   placement:
     mode: SnapgridCenter
   components:

@@ -45,7 +45,7 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesSGO
-  name: royal crown marines ghost role smart gun operator
+  name: "королівські морпіхи корони привид-роль оператора смартгана"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

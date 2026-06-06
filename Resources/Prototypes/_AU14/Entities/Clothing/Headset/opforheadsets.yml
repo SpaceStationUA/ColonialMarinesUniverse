@@ -2,14 +2,14 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyOpfor
-  name: OPFOR encryption key
-  description: An encryption key used to communicate on the OPFOR channel, it is automatically assigned the right channel.
+  name: "ключ шифрування ОПФОР"
+  description: "Ключ шифрування для зв'язку на каналі ОПФОР, відповідний канал призначається автоматично."
 
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforBravo
-  name: OPFOR Bravo encryption key
-  description: An encryption key used to communicate on the OPFOR Bravo channel.
+  name: "ключ шифрування ОПФОР Браво"
+  description: "Ключ шифрування для зв'язку на каналі ОПФОР Браво."
   components:
   - type: EncryptionKey
     channels:
@@ -19,8 +19,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforCharlie
-  name: OPFOR Charlie encryption key
-  description: An encryption key used to communicate on the OPFOR Charlie channel.
+  name: "ключ шифрування ОПФОР Чарлі"
+  description: "Ключ шифрування для зв'язку на каналі ОПФОР Чарлі."
   components:
   - type: EncryptionKey
     channels:
@@ -30,8 +30,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforCommand
-  name: OPFOR Command encryption key
-  description: An encryption key used to communicate on all available OPFOR channels.
+  name: "ключ шифрування командування ОПФОР"
+  description: "Ключ шифрування для зв'язку на всіх доступних каналах ОПФОР."
   components:
   - type: EncryptionKey
     channels:
@@ -47,8 +47,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforCommandOnly
-  name: OPFOR Command-only encryption key
-  description: An encryption key used to communicate on the OPFOR Command channels.
+  name: "ключ шифрування лише командування ОПФОР"
+  description: "Ключ шифрування для зв'язку на каналах командування ОПФОР."
   components:
   - type: EncryptionKey
     channels:
@@ -58,8 +58,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforIntel
-  name: OPFOR Intel encryption key
-  description: An encryption key used to communicate on the OPFOR Intel channel.
+  name: "ключ шифрування розвідки ОПФОР"
+  description: "Ключ шифрування для зв'язку на каналі розвідки ОПФОР."
   components:
   - type: EncryptionKey
     channels:
@@ -69,8 +69,8 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforJTAC
-  name: OPFOR JTAC encryption key
-  description: An encryption key used to communicate on the OPFOR ATC channel.
+  name: "ключ шифрування ОПФОР УПР"
+  description: "Ключ шифрування для зв'язку на каналі УПР ОПФОР."
   components:
   - type: EncryptionKey
     channels:
@@ -79,7 +79,7 @@
 - type: entity
   parent: AU14EncryptionKeyOpfor
   id: AU14EncryptionKeyOpforMILP
-  name: OPFOR MP encryption key
+  name: "ключ шифрування ВП ОПФОР"
   components:
   - type: EncryptionKey
     channels:
@@ -89,8 +89,8 @@
 - type: entity
   parent: RMCHeadsetShip
   id: AU14HeadsetOpforMarine
-  name: OPFOR section radio headset
-  description: This is used by OPFOR personnel to communicate on the radio.
+  name: "секційна радіогарнітура ОПФОР"
+  description: "Використовується персоналом ОПФОР для радіозв'язку."
   components:
   - type: Sprite
     state: generic_headset
@@ -110,8 +110,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforCommand
-  name: OPFOR Command radio headset
-  description: This is used by OPFOR command members to communicate on the radio.
+  name: "радіогарнітура командування ОПФОР"
+  description: "Використовується членами командування ОПФОР для радіозв'язку."
   components:
   - type: ContainerFill
     containers:
@@ -127,8 +127,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforMarineSL
-  name: OPFOR SL radio headset
-  description: This is used by OPFOR section leaders to communicate on the radio.
+  name: "радіогарнітура командира секції ОПФОР"
+  description: "Використовується командирами секцій ОПФОР для радіозв'язку."
   components:
   - type: ContainerFill
     containers:
@@ -140,8 +140,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforMarineFTL
-  name: OPFOR FTL radio headset
-  description: This is used by OPFOR fireteam leaders to communicate on the radio.
+  name: "радіогарнітура командира бойової групи ОПФОР"
+  description: "Використовується командирами бойових груп ОПФОР для радіозв'язку."
   components:
   - type: ContainerFill
     containers:
@@ -152,8 +152,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforAuxiliary
-  name: OPFOR Auxiliary support radio headset
-  description: This is used by OPFOR auxiliary support personnel to communicate on the radio.
+  name: "радіогарнітура допоміжної підтримки ОПФОР"
+  description: "Використовується персоналом допоміжної підтримки ОПФОР для радіозв'язку."
   components:
   - type: ContainerFill
     containers:
@@ -165,8 +165,8 @@
 - type: entity
   parent: AU14HeadsetOpforMarine
   id: AU14HeadsetOpforMarineMP
-  name: OPFOR MP radio headset
-  description: This is used by OPFOR military police to communicate on the radio.
+  name: "радіогарнітура ВП ОПФОР"
+  description: "Використовується військовою поліцією ОПФОР для радіозв'язку."
   components:
   - type: ContainerFill
     containers:

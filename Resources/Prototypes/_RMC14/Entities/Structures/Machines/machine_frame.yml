@@ -81,7 +81,7 @@
 - type: entity
   parent: CMMachineFrameUnfinished
   id: RMCComputerFrameUnfinished
-  name: computer frame
+  name: "каркас комп'ютера"
   suffix: RMC14, Unfinished
   placement:
     mode: SnapgridCenter

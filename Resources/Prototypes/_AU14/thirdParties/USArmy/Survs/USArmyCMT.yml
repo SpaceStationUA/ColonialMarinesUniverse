@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyCMT
-  name: US Army Combat Medical Technician (Surv)
+  name: "бойовий медичний технік армії США (виж.)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

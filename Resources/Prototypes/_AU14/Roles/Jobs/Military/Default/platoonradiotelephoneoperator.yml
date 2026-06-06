@@ -82,7 +82,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORRadioTelephoneOperator
-  name: Spawn Point GOVFOR Radio Telephone Operator
+  name: "точка появи радіотелефоніста ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORRadioTelephoneOperator

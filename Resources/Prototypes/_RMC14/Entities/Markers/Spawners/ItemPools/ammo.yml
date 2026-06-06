@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCItemPoolBase
-  name: survivor ammo pool
+  name: "пул боєприпасів вцілілого"
   suffix: Base
   abstract: true
   components:
@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCItemPoolBase
   id: RMCItemPoolBuckshot
-  name: survivor ammo pool
+  name: "пул боєприпасів вцілілого"
   suffix: Buckshot
   components:
   - type: Sprite

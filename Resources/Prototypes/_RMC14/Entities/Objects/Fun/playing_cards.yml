@@ -3,8 +3,8 @@
   parent: BaseItem
   id: RMCPlayingCardBase
   categories: [ HideSpawnMenu ]
-  name: Playing card
-  description: A standard playing card.
+  name: "Гральна карта"
+  description: "Стандартна гральна карта."
   components:
   - type: PlayingCard
   - type: Sprite
@@ -23,8 +23,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPlayingCardHand
-  name: Hand of cards
-  description: A hand of playing cards.
+  name: "Рука з картами"
+  description: "Рука з гральними картами."
   categories: [ HideSpawnMenu ]
   components:
   - type: PlayingCardHand
@@ -43,9 +43,9 @@
 - type: entity
   parent: BaseItem
   id: RMCPlayingCardDeck
-  name: Deck of cards
+  name: "Колода карт"
   suffix: RMC
-  description: I swear the game was called Goldfish!
+  description: "Клянуся, гра називалася «Золота рибка»!"
   components:
   - type: PlayingCardDeck
     cardPrototype: RMCPlayingCard

@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPARTCombatSynth
-  name: Prodigy Yankee Combat Synthetic
+  name: "Бойовий синтетик Prodigy Yankee"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPARTCombatSynth
   whitelisted: true
@@ -87,7 +87,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesSyntheticProdigy
   id: AU14JobProdigyPARTCombatSynth
-  name: Prodigy Yankee Combat Synthetic (AU14, 3rd Party)
+  name: "Бойовий синтетик Prodigy Yankee (AU14, 3-тя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCKeycardDevice
-  name: keycard authentication device
-  description: This device is used to trigger station functions, which require multiple swipes of an ID card to authenticate.
+  name: "пристрій автентифікації картою"
+  description: "Цей пристрій використовується для запуску функцій станції, що вимагають кількох прокатувань ID-карти для автентифікації."
   placement:
     mode: SnapgridCenter
   components:

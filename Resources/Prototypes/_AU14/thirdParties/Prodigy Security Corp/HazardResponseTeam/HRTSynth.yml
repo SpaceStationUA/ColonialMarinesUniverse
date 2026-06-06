@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobHRTPartySynthetic
-  name: Prodigy Hazard Support Synthetic
+  name: "Синтетик підтримки групи реагування на небезпеки Prodigy"
   description: au14-prodigyhazard-description
   playTimeTracker: AU14JobHRTPartySyntheticTracker
   whitelisted: true
@@ -87,7 +87,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesSyntheticProdigy
   id: AU14JobHRTPartySynthetic
-  name: Prodigy Hazard Support Synthetic (AU14, 3rd Party)
+  name: "Синтетик підтримки групи реагування на небезпеки Prodigy (AU14, 3-тя сторона)"
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

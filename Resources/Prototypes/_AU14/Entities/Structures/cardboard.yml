@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: AU14L4D2cardboardcutoutjohnnywayne
-  name: Johnny Wayne Jr. cardboard cutout
-  description: A cardboard cutout of famous UA stockcar racer Johnny Wayne Jr. The real him spawns every 15 days.
+  name: "картонна фігура Джонні Вейна-молодшого"
+  description: "Картонна фігура знаменитого автогонщика Об’єднаних Америк Джонні Вейна-молодшого. Справжній він з’являється кожні 15 днів."
   components:
   - type: Anchorable
   - type: Transform

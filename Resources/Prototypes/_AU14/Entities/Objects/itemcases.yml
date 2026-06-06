@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseSentry
-  name: 571-C sentry gun case
-  description: A gun case containing the 571-C sentry unit and a spare drum.
+  name: "кейс турелі 571-C"
+  description: "Збройовий кейс, що містить турельний блок 571-C і запасний барабан."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/sentry.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseSentryMini
-  name: 512-M mini sentry gun case
-  description: A gun case containing the 512-M sentry unit and a spare drum.
+  name: "кейс мінітурелі 512-M"
+  description: "Збройовий кейс, що містить турельний блок 512-M і запасний барабан."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/sentry.rsi
@@ -55,8 +55,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseSentrySniper
-  name: 725-D sniper sentry gun case
-  description: A gun case containing the 725-D sniper sentry unit and a spare drum.
+  name: "кейс снайперської турелі 725-D"
+  description: "Збройовий кейс, що містить снайперський турельний блок 725-D і запасний барабан."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/sentry.rsi
@@ -82,8 +82,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseSentryShotgun
-  name: 12-G shotgun sentry gun case
-  description: A gun case containing the 12-G shotgun sentry unit and a spare drum.
+  name: "кейс дробової турелі 12-G"
+  description: "Збройовий кейс, що містить дробовий турельний блок 12-G і запасний барабан."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/sentry.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseSentryFlamer
-  name: 55-FA assault sentry flamer case
-  description: A gun case containing the 55-FA assault sentry unit and a spare drum.
+  name: "кейс штурмового турельного вогнемета 55-FA"
+  description: "Збройовий кейс, що містить штурмовий турельний блок 55-FA і запасний барабан."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/sentry.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: RMCBasePVEEquipmentCase
   id: AU14CaseSentryFlamerMini
-  name: 45-FM mini sentry flamer case
-  description: A gun case containing the 45-FM mini sentry unit and a spare drum.
+  name: "кейс мінітурельного вогнемета 45-FM"
+  description: "Збройовий кейс, що містить мінітурельний блок 45-FM і запасний барабан."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/PVE_Cases/sentry.rsi

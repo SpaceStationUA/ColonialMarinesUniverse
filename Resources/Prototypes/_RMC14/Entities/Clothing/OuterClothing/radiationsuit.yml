@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseArmor
   id: RMCSuitRadiation
-  name: radiation suit
-  description: "A suit that protects against radiation. Label: Made with lead, do not eat insulation."
+  name: "радіаційний костюм"
+  description: "Костюм, що захищає від радіації. Етикетка: Зроблено зі свинцем, не їсти ізоляцію."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/radiation_suit.rsi
@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCSuitRadiation
   id: RMCSuitTychoRadiationSuit
-  name: Tycho 4000 radiation suit
-  description: The burn-resistant Weyland-Yutani Tycho 4000 Radiation Protection Suit. Lead-lined, this heavy piece of PPE must be worn with its respective gloves, boots, and radiation hood.
+  name: "радіаційний костюм Tycho 4000"
+  description: "Жаростійкий радіаційно-захисний костюм Вейланд-Ютані Tycho 4000. Підбитий свинцем, цей важкий елемент ЗІЗ потрібно носити з відповідними рукавицями, чоботами та радіаційним каптуром."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/radsuit_weya.rsi

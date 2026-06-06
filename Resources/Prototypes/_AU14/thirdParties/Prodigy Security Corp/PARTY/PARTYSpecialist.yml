@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPartySpecialist
-  name: Prodigy Yankee Weapon Specialist
+  name: "Збройовий фахівець Prodigy Yankee"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartySpecialistTracker
   ranks:
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYProdigyPartySpecialist
-  name: Prodigy Yankee Weapon Specialist (3rd party)
+  name: "Збройовий фахівець Prodigy Yankee (3-тя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -54,7 +54,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Prodigy Yankee Weapon Specialist
+    name: "Збройовий фахівець Prodigy Yankee"
     description: au14-prodigyparty-description
     reregister: false
     job: AU14JobProdigyPartySpecialist

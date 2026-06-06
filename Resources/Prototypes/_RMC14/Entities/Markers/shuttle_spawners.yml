@@ -1,9 +1,9 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerShuttle
-  name: shuttle spawner
+  name: "спавнер шатлу"
   suffix: Generic
-  description: Defines a location to spawn a shuttle in.
+  description: "Визначає місце спавну шатлу."
   placement:
     mode: SnapgridCenter
   components:

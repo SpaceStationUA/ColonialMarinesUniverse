@@ -1,8 +1,8 @@
 - type: entity
   parent: PartRodMetal
   id: CMRodMetal
-  name: metal rod
-  description: Some rods. Can be used for building, or something.
+  name: "металевий стрижень"
+  description: "Кілька стрижнів. Можна використовувати для будівництва, чи чогось такого."
   suffix: Filled
   components:
   - type: Sprite
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMRodMetal
   id: CMRodMetal10
-  name: metal rod
+  name: "металевий стрижень"
   suffix: "10"
   components:
   - type: Sprite
@@ -63,7 +63,7 @@
 - type: entity
   parent: CMRodMetal
   id: CMRodMetal1
-  name: metal rod
+  name: "металевий стрижень"
   suffix: Single
   components:
   - type: Sprite
@@ -74,8 +74,8 @@
 - type: entity
   parent: CMRodMetal
   id: CMRodPlasteel
-  name: plasteel rod
-  description: Some plasteel rods. Can be used for building sturdier structures and objects.
+  name: "пластосталевий стрижень"
+  description: "Кілька пластосталевих стрижнів. Можна використовувати для будівництва міцніших структур та об'єктів."
   suffix: Filled
   components:
   - type: PhysicalComposition
@@ -105,7 +105,7 @@
 - type: entity
   parent: CMRodPlasteel
   id: CMRodPlasteel10
-  name: plasteel rod
+  name: "пластосталевий стрижень"
   suffix: "10"
   components:
   - type: Sprite
@@ -116,7 +116,7 @@
 - type: entity
   parent: CMRodPlasteel
   id: CMRodPlasteel1
-  name: plasteel rod
+  name: "пластосталевий стрижень"
   suffix: Single
   components:
   - type: Sprite

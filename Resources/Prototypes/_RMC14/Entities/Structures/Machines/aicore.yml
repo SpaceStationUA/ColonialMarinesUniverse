@@ -1,7 +1,7 @@
 - type: entity
   id: RMCAICore
-  name: ARES v3.2
-  description: This is the artificial intelligence system for the UNS Almayer. Like many other military-grade AI systems, this one was manufactured by We-Yu.
+  name: "ARES v3.2"
+  description: "Це система штучного інтелекту корабля «Алмаєр» ООН. Як і багато інших військових систем ШІ, цю виготовила «Ве-Я»."
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -44,8 +44,8 @@
 
 - type: entity
   id: RMCAICoreProcessor
-  name: ARES Processor
-  description: An external processor for ARES, used to process vast amounts of information.
+  name: "Процесор ARES"
+  description: "Зовнішній процесор для ARES, що використовується для обробки величезних обсягів інформації."
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -101,8 +101,8 @@
 - type: entity
   id: RMCAICoreProcessorBioscan
   parent: RMCAICoreProcessor
-  name: ARES Processor (Bioscan)
-  description: The external component of ARES' Bioscan systems. Without this, the UNS Almayer would be incapable of running bioscans!
+  name: "Процесор ARES (Біоскан)"
+  description: "Зовнішній компонент систем біосканування ARES. Без цього корабель «Алмаєр» ООН не зміг би проводити біосканування!"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -114,8 +114,8 @@
 - type: entity
   id: RMCAICoreProcessorInterface
   parent: RMCAICoreProcessor
-  name: ARES Processor (Interface)
-  description: An external processor for ARES; this one handles core processes for interfacing with the crew, including radio transmissions and broadcasts.
+  name: "Процесор ARES (Інтерфейс)"
+  description: "Зовнішній процесор для ARES; цей виконує основні процеси для взаємодії з екіпажем, включно з радіопередачами та трансляціями."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -127,8 +127,8 @@
 - type: entity
   id: RMCAICoreProcessorHERMES
   parent: RMCAICoreProcessor
-  name: ARES Processor (HERMES)
-  description: The external component of ARES' HERMES processor. Primarily responsible for coordinating Average Joes and Maintenance Drones. It definitely wasn't stolen from Novaris Industries.
+  name: "Процесор ARES (HERMES)"
+  description: "Зовнішній компонент процесора HERMES ARES. Передусім відповідає за координацію Average Joes і дронів обслуговування. Точно не було вкрадено в Novaris Industries."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -140,8 +140,8 @@
 - type: entity
   id: RMCAICoreCPU
   parent: RMCAICoreProcessor
-  name: ARES CPU
-  description: This is ARES' central processor. Made of a casing designed to withstand nuclear blasts, the CPU also contains ARES' blackbox recorder.
+  name: "ЦП ARES"
+  description: "Це центральний процесор ARES. Виконаний у корпусі, що витримує ядерні вибухи; ЦП також містить реєстратор чорної скриньки ARES."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -153,8 +153,8 @@
 - type: entity
   id: RMCAICoreSubstrate
   parent: RMCAICoreProcessor
-  name: ARES Substrate
-  description: The memory substrate of ARES, containing complex protocols and information. Limited capabilities can operate on substrate alone, without the main ARES Unit operational.
+  name: "Субстрат ARES"
+  description: "Субстрат пам'яті ARES, що містить складні протоколи й інформацію. Обмежені можливості можуть працювати лише на субстраті без функціонуючого основного блоку ARES."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -166,8 +166,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCAIConsoleARES
-  name: ARES Interface
-  description: A console built to interface with ARES, allowing for 1:1 communication.
+  name: "Інтерфейс ARES"
+  description: "Консоль, побудована для взаємодії з ARES, що дозволяє спілкування 1:1."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -179,8 +179,8 @@
 - type: entity
   parent: RMCAIConsoleARES
   id: RMCAIConsoleInterface
-  name: AI interface console
-  description: A large, bulky computer intended to allow the user to interface with the ship's AI.
+  name: "консоль інтерфейсу ШІ"
+  description: "Великий, громіздкий комп'ютер, призначений дати користувачу можливість взаємодіяти з ШІ корабля."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aiconsoleinterface.rsi
@@ -190,8 +190,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCAIConsoleHERMES
-  name: HERMES Maintenance Controller
-  description: A console built to facilitate Average Joes and their operation, allowing for simple allocation of resources.
+  name: "Контролер обслуговування HERMES"
+  description: "Консоль, побудована для полегшення роботи Average Joes, що дозволяє просто розподіляти ресурси."
   components:
   - type: Sprite
     drawdepth: SmallObjects

@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicPAPThirdparty
   id: AU14JobPAPThirdpartyObserver
-  name: UPP PAP Observer
+  name: "спостерігач PAP УПП"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

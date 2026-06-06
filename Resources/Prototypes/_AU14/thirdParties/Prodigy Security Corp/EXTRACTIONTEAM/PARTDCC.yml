@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTDCC
-  name: Prodigy Extraction Crewchief
+  name: "Старший екіпажу евакуації Prodigy"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTDCCTracker
   ranks:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobPARTDCCBase
-  name: Prodigy Extraction Crewchief (3rd party)
+  name: "Старший екіпажу евакуації Prodigy (3-тя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -51,7 +51,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Prodigy Extraction Crewchief
+    name: "Старший екіпажу евакуації Prodigy"
     description: au14-prodigyextract-description
     reregister: false
     job: AU14JobPARTDCC

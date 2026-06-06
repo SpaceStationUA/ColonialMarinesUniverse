@@ -14,7 +14,7 @@
 
 - type: entity
   id: RMCActiveAlertEffect
-  name: exclamation
+  name: "вигук"
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

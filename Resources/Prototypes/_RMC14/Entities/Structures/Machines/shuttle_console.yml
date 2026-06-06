@@ -13,8 +13,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigation
-  name: dropship navigation computer
-  description: A flight computer that can be used for autopilot or long-range flights.
+  name: "навігаційний комп'ютер десантного корабля"
+  description: "Польотний комп'ютер, який можна використовувати для автопілоту або польотів на далекі відстані."
   components:
   - type: Sprite
     state: console
@@ -34,7 +34,7 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationOpfor
-  name: dropship navigation computer
+  name: "навігаційний комп'ютер десантного корабля"
   suffix: Opfor
   components:
   - type: AccessReader
@@ -46,8 +46,8 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationERT
-  name: transport shuttle
-  description: A transport shuttle flight computer.
+  name: "транспортний шатл"
+  description: "Польотний комп'ютер транспортного шатла."
   components:
   - type: Sprite
     state: syndishuttle
@@ -57,8 +57,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipNavigationPlanetside
-  name: dropship navigation computer
-  description: A flight computer that can be used to direct linked dropships.
+  name: "навігаційний комп'ютер десантного корабля"
+  description: "Польотний комп'ютер, який можна використовувати для керування під'єднаними десантними кораблями."
   suffix: Planetside
   components:
   - type: Sprite
@@ -78,8 +78,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCComputerDropshipNavigationSmall
-  name: dropship navigation computer
-  description: A flight computer that can be used for autopilot or long-range flights.
+  name: "навігаційний комп'ютер десантного корабля"
+  description: "Польотний комп'ютер, який можна використовувати для автопілоту або польотів на далекі відстані."
   components:
   - type: Transform
     anchored: false
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCComputerDropshipWeaponsSmall
-  name: dropship weapons computer
-  description: A compact computer that can manage equipment, weapons and simulations installed on the dropship.
+  name: "комп'ютер зброї десантного корабля"
+  description: "Компактний комп'ютер, що може керувати обладнанням, зброєю та симуляціями, встановленими на десантному кораблі."
   components:
   - type: Transform
     anchored: false
@@ -170,8 +170,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipCamerasAlamo
-  name: camera controls
-  description: A computer to monitor cameras linked to the dropship.
+  name: "керування камерами"
+  description: "Комп'ютер для моніторингу камер, під'єднаних до десантного корабля."
   components:
   - type: GuideHelp
     guides:
@@ -194,8 +194,8 @@
 - type: entity
   parent: CMComputerDropshipCamerasAlamo
   id: RMCComputerDropshipCamerasNormandy
-  name: camera controls
-  description: A computer to monitor cameras linked to the dropship.
+  name: "керування камерами"
+  description: "Комп'ютер для моніторингу камер, під'єднаних до десантного корабля."
   suffix: Normandy
   components:
   - type: RMCCameraComputer
@@ -208,8 +208,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeapons
-  name: weapons controls
-  description: A computer to manage equipment, weapons and simulations installed on the dropship.
+  name: "керування зброєю"
+  description: "Комп'ютер для керування обладнанням, зброєю та симуляціями, встановленими на десантному кораблі."
   components:
   - type: Sprite
     state: consoleright
@@ -231,9 +231,9 @@
 - type: entity
   parent: CMBaseStructure
   id: AU14GovforComputerDropshipWeaponsSmall
-  name: dropship weapons computer
+  name: "комп'ютер зброї десантного корабля"
   suffix: Govfor, small
-  description: A compact computer that can manage equipment, weapons and simulations installed on the dropship.
+  description: "Компактний комп'ютер, що може керувати обладнанням, зброєю та симуляціями, встановленими на десантному кораблі."
   components:
   - type: Transform
     anchored: false
@@ -286,8 +286,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeaponsGovfor
-  name: weapons controls
-  description: A computer to manage equipment, weapons and simulations installed on the govfor dropship.
+  name: "керування зброєю"
+  description: "Комп'ютер для керування обладнанням, зброєю та симуляціями, встановленими на десантному кораблі govfor."
   suffix: Govfor
   components:
   - type: Sprite
@@ -315,8 +315,8 @@
 - type: entity
   parent: CMComputerDropship
   id: CMComputerDropshipWeaponsOpfor
-  name: weapons controls
-  description: A computer to manage equipment, weapons and simulations installed on the opfor dropship.
+  name: "керування зброєю"
+  description: "Комп'ютер для керування обладнанням, зброєю та симуляціями, встановленими на десантному кораблі opfor."
   suffix: Opfor
   components:
   - type: Sprite
@@ -344,8 +344,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestination
-  name: dropship destination
-  description: Defines a valid location for the dropships to FTL to when piloted.
+  name: "пункт призначення десантного корабля"
+  description: "Визначає допустиму локацію, до якої десантні кораблі можуть здійснити FTL-перехід під керуванням пілота."
   placement:
     mode: SnapgridCenter
   components:
@@ -359,8 +359,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationHome
-  name: dropship destination(home)
-  description: Defines a valid location for the dropships to FTL to when piloted. (home)
+  name: "пункт призначення десантного корабля (дім)"
+  description: "Визначає допустиму локацію, до якої десантні кораблі можуть здійснити FTL-перехід під керуванням пілота. (дім)"
   placement:
     mode: SnapgridCenter
   components:
@@ -375,8 +375,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationOpforWhitelist
-  name: dropship destination
-  description: Defines a valid location for the dropships to FTL to when piloted.
+  name: "пункт призначення десантного корабля"
+  description: "Визначає допустиму локацію, до якої десантні кораблі можуть здійснити FTL-перехід під керуванням пілота."
   placement:
     mode: SnapgridCenter
   components:
@@ -391,8 +391,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipHijackDestination
-  name: hijack destination
-  description: Defines a valid location for the dropships to FTL to when hijacked.
+  name: "пункт захоплення"
+  description: "Визначає допустиму локацію, до якої десантні кораблі можуть здійснити FTL-перехід після захоплення."
   placement:
     mode: SnapgridCenter
   components:
@@ -406,8 +406,8 @@
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationThirdPartyWhitelist
-  name: dropship destination (third party)
-  description: Defines a valid location for third party dropships to FTL to when piloted.
+  name: "пункт призначення десантного корабля (третя сторона)"
+  description: "Визначає допустиму локацію, до якої десантні кораблі третьої сторони можуть здійснити FTL-перехід під керуванням пілота."
   placement:
     mode: SnapgridCenter
   components:
@@ -422,14 +422,14 @@
 - type: entity
   parent: CMDropshipDestinationThirdPartyWhitelist
   id: CMDropshipDestinationThirdPartyReturn
-  name: Return to Deep Space
-  description: Sends a third party dropship back to its holding pattern.
+  name: "Повернення в глибокий космос"
+  description: "Відправляє десантний корабель третьої сторони назад до зони очікування."
 
 - type: entity
   parent: MarkerBase
   id: CMDropshipDestinationGovforWhitelist
-  name: dropship destination (govfor)
-  description: Defines a valid location for third party dropships to FTL to when piloted.
+  name: "пункт призначення десантного корабля (govfor)"
+  description: "Визначає допустиму локацію, до якої десантні кораблі третьої сторони можуть здійснити FTL-перехід під керуванням пілота."
   placement:
     mode: SnapgridCenter
   components:
@@ -444,7 +444,7 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationGovfor
-  name: dropship navigation computer (govfor)
+  name: "навігаційний комп'ютер десантного корабля (govfor)"
   components:
   - type: AccessReader
     access: [ ]
@@ -455,9 +455,9 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: AU14GovforComputerDropshipPilotSmall
-  name: dropship navigation computer
+  name: "навігаційний комп'ютер десантного корабля"
   suffix: Govfor, small
-  description: A compact computer that can pilot the dropship and designate tactical landings.
+  description: "Компактний комп'ютер, що може керувати десантним кораблем і призначати тактичні висадки."
   components:
   - type: Transform
     anchored: false
@@ -496,7 +496,7 @@
 - type: entity
   parent: CMComputerDropshipNavigation
   id: CMComputerDropshipNavigationThirdParty
-  name: dropship navigation computer (Third Party)
+  name: "навігаційний комп'ютер десантного корабля (Третя сторона)"
   components:
   - type: WhitelistedShuttle
     faction: thirdparty

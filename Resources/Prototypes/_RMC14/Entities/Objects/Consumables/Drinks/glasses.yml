@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: DrinkBaseCup
   id: RMCPintGlass
-  name: pint glass
-  description: A proper geezer's pint glass. Rarely seen without a frothy head of beer.
+  name: "пінтовий келих"
+  description: "Справжній чоловічий пінтовий келих. Рідко зустрічається без пінної шапки пива."
   components:
   - type: SolutionContainerManager
     solutions:

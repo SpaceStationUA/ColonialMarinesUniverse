@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseItem
-  name: compact nailgun
+  name: "компактний цвяхомет"
   id: RMCNailgunCompact
-  description: A carpentry tool, used to drive nails into tough surfaces. Cannot fire nails offensively due to a lack of a gas seal around the nail, meaning it cannot build up the pressure to fire.
+  description: "Теслярський інструмент для забивання цвяхів у тверді поверхні. Не може стріляти цвяхами наступально через відсутність газового ущільнення навколо цвяха, а отже, не може створити тиск для пострілу."
   suffix: Filled
   components:
   - type: Sprite
@@ -77,9 +77,9 @@
 
 - type: entity
   parent: RMCNailgunCompact
-  name: tactical compact nailgun
+  name: "тактичний компактний цвяхомет"
   id: RMCNailgunTactical
-  description: A carpentry tool, used to drive nails into tough surfaces. This one is military grade, it's olive drab and tacticool. Cannot fire nails as a projectile.
+  description: "Теслярський інструмент для забивання цвяхів у тверді поверхні. Цей військового класу — оливково-зелений і тактикульний. Не може стріляти цвяхами як снарядами."
   suffix: Filled
   components:
   - type: Sprite

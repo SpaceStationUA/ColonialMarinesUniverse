@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseBullet
   id: CMBulletSentry10x50mm
-  name: bullet (10x50mm)
+  name: "куля (10x50мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCBulletSentry
-  name: bullet (10x28mm)
+  name: "куля (10x28мм)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -50,8 +50,8 @@
   abstract: true
   parent: RMCBaseBullet
   id: RMCBaseBulletSentryFireProjectile
-  name: flaming ball
-  description: Huh? You shouldn't be able to see this...
+  name: "палаюча куля"
+  description: "Що? Тобі не мало б бути видно цього..."
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCBaseBulletSentryFireProjectile
   id: RMCBulletSentryFireProjectileBlue
-  name: flaming ball blue
-  description: Huh? You shouldn't be able to see this...
+  name: "палаюча куля синя"
+  description: "Що? Тобі не мало б бути видно цього..."
   categories: [ HideSpawnMenu ]
   components:
   - type: IgniteOnProjectileHit
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCBaseBulletSentryFireProjectile
   id: RMCBulletSentryFireProjectileSmoke
-  name: flaming ball smoke
-  description: Huh? You shouldn't be able to see this...
+  name: "палаюча куля димова"
+  description: "Що? Тобі не мало б бути видно цього..."
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

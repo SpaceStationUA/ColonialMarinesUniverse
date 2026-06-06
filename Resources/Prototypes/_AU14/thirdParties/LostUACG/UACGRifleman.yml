@@ -48,7 +48,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUACG
   id: AU14JobUACGLostRifleman
-  name: Lost Rifleman
+  name: "загублений стрілець"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -40,7 +40,7 @@
 
 - type: entity
   id: AU14VAIMGPreset
-  name: vai mg preset
+  name: "пресет кулеметника VAI"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

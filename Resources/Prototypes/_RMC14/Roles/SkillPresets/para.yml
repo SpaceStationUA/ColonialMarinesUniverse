@@ -1,7 +1,7 @@
 # Survivor Skills
 - type: entity
   id: RMCSkillPresetParamarine
-  name: Royal Paramarine Rifleman
+  name: "Стрілець королівського парамарина"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -21,7 +21,7 @@
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaPilot
-  name: Royal Paramarine Pilot
+  name: "Пілот королівського парамарина"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaEngineer
-  name: Royal Paramarine Engineer
+  name: "Інженер королівського парамарина"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaMedic
-  name: Royal Paramarine Medic
+  name: "Медик королівського парамарина"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -55,7 +55,7 @@
 - type: entity
   parent: RMCSkillPresetParamarine
   id: RMCSkillPresetParaLeader
-  name: Royal Paramarine Squad Leader
+  name: "Лідер загону королівського парамарина"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -69,7 +69,7 @@
         
 - type: entity
   id: RMCSkillPresetParaSynth
-  name: Royal Paramarine Synthetic
+  name: "Синтетик королівського парамарина"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset

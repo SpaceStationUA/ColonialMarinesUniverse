@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSclothingequipmentvendor
-  name: HAZOPS apparel vendor
+  name: "автомат одягу ХАЗОПС"
   description: >-
     An automated dispenser rack, hooked up to a small storage of Hazardous Operations apparel of the Marine Special Operations Command.
     Standard issue aboard naval vessels, military outposts, corporate-science installations and civilian colonies across the frontier.
@@ -222,7 +222,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSMGequipmentvendor
-  name: HAZOPS smartgunner equipment vendor
+  name: "автомат спорядження смартганера ХАЗОПС"
   description: >-
     An automated smartgunner rack, hooked up to a small armory of Hazardous Operations heavy-weapon operator systems of the Marine Special Operations Command.
     Standard issue for designated smart-gun crews on naval vessels and high-threat outposts.
@@ -247,7 +247,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSWeaponsVendor
-  name: HAZOPS weapons rack
+  name: "збройова стійка ХАЗОПС"
   description: >-
     An automated weapons rack, hooked up to a small armory of Hazardous Operations weaponry of the Marine Special Operations Command.
     Standard issue across the frontier where threats can appear without warning.
@@ -284,7 +284,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSSpecialWeaponsVendor
-  name: HAZOPS special weapons rack
+  name: "стійка спеціальної зброї ХАЗОПС"
   description: >-
     An automated special weapons rack, hooked up to a restricted armory of Hazardous Operations heavy and breaching ordnance of the Marine Special Operations Command.
     Standard issue only for qualified operators.
@@ -329,7 +329,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPScommandequipmentvendor
-  name: HAZOPS command vendor
+  name: "командний автомат ХАЗОПС"
   description: >-
     An automated command rack, hooked up to a restricted storage of Hazardous Operations command-leadership equipment of the Marine Special Operations Command.
     Manufactured to equip commanding personnel following cryogenic hypersleep or an emergency directive is issued.
@@ -406,7 +406,7 @@
 - type: entity
   parent: ColMarTechBase
   id: AU14HAZOPSsectionleaderequipmentvendor
-  name: HAZOPS section leader vendor
+  name: "автомат командира секції ХАЗОПС"
   description: >-
     An automated equipment rack, hooked up to a compact storage of Hazardous Operations section-leadership equipment of the Marine Special Operations Command.
     Designed for immediate readiness following cryogenic hypersleep or rapid mobilization orders.
@@ -435,8 +435,8 @@
 - type: entity
   parent: ColMarTechCargo
   id: AU14HAZOPSRequisitionVendor
-  name: HAZOPS automated requisitions vendor
-  description: An automated supply rack hooked up to a big storage of various firearms, ammunitions, explosives, load carrying equipment and other miscellaneous items.
+  name: "автоматизований автомат постачання ХАЗОПС"
+  description: "Автоматизована стійка постачання, під’єднана до великого запасу різної вогнепальної зброї, боєприпасів, вибухівки, розвантажувального спорядження та інших різноманітних предметів."
   components:
   - type: AccessReader
     access: [ ["AU14AccessGovforReq"] ]

@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobPARTYPartyContractorBase
-  name: Prodigy Yankee Contractor Base
+  name: "Базовий контрактор Prodigy Yankee"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobPARTYPartyContractor
   basePlaytimeTracker: true
@@ -10,7 +10,7 @@
 - type: job
   parent: AU14JobPARTYPartyContractorBase
   id: AU14JobPARTYPartyContractor
-  name: Prodigy Yankee Contractor (M41A/2)
+  name: "Контрактор Prodigy Yankee (M41A/2)"
   description: au14-prodigyparty-description
   ranks:
     AU14RankPrDAssociate: []
@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobPARTYPartyRifleman
-  name: Prodigy Yankee Party Rifleman (3rd party, M41A/2)
+  name: "Стрілець групи Prodigy Yankee (3-тя сторона, M41A/2)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
