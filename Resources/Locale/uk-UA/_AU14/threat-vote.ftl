@@ -11,3 +11,4 @@ au14-threat-vote-option-ape = Загроза мавп
 au14-threat-vote-option-wendigo = Загроза вендиго
 au14-threat-vote-option-generic = {$threat}
 au14-threat-vote-colony-fall-observer-warning = Загроза з'явиться приблизно через {$min}-{$max} хвилин. Ви можете оглянутися як спостерігач, але не перепідключайтеся і не приєднуйтеся до ролі привида, інакше втратите свій шанс на загрозу.
+au14-threat-vote-round-join-blocked = Вас обрали для жеребкування загрози. Ви не можете зайти за іншу роль, поки очікується ваше призначення загрози.

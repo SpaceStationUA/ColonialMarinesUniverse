@@ -1,5 +1,5 @@
 cmu-medical-heal-organ-guidebook = Лікує { $amount } HP за цикл на { $organ } пацієнта.
-cmu-medical-pain-suppression-guidebook = Пригнічує { $percent }% накопичення болю, маскує { $tiers } рівнів(ня) болю та додає { $decay } розпаду болю/сек на { $seconds } секунд за одиницю. Виграє найсильніший активний профіль знеболюючого.
+cmu-medical-pain-suppression-guidebook = Пригнічує накопичення болю на { $percent }%, маскує { $tiers } рівнів болю та додає спад болю { $decay }/с протягом { $seconds } секунд за одиницю. Ефект слабшає на { $decrease } за частку максимального болю; непідсумовувані профілі зберігають найсильніший активний профіль.
 cmu-medical-bone-regen-boost-guidebook = Множить швидкість загоєння кісток на { $multiplier }, поки активне.
 cmu-medical-restart-heart-guidebook = { $chance }% шанс за цикл перезапустити зупинене серце (лише на серцях, які ще не на стадії Смерті).
 

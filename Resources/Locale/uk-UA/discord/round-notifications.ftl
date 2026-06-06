@@ -6,3 +6,4 @@ discord-round-notifications-unknown-map = невідомо
 
 discord-round-notifications-end-ping-restart = <@&{$roleId}>, незабаром почнеться новий раунд!
 discord-round-notifications-end-ping-reboot = <@&{$roleId}>, сервер незабаром перезавантажиться для автоматичного оновлення.
+discord-round-notifications-gamemode-voted = Обрано голосуванням

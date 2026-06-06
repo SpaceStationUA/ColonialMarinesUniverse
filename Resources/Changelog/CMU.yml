@@ -3944,134 +3944,115 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1208
 - author: OmerF-afk
   changes:
-  - message: Added Cleaner Sprays in CM13 spritework and Experimental cleaning spray
+  - message: Додано спреї-очисники зі спрайтами CM13 та експериментальний спрей-очисник
     type: Add
-  - message: Added a component that makes synthetics hammers actually heavy.
+  - message: Додано компонент, що робить молоти синтетів справді важкими.
     type: Add
   id: 198
   time: '2026-06-05T13:59:14.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1218
 - author: mikusssssss
   changes:
-  - message: Added 2 new colors of the lifesaver bag to synthetic loadouts
+  - message: Додано 2 нові кольори сумки рятувальника до спорядження синтетів
     type: Add
   id: 199
   time: '2026-06-05T14:13:52.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1140
 - author: KriegersMustDie
   changes:
-  - message: PO ranks reshuffled until proper overhaul.
+  - message: Звання PO тимчасово переставлено до повної переробки.
     type: Tweak
   id: 200
   time: '2026-06-05T16:09:41.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1217
 - author: 400Ferrets
   changes:
-  - message: Colony Physician no longer gets a spare ID.
+  - message: Колоніальний лікар більше не отримує запасне ID.
     type: Fix
   id: 201
   time: '2026-06-05T16:20:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1221
 - author: TheHellFireo
   changes:
-  - message: Adds back Smart gun damage fall of at 6 tiles
+  - message: Повернуто спад шкоди смартгана на 6 тайлах.
     type: Tweak
-  - message: Adds use delay to the M34-T Incinerator
+  - message: Додано затримку використання для інсинератора M34-T.
     type: Tweak
-  - message: Bone breaking sound now only plays on simple and above fractures
+  - message: Звук ламання кісток тепер відтворюється лише для простих і тяжчих переломів.
     type: Tweak
-  - message: Queen enter ghost queue if they leave
+  - message: Королева потрапляє до черги привидів, якщо виходить.
     type: Fix
-  - message: Adjust xeno scaling by 0.3 for DS and 0.1 For CF
+  - message: Налаштовано масштабування ксено на 0.3 для DS і 0.1 для CF.
     type: Tweak
   id: 202
   time: '2026-06-05T16:56:26.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1226
 - author: Tyzemol
   changes:
-  - message: GOVFOR has way less signal flares now.
+  - message: У GOVFOR тепер значно менше сигнальних фаєрів.
     type: Tweak
   id: 203
   time: '2026-06-05T18:47:05.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1227
 - author: TheHellFireo
   changes:
-  - message: Heatshield Vomit Bile now spews fire in 3 tiles infront of it
+  - message: Блювота жовчю Теплощита тепер вивергає вогонь на 3 тайли перед ним.
     type: Add
-  - message: "Added a flamer burst sound to Heatshield\u2019s burning Vomit Bile spray."
+  - message: Додано звук залпу вогнемета до палаючого розпилення Блювоти жовчю Теплощита.
     type: Add
-  - message: Increased Heatshield Vomit Bile targeting range by 20%, from 1.5 to 1.8.
+  - message: Збільшено дальність вибору цілі Блювоти жовчю Теплощита на 20%, з 1.5 до 1.8.
     type: Tweak
-  - message: Reaper now passively gains flesh resin up to 300.
+  - message: Жнець тепер пасивно накопичує тілесну смолу до 300.
     type: Add
-  - message: Reaper passive flesh gain is 2 flesh per second instead of draining stored
-      flesh.
+  - message: Пасивне накопичення плоті Жнеця тепер дає 2 плоті за секунду замість виснаження запасеної плоті.
     type: Tweak
-  - message: Reapers Red mist no longer gives toxin to synths
+  - message: Червоний туман Жнеців більше не дає токсини синтетам.
     type: Fix
-  - message: Set M240 use delay to 2s, M34-T use delay to 3s, and smartgun falloff
-      start to 4.5 tiles.
+  - message: Встановлено затримку використання M240 на 2с, M34-T на 3с, а початок спаду шкоди смартгана на 4.5 тайла.
     type: Tweak
-  - message: Made the M34/M34-T flamer and SMAW meltable.
+  - message: Вогнемети M34/M34-T і SMAW тепер можна розплавити.
     type: Fix
-  - message: Join Xeno abandoned-body filtering now allows actual hive-core lesser
-      drones while keeping non-drone lesser xeno
+  - message: Фільтрація покинутих тіл у Join Xeno тепер дозволяє справжніх малих дронів ядра вулика, але не пропускає недронових малих ксено.
     type: Tweak
-  - message: Larva no longer appear as normal ghost roles, and ghosted lesser drones
-      can be offered through Join Xeno.
+  - message: Личинки більше не з'являються як звичайні ролі привидів, а малі дрони-привиди можуть пропонуватися через Join Xeno.
     type: Fix
-  - message: 'Alchemist injections now apply immediate debuffs: Noctine dazes and
-      stutters, Pyrinine dazes, Crynine slows.'
+  - message: "Ін'єкції Алхіміка тепер застосовують миттєві дебафи: Ноктин дезорієнтує і спричиняє затинання, Піринін дезорієнтує, Кринін сповільнює."
     type: Add
-  - message: Alchemist manual and melee chemical generation are now doubled.
+  - message: Ручна та ближньобойова генерація хімікатів Алхіміка тепер подвоєна.
     type: Tweak
-  - message: Alchemist toxin effects now apply over ~50 seconds with doubled potency
-      and purge rates.
+  - message: Токсинні ефекти Алхіміка тепер застосовуються протягом ~50 секунд із подвоєною силою та швидкістю очищення.
     type: Tweak
-  - message: Vapinine now purges blood and oxygen support chemicals.
+  - message: Вапінін тепер виводить хімікати підтримки крові та кисню.
     type: Tweak
-  - message: Injected Alchemist mixtures now apply their intended immediate combat
-      effects to human targets.
+  - message: Ін'єктовані суміші Алхіміка тепер застосовують свої заплановані миттєві бойові ефекти до людських цілей.
     type: Fix
-  - message: Xeno hives now get a shared 200-use instant-build pool for the first
-      30 minutes of the round.
+  - message: Вулики ксено тепер отримують спільний пул на 200 миттєвих будівництв на перші 30 хвилин раунду.
     type: Add
-  - message: "Secrete structure actions show the hive\u2019s remaining instant builds\
-      \ in the lower-right while available."
+  - message: Дії виділення структур показують залишок миттєвих будівництв вулика внизу праворуч, поки вони доступні.
     type: Tweak
-  - message: Hive instant builds no longer consume plasma and refund their charge
-      if placement fails.
+  - message: Миттєві будівництва вулика більше не витрачають плазму й повертають заряд, якщо розміщення провалилось.
     type: Fix
-  - message: coils opening synth surgery before burn repair.
+  - message: Спіралі більше не відкривають операцію синтетів до ремонту опіків.
     type: Fix
-  - message: synths metabolizing reagents, bleeding, and accepting tourniquets.
+  - message: Виправлено метаболізацію реагентів, кровотечу та прийняття джгутів у синтетів.
     type: Fix
-  - message: organic wound/TQ/eschar/necrosis/internal bleed state persisting on limbs
-      reattached to synths.
+  - message: Виправлено збереження стану органічних ран/джгутів/струпів/некрозу/внутрішньої кровотечі на кінцівках, повторно приєднаних до синтетів.
     type: Fix
-  - message: Heart repair surgery now restarts repaired non-dead hearts through the
-      existing heart system.
+  - message: Операція ремонту серця тепер перезапускає відремонтовані серця, що ще не досягли смерті, через наявну систему серця.
     type: Fix
-  - message: Fixed repaired hearts staying stopped and continuing oxygen damage after
-      surgery.
+  - message: Виправлено, що відремонтовані серця лишалися зупиненими й продовжували завдавати кисневої шкоди після операції.
     type: Fix
-  - message: Signal flares created by flare projectiles and air shots now preserve
-      the user's faction for dropship targeting.
+  - message: Сигнальні фаєри, створені снарядами та авіаційними пострілами, тепер зберігають фракцію користувача для наведення десантного шатла.
     type: Fix
-  - message: Fixed firemission flare targeting/PVS cleanup so pilots don't stay subscribed
-      to the wrong signal flare target.
+  - message: Виправлено націлювання фаєра для вогневої місії та очищення PVS, щоб пілоти не лишалися підписаними на неправильну ціль сигнального фаєра.
     type: Fix
-  - message: Severe and shock pain now apply player-facing feedback, including pain
-      visuals, pain emotes, stuttering, drunkenness, and shock slurring.
+  - message: Сильний і шоковий біль тепер застосовують видимий для гравця зворотний зв'язок, включно з візуальними ефектами болю, емоутами болю, затинанням, сп'янінням і невиразною мовою від шоку.
     type: Add
-  - message: Inaprovaline and epinephrine now reduce pain, with inaprovaline providing
-      stronger relief.
+  - message: Інапровалін та епінефрин тепер зменшують біль, причому інапровалін дає сильніше полегшення.
     type: Add
-  - message: Shock pain blur now ramps faster after shock threshold instead of instantly
-      jumping to full strength.
+  - message: Розмиття від шокового болю тепер наростає швидше після порогу шоку, а не миттєво стрибає до повної сили.
     type: Tweak
-  - message: Strong painkiller relief now weakens as pain rises, and tramadol/oxycodone
-      overdoses can cause drunkenness.
+  - message: Полегшення від сильних знеболювальних тепер слабшає зі зростанням болю, а передозування трамадолу/оксикодону може спричиняти сп'яніння.
     type: Tweak
   id: 204
   time: '2026-06-06T00:48:41.0000000+00:00'

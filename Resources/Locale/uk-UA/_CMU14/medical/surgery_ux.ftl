@@ -360,3 +360,5 @@ cmu-medical-surgery-step-debride-contamination-label = Очистити забр
 cmu-medical-surgery-step-remove-bone-fragments-label = Видалити кісткові уламки
 cmu-medical-surgery-step-free-organ-adhesions-label = Звільнити спайки органа
 cmu-medical-surgery-step-pack-organ-bleed-label = Тампонувати кровотечу органа
+cmu-medical-surgery-condition-wounds = Рани
+cmu-medical-surgery-condition-damaged = Пошкодження
