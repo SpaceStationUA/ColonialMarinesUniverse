@@ -47,7 +47,7 @@
 # We-Ya
 - type: entity
   parent: CMEncryptionKey
-  id: CMEncryptionKeyWEYA
+  id: CMEncryptionKeyWEYU
   name: "ключ шифрування we-yu"
   components:
   - type: EncryptionKey
@@ -59,8 +59,8 @@
 
 - type: entity
   parent: CMEncryptionKey
-  id: CMEncryptionKeyWEYAColony
-  name: "колоніальний ключ шифрування we-ya"
+  id: CMEncryptionKeyWEYUColony
+  name: "ключ шифрування we-yu та колонії"
   components:
   - type: EncryptionKey
     channels:

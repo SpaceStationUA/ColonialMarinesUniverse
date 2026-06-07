@@ -4,6 +4,9 @@
   name: "лікарняна перегородка"
   description: "Лікарняна перегородка для приватності."
   components:
+  - type: XenoCrusherChargable
+    instantDestroy: true
+    passOnDestroy: true
   - type: Transform
     noRot: true
   - type: VehicleSmashable

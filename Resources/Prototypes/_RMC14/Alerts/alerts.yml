@@ -108,13 +108,70 @@
 
 - type: alert
   parent: SquadTracker
-  id: SquadTrackerCorporate
-  category: SquadTracker
+  id: SquadTrackerFallback
+  name: ПОМИЛКА - запасний трекер
+  description: ПОМИЛКА. Якщо ви це бачите, будь ласка, повідомте про баг.
 
 - type: alert
   parent: SquadTracker
+  id: SquadTrackerCorporate
+
+- type: alert
+  parent: SquadTracker
+  id: SquadTrackerLandingZone
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_lz
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_lz
+  description: "Відстежує основну зону висадки"
+
+- type: alert
+  parent: SquadTracker
+  id: SquadTrackerTeamLeader
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_tl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_tl
+  description: "Відстежує командира групи"
+
+# ├──[ GOVFOR ]──────────────────────────────────────────────────────┤
+- type: alert
+  parent: SquadTracker
   id: SquadTrackerAlpha
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -141,7 +198,6 @@
 - type: alert
   id: SquadTrackerBravo
   parent: SquadTracker
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -168,7 +224,6 @@
 - type: alert
   parent: SquadTracker
   id: SquadTrackerCharlie
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -193,171 +248,30 @@
   description: "Відстежує лідера загону Чарлі."
 
 - type: alert
-  parent: SquadTracker
-  id: SquadTrackerDelta
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_dsl
-  description: "Відстежує лідера загону Дельта."
+  parent: SquadTrackerEcho
+  id: SquadTrackerAuxiliary
+  description: "Відстежує лідера допоміжного загону."
+
+# ├──[ OPFOR ]───────────────────────────────────────────────────────┤
+- type: alert
+  parent: SquadTrackerDelta
+  id: SquadTrackerTango
+  description: "Відстежує лідера загону Танго."
 
 - type: alert
-  parent: SquadTracker
-  id: SquadTrackerEcho
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_esl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_esl
-  description: "Відстежує лідера загону Ехо."
+  parent: SquadTrackerEcho
+  id: SquadTrackerSierra
+  description: "Відстежує лідера загону Сьєрра."
 
 - type: alert
-  parent: SquadTracker
-  id: SquadTrackerFoxtrot
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_fsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_fsl
-  description: "Відстежує лідера загону Фокстрот."
+  parent: SquadTrackerFoxtrot
+  id: SquadTrackerUniform
+  description: "Відстежує лідера загону Юніформ."
 
-- type: alert
-  parent: SquadTracker
-  id: SquadTrackerIntel
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_isl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_isl
-  description: "Відстежує лідера загону Фокстрот."
-
-- type: alert
-  parent: SquadTracker
-  id: SquadTrackerSunRiders
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_dsl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_dsl
-  description: "Відстежує сержанта секції Сан Райдерс."
-
-- type: alert
-  parent: SquadTracker
-  id: SquadTrackerRecon
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_fosl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_fosl
-  description: "Відстежує лідера загону FORECON."
-
+# ├──[ LEGACY TRACKERS ]─────────────────────────────────────────────┤
 - type: alert
   parent: SquadTracker
   id: SquadTrackerCommandingOfficer
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -384,7 +298,6 @@
 - type: alert
   parent: SquadTracker
   id: SquadTrackerExecutiveOfficer
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -410,8 +323,163 @@
 
 - type: alert
   parent: SquadTracker
+  id: SquadTrackerIntel
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_isl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_isl
+  description: "Відстежує лідера розвідзагону."
+
+- type: alert
+  parent: SquadTracker
+  id: SquadTrackerDelta
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_dsl
+  description: "Відстежує лідера загону Дельта."
+
+- type: alert
+  parent: SquadTracker
+  id: SquadTrackerEcho
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_esl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_esl
+  description: "Відстежує лідера загону Ехо."
+
+- type: alert
+  parent: SquadTracker
+  id: SquadTrackerFoxtrot
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_fsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_fsl
+  description: "Відстежує лідера загону Фокстрот."
+
+- type: alert
+  parent: SquadTracker
+  id: SquadTrackerRecon
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_fosl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_fosl
+  description: "Відстежує лідера загону FORECON."
+
+- type: alert
+  parent: SquadTracker
+  id: SquadTrackerSunRiders
+  icons:
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackoff
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-direct_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-south_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southeast_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-east_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northeast_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-north_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-northwest_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-west_dsl
+  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
+    state: trackon-southwest_dsl
+  description: "Відстежує сержанта секції Сан Райдерс."
+
+- type: alert
+  parent: SquadTracker
   id: SquadTrackerChiefMilitaryPolice
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -436,36 +504,14 @@
   description: "Відстежує головного військового поліцейського"
 
 - type: alert
-  parent: SquadTracker
-  id: SquadTrackerLandingZone
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_lz
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_lz
-  description: "Відстежує основну зону висадки"
+  parent: SquadTrackerTeamLeader
+  id: SquadTrackerParaTeamLeader
+  description: "Відстежує командира парамаринів"
 
+# ├──[ We-Yu PMCs ]──────────────────────────────────────────────────┤
 - type: alert
   parent: SquadTracker
   id: SquadTrackerCorporateLiaison
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -492,63 +538,7 @@
 
 - type: alert
   parent: SquadTracker
-  id: SquadTrackerTeamLeader
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_tl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_tl
-  description: "Відстежує командира групи"
-  
-- type: alert
-  parent: SquadTracker
-  id: SquadTrackerParaTeamLeader
-  category: SquadTracker
-  icons:
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackoff
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-direct_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-south_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-southeast_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-east_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-northeast_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-north_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-northwest_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-west_tl
-    - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-      state: trackon-southwest_tl
-  description: "Відстежує командира парамаринів"
-
-
-- type: alert
-  parent: SquadTracker
   id: SquadTrackerPMCForceLeader
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -601,10 +591,10 @@
   name: "Королівський трекер загону"
   description: "Відстежує командира секції"
 
+# ├──[ ROYAL COMMANDOS ]─────────────────────────────────────────────┤
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMPVETroopCommander
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -631,36 +621,34 @@
 
 - type: alert
   parent: SquadTracker
-  id: SquadTrackerRCMPVETeamLead
-  category: SquadTracker
+  id: SquadTrackerRCMLieutenant
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_teamlead
+    state: trackon-direct_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_teamlead
+    state: trackon-south_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_teamlead
+    state: trackon-southeast_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_teamlead
+    state: trackon-east_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_teamlead
+    state: trackon-northeast_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_teamlead
+    state: trackon-north_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_teamlead
+    state: trackon-northwest_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_teamlead
+    state: trackon-west_lt
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_teamlead
+    state: trackon-southwest_lt
   name: "Королівський трекер загону"
-  description: "Відстежує командира групи"
+  description: "Відстежує лейтенанта"
 
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMPVETroopSergeant
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -688,7 +676,6 @@
 - type: alert
   parent: SquadTracker
   id: SquadTrackerRCMTeamLead
-  category: SquadTracker
   icons:
   - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
     state: trackoff
@@ -714,33 +701,10 @@
   description: "Відстежує командира групи"
 
 - type: alert
-  parent: SquadTracker
-  id: SquadTrackerRCMLieutenant
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_lt
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_lt
-  name: "Королівський трекер загону"
-  description: "Відстежує лейтенанта"
+  parent: SquadTrackerRCMTeamLead
+  id: SquadTrackerRCMPVETeamLead
 
+# ├──[ HUD INFO ]────────────────────────────────────────────────────┤
 - type: alert
   id: MarineTacMapAlert
   category: Tacmap
@@ -819,89 +783,3 @@
 
 - type: alertCategory
   id: HiveTracker
-
-
-
-
-- type: alert
-  parent: SquadTracker
-  id: SquadTrackerTango
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_asl
-  description: "Відстежує лідера загону Танго."
-
-
-- type: alert
-  parent: SquadTracker
-  id: SquadTrackerSierra
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_asl
-  description: "Відстежує лідера загону Танго."
-
-
-- type: alert
-  parent: SquadTracker
-  id: SquadTrackerUniform
-  category: SquadTracker
-  icons:
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackoff
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-direct_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-south_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southeast_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-east_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northeast_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-north_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-northwest_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-west_asl
-  - sprite: /Textures/_RMC14/Interface/Alerts/marine_tracker.rsi
-    state: trackon-southwest_asl
-  description: "Відстежує лідера загону Танго."

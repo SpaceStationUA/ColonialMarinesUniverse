@@ -1,6 +1,6 @@
 cargo-gifts-event-announcement = Вітаємо! { $sender } вирішили надіслати { $description } для { $dest }. Шукайте його в наступному вантажі.
 cargo-gift-default-description = Подаруночки!
-cargo-gift-default-sender = NanoTrasen
+cargo-gift-default-sender = НаноТрейзен
 cargo-gift-default-dest = Логістичного Відділу
 
 cargo-gift-dest-bar = бар

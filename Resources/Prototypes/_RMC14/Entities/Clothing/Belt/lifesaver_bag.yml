@@ -56,6 +56,8 @@
       - Hypospray
       - Defibrillator
       - Pill
+      - RMCHandLabeler
+      - RMCStethoscope
       - RMCLighter
   - type: FixedItemSizeStorage
   - type: IgnoreContentsSize

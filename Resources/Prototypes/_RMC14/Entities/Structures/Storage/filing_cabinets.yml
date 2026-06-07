@@ -5,6 +5,9 @@
   description: "Велика шафа з шухлядами."
   suffix: Empty
   components:
+  - type: XenoCrusherChargable
+    instantDestroy: true
+    passOnDestroy: true
   - type: Storage
     grid:
     - 0,0,9,3

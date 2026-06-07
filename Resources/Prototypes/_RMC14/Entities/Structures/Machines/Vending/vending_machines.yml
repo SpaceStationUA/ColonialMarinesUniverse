@@ -114,7 +114,6 @@
       - !type:PlaySoundBehavior
         sound:
           collection: MetalGlassBreak
-  - type: XenoCrusherChargable #TODO RMC14 tip over
 
 - type: vendingMachineInventory
   id: CMVendomat
@@ -127,6 +126,10 @@
   name: "Машина з гарячими напоями"
   description: "Торговельна машина, що видає гарячі напої."
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: VehicleSmashable
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/coffee.rsi
@@ -179,6 +182,10 @@
   name: "Машина з гарячою їжею"
   description: "Торговельна машина, повна готових до приготування страв — мммм, відчуй смак поживної благодаті!"
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: VehicleSmashable
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/snack.rsi
@@ -230,6 +237,10 @@
   name: "Безалкогольні напої Souto"
   description: "Автомат безалкогольних напоїв від Souto Soda Company, Гавана."
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: VehicleSmashable
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/cola.rsi
@@ -319,6 +330,10 @@
   name: "Машина з холодними напоями"
   description: "Торговельна машина з холодними напоями. Ця, схоже, вироблена Tsumetai-Umi, дочірньою компанією Neterai Foods International, яка, у свою чергу, є дочірньою компанією «Вейланд-Ютані»."
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sodavend.rsi
   - type: VendingMachine
@@ -347,6 +362,10 @@
   name: "Сигаретна машина"
   description: "Якщо вже хочеш заробити рак, то роби це зі стилем!"
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/cigs.rsi
   - type: VendingMachine
@@ -579,6 +598,10 @@
   name: "NutriMax"
   description: "Автомат добрив для рослин."
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/nutri.rsi
   - type: VendingMachine
@@ -611,6 +634,10 @@
   name: "MegaSeed Servitor"
   description: "Коли тобі швидко потрібне насіння!"
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/seeds.rsi
   - type: VendingMachine
@@ -788,6 +815,10 @@
   name: "БОДА"
   description: "Стара торговельна машина солодкої води — як вона тут опинилася?"
   components:
+  - type: XenoCrusherChargable
+    setDamage:
+      types:
+        Structural: 750
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/sovietsoda.rsi
   - type: VendingMachine

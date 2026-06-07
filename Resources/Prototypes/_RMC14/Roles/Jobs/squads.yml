@@ -222,7 +222,7 @@
 - type: entity
   parent: SquadBase
   id: SquadPara
-  name: "Парашутні Морпіхи"
+  name: IASF
   components:
   - type: SquadTeam
     color: "#3D6F43"

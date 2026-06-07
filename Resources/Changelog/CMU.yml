@@ -4072,5 +4072,147 @@
   id: 206
   time: '2026-06-06T10:00:06.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1213
+- author: HotdogMan52
+  changes:
+  - message: Додано teargas_airburst_packet_e та teargas_airburst_packet
+    type: Add
+  - message: Збільшено пакет AGM-PDC до п'яти набоїв замість трьох
+    type: Tweak
+  - message: Замінено teargas_packet і teargas_packet_e на нові версії
+    type: Tweak
+  - message: Виправлено updatePerSecond у teargassmoke.yml, бо в минулому PR було
+      збережено неправильне значення
+    type: Fix
+  id: 207
+  time: '2026-06-06T15:28:53.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1215
+- author: maertayn
+  changes:
+  - message: ID-картки додано до чорного списку асортименту крамаря
+    type: Fix
+  - message: Охорона WeYu отримала +1 до CQC/витривалості/пожежної справи/інженерії/вогнепальної зброї
+    type: Tweak
+  - message: Спрайти торгових автоматів (cash vendors)
+    type: Fix
+  - message: Стерео .ogg аудіофайли перетворено на моно (1 канал) - відповідні звуки
+      тепер мають бути просторовими
+    type: Fix
+  - message: Дерев'яні/металеві ящики, які використовують як барикади проти ксено,
+      тепер можна знищити ривком, а металеві - гострими кігтями
+    type: Fix
+  - message: Культисти можуть користуватися смоляними дверима будь-якого вулика, бо
+      вони неворожі для ксено
+    type: Fix
+  id: 208
+  time: '2026-06-06T16:09:50.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1229
+- author: maertayn
+  changes:
+  - message: Виправлено поломку трекера загону під час призначення або перепризначення
+      лідерів загону
+    type: Fix
+  - message: Виправлено повернення трекера загону до відстеження командира групи,
+      коли хтось приєднується до вогневої групи
+    type: Fix
+  - message: Раніше трекер загону міг налаштовувати або змінювати тільки лідер загону
+    type: Fix
+  - message: Керування вогневою групою приховано, якщо ви не можете з ним взаємодіяти
+      (ним можуть користуватися лише лідер загону або OW)
+    type: Fix
+  - message: Система бойового напарника могла відстежувати застарілий стан, якщо
+      ваш напарник знаходив нового напарника
+    type: Fix
+  - message: Накази морпіхів (рух/утримання/фокус) доступні лише за leadership>=1
+      або призначеним лідером загону (тривалість залежить від leadership)
+    type: Tweak
+  - message: Додано підтримку локалізації (overwatch.ftl) для консолей OW
+    type: Code
+  id: 209
+  time: '2026-06-06T16:10:11.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1233
+- author: toot521
+  changes:
+  - message: Додано вцілілих Імперських збройних космічних сил (IASF)
+    type: Add
+  - message: Додано точки появи вцілілих IASF на Hybrisa Metropolitan та Raijin Hydroelectric
+    type: Add
+  id: 210
+  time: '2026-06-06T16:13:00.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1214
+- author: Piticzu
+  changes:
+  - message: Ривок Крашера тепер відтворює звук розгону під час затримки 0.6 с перед
+      ривком.
+    type: Add
+  - message: Виправлено проходження ривка Крашера крізь стіни при наведенні на стик
+      між двома тайлами.
+    type: Fix
+  - message: Виправлено, що ривок Крашера не влучав у морпіхів на відстані й не відкидав
+      їх.
+    type: Fix
+  - message: Виправлено, що ривок Крашера не пошкоджував двері при ударі.
+    type: Fix
+  - message: Ривок Крашера тепер пробивається крізь реквізит (шафи, локери, стелажі,
+      бочки, картотеки, прожектори, утилізатори, генератори, платформи, лікарняні
+      перегородки).
+    type: Tweak
+  - message: Двері, ставні та не-loadout торгові автомати тепер отримують структурні
+      пошкодження від ривка Крашера.
+    type: Tweak
+  - message: Ривок Крашера переписано на прямий фізичний імпульс замість ThrownItemSystem,
+      відповідно до патерну стрибка ксено.
+    type: Code
+  id: 211
+  time: '2026-06-06T18:34:24.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1223
+- author: RomiGur
+  changes:
+  - message: Додано пошук ключів локалізації (rank-{ID}) для назв звань у тексті огляду
+    type: Code
+  id: 212
+  time: '2026-06-06T22:16:17.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1238
+- author: KriegersMustDie
+  changes:
+  - message: Печатки.
+    type: Add
+  id: 213
+  time: '2026-06-06T22:55:40.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1239
+- author: TheHellFireo
+  changes:
+  - message: Прості переломи показуються під час огляду.
+    type: Add
+  - message: Тріщини кістки лишаються прихованими під час огляду.
+    type: Fix
+  - message: Lesser Drones без тіла не додаються до черги личинок.
+    type: Fix
+  - message: Черга личинок не пропонує Lesser Drones без тіла.
+    type: Fix
+  - message: Розмиття від больового шоку мінімально починається при сильному болю.
+    type: Tweak
+  - message: Розмиття від больового шоку сильніше під час шоку.
+    type: Tweak
+  - message: Погляд угору більше не зупиняє візуальні ефекти больового шоку.
+    type: Fix
+  - message: Z починає видалення уламків, якщо у вас є уламки.
+    type: Add
+  - message: Alt-клік ножем починає видалення уламків.
+    type: Add
+  - message: Видалення уламків триває, доки всі уламки не буде прибрано.
+    type: Tweak
+  - message: Пошкодження від видалення уламків не може ламати кістки або спричиняти
+      внутрішню кровотечу.
+    type: Fix
+  id: 214
+  time: '2026-06-07T00:09:50.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1240
+- author: toot521
+  changes:
+  - message: Вцілілі ФВК тепер справді можуть з'являтися лише за сигналом лиха
+    type: Fix
+  id: 215
+  time: '2026-06-07T09:21:53.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1243
 Name: CMU
 Order: -1

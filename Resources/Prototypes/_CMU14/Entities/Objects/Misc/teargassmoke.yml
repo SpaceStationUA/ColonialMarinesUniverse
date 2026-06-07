@@ -70,11 +70,11 @@
 
 - type: edgeSpreader
   id: CMU14TearGas
-  updatesPerSecond: 3
+  updatesPerSecond: 1
 
 - type: edgeSpreader
   id: CMU14InstantTearGas
-  updatesPerSecond: 2
+  updatesPerSecond: 3
 
 - type: entity
   id: CMU14InstantTearGas

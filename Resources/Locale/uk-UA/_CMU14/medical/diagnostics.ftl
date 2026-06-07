@@ -68,7 +68,7 @@ cmu-medical-scanner-stat-pulse = ПУЛЬС УД/ХВ
 cmu-medical-scanner-stat-blood = КРОВ
 cmu-medical-scanner-stat-temp = ТЕМП °C
 cmu-medical-scanner-stat-shock-risk = РИЗИК ШОКУ
-cmu-medical-scanner-stat-pulse-stopped     = 0
+cmu-medical-scanner-stat-pulse-stopped = 0
 cmu-medical-scanner-stat-deceased-short = МЕРТВИЙ
 
 cmu-medical-scanner-status-stable = СТАБІЛЬНИЙ

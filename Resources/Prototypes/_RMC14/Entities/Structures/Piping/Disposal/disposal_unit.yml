@@ -4,6 +4,9 @@
   name: "утилізатор"
   description: "Пневматичний утилізатор сміття."
   components:
+  - type: XenoCrusherChargable
+    instantDestroy: true
+    passOnDestroy: true
   - type: VehicleSmashable
   - type: Sprite
     sprite: _RMC14/Structures/Piping/disposal.rsi

@@ -6,6 +6,9 @@
   description: "Це базова шафа для зберігання."
   suffix: Unanchored
   components:
+  - type: XenoCrusherChargable
+    instantDestroy: true
+    passOnDestroy: true
   - type: Physics
     bodyType: Static
   - type: Sprite

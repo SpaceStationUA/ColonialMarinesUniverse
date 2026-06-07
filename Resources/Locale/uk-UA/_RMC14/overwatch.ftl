@@ -104,3 +104,4 @@ rmc-overwatch-console-objective-updated = [bold][color=#7FFFD4]«{ $squadName }�
 rmc-overwatch-console-objective-cancelled = [bold][color=#7FFFD4]«{ $squadName }» { $objectiveType } «{ $objective }» скасовано.[/color][/bold]
 rmc-overwatch-console-objectives = Цілі вашого загону:
     { $objectives }
+rmc-overwatch-console-fireteams = Вогневі групи

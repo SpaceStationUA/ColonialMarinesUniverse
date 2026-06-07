@@ -10,7 +10,7 @@ reagent-desc-changeling-sting = Ви робите крихітний ковто�
 reagent-name-dr-gibb = Доктор Пеппер
 reagent-desc-dr-gibb = Смачна суміш з 42 різних смаків.
 
-reagent-name-energy-drink = monster energy
+reagent-name-energy-drink = монстер Енерджі
 reagent-desc-energy-drink = Доза енергії! Nanotrasen не несе відповідальності, якщо у вас виростуть пташині крила.
 
 reagent-name-grape-soda = виноградна газованка
@@ -25,7 +25,7 @@ reagent-desc-lemon-lime = Терпка газованка з лайма та л�
 reagent-name-lemon-lime-cranberry = Смайт Журавлинний
 reagent-desc-lemon-lime-cranberry = Терпка журавлина, Різдво і нотка лимона з лаймом.
 
-reagent-name-pwr-game = PWR Game
+reagent-name-pwr-game = Пауер Ґейм
 reagent-desc-pwr-game = Єдиний напій з PWR, якого жадають справжні геймери. Коли геймер каже про геймерфюел — він буквально про це.
 
 reagent-name-root-beer = кореневе пиво

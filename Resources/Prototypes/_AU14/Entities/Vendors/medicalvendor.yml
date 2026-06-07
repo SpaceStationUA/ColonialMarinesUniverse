@@ -5,6 +5,7 @@
   description: "Автоматизований автомат постачання, під’єднаний до запасу медичних припасів."
   suffix: AU14 MED
   components:
+  - type: AU14MedVendorDistressLock
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/med.rsi
     layers:
@@ -142,6 +143,7 @@
   description: "Диспенсер пакетів крові бренду ВеЮ Мед-Сай — провідний, найкращий у своєму класі диспенсер крові 2105 року! Замовте свій уже сьогодні!" #dont update year, that`s a joke from cm13
   suffix: AU14 MED
   components:
+  - type: AU14MedVendorDistressLock
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/blood.rsi
     snapCardinals: true
@@ -177,6 +179,7 @@
   description: "Диспенсер пакетів крові бренду ВеЮ Мед-Сай — провідний, найкращий у своєму класі диспенсер крові 2105 року! Замовте свій уже сьогодні!" #dont update year, that`s a joke from cm13
   suffix: AU14 MED
   components:
+  - type: AU14MedVendorDistressLock
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/blood.rsi
     snapCardinals: true

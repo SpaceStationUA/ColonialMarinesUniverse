@@ -4,6 +4,9 @@
   name: "маленький прожектор"
   description: "Невелика цятка світла в темряві."
   components:
+  - type: XenoCrusherChargable
+    instantDestroy: true
+    passOnDestroy: true
   - type: VehicleSmashable
   - type: Transform
     anchored: true

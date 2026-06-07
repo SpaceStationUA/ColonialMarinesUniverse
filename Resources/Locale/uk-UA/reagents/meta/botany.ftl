@@ -1,13 +1,13 @@
 reagent-name-e-z-nutrient = EZ-добриво
 reagent-desc-e-z-nutrient = Дайте своїм рослинам трохи EZ-добрива! Діонам це дуже смачно.
 
-reagent-name-left4-zed = left-4-zed
+reagent-name-left4-zed = лефт-4-Зед
 reagent-desc-left4-zed = Коктейль з мутагенних сполук, що дає поживні речовини, шкодить і впливає на геном рослин.
 
 reagent-name-pest-killer = засіб від шкідників
 reagent-desc-pest-killer = Суміш, що бореться зі шкідниками. Корисна, але повільно отруює рослини токсинами — будьте обережні.
 
-reagent-name-plant-b-gone = plant-B-gone
+reagent-name-plant-b-gone = плант-Бі-Ґон
 reagent-desc-plant-b-gone = Шкідлива токсична суміш для знищення рослин. Дуже ефективна проти кудзу.
 
 reagent-name-robust-harvest = надбагатий врожай

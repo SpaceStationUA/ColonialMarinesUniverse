@@ -1,12 +1,8 @@
 ## Entity
 
 chem-master-component-activate-no-hands = У тебе немає рук.
-chem-master-component-cannot-put-entity-message = Це не можна покласти в ChemMaster!
-
-## Bound UI
-chem-master-bound-user-interface-title = ChemMaster 4000
-
-## UI
+chem-master-component-cannot-put-entity-message = Це не можна покласти в ХімМайстер!
+chem-master-bound-user-interface-title = ХімМайстер 4000
 
 chem-master-window-input-tab = Вхід
 chem-master-window-output-tab = Вихід
