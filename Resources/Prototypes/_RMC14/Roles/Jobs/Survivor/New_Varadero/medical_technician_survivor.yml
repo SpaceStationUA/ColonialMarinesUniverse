@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorMedicalTechnician
-  name: "спавнер медтехніка-вцілілого"
+  name: survivor medical technician spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,5 +50,5 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetMedicalTechnician
-  name: "пресет колоніста-медтехніка"
+  name: medical technician colonist preset
   categories: [ HideSpawnMenu ]  # TODO RMC14 random research notes

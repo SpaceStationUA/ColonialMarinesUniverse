@@ -38,7 +38,7 @@
   - MobBloodstream
   - MobFlammable
   id: AU14AbominationBase
-  name: "абомінація"
+  name: abomination
   components:
   - type: Abomination
   - type: Spottable

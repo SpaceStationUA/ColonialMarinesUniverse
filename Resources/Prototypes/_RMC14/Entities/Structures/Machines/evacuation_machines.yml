@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: MarkerBase
   id: RMCSpawnerEvacuationPodSouth
-  name: "спавнер рятувальної капсули"
-  description: "Визначає локацію для появи евакуаційної капсули."
+  name: escape pod spawner
+  description: Defines a location to spawn an evacuation pod in.
   suffix: South
   placement:
     mode: SnapgridCenter
@@ -48,8 +48,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerLifeboat
-  name: "спавнер рятувального човна"
-  description: "Визначає локацію для появи рятувального човна."
+  name: lifeboat spawner
+  description: Defines a location to spawn a lifeboat.
   placement:
     mode: SnapgridCenter
   components:
@@ -62,8 +62,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerLifeboatAthena
-  name: "спавнер рятувального човна"
-  description: "Визначає локацію для появи рятувального човна."
+  name: lifeboat spawner
+  description: Defines a location to spawn a lifeboat.
   placement:
     mode: SnapgridCenter
   components:

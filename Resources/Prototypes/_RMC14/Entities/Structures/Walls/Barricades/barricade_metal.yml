@@ -4,8 +4,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetal
-  name: "металева барикада"
-  description: "Міцна й легка для збирання барикада з металевих пластин, часто використовується для швидких укріплень. Ремонтується пальником."
+  name: metal barricade
+  description: A sturdy and easily assembled barricade made of metal plates, often used for quick fortifications. Use a blowtorch to repair.
   components:
   - type: Climbable
   - type: Anchorable
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeTurnstile
-  name: "турнікет"
-  description: "Поруччя, яке заважає морпіхам виходити за межі ладу."
+  name: turnstile
+  description: A railing to prevent marines from stepping out of line.
   components:
     - type: Anchorable
     - type: Sprite
@@ -191,8 +191,8 @@
 - type: entity
   parent: CMBarricadeTurnstile
   id: CMBarricadeTurnstileMed
-  name: "турнікет"
-  description: "Поруччя, яке заважає морпіхам виходити за межі ладу. Цей розроблений спеціально для медиків."
+  name: turnstile
+  description: A railing to prevent marines from stepping out of line. This one is designed specifically for medical.
   components:
     - type: Sprite
       sprite: _RMC14/Structures/Walls/Barricades/barricade.rsi
@@ -207,8 +207,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: RMCBarricadeHandrail
-  name: "поруччя"
-  description: "Поручні, для твоїх рук. Воу-у-у."
+  name: handrail
+  description: A railing, for your hands. Woooow.
   components:
     - type: VehicleSmashable
     - type: Anchorable
@@ -369,7 +369,7 @@
 - type: entity
   parent: RMCBarricadeHandrail
   id: RMCBarricadeHybrisaPlasticRoadBarrier
-  name: "пластиковий дорожній бар'єр"
+  name: plastic road barrier
   components:
     - type: Sprite
       layers:
@@ -401,8 +401,8 @@
 - type: entity
   parent: CMBarricadeBase
   id: CMBarricadeMetalDoor
-  name: "складана металева барикада"
-  description: "Складана металева барикада, слабша за нескладну. Можна відкривати й закривати миттєво. Ремонтується зварювачем."
+  name: folding metal barricade
+  description: A folding metal barricade weaker than the non-folding counterpart. Able to be opened and closed at a moment's notice. Repair with a welder.
   components:
   - type: Anchorable
   - type: MeleeSound

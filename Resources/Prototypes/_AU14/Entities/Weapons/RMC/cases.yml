@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPVECaseMotionDetector
   id: AU14CaseMotionDetectorRMC
-  name: "кейс детекторів руху RMC"
-  description: "Кейс із чотирма окремими ручними детекторами руху, запрограмованими для роботи з RMC IFF."
+  name: RMC motion detectors case
+  description: A case containing four individual handheld motion detectors programmed to operate with RMC IFF.
   components:
   - type: StorageFill
     contents:
@@ -14,8 +14,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: AU14GunCasePistolL165A1
-  name: "кейс пістолета L165A1"
-  description: "Збройовий кейс із L165A1. Постачається з двома магазинами."
+  name: L165A1 pistol case
+  description: A gun case containing the L165A1. Comes with two magazines.
   components:
   - type: Storage
     maxItemSize: Huge

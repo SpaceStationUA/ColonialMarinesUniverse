@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMBaseDefibrillator
-  name: "екстрений дефібрилятор"
-  description: "Ручний екстрений дефібрилятор, що використовується для відновлення серцевого ритму у пацієнтів з фібриляцією. Опціонально може повертати людей з мертвих."
+  name: emergency defibrillator
+  description: A handheld emergency defibrillator, used to restore fibrillating patients. Can optionally bring people back from the dead.
   abstract: true
   components:
   - type: Sprite
@@ -107,8 +107,8 @@
 - type: entity
   id: RMCDefibrillatorCompact
   parent: CMDefibrillator
-  name: "автоматичний зовнішній дефібрилятор"
-  description: "Цей конкретний дефібрилятор має малу ємність заряду порівняно зі стандартним лайфпаком, але він менший і швидкий у використанні."
+  name: automated external defibrillator
+  description: This particular defibrillator has little charge capacity compared to the standard lifepak, but is smaller and quick to use.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/compact_defib.rsi
@@ -123,8 +123,8 @@
 - type: entity
   parent: [CMBaseDefibrillator, RMCPowerCellSlotUnremovable]
   id: RMCSynthResetKey
-  name: "ключ скидання синтетика Ві-Ю"
-  description: "Цей пристрій може виправляти серйозні збої або помилки програмування синтетичних одиниць, а також здатен перезавантажити синтетика, який зазнав критичного збою. Після використання потребує підзарядки."
+  name: We-Yu synthetic reset key
+  description: This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/synth_reset_key.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeySMART
-  name: "SMART ключ скидання синтетика Ві-Ю"
-  description: "Цей пристрій може виправляти серйозні збої або помилки програмування синтетичних одиниць, а також здатен перезавантажити синтетика, який зазнав критичного збою. Після використання потребує підзарядки. Цей має мікрофункціональний ШІ і ним може користуватись будь-хто."
+  name: SMART We-Yu synthetic reset key
+  description: This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use. This one has a microfunction AI and can be operated by anyone.
   components:
   - type: Sprite
     layers:
@@ -196,8 +196,8 @@
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeyHyperdyne
-  name: "ключ скидання синтетика Hyperdyne"
-  description: "Ключ скидання за схемою Hyperdyne для перезавантаження синтетичних одиниць після критичного збою. Після використання потребує підзарядки."
+  name: Hyperdyne synthetic reset key
+  description: A Hyperdyne-pattern reset key for rebooting synthetic units after critical failure. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -209,8 +209,8 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: RMCSynthResetKeyHyperdyneSMART
-  name: "SMART ключ скидання синтетика Hyperdyne"
-  description: "Ключ скидання за схемою Hyperdyne з мікрофункціональним ШІ, що дозволяє користуватися ним будь-кому. Після використання потребує підзарядки."
+  name: SMART Hyperdyne synthetic reset key
+  description: A Hyperdyne-pattern reset key with a microfunction AI, allowing anyone to operate it. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -222,8 +222,8 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: RMCSynthResetKeySeegson
-  name: "ключ перезавантаження Working Joe Seegson"
-  description: "Міцний ключ перезавантаження, призначений для синтетичних одиниць Working Joe виробництва Seegson. Після використання потребує підзарядки."
+  name: Seegson Working Joe reboot key
+  description: A rugged reboot key designed for Seegson Working Joe synthetic units. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -235,8 +235,8 @@
 - type: entity
   parent: RMCSynthResetKeySMART
   id: RMCSynthResetKeyMakeshift
-  name: "саморобний синтетичний іскровик"
-  description: "Грубий пристрій перезавантаження синтетика, зібраний зі знайденої електроніки, що іскрить. Після використання потребує підзарядки."
+  name: makeshift synthetic sparker
+  description: A crude synthetic reboot device assembled from scavenged sparking electronics. It must be recharged after use.
   components:
   - type: Sprite
     layers:
@@ -248,14 +248,14 @@
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeyNovaris
-  name: "ключ скидання синтетика Novaris"
-  description: "Незалежна розробка Novaris, заснована на попередній співпраці з Вейланд-Ютані. Цей пристрій може виправляти серйозні збої або помилки програмування синтетичних одиниць, а також здатен перезавантажити синтетика, який зазнав критичного збою. Після використання потребує підзарядки."
+  name: Novaris synthetic reset key
+  description: An independent Novaris design, based on a previous collaboration with Weyland-Yutani. This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use.
 
 - type: entity
   parent: RMCSynthResetKey
   id: RMCSynthResetKeyNovarisSMART
-  name: "SMART ключ скидання синтетика Novaris"
-  description: "Незалежна розробка Novaris, заснована на попередній співпраці з Вейланд-Ютані. Цей пристрій може виправляти серйозні збої або помилки програмування синтетичних одиниць, а також здатен перезавантажити синтетика, який зазнав критичного збою. Після використання потребує підзарядки. Цей має мікрофункціональний ШІ і ним може користуватись будь-хто."
+  name: SMART Novaris synthetic reset key
+  description: An independent Novaris design, based on a previous collaboration with Weyland-Yutani. This device can fix major glitches or programming errors of synthetic units, as well as being able to restart a synthetic that has suffered critical failure. It must be recharged after use. This one has a micro-function AI and can be operated by anyone.
   components:
   - type: RequiresSkill
     skills:

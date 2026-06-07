@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: "карабін XM4RA"
+  name: XM4RA carbine
   id: AU14WeaponRifleXM4RA
-  description: "Карабін XM4RA розробляється для Корпусу колоніальної морської піхоти США як частина програми Special Operations Peculiar Carbine (SOPCAR). Спершу створений як зброя для Marine Raiders, цей карабін став прототипом нового покоління зброї самозахисту для екіпажів танків і Морської охорони."
+  description: The XM4RA carbine is being developed for the United States Colonial Marines Corps as a part of Special Operations Peculiar Carbine (SOPCAR). Originally started as a weapon for the Marine Raiders, this carbine became a prototype for a new generation self defense weapon for tank crews and Marine Secuity Guard.
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/USCM/xm4ra1_32x64.rsi
@@ -145,9 +145,9 @@
 
 - type: entity
   parent: AU14WeaponRifleXM4RA
-  name: "карабін XM4RA1"
+  name: XM4RA1 carbine
   id: AU14WeaponRifleXM4RA1
-  description: "Карабін XM4RA1 є частиною програми Special Operations Peculiar Carbine (SOPCAR). Спершу створений як зброя для Marine Raiders, цей карабін став прототипом нового покоління зброї самозахисту для екіпажів танків і Морської охорони. Ця модифікація має режим повністю автоматичного вогню."
+  description: The XM4RA1 carbine is a part of Special Operations Peculiar Carbine (SOPCAR). Originally started as a weapon for the Marine Raiders, this carbine became a prototype for a new generation self defense weapon for tank crews and Marine Secuity Guard. This modification has full-auto firemode.
   components:
   - type: Gun
     shotsPerBurst: 3
@@ -182,9 +182,9 @@
 
 - type: entity
   parent: AU14WeaponRifleXM4RA1
-  name: "карабін XM4RA1 SOPMOD"
+  name: XM4RA1 SOPMOD carbine
   id: AU14WeaponRifleXM4RA1SOPMOD
-  description: "Карабін XM4RA1 SOPMOD є частиною нової програми самозахисту та спеціальних операцій для ОНМК. Саме модифікація SOPMOD розробляється для потреб Marine Raiders."
+  description: The XM4RA1 SOPMOD carbine is a part of new self-defense and special operations program for USCMC. Specifically SOPMOD modification is being developed for Marine Raiders needs.
   components:
   - type: RMCSelectiveFire
     baseFireModes:

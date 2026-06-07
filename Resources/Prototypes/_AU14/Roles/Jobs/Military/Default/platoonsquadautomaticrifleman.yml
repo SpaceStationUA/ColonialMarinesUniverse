@@ -73,7 +73,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadAutomaticRifleman
-  name: "точка появи автоматника відділення ГОВФОР"
+  name: Spawn Point GOVFOR Squad Rifleman
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadAutomaticRifleman

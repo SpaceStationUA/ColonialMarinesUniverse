@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobTARSPartyMedic #m41a/2
-  name: "Бойовий медик Prodigy TARS"
+  name: Prodigy TARS Combat Lifesaver
   description: au14-prodigyrescue-description
   playTimeTracker: AU14JobTARSPartyMedicTracker
   ranks:
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobTARSPartyMedic
-  name: "Бойовий медик Prodigy TARS (3-тя сторона, M20a)"
+  name: Prodigy TARS Combat Lifesaver (3rd party, M20a)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -50,7 +50,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Бойовий медик Prodigy TARS"
+    name: Prodigy TARS Combat Lifesaver
     description: au14-prodigyrescue-description
     reregister: false
     job: AU14JobTARSPartyMedic

@@ -1,7 +1,7 @@
 - type: entity
   parent: CMGrenadeFragOld
   id: AU14GrenadeHighExplosiveUPP
-  name: "осколкова граната Тип 6"
+  name: Type 6 fragmentation grenade
   suffix: UPP
   components:
   - type: Sprite
@@ -16,7 +16,7 @@
 - type: entity
   parent: CMGrenadeSmoke
   id: AU14GrenadeSmokeUPP
-  name: "димова граната RDG-17"
+  name: RDG-17 smoke grenade
   suffix: UPP
   components:
   - type: Sprite
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCGrenadeIncendiary
   id: AU14GrenadeIncendiaryUPP
-  name: "запалювальна граната Тип 8"
+  name: Type 8 incendiary grenade
   suffix: UPP
   components:
   - type: Sprite

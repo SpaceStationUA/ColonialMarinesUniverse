@@ -3,7 +3,7 @@
   abstract: true
   parent: CMMREComponentBase
   id: CMMREDessertComponentBase
-  description: "Бічний компонент MRE. Містить солодкий десерт, який треба з'їсти після основної страви (або до, якщо ви бунтар)."
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious).
   components:
   - type: Sprite
     state: dessert
@@ -11,8 +11,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentSpicedApples
-  name: "компонент MRE (пряні яблука)"
-  description: "Бічний компонент MRE. Містить солодкий десерт, який треба з'їсти після основної страви (або до, якщо ви бунтар). Цей — пряні яблука."
+  name: MRE component (spiced apples)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is spiced apples.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -21,8 +21,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentChocolateBrownie
-  name: "компонент MRE (шоколадне брауні)"
-  description: "Бічний компонент MRE. Містить солодкий десерт, який треба з'їсти після основної страви (або до, якщо ви бунтар). Цей — шоколадне брауні."
+  name: MRE component (chocolate brownie)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a chocolate brownie.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -31,8 +31,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentSugarCookie
-  name: "компонент MRE (цукрове печиво)"
-  description: "Бічний компонент MRE. Містить солодкий десерт, який треба з'їсти після основної страви (або до, якщо ви бунтар). Цей — цукрове печиво."
+  name: MRE component (sugar cookie)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a sugar cookie.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -41,8 +41,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentCocoBar
-  name: "компонент MRE (какао-батончик)"
-  description: "Бічний компонент MRE. Містить солодкий десерт, який треба з'їсти після основної страви (або до, якщо ви бунтар). Цей — какао-батончик."
+  name: MRE component (coco bar)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is a coco bar.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -51,8 +51,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentFlan
-  name: "компонент MRE (флан)"
-  description: "Бічний компонент MRE. Містить солодкий десерт, який треба з'їсти після основної страви (або до, якщо ви бунтар). Цей — флан."
+  name: MRE component (flan)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is flan.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMMREDessertComponentBase
   id: CMMREComponentHoneyFlan
-  name: "компонент MRE (медовий флан)"
-  description: "Бічний компонент MRE. Містить солодкий десерт, який треба з'їсти після основної страви (або до, якщо ви бунтар). Цей — медовий флан."
+  name: MRE component (honey flan)
+  description: An MRE side component. Contains a sweet dessert, to be eaten after the main (or before, if you're rebellious). This one is honey flan.
   components:
   - type: SpawnItemsOnUse
     items:
@@ -91,8 +91,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodSpicedApples
-  name: "пряні яблука"
-  description: "Вміст стандартного MRE морпіха. Цей — пряні яблука."
+  name: spiced apples
+  description: The contents of a Marine Standard issue MRE. This one is spiced apples.
   components:
   - type: Sprite
     state: spiced_apples
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodChocolateBrownie
-  name: "шоколадне брауні"
-  description: "Вміст стандартного MRE морпіха. Цей — шоколадне брауні."
+  name: chocolate brownie
+  description: The contents of a Marine Standard issue MRE. This one is a chocolate brownie.
   components:
   - type: Sprite
     state: chocolate_brownie
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodSugarCookie
-  name: "цукрове печиво"
-  description: "Вміст стандартного MRE морпіха. Цей — цукрове печиво."
+  name: sugar cookie
+  description: The contents of a Marine Standard issue MRE. This one is a sugar cookie.
   components:
   - type: Sprite
     state: sugar_cookie
@@ -127,8 +127,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodCocoBar
-  name: "какао-батончик"
-  description: "Вміст стандартного MRE морпіха. Цей — какао-батончик."
+  name: coco bar
+  description: The contents of a Marine Standard issue MRE. This one is a coco bar.
   components:
   - type: Sprite
     state: coco_bar
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodFlan
-  name: "флан"
-  description: "Вміст стандартного MRE морпіха. Цей — флан."
+  name: flan
+  description: The contents of a Marine Standard issue MRE. This one is flan.
   components:
   - type: Sprite
     state: flan
@@ -151,8 +151,8 @@
 - type: entity
   parent: CMMREFoodDessert
   id: CMMREFoodHoneyFlan
-  name: "медовий флан"
-  description: "Вміст стандартного MRE морпіха. Цей — медовий флан."
+  name: honey flan
+  description: The contents of a Marine Standard issue MRE. This one is honey flan.
   components:
   - type: Sprite
     state: honey_flan
@@ -164,29 +164,29 @@
 - type: flavor
   id: SpicedApples
   flavorType: Complex
-  description: "як пряні яблука"
+  description: like spiced apples
 
 - type: flavor
   id: ChocolateBrownie
   flavorType: Complex
-  description: "як шоколадне брауні"
+  description: like chocolate brownies
 
 - type: flavor
   id: SugarCookie
   flavorType: Complex
-  description: "як цукрове печиво"
+  description: like sugar cookie
 
 - type: flavor
   id: CocoBar
   flavorType: Complex
-  description: "як шоколад"
+  description: like chocolate
 
 - type: flavor
   id: Flan
   flavorType: Complex
-  description: "як флан"
+  description: like flan
 
 - type: flavor
   id: HoneyFlan
   flavorType: Complex
-  description: "як медовий флан"
+  description: like honey flan

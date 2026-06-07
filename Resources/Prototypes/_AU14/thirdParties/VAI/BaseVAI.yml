@@ -104,7 +104,7 @@
 
 - type: entity
   id: AU14VAIBasePreset
-  name: "базовий пресет VAI"
+  name: vai base preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -124,7 +124,7 @@
 
 - type: entity
   id: AU14VAISOBasePreset
-  name: "базовий пресет VAISO"
+  name: vaiso base preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: RMCHoodBioGeneral
-  name: "біо капюшон"
-  description: "Капюшон, який захищає голову та обличчя від біологічних забруднень."
+  name: bio hood
+  description: A hood that protects the head and face from biological contaminants.
   suffix: Generic, RMC
   components:
   - type: Sprite
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCHoodBioGeneral
   id: RMCHoodBioWeYa
-  name: "біокаптур WeYu-TSS MK II"
-  description: "'Біокостюм Вейланд-Ютані TerraScientia MK II'. Просунутий легкий біокостюм, розроблений Вейланд-Ютані власними силами. Це каптур, що захищає голову й обличчя від біологічних забруднень, сумісний із синтетиками. Реального захисту не дає."
+  name: WeYu-TSS MK II - bio hood
+  description: The 'Weyland-Yutani TerraScientia bio-suit MK II'. An advanced light-weight bio-suit developed in-house by Weyland-Yutani. It's a hood that protects the head and face from biological contaminants, synthetic compliant. Offers no real protection.
   suffix: Generic, WeYu
   components:
   - type: Sprite
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCHoodBioWeYa
   id: RMCHoodBioWeYaAlt
-  name: "біокаптур WeYu-TSS MK I"
-  description: "'Біокостюм Вейланд-Ютані TerraScientia MK I'. Просунутий легкий біокостюм, розроблений Вейланд-Ютані власними силами. Це каптур, що захищає голову й обличчя від біологічних забруднень."
+  name: WeYu-TSS MK I - bio hood
+  description: The 'Weyland-Yutani TerraScientia bio-suit MK I'. An advanced light-weight bio-suit developed in-house by Weyland-Yutani. It's a hood that protects the head and face from biological contaminants.
   suffix: Generic, WeYu, Alt
   components:
   - type: Sprite

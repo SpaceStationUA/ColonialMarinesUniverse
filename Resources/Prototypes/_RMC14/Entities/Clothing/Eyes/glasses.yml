@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: CMGlassesSecurity
-  name: "захисні HUD-окуляри"
-  description: "Сонцезахисні окуляри, нашпиговані найкращими нанотехнологіями, які UNMC спромігся дістати на фронтирі. Відображають інформацію про будь-яку людину, яку ви визнаєте гідною свого погляду."
+  name: security HUD-glasses
+  description: Sunglasses wired up with the best nano-tech the UNMC can muster out on the frontier. Displays information about any person you decree worthy of your gaze.
   components:
   - type: Item
     storedRotation: 0
@@ -30,8 +30,8 @@
 - type: entity
   parent: [ ClothingEyesBase , ShowMedicalIcons ]
   id: CMGlassesM42ScoutSight
-  name: "розвідувальний приціл M42"
-  description: "Система гарнітури й приладу нічного бачення для гвинтівки M96 Scout. Дозволяє підсвічувати навколишнє середовище."
+  name: M42 scout sight
+  description: A headset and night vision sighting system for the M96 Scout Rifle. Allows highlighted imaging of surroundings.
   components:
   - type: Item
     storedRotation: 0
@@ -49,8 +49,8 @@
 - type: entity
   parent: CMGlassesM42ScoutSight
   id: RMCGlassesSPPCommandoNightVision
-  name: "окуляри коммандос Type 9"
-  description: "Система гарнітури та окулярів нічного бачення, яку використовують сили UPP. Дозволяє підсвічувати навколишнє середовище."
+  name: Type 9 commando goggles
+  description: A headset and night vision goggles system used by UPP forces. Allows highlighted imaging of surroundings.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/spp_nv.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: ClothingEyesHudMedical
   id: RMCGlassesM4SPRBattleSight
-  name: "бойовий приціл M4RA"
-  description: "Система гарнітури й приладу нічного бачення для кастомної бойової гвинтівки M4RA. Дозволяє підсвічувати навколишнє середовище, а також переглядати показники здоров'я за датчиками костюма інших морпіхів."
+  name: M4RA Battle Sight
+  description: A headset and night vision sighting system for the M4RA Custom Battle Rifle. Allows highlighted imaging of surroundings, as well as the ability to view the suit sensor health status readouts of other marines.
   components:
   - type: Item
     storedRotation: 0
@@ -79,8 +79,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGlassesSmartGunSight
-  name: "нашоломний приціл M56B" # TODO RMC14 meson tile vision see description below
-  description: "Система гарнітури та окулярів для розумного кулемета M56B." # TODO RMC14 Has a low-res short-range imager, allowing for view of terrain.
+  name: M56B head mounted sight # TODO RMC14 meson tile vision see description below
+  description: A headset and goggles system for the M56B Smart Gun. # TODO RMC14 Has a low-res short-range imager, allowing for view of terrain.
   components:
   - type: Item
     storedRotation: 0
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGlassesExperimentalMeson
-  name: "експериментальні мезонні окуляри"
-  description: "Покращена, але експериментальна версія стандартних мезонних окулярів. Через підвищену складність їх можуть носити лише синтетики. Забезпечують повне нічне бачення та мезонно-підсилений огляд навколишнього середовища. Натисніть, щоб перемкнути."
+  name: experimental meson goggles
+  description: An improved but experimental version of the standard issue meson goggles. Due to increased complexity these can only be worn by synthetics. Allows for full night vision and meson-assisted viewing of surroundings. Click it to toggle.
   components:
   - type: Item
     storedRotation: 0
@@ -131,8 +131,8 @@
 - type: entity
   parent: [ClothingEyesHudMedical, BaseToggleClothing]
   id: RMCGlassesMedicalHUDGlasses
-  name: "HUD HealthMate"
-  description: "Лобовий дисплей, який сканує гуманоїдів у полі зору та надає точні дані про стан їхнього здоров'я."
+  name: HealthMate HUD
+  description: A heads-up display that scans the humanoids in view and provides accurate data about their health status.
   components:
   - type: Item
     storedRotation: 0
@@ -180,8 +180,8 @@
 - type: entity
   parent: [ClothingEyesHudMedical, BaseToggleClothing]
   id: RMCGlassesHUDSecurity
-  name: "HUD PatrolMate"
-  description: "Лобовий дисплей, який сканує людей у полі зору та надає точні дані про їхній ID-статус і записи служби безпеки."
+  name: PatrolMate HUD
+  description: A heads-up display that scans the humans in view and provides accurate data about their ID status and security records.
   components:
   - type: Item
     storedRotation: 0
@@ -216,8 +216,8 @@
 - type: entity
   parent: [ClothingEyesBase, BaseToggleClothing]
   id: RMCGlassesReagentHUDGlasses
-  name: "hUD-окуляри зі сканером реагентів"
-  description: "Ці окуляри, ймовірно, знадобляться комусь, хто не тримає гвинтівку й активно не намагається зменшити свою бойову тривалість життя."
+  name: reagent scanner HUD goggles
+  description: These goggles are probably of use to someone who isn't holding a rifle and actively seeking to lower their combat life expectancy.
   components:
   - type: Item
     storedRotation: 0
@@ -259,8 +259,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGlassesMarineRpg # TODO make this actually prescription
-  name: "окуляри RPG морпіха"
-  description: "Корпус може називати їх статутними окулярами з рецептурними лінзами, але ви знаєте їх як окуляри запобігання Rut."
+  name: marine RPG glasses
+  description: The Corps may call them Regulation Prescription Glasses but you know them as Rut Prevention Glasses.
   components:
   - type: Item
     storedRotation: 0
@@ -275,7 +275,7 @@
 - type: entity
   parent: RMCGlassesMarineRpg
   id: RMCGlassesMarineRpgOld
-  name: "старі окуляри RPG морпіха"
+  name: old marine RPG glasses
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/old_rpg_glasses.rsi
@@ -285,8 +285,8 @@
 - type: entity
   parent: [ClothingEyesBase, RMCHelmetGarbToggleableBase]
   id: RMCGogglesBallistic
-  name: "морські балістичні окуляри"
-  description: "Стандартні окуляри USCM. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі."
+  name: marine ballistic goggles
+  description: Standard issue USCM goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes.
   components:
   - type: Item
     storedRotation: 0
@@ -314,8 +314,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticBlack # TODO prescription variant
-  name: "чорні морські балістичні окуляри"
-  description: "Стандартні окуляри USCM. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ці мають чорні тоновані лінзи."
+  name: black marine ballistic goggles
+  description: Standard issue USCM goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This one has black tinted lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/black_ballistic_goggles.rsi
@@ -338,8 +338,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticOrange # TODO prescription variant
-  name: "помаранчеві морські балістичні окуляри"
-  description: "Стандартні окуляри USCM. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ці мають бурштинові денні лінзи."
+  name: orange marine ballistic goggles
+  description: Standard issue USCM goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This one has amber colored day lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/orange_ballistic_goggles.rsi
@@ -362,8 +362,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticRed # TODO prescription variant
-  name: "червоні морські балістичні окуляри"
-  description: "Стандартні окуляри UNMC. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ці мають яскраво-червоні денні лінзи."
+  name: red marine ballistic goggles
+  description: Standard issue UNMC goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This one has scarlet colored day lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/red_ballistic_goggles.rsi
@@ -386,8 +386,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticBlue # TODO prescription variant
-  name: "сині морські балістичні окуляри"
-  description: "Стандартні окуляри UNMC. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ці мають сині денні лінзи."
+  name: blue marine ballistic goggles
+  description: Standard issue UNMC goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This one has blue colored day lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/blue_ballistic_goggles.rsi
@@ -410,8 +410,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticPurple # TODO prescription variant
-  name: "фіолетові морські балістичні окуляри"
-  description: "Стандартні окуляри UNMC. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ці мають фіолетові денні лінзи."
+  name: purple marine ballistic goggles
+  description: Standard issue UNMC goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This one has purple colored day lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/purple_ballistic_goggles.rsi
@@ -434,8 +434,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticYellow # TODO prescription variant
-  name: "жовті морські балістичні окуляри"
-  description: "Стандартні окуляри UNMC. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ці мають жовті денні лінзи."
+  name: yellow marine ballistic goggles
+  description: Standard issue UNMC goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This one has yellow colored day lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/yellow_ballistic_goggles.rsi
@@ -458,8 +458,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticPolarizedBlue # TODO prescription variant
-  name: "поляризовані морські балістичні окуляри M1A1"
-  description: "Новіші окуляри UNMC. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ця версія має більші поляризовані лінзи."
+  name: M1A1 marine polarized ballistic goggles
+  description: Newer issue UNMC goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This version has larger polarized lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/blue_polarized_ballistic_goggles.rsi
@@ -476,8 +476,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesBallisticPolarizedOrange # TODO prescription variant
-  name: "поляризовані морські балістичні окуляри M1A1"
-  description: "Новіші окуляри UNMC. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ця версія має більші поляризовані лінзи."
+  name: M1A1 marine polarized ballistic goggles
+  description: Newer issue UNMC goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This version has larger polarized lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/orange_polarized_ballistic_goggles.rsi
@@ -494,8 +494,8 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesM1A1Ballistic # TODO prescription variant
-  name: "морські балістичні окуляри M1A1"
-  description: "Новіші окуляри USCM. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ця версія має більші лінзи."
+  name: M1A1 marine ballistic goggles
+  description: Newer issue USCM goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This version has larger lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/M1A1_Ballistic_goggles.rsi
@@ -512,14 +512,14 @@
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesPrescriptionBallistic # TODO make this actually prescription
-  name: "морські балістичні окуляри з діоптріями"
-  description: "Стандартні окуляри USCM. Переважно використовуються для прикрашання шолома. Мають рецептурні лінзи, якщо ви ще сумнівалися, чи вони лажові."
+  name: prescription marine ballistic goggles
+  description: Standard issue USCM goggles. Mostly used to decorate one's helmet. Contains prescription lenses in case you weren't sure if they were lame or not.
 
 - type: entity
   parent: RMCGogglesBallistic
   id: RMCGogglesM1A1BallisticBlue # TODO prescription variant
-  name: "сині морські балістичні окуляри"
-  description: "Стандартні окуляри UNMC. Хоч їх зазвичай носять на шоломах зразка M10, вони також здатні не допускати до очей комах, пил та інші речі. Ці мають сині денні лінзи."
+  name: blue marine ballistic goggles
+  description: Standard issue UNMC goggles. While commonly found mounted atop M10 pattern helmets, they are also capable of preventing insects, dust, and other things from getting into one's eyes. This one has blue colored day lenses.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/M1A1_Ballistic_goggles_blue.rsi
@@ -536,8 +536,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGogglesBallisticSquad
-  name: "покращені балістичні окуляри"
-  description: "Передові окуляри USCM. Сучасні полімери й дорога нанотехнологія дозволяють окулярам з'єднуватися з бронею носія та змінювати колір лінз відповідно до позначення його загону. Лінзи невидимі, коли їх носить негідний."
+  name: Advanced ballistic goggles
+  description: Cutting edge USCM goggles. Advanced polymers and expensive nanotechnology allow the goggles to link with the wearer's armor and change the color of the lenses to match their squad designation. The lenses are invisible when worn by the unworthy.
   components:
   - type: Item
     storedRotation: 0
@@ -560,8 +560,8 @@
   parent: ClothingEyesGlassesCheapSunglasses
   id: RMCSunglasses
   suffix: RMC
-  name: "сонцезахисні окуляри"
-  description: "Звичайні безіменні окуляри, що забезпечують базовий захист очей."
+  name: sunglasses
+  description: Generic off-brand eyewear, used to help provide rudimentary eye cover.
   components:
   - type: Item
     storedRotation: 0
@@ -574,16 +574,16 @@
 - type: entity
   parent: RMCSunglasses
   id: RMCPrescriptionSunglasses
-  name: "сонцезахисні окуляри з діоптріями"
-  description: "Суміш крутості та невід'ємної занудності рецептурних лінз. Якимось чином приховує і те, і інше."
+  name: prescription sunglasses
+  description: A mixture of coolness and the inherent nerdiness of a prescription. Somehow manages to conceal both.
 
 # Identical to upstream ones, sans the name and description
 - type: entity
   parent: ClothingEyesEyepatch
   id: RMCEyepatch
   suffix: RMC
-  name: "пов'язка на око"
-  description: "Колись її носили старі морські розбишаки, а тепер її частіше пов'язують із постаттю з легенд. Кажуть, він був великим І босом. Вражає, так? Не дайте військовим поліцейським побачити на вас цей нестатутний одяг."
+  name: eyepatch
+  description: Once worn by swashbucklers of old, now more commonly associated with a figure of legend. They say he was big AND a boss. Impressive no? Don't let the MPs see you wearing this non-regulation attire.
   components:
   - type: Item
     storedRotation: 0
@@ -596,8 +596,8 @@
 - type: entity
   parent: RMCSunglasses
   id: RMCSunglassesBig
-  name: "персональні окуляри TriMax"
-  description: "Це дорога пара сонцезахисних окулярів TriMax. Цей бренд популярний серед піхоти UNMC, бо кажуть, що його запатентоване дзеркальне заломлення захищає від атомного спалаху, сонячної радіації та лазерів наведення. На додачу, здається, кожен знає хлопця, який знає хлопця, який знає хлопця, від чиїх окулярів відбився постріл лазерного пістолета. TriMax стали популярними в морпіхів після рекламної кампанії 'Рятуй колонії й виглядай круто'. "
+  name: TriMax personal shades
+  description: These are an expensive pair of TriMax sunglasses. This brand is popular with UNMC foot sloggers because its patented mirror refraction has been said to offer protection from atomic flash, solar radiation, and targeting lasers. To top it all off, everyone seems to know a guy who knows a guy who knows a guy that had a laser pistol reflect off of his shades. TriMax came into popularity with the Marines after its 'Save the Colonies and Look Cool Doing It' ad campaign.
   components:
   - type: Item
     storedRotation: 0
@@ -613,8 +613,8 @@
 - type: entity
   parent: RMCSunglassesBig
   id: RMCGlassesTriMaxYellow
-  name: "поляризовані окуляри TriMax"
-  description: "Стильні, незграбні окуляри, створені для сучасного оператора."
+  name: TriMax Polarized Shades
+  description: Sleek, angular shades designed for the modern operator.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/trimax_yellow_glasses.rsi
@@ -635,7 +635,7 @@
 - type: entity
   parent: RMCGlassesTriMaxYellow
   id: RMCGlassesTriMaxBlack
-  name: "тактичні окуляри TriMax"
+  name: TriMax Tactical Shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/trimax_black_glasses.rsi
@@ -645,8 +645,8 @@
 - type: entity
   parent: RMCSunglasses
   id: RMCSunglassesBigFake
-  name: "персональні окуляри TriMex"
-  description: "Це окуляри в стилі TriMax з кошика з розпродажем - акцент саме на стилі."
+  name: TriMex personal shades
+  description: These are a bargain-bin pair of TriMax-style sunglasses—emphasis on the style.
   suffix: No FlashImmunity
   components:
   - type: Item
@@ -664,7 +664,7 @@
 - type: entity
   parent: RMCSunglassesBigFake
   id: RMCGlassesTriMaxYellowFake
-  name: "'поляризовані' окуляри TriMex"
+  name: TriMex 'Polarized' Shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/trimax_yellow_glasses.rsi
@@ -683,7 +683,7 @@
 - type: entity
   parent: RMCGlassesTriMaxYellowFake
   id: RMCGlassesTriMaxBlackFake
-  name: "тактичні окуляри TriMex"
+  name: TriMex Tactical Shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/trimax_black_glasses.rsi
@@ -693,8 +693,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGlassesAviators
-  name: "окуляри-авіатори"
-  description: "Пара сонцезахисних окулярів з пісочним відтінком. Під час носіння ви ледь чутно чуєте музику 80-х."
+  name: aviator shades
+  description: A pair of tan tinted sunglasses. You can faintly hear 80's music playing while wearing these.
   components:
   - type: Item
     storedRotation: 0
@@ -709,7 +709,7 @@
 - type: entity
   parent: RMCGlassesAviators
   id: RMCGlassesAviatorsSilver
-  description: "Пара сонцезахисних окулярів зі срібним відтінком. Під час носіння ви ледь чутно чуєте музику 80-х."
+  description: A pair of silver tinted sunglasses. You can faintly hear 80's music playing while wearing these.
   suffix: Silver
   components:
   - type: Sprite
@@ -720,8 +720,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCHipsterGlasses
-  name: "окуляри з діоптріями"
-  description: "Нудні окуляри, роблять вас розумним і потенційно респектабельним."
+  name: prescription glasses
+  description: Boring glasses, makes you look smart and potentially reputable.
   components:
   - type: Item
     storedRotation: 0
@@ -738,7 +738,7 @@
 - type: entity
   parent: RMCHipsterGlasses
   id: RMCHippieGlasses
-  name: "круглі окуляри з діоптріями"
+  name: rounded prescription glasses
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie.rsi
@@ -748,8 +748,8 @@
 - type: entity
   parent: RMCHippieGlasses
   id: RMCHippieGlassesBloodred
-  name: "криваво-червоні круглі окуляри StarTex-Sightwear"
-  description: "Яскраві круглі окуляри від StarTex-Sightware, які полюбляють вільні духом люди та ті, хто крокує під власний ритм. Ці барвисті окуляри в ретро-стилі забезпечують достатній захист від спалахів, додаючи будь-якому образу нотку розслабленого богемного стилю."
+  name: StarTex-Sightwear bloodred rounded shades
+  description: Colorful, rounded shades from StarTex-Sightware, embraced by free spirits and those who march to the beat of their own drum. These vibrant, retro-inspired shades offer adequate protection against flashes while adding a touch of laid-back, bohemian style to any look.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie_bloodred.rsi
@@ -759,7 +759,7 @@
 - type: entity
   parent: RMCHippieGlassesBloodred
   id: RMCHippieGlassesGreen
-  name: "зелені круглі окуляри StarTex-Sightwear"
+  name: StarTex-Sightwear green rounded shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie_green.rsi
@@ -769,7 +769,7 @@
 - type: entity
   parent: RMCHippieGlassesBloodred
   id: RMCHippieGlassesMidnight
-  name: "опівнічно-круглі окуляри StarTex-Sightwear"
+  name: StarTex-Sightwear midnight rounded shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie_midnight.rsi
@@ -779,7 +779,7 @@
 - type: entity
   parent: RMCHippieGlassesBloodred
   id: RMCHippieGlassesNightblue
-  name: "нічні сині круглі окуляри StarTex-Sightwear"
+  name: StarTex-Sightwear nightblue rounded shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie_nightblue.rsi
@@ -789,7 +789,7 @@
 - type: entity
   parent: RMCHippieGlassesBloodred
   id: RMCHippieGlassesPink
-  name: "рожеві круглі окуляри StarTex-Sightwear"
+  name: StarTex-Sightwear pink rounded shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie_pink.rsi
@@ -799,7 +799,7 @@
 - type: entity
   parent: RMCHippieGlassesBloodred
   id: RMCHippieGlassesSunrise
-  name: "світанкові круглі окуляри StarTex-Sightwear"
+  name: StarTex-Sightwear sunrise rounded shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie_sunrise.rsi
@@ -809,7 +809,7 @@
 - type: entity
   parent: RMCHippieGlassesBloodred
   id: RMCHippieGlassesSunset
-  name: "західні круглі окуляри StarTex-Sightwear"
+  name: StarTex-Sightwear sunset rounded shades
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/Hippie/hippie_sunset.rsi
@@ -819,8 +819,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCWeldingGoggles
-  name: "зварювальні окуляри" # TODO RMC14 impairs vision when on
-  description: "Захищають очі від зварювальників, схвалені асоціацією божевільних науковців."
+  name: welding goggles # TODO RMC14 impairs vision when on
+  description: Protects the eyes from welders, approved by the mad scientist association.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/welding_goggles.rsi
@@ -860,8 +860,8 @@
 - type: entity
   parent: RMCWeldingGoggles
   id: RMCWeldingGogglesSuperior # TODO RMC14 less vision impairment then regular goggles
-  name: "покращені зварювальні окуляри"
-  description: "Зварювальні окуляри з дорожчих матеріалів, дивно пахнуть картоплею."
+  name: superior welding goggles
+  description: Welding goggles made from more expensive materials, strangely smells like potatoes.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Eyes/Glasses/welding_goggles_superior.rsi
@@ -871,8 +871,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGogglesKutjevo
-  name: "окуляри Kutjevo"
-  description: "Окуляри, якими захищають очі працівників на Kutjevo. Окуляри з рейтингом N95Z."
+  name: kutjevo goggles
+  description: Goggles used to shield the eyes of workers on Kutjevo. N95Z Rated Goggles.
   components:
   - type: Item
     storedRotation: 0
@@ -887,8 +887,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGlassesJensen
-  name: "доповнені окуляри"
-  description: "Поляризовані бионейронні окуляри, створені для посилення вашого зору. Чому б вам не знайти роботу?"
+  name: augmented shades
+  description: Polarized bioneural eyewear, designed to augment your vision. Why don't you try getting a job?
   components:
   - type: Item
     storedRotation: 0
@@ -903,8 +903,8 @@
 - type: entity
   parent: ClothingEyesBase
   id: RMCGlassesMonocle
-  name: "монокль"
-  description: "Який чепурний окуляр!"
+  name: monocle
+  description: Such a dapper eyepiece!
   components:
   - type: Item
     storedRotation: 0

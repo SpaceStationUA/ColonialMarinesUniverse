@@ -78,7 +78,7 @@
 - type: entity
   abstract: true
   id: RMCBaseWallInvincibleNoIcon
-  description: "Велетенський шмат металу, що використовується для розділення кімнат."
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -122,7 +122,7 @@
   abstract: true
   parent: RMCBaseWallInvincibleNoIcon
   id: CMBaseWallInvincible
-  description: "Велетенський шмат металу, що використовується для розділення кімнат."
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -135,7 +135,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseWall
-  description: "Велетенський шмат металу, що використовується для розділення кімнат."
+  description: A huge chunk of metal used to separate rooms.
   components:
   - type: Damageable
     damageContainer: StructuralMarine
@@ -164,7 +164,7 @@
   - BaseWall
   - CMBaseXenoStructure
   id: CMBaseWallXeno
-  name: "смоляна стіна"
+  name: resin wall
   abstract: true
   placement:
     mode: SnapgridCenter
@@ -199,7 +199,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletPassible
-  name: "блокувач стіни"
+  name: wall blocker
   suffix: Projectile Passible
   placement:
     mode: SnapgridCenter
@@ -236,7 +236,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletBlocker
-  name: "блокувач стіни"
+  name: wall blocker
   suffix: Projectile Blocker
   placement:
     mode: SnapgridCenter
@@ -275,7 +275,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCWallInvisibleBulletLightBlocker
-  name: "блокувач стіни"
+  name: wall blocker
   suffix: Projectile + Light Blocker
   placement:
     mode: SnapgridCenter
@@ -314,7 +314,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCBlockerAirtight
-  name: "герметичний блокувач"
+  name: airtight blocker
   placement:
     mode: SnapgridCenter
   components:

@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMMarksman
-  name: "марксман ГРОМ УПП"
+  name: UPP GROM Marksman
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

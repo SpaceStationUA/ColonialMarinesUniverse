@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorUNMCRecruiter
-  name: "спавнер рекрутера unmc-вцілілого"
+  name: survivor unmc recruiter spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorUNMCRecruiter

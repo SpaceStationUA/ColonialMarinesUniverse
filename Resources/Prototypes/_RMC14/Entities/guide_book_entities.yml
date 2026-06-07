@@ -1,7 +1,7 @@
 - type: entity
   id: RMCBaseMapIcon
   parent: BaseItem
-  name: "Іконка"
+  name: Icon
   abstract: true
   suffix: GuideBookEntity
   components:
@@ -12,7 +12,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLesserMapIcon
-  name: "Менший"
+  name: Lesser
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCParasiteMapIcon
-  name: "Паразит"
+  name: Parasite
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLarvaMapIcon
-  name: "Личинка"
+  name: Larva
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCDroneMapIcon
-  name: "Дрон"
+  name: Drone
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCHivelordMapIcon
-  name: "Володар вулика"
+  name: Hivelord
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCBurrowerMapIcon
-  name: "Норник"
+  name: Burrower
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -79,7 +79,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCCarrierMapIcon
-  name: "Носій"
+  name: Carrier
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCDefenderMapIcon
-  name: "Захисник"
+  name: Defender
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCWarriorMapIcon
-  name: "Воїн"
+  name: Warrior
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -113,7 +113,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCCrusherMapIcon
-  name: "Трощитель"
+  name: Crusher
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCSentinelMapIcon
-  name: "Вартовий"
+  name: Sentinel
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCSpitterMapIcon
-  name: "Плювака"
+  name: Spitter
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -146,7 +146,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCBoilerMapIcon
-  name: "Бойлер"
+  name: Boiler
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -158,7 +158,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCRunnerMapIcon
-  name: "Бігун"
+  name: Runner
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -169,7 +169,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLurkerMapIcon
-  name: "Причаювач"
+  name: Lurker
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -180,7 +180,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCRavagerMapIcon
-  name: "Нищівник"
+  name: Ravager
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCPraetorianMapIcon
-  name: "Преторіанець"
+  name: Praetorian
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCQueenMapIcon
-  name: "Королева"
+  name: Queen
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCLeaderMapIcon
-  name: "Корона ватажка"
+  name: Leader Crown
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -229,7 +229,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCHiveCoreMapIcon
-  name: "Ядро вулика"
+  name: Hive core
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -238,7 +238,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCMorpherMapIcon
-  name: "Перетворювач яєць"
+  name: Egg morpher
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -247,7 +247,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCClusterMapIcon
-  name: "Кластер вулика"
+  name: Hive cluster
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCTunnelMapIcon
-  name: "Тунель"
+  name: Tunnel
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -265,7 +265,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCRecovNodeMapIcon
-  name: "Вузол відновлення"
+  name: Recovery node
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -274,7 +274,7 @@
 - type: entity
   parent: RMCBaseMapIcon
   id: RMCPylonMapIcon
-  name: "пілон вулика"
+  name: hive pylon
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

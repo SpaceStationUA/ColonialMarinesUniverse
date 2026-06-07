@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomClothingBase
-  name: "спавнер зброї"
-  description: "спавнить випадковий предмет одягу"
+  name: gun spawner
+  description: spawns a random clothing item
   suffix: Base
   abstract: true
   components:
@@ -15,8 +15,8 @@
 - type: entity
   parent: RMCSpawnerRandomClothingBase
   id: RMCSpawnerRandomGoggles
-  name: "спавнер лута окулярів"
-  description: "Це випадковий набір окулярів для вцілілийів."
+  name: goggles loot spawner
+  description: This is a random set of goggles, for survivors.
   suffix: Guaranteed
   components:
   - type: RandomSpawner

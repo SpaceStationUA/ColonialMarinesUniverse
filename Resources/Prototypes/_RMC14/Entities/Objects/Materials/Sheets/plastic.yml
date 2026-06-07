@@ -9,7 +9,7 @@
 
 - type: stack
   id: RMCPlastic
-  name: "пластик"
+  name: plastic
   icon: { sprite: _RMC14/Objects/Materials/Sheets/plastic.rsi, state: plastic }
   spawn: RMCSheetPlastic
   maxCount: 50
@@ -17,8 +17,8 @@
 - type: entity
   parent: SheetOtherBase
   id: RMCSheetPlastic
-  name: "пластик"
-  description: "Пластик — це синтетичний полімер, виготовлений з органічних і неорганічних компонентів у пластичну та легку тканину. Можна використовувати для широкого спектру об'єктів."
+  name: plastic
+  description: Plastic is a synthetic polymer, manufactured from organic and inorganic components into a malleable and light fabric. It can be used for a wide range of objects.
   suffix: Full
   components:
   - type: Sprite

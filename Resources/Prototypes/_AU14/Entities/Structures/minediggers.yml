@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: AU14MineDigger
   parent: BaseStructure
-  name: "видобувна машина"
+  name: mining machine
   placement:
     mode: SnapgridCenter
   components:
@@ -28,7 +28,7 @@
 - type: entity
   id: AU14MineDiggerAlt
   parent: BaseStructure
-  name: "видобувна машина"
+  name: mining machine
   placement:
     mode: SnapgridCenter
   components:

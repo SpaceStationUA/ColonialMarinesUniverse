@@ -33,7 +33,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorILRCPeacekeeper
-  name: "спавнер ILRC миротворця-вцілілого"
+  name: survivor ILRC peacekeeper spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -45,5 +45,5 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetILRCPeacekeeper
-  name: "пресет колоніста ILRC миротворця"
+  name: ILRC peacekeeper colonist preset
   categories: [ HideSpawnMenu ]

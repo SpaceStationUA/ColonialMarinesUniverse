@@ -2,8 +2,8 @@
   abstract: true
   parent: CMBaseStructure
   id: RMCPropComputerBase
-  name: "термінал"
-  description: "Можна використовувати для різних функцій."
+  name: terminal
+  description: This can be used for various functions.
   suffix: Prop
   components:
   - type: Transform
@@ -44,7 +44,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPropCommunicationsConsole
-  name: "комунікаційна консоль"
+  name: communications console
   components:
   - type: Sprite
     state: comm
@@ -60,7 +60,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCPersonalDesktop
-  name: "персональний робочий стіл"
+  name: personal desktop
   components:
   - type: Sprite
     state: terminal1
@@ -68,7 +68,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSecurityCameraConsole
-  name: "консоль камер безпеки"
+  name: security cameras console
   components:
   - type: Sprite
     state: security_cam
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCSecurityCameraConsole
   id: RMCDropshipWeaponsConsoleProp
-  name: "керування зброєю десантного корабля"
+  name: dropship weapons controls
   components:
   - type: Sprite
     drawdepth: Objects
@@ -92,7 +92,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSecurityRecordsConsole
-  name: "записи безпеки"
+  name: security records
   components:
   - type: Sprite
     state: jas
@@ -100,7 +100,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSecurityRecordsConsoleAlt
-  name: "записи безпеки"
+  name: security records
   components:
   - type: Sprite
     state: security
@@ -108,7 +108,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCIdentificationComputer
-  name: "ідентифікаційний комп'ютер"
+  name: identification computer
   components:
   - type: Sprite
     state: engineering_terminal
@@ -116,7 +116,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCStationAlertComputer
-  name: "комп'ютер тривог станції"
+  name: station alert computer
   components:
   - type: Sprite
     state: atmos
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCPropComputerBase
   id: RMCSystemsComputer
-  name: "системний комп'ютер"
+  name: systems computer
   components:
   - type: Sprite
     state: terminal

@@ -85,7 +85,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmySynth
-  name: "синтетик армії США (виж.)"
+  name: US Army Synthetic (Surv)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

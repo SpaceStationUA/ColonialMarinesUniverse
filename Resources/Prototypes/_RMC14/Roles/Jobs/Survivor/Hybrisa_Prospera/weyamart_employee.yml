@@ -35,7 +35,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaWeyamartEmployee
-  name: "точка появи працівника Веямарту на Гібризі"
+  name: hybrisa weyamart employee spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor

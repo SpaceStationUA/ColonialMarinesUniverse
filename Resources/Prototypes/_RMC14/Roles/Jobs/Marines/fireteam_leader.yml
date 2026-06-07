@@ -75,7 +75,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointFireteamLeader
-  name: "спавнер лідера вогневої команди"
+  name: fireteam leader spawn point
   components:
   - type: SpawnPoint
     job_id: CMFireteamLeader

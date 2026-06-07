@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobProdigyPARTYSynth
-  name: "Синтетик підтримки Prodigy Yankee"
+  name: Prodigy Yankee Support Synthetic
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPARTYSynth
   whitelisted: true
@@ -87,7 +87,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesSyntheticProdigy
   id: AU14JobProdigyPARTSynth
-  name: "Синтетик підтримки Prodigy Yankee (AU14, 3-тя сторона)"
+  name: Prodigy Yankee Support Synthetic (AU14, 3rd Party)
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

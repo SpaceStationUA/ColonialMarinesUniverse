@@ -17,7 +17,7 @@
 - type: entity
   parent: AU14KitPlatoonOfficer
   id: AU14KitJOStaffOfficerKit
-  name: "Набір штабного офіцера (ШО)"
+  name: Staff Officer (SO) Kit
   description: >-
     The battle-planning kit is suited for working alongside the Commander in the CIC to coordinate combat operations and plan the next miracle.
 
@@ -44,7 +44,7 @@
 - type: entity
   parent: AU14KitPlatoonOfficer
   id: AU14KitJOIntelligenceOfficer
-  name: "Набір офіцера розвідки (ОР)"
+  name: Intelligence Officer (IO) Kit
   description: >-
     The CIC's most valuable asset, provided they stay in contact and let the information do the shooting.
 
@@ -88,7 +88,7 @@
 - type: entity
   parent: AU14KitPlatoonOfficer
   id: AU14KitJOEngineeringKit
-  name: "Набір інженерного офіцера (ІО)"
+  name: Engineering Officer (EO) Kit
   description: >-
     This engineering kit is suited for deploying into the field to support engineering efforts such as constructing forward operating bases and maintaining infrastructure.
 
@@ -118,7 +118,7 @@
 - type: entity
   parent: AU14KitPlatoonOfficer
   id: AU14KitJOAdjutantKit
-  name: "Набір офіцера-ад'ютанта (ВО)"
+  name: Adjutant Officer (XO) Kit
   description: >-
     The administrative heart of the command element. The most senior is the XO, the CO's second in command (who actually reads the fine print).
 

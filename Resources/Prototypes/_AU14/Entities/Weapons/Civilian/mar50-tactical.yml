@@ -22,8 +22,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14MagazineMar50LMGAP
-  name: "бронебійний барабанний магазин MAR (7.62x39mm)"
-  description: "Барабанний магазин 7.62x39mm для ручного кулемета MAR-50."
+  name: MAR AP drum magazine (7.62x39mm)
+  description: A 7.62x39mm drum magazine for the MAR-50 LMG.
   components:
   - type: Tag
     tags:
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: AU14CartridgeRifleMAR40AP
-  name: "набій (7.62x39mm ББ)"
-  description: "Бронебійний гвинтівковий набій 7.62x39mm"
+  name: Cartridge (7.62x39mm AP)
+  description: A 7.62x39mm AP rifle cartridge
   components:
   - type: Tag
     tags:

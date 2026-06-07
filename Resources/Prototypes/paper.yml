@@ -1,7 +1,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperRunawaySynth
-  name: "попередження про синта-втікача"
+  name: Fugitive Alert
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -30,7 +30,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperRunawaySynthDead
-  name: "підтвердження ліквідації втікача"
+  name: Fugitive Termination Confirmation
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -58,7 +58,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperFugitiveCaptured
-  name: "підтвердження затримання втікача"
+  name: Fugitive Capture Confirmation
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperFugitive
-  name: "підтвердження затримання втікача"
+  name: Fugitive Capture Confirmation
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -117,7 +117,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperDrugs
-  name: "попередження про наркотики"
+  name: Narcotics Alert
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -140,7 +140,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperCLFVeteran
-  name: "попередження про повстанця"
+  name: Insurgent Alert
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -168,7 +168,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperCLFVeteranCaptured
-  name: "підтвердження затримання повстанця"
+  name: Insurgent Capture Confirmation
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -196,7 +196,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperStrikeOrganizer
-  name: "попередження про трудові заворушення"
+  name: Labor Unrest Alert
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -224,7 +224,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperCLFVeteranCLF
-  name: "зашифроване повідомлення"
+  name: Encrypted Message
   components:
   - type: Paper
     stampState: paper_stamp-clf
@@ -250,7 +250,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperSerialKiller
-  name: "попередження про серійного вбивцю"
+  name: Serial Killer Alert
   components:
   - type: Paper
     stampState: paper_stamp-cmb
@@ -278,7 +278,7 @@
 - type: entity
   parent: CMPaper
   id: AUPaperSerialKillerCaptured
-  name: "підтвердження нейтралізації серійного вбивці"
+  name: Serial Killer Neutralization Confirmation
   components:
   - type: Paper
     stampState: paper_stamp-cmb

@@ -1,6 +1,6 @@
 - type: entity
   id: XenoWardingTower
-  name: "вежа для відлякування ксеноморфів"
+  name: xeno warding tower
   placement:
     mode: SnapgridCenter
     snap:
@@ -53,8 +53,8 @@
 - type: entity
   parent: XenoWardingTower
   id: CarpStatue
-  name: "статуя коропа"
-  description: "Статуя одного з відважних коропів, які привели нас туди, де ми є сьогодні. Зроблено зі справжніми зубами!"
+  name: carp statue
+  description: A statue of one of the brave carp that got us where we are today. Made with real teeth!
   components:
   - type: Sprite
     noRot: true
@@ -86,7 +86,7 @@
   parent: CarpStatue
   id: CarpStatueEmpty
   suffix: Empty
-  description: "Шматок дорогоцінних металів, який незабаром стане блискучою статуєю карпа."
+  description: A lump of precious metals, soon to be a brilliant carp statue.
   components:
   - type: Sprite
     layers:
@@ -98,7 +98,7 @@
   parent: CarpStatue
   id: CarpStatueEyes
   suffix: Eyes
-  description: "Статуя одного з хоробрих карпів, які привели нас туди, де ми є сьогодні. Цьому потрібен дантист..."
+  description: A statue of one of the brave carp that got us where we are today. This one needs a dentist...
   components:
   - type: Sprite
     layers:

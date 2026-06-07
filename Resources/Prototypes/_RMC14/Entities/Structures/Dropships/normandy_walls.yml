@@ -2,7 +2,7 @@
   abstract: true
   parent: CMBaseWallInvincible
   id: CMBaseNormandyWall
-  name: "стіна «Лексінгтон»"
+  name: lexington wall
   components:
   - type: Corrodible
     isCorrodible: false
@@ -696,8 +696,8 @@
 - type: entity
   parent: [CMBaseNormandyWall, CMAlamoWall61]
   id: CMNormandyWall61
-  name: "точка кріплення зброї лівого крила"
-  description: "Місце, де важке обладнання можна встановити силовим завантажувачем."
+  name: port wing weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 61
   components:
   - type: Sprite
@@ -748,8 +748,8 @@
 - type: entity
   parent: [CMBaseNormandyWall, CMAlamoWall65]
   id: CMNormandyWall65
-  name: "точка кріплення зброї правого крила"
-  description: "Місце, де важке обладнання можна встановити силовим завантажувачем."
+  name: starboard wing weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 65
   components:
   - type: Sprite
@@ -965,8 +965,8 @@
 - type: entity
   parent: [CMBaseNormandyWall, CMAlamoWall84]
   id: CMNormandyWall84
-  name: "передня точка кріплення зброї лівого борту"
-  description: "Місце, де важке обладнання можна встановити силовим завантажувачем."
+  name: port fore weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 84
   components:
   - type: Sprite
@@ -984,8 +984,8 @@
 - type: entity
   parent: [CMNormandyWall84, CMAlamoWall84Flipped]
   id: CMNormandyWall84Flipped
-  name: "передня точка кріплення зброї правого борту"
-  description: "Місце, де важке обладнання можна встановити силовим завантажувачем."
+  name: starboard fore weapon attach point
+  description: A place where heavy equipment can be installed with a powerloader.
   suffix: 84, Flipped
   components:
   - type: Sprite

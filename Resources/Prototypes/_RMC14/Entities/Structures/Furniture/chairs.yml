@@ -6,7 +6,7 @@
   abstract: true
   parent: SeatBase
   id: CMSeatBase
-  name: "абстрактний стілець"
+  name: abstract chair
   suffix: RMC
   components:
   - type: Corrodible
@@ -47,8 +47,8 @@
 - type: entity
   parent: [ CMSeatBase, ChairFolding ]
   id: CMChair
-  name: "стілець"
-  description: "Прямокутний металевий каркас на чотирьох ніжках зі спинкою. Розроблений, щоб підтримувати сидячу позицію — більш-менш зручно."
+  name: chair
+  description: A rectangular metallic frame sitting on four legs with a back panel. Designed to fit the sitting position, more or less comfortably.
   components:
   - type: Transform
     anchored: true
@@ -96,8 +96,8 @@
   parent: CMSeatBase
   id: CMChairNonFold
   abstract: true
-  name: "стілець"
-  description: "Прямокутний металевий каркас на чотирьох ніжках зі спинкою. Розроблений, щоб підтримувати сидячу позицію — більш-менш зручно."
+  name: chair
+  description: A rectangular metallic frame sitting on four legs with a back panel. Designed to fit the sitting position, more or less comfortably.
   components:
   - type: Transform
     anchored: false
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMChairNonFold
   id: RMCStool
-  name: "табурет"
-  description: "Ти сидиш у цьому. Чи то з волі, чи то з примусу."
+  name: stool
+  description: Apply butt.
   components:
   - type: Sprite
     state: stool
@@ -134,8 +134,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairComfy
-  name: "зручне крісло"
-  description: "Крісло зі шкіряною набивкою та регульованим підголівником. На такому, мабуть, можна сидіти вічність."
+  name: comfy chair
+  description: A chair with leather padding and adjustable headrest. You could probably sit in one of these for ages.
   placement:
     mode: SnapgridCenter
   components:
@@ -152,7 +152,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyARES
-  description: "Функціональне крісло, призначене для зручного розміщення однієї людини з метою полегшити взаємодію з ШІ корабля."
+  description: A functional chair designed for comfortably sitting a single person with intent to facilitate interactions with the ship AI.
   suffix: RMC|ARES
   components:
   - type: Sprite
@@ -161,7 +161,7 @@
 - type: entity
   parent: CMChairComfyARES
   id: RMCChairComfyAI
-  name: "крісло інтерфейсу ШІ"
+  name: AI interface chair
   suffix: RMC|AI
   components:
   - type: Sprite
@@ -218,7 +218,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyAlpha
-  description: "Простий стілець, що постійно прикріплений до підлоги, обертові частини зняті, щоб солдати з малою концентрацією уваги сиділи на місці під час брифінгів. Оббитий скрипучою і надто твердою штучною шкірою, нерівно пофарбованою в червоний колір загону «Альфа». Лише для найхоробріших і найсвіжіших новобранців морпіхів."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Alpha squad red. Only for the bravest and freshest Marine recruits.
   suffix: RMC|Alpha
   components:
   - type: Sprite
@@ -227,7 +227,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyBravo
-  description: "Простий стілець, що постійно прикріплений до підлоги, обертові частини зняті, щоб солдати з малою концентрацією уваги сиділи на місці під час брифінгів. Оббитий скрипучою і надто твердою штучною шкірою, нерівно пофарбованою в коричневий колір загону «Браво». Сертифіковано укріплений з усіх боків від ворожих вторгнень."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Bravo squad brown. Certified fortified on all sides from enemy incursion.
   suffix: RMC|Bravo
   components:
   - type: Sprite
@@ -236,7 +236,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyCharlie
-  description: "Простий стілець, що постійно прикріплений до підлоги, обертові частини зняті, щоб солдати з малою концентрацією уваги сиділи на місці під час брифінгів. Оббитий скрипучою і надто твердою штучною шкірою, нерівно пофарбованою у фіолетовий колір загону «Чарлі». Здається недоречним без повноцінного сніданку поряд."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Charlie squad purple. Feels out of place without a full breakfast to accompany it.
   suffix: RMC|Charlie
   components:
   - type: Sprite
@@ -245,7 +245,7 @@
 - type: entity
   parent: CMChairComfy
   id: CMChairComfyDelta
-  description: "Простий стілець, що постійно прикріплений до підлоги, обертові частини зняті, щоб солдати з малою концентрацією уваги сиділи на місці під час брифінгів. Оббитий скрипучою і надто твердою штучною шкірою, нерівно пофарбованою в синій колір загону «Дельта». Цей стілець, найімовірніше, першим піде в бій і першим загине."
+  description: A simple chair permanently attached to the floor, with the spinning parts removed to force soldiers with low attention spans to keep still during briefings. Covered with a squeaky and way too hard faux-leather, unevenly painted in Delta squad blue. This chair is most likely to be the first to fight and first to die.
   suffix: RMC|Delta
   components:
   - type: Sprite
@@ -254,7 +254,7 @@
 - type: entity
   parent: CMChairComfy
   id: RMCChairComfyAlien
-  name: "інопланетний стілець"
+  name: alien chair
   suffix: RMC|Alien
   components:
   - type: Sprite
@@ -264,7 +264,7 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairOfficeDark
-  name: "темне офісне крісло"
+  name: dark office chair
   components: # RMC14 Non-parity: Not rotatable
   - type: Sprite
     state: officechair_dark
@@ -277,7 +277,7 @@
 - type: entity
   parent: CMChairOfficeDark
   id: CMChairOfficeWhite
-  name: "білий офісний стілець"
+  name: white office chair
   components:
   - type: Sprite
     state: officechair_white
@@ -291,8 +291,8 @@
 - type: entity
   parent: CMSeatBase
   id: CMChairWood
-  name: "дерев'яний стілець"
-  description: "Старе ніколи не буває настільки старим, щоб вийти з моди."
+  name: wooden chair
+  description: Old is never too old to not be in fashion.
   components:
   - type: Sprite
     state: wooden_chair
@@ -334,7 +334,7 @@
 - type: entity
   parent: CMChairWood
   id: CMChairWoodWings
-  description: "Старе ніколи не буває настільки старим, щоб вийти з моди."
+  description: Old is never too old to not be in fashion.
   components:
   - type: Sprite
     state: wooden_chair_wings

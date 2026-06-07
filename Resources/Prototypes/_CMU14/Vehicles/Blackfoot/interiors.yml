@@ -2,8 +2,8 @@
   abstract: true
   parent: VehicleInteriorGeneralBase
   id: CMUBlackfootInteriorBase
-  name: "внутрішнє кріплення Блекфута"
-  description: "Кріплення всередині AD-71E Блекфут."
+  name: Blackfoot interior fixture
+  description: A fixture inside an AD-71E Blackfoot.
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/interiors/blackfoot.rsi
@@ -11,7 +11,7 @@
 - type: entity
   parent: CMUBlackfootInteriorBase
   id: CMUBlackfootSideExit
-  name: "бокові двері Блекфута"
+  name: Blackfoot side door
   components:
   - type: Transform
     anchored: false
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMUBlackfootSideExit
   id: CMUBlackfootSideExitRight
-  name: "бокові двері Блекфута"
+  name: Blackfoot side door
   components:
   - type: Transform
     anchored: false
@@ -55,7 +55,7 @@
 - type: entity
   parent: CMUBlackfootSideExit
   id: CMUBlackfootRearExit
-  name: "задні двері Блекфута"
+  name: Blackfoot rear door
   components:
   - type: Transform
     anchored: false
@@ -71,7 +71,7 @@
 - type: entity
   parent: VehicleAmmoLoader
   id: CMUBlackfootAmmoLoader
-  name: "порт доступу до зброї Блекфута"
+  name: Blackfoot weapon access port
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_peripherals.rsi
@@ -80,7 +80,7 @@
 - type: entity
   parent: CMUBlackfootAmmoLoader
   id: CMUBlackfootAmmoLoaderRight
-  name: "порт доступу до зброї Блекфута"
+  name: Blackfoot weapon access port
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_peripherals.rsi
@@ -89,7 +89,7 @@
 - type: entity
   parent: CMUBlackfootInteriorBase
   id: CMUBlackfootRearDoorButton
-  name: "керування задніми дверима Блекфута"
+  name: Blackfoot rear door control
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/blackfoot_door_button.rsi
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCSeatArmored
   id: CMUSeatBlackfootPassenger
-  name: "пасажирське сидіння Блекфута"
+  name: Blackfoot passenger seat
   placement:
     mode: PlaceFree
   components:
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCSeatArmoredDriver
   id: CMUSeatBlackfootPilot
-  name: "пілотське сидіння Блекфута"
+  name: Blackfoot pilot seat
   placement:
     mode: PlaceFree
   components:
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCSeatArmoredBase
   id: CMUSeatBlackfootDoorGunner
-  name: "автоматичний гранатомет M866"
-  description: "Стрічковий автоматичний гранатомет, встановлений у задній частині Блекфута."
+  name: M866 automatic grenade launcher
+  description: A belt-fed automatic grenade launcher mounted to the aft end of a Blackfoot.
   placement:
     mode: PlaceFree
   components:
@@ -167,7 +167,7 @@
 - type: entity
   parent: CMUBlackfootInteriorBase
   id: CMUBlackfootChassis
-  name: "шасі Блекфута"
+  name: Blackfoot chassis
   components:
   - type: Transform
     anchored: false
@@ -252,7 +252,7 @@
 - type: entity
   parent: VehicleViewport
   id: CMUBlackfootViewport
-  name: "оглядове вікно Блекфута"
+  name: Blackfoot viewport
   components:
   - type: Sprite
     sprite: _CMU14/Structures/Vehicles/Blackfoot/interiors/blackfoot.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: CMUBlackfootInteriorBase
   id: CMUBlackfootCassettePlayer
-  name: "вбудований касетний програвач"
-  description: "Кустарно встановлений касетний програвач на місці короткохвильового вузла зв’язку."
+  name: integrated cassette player
+  description: A jury-rigged cassette player forcibly installed in place of a short-wave communications uplink.
   placement:
     mode: PlaceFree
   components:
@@ -275,7 +275,7 @@
 - type: entity
   parent: VehicleInteriorExtinguisherClosed
   id: CMUBlackfootExtinguisherCabinet
-  name: "шафа вогнегасника Блекфута"
+  name: Blackfoot extinguisher cabinet
   placement:
     mode: PlaceFree
   components:
