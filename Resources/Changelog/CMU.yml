@@ -4796,5 +4796,116 @@
   id: 230
   time: '2026-06-09T02:36:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1259
+- author: troytroy400
+  changes:
+  - message: USS George W. Bush now has an orbital cannon and supply console.
+    type: Add
+  - message: USS George W. Bush requisitions starts with basic supplies.
+    type: Add
+  - message: USS George W. Bush AI stairwell fixed.
+    type: Fix
+  id: 231
+  time: '2026-06-09T12:24:35.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1269
+- author: TheHellFireo
+  changes:
+  - message: Added the M37A1 pump shotgun with camouflage sprites, inhand/wielded
+      sprites, attachment support, and a dedicated gun case.
+    type: Add
+  - message: Increased the M37A1 fire rate so it cycles faster than the initial port.
+    type: Tweak
+  - message: Added the MK481 heavy shotgun with HDSG grenade rounds, ammo boxes, projectile
+      sprites, and a dedicated gun case.
+    type: Add
+  - message: Lowered MK481 scatter and tuned HDSG behavior so its cluster bomblets
+      detonate at the intended impact/stop point.
+    type: Tweak
+  - message: Added the P9 SHARP rifle, SHARP operator equipment case, SHARP magazine
+      belt, operator pamphlet, explosive/incendiary/flechette magazines, dart projectiles,
+      deployed dart mines, mine sprites, direct-hit effects, and ammo crates.
+    type: Add
+  - message: 'SHARP explosive and incendiary darts can toggle direct-hit detonation
+      delay, spawn armed 360-degree proximity mines on range expiry, and apply flashing
+      target outlines: red for explosive and yellow for incendiary.'
+    type: Tweak
+  - message: Added the M707 Vulture anti-materiel rifle with disassembled case setup,
+      integrated barrel/scope/bipod/stock attachments, 20x102mm magazine/ammo, spotter
+      scope, deployable spotter tripod, instructional pamphlet, Vulture action icons,
+      and scope overlay assets.
+    type: Add
+  - message: 'Added Vulture scoped-fire mechanics: fixed 5x5 firing window, scope
+      zoom/angle controls, windage/elevation adjustments, crosshair drift, hold-breath
+      stabilization, spotter-linked view support, heavy bullet penetration, impact
+      audio, and enhanced bullet fly-by sound.'
+    type: Add
+  id: 232
+  time: '2026-06-09T15:31:37.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1270
+- author: KeiKiyomi
+  changes:
+  - message: Fixed Prodigy synth raffle
+    type: Fix
+  id: 233
+  time: '2026-06-09T16:59:31.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1272
+- author: Piticzu
+  changes:
+  - message: Fixed Wendigo headbite screech not playing globally for all players.
+    type: Fix
+  id: 234
+  time: '2026-06-09T23:50:37.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1274
+- author: jok989372-lgtm
+  changes:
+  - message: Fixed stamps
+    type: Fix
+  id: 235
+  time: '2026-06-09T23:51:07.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1273
+- author: maertayn
+  changes:
+  - message: job icons require chevron to be worn, without chevron, no icon and a
+      surprise for IO mains
+    type: Add
+  - message: loadouts for military jobs have been fixed - now able to look up one
+      immediate parent
+    type: Fix
+  - message: JO vendors sharing limits between sections & bumped IO+EO to 2 per round
+      (e.g. 2 IOs, 0 EO)
+    type: Fix
+  - message: aboms were not detected by the motion tracker
+    type: Fix
+  - message: 'DIY spacecleaner: 2 parts water, 1 part vodka, lemon-lime and a tsp.
+      of salt, then stir it'
+    type: Add
+  - message: govfor headsets removed from govfor/opfor vendors
+    type: Remove
+  id: 236
+  time: '2026-06-10T05:15:29.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1276
+- author: 400Ferrets
+  changes:
+  - message: flamethrowers NERFED VICIOUSLY!!
+    type: Tweak
+  id: 237
+  time: '2026-06-10T07:40:13.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1281
+- author: 400Ferrets
+  changes:
+  - message: Port Neroid has a sensor tower.
+    type: Add
+  - message: Port Neroid has both comms towers, with multiple spawn locations.
+    type: Add
+  - message: Port Neroid grass is now weedable.
+    type: Add
+  - message: Port Neroid weedkiller range is larger.
+    type: Add
+  - message: Port Neroid no longer has working generators round-start.
+    type: Add
+  - message: Port Neroid is now darker.
+    type: Add
+  id: 238
+  time: '2026-06-10T07:43:29.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1279
 Name: CMU
 Order: -1
