@@ -74,3 +74,14 @@ rmc-flare-gun-examine = Останній вистрелений сигнальн
 
 expendable-light-starshell-ash-empty-name = попіл згаслого освітлювального снаряда
 expendable-light-starshell-ash-empty-desc = Залишки згорілого освітлювального снаряда
+rmc-sharp-examine = [bold]Натисніть свою клавішу [color=cyan]унікальної дії[/color] (за замовчуванням Пробіл), щоб перемикати затримку детонації при прямому влучанні вибухових і запалювальних дротиків. Поточна затримка: [color=yellow]{TOSTRING($seconds, "F1")} с[/color].[/bold]
+rmc-sharp-toggle-delay = Ви встановлюєте для {THE($gun)} затримку детонації при прямому влучанні на {TOSTRING($seconds, "F1")} с.
+rmc-vulture-unbraced-user = Відбій від {THE($gun)} б’є по вас без розгорнутої сошки!
+rmc-vulture-unbraced-others = {CAPITALIZE(THE($user))} відкидає назад відбоєм {THE($gun)}!
+rmc-vulture-bipod-required = Перш ніж користуватися прицілом, треба розгорнути сошку {THE($gun)}.
+rmc-vulture-spotter-scope-slot = приціл спостерігача M707
+rmc-vulture-spotter-insert-scope = Встановити приціл
+rmc-vulture-spotter-eject-scope = Зняти приціл
+rmc-vulture-spotter-scope-only = На триногу підходить лише приціл спостерігача M707.
+rmc-vulture-must-scope = Щоб налаштувати приціл M707 «Валчер», треба дивитися крізь нього.
+rmc-vulture-breath-cooldown = Вам треба перевести подих, перш ніж знову стабілізувати приціл.

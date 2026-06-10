@@ -1,23 +1,23 @@
-rmc-xeno-despoiler-name = Despoiler
-rmc-xeno-despoiler-description = A massive, hunched xenomorph with hyper-pressurized acid sacs lining its spine. Steam hisses from cracks in its carapace.
+rmc-xeno-despoiler-name = Спустошувач
+rmc-xeno-despoiler-description = Масивний згорблений ксеноморф із гіперстисненими кислотними мішками вздовж хребта. З тріщин у його панцирі шипить пара.
 
-rmc-job-name-xeno-despoiler = Despoiler
+rmc-job-name-xeno-despoiler = Спустошувач
 
-ent-RMCActionXenoDespoilerAcidBarrage = Acid Barrage
-    .desc = Activate to arm — the icon lights up green. Hold LMB to charge the volley: the longer you hold, the more projectiles. Release LMB to fire at the cursor.
+ent-RMCActionXenoDespoilerAcidBarrage = Кислотний шквал
+    .desc = Активуйте, щоб підготувати - піктограма засвітиться зеленим. Утримуйте ЛКМ, щоб зарядити залп: що довше утримуєте, то більше снарядів. Відпустіть ЛКМ, щоб вистрілити в напрямку курсора.
 
-ent-RMCActionXenoDespoilerCausticEmbrace = Caustic Embrace
-    .desc = Leap toward the click with an acid splash. Empowered lets you strike a chosen target up to 5 tiles away and applies an acid DoT.
+ent-RMCActionXenoDespoilerCausticEmbrace = Їдкі обійми
+    .desc = Стрибніть до місця кліку з кислотним сплеском. Посилена версія дозволяє вдарити вибрану ціль на відстані до 5 тайлів і накладає періодичну кислотну шкоду.
 
-ent-RMCActionXenoDespoilerOozingWounds = Oozing Wounds
-    .desc = Creates a ring of acid spray around you. The radius grows as your HP drops. The empowered version stuns and applies acid.
+ent-RMCActionXenoDespoilerOozingWounds = Сочиві рани
+    .desc = Створює кільце кислотних бризок навколо вас. Радіус зростає зі зменшенням вашого HP. Посилена версія оглушує та накладає кислоту.
 
-ent-RMCActionXenoDespoilerCatalyze = Catalyze
-    .desc = Spends 1 Hypertension stack and empowers your next active ability.
+ent-RMCActionXenoDespoilerCatalyze = Каталіз
+    .desc = Витрачає 1 стак Гіпертензії та посилює вашу наступну активну здібність.
 
-rmc-despoiler-no-hypertension = Not enough Hypertension stacks.
-rmc-despoiler-catalyze-active = The next ability is empowered!
-rmc-despoiler-barrage-armed = Barrage armed: hold LMB to charge, release to fire.
-rmc-despoiler-pounce-out-of-range = Too far away.
-rmc-despoiler-pounce-blocked = Something blocks the leap!
-rmc-despoiler-caustic-no-target = Need a target!
+rmc-despoiler-no-hypertension = Недостатньо стаків Гіпертензії.
+rmc-despoiler-catalyze-active = Наступну здібність посилено!
+rmc-despoiler-barrage-armed = Шквал підготовлено: утримуйте ЛКМ, щоб зарядити, відпустіть, щоб вистрілити.
+rmc-despoiler-pounce-out-of-range = Занадто далеко.
+rmc-despoiler-pounce-blocked = Щось блокує стрибок!
+rmc-despoiler-caustic-no-target = Потрібна ціль!

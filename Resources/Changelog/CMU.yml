@@ -4798,111 +4798,115 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1259
 - author: troytroy400
   changes:
-  - message: USS George W. Bush now has an orbital cannon and supply console.
+  - message: USS George W. Bush тепер має орбітальну гармату та консоль постачання.
     type: Add
-  - message: USS George W. Bush requisitions starts with basic supplies.
+  - message: Постачання USS George W. Bush починає раунд із базовими припасами.
     type: Add
-  - message: USS George W. Bush AI stairwell fixed.
+  - message: Виправлено сходову клітку ШІ на USS George W. Bush.
     type: Fix
   id: 231
   time: '2026-06-09T12:24:35.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1269
 - author: TheHellFireo
   changes:
-  - message: Added the M37A1 pump shotgun with camouflage sprites, inhand/wielded
-      sprites, attachment support, and a dedicated gun case.
+  - message: Додано помпову рушницю M37A1 з камуфляжними спрайтами, спрайтами в
+      руці/при триманні двома руками, підтримкою обвісів та окремим збройовим кейсом.
     type: Add
-  - message: Increased the M37A1 fire rate so it cycles faster than the initial port.
+  - message: Збільшено темп стрільби M37A1, щоб вона циклувалася швидше, ніж у початковому
+      порті.
     type: Tweak
-  - message: Added the MK481 heavy shotgun with HDSG grenade rounds, ammo boxes, projectile
-      sprites, and a dedicated gun case.
+  - message: Додано важку рушницю MK481 з гранатними набоями HDSG, коробками боєприпасів,
+      спрайтами снарядів та окремим збройовим кейсом.
     type: Add
-  - message: Lowered MK481 scatter and tuned HDSG behavior so its cluster bomblets
-      detonate at the intended impact/stop point.
+  - message: Зменшено розкид MK481 і налаштовано поведінку HDSG, щоб її касетні суббоєприпаси
+      детонували в потрібній точці влучання/зупинки.
     type: Tweak
-  - message: Added the P9 SHARP rifle, SHARP operator equipment case, SHARP magazine
-      belt, operator pamphlet, explosive/incendiary/flechette magazines, dart projectiles,
-      deployed dart mines, mine sprites, direct-hit effects, and ammo crates.
+  - message: Додано гвинтівку P9 ШАРП, кейс спорядження оператора ШАРП, магазинний
+      пояс ШАРП, памфлет оператора, вибухові/запалювальні/флешетні магазини, дротикові
+      снаряди, розгорнуті дротикові міни, спрайти мін, ефекти прямого влучання та ящики
+      боєприпасів.
     type: Add
-  - message: 'SHARP explosive and incendiary darts can toggle direct-hit detonation
-      delay, spawn armed 360-degree proximity mines on range expiry, and apply flashing
-      target outlines: red for explosive and yellow for incendiary.'
+  - message: 'Вибухові та запалювальні дротики ШАРП можуть перемикати затримку детонації
+      при прямому влучанні, створювати озброєні 360-градусні міни наближення після вичерпання
+      дальності та накладати блимаючі контури цілі: червоні для вибухових і жовті для
+      запалювальних.'
     type: Tweak
-  - message: Added the M707 Vulture anti-materiel rifle with disassembled case setup,
-      integrated barrel/scope/bipod/stock attachments, 20x102mm magazine/ammo, spotter
-      scope, deployable spotter tripod, instructional pamphlet, Vulture action icons,
-      and scope overlay assets.
+  - message: Додано антиматеріальну гвинтівку M707 «Валчер» з розібраним комплектом
+      у кейсі, вбудованими обвісами ствола/прицілу/сошки/приклада, магазином і боєприпасами
+      20x102 мм, прицілом спостерігача, розгортною триногою спостерігача, навчальним
+      памфлетом, іконками дій Валчера та ресурсами накладки прицілу.
     type: Add
-  - message: 'Added Vulture scoped-fire mechanics: fixed 5x5 firing window, scope
-      zoom/angle controls, windage/elevation adjustments, crosshair drift, hold-breath
-      stabilization, spotter-linked view support, heavy bullet penetration, impact
-      audio, and enhanced bullet fly-by sound.'
+  - message: 'Додано механіки стрільби Валчера через приціл: фіксоване вікно стрільби
+      5x5, керування масштабом/кутом прицілу, поправки за вітром і висотою, дрейф перехрестя,
+      стабілізацію затримкою дихання, підтримку огляду, зв’язаного зі спостерігачем,
+      пробиття важкими кулями, звук влучання та покращений звук прольоту кулі.'
     type: Add
   id: 232
   time: '2026-06-09T15:31:37.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1270
 - author: KeiKiyomi
   changes:
-  - message: Fixed Prodigy synth raffle
+  - message: Виправлено розіграш синта Prodigy.
     type: Fix
   id: 233
   time: '2026-06-09T16:59:31.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1272
 - author: Piticzu
   changes:
-  - message: Fixed Wendigo headbite screech not playing globally for all players.
+  - message: Виправлено, що вереск укусу голови Вендіго не програвався глобально для
+      всіх гравців.
     type: Fix
   id: 234
   time: '2026-06-09T23:50:37.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1274
 - author: jok989372-lgtm
   changes:
-  - message: Fixed stamps
+  - message: Виправлено штампи.
     type: Fix
   id: 235
   time: '2026-06-09T23:51:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1273
 - author: maertayn
   changes:
-  - message: job icons require chevron to be worn, without chevron, no icon and a
-      surprise for IO mains
+  - message: Іконки посад вимагають, щоб шеврон був одягнений; без шеврона немає іконки
+      й є сюрприз для мейнів IO.
     type: Add
-  - message: loadouts for military jobs have been fixed - now able to look up one
-      immediate parent
+  - message: Виправлено лодаути військових посад - тепер вони можуть шукати одного
+      безпосереднього батьківського прототипа.
     type: Fix
-  - message: JO vendors sharing limits between sections & bumped IO+EO to 2 per round
-      (e.g. 2 IOs, 0 EO)
+  - message: Виправлено спільні ліміти між секціями у вендорах JO, а ліміт IO+EO піднято
+      до 2 за раунд (наприклад, 2 IO, 0 EO).
     type: Fix
-  - message: aboms were not detected by the motion tracker
+  - message: Трекер руху не виявляв абомів.
     type: Fix
-  - message: 'DIY spacecleaner: 2 parts water, 1 part vodka, lemon-lime and a tsp.
-      of salt, then stir it'
+  - message: 'Саморобний космоочищувач: 2 частини води, 1 частина горілки, лимон-лайм
+      і ч. л. солі, потім перемішати.'
     type: Add
-  - message: govfor headsets removed from govfor/opfor vendors
+  - message: Гарнітури GOVFOR прибрано з вендорів GOVFOR/OPFOR.
     type: Remove
   id: 236
   time: '2026-06-10T05:15:29.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1276
 - author: 400Ferrets
   changes:
-  - message: flamethrowers NERFED VICIOUSLY!!
+  - message: Вогнемети ЖОРСТОКО ПОНЕРФЛЕНО!!
     type: Tweak
   id: 237
   time: '2026-06-10T07:40:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1281
 - author: 400Ferrets
   changes:
-  - message: Port Neroid has a sensor tower.
+  - message: Порт Нероїд отримав сенсорну вежу.
     type: Add
-  - message: Port Neroid has both comms towers, with multiple spawn locations.
+  - message: Порт Нероїд має обидві комунікаційні вежі з кількома місцями появи.
     type: Add
-  - message: Port Neroid grass is now weedable.
+  - message: Трава Порту Нероїд тепер може заростати бур’янами.
     type: Add
-  - message: Port Neroid weedkiller range is larger.
+  - message: Дальність засобу проти бур’янів на Порті Нероїд збільшено.
     type: Add
-  - message: Port Neroid no longer has working generators round-start.
+  - message: На старті раунду Порт Нероїд більше не має робочих генераторів.
     type: Add
-  - message: Port Neroid is now darker.
+  - message: Порт Нероїд тепер темніший.
     type: Add
   id: 238
   time: '2026-06-10T07:43:29.0000000+00:00'

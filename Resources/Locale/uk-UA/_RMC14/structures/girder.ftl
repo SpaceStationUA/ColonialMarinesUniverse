@@ -1,4 +1,4 @@
-rmc-girder-integrity-1 = [color=lightgreen]It looks solid and stable.[/color]
-rmc-girder-integrity-2 = [color=yellow]It shows some dents and stress marks.[/color]
-rmc-girder-integrity-3 = [color=orange]It is badly warped and unstable.[/color]
-rmc-girder-integrity-4 = [color=red]It is barely holding together.[/color]
+rmc-girder-integrity-1 = [color=lightgreen]Виглядає міцною та стійкою.[/color]
+rmc-girder-integrity-2 = [color=yellow]На ній видно вм’ятини й сліди напруження.[/color]
+rmc-girder-integrity-3 = [color=orange]Вона сильно деформована й нестійка.[/color]
+rmc-girder-integrity-4 = [color=red]Вона ледве тримається докупи.[/color]

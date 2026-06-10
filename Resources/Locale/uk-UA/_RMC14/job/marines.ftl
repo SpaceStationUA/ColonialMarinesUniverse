@@ -93,3 +93,5 @@ rmc-job-prefix-pve-forecon-assistant-lead = ЗКЗ
 
 rmc-job-name-pve-forecon-squad-lead = Командир загону
 rmc-job-prefix-pve-forecon-squad-lead = СЛ
+rmc-job-name-weapons-specialist-sharp = Спеціаліст-оператор ШАРП
+rmc-job-prefix-weapons-specialist-sharp = ШРП
