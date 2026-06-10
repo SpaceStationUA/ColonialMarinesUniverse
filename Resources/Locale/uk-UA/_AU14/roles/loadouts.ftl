@@ -38,3 +38,4 @@ au14-loadout-group-corporate-outerwear = Корпоративний верхні
 au14-loadout-group-corporate-jumpsuit = Корпоративна уніформа
 au14-loadout-group-corporate-footwear = Корпоративне взуття
 au14-loadout-group-corporate-headwear = Корпоративні головні убори
+au14-vending-machine-jo-max = Цей офіцерський комплект уже забрали!

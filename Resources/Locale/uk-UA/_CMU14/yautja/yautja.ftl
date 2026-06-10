@@ -479,3 +479,4 @@ ent-CMUActionYautjaAbominationFrenzy = Дикий Шал
 ent-CMUActionYautjaAbominationToggleFrenzy = Перемкнути Режим Шалу
     .desc = Перемикайте Дикий Шал між ударами по одній цілі та по області.
 cmu-yautja-self-destruct-critical = Браслет не відповідає помираючому мисливцю.
+cmu-yautja-hivebreaker-requires-recent-death = Змій має бути щойно вбитим, перш ніж ви зможете розірвати його зв'язок із вуликом.

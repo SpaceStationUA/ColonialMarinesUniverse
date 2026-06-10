@@ -118,5 +118,8 @@ rmc-xeno-designer-thicken-success = Ми потовщуємо смолу.
 
 rmc-xeno-designer-greater-surge-cooldown = Нам потрібно зачекати перед повторним використанням Великого Викиду Смоли.
 rmc-xeno-designer-greater-surge-none = Поруч немає проектних вузлів.
-rmc-xeno-designer-greater-surge-success = Ми перетворюємо {$count} проектних вузлів на товсті стіни зі смоли.
+rmc-xeno-designer-greater-surge-success = Ми перетворюємо {$count} проєктних вузлів на відбивні смоляні стіни.
 rmc-xeno-designer-infuse-node = Ви наповнюєте вузол плазмою.
+ent-XenoResinSpikes =
+    смоляні шипи
+    .desc = Невелике скупчення кістяних шипів. Ой.

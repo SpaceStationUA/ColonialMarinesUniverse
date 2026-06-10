@@ -2,8 +2,6 @@ admin-logs-title = Панель адмін-логів
 admin-logs-count = Показано {$showing}/{$total} з {$round}
 admin-logs-export = Експорт
 admin-logs-pop-out = Відкріпити
-
-# Раунд
 admin-logs-round = Раунд{" "}
 admin-logs-reset = Скинути
 admin-logs-reset-with-id = Скинути раунд (#{$id})
@@ -21,3 +19,7 @@ admin-logs-include-non-player = Включаючи не-гравців
 admin-logs-search-logs-placeholder = Пошук логів
 admin-logs-refresh = Оновити
 admin-logs-next = Далі
+admin-logs-filters = Фільтри
+admin-logs-impact = Вплив
+admin-logs-types = Типи
+admin-logs-players = Гравці

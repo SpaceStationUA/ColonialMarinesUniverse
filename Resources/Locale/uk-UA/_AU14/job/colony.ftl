@@ -225,7 +225,7 @@ au14-job-description-civilianiccliaison = Ви корпоративний пре
 au14-job-prefix-civilianiccliaison = ПМКК
 
 au14-job-name-3rdparty9handler = Кінолог К9
-au14-job-description-3rdpartyk9handler = Надавайте спеціалізовану допомогу там, де потрібні ваші навички пошуку та порятунку, тренуйте свого компаньйона та знайомтеся з новими людьми.
+au14-job-description-3rdpartyk9handler = Надавайте спеціалізовану допомогу там, де потрібні ваші пошуково-рятувальні навички, тренуйте свого компаньйона та знайомтеся з новими людьми.
 au14-job-prefix-3rdpartyk9handler = К9
 au14-department-orbitalstation = Орбітальна Станція
 au14-department-orbitalstation-description = Керує орбітальною станцією, торгівлею та утилізацією, обробкою вантажів і стикуванням, забезпечує дотримання правил та здійснює правосуддя.

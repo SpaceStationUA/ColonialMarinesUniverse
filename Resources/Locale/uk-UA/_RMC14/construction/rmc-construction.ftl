@@ -19,3 +19,4 @@ rmc-construction-build-here = Будувати тут
 rmc-construction-name = будівництво
 
 rmc-construction-non-anchorable = Це не можна закріпити чи відкріпити.
+rmc-construction-downgrade = Ви знімаєте поліпшення з {THE($ent)}, знову роблячи це звичайною барикадою.

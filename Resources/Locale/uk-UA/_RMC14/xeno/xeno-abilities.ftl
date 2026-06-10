@@ -12,8 +12,6 @@ rmc-xeno-internal-health-increase-user = Ми відчуваємо, як наш�
 # Fury
 rmc-xeno-not-enough-fury = Ми недостатньо розлючені для цього!
 rmc-xeno-fury-increase-user = Нас охоплює лють!
-
-# Acid reserves
 rmc-xeno-not-enough-acid = У нас недостатньо накопиченої кислоти!
 rmc-xeno-acid-increase-user = Ми відчуваємо, як ваші запаси кислоти зростають!
 
@@ -92,14 +90,10 @@ cm-xeno-leap-cancelled = Ми скасовуємо стрибок!
 # Plant weeds
 cm-xeno-weeds-source-already-here = Тут уже є вузол смоли!
 rmc-xeno-weeds-blocked = Ми не можемо це зробити тут.
-
-# Corrosive acid
 cm-xeno-acid-not-corrodible = Ми не можемо розчинити {THE($target)}!
 cm-xeno-acid-already-corroding = {CAPITALIZE(THE($target))} вже покритий корозійною кислотою!
 rmc-xeno-acid-structure-unmeltable = Ми можемо плавити лише барикади та предмети!
-rmc-xeno-acid-too-weak = {CAPITALIZE(THE($target))} занадто міцний, щоб бути розплавленим нашою слабкою кислотою.
-
-# Paralyzing Slash
+rmc-xeno-acid-too-weak = {CAPITALIZE(THE($target))} надто міцний, щоб наша слабка кислота могла його розплавити.
 cm-xeno-paralyzing-slash-activate = Наш наступний удар застосує нейротоксин!
 cm-xeno-paralyzing-slash-expire = Ми надто довго чекали, ваш удар більше не застосовуватиме нейротоксин!
 cm-xeno-paralyzing-slash-hit = Ми додаємо нейротоксин у вашу атаку, {$target} зараз впаде паралізований!
@@ -423,3 +417,35 @@ rmc-doomed-fail = Це не працює...
 # Destroy
 rmc-destroy-cant-reach = У нас немає вільного шляху до цього місця!
 rmc-destroy-cant-area = Ми не можемо стрибнути в цю область!
+rmc-xeno-psychic-whisper-message = Прошепотіти до {$target}.
+rmc-xeno-psychic-whisper-sent = Ми шепочемо до {$target}.
+rmc-xeno-psychic-target-unknown = та свідомість
+rmc-xeno-psychic-radiance-message = Випромінити психічне повідомлення.
+rmc-xeno-psychic-radiance-no-targets = Поблизу немає свідомостей, яким можна передати повідомлення.
+rmc-xeno-psychic-radiance-sent = Ми передаємо свої думки {$count} свідомостям поблизу.
+rmc-xeno-psychic-give-order-message = Віддати наказ {$target}.
+rmc-xeno-psychic-give-order-must-watch = Щоб віддати наказ, ми маємо спостерігати за сестрою.
+rmc-xeno-psychic-give-order-sent = Ми віддаємо наказ {$target}.
+rmc-xeno-psychic-target-invalid = Ця свідомість уже поза межами нашої досяжності.
+rmc-xeno-psychic-message-xeno = [color=#921992][font size=14][bold]Голос {$queen} відлунює у вашій голові:[/bold] "{$message}"[/font][/color]
+rmc-xeno-psychic-message-alien = [color=#921992][font size=14][bold]Ви чуєте у своїй голові дивний чужинський голос:[/bold] "{$message}"[/font][/color]
+rmc-xeno-psychic-message-order = [color=#921992][font size=14][bold]{$queen} наказує вам:[/bold] "{$message}"[/font][/color]
+rmc-xeno-psychic-ghost-whisper = [color=#921992][font size=14][bold]Психічний шепіт ({$queen} -> {$target}):[/bold] "{$message}"[/font][/color]
+rmc-xeno-psychic-ghost-radiance = [color=#921992][font size=14][bold]Психічне випромінювання ({$queen}, одержувачів: {$count}):[/bold] "{$message}"[/font][/color]
+rmc-xeno-psychic-ghost-order = [color=#921992][font size=14][bold]Психічний наказ ({$queen} -> {$target}):[/bold] "{$message}"[/font][/color]
+rmc-xeno-evolution-failed-marines-dropped = Небесні високі вже приземлилися, ми більше не можемо еволюціонувати в цю форму.
+rmc-xeno-evolution-failed-queen-exists = У вулику вже є Королева!
+rmc-xeno-weeds-no-nearby-node = Нам потрібні бур'яни ближче!
+rmc-xeno-queen-eye-no-weeds = Ми не можемо перемістити туди наше око, там немає бур'янів!
+rmc-xeno-queen-eye-expand-weeds-name = Розширити бур'яни (50)
+rmc-xeno-queen-eye-expand-weeds-desc = Розширте наявні бур'яни або перетворіть вкриту бур'янами клітинку на вузол.
+rmc-acid-pickup-blocked = {CAPITALIZE(THE($target))} вже покритий корозійною кислотою!
+rmc-acid-hole-already-weakened = Його вже послаблено.
+rmc-acid-hole-only-small-xenos = Крізь цей отвір пролізуть лише достатньо малі сестри.
+rmc-acid-hole-too-large-non-xeno = Ви надто великі, щоб протиснутися крізь цей отвір.
+rmc-acid-hole-wrong-side = Ми маємо підійти до отвору з боку входу!
+rmc-acid-hole-entrance-blocked = Щось перекриває цей бік отвору.
+rmc-acid-hole-no-exit = Там немає місця, щоб пролізти.
+rmc-acid-hole-blocked = Щось перекриває отвір з іншого боку.
+rmc-acid-hole-repair-blocked = Стіну пробито, спочатку потрібно залатати пролом.
+rmc-acid-hole-repair-requires-nailgun = Щоб полагодити цей пролом, потрібен цвяхомет.

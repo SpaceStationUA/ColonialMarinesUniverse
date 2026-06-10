@@ -23,15 +23,15 @@ rmc-dropship-weapons-target-strike = Захоплення цілі
 
   Режим удару: {$mode}
 
-  Конфігурація удару {$weapon}
+  Режим наведення: {$targetMode}
+
+  Конфігурація удару: {$weapon}
 
   Обрана ціль: {$target}
 
-  Вектор атаки {$vector}
+  Вектор атаки: {$vector}
 
-  Зміщення {$xOffset},{$yOffset}
-
-#  Система наведення НЕЗАВЕРШЕНА
+  Зміщення: {$xOffset},{$yOffset}
 
 rmc-dropship-weapons-equip-weapon-ammo = {$weapon}
   {$rounds} набоїв
@@ -155,3 +155,16 @@ rmc-dropship-firemission-started = Вогнева місія триває!
 rmc-dropship-firemission-cooldown = Вогнева місія виконується.
 rmc-dropship-firemission-edit = Оберіть зброю.
 rmc-dropship-firemission-invalid-ammo = {$ammo} не можна використати під час вогневої місії.
+rmc-dropship-hijack-queen-call-unknown-location = Невідомо
+rmc-dropship-hijack-queen-call-announcement = Королева наказала металевій пташці прибути до вулика в {$location}
+rmc-dropship-weapons-quick = ШВИДКО
+rmc-dropship-weapons-target-mode-quick = ШВИДКО
+rmc-dropship-weapons-target-mode-standard = СТАНДАРТНО
+rmc-dropship-fabricator-current = [bold]Поточне:[/bold] {$item}
+rmc-dropship-fabricator-idle = [bold]Поточне:[/bold] Очікування
+rmc-dropship-fabricator-queue = [bold]Черга:[/bold] {$count}/{$max}
+rmc-dropship-fabricator-queue-empty = Немає замовлень в очікуванні.
+rmc-dropship-fabricator-queue-entry = {$position}. {$item} ({$cost})
+rmc-dropship-fabricator-cancel = Скасувати
+rmc-dropship-fabricator-queue-full = Черга фабрикатора деталей десантного корабля заповнена.
+rmc-dropship-fabricator-insufficient-points = Вам бракує очок, щоб це виготовити.

@@ -244,4 +244,10 @@ public abstract partial class SharedRankSystem : EntitySystem
         return false;
     }
 
+    public void ClearRank(EntityUid uid)
+    {
+        var comp = EnsureComp<RankComponent>(uid);
+        comp.Rank = null;
+        Dirty(uid, comp);
+    }
 }

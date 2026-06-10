@@ -33,3 +33,4 @@ rmc-loadout-group-synthetic-headwear = Головні убори синтети�
 rmc-loadout-group-synthetic-suits = Верхній одяг синтетиків
 
 loadout-group-points-insufficient = У вас недостатньо очок!
+rmc-loadout-group-watches = Годинники

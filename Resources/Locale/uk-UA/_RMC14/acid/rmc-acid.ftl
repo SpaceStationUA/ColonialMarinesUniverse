@@ -6,3 +6,4 @@ rmc-glob-start-others = {$user} готується виплюнути велик
 rmc-glob-shoot-self = Ми плюємо плювок кислотного газу в підлогу!
 rmc-glob-shoot-others = {$user} плює в підлогу!
 rmc-glob-land = Плювок кислоти зі сплеском падає і вибухає шкідливими випарами!
+rmc-acid-gun-second-wind-spent = {CAPITALIZE(THE($target))} неможливо очистити від кислоти: ціль уже надто пошкоджена.

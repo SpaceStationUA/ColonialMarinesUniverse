@@ -15,7 +15,7 @@ rmc-sentry-active-norot = {CAPITALIZE(THE($sentry))} зараз активна. 
 rmc-sentry-item-norot = Ви не можете обертати її в такому стані!
 rmc-sentry-magazine-does-not-fit = {CAPITALIZE(THE($magazine))} не підходить до {THE($sentry)}!
 
-rmc-sentry-upgrade-not-item = Вам потрібно розібрати {THE($sentry)} гайковим ключем перед покращенням!
+rmc-sentry-upgrade-not-item = Перед покращенням потрібно розібрати {THE($sentry)} мультитулом!
 rmc-sentry-upgrade-not-holding = Вам потрібно тримати набір апгрейду в активній руці, щоб покращити {THE($sentry)}!
 rmc-sentry-upgrade-not-upgradeable = Ви не можете покращити {THE($sentry)}!
 

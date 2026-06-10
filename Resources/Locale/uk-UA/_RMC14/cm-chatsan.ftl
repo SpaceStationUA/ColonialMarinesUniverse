@@ -34,11 +34,11 @@ cm-chatsan-replacement-admins-marine = високе командування
 cm-chatsan-word-eorg-marine = еорг
 cm-chatsan-replacement-eorg-marine = воєнні злочини
 
-cm-chatsan-word-xenoid = ксеноморф
-cm-chatsan-replacement-xenoid = ксеноморф
+cm-chatsan-word-xenoid = ксеноїд
+cm-chatsan-replacement-xenoid = ксенонід
 
-cm-chatsan-word-xenoids = ксеноморфи
-cm-chatsan-replacement-xenoids = ксеноморфи
+cm-chatsan-word-xenoids = ксеноїди
+cm-chatsan-replacement-xenoids = ксеноніди
 
 cm-chatsan-word-beno = бено
 cm-chatsan-replacement-beno = ксено
@@ -284,10 +284,10 @@ cm-chatsan-word-felinids = фелініди
 cm-chatsan-replacement-felinids = котячі носії
 
 cm-chatsan-word-cat = кіт
-cm-chatsan-replacement-cat = котячий носій
+cm-chatsan-replacement-cat = котячий
 
 cm-chatsan-word-cats = коти
-cm-chatsan-replacement-cats = котячі носії
+cm-chatsan-replacement-cats = котячі
 
 cm-chatsan-word-vulpkanin = вулпканін
 cm-chatsan-replacement-vulpkanin = собачий носій
@@ -302,10 +302,10 @@ cm-chatsan-word-vulps = вулпи
 cm-chatsan-replacement-vulps = собачі носії
 
 cm-chatsan-word-dog = собака
-cm-chatsan-replacement-dog = собачий носій
+cm-chatsan-replacement-dog = собачий
 
 cm-chatsan-word-dogs = dogs
-cm-chatsan-replacement-dogs = собачі носії
+cm-chatsan-replacement-dogs = собачі
 
 cm-chatsan-word-avali = авалі
 cm-chatsan-replacement-avali = чотирьохвухий носій
@@ -323,10 +323,10 @@ cm-chatsan-word-rodentiae = роденції
 cm-chatsan-replacement-rodentiae = писклявий носій
 
 cm-chatsan-word-rat = щур
-cm-chatsan-replacement-rat = писклявий носій
+cm-chatsan-replacement-rat = писклява істота
 
 cm-chatsan-word-rats = щури
-cm-chatsan-replacement-rats = писклявий носій
+cm-chatsan-replacement-rats = пискляві істоти
 
 cm-chatsan-word-mouse = миша
 cm-chatsan-replacement-mouse = писклявий носій
@@ -347,7 +347,7 @@ cm-chatsan-word-sharks = акули
 cm-chatsan-replacement-sharks = водяні носії
 
 cm-chatsan-word-fish = риба
-cm-chatsan-replacement-fish = водяний носій
+cm-chatsan-replacement-fish = водна істота
 
 cm-chatsan-word-grenade = граната
 cm-chatsan-replacement-grenade = бабахалка
@@ -909,4 +909,68 @@ cm-chatsan-replacement-clanker = синтетичні
 
 cm-chatsan-word-rwall = рстін
 cm-chatsan-replacement-rwall = укріплена стіна
-
+cm-chatsan-word-xx121-marine = xx121
+cm-chatsan-replacement-xx121-marine = ксеноніди
+cm-chatsan-word-xx-121-marine = xx-121
+cm-chatsan-replacement-xx-121-marine = ксеноніди
+cm-chatsan-word-vamp = вамп
+cm-chatsan-word-replacement-vamp = вампір-лазутчик
+cm-chatsan-word-vamps = вампи
+cm-chatsan-word-replacement-vamps = вампіри-лазутчики
+cm-chatsan-word-corgi = коргі
+cm-chatsan-word-mrwiggles = містер.віґлс
+cm-chatsan-word-mr-wiggles = містер віґлс
+cm-chatsan-word-mister-wiggles = містер віґлс
+cm-chatsan-word-puppy = цуцик
+cm-chatsan-replacement-corgi = собачий пухнастик
+cm-chatsan-word-corgies = коргі
+cm-chatsan-word-puppies = цуцики
+cm-chatsan-word-kitty = киця
+cm-chatsan-word-kitten = кошеня
+cm-chatsan-word-kitties = киці
+cm-chatsan-word-kittens = кошенята
+cm-chatsan-word-carp = короп
+cm-chatsan-word-monkey = мавпа
+cm-chatsan-word-monke = мавп
+cm-chatsan-word-kobold = кобольд
+cm-chatsan-word-farwa = фарва
+cm-chatsan-word-stok = сток
+cm-chatsan-word-neaera = неаера
+cm-chatsan-word-yiren = їрен
+cm-chatsan-replacement-monkey = малий носій
+cm-chatsan-word-monkeys = мавпи
+cm-chatsan-word-monkies = мавпи
+cm-chatsan-word-kobolds = кобольди
+cm-chatsan-word-farwas = фарви
+cm-chatsan-word-stoks = стоки
+cm-chatsan-word-neaeras = неаери
+cm-chatsan-word-yirens = їрени
+cm-chatsan-replacement-monkeys = малі носії
+cm-chatsan-word-gens = гени
+cm-chatsan-word-replacement-gens = ядра світла
+cm-chatsan-word-m2c = m2c
+cm-chatsan-word-replacement-m2c = важкий стаціонарний плювач
+cm-chatsan-word-pdw90 = pdw90
+cm-chatsan-word-replacement-pdw90 = швидкий плювач
+cm-chatsan-word-pyro = піро
+cm-chatsan-word-replacement-pyro = вогнеходець
+cm-chatsan-word-pyros = піро
+cm-chatsan-word-replacement-pyros = вогнехідці
+cm-chatsan-word-fender = фендер
+cm-chatsan-word-replacement-fender = захисник
+cm-chatsan-word-fenders = фендери
+cm-chatsan-word-replacement-fenders = захисники
+cm-chatsan-word-senti = сенті
+cm-chatsan-word-replacement-senti = страж
+cm-chatsan-word-sentis = сенті
+cm-chatsan-word-replacement-sentis = стражі
+cm-chatsan-word-valk = вальк
+cm-chatsan-word-replacement-valk = валькірія
+cm-chatsan-word-valks = вальки
+cm-chatsan-word-replacement-valks = валькірії
+cm-chatsan-word-lessy = лессі
+cm-chatsan-word-replacement-lessy = малий
+cm-chatsan-word-gamba = гамба
+cm-chatsan-word-replacement-gamba = азартна гра
+cm-chatsan-word-pheros = феро
+cm-chatsan-word-replacement-pheros = феромони
