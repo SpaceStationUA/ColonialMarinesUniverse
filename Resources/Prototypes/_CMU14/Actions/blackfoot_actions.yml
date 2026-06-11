@@ -1,7 +1,7 @@
 - type: entity
   id: ActionBlackfootEngineToggle
-  name: Toggle Blackfoot Engines
-  description: Start or stop the Blackfoot engines.
+  name: "Перемкнути двигуни Блекфута"
+  description: "Запустити або зупинити двигуни Блекфута."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootEngineToggleActionEvent
@@ -13,8 +13,8 @@
 
 - type: entity
   id: ActionBlackfootTakeoff
-  name: Blackfoot Takeoff
-  description: Begin the VTOL takeoff sequence.
+  name: "Зліт Блекфута"
+  description: "Почати послідовність VTOL-зльоту."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootTakeoffActionEvent
@@ -26,8 +26,8 @@
 
 - type: entity
   id: ActionBlackfootLand
-  name: Blackfoot Landing
-  description: Begin the VTOL landing sequence.
+  name: "Посадка Блекфута"
+  description: "Почати послідовність VTOL-посадки."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootLandActionEvent
@@ -39,8 +39,8 @@
 
 - type: entity
   id: ActionBlackfootFlightModeToggle
-  name: Toggle Blackfoot Flight Mode
-  description: Switch between VTOL hover and forward flight.
+  name: "Перемкнути режим польоту Блекфута"
+  description: "Перемкнутися між VTOL-зависанням і прямим польотом."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootFlightModeToggleActionEvent
@@ -52,8 +52,8 @@
 
 - type: entity
   id: ActionBlackfootRearDoorToggle
-  name: Toggle Blackfoot Rear Door
-  description: Open or close the Blackfoot rear door.
+  name: "Перемкнути задні двері Блекфута"
+  description: "Відкрити або закрити задні двері Блекфута."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootRearDoorToggleActionEvent
@@ -65,8 +65,8 @@
 
 - type: entity
   id: ActionBlackfootStowToggle
-  name: Stow Blackfoot
-  description: Fold or deploy the Blackfoot while grounded.
+  name: "Скласти Блекфут"
+  description: "Скласти або розгорнути Блекфут, коли він на землі."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootStowToggleActionEvent
@@ -78,8 +78,8 @@
 
 - type: entity
   id: ActionBlackfootAscendZLevel
-  name: Blackfoot Ascend
-  description: Climb the Blackfoot up one Z-level.
+  name: "Підйом Блекфута"
+  description: "Підняти Блекфут на один Z-рівень."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootAscendZLevelActionEvent
@@ -92,8 +92,8 @@
 
 - type: entity
   id: ActionBlackfootDescendZLevel
-  name: Blackfoot Descend
-  description: Descend the Blackfoot down one Z-level.
+  name: "Спуск Блекфута"
+  description: "Опустити Блекфут на один Z-рівень."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootDescendZLevelActionEvent
@@ -106,8 +106,8 @@
 
 - type: entity
   id: ActionBlackfootDoorGunZModeToggle
-  name: Toggle M866 Z-Fire
-  description: Switch the M866 between current Z-level fire and one-level-down fire.
+  name: "Перемкнути Z-вогонь M866"
+  description: "Перемкнути M866 між вогнем по поточному Z-рівню та вогнем на один рівень нижче."
   components:
   - type: InstantAction
     event: !type:Content.Shared._CMU14.Blackfoot.BlackfootDoorGunZModeToggleActionEvent

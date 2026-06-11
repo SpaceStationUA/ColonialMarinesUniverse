@@ -3,14 +3,14 @@
   id: AU14ChevronUSArmyBase
   abstract: true
   suffix: US Army Chevron
-  description: United States Army chevron. Smells like oil and burgers.
+  description: "Шеврон Армії Сполучених Штатів. Пахне нафтою та бургерами."
 
 # enlisted
 
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyPrivate1
-  name: private chevron
+  name: "шеврон рядового"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyPrivate2
-  name: private chevron
+  name: "шеврон рядового"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyPFC
-  name: private first class chevron
+  name: "шеврон рядового першого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmySpecialist
-  name: specialist chevron
+  name: "шеврон спеціаліста"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -74,7 +74,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyCorporal
-  name: corporal chevron
+  name: "шеврон капрала"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -90,7 +90,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmySergeant
-  name: sergeant chevron
+  name: "шеврон сержанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -106,7 +106,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyStaffSergeant
-  name: staff sergeant chevron
+  name: "шеврон штаб-сержанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -122,7 +122,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmySergeantFirstClass
-  name: sergeant first class chevron
+  name: "шеврон сержанта першого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/usarmy.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyMasterSergeant
-  name: master sergeant chevron
+  name: "шеврон майстер-сержанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -154,7 +154,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyFirstSergeant
-  name: first sergeant chevron
+  name: "шеврон першого сержанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -170,7 +170,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmySergeantMajor
-  name: sergeant major chevron
+  name: "шеврон сержант-майора"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -186,7 +186,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyCommandSergeantMajor
-  name: command sergeant major chevron
+  name: "шеврон командного сержант-майора"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -202,7 +202,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmySeniorEnlistedAdvisor
-  name: senior enlisted advisor chevron
+  name: "шеврон старшого радника рядового й сержантського складу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -218,7 +218,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmySergeantMajorArmy
-  name: sergeant major of the army chevron
+  name: "шеврон сержант-майора армії"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -234,7 +234,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmySEAChairman
-  name: senior enlisted advisor to the chairman chevron
+  name: "шеврон старшого радника голови з рядового й сержантського складу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -252,7 +252,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyWarrantOfficer
-  name: warrant officer chevron
+  name: "шеврон ворент-офіцера"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -268,7 +268,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyChiefWarrantOfficer2
-  name: chief warrant officer 2 chevron
+  name: "шеврон головного ворент-офіцера 2"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -284,7 +284,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyChiefWarrantOfficer3
-  name: chief warrant officer 3 chevron
+  name: "шеврон головного ворент-офіцера 3"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -300,7 +300,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyChiefWarrantOfficer4
-  name: chief warrant officer 4 chevron
+  name: "шеврон головного ворент-офіцера 4"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -316,7 +316,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyChiefWarrantOfficer5
-  name: chief warrant officer 5 chevron
+  name: "шеврон головного ворент-офіцера 5"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -334,7 +334,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyLieutenantGeneral
-  name: lieutenant general chevron
+  name: "шеврон генерал-лейтенанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -350,7 +350,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyGeneral
-  name: general chevron
+  name: "шеврон генерала"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -366,7 +366,7 @@
 - type: entity
   parent: AU14ChevronUSArmyBase
   id: AU14ChevronUSArmyGeneralArmy
-  name: general of the army chevron
+  name: "шеврон генерала армії"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi

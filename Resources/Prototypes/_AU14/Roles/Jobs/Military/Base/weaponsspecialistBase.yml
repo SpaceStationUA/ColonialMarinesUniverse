@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORWeaponsSpecialist
-  name: Spawn Point GOVFOR Weapons Specialist
+  name: "точка появи спеціаліста зі зброї GOVFOR"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORWeaponsSpecialist

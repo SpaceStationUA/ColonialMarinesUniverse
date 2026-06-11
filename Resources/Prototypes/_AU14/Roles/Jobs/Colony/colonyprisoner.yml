@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianPrisoner
-  name: Spawn Point Civilian Prisoner
+  name: "точка появи цивільного в’язня"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianPrisoner
@@ -51,7 +51,7 @@
 - type: entity
   parent: MarkerBase
   id: auprisonerghost
-  name: Prisoner colonist ghost role
+  name: "примарна роль колоніста-в’язня"
   components:
   - type: Sprite
     layers:

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: MP5A5 submachinegun
+  name: "пістолет-кулемет MP5A5"
   id: RMCWeaponSMGMP5Alt
-  description: A German design, this was one of the most widely used submachine guns in the world. Modernized design for limited use by colonial security and Office of the Colony Marshals.
+  description: "Німецький дизайн — це був один із найпоширеніших пістолетів-кулеметів у світі. Модернізований дизайн для обмеженого використання колоніальною охороною та Бюро Колоніальних Маршалів."
   suffix: Filled
   components:
   - type: Sprite

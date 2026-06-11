@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMVentPump
-  name: air vent
-  description: Has a valve and pump attached to it.
+  name: "вентиляційний отвір"
+  description: "Має приєднаний клапан і помпу."
   placement:
     mode: SnapgridCenter
   components:
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMVentPump
   id: CMVentScrubber
-  name: air scrubber
-  description: Has a valve and pump attached to it.
+  name: "очищувач повітря"
+  description: "Має приєднаний клапан і помпу."
   placement:
     mode: SnapgridCenter
   components:

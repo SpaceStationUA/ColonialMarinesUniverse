@@ -34,7 +34,7 @@
   parent: AU14BaseMobSpeciesOrganicFORECON
   suffix: AU14, FORECON, KillTeam
   id: AU14JobFORECONKillTeamSpotter
-  name: FORECON Spotter (Kill Team)
+  name: "коригувальник FORECON (група ліквідації)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

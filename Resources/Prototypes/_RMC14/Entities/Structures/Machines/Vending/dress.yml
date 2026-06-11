@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: RMCAutomatedPersonalUniformCloset
-  name: automated personal uniform closet
-  description: An automated closet hooked up to a colossal storage of standard-issue dress uniform variants.
+  name: "автоматизована шафа для особистої форми"
+  description: "Автоматизована шафа, під'єднана до колосального сховища варіантів стандартної парадної форми."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/VendingMachines/ColMarTech/dress.rsi
@@ -496,8 +496,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCUniformCaseDressEnlisted
-  name: enlisted dress uniform case
-  description: A case containing the dress uniform for an enlisted person.
+  name: "кейс з парадною формою рядового"
+  description: "Кейс з парадною формою для рядового."
   components:
   - type: Storage
     maxItemSize: Normal
@@ -517,8 +517,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCUniformCaseDressNCO
-  name: nco dress uniform case
-  description: A case containing the dress uniform for a non-commissioned officer.
+  name: "кейс з парадною формою сержанта"
+  description: "Кейс з парадною формою для сержантського складу."
   components:
   - type: Storage
     maxItemSize: Normal
@@ -538,8 +538,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCUniformCaseDressOfficer
-  name: officer dress uniform case
-  description: A case containing the dress uniform for a commissioned officer.
+  name: "кейс з парадною формою офіцера"
+  description: "Кейс з парадною формою для офіцера зі званням."
   components:
   - type: Storage
     maxItemSize: Normal
@@ -559,8 +559,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCUniformCaseService
-  name: service uniform case
-  description: A case containing a standard-issue service uniform.
+  name: "кейс зі службовою формою"
+  description: "Кейс зі стандартною штатною службовою формою."
   components:
   - type: Storage
     maxItemSize: Normal

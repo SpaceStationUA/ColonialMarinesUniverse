@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: FN P90 submachine gun
+  name: "пістолет-кулемет FN P90"
   id: RMCWeaponSMGPDW90
-  description: The P90 submachine gun. An archaic design, but still widely used by corporate and mercenary groups, sometimes seen in the hands of civilian populations. This weapon only accepts 5.7×28mm rounds.
+  description: "Пістолет-кулемет P90. Архаїчний дизайн, але досі широко використовується корпоративними та найманськими групами, інколи зустрічається в руках цивільного населення. Ця зброя приймає лише набої 5.7×28мм."
   suffix: Filled
   components:
   - type: Sprite
@@ -94,9 +94,9 @@
     
 - type: entity
   parent: RMCWeaponSMGPDW90
-  name: L57 submachine gun
+  name: "пістолет-кулемет L57"
   id: RMCWeaponSMGPDW90TSE
-  description: A P90 submachine gun in the colors of the Royal Marines, manufactured for the TWE's armed forces under license. This weapon only accepts 5.7x28mm rounds.
+  description: "Пістолет-кулемет P90 у кольорах Королівських Морпіхів, виготовлений для збройних сил ІТС за ліцензією. Ця зброя приймає лише набої 5.7x28мм."
   suffix: Filled
   components:
     - type: Sprite
@@ -124,8 +124,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGPDW90
-  name: "P90 magazine (5.7×28mm)"
-  description: "A 5.7×28mm magazine for the FN PDW90."
+  name: "Магазин P90 (5.7×28мм)"
+  description: "Магазин 5.7×28мм для FN PDW90."
   components:
   - type: Tag
     tags:
@@ -155,8 +155,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGPDW90AP
-  name: "P90 AP magazine (5.7×28mm)"
-  description: "An armor-piercing 5.7x28mm magazine for the FN PDW90."
+  name: "Бронебійний магазин P90 (5.7×28мм)"
+  description: "Бронебійний магазин 5.7x28мм для FN PDW90."
   components:
     - type: Tag
       tags:
@@ -186,8 +186,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge57x28mm
-  name: cartridge (57×28mm SMG)
-  description: A 5.7×28mm cartridge for the FN PDW90.
+  name: "набій (57×28мм SMG)"
+  description: "Набій 5.7×28мм для FN PDW90."
   components:
   - type: Tag
     tags:
@@ -199,8 +199,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: RMCCartridge57x28mmAP
-  name: cartridge (57×28mm SMG)
-  description: A 5.7×28mm AP cartridge for the FN PDW90.
+  name: "набій (57×28мм SMG)"
+  description: "Бронебійний набій 5.7×28мм для FN PDW90."
   components:
     - type: Tag
       tags:

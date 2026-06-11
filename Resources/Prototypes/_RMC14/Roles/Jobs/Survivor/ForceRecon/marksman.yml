@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconMarksman
-  name: forecon marksman spawn point
+  name: "спавнер маркcмена forecon"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconMarksman
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCSurvivorPresetForecon
   id: RMCSurvivorPresetForeconMarksman
-  name: forecon marksman survivor preset
+  name: "пресет вцілілого маркcмена forecon"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
