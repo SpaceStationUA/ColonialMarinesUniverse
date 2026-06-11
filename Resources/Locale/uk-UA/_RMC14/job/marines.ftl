@@ -95,3 +95,7 @@ rmc-job-name-pve-forecon-squad-lead = Командир загону
 rmc-job-prefix-pve-forecon-squad-lead = СЛ
 rmc-job-name-weapons-specialist-sharp = Спеціаліст-оператор ШАРП
 rmc-job-prefix-weapons-specialist-sharp = ШРП
+rmc-job-name-weapons-specialist-shotgunner = Важкий дробовикар
+rmc-job-prefix-weapons-specialist-shotgunner = ВДРБ
+rmc-job-name-weapons-specialist-plasmagunner = Плазмовий стрілець
+rmc-job-prefix-weapons-specialist-plasmagunner = ПЛЗМ

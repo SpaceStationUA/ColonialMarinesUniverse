@@ -172,3 +172,6 @@ au14-job-name-radiotelephoneoperator-alt = Радіотелефоніст
 au14-job-name-govfork9handler = Кінолог К9
 
 au14-job-prefix-AU14JobGOVFORSquadCombatTechWYPMC = БТ
+au14-job-name-govforweaponsspecialist = Спеціаліст зі зброї
+au14-job-description-govforweaponsspecialist = Керуйте вогневою підтримкою своєї фракції та прикривайте свій загін.
+au14-job-prefix-govforweaponsspecialist = СЗ
