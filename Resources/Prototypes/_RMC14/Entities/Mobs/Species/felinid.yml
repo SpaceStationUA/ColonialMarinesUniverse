@@ -2,7 +2,7 @@
   save: false
   parent: RMCBaseMobSpeciesOrganic
   id: CMMobFelinid
-  name: "Уріст МакФелінід"
+  name: Urist McFelinid
   suffix: RMC14
   components:
   - type: HumanoidAppearance

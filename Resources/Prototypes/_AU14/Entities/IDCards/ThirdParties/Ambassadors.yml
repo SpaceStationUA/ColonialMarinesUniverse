@@ -2,7 +2,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardVAIAmbassador
-  name: "ID-картка посла VAI"
+  name: VAI ambassador ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianAmbassadorUA

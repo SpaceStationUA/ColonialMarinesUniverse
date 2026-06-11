@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobHRTPartyEngineer
-  name: "Бойовий інженер групи реагування на небезпеки Prodigy"
+  name: Prodigy Hazard Combat Engineer
   description: au14-prodigyhazard-description
   playTimeTracker: AU14JobHRTPartyEngineerTracker
   ranks:
@@ -31,7 +31,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobHRTPartyEngineer
-  name: "Бойовий інженер групи реагування на небезпеки Prodigy (3-тя сторона, M41A/2)"
+  name: Prodigy Hazard Party Combat Engineer (3rd party, M41A/2)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -40,7 +40,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Бойовий інженер групи реагування на небезпеки Prodigy"
+    name: Prodigy Hazard Combat Engineer
     description: au14-prodigyhazard-description
     reregister: false
     job: AU14JobHRTPartyEngineer

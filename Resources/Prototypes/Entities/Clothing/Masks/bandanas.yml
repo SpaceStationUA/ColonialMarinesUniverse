@@ -40,8 +40,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBlack
-  name: "чорна бандана"
-  description: "Чорна бандана, щоб ти виглядав круто."
+  name: black bandana
+  description: A black bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/black.rsi
@@ -51,8 +51,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBlue
-  name: "синя бандана"
-  description: "Синя бандана, щоб ти виглядав круто."
+  name: blue bandana
+  description: A blue bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/blue.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBotany
-  name: "ботанічна бандана"
-  description: "Ботанічна бандана, щоб ти виглядав круто, зроблена з натуральних волокон."
+  name: botany bandana
+  description: A botany bandana to make you look cool, made from natural fibers.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/botany.rsi
@@ -78,8 +78,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGold
-  name: "золота бандана"
-  description: "Золота бандана, щоб ти виглядав круто."
+  name: gold bandana
+  description: A gold bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/gold.rsi
@@ -89,8 +89,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGreen
-  name: "зелена бандана"
-  description: "Зелена бандана, щоб ти виглядав круто."
+  name: green bandana
+  description: A green bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/green.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandGrey
-  name: "сіра бандана"
-  description: "Сіра бандана, щоб ти виглядав круто."
+  name: grey bandana
+  description: A grey bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/grey.rsi
@@ -111,8 +111,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandRed
-  name: "червона бандана"
-  description: "Червона бандана, щоб ти виглядав круто."
+  name: red bandana
+  description: A red bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/red.rsi
@@ -122,8 +122,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandSkull
-  name: "бандана з черепом"
-  description: "Бандана з черепом, щоб ти виглядав ще крутіше."
+  name: skull bandana
+  description: A bandana with a skull to make you look even cooler.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/skull.rsi
@@ -133,8 +133,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandMerc
-  name: "бандана найманця"
-  description: "Щоб захищати голову від сонця, комах та інших небезпек вищого шляху."
+  name: mercenary bandana
+  description: To protect the head from the sun, insects and other dangers of the higher path.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/merc.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: ClothingMaskBandanaBase
   id: ClothingMaskBandBrown
-  name: "коричнева бандана"
-  description: "Коричнева бандана, щоб ти виглядав круто."
+  name: brown bandana
+  description: A brown bandana to make you look cool.
   components:
   - type: Sprite
     sprite: Clothing/Head/Bandanas/brown.rsi

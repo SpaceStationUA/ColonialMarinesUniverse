@@ -35,9 +35,9 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, ClothingBackpackSatchel, BaseMinorContraband ]
   id: ClothingBackpackSatchelSmuggler
-  name: "сумка контрабандиста"
+  name: smuggler's satchel
   suffix: Empty
-  description: "Зручна на вигляд і підозріла сумка. Досить пласка, щоб поміститися під підлоговими плитками."
+  description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/smuggler.rsi
@@ -46,9 +46,9 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorage, ClothingBackpackSatchel, BaseMinorContraband ]
   id: ClothingBackpackSatchelSmugglerUnanchored
-  name: "сумка контрабандиста"
+  name: smuggler's satchel
   suffix: Empty, Unanchored
-  description: "Зручна на вигляд і підозріла сумка. Досить пласка, щоб поміститися під підлоговими плитками."
+  description: A handy, suspicious looking satchel. Just flat enough to fit underneath floor tiles.
   components:
   - type: Sprite
     sprite: Clothing/Back/Satchels/smuggler.rsi
@@ -57,7 +57,7 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, BriefcaseSyndie, BaseMinorContraband ]
   id: BriefcaseSmugglerCash
-  name: "кейс контрабандиста"
+  name: smuggler's briefcase
   suffix: Smuggler, Do Not Map
   components:
   - type: EntityTableContainerFill
@@ -71,7 +71,7 @@
 - type: entity
   parent: [ BaseSubfloorAnchorStorageAnchored, ClothingBackpackDuffelClown, BaseMinorContraband ]
   id: ClothingBackpackDuffelClownSmuggler
-  name: "клоунська речова сумка контрабандиста"
+  name: smuggler's clown duffel bag
   suffix: Smuggler, Do Not Map
   components:
   - type: EntityTableContainerFill
@@ -108,7 +108,7 @@
 - type: entity
   parent: MarkerBase
   id: RandomSatchelSpawner
-  name: "випадковий спавнер сумки контрабандиста"
+  name: random smuggler's satchel spawner
   suffix: Do Not Map
   components:
   - type: Sprite

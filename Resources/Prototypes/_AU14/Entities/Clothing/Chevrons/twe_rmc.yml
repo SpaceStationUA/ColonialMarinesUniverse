@@ -4,14 +4,14 @@
   id: AU14ChevronRMCBase
   abstract: true
   suffix: RMC Chevron
-  description: "Відзнака звання Королівської морської піхоти. Значок морпіха, здатного діяти в будь-якому екстремальному середовищі. Шкода, що більшу частину кар'єри ви проведете на кораблях."
+  description: Royal Marines rank insignia. The badge of a Marine who could operate in any extreme environment, too bad you'll spend most of your career on ships.
 
 # ├──[ Enlisted ]────────────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCRecruit
-  name: "шеврон рекрута"
+  name: recruit chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCMarine
-  name: "шеврон морпіха"
+  name: marine chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCLanceCorporal
-  name: "шеврон молодшого капрала"
+  name: lance corporal chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCCorporal
-  name: "шеврон капрала"
+  name: corporal chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCSergent
-  name: "шеврон сержанта"
+  name: sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -91,7 +91,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCCoourlourSergeant
-  name: "шеврон колор-сержанта"
+  name: colour sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -109,7 +109,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCWarrantOfficer2
-  name: "шеврон ворент-офіцера класу 2"
+  name: warrant officer class 2 chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -125,7 +125,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCWarrantOfficer1
-  name: "шеврон ворент-офіцера класу 1"
+  name: warrant officer class 1 chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -143,7 +143,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCOCdt
-  name: "шеврон офіцера-кадета"
+  name: officer cadet chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -159,7 +159,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCSecondLieutenant
-  name: "шеврон молодшого лейтенанта"
+  name: second lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -175,7 +175,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCLieutenant
-  name: "шеврон лейтенанта"
+  name: lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -191,7 +191,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCCaptain
-  name: "шеврон капітана"
+  name: captain chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -209,7 +209,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCMajor
-  name: "шеврон майора"
+  name: major chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -225,7 +225,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCLieutenantColonel
-  name: "шеврон підполковника"
+  name: lieutenant colonel chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -241,7 +241,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCColonel
-  name: "шеврон полковника"
+  name: colonel chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -257,7 +257,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCBrigadier
-  name: "шеврон бригадира"
+  name: brigadier chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -273,7 +273,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCDeputyCommandant
-  name: "шеврон заступника генерала-коменданта"
+  name: deputy commandant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -291,7 +291,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCMajorGeneral
-  name: "шеврон генерал-майора"
+  name: major general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -307,7 +307,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCLieutenantGeneral
-  name: "шеврон генерал-лейтенанта"
+  name: lieutenant general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -323,7 +323,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCGeneral
-  name: "шеврон генерала"
+  name: general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -339,7 +339,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCCommandantGeneral
-  name: "шеврон генерала-коменданта"
+  name: commandant general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -355,7 +355,7 @@
 - type: entity
   parent: AU14ChevronRMCBase
   id: AU14ChevronRMCCaptainGeneral
-  name: "шеврон капітана-генерала"
+  name: captain general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

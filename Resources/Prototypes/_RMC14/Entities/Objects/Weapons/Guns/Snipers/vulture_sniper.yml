@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseWeaponSniperRifle
   id: RMCWeaponSniperM707Vulture
-  name: "антиматеріальна гвинтівка M707 «Валчер»"
-  description: "Масивна затворна антиматеріальна гвинтівка під набій 20x102 мм. Має вбудований спостережний приціл і сошку, а її відбій жорстоко карає без розгорнутої вогневої позиції."
+  name: M707 "Vulture" anti-materiel rifle
+  description: A massive bolt-action anti-materiel rifle chambered in 20x102mm. It carries an integrated spotting scope and bipod, and its recoil is punishing without a deployed firing position.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Unsorted/vulture/desert.rsi
@@ -160,8 +160,8 @@
 - type: entity
   parent: CMMagazineSniperM96S
   id: RMCMagazineSniperM707Vulture
-  name: "магазин M707 «Валчер» (20x102 мм)"
-  description: "Чотиризарядний магазин антиматеріальних набоїв 20x102 мм для M707 «Валчер»."
+  name: M707 "Vulture" magazine (20x102mm)
+  description: A four-round magazine of 20x102mm anti-materiel rounds for the M707 "Vulture".
   components:
   - type: Tag
     tags:
@@ -185,7 +185,7 @@
 - type: entity
   parent: CMCartridgeSniper10x28mm
   id: RMCCartridgeSniper20x102mmVulture
-  name: "патрон (20x102 мм)"
+  name: cartridge (20x102mm)
   components:
   - type: Tag
     tags:
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCBulletSniper20x102mmVulture
-  name: "куля (20x102 мм)"
+  name: bullet (20x102mm)
   categories: [ HideSpawnMenu ]
   components:
   - type: FlyBySound
@@ -273,8 +273,8 @@
 - type: entity
   parent: RMCBarrelAttachmentBase
   id: RMCVultureBarrel
-  name: "ствол M707"
-  description: "Важкий фіксований ствол для M707 «Валчер»."
+  name: M707 barrel
+  description: A heavy fixed barrel for the M707 "Vulture".
   components:
   - type: Sprite
     state: vulture_barrel
@@ -288,8 +288,8 @@
 - type: entity
   parent: RMCM96SIntegratedScope
   id: RMCVultureScope
-  name: "вбудований приціл M707"
-  description: "Фіксований оптичний блок для M707 «Валчер»."
+  name: M707 integrated scope
+  description: The fixed optics package for the M707 "Vulture".
   components:
   - type: Sprite
     state: vulture_scope
@@ -335,8 +335,8 @@
 - type: entity
   parent: RMCAttachmentBipod
   id: RMCVultureBipod
-  name: "важка сошка M707"
-  description: "Важка вбудована сошка для M707 «Валчер»."
+  name: M707 heavy bipod
+  description: A heavy integrated bipod for the M707 "Vulture".
   components:
   - type: Sprite
     state: vulture_bipod
@@ -369,8 +369,8 @@
 - type: entity
   parent: RMCStockAttachmentBase
   id: RMCVultureStock
-  name: "приклад M707"
-  description: "Фіксований посилений приклад для M707 «Валчер»."
+  name: M707 stock
+  description: A fixed reinforced stock for the M707 "Vulture".
   components:
   - type: Sprite
     state: vulture_stock
@@ -392,8 +392,8 @@
 - type: entity
   parent: BaseItem
   id: RMCVultureSpotterScope
-  name: "приціл спостерігача M707"
-  description: "Потужний спостережний приціл, призначений для підтримки M707 «Валчер»."
+  name: M707 spotter scope
+  description: A high-powered spotting scope intended to support the M707 "Vulture".
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/vulture_spotter.rsi
@@ -416,8 +416,8 @@
 - type: entity
   parent: BaseItem
   id: RMCVultureSpotterTripod
-  name: "тринога спостерігача M707"
-  description: "Складана тринога для прицілу спостерігача M707."
+  name: M707 spotter tripod
+  description: A collapsible tripod for the M707 spotter scope.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/vulture_spotter.rsi
@@ -447,8 +447,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCVultureSpotterTripodDeployed
-  name: "тринога спостерігача M707"
-  description: "Розгорнута тринога для підтримки прицілу спостерігача M707."
+  name: M707 spotter tripod
+  description: A deployed tripod for supporting the M707 spotter scope.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/vulture_spotter.rsi

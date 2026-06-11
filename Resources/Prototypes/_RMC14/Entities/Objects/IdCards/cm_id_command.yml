@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: CMIDCardSilver
   id: CMIDCardStaffOfficer
-  name: "iD-картка штабного офіцера"
+  name: staff officer ID card
   components:
   - type: PresetIdCard
     job: CMStaffOfficer
@@ -9,7 +9,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: RMCIDCardPlatoonCommander
-  name: "iD-картка командира взводу"
+  name: platoon commander ID card
   components:
   - type: PresetIdCard
     job: CMPVEPlatoonCommander
@@ -17,7 +17,7 @@
 - type: entity
   parent: CMIDCardGold
   id: CMIDCardCommandingOfficer
-  name: "iD-картка Командира"
+  name: commanding officer ID card
   components:
   - type: PresetIdCard
     job: CMCommandingOfficer
@@ -25,8 +25,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardCommandingOfficerPlus
-  name: "iD-картка Командира"
-  description: "Верхівка верхівок. Видається лише найвідданішим."
+  name: commanding officer ID card
+  description: Top brass of the top brass. Issued to only the most dedicated.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/general.rsi
@@ -41,7 +41,7 @@
 - type: entity
   parent: CMIDCardSilver
   id: CMIDCardExecutiveOfficer
-  name: "iD-картка виконавчого офіцера"
+  name: executive officer ID card
   components:
   - type: PresetIdCard
     job: CMExecutiveOfficer
@@ -49,9 +49,9 @@
 - type: entity
   parent: IDCardStandard # Deliberately parenting off of upstream ID card cause it needs to work with admin access configurator.
   id: CMIDCardHighCommand
-  name: "iD-картка генерала"
+  name: general officer ID card
   suffix: Admin
-  description: "Верхівка верхівок. Видається лише найвідданішим."
+  description: Top brass of the top brass. Issued to only the most dedicated.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/general.rsi
@@ -79,9 +79,9 @@
 - type: entity
   parent: IDCardStandard # Is more-or-less a copy of the admin ID due to being for High-Ranked Provost-Marshal types that should be only used by admins.
   id: CMIDCardProvostSectorMarshal
-  name: "ID-картка Маршала Сектору Прево"
+  name: Provost Sector Marshal ID card
   suffix: Admin
-  description: "Видається членам Канцелярії Прево."
+  description: Issued to members of the Provost Office.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/provost.rsi

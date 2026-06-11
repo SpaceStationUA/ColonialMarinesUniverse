@@ -38,8 +38,8 @@
   parent: AU14TrafficDirectorProp
   id: AU14PropTrafficDirector1
   suffix: Evac Center
-  name: "напрямник руху"
-  description: "Напрямник руху."
+  name: Traffic Director
+  description: A Traffic Director.
   components:
   - type: Sprite
     state: traffic_1
@@ -62,8 +62,8 @@
   parent: AU14TrafficDirectorProp
   id: AU14PropTrafficDirector2
   suffix: Checkpoint Ahead
-  name: "напрямник руху"
-  description: "Напрямник руху."
+  name: Traffic Director
+  description: A Traffic Director.
   components:
   - type: Sprite
     state: traffic_2
@@ -86,8 +86,8 @@
   parent: AU14TrafficDirectorProp
   id: AU14PropTrafficDirector3
   suffix: Follow Army Orders
-  name: "напрямник руху"
-  description: "Напрямник руху."
+  name: Traffic Director
+  description: A Traffic Director.
   components:
   - type: Sprite
     state: traffic_3
@@ -110,8 +110,8 @@
   parent: AU14TrafficDirectorProp
   id: AU14PropTrafficDirector4
   suffix: Tune to Freq 91.7am
-  name: "напрямник руху"
-  description: "Напрямник руху."
+  name: Traffic Director
+  description: A Traffic Director.
   components:
   - type: Sprite
     state: traffic_4
@@ -134,8 +134,8 @@
   parent: AU14TrafficDirectorProp
   id: AU14PropTrafficDirector5
   suffix: Slow Down
-  name: "напрямник руху"
-  description: "Напрямник руху."
+  name: Traffic Director
+  description: A Traffic Director.
   components:
   - type: Sprite
     state: traffic_5
@@ -158,8 +158,8 @@
   parent: AU14TrafficDirectorProp
   id: AU14PropTrafficDirector6
   suffix: Empty
-  name: "напрямник руху"
-  description: "Напрямник руху."
+  name: Traffic Director
+  description: A Traffic Director.
   components:
   - type: Sprite
     state: traffic_6

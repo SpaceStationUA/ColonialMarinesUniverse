@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCSensorTower
-  name: "експериментальна сенсорна вежа"
-  description: "Вежа з безліччю чутливих сенсорів для відстеження погодних умов. Цю переналаштували для відстеження біосигнатур."
+  name: experimental sensor tower
+  description: A tower with a lot of delicate sensors made to track weather conditions. This one has been adjusted to track biosignatures.
   placement:
     mode: SnapgridCenter
   components:

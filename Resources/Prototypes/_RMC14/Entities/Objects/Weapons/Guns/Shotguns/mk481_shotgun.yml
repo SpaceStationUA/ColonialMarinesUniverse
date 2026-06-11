@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
   id: RMCWeaponShotgunMK481
-  name: "важкий дробовик MK481"
-  description: "Громіздкий MK481, багатьом відомий як «мітла», — застаріла реліквія в арсеналі КМП США. Помпова система може заряджати стандартні дробові набої 12-го калібру або шокові гранати високого розсіювання калібру 18,5 мм."
+  name: MK481 heavy shotgun
+  description: The bulky MK481, known to many as "the broomstick", is an aging relic within the USCMC arsenal. The pump-action system can chamber standard 12 gauge shotgun shells or 18.5mm high-dispersive shock grenades.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/mk481/mk481_inhands.rsi
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMShellShotgunBase
   id: RMCShellShotgunHDSG
-  name: "жменя високодисперсних ударних гранат"
-  description: "Жменя високодисперсних ударних гранат 18,5 мм, також відомих як петарди."
+  name: handful of high-dispersive shock grenades
+  description: A handful of 18.5mm high-dispersive shock grenades, also called firecrackers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_hdsg_handfuls.rsi
@@ -91,7 +91,7 @@
 
 - type: stack
   id: RMCShellShotgunHDSG
-  name: "жменя високодисперсних ударних гранат"
+  name: handful of high-dispersive shock grenades
   icon: { sprite: /Textures/_RMC14/Objects/Weapons/Guns/Ammunition/Handfuls/shotgun_hdsg_handfuls.rsi, state: hdsg_1 }
   spawn: RMCShellShotgunHDSG
   maxCount: 5
@@ -99,8 +99,8 @@
 - type: entity
   parent: RMCBoxShotgunBase
   id: RMCBoxShotgunHDSG
-  name: "коробка гранат HDSG"
-  description: "Коробка, заповнена високодисперсними ударними гранатами 18,5 мм."
+  name: box of HDSG grenades
+  description: A box filled with 18.5mm high-dispersive shock grenades.
   components:
   - type: Storage
     whitelist:
@@ -127,7 +127,7 @@
   parent: CMPelletShotgunBase
   id: RMCPelletShotgunHDSG
   categories: [ HideSpawnMenu ]
-  name: "високодисперсна ударна граната 18,5 мм"
+  name: 18.5mm high-dispersive shock grenade
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/hdsg_projectiles.rsi
@@ -192,7 +192,7 @@
   parent: CMPelletShotgunBase
   id: RMCPelletShotgunHDSGBomblet
   categories: [ HideSpawnMenu ]
-  name: "високодисперсний касетний суббоєприпас"
+  name: high-dispersive cluster bomblet
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Projectiles/hdsg_projectiles.rsi

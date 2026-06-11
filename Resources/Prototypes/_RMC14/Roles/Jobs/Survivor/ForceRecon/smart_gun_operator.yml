@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconSmartGunOperator
-  name: "спавнер оператора смартгана forecon"
+  name: forecon smart gun operator spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconSmartgunOperator

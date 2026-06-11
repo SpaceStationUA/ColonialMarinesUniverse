@@ -4,14 +4,14 @@
   id: AU14ChevronLACNBase
   abstract: true
   suffix: LACN Chevron
-  description: "Відзнака військово-морського звання ЛАКН. Значок залишає зелену пляму на лацкані, але пасує до уніформи латинських командос, тому його досі не переробили."
+  description: LACN naval rank insignia. The pin leaves a green stain against your lapel, but it matches the Latin Commando uniform so they've yet to revise it.
 
 # ├──[ Enlisted ]────────────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNSeamanRecruit
-  name: "шеврон матроса-рекрута"
+  name: seaman recruit chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNSeamanApprentice
-  name: "шеврон матроса-учня"
+  name: seaman apprentice chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNSeaman
-  name: "шеврон матроса"
+  name: seaman chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNPettyOfficerThirdClass
-  name: "шеврон старшини третього класу"
+  name: petty officer third class chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNPettyOfficerSecondClass
-  name: "шеврон старшини другого класу"
+  name: petty officer second class chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -91,7 +91,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNPettyOfficerFirstClass
-  name: "шеврон старшини першого класу"
+  name: petty officer first class chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNChiefPettyOfficer
-  name: "шеврон головного старшини"
+  name: chief petty officer chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNSeniorChief
-  name: "шеврон старшого головного старшини"
+  name: senior chief chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -139,7 +139,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNMasterChief
-  name: "шеврон майстер-головного старшини"
+  name: master chief chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNSubEnsign
-  name: "шеврон молодшого енсина"
+  name: sub-ensign chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNEnsign
-  name: "шеврон енсина"
+  name: ensign chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -189,7 +189,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNLieutenantJuniorGrade
-  name: "шеврон молодшого лейтенанта флоту"
+  name: lieutenant junior grade chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -205,7 +205,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNLieutenant
-  name: "шеврон лейтенанта флоту"
+  name: lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -221,7 +221,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNLieutenantCommander
-  name: "шеврон лейтенант-командера"
+  name: lieutenant commander chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNCommander
-  name: "шеврон командера"
+  name: commander chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -253,7 +253,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNCaptain
-  name: "шеврон капітана флоту"
+  name: captain chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -269,7 +269,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNRearAdmiral
-  name: "шеврон контрадмірала"
+  name: rear admiral chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -285,7 +285,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNViceAdmiral
-  name: "шеврон віцеадмірала"
+  name: vice admiral chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -301,7 +301,7 @@
 - type: entity
   parent: AU14ChevronLACNBase
   id: AU14ChevronLACNAdmiral
-  name: "шеврон адмірала"
+  name: admiral chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseStorageItem
   id: CMPacketPills
-  name: "пакет таблеток"
-  description: "Містить таблетки. Коли ти їх вийняв — назад вони не потраплять."
+  name: pill packet
+  description: Contains pills. Once you take them out, they don't go back in.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/pill_packets.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsTricordrazine
-  name: "пакет таблеток трикордазину"
-  description: "Цей пакет містить таблетки трикордазину. Лікує всі типи ушкоджень повільно. Коли ти їх вийняв — назад вони не потраплять. Не приймай більше 2 таблеток за короткий період."
+  name: tricordazine pill packet
+  description: This packet contains tricordazine pills. Heals all types of damage slightly. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
   components:
   - type: Sprite
     state: tricordrazine_packet
@@ -53,8 +53,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsBicaridine
-  name: "пакет таблеток бікаридину"
-  description: "Цей пакет містить таблетки бікаридину. Ефективно лікує фізичні ушкодження. Коли ти їх вийняв — назад вони не потраплять. Не приймай більше 2 таблеток за короткий період."
+  name: bicaridine pill packet
+  description: This packet contains bicaridine pills. Heals brute damage effectively. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
   components:
   - type: Sprite
     state: bicaridine_packet
@@ -68,8 +68,8 @@
 - type: entity
   parent: CMPacketPills
   id: CMPacketPillsKelotane
-  name: "пакет таблеток келотану"
-  description: "Цей пакет містить таблетки келотану. Ефективно лікує опіки. Коли ти їх вийняв — назад вони не потраплять. Не приймай більше 2 таблеток за короткий період."
+  name: kelotane pill packet
+  description: This packet contains kelotane pills. Heals burn damage effectively. Once you take them out, they don't go back in. Don't take more than 2 pills in a short period.
   components:
   - type: Sprite
     state: kelotane_packet
