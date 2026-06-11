@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14FatiguesDesertRMC
-  name: desert royal marine fatigues
-  description: Standart-issue Three World Empire Royal Marines Commando fatigues.
+  name: "пустельна польова форма королівської морської піхоти"
+  description: "Стандартна польова форма командос королівської морської піхоти Імперії Трьох Світів."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/jumpsuits/desert.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: AU14FatiguesDesertRMC
   id: AU14FatiguesBlackRMC
-  name: black royal marine fatigues
+  name: "чорна польова форма королівської морської піхоти"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/jumpsuits/black.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14FatiguesDesertRMCTeamlead
-  name: desert royal marine team leader fatigues
-  description: Standart-issue Three World Empire Royal Marines Commando fatigues. Usually worn by sergeants or officers.
+  name: "пустельна польова форма лідера команди королівської морської піхоти"
+  description: "Стандартна польова форма командос королівської морської піхоти Імперії Трьох Світів. Зазвичай її носять сержанти або офіцери."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/jumpsuits/desert_team_lead.rsi
@@ -35,7 +35,7 @@
 - type: entity
   parent: AU14FatiguesDesertRMCTeamlead
   id: AU14FatiguesBlackRMCTeamlead
-  name: black royal marine team leader fatigues
+  name: "чорна польова форма лідера команди королівської морської піхоти"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/jumpsuits/black_team_lead.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14FatiguesServiceRMC
-  name: royal marine service uniform
-  description: Standart-issue Three World Empire Royal Marines Commando service uniform. Usually worn by officers.
+  name: "службова форма королівського морпіха"
+  description: "Штатна службова форма командос Королівської морської піхоти Імперії трьох світів. Зазвичай її носять офіцери."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/jumpsuits/service.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14PilotJumpsuitRMC
-  name: royal marine aircrew jumpsuit
-  description: A standard RMC Aircrew Jumpsuit. It has shards of light Kevlar to help protect against shrapnel.
+  name: "комбінезон авіаекіпажу королівських морпіхів"
+  description: "Стандартний комбінезон авіаекіпажу КМП. Має пластини з легкого кевлару, що допомагають захистити від уламків."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/USASFPilot/uniform.rsi # TODO: Proper RMC aircrew suit

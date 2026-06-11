@@ -1,8 +1,8 @@
 - type: entity
   parent: [ Clothing, ClothingSlotBase ]
   id: RMCBackpackBroiler
-  name: Broiler-T flexible refueling system
-  description: A specialized back harness that carries the Broiler-T flexible refueling system. Designed by and for UNMC Pyrotechnicians.
+  name: "гнучка заправна система Broiler-T"
+  description: "Спеціалізована наспинна підвісна система, що несе гнучку заправну систему Broiler-T. Розроблена піротехніками ОНМП і для них."
   components:
   - type: Corrodible
     isCorrodible: false

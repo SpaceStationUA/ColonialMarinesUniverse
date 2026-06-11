@@ -12,9 +12,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentAngledGrip # angledgrip
-  name: angled grip
-  description: "An angled foregrip that improves weapon ergonomics resulting in faster wielding time.
-    However, it also increases weapon size."
+  name: "кутова рукоятка"
+  description: "Кутова передня рукоятка, що покращує ергономіку зброї, забезпечуючи швидший час підйому. Однак вона також збільшує розмір зброї."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -34,9 +33,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentBipod
-  name: bipod
-  description: "A simple set of telescopic poles to keep a weapon stabilized during firing.
-    When properly placed, greatly increases accuracy, fire-rate and reduces recoil, but when not deployed also increases weapon size and slows fire-rate."
+  name: "сошки"
+  description: "Простий набір телескопічних опор для стабілізації зброї під час стрільби. Належно встановлені, значно підвищують точність, швидкострільність і знижують віддачу, але коли не розгорнуті, також збільшують розмір зброї та сповільнюють швидкострільність."
   components:
   - type: Sprite
     state: bipod
@@ -138,8 +136,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentBurstFireAssembly # burstfire_assembly
-  name: burst fire assembly
-  description: A small angled piece of fine machinery that increases the burst count on some weapons.
+  name: "модуль вогню чергою"
+  description: "Невеликий кутовий шматок тонкої механіки, що збільшує кількість пострілів у черзі деяких видів зброї."
   components:
   - type: Sprite
     state: rapidfire
@@ -167,8 +165,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentGyroscopicStabilizer
-  name: gyroscopic stabilizer
-  description: A set of weights and balances to stabilize the weapon when fired with one hand. Decreases firing speed.
+  name: "гіроскопічний стабілізатор"
+  description: "Набір ваги та балансування для стабілізації зброї під час стрільби однією рукою. Зменшує швидкість стрільби."
   components:
   - type: Sprite
     state: gyro
@@ -203,8 +201,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentLaserSight
-  name: laser sight
-  description: A laser sight that attaches to the underside of most weapons. Increases accuracy and decreases scatter, especially while one-handed.
+  name: "лазерний цілевказівник"
+  description: "Лазерний цілевказівник, який кріпиться знизу більшості видів зброї. Підвищує точність і зменшує розкид, особливо при стрільбі однією рукою."
   components:
   - type: Sprite
     state: lasersight
@@ -229,8 +227,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentMicroLaserSight
-  name: micro laser sight
-  description: A compact, high-precision laser sight engineered exclusively for the M13 Auto Pistol. Offers exceptional accuracy gains by interfacing directly with the weapon's internal targeting systems.
+  name: "мікро-лазерний цілевказівник"
+  description: "Компактний високоточний лазерний цілевказівник, спроектований ексклюзивно для автоматичного пістолета M13. Забезпечує винятковий приріст точності завдяки прямій інтеграції з внутрішніми системами наведення зброї."
   components:
   - type: Sprite
     state: lasersight_micro
@@ -253,8 +251,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentMiniFlamethrower
-  name: underbarrel flamethrower # TODO RMC14 intensity toggle
-  description: A weapon-mounted refillable flamethrower attachment. It has a secondary setting for a more intense flame with far less propulsion ability and heavy fuel usage.
+  name: "підстовбурний вогнемет" # TODO RMC14 intensity toggle
+  description: "Підставлюваний вогнемет з можливістю заправки. Має додаткове налаштування для більш інтенсивного полум'я зі значно меншою силою кидання та важким витрачанням палива."
   components:
   - type: Sprite
     state: flamethrower
@@ -319,8 +317,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: CMAttachmentXMVESG1FlamerNozzle
-  name: XM-VESG-1 flamer nozzle
-  description: A special nozzle designed to alter flamethrowers to be used in a more offense orientated manner. As the inside of the nozzle is coated in a special gel and resin substance that takes the fuel that passes through and hardens it. Upon exiting the barrel, a cluster of burning gel is projected instead of a stream of burning naphtha.
+  name: "насадка XM-VESG-1"
+  description: "Спеціальна насадка, призначена для зміни вогнеметів, щоб вони використовувалися більш наступально. Внутрішня поверхня насадки покрита спеціальною гелево-смоляною речовиною, що забирає паливо, яке проходить крізь неї, та твердить його. Виходячи зі ствола, замість струменя палаючої нафти запускається кластер палаючого гелю."
   components:
   - type: Sprite
     state: flamer_nozzle
@@ -330,8 +328,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU7UnderbarrelShotgun
-  name: U7 underbarrel shotgun
-  description: An AEGIS U7 tactical shotgun. Attaches to the underbarrel of most weapons. Only capable of loading up to five buckshot shells. Specialized for breaching into buildings.
+  name: "підстовбурний дробовик U7"
+  description: "Тактичний дробовик AEGIS U7. Кріпиться під стволом більшості видів зброї. Може заряджати лише до п'яти набоїв картечі. Спеціалізований для штурму будівель."
   components:
   - type: Sprite
     state: masterkey
@@ -402,8 +400,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentUnderbarrelExtinguisher
-  name: HME-12 underbarrel extinguisher
-  description: A Taiho-Technologies HME-12 underbarrel extinguisher. Attaches to the underbarrel of most weapons. Point at flame before applying pressure.
+  name: "підстовбурний вогнегасник HME-12"
+  description: "Підстовбурний вогнегасник Taiho-Technologies HME-12. Кріпиться під стволом більшості видів зброї. Наводь на полум'я перед натисканням."
   components:
   - type: Sprite
     state: extinguisher
@@ -472,8 +470,8 @@
 - type: entity
   parent: RMCAttachmentUnderbarrelExtinguisher
   id: RMCAttachmentUnderbarrelExtinguisherSpec
-  name: HME-88B underbarrel extinguisher
-  description: An experimental Taiho-Technologies HME-88B underbarrel extinguisher integrated with a select few gun models. It is capable of putting out the strongest of flames. Point at flame before applying pressure.
+  name: "підстовбурний вогнегасник HME-88B"
+  description: "Експериментальний підстовбурний вогнегасник Taiho-Technologies HME-88B, інтегрований з обраними моделями зброї. Здатний гасити навіть найсильніше полум'я. Наводь на полум'я перед натисканням."
   components:
   - type: Spray
     sprayedPrototype: RMCExtinguisherSpraySpec
@@ -491,8 +489,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentU1GrenadeLauncher
-  name: U1 grenade launcher
-  description: A weapon-mounted, reloadable grenade launcher.
+  name: "гранатомет U1"
+  description: "Гранатомет, що кріпиться до зброї та перезаряджається."
   components:
   - type: Sprite
     layers:
@@ -582,8 +580,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentMK1GrenadeLauncher
-  name: MK1 underslung grenade launcher
-  description: An older version of the classic underslung grenade launcher. Can store five grenades, but fires them slower.
+  name: "підстовбурний гранатомет MK1"
+  description: "Старіша версія класичного підстовбурного гранатомета. Вміщає п'ять гранат, але стріляє ними повільніше."
   components:
   - type: Sprite
     layers:
@@ -625,8 +623,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentM203GrenadeLauncher
-  name: M203 grenade launcher
-  description: An antique underbarrel grenade launcher. Adopted in 1969 for the M16, it was made obsolete centuries ago; how its ended up here is a mystery to you. Holds only one propriatary 40mm grenade, does not have modern IFF systems, it won't pass through your friends.
+  name: "гранатомет M203"
+  description: "Антикварний підстовбурний гранатомет. Прийнятий у 1969-му для M16, він застарів сторіччя тому; як він тут опинився — для тебе загадка. Тримає лише одну фірмову 40-мм гранату, не має сучасних систем IFF, не пройде крізь твоїх друзів."
   components:
   - type: Sprite
     layers:
@@ -668,9 +666,8 @@
 - type: entity
   parent: RMCUnderAttachmentBase
   id: RMCAttachmentVerticalGrip # verticalgrip
-  name: vertical grip
-  description: "A vertical foregrip that offers better accuracy, less recoil, and less scatter, especially during burst fire.
-    However, it also increases weapon size."
+  name: "вертикальна рукоятка"
+  description: "Вертикальна передня рукоятка, що дає кращу точність, меншу віддачу й менший розкид, особливо під час стрільби чергою. Однак вона також збільшує розмір зброї."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -699,8 +696,8 @@
 - type: entity
   parent: [ RMCUnderAttachmentBase, RMCAttachableToggleableBase ]
   id: RMCAttachmentFlashlightGrip # flashlight/grip
-  name: underbarrel flashlight grip
-  description: Holy smokes RO man, they put a grip on a flashlight! Reduces recoil and scatter by a tiny amount. Works as a light source. # Boosts accuracy by a tiny amount.
+  name: "підстовбурна ліхтар-рукоятка"
+  description: "Свята мати, RO мужик, на ліхтар поставили рукоятку! Дуже трохи знижує віддачу й розкид. Працює як джерело світла." # Boosts accuracy by a tiny amount.
   components:
   - type: ItemTogglePointLight
   - type: ToggleableVisuals
@@ -783,8 +780,8 @@
 - type: entity
   parent: RMCAttachmentFlashlightGrip
   id: RMCAttachmentLaserLightModule
-  name: MK80 laser-light module
-  description: A Laser-Light module for the MK80 Service Pistol which is currently undergoing limited field testing as part of the marines' next generation pistol program. All MK80 pistols come equipped with the module.
+  name: "лазерно-світловий модуль MK80"
+  description: "Лазерно-світловий модуль для службового пістолета MK80, що нині проходить обмежені польові випробування в рамках програми пістолета нового покоління морпіхів. Усі пістолети MK80 поставляються з цим модулем."
   suffix: DO NOT MAP
   components:
   - type: Sprite
@@ -823,8 +820,8 @@
   parent: RMCAttachmentBipod
   id: RMCAttachmentL91Bipod
   categories: [ HideSpawnMenu ]
-  name: "L91 SWS integrated bipod"
-  description: "Blimey! This should be bolted to your rifle, you twat - put it back on and get back to it, mate!"
+  name: "інтегровані сошки L91 SWS"
+  description: "Бляха! Ця штука мала бути прикручена до твоєї гвинтівки, бовдуре — постав її назад і берись до роботи, друже!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -862,8 +859,8 @@
 - type: entity
   parent: RMCAttachmentU1GrenadeLauncher
   id: RMCAttachmentL90GL
-  name: L90U3 grenade launcher
-  description: A grenade launcher designed specifically for L90 pattern rifles. Holds three 30mm grenades.
+  name: "гранатомет L90U3"
+  description: "Гранатомет, спроектований спеціально для гвинтівок зразка L90. Тримає три 30-мм гранати."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -893,8 +890,8 @@
 - type: entity
   parent: RMCAttachmentU7UnderbarrelShotgun
   id: RMCAttachmentL90UBS
-  name: L90U1 underbarrel shotgun
-  description: An underbarrel shotgun designed specifically for L90 pattern rifles, capable of loading up to five buckshot shells.
+  name: "підстовбурний дробовик L90U1"
+  description: "Підстовбурний дробовик, спроектований спеціально для гвинтівок зразка L90, здатний заряджати до п'яти набоїв картечі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi
@@ -916,8 +913,8 @@
 - type: entity
   parent: RMCAttachableBase
   id: RMCAttachmentL88Grip
-  name: L88 integrated foregrip
-  description: Oi, you bloody galah! Put this back on your rifle and get back to it!
+  name: "інтегрована передня рукоятка L88"
+  description: "Гей, чортів галах! Постав її назад на гвинтівку і берись до роботи!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/rmc_under.rsi

@@ -68,7 +68,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicBaseMilitary
   id: AU14IntelThirdPartyCLFInsurgentReinforcementsMachineGunner
-  name: Insurgent Machine Gunner
+  name: "кулеметник повстанців"
   components:
   - type: GhostRoleApplySpecial
   - type: GhostRole

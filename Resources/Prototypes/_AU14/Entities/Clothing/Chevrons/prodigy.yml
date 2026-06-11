@@ -4,14 +4,14 @@
   id: AU14ChevronPrDBase
   abstract: true
   suffix: PSC Rank Chevron
-  description: Private Security Contractor response unit rank insignia. 3D printed, with laminate tailings and an alligator clip to hold it to your lapel. Tacky as always.
+  description: "Відзнака звання підрозділу реагування приватного охоронного підрядника. Надрукована на 3D-принтері, із залишками ламінату та затискачем-«крокодилом» для кріплення до лацкана. Як завжди, несмак."
 
 # ├──[ Platoon Ranks ]───────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDRecruit
-  name: response unit in training chevron
+  name: "шеврон стажера підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDAssociate
-  name: associate response unit chevron
+  name: "шеврон помічника підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDOperator
-  name: response unit operator chevron
+  name: "шеврон оператора підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSeniorOperator
-  name: senior operator chevron
+  name: "шеврон старшого оператора"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDEnforcer
-  name: response unit enforcer chevron
+  name: "шеврон енфорсера підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -91,7 +91,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDEnforcerSenior
-  name: senior response unit enforcer chevron
+  name: "шеврон старшого енфорсера підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDEnforcerLead
-  name: lead response unit enforcer chevron
+  name: "шеврон провідного енфорсера підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDAdjutant
-  name: response unit adjutant chevron
+  name: "шеврон ад'ютанта підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -139,7 +139,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDCommander
-  name: response unit commander chevron
+  name: "шеврон командира підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -155,7 +155,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDCommanderSenior
-  name: senior response unit commander chevron
+  name: "шеврон старшого командира підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSynth1
-  name: synthetic grade 1 chevron
+  name: "шеврон синтетика підрозділу реагування класу 1"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -189,7 +189,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSynth2
-  name: synthetic grade 2 chevron
+  name: "шеврон синтетика підрозділу реагування класу 2"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -205,7 +205,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSynth3
-  name: synthetic grade 3 chevron
+  name: "шеврон синтетика підрозділу реагування класу 3"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -221,7 +221,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSynth4
-  name: synthetic grade 4 chevron
+  name: "шеврон синтетика підрозділу реагування класу 4"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -237,7 +237,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSynth5
-  name: synthetic grade 5 chevron
+  name: "шеврон синтетика підрозділу реагування класу 5"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -255,7 +255,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDPilot
-  name: response unit pilot chevron
+  name: "шеврон пілота підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -271,7 +271,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSeniorPilot
-  name: senior response unit pilot chevron
+  name: "шеврон старшого пілота підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -287,7 +287,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDCrewChief
-  name: response unit crew chief chevron
+  name: "шеврон командира екіпажу підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -303,7 +303,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDSeniorCrewChief
-  name: senior response unit crew chief chevron
+  name: "шеврон старшого командира екіпажу підрозділу реагування"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -321,7 +321,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDDeputyDirector
-  name: deputy director of operations chevron
+  name: "шеврон заступника директора з операцій"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -337,7 +337,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDOperationsDirector
-  name: director of operations chevron
+  name: "шеврон директора з операцій"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -353,7 +353,7 @@
 - type: entity
   parent: AU14ChevronPrDBase
   id: AU14ChevronPrDRegionDirector
-  name: regional director chevron
+  name: "шеврон регіонального директора"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

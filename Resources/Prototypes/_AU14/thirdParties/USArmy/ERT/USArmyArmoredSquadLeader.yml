@@ -78,7 +78,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmySquadLeaderArmored
-  name: US Army Squad Leader (ERT)
+  name: "командир відділення армії США (ЕРТ)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

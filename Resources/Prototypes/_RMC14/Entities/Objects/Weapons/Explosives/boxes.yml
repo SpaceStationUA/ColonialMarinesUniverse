@@ -2,7 +2,7 @@
   abstract: true
   parent: CMPacketBase
   id: RMCBoxSmallBase
-  name: packet
+  name: "набір"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/packets.rsi
@@ -25,9 +25,9 @@
 - type: entity
   parent: RMCBoxSmallBase
   id: RMCBoxClaymoreMineFilled
-  name: M20 mine box
+  name: "коробка з мінами M20"
   suffix: Filled
-  description: A secure box holding five M20 anti-personnel proximity mines.
+  description: "Захищена коробка з п'ятьма протипіхотними проксимальними мінами M20."
   components:
   - type: StorageFill
     contents:

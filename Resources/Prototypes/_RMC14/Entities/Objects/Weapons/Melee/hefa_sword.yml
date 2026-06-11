@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMM2132Machete
   id: RMCSwordHEFA
-  name: HEFA sword
-  description: A blade known to be used by the Order of the HEFA. # this highly dangerous blade blows up in a shower of shrapnel on impact. # TODO RMC14 HEFA sword explosion
+  name: "меч ХЕФА"
+  description: "Клинок, відомий тим, що його використовує Орден ХЕФА." # this highly dangerous blade blows up in a shower of shrapnel on impact. # TODO RMC14 HEFA sword explosion
   components:
   - type: Tag
     tags:

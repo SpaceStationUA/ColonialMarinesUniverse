@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCUtilityBase
   id: CMUTraumaGovernorAttachment
-  name: trauma governor
-  description: A compact armor-mounted emergency stabilizer that can bridge one damaged organ long enough to withdraw.
+  name: "травматичний стабілізатор"
+  description: "Компактний аварійний стабілізатор, встановлений на броню, який може підтримати один ушкоджений орган достатньо довго для відходу."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Medical/stethoscope.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: BaseItem
   id: CMUTraumaGovernorVial
-  name: stabilizer bypass vial
-  description: A sealed catalyst vial for overriding a trauma governor cooldown once.
+  name: "флакон обходу стабілізатора"
+  description: "Запечатаний флакон каталізатора для одноразового обходу перезарядки травматичного стабілізатора."
   components:
   - type: Item
     size: Tiny
@@ -34,8 +34,8 @@
 
 - type: entity
   id: CMUActionTraumaGovernor
-  name: Activate trauma governor
-  description: Select an organ to temporarily stabilize.
+  name: "Активувати травматичний стабілізатор"
+  description: "Оберіть орган для тимчасової стабілізації."
   components:
   - type: Action
     itemIconStyle: BigItem

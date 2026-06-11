@@ -1,8 +1,8 @@
 - type: entity
   parent: StationAiHolo
   id: CMUDropshipPilotEye
-  name: dropship view
-  description: A free-look projection of the dropship's nav console.
+  name: "вид з десантного корабля"
+  description: "Проєкція вільного огляду з навігаційної консолі десантного корабля."
   categories: [ HideSpawnMenu, DoNotMap ]
   components:
   - type: Sprite
@@ -13,7 +13,7 @@
 
 - type: entity
   id: CMUHolographicWarningSign
-  name: holographic warning sign
-  description: A bright yellow hologram warning of incoming danger.
+  name: "голографічний попереджувальний знак"
+  description: "Яскраво-жовта голограма попереджає про наближення небезпеки."
   components:
   - type: HolographicWarningSign

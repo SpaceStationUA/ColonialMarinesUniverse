@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCWhistle
   id: RMCDebugSoundDevice
-  name: unknown device
+  name: "невідомий пристрій"
   description: "???"
   suffix: DO NOT MAP
   components:

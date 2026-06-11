@@ -2,7 +2,7 @@
 
 - type: entity
   id: AUPlanetLV747
-  name: Solaris Gulch
+  name: "ущелина Соляріс"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Solaris Gulch"
@@ -77,7 +77,7 @@
 
 - type: entity
   id: AUPlanetShepherdsPride
-  name: Shepherds' Pride
+  name: "Гордість Шепердів"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Shepherds' Pride"
@@ -152,7 +152,7 @@
 
 - type: entity
   id: AUPlanetStableGarrison
-  name: Stable Garrison
+  name: "Стабільний гарнізон"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Stable Garrison"
@@ -220,7 +220,7 @@
 
 - type: entity
   id: AUPlanetLV624
-  name: LV624
+  name: "LV624"
   components:
   - type: RMCPlanetMapPrototype
     votename: "LV624 Green Hell"
@@ -294,7 +294,7 @@
 
 - type: entity
   id: AUPlanetGixensCaverns
-  name: Gixens Caverns
+  name: "печери Гіксена"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Gixens Caverns"
@@ -322,7 +322,7 @@
 
 - type: entity
   id: AUPlanetFlight
-  name: Flight
+  name: "Політ"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Flight"
@@ -364,7 +364,7 @@
 
 - type: entity
   id: AUPlanetLV759
-  name: Hybrisa Metropolitan
+  name: "метрополія Гібріза"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Hybrisa Metropolitan"
@@ -427,7 +427,7 @@
 
 - type: entity
   id: AUPlanetLV327
-  name: Port Neroid
+  name: "Порт Нероїд"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Port Neroid"
@@ -491,7 +491,7 @@
 
 - type: entity
   id: AUPlanetCorsatStation
-  name: Corsat Station
+  name: "станція Корсат"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Corsat Station"
@@ -542,7 +542,7 @@
 
 - type: entity
   id: CMUPlanetLament
-  name: LV-376 "Ulixes"
+  name: "LV-376 «Уліксес»"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Barker's Lament"
@@ -607,7 +607,7 @@
 
 - type: entity
   id: AUPlanetSorokyne
-  name: Sorokyne Strata
+  name: "страти Сорокине"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Sorokyne Strata"
@@ -665,7 +665,7 @@
 
 - type: entity
   id: AUPlanetTrijent
-  name: Trijent
+  name: "Тріджент"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Raijin Hydroelectric"
@@ -724,7 +724,7 @@
 
 - type: entity
   id: AuPlanetShivasSnowball
-  name: Shivas' Snowball
+  name: "Сніжок Шиви"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Shivas' Snowball"
@@ -780,7 +780,7 @@
 
 - type: entity
   id: AuPlanetKutjevo
-  name: Kutjevo Biolab
+  name: "біолабораторія Кутьєво"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Kutjevo Biolab"
@@ -836,7 +836,7 @@
 
 - type: entity
   id: AuPlanetFiorina
-  name: Fiorina Prison
+  name: "в’язниця Фіоріна"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Fiorina Prison"
@@ -893,7 +893,7 @@
 
 - type: entity
   id: AuPlanetChances
-  name: Chances Claim
+  name: "Ченсиз-Клейм"
   components:
   - type: RMCPlanetMapPrototype
     votename: "Chances Claim"

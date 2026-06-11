@@ -3,7 +3,7 @@
 - type: entity
   id: AU14CrateL165A1
   parent: RMCCrateWeapons
-  name: L165A1 Hand Cannon Crate (x2)
+  name: "ящик ручних гармат L165A1 (x2)"
   components:
   - type: StorageFill
     contents:
@@ -15,7 +15,7 @@
 - type: entity
   id: AU14CrateFlamerSpec
   parent: RMCCrateWeapons
-  name: M240-T Incinerator Crate (1x M240-T Incinerator, 1x Broiler-T, 1x Fuel Tank Pouch, 1x Large Incinerator Tank, 1x Large Custom Incinerator Tanks)
+  name: "ящик спалювача M240-T (1x спалювач M240-T, 1x Бройлер-T, 1x підсумок для паливного бака, 1x великий бак спалювача, 1x великий користувацький бак спалювача)"
   components:
   - type: StorageFill
     contents:

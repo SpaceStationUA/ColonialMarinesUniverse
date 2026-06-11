@@ -1,6 +1,6 @@
 - type: entity
   id: RMCGlowshroom
-  name: glowshroom
+  name: "сяючий гриб"
   description: ""
   placement:
     mode: SnapgridCenter

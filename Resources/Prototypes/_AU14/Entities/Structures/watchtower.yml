@@ -38,8 +38,8 @@
   parent: AU14WatchTower
   id: AU14WatchTower1
   suffix: WatchTower
-  name: Watch Tower
-  description: A Watch Tower.
+  name: "сторожова вежа"
+  description: "Сторожова вежа."
   components:
   - type: Sprite
     state: watchtower

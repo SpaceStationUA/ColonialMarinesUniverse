@@ -1,5 +1,5 @@
 - type: entity
-  name: Hack Computer Objective
+  name: "ціль зламати комп’ютер"
   parent: MarkerBase
   id: hackcomputerobjective
   components:
@@ -29,7 +29,7 @@
     interacttime: 10
 
 - type: entity
-  name: Hack Computer Spawn Marker
+  name: "мітка появи цілі зламу комп’ютера"
   parent: MarkerBase
   id: hackcomputerspawnmarker
   components:
