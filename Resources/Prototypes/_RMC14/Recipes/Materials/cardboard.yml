@@ -14,13 +14,13 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCDonutBoxBuild
-  name: "коробка пончиків"
+  name: donut box
   prototype: RMCBoxDonutEmpty
 
 # pizza boxes
 - type: rmcConstruction
   id: RMCPizzaBoxList
-  name: "коробки для піци (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: pizza boxes (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: RMCBoxPizza
   listed:
   - RMCPizzaBoxBuild
@@ -29,19 +29,19 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCPizzaBoxBuild
-  name: "коробка для піци"
+  name: pizza box
   prototype: RMCBoxPizza
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCPizzaGalaxyBoxBuild
-  name: "коробка для піци Pizza Galaxy"
+  name: Pizza Galaxy pizza box
   prototype: RMCBoxPizzaGalaxy
 
 # folders
 - type: rmcConstruction
   id: RMCFolderList
-  name: "теки (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: folders (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: CMFolderBase
   listed:
   - RMCFolderBlueEmptyBuild
@@ -53,37 +53,37 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCFolderBlueEmptyBuild
-  name: "синя тека"
+  name: blue folder
   prototype: CMFolderBlueEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCFolderBlackEmptyBuild
-  name: "чорна тека"
+  name: black folder
   prototype: CMFolderBlackEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCFolderRedEmptyBuild
-  name: "червона тека"
+  name: red folder
   prototype: CMFolderRedEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCFolderWhiteEmptyBuild
-  name: "біла тека"
+  name: white folder
   prototype: CMFolderWhiteEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCFolderYellowEmptyBuild
-  name: "жовта тека"
+  name: yellow folder
   prototype: CMFolderYellowEmpty
 
 # empty ammunition boxes
 - type: rmcConstruction
   id: RMCEmptyAmmoBoxesList
-  name: "коробки боєприпасів (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: ammunition boxes (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: RMCBoxBulletsBase
   listed:
   - RMCBoxBulletsRifleEmptyBuild
@@ -96,43 +96,43 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxBulletsRifleEmptyBuild
-  name: "гвинтівкова коробка боєприпасів (10x24мм)"
+  name: rifle ammunition box (10x24mm)
   prototype: RMCBoxBulletsRifleEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxBulletsRifleAPEmptyBuild
-  name: "гвинтівкова коробка боєприпасів (10x24мм ББ)"
+  name: rifle ammunition box (10x24mm AP)
   prototype: RMCBoxBulletsRifleAPEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxBulletsSMGEmptyBuild
-  name: "коробка боєприпасів ПП (10x20мм)"
+  name: SMG ammunition box (10x20mm)
   prototype: RMCBoxBulletsSMGEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxBulletsSMGAPEmptyBuild
-  name: "коробка боєприпасів ПП (10x20мм ББ)"
+  name: SMG ammunition box (10x20mm AP)
   prototype: RMCBoxBulletsSMGAPEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxBulletsPistolEmptyBuild
-  name: "пістолетна коробка боєприпасів (10x20мм-APC)"
+  name: pistol ammunition box (10x20mm-APC)
   prototype: RMCBoxBulletsPistolEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxBulletsPistolAPEmptyBuild
-  name: "пістолетна коробка боєприпасів (10x20мм-APC (ББ))"
+  name: pistol ammunition box (10x20mm-APC (AP))
   prototype: RMCBoxBulletsPistolAPEmpty
 
 # empty rifle magazine boxes
 - type: rmcConstruction
   id: RMCEmptyRifleMagazineBoxesList
-  name: "коробки гвинтівкових магазинів (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: rifle magazine boxes (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: RMCBoxMagazineRifleBase
   listed:
   - RMCBoxMagazineRifleM54CEmptyBuild
@@ -151,67 +151,67 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleM54CEmptyBuild
-  name: "коробка магазинів M54C"
+  name: M54C magazine box
   prototype: RMCBoxMagazineRifleM54CEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleM54CAPEmptyBuild
-  name: "коробка магазинів M54C (ББ)"
+  name: M54C magazine box (AP)
   prototype: RMCBoxMagazineRifleM54CAPEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleM54CExtEmptyBuild
-  name: "коробка магазинів M54C (розш.)"
+  name: M54C magazine box (Ext)
   prototype: RMCBoxMagazineRifleM54CExtEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleM4SPREmptyBuild
-  name: "коробка магазинів M4SPR"
+  name: M4SPR magazine box
   prototype: RMCBoxMagazineRifleM4SPREmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleM4SPRAPEmptyBuild
-  name: "коробка магазинів M4SPR (ББ)"
+  name: M4SPR magazine box (AP)
   prototype: RMCBoxMagazineRifleM4SPRAPEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleM4SPRExtEmptyBuild
-  name: "коробка магазинів M4SPR (розш.)"
+  name: M4SPR magazine box (Ext)
   prototype: RMCBoxMagazineRifleM4SPRExtEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxBullets458EmptyBuild
-  name: "коробка пакунків куль .458 SOCOM"
+  name: .458 SOCOM bullet bundle box
   prototype: RMCBoxBullets458Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleM16EmptyBuild
-  name: "коробка магазинів M16"
+  name: M16 magazine box
   prototype: RMCBoxMagazineRifleM16Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleSSG45EmptyBuild
-  name: "коробка магазинів SSG45"
+  name: SSG45 magazine box
   prototype: RMCBoxMagazineRifleSSG45Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRifleSSG45APEmptyBuild
-  name: "коробка магазинів SSG45 (ББ)"
+  name: SSG45 magazine box (AP)
   prototype: RMCBoxMagazineRifleSSG45APEmpty
 
 # empty smg magazine boxes
 - type: rmcConstruction
   id: RMCEmptySMGMagazineBoxesList
-  name: "коробки магазинів ПП (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: SMG magazine boxes (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: RMCBoxMagazineSMGBase
   listed:
   - RMCBoxMagazineSMGM63EmptyBuild
@@ -223,31 +223,31 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineSMGM63EmptyBuild
-  name: "коробка магазинів M63"
+  name: M63 magazine box
   prototype: RMCBoxMagazineSMGM63Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineSMGM63APEmptyBuild
-  name: "коробка магазинів M63 (ББ)"
+  name: M63 magazine box (AP)
   prototype: RMCBoxMagazineSMGM63APEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineSMGM63ExtEmptyBuild
-  name: "коробка магазинів M63 (розш.)"
+  name: M63 magazine box (Ext)
   prototype: RMCBoxMagazineSMGM63ExtEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineSMGNailgunEmptyBuild
-  name: "коробка магазинів цвяхомета"
+  name: nailgun magazine box
   prototype: RMCBoxMagazineSMGNailgunEmpty
 
 # empty pistol magazine boxes
 - type: rmcConstruction
   id: RMCEmptyPistolMagazineBoxesList
-  name: "коробки пістолетних магазинів (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: pistol magazine boxes (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: RMCBoxMagazinePistolBase
   listed:
   - RMCBoxMagazinePistolM1984EmptyBuild
@@ -273,92 +273,92 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM1984EmptyBuild
-  name: "коробка магазинів M1984"
+  name: M1984 magazine box
   prototype: RMCBoxMagazinePistolM1984Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM1984APEmptyBuild
-  name: "коробка магазинів M1984 (ББ)"
+  name: M1984 magazine box (AP)
   prototype: RMCBoxMagazinePistolM1984APEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolMK80EmptyBuild
-  name: "коробка магазинів MK80"
+  name: MK80 magazine box
   prototype: RMCBoxMagazinePistolMK80Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: AU14BoxMagazinePistolL165A1EmptyBuild
-  name: "коробка магазинів L165A1"
+  name: L165A1 magazine box
   prototype: AU14BoxMagazinePistolL165A1Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
 
   id: RMCBoxMagazinePistolSU6EmptyBuild
-  name: "коробка магазинів SU-6"
+  name: SU-6 magazine box
   prototype: RMCBoxMagazinePistolSU6Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM77APEmptyBuild
-  name: "коробка магазинів M77 (ББ)"
+  name: M77 magazine box (AP)
   prototype: RMCBoxMagazinePistolM77APEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRevolverM44EmptyBuild
-  name: "коробка спідлоадерів M44"
+  name: M44 speedloader box
   prototype: RMCBoxMagazineRevolverM44Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazineRevolverM44MarksmanEmptyBuild
-  name: "коробка спідлоадерів M44 (влучник)"
+  name: M44 speedloader box (Marksman)
   prototype: RMCBoxMagazineRevolverM44MarksmanEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM13EmptyBuild
-  name: "коробка магазинів M13"
+  name: M13 magazine box
   prototype: RMCBoxMagazinePistolM13Empty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM13ExtEmptyBuild
-  name: "коробка магазинів M13 (розш.)"
+  name: M13 magazine box (Ext)
   prototype: RMCBoxMagazinePistolM13ExtEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM13DrumEmptyBuild
-  name: "коробка магазинів M13 (барабан)"
+  name: M13 magazine box (Drum)
   prototype: RMCBoxMagazinePistolM13DrumEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM13APEmptyBuild
-  name: "коробка магазинів M13 (ББ)"
+  name: M13 magazine box (AP)
   prototype: RMCBoxMagazinePistolM13APEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM13ExtAPEmptyBuild
-  name: "коробка магазинів M13 (розш. ББ)"
+  name: M13 magazine box (Ext AP)
   prototype: RMCBoxMagazinePistolM13ExtAPEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePistolM13DrumAPEmptyBuild
-  name: "коробка магазинів M13 (барабан ББ)"
+  name: M13 magazine box (Drum AP)
   prototype: RMCBoxMagazinePistolM13DrumAPEmpty
 
 # empty shotgun shell boxes
 - type: rmcConstruction
   id: RMCEmptyShotgunShellBoxesList
-  name: "коробки дробових набоїв (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: shotgun shell boxes (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: RMCBoxMagazineShellBase
   listed:
   - RMCBoxShellsBuckshotEmptyBuild
@@ -373,49 +373,49 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxShellsBuckshotEmptyBuild
-  name: "коробка картечних набоїв"
+  name: buckshot shell box
   prototype: RMCBoxShellsBuckshotEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxShellsSlugsEmptyBuild
-  name: "коробка кульових набоїв"
+  name: slug shell box
   prototype: RMCBoxShellsSlugsEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxShellsFlechetteEmptyBuild
-  name: "коробка флешетних набоїв"
+  name: flechette shell box
   prototype: RMCBoxShellsFlechetteEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxShellsBreachingEmptyBuild
-  name: "коробка брешингових набоїв"
+  name: breaching shell box
   prototype: RMCBoxShellsBreachingEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxShellsBeanbagEmptyBuild
-  name: "коробка травматичних набоїв"
+  name: beanbag shell box
   prototype: RMCBoxShellsBeanbagEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxShellsIncendiaryEmptyBuild
-  name: "коробка запалювальних набоїв"
+  name: incendiary shell box
   prototype: RMCBoxShellsIncendiaryEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxShellsIncendiaryBuckshotEmptyBuild
-  name: "коробка запалювальної картечі"
+  name: incendiary buckshot shell box
   prototype: RMCBoxShellsIncendiaryBuckshotEmpty
 
 # empty supply boxes
 - type: rmcConstruction
   id: RMCEmptySupplyBoxesList
-  name: "ящики припасів (1 картон)" # cost named manually since lists won't name costs otherwise
+  name: supply boxes (1 cardboard) # cost named manually since lists won't name costs otherwise
   prototype: RMCBoxMagazineSupplyBase
   listed:
   - RMCBoxPackFlareEmptyBuild
@@ -430,35 +430,35 @@
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxPackFlareEmptyBuild
-  name: "ящик фаєр-паків M94"
+  name: M94 flare packs box
   prototype: RMCBoxPackFlareEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxPackFlareCASEmptyBuild
-  name: "ящик фаєр-паків M89-S"
+  name: M89-S flare packs box
   prototype: RMCBoxPackFlareCASEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxFlamerTankEmptyBuild
-  name: "ящик паливних баків UT-Napthal"
+  name: UT-Napthal fuel tanks box
   prototype: RMCBoxFlamerTankEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxFlashlightsEmptyBuild
-  name: "ящик ліхтариків"
+  name: flashlights box
   prototype: RMCBoxFlashlightsEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMREEmptyBuild
-  name: "ящик MRE"
+  name: MREs box
   prototype: RMCBoxMREEmpty
 
 - type: rmcConstruction
   parent: RMCCardboardBuildBase
   id: RMCBoxMagazinePowerCellsHighBuild
-  name: "ящик високомістких батарей"
+  name: high-capacity power cells box
   prototype: RMCBoxMagazinePowerCellsHigh

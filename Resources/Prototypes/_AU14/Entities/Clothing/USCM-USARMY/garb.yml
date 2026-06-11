@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14HelmetGarbM10SkrimJungle
-  name: "джунглевий чохол на шолом M10"
-  description: "Камуфляжний чохол для шолома M10. Здається трохи зайвим, бо шолом і так зелений..."
+  name: Jungle M10 Helmet Cover
+  description: A camo cover for the M10 helmet. Seems a bit redundant since the helmet is already green...
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMHelmetGarb/junglehelmetcover.rsi
@@ -17,8 +17,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14HelmetGarbM10SkrimDesert
-  name: "пустельний чохол на шолом M10"
-  description: "Камуфляжний чохол для шолома M10."
+  name: Desert M10 Helmet Cover
+  description: A camo cover for the M10 helmet.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMHelmetGarb/deserthelmetcover.rsi
@@ -33,8 +33,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14HelmetGarbM10SkrimSnow
-  name: "сніговий чохол на шолом M10"
-  description: "Камуфляжний чохол для шолома M10."
+  name: Snow M10 Helmet Cover
+  description: A camo cover for the M10 helmet.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMHelmetGarb/snowhelmetcover.rsi
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14HelmetGarbM10RainCover
-  name: "дощовий чохол на шолом M10"
-  description: "Дощовий чохол для шолома M10."
+  name: M10 Helmet Rain Cover
+  description: A rain cover for the M10 helmet.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMHelmetGarb/rainhelmetcover.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14HelmetGarbM10Netting
-  name: "сітка на шолом M10"
-  description: "Сітчастий чохол для шолома M10."
+  name: M10 Helmet Netting
+  description: A netting cover for the M10 helmet.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMHelmetGarb/helmetnetting.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: RMCHelmetGarbBase
   id: AU14HelmetGarbRiotVisor
-  name: "протибунтівне забрало"
-  description: "Забрало, яке можна прикріпити до багатьох шоломів."
+  name: riot visor
+  description: A visor that can be attached to many helmets.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMHelmetGarb/riotvisor.rsi
@@ -100,8 +100,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbJungleBracer
-  name: "джунглеві наручі M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Jungle Bracers
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/junglebracers.rsi
@@ -116,8 +116,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbJungleGroinPlate
-  name: "джунглева пахова пластина M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Jungle Groin Plate
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/junglegroinplate.rsi
@@ -132,8 +132,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbJungleNeckGuard
-  name: "джунглевий захист шиї M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Jungle Neck Guard
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/jungleneckguard.rsi
@@ -148,8 +148,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbJungleShinGuards
-  name: "джунглевий захист гомілок M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Jungle Shin Guards
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/jungleshinguards.rsi
@@ -164,8 +164,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbJungleShoulderPads
-  name: "джунглеві наплічники M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Jungle Shoulder Pads
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/jungleshoulderpads.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbJungleThighGuards
-  name: "джунглевий захист стегон M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Jungle Thigh Guards
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/junglethighguards.rsi
@@ -196,8 +196,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbJunglePoncho
-  name: "джунглеве дощове пончо M3"
-  description: "Пончо, створене для використання разом із бронею зразка M3."
+  name: M3 Jungle Rain Poncho
+  description: A poncho made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/jungleponcho.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbDesertBracer
-  name: "пустельні наручі M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Desert Bracers
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/desertbracers.rsi
@@ -230,8 +230,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbDesertGroinPlate
-  name: "пустельна пахова пластина M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Desert Groin Plate
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/desertgroinplate.rsi
@@ -246,8 +246,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbDesertNeckGuard
-  name: "пустельний захист шиї M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Desert Neck Guard
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/desertneckguard.rsi
@@ -262,8 +262,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbDesertShinGuards
-  name: "пустельний захист гомілок M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Desert Shin Guards
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/desertshinguards.rsi
@@ -278,8 +278,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbDesertShoulderPads
-  name: "пустельні наплічники M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Desert Shoulder Pads
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/desertshoulderpads.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbDesertThighGuards
-  name: "пустельний захист стегон M3"
-  description: "Елемент броні, створений для використання разом із бронею зразка M3."
+  name: M3 Desert Thigh Guards
+  description: An armor piece made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/desertthighguard.rsi
@@ -310,8 +310,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbDesertPoncho
-  name: "пустельне дощове пончо M3"
-  description: "Пончо, створене для використання разом із бронею зразка M3."
+  name: M3 Desert Rain Poncho
+  description: A poncho made to be used in combination with M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/desertponcho.rsi
@@ -327,8 +327,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbShotgunShellHolder
-  name: "тримач дробових набоїв M3"
-  description: "Тримач дробових набоїв, створений для кріплення зовні броні зразка M3."
+  name: M3 Shotgun Shell Holder
+  description: A shotgun shell holder made to be attached to the outside of M3 pattern armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMArmorGarb/shotgunwebbing.rsi
@@ -345,7 +345,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitJungleArmor
-  name: "набір кастомізації джунглевої броні M3"
+  name: M3 Jungle Armor Customization Kit
   components:
   - type: Item
     size: Ginormous
@@ -369,7 +369,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitDesertArmor
-  name: "набір кастомізації пустельної броні M3"
+  name: M3 Desert Armor Customization Kit
   components:
   - type: Item
     size: Ginormous
@@ -393,8 +393,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbCorpsmanWebbingForecon
-  name: "розвантаження санітара зразка M3-R"
-  description: "Велика підсумка з кліпсами розвантаження зразка M3-R, призначена для хірургічних інструментів санітарів, прикріплених до підрозділів ФОРЕКОН, де польові госпіталі недоступні."
+  name: M3-R Pattern Corpsman Webbing
+  description: A large pouch with M3-R Pattern webbing clips designed to house surgical tools for Corpsmen attached to FORECON units, where field hospitals are not readily available.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Garb/corpsmanwebbing.rsi
@@ -409,8 +409,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbShotgunShellHolderForecon
-  name: "патронне розвантаження зразка M3-R"
-  description: "Модифікований варіант гранатного розвантаження зразка M3-R для підрозділів ФОРЕКОН; цей варіант приймає 12-й калібр."
+  name: M3-R Pattern Shell Webbing
+  description: A modified variant of the M3-R Pattern grenade webbing for FORECON units, this one accepting 12 gauge.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Garb/shellwebbing.rsi
@@ -425,8 +425,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbGrenadeForecon
-  name: "гранатне розвантаження зразка M3-R"
-  description: "Альтернатива розвантаженню зразка M3-R, пристосована для зберігання гранат M40."
+  name: M3-R Pattern Grenade Webbing
+  description: An alternative to the M3-R Pattern webbing fitted to store M40 grenades.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Garb/grenadewebbing.rsi
@@ -441,8 +441,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ArmorGarbMagazineForecon
-  name: "магазинне розвантаження зразка M3-R"
-  description: "Комплект магазинного розвантаження, виготовлений в альтернативній конфігурації для стандартної броні зразка M3. Цей варіант ексклюзивно видають підрозділам ФОРЕКОН."
+  name: M3-R Pattern Magazine Webbing
+  description: A set of magazine webbing made in an alternative configuration for standard M3 Pattern armor. This one is exclusively issued to Force Reconnoissance units.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USCMC/Garb/magazinewebbing.rsi

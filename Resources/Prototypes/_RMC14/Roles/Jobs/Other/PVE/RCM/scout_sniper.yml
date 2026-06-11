@@ -55,7 +55,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVEScoutSniper
-  name: "спавнер скаут-снайпера RCM"
+  name: RCM scout sniper spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesScoutSniperPVE

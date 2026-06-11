@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobPlatoonCorpsmanBase
   id: AU14JobGOVFORPlatoonCorpsmanCMBCIU
-  name: "Тактичний медик"
+  name: Tactical Medic
   spawnMenuRoleName: Hospital Corpsman (CMBCIU)
   ranks:
     AU14RankCMBSrDeputy:

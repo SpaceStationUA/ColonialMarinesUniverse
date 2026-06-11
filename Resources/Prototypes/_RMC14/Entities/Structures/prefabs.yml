@@ -3,8 +3,8 @@
 - type: entity
   abstract: true
   id: RMCPrefabBase
-  name: "збірна конструкція"
-  description: "Ця конструкція виготовлена з металевих опорних стрижнів та міцного пластику полі-кевлон. Похідне від матеріалу, який використовують у балістичних жилетах ООН, формі КМП США та СПН. Розхитані стіни хитаються від кожного пориву вітру."
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:
@@ -30,8 +30,8 @@
 - type: entity
   abstract: true
   id: RMCPrefabBaseTop
-  name: "збірна конструкція"
-  description: "Ця конструкція виготовлена з металевих опорних стрижнів та міцного пластику полі-кевлон. Похідне від матеріалу, який використовують у балістичних жилетах ООН, формі КМП США та СПН. Розхитані стіни хитаються від кожного пориву вітру."
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:
@@ -135,8 +135,8 @@
 - type: entity
   abstract: true
   id: RMCPrefab32BaseTop
-  name: "збірна конструкція"
-  description: "Ця конструкція виготовлена з металевих опорних стрижнів та міцного пластику полі-кевлон. Похідне від матеріалу, який використовують у балістичних жилетах ООН, формі КМП США та СПН. Розхитані стіни хитаються від кожного пориву вітру."
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   placement:
     mode: SnapgridCenter
   components:
@@ -161,8 +161,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallPrefabOrange
-  name: "збірна конструкція"
-  description: "Ця конструкція виготовлена з металевих опорних стрижнів та міцного пластику полі-кевлон. Похідне від матеріалу, який використовують у балістичних жилетах ООН, формі КМП США та СПН. Розхитані стіни хитаються від кожного пориву вітру."
+  name: prefabricated structure
+  description: This structure is made of metal support rods and robust poly-kevlon plastics. A derivative of the stuff used in UN ballistics vests, USCMC and UPP uniforms. The loose walls roll with each gust of wind.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/prefab_tileset.rsi
@@ -293,8 +293,8 @@
 - type: entity
   abstract: true
   id: RMCPrefabGreebleBase
-  name: "збірна конструкція"
-  description: "Вітропокажчики, кондиціонери, сонячні панелі — оце так!"
+  name: prefabricated structure
+  description: Windsocks, Air-Con units, solarpanels, oh my!
   suffix: Greeble
   placement:
     mode: SnapgridCenter

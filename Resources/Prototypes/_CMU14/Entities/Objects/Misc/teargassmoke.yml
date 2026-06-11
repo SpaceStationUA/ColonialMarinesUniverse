@@ -1,6 +1,6 @@
 - type: entity
   id: CMU14TearGas
-  name: "сльозогінний газ"
+  name: Tear Gas
   #categories: [ HideSpawnMenu ]
   components:
   - type: Transform
@@ -79,7 +79,7 @@
 - type: entity
   id: CMU14InstantTearGas
   parent: CMU14TearGas
-  name: "сльозогінний газ"
+  name: Tear Gas
   components:
   - type: TimedDespawn
     lifetime: 6

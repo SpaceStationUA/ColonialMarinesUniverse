@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItemCabinet
   id: AU14DefibrillatorCabinet
-  name: "шафа ЛайфПак 15"
-  description: "Настінна шафа, призначена для зберігання ЛайфПак 15."
+  name: LifePak 15 Cabinet
+  description: A wall mounted cabinet designed to hold a LifePak 15.
   placement:
     mode: SnapgridCenter
   components:

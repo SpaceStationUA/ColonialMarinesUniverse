@@ -41,7 +41,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPCommando
-  name: "DEATHSQUAD spp привид-роль командо"
+  name: DEATHSQUAD spp ghost role commando
   suffix: Spawner, Player
   components:
   - type: Sprite

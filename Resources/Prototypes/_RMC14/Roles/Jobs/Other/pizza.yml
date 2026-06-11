@@ -30,7 +30,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPizzaDeliveryBoy
-  name: "привид-роль доставщика піци"
+  name: pizza delivery boy ghost role
   suffix: Spawner, Player, Neutral
   components:
   - type: Sprite

@@ -13,7 +13,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicTWEIASF
   id: AU14IASFSurvCommander
-  name: "командир ІЗКС (вцілілий)"
+  name: IASF Commander (Survivor)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

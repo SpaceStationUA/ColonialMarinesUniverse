@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCWeaponBoilgun
-  name: "молодий вариловбий пістолет"
-  description: "Мамо, ти б усе ще нас любила, якби ми були зброєю?"
+  name: young boilgun
+  description: Mother, would you still love us if we were a gun?
   suffix: DO NOT MAP
   components:
   - type: Sprite

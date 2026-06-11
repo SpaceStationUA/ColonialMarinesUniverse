@@ -8,8 +8,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoCrusherBase
-  name: "Розчавлювач"
-  description: "Величезний прибулець з гігантським броньованим гребенем."
+  name: Crusher
+  description: A huge alien with an enormous armored crest.
   components:
   - type: GuideHelp
     guides:

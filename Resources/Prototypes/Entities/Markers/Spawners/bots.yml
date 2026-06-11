@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobMedibot
-  name: "спавнер медиботів"
+  name: medibot spawner
   components:
   - type: Sprite
     layers:
@@ -15,7 +15,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobCleanBot
-  name: "спавнер клінботів"
+  name: cleanbot spawner
   components:
   - type: Sprite
     layers:
@@ -29,7 +29,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobFireBot
-  name: "спавнер пожежних ботів"
+  name: firebot spawner
   components:
   - type: Sprite
     layers:
@@ -43,7 +43,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobSupplyBot
-  name: "спавнер ботів-постачальників"
+  name: supplybot spawner
   components:
   - type: Sprite
     layers:
@@ -57,7 +57,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnMobHonkBot
-  name: "спавнер хонкботів"
+  name: honkbot spawner
   components:
   - type: Sprite
     layers:

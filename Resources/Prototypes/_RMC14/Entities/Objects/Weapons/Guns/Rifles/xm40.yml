@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: "штурмова гвинтівка XM40"
+  name: XM40 assault rifle
   id: RMCWeaponRifleXM40
-  description: "Один з експериментальних попередників лінії M41A, який так і не отримав широкого поширення поза елітними підрозділами морпіхів. З гвинтівок інвентаря КМП США, що досі виробляються, це єдина з вбудованим глушником. Вона приймає магазини M41A MK2, але також має власну фірмову систему магазинів. Надзвичайно смертоносна в режимі черги."
+  description: One of the experimental predecessors to the M41A line that never saw widespread adoption beyond elite marine units. Of the rifles in the USCM inventory that are still in production, this is the only one to feature an integrated suppressor. It can accept M41A MK2 magazines, but also features its own proprietary magazine system. Extremely lethal in burstfire mode.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/xm40.rsi
@@ -92,7 +92,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleXM40AP
-  name: "Бронебійний магазин XM40 (10x24мм)"
+  name: "XM40 AP magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -123,7 +123,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleXM40HEAP
-  name: "Магазин XM40 HEAP (10x24мм)"
+  name: "XM40 HEAP magazine (10x24mm)"
   components:
   - type: Tag
     tags:

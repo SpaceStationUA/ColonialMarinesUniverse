@@ -46,7 +46,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianFoodServiceWorker
-  name: "точка появи працівника харчового сервісу"
+  name: Spawn Point Food Service Worker
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianFoodServiceWorker

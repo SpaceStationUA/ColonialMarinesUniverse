@@ -53,8 +53,8 @@
 - type: entity
   parent: CMCanteenBase
   id: CMCanteen
-  name: "фляга"
-  description: "Ви робите ковток зі своєї надійної фляги морпіха..."
+  name: canteen
+  description: You take a sip from your trusty Marine canteen...
   components:
   - type: Sprite
     state: canteen
@@ -62,8 +62,8 @@
 - type: entity
   parent: CMCanteenBase
   id: CMMetalFlask
-  name: "металева фляга"
-  description: "Металева фляга з пристойною ємністю для рідини."
+  name: metal flask
+  description: A metal flask with a decent liquid capacity.
   suffix: Empty
   components:
   - type: Sprite
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMCanteenBase
   id: CMMarineFlask
-  name: "фляга морпіха"
-  description: "Металева фляга з тисненим логотипом Корпусу морпіхів США, ймовірно, наповнена сумішшю води, моторної оливи та медичного спирту."
+  name: Marine flask
+  description: A metal flask embossed with the United States Marine Corps logo and probably filled with a slurry of water, motor oil, and medicinal alcohol.
   components:
   - type: Sprite
     state: flask_marine
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMCanteenBase
   id: CMWEYAFlask
-  name: "фляга Ві-Я"
-  description: "Металева фляга з тисненим фірмовим логотипом Ві-Ю, яку, ймовірно, замовив якийсь корпоративний підлабузник, щоб мати її в торгових автоматах для фляг військових кораблів UA."
+  name: We-Ya flask
+  description: A metal flask embossed with We-Yu's signature logo that some corporate bootlicker probably ordered to be stocked in UA military vessels' canteen vendors.
   components:
   - type: Sprite
     state: flask_we_ya
@@ -94,8 +94,8 @@
 - type: entity
   parent: [CMCanteenBase, DrinkFlaskVisualsOpenable]
   id: RMCWeYaThermos
-  name: "термос Ві-Я"
-  description: "Гладкий металевий термос, прикрашений у кольорах корпорації Вейланд-Ютані. Маркетинг стверджує, що він витримує силу, еквівалентну ядерному вибуху, але це, мабуть, лише слова піарників."
+  name: We-Ya thermos
+  description: A sleek metal thermos, decorated with the colours of the Weyland-Yutani Corporation. The marketing claims it can withstands equivalent to a nuclear blast, though that's probably just PR talking.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/weya_thermos.rsi

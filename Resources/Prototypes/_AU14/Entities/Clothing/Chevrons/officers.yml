@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronSecondLT
-  name: "шеврон молодшого лейтенанта"
+  name: second lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -17,7 +17,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronFirstLT
-  name: "шеврон лейтенанта"
+  name: first lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronCaptain
-  name: "шеврон капітана"
+  name: captain chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronMajor
-  name: "шеврон майора"
+  name: major chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronLieutenantColonel
-  name: "шеврон підполковника"
+  name: lieutenant colonel chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -83,7 +83,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronColonel
-  name: "шеврон полковника"
+  name: colonel chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronBrigadierGeneral
-  name: "шеврон бригадного генерала"
+  name: brigadier general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCArmbandBase
   id: AU14ChevronMajorGeneral
-  name: "шеврон генерал-майора"
+  name: major general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/officers.rsi
