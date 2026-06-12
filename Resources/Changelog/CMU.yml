@@ -5820,17 +5820,17 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1299
 - author: troytroy400
   changes:
-  - message: Scout sights in special weapon kits have been replaced with NVG visors
-      to be more balanced during HvH.
+  - message: Приціли розвідника в наборах спеціальної зброї замінено на візори нічного
+      бачення для кращого балансу в HvH.
     type: Tweak
-  - message: The M707 Vulture has been buffed and is now worth taking. The amount
-      of setup required to use the weapon effectively should reap benefit. The weapon
-      will now sever limbs pretty much every shot while its fully deployed and does
-      a huge heap of damage to armored targets. The weapon's bullets will fling targets
-      a further distance on impact and its fire rate has been halved.
+  - message: M707 Vulture посилено, і тепер його варто брати. Підготовка, потрібна
+      для ефективного використання зброї, має окупатися. У повністю розкладеному
+      стані зброя тепер відриватиме кінцівки майже кожним пострілом і завдаватиме
+      величезної шкоди броньованим цілям. Кулі зброї відкидатимуть цілі далі під
+      час влучання, а темп стрільби зменшено вдвічі.
     type: Tweak
-  - message: The scout cloak now no longer requires scout armor to be used but is
-      also SLIGHTLY (0.5) more visible.
+  - message: Плащ розвідника більше не потребує броні розвідника для використання,
+      але став ТРОХИ (0.5) помітнішим.
     type: Fix
   id: 254
   time: '2026-06-12T11:19:00.0000000+00:00'
