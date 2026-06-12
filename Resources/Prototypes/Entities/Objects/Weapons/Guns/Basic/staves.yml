@@ -1,10 +1,10 @@
 # To be implemented: see #9072
 
 - type: entity
-  name: staff of healing
+  name: "посох зцілення"
   parent: WeaponStaffBase
   id: WeaponStaffHealing
-  description: You don't foresee having to use this in your quest for carnage too often.
+  description: "Ти не передбачаєш, що доведеться часто користуватися цим у своєму кривавому поході."
   components:
   - type: Sprite
     layers:
@@ -21,10 +21,10 @@
   - type: PacifismAllowedGun
 
 - type: entity
-  name: staff of entrance
+  name: "посох входу"
   parent: WeaponStaffBase
   id: WeaponStaffPolymorphDoor
-  description: For when you need a get-away route.
+  description: "На той випадок, коли тобі потрібен шлях для відступу."
   components:
   - type: Sprite
     layers:

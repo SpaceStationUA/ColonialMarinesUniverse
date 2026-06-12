@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPSpecialist
   name: rmc-job-name-spp-specialist
-  description: rmc-job-description-spp-specialist
+  description: "rmc-job-description-spp-specialist"
   playTimeTracker: CMJobSPPSpecialist
   ranks:
     RMCRankSPPSerzhant: []
@@ -37,7 +37,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPSpecialistHostile
-  name: spp ghost role specialist
+  name: "spp привид-роль спеціаліста"
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -48,7 +48,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPSpecialistFriendly
-  name: spp ghost role specialist
+  name: "spp привид-роль спеціаліста"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

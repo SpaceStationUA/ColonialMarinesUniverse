@@ -1,7 +1,7 @@
 - type: entity
   id: XenoSpikeProjectile
-  name: spike shard
-  description: A sharp spike shard.
+  name: "уламок шипа"
+  description: "Гострий уламок шипа."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Materials/shards.rsi

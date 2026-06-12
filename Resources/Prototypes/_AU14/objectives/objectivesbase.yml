@@ -1,5 +1,5 @@
 - type: entity
-  name: Objective Master
+  name: "керівник цілей"
   parent: MarkerBase
   id: ObjectiveMasterBaseFOF
   components:
@@ -20,7 +20,7 @@
 
 
 - type: entity
-  name: Objective Master
+  name: "керівник цілей"
   parent: MarkerBase
   id: ObjectiveMasterBaseDistress
   components:
@@ -38,8 +38,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesGovfor
-  name: GOVFOR Objectives Console
-  description: Used to check progress on objectives
+  name: "консоль цілей ГОВФОР"
+  description: "Використовується для перевірки прогресу цілей"
   components:
   - type: ObjectivesConsole
     faction: govfor
@@ -57,8 +57,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesScientist
-  name: Scientist Objectives Console
-  description: Used to check progress on scientist objectives
+  name: "консоль цілей науковців"
+  description: "Використовується для перевірки прогресу цілей науковців"
   components:
   - type: ObjectivesConsole
     faction: SCIENTIST
@@ -76,8 +76,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesCLF
-  name: CLF Objectives Console
-  description: Used to check progress on CLF objectives
+  name: "консоль цілей КФВ"
+  description: "Використовується для перевірки прогресу цілей КФВ"
   components:
   - type: Transform
     anchored: false
@@ -111,8 +111,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: ComputerObjectivesOpfor
-  name: OPFOR Objectives Console
-  description: Used to check progress on OPFOR objectives
+  name: "консоль цілей ОПФОР"
+  description: "Використовується для перевірки прогресу цілей ОПФОР"
   components:
   - type: ObjectivesConsole
     faction: opfor

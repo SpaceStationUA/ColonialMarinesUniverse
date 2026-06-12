@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMEntrenchingTool
-  name: entrenching tool
-  description: Used to dig holes and bash heads in. Folds in to fit in small spaces.
+  name: "шанцевий інструмент"
+  description: "Використовується для копання ям і биття по головах. Складається, щоб поміщатися в малих просторах."
   components:
   - type: Tag
     tags:

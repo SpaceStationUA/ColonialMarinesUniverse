@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: M81 Riot grenade launcher
+  name: "поліцейський гранатомет M81"
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: RMCWeaponLauncherM81
-  description: The M81 riot grenade launcher is a single-shot, shoulder-fired, break-action grenade launcher designed for police use with Less-lethal munitions.
+  description: "Поліцейський гранатомет M81 — однозарядний переломний плечовий гранатомет, призначений для поліцейського використання з менш-летальними боєприпасами."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/GrenadeLaunchers/m81.rsi

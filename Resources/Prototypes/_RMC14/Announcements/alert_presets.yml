@@ -1,7 +1,7 @@
 - type: announcementPreset
   id: MarineAlertLevel
-  name: "Evacuation Alert"
-  description: "Alert level announcement styling"
+  name: "Тривога евакуації"
+  description: "Стилізація оголошення рівня тривоги"
   target: All
   visibleInSettings: false
   showSprite: false
@@ -49,8 +49,8 @@
 
 - type: announcementPreset
   id: RedAlertAnimated
-  name: "Red Alert"
-  description: "Animated red alert display"
+  name: "Червона тривога"
+  description: "Анімоване відображення червоної тривоги"
   target: All
   visibleInSettings: false
   showSprite: false

@@ -1,5 +1,5 @@
 - type: entity
-  name: Fetch Ore Objecive
+  name: "ціль добути руду"
   parent: MarkerBase
   id: fetchoreobjective
   components:
@@ -24,7 +24,7 @@
     useanyentity: true
 
 - type: entity
-  name: Fetch BlackBox Objecive Spawn Marker
+  name: "мітка появи цілі отримання чорної скриньки"
   parent: MarkerBase
   id: fetchoreobjectivemarker
   components:
@@ -37,7 +37,7 @@
 
 
 - type: entity
-  name: Fetch Generic Return point Opfor
+  name: "загальна точка повернення ОПФОР"
   parent: MarkerBase
   id: fetchreturnopfor
   components:
@@ -48,7 +48,7 @@
     generic: true
 
 - type: entity
-  name: Fetch Generic Return point Govfor
+  name: "загальна точка повернення ГОВФОР"
   parent: MarkerBase
   id: fetchreturngovfor
   components:
@@ -61,7 +61,7 @@
 
 
 - type: entity
-  name: Fetch crown Objecive
+  name: "здобути корону"
   parent: MarkerBase
   id: fetchcrownobjective
   components:
@@ -87,7 +87,7 @@
     amounttofetch: 1
 
 - type: entity
-  name: Fetch AN/PRC-982 Objecive
+  name: "здобути AN/PRC-982"
   parent: MarkerBase
   id: fetchanprcobjective
   components:
@@ -113,7 +113,7 @@
     amounttofetch: 1
 
 - type: entity
-  name: Fetch CIR-60 Blackbox Objecive
+  name: "здобути чорну скриньку CIR-60"
   parent: MarkerBase
   id: fetchblackboxobjective
   components:
@@ -141,7 +141,7 @@
     useanyentity: true
 
 - type: entity
-  name: Fetch Nuclear Launch Codes Booklet Objecive
+  name: "здобути книжку кодів запуску ядерної зброї"
   parent: MarkerBase
   id: fetchnuclearlaunchcodesobjective
   components:
@@ -168,7 +168,7 @@
     amounttofetch: 1
 
 - type: entity
-  name: Fetch Theater Operations Handbook Objecive
+  name: "здобути довідник операцій театру бойових дій"
   parent: MarkerBase
   id: fetchtheaterhandbookobjective
   components:
@@ -195,7 +195,7 @@
     amounttofetch: 1
 
 - type: entity
-  name: Fetch RCS-9 ARDSU Objecive
+  name: "здобути RCS-9 ARDSU"
   parent: MarkerBase
   id: fetchattmosdatastorageunitobjective
   components:
@@ -222,7 +222,7 @@
     amounttofetch: 2
 
 - type: entity
-  name: Fetch WY Laptop Objecive
+  name: "здобути ноутбук ВЮ"
   parent: MarkerBase
   id: fetchwylaptopobjective
   components:
@@ -251,7 +251,7 @@
     amounttofetch: 1
 
 - type: entity
-  name: Fetch  Generic Spawnpoint
+  name: "загальна точка появи цілі отримання"
   parent: MarkerBase
   id: fetchobjectivemarkergenericspawnpoint
   components:

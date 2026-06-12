@@ -4,14 +4,14 @@
   id: AU14ChevronPAPBase
   abstract: true
   suffix: PAP Chevron
-  description: People's Armed Police rank insignia. Wearing this makes you remember what is the goal of your work. Punch some people as armed police, right?
+  description: "Відзнака звання Народної збройної поліції. Носячи її, ви згадуєте мету своєї роботи. Побити когось як озброєний поліцейський, так?"
 
 # ├──[ Militsiya ]────────────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronPAPBase
   id: AU14ChevronPAPMilitsioner
-  name: militsioner chevron
+  name: "шеврон міліціонера"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronPAPBase
   id: AU14ChevronPAPStarshiyMilitsioner
-  name: senior militsioner chevron
+  name: "шеврон старшого міліціонера"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronPAPBase
   id: AU14ChevronPAPStarshina
-  name: starshina chevron
+  name: "шеврон старшини"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

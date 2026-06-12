@@ -29,8 +29,8 @@
 - type: entity
   parent: AU14BaseStructureDynamicNoAnchor
   id: AU14HESCOBarrier
-  name: HESCO barrier
-  description: A sand filled box designed to stop bullets.
+  name: "бар’єр HESCO"
+  description: "Заповнений піском короб, призначений для зупинки куль."
   components:
   - type: Transform
     anchored: true
