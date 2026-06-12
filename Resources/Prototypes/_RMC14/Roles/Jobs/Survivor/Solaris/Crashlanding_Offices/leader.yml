@@ -84,7 +84,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorCrashlandingOfficesLeader
-  name: special survivor crashlanding offices pmc leader spawn point
+  name: "спавнер pmc-лідера спецаварійних офісів"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorSolarisPMCLeader

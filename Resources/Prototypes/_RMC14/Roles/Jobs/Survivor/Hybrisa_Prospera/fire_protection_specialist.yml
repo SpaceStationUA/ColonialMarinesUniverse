@@ -34,7 +34,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaFireProtectionSpecialist
-  name: hybrisa fire protection specialist spawn point
+  name: "спавнер спеціаліста з пожежної безпеки гібріси"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -46,7 +46,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCGearSurvivorPresetHybrisaFireProtectionSpecialist
-  name: hybrisa fire protection specialist preset
+  name: "пресет спеціаліста з пожежної безпеки гібріси"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

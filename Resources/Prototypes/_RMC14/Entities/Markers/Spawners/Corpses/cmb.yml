@@ -2,7 +2,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseDeputy
-  name: Corpse Spawner - CMB Deputy
+  name: "Спавнер трупа — Помічник CMB"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseDeputy

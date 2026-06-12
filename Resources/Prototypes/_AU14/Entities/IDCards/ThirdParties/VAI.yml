@@ -2,7 +2,7 @@
   parent: CMIDCardBase
   id: AU14IDCardVAIMercenary
   categories: [ HideSpawnMenu ]
-  name: vai contractor ID card
+  name: "iD-карта контрактника Вангардс Ерроу"
   components:
   - type: PresetIdCard
     job: AU14VAIMercenary

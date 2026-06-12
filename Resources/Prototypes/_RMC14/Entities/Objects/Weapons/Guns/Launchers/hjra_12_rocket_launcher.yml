@@ -1,8 +1,8 @@
 - type: entity
-  name: HJRA-12 Handheld Anti-Tank Grenade Launcher
+  name: "Ручний протитанковий гранатомет HJRA-12"
   parent: [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
   id: RMCWeaponLauncherHJRA12
-  description: "The HJRA-12 Handheld Anti-Tank Grenade Launcher is the standard Anti-Armor weapon of the UPP. It is designed to be easy to use and to take out or disable armored vehicles."
+  description: "Ручний протитанковий гранатомет HJRA-12 — стандартна протиброньова зброя СПН. Розроблений простим у використанні, призначений знищувати або виводити з ладу броньовані транспортні засоби."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/RocketLaunchers/hjra12/hjra12_inhands.rsi
@@ -75,9 +75,9 @@
 
 - type: entity
   id: RMCRocketHJRA12AT
-  name: HJRA-12 Anti-Tank Rocket
+  name: "Протитанкова ракета HJRA-12"
   parent: BaseItem
-  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard Anti-Tank rocket designed to disable or destroy hostile vehicles.
+  description: "Ракета для стандартного ручного протитанкового гранатомета СПН HJRA-12. Ця — стандартна протитанкова ракета, призначена виводити з ладу або знищувати ворожі транспортні засоби."
   components:
   - type: Tag
     tags:
@@ -100,9 +100,9 @@
 
 - type: entity
   id: RMCRocketHJRA12HE
-  name: HJRA-12 High-Explosive Rocket
+  name: "Фугасна ракета HJRA-12"
   parent: BaseItem
-  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard high-explosive rocket for use against light vehicles or as an anti-personnel grenade.
+  description: "Ракета для стандартного ручного протитанкового гранатомета СПН HJRA-12. Ця — стандартна фугасна ракета для використання проти легких транспортних засобів або як протипіхотна граната."
   components:
   - type: Tag
     tags:
@@ -125,9 +125,9 @@
 
 - type: entity
   id: RMCRocketHJRA12Incen
-  name: HJRA-12 Extreme-Intensity Incendiary Rocket
+  name: "Запалювальна ракета екстремальної інтенсивності HJRA-12"
   parent: BaseItem
-  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is an extreme-intensity incendiary rocket.
+  description: "Ракета для стандартного ручного протитанкового гранатомета СПН HJRA-12. Ця — запалювальна ракета екстремальної інтенсивності."
   components:
   - type: Tag
     tags:
@@ -154,8 +154,8 @@
   parent: RMCProjectileRocket84mmAntiArmor
   categories: [ HideSpawnMenu ]
   id: RMCProjectileRocketHJRA12AT
-  name: HJRA-12 Anti-Tank Rocket
-  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard Anti-Tank rocket designed to disable or destroy hostile vehicles.
+  name: "Протитанкова ракета HJRA-12"
+  description: "Ракета для стандартного ручного протитанкового гранатомета СПН HJRA-12. Ця — стандартна протитанкова ракета, призначена виводити з ладу або знищувати ворожі транспортні засоби."
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mmAntiArmor
@@ -171,8 +171,8 @@
   parent: RMCProjectileRocket84mm
   categories: [ HideSpawnMenu ]
   id: RMCProjectileRocketHJRA12HE
-  name: HJRA-12 High-Explosive Rocket
-  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is a standard high-explosive rocket for use against light vehicles or as an anti-personnel grenade.
+  name: "Фугасна ракета HJRA-12"
+  description: "Ракета для стандартного ручного протитанкового гранатомета СПН HJRA-12. Ця — стандартна фугасна ракета для використання проти легких транспортних засобів або як протипіхотна граната."
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileRocket84mm
@@ -187,8 +187,8 @@
 - type: entity
   categories: [ HideSpawnMenu ]
   id: RMCProjectileRocketHJRA12Incen
-  name: HJRA-12 Extreme-Intensity Incendiary Rocket
-  description: A rocket for the UPP standard-issue HJRA-12 Handheld Anti-Tank Grenade Launcher. This one is an extreme-intensity incendiary rocket.
+  name: "Запалювальна ракета екстремальної інтенсивності HJRA-12"
+  description: "Ракета для стандартного ручного протитанкового гранатомета СПН HJRA-12. Ця — запалювальна ракета екстремальної інтенсивності."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/Explosives/hjra.rsi

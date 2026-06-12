@@ -1,8 +1,8 @@
 - type: entity
-  name: radio jammer
+  name: "радіоглушник"
   parent: BaseItem
   id: AU14RadioJammer
-  description: This device will disrupt nearby outgoing radio communication, including friendly communications.
+  description: "Цей пристрій порушує вихідний радіозв’язок поблизу, включно з дружнім зв’язком."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/atmos_scanner.rsi

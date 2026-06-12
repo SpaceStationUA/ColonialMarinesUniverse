@@ -2,8 +2,8 @@
 - type: entity
   parent: SeatBase
   id: RMCBenchLeft
-  name: bench
-  description: A metal frame, with seats that are fitted with synthetic leather, they've faded in time.
+  name: "лавка"
+  description: "Металевий каркас із сидіннями зі штучної шкіри, які з часом вицвіли."
   suffix: Left
   placement:
     mode: SnapgridCenter

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCPinpointerBase
-  name: Pinpointer
-  description: A rugged military-grade tracking device. Changes colors based on the distance from the target. Keep upright to retain accuracy.
+  name: "Пінпойнтер"
+  description: "Міцний пристрій відстеження військового класу. Змінює кольори залежно від відстані до цілі. Тримай вертикально, щоб зберегти точність."
   suffix: RMC
   abstract: true
   components:

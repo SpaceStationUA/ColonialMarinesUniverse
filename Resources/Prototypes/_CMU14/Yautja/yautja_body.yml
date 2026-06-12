@@ -1,6 +1,6 @@
 - type: body
   id: CMUYautjaBody
-  name: "yautja"
+  name: "яутжа"
   root: torso
   slots:
     head:
@@ -50,7 +50,7 @@
 
 - type: entity
   id: LeftLegYautja
-  name: "left yautja leg"
+  name: "ліва нога яутжа"
   parent: CMUPartHumanLeftLeg
   components:
   - type: Sprite
@@ -62,7 +62,7 @@
 
 - type: entity
   id: RightLegYautja
-  name: "right yautja leg"
+  name: "права нога яутжа"
   parent: CMUPartHumanRightLeg
   components:
   - type: Sprite

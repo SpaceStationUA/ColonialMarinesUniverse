@@ -1,6 +1,6 @@
 - type: species
   id: WorkingJoe
-  name: species-name-workingjoe
+  name: "species-name-workingjoe"
   roundStart: false
   prototype: AU14MobWorkingJoe
   sprites: MobWorkingJoeSprites
