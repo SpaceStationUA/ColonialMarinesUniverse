@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14UPPArmor
-  name: "персональна броня UM5"
-  description: "Комплект броні Союзу прогресивних народів."
+  name: UM5 personal armor
+  description: A set of Union of Progressive Peoples armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/uppstandardarmor.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14UPPArmorMinimalistic
-  name: "персональна броня UL6"
-  description: "Комплект мінімалістичної броні Союзу прогресивних народів. Ця пара досить мала порівняно зі стандартною і забезпечує менший захист."
+  name: UL6 personal armor
+  description: A set of Minimalistic Union of Progressive Peoples armor. This pair is quite small compared to the standard, and will provide less protection.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/upplightarmor.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14UPPArmorBulky
-  name: "важка пластинчаста броня UH7"
-  description: "Комплект доволі громіздкої броні Союзу прогресивних народів."
+  name: UH7 heavy plated armor
+  description: A set of quite bulky Union of Progressive Peoples armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/upplargearmor.rsi
@@ -28,9 +28,9 @@
 - type: entity
   parent: [ RMCAllowSuitStorageClothingSmartgunner, AU14BaseArmor ]
   id: AU14ArmorSmartGunDesertCombatHarnessUPP
-  name: "броньована упряж автоматичного кулемета RVS-37"
+  name: RVS-37 armoured automated machinegun harness
   suffix: AU14
-  description: "Упряж, спеціально виготовлена для автоматичного кулемета RVS-37."
+  description: Harness harness specially made for RVS-37 automated machinegun.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/UPP/armor/upplargearmor.rsi
@@ -50,8 +50,8 @@
   parent: AU14BaseArmorVest
   id: AU14ArmorArmyUPP
   suffix: AU14
-  name: "персональна броня 6B80"
-  description: "Стара система персональної броні УПП, яку відтоді замінила стандартна армійська броня УПП 6B90. Її досі використовують окремі підрозділи армії УПП, від яких УПП не очікує значних боїв."
+  name: 6B80 personal armor
+  description: An older UPP personal armor system that's since been replaced by the UPP Army Standard 6B90 body armor. It is still used by certain UPP Army units that the UPP doesn't expect to see much combat.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/SPP/army.rsi
@@ -61,17 +61,17 @@
 - type: entity
   parent: RMCCoatSPP
   id: AU14CoatUPP
-  name: "офіцерська куртка UL4"
-  description: "Легка куртка, яку видають офіцерам війська УПП. Трохи захищає від вхідних пошкоджень, однак краще носити повноцінну броню."
+  name: UL4 officer jacket
+  description: A lightweight jacket, issued to officers of the UPP's military. Slightly protective from incoming damage, best off with proper armor however.
 
 - type: entity
   parent: RMCCoatSPPSenior
   id: AU14CoatUPPSenior
-  name: "куртка старшого офіцера UL4"
-  description: "Легка куртка, яку видають старшим офіцерам війська УПП. Виготовлена з високоякісних матеріалів, аж до нанесених на плечі й перед куртки звань та знаків розрізнення Капітана і його роти. Трохи захищає від вхідних пошкоджень, однак краще носити повноцінну броню."
+  name: UL4 senior officer jacket
+  description: A lightweight jacket, issued to senior officers of the UPP's military. Made of high-quality materials, even going as far as having the ranks and insignia of the Kapitan and their Company emblazoned on the shoulders and front of the jacket. Slightly protective from incoming damage, best off with proper armor however.
 
 - type: entity
   parent: RMCCoatSPPMP
   id: AU14CoatUPPMP
-  name: "камуфльована куртка UL4"
-  description: "Легка куртка, яку видають військам, коли від них не очікують участі в бою. Вона все ще вщерть усіяна кевларовими пластинами, хоча конструкція із синтетичної нитки знижує її ефективність."
+  name: UL4 camouflaged jacket
+  description: A lightweight jacket, issued to troops when they're not expected to engage in combat. Still studded to the brim with kevlar shards, though the synthread construction reduces its effectiveness.

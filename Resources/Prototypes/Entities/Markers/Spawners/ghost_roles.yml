@@ -2,7 +2,7 @@
   abstract: true
   parent: MarkerBase
   id: BaseAntagSpawner
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   components:
   - type: GhostRole
     raffle:
@@ -11,7 +11,7 @@
 
 - type: entity
   id: SpawnPointGhostRatKing
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: rat king
   parent: MarkerBase
   components:
@@ -34,7 +34,7 @@
 
 - type: entity
   id: SpawnPointGhostRemilia
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: Remilia
   parent: MarkerBase
   components:
@@ -57,7 +57,7 @@
 
 - type: entity
   id: SpawnPointGhostCerberus
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: cerberus
   parent: MarkerBase
   components:
@@ -81,7 +81,7 @@
 - type: entity
   categories: [ HideSpawnMenu, Spawner ]
   id: SpawnPointGhostNukeOperative
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: nukeops
   parent: MarkerBase
   components:
@@ -233,7 +233,7 @@
   categories: [ HideSpawnMenu, Spawner ]
   parent: BaseAntagSpawner
   id: SpawnPointGhostWizard
-  name: "точка спавну примарної ролі"
+  name: ghost role spawn point
   suffix: wizard
   components:
   - type: GhostRole

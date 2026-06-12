@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseMobSpeciesOrganic
   id: CMTestDummy
-  name: "тестовий манекен"
+  name: test dummy
   suffix: RMC14
   components:
   - type: Marine
@@ -11,7 +11,7 @@
 - type: entity
   parent: MarkerBase
   id: SpawnCMTestDummy
-  name: "Спавнер тестового манекена RMC"
+  name: RMC Test Dummy Spawner
   suffix: DEBUG
   components:
   - type: Sprite

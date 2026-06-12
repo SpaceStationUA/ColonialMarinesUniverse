@@ -34,7 +34,7 @@
     
 - type: entity
   id: RMCGearSurvivorPresetPara
-  name: "пресет para"
+  name: para preset
   categories: [ HideSpawnMenu ]
   components:
     - type: EntityPreset

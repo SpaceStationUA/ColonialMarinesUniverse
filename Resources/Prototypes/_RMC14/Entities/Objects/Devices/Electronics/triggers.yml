@@ -1,8 +1,8 @@
 - type: entity
   parent: TimerTrigger
   id: RMCTimerTrigger
-  name: "таймер"
-  description: "Використовується для відліку часу. Чудово підходить для пристроїв, що мають відраховувати. Тік-так."
+  name: timer
+  description: Used to time things. Works well with contraptions which has to count down. Tick tock.
   suffix: RMC
   components:
   - type: Sprite

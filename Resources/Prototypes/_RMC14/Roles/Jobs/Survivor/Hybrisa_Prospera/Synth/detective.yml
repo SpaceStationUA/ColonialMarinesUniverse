@@ -72,7 +72,7 @@
 
 - type: entity
   id: RMCSurvivorPresetHybrisaSynthDetective
-  name: "пресет вцілілого синтетика-детектива гібріси"
+  name: survivor synth hybrisa detective colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

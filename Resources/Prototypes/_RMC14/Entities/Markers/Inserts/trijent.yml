@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentGreenBridge
-  name: "Новий міст через Зелену річку"
+  name: Green River New Bridge
   suffix: Insert Trijent
   components:
   - type: MapInsert
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentPurpleBridge
-  name: "Новий міст через Пурпурову річку"
+  name: Purple River New Bridge
   suffix: Insert Trijent
   components:
   - type: MapInsert
@@ -36,7 +36,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentCaveInEngineering
-  name: "Печера в Інженерному"
+  name: Cave in Engineering
   suffix: Insert Trijent
   components:
   - type: MapInsert
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentTempleIntact
-  name: "Цілий храм"
+  name: Temple Intact
   suffix: Insert Trijent
   components:
   - type: MapInsert
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentShipGone
-  name: "Корабля немає"
+  name: Ship Gone
   suffix: Insert Trijent
   components:
   - type: MapInsert
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentCLFPods
-  name: "Капсули CLF"
+  name: CLF Pods
   suffix: Insert Trijent
   components:
   - type: MapInsert
@@ -84,7 +84,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentCrashlandingSPPBar
-  name: "Аварійна посадка — Бар UPP"
+  name: Crashlanding UPP Bar
   suffix: Insert Trijent
   components:
   - type: MapInsert
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCMapInsertTrijentBase
   id: RMCMapInsertTrijentMiniEvacWestResearch
-  name: "Мініевак Західного Дослідницького"
+  name: Mini-evac West Research
   suffix: Insert Trijent
   components:
   - type: MapInsert

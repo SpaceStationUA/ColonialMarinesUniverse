@@ -1,6 +1,6 @@
 - type: entity
   id: BaseMagazinePistol
-  name: "пістолетний магазин (.35 auto)"
+  name: pistol magazine (.35 auto)
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -33,7 +33,7 @@
 
 - type: entity
   id: BaseMagazinePistolHighCapacity
-  name: "магазин для пістолета-кулемета (.35 auto)"
+  name: machine pistol magazine (.35 auto)
   parent: BaseItem
   abstract: true
   components:
@@ -66,7 +66,7 @@
 
 - type: entity
   id: BaseMagazinePistolSubMachineGun  # Yeah it's weird but it's pistol caliber
-  name: "магазин для ПК (.35 авто)"
+  name: SMG magazine (.35 auto)
   parent: [ BaseItem, BaseSecurityContraband ]
   abstract: true
   components:
@@ -99,9 +99,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMounted
-  name: "магазин WT550 (.35 авто верхнє кріплення)"
+  name: WT550 magazine (.35 auto top-mounted)
   parent: [ BaseItem, BaseSecurityContraband ]
-  description: "Незвичайний 30-зарядний магазин з верхньою подачею для пістолета-кулемета WT550. Призначений для кінетичних боєприпасів загального призначення."
+  description: Unconventional 30-round top feeding magazine for the WT550 SMG. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: Tag
     tags:
@@ -131,18 +131,18 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunTopMountedEmpty
-  name: "магазин WT550 (.35 авто верхнє кріплення будь-який)"
+  name: WT550 magazine (.35 auto top-mounted any)
   parent: MagazinePistolSubMachineGunTopMounted
-  description: "Незвичайний 30-зарядний магазин з верхньою подачею для пістолета-кулемета WT550."
+  description: Unconventional 30-round top feeding magazine for the WT550 SMG.
   components:
   - type: BallisticAmmoProvider
     proto: null
 
 - type: entity
   id: MagazinePistol
-  name: "пістолетний магазин (.35 auto)"
+  name: pistol magazine (.35 auto)
   parent: BaseMagazinePistol
-  description: "10-зарядний однорядний магазин для пістолетів. Призначений для зберігання кінетичних набоїв загального призначення."
+  description: 10-round single-stack magazine for pistols. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -161,10 +161,10 @@
 
 - type: entity
   id: MagazinePistolEmpty
-  name: "пістолетний магазин (.35 auto any)"
+  name: pistol magazine (.35 auto any)
   suffix: empty
   parent: MagazinePistol
-  description: "10-зарядний однорядний магазин для пістолетів."
+  description: 10-round single-stack magazine for pistols.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -183,9 +183,9 @@
 
 - type: entity
   id: MagazinePistolIncendiary
-  name: "пістолетний магазин (.35 auto incendiary)"
+  name: pistol magazine (.35 auto incendiary)
   parent: MagazinePistol
-  description: "10-зарядний однорядний магазин для пістолетів. Призначений для зберігання самозаймистих запалювальних набоїв."
+  description: 10-round single-stack magazine for pistols. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary
@@ -210,9 +210,9 @@
 
 - type: entity
   id: MagazinePistolPractice
-  name: "пістолетний магазин (.35 auto practice)"
+  name: pistol magazine (.35 auto practice)
   parent: BaseMagazinePistol
-  description: "10-зарядний однорядний магазин для пістолетів. Призначений для зберігання нешкідливих крейдяних набоїв."
+  description: 10-round single-stack magazine for pistols. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -237,9 +237,9 @@
 
 - type: entity
   id: MagazinePistolUranium
-  name: "пістолетний магазин (.35 auto uranium)"
+  name: pistol magazine (.35 auto uranium)
   parent: BaseMagazinePistol
-  description: "10-зарядний однорядний магазин для пістолетів. Призначений для зберігання екзотичних набоїв з урановим осердям."
+  description: 10-round single-stack magazine for pistols. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -264,7 +264,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityEmpty
-  name: "магазин для автоматичного пістолета (.35 auto будь-який)"
+  name: machine pistol magazine (.35 auto any)
   suffix: empty
   parent: BaseMagazinePistolHighCapacity
   components:
@@ -285,7 +285,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacity
-  name: "магазин для пістолета-кулемета (.35 auto)"
+  name: machine pistol magazine (.35 auto)
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -305,7 +305,7 @@
 
 - type: entity
   id: MagazinePistolHighCapacityPractice
-  name: "магазин для пістолета-кулемета (.35 auto practice)"
+  name: machine pistol magazine (.35 auto practice)
   parent: BaseMagazinePistolHighCapacity
   components:
   - type: BallisticAmmoProvider
@@ -331,9 +331,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGun
-  name: "магазин для ПК (.35 авто)"
+  name: SMG magazine (.35 auto)
   parent: BaseMagazinePistolSubMachineGun
-  description: "30-зарядний дворядний магазин для пістолетів-кулеметів. Призначений для кінетичних боєприпасів загального призначення."
+  description: 30-round double-stack magazine for submachine guns. Intended to hold general-purpose kinetic ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistol
@@ -357,10 +357,10 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunEmpty
-  name: "магазин для ПК (.35 авто будь-який)"
+  name: SMG magazine (.35 auto any)
   suffix: empty
   parent: BaseMagazinePistolSubMachineGun
-  description: "30-зарядний дворядний магазин для пістолетів-кулеметів."
+  description: 30-round double-stack magazine for submachine guns.
   components:
   - type: BallisticAmmoProvider
     proto: null
@@ -379,9 +379,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunPractice
-  name: "магазин для ПК (.35 авто тренувальний)"
+  name: SMG magazine (.35 auto practice)
   parent: BaseMagazinePistolSubMachineGun
-  description: "30-зарядний дворядний магазин для пістолетів-кулеметів. Призначений для безпечних крейдяних боєприпасів."
+  description: 30-round double-stack magazine for submachine guns. Intended to hold non-harmful chalk ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolPractice
@@ -406,9 +406,9 @@
 
 - type: entity
   id: MagazinePistolSubMachineGunUranium
-  name: "магазин для ПК (.35 авто урановий)"
+  name: SMG magazine (.35 auto uranium)
   parent: BaseMagazinePistolSubMachineGun
-  description: "30-зарядний дворядний магазин для пістолетів-кулеметів. Призначений для екзотичних боєприпасів з урановим осердям."
+  description: 30-round double-stack magazine for submachine guns. Intended to hold exotic uranium-core ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolUranium
@@ -434,8 +434,8 @@
 - type: entity
   parent: BaseMagazinePistolSubMachineGun
   id: MagazinePistolSubMachineGunIncendiary
-  name: "магазин для ПК (.35 авто запалювальний)"
-  description: "30-зарядний дворядний магазин для пістолетів-кулеметів. Призначений для самозаймистих запалювальних боєприпасів."
+  name: SMG magazine (.35 auto incendiary)
+  description: 30-round double-stack magazine for submachine guns. Intended to hold self-igniting incendiary ammunition.
   components:
   - type: BallisticAmmoProvider
     proto: CartridgePistolIncendiary

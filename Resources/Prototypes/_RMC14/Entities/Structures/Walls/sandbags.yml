@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBarricadeBase
   id: CMBarricadeSandbag
-  name: "барикада з мішків з піском"
-  description: "Імпровізована барикада з піску, набраного з землі. Її важко знести, але легко прошити наскрізь."
+  name: sandbag barricade
+  description: A makeshift barricade made out of the sand from the ground. Tough to beat but easy to pierce.
   components:
   - type: BarricadeSandbag
   - type: Climbable
@@ -80,8 +80,8 @@
 - type: entity
   parent: BaseItem
   id: CMSandbagEmpty
-  name: "порожні мішки з-під піску"
-  description: "Кілька порожніх мішків з-під піску. Краще наповни їх, якщо хочеш використати."
+  name: empty sandbags
+  description: Some empty sandbags, best to fill them up if you want to use them.
   components:
   - type: Item
     sprite: _RMC14/Objects/Misc/sandbags.rsi
@@ -136,8 +136,8 @@
 - type: entity
   parent: BaseItem
   id: CMSandbagFull
-  name: "мішки з піском"
-  description: "Кілька мішків, наповнених піском. Поки що просто громіздкі, але незабаром підуть на укріплення."
+  name: sandbags
+  description: Some bags filled with sand. For now, just cumbersome, but soon to be used for fortifications.
   components:
   - type: Item
     sprite: _RMC14/Objects/Misc/sandbags.rsi
@@ -195,13 +195,13 @@
 
 - type: stack
   id: CMSandbagEmpty
-  name: "порожні мішки з-під піску"
+  name: empty sandbags
   spawn: CMSandbagEmpty
   maxCount: 50
 
 - type: stack
   id: CMSandbagFull
-  name: "порожні мішки з-під піску"
+  name: empty sandbags
   spawn: CMSandbagFull
   maxCount: 50
 

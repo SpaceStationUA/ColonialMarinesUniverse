@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaGA
-  name: "Золота Стріла"
+  name: Golden Arrow
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -28,7 +28,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAHypersleepStorageA
-  name: "Склад гіперсну A"
+  name: Hypersleep Storage A
   components:
   - type: Sprite
     state: medical
@@ -36,22 +36,22 @@
 - type: entity
   parent: RMCAreaGAHypersleepStorageA
   id: RMCAreaGAHypersleepStorageB
-  name: "Склад гіперсну B"
+  name: Hypersleep Storage B
 
 - type: entity
   parent: RMCAreaGAHypersleepStorageA
   id: RMCAreaGAHypersleepStorageC
-  name: "Склад гіперсну C"
+  name: Hypersleep Storage C
 
 - type: entity
   parent: RMCAreaGAHypersleepStorageA
   id: RMCAreaGAHypersleepStorageD
-  name: "Склад гіперсну D"
+  name: Hypersleep Storage D
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAHypersleepGearLockers
-  name: "Шафки спорядження гіперсну"
+  name: Hypersleep Gear Lockers
   components:
   - type: Sprite
     state: derelictship
@@ -59,17 +59,17 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAMessHall
-  name: "Їдальня"
+  name: Mess Hall
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGABathroom
-  name: "Туалет"
+  name: Bathroom
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGADisposals
-  name: "Утилізація"
+  name: Disposals
   components:
   - type: Sprite
     state: recycling
@@ -77,7 +77,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAMedical
-  name: "Медичний"
+  name: Medical
   components:
   - type: Sprite
     state: medical
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGABriefRoom
-  name: "Кімната брифінгу"
+  name: Briefing Room
   components:
   - type: Sprite
     state: caves_central
@@ -93,17 +93,17 @@
 - type: entity
   parent: RMCAreaGABriefRoom
   id: RMCAreaGACommandDeck
-  name: "Командна палуба взводу"
+  name: Platoon Command Deck
 
 - type: entity
   parent: RMCAreaGABriefRoom
   id: RMCAreaGACommandRooms
-  name: "Командні кімнати взводу"
+  name: Platoon Command Rooms
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAPrep
-  name: "Підготовка взводу"
+  name: Platoon Prep
   components:
   - type: Sprite
     state: security_hub
@@ -111,12 +111,12 @@
 - type: entity
   parent: RMCAreaGAPrep
   id: RMCAreaGAArmoury
-  name: "Збройова взводу"
+  name: Platoon Armoury
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAHangar
-  name: "Ангар"
+  name: Hangar
   components:
   - type: Sprite
     state: lz
@@ -124,7 +124,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGASupply
-  name: "Постачання"
+  name: Supply
   components:
   - type: Sprite
     state: maints
@@ -132,12 +132,12 @@
 - type: entity
   parent: RMCAreaGASupply
   id: RMCAreaGAMaint
-  name: "Обслуговування"
+  name: Maintenance
 
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAEngineering
-  name: "Інженерний"
+  name: Engineering
   components:
   - type: Sprite
     state: power0
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGASynth
-  name: "Шафа синтетика"
+  name: Synthetic Storage Closet
   components:
   - type: Sprite
     state: synthetic
@@ -153,7 +153,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAAI
-  name: "Інтерфейс ШІ"
+  name: AI Interface
   components:
   - type: Sprite
     state: wylab
@@ -161,7 +161,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGALiaisonOffice
-  name: "Офіс лізона"
+  name: Liaison Office
   components:
   - type: Sprite
     state: wyoffice
@@ -169,7 +169,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGASupplyDrop
-  name: "Відсік скидання постачання"
+  name: Supply Drop Bay
   components:
   - type: Sprite
     state: wyspaceportcargo
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCAreaGA
   id: RMCAreaGAOOB
-  name: "Поза межами"
+  name: Out Of Bounds
   components:
   - type: Sprite
     state: oob

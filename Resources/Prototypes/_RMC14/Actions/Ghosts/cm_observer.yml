@@ -1,7 +1,7 @@
 - type: entity
   id: ActionToggleMarineHud
-  name: "Перемкнути HUD Морпіхів"
-  description: "Перемкнути іконки морпіхів."
+  name: Toggle Marine Hud
+  description: Toggle marine icons.
   components:
   - type: Action
     checkCanInteract: false
@@ -16,8 +16,8 @@
 
 - type: entity
   id: ActionToggleXenoHud
-  name: "Перемкнути HUD Ксенів"
-  description: "Перемкнути смужки здоров'я та плазми ксенів."
+  name: Toggle Xeno Hud
+  description: Toggle xeno health and plasma bars.
   components:
   - type: Action
     checkCanInteract: false
@@ -32,8 +32,8 @@
 
 - type: entity
   id: ActionFindParasite
-  name: "Знайти Паразита"
-  description: "Знайти паразитів з можливістю взяти роль"
+  name: Find Parasite
+  description: Find Ghostrolable Parasites
   components:
   - type: Action
     checkCanInteract: false
@@ -45,8 +45,8 @@
 
 - type: entity
   id: ActionJoinXeno
-  name: "Приєднатися як Ксено"
-  description: "Знайти закопану личинку, щоб приєднатися."
+  name: Join as Xeno
+  description: Find burrowed larva to join as.
   components:
   - type: Action
     checkCanInteract: false
@@ -59,8 +59,8 @@
 
 - type: entity
   id: ActionToggleVisibility
-  name: "Перемкнути видимість"
-  description: "Перемикає вашу видимість. Поки ви невидимі, ваш друг усе одно чує те, що ви говорите."
+  name: Toggle Visibility
+  description: Toggles your visibility, while you're invisible your friend can still hear what you say.
   components:
   - type: Action
     checkCanInteract: false
@@ -75,8 +75,8 @@
 
 - type: entity
   id: ActionStopBeingFriends
-  name: "Покинути друга"
-  description: "Перестаньте бути уявним другом."
+  name: Leave Friend
+  description: Stop being an imaginary friend.
   components:
   - type: Action
     checkCanInteract: false

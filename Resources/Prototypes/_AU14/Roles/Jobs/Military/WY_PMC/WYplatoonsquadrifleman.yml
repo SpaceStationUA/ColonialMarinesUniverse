@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadRiflemanBase
   id: AU14JobGOVFORSquadRiflemanWYPMC
-  name: "Контрактник ПВК"
+  name: PMC Contractor
   spawnMenuRoleName: Rifleman (WYPMC)
   ranks:
     AU14RankWeYuSeniorOperator:

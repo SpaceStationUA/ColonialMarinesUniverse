@@ -36,7 +36,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCLF
   id: AU14CLFSurvFighter
-  name: "Боєць ФВК (виживший)"
+  name: CLF Fighter (Survivor)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -54,7 +54,7 @@
 
 - type: entity
   id: AU14CLFSurvFighterPreset
-  name: "пресет вижившого бійця ФВК"
+  name: clf surv fighter preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
