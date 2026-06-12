@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechBase
   id: VehicleAPCSupplyVendor
-  name: "автоматизований постачальний автомат КолМарТех"
-  description: "Автоматизована стійка постачання для екіпажів БТР."
+  name: ColMarTech automated supply vendor
+  description: An automated supply rack for APC crews.
   components:
   - type: ApcPowerReceiver
     powerLoad: 0

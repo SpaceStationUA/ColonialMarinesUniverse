@@ -1,8 +1,8 @@
 - type: entity
-  name: "людська мішень"
+  name: human target
   id: RMCTargetHuman
   parent: BaseStructureDynamic
-  description: "Стрілецька мішень. Ця — Людина."
+  description: A shooting target. This one is a Human.
   suffix: RMC
   components:
   - type: Sprite
@@ -80,10 +80,10 @@
   - type: CanBeFirePatted
 
 - type: entity
-  name: "ксеноїдна мішень"
+  name: xenonid target
   id: RMCTargetXeno
   parent: RMCTargetHuman
-  description: "Стрілецька мішень. Ця — ксеноїд."
+  description: A shooting target. This one is a xenonid.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/target.rsi
@@ -92,38 +92,38 @@
 - type: entity
   id: RMCTargetArmored
   parent: RMCTargetHuman
-  name: "стрілецька мішень"
-  description: "Стрілецька мішень. Ця — броньована людина."
+  name: shooting target
+  description: A shooting target. This one is an armored human.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/target.rsi
     state: target_a
 
 - type: entity
-  name: "мішень синдикату"
+  name: syndicate target
   id: RMCTargetSyndicate
   parent: RMCTargetHuman
-  description: "Мішень для стрільби. Це агент синдикату."
+  description: A shooting target. This one is a syndicate agent.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
     state: target_s
 
 - type: entity
-  name: "мішень клоуна"
+  name: clown target
   id: RMCTargetClown
   parent: RMCTargetHuman
-  description: "Мішень для стрільби. Це клоун."
+  description: A shooting target. This one is a clown.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi
     state: target_c
 
 - type: entity
-  name: "кошачья мішень"
+  name: felinid target
   id: RMCTargetStrange
   parent: RMCTargetHuman
-  description: "Стрілецька мішень. Ти не зовсім впевнений, що це таке, але вона здається особливо міцною."
+  description: A shooting target. You aren't quite sure what this one is, but it seems to be extra robust.
   components:
   - type: Sprite
     sprite: Objects/Specific/Security/target.rsi

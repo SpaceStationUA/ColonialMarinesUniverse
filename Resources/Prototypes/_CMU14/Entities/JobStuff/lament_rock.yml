@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWall
   id: CMUWallMineableLV376
-  name: "крихкий камінь"
-  description: "Ця ділянка скелі здається крихкою. Кірка з нею легко впорається. Бий по землі!"
+  name: fragile rock
+  description: This section of rock seems fragile. A pickaxe could do away with it easily. Strike the earth!
   suffix: Mining, Barren
   components:
   - type: Sprite
@@ -39,8 +39,8 @@
 - type: entity
   parent: CMUWallMineableLV376
   id: CMUWallMineableLV376Steel
-  name: "високопробне родовище магнетиту"
-  description: "Ваші шахтарські зусилля не були марними, ви натрапили на золот... — е, на залізо!"
+  name: high grade magnetite deposit
+  description: Your mining efforts were not in vain, you have struck gold- er, iron!
   suffix: Mining, Steel
   components:
   - type: Sprite

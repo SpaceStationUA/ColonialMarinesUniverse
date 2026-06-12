@@ -472,45 +472,45 @@
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health0
-  name: "Дебаг 1"
-  description: "Дебаг"
+  name: Debug1
+  description: Debug
 
 - type: alert
   id: Debug2
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health1
-  name: "Дебаг 2"
-  description: "Дебаг"
+  name: Debug2
+  description: Debug
 
 - type: alert
   id: Debug3
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health2
-  name: "Дебаг 3"
-  description: "Дебаг"
+  name: Debug3
+  description: Debug
 
 - type: alert
   id: Debug4
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health3
-  name: "Дебаг 4"
-  description: "Дебаг"
+  name: Debug4
+  description: Debug
 
 - type: alert
   id: Debug5
   icons:
   - sprite: /Textures/Interface/Alerts/human_alive.rsi
     state: health4
-  name: "Дебаг 5"
-  description: "Дебаг"
+  name: Debug5
+  description: Debug
 
 - type: alert
   id: Debug6
   icons:
   - sprite: /Textures/Interface/Alerts/human_critical.rsi
     state: critical
-  name: "Дебаг 6"
-  description: "Дебаг"
+  name: Debug6
+  description: Debug

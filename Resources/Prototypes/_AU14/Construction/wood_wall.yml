@@ -1,12 +1,12 @@
 - type: construction
   parent: RMC
-  name: "Дерев'яна стіна"
+  name: Wooden Wall
   id: AU14WoodWall
   graph: AU14WoodWallGraph
   startNode: start
   targetNode: woodWall
   category: construction-category-cm-structures
-  description: "Стіна, збудована з дерев'яних дощок. Ефективна, але легкозаймиста."
+  description: A wall built from wooden planks. Effective but flammable.
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: false

@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCGunnerPVE
-  name: "спавнер стрільця weya pmc"
+  name: weya pmc gunner spawn point
   suffix: PVE
   components:
   - type: SpawnPoint

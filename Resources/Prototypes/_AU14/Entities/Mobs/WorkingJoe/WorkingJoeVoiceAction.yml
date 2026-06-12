@@ -1,6 +1,6 @@
 - type: entity
   id: ActionWorkingJoeVoice
-  name: "Синтезатор голосу"
+  name: Voice Synthesizer
   components:
   - type: Action
     icon:

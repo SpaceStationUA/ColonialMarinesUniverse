@@ -1,4 +1,4 @@
 - type: accessLevel
   id: RMCAccessLogs
   parent: RMCBaseARESAccess
-  name: "Журнали АРЕС"
+  name: ARES Logs

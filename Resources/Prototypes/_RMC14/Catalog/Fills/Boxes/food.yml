@@ -1,8 +1,8 @@
 - type: entity
-  name: "надлишкова коробка інгредієнтів"
+  name: surplus box of ingredients
   parent: RMCBoxCardboard
   id: RMCBoxIngredients
-  description: "Ця коробка містить інгредієнти."
+  description: This box contains ingredients.
   components:
   - type: StorageFill # TODO RMC14 add ingredients
     contents:
@@ -17,8 +17,8 @@
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxDonkpockets
-  name: "коробка донк-покетів"
-  description: "Інструкція: розігрійте в мікрохвильовій печі. Продукт охолоне, якщо не з'їсти його протягом семи хвилин."
+  name: box of donk-pockets
+  description: "Instructions: Heat in microwave. Product will cool if not eaten within seven minutes."
   components:
   - type: Storage
     whitelist:

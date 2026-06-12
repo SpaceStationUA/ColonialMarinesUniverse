@@ -4,14 +4,14 @@
   id: AU14ChevronVASCBase
   abstract: true
   suffix: VAI Chevron
-  description: "Відзнака звання приватної військової компанії ВАІ. Агент з адаптації сказав, що ви радше сядете на неї, ніж носитимете, з огляду на всю таємну хрінь, якою ви займаєтеся."
+  description: VAI private military company rank insignia. The onboarding agent told you you're more likely to sit on this than wear it, on account of all the covert shit you do.
 
 # ├──[ Mercenary Line ]──────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronVASCBase
   id: AU14ChevronVASCMercenary
-  name: "шеврон найманця ВАСК"
+  name: vasc mercenary chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronVASCBase
   id: AU14ChevronVASCTeamLeader
-  name: "шеврон лідера команди ВАСК"
+  name: vasc team leader chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronVASCBase
   id: AU14ChevronVASCMachinegunner
-  name: "шеврон кулеметника ВАСК"
+  name: vasc machinegunner chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: AU14ChevronVASCBase
   id: AU14ChevronVASCEngineer
-  name: "шеврон інженерного спеціаліста ВАСК"
+  name: vasc engineering specialist chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: AU14ChevronVASCBase
   id: AU14ChevronVASCMedicalSpecialist
-  name: "шеврон медичного спеціаліста ВАСК"
+  name: vasc medical specialist chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -91,7 +91,7 @@
 - type: entity
   parent: AU14ChevronVASCBase
   id: AU14ChevronVASCSynthetic
-  name: "шеврон синтетика ВАСК"
+  name: vasc synthetic chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
