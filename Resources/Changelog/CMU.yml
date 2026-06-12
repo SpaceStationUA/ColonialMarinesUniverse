@@ -5835,5 +5835,100 @@
   id: 254
   time: '2026-06-12T11:19:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1300
+- author: basementoWasntAvailable
+  changes:
+  - message: '? та ! знову перетворюються на емоції "виглядає здивованим" або
+      "виглядає спантеличеним".'
+    type: Add
+  id: 255
+  time: '2026-06-12T17:18:21.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1301
+- author: troytroy400
+  changes:
+  - message: Ксеноморфів додано як варіант загрози на всі мапи.
+    type: Add
+  - message: Badblood і tribals прибрано з ротації загроз, доки їх краще не допрацюють.
+    type: Remove
+  id: 256
+  time: '2026-06-12T18:45:58.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1302
+- author: KeiKiyomi
+  changes:
+  - message: Додано розділ про озброєння командування в Command SOP.
+    type: Add
+  - message: Додано повноваження щодо затримання в Command SOP.
+    type: Add
+  - message: Додано накази DNR у Command SOP.
+    type: Add
+  - message: Змінено формулювання польової висадки командування в Command SOP.
+    type: Tweak
+  - message: Додано ще один рядок до Aircraft Integrity в Aircrew SOP.
+    type: Add
+  - message: Додано ще один рядок до Aircraft Seating в Aircrew SOP.
+    type: Add
+  - message: Додано ще один рядок до Parachuting Operations в Aircrew SOP.
+    type: Add
+  - message: Додано Purchasing of Munitions в Aircrew SOP.
+    type: Add
+  - message: Додано ще один рядок до Standard Issue Equipment в Equipment SOP.
+    type: Add
+  - message: Додано ще один рядок до Firearm Regulations в Equipment SOP.
+    type: Add
+  - message: Змінено ще один рядок у Firearm Regulations в Equipment SOP.
+    type: Tweak
+  - message: Додано Synthetic Operations в Equipment SOP.
+    type: Add
+  - message: Змінено ще один рядок у Grooming Standards в Equipment SOP.
+    type: Tweak
+  - message: Додано Vehicle and Motorized Assets в Equipment SOP.
+    type: Add
+  - message: Майже повністю змінено розділ Rank Structure SOP.
+    type: Tweak
+  - message: Додано Orbital Station Personnel у Third Party SOP.
+    type: Add
+  - message: Додано порушення Warfare Interstellar Charter of Humanity (WICH) до
+      UCMJ Capital Crimes.
+    type: Add
+  - message: Додано порушення законного DNR (VoL) до UCMJ Major Crimes.
+    type: Add
+  - message: Додано Failure to Attend Combative Briefing до UCMJ Minor Crimes.
+    type: Add
+  - message: Додано Saluting in Vehicle Operations Area (SVO) до UCMJ Optional Crimes.
+    type: Add
+  - message: Додано Head Covers in Vehicle Operations Area (HCVO) до UCMJ Optional
+      Crimes.
+    type: Add
+  - message: Додано Negligent Use of Resources (NUR) до UCMJ Minor Crimes.
+    type: Add
+  - message: Змінено серверні правила щодо висадки командування, бо SOP дозволяв
+      її, а правила забороняли, що створювало забагато плутанини.
+    type: Admin
+  - message: Трохи краще уточнено бойових синтетиків.
+    type: Admin
+  - message: Додано Warfare Interstellar Charter of Humanity до UCMJ.
+    type: Add
+  - message: Додано визначення важкої зброї до глосарія.
+    type: Add
+  - message: Додано арешти командування до процедур арешту UCMJ.
+    type: Add
+  id: 257
+  time: '2026-06-12T19:34:34.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1284
+- author: toot521
+  changes:
+  - message: CLF surv AR-10 більше не спавниться з неправильними набоями.
+    type: Fix
+  id: 258
+  time: '2026-06-12T19:40:02.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1303
+- author: troytroy400
+  changes:
+  - message: Clankers (синтетики) більше не мають людських прав.
+    type: Tweak
+  - message: Оновлено хартію, щоб повністю оголосити бойових синтетиків поза законом.
+    type: Tweak
+  id: 259
+  time: '2026-06-12T19:58:34.0000000+00:00'
+  url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1304
 Name: CMU
 Order: -1
