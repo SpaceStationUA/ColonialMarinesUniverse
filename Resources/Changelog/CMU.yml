@@ -5764,53 +5764,56 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1295
 - author: troytroy400
   changes:
-  - message: Weapon Specialists icon now shows.
+  - message: Іконка спеціалістів зі зброї тепер відображається.
     type: Fix
-  - message: Weapon Specialists now have access to govfor doors.
+  - message: Спеціалісти зі зброї тепер мають доступ до дверей GOVFOR.
     type: Fix
   id: 249
   time: '2026-06-11T21:14:45.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1296
 - author: UnicornOnLSD
   changes:
-  - message: '? and ! no longer emote into "looks surprised" or "looks confused"'
+  - message: Символи ? та ! більше не перетворюються на емоції «виглядає здивованим» або «виглядає спантеличеним».
     type: Remove
   id: 250
   time: '2026-06-11T23:58:36.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1291
 - author: maertayn
   changes:
-  - message: Fixed binocular delay regression from Vulture
+  - message: Виправлено регресію затримки бінокля від Vulture.
     type: Fix
-  - message: Missing jobs added to & job ordering/cleanup of CMU planets
+  - message: Додано відсутні ролі та впорядковано й очищено ролі на планетах CMU.
     type: Code
-  - message: Fixed loadouts for real this time
+  - message: Виправлено набори спорядження, цього разу справді.
     type: Fix
-  - message: Supply drop unusable by AuxTech - advisor/CO/SO receive legacy AA
+  - message: Виправлено неможливість використання скидання постачання допоміжним
+      техніком; радник/КО/ОФ отримують старий AA.
     type: Fix
-  - message: Chevron icon not hiding when unequipping uniform -
+  - message: Виправлено, що іконка шеврона не ховалася після зняття уніформи.
     type: Fix
-  - message: Loreprimer not updating throughout rounds - showing xeno for aboms etc.
+  - message: Виправлено, що лорпраймер не оновлювався протягом раунду та показував
+      ксено для абомінацій тощо.
     type: Fix
   id: 251
   time: '2026-06-12T01:53:54.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1297
 - author: maertayn
   changes:
-  - message: Cultists can no longer move dead mobs unless they are either cultist
-      or xeno
+  - message: Культисти більше не можуть пересувати мертвих мобів, якщо ті не є
+      культистами або ксено.
     type: Add
   id: 252
   time: '2026-06-12T02:59:05.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1298
 - author: maertayn
   changes:
-  - message: Medical belt/bags are able to hold surgery tools (like the cautery)
+  - message: Медичні пояси й сумки тепер можуть вміщувати хірургічні інструменти
+      на кшталт коагулятора.
     type: Fix
-  - message: Used Hemo Gauze is tagged as Trash
+  - message: Використана гемостатична марля позначена як сміття.
     type: Tweak
-  - message: Lights/airlocks no longer randomly break (part of colony engineering
-      loop) on Distress Signal
+  - message: Світильники й шлюзи більше не ламаються випадково на Сигналі лиха
+      як частина інженерного циклу колонії.
     type: Fix
   id: 253
   time: '2026-06-12T04:23:44.0000000+00:00'
