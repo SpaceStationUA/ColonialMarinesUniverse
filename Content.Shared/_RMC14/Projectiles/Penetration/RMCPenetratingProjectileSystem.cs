@@ -63,6 +63,11 @@ public sealed partial class RMCPenetratingProjectileSystem : EntitySystem
     /// </summary>
     private void OnStartCollide(Entity<RMCPenetratingProjectileComponent> ent, ref StartCollideEvent args)
     {
+        // Only the real projectile fixture should spend penetration range and damage.
+        // Helper fixtures like Vulture's large fly-by sound radius also raise StartCollideEvent. ITS OUR FORK LOCAL FIX!!!
+        if (args.OurFixtureId != SharedProjectileSystem.ProjectileFixture || !args.OtherFixture.Hard)
+            return;
+
         if(!TryComp(ent, out ProjectileComponent? projectile) || ent.Comp.ShotFrom == null)
             return;
 
