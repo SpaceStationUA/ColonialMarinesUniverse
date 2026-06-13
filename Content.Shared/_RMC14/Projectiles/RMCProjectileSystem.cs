@@ -1,8 +1,10 @@
 using System.Numerics;
+using System.Linq;
 using Content.Shared._RMC14.Evasion;
 using Content.Shared._RMC14.Random;
 using Content.Shared._RMC14.Vehicle;
 using Content.Shared._RMC14.Xenonids.Hive;
+using Content.Shared.Damage;
 using Content.Shared.Examine;
 using Content.Shared.FixedPoint;
 using Content.Shared.Mobs.Systems;
@@ -39,6 +41,9 @@ public sealed partial class RMCProjectileSystem : EntitySystem
 
         SubscribeLocalEvent<RMCProjectileDamageFalloffComponent, MapInitEvent>(OnFalloffProjectileMapInit);
         SubscribeLocalEvent<RMCProjectileDamageFalloffComponent, ProjectileHitEvent>(OnFalloffProjectileHit);
+
+        SubscribeLocalEvent<RMCProjectileMinimumRangeDamageCapComponent, MapInitEvent>(OnMinimumRangeDamageCapMapInit);
+        SubscribeLocalEvent<RMCProjectileMinimumRangeDamageCapComponent, ProjectileHitEvent>(OnMinimumRangeDamageCapProjectileHit);
 
         SubscribeLocalEvent<RMCProjectileAccuracyComponent, MapInitEvent>(OnProjectileAccuracyMapInit);
         SubscribeLocalEvent<RMCProjectileAccuracyComponent, PreventCollideEvent>(OnProjectileAccuracyPreventCollide);
@@ -112,6 +117,60 @@ public sealed partial class RMCProjectileSystem : EntitySystem
 
             args.Damage *= FixedPoint2.Clamp((totalDamage - pastEffectiveRange * threshold.Falloff * extraMult) / totalDamage, minMult, 1);
         }
+    }
+
+    private void OnMinimumRangeDamageCapMapInit(Entity<RMCProjectileMinimumRangeDamageCapComponent> projectile, ref MapInitEvent args)
+    {
+        projectile.Comp.ShotFrom = _transform.GetMoverCoordinates(projectile.Owner);
+        Dirty(projectile);
+    }
+
+    private void OnMinimumRangeDamageCapProjectileHit(Entity<RMCProjectileMinimumRangeDamageCapComponent> projectile, ref ProjectileHitEvent args)
+    {
+        if (projectile.Comp.ShotFrom == null ||
+            projectile.Comp.Range <= 0 ||
+            projectile.Comp.MaxDamage <= 0)
+        {
+            return;
+        }
+
+        var distance = (_transform.GetMoverCoordinates(args.Target).Position - projectile.Comp.ShotFrom.Value.Position).Length();
+        if (distance > projectile.Comp.Range)
+            return;
+
+        var applicableDamage = GetTargetApplicableDamage(args.Target, args.Damage);
+        if (applicableDamage <= projectile.Comp.MaxDamage)
+            return;
+
+        // ITS OUR FORK LOCAL FIX!!!
+        // Cap only damage types the target can actually take. The Vulture bullet also has Structural damage,
+        // which should not make xeno close-range hits scale down incorrectly.
+        var multiplier = projectile.Comp.MaxDamage / applicableDamage;
+        foreach (var type in args.Damage.DamageDict.Keys.ToArray())
+        {
+            if (!IsTargetApplicableDamage(args.Target, type))
+                continue;
+
+            args.Damage.DamageDict[type] *= multiplier;
+        }
+    }
+
+    private FixedPoint2 GetTargetApplicableDamage(EntityUid target, DamageSpecifier damage)
+    {
+        var total = FixedPoint2.Zero;
+        foreach (var (type, amount) in damage.DamageDict)
+        {
+            if (amount > FixedPoint2.Zero && IsTargetApplicableDamage(target, type))
+                total += amount;
+        }
+
+        return total;
+    }
+
+    private bool IsTargetApplicableDamage(EntityUid target, string type)
+    {
+        return !TryComp(target, out DamageableComponent? damageable) ||
+               damageable.Damage.DamageDict.ContainsKey(type);
     }
 
     public void SetProjectileFalloffWeaponMult(Entity<RMCProjectileDamageFalloffComponent> projectile, FixedPoint2 mult, float range)

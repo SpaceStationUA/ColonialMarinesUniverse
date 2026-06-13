@@ -234,11 +234,19 @@
     deleteOnCollide: false
     damage:
       types:
-        Piercing: 1000
+        # ITS OUR FORK LOCAL FIX!!!
+        # Piercing + Blunt is 300 applicable xeno damage. Queen dies at 600 and crits at 500,
+        # so one clean M707 hit should leave her able to run, while two clean hits still kill.
+        Piercing: 250
         Blunt: 50
         Structural: 1800
     soundHit:
       path: /Audio/_RMC14/Bullets/bullet_vulture_impact.ogg
+  # ITS OUR FORK LOCAL FIX!!!
+  # Prevent point-blank Vulture shots from doing full sniper damage; this cap ignores Structural on xenos.
+  - type: RMCProjectileMinimumRangeDamageCap
+    range: 10
+    maxDamage: 200
   - type: RMCProjectileDamageFalloff
     thresholds:
     - range: 32
@@ -269,7 +277,9 @@
       falloff: 15
       buildup: true
   - type: AimedShotEffect
-    extraHits: 0.8
+    # ITS OUR FORK LOCAL FIX!!!
+    # The Vulture already deals high applicable damage at range; extra hits made aimed shots one-shot Queen.
+    extraHits: 0
 
 - type: entity
   parent: RMCBarrelAttachmentBase
