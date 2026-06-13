@@ -1,8 +1,8 @@
 ﻿- type: entity
-  name: L164A3 multi-shot grenade launcher
+  name: "багатозарядний гранатомет L164A3"
   parent: [ RMCBaseWeaponGrenadeLauncher ]
   id: AU14WeaponLauncherL164A3
-  description: A lightweight support weapon fielded by the Royal Marines. Chambered in small 20mm grenades, it lacks the punch of larger bore grenade launchers, but makes up for that in rate of fire.
+  description: "Легка зброя підтримки, яку використовують королівські морпіхи. Під невеликі 20mm гранати; їй бракує потужності гранатометів більшого калібру, але вона компенсує це темпом стрільби."
   components:
   - type: Item
     size: Huge

@@ -1,8 +1,8 @@
 - type: entity
-  name: box
+  name: "коробка"
   parent: BoxBase
   id: RMCBoxCardboard
-  description: It's just an ordinary box.
+  description: "Це звичайна коробка."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/boxes.rsi
@@ -28,8 +28,8 @@
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxPrescriptionGlasses
-  name: box of prescription glasses
-  description: This box contains nerd glasses.
+  name: "коробка рецептурних окулярів"
+  description: "У цій коробці лежать окуляри для ботанів."
   components:
   - type: Storage
     whitelist:
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxCompanyCaps
-  name: box of Company baseball caps
-  description: This box contains seven Weston-Yamada brand baseball caps. Give them away at your leisure.
+  name: "коробка бейсболок Компанії"
+  description: "У цій коробці сім фірмових бейсболок марки «Вестон-Ямада». Роздавайте їх на власний розсуд."
   components:
   - type: Storage
     whitelist:
@@ -60,8 +60,8 @@
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxDrinkingGlasses
-  name: box of drinking glasses
-  description: It has a picture of drinking glasses on it.
+  name: "коробка склянок"
+  description: "На ній зображені склянки для напоїв."
   components:
   - type: Storage
     whitelist:
@@ -75,8 +75,8 @@
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxPaperCups
-  name: box of paper cups
-  description: It has pictures of paper cups on it.
+  name: "коробка паперових стаканчиків"
+  description: "На ній зображені паперові стаканчики."
   components:
   - type: Storage
     whitelist:
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxMousetraps
-  name: Pest-B-Gon mousetraps
-  description: "WARNING: Keep out of reach of children."
+  name: "мишоловки «Пест-Бі-Гон»"
+  description: "ПОПЕРЕДЖЕННЯ: Тримайте подалі від дітей."
   components:
   - type: Storage
     whitelist:
@@ -105,8 +105,8 @@
 - type: entity
   parent: RMCBoxCardboard
   id: RMCBoxInflatableWallsSmall
-  name: inflatable barrier box
-  description: Contains inflatable walls and doors.
+  name: "коробка надувних бар'єрів"
+  description: "Містить надувні стіни та двері."
   suffix: Small
   components:
   - type: Storage

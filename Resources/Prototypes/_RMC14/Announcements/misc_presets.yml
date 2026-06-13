@@ -1,6 +1,6 @@
 - type: announcementPreset
   id: MiscCenterScreen
-  name: "Misc Announcement"
+  name: "Різне оголошення"
   target: All
   visibleInSettings: false
   showSprite: false

@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorFiorinaResearcher
-  name: survivor fiorina researcher spawn point
+  name: "спавнер дослідника фіоріни-вцілілого"
   components:
   - type: SpawnPoint
     job_id: CMSurvivorFiorinaResearcher

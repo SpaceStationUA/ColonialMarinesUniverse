@@ -1,6 +1,6 @@
 ﻿- type: entity
   parent: RMCBaseEffect
-  name: pointing arrow
+  name: "вказівна стрілка"
   id: PointingArrow
   save: false
   components:

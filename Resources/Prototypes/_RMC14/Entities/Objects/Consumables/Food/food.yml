@@ -21,8 +21,8 @@
 - type: entity
   parent: RMCFoodDonut
   id: RMCFoodDonutJellyFrosted
-  name: frosted jelly donut
-  description: You jelly?
+  name: "пончик з глазур'ю та джемом"
+  description: "Заздриш?"
   components:
   - type: Food
     transferAmount: 2 # 3 bites
@@ -49,8 +49,8 @@
 - type: entity
   parent: RMCFoodDonut
   id: RMCFoodDonutJelly
-  name: jelly donut
-  description: You jelly?
+  name: "пончик з джемом"
+  description: "Заздриш?"
   components:
   - type: Food
     transferAmount: 2 # 3 bites
@@ -73,10 +73,10 @@
     - sweet
 
 - type: entity
-  name: peanut butter cookie
+  name: "печиво з арахісовою пастою"
   parent: CMFoodBase
   id: RMCFoodCookiePeanutButter
-  description: Soft, chewy, and absolutely delicious!
+  description: "М'яке, жуйне і абсолютно смачне!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -98,10 +98,10 @@
     - nutty
 
 - type: entity
-  name: peanut butter and jelly sandwich
+  name: "сендвіч з арахісовою пастою та джемом"
   parent: CMFoodBase
   id: RMCFoodPBJSandwich
-  description: A sweet and savory sandwich loved by adults and marines alike!
+  description: "Солодко-солоний сендвіч, який обожнюють і дорослі, і морпіхи!"
   components:
   - type: Food
     transferAmount: 4
@@ -126,10 +126,10 @@
     - nutty
 
 - type: entity
-  name: onigiri
+  name: "оніґірі"
   parent: CMFoodBase
   id: RMCFoodOnigiri
-  description: These donuts are great! Jelly-filled are my favorite! Nothing beats a jelly-filled donut!
+  description: "Ці пончики чудові! Найбільше люблю з джемом! Ніщо не зрівняється з пончиком, наповненим джемом!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -152,10 +152,10 @@
     - salty
 
 - type: entity
-  name: carbonara
+  name: "карбонара"
   parent: FoodNoodlesBase
   id: RMCFoodCarbonara
-  description: Bacon with pasta? YES PLEASE!
+  description: "Бекон з пастою? ТАК, БУДЬ ЛАСКА!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -176,10 +176,10 @@
     - bacon
 
 - type: entity
-  name: sticky mango rice
+  name: "липкий рис з манго"
   parent: FoodBowlBase
   id: FoodRiceMango
-  description: It's a grand gesture that isn't the least bit grand.
+  description: "Це грандіозний жест, у якому немає нічого грандіозного."
   components:
   - type: FlavorProfile
     flavors:
@@ -192,10 +192,10 @@
     - state: mango-rice
 
 - type: entity
-  name: banh mi
+  name: "бан мі"
   parent: CMFoodBase
   id: FoodBanhMi
-  description: Banh Mi, for Banh You
+  description: "Бан Мі, для Бан Тебе"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -219,10 +219,10 @@
     count: 2
 
 - type: entity
-  name: banh mi half
+  name: "половина бан мі"
   parent: CMFoodBase
   id: FoodBanhMiHalf
-  description: That's a symphony in a sandwich!
+  description: "Це симфонія в сендвічі!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -243,10 +243,10 @@
           Quantity: 15
 
 - type: entity
-  name: chicken parm hero
+  name: "сендвіч-«герой» з куркою пармезан"
   parent: CMFoodBase
   id: FoodChickenParmHero
-  description: Now thats a sandwich, fuggedaboutit!
+  description: "Ось це сендвіч, забудь про все!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -273,10 +273,10 @@
     count: 2
 
 - type: entity
-  name: chicken parm half
+  name: "половина сендвіча з куркою пармезан"
   parent: CMFoodBase
   id: FoodChickenParmHalf
-  description: Better than eating a grilled cheese off the radiator.
+  description: "Краще, ніж їсти грильований сир з радіатора."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -300,10 +300,10 @@
           Quantity: 5
 
 - type: entity
-  name: meatball sub
+  name: "сендвіч з фрикадельками"
   parent: CMFoodBase
   id: FoodMeatballSub
-  description: Made with the secrets of Death Kwon Do!
+  description: "Зроблено за секретами Деф Квон До!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -330,10 +330,10 @@
     count: 2
 
 - type: entity
-  name: meatball sub half
+  name: "половина сендвіча з фрикадельками"
   parent: CMFoodBase
   id: FoodMeatballSubHalf
-  description: It's enough to make a grown marine cry.
+  description: "Цього достатньо, щоб дорослий морпіх заплакав."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -357,10 +357,10 @@
           Quantity: 5
 
 - type: entity
-  name: gabagool sandwich
+  name: "сендвіч ґабаґул"
   parent: CMFoodBase
   id: FoodGabagool
-  description: Woke up this morning, got yourself a sandwich.
+  description: "Прокинувся сьогодні вранці, дістав собі сендвіч."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -385,10 +385,10 @@
     count: 2
 
 - type: entity
-  name: gabagool sandwich half
+  name: "половина сендвіча ґабаґул"
   parent: CMFoodBase
   id: FoodGabagoolHalf
-  description: Gabagool? Over here!!
+  description: "Ґабаґул? Сюди!!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -410,10 +410,10 @@
           Quantity: 15
 
 - type: entity
-  name: cheesesteak
+  name: "чізстейк"
   parent: CMFoodBase
   id: FoodCheesesteak
-  description: If your hands aren't greasy holding it, is it really a cheesesteak?
+  description: "Якщо ваші руки не жирні, поки ви його тримаєте, чи це справді чізстейк?"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -439,10 +439,10 @@
     count: 2
 
 - type: entity
-  name: cheesesteak half
+  name: "половина чізстейка"
   parent: CMFoodBase
   id: FoodCheesesteakHalf
-  description: Served wit-out onions.
+  description: "Подається без цибулі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/sandwiches.rsi
@@ -465,10 +465,10 @@
           Quantity: 5
 
 - type: entity
-  name: yorkshire pudding
+  name: "йоркширський пудинг"
   parent: CMFoodBase
   id: FoodYorkshirePudding
-  description: What a delightful pastry!
+  description: "Яка чудова випічка!"
   components:
   - type: Tag
     tags:
@@ -495,10 +495,10 @@
     transferAmount: 5
 
 - type: entity
-  name: black forest cake
+  name: "торт «Чорний ліс»"
   parent: CMFoodBase
   id: FoodCakeBlackForest
-  description: The cake is a lie no more!
+  description: "Торт більше не брехня!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -522,10 +522,10 @@
     count: 6
 
 - type: entity
-  name: black forest cake slice
+  name: "шматок торта «Чорний ліс»"
   parent: CMFoodBase
   id: FoodBlackForestSlice
-  description: Now without fish-shaped ethyl benzene!
+  description: "Тепер без етилбензолу у формі риби!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -548,10 +548,10 @@
           Quantity: 6
 
 - type: entity
-  name: uncooked sausage
+  name: "сира ковбаска"
   parent: CMFoodBase
   id: FoodMeatSausage
-  description: A piece of mixed, long meat.
+  description: "Шматок змішаного, довгого м'яса."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/meat.rsi
@@ -573,10 +573,10 @@
     node: start
 
 - type: entity
-  name: cooked sausage
+  name: "смажена ковбаска"
   parent: CMFoodBase
   id: FoodMeatSausageCooked
-  description: This snagger looks like it just came off the barbie!
+  description: "Ця ковбаска має такий вигляд, ніби щойно з гриля!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/meat.rsi
@@ -597,10 +597,10 @@
           Quantity: 4
 
 - type: entity
-  name: hot dog
+  name: "хот-дог"
   parent: CMFoodBase
   id: FoodHotDog
-  description: Life is tasting pretty good! Oh yes!
+  description: "Життя смакує досить добре! О так!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -622,10 +622,10 @@
           Quantity: 4
 
 - type: entity
-  name: tapsilog
+  name: "тапсілог"
   parent: CMFoodBase
   id: FoodTapsilog
-  description: It's like steak and eggs, but better!
+  description: "Це як стейк з яйцями, але краще!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -649,10 +649,10 @@
           Quantity: 8
 
 - type: entity
-  name: carpsilog
+  name: "карпсілог"
   parent: CMFoodBase
   id: FoodCarpsilog
-  description: Drenched in enough vinegar to make you forget about that carpotoxin!
+  description: "Замочений у достатній кількості оцту, щоб ви забули про той карпотоксин!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -677,10 +677,10 @@
           Quantity: 8
 
 - type: entity
-  name: chicksilog
+  name: "чіксілог"
   parent: CMFoodBase
   id: FoodChicksilog
-  description: Now I know you asked for tonkatsu, but this is all we got today.
+  description: "Я знаю, ти просив тонкацу, але це все, що в нас є сьогодні."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -704,10 +704,10 @@
           Quantity: 8
 
 - type: entity
-  name: tocilog
+  name: "тосілог"
   parent: CMFoodBase
   id: FoodTocilog
-  description: Looks nothing like bacon, but just as great!
+  description: "Зовсім не схоже на бекон, але такий же чудовий!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -731,10 +731,10 @@
           Quantity: 8
 
 - type: entity
-  name: bangers and mash
+  name: "бангерс і пюре"
   parent: CMFoodBase
   id: FoodBangersMash
-  description: Goes together like fish and chips, beans and.... nevermind.
+  description: "Поєднується як риба і чіпси, квасоля і.... та ну."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi
@@ -756,10 +756,10 @@
           Quantity: 4
 
 - type: entity
-  name: pie and mash
+  name: "пиріг і пюре"
   parent: CMFoodBase
   id: FoodPieMash
-  description: Goes together like fish and chips, beans and.... nevermind.
+  description: "Поєднується як риба і чіпси, квасоля і.... та ну."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Food/misc.rsi

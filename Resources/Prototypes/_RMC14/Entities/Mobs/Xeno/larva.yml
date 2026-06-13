@@ -4,7 +4,7 @@
   - CMXenoFlammable
   - RMCXenoVentCrawler
   id: CMXenoLarva
-  name: Larva
+  name: "Личинка"
   components:
   - type: GuideHelp
     guides:
@@ -109,8 +109,8 @@
 - type: entity
   id: RMCXenoEmbryo
   parent: BaseItem
-  name: alien embryo
-  description: All slimy and yucky.
+  name: "прибулецький ембріон"
+  description: "Весь слизький і мерзенний."
   components:
     - type: Sprite
       sprite: _AU14/Mobs/Xenos/Larva/larva.rsi # AU14-Edit

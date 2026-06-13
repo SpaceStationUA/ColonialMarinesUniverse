@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCSkillPresetCommander
-  name: Commander
+  name: "Командувач"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset

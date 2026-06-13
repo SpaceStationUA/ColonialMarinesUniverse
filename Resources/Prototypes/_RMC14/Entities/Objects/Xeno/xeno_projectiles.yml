@@ -1,7 +1,7 @@
 - type: entity
   abstract: true
   id: XenoBaseProjectile
-  name: projectile
+  name: "снаряд"
   components:
   - type: Clickable
   - type: Sprite
@@ -42,7 +42,7 @@
 - type: entity
   parent: [ XenoSpitImpactSounds, XenoBaseProjectile ]
   id: XenoSpitProjectile
-  name: spit
+  name: "плювок"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -102,7 +102,7 @@
 - type: entity
   id: XenoSlowingSpitProjectile
   parent: XenoBaseProjectile
-  name: slowing spit
+  name: "сповільнюючий плювок"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -121,7 +121,7 @@
 - type: entity
   id: XenoQueenNeuroSpitProjectile
   parent: [ XenoSpitImpactSounds, XenoBaseProjectile ]
-  name: neurotoxic spit
+  name: "нейротоксичний плювок"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -143,7 +143,7 @@
 - type: entity
   id: XenoScatteredSpitProjectile
   parent: XenoBaseProjectile
-  name: scattered spit
+  name: "розсіяний плювок"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -163,7 +163,7 @@
 - type: entity
   id: XenoAcidShotgunProjectile
   parent: XenoBaseProjectile
-  name: shotgun spit
+  name: "дробовий плювок"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -185,7 +185,7 @@
 - type: entity
   id: XenoBoneChipsProjectile
   parent: XenoBaseProjectile
-  name: bone chips
+  name: "кісткові уламки"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -227,7 +227,7 @@
 - type: entity
   parent: XenoHedgehogSpikeProjectile
   id: XenoHedgehogSpikeProjectileSpread
-  name: small bone chips
+  name: "малі кісткові уламки"
   components:
   - type: ProjectileMaxRange
     max: 4
@@ -235,7 +235,7 @@
 - type: entity
   parent: XenoHedgehogSpikeProjectileSpread
   id: XenoHedgehogSpikeProjectileSpreadShort
-  name: small bone chips
+  name: "малі кісткові уламки"
   components:
   - type: ProjectileMaxRange
     max: 2
@@ -243,7 +243,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardAcidProjectile
-  name: glob of acid gas
+  name: "грудка кислотного газу"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -288,7 +288,7 @@
 
 - type: entity
   id: CMGuidebookXenoBombardAcidProjectile
-  name: Acid Glob
+  name: "Кислотна грудка"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -300,7 +300,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoBombardNeurotoxinProjectile
-  name: glob of neurotoxin gas
+  name: "грудка нейротоксичного газу"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -348,7 +348,7 @@
 
 - type: entity
   id: CMGuidebookXenoBombardNeurotoxinProjectile
-  name: Neurotoxin Glob
+  name: "Нейротоксична грудка"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -419,7 +419,7 @@
 - type: entity
   parent: XenoSpitProjectile
   id: XenoVenatorCorrosiveProjectile
-  name: corrosive spit
+  name: "їдкий плювок"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -452,7 +452,7 @@
 - type: entity
   parent: XenoVenatorCorrosiveProjectile
   id: XenoVenatorAcidBlobProjectile
-  name: acid blob
+  name: "кислотний згусток"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -475,7 +475,7 @@
 - type: entity
   parent: XenoVenatorCorrosiveProjectile
   id: XenoVenatorBreathProjectile
-  name: enzymatic breath
+  name: "ферментний подих"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -488,8 +488,8 @@
 
 - type: entity
   id: XenoAcidBallProjectile
-  name: acid ball
-  description: A small, pulsating ball of gas.
+  name: "кислотна куля"
+  description: "Маленька, пульсуюча куля газу."
   categories: [ HideSpawnMenu ]
   components:
   - type: Clickable
@@ -543,7 +543,7 @@
 - type: entity
   parent: XenoBaseProjectile
   id: XenoOppressorTailHook
-  name: tail hook
+  name: "хвостовий гак"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

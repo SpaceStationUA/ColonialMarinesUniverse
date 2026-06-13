@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: AU14IVFoldable
-  name: folding intravenous drip
-  description: Allows you to inject blood into a patient or extract blood from them to do a blood transfusion. This one can fold for easy storage and transport.
+  name: "складана внутрішньовенна крапельниця"
+  description: "Дозволяє вводити кров пацієнту або витягувати кров із нього для переливання. Ця складається для зручного зберігання й транспортування."
   suffix: IV, empty
   components:
   - type: Item

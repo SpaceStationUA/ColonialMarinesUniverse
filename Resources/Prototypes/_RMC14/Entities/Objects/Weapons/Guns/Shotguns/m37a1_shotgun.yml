@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
   id: RMCWeaponShotgunM37A1
-  name: M37A1 pump shotgun
-  description: An Armat Battlefield Systems modern take on an all-time classic, combining close range firepower with long-term reliability. Requires a pump.
+  name: "помпова рушниця M37A1"
+  description: "Сучасна інтерпретація вічної класики від Армат Батлфілд Системз, що поєднує вогневу міць на близькій дистанції з довготривалою надійністю. Потребує помпування."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m37a1/desert.rsi
