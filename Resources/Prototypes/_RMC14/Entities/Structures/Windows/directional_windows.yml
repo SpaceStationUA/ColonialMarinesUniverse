@@ -1,8 +1,8 @@
 ﻿- type: entity
   id: CMWindowDirectional
   parent: WindowDirectional
-  name: "вікно"
-  description: "Скляне вікно. Виглядає тонким і крихким. Кілька ударів чим-небудь мають його розбити."
+  name: window
+  description: A glass window. It looks thin and flimsy. A few knocks with anything should shatter it.
   components:
   - type: Transform
     anchored: true
@@ -70,8 +70,8 @@
 - type: entity
   id: CMWindowReinforcedDirectional
   parent: CMWindowDirectional
-  name: "укріплене вікно"
-  description: "Скляне вікно, посилене опорними стрижнями. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
+  name: reinforced window
+  description: A glass window reinforced with bracing rods. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     state: rwindow
@@ -113,8 +113,8 @@
 - type: entity
   id: CMWindowStrongReinforcedDirectional
   parent: CMWindowDirectional
-  name: "сильно укріплене вікно"
-  description: "Скляне вікно, посилене опорними стрижнями. Виглядає дуже міцно. Кулаками його не розбити."
+  name: strong reinforced window
+  description: A glass window reinforced with bracing rods. It looks very strong. You can't break it with your fists.
   components:
   - type: Sprite
     state: rwindow
@@ -145,8 +145,8 @@
 - type: entity
   id: CMWindowTintedDirectional
   parent: CMWindowDirectional
-  name: "тоноване вікно"
-  description: "Тоноване скляне вікно. Виглядає досить міцно й непрозоро. Може знадобитися кілька гарних ударів, щоб його розбити."
+  name: tinted window
+  description: A tinted glass window. It looks rather strong and opaque. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     state: twindow
@@ -173,8 +173,8 @@
 - type: entity
   id: CMWindowUltraDirectional
   parent: CMWindowDirectional
-  name: "ультраукріплене вікно"
-  description: "Ультраукріплене вікно, призначене захищати трибуну для брифінгів як безпечну зону."
+  name: ultra-reinforced window
+  description: An ultra-reinforced window designed to keep the briefing podium a secure area.
   components:
   - type: Sprite
     state: fwindow

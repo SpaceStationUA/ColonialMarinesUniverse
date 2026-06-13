@@ -1,8 +1,8 @@
 - type: entity
-  name: "туалет"
+  name: toilet
   id: BaseToilet
   parent: [ DisposalUnitBase, SeatBase ]
-  description: "Пристрій для змивання людських екскрементів."
+  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   abstract: true
   components:
   - type: Sprite
@@ -127,8 +127,8 @@
     - Anchorable
 
 - type: entity
-  name: "туалет"
-  description: "Пристрій для змивання людських екскрементів."
+  name: toilet
+  description: The HT-451, a torque rotation-based, waste disposal unit for small matter. This one seems remarkably clean.
   id: ToiletEmpty
   parent: BaseToilet
   suffix: Empty
@@ -157,8 +157,8 @@
 - type: entity
   id: ToiletGoldenEmpty
   parent: BaseToilet
-  name: "золотий унітаз"
-  description: "HT-451G - це золота версія пристрою. Збоку написано, що він виготовлений з найчистішого меркуріанського золота та має сидіння з натуральної шкіри."
+  name: golden toilet
+  description: The HT-451G is the gold version of the device. It says on the side that it is made of the purest Mercurian gold and a real leather seat.
   suffix: Empty
   components:
   - type: Sprite

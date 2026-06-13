@@ -2,7 +2,7 @@
   abstract: true
   parent: BaseItem
   id: RMCComputerDisk
-  description: "Нудний на вигляд комп'ютерний диск. Напис на етикетці з назвою — лише безглуздий набір літер і цифр."
+  description: "A boring looking computer disk. The name label is just gibberish collection of letters and numbers."
   components:
   - type: Tag
     tags:
@@ -13,7 +13,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk1
-  name: "сірий комп'ютерний диск"
+  name: Grey computer disk
   suffix: Disk, 1
   components:
   - type: Sprite
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk2
-  name: "сірий комп'ютерний диск"
+  name: Grey computer disk
   suffix: Disk, 2
   components:
   - type: Sprite
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk3
-  name: "білий комп'ютерний диск"
+  name: White computer disk
   suffix: Disk, 3
   components:
   - type: Sprite
@@ -64,7 +64,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk4
-  name: "білий комп'ютерний диск"
+  name: White computer disk
   suffix: Disk, 4
   components:
   - type: Sprite
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk5
-  name: "білий комп'ютерний диск"
+  name: White computer disk
   suffix: Disk, 5
   components:
   - type: Sprite
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk6
-  name: "зелений комп'ютерний диск"
+  name: Green computer disk
   suffix: Disk, 6
   components:
   - type: Sprite
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk7
-  name: "зелений комп'ютерний диск"
+  name: Green computer disk
   suffix: Disk, 7
   components:
   - type: Sprite
@@ -132,7 +132,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk8
-  name: "червоний комп'ютерний диск"
+  name: Red computer disk
   suffix: Disk, 8
   components:
   - type: Sprite
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk9
-  name: "червоний комп'ютерний диск"
+  name: Red computer disk
   suffix: Disk, 9
   components:
   - type: Sprite
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk10
-  name: "червоний комп'ютерний диск"
+  name: Red computer disk
   suffix: Disk, 10
   components:
   - type: Sprite
@@ -183,7 +183,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk11
-  name: "синій комп'ютерний диск"
+  name: Blue computer disk
   suffix: Disk, 11
   components:
   - type: Sprite
@@ -200,7 +200,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk12
-  name: "синій комп'ютерний диск"
+  name: Blue computer disk
   suffix: Disk, 12
   components:
   - type: Sprite
@@ -217,7 +217,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk13
-  name: "тріснутий синій комп'ютерний диск"
+  name: Cracked blue computer disk
   suffix: Disk, 13
   components:
   - type: Sprite
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk14
-  name: "тріснутий синій комп'ютерний диск"
+  name: Cracked blue computer disk
   suffix: Disk, 14
   components:
   - type: Sprite
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCComputerDisk
   id: RMCIntelComputerDisk15
-  name: "закривавлений синій комп'ютерний диск"
+  name: Bloodied blue computer disk
   suffix: Disk, 15
   components:
   - type: Sprite

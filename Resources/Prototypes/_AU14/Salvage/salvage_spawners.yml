@@ -63,14 +63,14 @@
 - type: entity
   parent: [ DecorBarrels, SalvageSpawnerBase ]
   id: SalvageSpawnerBarrels
-  name: "бочки для пошуку брухту"
-  description: "Купа старих іржавих бочок. Усередині може бути запхано щось корисне."
+  name: salvage barrels
+  description: A cluster of old rusty barrels. Something useful might be stuffed inside.
 
 - type: entity
   parent: [ DecorFloorTrashbags1, SalvageSpawnerBase ]
   id: SalvageSpawnerTrashbags
-  name: "сміттєва купа для пошуку брухту"
-  description: "Купа старих сміттєвих мішків. Важко сказати, що хтось там лишив."
+  name: salvage trash heap
+  description: A heap of old trash bags. Hard to say what someone left in there.
   components:
   - type: Sprite
     layers:
@@ -89,8 +89,8 @@
 - type: entity
   parent: [ DecorFloorScrapwood, SalvageSpawnerBase ]
   id: SalvageSpawnerScrapwood
-  name: "купа дерев'яного брухту"
-  description: "Клубок старих дерев'яних обрізків. Щось може бути закопане під ним."
+  name: salvage wood pile
+  description: A tangle of old scrap lumber. Something might be buried underneath.
   components:
   - type: Fixtures
     fixtures:
@@ -107,8 +107,8 @@
 - type: entity
   parent: [ DecorFloorBrickrubble, SalvageSpawnerBase ]
   id: SalvageSpawnerRubble
-  name: "руїни для пошуку брухту"
-  description: "Розкришена цегла й розчин, під якими щось блищить."
+  name: salvage rubble
+  description: Crumbled brick and mortar with something glinting underneath.
   components:
   - type: Fixtures
     fixtures:
@@ -125,8 +125,8 @@
 - type: entity
   parent: [ DecorFloorCardboard, SalvageSpawnerBase ]
   id: SalvageSpawnerCardboard
-  name: "коробки для пошуку брухту"
-  description: "Стос пом'ятих картонних коробок. Усередині може бути щось запаковане."
+  name: salvage boxes
+  description: A stack of battered cardboard boxes. Something might be packed inside.
   components:
   - type: Fixtures
     fixtures:
@@ -145,8 +145,8 @@
 - type: entity
   parent: [ DecorFloorWorldBase, SalvageSpawnerBase ]
   id: SalvageSpawnerTrashbin
-  name: "сміттєвий бак для пошуку брухту"
-  description: "Пом'ятий металевий сміттєвий бак. Тут повно мотлоху для перебирання."
+  name: salvage trash bin
+  description: A dented metal trash bin. Plenty of junk to sift through.
   components:
   - type: Sprite
     layers:
@@ -174,8 +174,8 @@
 - type: entity
   parent: [ DecorFloorGlass1, SalvageSpawnerBase ]
   id: SalvageSpawnerGlassBottles
-  name: "скляна купа для пошуку брухту"
-  description: "Розсип старих скляних пляшок і банок. Дивіться під ноги."
+  name: salvage glass pile
+  description: A scatter of old glass bottles and jars. Watch your step.
   components:
   - type: Sprite
     layers:
@@ -205,8 +205,8 @@
 - type: entity
   parent: [ DecorFloorWorldBase, SalvageSpawnerBase ]
   id: SalvageSpawnerMailbox
-  name: "поштова скринька для пошуку брухту"
-  description: "Стара іржава поштова скринька. Усередині сміттєва пошта іншого ґатунку."
+  name: salvage mailbox
+  description: An old rusted mailbox. Junk mail of a different kind inside.
   components:
   - type: Sprite
     layers:
@@ -232,8 +232,8 @@
 - type: entity
   parent: [ DecorFloorWorldBase, SalvageSpawnerBase ]
   id: SalvageSpawnerPayphone
-  name: "таксофон для пошуку брухту"
-  description: "Неробочий таксофон, прикручений ні до чого. У монетоприймачі могло щось застрягти."
+  name: salvage payphone
+  description: A defunct payphone bolted to nothing. The coin slot might have something stuck in it.
   components:
   - type: Sprite
     layers:
@@ -259,8 +259,8 @@
 - type: entity
   parent: [ DecorFloorWorldBase, SalvageSpawnerBase ]
   id: SalvageSpawnerPots
-  name: "горщики для пошуку брухту"
-  description: "Старі глиняні горщики, потріскані й припалі пилом. Усередині може щось торохтіти."
+  name: salvage pots
+  description: Old clay pots, cracked and gathering dust. Something might be rattling around inside.
   components:
   - type: Sprite
     layers:
@@ -288,8 +288,8 @@
 - type: entity
   parent: [ DecorFloorFood1, SalvageSpawnerBase ]
   id: SalvageSpawnerFoodstuff
-  name: "харчові ящики для пошуку брухту"
-  description: "Гнилі харчові ящики та старі контейнери. Серед них може бути щось неїстівне."
+  name: salvage food crates
+  description: Rotting food crates and old containers. Something non-edible might be mixed in.
   components:
   - type: Sprite
     layers:
@@ -319,14 +319,14 @@
 - type: entity
   parent: [ DecorMinecart, SalvageSpawnerBase ]
   id: SalvageSpawnerMinecart
-  name: "вагонетка для пошуку брухту"
-  description: "Перекинута шахтарська вагонетка, давно покинута. Усе, що нею перевозили, досі там."
+  name: salvage minecart
+  description: A toppled mining cart, long abandoned. Whatever was being hauled is still in there.
 
 - type: entity
   parent: [ DecorFloorBookPile1, SalvageSpawnerBase ]
   id: SalvageSpawnerBookpile
-  name: "купа книг для пошуку брухту"
-  description: "Купа трухлявих книг і паперів. Старі колоніальні записи іноді ховають цінності між сторінками."
+  name: salvage book pile
+  description: A heap of mouldering books and papers. Old colony records sometimes hide valuables between the pages.
   components:
   - type: Sprite
     layers:

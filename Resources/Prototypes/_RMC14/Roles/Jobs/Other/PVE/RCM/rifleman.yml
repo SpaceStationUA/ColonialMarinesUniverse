@@ -51,7 +51,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVERifleman
-  name: "спавнер стрільця RCM"
+  name: RCM rifleman spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesRiflemanPVE

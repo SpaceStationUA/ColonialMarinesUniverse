@@ -59,7 +59,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCargoTech
-  name: "спавнер посади реквізиційного техніка"
+  name: req tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMCargoTech

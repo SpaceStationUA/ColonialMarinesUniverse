@@ -70,7 +70,7 @@
   abstract: true
   parent: ClothingShoesBaseButcherable
   id: ClothingShoesBaseWinterBoots
-  description: "Пухнасті чоботи, що допоможуть пережити навіть найхолоднішу зиму."
+  description: Fluffy boots to help survive even the coldest of winters.
   components:
   - type: TemperatureProtection
     heatingCoefficient: 1.025

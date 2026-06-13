@@ -67,7 +67,7 @@
 
 - type: entity
   id: CMURandomHumanoidYautjaHunter
-  name: "спавнер мисливця Яутжа"
+  name: yautja hunter spawner
   suffix: Spawner, Player, Event
   components:
   - type: Sprite

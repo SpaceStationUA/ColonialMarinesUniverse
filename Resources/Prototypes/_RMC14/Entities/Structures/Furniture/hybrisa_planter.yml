@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCPlanter
-  name: "бетонна вазонниця"
-  description: "Декоративна бетонна вазонниця."
+  name: concrete planter
+  description: A decorative concrete planter.
   components:
   - type: Sprite
     noRot: true

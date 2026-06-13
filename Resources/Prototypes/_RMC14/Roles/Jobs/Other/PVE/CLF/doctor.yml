@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointCLFDoctorPVE
-  name: "спавнер лікаря clf"
+  name: clf doctor spawn point
   suffix: PVE
   components:
   - type: SpawnPoint

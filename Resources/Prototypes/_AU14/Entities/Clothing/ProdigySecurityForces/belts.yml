@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBeltUtilityCombat
   id: AU14BeltUtilityCombatProdigyRU
-  name: "бойова інструментальна обв'язка зразка L177 Продіджі"
-  description: "Стандартна обв'язка Королівських морських командос Озброєних ремонтних груп Продіджі для Підрозділів реагування, що проводять ремонт у бойових зонах. Складається з модульного пояса з різними кліпсами та підсумками для інструментів, а також з кобури для пістолета. Вміщує сам пістолет і один магазин."
+  name: L177 Prodigy pattern combat toolbelt rig
+  description: Standart-issue Royal Marines Commando rig of the Prodigy Armed Repair Teams for Response Units conducting repairs within combat zones. It consists of a modular belt with various clips and pouches for tools along with a holster for a sidearm. Due to the bulk of the sidearm and one magazine.
   components:
   - type: Storage
     maxItemSize: Large
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCBeltMedicBagSPP
   id: AU14BeltMedicBagProdigy
-  name: "медична сумка зразка PSC-TM626"
-  description: "PSC-TM626 — це стандартне навантажувальне спорядження сил безпеки Продіджі. Ця конфігурація містить вмістку сумку з набором ін'єкторів і легких медичних припасів, поширена серед медиків. За чутками, це просто сумка W-Y TM625, але Продіджі це заперечує."
+  name: PSC-TM626 pattern medical bag
+  description: The PSC-TM626 is the standard load-bearing equipment of the Prodigy security forces. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics, sources say its just a W-Y TM625 bag, but Prodigy denies this claim.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Belt/medicbag/snow-urban.rsi
@@ -85,8 +85,8 @@
 - type: entity
   parent: AU14BeltMedicBagProdigy
   id: AU14BeltMedicBagProdigyFilled
-  name: "медична сумка зразка PSC-TM626"
-  description: "PSC-TM626 — це стандартне навантажувальне спорядження сил безпеки Продіджі. Ця конфігурація містить вмістку сумку з набором ін'єкторів і легких медичних припасів, поширена серед медиків. За чутками, це просто сумка W-Y TM625, але Продіджі це заперечує."
+  name: PSC-TM626 pattern medical bag
+  description: The PSC-TM626 is the standard load-bearing equipment of the Prodigy security forces. This configuration mounts a duffel bag filled with a range of injectors and light medical supplies, and is common among medics, sources say its just a W-Y TM625 bag, but Prodigy denies this claim.
   suffix: Filled, Pills
   components:
   - type: StorageFill

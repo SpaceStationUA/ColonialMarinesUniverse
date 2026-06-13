@@ -1,8 +1,8 @@
 - type: entity
   parent: AUSubmissionPointBase
   id: AUSalvageSubmissionPoint
-  name: "пункт здачі брухту"
-  description: "Пункт збору врятованих товарів. Вставляйте предмети, щоб отримати оплату відповідно до їхнього класу."
+  name: salvage submission point
+  description: A collection unit for salvaged goods. Insert items to receive payment based on their grade.
   suffix: Salvage
   components:
   - type: SubmissionStorage

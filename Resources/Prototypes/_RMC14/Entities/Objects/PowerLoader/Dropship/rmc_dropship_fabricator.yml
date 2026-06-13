@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: BaseMachinePowered
   id: RMCDropshipFabricator
-  name: "фабрикатор деталей десантного корабля"
-  description: "Великий автоматизований 3D-принтер для виробництва деталей десантного корабля. Ви можете переробляти у ньому деталі або боєприпаси та отримувати назад 80% своїх балів — натисніть на нього, тримаючи їх у захваті силового навантажувача."
+  name: dropship part fabricator
+  description: A large automated 3D printer for producing dropship parts. You can recycle parts or ammo in it, and get 80% of your points back, by clicking it while holding them in a powerloader claw.
   components:
   - type: GuideHelp
     guides:

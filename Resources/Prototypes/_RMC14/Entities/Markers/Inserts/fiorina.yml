@@ -13,7 +13,7 @@
 - type: entity
   parent: RMCMapInsertFiorinaBase
   id: RMCMapInsertFiorinaPodholder
-  name: "Тримач капсул" # Not mapped
+  name: Podholder # Not mapped
   suffix: Insert Fiorina
   components:
   - type: MapInsert
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCMapInsertFiorinaBase
   id: RMCMapInsertFiorinaRocinanteCLF
-  name: "Росінант — CLF"
+  name: Rocinante - CLF
   suffix: Insert Fiorina
   components:
   - type: MapInsert
@@ -38,7 +38,7 @@
 - type: entity
   parent: RMCMapInsertFiorinaBase
   id: RMCMapInsertFiorinaRiotInProgress
-  name: "Заворушення триває"
+  name: Riot In Progress
   suffix: Insert Fiorina
   components:
   - type: MapInsert

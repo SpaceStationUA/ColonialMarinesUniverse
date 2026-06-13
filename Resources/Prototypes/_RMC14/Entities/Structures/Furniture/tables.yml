@@ -2,8 +2,8 @@
 - type: entity
   parent: TableBase
   id: CMTable
-  name: "стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Зручно щось на неї покласти."
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on.
   components:
   - type: VehicleSmashable
   - type: Corrodible
@@ -62,8 +62,8 @@
 - type: entity
   parent: BaseStructure
   id: RMCLargeTable
-  name: "стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Зручно щось на неї покласти."
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on.
   abstract: true
   components:
   - type: Corrodible
@@ -128,8 +128,8 @@
 - type: entity
   parent: CMTable
   id: CMTableReinforced
-  name: "укріплений стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Ця має бокові панелі, що робить її зручною як письмовий стіл."
+  name: reinforced table
+  description: A square metal surface resting on four legs. This one has side panels, making it useful as a desk.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/reinforced.rsi
@@ -153,7 +153,7 @@
 - type: entity
   parent: CMTableReinforced
   id: CMTableReinforcedRequisition
-  description: "Квадратна металева поверхня, що стоїть на товстій металевій основі."
+  description: A square metal surface resting on its fat metal bottom.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/requisition.rsi
@@ -181,8 +181,8 @@
 - type: entity
   parent: CMTableReinforced
   id: CMTableReinforcedBlack
-  name: "чорний стіл"
-  description: "Витончений чорний металевий стіл. Його ніжки надійно прикручені до підлоги."
+  name: black table
+  description: A sleek black metal table. Its legs are securely bolted to the floor.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/black.rsi
@@ -193,8 +193,8 @@
 - type: entity
   parent: CMTable
   id: CMTableWooden
-  name: "дерев'яний стіл"
-  description: "Квадратна дерев'яна поверхня на чотирьох ніжках. Зручно щось на неї покласти."
+  name: wooden table
+  description: A square wood surface resting on four legs. Useful to put stuff on.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/wood.rsi
@@ -214,8 +214,8 @@
 - type: entity
   parent: CMTableWooden
   id: CMTableWoodenPoor
-  name: "поганий дерев'яний стіл"
-  description: "Не дуже добре зроблена дерев'яна поверхня на чотирьох ніжках. Зручно щось на неї покласти."
+  name: poor wooden table
+  description: A semi-poorly constructed wood surface resting on four legs. Useful to put stuff on.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/poor_wood.rsi
@@ -229,8 +229,8 @@
 - type: entity
   parent: CMTableWooden
   id: CMTableWoodenFancy
-  name: "вишуканий дерев'яний стіл"
-  description: "Гарно виготовлена поверхня з червоного дерева на чотирьох ніжках. Зручно щось на неї покласти."
+  name: fancy wooden table
+  description: A nicely crafted mahogany wood surface resting on four legs. Useful to put stuff on.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/fancy_wood.rsi
@@ -244,8 +244,8 @@
 - type: entity
   parent: CMTableWooden
   id: CMTableWoodenGambling
-  name: "ігровий стіл"
-  description: "Вигнута дерев'яно-килимова поверхня на чотирьох ніжках. Використовується для азартних ігор."
+  name: gambling table
+  description: A curved wood and carpet surface resting on four legs. Used for gambling games.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/gambling.rsi
@@ -259,8 +259,8 @@
 - type: entity
   parent: CMTable
   id: CMTableAlmayer
-  name: "стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Зручно щось на неї покласти. У надзвичайних ситуаціях її можна перекинути, щоб слугувала укриттям."
+  name: table
+  description: A square metal surface resting on four legs. Useful to put stuff on. Can be flipped in emergencies to act as cover.
   suffix: Almayer
   components:
   - type: Sprite
@@ -275,8 +275,8 @@
 - type: entity
   parent: CMTableReinforced
   id: RMCTablePrison
-  name: "стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Ця має бокові панелі, що робить її зручною як письмовий стіл, але неможливо перекинути."
+  name: table
+  description: A square metal surface resting on four legs. This one has side panels, making it useful as a desk, but impossible to flip.
   suffix: Prison
   components:
   - type: Sprite
@@ -318,8 +318,8 @@
 - type: entity
   parent: CMTable
   id: RMCTableHunter
-  name: "стіл"
-  description: "Квадратна металева поверхня на чотирьох ніжках. Ця має бокові панелі, що робить її зручною як письмовий стіл, але неможливо перекинути."
+  name: table
+  description: A square metal surface resting on four legs. This one has side panels, making it useful as a desk, but impossible to flip.
   suffix: Hunter
   components:
   - type: Sprite
@@ -331,8 +331,8 @@
 - type: entity
   parent: RMCLargeTable
   id: RMCLargeTableBar
-  name: "барний стіл"
-  description: "Дерев'яний стіл, що бачив кращі часи. У тріщинах дерева відчувається липкість пролитих напоїв."
+  name: bar table
+  description: A wooden table that has seen better days. There's the stickly sensation of spilled drinks within the cracks of the wood.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/bar.rsi
@@ -343,8 +343,8 @@
   abstract: true
   parent: BaseStructure
   id: RMCTableVariantBase
-  name: "стіл"
-  description: "Варіант стола, розміщений уручну."
+  name: table
+  description: A manually placed table variant.
   components:
   - type: Transform
     anchored: false
@@ -387,7 +387,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableCloth
-  name: "стіл з тканиною"
+  name: cloth-covered table
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -399,7 +399,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothMiddle
-  name: "середина стола з тканиною"
+  name: cloth-covered table middle
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -411,7 +411,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothEnd
-  name: "кінець стола з тканиною"
+  name: cloth-covered table end
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -423,7 +423,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothThick
-  name: "товстий стіл з тканиною"
+  name: cloth-covered thick table
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -435,7 +435,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothDir
-  name: "кут стола з тканиною"
+  name: cloth-covered table corner
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -447,7 +447,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothDir2
-  name: "сегмент стола з тканиною"
+  name: cloth-covered table segment
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -459,7 +459,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableClothDir3
-  name: "з'єднання стола з тканиною"
+  name: cloth-covered table junction
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/cloth.rsi
@@ -471,7 +471,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableTOCEast
-  name: "східний стіл тактичних операцій"
+  name: tactical operations table east
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/toc.rsi
@@ -483,7 +483,7 @@
 - type: entity
   parent: RMCTableVariantBase
   id: RMCTableTOCWest
-  name: "західний стіл тактичних операцій"
+  name: tactical operations table west
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/Tables/toc.rsi
