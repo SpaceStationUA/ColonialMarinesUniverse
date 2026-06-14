@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: RMCMachineScreenBase
-  name: "монітор"
+  name: monitor
   description: ""
   abstract: true
   placement:

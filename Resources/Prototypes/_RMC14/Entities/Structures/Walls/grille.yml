@@ -1,8 +1,8 @@
 - type: entity
   id: RMCGrille
   parent: CMBaseStructure
-  name: "ґрати"
-  description: "Хитка решітка з металевих прутів."
+  name: grille
+  description: A flimsy lattice of metal rods.
   components:
     - type: MeleeSound
       soundGroups:
@@ -100,8 +100,8 @@
 - type: entity
   id: RMCGrilleBroken
   parent: CMBaseStructure
-  name: "ґрати"
-  description: "Хитка решітка з металевих прутів. Бачила й кращі дні."
+  name: grille
+  description: A flimsy lattice of metal rods. It has seen better days.
   components:
     - type: Sprite
       drawdepth: Walls
@@ -135,8 +135,8 @@
 - type: entity
   id: RMCGrilleElectrified
   parent: RMCGrille
-  name: "електрифіковані ґрати"
-  description: "Темні укріплені сітчасті ґрати з попереджувальними смугами, обладнані тесловими котушками для регулювання високовольтного струму. Сильно електрифіковані та небезпечні, коли під напругою."
+  name: electrified grille
+  description: A dark reinforced mesh grille with warning stripes, equipped with Tesla-like coils to regulate high voltage current. It is highly electrified and dangerous when powered.
   components:
     - type: Sprite
       drawdepth: Walls
@@ -173,8 +173,8 @@
 - type: entity
   id: RMCGrilleElectrifiedBroken
   parent: RMCGrilleBroken
-  name: "зламані електрифіковані ґрати"
-  description: "Темні укріплені сітчасті ґрати з попереджувальними смугами, обладнані тесловими котушками для регулювання високовольтного струму. Сильно електрифіковані та небезпечні, коли під напругою. Бачили й кращі дні."
+  name: broken electrified grille
+  description: A dark reinforced mesh grille with warning stripes, equipped with Tesla-like coils to regulate high voltage current. It is highly electrified and dangerous when powered. It has seen better days.
   components:
     - type: Sprite
       drawdepth: Walls

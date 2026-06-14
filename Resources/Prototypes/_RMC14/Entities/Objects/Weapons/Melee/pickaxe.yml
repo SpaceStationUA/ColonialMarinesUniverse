@@ -1,8 +1,8 @@
 - type: entity
   parent: [BaseItem, RMCBaseMeleeWeapon]
   id: RMCPickaxe
-  name: "кайло"
-  description: "Це кайло. Зубцями ідеально заточене для вгризання у скелі."
+  name: pickaxe
+  description: It's a pickaxe. Notched to perfection, for jamming it into rocks.
   suffix: RMC
   components:
   - type: Clothing

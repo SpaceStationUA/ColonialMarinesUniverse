@@ -1,8 +1,8 @@
 - type: entity
   parent: WeaponShotgunM42A1
   id: RMCWeaponShotgunSyracuse
-  name: "помповий дробовик «Сірак'юс»"
-  description: "Модифікований мисливський дробовик «Сірак'юс». Його дерев'яний приклад замінили бакелітовим пістолетним руків'ям, а ствол і трубчастий магазин укоротили вдвічі для зручнішого використання в ближньому бою ціною місткості: тепер він уміщує лише чотири набої в магазині та один у патроннику."
+  name: Syracuse pump-action shotgun
+  description: A customized Syracuse hunting shotgun. Its wooden stock has been replaced with a bakelite pistol grip, and its barrel and magazine tube have been cut down to half their lengths for easier handling in close quarters at the cost of magazine size, only fitting four shells and one chambered.
   components:
   - type: RMCSelectiveFire
     baseFireModes:

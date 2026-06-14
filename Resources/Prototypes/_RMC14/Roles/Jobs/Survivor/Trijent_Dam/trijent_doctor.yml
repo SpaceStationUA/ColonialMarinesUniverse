@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentDoctor
-  name: "спавнер лікаря triджент-вцілілого"
+  name: survivor trijent doctor spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,5 +50,5 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetTrijentDoctor
-  name: "пресет колоніста-лікаря triджент"
+  name: trijent doctor colonist preset
   categories: [ HideSpawnMenu ]

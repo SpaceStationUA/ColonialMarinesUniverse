@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCFlowerVase
-  name: "ваза з червоними та білими квітами"
-  description: "Ваза з квітами, наповнена червоними та білими трояндами."
+  name: vase of red and white flowers
+  description: A flower vase filled with red and white roses.
   components:
     - type: Sprite
       sprite: _RMC14/Objects/Misc/flower_vase.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: RMCFlowerVase
   id: RMCFlowerVaseBlue
-  name: "ваза з блакитними та білими квітами"
-  description: "Ваза з квітами, наповнена блакитними та білими трояндами."
+  name: vase of blue and white flowers
+  description: A flower vase filled with blue and white roses.
   components:
     - type: Sprite
       state: bluewhiteflowers

@@ -47,7 +47,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPVENovaMedicaDoctor
-  name: "спавнер лікаря nova medica"
+  name: nova medica doctor spawn point
   components:
   - type: SpawnPoint
     job_id: RMCPVENovaMedicaDoctor

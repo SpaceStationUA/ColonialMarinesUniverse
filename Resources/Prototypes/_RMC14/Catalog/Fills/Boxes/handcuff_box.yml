@@ -1,8 +1,8 @@
 - type: entity
-  name: "Коробка наручників"
+  name: Box of handcuffs
   parent: RMCBoxCardboard
   id: RMCBoxHandcuffs
-  description: "Коробка, повна наручників"
+  description: A box full of handcuffs
   components:
   - type: StorageFill
     contents:
@@ -12,10 +12,10 @@
     state: handcuff
 
 - type: entity
-  name: "коробка стяжок"
+  name: ziptie box
   parent: RMCBoxHandcuffs
   id: RMCBoxZiptie
-  description: "Коробка, повна стяжок."
+  description: A box full of zipties.
   components:
   - type: StorageFill
     contents:

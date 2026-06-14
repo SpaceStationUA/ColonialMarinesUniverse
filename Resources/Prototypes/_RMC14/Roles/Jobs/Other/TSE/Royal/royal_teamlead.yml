@@ -68,7 +68,7 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesTeamlead
-  name: "королівські морпіхи корони привид-роль лідера команди"
+  name: royal crown marines ghost role team leader
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

@@ -32,7 +32,7 @@
 
 - type: entity
   id: RMCRandomHumanoidCLFMedic
-  name: "привид-роль медика clf"
+  name: clf ghost role medic
   suffix: Spawner, Player
   components:
   - type: Sprite

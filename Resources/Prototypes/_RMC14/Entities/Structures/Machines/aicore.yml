@@ -1,7 +1,7 @@
 - type: entity
   id: RMCAICore
-  name: "ARES v3.2"
-  description: "Це система штучного інтелекту корабля «Алмаєр» ООН. Як і багато інших військових систем ШІ, цю виготовила «Ве-Я»."
+  name: ARES v3.2
+  description: This is the artificial intelligence system for the UNS Almayer. Like many other military-grade AI systems, this one was manufactured by We-Yu.
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -45,8 +45,8 @@
 
 - type: entity
   id: RMCAICoreProcessor
-  name: "Процесор ARES"
-  description: "Зовнішній процесор для ARES, що використовується для обробки величезних обсягів інформації."
+  name: ARES Processor
+  description: An external processor for ARES, used to process vast amounts of information.
   placement:
     mode: SnapgridCenter
   components: #has no collission in 13 they have invisible walls behind it
@@ -102,8 +102,8 @@
 - type: entity
   id: RMCAICoreProcessorBioscan
   parent: RMCAICoreProcessor
-  name: "Процесор ARES (Біоскан)"
-  description: "Зовнішній компонент систем біосканування ARES. Без цього корабель «Алмаєр» ООН не зміг би проводити біосканування!"
+  name: ARES Processor (Bioscan)
+  description: The external component of ARES' Bioscan systems. Without this, the UNS Almayer would be incapable of running bioscans!
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -115,8 +115,8 @@
 - type: entity
   id: RMCAICoreProcessorInterface
   parent: RMCAICoreProcessor
-  name: "Процесор ARES (Інтерфейс)"
-  description: "Зовнішній процесор для ARES; цей виконує основні процеси для взаємодії з екіпажем, включно з радіопередачами та трансляціями."
+  name: ARES Processor (Interface)
+  description: An external processor for ARES; this one handles core processes for interfacing with the crew, including radio transmissions and broadcasts.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -128,8 +128,8 @@
 - type: entity
   id: RMCAICoreProcessorHERMES
   parent: RMCAICoreProcessor
-  name: "Процесор ARES (HERMES)"
-  description: "Зовнішній компонент процесора HERMES ARES. Передусім відповідає за координацію Average Joes і дронів обслуговування. Точно не було вкрадено в Novaris Industries."
+  name: ARES Processor (HERMES)
+  description: The external component of ARES' HERMES processor. Primarily responsible for coordinating Average Joes and Maintenance Drones. It definitely wasn't stolen from Novaris Industries.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -141,8 +141,8 @@
 - type: entity
   id: RMCAICoreCPU
   parent: RMCAICoreProcessor
-  name: "ЦП ARES"
-  description: "Це центральний процесор ARES. Виконаний у корпусі, що витримує ядерні вибухи; ЦП також містить реєстратор чорної скриньки ARES."
+  name: ARES CPU
+  description: This is ARES' central processor. Made of a casing designed to withstand nuclear blasts, the CPU also contains ARES' blackbox recorder.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -154,8 +154,8 @@
 - type: entity
   id: RMCAICoreSubstrate
   parent: RMCAICoreProcessor
-  name: "Субстрат ARES"
-  description: "Субстрат пам'яті ARES, що містить складні протоколи й інформацію. Обмежені можливості можуть працювати лише на субстраті без функціонуючого основного блоку ARES."
+  name: ARES Substrate
+  description: The memory substrate of ARES, containing complex protocols and information. Limited capabilities can operate on substrate alone, without the main ARES Unit operational.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -167,8 +167,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCAIConsoleARES
-  name: "Інтерфейс ARES"
-  description: "Консоль, побудована для взаємодії з ARES, що дозволяє спілкування 1:1."
+  name: ARES Interface
+  description: A console built to interface with ARES, allowing for 1:1 communication.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aicoremachinery.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: RMCAIConsoleARES
   id: RMCAIConsoleInterface
-  name: "консоль інтерфейсу ШІ"
-  description: "Великий, громіздкий комп'ютер, призначений дати користувачу можливість взаємодіяти з ШІ корабля."
+  name: AI interface console
+  description: A large, bulky computer intended to allow the user to interface with the ship's AI.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/AIStuff/aiconsoleinterface.rsi
@@ -191,8 +191,8 @@
 - type: entity
   parent: RMCCommunicationsConsoleBase
   id: RMCAIConsoleHERMES
-  name: "Контролер обслуговування HERMES"
-  description: "Консоль, побудована для полегшення роботи Average Joes, що дозволяє просто розподіляти ресурси."
+  name: HERMES Maintenance Controller
+  description: A console built to facilitate Average Joes and their operation, allowing for simple allocation of resources.
   components:
   - type: Sprite
     drawdepth: SmallObjects
@@ -214,7 +214,7 @@
 - type: entity
   abstract: true
   id: MasterARESLogType
-  name: "журнал системних помилок"
+  name: SYS Error Log
   components:
   - type: ARESLogType
 
@@ -224,7 +224,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabRequisitionsLogs
-  name: "журнали реквізицій"
+  name: Requisitions Logs
   components:
   - type: ARESLogType
     permissions:
@@ -233,7 +233,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabAnnouncementLogs
-  name: "журнали оголошень"
+  name: Announcement Logs
   components:
   - type: ARESLogType
     permissions:
@@ -242,7 +242,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabOrbitalCannonLogs
-  name: "журнали орбітальної гармати"
+  name: Orbital Cannon Logs
   components:
   - type: ARESLogType
     permissions:
@@ -251,7 +251,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabMedicalLogs
-  name: "медичні журнали"
+  name: Medical Logs
   components:
   - type: ARESLogType
     permissions:
@@ -260,7 +260,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabARESLogs
-  name: "журнали АРЕС"
+  name: ARES Logs
   components:
   - type: ARESLogType
     permissions:
@@ -269,7 +269,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabIdentificationLogs
-  name: "журнали ідентифікації"
+  name: Identification Logs
   components:
   - type: ARESLogType
     permissions:
@@ -278,7 +278,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabManufacturingLogs
-  name: "журнали виробництва"
+  name: Manufacturing Logs
   components:
   - type: ARESLogType
     permissions:
@@ -287,7 +287,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabIntelLogs
-  name: "журнали розвідки"
+  name: Intel Logs
   components:
   - type: ARESLogType
     permissions:
@@ -296,7 +296,7 @@
 - type: entity
   parent: MasterARESLogType
   id: ARESTabDropshipLogs
-  name: "журнали десантних кораблів"
+  name: Dropship Logs
   components:
   - type: ARESLogType
     permissions:

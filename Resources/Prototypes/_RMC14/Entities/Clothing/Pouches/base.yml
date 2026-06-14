@@ -4,8 +4,8 @@
 - type: entity
   parent: Clothing
   id: RMCPouch
-  name: "абстрактний підсумок"
-  description: "Фізичне втілення концепції підсумка. Ого."
+  name: abstract pouch
+  description: The physical manifestation of the concept of a pouch. Woah.
   abstract: true
   components:
   - type: Sprite
@@ -35,7 +35,7 @@
 - type: entity
   parent: [RMCPouch, BaseStorageItem]
   id: RMCPouchStorage
-  name: "підсумок для зберігання"
+  name: storage pouch
   abstract: true
   components:
   - type: Storage

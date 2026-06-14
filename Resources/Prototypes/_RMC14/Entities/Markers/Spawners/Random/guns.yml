@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomGunBase
-  name: "спавнер зброї"
-  description: "привіт, тут спавнитиметься випадкова зброя"
+  name: gun spawner
+  description: hi this will spawn a random gun
   suffix: Base
   abstract: true
   components:
@@ -15,8 +15,8 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunPistol
-  name: "спавнер лута пістолета"
-  description: "спавнить пістолет вцілілого та трохи боєприпасів"
+  name: pistol loot spawner
+  description: spawns a surv pistol and some ammo
   suffix: Guaranteed
   components:
   - type: GunSpawner
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunRifle
-  name: "спавнер лута гвинтівки"
-  description: "спавнить гвинтівку вцілілого та трохи боєприпасів"
+  name: rifle loot spawner
+  description: spawns a surv rifle and some ammo
   suffix: Guaranteed
   components:
   - type: Sprite
@@ -148,8 +148,8 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunShotgun
-  name: "спавнер лута дробовика"
-  description: "спавнить дробовик вцілілого та трохи боєприпасів"
+  name: shotgun loot spawner
+  description: spawns a surv shotgun and some ammo
   suffix: Guaranteed
   components:
   - type: Sprite
@@ -210,8 +210,8 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunSMG
-  name: "спавнер лута пістолета-кулемета"
-  description: "спавнить пістолет-кулемет вцілілого та трохи боєприпасів"
+  name: smg loot spawner
+  description: spawns a surv smg and some ammo
   suffix: Guaranteed
   components:
   - type: Sprite
@@ -278,8 +278,8 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomGunSpecial
-  name: "спавнер лута спецзброї"
-  description: "спавнить спецзброю вцілілого та трохи боєприпасів"
+  name: special gun loot spawner
+  description: spawns a surv special gun and some ammo
   suffix: Guaranteed
   components:
   - type: Sprite
@@ -338,8 +338,8 @@
 - type: entity
   parent: RMCSpawnerRandomGunBase
   id: RMCSpawnerRandomAttachment
-  name: "випадковий обвіс"
-  description: "Це випадковий обвіс"
+  name: random attachment
+  description: This is a random attachment
   suffix: Guaranteed
   components:
   - type: Sprite
@@ -378,8 +378,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomShotgunBoxes
-  name: "спавнер коробки набоїв для дробовика"
-  description: "Це коробка набоїв для дробовика."
+  name: shotgun shell box spawner
+  description: This is a shotgun shell box.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -398,8 +398,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomGrenadePackets
-  name: "спавнер випадкових пакетів гранат"
-  description: "Це випадковий пакет гранат."
+  name: random grenade packets spawner
+  description: This is a random grenade packet.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -426,8 +426,8 @@
 - type: entity
   parent: MarkerBase
   id: RMCSpawnerRandomRockets
-  name: "спавнер випадкових ракет"
-  description: "Це випадкова ракета."
+  name: random rockets spawner
+  description: This is a random rocket.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -21,7 +21,7 @@
 
 - type: entity
   id: RMCSpawnZombifiedColonist
-  name: "спавнер зомбі"
+  name: zombie spawner
   suffix: Colonist
   components:
   - type: Sprite

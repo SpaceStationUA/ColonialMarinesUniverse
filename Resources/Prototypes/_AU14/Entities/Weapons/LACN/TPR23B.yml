@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWeaponPistolM1984
   id: AU14WeaponPistolTPR23B
-  name: "пістолет TPR23B"
-  description: "Модернізований варіант службового пістолета M4A3. TPR23B був розроблений у межах ініціативи ЛАКН зі скорочення витрат. Замість закупівлі нової бокової зброї, як КМП США, ЛАКН вирішила модернізувати наявні запаси M4A3 масово виробленими комплектами оновлення. Ця зброя приймає магазини M4A3."
+  name: TPR23B handgun
+  description: A modernized variant of the M4A3 Service Pistol. The TPR23B was developed as part of a cost saving initiative by the LACN. Instead of acquiring new sidearms like the USCM, the LACN opted to retrofit existing M4A3 stocks with massproduced upgrade kits. This weapon takes M4A3 magazines.
   components:
   - type: Tag
     tags:

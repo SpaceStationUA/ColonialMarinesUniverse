@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ BaseMachinePowered, RMCConstructibleMachine ]
   id: RMCTelevision
-  name: "телевізор"
-  description: "Старий телевізор, під'єднаний до відеомагнітофона; можна навіть використовувати його, щоб дивитися ВКВ зі зсувом часу."
+  name: television set
+  description: An old TV hooked up to a video cassette recorder, you can even use it to time shift WOW.
   components:
   - type: Transform
     anchored: true
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCCircuitboardTelevision
-  name: "плата (телевізор)"
-  description: "Машинно надрукована плата для телевізора."
+  name: circuit board (television set)
+  description: A machine printed circuit board for a television set.
   components:
   - type: MachineBoard
     prototype: RMCTelevision
