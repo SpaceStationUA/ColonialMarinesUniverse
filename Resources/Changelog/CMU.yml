@@ -6247,113 +6247,120 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1311
 - author: troytroy400
   changes:
-  - message: WY colony Security roles now properly show up on corporate overwatch.
+  - message: Ролі охорони колонії WY тепер коректно відображаються в корпоративному
+      нагляді.
     type: Fix
-  - message: Rules changed and clarified more.
+  - message: Правила змінено й додатково уточнено.
     type: Admin
   id: 267
   time: '2026-06-14T12:41:23.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1317
 - author: Piticzu
   changes:
-  - message: Added Yautja health shard healing item, replacing healing capsules.
+  - message: Додано цілющий уламок Yautja, який замінює лікувальні капсули.
     type: Add
-  - message: Added Yautja APC siphon ability for bracer recharge.
+  - message: Додано здатність Yautja викачувати енергію з APC для перезарядки
+      браслета.
     type: Add
-  - message: Added ability to overload a dead hunter's bracer to trigger self-destruct.
+  - message: Додано можливість перевантажити браслет мертвого мисливця, щоб запустити
+      самознищення.
     type: Add
-  - message: Added Bad Blood renegade Yautja variant with gear choice UI.
+  - message: Додано варіант Yautja-відступника Поганої Крові з UI вибору спорядження.
     type: Add
-  - message: Added cloak duration, cooldown, and expiry warning system for Bad Bloods.
+  - message: Додано систему тривалості маскування, перезарядки й попередження про
+      завершення для Поганої Крові.
     type: Add
-  - message: Added plasma caster per-mode cooldowns.
+  - message: Додано окремі перезарядки плазмокастера для кожного режиму.
     type: Add
-  - message: Added distract voice emote action.
+  - message: Додано дію голосової емоції відволікання.
     type: Add
-  - message: Added new Yautja audio and reorganized audio file structure.
+  - message: Додано нове аудіо Yautja й реорганізовано структуру аудіофайлів.
     type: Add
-  - message: Reworked Yautja skin color randomization to use HSV ranges.
+  - message: Перероблено випадковий вибір кольору шкіри Yautja з використанням
+      HSV-діапазонів.
     type: Tweak
-  - message: Reworked wrist blades and scimitar weapon sounds.
+  - message: Перероблено звуки наручних клинків і сцимітара.
     type: Tweak
-  - message: Removed emotes using human sounds from Yautjas.
+  - message: Видалено емоції Yautja, що використовували людські звуки.
     type: Remove
   id: 268
   time: '2026-06-14T12:57:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1310
 - author: Squagg
   changes:
-  - message: Added the missing Head Physician colonist role loadout.
+  - message: Додано відсутнє спорядження ролі головного лікаря колонії.
     type: Fix
   id: 269
   time: '2026-06-14T12:58:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1316
 - author: deepdarkdepths
   changes:
-  - message: Queen armor and health increased. Limb sever chances are a flat chance
-      instead of being armor dependent.
+  - message: Збільшено броню та здоров'я Королеви. Шанси відсікання кінцівок тепер
+      фіксовані, а не залежать від броні.
     type: Tweak
-  - message: Despoiler is less vulnerable to fire damage, with armor increased. Hypertension
-      stacks are easier to get and decay less quickly, as well as doing more damage
-      with stacks present.
+  - message: Деспойлер став менш вразливим до шкоди від вогню, а його броню збільшено.
+      Стаки Hypertension легше набираються, повільніше спадають і завдають більше
+      шкоди, коли вони активні.
     type: Tweak
-  - message: Acid runner bomb prime slowdown decreased.
+  - message: Зменшено сповільнення під час підготовки бомби кислотного бігуна.
     type: Tweak
   id: 270
   time: '2026-06-14T13:55:17.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1315
 - author: troytroy400
   changes:
-  - message: Added M20I mines, an incendiary version of the M20. One box is available
-      in the req vend.
+  - message: Додано міни M20I, запалювальну версію M20. Один ящик доступний у
+      постачальному автоматі.
     type: Add
-  - message: The Vulture now does more damage when fired unwielded, has harsher wield
-      slowdown, has a longer wield delay time and generally should be much harder
-      to fire unbipoded.
+  - message: Vulture тепер завдає більше шкоди під час стрільби без утримання,
+      має сильніше сповільнення при утриманні, довшу затримку взяття в руки й
+      загалом має бути значно складнішим для стрільби без сошок.
     type: Tweak
-  - message: All snipers are now incapable of PBing.
+  - message: Усі снайперські гвинтівки тепер не можуть стріляти впритул.
     type: Tweak
-  - message: Claymore boxes now only contain four mines.
+  - message: Ящики Клейморів тепер містять лише чотири міни.
     type: Tweak
-  - message: Synths can no longer get wall hacks (meson goggles) from loadouts.
+  - message: Синтетики більше не можуть отримувати бачення крізь стіни (мезонні
+      окуляри) зі спорядження.
     type: Tweak
   id: 271
   time: '2026-06-14T20:14:13.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1319
 - author: JaSeNeSaJ
   changes:
-  - message: Colony ATMs
+  - message: Банкомати колонії
     type: Add
-  - message: Withdrawal console
+  - message: Консоль зняття коштів
     type: Add
-  - message: Round start plant bags
+  - message: Мішки для рослин на старті раунду
     type: Add
-  - message: Light sticks on logistics roof.
+  - message: Світлові палички на даху логістики.
     type: Add
-  - message: Airlock access to numerous areas
+  - message: Доступ через шлюзи до численних зон
     type: Fix
-  - message: Wrong stair entity in We-Yu lab
+  - message: Неправильна сутність сходів у лабораторії We-Yu
     type: Fix
-  - message: Containment Cell always powered now
+  - message: Камера утримання тепер завжди має живлення
     type: Tweak
-  - message: Evacuation pod direction
+  - message: Напрямок евакуаційної капсули
     type: Fix
-  - message: Hotplate to tavern
+  - message: Плитку до таверни
     type: Add
-  - message: Lights meant to be always powered
+  - message: Світло, яке має бути завжди заживленим
     type: Fix
-  - message: Changed some entity contents from Sugar to RMCSugar
+  - message: Змінено вміст деяких сутностей із Sugar на RMCSugar
     type: Fix
-  - message: Removed Working Joes pending fix
+  - message: Видалено Working Joe до виправлення
     type: Fix
-  - message: Increased armory, pen, and paper for CWPS
+  - message: Збільшено арсенал, кількість ручок і паперу для CWPS
     type: Add
   id: 272
   time: '2026-06-14T20:14:41.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1318
 - author: HolySSSS
   changes:
-  - message: Military Policeman now has his own loadout. Add items of your choosing.
+  - message: Військовий поліцейський тепер має власне спорядження. Додайте предмети
+      на свій вибір.
     type: Add
   id: 273
   time: '2026-06-14T20:15:17.0000000+00:00'
