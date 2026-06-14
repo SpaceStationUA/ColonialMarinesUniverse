@@ -6140,107 +6140,107 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1304
 - author: troytroy400
   changes:
-  - message: Added the M4RA underbarrel flaregun.
+  - message: "Додано підствольний сигнальний пістолет M4RA."
     type: Add
-  - message: Added the M276 'Sam Browne' Duty Belt, available in USCM and CMB CIU
-      Military Police vendors.
+  - message: "Додано службовий пояс M276 «Сем Браун», доступний у вендорах військової
+      поліції ОНМК та CMB CIU."
     type: Add
-  - message: UPP MP fatigues removed from the UPP apparel vendor.
+  - message: "Польову форму ВП СПП прибрано з вендора одягу СПП."
     type: Remove
-  - message: Atmos Scanner/Radio Jammer resprited.
+  - message: "Сканер атмосфери/радіоглушник отримали нові спрайти."
     type: Tweak
   id: 260
   time: '2026-06-13T19:23:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1309
 - author: thoughtlessuser
   changes:
-  - message: GOVFOR. requisitions is now a viable supply chain!
+  - message: "Реквізиції GOVFOR тепер є життєздатним ланцюгом постачання!"
     type: Tweak
   id: 261
   time: '2026-06-13T19:43:28.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1220
 - author: JaSeNeSaJ
   changes:
-  - message: Sheperds' Pride v3
+  - message: "Шепердс Прайд v3"
     type: Map
-  - message: Miscellaneous areas
+  - message: "Різні зони"
     type: Add
-  - message: Miscellaneous areas
+  - message: "Різні зони"
     type: Tweak
-  - message: Sheperds' enabled for distress
+  - message: "Шепердс Прайд увімкнено для сигналів лиха"
     type: Tweak
-  - message: Adjusted role numbers
+  - message: "Скориговано кількість ролей"
     type: Tweak
-  - message: More govfor factions
+  - message: "Додано більше фракцій GOVFOR"
     type: Add
-  - message: M44 Civ gun case
+  - message: "Кейс цивільного M44"
     type: Add
-  - message: Basira gun case
+  - message: "Кейс гвинтівки «Басіра»"
     type: Add
-  - message: ABR40 Civ gun case
+  - message: "Кейс цивільної гвинтівки ABR40"
     type: Add
-  - message: M357 gun case
+  - message: "Кейс M357"
     type: Add
-  - message: Ranger gunlocker (random guns)
+  - message: "Збройова шафа рейнджера (випадкова зброя)"
     type: Add
-  - message: submission point (crop)
+  - message: "Пункт здачі (врожай)"
     type: Add
-  - message: Destroy Carp objective (CLF)
+  - message: "Ціль «Знищити коропа» (ФВК)"
     type: Add
-  - message: 32x64 multiZ stairs (2x solo)
+  - message: "multiZ-сходи 32x64 (2 одиночні)"
     type: Add
-  - message: Random Tree spawners no longer force snap to grid
+  - message: "Випадкові спавнери дерев більше не примусово прив’язуються до сітки"
     type: Tweak
-  - message: Removed duplicate entity x3
+  - message: "Видалено дублікати сутностей x3"
     type: Fix
-  - message: Replaced Comm & Sensor tower entities
+  - message: "Замінено сутності веж зв’язку та сенсорів"
     type: Fix
   id: 262
   time: '2026-06-13T21:18:09.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1308
 - author: johnnny34y
   changes:
-  - message: Added weapon specialist kits for HAZOPS
+  - message: "Додано набори спеціаліста зі зброї для HAZOPS"
     type: Add
   id: 263
   time: '2026-06-13T21:20:42.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1305
 - author: JaSeNeSaJ
   changes:
-  - message: Changed research lab access
+  - message: "Змінено доступ до дослідницької лабораторії"
     type: Fix
   id: 264
   time: '2026-06-14T06:24:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1313
 - author: troytroy400
   changes:
-  - message: Removed upstream figurines.
+  - message: "Видалено upstream-фігурки."
     type: Remove
   id: 265
   time: '2026-06-14T06:29:20.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1314
 - author: maertayn
   changes:
-  - message: Fixed ending/restarting round ignored by the threat vote - giving black
-      screen to threat players
+  - message: "Виправлено ігнорування завершення/перезапуску раунду голосуванням за
+      загрозу, через що гравці загроз отримували чорний екран"
     type: Fix
-  - message: Synths receive Flash Immunity
+  - message: "Синтетики отримують імунітет до яскравих спалахів"
     type: Add
-  - message: Fixed binocular delay for clients? - with a question mark
+  - message: "Виправлено затримку бінокля для клієнтів? - зі знаком питання"
     type: Fix
-  - message: 'Selling crates is back: 15 for a crate & 25 bonus when paper stamped
-      - au14.sell_cargo_rewards (cvar) off to disable'
+  - message: "Продаж ящиків повернувся: 15 за ящик і бонус 25, коли папір проштамповано;
+      au14.sell_cargo_rewards (cvar) вимикає це"
     type: Add
-  - message: Disable bioscans for Insurgency & add abomination+yautja+yautja aboms
-      to scanned threats
+  - message: "Вимкнено біосканування для Insurgency й додано абомінацій, яутжа та
+      яутжа-абомінацій до сканованих загроз"
     type: Fix
-  - message: Imaginary mentors speech isn't recorded by dictaphones anymore
+  - message: "Мова уявних менторів більше не записується диктофонами"
     type: Fix
-  - message: Send players who lost threat vote (due to players leaving queue & scaling
-      changes) back to lobby to JIP
+  - message: "Гравців, які програли голосування за загрозу (через вихід гравців із
+      черги та зміни масштабування), повертає в лобі для JIP"
     type: Fix
-  - message: Crusher charge now ignores low impassable objects (like indestructible
-      computers)
+  - message: "Ривок Дробаря тепер ігнорує низькі непрохідні об’єкти (наприклад, неруйнівні
+      комп’ютери)"
     type: Fix
   id: 266
   time: '2026-06-14T06:29:43.0000000+00:00'
