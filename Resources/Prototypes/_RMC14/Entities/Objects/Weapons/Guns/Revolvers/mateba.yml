@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCBaseSlideMagazineVisualsBallistic, RMCWeaponRevolverBase]
   id: RMCWeaponRevolverMateba
-  name: Mateba autorevolver custom
-  description: The .454 Mateba 6 Unica autorevolver is a semi-automatic handcannon that uses its own recoil to rotate the cylinders. Extremely rare, prohibitively costly, and unyieldingly powerful, it's found in the hands of a select few high-ranking USCMC officials. Stylish, sophisticated, and above all, extremely deadly.
+  name: "Кастомний авторевольвер «Матеба»"
+  description: "Авторевольвер .454 Mateba 6 Unica — це напівавтоматична ручна гармата, що використовує власну віддачу для обертання барабана. Надзвичайно рідкісний, неприпустимо дорогий і непохитно потужний, він зустрічається в руках обраних високопосадовців КМП США. Стильний, витончений і, передусім, надзвичайно смертоносний."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mateba/jungle.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: RMCWeaponRevolverMateba
   id: RMCWeaponRevolverMatebaGold
-  name: golden Mateba autorevolver custom
-  description: Boasting a gold-plated frame and grips made of a critically-endangered rosewood tree, this heavily-customized Mateba revolver's pretentious design rivals only the power of its wielder. Fit for a king. Or a general.
+  name: "золотий кастомний авторевольвер «Матеба»"
+  description: "Хизуючись позолоченою рамою та рукоятками з критично зникаючого розового дерева, претензійний дизайн цього сильно кастомізованого револьвера «Матеба» поступається лише потужності свого власника. Гідно короля. Або генерала."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mateba_gold.rsi
@@ -147,8 +147,8 @@
 - type: entity
   parent: RMCWeaponRevolverMateba
   id: RMCWeaponRevolverMatebaSpecial
-  name: Mateba autorevolver special
-  description: An old, heavily modified version of the Mateba Autorevolver. It sports a smooth wooden grip, and a much larger barrel to it's unmodified counterpart. It's clear that this weapon has been cared for over a long period of time.
+  name: "Особливий авторевольвер «Матеба»"
+  description: "Стара, сильно модифікована версія Авторевольвера «Матеба». Має гладку дерев'яну рукоятку і значно довший ствол порівняно з немодифікованим аналогом. Очевидно, що за цією зброєю довго доглядали."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Pistols/mateba_special.rsi
@@ -195,7 +195,7 @@
 
 - type: entity
   id: RMCBaseSpeedLoaderMateba
-  name: "Mateba speed loader (.454)" #Base
+  name: "Спідлоадер «Матеба» (.454)" #Base
   parent: BaseItem
   abstract: true
   components:
@@ -220,8 +220,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba #Normal Loader
   id: RMCSpeedLoaderMateba
-  name: "Mateba speed loader (.454)"
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. Packs a devastating punch. This standard-variant is optimized for anti-armor.
+  name: "Спідлоадер «Матеба» (.454)"
+  description: "Грізний спідлоадер .454, виготовлений ексклюзивно для авторевольвера «Матеба». Має нищівну силу удару. Цей стандартний варіант оптимізований для протиброньової дії."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -242,8 +242,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba
   id: RMCSpeedLoaderMatebaHighImpact #High impact
-  name: High Impact Mateba speed loader (.454).
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. Packs a devastating punch. This high impact variant is optimized for anti-personnel. Don't point at anything you don't want to destroy.
+  name: "Високоударний спідлоадер «Матеба» (.454)"
+  description: "Грізний спідлоадер .454, виготовлений ексклюзивно для авторевольвера «Матеба». Має нищівну силу удару. Цей високоударний варіант оптимізований для протипіхотного використання. Не наводь на те, що не хочеш знищити."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba
   id: RMCSpeedLoaderMatebaHIAP #High impact Armor Piercing
-  name: High Impact Armor-Piercing Mateba speed loader (.454).
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. Packs a devastating punch. This armor-piercing variant is optimized against armored targets at the cost of lower overall damage. Don't point at anything you don't want to destroy.
+  name: "Високоударний бронебійний спідлоадер «Матеба» (.454)"
+  description: "Грізний спідлоадер .454, виготовлений ексклюзивно для авторевольвера «Матеба». Має нищівну силу удару. Цей бронебійний варіант оптимізований проти броньованих цілей ціною нижчого загального ушкодження. Не наводь на те, що не хочеш знищити."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -292,8 +292,8 @@
 - type: entity
   parent: RMCBaseSpeedLoaderMateba
   id: RMCSpeedLoaderMatebaHE #High Explosive (Brig gen+ people only like commander of the marine corps)
-  name: Mateba explosive speed loader (.454).
-  description: A formidable .454 speedloader, made exclusively for the Mateba autorevolver. There's an impact charge built into the bullet tip. Firing this at anything will result in a powerful explosion. Use with EXTREME caution.
+  name: "Вибуховий спідлоадер «Матеба» (.454)"
+  description: "Грізний спідлоадер .454, виготовлений ексклюзивно для авторевольвера «Матеба». У наконечнику кулі вбудовано ударний заряд. Стрільба цим у будь-що спричинить потужний вибух. Використовувати з НАДЗВИЧАЙНОЮ обережністю."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/SpeedLoaders/mateba.rsi
@@ -318,7 +318,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMateba #Normal
-  name: cartridge (.454)
+  name: "набій (.454)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -330,7 +330,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMatebaHighImpact #High impact
-  name: cartridge (.454) HighImpact
+  name: "набій (.454) HighImpact"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -342,7 +342,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMatebaHIAP #High impact Armor Piercing
-  name: cartridge (.454) HIAP
+  name: "набій (.454) HIAP"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -354,7 +354,7 @@
 
 - type: entity
   id: RMCCartridgeRevolverMatebaHE #High Explosive
-  name: cartridge (.454) HE
+  name: "набій (.454) HE"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -367,7 +367,7 @@
 - type: entity
   parent: CMBulletBase #Base bullet
   id: RMCBulletMateba
-  name: bullet (.454)
+  name: "куля (.454)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -382,7 +382,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletMatebaHighImpact #High impact
-  name: bullet (.454) High Impact
+  name: "куля (.454) High Impact"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -411,7 +411,7 @@
 - type: entity
   parent: RMCBulletMatebaHighImpact
   id: RMCBulletMatebaHighImpactArmorPiercing #HIAP
-  name: bullet (.454) HIAP
+  name: "куля (.454) HIAP"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -424,7 +424,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletMatebaHighExplosive #Explosive
-  name: bullet (.454) HIAP
+  name: "куля (.454) HIAP"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile
@@ -445,8 +445,8 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCMatebaCustomizationCase
-  name: mateba customization kit case
-  description: A wooden case used for storing the tools and parts needed to customize a Mateba revolver. Comes with three barrel lengths and the necessary key to swap them out.
+  name: "кейс для кастомізації Матеба"
+  description: "Дерев'яний кейс для зберігання інструментів і деталей для кастомізації револьвера Матеба. Поставляється з трьома стволами різної довжини та необхідним ключем для їх заміни."
   components:
   - type: Item
     size: Normal
@@ -478,7 +478,7 @@
   parent: RMCMatebaCustomizationCase
   id: RMCMatebaCustomizationCaseWeapon
   suffix: Filled, Mateba
-  description: A wooden case used for storing the tools and parts needed to customize a Mateba revolver. Comes with three barrel lengths, necessary key to swap them out, and the mateba handcannon itself.
+  description: "Дерев'яний кейс для зберігання інструментів і деталей для кастомізації револьвера Матеба. Поставляється з трьома стволами різної довжини, необхідним ключем для їх заміни і самою ручною гарматою Матеба."
   components:
   - type: IgnoreContentsSize
     items:
@@ -501,8 +501,8 @@
 - type: entity
   parent: RMCMatebaCustomizationCase
   id: RMCMatebaCustomizationCaseLuxury
-  name: luxurious mateba customization kit case
-  description: A black case used for storing the tools and parts needed to customize a Mateba revolver. This variant is made for general-grade golden Matebas and comes with golden barrel attachments
+  name: "розкішний кейс для кастомізації Матеба"
+  description: "Чорний кейс для зберігання інструментів і деталей для кастомізації револьвера Матеба. Цей варіант створений для генеральських золотих Матеба і поставляється із золотими ствольними приставками"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/mateba_kit.rsi
@@ -527,7 +527,7 @@
 - type: entity
   parent: RMCMatebaCustomizationCaseWeapon
   id: RMCMatebaCustomizationCaseLuxuryWeapon
-  description: A black case used for storing the tools and parts needed to customize a Mateba revolver. This variant is made for general-grade golden Matebas and comes with golden barrel attachments, and the mateba handcannon itself.
+  description: "Чорний кейс для зберігання інструментів і деталей для кастомізації револьвера Матеба. Цей варіант створений для генеральських золотих Матеба і поставляється із золотими ствольними приставками і самою ручною гарматою Матеба."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/mateba_kit.rsi

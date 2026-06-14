@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesCargoTech
-  name: warehouse worker spawn point
+  name: "спавнер складського працівника"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -58,7 +58,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesCargoTech
-  name: warehouse worker ghost role
+  name: "привид-роль складського працівника"
   components:
   - type: Sprite
     layers:

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ProdigyLaptop
-  name: Prodigy Advanced Systems Tampering System (PASTS)
-  description: A ruggedized military laptop used for remote control and programming made by Prodigy Security Corp. Can be placed on tables for easier access. Works as a sentry laptop as well!
+  name: "система втручання Prodigy Advanced Systems (PASTS)"
+  description: "Зміцнений військовий ноутбук для дистанційного керування та програмування, виготовлений Prodigy Security Corp. Для зручнішого доступу його можна ставити на столи. Також працює як ноутбук для турелей!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/sentrycomp.rsi

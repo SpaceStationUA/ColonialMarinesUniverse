@@ -1,8 +1,8 @@
 - type: entity
   parent: [ClothingMaskBase, BaseFoldable]
   id: AU14MaskLACNPilotOxygen
-  name: LACN LAH-99 Oxygen Mask
-  description: A mask attached to LACN LAH-99 helmets to provide aircrew with breathable oxygen.
+  name: "киснева маска ЛАКН LAH-99"
+  description: "Маска, що кріпиться до шоломів ЛАКН LAH-99, щоб забезпечити екіпаж придатним для дихання киснем."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/PilotGear/mask.rsi

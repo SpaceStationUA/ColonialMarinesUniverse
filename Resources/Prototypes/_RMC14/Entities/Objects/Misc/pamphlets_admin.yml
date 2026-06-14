@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminAntagonist1
-  name: antagonist 1 instructional pamphlet
+  name: "інструктивна брошура антагоніста 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminAntagonist2
-  name: antagonist 2 instructional pamphlet
+  name: "інструктивна брошура антагоніста 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminConstruction1
-  name: construction 1 instructional pamphlet
+  name: "інструктивна брошура будівництва 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminConstruction2
-  name: construction 2 instructional pamphlet
+  name: "інструктивна брошура будівництва 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -52,7 +52,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminConstruction3
-  name: construction 3 instructional pamphlet
+  name: "інструктивна брошура будівництва 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -63,7 +63,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminCQC1
-  name: cqc 1 instructional pamphlet
+  name: "інструктивна брошура рукопашного бою 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -72,7 +72,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminCQC2
-  name: cqc 2 instructional pamphlet
+  name: "інструктивна брошура рукопашного бою 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminCQC3
-  name: cqc 3 instructional pamphlet
+  name: "інструктивна брошура рукопашного бою 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminCQC4
-  name: cqc 4 instructional pamphlet
+  name: "інструктивна брошура рукопашного бою 4"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminCQC5
-  name: cqc 5 instructional pamphlet
+  name: "інструктивна брошура рукопашного бою 5"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -110,7 +110,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminDomestics1
-  name: domestics 1 instructional pamphlet
+  name: "інструктивна брошура побуту 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminDomestics2
-  name: domestics 2 instructional pamphlet
+  name: "інструктивна брошура побуту 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEndurance1
-  name: endurance 1 instructional pamphlet
+  name: "інструктивна брошура витривалості 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEndurance2
-  name: endurance 2 instructional pamphlet
+  name: "інструктивна брошура витривалості 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -148,7 +148,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEndurance3
-  name: endurance 3 instructional pamphlet
+  name: "інструктивна брошура витривалості 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEndurance4
-  name: endurance 4 instructional pamphlet
+  name: "інструктивна брошура витривалості 4"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEndurance5
-  name: endurance 5 instructional pamphlet
+  name: "інструктивна брошура витривалості 5"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEngineer1
-  name: engineer 1 instructional pamphlet
+  name: "інструктивна брошура інженера 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -186,7 +186,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEngineer2
-  name: engineer 2 instructional pamphlet
+  name: "інструктивна брошура інженера 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -195,7 +195,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEngineer3
-  name: engineer 3 instructional pamphlet
+  name: "інструктивна брошура інженера 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -204,7 +204,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminEngineer4
-  name: engineer 4 instructional pamphlet
+  name: "інструктивна брошура інженера 4"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminExecution1
-  name: execution 1 instructional pamphlet
+  name: "інструктивна брошура страти 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -226,7 +226,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFirearms1
-  name: firearms 1 instructional pamphlet
+  name: "інструктивна брошура вогнепальної зброї 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -235,7 +235,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFirearms2
-  name: firearms 2 instructional pamphlet
+  name: "інструктивна брошура вогнепальної зброї 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -244,7 +244,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFirearms3
-  name: firearms 3 instructional pamphlet
+  name: "інструктивна брошура вогнепальної зброї 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -255,7 +255,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFireman1
-  name: fireman 1 instructional pamphlet
+  name: "інструктивна брошура пожежника 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -264,7 +264,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFireman2
-  name: fireman 2 instructional pamphlet
+  name: "інструктивна брошура пожежника 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -273,7 +273,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFireman3
-  name: fireman 3 instructional pamphlet
+  name: "інструктивна брошура пожежника 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -282,7 +282,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFireman4
-  name: fireman 4 instructional pamphlet
+  name: "інструктивна брошура пожежника 4"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -291,7 +291,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminFireman5
-  name: fireman 5 instructional pamphlet
+  name: "інструктивна брошура пожежника 5"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -302,7 +302,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminIntel1
-  name: intel 1 instructional pamphlet
+  name: "інструктивна брошура розвідки 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -311,7 +311,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminIntel2
-  name: intel 2 instructional pamphlet
+  name: "інструктивна брошура розвідки 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -322,7 +322,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminJtac1
-  name: jtac 1 instructional pamphlet
+  name: "інструктивна брошура jtac 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -331,7 +331,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminJtac2
-  name: jtac 2 instructional pamphlet
+  name: "інструктивна брошура jtac 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -340,7 +340,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminJtac3
-  name: jtac 3 instructional pamphlet
+  name: "інструктивна брошура jtac 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -349,7 +349,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminJtac4
-  name: jtac 4 instructional pamphlet
+  name: "інструктивна брошура jtac 4"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -360,7 +360,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminLeadership1
-  name: leadership 1 instructional pamphlet
+  name: "інструктивна брошура лідерства 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -371,7 +371,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminLeadership2
-  name: leadership 2 instructional pamphlet
+  name: "інструктивна брошура лідерства 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -382,7 +382,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminLeadership3
-  name: leadership 3 instructional pamphlet
+  name: "інструктивна брошура лідерства 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -396,7 +396,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminMedical1
-  name: medical 1 instructional pamphlet
+  name: "інструктивна брошура медицини 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -405,7 +405,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminMedical2
-  name: medical 2 instructional pamphlet
+  name: "інструктивна брошура медицини 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -414,7 +414,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminMedical3
-  name: medical 3 instructional pamphlet
+  name: "інструктивна брошура медицини 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -423,7 +423,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminMedical4
-  name: medical 4 instructional pamphlet
+  name: "інструктивна брошура медицини 4"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -434,7 +434,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminMeleeWeapons1
-  name: melee weapons 1 instructional pamphlet
+  name: "інструктивна брошура холодної зброї 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -443,7 +443,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminMeleeWeapons2
-  name: melee weapons 2 instructional pamphlet
+  name: "інструктивна брошура холодної зброї 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -454,7 +454,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminNavigations1
-  name: navigations 1 instructional pamphlet
+  name: "інструктивна брошура навігації 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -465,7 +465,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminOverwatch1
-  name: overwatch 1 instructional pamphlet
+  name: "інструктивна брошура спостереження 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -476,7 +476,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminPilot1
-  name: pilot 1 instructional pamphlet
+  name: "інструктивна брошура пілотування 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -485,7 +485,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminPilot2
-  name: pilot 2 instructional pamphlet
+  name: "інструктивна брошура пілотування 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -496,7 +496,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminPolice1
-  name: police 1 instructional pamphlet
+  name: "інструктивна брошура поліції 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -505,7 +505,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminPolice2
-  name: police 2 instructional pamphlet
+  name: "інструктивна брошура поліції 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -516,7 +516,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminPowerLoader1
-  name: power loader 1 instructional pamphlet
+  name: "інструктивна брошура силового завантажувача 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -525,7 +525,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminPowerLoader2
-  name: power loader 2 instructional pamphlet
+  name: "інструктивна брошура силового завантажувача 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -536,7 +536,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminResearch1
-  name: research 1 instructional pamphlet
+  name: "інструктивна брошура досліджень 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -547,7 +547,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminSmartGun1
-  name: smart gun 1 instructional pamphlet
+  name: "інструктивна брошура смартгана 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -558,7 +558,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminWeaponsSpecialistDemolitionist
-  name: demolitionist specialist instructional pamphlet
+  name: "інструктивна брошура спеціаліста-підривника"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -569,7 +569,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminWeaponsSpecialistGrenadier
-  name: grenadier specialist instructional pamphlet
+  name: "інструктивна брошура спеціаліста-гренадера"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -580,7 +580,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminWeaponsSpecialistPyro
-  name: pyro specialist instructional pamphlet
+  name: "інструктивна брошура спеціаліста-піротехніка"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -591,7 +591,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminWeaponsSpecialistScout
-  name: scout specialist instructional pamphlet
+  name: "інструктивна брошура спеціаліста-розвідника"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -602,7 +602,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminWeaponsSpecialistSniper
-  name: sniper specialist instructional pamphlet
+  name: "інструктивна брошура спеціаліста-снайпера"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -615,7 +615,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminSurgery1
-  name: surgery 1 instructional pamphlet
+  name: "інструктивна брошура хірургії 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -624,7 +624,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminSurgery2
-  name: surgery 2 instructional pamphlet
+  name: "інструктивна брошура хірургії 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -633,7 +633,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminSurgery3
-  name: surgery 3 instructional pamphlet
+  name: "інструктивна брошура хірургії 3"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -644,7 +644,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminVehicles1
-  name: vehicles 1 instructional pamphlet
+  name: "інструктивна брошура транспорту 1"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -653,7 +653,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminVehicles2
-  name: vehicles 2 instructional pamphlet
+  name: "інструктивна брошура транспорту 2"
   components:
   - type: SkillPamphlet
     addSkills:
@@ -662,7 +662,7 @@
 - type: entity
   parent: RMCPamphletAdmin
   id: RMCPamphletAdminVehicles3
-  name: vehicles 3 instructional pamphlet
+  name: "інструктивна брошура транспорту 3"
   components:
   - type: SkillPamphlet
     addSkills:

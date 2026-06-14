@@ -94,7 +94,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSquadLeader
-  name: squad leader spawn point
+  name: "спавнер лідера загону"
   components:
   - type: SpawnPoint
     job_id: CMSquadLeader
@@ -166,8 +166,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSL
-  name: The Squad Leader
-  description: The Squad Leader
+  name: "Лідер загону"
+  description: "Лідер загону"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -175,7 +175,7 @@
 
 - type: entity
   id: RMCGuidebookActionMove
-  name: Move order
+  name: "Наказ «Рух»"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -184,7 +184,7 @@
 
 - type: entity
   id: RMCGuidebookActionHold
-  name: Hold order
+  name: "Наказ «Утримувати»"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -193,7 +193,7 @@
 
 - type: entity
   id: RMCGuidebookActionFocus
-  name: Focus order
+  name: "Наказ «Фокус»"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

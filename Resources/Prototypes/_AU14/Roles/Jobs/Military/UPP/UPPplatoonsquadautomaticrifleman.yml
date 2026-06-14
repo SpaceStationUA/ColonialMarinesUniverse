@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRiflemanUPP
-  name: Machine Gunner
+  name: "Кулеметник"
   spawnMenuRoleName: Automatic Rifleman (UPP)
   ranks:
     UPP_Gefreiter:

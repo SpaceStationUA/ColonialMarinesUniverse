@@ -1,7 +1,7 @@
 - type: entity
   parent: [FireAxe, RMCBaseMeleeWeapon]
   id: RMCFireAxe
-  name: fire axe
+  name: "пожежна сокира"
   suffix: RMC
   components:
   - type: Sprite
