@@ -16,12 +16,12 @@
 - type: partySpawn
   id: badBloodClanParty
   leadersToSpawn:
-    CMUMobYautja: 1
+    CMUMobYautjaBadBloodLeader: 1
   # we have low online, 3 yautja for our fork is too much
   # gruntsToSpawn:
-  #   CMUMobYautja: 2
+  #   CMUMobYautjaBadBloodGrunt: 2
   scaling:
-    CMUMobYautja:
+    CMUMobYautjaBadBloodGrunt:
       scale: 0.05
       # whenToBeginScaling: 40
       whenToBeginScaling: 20
