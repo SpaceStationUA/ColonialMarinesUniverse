@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Slime
-  name: "slime"
+  name: "слизень"
   root: torso
   slots:
     head:

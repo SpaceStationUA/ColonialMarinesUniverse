@@ -1,7 +1,7 @@
 - type: job
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantCMBCIU
-  name: Team Leader
+  name: "Командир групи"
   spawnMenuRoleName: Squad Sergeant (CMBCIU)
   overwatchRoleName: Squad Sergeant
   ranks:

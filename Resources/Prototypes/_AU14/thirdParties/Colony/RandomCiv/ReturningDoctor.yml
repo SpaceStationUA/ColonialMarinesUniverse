@@ -47,7 +47,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobReturningDoctor
-  name: Returning Colonist (doctor)
+  name: "колоніст, що повернувся (лікар)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -55,7 +55,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Returning Colonist (doctor)
+    name: "колоніст, що повернувся (лікар)"
     description: You are a local colonist that is returning to the colony. You were on vacations, went to work abroad or any other factinating story. But no one cares now. Get back to work.
     reregister: false
     job: AU14JobReturningDoctor
@@ -65,7 +65,7 @@
 
 - type: entity
   id: AU14ReturningDoctorPreset
-  name: returning doctor preset
+  name: "пресет лікаря, що повернувся"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

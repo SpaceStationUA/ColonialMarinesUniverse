@@ -33,7 +33,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesGoon
-  name: chances goon spawn point
+  name: "спавнер бандита chances"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -51,7 +51,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesGoon
-  name: chances claim corporate security ghost role
+  name: "привид-роль корпоративної охорони chances claim"
   components:
   - type: Sprite
     layers:

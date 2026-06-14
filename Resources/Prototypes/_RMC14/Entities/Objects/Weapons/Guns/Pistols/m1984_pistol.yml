@@ -1,8 +1,8 @@
 - type: entity
   parent: [ RMCBaseSlideMagazineVisuals, CMWeaponPistolBase ]
   id: CMWeaponPistolM1984
-  name: M4A3 service pistol
-  description: An M4A3 Service Pistol, once the standard issue sidearm of the Marines but has recently been replaced with the Mod 88 combat pistol. Fires 9mm pistol rounds.
+  name: "службовий пістолет M4A3"
+  description: "Службовий пістолет M4A3, колись стандартний штатний пістолет Морпіхів, але нещодавно замінений на бойовий пістолет Mod 88. Стріляє пістолетними набоями 9мм."
   components:
   - type: Tag
     tags:
@@ -84,7 +84,7 @@
 - type: entity
   parent: CMBaseMagazinePistol
   id: CMMagazinePistolM1984
-  name: M4A3 magazine (9mm)
+  name: "Магазин M4A3 (9мм)"
   components:
   - type: Tag
     tags:
@@ -113,7 +113,7 @@
 - type: entity
   parent: CMBulletBase
   id: CMBulletPistol9mm
-  name: bullet (9mm)
+  name: "куля (9мм)"
   components:
   - type: Projectile
     damage:
@@ -124,7 +124,7 @@
 
 - type: entity
   id: CMCartridgePistol9mm
-  name: cartridge (9mm)
+  name: "набій (9мм)"
   parent: CMCartridgePistolBase
   components:
   - type: Tag
@@ -138,8 +138,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984AP
-  name: M4A3 AP magazine (9mm)
-  description: A pistol magazine. This one contains armor-piercing bullets, which have noticeably higher stopping power on well-armored targets, and noticeably less on unarmored or lightly-armored targets.
+  name: "Бронебійний магазин M4A3 (9мм)"
+  description: "Пістолетний магазин. Цей містить бронебійні кулі, які мають помітно вищу зупиняючу силу на добре броньованих цілях і помітно меншу — на броньованих чи легко броньованих цілях."
   components:
   - type: Tag
     tags:
@@ -169,8 +169,8 @@
 - type: entity
   parent: CMMagazinePistolM1984
   id: RMCMagazinePistolM1984HP
-  name: M4A3 hollowpoint magazine (9mm)
-  description: A hollow-point 9mm pistol magazine for the M4A3. These hollow-point bullets have noticeably higher stopping power on unarmored targets, and noticeably less on armored targets.
+  name: "Експансивний магазин M4A3 (9мм)"
+  description: "Експансивний пістолетний магазин 9мм для M4A3. Ці експансивні кулі мають помітно вищу зупиняючу силу на неброньованих цілях і помітно меншу — на броньованих."
   components:
   - type: BallisticAmmoProvider
     whitelist:
@@ -190,7 +190,7 @@
 - type: entity
   parent: CMCartridgePistol9mm
   id: RMCCartridgePistol9mmHP
-  name: cartridge (9mm HP)
+  name: "набій (9мм HP)"
   components:
   - type: Tag
     tags:
@@ -202,7 +202,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletPistol9mmHP
-  name: bullet (9mm HP)
+  name: "куля (9мм HP)"
   components:
   - type: Projectile
     damage:

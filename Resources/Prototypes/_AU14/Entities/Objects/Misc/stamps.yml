@@ -4,8 +4,8 @@
   parent: RubberStampBase
   id: AU14StampBase
   abstract: true
-  name: rubber stamp
-  description: A rubber stamp for stamping important documents.
+  name: "гумова печатка"
+  description: "Гумова печатка для штампування важливих документів."
   components:
   - type: Item
     heldPrefix: stamp
@@ -21,7 +21,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampAO
-  name: adjutant's rubber stamp
+  name: "гумова печатка ад'ютанта"
   components:
   - type: Sprite
     state: stamp-hop
@@ -33,7 +33,7 @@
 - type: entity
   parent: AU14StampAO
   id: AU14StampCO
-  name: commanding officer's rubber stamp
+  name: "гумова печатка командира"
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-au14-co
@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampSO
-  name: staff officer's rubber stamp
+  name: "гумова печатка штабного офіцера"
   components:
   - type: Sprite
     state: stamp-ce
@@ -53,7 +53,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampIO
-  name: intelligence officer's rubber stamp
+  name: "гумова печатка офіцера розвідки"
   components:
   - type: Sprite
     state: stamp-clown
@@ -65,7 +65,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampCMP
-  name: military police officer's rubber stamp
+  name: "гумова печатка офіцера військової поліції"
   components:
   - type: Sprite
     state: stamp-hos
@@ -77,7 +77,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampMO
-  name: medical officer's rubber stamp
+  name: "гумова печатка медичного офіцера"
   components:
   - type: Sprite
     state: stamp-cmo
@@ -89,7 +89,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampAUX
-  name: auxiliary technician's rubber stamp
+  name: "гумова печатка допоміжного техніка"
   components:
   - type: Sprite
     state: stamp-ro
@@ -101,7 +101,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampEO
-  name: engineering officer's rubber stamp
+  name: "гумова печатка інженерного офіцера"
   components:
   - type: Sprite
     state: stamp-ce
@@ -113,7 +113,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampSEA
-  name: advisor's rubber stamp
+  name: "гумова печатка радника"
   components:
   - type: Sprite
     state: stamp-sea
@@ -127,7 +127,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampLiaison
-  name: corporate liaison's rubber stamp
+  name: "гумова печатка корпоративного зв'язкового"
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -139,7 +139,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampLLiaison
-  name: laselle liaison's rubber stamp
+  name: "гумова печатка зв'язкового Ласель"
   components:
   - type: Sprite
     state: stamp-rd
@@ -151,7 +151,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampUAA
-  name: ua ambassador's rubber stamp
+  name: "гумова печатка посла ОА"
   components:
   - type: Sprite
     state: stamp-marine
@@ -163,7 +163,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampUPPA
-  name: upp ambassador's rubber stamp
+  name: "гумова печатка посла СПП"
   components:
   - type: Sprite
     state: stamp-spp
@@ -175,7 +175,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampTWEA
-  name: twe ambassador's rubber stamp
+  name: "гумова печатка посла ІТС"
   components:
   - type: Sprite
     state: stamp-tse
@@ -187,7 +187,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampISCSA
-  name: iscs ambassador's rubber stamp
+  name: "гумова печатка посла МККС"
   components:
   - type: Sprite
     state: stamp-rd
@@ -199,7 +199,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampCCAA
-  name: cca ambassador's rubber stamp
+  name: "гумова печатка посла ККА"
   components:
   - type: Sprite
     state: stamp-cap
@@ -213,7 +213,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampAdmin
-  name: colony administrator's rubber stamp
+  name: "гумова печатка адміністратора колонії"
   components:
   - type: Sprite
     state: stamp-hop
@@ -225,7 +225,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampFore
-  name: foreman's rubber stamp
+  name: "гумова печатка майстра"
   components:
   - type: Sprite
     state: stamp-ro
@@ -237,7 +237,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampHENG
-  name: head of engineering rubber stamp
+  name: "гумова печатка голови інженерії"
   components:
   - type: Sprite
     state: stamp-ce
@@ -249,7 +249,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampHOS
-  name: head of service rubber stamp
+  name: "гумова печатка голови сервісу"
   components:
   - type: Sprite
     state: stamp-cap
@@ -261,7 +261,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampHPHY
-  name: head physician's rubber stamp
+  name: "гумова печатка головного лікаря"
   components:
   - type: Sprite
     state: stamp-cmo
@@ -273,7 +273,7 @@
 - type: entity
   parent: AU14StampCMB
   id: AU14StampCMBM
-  name: cmb marshal's rubber stamp
+  name: "гумова печатка маршала БКМ"
   components:
   - type: Sprite
     state: stamp-hos
@@ -283,7 +283,7 @@
 - type: entity
   parent: AU14StampLiaison
   id: AU14StampKelland
-  name: kelland warden's rubber stamp
+  name: "гумова печатка наглядача Келланд"
   components:
   - type: Sprite
     state: stamp-we_ya
@@ -294,7 +294,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampJoe
-  name: working joe's rubber stamp
+  name: "гумова печатка Робочого Джо"
   components:
   - type: Sprite
     state: stamp-free-press
@@ -306,7 +306,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampRecruiter
-  name: ua recruiter's rubber stamp
+  name: "гумова печатка рекрутера ОА"
   components:
   - type: Sprite
     state: stamp-marine
@@ -320,7 +320,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampOrbitalMan
-  name: orbital manager's rubber stamp
+  name: "гумова печатка орбітального менеджера"
   components:
   - type: Sprite
     state: stamp-rd
@@ -332,7 +332,7 @@
 - type: entity
   parent: AU14StampOrbitalMan
   id: AU14StampOrbitalArb
-  name: orbital arbiter's rubber stamp
+  name: "гумова печатка орбітального арбітра"
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-au14-oarb
@@ -340,7 +340,7 @@
 - type: entity
   parent: AU14StampOrbitalMan
   id: AU14StampOrbitalCnsl
-  name: orbital counsel's rubber stamp
+  name: "гумова печатка орбітального радника"
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-au14-ocnsl
@@ -352,7 +352,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampInterstellarObserver
-  name: ihro rubber stamp
+  name: "гумова печатка МПЛО"
   components:
   - type: Sprite
     state: stamp-provost
@@ -364,7 +364,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampNSPA
-  name: nspa inspector's rubber stamp
+  name: "гумова печатка інспектора НСПА"
   components:
   - type: Sprite
     state: stamp-provost
@@ -376,7 +376,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampProvostInspector
-  name: provost inspector rubber stamp
+  name: "гумова печатка інспектора Прево"
   components:
   - type: Sprite
     state: stamp-provost
@@ -388,7 +388,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampInterstellarLiaison
-  name: icc liaison's rubber stamp
+  name: "гумова печатка зв'язкового МКК"
   components:
   - type: Sprite
     state: stamp-provost
@@ -402,7 +402,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampCLFCell
-  name: cell lead's rubber stamp
+  name: "гумова печатка командира осередку"
   suffix: CLF
   components:
   - type: Sprite
@@ -417,7 +417,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampApproved
-  name: APPROVED rubber stamp
+  name: "гумова печатка СХВАЛЕНО"
   components:
   - type: Sprite
     state: stamp-approve
@@ -429,7 +429,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampDenied
-  name: DENIED rubber stamp
+  name: "гумова печатка ВІДМОВЛЕНО"
   components:
   - type: Sprite
     state: stamp-deny
@@ -443,7 +443,7 @@
 - type: entity
   parent: AU14StampLiaison
   id: AU14StampWeYu
-  name: weyland-yutani rubber stamp
+  name: "гумова печатка Вейленд-Ютані"
   suffix: Admin
   components:
   - type: Stamp
@@ -452,7 +452,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampMarine
-  name: marine rubber stamp
+  name: "гумова печатка морпіхів"
   suffix: Admin, UNMC
   components:
   - type: Sprite
@@ -465,7 +465,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampCMB
-  name: colony marshal bureau rubber stamp
+  name: "гумова печатка Бюро колоніальних маршалів"
   suffix: Admin, CMB
   components:
   - type: Sprite
@@ -478,7 +478,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampProvost
-  name: provost rubber stamp
+  name: "гумова печатка Прево"
   suffix: Admin, Provost
   components:
   - type: Sprite
@@ -491,7 +491,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampCLF
-  name: colony liberation front rubber stamp
+  name: "гумова печатка Фронту визволення колоній"
   suffix: Admin, CLF
   components:
   - type: Sprite
@@ -504,7 +504,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampSPP
-  name: socialist progressive peoples rubber stamp
+  name: "гумова печатка Соціалістичної прогресивної народної"
   suffix: Admin, UPP
   components:
   - type: Sprite
@@ -517,7 +517,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampTWE
-  name: three world empire rubber stamp
+  name: "гумова печатка Імперії трьох світів"
   suffix: Admin, TWE
   components:
   - type: Sprite
@@ -530,7 +530,7 @@
 - type: entity
   parent: AU14StampBase
   id: AU14StampFreePress
-  name: free press rubber stamp
+  name: "гумова печатка вільної преси"
   suffix: Admin, Press
   components:
   - type: Sprite

@@ -2,8 +2,8 @@
 - type: entity
   parent: BaseFenceMetal
   id: CMFence
-  name: fence
-  description: A large metal mesh strewn between two poles. Intended as a cheap way to separate areas, while allowing one to see through it.
+  name: "огорожа"
+  description: "Велика металева сітка, натягнута між двома стовпами. Призначена як дешевий спосіб розділити зони, дозволяючи бачити крізь неї."
   components:
   - type: Transform
     anchored: true
@@ -63,8 +63,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: RMCFenceBroken
-  name: broken fence
-  description: A mess of broken wire strewn between two poles, it's not blocking anyone's way through.
+  name: "зламана огорожа"
+  description: "Купа поламаного дроту, натягнута між двома стовпами; нікому не перешкоджає пройти крізь неї."
   components:
   - type: Transform
     anchored: true
