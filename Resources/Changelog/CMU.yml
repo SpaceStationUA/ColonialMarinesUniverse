@@ -6367,132 +6367,137 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1321
 - author: KeiKiyomi
   changes:
-  - message: Added a fun tool in IO kits and Synth loadouts for Intel purposes, for
-      now Intel staff (Synths, IOs, Techs) will have to shell for it.
+  - message: Додано цікавий інструмент до комплектів IO і спорядження синтетиків
+      для розвідувальних потреб. Поки що персоналу розвідки (синтетикам, IO, технікам)
+      доведеться платити за нього.
     type: Add
   id: 274
   time: '2026-06-14T22:39:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1307
 - author: KeiKiyomi
   changes:
-  - message: Added full mortar kits to all factions mortar crate, instead of just
-      the mortar
+  - message: Додано повні мінометні комплекти до мінометних ящиків усіх фракцій
+      замість самого лише міномета.
     type: Add
-  - message: Changed all mortar shell crates amount from 6 to 12 to match RMC light
-      mortar
+  - message: Змінено кількість у всіх ящиках мінометних снарядів із 6 до 12, щоб
+      відповідати легкому міномету RMC.
     type: Tweak
-  - message: Mortar CRATE price changed to 3k
+  - message: Ціну мінометного ящика змінено на 3k.
     type: Tweak
-  - message: Mortar HE price changed to 650
+  - message: Ціну мінометних HE змінено на 650.
     type: Tweak
-  - message: Mortar illum price changed to 500
+  - message: Ціну мінометних освітлювальних снарядів змінено на 500.
     type: Tweak
-  - message: Mortar incen price changed to 750
+  - message: Ціну запалювальних мінометних снарядів змінено на 750.
     type: Tweak
-  - message: Mortar HEAT price changed to 800
+  - message: Ціну мінометних HEAT змінено на 800.
     type: Tweak
-  - message: Mortar mixed price changed to 950
+  - message: Ціну змішаного мінометного набору змінено на 950.
     type: Tweak
   id: 275
   time: '2026-06-14T22:46:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1323
 - author: troytroy400
   changes:
-  - message: The Corpsman room on the USS George W. Bush now properly gets a med and
-      blood vendor.
+  - message: Кімната санітара на USS George W. Bush тепер коректно отримує медичний
+      автомат і автомат крові.
     type: Add
-  - message: The USS George W. Bush now has proper under-tile fuel pipes mapped, meaning
-      the ship will slowly tear itself apart with sub-explosions during hijack.
+  - message: На USS George W. Bush тепер коректно розміщені паливні труби під плиткою,
+      тож під час захоплення корабель повільно розриватиме себе вторинними вибухами.
     type: Tweak
-  - message: The USS George W. Bush now has proper areas mapped, meaning hijack, evacuation,
-      fuel pumps and APC power should now work properly.
+  - message: На USS George W. Bush тепер коректно розмічені зони, тож захоплення,
+      евакуація, паливні насоси й живлення APC мають працювати правильно.
     type: Fix
   id: 276
   time: '2026-06-14T23:25:40.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1324
 - author: JaSeNeSaJ
   changes:
-  - message: CWPS Ranger ID IFF (comm towers)
+  - message: IFF ID рейнджерів CWPS (комунікаційні вежі).
     type: Fix
-  - message: Sheperds' from Distress Signal rotation
+  - message: Sheperds' видалено з ротації Distress Signal.
     type: Remove
   id: 277
   time: '2026-06-15T06:49:31.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1331
 - author: Piticzu
   changes:
-  - message: Bad Blood Yautja threat enabled on all Distress Signal maps.
+  - message: Загрозу Yautja Поганої Крові увімкнено на всіх мапах Distress Signal.
     type: Add
   id: 278
   time: '2026-06-15T14:16:31.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1325
 - author: TheHellFireo
   changes:
-  - message: Added optional ghost follow buttons next to chat messages.
+  - message: Додано опціональні кнопки стеження для привидів поруч із повідомленнями
+      чату.
     type: Add
-  - message: Fixed full-auto-capable guns incorrectly rearming like semi-auto weapons
-      while holding fire.
+  - message: Виправлено зброю з повністю автоматичним вогнем, яка під час утримання
+      вогню помилково готувалася до наступного пострілу як напівавтоматична.
     type: Fix
-  - message: Fixed medical round-end summary stats missing surgery, defib, and shrapnel
-      telemetry.
+  - message: Виправлено медичну статистику підсумку раунду, де бракувало телеметрії
+      операцій, дефібриляції та шрапнелі.
     type: Fix
   id: 279
   time: '2026-06-15T16:04:57.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1332
 - author: TheHellFireo
   changes:
-  - message: Added the Bull xeno caste.
+  - message: Додано касту ксеноморфа Бик.
     type: Add
-  - message: Added the Warlock xeno caste.
+  - message: Додано касту ксеноморфа Чаклун.
     type: Add
-  - message: Added a xeno Z-level jump ability.
+  - message: Додано здатність ксеноморфів до Z-стрибка.
     type: Add
-  - message: Added Warlock psychic blast, crush, and shield abilities with matching
-      visuals, sounds, and projectiles.
+  - message: Додано психічний вибух, розчавлення й щит Чаклуна з відповідними візуалами,
+      звуками та снарядами.
     type: Add
-  - message: Added Bull plow, headbutt, and gore abilities with matching effects.
+  - message: Додано здібності Бика - прорив, удар головою та прокол - із відповідними
+      ефектами.
     type: Add
-  - message: Fixed Warlock shield projectile freezing, release, and reflection behavior.
+  - message: Виправлено поведінку замороження, випуску й відбиття снарядів щитом
+      Чаклуна.
     type: Fix
-  - message: Fixed Z-level jump windup and jump trajectory behavior.
+  - message: Виправлено підготовку й траєкторію Z-стрибка.
     type: Fix
   id: 280
   time: '2026-06-15T16:06:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1333
 - author: 400Ferrets
   changes:
-  - message: Sorokyne Colony ASRS functions.
+  - message: ASRS колонії Sorokyne працює.
     type: Add
-  - message: Sorokyne has many more faxes and phones.
+  - message: У Sorokyne стало значно більше факсів і телефонів.
     type: Add
-  - message: Sorokyne has engineering spawn points.
+  - message: У Sorokyne з'явилися точки появи інженерії.
     type: Add
-  - message: Sorokyne now has Mining, Woodcutting, and a more equipped Hydroponics.
+  - message: У Sorokyne тепер є шахта, лісозаготівля та краще обладнана гідропоніка.
     type: Add
-  - message: Sorokyne now has many more ATMs.
+  - message: У Sorokyne тепер значно більше банкоматів.
     type: Add
-  - message: Sorokyne department computers are easier to find.
+  - message: Відомчі комп'ютери Sorokyne тепер легше знайти.
     type: Add
-  - message: Sorokyne sinks are now facing the right way.
+  - message: Раковини в Sorokyne тепер повернуті правильним боком.
     type: Add
-  - message: Sorokyne APCs are now firmly affixed to the walls.
+  - message: APC в Sorokyne тепер міцно закріплені на стінах.
     type: Add
-  - message: Sorokyne now has two Ambassadors, ICSC and UPP.
+  - message: У Sorokyne тепер є два посли - ICSC та UPP.
     type: Add
-  - message: Sorokyne now has basic zlevels.
+  - message: У Sorokyne тепер є базові Z-рівні.
     type: Add
-  - message: Sorokyne mining has a hole for you to fall in.
+  - message: У шахті Sorokyne є яма, в яку можна впасти.
     type: Add
-  - message: Sorokyne hydroponics no longer has a leaky roof.
+  - message: У гідропоніці Sorokyne більше немає даху, що протікає.
     type: Add
-  - message: Sorokyne northwest LZ no longer has a spooky shadow south of it.
+  - message: Північно-західна LZ Sorokyne більше не має моторошної тіні на південь
+      від неї.
     type: Add
   id: 281
   time: '2026-06-15T16:11:38.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1330
 - author: sunzu432
   changes:
-  - message: Hope's Retreat, a map intended for Colony Fall, Insurgency and Distress
+  - message: Додано Hope's Retreat, мапу для Colony Fall, Insurgency та Distress
       Signal.
     type: Add
   id: 282
