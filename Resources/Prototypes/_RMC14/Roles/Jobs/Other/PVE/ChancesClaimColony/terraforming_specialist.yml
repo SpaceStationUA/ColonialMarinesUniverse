@@ -42,7 +42,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesTerraformingSpecialist
-  name: "спавнер тераформувального спеціаліста"
+  name: terraforming specialist spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -60,7 +60,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesTerraformingSpecialist
-  name: "привид-роль тераформувального спеціаліста"
+  name: terraforming specialist ghost role
   components:
   - type: Sprite
     layers:

@@ -2,8 +2,8 @@
   parent: RMCBaseBush
   id: RMCBaseRockNonCollide
   abstract: true
-  name: "каміння"
-  description: "Затверділа купа місцевих мінералів. Якщо розплавити, перетворюється на речовину, відому як лава."
+  name: rocks
+  description: A solidified collection of local minerals. When melted, becomes a substance best known as lava.
   suffix: RMCBaseRockNonCollide
   components:
   - type: Sprite

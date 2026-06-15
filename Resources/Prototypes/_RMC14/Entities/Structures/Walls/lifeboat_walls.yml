@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCBaseWallInvincibleNoIcon
   id: RMCWallLifeboat00
-  name: "стіна"
-  description: "Відділяє тебе від певної смерті."
+  name: wall
+  description: Separates you from certain death.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Lifeboat/lifeboat_walls.rsi

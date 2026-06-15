@@ -1,9 +1,9 @@
 - type: entity
   parent: CMLockerBase
   id: CMLockerCMDCabinet
-  name: "шафа командного планшета"
+  name: command tablet cabinet
   suffix: Empty
-  description: "Куленепробивна шафа з необхідним спорядженням для використання Командиром."
+  description: A bulletproof cabinet containing essentials for usage by a Commander.
   components:
   - type: WallMount
     arc: 175

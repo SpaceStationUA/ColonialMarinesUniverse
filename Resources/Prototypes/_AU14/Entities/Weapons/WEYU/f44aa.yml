@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
-  name: "імпульсна гвинтівка F44AA"
+  name: F44AA pulse rifle
   id: AU14WeaponRifleF44AA
-  description: "F44AA — електронна штурмова гвинтівка імпульсної дії. Вироблена Вейланд-Ютані, ця гвинтівка оснащена комп’ютером допомоги прицілюванню та запобіжником."
+  description: F44AA is an electronic pulse-action assault rifle. Manufactured by the Weyland-Yutani, the rifle is equipped with an amining assist computer and safety.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Rifles/m54c/snow.rsi
@@ -118,7 +118,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: AU14MagazineRifleF44AA
-  name: "магазин F44AA (10x24mm)"
+  name: "F44AA magazine (10x24mm)"
   components:
   - type: Tag
     tags:
@@ -145,8 +145,8 @@
 - type: entity
   parent: RMCStockAttachmentCollapsibleBase
   id: AU14AttachmentF44AAStockCollapsible
-  name: "складний приклад F44AA"
-  description: "Стандартна задня частина будь-якої зброї, що починається з F44AA."
+  name: F44AA folding stock
+  description: The standard back end of any gun starting with F44AA.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Attachments/m54_stocks/snow.rsi

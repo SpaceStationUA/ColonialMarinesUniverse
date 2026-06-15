@@ -4,14 +4,14 @@
   id: AU14ChevronUSASFBase
   abstract: true
   suffix: USASF Chevron
-  description: "Знак розрізнення звань рядового й сержантського складу Аерокосмічних сил Сполучених Штатів. Цей знак змушує вас почуватися комфортно, наче під час польотних обідів з омарами та в сатинових кріокапсулах."
+  description: United States Aerospace Force enlisted rank insignia. This insignia makes you feel comfortable, like in flight lobster dinners and satin cryo pods.
 
 # ├──[ Enlisted - SNCO ]──────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronUSASFBase
   id: AU14ChevronUSASFTechnicalSergeant
-  name: "шеврон технічного сержанта"
+  name: technical sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronUSASFBase
   id: AU14ChevronUSASFMasterSergeant
-  name: "шеврон майстер-сержанта"
+  name: master sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronUSASFBase
   id: AU14ChevronUSASFSeniorMasterSergeant
-  name: "шеврон старшого майстер-сержанта"
+  name: senior master sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: AU14ChevronUSASFBase
   id: AU14ChevronUSASFChiefMasterSergeant
-  name: "шеврон головного майстер-сержанта"
+  name: chief master sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: AU14ChevronUSASFBase
   id: AU14ChevronUSASFCommandChiefMasterSergeant
-  name: "шеврон командного головного майстер-сержанта"
+  name: command chief master sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

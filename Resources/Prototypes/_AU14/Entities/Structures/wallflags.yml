@@ -30,8 +30,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagUA
-  name: "прапор ОА"
-  description: "Прапор Об’єднаних Америк."
+  name: "UA Flag"
+  description: "The flag of the United Americas."
   components:
   - type: Sprite
     state: uaflag
@@ -39,8 +39,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagUAWorn
-  name: "зношений прапор ОА"
-  description: "Прапор Об’єднаних Америк. Цей бачив кращі дні."
+  name: "Worn UA Flag"
+  description: "The flag of the United Americas. This one has seen better days."
   components:
   - type: Sprite
     state: uaflag_worn
@@ -48,8 +48,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagCLF
-  name: "прапор КФВ"
-  description: "Прапор Колоніального фронту визволення."
+  name: "CLF Flag"
+  description: "The flag of the Colonial Liberation Front."
   components:
   - type: Sprite
     state: clfflag
@@ -57,8 +57,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagCLFWorn
-  name: "зношений прапор КФВ"
-  description: "Прапор Колоніального фронту визволення. Цей бачив кращі дні."
+  name: "Worn CLF Flag"
+  description: "The flag of the Colonial Liberation Front. This one has seen better days."
   components:
   - type: Sprite
     state: clfflag_worn
@@ -66,8 +66,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagUSCM
-  name: "прапор ККМП США"
-  description: "Прапор Корпусу колоніальної морської піхоти США."
+  name: "USCM Flag"
+  description: "The flag of the United States Colonial Marine Corps."
   components:
   - type: Sprite
     state: cmflag
@@ -75,8 +75,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagUSCMWorn
-  name: "зношений прапор ККМП США"
-  description: "Прапор Корпусу колоніальної морської піхоти США. Цей бачив кращі дні."
+  name: "Worn USCM Flag"
+  description: "The flag of the United States Colonial Marine Corps. This one has seen better days."
   components:
   - type: Sprite
     state: cmflag_worn
@@ -84,8 +84,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagTWE
-  name: "прапор ІТС"
-  description: "Прапор Імперії трьох світів."
+  name: "TWE Flag"
+  description: "The flag of the Three World Empire."
   components:
   - type: Sprite
     state: tweflag
@@ -93,8 +93,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagTWEWorn
-  name: "зношений прапор ІТС"
-  description: "Прапор Імперії трьох світів. Цей бачив кращі дні."
+  name: "Worn TWE Flag"
+  description: "The flag of the Three World Empire. This one has seen better days."
   components:
   - type: Sprite
     state: tweflag_worn
@@ -102,8 +102,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagUPP
-  name: "прапор УПП"
-  description: "Прапор Союзу прогресивних народів."
+  name: "UPP Flag"
+  description: "The flag of the Union of Progressive Peoples."
   components:
   - type: Sprite
     state: uppflag
@@ -111,8 +111,8 @@
 - type: entity
   parent: AU14WallFlagBase
   id: AU14WallFlagUPPWorn
-  name: "зношений прапор УПП"
-  description: "Прапор Союзу прогресивних народів. Цей бачив кращі дні."
+  name: "Worn UPP Flag"
+  description: "The flag of the Union of Progressive Peoples. This one has seen better days."
   components:
   - type: Sprite
     state: uppflag_worn

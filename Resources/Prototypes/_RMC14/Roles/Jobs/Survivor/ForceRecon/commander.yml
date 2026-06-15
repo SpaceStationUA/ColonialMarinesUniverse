@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointForeconCommander
-  name: "спавнер командира FORECON"
+  name: FORECON Commander spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorForeconCommander

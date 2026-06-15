@@ -2,8 +2,8 @@
   abstract: true
   parent: BaseItem
   id: CMUIEDBase
-  name: "граната"
-  description: "Пригнись та сховайся."
+  name: grenade
+  description: Duck and cover.
   components:
   - type: Explosive
     explosionType: RMC
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMUIEDBase
   id: CMUPipeBomb
-  name: "трубчаста бомба"
-  description: "Дешевий спосіб поранити когось. Розроблено вашим місцевим повстанцем."
+  name: pipe bomb
+  description: A cheap way to injure someone. Designed by your local insurgent’s.
   components:
   - type: Sprite
     sprite: _CMU14/Items/pipebomb.rsi
@@ -65,8 +65,8 @@
 - type: entity
   parent: BaseItem
   id: CMUPipeBombFuse
-  name: "трубчаста бомба"
-  description: "Незавершена. Здається, потребує дроту як гнота"
+  name: pipe bomb
+  description: Incomplete. Seems like it need’s Cable as the fuse
   suffix: Fuse
   components:
   - type: Sprite
@@ -81,8 +81,8 @@
 - type: entity
   parent: BaseItem
   id: CMUPipeBombCasing
-  name: "трубчаста бомба"
-  description: "Порожня обгортка. Здається, потребує запальнички."
+  name: pipe bomb
+  description: Empty casing. Seems like it need a Lighter.
   suffix: Casing
   components:
   - type: Sprite

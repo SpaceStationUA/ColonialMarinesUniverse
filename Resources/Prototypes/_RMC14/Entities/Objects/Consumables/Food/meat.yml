@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMFoodBase
   id: RMCFoodMeatFish
-  name: "сире рибне філе"
-  description: "Якась риба, ймовірно, виловлена в якомусь океані, або вирощена в чані."
+  name: raw fish fillet
+  description: Some sort of fish, probably dredged from some ocean somewhere, or grown in a vat.
   components:
   - type: FlavorProfile
     flavors:
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMFoodBase
   id: RMCFoodMeatFishGrilled
-  name: "смажене рибне філе"
-  description: "Якась риба, ймовірно, виловлена в якомусь океані, або вирощена в чані."
+  name: grilled fish fillet
+  description: Some sort of fish, probably dredged from some ocean somewhere, or grown in a vat.
   components:
   - type: FlavorProfile
     flavors:
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMFoodBase
   id: RMCFoodMeatFishAndChips
-  name: "фіш-енд-чіпс"
-  description: "Основна страва Імперії Трьох Сонць, що складається зі шматка риби в пивному кляру та картоплі фрі."
+  name: fish & chips
+  description: "A Three-Sun Empire staple, featuring a slab of beer-battered fish and french fries."
   components:
   - type: FlavorProfile
     flavors:
@@ -114,8 +114,8 @@
 - type: entity
   parent: CMFoodBase
   id: RMCFoodMeatFishSushi
-  name: "рибний суші-рол"
-  description: "Шматок невизначеної риби, оповитий рисом і загорнутий у водорості. Класична страва Імперії Трьох Сонць."
+  name: fish sushi roll
+  description: A piece of indeterminate fish, contained in rice and wrapped in seaweed. A classic dish in the Three-Sun Empire.
   components:
   - type: FlavorProfile
     flavors:

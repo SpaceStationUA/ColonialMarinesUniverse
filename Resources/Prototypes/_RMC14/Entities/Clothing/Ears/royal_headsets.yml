@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: RMCHeadsetIconsTSE
   id: RMCHeadsetRoyalMarine
-  name: "гарнітура королівського морпіха"
-  description: "Витончена гарнітура, яку використовує Морська Піхота Королівської Корони. Достатньо тонка, щоб поміститися під їхніми унікальними шоломами."
+  name: royal marine headset
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets.
   components:
   - type: GrantSquadLeaderTracker
     defaultMode: RCMTeamLead
@@ -23,8 +23,8 @@
 - type: entity
   parent: RMCHeadsetRoyalMarine
   id: RMCHeadsetRoyalMarineLeader
-  name: "гарнітура лідера королівських морпіхів"
-  description: "Витончена гарнітура, яку використовує Морська Піхота Королівської Корони. Достатньо тонка, щоб поміститися під їхніми унікальними шоломами."
+  name: royal marine leader's headset
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets.
   components:
   - type: ContainerFill
     containers:
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCHeadsetRoyalMarine
   id: RMCHeadsetRoyalMarineOfficer
-  name: "гарнітура офіцера королівських морпіхів"
-  description: "Витончена гарнітура, яку використовує Морська Піхота Королівської Корони. Достатньо тонка, щоб поміститися під їхніми унікальними шоломами. Ця важча тягарем відповідальності."
+  name: royal marine officer's headset
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets. This one is heavier with the weight of responsibility.
   components:
   - type: ContainerFill
     containers:
@@ -51,9 +51,9 @@
 - type: entity
   parent: RMCHeadsetRoyalMarine
   id: RMCHeadsetRoyalMarinePVE
-  name: "гарнітура королівського морпіха"
+  name: royal marine's headset
   suffix: PVE
-  description: "Витончена гарнітура, яку використовує Морська Піхота Королівської Корони. Достатньо тонка, щоб поміститися під їхніми унікальними шоломами."
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets.
   components:
   - type: GrantSquadLeaderTracker
     defaultMode: RCMPVETroopCommander
@@ -70,9 +70,9 @@
 - type: entity
   parent: RMCHeadsetRoyalMarinePVE
   id: RMCHeadsetRoyalMarineLeaderPVE
-  name: "гарнітура лідера королівських морпіхів"
+  name: royal marine leader's headset
   suffix: PVE
-  description: "Витончена гарнітура, яку використовує Морська Піхота Королівської Корони. Достатньо тонка, щоб поміститися під їхніми унікальними шоломами. Ця важча тягарем відповідальності."
+  description: A sleek headset used by the Royal Crown Marines. Low profile enough to fit under their unique helmets. This one is heavier with the weight of responsibility.
   components:
   - type: ContainerFill
     containers:
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMEncryptionKey
   id: RMCEncryptionKeyRoyalMarine
-  name: "ключ шифрування рації королівських морпіхів"
+  name: royal marine radio encryption key
   components:
   - type: EncryptionKey
     channels:
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCEncryptionKeyRoyalMarine
   id: RMCEncryptionKeyRoyalMarineCommand
-  name: "командний ключ шифрування рації королівських морпіхів"
+  name: royal marine command radio encryption key
   components:
   - type: EncryptionKey
     channels:

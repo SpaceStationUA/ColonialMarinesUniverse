@@ -67,7 +67,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorArmyReservist
-  name: "спавнер резервіста армії"
+  name: army reservist spawn point
   components:
   - type: SpawnPoint
     job_id: CMJobSurvivorArmyReservist
@@ -78,7 +78,7 @@
 
 - type: entity
   id: RMCGearSurvivorPresetArmyReservist
-  name: "пресет офіцера озброєної народної поліції"
+  name: people's armed police officer preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

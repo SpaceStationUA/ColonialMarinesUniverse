@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianOrbitalSecurity
-  name: "точка появи орбітальної охорони"
+  name: Spawn Point Orbital Security
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianOrbitalSecurity

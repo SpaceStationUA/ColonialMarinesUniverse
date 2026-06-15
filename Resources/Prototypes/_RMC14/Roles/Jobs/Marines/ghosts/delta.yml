@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidDeltaCombatTech
-  name: "дельта привид-роль бойового техніка"
+  name: delta ghost role combat technician
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidDeltaFireteamLeader
-  name: "дельта привид-роль лідера вогневої команди"
+  name: delta ghost role fireteam leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidDeltaHospitalCorpsman
-  name: "дельта привид-роль шпитального корпсмена"
+  name: delta ghost role hospital corpsman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidDeltaRifleman
-  name: "дельта привид-роль стрільця"
+  name: delta ghost role rifleman
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidDeltaSmartGunOperator
-  name: "дельта привид-роль оператора смартгана"
+  name: delta ghost role smart gun operator
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidDeltaSquadLeader
-  name: "дельта привид-роль лідера загону"
+  name: delta ghost role squad leader
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidDeltaWeaponsSpecialist
-  name: "дельта привид-роль спеціаліста з озброєння"
+  name: delta ghost role weapons specialist
   suffix: Spawner, Player
   components:
   - type: Sprite

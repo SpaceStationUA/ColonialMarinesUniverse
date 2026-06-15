@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMSMESMachineCircuitboard
-  name: "машинна плата SMES"
-  description: "Машинна друкована плата для надпровідного магнітного накопичувача енергії ."
+  name: SMES machine board
+  description: A machine printed circuit board for a SMES.
   components:
   - type: Sprite
     state: power_mod
@@ -17,8 +17,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMAutolatheMachineCircuitboard
-  name: "плата автолатата"
-  description: "Машинно надрукована плата для автолатата"
+  name: autolathe machine board
+  description: A machine printed circuit board for an autolathe
   components: # TODO RMC14 autolathe
     - type: MachineBoard
       prototype: RMCAutolatheEmpty
@@ -31,7 +31,7 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCPortableGeneratorPacmanMachineCircuitBoard
-  name: "Машинна плата портативного генератора типу P.A.C.M.A.N"
+  name: P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: power_mod
@@ -46,7 +46,7 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCPortableGeneratorSuperPacmanMachineCircuitboard
-  name: "плата портативного генератора типу S.U.P.E.R.P.A.C.M.A.N"
+  name: S.U.P.E.R.P.A.C.M.A.N.-type portable generator machine board
   components:
     - type: Sprite
       state: power_mod
@@ -61,8 +61,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserChem
-  name: "плата хімічного дозатора"
-  description: "Машинно надрукована плата для хімічного дозатора."
+  name: chem dispenser machine board
+  description: A machine printed circuit board for a chemical dispenser.
   components:
   - type: Sprite
     state: blank_mod
@@ -73,8 +73,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserBooze
-  name: "плата машини для розливу напоїв"
-  description: "Машинна друкована плата для диспенсера для напоїв."
+  name: booze dispenser machine board
+  description: A machine printed circuit board for a booze dispenser.
   components:
   - type: Sprite
     state: blank_mod
@@ -85,8 +85,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardDispenserSoda
-  name: "плата дозатора содової машини"
-  description: "Машинна друкована плата для дозатора газованої води."
+  name: soda dispenser machine board
+  description: A machine printed circuit board for a soda dispenser.
   components:
   - type: Sprite
     state: blank_mod
@@ -97,8 +97,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardChemMaster
-  name: "плата промислового chem master"
-  description: "Машинно надрукована плата для chem master."
+  name: chem master machine board
+  description: A machine printed circuit board for a chem master.
   components:
   - type: Sprite
     state: blank_mod
@@ -109,8 +109,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCCircuitboardIndustrialChemMaster
-  name: "плата промислового chem master"
-  description: "Машинно надрукована плата для промислового chem master."
+  name: chem master machine board
+  description: A machine printed circuit board for a industrial chem master.
   components:
   - type: Sprite
     state: blank_mod
@@ -121,8 +121,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: CMCircuitboardMicrowave
-  name: "плата мікрохвильовки"
-  description: "Машинно надрукована плата для мікрохвильовки."
+  name: microwave machine board
+  description: A machine printed circuit board for a microwave.
   components:
   - type: Sprite
     state: blank_mod
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMBaseMachineCircuitboard
   id: RMCArmylatheMachineCircuitboard
-  name: "плата воєнолатата"
-  description: "Машинно надрукована плата для воєнолатата"
+  name: armylathe machine board
+  description: A machine printed circuit board for an armylathe
   components:
     - type: MachineBoard
       prototype: RMCArmylatheEmpty
