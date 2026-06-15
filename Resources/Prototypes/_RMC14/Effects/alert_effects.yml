@@ -15,7 +15,7 @@
 - type: entity
   parent: RMCEffectAlert
   id: RMCHijackPipeExplosionWarning
-  name: explosive warning
+  name: "попередження про вибух"
   components:
   - type: TimedDespawn
     lifetime: 5
@@ -25,7 +25,7 @@
 
 - type: entity
   id: RMCActiveAlertEffect
-  name: exclamation
+  name: "вигук"
   categories: [ HideSpawnMenu ]
   components:
     - type: Sprite

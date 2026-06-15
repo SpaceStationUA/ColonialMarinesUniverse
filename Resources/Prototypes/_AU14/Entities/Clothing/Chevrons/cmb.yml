@@ -4,13 +4,13 @@
   id: AU14ChevronCMBBase
   abstract: true
   suffix: CMB Rank Chevron
-  description: Colonial Marshals Bureau rank insignia. Wearing this makes you feel like Virgil Earp, but you know you'll never be as cool as a cowboy.
+  description: "Знак розрізнення звань Бюро колоніальних маршалів. Коли ви його носите, ви відчуваєте себе Верджилом Ерпом, але знаєте, що ніколи не будете таким крутим, як ковбой."
 
 # Deputies
 - type: entity
   parent: AU14ChevronCMBBase
   id: AU14ChevronCMBProbDeputy
-  name: probationary deputy chevron
+  name: "шеврон заступника на випробувальному терміні"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: AU14ChevronCMBBase
   id: AU14ChevronCMBDeputy
-  name: deputy chevron
+  name: "шеврон заступника"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14ChevronCMBBase
   id: AU14ChevronCMBSrDeputy
-  name: senior deputy chevron
+  name: "шеврон старшого заступника"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: AU14ChevronCMBBase
   id: AU14ChevronCMBChiefDeputy
-  name: chief deputy chevron
+  name: "шеврон головного заступника"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -74,7 +74,7 @@
 - type: entity
   parent: AU14ChevronCMBBase
   id: AU14ChevronCMBMarshal
-  name: cmb marshal chevron
+  name: "шеврон маршала КБМ"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

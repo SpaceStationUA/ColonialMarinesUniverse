@@ -1,157 +1,157 @@
 - type: rank
   id: AU14RankCMBProbDeputy
-  name: Probationary Deputy
+  name: "заступник на випробувальному терміні"
   prefix: Prob. Dep.
 
 - type: rank
   id: AU14RankCMBDeputy
-  name: Deputy
+  name: "заступник"
   prefix: Dep.
 
 - type: rank
   id: AU14RankCMBSrDeputy
-  name: Senior Deputy
+  name: "старший заступник"
   prefix: Sr. Dep.
 
 - type: rank
   id: AU14RankCMBChiefDeputy
-  name: Chief Deputy
+  name: "головний заступник"
   prefix: Chf. Dep.
 
 - type: rank
   id: AU14RankCMBMarshal
-  name: CMB Marshal
+  name: "маршал CMB"
   prefix: Mrshl.
 
 - type: rank
   id: AU14RankColonyAdministrator
-  name: Administrator
+  name: "адміністратор"
   prefix: Admin.
 
 - type: rank
   id: AU14RankColonySeniorAdministrator
-  name: Senior Administrator
+  name: "старший адміністратор"
   prefix: Sr. Admin.
 
 - type: rank
   id: AU14RankCWPSRangerTrainee
-  name: Probationary Ranger
+  name: "рейнджер на випробувальному терміні"
   prefix: Prob. Ranger
 
 - type: rank
   id: AU14RankCWPSRanger
-  name: Ranger
+  name: "рейнджер"
   prefix: Ranger
 
 - type: rank
   id: AU14RankCWPSSeniorRanger
-  name: Senior Ranger
+  name: "старший рейнджер"
   prefix: Sr. Ranger
 
 - type: rank
   id: AU14RankNSPAConstable
-  name: Constable
+  name: "констебль"
   prefix: Constable
 
 - type: rank
   id: AU14RankNSPASeniorConstable
-  name: Senior Constable
+  name: "старший констебль"
   prefix: Sr. Constable
 
 - type: rank
   id: AU14RankNSPAInspector
-  name: Inspector
+  name: "інспектор"
   prefix: Insp.
 
 # Scientists
 
 - type: rank
   id: AU14RankScientistAssistant
-  name: Assistant Professor
+  name: "асистент-професор"
   prefix: Assist-Prof.
 
 - type: rank
   id: AU14RankScientistAssociate
-  name: Associate Professor
+  name: "доцент"
   prefix: Asso-Prof.
 
 - type: rank
   id: AU14RankScientistProfessor
-  name: Professor
+  name: "професор"
   prefix: Prof.
 
 # Commercial Pilots
 
 - type: rank
   id: AU14RankFirstOfficer
-  name: First Officer
+  name: "перший офіцер"
   prefix: 1st Off.
 
 - type: rank
   id: AU14RankSeniorFirstOfficer
-  name: Senior First Officer
+  name: "старший перший офіцер"
   prefix: Sen. 1st Off.
 
 - type: rank
   id: AU14RankCaptain
-  name: Captain
+  name: "капітан"
   prefix: Cpt.
 
 - type: rank
   id: AU14RankFlightCaptain
-  name: Flight Captain
+  name: "капітан польоту"
   prefix: Flt. Cpt.
 
 # Orbital Manager
 
 - type: rank
   id: AU14RankOrbitalManager
-  name: Manager
+  name: "менеджер"
   prefix: Man.
 
 - type: rank
   id: AU14RankSeniorOrbitalManager
-  name: Senior Manager
+  name: "старший менеджер"
   prefix: Sn. Man.
 
 # Administrative Assistant
 
 - type: rank
   id: AU14RankColonyAdminAssistant
-  name: Assistant
+  name: "асистент"
   prefix: Assist.
 
 - type: rank
   id: AU14RankColonySeniorAdminAssistant
-  name: Senior Assistant
+  name: "старший асистент"
   prefix: Sn. Assist.
 
 # Corporate Assistant
 
 - type: rank
   id: AU14RankWYJuniorAssistant
-  name: Junior Assistant
+  name: "молодший асистент"
   prefix: Jr. Assist.
 
 - type: rank
   id: AU14RankWYAssistant
-  name: Assistant
+  name: "асистент"
   prefix: Assist.
 
 - type: rank
   id: AU14RankWYSeniorAssistant
-  name: Senior Assistant
+  name: "старший асистент"
   prefix: Sn. Assist.
 
 # Ambassadors
 
 - type: rank
   id: AU14RankAmbassador
-  name: Ambassador
+  name: "посол"
   prefix: Amb.
 
 
 - type: rank
   id: AU14RankTWEAmbassador
-  name: High Commisioner
+  name: "верховний комісар"
   prefix: High Comm.

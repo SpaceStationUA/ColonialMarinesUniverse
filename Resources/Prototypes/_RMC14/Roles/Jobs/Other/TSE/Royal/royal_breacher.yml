@@ -45,7 +45,7 @@
 
 - type: entity
   id: RMCRandomHumanoidRoyalMarinesBreacher
-  name: royal crown marines ghost role breacher
+  name: "королівські морпіхи корони привид-роль проривника"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

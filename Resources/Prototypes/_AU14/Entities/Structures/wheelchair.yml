@@ -1,8 +1,8 @@
 - type: entity
   parent: [RMCWheelchair, RMCBaseMeleeWeapon]
   id: AU14Wheelchair
-  name: foldable wheelchair
-  description: Helps those with injuries related to immobility to move freely.
+  name: "складаний інвалідний візок"
+  description: "Допомагає тим, чиї травми обмежують рухливість, вільно пересуватися."
   components:
   - type: Item
     size: Large

@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitHAZOPSShotgunner
-  name: HAZOPS Shotgunner kit
+  name: "набір стрільця з дробовиком HAZOPS"
   components:
   - type: Item
     size: Ginormous
@@ -24,7 +24,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitHAZOPSFlamer
-  name: HAZOPS Flamer kit
+  name: "набір вогнеметника HAZOPS"
   components:
   - type: Item
     size: Ginormous

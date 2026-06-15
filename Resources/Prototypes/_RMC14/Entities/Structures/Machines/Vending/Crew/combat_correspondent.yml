@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechCrewCombatCorrespondent
-  name: ColMarTech Combat Correspondent Equipment Rack
-  description: An automated rack hooked up to a colossal storage of Reporter standard-issue equipment.
+  name: "Стелаж спорядження бойового кореспондента ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження Репортера."
   components:
   - type: AccessReader
     access:

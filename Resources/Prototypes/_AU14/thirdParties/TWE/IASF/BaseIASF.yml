@@ -99,7 +99,7 @@
 - type: entity
   parent: RMCParaWebbing
   id: AU14WebbingIASFL90
-  name: iasf webbing
+  name: "розгрузка ІЗКС"
   suffix: Filled, L90
   components:
     - type: StorageFill
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCParaWebbing
   id: AU14WebbingIASFL90A2
-  name: iasf webbing
+  name: "розгрузка ІЗКС"
   suffix: Filled, L90A2
   components:
     - type: StorageFill
@@ -142,7 +142,7 @@
 - type: entity
   parent: RMCBoxMagazineRifleBase
   id: AU14BoxMagazineRifleL90Empty
-  name: magazine box (L90 x 12)
+  name: "коробка магазинів (L90 x 12)"
   components:
   - type: Sprite
     layers:

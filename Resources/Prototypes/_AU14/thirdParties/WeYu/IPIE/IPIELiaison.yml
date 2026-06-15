@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobIPIELawyer
-  name: IPIE Lawyer
+  name: "юрист IPIE"
   description: au14-ipie-lawyer-description
   playTimeTracker: AU14JobIPIELawyer
   ranks:
@@ -51,7 +51,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobIPIELawyer
-  name: WY IPIE Lawyer (3rd party)
+  name: "юрист IPIE ВЮ (третя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -60,7 +60,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: IPIE Lawyer
+    name: "юрист IPIE"
     description: au14-ipie-lawyer-description
     reregister: false
     job: AU14JobIPIELawyer
@@ -71,7 +71,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobIPIELawyerSynth
-  name: WY IPIE Lawyer (3rd party, synth)
+  name: "юрист IPIE ВЮ (третя сторона, синт)"
   components:
   - type: Synth
     changeBrain: false

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPropBase
   id: RMCPropAverageJoey
-  name: average joey
-  description: A defunct Novaris-brand Average Joe lifted from deep storage by a crew of marines after the last shore leave. Attempts have been made to modify the janitorial synthetic to serve as a crude bartender, but with little success.
+  name: "звичайний Джої"
+  description: "Списаний «Пересічний Джо» марки «Новаріс», якого команда морпіхів витягла з глибокого сховища після останньої відпустки на березі. Прибирального синтетика намагалися переробити на примітивного бармена, але без особливого успіху."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/almayer_props.rsi

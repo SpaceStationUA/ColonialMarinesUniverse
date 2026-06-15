@@ -1,7 +1,7 @@
 ﻿- type: accessGroup
   id: ASO
   parent: RMCBaseAuxiliaryJob
-  name: Auxiliary Support Officer
+  name: "Офіцер допоміжної підтримки"
   tags:
   - CMAccessASO
   - RMCAccessCommand
@@ -31,7 +31,7 @@
 - type: accessGroup
   id: Pilot
   parent: RMCBaseAuxiliaryJob
-  name: Pilot
+  name: "Пілот"
   tags:
   - RMCAccessCommand
   - CMAccessDropship
@@ -43,7 +43,7 @@
 - type: accessGroup
   id: DropshipCrewChief
   parent: RMCBaseAuxiliaryJob
-  name: Dropship Crew Chief
+  name: "Старший екіпажу десантного корабля"
   tags:
   - CMAccessCrewman
   - RMCAccessCommand
@@ -54,7 +54,7 @@
 - type: accessGroup
   id: IntelOfficer
   parent: RMCBaseAuxiliaryJob
-  name: Intelligence Officer
+  name: "Офіцер розвідки"
   tags:
   - RMCAccessCommand
   - CMAccessDropship

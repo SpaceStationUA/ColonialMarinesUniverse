@@ -89,7 +89,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSynthColonist
-  name: synthetic colonist spawn point
+  name: "спавнер синтетика-колоніста"
   components:
   - type: SpawnPoint
     job_id: RMCJobSyntheticColony

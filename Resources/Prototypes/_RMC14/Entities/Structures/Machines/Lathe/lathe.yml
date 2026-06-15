@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseMachinePowered, RMCConstructibleMachine ]
   id: CMAutolathe
-  name: autolathe
-  description: It produces items using metal and glass.
+  name: "автолатат"
+  description: "Виробляє предмети з металу та скла."
   components:
   - type: ApcPowerReceiver
     powerLoad: 0

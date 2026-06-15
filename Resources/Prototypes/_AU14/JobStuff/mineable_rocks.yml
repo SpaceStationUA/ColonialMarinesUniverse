@@ -1,6 +1,6 @@
 - type: entity
   id: mineablesolarisrock
-  name: mineablerock
+  name: "видобувна порода"
   parent: BaseWall
   placement:
     mode: SnapgridCenter
@@ -50,7 +50,7 @@
 - type: entity
   id: mineablesolarisrocksteel
   parent: mineablesolarisrock
-  description: An ore vein rich with steel.
+  description: "Рудна жила, багата на сталь."
   suffix: Gold
   components:
   - type: OreVein

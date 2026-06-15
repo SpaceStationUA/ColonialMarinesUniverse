@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaCorsat
-  name: CORSAT
+  name: "CORSAT"
   suffix: CORSAT Area
   components:
     - type: Sprite
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatLandingConsole
-  name: "LZ1 'Gamma'"
+  name: "LZ1 «Гамма»"
   components:
     - type: Sprite
       state: corsat_telecomms
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatLandingConsole2
-  name: "LZ2 'Sigma'"
+  name: "LZ2 «Сигма»"
   components:
     - type: Sprite
       state: corsat_telecomms
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatEmergencyAccess
-  name: Unknown Area
+  name: "Невідома зона"
   components:
     - type: Sprite
       state: corsat_hull
@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatSigma
-  name: Sigma Sector
+  name: "Сектор Сигма"
   components:
     - type: Sprite
       state: corsat_hull
@@ -70,7 +70,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaNorth
-  name: Sigma Sector North Hallway
+  name: "Сектор Сигма — Північний коридор"
   components:
     - type: Sprite
       state: sigma_hallway_north
@@ -80,7 +80,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaHangar
-  name: Landing Bay Sigma
+  name: "Посадковий відсік Сигма"
   components:
     - type: Sprite
       state: sigma_hangar
@@ -91,7 +91,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangar
   id: RMCAreaCorsatSigmaHangarMonorail
-  name: Sigma Monorail Station
+  name: "Станція монорейки Сигма"
   components:
     - type: Sprite
       state: monorail
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangarMonorail
   id: RMCAreaCorsatSigmaHangarMonorailControl
-  name: Sigma Monorail Control
+  name: "Контроль монорейки Сигма"
   components:
     - type: Sprite
       state: monorail
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangarMonorail
   id: RMCAreaCorsatSigmaHangarMonorailRailcart
-  name: CORSAT Monorail
+  name: "Монорейка CORSAT"
   components:
     - type: Sprite
       state: railcart
@@ -130,7 +130,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangarMonorail
   id: RMCAreaCorsatSigmaHangarMonorailRailcart_transit
-  name: CORSAT Monorail transit
+  name: "Монорейка CORSAT — транзит"
   components:
     - type: Sprite
       state: railcart
@@ -149,7 +149,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangar
   id: RMCAreaCorsatSigmaHangarCargo
-  name: Sigma Hangar Cargo Checkpoint
+  name: "Карго-чекпоінт ангара Сигма"
   components:
     - type: Sprite
       state: sigma_hangar
@@ -157,7 +157,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangar
   id: RMCAreaCorsatSigmaHangarCheckpoint
-  name: Sigma Hangar Checkpoint
+  name: "Чекпоінт ангара Сигма"
   components:
     - type: Sprite
       state: sigma_hangar
@@ -167,7 +167,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangar
   id: RMCAreaCorsatSigmaHangarId
-  name: Sigma Hangar ID Checkpoint
+  name: "ID-чекпоінт ангара Сигма"
   components:
     - type: Sprite
       state: corsat_id
@@ -177,7 +177,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangar
   id: RMCAreaCorsatSigmaHangarArrivals
-  name: Sigma Arrivals
+  name: "Прибуття Сигма"
   components:
     - type: Sprite
       state: sigma_arrivals
@@ -187,7 +187,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangar
   id: RMCAreaCorsatSigmaHangarOffice
-  name: Sigma Hangar Office
+  name: "Офіс ангара Сигма"
   components:
     - type: Sprite
       state: sigma_hangar_office
@@ -197,7 +197,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaHangar
   id: RMCAreaCorsatSigmaHangarSecurity
-  name: Sigma Hangar Security
+  name: "Охорона ангара Сигма"
   components:
     - type: Sprite
       state: sigma_hangar_security
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaAirlockEast
-  name: Sigma Dome East Airlock
+  name: "Сигма — Східний шлюз купола"
   components:
     - type: Sprite
       state: sigma_airlock_east
@@ -217,7 +217,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaAirlockEast
   id: RMCAreaCorsatSigmaAirlockEastId
-  name: Sigma East ID Checkpoint
+  name: "Сигма — Східний ID-чекпоінт"
   components:
     - type: Sprite
       state: corsat_id
@@ -227,7 +227,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaAirlockSouth
-  name: Sigma Dome South Airlock
+  name: "Сигма — Південний шлюз купола"
   components:
     - type: Sprite
       state: sigma_airlock_south
@@ -235,7 +235,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaAirlockSouth
   id: RMCAreaCorsatSigmaAirlockSouthId
-  name: Sigma South ID Checkpoint
+  name: "Сигма — Південний ID-чекпоінт"
   components:
     - type: Sprite
       state: corsat_id
@@ -243,7 +243,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaAirlockControl
-  name: Sigma Dome Control Module
+  name: "Сигма — Модуль керування куполом"
   components:
     - type: Sprite
       state: sigma_control
@@ -251,7 +251,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaCargo
-  name: Sigma Cargo
+  name: "Сигма — Карго"
   components:
     - type: Sprite
       state: sigma_cargo
@@ -261,7 +261,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaLaundry
-  name: Sigma Laundry
+  name: "Сигма — Пральня"
   components:
     - type: Sprite
       state: sigma_laundry
@@ -271,7 +271,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaLavatory
-  name: Sigma Lavatory
+  name: "Сигма — Туалет"
   components:
     - type: Sprite
       state: sigma_lavatory
@@ -281,7 +281,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaCafe
-  name: Sigma Cafe
+  name: "Сигма — Кафе"
   components:
     - type: Sprite
       state: sigma_cafe
@@ -291,7 +291,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaDorms
-  name: Sigma Residential Module
+  name: "Сигма — Житловий модуль"
   components:
     - type: Sprite
       state: sigma_residential
@@ -301,7 +301,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaCheckpoint
-  name: Sigma Security Checkpoint
+  name: "Сигма — Чекпоінт охорони"
   components:
     - type: Sprite
       state: sigma_security_checkpoint
@@ -311,7 +311,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaSoutheast
-  name: Sigma Sector Southeast Hallways
+  name: "Сектор Сигма — Південно-східні коридори"
   components:
     - type: Sprite
       state: sigma_hallway_southeast
@@ -319,7 +319,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSoutheast
   id: RMCAreaCorsatSigmaSoutheastGenerator
-  name: CORSAT Secondary Generators
+  name: "CORSAT — Вторинні генератори"
   components:
     - type: Sprite
       state: secondary_core
@@ -338,7 +338,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSoutheast
   id: RMCAreaCorsatSigmaSoutheastTelecomm
-  name: CORSAT Telecommunications
+  name: "CORSAT — Телекомунікації"
   components:
     - type: Sprite
       state: corsat_telecomms
@@ -356,7 +356,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSoutheast
   id: RMCAreaCorsatSigmaSoutheastDatalab
-  name: Sigma Data Laboratory
+  name: "Сигма — Лабораторія обробки даних"
   components:
     - type: Sprite
       state: sigma_data_lab
@@ -374,7 +374,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSoutheast
   id: RMCAreaCorsatSigmaSoutheastDataoffice
-  name: Sigma Data Office
+  name: "Сигма — Кабінет обробки даних"
   components:
     - type: Sprite
       state: sigma_data_offices
@@ -382,7 +382,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSoutheast
   id: RMCAreaCorsatSigmaSoutheastDatamaint
-  name: Sigma Data Maintenance
+  name: "Сигма — Обслуговування обробки даних"
   components:
     - type: Sprite
       state: sigma_data_lab
@@ -390,7 +390,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaSouth
-  name: Sigma Sector South Hallways
+  name: "Сектор Сигма — Південні коридори"
   components:
     - type: Sprite
       state: sigma_hallway_south
@@ -398,7 +398,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSouth
   id: RMCAreaCorsatSigmaSouthComplex
-  name: Sigma Research Complex
+  name: "Сигма — Дослідницький комплекс"
   components:
     - type: Sprite
       state: sigma_complex
@@ -408,7 +408,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSouthComplex
   id: RMCAreaCorsatSigmaSouthComplexTeleporter
-  name: Sigma Teleporter
+  name: "Сигма — Телепортер"
   components:
     - type: Sprite
       sprite: _RMC14/Areas/areas.rsi
@@ -427,7 +427,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSouth
   id: RMCAreaCorsatSigmaSouthRobotics
-  name: Sigma Robotics Laboratory
+  name: "Сигма — Лабораторія робототехніки"
   components:
     - type: Sprite
       state: robotics
@@ -437,7 +437,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSouth
   id: RMCAreaCorsatSigmaSouthEngineering
-  name: Sigma Engineering
+  name: "Сигма — Інженерний"
   components:
     - type: Sprite
       state: sigma_engineering
@@ -447,7 +447,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSouth
   id: RMCAreaCorsatSigmaSouthSecurity
-  name: Sigma Security Hub
+  name: "Сигма — Хаб охорони"
   components:
     - type: Sprite
       state: sigma_security
@@ -457,7 +457,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaSouth
   id: RMCAreaCorsatSigmaSouthOffices
-  name: Sigma Offices
+  name: "Сигма — Офіси"
   components:
     - type: Sprite
       state: sigma_offices
@@ -465,7 +465,7 @@
 - type: entity
   parent: RMCAreaCorsatSigma
   id: RMCAreaCorsatSigmaBiodome
-  name: Biodome Sigma
+  name: "Біокупол Сигма"
   components:
     - type: Sprite
       state: sigma_biodome
@@ -473,7 +473,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaBiodome
   id: RMCAreaCorsatSigmaBiodomeIce
-  name: Biodome Sigma
+  name: "Біокупол Сигма"
   components:
     - type: Sprite
       state: sigma_biodome
@@ -481,7 +481,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaBiodome
   id: RMCAreaCorsatSigmaBiodomeTestgrounds
-  name: Sigma Biodome Testing Grounds
+  name: "Біокупол Сигма — Випробувальний полігон"
   components:
     - type: Sprite
       state: sigma_testgrounds
@@ -489,7 +489,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaBiodome
   id: RMCAreaCorsatSigmaBiodomeGunrange
-  name: Sigma Biodome Firing Range
+  name: "Біокупол Сигма — Стрільбище"
   components:
     - type: Sprite
       state: sigma_gunrange
@@ -497,7 +497,7 @@
 - type: entity
   parent: RMCAreaCorsatSigmaBiodome
   id: RMCAreaCorsatSigmaBiodomeScrapyard
-  name: Sigma Biodome Scrapyard
+  name: "Біокупол Сигма — Звалище"
   components:
     - type: Sprite
       state: sigma_scrapyard
@@ -505,7 +505,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatGamma
-  name: Gamma Sector
+  name: "Сектор Гамма"
   components:
     - type: Sprite
       state: corsat_hull
@@ -513,7 +513,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaHangar
-  name: Landing Bay Gamma
+  name: "Посадковий відсік Гамма"
   components:
     - type: Sprite
       state: gamma_hangar
@@ -524,7 +524,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangar
   id: RMCAreaCorsatGammaHangarMonorail
-  name: Gamma Monorail Station
+  name: "Станція монорейки Гамма"
   components:
     - type: Sprite
       state: monorail
@@ -534,7 +534,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangarMonorail
   id: RMCAreaCorsatGammaHangarMonorailControl
-  name: Gamma Monorail Control
+  name: "Контроль монорейки Гамма"
   components:
     - type: Sprite
       state: monorail
@@ -542,7 +542,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangarMonorail
   id: RMCAreaCorsatGammaHangarMonorailRailcart
-  name: CORSAT Railcart
+  name: "Вагон CORSAT"
   components:
     - type: Sprite
       state: railcart
@@ -561,7 +561,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangar
   id: RMCAreaCorsatGammaHangarCargo
-  name: Gamma Hangar Cargo Checkpoint
+  name: "Карго-чекпоінт ангара Гамма"
   components:
     - type: Sprite
       state: gamma_hangar
@@ -571,7 +571,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangar
   id: RMCAreaCorsatGammaHangarCheckpoint
-  name: Gamma Hangar Checkpoint
+  name: "Чекпоінт ангара Гамма"
   components:
     - type: Sprite
       state: gamma_hangar
@@ -581,7 +581,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangar
   id: RMCAreaCorsatGammaHangarOffice
-  name: Gamma Hangar Office
+  name: "Офіс ангара Гамма"
   components:
     - type: Sprite
       state: gamma_hangar_office
@@ -591,7 +591,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangar
   id: RMCAreaCorsatGammaHangarFlightcontrol
-  name: CORSAT Flight Control Center
+  name: "CORSAT — Центр контролю польотів"
   components:
     - type: Sprite
       state: flight_center
@@ -601,7 +601,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangar
   id: RMCAreaCorsatGammaHangarSecurity
-  name: Gamma Hangar Security
+  name: "Охорона ангара Гамма"
   components:
     - type: Sprite
       state: gamma_hangar_security
@@ -611,7 +611,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaHangar
   id: RMCAreaCorsatGammaHangarArrivals
-  name: Gamma Arrivals
+  name: "Прибуття Гамма"
   components:
     - type: Sprite
       state: gamma_arrivals
@@ -621,7 +621,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaFoyer
-  name: Gamma Foyer
+  name: "Фойє Гамма"
   components:
     - type: Sprite
       state: gamma_foyer
@@ -631,7 +631,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaHallwaymain
-  name: Gamma Sector West Hallway
+  name: "Сектор Гамма — Західний коридор"
   components:
     - type: Sprite
       state: gamma_hallway_main
@@ -639,7 +639,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaHallwaysouth
-  name: Gamma Sector South Hallways
+  name: "Сектор Гамма — Південні коридори"
   components:
     - type: Sprite
       state: gamma_hallway_south
@@ -647,7 +647,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaResidential
-  name: Gamma Residential Hallway
+  name: "Гамма — Житловий коридор"
   components:
     - type: Sprite
       state: gamma_hallway_main
@@ -657,7 +657,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialWest
-  name: CORSAT Academy
+  name: "Академія CORSAT"
   components:
     - type: Sprite
       state: gamma_residential_west
@@ -665,7 +665,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialEast
-  name: Gamma North Residential
+  name: "Гамма — Північні житлові"
   components:
     - type: Sprite
       state: gamma_residential_east
@@ -675,7 +675,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialMaint
-  name: Gamma Residential Maintenance
+  name: "Гамма — Обслуговування житлового"
   components:
     - type: Sprite
       state: gamma_residential_maint
@@ -683,7 +683,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialResearcher
-  name: Researcher Quarters
+  name: "Каюти дослідників"
   components:
     - type: Sprite
       state: researcher_quarters
@@ -691,7 +691,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialLounge
-  name: Researcher Lounge
+  name: "Зала відпочинку дослідників"
   components:
     - type: Sprite
       state: researcher_lounge
@@ -699,7 +699,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialLavatory
-  name: Gamma Lavatory
+  name: "Гамма — Туалет"
   components:
     - type: Sprite
       state: gamma_lavatory
@@ -707,7 +707,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialShowers
-  name: Gamma Showers
+  name: "Гамма — Душові"
   components:
     - type: Sprite
       state: gamma_showers
@@ -717,7 +717,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaResidential
   id: RMCAreaCorsatGammaResidentialLaundry
-  name: Gamma Laundry
+  name: "Гамма — Пральня"
   components:
     - type: Sprite
       state: gamma_laundry
@@ -725,7 +725,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaCargo
-  name: Gamma Cargo
+  name: "Гамма — Карго"
   components:
     - type: Sprite
       state: gamma_cargo
@@ -735,7 +735,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaCargo
   id: RMCAreaCorsatGammaCargoLobby
-  name: Gamma Cargo Lobby
+  name: "Гамма — Лобі карго"
   components:
     - type: Sprite
       state: gamma_cargo_lobby
@@ -745,7 +745,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaCargo
   id: RMCAreaCorsatGammaCargoDisposal
-  name: Gamma Disposals
+  name: "Гамма — Утилізація"
   components:
     - type: Sprite
       state: gamma_disposals
@@ -753,7 +753,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaMedbay
-  name: CORSAT Medbay
+  name: "CORSAT — Медблок"
   components:
     - type: Sprite
       state: corsat_medbay
@@ -763,7 +763,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaMedbay
   id: RMCAreaCorsatGammaMedbayMorgue
-  name: CORSAT Morgue
+  name: "CORSAT — Морг"
   components:
     - type: Sprite
       state: corsat_morgue
@@ -771,7 +771,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaMedbay
   id: RMCAreaCorsatGammaMedbayChemistry
-  name: CORSAT Chemistry
+  name: "CORSAT — Хімія"
   components:
     - type: Sprite
       state: corsat_chemistry
@@ -779,7 +779,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaMedbay
   id: RMCAreaCorsatGammaMedbaySurgery
-  name: CORSAT Surgery
+  name: "CORSAT — Хірургія"
   components:
     - type: Sprite
       state: corsat_surgery
@@ -787,7 +787,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaMedbay
   id: RMCAreaCorsatGammaMedbayLobby
-  name: CORSAT Medbay Lobby
+  name: "CORSAT — Лобі медблоку"
   components:
     - type: Sprite
       state: medbay_lobby
@@ -795,7 +795,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaHydroponics
-  name: CORSAT Hydroponics
+  name: "CORSAT — Гідропоніка"
   components:
     - type: Sprite
       state: corsat_hydroponics
@@ -805,7 +805,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaCanteen
-  name: CORSAT Canteen
+  name: "CORSAT — Їдальня"
   components:
     - type: Sprite
       state: corsat_canteen
@@ -813,7 +813,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaKitchen
-  name: CORSAT Kitchen
+  name: "CORSAT — Кухня"
   components:
     - type: Sprite
       state: corsat_kitchen
@@ -821,7 +821,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaFreezer
-  name: CORSAT Food Storage
+  name: "CORSAT — Склад їжі"
   components:
     - type: Sprite
       state: food_storage
@@ -831,7 +831,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaAdministration
-  name: CORSAT Administration Center
+  name: "CORSAT — Адміністративний центр"
   components:
     - type: Sprite
       state: corsat_administration
@@ -841,7 +841,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaSecurity
-  name: CORSAT Security Hub
+  name: "CORSAT — Хаб охорони"
   components:
     - type: Sprite
       state: gamma_security
@@ -852,7 +852,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaSecurity
   id: RMCAreaCorsatGammaSecurityCells
-  name: CORSAT Security Cells
+  name: "CORSAT — Камери охорони"
   components:
     - type: Sprite
       state: security_cell
@@ -862,7 +862,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaSecurity
   id: RMCAreaCorsatGammaSecurityArmory
-  name: CORSAT Armory
+  name: "CORSAT — Збройова"
   components:
     - type: Sprite
       state: corsat_armory
@@ -872,7 +872,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaRnr
-  name: CORSAT R&R
+  name: "CORSAT — Зона відпочинку"
   components:
     - type: Sprite
       state: corsat_rnr
@@ -882,7 +882,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaRnr
   id: RMCAreaCorsatGammaRnrBar
-  name: CORSAT Bar
+  name: "CORSAT — Бар"
   components:
     - type: Sprite
       state: corsat_bar
@@ -892,7 +892,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaRnr
   id: RMCAreaCorsatGammaRnrArcade
-  name: CORSAT Arcade
+  name: "CORSAT — Аркада"
   components:
     - type: Sprite
       state: corsat_arcade
@@ -902,7 +902,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaRnr
   id: RMCAreaCorsatGammaRnrLibrary
-  name: CORSAT Library
+  name: "CORSAT — Бібліотека"
   components:
     - type: Sprite
       state: corsat_library
@@ -910,7 +910,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaEngineering
-  name: Gamma Engineering
+  name: "Гамма — Інженерний"
   components:
     - type: Sprite
       state: gamma_engineering
@@ -921,7 +921,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaEngineering
   id: RMCAreaCorsatGammaEngineeringLobby
-  name: Gamma Engineering Lobby
+  name: "Гамма — Лобі інженерного"
   components:
     - type: Sprite
       state: gamma_engineering
@@ -929,7 +929,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaEngineering
   id: RMCAreaCorsatGammaEngineeringAtmos
-  name: CORSAT Atmospherics
+  name: "CORSAT — Атмосферика"
   components:
     - type: Sprite
       state: gamma_atmos
@@ -937,7 +937,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaEngineering
   id: RMCAreaCorsatGammaEngineeringCore
-  name: CORSAT Generator Core
+  name: "CORSAT — Ядро генератора"
   components:
     - type: Sprite
       state: corsat_core
@@ -947,7 +947,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaSigmaremote
-  name: Sigma Remote Complex
+  name: "Сигма — Віддалений комплекс"
   components:
     - type: Sprite
       state: sigma_complex_remote
@@ -957,7 +957,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaSigmaremote
   id: RMCAreaCorsatGammaSigmaremoteTeleporter
-  name: Sigma Remote Teleporter
+  name: "Сигма — Віддалений телепортер"
   components:
     - type: Sprite
       sprite: _RMC14/Areas/areas.rsi
@@ -976,7 +976,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaAirlockNorth
-  name: Gamma Dome North Airlock
+  name: "Гамма — Північний шлюз купола"
   components:
     - type: Sprite
       state: gamma_airlock_north
@@ -994,7 +994,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaAirlockNorth
   id: RMCAreaCorsatGammaAirlockNorthId
-  name: Gamma North ID Checkpoint
+  name: "Гамма — Північний ID-чекпоінт"
   components:
     - type: Sprite
       state: corsat_id
@@ -1002,7 +1002,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaAirlockSouth
-  name: Gamma Dome South Airlock
+  name: "Гамма — Південний шлюз купола"
   components:
     - type: Sprite
       state: gamma_airlock_south
@@ -1010,7 +1010,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaAirlockSouth
   id: RMCAreaCorsatGammaAirlockSouthId
-  name: Gamma South ID Checkpoint
+  name: "Гамма — Південний ID-чекпоінт"
   components:
     - type: Sprite
       state: corsat_id
@@ -1018,7 +1018,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaAirlockControl
-  name: Gamma Dome Control Module
+  name: "Гамма — Модуль керування куполом"
   components:
     - type: Sprite
       state: gamma_control
@@ -1036,7 +1036,7 @@
 - type: entity
   parent: RMCAreaCorsatGamma
   id: RMCAreaCorsatGammaBiodome
-  name: Biodome Gamma
+  name: "Біокупол Гамма"
   components:
     - type: Sprite
       state: gamma_biodome
@@ -1054,7 +1054,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaBiodome
   id: RMCAreaCorsatGammaBiodomeComplex
-  name: Gamma Research Complex
+  name: "Гамма — Дослідницький комплекс"
   components:
     - type: Sprite
       state: gamma_complex
@@ -1064,7 +1064,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaBiodome
   id: RMCAreaCorsatGammaBiodomeVirology
-  name: Gamma Virology Wing
+  name: "Гамма — Крило вірології"
   components:
     - type: Sprite
       state: gamma_virology
@@ -1074,7 +1074,7 @@
 - type: entity
   parent: RMCAreaCorsatGammaBiodome
   id: RMCAreaCorsatGammaBiodomeToxins
-  name: Gamma Toxins Wing
+  name: "Гамма — Крило токсинів"
   components:
     - type: Sprite
       state: gamma_toxin
@@ -1084,7 +1084,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatTheta
-  name: Theta Sector
+  name: "Сектор Тета"
   components:
     - type: Sprite
       state: corsat_hull
@@ -1102,7 +1102,7 @@
 - type: entity
   parent: RMCAreaCorsatTheta
   id: RMCAreaCorsatThetaBiodome
-  name: Biodome Theta
+  name: "Біокупол Тета"
   components:
     - type: Sprite
       state: theta_biodome
@@ -1110,7 +1110,7 @@
 - type: entity
   parent: RMCAreaCorsatThetaBiodome
   id: RMCAreaCorsatThetaBiodomeComplex
-  name: Theta Research Complex
+  name: "Тета — Дослідницький комплекс"
   components:
     - type: Sprite
       state: theta_complex
@@ -1120,7 +1120,7 @@
 - type: entity
   parent: RMCAreaCorsatThetaBiodome
   id: RMCAreaCorsatThetaBiodomeHydroeast
-  name: Theta East Hydroponics Wing
+  name: "Тета — Східне крило гідропоніки"
   components:
     - type: Sprite
       state: theta_hydro_east
@@ -1130,7 +1130,7 @@
 - type: entity
   parent: RMCAreaCorsatThetaBiodome
   id: RMCAreaCorsatThetaBiodomeHydrowest
-  name: Theta West Hydroponics Wing
+  name: "Тета — Західне крило гідропоніки"
   components:
     - type: Sprite
       state: theta_hydro_west
@@ -1138,7 +1138,7 @@
 - type: entity
   parent: RMCAreaCorsatTheta
   id: RMCAreaCorsatThetaAirlockWest
-  name: Theta Dome West Airlock
+  name: "Тета — Західний шлюз купола"
   components:
     - type: Sprite
       state: theta_airlock_west
@@ -1146,7 +1146,7 @@
 - type: entity
   parent: RMCAreaCorsatThetaAirlockWest
   id: RMCAreaCorsatThetaAirlockWestId
-  name: Theta West ID Checkpoint
+  name: "Тета — Західний ID-чекпоінт"
   components:
     - type: Sprite
       state: corsat_id
@@ -1154,7 +1154,7 @@
 - type: entity
   parent: RMCAreaCorsatTheta
   id: RMCAreaCorsatThetaAirlockEast
-  name: Theta Dome East Airlock
+  name: "Тета — Східний шлюз купола"
   components:
     - type: Sprite
       state: theta_airlock_east
@@ -1162,7 +1162,7 @@
 - type: entity
   parent: RMCAreaCorsatThetaAirlockEast
   id: RMCAreaCorsatThetaAirlockEastId
-  name: Theta East ID Checkpoint
+  name: "Тета — Східний ID-чекпоінт"
   components:
     - type: Sprite
       state: corsat_id
@@ -1170,7 +1170,7 @@
 - type: entity
   parent: RMCAreaCorsatTheta
   id: RMCAreaCorsatThetaAirlockControl
-  name: Theta Dome Control Module
+  name: "Тета — Модуль керування куполом"
   components:
     - type: Sprite
       state: theta_control
@@ -1178,7 +1178,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatOmega
-  name: Sector Omega
+  name: "Сектор Омега"
   components:
     - type: Sprite
       state: corsat_hull
@@ -1196,7 +1196,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaBiodome
-  name: Biodome Omega
+  name: "Біокупол Омега"
   components:
     - type: Sprite
       state: omega_biodome
@@ -1204,7 +1204,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaHangar
-  name: Landing Bay Omega
+  name: "Посадковий відсік Омега"
   components:
     - type: Sprite
       state: omega_hangar
@@ -1212,7 +1212,7 @@
 - type: entity
   parent: RMCAreaCorsatOmegaHangar
   id: RMCAreaCorsatOmegaHangarOffice
-  name: Omega Hangar Office
+  name: "Офіс ангара Омега"
   components:
     - type: Sprite
       state: omega_hangar_office
@@ -1220,7 +1220,7 @@
 - type: entity
   parent: RMCAreaCorsatOmegaHangar
   id: RMCAreaCorsatOmegaHangarSecurity
-  name: Omega Hangar Security
+  name: "Охорона ангара Омега"
   components:
     - type: Sprite
       state: omega_hangar_security
@@ -1228,7 +1228,7 @@
 - type: entity
   parent: RMCAreaCorsatOmegaHangar
   id: RMCAreaCorsatOmegaHangarCorporate_shuttle
-  name: Omega Hangar Corporate Shuttle
+  name: "Корпоративний шатл ангара Омега"
   components:
     - type: Sprite
       state: corporate_shuttle
@@ -1236,7 +1236,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaHallways
-  name: Omega Sector Hallways
+  name: "Сектор Омега — Коридори"
   components:
     - type: Sprite
       state: omega_hallway
@@ -1244,7 +1244,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaComplex
-  name: Omega Research Complex
+  name: "Омега — Дослідницький комплекс"
   components:
     - type: Sprite
       state: omega_complex
@@ -1254,7 +1254,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaContainment
-  name: Omega Research Containment
+  name: "Омега — Стримання досліджень"
   components:
     - type: Sprite
       state: omega_containment
@@ -1262,7 +1262,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaSecurity
-  name: Omega Security Hub
+  name: "Омега — Хаб охорони"
   components:
     - type: Sprite
       state: omega_security
@@ -1272,7 +1272,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaCheckpoint
-  name: Omega Access Checkpoint
+  name: "Омега — Чекпоінт доступу"
   components:
     - type: Sprite
       state: omega_checkpoint
@@ -1282,7 +1282,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaOffices
-  name: Omega Offices
+  name: "Омега — Офіси"
   components:
     - type: Sprite
       state: omega_offices
@@ -1290,7 +1290,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaCargo
-  name: Omega Cargo
+  name: "Омега — Карго"
   components:
     - type: Sprite
       state: omega_cargo
@@ -1298,7 +1298,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaMaint
-  name: Omega Maintenance
+  name: "Омега — Обслуговування"
   components:
     - type: Sprite
       state: omega_maintenance
@@ -1306,7 +1306,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaAirlocknorth
-  name: Omega Dome North Airlock
+  name: "Омега — Північний шлюз купола"
   components:
     - type: Sprite
       state: omega_airlock
@@ -1314,7 +1314,7 @@
 - type: entity
   parent: RMCAreaCorsatOmegaAirlocknorth
   id: RMCAreaCorsatOmegaAirlocknorthId
-  name: Omega North ID Checkpoint
+  name: "Омега — Північний ID-чекпоінт"
   components:
     - type: Sprite
       state: corsat_id
@@ -1322,7 +1322,7 @@
 - type: entity
   parent: RMCAreaCorsatOmega
   id: RMCAreaCorsatOmegaControl
-  name: Omega Dome Control Module
+  name: "Омега — Модуль керування куполом"
   components:
     - type: Sprite
       state: omega_control
@@ -1330,7 +1330,7 @@
 - type: entity
   parent: RMCAreaCorsat
   id: RMCAreaCorsatInaccessible
-  name: Unknown Location
+  name: "Невідоме місце"
   components:
     - type: Sprite
       state: corsat_hull

@@ -1,204 +1,204 @@
 - type: rank
   id: RMCRankTSEMarine
-  name: Marine
+  name: "Морпіх"
   prefix: Mne.
   paygrade: E1
 
 - type: rank
   id: RMCRankTSELanceCorporal
-  name: Lance Corporal
+  name: "Молодший Капрал"
   prefix: LCpl.
   paygrade: E2
 
 - type: rank
   id: RMCRankTSECorporal
-  name: Corporal
+  name: "Капрал"
   prefix: Cpl.
   paygrade: E3
 
 - type: rank
   id: RMCRankTSESergeant
-  name: Sergeant
+  name: "Сержант"
   prefix: Sgt.
   paygrade: E4
 
 - type: rank
   id: RMCRankTSEColourSergeant
-  name: Colour Sergeant
+  name: "Кольоровий Сержант"
   prefix: CSgt.
   paygrade: E5
 
 - type: rank
   id: RMCRankTSEWarrantOfficer1
-  name: Warrant Officer Class 1
+  name: "Унтер-офіцер 1-го класу"
   prefix: WO1.
   paygrade: E6
 
 - type: rank
   id: RMCRankTSEWarrantOfficer2
-  name: Warrant Officer Class 2
+  name: "Унтер-офіцер 2-го класу"
   prefix: WO2.
   paygrade: E7
 
 - type: rank
   id: RMCRankTSESecondLieutenant
-  name: Second Lieutenant
+  name: "Молодший Лейтенант"
   prefix: 2nd LT
   paygrade: O1
 
 - type: rank
   id: RMCRankTSELieutenant
-  name: Lieutenant
+  name: "Лейтенант"
   prefix: Lt.
   paygrade: O2
 
 - type: rank
   id: RMCRankTSECaptain
-  name: Captain
+  name: "Капітан"
   prefix: Capt.
   paygrade: O3
 
 - type: rank
   id: RMCRankTSEMajor
-  name: Major
+  name: "Майор"
   prefix: Maj.
   paygrade: O4
 
 - type: rank
   id: RMCRankTSELieutenantColonel
-  name: Lieutenant Colonel
+  name: "Підполковник"
   prefix: Lt.Col.
   paygrade: O5
 
 - type: rank
   id: RMCRankTSEColonel
-  name: Colonel
+  name: "Полковник"
   prefix: Col.
   paygrade: O6
 
 - type: rank
   id: RMCRankTSEBrigadier
-  name: Brigadier
+  name: "Бригадир"
   prefix: Brig.
   paygrade: O7
 
 - type: rank
   id: RMCRankTSEMajorGeneral
-  name: Major General
+  name: "Генерал-майор"
   prefix: Maj Gen.
   paygrade: O8
 
 - type: rank
   id: RMCRankTSELieutenantGeneral
-  name: Lieutenant General
+  name: "Генерал-лейтенант"
   prefix: Lt Gen.
   paygrade: O9
 
 - type: rank
   id: RMCRankTSEGeneral
-  name: General
+  name: "Генерал"
   prefix: Gen.
   paygrade: O10
   
 - type: rank
   id: RMCRankTSEEmpress
-  name: Empress # This needs to be changed to allow it to change dynamically for genders
+  name: "Імператриця" # This needs to be changed to allow it to change dynamically for genders
   prefix: HRM.
 
 # The below ranks are for the Para insert on Hybrisa
 
 - type: rank
   id: RMCRankParaPrivate
-  name: Private
+  name: "Рядовий"
   prefix: Pte.
   paygrade: E1
 
 - type: rank
   id: RMCRankParaPrivateSecondClass
-  name: Private Second Class
+  name: "Рядовий другого класу"
   prefix: Pte2.
   paygrade: E2
 
 - type: rank
   id: RMCRankParaLanceCorporal
-  name: Lance Corporal
+  name: "Молодший Капрал"
   prefix: LCpl.
   paygrade: E3
 
 - type: rank
   id: RMCRankParaCorporal
-  name: Corporal
+  name: "Капрал"
   prefix: Cpl.
   paygrade: E4
 
 - type: rank
   id: RMCRankParaSergeant
-  name: Sergeant
+  name: "Сержант"
   prefix: Sgt.
   paygrade: E5
 
 - type: rank
   id: RMCRankParaStaffSergeant
-  name: Staff Sergeant
+  name: "Штаб-сержант"
   prefix: SSgt.
   paygrade: E6
 
 - type: rank
   id: RMCRankParaWarrantOfficerClass2
-  name: Warrant Officer Class 2
+  name: "Унтер-офіцер 2-го класу"
   prefix: WO2.
   paygrade: E7
 
 - type: rank
   id: RMCRankParaSecondLieutenant
-  name: Second Lieutenant.
+  name: "Молодший Лейтенант."
   prefix: 2Lt.
   paygrade: O1
 
 - type: rank
   id: RMCRankParaLieutenant
-  name: Lieutenant
+  name: "Лейтенант"
   prefix: Lt.
   paygrade: O2
 
 - type: rank
   id: RMCRankParaCaptain
-  name: Captain
+  name: "Капітан"
   prefix: Capt.
   paygrade: O3
 
 - type: rank
   id: RMCRankParaMajor
-  name: Major
+  name: "Майор"
   prefix: Maj.
   paygrade: O4
 
 - type: rank
   id: RMCRankParaLieutenantColonel
-  name: Lieutenant Colonel
+  name: "Підполковник"
   prefix: LtCol.
   paygrade: O5
 
 - type: rank
   id: RMCRankParaColonel
-  name: Colonel
+  name: "Полковник"
   prefix: Col.
   paygrade: O6
 
 - type: rank
   id: RMCRankParaBrigadier
-  name: Brigadier
+  name: "Бригадир"
   prefix: Brig.
   paygrade: O7
 
 - type: rank
   id: RMCRankParaMajorGeneral
-  name: Major General
+  name: "Генерал-майор"
   prefix: MajGen.
   paygrade: O8
 
 - type: rank
   id: RMCRankParaGeneralBrigade
-  name: General of the Brigade
+  name: "Генерал бригади"
   prefix: GenBrig.
   paygrade: O9

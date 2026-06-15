@@ -1,8 +1,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankFlamer
-  name: tank flamer
-  description: A tank-mounted flamethrower hardpoint.
+  name: "танковий вогнемет"
+  description: "Вузол кріплення вогнемета, встановленого на танку."
   components:
   - type: Sprite
     state: flamer
@@ -72,8 +72,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankGrenadeLauncher
-  name: tank grenade launcher
-  description: A tank-mounted grenade launcher hardpoint.
+  name: "танковий гранатомет"
+  description: "Вузол кріплення гранатомета, встановленого на танку."
   components:
   - type: Sprite
     state: glauncher
@@ -141,8 +141,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankTowLauncher
-  name: tank TOW launcher
-  description: A tank-mounted TOW launcher hardpoint.
+  name: "танкова пускова установка TOW"
+  description: "Вузол кріплення пускової установки TOW, встановленої на танку."
   components:
   - type: Sprite
     state: tow_launcher
@@ -206,8 +206,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankM56Cupola
-  name: M56 cupola
-  description: A cupola-mounted weapon hardpoint.
+  name: "командирська башточка M56"
+  description: "Вузол кріплення зброї, встановленої на командирській башточці."
   components:
   - type: Sprite
     state: m56_cupola
@@ -270,8 +270,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankRERE700
-  name: RE-RE700 cupola
-  description: A dual-barrel cupola-mounted weapon hardpoint with integrated IFF.
+  name: "командирська башточка RE-RE700"
+  description: "Двоствольний вузол кріплення зброї, встановленої на командирській башточці, з інтегрованим IFF."
   components:
   - type: Sprite
     state: m56_cupola

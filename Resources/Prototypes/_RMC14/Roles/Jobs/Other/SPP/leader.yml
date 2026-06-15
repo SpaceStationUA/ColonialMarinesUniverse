@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPLeader
   name: rmc-job-name-spp-leader
-  description: rmc-job-description-spp-leader
+  description: "rmc-job-description-spp-leader"
   playTimeTracker: CMJobSPPLeader
   ranks:
     RMCRankSPPSerzhant: []
@@ -60,7 +60,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPLeaderHostile
-  name: spp ghost role leader
+  name: "spp привид-роль лідера"
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -71,7 +71,7 @@
 
 - type: entity
   id: RMCRandomHumanoidSPPLeaderFriendly
-  name: spp ghost role leader
+  name: "spp привид-роль лідера"
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite
