@@ -38,7 +38,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorHybrisaEMTParamedic
-  name: "спавнер парамедика emt"
+  name: emt paramedic spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -50,7 +50,7 @@
 - type: entity
   parent: RMCSurvivorPresetDoctor
   id: RMCGearSurvivorPresetHybrisaEMTParamedic
-  name: "пресет парамедика emt"
+  name: emt paramedic preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

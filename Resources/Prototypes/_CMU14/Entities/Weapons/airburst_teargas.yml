@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseAirBurstGrenade
   id: CM14AirBurstTearGas
-  name: "граната зі сльозогінним газом M74 AGM-PDC"
-  description: "M74 - Airburst Grenade Munition - Personnel Denial Canister. Цю гранату потрібно запускати з гранатомета; вона детонує, коли досягає пункту призначення. Вона випускає хмару подразнювального газу з тимчасовими нейром’язовими ефектами."
+  name: M74 AGM-PDC tear gas grenade
+  description: M74 - Airburst Grenade Munition - Personnel Denial Canister. This grenade must be launched with a grenade launcher, and detonates once it reaches its destination. It dispenses a cloud of irritant gas with temporary neuromuscular effects.
   components:
   - type: Sprite
     sprite:  _CMU14/Objects/Weapons/Guns/Ammunition/teargascanister.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: RMCBaseAirBurstProjectile
   id: CMU14AirBurstProjectileTearGas
-  name: "граната зі сльозогінним газом M74 AGM-PDC"
+  name: M74 AGM-PDC tear gas grenade
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,9 +1,9 @@
 
 - type: entity
-  name: "коробка для стерильних масок"
+  name: sterile mask box
   parent: BoxCardboard
   id: BoxSterileMask
-  description: "У цій коробці знаходяться стерильні медичні маски."
+  description: This box contains sterile medical masks.
   components:
   - type: StorageFill
     contents:
@@ -15,10 +15,10 @@
       - state: sterile
 
 - type: entity
-  name: "коробка з латексними рукавичками"
+  name: latex gloves box
   parent: BoxCardboard
   id: BoxLatexGloves
-  description: "Містить стерильні латексні рукавички."
+  description: Contains sterile latex gloves.
   components:
   - type: StorageFill
     contents:
@@ -30,10 +30,10 @@
       - state: latex
 
 - type: entity
-  name: "коробка з нітриловими рукавичками"
+  name: nitrile gloves box
   parent: BoxCardboard
   id: BoxNitrileGloves
-  description: "Містить стерильні нітрилові рукавички. Краще, ніж латексні."
+  description: Contains sterile nitrile gloves. Better than latex.
   components:
   - type: StorageFill
     contents:
@@ -45,10 +45,10 @@
       - state: nitrile
 
 - type: entity
-  name: "коробка з мішками для трупів"
+  name: body bag box
   parent: BoxCardboard
   id: BoxBodyBag
-  description: "Містить мішки для трупів."
+  description: Contains body bags.
   components:
   - type: StorageFill
     contents:
@@ -63,10 +63,10 @@
         - BodyBag
 
 - type: entity
-  name: "коробка з флаконами"
+  name: vial box
   parent: BoxCardboard
   id: BoxVial
-  description: "Коробка, повна флаконів."
+  description: A box full of vials.
   components:
   - type: Storage
     grid:
@@ -81,10 +81,10 @@
       - state: vials
 
 - type: entity
-  name: "коробка пляшок"
+  name: bottle box
   parent: BoxCardboard
   id: BoxBottle
-  description: "Коробка, повна порожніх пляшок."
+  description: A box full of empty bottles.
   components:
   - type: Storage
     grid:

@@ -1,6 +1,6 @@
 - type: entity
   id: RMCBaseTree
-  description: "Так, це дерево."
+  description: Yep, it's a tree.
   abstract: true
   components:
   - type: SpriteFade
@@ -177,8 +177,8 @@
   parent: RMCBaseTree
   id: RMCBaseTreeAlien
   abstract: true
-  name: "дивне дерево"
-  description: "Якесь химерне інопланетне дерево. З нього сочиться хворобливо-жовтий сік."
+  name: strange tree
+  description: Some kind of bizarre alien tree. It oozes with a sickly yellow sap.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Flora/flora_treealien.rsi
@@ -223,7 +223,7 @@
   parent: RMCBaseTree
   id: RMCFloraTree01
   suffix: RMCFloraTree01
-  name: "дерево"
+  name: tree
   components:
   - type: Sprite
     state: tree01
@@ -232,7 +232,7 @@
   parent: RMCBaseTree
   id: RMCFloraTree02
   suffix: RMCFloraTree02
-  name: "дерево"
+  name: tree
   components:
   - type: Sprite
     state: tree02
@@ -241,7 +241,7 @@
   parent: RMCBaseTree
   id: RMCFloraTree03
   suffix: RMCFloraTree03
-  name: "дерево"
+  name: tree
   components:
   - type: Sprite
     state: tree03
@@ -250,7 +250,7 @@
   parent: RMCBaseTree
   id: RMCFloraTree04
   suffix: RMCFloraTree04
-  name: "дерево"
+  name: tree
   components:
   - type: Sprite
     state: tree04
@@ -259,7 +259,7 @@
   parent: RMCBaseTree
   id: RMCFloraTree05
   suffix: RMCFloraTree05
-  name: "дерево"
+  name: tree
   components:
   - type: Sprite
     state: tree05
@@ -268,7 +268,7 @@
   parent: RMCBaseTree
   id: RMCFloraTree06
   suffix: RMCFloraTree06
-  name: "дерево"
+  name: tree
   components:
   - type: Sprite
     state: tree06
@@ -277,7 +277,7 @@
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow01
   suffix: RMCFloraTreeSnow01
-  name: "засніжене дерево"
+  name: snowy tree
   components:
   - type: Sprite
     state: treesnow01
@@ -286,7 +286,7 @@
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow02
   suffix: RMCFloraTreeSnow02
-  name: "засніжене дерево"
+  name: snowy tree
   components:
   - type: Sprite
     state: treesnow02
@@ -295,7 +295,7 @@
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow03
   suffix: RMCFloraTreeSnow03
-  name: "засніжене дерево"
+  name: snowy tree
   components:
   - type: Sprite
     state: treesnow03
@@ -304,7 +304,7 @@
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow04
   suffix: RMCFloraTreeSnow04
-  name: "засніжене дерево"
+  name: snowy tree
   components:
   - type: Sprite
     state: treesnow04
@@ -313,7 +313,7 @@
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow05
   suffix: RMCFloraTreeSnow05
-  name: "засніжене дерево"
+  name: snowy tree
   components:
   - type: Sprite
     state: treesnow05
@@ -322,7 +322,7 @@
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeSnow06
   suffix: RMCFloraTreeSnow06
-  name: "засніжене дерево"
+  name: snowy tree
   components:
   - type: Sprite
     state: treesnow06
@@ -331,7 +331,7 @@
   parent: RMCBaseTreeSnow
   id: RMCFloraTreeStump
   suffix: RMCFloraTreeStump
-  name: "пеньок"
+  name: tree stump
   components:
   - type: Sprite
     state: treestump
@@ -340,7 +340,7 @@
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge01
   suffix: RMCFloraTreeLarge01
-  name: "велике дерево"
+  name: large tree
   components:
   - type: Sprite
     state: treelarge01
@@ -349,7 +349,7 @@
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge02
   suffix: RMCFloraTreeLarge02
-  name: "велике дерево"
+  name: large tree
   components:
   - type: Sprite
     state: treelarge02
@@ -358,7 +358,7 @@
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge03
   suffix: RMCFloraTreeLarge03
-  name: "велике дерево"
+  name: large tree
   components:
   - type: Sprite
     state: treelarge03
@@ -367,7 +367,7 @@
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge04
   suffix: RMCFloraTreeLarge04
-  name: "велике дерево"
+  name: large tree
   components:
   - type: Sprite
     state: treelarge04
@@ -376,7 +376,7 @@
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge05
   suffix: RMCFloraTreeLarge05
-  name: "велике дерево"
+  name: large tree
   components:
   - type: Sprite
     state: treelarge05
@@ -385,7 +385,7 @@
   parent: RMCBaseTreeLarge
   id: RMCFloraTreeLarge06
   suffix: RMCFloraTreeLarge06
-  name: "велике дерево"
+  name: large tree
   components:
   - type: Sprite
     state: treelarge06
@@ -394,7 +394,7 @@
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeConifer01
   suffix: RMCFloraTreeConifer01
-  name: "засніжене хвойне дерево"
+  name: snowy conifer
   components:
   - type: Sprite
     state: treeconifer01
@@ -403,7 +403,7 @@
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeConifer02
   suffix: RMCFloraTreeConifer02
-  name: "засніжене хвойне дерево"
+  name: snowy conifer
   components:
   - type: Sprite
     state: treeconifer02
@@ -412,7 +412,7 @@
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeConifer03
   suffix: RMCFloraTreeConifer03
-  name: "засніжене хвойне дерево"
+  name: snowy conifer
   components:
   - type: Sprite
     state: treeconifer03
@@ -421,7 +421,7 @@
   parent: RMCBaseTreeConifer
   id: RMCFloraTreeStumpConifer
   suffix: RMCFloraTreeStumpConifer
-  name: "пеньок"
+  name: tree stump
   components:
   - type: Sprite
     state: treestumpconifer

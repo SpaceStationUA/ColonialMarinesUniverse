@@ -79,7 +79,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointCombatTech
-  name: "спавнер бойового техніка"
+  name: combat tech spawn point
   components:
   - type: SpawnPoint
     job_id: CMCombatTech
@@ -151,8 +151,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleCT
-  name: "Бойовий технік"
-  description: "Бойовий технік"
+  name: Combat Technician
+  description: Combat Technician
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

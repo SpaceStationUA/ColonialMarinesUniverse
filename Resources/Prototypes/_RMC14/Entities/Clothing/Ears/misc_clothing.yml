@@ -15,8 +15,8 @@
 - type: entity
   parent: RMCEarMiscClothingBase
   id: RMCEarmuffs
-  name: "навушники"
-  description: "Захищає твій слух від гучних звуків, а також від тихих."
+  name: earmuffs
+  description: Protects your hearing from loud noises, and quiet ones as well.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Ears/earmuffs.rsi

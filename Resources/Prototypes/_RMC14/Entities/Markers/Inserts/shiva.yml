@@ -2,7 +2,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertShivaSouthCaves
-  name: "Південні печери LZ2"
+  name: LZ2 South Caves
   suffix: Insert Shiva
   components:
   - type: MapInsert
@@ -18,7 +18,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertShivaPanicRoomHold
-  name: "Утримання у Панік-кімнаті"
+  name: Panic Room Hold
   suffix: Insert Shiva
   components:
   - type: MapInsert
@@ -34,7 +34,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertShivaCLFRaid
-  name: "Рейд CLF"
+  name: CLF Raid
   suffix: Insert Shiva
   components:
   - type: MapInsert

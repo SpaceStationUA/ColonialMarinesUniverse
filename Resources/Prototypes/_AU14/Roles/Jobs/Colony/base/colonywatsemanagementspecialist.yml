@@ -51,7 +51,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianWasteManagementSpecialist
-  name: "точка появи спеціаліста з управління відходами"
+  name: Spawn Point Waste Management Specialist
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianWasteManagementSpecialist

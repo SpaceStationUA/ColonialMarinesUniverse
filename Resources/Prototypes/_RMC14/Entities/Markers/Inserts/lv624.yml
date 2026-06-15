@@ -2,7 +2,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Armory
-  name: "Збройова"
+  name: Armory
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -19,7 +19,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CorporateDome
-  name: "Корпоративний купол"
+  name: Corporate Dome
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Gym
-  name: "Спортзал"
+  name: Gym
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624NexusCenter
-  name: "Забарикадований Нексус"
+  name: Nexus Barricaded
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -61,7 +61,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624SandtempleSE
-  name: "Піщаний храм LZ1"
+  name: Sandtemple LZ1
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -74,7 +74,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624SandtempleJungle
-  name: "Піщаний храм Джунглі"
+  name: Sandtemple Jungle
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -88,7 +88,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CargoSpecial1
-  name: "Карго — Спецміни"
+  name: Cargo Special Mines
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CargoSpecial2
-  name: "Карго — Спецзброя"
+  name: Cargo Special Weapons
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -114,7 +114,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CargoSpecial3
-  name: "Карго — Спецспорядження"
+  name: Cargo Special Gear
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -128,7 +128,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Hydro
-  name: "Гідропоніка зруйнована"
+  name: Hydro Destroyed
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -141,7 +141,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Bridge
-  name: "Міст"
+  name: Bridge
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -156,7 +156,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624CentralCaves
-  name: "Центральні печери"
+  name: Central Caves
   suffix: Insert LV624
   components:
   - type: MapInsert
@@ -171,7 +171,7 @@
 - type: entity
   parent: RMCMapInsertBase
   id: RMCMapInsertLV624Medbay
-  name: "Медблок"
+  name: Medbay
   suffix: Insert LV624
   components:
   - type: MapInsert

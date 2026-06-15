@@ -3,14 +3,14 @@
   id: AU14ChevronUPPNIBase
   abstract: true
   suffix: Naval Infantry Chevron
-  description: "Шеврон морської піхоти Союзу Прогресивних Народів. Коли ви його носите, ви відчуваєте гордість від того, що отримуєте додаткові пайки порівняно з пролетарями."
+  description: Union of Progressive Peoples Naval Infantry chevron. Wearing this makes you feel proud, knowing you get extra rations compared to the proles.
 
 # enlisted
 
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIPrivate
-  name: "шеврон рядового"
+  name: private chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -26,7 +26,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIGefreiter
-  name: "шеврон єфрейтора"
+  name: gefreiter chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNISeniorGefreiter
-  name: "шеврон старшого єфрейтора"
+  name: senior gefreiter chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -58,7 +58,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNICorporal
-  name: "шеврон капрала"
+  name: corporal chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -74,7 +74,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIPlutonowy
-  name: "шеврон плутонового"
+  name: plutonowy chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -90,7 +90,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNISergeant
-  name: "шеврон сержанта"
+  name: sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -106,7 +106,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNISeniorSergeant
-  name: "шеврон старшого сержанта"
+  name: senior sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -122,7 +122,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIFirstSergeant
-  name: "шеврон першого сержанта"
+  name: first sergeant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -138,7 +138,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNISergeantSergeant
-  name: "шеврон сержант-майора"
+  name: sergeant major chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -156,7 +156,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIWarrantOfficer
-  name: "шеврон ворент-офіцера"
+  name: warrant officer chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -172,7 +172,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNISeniorWarrantOfficer
-  name: "шеврон старшого ворент-офіцера"
+  name: senior warrant officer chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -190,7 +190,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNICommisar
-  name: "шеврон комісара"
+  name: commisar chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -206,7 +206,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNISeniorCommisar
-  name: "шеврон старшого комісара"
+  name: senior commisar chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -224,7 +224,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIJuniorLieutenant
-  name: "шеврон молодшого лейтенанта"
+  name: junior lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -240,7 +240,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNILieutenant
-  name: "шеврон лейтенанта"
+  name: lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -256,7 +256,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNISeniorLieutenant
-  name: "шеврон старшого лейтенанта"
+  name: senior lieutenant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -272,7 +272,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNICaptain
-  name: "шеврон капітана"
+  name: captain chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -290,7 +290,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIMajor
-  name: "шеврон майора"
+  name: major chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -306,7 +306,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIJuniorColonel
-  name: "шеврон молодшого полковника"
+  name: junior colonel chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -322,7 +322,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIColonel
-  name: "шеврон полковника"
+  name: colonel chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -340,7 +340,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIBrigadierGeneral
-  name: "шеврон бригадного генерала"
+  name: brigadier general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -356,7 +356,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIDivisionalGeneral
-  name: "шеврон дивізійного генерала"
+  name: divisional general chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -372,7 +372,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIGeneralOfTheBranch
-  name: "шеврон генерала роду військ"
+  name: general of the branch chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -388,7 +388,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIMarshal
-  name: "шеврон маршала"
+  name: marshal chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -404,7 +404,7 @@
 - type: entity
   parent: AU14ChevronUPPNIBase
   id: AU14ChevronUPPNIChairmanMilitaryCouncil
-  name: "шеврон голови військової ради"
+  name: chairman of the military council chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

@@ -2,8 +2,8 @@
   abstract: true
   parent: [ BaseItem, BaseBagOpenClose ]
   id: RMCBeerCoolerBase
-  name: "холодильна скриня"
-  description: "Затишний кулер для твого пива та інших напоїв."
+  name: freezer crate
+  description: A cozy cooler for your beer and other beverages.
   suffix: Empty
   components:
   - type: Storage

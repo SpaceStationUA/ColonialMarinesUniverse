@@ -61,7 +61,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCultist
   id: cultistJob
-  name: "Культист"
+  name: Cultist
   components:
   - type: Threat
   - type: GhostTakeoverAvailable

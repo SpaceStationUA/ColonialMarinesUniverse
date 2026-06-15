@@ -21,8 +21,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMOintment
-  name: "мазь"
-  description: "Використовується для лікування неприємних опіків. Менш ефективний при опіках їдкими речовинами."
+  name: ointment
+  description: Used to treat those nasty burns. Less effective on caustic burns.
   suffix: Ten
   components:
   - type: Tag
@@ -75,7 +75,7 @@
 
 - type: stack
   id: CMOintment
-  name: "мазь"
+  name: ointment
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: ointment }
   spawn: CMOintment1
   maxCount: 10
@@ -102,8 +102,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMGauze
-  name: "медична марля"
-  description: "Стерильна марля для перев'язування кривавих кукс і розсічень."
+  name: medical gauze
+  description: Some sterile gauze to wrap around bloody stumps and lacerations.
   suffix: Ten
   components:
   - type: Tag
@@ -154,7 +154,7 @@
 
 - type: stack
   id: CMGauze
-  name: "марля"
+  name: gauze
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: gauze }
   spawn: CMGauze1
   maxCount: 10
@@ -178,8 +178,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSurgicalLine
-  name: "хірургічна нитка"
-  description: "Рулон хірургічної нитки військового зразка, здатної безшовно зашити будь-яку рану. Також працює як міцна волосінь для морських розгортань."
+  name: surgical line
+  description: A roll of military-grade surgical line, able to seamlessly sew up any wound. Also works as a robust fishing line for maritime deployments.
   components:
   - type: Tag
     tags:
@@ -232,8 +232,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMSynthGraft
-  name: "синт-трансплантат"
-  description: "Аплікатор для польових трансплантатів силіконової шкіри. Ця штука смердить, страшенно свербить, боляче, коли її наносять, а її колір — ідеально усереднений мультиетнічний тон, який не пасує жодному кольору шкіри. Але принаймні вам не доведеться сидіти у медблоці."
+  name: synth graft
+  description: An applicator for silicon skin field grafts. The stuff reeks, itches like the dickens, hurts going on, and the color is a perfectly averaged multiethnic tone that doesn't blend with anyone's complexion. But at least you don't have to stay in sickbay.
   components:
   - type: Tag
     tags:
@@ -278,8 +278,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMBurnKit
-  name: "набір від опіків"
-  description: "Лікувальний набір від важких опіків."
+  name: burn kit
+  description: A treatment kit for severe burns.
   suffix: Ten
   components:
   - type: Stack
@@ -350,7 +350,7 @@
 
 - type: stack
   id: CMBurnKit
-  name: "покращений набір від опіків"
+  name: advanced burn kit
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit }
   spawn: CMBurnKit1
   maxCount: 10
@@ -359,8 +359,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMTraumaKit
-  name: "травматичний набір"
-  description: "Травматичний набір для важких поранень."
+  name: trauma kit
+  description: A trauma kit for severe injuries.
   suffix: Ten
   components:
   - type: Stack
@@ -429,7 +429,7 @@
 
 - type: stack
   id: CMTraumaKit
-  name: "покращений травматичний набір"
+  name: advanced trauma kit
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit }
   spawn: CMTraumaKit1
   maxCount: 10
@@ -438,8 +438,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMUFieldIngredientBase
-  name: "медичний інгредієнт"
-  description: "Відміряний картридж інгредієнта для польового лікування."
+  name: medical ingredient
+  description: A measured field-treatment ingredient cartridge.
   suffix: Fifty
   components:
   - type: Sprite
@@ -456,8 +456,8 @@
 - type: entity
   parent: CMUFieldIngredientBase
   id: CMUCoagulantPowder
-  name: "коагулянтний порошок"
-  description: "Згортальна сполука для змішування гемостатичних ранових пов’язок."
+  name: coagulant powder
+  description: A clotting compound used to mix hemostatic wound dressings.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -480,7 +480,7 @@
 
 - type: stack
   id: CMUCoagulantPowder
-  name: "коагулянтний порошок"
+  name: coagulant powder
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: coagulant_powder }
   spawn: CMUCoagulantPowder1
   maxCount: 50
@@ -488,8 +488,8 @@
 - type: entity
   parent: CMUFieldIngredientBase
   id: CMUAntiseptic
-  name: "антисептик"
-  description: "Стерилізувальна сполука для очищення пов’язок забруднених ран."
+  name: antiseptic
+  description: A sterilizing compound used to clean contaminated wound dressings.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -512,7 +512,7 @@
 
 - type: stack
   id: CMUAntiseptic
-  name: "антисептик"
+  name: antiseptic
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: antiseptic }
   spawn: CMUAntiseptic1
   maxCount: 50
@@ -520,8 +520,8 @@
 - type: entity
   parent: CMUFieldIngredientBase
   id: CMUBurnGel
-  name: "гель від опіків"
-  description: "Охолоджувальний гель для змішування пов’язок від опікових ран."
+  name: burn gel
+  description: A cooling gel used to mix burn wound dressings.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -544,7 +544,7 @@
 
 - type: stack
   id: CMUBurnGel
-  name: "гель від опіків"
+  name: burn gel
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: burn_gel }
   spawn: CMUBurnGel1
   maxCount: 50
@@ -552,8 +552,8 @@
 - type: entity
   parent: CMUFieldIngredientBase
   id: CMUTissueSealant
-  name: "тканинний герметик"
-  description: "Герметизувальна сполука для змішування пов’язок, зосереджених на закритті ран."
+  name: tissue sealant
+  description: A sealing compound used to mix closure-focused wound dressings.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -576,7 +576,7 @@
 
 - type: stack
   id: CMUTissueSealant
-  name: "тканинний герметик"
+  name: tissue sealant
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: tissue_sealant }
   spawn: CMUTissueSealant1
   maxCount: 50
@@ -584,8 +584,8 @@
 - type: entity
   parent: CMUFieldIngredientBase
   id: CMUTraumaFoam
-  name: "травматична піна"
-  description: "Піна, що розширюється, для змішування компресійних ранових пов’язок."
+  name: trauma foam
+  description: An expanding foam used to mix compression wound dressings.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -608,7 +608,7 @@
 
 - type: stack
   id: CMUTraumaFoam
-  name: "травматична піна"
+  name: trauma foam
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: trauma_foam }
   spawn: CMUTraumaFoam1
   maxCount: 50
@@ -617,8 +617,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMUPlainGauze
-  name: "упакована марля"
-  description: "Стерильна упакована марля для контролю неартеріальної кровотечі або польового змішування."
+  name: packed gauze
+  description: Sterile packed gauze used for non-arterial bleed control or field mixing.
   suffix: Fifty
   components:
   - type: Sprite
@@ -658,7 +658,7 @@
 
 - type: stack
   id: CMUPlainGauze
-  name: "упакована марля"
+  name: packed gauze
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: packed_gauze }
   spawn: CMUPlainGauze1
   maxCount: 50
@@ -667,8 +667,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMUPlainTraumaDressing
-  name: "упакований травматичний набір"
-  description: "Упакований травматичний набір для контролю кровотечі, контролю артеріальної кровотечі або польового змішування."
+  name: packed trauma kit
+  description: A packed trauma kit used for bleed control, arterial bleed control, or field mixing.
   suffix: Fifty
   components:
   - type: Sprite
@@ -710,7 +710,7 @@
 
 - type: stack
   id: CMUPlainTraumaDressing
-  name: "упакований травматичний набір"
+  name: packed trauma kit
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: packed_trauma_kit }
   spawn: CMUPlainTraumaDressing1
   maxCount: 50
@@ -719,8 +719,8 @@
   parent: CMBaseHealingItem
   abstract: true
   id: CMUPreparedGauzeBase
-  name: "підготовлена марля"
-  description: "Польова змішана марлева пов’язка."
+  name: prepared gauze
+  description: A field-mixed gauze dressing.
   suffix: One
   components:
   - type: Sprite
@@ -761,8 +761,8 @@
 - type: entity
   parent: CMUPreparedGauzeBase
   id: CMUHemostaticGauze1
-  name: "гемостатична марля"
-  description: "Марля, змішана з коагулянтним порошком для балістичних і гострих ран."
+  name: hemostatic gauze
+  description: Gauze mixed with coagulant powder for ballistic and sharp wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -783,7 +783,7 @@
 
 - type: stack
   id: CMUHemostaticGauze
-  name: "гемостатична марля"
+  name: hemostatic gauze
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: hemostatic_gauze }
   spawn: CMUHemostaticGauze1
   maxCount: 10
@@ -791,8 +791,8 @@
 - type: entity
   parent: CMUPreparedGauzeBase
   id: CMUAntisepticGauze1
-  name: "антисептична марля"
-  description: "Марля, змішана з антисептиком для забруднених ран."
+  name: antiseptic gauze
+  description: Gauze mixed with antiseptic for contaminated wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -813,7 +813,7 @@
 
 - type: stack
   id: CMUAntisepticGauze
-  name: "антисептична марля"
+  name: antiseptic gauze
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: antiseptic_gauze }
   spawn: CMUAntisepticGauze1
   maxCount: 10
@@ -821,8 +821,8 @@
 - type: entity
   parent: CMUPreparedGauzeBase
   id: CMUBurnGelGauze1
-  name: "марля з гелем від опіків"
-  description: "Марля, змішана з гелем від опіків для термічних ран."
+  name: burn gel gauze
+  description: Gauze mixed with burn gel for thermal wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -845,7 +845,7 @@
 
 - type: stack
   id: CMUBurnGelGauze
-  name: "марля з гелем від опіків"
+  name: burn gel gauze
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: burn_gel_gauze }
   spawn: CMUBurnGelGauze1
   maxCount: 10
@@ -853,8 +853,8 @@
 - type: entity
   parent: CMUPreparedGauzeBase
   id: CMUSealingGauze1
-  name: "герметизувальна марля"
-  description: "Марля, змішана з тканинним герметиком для різаних і хірургічних ран."
+  name: sealing gauze
+  description: Gauze mixed with tissue sealant for cut and surgical wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -875,7 +875,7 @@
 
 - type: stack
   id: CMUSealingGauze
-  name: "герметизувальна марля"
+  name: sealing gauze
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: sealing_gauze }
   spawn: CMUSealingGauze1
   maxCount: 10
@@ -883,8 +883,8 @@
 - type: entity
   parent: CMUPreparedGauzeBase
   id: CMUCompressionGauze1
-  name: "компресійна марля"
-  description: "Марля, змішана з травматичною піною для розчавлених і вибухових ран."
+  name: compression gauze
+  description: Gauze mixed with trauma foam for crush and blast wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -905,7 +905,7 @@
 
 - type: stack
   id: CMUCompressionGauze
-  name: "компресійна марля"
+  name: compression gauze
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: compression_gauze }
   spawn: CMUCompressionGauze1
   maxCount: 10
@@ -914,8 +914,8 @@
   parent: CMUPreparedGauzeBase
   abstract: true
   id: CMUPreparedTraumaDressingBase
-  name: "підготовлена травматична пов’язка"
-  description: "Польова змішана травматична пов’язка."
+  name: prepared trauma dressing
+  description: A field-mixed trauma dressing.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -937,8 +937,8 @@
 - type: entity
   parent: CMUPreparedTraumaDressingBase
   id: CMUHemostaticTraumaDressing1
-  name: "гемостатична травматична пов’язка"
-  description: "Важка коагулянтна пов’язка для балістичних і гострих ран."
+  name: hemostatic trauma dressing
+  description: A heavy coagulant dressing for ballistic and sharp wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -959,7 +959,7 @@
 
 - type: stack
   id: CMUHemostaticTraumaDressing
-  name: "гемостатична травматична пов’язка"
+  name: hemostatic trauma dressing
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: hemostatic_trauma_kit }
   spawn: CMUHemostaticTraumaDressing1
   maxCount: 6
@@ -967,8 +967,8 @@
 - type: entity
   parent: CMUPreparedTraumaDressingBase
   id: CMUAntisepticTraumaDressing1
-  name: "антисептична травматична пов’язка"
-  description: "Важка антисептична пов’язка для забруднених ран."
+  name: antiseptic trauma dressing
+  description: A heavy antiseptic dressing for contaminated wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -989,7 +989,7 @@
 
 - type: stack
   id: CMUAntisepticTraumaDressing
-  name: "антисептична травматична пов’язка"
+  name: antiseptic trauma dressing
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: antiseptic_trauma_kit }
   spawn: CMUAntisepticTraumaDressing1
   maxCount: 6
@@ -997,8 +997,8 @@
 - type: entity
   parent: CMUPreparedTraumaDressingBase
   id: CMUBurnTraumaDressing1
-  name: "опікова травматична пов’язка"
-  description: "Важка пов’язка з гелем від опіків для термічних ран."
+  name: burn trauma dressing
+  description: A heavy burn gel dressing for thermal wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -1021,7 +1021,7 @@
 
 - type: stack
   id: CMUBurnTraumaDressing
-  name: "опікова травматична пов’язка"
+  name: burn trauma dressing
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: burn_gel_trauma_kit }
   spawn: CMUBurnTraumaDressing1
   maxCount: 6
@@ -1029,8 +1029,8 @@
 - type: entity
   parent: CMUPreparedTraumaDressingBase
   id: CMUSealingTraumaDressing1
-  name: "герметизувальна травматична пов’язка"
-  description: "Важка пов’язка з тканинним герметиком для різаних і хірургічних ран."
+  name: sealing trauma dressing
+  description: A heavy tissue-sealant dressing for cut and surgical wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -1051,7 +1051,7 @@
 
 - type: stack
   id: CMUSealingTraumaDressing
-  name: "герметизувальна травматична пов’язка"
+  name: sealing trauma dressing
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: sealing_trauma_kit }
   spawn: CMUSealingTraumaDressing1
   maxCount: 6
@@ -1059,8 +1059,8 @@
 - type: entity
   parent: CMUPreparedTraumaDressingBase
   id: CMUCompressionTraumaDressing1
-  name: "компресійна травматична пов’язка"
-  description: "Важка пов’язка з травматичною піною для розчавлених і вибухових ран."
+  name: compression trauma dressing
+  description: A heavy trauma-foam dressing for crush and blast wounds.
   components:
   - type: Sprite
     sprite: _CMU14/Objects/Medical/field_treatments.rsi
@@ -1081,7 +1081,7 @@
 
 - type: stack
   id: CMUCompressionTraumaDressing
-  name: "компресійна травматична пов’язка"
+  name: compression trauma dressing
   icon: { sprite: "/Textures/_CMU14/Objects/Medical/field_treatments.rsi", state: compression_trauma_kit }
   spawn: CMUCompressionTraumaDressing1
   maxCount: 6
@@ -1090,8 +1090,8 @@
   parent: CMBurnKit
   abstract: true
   id: CMUpgradedBurnKit
-  name: "покращений набір від опіків"
-  description: "Покращений набір для лікування опіків. Утричі ефективніший за стандартний, не поповнюваний. Використовуйте економно та лише для найкритичніших опіків."
+  name: upgraded burn kit
+  description: An upgraded burn treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical burns.
   components:
   - type: Sprite
     state: burnkit_upgraded
@@ -1140,7 +1140,7 @@
 
 - type: stack
   id: CMUpgradedBurnKit
-  name: "покращений набір від опіків"
+  name: upgraded burn kit
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: burnkit_upgraded }
   spawn: CMUpgradedBurnKit1
   maxCount: 10
@@ -1148,8 +1148,8 @@
 - type: entity
   parent: CMTraumaKit
   id: CMUpgradedTraumaKit
-  name: "покращений травматичний набір"
-  description: "Покращений травматичний набір. Утричі ефективніший за стандартний, не поповнюваний. Використовуйте економно та лише для найкритичніших ран."
+  name: upgraded trauma kit
+  description: An upgraded trauma treatment kit. Three times as effective as standard-issue, and non-replenishable. Use sparingly on only the most critical wounds.
   components:
   - type: Sprite
     state: traumakit_upgraded
@@ -1182,7 +1182,7 @@
 
 - type: stack
   id: CMUpgradedTraumaKit
-  name: "покращений травматичний набір"
+  name: upgraded trauma kit
   icon: { sprite: "/Textures/_RMC14/Objects/Medical/medical.rsi", state: traumakit_upgraded }
   spawn: CMUpgradedTraumaKit1
   maxCount: 10

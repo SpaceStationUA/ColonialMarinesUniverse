@@ -1,8 +1,8 @@
 - type: entity
   parent: SprayBottleSpaceCleaner
   id: AU14SprayCleaner
-  name: "спрей-очисник"
-  description: "Пляшка-розпилювач, наповнена очищувальним розчином. Використовується для очищення різних поверхонь і предметів."
+  name: cleaner spray
+  description: A spray bottle filled with a cleaning solution. It is used to clean various surfaces and objects.
   components:
   - type: Sprite
     sprite: _AU14/Objects/Tools/cleaner_spray.rsi
@@ -13,8 +13,8 @@
 - type: entity
   parent: AU14SprayCleaner
   id: AU14SprayCleanerBig
-  name: "великий спрей-очисник"
-  description: "Велика пляшка-розпилювач, наповнена очищувальним розчином. Використовується для очищення різних поверхонь і предметів."
+  name: big cleaner spray
+  description: A large spray bottle filled with a cleaning solution. It is used to clean various surfaces and objects.
   components:
   - type: Sprite
     sprite: _AU14/Objects/Tools/cleaner_spray.rsi
@@ -30,8 +30,8 @@
 - type: entity
   parent: AU14SprayCleaner
   id: AU14SprayCleanerExperimental
-  name: "експериментальний спрей-очисник"
-  description: "Експериментальна пляшка-розпилювач, наповнена очищувальним розчином. Здатна самостійно відновлювати очищувальний розчин, збираючи леткі сполуки з навколишньої атмосфери. Використовується для очищення різних поверхонь і предметів."
+  name: experimental cleaner spray
+  description: An experimental spray bottle filled with an cleaning solution. It's capable of self-regenerating the cleaning solution by harvesting ambient compounds from the surrounding atmosphere. It is used to clean various surfaces and objects.
   components:
   - type: Sprite
     sprite: _AU14/Objects/Tools/cleaner_spray.rsi

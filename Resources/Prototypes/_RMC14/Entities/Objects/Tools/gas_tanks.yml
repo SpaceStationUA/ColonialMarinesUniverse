@@ -13,8 +13,8 @@
 - type: entity
   parent: CMGasTankBase
   id: CMAnestheticTank
-  name: "анестетичний бак"
-  description: "Бак із газовою сумішшю N2O/O2."
+  name: anesthetic tank
+  description: A tank with an N2O/O2 gas mix.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/anesthetic.rsi
@@ -29,8 +29,8 @@
 - type: entity
   parent: CMGasTankBase
   id: RMCGasTankOxygen
-  name: "кисневий бак"
-  description: "Бак із пресуризованим киснем для дихання."
+  name: oxygen tank
+  description: A tank containing pressurized oxygen for breathing.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/oxygen_tank.rsi
@@ -43,8 +43,8 @@
 - type: entity
   parent: CMGasTankBase
   id: RMCEmergencyOxygenTank
-  name: "аварійний кисневий балон"
-  description: "Легко переносний балон для надзвичайних ситуацій. Містить дуже мало кисню, призначений лише для виживання. Він може вмістити 0.66 л газу."
+  name: emergency oxygen tank
+  description: An easily portable tank for emergencies. Contains very little oxygen, rated for survival use only. It can hold 0.66 L of gas.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/emergency.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: RMCEmergencyOxygenTank
   id: RMCExtendedEmergencyOxygenTank
-  name: "аварійний кисневий балон збільшеної ємності"
-  description: "Аварійний балон збільшеної ємності. Технічно розрахований на тривале використання. Він може вмістити 1.5 л газу."
+  name: extended-capacity emergency oxygen tank
+  description: An emergency tank with extended capacity. Technically rated for prolonged use. It can hold 1.5 L of gas.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/emergency_extended.rsi
@@ -87,8 +87,8 @@
 - type: entity
   parent: RMCEmergencyOxygenTank
   id: RMCDoubleEmergencyOxygenTank
-  name: "подвійний аварійний кисневий балон"
-  description: "Високоякісний двобалонний контейнер для екстреної підтримки життя. Він містить пристойну кількість кисню для свого невеликого розміру. Він може вмістити 2.5 л газу."
+  name: double emergency oxygen tank
+  description: A high-grade dual-tank emergency life support container. It holds a decent amount of oxygen for its small size. It can hold 2.5 L of gas.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/emergency_double.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: CMGasTankBase
   id: RMCGasTankPhoron
-  name: "форонний бак"
-  description: "Бак з рідким фороном. УВАГА: випари вкрай небезпечні."
+  name: phoron tank
+  description: "A tank of liquid phoron. WARNING: Phumes are extremely dangerous."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/phoron.rsi
@@ -213,8 +213,8 @@
 - type: entity
   parent: RMCReagentGasTankBase
   id: RMCReagentGasTankHydrogen
-  name: "водневий балон"
-  description: "Балон з пресуризованим воднем. Можна використовувати для поповнення баків зберігання."
+  name: hydrogen canister
+  description: A canister containing pressurized hydrogen. Can be used to refill storage tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/hydrogen.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: RMCReagentGasTankBase
   id: RMCReagentGasTankAmmonia
-  name: "аміачний балон"
-  description: "Балон з пресуризованим аміаком. Можна використовувати для поповнення баків зберігання."
+  name: ammonia canister
+  description: A canister containing pressurized ammonia. Can be used to refill storage tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/ammonia.rsi
@@ -249,8 +249,8 @@
 - type: entity
   parent: RMCReagentGasTankBase
   id: RMCReagentGasTankMethane
-  name: "метановий балон"
-  description: "Балон з пресуризованим метаном. Можна використовувати для поповнення баків зберігання."
+  name: methane canister
+  description: A canister containing pressurized methane. Can be used to refill storage tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/methane.rsi
@@ -267,8 +267,8 @@
 - type: entity
   parent: RMCReagentGasTankBase
   id: RMCReagentGasTankPacid
-  name: "балон політрінової кислоти"
-  description: "Балон з пресуризованою політріновою кислотою. Можна використовувати для поповнення баків зберігання."
+  name: polytrinic acid canister
+  description: A canister containing pressurized polytrinic acid. Can be used to refill storage tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/pacid.rsi
@@ -285,8 +285,8 @@
 - type: entity
   parent: RMCReagentGasTankBase
   id: RMCReagentGasTankOxygen
-  name: "кисневий балон"
-  description: "Балон з пресуризованим киснем. Можна використовувати для поповнення баків зберігання."
+  name: oxygen canister
+  description: A canister containing pressurized oxygen. Can be used to refill storage tanks.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Tanks/oxygen_canister.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructureDynamic
   id: RMCCoatRack
-  name: "вішак для пальт"
-  description: "Стелаж, на якому тримають пальта."
+  name: coat rack
+  description: Rack that holds coats.
   components:
   - type: Transform
     noRot: true

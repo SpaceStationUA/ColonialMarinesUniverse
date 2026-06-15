@@ -61,7 +61,7 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerLeaderHostile
-  name: "фрілансер привид-роль лідера"
+  name: freelancer ghost role leader
   suffix: Spawner, Player, Hostile
   components:
   - type: Sprite
@@ -72,7 +72,7 @@
 
 - type: entity
   id: RMCRandomHumanoidFreelancerLeaderFriendly
-  name: "фрілансер привид-роль лідера"
+  name: freelancer ghost role leader
   suffix: Spawner, Player, Friendly
   components:
   - type: Sprite

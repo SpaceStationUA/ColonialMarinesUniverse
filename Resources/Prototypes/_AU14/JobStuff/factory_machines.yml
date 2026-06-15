@@ -5,8 +5,8 @@
 - type: entity
   parent: BaseStructure
   id: AUSmelterMachine
-  name: "плавильня руди Вейланд-Ютані"
-  description: "Промислова плавильня. Вставте купу металобрухту й зачекайте, доки її переробить на придатний зливок."
+  name: Weyland-Yutani Ore Smelter
+  description: An industrial smelter. Insert a pile of metal scrap and wait for it to be processed into a usable ingot.
   components:
   - type: Sprite
     sprite: Structures/Machines/biofabricator.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: BaseStructure
   id: AUDoorknobFabricator
-  name: "фабрикатор деталей Вейланд-Ютані"
-  description: "Прецизійний фабрикатор Вейланд-Ютані. Вставте металевий зливок, щоб виготовити дверну ручку."
+  name: Weyland-Yutani Parts Fabricator
+  description: A Weyland-Yutani precision fabricator. Insert a metal ingot to manufacture a doorknob.
   components:
   - type: Sprite
     sprite: Structures/Machines/autolathe.rsi
@@ -109,8 +109,8 @@
 - type: entity
   parent: BaseStructure
   id: AUTrashChute
-  name: "сміттєвий жолоб"
-  description: "Брудний сміттєвий жолоб. Перебирання покидьків унизу витягує на поверхню купи пошматованої сталі."
+  name: trash chute
+  description: A grimy disposal chute. Sorting through the refuse below dredges up piles of blasted steel.
   placement:
     mode: SnapgridCenter
   components:

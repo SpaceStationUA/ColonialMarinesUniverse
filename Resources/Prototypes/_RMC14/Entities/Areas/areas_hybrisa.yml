@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaLv759
-  name: "LV-759 Гібріса Проспера"
+  name: LV-759 Hybrisa Prospera
   components:
   - type: Sprite
     sprite: _RMC14/Areas/hybrisareas.rsi
@@ -14,7 +14,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Indoors
-  name: "Гібріса — Усередині"
+  name: Hybrisa - Indoors
   components:
   - type: Area
     CAS: true
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Outdoors
-  name: "Гібріса — Назовні"
+  name: Hybrisa - Outdoors
   components:
   - type: Area
     CAS: true
@@ -47,7 +47,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Oob
-  name: "Поза межами"
+  name: Out Of Bounds
   components:
   - type: Sprite
     state: oob
@@ -72,7 +72,7 @@
 - type: entity
   parent: RMCAreaLv759
   id: RMCAreaLv759Bunker
-  name: "Поза межами"
+  name: Out Of Bounds
   components:
   - type: Sprite
     state: oob
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCAreaLv759Bunker
   id: RMCAreaLv759BunkerGonzo
-  name: "Сховок Ґонзо"
+  name: Gonzo's hide-out
   components:
   - type: Area
     CAS: false
@@ -118,7 +118,7 @@
 - type: entity
   parent: RMCAreaLv759Bunker
   id: RMCAreaLv759BunkerCheckpoint
-  name: "Чекпоінт і прихований бункер — Вхід"
+  name: Checkpoint & Hidden Bunker - Entrance
   components:
   - type: Area
     CAS: false
@@ -139,7 +139,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsLandingZone1
-  name: "Лікарняний комплекс Нова Медіка — Аварійне реагування — Зона висадки 1"
+  name: Nova Medica Hospital Complex - Emergency Response - Landing Zone One
   components:
   - type: Sprite
     state: medical_lz1
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone1
   id: RMCAreaLv759IndoorsLandingZone1FlightControlRoom
-  name: "Лікарняний комплекс Нова Медіка — Аварійне реагування — Зона висадки 1 — Кімната контролю польотів"
+  name: Nova Medica Hospital Complex - Emergency Response - Landing Zone One - Flight Control Room
   components:
   - type: Sprite
     state: hybrisa
@@ -186,7 +186,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone1
   id: RMCAreaLv759IndoorsLandingZone1Lz1Console
-  name: "Лікарняний комплекс Нова Медіка — Аварійне реагування — Зона висадки 1 — Консоль десантного корабля Аламо"
+  name: Nova Medica Hospital Complex - Emergency Response - Landing Zone One - Dropship Alamo Console
   components:
   - type: Sprite
     state: hybrisa
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsLandingZone2
-  name: "Міжзоряний вантажний хаб TMCC — Зона висадки 2"
+  name: TMCC Interstellar Freight Hub - Landing Zone Two
   components:
   - type: Sprite
     state: mining_lz2
@@ -234,7 +234,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubFlightControlRoom
-  name: "Міжзоряний вантажний хаб TMCC — Кімната контролю польотів"
+  name: TMCC Interstellar Freight Hub - Flight Control Room
   components:
   - type: Sprite
     state: hybrisa
@@ -253,7 +253,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubSecurity
-  name: "Міжзоряний вантажний хаб TMCC — Чекпоінт охорони"
+  name: TMCC Interstellar Freight Hub - Security Checkpoint Office
   components:
   - type: Sprite
     state: security_checkpoint
@@ -272,7 +272,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLoungeNorth
-  name: "Міжзоряний вантажний хаб TMCC — Виліт пасажирів — Північна зала"
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Lounge North
   components:
   - type: Sprite
     state: hybrisa
@@ -291,7 +291,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubFuel
-  name: "Міжзоряний вантажний хаб TMCC — Склад палива та обслуговування — Північ"
+  name: TMCC Interstellar Freight Hub - Fuel Storage & Maintenance - North
   components:
   - type: Sprite
     state: hybrisa
@@ -310,7 +310,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLoungeSouth
-  name: "Міжзоряний вантажний хаб TMCC — Виліт пасажирів — Південна зала"
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Lounge South
   components:
   - type: Sprite
     state: hybrisa
@@ -329,7 +329,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLoungeHallway
-  name: "Міжзоряний вантажний хаб TMCC — Виліт пасажирів — Коридор"
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Hallway
   components:
   - type: Sprite
     state: hybrisa
@@ -348,7 +348,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubSouthOffice
-  name: "Міжзоряний вантажний хаб TMCC — Виліт пасажирів — Південний офіс"
+  name: TMCC Interstellar Freight Hub - Passenger Departures - South Office
   components:
   - type: Sprite
     state: hybrisa
@@ -367,7 +367,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubMaintenance
-  name: "Міжзоряний вантажний хаб TMCC — Виліт пасажирів — Обслуговування"
+  name: TMCC Interstellar Freight Hub - Passenger Departures - Maintenance
   components:
   - type: Sprite
     state: hybrisa
@@ -391,7 +391,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2KmccHub
   id: RMCAreaLv759IndoorsLandingZone2KmccHubLz2Console
-  name: "Міжзоряний вантажний хаб TMCC — Консоль десантного корабля Нормандія"
+  name: TMCC Interstellar Freight Hub - Dropship Normandy Console
   components:
   - type: Sprite
     state: hybrisa
@@ -411,7 +411,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubCargo
-  name: "Міжзоряний вантажний хаб TMCC — Центр обробки карго"
+  name: TMCC Interstellar Freight Hub - Cargo Processing Center
   components:
   - type: Sprite
     state: mining_cargo
@@ -431,7 +431,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsLandingZone2
   id: RMCAreaLv759IndoorsLandingZone2KmccHubMaintenanceNorth
-  name: "Міжзоряний вантажний хаб TMCC — Центр обробки карго — Обслуговування"
+  name: TMCC Interstellar Freight Hub - Cargo Processing Center - Maintenance
   components:
   - type: Sprite
     state: mining
@@ -451,7 +451,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsLandingZone2
   id: RMCAreaLv759OutdoorsLandingZone2KmccHubCargoEntranceSouth
-  name: "Міжзоряний вантажний хаб TMCC — Центр обробки карго — Головний вхід та південна платформа розвантаження"
+  name: TMCC Interstellar Freight Hub - Cargo Processing Center - Main Entrance & South Unloading Platform
   components:
   - type: Sprite
     state: mining
@@ -471,7 +471,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsDerelictShip
-  name: "Покинутий корабель"
+  name: Derelict Ship
   components:
   - type: Sprite
     state: derelictship
@@ -493,7 +493,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsCaves
-  name: "Печери"
+  name: Caves
   components:
   - type: Sprite
     state: caves_plateau
@@ -512,7 +512,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesWyResearchComplexEntrance
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Північний головний вхід"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - North Main Entrance
   components:
   - type: Sprite
     state: wylab
@@ -531,7 +531,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesWestCaves
-  name: "Печери — Захід"
+  name: Caverns - West
   components:
   - type: Sprite
     state: caves_west
@@ -550,7 +550,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesElectricFence1
-  name: "Електричний паркан — Західні печери"
+  name: Electrical Fence - West Caves
   components:
   - type: Sprite
     state: power0
@@ -558,7 +558,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesElectricFence2
-  name: "Електричний паркан — Східні печери"
+  name: Electrical Fence - East Caves
   components:
   - type: Sprite
     state: power0
@@ -566,7 +566,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesElectricFence3
-  name: "Електричний паркан — Центральні печери"
+  name: Electrical Fence - Central Caves
   components:
   - type: Sprite
     state: power0
@@ -574,7 +574,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesCommsTower
-  name: "Вежа зв'язку — Центральні печери"
+  name: Comms Tower - Central Caves
   components:
   - type: Sprite
     state: power0
@@ -582,7 +582,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSensoryTower
-  name: "Сенсорна вежа — Печери плато"
+  name: Sensory Tower - Plateau Caves
   components:
   - type: Sprite
     state: power0
@@ -590,7 +590,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesWestCavesAlarm
-  name: "Печери — Захід"
+  name: Caverns - West
   components:
   - type: Sprite
     state: caves_west
@@ -609,7 +609,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesEastCaves
-  name: "Печери — Схід"
+  name: Caverns - East
   components:
   - type: Sprite
     state: caves_east
@@ -628,7 +628,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCavesEastCaves
   id: RMCAreaLv759IndoorsCavesEastCavesNorth
-  name: "Печери — Схід"
+  name: Caverns - East
   components:
   - type: Sprite
     state: caves_east
@@ -636,7 +636,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthCaves
-  name: "Печери — Південь"
+  name: Caverns - South
   components:
   - type: Sprite
     state: caves_south
@@ -655,7 +655,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCavesSouthCaves
   id: RMCAreaLv759IndoorsCavesSouthCavesDerelictShip
-  name: "Печери — Південь"
+  name: Caverns - South
   components:
   - type: Sprite
     state: caves_south
@@ -663,7 +663,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthEastCaves
-  name: "Печери — Південний схід"
+  name: Caverns - Southeast
   components:
   - type: Sprite
     state: caves_southeast
@@ -682,7 +682,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthWestCaves
-  name: "Печери — Південний захід"
+  name: Caverns - Southwest
   components:
   - type: Sprite
     state: caves_southwest
@@ -701,7 +701,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesSouthWestCavesAlarm
-  name: "Печери — Південний захід"
+  name: Caverns - Southwest
   components:
   - type: Sprite
     state: wylab
@@ -720,7 +720,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthWestCaves
-  name: "Печери — Північний захід"
+  name: Caverns - Northwest
   components:
   - type: Sprite
     state: caves_northwest
@@ -744,7 +744,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsCaves
   id: RMCAreaLv759OutdoorsCavesNorthWestCavesOutdoors
-  name: "Печери — Північний захід"
+  name: Caverns - Northwest
   components:
   - type: Sprite
     state: caves_northwest
@@ -763,7 +763,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthEastCaves
-  name: "Печери — Північний схід"
+  name: Caverns - Northeast
   components:
   - type: Sprite
     state: caves_northeast
@@ -790,7 +790,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthCaves
-  name: "Печери — Північ"
+  name: Caverns - North
   components:
   - type: Sprite
     state: caves_north
@@ -816,7 +816,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesCentralCaves
-  name: "Печери — Центр"
+  name: Caverns - Central
   components:
   - type: Sprite
     state: caves_central
@@ -835,7 +835,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesCentralCavesNorth
-  name: "Печери — Центр"
+  name: Caverns - Central
   components:
   - type: Sprite
     state: caves_central
@@ -854,7 +854,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthEastCavesComms
-  name: "TMCC — Шахтарський аванпост — Схід — Підпросторовий зв'язок"
+  name: TMCC - Mining Outpost - East - Subspace-Communications
   components:
   - type: Sprite
     state: comms_1
@@ -874,7 +874,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCaves
   id: RMCAreaLv759IndoorsCavesNorthEastCavesComms2
-  name: "NMHC — Аварійне реагування — Зона висадки 1 — Печери — Північний схід — Підпросторовий зв'язок"
+  name: NMHC - Emergency Response - Landing Zone One - Caverns - Northeast - Subspace-Communications
   components:
   - type: Sprite
     state: comms_1
@@ -885,7 +885,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsCaveplateau
-  name: "Печери — Плато"
+  name: Caverns - Plateau
   components:
   - type: Sprite
     state: caves_plateau
@@ -904,7 +904,7 @@
 - type: entity
   parent: RMCAreaLv759Outdoors
   id: RMCAreaLv759OutdoorsColonyStreets
-  name: "Вулиці колонії"
+  name: Colony Streets
   components:
   - type: Sprite
     state: colonystreets_north
@@ -923,7 +923,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsCentralStreets
-  name: "Центральна вулиця — Захід"
+  name: Central Street - West
   components:
   - type: Sprite
     state: colonystreets_west
@@ -931,7 +931,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsEastCentralStreet
-  name: "Центральна вулиця — Схід"
+  name: Central Street - East
   components:
   - type: Sprite
     state: colonystreets_east
@@ -941,7 +941,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsEastCentralStreetLeft
-  name: "Центральна вулиця — Схід"
+  name: Central Street - East
   components:
   - type: Sprite
     state: colonystreets_east
@@ -949,7 +949,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthStreet
-  name: "Вулиці колонії — Південь"
+  name: Colony Streets - South
   components:
   - type: Sprite
     state: colonystreets_south
@@ -957,7 +957,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthEastStreet
-  name: "Вулиці колонії — Південний схід"
+  name: Colony Streets - Southeast
   components:
   - type: Sprite
     state: colonystreets_southeast
@@ -967,7 +967,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthWestStreet
-  name: "Вулиці колонії — Південний захід — Прохід через чекпоінт WY"
+  name: Colony Streets - Southwest - WY Checkpoint Passthrough
   components:
   - type: Sprite
     state: colonystreets_southwest
@@ -985,7 +985,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsSouthEastStreetComms
-  name: "Вулиці колонії — Південний схід — Підпросторовий зв'язок"
+  name: Colony Streets - Southeast - Subspace-Communications
   components:
   - type: Sprite
     state: comms_1
@@ -1005,7 +1005,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthWestStreet
-  name: "Вулиці колонії — Північний захід"
+  name: Colony Streets - Northwest
   components:
   - type: Sprite
     state: colonystreets_northwest
@@ -1013,7 +1013,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthEastStreet
-  name: "Вулиці колонії — Північний схід"
+  name: Colony Streets - Northeast
   components:
   - type: Sprite
     state: colonystreets_northeast
@@ -1023,7 +1023,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthEastStreetLZ
-  name: "Вулиці колонії — Північний схід"
+  name: Colony Streets - Northeast
   components:
   - type: Sprite
     state: colonystreets_northeast
@@ -1034,7 +1034,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsColonyStreets
   id: RMCAreaLv759OutdoorsColonyStreetsNorthStreet
-  name: "Вулиці колонії — Північ"
+  name: Colony Streets - North
   components:
   - type: Sprite
     state: colonystreets_north
@@ -1049,7 +1049,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayNortheast
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Коридор — Північний схід"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Hallway - Northeast
   components:
   - type: Sprite
     state: wyspaceport
@@ -1057,7 +1057,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayNorth
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Коридор — Північ"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Hallway - North
   components:
   - type: Sprite
     state: wyspaceport
@@ -1065,7 +1065,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayNorthwest
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Коридор — Північний захід"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Hallway - Northwest
   components:
   - type: Sprite
     state: wyspaceport
@@ -1073,7 +1073,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHallwayEast
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Фуд-корт — Схід"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Food Court - East
   components:
   - type: Sprite
     state: wyspaceport
@@ -1081,7 +1081,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHeavyequip
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Склад важкої техніки"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Heavy Equipment Storage
   components:
   - type: Sprite
     state: wyspaceport
@@ -1089,7 +1089,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportEngineering
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Склад та обробка палива"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Fuel Storage & Processing
   components:
   - type: Sprite
     state: wyspaceport
@@ -1097,7 +1097,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportJanitor
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Прибиральна"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Janitorial Storage Room
   components:
   - type: Sprite
     state: wyspaceport
@@ -1105,7 +1105,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportMaintenanceEast
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Обслуговування — Схід"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Maintenance - East
   components:
   - type: Sprite
     state: wyspaceport
@@ -1113,7 +1113,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCommunicationsOffice
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Офіс зв'язку та адміністрації"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Communications & Administration Office
   components:
   - type: Sprite
     state: wyspaceportadmin
@@ -1121,7 +1121,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportFlightControlRoom
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Кімната контролю польотів"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Flight Control Room
   components:
   - type: Sprite
     state: wyspaceportadmin
@@ -1129,7 +1129,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportSecurity
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Охорона — Спостереження та офіс"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Security- Observation & Office
   components:
   - type: Sprite
     state: security_checkpoint
@@ -1137,7 +1137,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportSecurityOffice
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Офіс"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Office
   components:
   - type: Sprite
     state: security_checkpoint
@@ -1145,7 +1145,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCargo
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Карго-відсік"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Cargo Bay
   components:
   - type: Sprite
     state: wyspaceportcargo
@@ -1153,7 +1153,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCargoMaintenance
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Карго — Обслуговування"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Cargo - Maintenance
   components:
   - type: Sprite
     state: wyspaceportcargo
@@ -1161,7 +1161,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportBaggagehandling
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Зберігання та обробка багажу"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Baggage Storage & Handling
   components:
   - type: Sprite
     state: wyspaceportbaggage
@@ -1169,7 +1169,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportCuppajoes
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Купа Джо'з"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Cuppa Joe's
   components:
   - type: Sprite
     state: cuppajoes
@@ -1177,7 +1177,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportKitchen
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Кухня"
+  name: Weyland-Yutani Celestia Gateway Space-Port - Kitchen
   components:
   - type: Sprite
     state: wyspaceportblue
@@ -1185,7 +1185,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportDockingBay2
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Док-відсік: 2 — Заправка та обслуговування"
+  name: 'Weyland-Yutani Celestia Gateway Space-Port - Docking Bay: 2 - Refueling and Maintenance'
   components:
   - type: Sprite
     state: wyspaceportblue
@@ -1193,7 +1193,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportDockingBay1
-  name: "Космопорт-шлюз Селестія Вейланд-Ютані — Док-відсік: 1"
+  name: 'Weyland-Yutani Celestia Gateway Space-Port - Docking Bay: 1'
   components:
   - type: Sprite
     state: wyspaceport
@@ -1201,7 +1201,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportStarglider
-  name: "WY-LWI Старґлайдер SG-200"
+  name: WY-LWI StarGlider SG-200
   components:
   - type: Sprite
     state: wydropship
@@ -1212,7 +1212,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportHorizonRunner
-  name: "WY-LWI Хорайзон Раннер HR-150"
+  name: WY-LWI Horizon Runner HR-150
   components:
   - type: Sprite
     state: wydropship
@@ -1223,7 +1223,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsSpaceport
   id: RMCAreaLv759IndoorsSpaceportDogbite
-  name: "UD-9M «Догбайт» — Утилітарний десантний корабель"
+  name: UD-9M 'Dogbite' Utility Dropship
   components:
   - type: Sprite
     state: wydropship
@@ -1234,7 +1234,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageReception
-  name: "Гараж — Ресепшн"
+  name: Garage - Reception
   components:
   - type: Sprite
     state: garage
@@ -1242,7 +1242,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageWorkshop
-  name: "Гараж — Майстерня"
+  name: Garage - Workshop
   components:
   - type: Sprite
     state: garage
@@ -1250,7 +1250,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageWorkshopStorage
-  name: "Гараж — Майстерня — Складська кімната"
+  name: Garage - Workshop - Storage Room
   components:
   - type: Sprite
     state: garage
@@ -1258,7 +1258,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageManagersoffice
-  name: "Гараж — Кабінет менеджера"
+  name: Garage - Managers Office
   components:
   - type: Sprite
     state: garage
@@ -1266,7 +1266,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsGarageRestroom
-  name: "Гараж — Туалет"
+  name: Garage - Restroom
   components:
   - type: Sprite
     state: garage
@@ -1279,7 +1279,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianFoyer
-  name: "Меридіан — Фойє"
+  name: Meridian - Foyer
   components:
   - type: Sprite
     state: meridian
@@ -1287,7 +1287,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianShowroom
-  name: "Меридіан — Шоурум"
+  name: Meridian - Showroom
   components:
   - type: Sprite
     state: meridian
@@ -1295,7 +1295,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianOffice
-  name: "Меридіан — Офіси"
+  name: Meridian - Offices
   components:
   - type: Sprite
     state: meridian
@@ -1303,7 +1303,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianManagersoffice
-  name: "Меридіан — Кабінет менеджера"
+  name: Meridian - Manager's Office
   components:
   - type: Sprite
     state: meridian
@@ -1311,7 +1311,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianFactory
-  name: "Меридіан — Цех"
+  name: Meridian - Factory Floor
   components:
   - type: Sprite
     state: meridian_factory
@@ -1319,7 +1319,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianRestroom
-  name: "Меридіан — Туалет"
+  name: Meridian - Restroom
   components:
   - type: Sprite
     state: meridian
@@ -1327,7 +1327,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianMaintenance
-  name: "Меридіан — Обслуговування"
+  name: Meridian - Maintenance
   components:
   - type: Sprite
     state: meridian
@@ -1335,7 +1335,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMeridian
   id: RMCAreaLv759IndoorsMeridianMeridianMaintenanceEast
-  name: "Меридіан — Цех — Обслуговування"
+  name: Meridian - Factory Floor - Maintenance
   components:
   - type: Sprite
     state: meridian
@@ -1350,7 +1350,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestfoyer
-  name: "Житловий комплекс Вестгейвен — Захід — Фойє"
+  name: Westhaven Apartment Complex - West - Foyer
   components:
   - type: Sprite
     state: apartments
@@ -1358,7 +1358,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWesthallway
-  name: "Житловий комплекс Вестгейвен — Захід — Коридор"
+  name: Westhaven Apartment Complex - West - Hallway
   components:
   - type: Sprite
     state: apartments
@@ -1366,7 +1366,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestbedrooms
-  name: "Житловий комплекс Вестгейвен — Захід — Квартири"
+  name: Westhaven Apartment Complex - West - Apartments
   components:
   - type: Sprite
     state: apartments
@@ -1374,7 +1374,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestshowers
-  name: "Житловий комплекс Вестгейвен — Захід — Душові"
+  name: Westhaven Apartment Complex - West - Showers
   components:
   - type: Sprite
     state: apartments
@@ -1382,7 +1382,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestrestroom
-  name: "Житловий комплекс Вестгейвен — Захід — Туалети"
+  name: Westhaven Apartment Complex - West - Restrooms
   components:
   - type: Sprite
     state: apartments
@@ -1390,7 +1390,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentWestentertainment
-  name: "Житловий комплекс Вестгейвен — Захід — Зал відпочинку"
+  name: Westhaven Apartment Complex - West - Recreation Hub
   components:
   - type: Sprite
     state: apartments
@@ -1398,7 +1398,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastentrance
-  name: "Житловий комплекс Вестгейвен — Схід — Кімната входу"
+  name: Westhaven Apartment Complex - East - Entrance Room
   components:
   - type: Sprite
     state: apartments
@@ -1406,7 +1406,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastfoyer
-  name: "Житловий комплекс Вестгейвен — Схід — Фойє"
+  name: Westhaven Apartment Complex - East - Foyer
   components:
   - type: Sprite
     state: apartments
@@ -1414,7 +1414,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastrestroomsshower
-  name: "Житловий комплекс Вестгейвен — Схід — Туалети та душові"
+  name: Westhaven Apartment Complex - East - Restrooms & Showers
   components:
   - type: Sprite
     state: apartments
@@ -1422,7 +1422,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastbedrooms
-  name: "Житловий комплекс Вестгейвен — Схід — Спальні"
+  name: Westhaven Apartment Complex - East - Bedrooms
   components:
   - type: Sprite
     state: apartments
@@ -1430,7 +1430,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentEastbedroomsstorage
-  name: "Житловий комплекс Вестгейвен — Схід — Спальні — Складська кімната"
+  name: Westhaven Apartment Complex - East - Bedrooms - Storage Room
   components:
   - type: Sprite
     state: apartments
@@ -1438,7 +1438,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentNorthfoyer
-  name: "Житловий комплекс Вестгейвен — Північ — Фойє"
+  name: Westhaven Apartment Complex - North - Foyer
   components:
   - type: Sprite
     state: apartments
@@ -1446,7 +1446,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentNorthhallway
-  name: "Житловий комплекс Вестгейвен — Північ — Коридор"
+  name: Westhaven Apartment Complex - North - Hallway
   components:
   - type: Sprite
     state: apartments
@@ -1454,7 +1454,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsApartment
   id: RMCAreaLv759IndoorsApartmentNorthapartments
-  name: "Житловий комплекс Вестгейвен — Північ — Квартири"
+  name: Westhaven Apartment Complex - North - Apartments
   components:
   - type: Sprite
     state: apartments
@@ -1462,7 +1462,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsWeyaOffice
-  name: "Офіси Вейланд-Ютані — Коридор ресепшн"
+  name: Weyland-Yutani Offices - Reception Hallway
   components:
   - type: Sprite
     state: wyoffice
@@ -1472,7 +1472,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeHallway
-  name: "Офіси Вейланд-Ютані — Західне фойє"
+  name: Weyland-Yutani Offices - West Foyer
   components:
   - type: Sprite
     state: wyoffice
@@ -1480,32 +1480,32 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeFloor
-  name: "Офіси Вейланд-Ютані — Головний офісний поверх"
+  name: Weyland-Yutani Offices - Main Office Floor
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeBreakroom
-  name: "Офіси Вейланд-Ютані — Кімната відпочинку"
+  name: Weyland-Yutani Offices - Breakroom
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeVip
-  name: "Офіси Вейланд-Ютані — Конференц-зала"
+  name: Weyland-Yutani Offices - Conference Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficePressroom
-  name: "Офіси Вейланд-Ютані — Зала зборів"
+  name: Weyland-Yutani Offices - Assembly Hall
 
 - type: entity
   parent: RMCAreaLv759IndoorsWeyaOffice
   id: RMCAreaLv759IndoorsWeyaOfficeSupervisor
-  name: "Офіси Вейланд-Ютані — Кабінет наглядача колонії"
+  name: Weyland-Yutani Offices - Colony Supervisors Office
 
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsBar
-  name: "Бар"
+  name: Bar
   components:
   - type: Sprite
     state: bar
@@ -1513,22 +1513,22 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarEntertainment
-  name: "Бар — Розважальна підсекція"
+  name: Bar - Entertainment Subsection
 
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarBathroom
-  name: "Бар — Туалети"
+  name: Bar - Restrooms
 
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarMaintenance
-  name: "Бар — Обслуговування"
+  name: Bar - Maintenance
 
 - type: entity
   parent: RMCAreaLv759IndoorsBar
   id: RMCAreaLv759IndoorsBarKitchen
-  name: "Бар — Кухня"
+  name: Bar - Kitchen
 
 - type: entity
   abstract: true
@@ -1538,7 +1538,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyGreenhouse
-  name: "Ботаніка — Теплиця"
+  name: Botany - Greenhouse
   components:
   - type: Sprite
     state: botany
@@ -1546,7 +1546,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyHallway
-  name: "Ботаніка — Коридор"
+  name: Botany - Hallway
   components:
   - type: Sprite
     state: botany
@@ -1554,7 +1554,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyMaintenance
-  name: "Ботаніка — Обслуговування"
+  name: Botany - Maintenance
   components:
   - type: Sprite
     state: botany
@@ -1562,7 +1562,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsBotany
   id: RMCAreaLv759IndoorsBotanyBotanyMainroom
-  name: "Ботаніка — Головна кімната"
+  name: Botany - Main Room
   components:
   - type: Sprite
     state: botany
@@ -1577,7 +1577,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHotel
   id: RMCAreaLv759IndoorsHotelHotelHallway
-  name: "Гранд-готель Проспера — Коридор"
+  name: Prospera Grand Hotel - Hallway
   components:
   - type: Sprite
     state: apartments
@@ -1585,7 +1585,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHotel
   id: RMCAreaLv759IndoorsHotelHotelRooms
-  name: "Гранд-готель Проспера — Кімната"
+  name: Prospera Grand Hotel - Room
   components:
   - type: Sprite
     state: apartments
@@ -1603,32 +1603,32 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalParamedicsGarage
-  name: "Лікарняний комплекс Нова Медіка — Гараж парамедиків"
+  name: Nova Medica Hospital Complex - Paramedic's Garage
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalCryoRoom
-  name: "Лікарняний комплекс Нова Медіка — Кріовідділення"
+  name: Nova Medica Hospital Complex - Cryo Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalEmergencyRoom
-  name: "Лікарняний комплекс Нова Медіка — Невідкладний відділ"
+  name: Nova Medica Hospital Complex - Emergency Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalReception
-  name: "Лікарняний комплекс Нова Медіка — Ресепшн"
+  name: Nova Medica Hospital Complex - Reception
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalCmoOffice
-  name: "Лікарняний комплекс Нова Медіка — Кабінет головного медичного офіцера"
+  name: Nova Medica Hospital Complex - Chief Medical Officer's Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMaintenance
-  name: "Лікарняний комплекс Нова Медіка — Підпросторовий зв'язок та електросистеми"
+  name: Nova Medica Hospital Complex - Subspace Communications & Electrical Systems
   components:
   - type: Sprite
     state: comms_1
@@ -1638,77 +1638,77 @@
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalBreakRoom
-  name: "Лікарняний комплекс Нова Медіка — Кімната відпочинку"
+  name: Nova Medica Hospital Complex - Breakroom
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalPharmacy
-  name: "Лікарняний комплекс Нова Медіка — Аптека та вихідне фойє"
+  name: Nova Medica Hospital Complex - Pharmacy & Outgoing Foyer
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalOutgoing
-  name: "Лікарняний комплекс Нова Медіка — Вихідне відділення"
+  name: Nova Medica Hospital Complex - Outgoing Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalCentralHallway
-  name: "Лікарняний комплекс Нова Медіка — Центральний коридор"
+  name: Nova Medica Hospital Complex - Central Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalEastHallway
-  name: "Лікарняний комплекс Нова Медіка — Східний коридор"
+  name: Nova Medica Hospital Complex - East Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMedicalStorage
-  name: "Лікарняний комплекс Нова Медіка — Медичний склад"
+  name: Nova Medica Hospital Complex - Medical Storage
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalOperation
-  name: "Лікарняний комплекс Нова Медіка — Операційні зали та спостереження"
+  name: Nova Medica Hospital Complex - Operation Theatres & Observation
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalPatientWard
-  name: "Лікарняний комплекс Нова Медіка — Палатне відділення"
+  name: Nova Medica Hospital Complex - Patient Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalVirology
-  name: "Лікарняний комплекс Нова Медіка — Вірологія"
+  name: Nova Medica Hospital Complex - Virology
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMorgue
-  name: "Лікарняний комплекс Нова Медіка — Морг"
+  name: Nova Medica Hospital Complex - Morgue
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalIcu
-  name: "Лікарняний комплекс Нова Медіка — Палата інтенсивної терапії"
+  name: Nova Medica Hospital Complex - Intensive Care Ward
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalStorage
-  name: "Лікарняний комплекс Нова Медіка — Офіс"
+  name: Nova Medica Hospital Complex - Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMaintenanceNorth
-  name: "Лікарняний комплекс Нова Медіка — Обслуговування Північ"
+  name: Nova Medica Hospital Complex - Maintenance North
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalMaintenanceSouth
-  name: "Лікарняний комплекс Нова Медіка — Унісекс-туалет"
+  name: Nova Medica Hospital Complex - Unisex-Restroom
 
 - type: entity
   parent: RMCAreaLv759IndoorsHospital
   id: RMCAreaLv759IndoorsHospitalJanitor
-  name: "Лікарняний комплекс Нова Медіка — Прибиральна"
+  name: Nova Medica Hospital Complex - Janitors Closet
 
 - type: entity
   parent: RMCAreaLv759Indoors
@@ -1722,7 +1722,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostNorth
-  name: "TMCC — Шахтарський аванпост — Північ"
+  name: TMCC - Mining Outpost - North
   components:
   - type: Sprite
     state: mining
@@ -1730,7 +1730,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostNorthMaint
-  name: "TMCC — Шахтарський аванпост — Північ — Обслуговування"
+  name: TMCC - Mining Outpost - North - Maintenance
   components:
   - type: Sprite
     state: mining
@@ -1738,7 +1738,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostNortheast
-  name: "TMCC — Шахтарський аванпост — Північний схід"
+  name: TMCC - Mining Outpost - Northeast
   components:
   - type: Sprite
     state: mining
@@ -1749,7 +1749,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostSouth
-  name: "TMCC — Шахтарський аванпост — Південний схід"
+  name: TMCC - Mining Outpost - Southeast
   components:
   - type: Sprite
     state: mining
@@ -1757,7 +1757,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostVehicledeployment
-  name: "TMCC — Шахтарський аванпост — Південь — Розгортання техніки"
+  name: TMCC - Mining Outpost - South - Vehicle Deployment
   components:
   - type: Sprite
     state: mining
@@ -1767,7 +1767,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostProcessing
-  name: "TMCC — Шахтарський аванпост — Південь — Обробка та склад"
+  name: TMCC - Mining Outpost - South - Processing & Storage
   components:
   - type: Sprite
     state: mining
@@ -1777,7 +1777,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEast
-  name: "TMCC — Шахтарський аванпост — Схід"
+  name: TMCC - Mining Outpost - East
   components:
   - type: Sprite
     state: mining
@@ -1787,7 +1787,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEastDorms
-  name: "TMCC — Шахтарський аванпост — Схід — Гуртожитки"
+  name: TMCC - Mining Outpost - East - Dorms
   components:
   - type: Sprite
     state: mining
@@ -1797,7 +1797,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEastDeploymentbay
-  name: "TMCC — Шахтарський аванпост — Схід — Розгортання"
+  name: TMCC - Mining Outpost - East - Deployment Bay
   components:
   - type: Sprite
     state: mining
@@ -1807,7 +1807,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostEastCommand
-  name: "TMCC — Шахтарський аванпост — Схід — Командний центр"
+  name: TMCC - Mining Outpost - East - Command Center
   components:
   - type: Sprite
     state: mining
@@ -1817,7 +1817,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsMiningOutpost
   id: RMCAreaLv759IndoorsMiningOutpostCargoMaint
-  name: "TMCC — Шахтарський аванпост — Схід — Обслуговування"
+  name: TMCC - Mining Outpost - East - Maintenance
   components:
   - type: Sprite
     state: mining
@@ -1830,7 +1830,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsMiningOutpost
   id: RMCAreaLv759OutdoorsMiningOutpostSouthEntrance
-  name: "TMCC — Шахтарський аванпост — Південь — Вхід для розгортання техніки"
+  name: TMCC - Mining Outpost - South - Vehicle Deployment Entrance
   components:
   - type: Sprite
     state: mining
@@ -1856,7 +1856,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsElecticalSystems
   id: RMCAreaLv759IndoorsElecticalSystemsSubstation1
-  name: "Електричні системи — Підстанція 1 — Кімната керування"
+  name: Electrical Systems - Substation One - Control Room
   components:
   - type: Sprite
     state: power0
@@ -1864,7 +1864,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsElecticalSystems
   id: RMCAreaLv759IndoorsElecticalSystemsSubstation2
-  name: "Електричні системи — Підстанція 2"
+  name: Electrical Systems - Substation Two
   components:
   - type: Sprite
     state: power0
@@ -1874,7 +1874,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsElecticalSystems
   id: RMCAreaLv759IndoorsElecticalSystemsSubstation3
-  name: "Електричні системи — Підстанція 3"
+  name: Electrical Systems - Substation Three
   components:
   - type: Sprite
     state: power0
@@ -1884,7 +1884,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsPowerPlant
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Центральний коридор"
+  name: Weyland-Yutani DynaGrid Nexus - Central Hallway
   components:
   - type: Sprite
     state: power0
@@ -1894,7 +1894,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantHallwayEast
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Східний коридор"
+  name: Weyland-Yutani DynaGrid Nexus - East Hallway
   components:
   - type: Sprite
     state: power0
@@ -1905,17 +1905,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantSouthHallway
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Південний коридор"
+  name: Weyland-Yutani DynaGrid Nexus - South Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantGeothermalGenerators
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Кімната геотермальних генераторів"
+  name: Weyland-Yutani DynaGrid Nexus - Geothermal Generators Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantPowerStorage
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Кімната зберігання енергії"
+  name: Weyland-Yutani DynaGrid Nexus - Power Storage Room
 
 - type: entity
   abstract: true
@@ -1925,7 +1925,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsPowerPlant
   id: RMCAreaLv759OutdoorsPowerPlantTransformersNorth
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Трансформатори — Північ"
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - North
   components:
   - type: Area
     minimapColor: '#91BDCFE7'
@@ -1934,7 +1934,7 @@
 - type: entity
   parent: RMCAreaLv759OutdoorsPowerPlant
   id: RMCAreaLv759OutdoorsPowerPlantTransformersSouth
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Трансформатори — Південь"
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - South
   components:
   - type: Area
     minimapColor: '#91BDCFE7'
@@ -1943,27 +1943,27 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantTransformersNorth
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Трансформатори — Північ"
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - North
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantTransformersSouth
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Трансформатори — Південь"
+  name: Weyland-Yutani DynaGrid Nexus - Transformers - South
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantGasGenerators
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Змішування та зберігання газу"
+  name: Weyland-Yutani DynaGrid Nexus - Gas Mixing & Storage
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantFusionGenerators
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Центр керування"
+  name: Weyland-Yutani DynaGrid Nexus - Control Center
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantTelecomms
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Телекомунікації"
+  name: Weyland-Yutani DynaGrid Nexus - Telecommunications
   components:
   - type: Sprite
     state: comms_1
@@ -1974,7 +1974,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantWorkersCanteen
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Робітнича їдальня"
+  name: Weyland-Yutani DynaGrid Nexus - Worker's Canteen
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -1982,7 +1982,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantWorkersCanteenKitchen
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Робітнича їдальня — Кухня"
+  name: Weyland-Yutani DynaGrid Nexus - Worker's Canteen - Kitchen
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -1990,17 +1990,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantEquipmentEast
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Склад обладнання — Схід"
+  name: Weyland-Yutani DynaGrid Nexus - Equipment Storage Room - East
 
 - type: entity
   parent: RMCAreaLv759IndoorsPowerPlant
   id: RMCAreaLv759IndoorsPowerPlantEquipmentWest
-  name: "Енергетичний нексус Вейланд-Ютані ДайнаГрід — Склад обладнання — Захід"
+  name: Weyland-Yutani DynaGrid Nexus - Equipment Storage Room - West
 
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsColonialMarshals
-  name: "TSEPA — Ділянка Айронбрідж"
+  name: TSEPA - Ironbridge Precinct
   components:
   - type: Sprite
     state: security_hub
@@ -2010,22 +2010,22 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPrisonersCells
-  name: "TSEPA — Ділянка Айронбрідж — Відділення максимальної безпеки — Камери"
+  name: TSEPA - Ironbridge Precinct - Maximum Security Ward - Cells
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPrisonersFoyer
-  name: "TSEPA — Ділянка Айронбрідж — Відділення максимальної безпеки — Фойє"
+  name: TSEPA - Ironbridge Precinct - Maximum Security Ward - Foyer
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPrisonersRecreationArea
-  name: "TSEPA — Ділянка Айронбрідж — Відділення максимальної безпеки — Зона відпочинку та душові"
+  name: TSEPA - Ironbridge Precinct - Maximum Security Ward - Recreation Area & Shower Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsGarage
-  name: "TSEPA — Ділянка Айронбрідж — Розгортання та обслуговування транспорту"
+  name: TSEPA - Ironbridge Precinct - Vehicle Deployment & Maintenace
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2033,32 +2033,32 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmoryFoyer
-  name: "TSEPA — Ділянка Айронбрідж — Фойє збройової"
+  name: TSEPA - Ironbridge Precinct - Armory Foyer
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmory
-  name: "TSEPA — Ділянка Айронбрідж — Збройова"
+  name: TSEPA - Ironbridge Precinct - Armory
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmoryFiringrange
-  name: "TSEPA — Ділянка Айронбрідж — Стрільбище"
+  name: TSEPA - Ironbridge Precinct - Firing Range
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsArmoryEvidenceroom
-  name: "TSEPA — Ділянка Айронбрідж — Кімната доказів"
+  name: TSEPA - Ironbridge Precinct - Evidence Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsOffice
-  name: "TSEPA — Ділянка Айронбрідж — Офіс"
+  name: TSEPA - Ironbridge Precinct - Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsReception
-  name: "TSEPA — Ділянка Айронбрідж — Офіс ресепшна"
+  name: TSEPA - Ironbridge Precinct - Reception Office
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2066,7 +2066,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayCentral
-  name: "TSEPA — Ділянка Айронбрідж — Центральний коридор"
+  name: TSEPA - Ironbridge Precinct - Central Hallway
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2074,12 +2074,12 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwaySouth
-  name: "TSEPA — Ділянка Айронбрідж — Південний коридор"
+  name: TSEPA - Ironbridge Precinct - South Hallway
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayReception
-  name: "TSEPA — Ділянка Айронбрідж — Коридор ресепшна"
+  name: TSEPA - Ironbridge Precinct - Reception Hallway
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2087,7 +2087,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayNorth
-  name: "TSEPA — Ділянка Айронбрідж — Північний коридор"
+  name: TSEPA - Ironbridge Precinct - North Hallway
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2095,12 +2095,12 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHallwayNorthLocker
-  name: "TSEPA — Ділянка Айронбрідж — Північний коридор — Роздягальня"
+  name: TSEPA - Ironbridge Precinct - North Hallway - Locker Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHoldingCells
-  name: "TSEPA — Ділянка Айронбрідж — Камери тимчасового тримання"
+  name: TSEPA - Ironbridge Precinct - Holding Cells
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2108,7 +2108,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsHeadOffice
-  name: "TSEPA — Ділянка Айронбрідж — Криміналістичний офіс"
+  name: TSEPA - Ironbridge Precinct - Forensics Office
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2116,7 +2116,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsNorthOffice
-  name: "TSEPA — Ділянка Айронбрідж — Північний офіс"
+  name: TSEPA - Ironbridge Precinct - North Office
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2124,17 +2124,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsWardensOffice
-  name: "TSEPA — Ділянка Айронбрідж — Кабінет наглядача"
+  name: TSEPA - Ironbridge Precinct - Wardens Office
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsInterrogation
-  name: "TSEPA — Ділянка Айронбрідж — Допит"
+  name: TSEPA - Ironbridge Precinct - Interrogation
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsPressRoom
-  name: "TSEPA — Ділянка Айронбрідж — Зала суду"
+  name: TSEPA - Ironbridge Precinct - Court Room
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2142,17 +2142,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsChangingRoom
-  name: "TSEPA — Ділянка Айронбрідж — Роздягальня"
+  name: TSEPA - Ironbridge Precinct - Changing Room
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsRestroom
-  name: "TSEPA — Ділянка Айронбрідж — Туалет та душові"
+  name: TSEPA - Ironbridge Precinct - Restroom & Showers
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsSouthMaintenance
-  name: "TSEPA — Ділянка Айронбрідж — Обслуговування — Південь"
+  name: TSEPA - Ironbridge Precinct - Maintenance - South
   components:
   - type: Area
     linkedLz: dropship_lz2
@@ -2160,17 +2160,17 @@
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsNorthMaintenance
-  name: "TSEPA — Ділянка Айронбрідж — Обслуговування — Північ"
+  name: TSEPA - Ironbridge Precinct - Maintenance - North
 
 - type: entity
   parent: RMCAreaLv759IndoorsColonialMarshals
   id: RMCAreaLv759IndoorsColonialMarshalsSouthwestMaintenance
-  name: "TSEPA — Ділянка Айронбрідж — Обслуговування — Південний захід"
+  name: TSEPA - Ironbridge Precinct - Maintenance - Southwest
 
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsJacksSurplus
-  name: "Військовий магазин Джека"
+  name: Jack's Military Surplus
   components:
   - type: Sprite
     state: jacks
@@ -2181,7 +2181,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsRecyclingPlant
-  name: "Вейланд-Ютані — Об'єкт відновлення ресурсів"
+  name: Weyland-Yutani - Resource Recovery Facility
   components:
   - type: Sprite
     state: recycling
@@ -2192,7 +2192,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsRecyclingPlant
   id: RMCAreaLv759IndoorsRecyclingPlantGarage
-  name: "Вейланд-Ютані — Об'єкт відновлення ресурсів — Гараж"
+  name: Weyland-Yutani - Resource Recovery Facility - Garage
   components:
   - type: Area
     linkedLz: dropship_lz1
@@ -2200,7 +2200,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsRecyclingPlant
   id: RMCAreaLv759IndoorsRecyclingPlantSyntheticStorage
-  name: "Склад синтетиків"
+  name: Synthetic Storage
   components:
   - type: Sprite
     state: synthetic
@@ -2210,7 +2210,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsRecyclingPlantOffice
-  name: "Вейланд-Ютані — Об'єкт відновлення ресурсів — Офіс"
+  name: Weyland-Yutani - Resource Recovery Facility - Office
   components:
   - type: Sprite
     state: recycling
@@ -2220,7 +2220,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsRecyclingPlantWasteDisposalIncinerator
-  name: "Вейланд-Ютані — Об'єкт відновлення ресурсів — Сміттєспалювальна"
+  name: Weyland-Yutani - Resource Recovery Facility - Waste Disposal Incinerating Room
   components:
   - type: Sprite
     state: recycling
@@ -2230,7 +2230,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsSouthPublicRestroom
-  name: "Громадський туалет — Південь"
+  name: Public Restroom - South
   components:
   - type: Sprite
     state: restroom
@@ -2241,7 +2241,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsSouthwestPublicRestroom
-  name: "Громадський туалет — Південний захід"
+  name: Public Restroom - Southwest
   components:
   - type: Sprite
     state: restroom
@@ -2252,7 +2252,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsCasino
-  name: "Казино «Нічне золото»"
+  name: Night Gold Casino
   components:
   - type: Sprite
     state: nightgold
@@ -2262,7 +2262,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCasino
   id: RMCAreaLv759IndoorsCasinoCasinoOffice
-  name: "Казино «Нічне золото» — Кабінет менеджера"
+  name: Night Gold Casino - Managers Office
   components:
   - type: Sprite
     state: nightgold
@@ -2270,7 +2270,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCasino
   id: RMCAreaLv759IndoorsCasinoCasinoRestroom
-  name: "Казино «Нічне золото» — Туалет"
+  name: Night Gold Casino - Restroom
   components:
   - type: Sprite
     state: nightgold
@@ -2278,7 +2278,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsCasino
   id: RMCAreaLv759IndoorsCasinoCasinoVault
-  name: "Казино «Нічне золото» — Сховище"
+  name: Night Gold Casino - Vault
   components:
   - type: Sprite
     state: nightgold
@@ -2286,7 +2286,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsPizzaria
-  name: "Pizza Galaxy — Аванпост Зета"
+  name: Pizza Galaxy - Outpost Zeta
   components:
   - type: Sprite
     state: pizza
@@ -2296,7 +2296,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsTcommsNorthwest
-  name: "Підстанція телекомунікацій — Захід"
+  name: Telecommunications Substation - West
   components:
   - type: Sprite
     state: comms_1
@@ -2306,7 +2306,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsWeymart
-  name: "Веймарт"
+  name: Weymart
   components:
   - type: Sprite
     state: weymart
@@ -2316,7 +2316,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeymart
   id: RMCAreaLv759IndoorsWeymartBackrooms
-  name: "Веймарт — Підсобки"
+  name: Weymart - Backrooms
   components:
   - type: Sprite
     state: weymartbackrooms
@@ -2324,7 +2324,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWeymart
   id: RMCAreaLv759IndoorsWeymartMaintenance
-  name: "Веймарт — Обслуговування"
+  name: Weymart - Maintenance
   components:
   - type: Sprite
     state: weymartbackrooms
@@ -2339,7 +2339,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointNortheast
-  name: "Чекпоінт охорони Вейланд-Ютані — Північний схід"
+  name: Weyland-Yutani Security Checkpoint - North East
   components:
   - type: Sprite
     state: security_checkpoint_northeast
@@ -2350,7 +2350,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointEast
-  name: "Чекпоінт охорони Вейланд-Ютані — Схід"
+  name: Weyland-Yutani Security Checkpoint - East
   components:
   - type: Sprite
     state: security_checkpoint_east
@@ -2360,7 +2360,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointCentral
-  name: "Чекпоінт охорони Вейланд-Ютані — Центр"
+  name: Weyland-Yutani Security Checkpoint - Central
   components:
   - type: Sprite
     state: security_checkpoint_central
@@ -2368,7 +2368,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointWest
-  name: "Чекпоінт охорони Вейланд-Ютані — Захід"
+  name: Weyland-Yutani Security Checkpoint - West
   components:
   - type: Sprite
     state: security_checkpoint_west
@@ -2376,12 +2376,12 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurityCheckpointWest
   id: RMCAreaLv759IndoorsWySecurityCheckpointWestCaves
-  name: "Чекпоінт охорони Вейланд-Ютані — Вхід до печер"
+  name: Weyland-Yutani Security Checkpoint - Caverns Entrance
 
 - type: entity
   parent: RMCAreaLv759IndoorsWySecurity
   id: RMCAreaLv759IndoorsWySecurityCheckpointNorthwest
-  name: "Чекпоінт охорони Вейланд-Ютані — Північний захід"
+  name: Weyland-Yutani Security Checkpoint - North West
   components:
   - type: Sprite
     state: security_checkpoint_northwest
@@ -2389,7 +2389,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsHobosecret
-  name: "Прихований притулок безхатька"
+  name: Hidden Hobo Haven
   components:
   - type: Sprite
     state: hobo
@@ -2412,7 +2412,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsWyResearchComplex
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex
   components:
   - type: Sprite
     state: wylab
@@ -2431,7 +2431,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexMedicalAnnex
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Медичний анекс"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Medical Annex Building
   components:
   - type: Sprite
     state: wylab
@@ -2439,7 +2439,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexReception
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Ресепшн та адміністрація"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Reception & Administration
   components:
   - type: Sprite
     state: wylab
@@ -2447,7 +2447,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexCargo
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Реквізиції та карго"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Requisitions & Cargo
   components:
   - type: Sprite
     state: wylab
@@ -2455,7 +2455,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexResearchanddevelopment
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Лабораторія технологічних досліджень і розробок"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Technology Research & Development Lab
   components:
   - type: Sprite
     state: wylab
@@ -2463,7 +2463,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexMainlabs
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Лабораторія просунутого хімічного тестування і досліджень"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Chemical Testing & Research Lab
   components:
   - type: Sprite
     state: wylab
@@ -2471,7 +2471,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexXenobiology
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Лабораторія просунутої ксенобіології"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Xenobiology Lab
   components:
   - type: Sprite
     state: wylab
@@ -2479,7 +2479,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlab
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Лабораторія просунутих досліджень зброї"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Weapon Research Lab
   components:
   - type: Sprite
     state: wylab
@@ -2487,7 +2487,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexWeaponresearchlabtesting
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Лабораторія просунутих досліджень зброї — Стрільбище"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Advanced Weapon Research Lab - Weapons Testing Range
   components:
   - type: Sprite
     state: wylab
@@ -2495,7 +2495,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexXenoarcheology
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Лабораторія ксеноархеології"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Xenoarcheology Research Lab
   components:
   - type: Sprite
     state: wylab
@@ -2503,7 +2503,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexVehicledeploymentbay
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Розгортання та обслуговування транспорту"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Vehicle Deployment & Maintenance Bay
   components:
   - type: Sprite
     state: wylab
@@ -2511,7 +2511,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexJanitor
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Склад прибиральних засобів"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Janitorial Supplies Storage
   components:
   - type: Sprite
     state: wylab
@@ -2519,7 +2519,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexCafeteria
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Кафетерій"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Cafeteria
   components:
   - type: Sprite
     state: wylab
@@ -2527,7 +2527,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexCafeteriakitchen
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Кафетерій — Кухня"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Cafeteria - Kitchen
   components:
   - type: Sprite
     state: wylab
@@ -2535,7 +2535,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexDormsfoyer
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Фойє гуртожитку"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Dorms Foyer
   components:
   - type: Sprite
     state: wylab
@@ -2543,7 +2543,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexDormsbedroom
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Гуртожитки"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Dorms
   components:
   - type: Sprite
     state: wylab
@@ -2551,7 +2551,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexSecuritycommand
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Командний центр охорони та розгортання"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Security Command Center & Deployment
   components:
   - type: Sprite
     state: wylab
@@ -2559,7 +2559,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexSecurityarmory
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Збройова"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Armory
   components:
   - type: Sprite
     state: wylab
@@ -2567,7 +2567,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHangarbay
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Ангар"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Hangar Bay
   components:
   - type: Sprite
     state: wylab
@@ -2575,7 +2575,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHangarbayshuttle
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Ангар — Шатл ERT PMC Вейланд-Ютані"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Hangar Bay - Weyland-Yutani PMC ERT Shuttle
   components:
   - type: Sprite
     state: wylab
@@ -2586,7 +2586,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaynorth
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Північний коридор"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - North Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2594,7 +2594,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaynorthexit
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Північний коридор — Східний вихід для персоналу"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - North Hallway - Personnel Exit East
   components:
   - type: Sprite
     state: wylab
@@ -2602,7 +2602,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwayeast
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Східний коридор"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Hallway East
   components:
   - type: Sprite
     state: wylab
@@ -2610,7 +2610,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaycentral
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Центральний коридор"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Central Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2618,7 +2618,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaysouthwest
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Південно-західний коридор"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - South West Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2626,7 +2626,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHallwaysoutheast
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Південно-східний коридор"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - South East Hallway
   components:
   - type: Sprite
     state: wylab
@@ -2634,7 +2634,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexSoutheastexit
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Південно-східний обслуговування та аварійний вихід"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - South East Maintenace & Emergency Exit
   components:
   - type: Sprite
     state: wylab
@@ -2642,7 +2642,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexChangingroom
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Роздягальня"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Locker Room
   components:
   - type: Sprite
     state: wylab
@@ -2650,7 +2650,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsWyResearchComplex
   id: RMCAreaLv759IndoorsWyResearchComplexHeadResearchOffice
-  name: "Вейланд-Ютані — Просунутий комплекс біогеномних досліджень — Кабінет голови досліджень"
+  name: Weyland-Yutani - Advanced Bio-Genomic Research Complex - Head of Research's Office
   components:
   - type: Sprite
     state: wylab
@@ -2659,7 +2659,7 @@
 - type: entity
   parent: RMCAreaLv759Indoors
   id: RMCAreaLv759IndoorsOutpostSouterMainHall
-  name: "RCM-P Аванпост Саутер — Головний хол"
+  name: RCM-P Outpost Souter - Main Hall
   components:
   - type: Sprite
     state: security_checkpoint_central
@@ -2669,7 +2669,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterDorms
-  name: "RCM-P Аванпост Саутер — Гуртожитки"
+  name: RCM-P Outpost Souter - Dormitories
   components:
   - type: Sprite
     state: security_hub
@@ -2677,7 +2677,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterArmoury
-  name: "RCM-P Аванпост Саутер — Збройова"
+  name: RCM-P Outpost Souter - Armoury
   components:
   - type: Sprite
     state: security_hub
@@ -2685,7 +2685,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterFlightMaints
-  name: "RCM-P Аванпост Саутер — Кімната обслуговування польотів"
+  name: RCM-P Outpost Souter - Flight Maintenance Room
   components:
   - type: Sprite
     state: security_hub
@@ -2693,7 +2693,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterHangar
-  name: "RCM-P Аванпост Саутер — Ангар"
+  name: RCM-P Outpost Souter - Hangar
   components:
   - type: Sprite
     state: security_checkpoint_east
@@ -2701,7 +2701,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterReception
-  name: "RCM-P Аванпост Саутер — Офіс ресепшна"
+  name: RCM-P Outpost Souter - Reception Office
   components:
   - type: Sprite
     state: security_hub
@@ -2709,7 +2709,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterEntrance
-  name: "RCM-P Аванпост Саутер — Вхід"
+  name: RCM-P Outpost Souter - Entrance
   components:
   - type: Sprite
     state: security_checkpoint_west
@@ -2717,7 +2717,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterFlightControl
-  name: "RCM-P Аванпост Саутер — Контроль польотів"
+  name: RCM-P Outpost Souter - Flight Control
   components:
   - type: Sprite
     state: security_hub
@@ -2725,7 +2725,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterUD4UK
-  name: "TSE UD4-UK"
+  name: TSE UD4-UK
   components:
   - type: Sprite
     state: wydropship

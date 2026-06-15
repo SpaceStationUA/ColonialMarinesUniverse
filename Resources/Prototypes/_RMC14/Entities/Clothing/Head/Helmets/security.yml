@@ -2,8 +2,8 @@
 - type: entity
   parent: [RMCHelmetBase, RMCFoldableHelmetBase]
   id: ArmorHelmetRiot
-  name: "шолом для придушення заворушень"
-  description: "Це шолом, спеціально створений для захисту від атак на близькій відстані. Закриває вуха."
+  name: riot helmet
+  description: It's a helmet specifically designed to protect against close range attacks. It covers your ears.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/riot.rsi
@@ -20,7 +20,7 @@
 - type: entity
   parent: ArmorHelmetRiot
   id: ArmorHelmetRiotOld
-  description: "Побитий шолом для придушення заворушень BA, вкритий павутинням. Він досі захищає ваші вуха."
+  description: BA scarred riot helmet covered in cobwebs. It still protects your ears.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/old_riot.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: [RMCHelmetBase, RMCFoldableHelmetBase]
   id: RMCArmorHelmetSecurity
-  name: "шолом"
-  description: "Стандартне захисне спорядження. Захищає голову від ударів."
+  name: helmet
+  description: Standard security gear. Protects the head from impacts.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/security.rsi
