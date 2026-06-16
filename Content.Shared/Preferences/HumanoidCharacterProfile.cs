@@ -32,8 +32,12 @@ namespace Content.Shared.Preferences
     [Serializable, NetSerializable]
     public sealed partial class HumanoidCharacterProfile : ICharacterProfile
     {
-        private static readonly Regex RestrictedNameRegex = new(@"[^\u0030-\u0039\u0041-\u005A\u0061-\u007A\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF\u0100-\u017F\u0400-\u052F\u2DE0-\u2DFF\uA640-\uA69F '\-]");
-        private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)");
+        private static readonly Regex RestrictedNameRegex = new(@"[^\u0030-\u0039\u0041-\u005A\u0061-\u007A\u00C0-\u00D6\u00D8-\u00F6\u00F8-\u00FF\u0100-\u017F\u0400-\u052F\u2DE0-\u2DFF\uA640-\uA69F '\-\.]", RegexOptions.Compiled);
+        private static readonly Regex ICNameCaseRegex = new(@"^(?<word>\w)|\b(?<word>\w)(?=\w*$)", RegexOptions.Compiled);
+
+        private static readonly Regex MultiDotRegex = new(@"\.+", RegexOptions.Compiled);
+        private static readonly Regex LeadingTrailingDotRegex = new(@"(^\.|\.$)", RegexOptions.Compiled);
+        private static readonly Regex SingleDotRegex = new(@"\.", RegexOptions.Compiled);
 
         /// <summary>
         /// Job preferences for initial spawn.
@@ -979,6 +983,11 @@ namespace Content.Shared.Preferences
                 name = Name;
             }
 
+            name = MultiDotRegex.Replace(name, ".");            // collapse multiple dots
+            name = LeadingTrailingDotRegex.Replace(name, "");   // remove leading/trailing dot
+            var firstWord = name.Split(' ', 2)[0];              // remove dot from the firstname (e.g Capt./Dr.)
+            if (firstWord.Contains('.'))
+                name = SingleDotRegex.Replace(firstWord, "") + name.Substring(firstWord.Length);
             name = name.Trim();
 
             if (configManager.GetCVar(CCVars.RestrictedNames))
