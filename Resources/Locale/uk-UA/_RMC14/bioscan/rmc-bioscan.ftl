@@ -1,4 +1,4 @@
-rmc-bioscan-ares-announcement = [color=white][font size=16][bold]Статус Біосканування ARES v3.2[/bold][/font][/color][color=red][font size=14][bold]
+rmc-bioscan-ares-announcement = [color=white][font size=16][bold]APOLLO MK.II - Статус біосканування[/bold][/font][/color][color=red][font size=14][bold]
     {$message}[/bold][/font][/color]
 
 rmc-bioscan-ares = Біосканування завершено.

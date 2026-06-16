@@ -11,73 +11,73 @@ rmc-boon-on-cooldown = Наш вулик нещодавно вже викори�
 rmc-boon-duplicate-active = У нас уже активний дар {$boon}!
 rmc-boon-not-reusable = Наш вулик уже використав {$boon} і не може скористатися ним знову!
 
-rmc-boon-pylon-announcement-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-pylon-announcement-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
-    Виявлено неправильне накопичення енергії навколо комунікаційних реле в {$area}, виявлено біологічну загрозу.
+    Виявлено нерегулярне накопичення енергії навколо комунікаційних реле в {$area}; зафіксовано біологічну загрозу.
 
-    НЕБЕЗПЕКА: Загроза посилює ксеноїдів, рекомендується термінова ліквідація загрози наземними силами.[/font][/color]
+    НЕБЕЗПЕКА: загроза посилює ксенонідів. Наземним силам рекомендовано негайно ліквідувати загрозу.[/font][/color]
 
-rmc-boon-pylon-destroyed-announcement-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-pylon-destroyed-announcement-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
     Накопичення енергії навколо комунікаційного реле в {$area} зупинено.[/font][/color]
 
-rmc-boon-king-announcement-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-king-announcement-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
-    ВИЯВЛЕНО НЕЗВИЧНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area}.
+    ВИЯВЛЕНО НЕЗВИЧАЙНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area}.
 
-    ПРИБЛИЗНИЙ ЧАС ДО ЗАВЕРШЕННЯ — 10 ХВИЛИН. РЕКОМЕНДУЄТЬСЯ ЗНИЩЕННЯ КСЕНОЇДНОЇ СТРУКТУРИ В ЦЬОМУ МІСЦІ АБО ЗНИЩЕННЯ КСЕНОЇДНОГО ПІЛОНА В БУДЬ-ЯКОМУ З КОМУНІКАЦІЙНИХ РЕЛЕ.[/font][/color]
+    ОРІЄНТОВНИЙ ЧАС ДО ЗАВЕРШЕННЯ - 10 ХВИЛИН. РЕКОМЕНДОВАНО ЛІКВІДУВАТИ СТРУКТУРУ КСЕНОНІДІВ У ЦІЙ ЛОКАЦІЇ АБО ПІЛОН КСЕНОНІДІВ БІЛЯ БУДЬ-ЯКОГО КОМУНІКАЦІЙНОГО РЕЛЕ.[/font][/color]
 rmc-boon-king-announcement-xenos = Король росте в {$area}. Захищайте його, а також наші пілони на їхніх комунікаційних реле, за будь-яку ціну!
 
-rmc-boon-king-announcement-paused-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-king-announcement-paused-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
-    НЕЗВИЧНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area} ПРИЗУПИНЕНО.[/font][/color]
+    НЕЗВИЧАЙНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area} ПРИЗУПИНЕНО.[/font][/color]
 rmc-boon-king-announcement-paused-xeno = Один з наших пілонів знищено, інкубатор призупинив свій розвиток!
 
-rmc-boon-king-announcement-resumed-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-king-announcement-resumed-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
-    НЕЗВИЧНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area} ПОНОВЛЕНО.[/font][/color]
+    НЕЗВИЧАЙНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area} ПОНОВЛЕНО.[/font][/color]
 rmc-boon-king-announcement-resumed-xeno = Розвиток інкубатора поновлено!
 
-rmc-boon-king-announcement-stopped-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-king-announcement-stopped-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
-    НЕЗВИЧНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area} ЗУПИНЕНО.[/font][/color]
+    НЕЗВИЧАЙНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area} ЗУПИНЕНО.[/font][/color]
 rmc-boon-king-announcement-stopped-xeno = ІНКУБАТОР ЗНИЩЕНО! ПОМСТА!
 
-rmc-boon-king-announcement-minutes-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-king-announcement-minutes-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
-    ВИЯВЛЕНО НЕЗВИЧНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area}.
+    ВИЯВЛЕНО НЕЗВИЧАЙНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area}.
 
-    ПРИБЛИЗНИЙ ЧАС ДО ЗАВЕРШЕННЯ — {$minutes} ХВИЛИН. РЕКОМЕНДУЄТЬСЯ ЗНИЩЕННЯ КСЕНОЇДНОЇ СТРУКТУРИ В ЦЬОМУ МІСЦІ АБО ЗНИЩЕННЯ КСЕНОЇДНОГО ПІЛОНА В БУДЬ-ЯКОМУ З КОМУНІКАЦІЙНИХ РЕЛЕ.[/font][/color]
+    ОРІЄНТОВНИЙ ЧАС ДО ЗАВЕРШЕННЯ - {$minutes} ХВИЛИН. РЕКОМЕНДОВАНО ЛІКВІДУВАТИ СТРУКТУРУ КСЕНОНІДІВ У ЦІЙ ЛОКАЦІЇ АБО ПІЛОН КСЕНОНІДІВ БІЛЯ БУДЬ-ЯКОГО КОМУНІКАЦІЙНОГО РЕЛЕ.[/font][/color]
 rmc-boon-king-announcement-minutes-xeno = Король вилупиться приблизно за {$minutes} хвилин.
 
-rmc-boon-king-announcement-seconds-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-king-announcement-seconds-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
-    ВИЯВЛЕНО НЕЗВИЧНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area}.
+    ВИЯВЛЕНО НЕЗВИЧАЙНЕ НАКОПИЧЕННЯ ЕНЕРГІЇ В {$area}.
 
-    ПРИБЛИЗНИЙ ЧАС ДО ЗАВЕРШЕННЯ — {$seconds} СЕКУНД. РЕКОМЕНДУЄТЬСЯ ЗНИЩЕННЯ КСЕНОЇДНОЇ СТРУКТУРИ В ЦЬОМУ МІСЦІ АБО ЗНИЩЕННЯ КСЕНОЇДНОГО ПІЛОНА В БУДЬ-ЯКОМУ З КОМУНІКАЦІЙНИХ РЕЛЕ.[/font][/color]
+    ОРІЄНТОВНИЙ ЧАС ДО ЗАВЕРШЕННЯ - {$seconds} СЕКУНД. РЕКОМЕНДОВАНО ЛІКВІДУВАТИ СТРУКТУРУ КСЕНОНІДІВ У ЦІЙ ЛОКАЦІЇ АБО ПІЛОН КСЕНОНІДІВ БІЛЯ БУДЬ-ЯКОГО КОМУНІКАЦІЙНОГО РЕЛЕ.[/font][/color]
 rmc-boon-king-announcement-seconds-xeno = Король вилупиться приблизно за {$seconds} секунд.
 
-rmc-boon-king-announcement-hatch-marine = [color=#CECECE][font size=16][bold]ARES v3.2 Біологічний Сканер[/bold][/font][/color][color=red][font size=16]
+rmc-boon-king-announcement-hatch-marine = [color=#CECECE][font size=16][bold]APOLLO MK.II - Біологічний сканер[/bold][/font][/color][color=red][font size=16]
 
     УВАГА.
 
     ВИЯВЛЕНО ЕКСТРЕМАЛЬНИЙ ПРИПЛИВ ЕНЕРГІЇ В {$area}.
 
-    РЕКОМЕНДУЄТЬСЯ ОБЕРЕЖНІСТЬ.
+    РЕКОМЕНДОВАНО ОБЕРЕЖНІСТЬ.
 rmc-boon-king-announcement-hatch-xeno = Хай живе Король.

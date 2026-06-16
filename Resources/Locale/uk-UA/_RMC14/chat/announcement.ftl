@@ -2,11 +2,11 @@ rmc-announcement-author = Командування
 rmc-announcement-author-shipside = Командний корабель
 rmc-announcement-author-highcommand = Високе командування ОНМК
 rmc-announcement-author-queen-mother = Праматір Королева
-rmc-announcement-message = [font size=16][bold][color=#CECECE]Оголошення {$author}[/color][/bold][/font][font size=16][color=red]
+rmc-announcement-message = [font size=16][bold][color=#CECECE]Пріоритетне оголошення {$author}[/color][/bold][/font][font size=16][color=red]
 
     {$message}
 
-rmc-announcement-message-signed = [font size=16][bold][color=#CECECE]Оголошення {$author}[/color][/bold][/font][font size=16][color=red]
+rmc-announcement-message-signed = [font size=16][bold][color=#CECECE]Пріоритетне оголошення {$author}[/color][/bold][/font][font size=16][color=red]
 
     {$message}[italic]
 
@@ -17,7 +17,7 @@ rmc-announcement-message-raw = [font size=16][bold][color=#CECECE]{$author}[/col
 
     {$message}
 
-rmc-announcement-ares-message = [color=#CECECE][font size=16][bold]Наказ операційного підготовлення АРЕС v3.2[/bold][/font][/color][color=red][font size=16][bold]
+rmc-announcement-ares-message = [color=#CECECE][font size=16][bold]APOLLO MK.II - Пріоритетна оперативна трансляція[/bold][/font][/color][color=red][font size=16][bold]
 
     {$message}[/bold][/font][/color]
 
@@ -25,7 +25,7 @@ rmc-announcement-ares-lz-designated = Видано наказ командува
 
     {$name} призначено основною зоною висадки.
 
-rmc-announcement-ares-online = [color=#CECECE][font size=16][bold]АРЕС онлайн[/bold][/font][/color][color=red][font size=16][bold]
+rmc-announcement-ares-online = [color=#CECECE][font size=16][bold]Центральний ШІ APOLLO - Система онлайн[/bold][/font][/color][color=red][font size=16][bold]
 
     {$message}[/bold][/font][/color]
 
@@ -50,7 +50,7 @@ rmc-announcement-dropship-hijack = Виявлено позаплановий в�
 
 rmc-announcement-dropship-hijack-hive = Королева наказала металевій пташці вилетіти до металевого рою у небі! Радійте!
 
-rmc-announcement-ares-command = [color=#CECECE][font size=16][bold]АРЕС v3.2[/bold][/font][/color][color=red][font size=16]
+rmc-announcement-ares-command = [color=#CECECE][font size=16][bold]APOLLO MK.II[/bold][/font][/color][color=red][font size=16]
 
     {$message}[/font][/color]
 

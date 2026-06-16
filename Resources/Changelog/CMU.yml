@@ -6704,123 +6704,129 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1322
 - author: Crime481
   changes:
-  - message: New icons for majority of GOVFOR roles,  this includes the Auxiliary
-      Technician, Fireteam Leader, Military Doctor and Military Police.
+  - message: Додано нові іконки для більшості ролей GOVFOR, зокрема для допоміжного
+      техніка, командира вогневої групи, військового лікаря та військового поліцейського.
     type: Add
-  - message: New icons for majority of OPFOR roles, this includes the Auxiliary Technician,
-      Fireteam Leader, Military Doctor and Military Police.
+  - message: Додано нові іконки для більшості ролей OPFOR, зокрема для допоміжного
+      техніка, командира вогневої групи, військового лікаря та військового поліцейського.
     type: Add
-  - message: New icons for majority of Colony roles, this includes the Foreman, Head
-      of Service and Freight Systems Specialist.
+  - message: Додано нові іконки для більшості ролей колонії, зокрема для виконроба,
+      голови сервісу та спеціаліста вантажних систем.
     type: Add
-  - message: Threat Leader and Third Party Leader job icons now have contrast on their
-      crowns.
+  - message: Іконки посад лідера загрози та лідера третьої сторони тепер мають контраст
+      на коронах.
     type: Tweak
   id: 283
   time: '2026-06-15T20:03:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1329
 - author: sunzu432
   changes:
-  - message: 'Hope''s Retreat: Ladders to allow access to most of the outer colony''s
-      roofs.'
+  - message: 'Hope''s Retreat: драбини дають доступ до більшості дахів зовнішньої
+      колонії.'
     type: Add
-  - message: 'Hope''s Retreat: Small adjustments to colony sirens to avoid overlapping
-      sounds.'
+  - message: 'Hope''s Retreat: невеликі коригування сирен колонії, щоб уникнути накладання
+      звуків.'
     type: Tweak
-  - message: 'Hope''s Retreat: Z-levels should have correct areas now.'
+  - message: 'Hope''s Retreat: Z-рівні тепер мають коректні зони.'
     type: Fix
-  - message: 'Hope''s Retreat: GOVFOR should now have weapons vendors in their barracks.'
+  - message: 'Hope''s Retreat: GOVFOR тепер мають автомати зброї у своїх казармах.'
     type: Fix
-  - message: 'Hope''s Retreat: Colony recreation center should now have a roof mapped.'
+  - message: 'Hope''s Retreat: у рекреаційному центрі колонії тепер розмічено дах.'
     type: Fix
-  - message: 'Hope''s Retreat: Most mapped containers and power-loaders should now
-      be fixed.'
+  - message: 'Hope''s Retreat: більшість замаплених контейнерів і вантажних навантажувачів
+      тепер виправлено.'
     type: Fix
   id: 284
   time: '2026-06-16T02:01:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1335
 - author: JaSeNeSaJ
   changes:
-  - message: 'Sheperds'': MultiZ stair gameplay (1x2 holes, no handrails)'
+  - message: 'Sheperds'': геймплей сходів MultiZ (отвори 1x2, без поручнів)'
     type: Tweak
-  - message: 'Sheperds'': New tree entities (reduced hitbox, table collision, no fading,
-      no right click context menu, and xeno 5x damage)'
+  - message: 'Sheperds'': нові сутності дерев (зменшений хітбокс, колізія зі столами,
+      без зникання, без контекстного меню правою кнопкою, і 5x шкода від ксеноморфів)'
     type: Add
-  - message: 'Sheperds'': We-Yu Labs now Lvl 4 Roof'
+  - message: 'Sheperds'': лабораторії We-Yu тепер мають дах рівня 4'
     type: Tweak
-  - message: 'Sheperds'': We-Yu Labs power (areas & apcs)'
+  - message: 'Sheperds'': живлення лабораторій We-Yu (зони й APC)'
     type: Tweak
-  - message: 'Sheperds'': Handrails in Labs Containment'
+  - message: 'Sheperds'': поручні у стримуванні лабораторій'
     type: Remove
-  - message: 'Sheperds'': CWPS Armory (gunlocker access fixed)'
+  - message: 'Sheperds'': збройова CWPS (виправлено доступ до шаф зброї)'
     type: Tweak
-  - message: 'Sheperds'': Colony Administrator office & saferoom'
+  - message: 'Sheperds'': офіс і безпечна кімната адміністратора колонії'
     type: Tweak
-  - message: 'Sheperds'': Chem to medbay 2nd floor'
+  - message: 'Sheperds'': хімію перенесено до медбею на 2-му поверсі'
     type: Add
   id: 285
   time: '2026-06-16T06:17:09.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1336
 - author: maertayn
   changes:
-  - message: Bioscan x3 spam & xeno x4 tac-map spam (map is still bugged sorry)
+  - message: Виправлено потрійний спам біосканування й чотириразовий спам тактичної
+      мапи ксено (мапа досі зламана, перепрошую).
     type: Fix
-  - message: Shop keep vendors would use a stock whitelist for ID/Headsets instead
-      of blacklist
+  - message: Виправлено торгові автомати крамарів, які використовували білий список
+      запасів для ID/гарнітур замість чорного списку.
     type: Fix
-  - message: JO Kit limits conflicting instead of being per section
+  - message: Виправлено конфлікт лімітів комплектів JO, тепер вони рахуються по
+      секціях.
     type: Fix
-  - message: Powerloader doesn't anchor dropped items anymore
+  - message: Вантажний навантажувач більше не закріплює скинуті предмети.
     type: Tweak
-  - message: Cartridge item for the UPP Smart gun was missing -> cycling mag dropped
-      a bullet entity
+  - message: Виправлено відсутній предмет патрона для смартгана UPP, через що прокручування
+      магазину скидало сутність кулі.
     type: Fix
-  - message: Z-Level support for Evacuation (pumps/lifeboats/evac-doors) -> lifeboats
-      may still need mapping, enjoy the spacewalk around Bush
+  - message: Додано підтримку Z-рівнів для евакуації (насоси/рятувальні човни/евакуаційні
+      двері). Рятувальні човни, можливо, ще потребують мапінгу; насолоджуйтеся космічною
+      прогулянкою навколо Bush.
     type: Add
-  - message: You can now use dots in your character name (like John A.B. Doe)
+  - message: Тепер можна використовувати крапки в імені персонажа (наприклад, Джон
+      A.B. Доу).
     type: Add
-  - message: Wooden barricades required x500 wooden planks -> x50 now
+  - message: Дерев'яні барикади тепер потребують x50 дерев'яних дощок замість x500.
     type: Tweak
-  - message: Disabled the silly automatic-fire for semi-automatic and burst modes
+  - message: Вимкнено недоречний автоматичний вогонь для напівавтоматичного режиму
+      та режиму черги.
     type: Remove
-  - message: "Melee weapons can no longer be throw-spammed to chop down trees (new\
-      \ meta: \U0001F525)"
+  - message: "Зброю ближнього бою більше не можна масово кидати, щоб рубати дерева\
+      \ (нова мета: \U0001F525)"
     type: Remove
-  - message: Machete does x3 damage against trees (chops 1250HP down in 9 hits) &
-      Pickaxe damage nerf (10sl./33bl.), but multiplied so that fragile-rock remains
-      3-hits.
+  - message: Мачете завдає x3 шкоди деревам (рубає 1250 HP за 9 ударів), а шкоду
+      кирки знижено (10 руб./33 дроб.), але помножено так, щоб крихка порода й далі
+      ламалася за 3 удари.
     type: Tweak
-  - message: Yautja (& bad bloods) trackable by motion detectors
+  - message: Yautja (і представників Поганої Крові) тепер можна відстежити детекторами
+      руху.
     type: Fix
   id: 286
   time: '2026-06-16T06:28:12.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1334
 - author: Kadeo64
   changes:
-  - message: WY Xeno Egg experiment crates have a 10% chance to come with a single
-      Hivebreaker remote. Use wisely.
+  - message: Експериментальні ящики WY з яйцями ксено мають 10% шанс містити один
+      пульт Розривача вулика. Використовуйте розумно.
     type: Tweak
   id: 287
   time: '2026-06-16T06:36:36.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1337
 - author: KeiKiyomi
   changes:
-  - message: Added all vehicle hardpoints to the ASRS
+  - message: Додано всі точки кріплення техніки до ASRS.
     type: Add
-  - message: Added all Blackfoot hardpoints to the ASRS
+  - message: Додано всі точки кріплення Блекфута до ASRS.
     type: Add
-  - message: Added all vehicle ammo to the ASRS
+  - message: Додано всі боєприпаси техніки до ASRS.
     type: Add
-  - message: Added all blackfoot hardpoints to the ASRS
+  - message: Додано всі точки кріплення Блекфута до ASRS.
     type: Add
-  - message: Added a crate with all 3 componets for the blackfoot landing pad (and
-      added it to ASRS)
+  - message: Додано ящик з усіма 3 компонентами посадкового майданчика Блекфута (і
+      додано його до ASRS).
     type: Add
-  - message: Added 2 new ammo crates, each containing 3 blackfoot flare ammo and blackfoot
-      doorgun ammo
+  - message: Додано 2 нові ящики боєприпасів, кожен містить по 3 боєприпаси сигнальних
+      ракет Блекфута та боєприпаси бортового кулемета Блекфута.
     type: Add
-  - message: Added blackfoot tug to ASRS (incase you loose the original)
+  - message: Додано буксир Блекфута до ASRS (на випадок, якщо ви втратите оригінал).
     type: Add
   id: 288
   time: '2026-06-16T07:15:40.0000000+00:00'
