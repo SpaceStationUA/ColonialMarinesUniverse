@@ -3,12 +3,12 @@
   id: AU14ChevronCWPSBase
   abstract: true
   suffix: CWPS Ranger Chevron
-  description: Colonial Wildlands Protection Service rank insignia.
+  description: "Відзнака звання Служби охорони колоніальних диких територій."
 
 - type: entity
   parent: AU14ChevronCWPSBase
   id: AU14ChevronCWPSRangerTrainee
-  name: probationary ranger chevron
+  name: "шеврон рейнджера на випробувальному терміні"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -24,7 +24,7 @@
 - type: entity
   parent: AU14ChevronCWPSBase
   id: AU14ChevronCWPSRanger
-  name: ranger chevron
+  name: "шеврон рейнджера"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: AU14ChevronCWPSBase
   id: AU14ChevronCWPSSeniorRanger
-  name: senior ranger chevron
+  name: "шеврон старшого рейнджера"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

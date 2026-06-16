@@ -1,7 +1,7 @@
 - type: entity
   id: CMUXenoPsychicShieldSegment
   categories: [HideSpawnMenu]
-  name: psychic shield
+  name: "психічний щит"
   components:
     - type: Physics
       bodyType: Static
@@ -27,7 +27,7 @@
   parent: CMUXenoPsychicShieldSegment
   id: CMUXenoPsychicShield
   categories: [HideSpawnMenu]
-  name: psychic shield
+  name: "психічний щит"
   components:
     - type: Sprite
       drawdepth: Effects
@@ -41,7 +41,7 @@
 - type: entity
   id: CMUXenoPsychicCrushWarning
   categories: [HideSpawnMenu]
-  name: psychic crush warning
+  name: "попередження про психічне розчавлення"
   components:
     - type: TimedDespawn
       lifetime: 0.7
@@ -60,7 +60,7 @@
 - type: entity
   id: CMUXenoPsychicCrushOrb
   categories: [HideSpawnMenu]
-  name: psychic crush
+  name: "психічне розчавлення"
   components:
     - type: Sprite
       drawdepth: Overlays
@@ -78,7 +78,7 @@
 - type: entity
   id: CMUXenoPsychicCrushSmooth
   categories: [HideSpawnMenu]
-  name: psychic crush
+  name: "психічне розчавлення"
   components:
     - type: TimedDespawn
       lifetime: 0.5
@@ -95,7 +95,7 @@
 - type: entity
   id: CMUXenoPsychicCrushHard
   categories: [HideSpawnMenu]
-  name: psychic crush
+  name: "психічне розчавлення"
   components:
     - type: TimedDespawn
       lifetime: 0.4
@@ -112,7 +112,7 @@
 - type: entity
   id: CMUXenoPsychicCrushBlur
   categories: [HideSpawnMenu]
-  name: psychic crush
+  name: "психічне розчавлення"
   components:
     - type: TimedDespawn
       lifetime: 1
@@ -125,7 +125,7 @@
 - type: entity
   id: CMUXenoWarlockCrushChannelEffect
   categories: [HideSpawnMenu]
-  name: psychic crush
+  name: "психічне розчавлення"
   components:
     - type: PointLight
       radius: 3
@@ -138,7 +138,7 @@
 - type: entity
   id: CMUXenoWarlockCrushParticles
   categories: [HideSpawnMenu]
-  name: psychic crush
+  name: "психічне розчавлення"
   components:
     - type: CMUXenoWarlockParticleEmitter
       effect: PsychicCrushCharge
@@ -149,7 +149,7 @@
 - type: entity
   id: CMUXenoWarlockBlastChannelEffect
   categories: [HideSpawnMenu]
-  name: psychic blast
+  name: "психічний вибух"
   components:
     - type: PointLight
       radius: 3
@@ -162,7 +162,7 @@
 - type: entity
   id: CMUXenoWarlockBlastParticles
   categories: [HideSpawnMenu]
-  name: psychic blast
+  name: "психічний вибух"
   components:
     - type: CMUXenoWarlockParticleEmitter
       effect: PsychicBlastCharge
@@ -174,7 +174,7 @@
   parent: CMUXenoWarlockBlastParticles
   id: CMUXenoWarlockLanceParticles
   categories: [HideSpawnMenu]
-  name: psychic lance
+  name: "психічний спис"
   components:
     - type: CMUXenoWarlockParticleEmitter
       effect: PsychicLanceCharge
@@ -182,7 +182,7 @@
 - type: entity
   id: CMUXenoWarlockShieldChannelEffect
   categories: [HideSpawnMenu]
-  name: psychic shield
+  name: "психічний щит"
   components:
     - type: PointLight
       radius: 3
@@ -196,7 +196,7 @@
   parent: XenoBaseProjectile
   id: CMUXenoPsychicBlastProjectile
   categories: [HideSpawnMenu]
-  name: psychic blast
+  name: "психічний вибух"
   components:
     - type: Sprite
       sprite: _RMC14/Effects/beam.rsi
@@ -227,7 +227,7 @@
   parent: CMUXenoPsychicBlastProjectile
   id: CMUXenoPsychicLanceProjectile
   categories: [HideSpawnMenu]
-  name: psychic lance
+  name: "психічний спис"
   components:
     - type: Sprite
       sprite: _RMC14/Effects/beam.rsi
@@ -252,7 +252,7 @@
 - type: entity
   id: CMUXenoPsychicBlastShockwave
   categories: [HideSpawnMenu]
-  name: psychic blast shockwave
+  name: "ударна хвиля психічного вибуху"
   components:
     - type: TimedDespawn
       lifetime: 0.6

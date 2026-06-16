@@ -2,8 +2,8 @@
   abstract: true
   parent: [RMCBaseUniformAccessory, ClothingHandsBase]
   id: RMCWatchBaseL
-  name: watchL
-  description: An abstract watch.
+  name: "watchL"
+  description: "Абстрактний годинник."
   components:
   - type: UniformAccessory
     category: WristL
@@ -20,8 +20,8 @@
   abstract: true
   parent: [RMCBaseUniformAccessory, ClothingHandsBase]
   id: RMCWatchBaseR
-  name: watchR
-  description: An abstract watch.
+  name: "watchR"
+  description: "Абстрактний годинник."
   components:
   - type: UniformAccessory
     category: WristR
@@ -37,8 +37,8 @@
 - type: entity
   parent: RMCWatchBaseL
   id: RMCWatchCheap
-  name: cheap digital watch
-  description: A cheap 24-hour only digital wrist watch. It has a crappy red display, great for looking at in the dark!
+  name: "дешевий цифровий годинник"
+  description: "Дешевий цифровий наручний годинник лише з 24-годинним форматом. Має паскудний червоний дисплей, чудовий для перегляду в темряві!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Watches/cheap.rsi
@@ -56,8 +56,8 @@
 - type: entity
   parent: RMCWatchBaseL
   id: RMCWatchBasic
-  name: Seikaku Pulsemeter wristwatch
-  description: Model S448-209A, a durable quartz-based wristwatch issued to most Marines who pass through basic training.
+  name: "наручний годинник «Сейкаку Пульсометр»"
+  description: "Модель S448-209A, міцний кварцовий наручний годинник, який видають більшості морпіхів, що проходять базову підготовку."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Watches/black.rsi
@@ -72,8 +72,8 @@
 - type: entity
   parent: RMCWatchBaseL
   id: RMCWatchSynth
-  name: Seikaku 13B6-2000 wristwatch
-  description: A fancy black-bodied wristwatch. Once set correctly, it always holds the right time. For the connoisseurs of precision.
+  name: "наручний годинник «Сейкаку 13B6-2000»"
+  description: "Елегантний наручний годинник із чорним корпусом. Після правильного налаштування він завжди показує точний час. Для поціновувачів точності."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Watches/synth.rsi
@@ -88,8 +88,8 @@
 - type: entity
   parent: RMCWatchBaseL
   id: RMCWatchSurv
-  name: Seikaku 13B6-3000 wristwatch
-  description: With the pioneering design of analog quartz chronographs beating inside it, this asymetric wristwatch is perfect for anyone who can remain standing where others have all fallen.
+  name: "наручний годинник «Сейкаку 13B6-3000»"
+  description: "З передовою конструкцією аналогових кварцових хронографів усередині цей асиметричний наручний годинник ідеально підходить кожному, хто здатен залишатися на ногах там, де всі інші вже впали."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Watches/surv.rsi
@@ -104,8 +104,8 @@
 - type: entity
   parent: RMCWatchBaseL
   id: RMCWatchLiaison
-  name: Seikaku H487-9098 wristwatch
-  description: A more upmarket wristwatch tailored towards junior executives & 'company guys' all across the galaxy. Flashy, but not horribly ostentatious.
+  name: "наручний годинник Сейкаку H487-9098"
+  description: "Дорожчий наручний годинник, створений для молодших керівників і «людей Компанії» з усієї галактики. Яскравий, але не надто показний."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Watches/silver.rsi
@@ -120,8 +120,8 @@
 - type: entity
   parent: RMCWatchBaseL
   id: RMCWatchPilot
-  name: Veniti E-338 wristwatch
-  description: Advertised as being 'A new dawn of precision digital watches', the E-338 became a popular hit with members of the civil aerospace industry.
+  name: "наручний годинник Веніті E-338"
+  description: "Рекламований як «новий світанок точних цифрових годинників», E-338 здобув велику популярність серед працівників цивільної аерокосмічної галузі."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Watches/fancy.rsi

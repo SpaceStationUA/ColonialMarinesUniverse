@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpsePrisoner
-  name: Corpse Spawner - Prisoner
+  name: "Спавнер трупа — В'язень"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpsePrisoner
@@ -9,7 +9,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseChef
-  name: Corpse Spawner - Chef
+  name: "Спавнер трупа — Шеф"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseChef
@@ -17,7 +17,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseDoctor
-  name: Corpse Spawner - Doctor
+  name: "Спавнер трупа — Лікар"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseDoctor
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseEngineer
-  name: Corpse Spawner - Engineer
+  name: "Спавнер трупа — Інженер"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseEngineer
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseScientist
-  name: Corpse Spawner - Scientist
+  name: "Спавнер трупа — Науковець"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseScientist
@@ -41,7 +41,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseScientistAegis
-  name: Corpse Spawner - Aegis Scientist
+  name: "Спавнер трупа — Науковець Aegis"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseScientistAegis
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseMiner
-  name: Corpse Spawner - Shaft Miner
+  name: "Спавнер трупа — Шахтар"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseMiner
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseSecurity
-  name: Corpse Spawner - Security Officer
+  name: "Спавнер трупа — Офіцер охорони"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseSecurity
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseLiaison
-  name: Corpse Spawner - Corporate Liaison
+  name: "Спавнер трупа — Корпоративний лізон"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseLiaison
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpsePrisonGuard
-  name: Corpse Spawner - Prison Guard
+  name: "Спавнер трупа — Тюремний наглядач"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpsePrisonGuard
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseColonist
-  name: Corpse Spawner - Colonist
+  name: "Спавнер трупа — Колоніст"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseColonist
@@ -89,7 +89,7 @@
 - type: entity
   parent: RMCSpawnerCorpseColonist
   id: RMCSpawnerCorpseColonistBust
-  name: Corpse Spawner - Colonist
+  name: "Спавнер трупа — Колоніст"
   suffix: RMC14, Burst
   components:
   - type: CorpseSpawner
@@ -98,7 +98,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseColonistKutjevo
-  name: Corpse Spawner - Colonist Kutjevo
+  name: "Спавнер трупа — Колоніст Кутьєво"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseColonistKutjevo
@@ -106,7 +106,7 @@
 - type: entity
   parent: RMCSpawnerCorpseColonist
   id: RMCSpawnerCorpseColonistKutjevoBust
-  name: Corpse Spawner - Colonist Kutjevo
+  name: "Спавнер трупа — Колоніст Кутьєво"
   suffix: RMC14, Burst
   components:
   - type: CorpseSpawner
@@ -115,7 +115,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseUNRiotOfficer
-  name: Corpse Spawner - CMB Riot Control Officer
+  name: "Спавнер трупа — Офіцер контролю заворушень CMB"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseUnitedNationsRiotOfficer
@@ -123,7 +123,7 @@
 - type: entity
   parent: RMCSpawnerCorpseUNRiotOfficer
   id: RMCSpawnerCorpseUNRiotOfficerBurst
-  name: Corpse Spawner - CMB Riot Control Officer
+  name: "Спавнер трупа — Офіцер контролю заворушень CMB"
   suffix: RMC14, Burst
   components:
   - type: CorpseSpawner
@@ -132,7 +132,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseWeYaManager
-  name: Corpse Spawner - Corporate Supervisor
+  name: "Спавнер трупа — Корпоративний наглядач"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseWeYaManager
@@ -140,7 +140,7 @@
 - type: entity
   parent: RMCSpawnerCorpse
   id: RMCSpawnerCorpseCLF
-  name: Corpse Spawner - CLF Soldier
+  name: "Спавнер трупа — Солдат CLF"
   components:
   - type: CorpseSpawner
     spawn: RMCCorpseCLF

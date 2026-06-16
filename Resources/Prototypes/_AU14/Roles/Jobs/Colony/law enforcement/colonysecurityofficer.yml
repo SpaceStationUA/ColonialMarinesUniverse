@@ -63,7 +63,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointColonySecurityOfficer
-  name: Spawn Point Colony Security Officer
+  name: "точка появи офіцера служби безпеки колонії"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonySecurityOfficer
@@ -144,7 +144,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointColonySecurityLeader
-  name: Spawn Point Colony Security Leader
+  name: "точка появи керівника служби безпеки колонії"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianColonySecurityLeader

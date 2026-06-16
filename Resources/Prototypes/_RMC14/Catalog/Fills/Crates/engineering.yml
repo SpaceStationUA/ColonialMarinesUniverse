@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCrateEmptySandbags
   parent: RMCCrateConstruction
-  name: empty sandbags crate
+  name: "ящик порожніх мішків з піском"
   components:
   - type: StorageFill
     contents:
@@ -10,7 +10,7 @@
 - type: entity
   id: RMCCrateSandbagsConstructionKit
   parent: RMCCrateConstruction
-  name: sandbags construction kit
+  name: "будівельний набір мішків з піском"
   components:
   - type: StorageFill
     contents:
@@ -21,7 +21,7 @@
 - type: entity
   id: RMCCrateMetalSheets
   parent: RMCCrateConstruction
-  name: metal sheets crate
+  name: "ящик металевих листів"
   components:
   - type: StorageFill
     contents:
@@ -30,7 +30,7 @@
 - type: entity
   id: RMCCratePlasteelSheets
   parent: RMCCrateConstruction
-  name: plasteel sheets crate
+  name: "ящик пластосталевих листів"
   components:
   - type: StorageFill
     contents:
@@ -39,7 +39,7 @@
 - type: entity
   id: RMCCrateGlassSheets
   parent: RMCCrateConstruction
-  name: glass sheets crate
+  name: "ящик скляних листів"
   components:
   - type: StorageFill
     contents:
@@ -48,7 +48,7 @@
 - type: entity
   id: RMCCrateWoodenPlanks
   parent: RMCCrateConstruction
-  name: wooden planks crate
+  name: "ящик дерев'яних дощок"
   components:
   - type: StorageFill
     contents:
@@ -57,7 +57,7 @@
 - type: entity
   id: RMCCrateFoldingBarricades
   parent: RMCCrateConstruction
-  name: MB-6 folding barricades crate
+  name: "ящик складаних барикад MB-6"
   components:
   - type: StorageFill
     contents:
@@ -66,7 +66,7 @@
 - type: entity
   parent: RMCCrateConstruction
   id: RMCCrateSuperconductingMagneticCoil
-  name: superconducting magnetic coil crate
+  name: "ящик надпровідної магнітної котушки"
   components:
   - type: StorageFill
     contents:
@@ -75,7 +75,7 @@
 - type: entity
   id: RMCCrateElectricalMaintenance
   parent: RMCCrateConstruction
-  name: electrical maintenance crate
+  name: "ящик електричного обслуговування"
   components:
   - type: StorageFill
     contents:
@@ -91,7 +91,7 @@
 - type: entity
   id: RMCCrateMechanicalMaintenance
   parent: RMCCrateConstruction
-  name: mechanical maintenance crate
+  name: "ящик механічного обслуговування"
   components:
   - type: StorageFill
     contents:
@@ -107,7 +107,7 @@
 - type: entity
   id: RMCCrateInflatableBarriers
   parent: RMCCrateConstruction
-  name: inflatable barriers crate
+  name: "ящик надувних бар'єрів"
   components:
   - type: StorageFill
     contents:
@@ -119,7 +119,7 @@
 - type: entity
   id: RMCCrateReplacementLights
   parent: RMCCrateConstruction
-  name: replacement lights crate
+  name: "ящик змінних ламп"
   components:
   - type: StorageFill
     contents:
@@ -129,7 +129,7 @@
 - type: entity
   id: RMCCratePacmanParts
   parent: RMCCrateConstruction
-  name: pacman portable generator parts
+  name: "деталі переносного генератора пакмен"
   components:
   - type: StorageFill
     contents:
@@ -143,7 +143,7 @@
 - type: entity
   id: RMCCrateSuperPacmanParts
   parent: RMCCrateConstruction
-  name: super pacman portable generator parts
+  name: "деталі переносного генератора супер пакмен"
   components:
   - type: StorageFill
     contents:
@@ -157,7 +157,7 @@
 - type: entity
   id: RMCCrateFlashlights
   parent: RMCCrateConstruction
-  name: flashlights crate
+  name: "ящик ліхтариків"
   components:
   - type: StorageFill
     contents:
@@ -167,7 +167,7 @@
 - type: entity
   id: RMCCrateHighCapacityPowerCell
   parent: RMCCrateConstruction
-  name: high-capacity power cell crate
+  name: "ящик високоємних енергоосередків"
   components:
   - type: StorageFill
     contents:

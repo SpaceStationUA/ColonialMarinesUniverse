@@ -1,8 +1,8 @@
 - type: entity
   id: Girder
   parent: BaseStructureDynamic
-  name: girder
-  description: A large structural assembly made out of metal; It requires a layer of metal before it can be considered a wall.
+  name: "балка"
+  description: "Велика конструкційна збірка з металу; їй потрібен шар металу, перш ніж її можна буде вважати стіною."
   components:
   - type: Transform
     anchored: true
@@ -58,8 +58,8 @@
 - type: entity
   id: ReinforcedGirder
   parent: Girder
-  name: reinforced girder
-  description: A large structural assembly made out of metal and plasteel; It requires a layer of plasteel before it can be considered a reinforced wall.
+  name: "посилена балка"
+  description: "Велика конструкційна збірка з металу та пласталі; їй потрібен шар пласталі, перш ніж її можна буде вважати посиленою стіною."
   components:
     - type: Sprite
       sprite: Structures/Walls/solid.rsi
@@ -101,8 +101,8 @@
 - type: entity
   id: ClockworkGirder
   parent: ReinforcedGirder
-  name: wall gear
-  description: A large gear with mounting brackets for additional plating; This could be made into a wall with more brass plating.
+  name: "стінна шестерня"
+  description: "Велика шестерня з кріпленнями для додаткової обшивки; з більшою кількістю латунної обшивки це можна перетворити на стіну."
   components:
     - type: Sprite
       sprite: Structures/Walls/clock.rsi

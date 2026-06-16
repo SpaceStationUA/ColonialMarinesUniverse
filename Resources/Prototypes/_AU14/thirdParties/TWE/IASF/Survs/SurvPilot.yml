@@ -13,7 +13,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicTWEIASF
   id: AU14IASFSurvPilot
-  name: IASF Pilot (Survivor)
+  name: "пілот ІЗКС (вцілілий)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

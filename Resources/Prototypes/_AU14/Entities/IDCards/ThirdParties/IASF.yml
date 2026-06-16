@@ -2,7 +2,7 @@
   parent: CMIDCardBase
   id: AU14IDCardIASFCommander
   categories: [ HideSpawnMenu ]
-  name: IASF Commander ID card
+  name: "ID-картка командира ІЗКС"
   components:
   - type: PresetIdCard
     job: AU14IASFCommanderBase
@@ -14,7 +14,7 @@
   parent: CMIDCardBase
   id: AU14IDCardIASFPilot
   categories: [ HideSpawnMenu ]
-  name: IASF Fleet Air Arm Pilot ID card
+  name: "ID-картка пілота флотської авіації ІЗКС"
   components:
   - type: PresetIdCard
     job: AU14IASFPilotBase
@@ -26,7 +26,7 @@
   parent: CMIDCardBase
   id: AU14IDCardIASFEngineer
   categories: [ HideSpawnMenu ]
-  name: IASF Assault Engineer ID card
+  name: "ID-картка штурмового інженера ІЗКС"
   components:
   - type: PresetIdCard
     job: AU14IASFCombatEngineerBase
@@ -38,7 +38,7 @@
   parent: CMIDCardBase
   id: AU14IDCardIASFTL
   categories: [ HideSpawnMenu ]
-  name: IASF Team Lead ID card
+  name: "ID-картка командира групи ІЗКС"
   components:
   - type: PresetIdCard
     job: AU14IASFTeamLeadBase
@@ -50,7 +50,7 @@
   parent: CMIDCardBase
   id: AU14IDCardIASF
   categories: [ HideSpawnMenu ]
-  name: IASF Rifleman ID card
+  name: "ID-картка стрільця ІЗКС"
   components:
   - type: PresetIdCard
     job: AU14IASFRiflemanBase
@@ -62,7 +62,7 @@
   parent: CMIDCardBase
   id: AU14IDCardIASFMedic
   categories: [ HideSpawnMenu ]
-  name: IASF Medical Technician ID card
+  name: "ID-картка медичного техніка ІЗКС"
   components:
   - type: PresetIdCard
     job: AU14IASFMedicalTechnicianBase

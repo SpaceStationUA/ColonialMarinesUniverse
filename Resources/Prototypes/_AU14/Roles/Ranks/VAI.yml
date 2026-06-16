@@ -1,35 +1,35 @@
 - type: rank
   id: VAI_Mercenary
-  name: VASC Mercenary
+  name: "найманець VASC"
   prefix: VASC
   paygrade: VASC
 
 - type: rank
   id: VAI_MedicalSpecialist
-  name: VASC Medical Specialist
+  name: "медичний спеціаліст VASC"
   prefix: VASC MED
   paygrade: VASCM
 
 - type: rank
   id: VAI_Machinegunner
-  name: VASC Machinegunner
+  name: "кулеметник VASC"
   prefix: VASC MG
   paygrade: VASCMG
 
 - type: rank
   id: VAI_Engineer
-  name: VASC Engineering Specialist
+  name: "інженерний спеціаліст VASC"
   prefix: VASC ENG
   paygrade: VASCE
 
 - type: rank
   id: VAI_Synthetic
-  name: VASC Synthetic
+  name: "синтетик VASC"
   prefix: VASC SYN
   paygrade: VASCS
 
 - type: rank
   id: VAI_TeamLeader
-  name: VASC Team Leader
+  name: "командир групи VASC"
   prefix: VASC TL
   paygrade: VASCTL

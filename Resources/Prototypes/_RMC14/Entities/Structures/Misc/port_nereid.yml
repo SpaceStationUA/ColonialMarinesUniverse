@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseStructure
   id: RMCAncientObelisk
-  name: ancient obelisk
-  description: A strange basalt obelisk, coated in strange red symbols which hurt your eyes. You don't know if you should cry, scream, laugh, worship, or run away.
+  name: "стародавній обеліск"
+  description: "Дивний базальтовий обеліск, укритий дивними червоними символами, від яких болять очі. Ти не знаєш, чи плакати, кричати, сміятися, поклонятися чи тікати."
   components:
   - type: Transform
     anchored: true
