@@ -7115,7 +7115,8 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1167
 - author: coolshows2342342-ctrl
   changes:
-  - message: Британський акцент (V0.5!)
+  - message: "\u0411\u0440\u0438\u0442\u0430\u043D\u0441\u044C\u043A\u0438\u0439 \u0430\
+      \u043A\u0446\u0435\u043D\u0442 (V0.5!)"
     type: Add
   id: 289
   time: '2026-06-17T02:22:29.0000000+00:00'
