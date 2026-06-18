@@ -2,7 +2,7 @@
   parent: BaseStructure
   id: CMUAutodocPod
   name: "капсула автодока"
-  description: "Автоматизована хірургічна капсула. Навчений хірург може ставити процедури в чергу з підключеної консолі."
+  description: "Автоматизована хірургічна капсула для запланованих медичних процедур."
   placement:
     mode: SnapgridCenter
   components:
@@ -41,6 +41,7 @@
   - type: InteractionOutline
   - type: CMOperatingTable
   - type: CMUAutodocPod
+    stepDelay: 8
   - type: ContainerContainer
     containers:
       cmu-autodoc-bodyContainer: !type:ContainerSlot
@@ -218,7 +219,7 @@
   parent: BaseStructure
   id: CMULimbPrinter
   name: "принтер кінцівок"
-  description: "Хірургічний біопринтер, що вирощує замінні людські руки та ноги з матричного реагенту і зразка крові."
+  description: "Хірургічний принтер, що вирощує органічні замінні кінцівки або виготовляє роботизовані протези з металу й кабелю."
   placement:
     mode: SnapgridCenter
   components:
@@ -272,10 +273,22 @@
         whitelist:
           tags:
           - Syringe
+      cmu-limb-printer-metalSlot:
+        name: cmu-limb-printer-slot-metal
+        whitelist:
+          tags:
+          - Metal
+      cmu-limb-printer-cableSlot:
+        name: cmu-limb-printer-slot-cable
+        whitelist:
+          tags:
+          - CableCoil
   - type: ContainerContainer
     containers:
       cmu-limb-printer-beakerSlot: !type:ContainerSlot
       cmu-limb-printer-syringeSlot: !type:ContainerSlot
+      cmu-limb-printer-metalSlot: !type:ContainerSlot
+      cmu-limb-printer-cableSlot: !type:ContainerSlot
   - type: CMULimbPrinter
   - type: Appearance
   - type: GenericVisualizer
@@ -291,6 +304,8 @@
     containers:
     - cmu-limb-printer-beakerSlot
     - cmu-limb-printer-syringeSlot
+    - cmu-limb-printer-metalSlot
+    - cmu-limb-printer-cableSlot
   - type: Damageable
     damageContainer: StructuralInorganic
     damageModifierSet: Electronic

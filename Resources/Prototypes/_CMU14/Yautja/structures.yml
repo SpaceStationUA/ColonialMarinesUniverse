@@ -3925,51 +3925,6 @@
 
 - type: entity
   parent: CMUYautjaStructureBase
-  id: CMUYautjaStructureYautjaMachinesAutodocClosed
-  name: "яутжа автодок закритий"
-  description: "Стародавня структура мисливських угідь Яутжа."
-  components:
-    - type: Sprite
-      sprite: _CMU14/Yautja/Structures/yautja_machines.rsi
-      drawdepth: Objects
-      layers:
-        - state: "autodoc_closed"
-    - type: Icon
-      sprite: _CMU14/Yautja/Structures/yautja_machines.rsi
-      state: "autodoc_closed"
-
-- type: entity
-  parent: CMUYautjaStructureBase
-  id: CMUYautjaStructureYautjaMachinesAutodocOpen
-  name: "яутжа автодок відкритий"
-  description: "Стародавня структура мисливських угідь Яутжа."
-  components:
-    - type: Sprite
-      sprite: _CMU14/Yautja/Structures/yautja_machines.rsi
-      drawdepth: Objects
-      layers:
-        - state: "autodoc_open"
-    - type: Icon
-      sprite: _CMU14/Yautja/Structures/yautja_machines.rsi
-      state: "autodoc_open"
-
-- type: entity
-  parent: CMUYautjaStructureBase
-  id: CMUYautjaStructureYautjaMachinesAutodocOperate
-  name: "яутжа автодок працює"
-  description: "Стародавня структура мисливських угідь Яутжа."
-  components:
-    - type: Sprite
-      sprite: _CMU14/Yautja/Structures/yautja_machines.rsi
-      drawdepth: Objects
-      layers:
-        - state: "autodoc_operate"
-    - type: Icon
-      sprite: _CMU14/Yautja/Structures/yautja_machines.rsi
-      state: "autodoc_operate"
-
-- type: entity
-  parent: CMUYautjaStructureBase
   id: CMUYautjaStructureYautjaMachinesSleeperOpen
   name: "яутжа спальник відкритий"
   description: "Стародавня структура мисливських угідь Яутжа."

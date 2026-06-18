@@ -43,8 +43,8 @@
 - type: entity
   parent: BaseItem
   id: AU14ObjectiveItemWYLaptop
-  name: "ноутбук відділу біозброї Вейланд-Ютані"
-  description: "Портативний комп’ютер, що містить дослідницькі дані відділу біозброї Вейланд-Ютані."
+  name: "дослідницький ноутбук Вейланд-Ютані"
+  description: "Портативний комп'ютер із дослідницькими даними Вейланд-Ютані. Захищений паролем і зашифрований, його буде дуже важко зламати."
   components:
   - type: Item
     size: Normal
@@ -152,4 +152,3 @@
     state: laptop_off
   - type: Corrodible
     isCorrodible: false
-

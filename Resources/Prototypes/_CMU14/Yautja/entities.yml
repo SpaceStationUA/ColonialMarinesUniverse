@@ -744,7 +744,7 @@
     kind: Shield
 
 - type: entity
-  parent: CMUpgradedTraumaKit1
+  parent: CMTraumaKit1
   id: CMUYautjaAdvancedBruisePack
   name: "просунутий травматичний пакет хижака"
   description: "Компактний прибулецький припарок для закриття диких ран."
@@ -764,7 +764,7 @@
     selfTargetDoAfterMultiplier: 1
 
 - type: entity
-  parent: CMUpgradedBurnKit1
+  parent: CMBurnKit1
   id: CMUYautjaAdvancedOintment
   name: "просунута мазь хижака"
   description: "Прохолодна прибулецька мазь для закриття опіків і їдких травм."

@@ -1,4 +1,4 @@
-﻿- type: entity
+- type: entity
   parent: RMCCrateBase
   id: AU14CrateFOBTentCrate
   name: "ящик із наметом передової операційної бази"
@@ -208,38 +208,3 @@
       amount: 1
     - id: AU14BoxHIDPUPP
       amount: 1
-
-- type: entity
-  parent: RMCSecureCaseStrapped #Blackfoot landingpad crate
-  id: AU14CrateBlackfootLandingPad
-  name: "ящик комплекту посадкового майданчика Блекфута"
-  description: "Ящик постачання, що містить усі 3 частини посадкової системи Блекфута"
-  components:
-  - type: CrateOpenable
-    spawn:
-    - id: CMUBlackfootLandingPadFoldedProp
-      amount: 1
-    - id: CMUBlackfootFuelPumpCrate
-      amount: 1
-    - id: CMUBlackfootFlightComputerCrate
-      amount: 1
-
-- type: entity
-  parent: RMCCrateAmmo
-  id: AU14CrateBlackfootdoorgunAmmo
-  name: "ящик боєприпасів бортового кулемета Блекфута (x3 коробки боєприпасів бортового кулемета)"
-  components:
-  - type: StorageFill
-    contents:
-    - id: CMUBlackfootAmmoBoxDoorGun
-      amount: 3
-
-- type: entity
-  parent: RMCCrateAmmo
-  id: AU14CrateBlackfootflareAmmo
-  name: "ящик сигнальних боєприпасів Блекфута (x3 коробки сигнальних боєприпасів)"
-  components:
-  - type: StorageFill
-    contents:
-    - id: CMUBlackfootAmmoBoxFlareLauncher
-      amount: 3

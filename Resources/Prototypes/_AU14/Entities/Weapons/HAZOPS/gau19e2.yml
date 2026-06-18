@@ -5,7 +5,7 @@
   description: "Справжній звір серед зброї. Колись цей мініган кріпили на авіаційні вузли підвіски, а тепер зробили ручним, хоча системи IFF не вдалося безпечно інтегрувати в зброю. Неперевершені темп стрільби та місткість боєзапасу, але калібр довелося зменшити, щоб зброєю справді можна було користуватися, через що їй бракує бронепробиття та зупиняючої сили."
   components:
   - type: RMCSelectiveFire
-    baseFireRate: 9.5
+    baseFireRate: 11
   - type: Sprite
     sprite: _AU14/Weapons/Guns/HAZOPS/GAU19E2.rsi
     layers:
@@ -35,6 +35,8 @@
           - SmartGunBattery
   - type: GunIFF
     enabled: false
+  - type: IFFToggle
+    showToggleAction: false
 
 
 - type: entity
@@ -85,7 +87,7 @@
     - range: 12
       falloff: 9999
       ignoreModifiers: true
-    - range: 4.5
+    - range: 10
       falloff: 4
 
 - type: Tag

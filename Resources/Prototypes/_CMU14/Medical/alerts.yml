@@ -205,24 +205,6 @@
   description: "Знеболювальні активні."
 
 - type: alert
-  id: CMUSplinted
-  category: CMUMedical
-  icons:
-  - sprite: /Textures/Interface/Alerts/bleed.rsi
-    state: bleed1
-  name: "У шині"
-  description: "Зламана кінцівка зафіксована шиною."
-
-- type: alert
-  id: CMUCast
-  category: CMUMedical
-  icons:
-  - sprite: /Textures/Interface/Alerts/bleed.rsi
-    state: bleed2
-  name: "У гіпсі"
-  description: "Зламана кінцівка зафіксована в гіпсі."
-
-- type: alert
   id: CMUBoneRegenBoost
   category: CMUMedical
   icons:
