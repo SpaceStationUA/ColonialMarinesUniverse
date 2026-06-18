@@ -200,3 +200,4 @@ guide-entry-rules-ban-durations = Тривалість банів
 
 guide-entry-writing = Написання
 guide-entry-glossary = Глосарій
+guide-entry-medical-surgery = Хірургія

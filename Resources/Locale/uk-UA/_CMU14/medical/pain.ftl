@@ -34,3 +34,19 @@ cmu-medical-shrapnel-extract-finish = Видалено { $count } застряг
    *[other] их уламків
 }.
 cmu-medical-shrapnel-movement-pain = Застряглі уламки болісно зміщуються.
+cmu-medical-pain-brute-low = Ваш { $part } болить.
+cmu-medical-pain-brute-medium = Ваш { $part } сильно болить.
+cmu-medical-pain-brute-high = О БОЖЕ! Ваш { $part } жахливо болить!
+cmu-medical-pain-burn-low = Ваш { $part } пече.
+cmu-medical-pain-burn-medium = Ваш { $part } сильно пече.
+cmu-medical-pain-burn-high = О БОЖЕ! Ваш { $part } наче у вогні!
+cmu-medical-pain-fumble = Від різкого болю ви випускаєте те, що тримали!
+cmu-medical-splint-break = Шина на вашому { $part } розпадається!
+cmu-medical-internal-rip = Ви відчуваєте, як щось рветься у вашому { $part }!
+cmu-medical-wound-widened = Рана на вашому { $part } розривається ширше!
+cmu-medical-wound-widened-audible = Ви чуєте огидний звук розриву з вашого { $part }!
+cmu-medical-shrapnel-movement-jostle = Ваш рух болісно зрушує застряглі уламки у вашому { $part }.
+cmu-medical-shrapnel-movement-detonation = Щось застрягле всередині вас детонує!
+cmu-medical-fracture-bones-moving = Ви відчуваєте, як зламані кістки рухаються у вашому { $part }!
+cmu-medical-fracture-bones-cutting = Ви відчуваєте, як зламані кістки ріжуть вас у вашому { $part }!
+cmu-medical-fracture-broken-legs-drop = Ви не можете стояти на зламаних ногах!

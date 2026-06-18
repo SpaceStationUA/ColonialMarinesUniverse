@@ -201,3 +201,5 @@ cmu-medical-inspect-injuries-cleanup-required-with-entries = Потрібне о
 cmu-medical-inspect-injuries-optimal-treatment = Оптимально: { $treatment }
 cmu-medical-inspect-injuries-burn-eschar = Опіковий струп
 cmu-medical-inspect-injuries-arterial-bleeding = Артеріальна кровотеча
+cmu-medical-examine-suppressed-bleed = кровотечу тимчасово пригнічено, але не оброблено
+cmu-medical-detailed-examine-suppressed-bleed = кровотечу типу { $kind } пригнічено, але не оброблено

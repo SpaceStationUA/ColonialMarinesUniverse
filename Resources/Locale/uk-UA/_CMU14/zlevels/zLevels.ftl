@@ -26,3 +26,8 @@ cmu-zlevel-ladder-finish-others = {$user} піднімається драбин�
 
 cmu-zlevel-ladder-look-up = Подивитися вгору
 cmu-zlevel-ladder-look-down = Подивитися вниз
+cmu-deployable-z-ladder-no-level = Над вами немає досяжного Z-рівня.
+cmu-deployable-z-ladder-blocked = Ви не можете розгорнути драбину тут.
+cmu-deployable-z-ladder-success = Ви розгортаєте драбину.
+cmu-deployable-z-ladder-pack-verb = Зібрати
+cmu-deployable-z-ladder-pack-success = Ви збираєте драбину.

@@ -19,7 +19,7 @@ stamp-component-stamped-name-au14-aux = Допоміжний технік
 stamp-component-stamped-name-au14-eo = Інженерний офіцер
 stamp-component-stamped-name-au14-sea = Старший рядовий радник
 
-stamp-component-stamped-name-au14-cl = Корпоративний зв'язковий
+stamp-component-stamped-name-au14-cl = Корпоративний зв’язковий
 stamp-component-stamped-name-au14-ll = Зв'язковий Ласель
 stamp-component-stamped-name-au14-uaa = Посол ОА
 stamp-component-stamped-name-au14-uppa = Посол СПП
@@ -51,3 +51,4 @@ stamp-component-stamped-name-au14-clfcel = Командир осередку Ф�
 
 stamp-component-stamped-name-au14-approve = СХВАЛЕНО
 stamp-component-stamped-name-au14-deny = ВІДМОВЛЕНО
+stamp-component-stamped-name-au14-cs = Корпоративний науковець

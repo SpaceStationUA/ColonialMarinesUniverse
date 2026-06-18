@@ -1,19 +1,19 @@
 <Document>
-# Surgery
+# Хірургія
 
-Surgery is for injuries that field medicine cannot finish: [color=#ff7070][bold]internal bleeding[/bold][/color], fractures, organ trauma, embedded shrapnel, eschar, alien embryos, amputations, missing limbs, and prosthetic work.
+Хірургія потрібна для травм, які польова медицина не може завершити: [color=#ff7070][bold]внутрішня кровотеча[/bold][/color], переломи, травми органів, застряглі уламки, струпи, чужорідні ембріони, ампутації, відсутні кінцівки та робота з протезами.
 
-[color=#7ac7ff][bold]Read the surgery examine text first.[/bold][/color] It tells you the body part, access state, and next valid tool. If this guide and the examine text disagree, the examine text wins.
+[color=#7ac7ff][bold]Спершу читайте текст хірургічного огляду.[/bold][/color] Він підкаже частину тіла, стан доступу та наступний правильний інструмент. Якщо цей гайд і текст огляду розходяться, текст огляду має перевагу.
 
-[bold]Color key:[/bold] [color=#98d982]ideal[/color], [color=#ffd166]accepted substitute[/color], [color=#ff7070]danger or hard rule[/color], [color=#7ac7ff]access requirement[/color], [color=#c77dff]rare/special tool[/color].
+[bold]Ключ кольорів:[/bold] [color=#98d982]ідеально[/color], [color=#ffd166]прийнятна заміна[/color], [color=#ff7070]небезпека або жорстке правило[/color], [color=#7ac7ff]вимога доступу[/color], [color=#c77dff]рідкісний/особливий інструмент[/color].
 
-## Quick Rules
+## Швидкі Правила
 
-- [bold]Stabilize first:[/bold] stop active bleeding, replace blood, manage pain, and move the patient onto a surgery table when possible.
-- [bold]Target the right region:[/bold] surgery is body-part specific. A chest operation will not fix a leg problem.
-- [bold]Open access in order:[/bold] incision, clamp bleeders, retract. Head and chest work may also need bone access.
-- [bold]Do not close early:[/bold] closing an incision while surgical bleeders are still exposed can turn them into internal bleeding.
-- [bold]Field care is not surgery:[/bold] gauze, trauma kits, burn kits, and splints are useful, but they do not replace the surgical step unless the surgery examine accepts them.
+- [bold]Спершу стабілізуйте:[/bold] зупиніть активну кровотечу, поповніть кров, контролюйте біль і за можливості перемістіть пацієнта на операційний стіл.
+- [bold]Цільтеся в правильну ділянку:[/bold] хірургія прив'язана до конкретної частини тіла. Операція на грудях не виправить проблему ноги.
+- [bold]Відкривайте доступ по порядку:[/bold] розріз, затиснути кровоточиві судини, розширити. Робота з головою та грудьми також може потребувати доступу до кістки.
+- [bold]Не закривайте зарано:[/bold] закриття розрізу, поки хірургічні кровоточиві судини все ще відкриті, може перетворити їх на внутрішню кровотечу.
+- [bold]Польове лікування не є хірургією:[/bold] марля, травматичні набори, набори від опіків і шини корисні, але вони не замінюють хірургічний крок, якщо хірургічний огляд прямо не приймає їх.
 
 <Box>
   <GuideEntityEmbed Entity="CMScalpel"/>
@@ -36,164 +36,164 @@ Surgery is for injuries that field medicine cannot finish: [color=#ff7070][bold]
   <GuideEntityEmbed Entity="CMUBoneGraftItem"/>
 </Box>
 
-## Surgical Access
+## Хірургічний Доступ
 
-[color=#7ac7ff][bold]Shallow access[/bold][/color] is the normal opening route:
+[color=#7ac7ff][bold]Неглибокий доступ[/bold][/color] - звичайний шлях відкриття:
 
-1. [color=#98d982][bold]Scalpel[/bold][/color]: open the incision.
-2. [color=#98d982][bold]Hemostat[/bold][/color]: clamp surgical bleeders.
-3. [color=#98d982][bold]Retractor[/bold][/color]: retract the incision.
+1. [color=#98d982][bold]Скальпель[/bold][/color]: відкрити розріз.
+2. [color=#98d982][bold]Гемостат[/bold][/color]: затиснути хірургічні кровоточиві судини.
+3. [color=#98d982][bold]Ретрактор[/bold][/color]: розширити розріз.
 
-Shallow access is enough for most limb, hand, foot, groin, stump, suturing, shrapnel, eschar, and reachable internal bleeding work.
+Неглибокого доступу достатньо для більшості робіт із кінцівками, кистями, ступнями, пахом, куксами, зашиванням, уламками, струпами та доступною внутрішньою кровотечею.
 
-[color=#7ac7ff][bold]Deep access[/bold][/color] is needed for most chest and head organ work:
+[color=#7ac7ff][bold]Глибокий доступ[/bold][/color] потрібен для більшості робіт з органами грудей і голови:
 
-1. Open the incision.
-2. Clamp bleeders.
-3. Retract.
-4. Use a [color=#98d982][bold]circular saw[/bold][/color] or [color=#ffd166][bold]surgical drill[/bold][/color] to open bone access.
+1. Відкрийте розріз.
+2. Затисніть кровоточиві судини.
+3. Розширте.
+4. Використайте [color=#98d982][bold]циркулярну пилку[/bold][/color] або [color=#ffd166][bold]хірургічний дриль[/bold][/color], щоб відкрити доступ до кістки.
 
-Compound or shattered fractures in the head or chest can provide bone access after the incision is opened and retracted. They do not let you operate through closed skin.
+Складні або роздроблені переломи голови чи грудей можуть дати доступ до кістки після відкриття й розширення розрізу. Вони не дозволяють оперувати крізь закриту шкіру.
 
-[bold]Closing up:[/bold]
+[bold]Закриття:[/bold]
 
-1. Finish every exposed repair.
-2. If bone access is open, use [color=#98d982][bold]bone gel -> bone setter -> bone gel[/bold][/color].
-3. Close the incision with [color=#98d982][bold]cautery[/bold][/color].
+1. Завершіть кожен відкритий ремонт.
+2. Якщо доступ до кістки відкритий, використайте [color=#98d982][bold]кістковий гель -> кістковий фіксатор -> кістковий гель[/bold][/color].
+3. Закрийте розріз [color=#98d982][bold]коагулятором[/bold][/color].
 
-## Common Repairs
+## Поширені Ремонти
 
-### Wound Suturing
+### Зашивання Ран
 
-[color=#7ac7ff][bold]Access:[/bold][/color] no full incision route. Target the wounded body part and use [color=#98d982][bold]surgical line[/bold][/color].
+[color=#7ac7ff][bold]Доступ:[/bold][/color] повний шлях розрізу не потрібен. Цільтеся в поранену частину тіла й використайте [color=#98d982][bold]хірургічну нитку[/bold][/color].
 
-Suturing closes treated brute wounds. It does not repair fractures, organs, missing limbs, or internal bleeding.
+Зашивання закриває оброблені тупі рани. Воно не лікує переломи, органи, відсутні кінцівки або внутрішню кровотечу.
 
-[color=#ffd166][bold]Accepted substitutes:[/bold][/color] Fix-o-vein is suboptimal. RMC cable coil is a poor substitute.
+[color=#ffd166][bold]Прийнятні заміни:[/bold][/color] Fix-o-vein неідеальний. RMC-кабельна котушка є поганою заміною.
 
-### Internal Bleeding
+### Внутрішня Кровотеча
 
-[color=#7ac7ff][bold]Access:[/bold][/color] shallow access on the bleeding region. Chest and head internal bleeding can be repaired from shallow access when the bleed is reachable.
+[color=#7ac7ff][bold]Доступ:[/bold][/color] неглибокий доступ на ділянці кровотечі. Внутрішню кровотечу грудей і голови можна ремонтувати з неглибокого доступу, якщо кровотеча доступна.
 
-1. Open the incision.
-2. Clamp surgical bleeders.
-3. Retract.
-4. Repair the bleed with [color=#98d982][bold]Fix-o-vein[/bold][/color].
-5. Close with cautery when nothing else is exposed.
+1. Відкрийте розріз.
+2. Затисніть хірургічні кровоточиві судини.
+3. Розширте.
+4. Відремонтуйте кровотечу [color=#98d982][bold]Fix-o-vein[/bold][/color].
+5. Закрийте коагулятором, коли нічого більше не відкрито.
 
-[color=#ffd166][bold]Accepted substitutes:[/bold][/color] surgical line can replace Fix-o-vein only during the surgical repair step. RMC cable coil is a bad substitute.
+[color=#ffd166][bold]Прийнятні заміни:[/bold][/color] хірургічна нитка може замінити Fix-o-vein лише під час хірургічного кроку ремонту. RMC-кабельна котушка є поганою заміною.
 
-[color=#ff7070][bold]Hard rule:[/bold][/color] surgical line, gauze, and trauma kits do not field-fix internal bleeding from outside the body. You still need surgical access.
+[color=#ff7070][bold]Жорстке правило:[/bold][/color] хірургічна нитка, марля та травматичні набори не лікують внутрішню кровотечу ззовні тіла в польових умовах. Вам усе одно потрібен хірургічний доступ.
 
-### Broken Bones
+### Зламані Кістки
 
-[color=#7ac7ff][bold]Access:[/bold][/color] shallow access on limbs and extremities. Chest and head need deep access unless a compound or shattered fracture already exposes bone access.
+[color=#7ac7ff][bold]Доступ:[/bold][/color] неглибокий доступ на кінцівках і крайніх частинах. Груди й голова потребують глибокого доступу, якщо складний або роздроблений перелом уже не відкриває доступ до кістки.
 
-[bold]Hairline, simple, or compound fracture:[/bold]
+[bold]Тріщина, простий або складний перелом:[/bold]
 
-1. Open incision.
-2. Clamp bleeders.
-3. Retract.
-4. Apply [color=#98d982][bold]bone gel[/bold][/color].
-5. Set the bone with a [color=#98d982][bold]bone setter[/bold][/color].
-6. Apply bone gel again.
-7. Close.
+1. Відкрийте розріз.
+2. Затисніть кровоточиві судини.
+3. Розширте.
+4. Нанесіть [color=#98d982][bold]кістковий гель[/bold][/color].
+5. Вправте кістку [color=#98d982][bold]кістковим фіксатором[/bold][/color].
+6. Знову нанесіть кістковий гель.
+7. Закрийте.
 
-[bold]Shattered fracture:[/bold]
+[bold]Роздроблений перелом:[/bold]
 
-1. Open incision.
-2. Clamp bleeders.
-3. Retract.
-4. Apply bone gel.
-5. Set the bone.
-6. Insert a [color=#98d982][bold]bone graft[/bold][/color].
-7. Set the grafted bone.
-8. Apply bone gel again.
-9. Close.
+1. Відкрийте розріз.
+2. Затисніть кровоточиві судини.
+3. Розширте.
+4. Нанесіть кістковий гель.
+5. Вправте кістку.
+6. Вставте [color=#98d982][bold]кістковий трансплантат[/bold][/color].
+7. Вправте кістку з трансплантатом.
+8. Знову нанесіть кістковий гель.
+9. Закрийте.
 
-Casts are post-operative support. Apply them after surgery to stop malunion while the limb finishes knitting.
+Гіпс - післяопераційна підтримка. Накладайте його після операції, щоб запобігти неправильному зрощенню, поки кінцівка завершує загоєння.
 
-### Organ Repair
+### Ремонт Органів
 
-[color=#7ac7ff][bold]Access:[/bold][/color] deep access for chest and head organs.
+[color=#7ac7ff][bold]Доступ:[/bold][/color] глибокий доступ для органів грудей і голови.
 
-[color=#98d982][bold]Trauma kit[/bold][/color] is the ideal organ repair tool when the exposed organ step calls for organ repair. [color=#ffd166][bold]Organ vessel clamp[/bold][/color] is a suboptimal tool for serious vessel work. Eye and brain procedures are head surgeries and require trained surgery skill.
+[color=#98d982][bold]Травматичний набір[/bold][/color] є ідеальним інструментом ремонту органів, коли відкритий крок органа просить ремонт органа. [color=#ffd166][bold]Затискач судин органа[/bold][/color] є неідеальним інструментом для серйозної роботи із судинами. Операції на очах і мозку є операціями голови та потребують навченої хірургічної навички.
 
-Organ removal and transplant work follows the same access ladder: open, clamp, retract, open bone access if needed, free or repair the organ, then close bone access and close the incision.
+Видалення органів і трансплантація йдуть тією ж драбиною доступу: відкрити, затиснути, розширити, відкрити доступ до кістки за потреби, звільнити або відремонтувати орган, потім закрити доступ до кістки й розріз.
 
-[color=#ff7070][bold]Warning:[/bold][/color] do not remove heart, brain, lungs, kidneys, liver, or stomach unless the patient can survive it or immediately receive a replacement.
+[color=#ff7070][bold]Попередження:[/bold][/color] не видаляйте серце, мозок, легені, нирки, печінку або шлунок, якщо пацієнт не може пережити це або негайно отримати заміну.
 
-### Foreign Object Removal
+### Видалення Сторонніх Об'єктів
 
-[color=#7ac7ff][bold]Access:[/bold][/color] surface shrapnel may be removable directly. Surgical shrapnel needs the proper surgical access first.
+[color=#7ac7ff][bold]Доступ:[/bold][/color] поверхневі уламки можна видалити напряму. Хірургічні уламки спершу потребують правильного хірургічного доступу.
 
-Use a [color=#98d982][bold]hemostat[/bold][/color] when possible. Scalpel-family extractors can remove reachable fragments, but they are worse. Close the incision if one was opened.
+За можливості використовуйте [color=#98d982][bold]гемостат[/bold][/color]. Екстрактори родини скальпелів можуть видаляти доступні фрагменти, але вони гірші. Закрийте розріз, якщо його відкривали.
 
-Embedded fragments can hurt the patient when they move and can cause more damage. Remove them before sending the patient back out.
+Застряглі фрагменти можуть боліти пацієнту під час руху й спричиняти більше шкоди. Видаліть їх, перш ніж відправляти пацієнта назад.
 
-### Eschar Removal
+### Видалення Струпа
 
-[color=#7ac7ff][bold]Access:[/bold][/color] shallow access.
+[color=#7ac7ff][bold]Доступ:[/bold][/color] неглибокий доступ.
 
-1. Open incision.
-2. Clamp bleeders.
-3. Retract.
-4. Debride the eschar with a [color=#98d982][bold]scalpel[/bold][/color].
-5. Close.
+1. Відкрийте розріз.
+2. Затисніть кровоточиві судини.
+3. Розширте.
+4. Очистіть струп [color=#98d982][bold]скальпелем[/bold][/color].
+5. Закрийте.
 
-[color=#ffd166][bold]Accepted substitutes:[/bold][/color] burn kits and synth grafts are suboptimal. Cautery works, but it is worse than a scalpel.
+[color=#ffd166][bold]Прийнятні заміни:[/bold][/color] набори від опіків і синт-транспланти неідеальні. Коагулятор працює, але він гірший за скальпель.
 
-### Alien Embryo Removal
+### Видалення Чужорідного Ембріона
 
-[color=#7ac7ff][bold]Access:[/bold][/color] deep torso access and trained surgery skill.
+[color=#7ac7ff][bold]Доступ:[/bold][/color] глибокий доступ до торса та навчена хірургічна навичка.
 
-1. Open incision.
-2. Clamp bleeders.
-3. Retract.
-4. Open bone access.
-5. Cut embryo roots with a scalpel.
-6. Remove the embryo with a hemostat.
-7. Close bone access.
-8. Close the incision.
+1. Відкрийте розріз.
+2. Затисніть кровоточиві судини.
+3. Розширте.
+4. Відкрийте доступ до кістки.
+5. Розріжте корені ембріона скальпелем.
+6. Видаліть ембріон гемостатом.
+7. Закрийте доступ до кістки.
+8. Закрийте розріз.
 
-Move quickly. A bursting embryo can make surgery impossible.
+Дійте швидко. Ембріон, що проривається, може зробити операцію неможливою.
 
-## Limb Surgery
+## Хірургія Кінцівок
 
-### Amputation
+### Ампутація
 
-Amputation requires a valid limb or extremity target and the normal access route. If you begin the muscle cut and need to back out, [color=#98d982][bold]Fix-o-vein[/bold][/color] or [color=#ffd166][bold]surgical line[/bold][/color] can cancel the amputation route and return the limb to the retracted access state.
+Ампутація потребує дійсної цілі кінцівки або крайньої частини та звичайного шляху доступу. Якщо ви почали розріз м'язів і треба відступити, [color=#98d982][bold]Fix-o-vein[/bold][/color] або [color=#ffd166][bold]хірургічна нитка[/bold][/color] можуть скасувати маршрут ампутації й повернути кінцівку до стану розширеного доступу.
 
-1. Open incision.
-2. Clamp bleeders.
-3. Retract.
-4. Use a scalpel to sever muscle and prepare the cut.
-5. Use a circular saw or drill to remove the limb.
-6. Seal the stump or prepare for reattachment.
+1. Відкрийте розріз.
+2. Затисніть кровоточиві судини.
+3. Розширте.
+4. Використайте скальпель, щоб перерізати м'язи й підготувати відсікання.
+5. Використайте циркулярну пилку або дриль, щоб видалити кінцівку.
+6. Запечатайте куксу або підготуйтеся до повторного приєднання.
 
-### Stump Sealing
+### Запечатування Кукси
 
-A severed hand or foot leaves a stump on that extremity. A severed arm or leg leaves a stump on that limb. A lost head leaves a stump at the chest.
+Відсічена кисть або ступня лишає куксу на цій крайній частині. Відсічена рука або нога лишає куксу на цій кінцівці. Втрачена голова лишає куксу на грудях.
 
-1. Target the stump region.
-2. Open incision if needed.
-3. Clamp bleeders.
-4. Retract.
-5. Seal the stump with cautery, hemostat, Fix-o-vein, or surgical line.
-6. Finish the vessel seal if the examine text still asks for it.
-7. Close.
+1. Цільтеся в ділянку кукси.
+2. Відкрийте розріз, якщо потрібно.
+3. Затисніть кровоточиві судини.
+4. Розширте.
+5. Запечатайте куксу коагулятором, гемостатом, Fix-o-vein або хірургічною ниткою.
+6. Завершіть запечатування судини, якщо текст огляду все ще просить це.
+7. Закрийте.
 
-Sealing the stump stops stump bleeding. It does not restore the missing limb.
+Запечатування кукси зупиняє кровотечу кукси. Воно не відновлює відсутню кінцівку.
 
-### Reattaching Limbs
+### Повторне Приєднання Кінцівок
 
-After the stump is sealed, target the missing region and use the matching detached limb as the surgical tool. Biological limbs restore biological function. Robotic limbs restore prosthetic function and visual prosthetic overlays.
+Після запечатування кукси цільтеся у відсутню ділянку й використайте відповідну від'єднану кінцівку як хірургічний інструмент. Біологічні кінцівки відновлюють біологічну функцію. Роботизовані кінцівки відновлюють функцію протеза та візуальні протезні накладки.
 
-Whole robotic arms and legs bring their robotic hand or foot with them. Robotic limbs do not use normal biological wounds, fractures, or internal bleeding.
+Цілі роботизовані руки й ноги приносять із собою свою роботизовану кисть або ступню. Роботизовані кінцівки не використовують звичайні біологічні рани, переломи або внутрішню кровотечу.
 
-### Removing Prosthetics
+### Зняття Протезів
 
-Use a [color=#98d982][bold]circular saw[/bold][/color] for ideal prosthetic removal. A [color=#ffd166][bold]surgical drill[/bold][/color] can substitute. Prosthetic brute frame damage is repaired with a lit welder. Prosthetic burn or wiring damage is repaired with RMC cable coil. [color=#c77dff][bold]Nanopaste[/bold][/color] repairs robotic or prosthetic limb damage, not human wounds.
+Для ідеального зняття протеза використовуйте [color=#98d982][bold]циркулярну пилку[/bold][/color]. [color=#ffd166][bold]Хірургічний дриль[/bold][/color] може її замінити. Структурну шкоду каркаса протеза ремонтують запаленим зварником. Опікову шкоду протеза або шкоду проводці ремонтують RMC-кабельною котушкою. [color=#c77dff][bold]Нанопаста[/bold][/color] ремонтує шкоду роботизованих або протезованих кінцівок, а не людські рани.
 
 <Box>
   <GuideEntityEmbed Entity="CMCircularSaw"/>
@@ -203,18 +203,18 @@ Use a [color=#98d982][bold]circular saw[/bold][/color] for ideal prosthetic remo
   <GuideEntityEmbed Entity="CMUNanopaste"/>
 </Box>
 
-## Synthetic Patients
+## Пацієнти-Синтетики
 
-Synths are not biological patients. They should not receive normal wounds, fractures, internal bleeding, organ trauma, or biological surgery.
+Синтетики не є біологічними пацієнтами. Вони не повинні отримувати звичайні рани, переломи, внутрішню кровотечу, травми органів або біологічну хірургію.
 
-- [bold]Brute chassis damage:[/bold] lit welder.
-- [bold]Burn or wiring damage:[/bold] RMC cable coil.
-- [bold]Missing synthetic limb:[/bold] attach the matching limb or robotic replacement.
-- [bold]Prosthetic surgery:[/bold] still uses surgical examine information when surgery mode is active.
+- [bold]Тупа шкода шасі:[/bold] запалений зварник.
+- [bold]Опікова шкода або пошкодження проводки:[/bold] RMC-кабельна котушка.
+- [bold]Відсутня синтетична кінцівка:[/bold] приєднайте відповідну кінцівку або роботизовану заміну.
+- [bold]Хірургія протезів:[/bold] усе ще використовує інформацію хірургічного огляду, коли режим хірургії активний.
 
-## Rare Surgical Tools
+## Рідкісні Хірургічні Інструменти
 
-[color=#c77dff][bold]PICT[/bold][/color] is a scalpel that also functions as cautery. [color=#c77dff][bold]Incision management system[/bold][/color] prepares incision access quickly. [color=#c77dff][bold]Nanopaste[/bold][/color] is for prosthetic repair.
+[color=#c77dff][bold]PICT[/bold][/color] - це скальпель, який також працює як коагулятор. [color=#c77dff][bold]Система керування розрізом[/bold][/color] швидко готує доступ через розріз. [color=#c77dff][bold]Нанопаста[/bold][/color] призначена для ремонту протезів.
 
 <Box>
   <GuideEntityEmbed Entity="CMScalpelPICT"/>
@@ -222,18 +222,18 @@ Synths are not biological patients. They should not receive normal wounds, fract
   <GuideEntityEmbed Entity="CMUNanopaste"/>
 </Box>
 
-## Ghetto Surgery
+## Гетто-Хірургія
 
-Ghetto surgery means using the real improvised equivalents accepted by the surgery tool components. It is still surgery: you need the correct body part, access state, and next step.
+Гетто-хірургія означає використання справжніх імпровізованих еквівалентів, які приймають компоненти хірургічних інструментів. Це все ще хірургія: вам потрібна правильна частина тіла, стан доступу та наступний крок.
 
-The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptimal or substitute[/color], [color=#ffae66]bad substitute[/color], or [color=#ff7070]awful[/color]. Bad tools can mean longer actions, higher failure chance, pain reactions, and extra trauma.
+Система оцінює інструменти як [color=#98d982]ідеальні[/color], [color=#ffd166]неідеальні або замінники[/color], [color=#ffae66]погані замінники[/color] або [color=#ff7070]жахливі[/color]. Погані інструменти можуть означати довші дії, вищий шанс провалу, больові реакції та додаткову травму.
 
-### Actual Improvised Equivalents
+### Справжні Імпровізовані Еквіваленти
 
-[bold]Cut flesh or open an incision:[/bold]
+[bold]Різати плоть або відкривати розріз:[/bold]
 
-- [color=#98d982]Ideal:[/color] scalpel-family surgical tools.
-- [color=#ffd166]Improvised equivalents:[/color] knives, shivs, machetes, bayonets, and glass shards carry scalpel behavior.
+- [color=#98d982]Ідеально:[/color] хірургічні інструменти родини скальпелів.
+- [color=#ffd166]Імпровізовані еквіваленти:[/color] ножі, заточки, мачете, багнети та уламки скла мають поведінку скальпеля.
 
 <Box>
   <GuideEntityEmbed Entity="KitchenKnife"/>
@@ -243,11 +243,11 @@ The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptim
   <GuideEntityEmbed Entity="RMCM5Bayonet"/>
 </Box>
 
-[bold]Retract an incision:[/bold]
+[bold]Розширити розріз:[/bold]
 
-- [color=#98d982]Ideal:[/color] retractor.
-- [color=#ffd166]Improvised equivalents:[/color] crowbars, knives, shivs, and glass shards can retract.
-- [color=#ffae66]Ugly fallback:[/color] hemostat and scalpel-family tools may work depending on the step, but follow the examine text.
+- [color=#98d982]Ідеально:[/color] ретрактор.
+- [color=#ffd166]Імпровізовані еквіваленти:[/color] ломи, ножі, заточки та уламки скла можуть розширювати.
+- [color=#ffae66]Неприємний запасний варіант:[/color] гемостат та інструменти родини скальпелів можуть працювати залежно від кроку, але слідуйте тексту огляду.
 
 <Box>
   <GuideEntityEmbed Entity="Crowbar"/>
@@ -255,11 +255,11 @@ The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptim
   <GuideEntityEmbed Entity="ShardGlass"/>
 </Box>
 
-[bold]Clamp, extract, or hold vessels:[/bold]
+[bold]Затискати, витягати або тримати судини:[/bold]
 
-- [color=#98d982]Ideal:[/color] hemostat.
-- [color=#ffd166]Improvised equivalents:[/color] wirecutters and forks carry hemostat behavior.
-- [color=#ffd166]Cable fallback:[/color] RMC cable coils can act as hemostat-style tools and organ-clamp substitutes.
+- [color=#98d982]Ідеально:[/color] гемостат.
+- [color=#ffd166]Імпровізовані еквіваленти:[/color] кусачки та виделки мають поведінку гемостата.
+- [color=#ffd166]Кабельний запасний варіант:[/color] RMC-кабельні котушки можуть працювати як інструменти в стилі гемостата та замінники затискача органів.
 
 <Box>
   <GuideEntityEmbed Entity="Wirecutter"/>
@@ -267,11 +267,11 @@ The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptim
   <GuideEntityEmbed Entity="RMCCableCoil"/>
 </Box>
 
-[bold]Cauterize or close an incision:[/bold]
+[bold]Припікати або закривати розріз:[/bold]
 
-- [color=#98d982]Ideal:[/color] cautery.
-- [color=#ffd166]Improvised equivalents:[/color] lit welders, basic lighters, and RMC cable coils carry cautery behavior.
-- [color=#ff7070]Do not assume every fancy lighter works:[/color] use the examine text. Some lighter variants do not inherit the surgery cautery behavior.
+- [color=#98d982]Ідеально:[/color] коагулятор.
+- [color=#ffd166]Імпровізовані еквіваленти:[/color] запалені зварники, базові запальнички та RMC-кабельні котушки мають поведінку коагулятора.
+- [color=#ff7070]Не припускайте, що кожна модна запальничка працює:[/color] користуйтеся текстом огляду. Деякі варіанти запальничок не успадковують хірургічну поведінку коагулятора.
 
 <Box>
   <GuideEntityEmbed Entity="Welder"/>
@@ -279,11 +279,11 @@ The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptim
   <GuideEntityEmbed Entity="RMCCableCoil"/>
 </Box>
 
-[bold]Open bone access or remove prosthetics:[/bold]
+[bold]Відкрити доступ до кістки або зняти протези:[/bold]
 
-- [color=#98d982]Ideal:[/color] circular saw.
-- [color=#ffd166]Accepted substitute:[/color] surgical drill.
-- [color=#ffd166]Improvised equivalents:[/color] pens, metal rods, machetes, and bayonets carry saw or drill behavior.
+- [color=#98d982]Ідеально:[/color] циркулярна пилка.
+- [color=#ffd166]Прийнятна заміна:[/color] хірургічний дриль.
+- [color=#ffd166]Імпровізовані еквіваленти:[/color] ручки, металеві стрижні, мачете та багнети мають поведінку пилки або дриля.
 
 <Box>
   <GuideEntityEmbed Entity="Pen"/>
@@ -292,10 +292,10 @@ The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptim
   <GuideEntityEmbed Entity="RMCM5Bayonet"/>
 </Box>
 
-[bold]Repair bone or close bone access:[/bold]
+[bold]Ремонтувати кістку або закривати доступ до кістки:[/bold]
 
-- [color=#98d982]Ideal:[/color] bone gel, bone setter, bone graft.
-- [color=#ffd166]Improvised equivalents:[/color] screwdriver carries bone-gel behavior, wrench carries bone-setter behavior, and metal rods carry bone-gel plus saw or drill behavior.
+- [color=#98d982]Ідеально:[/color] кістковий гель, кістковий фіксатор, кістковий трансплантат.
+- [color=#ffd166]Імпровізовані еквіваленти:[/color] викрутка має поведінку кісткового гелю, гайковий ключ має поведінку кісткового фіксатора, а металеві стрижні мають поведінку кісткового гелю плюс пилки або дриля.
 
 <Box>
   <GuideEntityEmbed Entity="Screwdriver"/>
@@ -303,12 +303,12 @@ The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptim
   <GuideEntityEmbed Entity="PartRodMetal"/>
 </Box>
 
-[bold]Repair vessels, suture wounds, or stop internal bleeding during surgery:[/bold]
+[bold]Ремонтувати судини, зашивати рани або зупиняти внутрішню кровотечу під час операції:[/bold]
 
-- [color=#98d982]Ideal vessel repair:[/color] Fix-o-vein.
-- [color=#98d982]Ideal suturing:[/color] surgical line.
-- [color=#ffd166]Substitutes:[/color] surgical line can substitute for Fix-o-vein during surgical internal-bleed repair. Fix-o-vein can substitute for suturing. RMC cable coil is the rough vessel or suture fallback.
-- [color=#ff7070]Important:[/color] this does not make surgical line, gauze, trauma kits, or cable coil external internal-bleeding treatments. Open the patient first.
+- [color=#98d982]Ідеальний ремонт судин:[/color] Fix-o-vein.
+- [color=#98d982]Ідеальне зашивання:[/color] хірургічна нитка.
+- [color=#ffd166]Заміни:[/color] хірургічна нитка може замінити Fix-o-vein під час хірургічного ремонту внутрішньої кровотечі. Fix-o-vein може замінити зашивання. RMC-кабельна котушка є грубим запасним варіантом для судин або зашивання.
+- [color=#ff7070]Важливо:[/color] це не робить хірургічну нитку, марлю, травматичні набори або кабельну котушку зовнішнім лікуванням внутрішньої кровотечі. Спершу відкрийте пацієнта.
 
 <Box>
   <GuideEntityEmbed Entity="CMUFixOVein"/>
@@ -316,20 +316,20 @@ The system grades tools as [color=#98d982]ideal[/color], [color=#ffd166]suboptim
   <GuideEntityEmbed Entity="RMCCableCoil"/>
 </Box>
 
-[bold]Repair organs:[/bold]
+[bold]Ремонтувати органи:[/bold]
 
-- [color=#98d982]Ideal:[/color] trauma kit when the exposed organ repair step asks for organ repair.
-- [color=#ffd166]Suboptimal:[/color] organ vessel clamp.
-- [color=#ffd166]Improvised equivalent:[/color] RMC cable coils carry organ-clamp behavior.
+- [color=#98d982]Ідеально:[/color] травматичний набір, коли відкритий крок ремонту органа просить ремонт органа.
+- [color=#ffd166]Неідеально:[/color] затискач судин органа.
+- [color=#ffd166]Імпровізований еквівалент:[/color] RMC-кабельні котушки мають поведінку затискача органів.
 
-### Ghetto Failure Checklist
+### Чеклист Провалів Гетто-Хірургії
 
-If an improvised tool does nothing, check these before assuming the item is broken:
+Якщо імпровізований інструмент нічого не робить, перевірте це, перш ніж вважати предмет зламаним:
 
-- The patient is not in surgery mode, or you are targeting the wrong region.
-- The incision is not open, bleeders are not clamped, or the incision is not retracted.
-- Head or chest surgery still needs bone access.
-- Armor or clothing is blocking the body part.
-- The stump is not sealed before limb attachment.
-- The item is the wrong cable item: use the RMC cable coil, not station wiring stacks.
+- Пацієнт не в режимі хірургії або ви цілитеся в неправильну ділянку.
+- Розріз не відкритий, кровоточиві судини не затиснуті або розріз не розширений.
+- Операція на голові або грудях усе ще потребує доступу до кістки.
+- Броня або одяг блокує частину тіла.
+- Кукса не запечатана перед приєднанням кінцівки.
+- Це неправильний кабельний предмет: використовуйте RMC-кабельну котушку, а не стоси станційної проводки.
 </Document>

@@ -22,3 +22,4 @@ rmc-stethoscope-normal = Ви чуєте [color=green]нормальний ри�
 rmc-stethoscope-raggedy = Ви чуєте [color=yellow]слабкі шуми при кожному ударі серця[/color] та [color=yellow]хрипи при диханні[/color] {SUBJECT($target)}.
 rmc-stethoscope-hyper = Ви чуєте [color=orange]відхилення в ритмі серцебиття[/color] та [color=orange]незвичні дихальні звуки[/color].
 rmc-stethoscope-irregular = Ви чуєте [color=red]нерегулярні й додаткові ритми серцебиття[/color] та [color=red]ледве чуєте дихальні звуки[/color]; {SUBJECT($target)} відчуває сильну задишку.
+rmc-stethoscope-synth = Ви нічого не чуєте.

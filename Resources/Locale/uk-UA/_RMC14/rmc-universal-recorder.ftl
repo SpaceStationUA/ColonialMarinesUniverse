@@ -58,3 +58,4 @@ rmc-universal-recorder-tape-popup-unwind = Ви витягуєте всю стр
 rmc-universal-recorder-tape-popup-respool-start = Ви починаєте змотувати стрічку назад...
 rmc-universal-recorder-tape-popup-respool-cancel = Ви припиняєте перемотувати стрічку.
 rmc-universal-recorder-tape-popup-respool-finish = Ви змотуєте стрічку назад.
+rmc-universal-recorder-popup-insert-fail = Це не влізе!
