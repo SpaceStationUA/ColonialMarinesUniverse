@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPLeader
   name: rmc-job-name-spp-leader
-  description: rmc-job-description-spp-leader
+  description: "rmc-job-description-spp-leader"
   playTimeTracker: CMJobSPPLeader
   ranks:
     RMCRankSPPSerzhant: []

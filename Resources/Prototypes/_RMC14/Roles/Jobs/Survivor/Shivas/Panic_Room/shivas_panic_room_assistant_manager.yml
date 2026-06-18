@@ -2,7 +2,7 @@
   parent: CMSurvivor
   id: RMCSurvivorAssistantManager
   name: rmc-job-name-survivor-shivas-assman
-  description: rmc-job-description-survivor
+  description: "rmc-job-description-survivor"
   ranks:
     RMCRankWeYaAssistantManager: []
   supervisors: cm-job-supervisors-we-ya

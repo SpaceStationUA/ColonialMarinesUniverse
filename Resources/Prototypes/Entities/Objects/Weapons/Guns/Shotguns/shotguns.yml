@@ -1,5 +1,5 @@
 - type: entity
-  name: BaseWeaponShotgun
+  name: "BaseWeaponShotgun"
   parent: BaseItem
   id: BaseWeaponShotgun
   description: A rooty tooty point and shooty.
@@ -44,7 +44,7 @@
     price: 500
 
 - type: entity
-  name: Bulldog
+  name: "Bulldog"
   # Don't parent to BaseWeaponShotgun because it differs significantly
   parent: [BaseItem, BaseGunWieldable, BaseSyndicateContraband]
   id: WeaponShotgunBulldog
@@ -135,7 +135,7 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Enforcer
+  name: "Enforcer"
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunEnforcer
   description: A premium semi-automatic shotgun, and the pride of all security forces. Uses .50 shotgun shells.
@@ -158,7 +158,7 @@
     proto: ShellShotgunBeanbag
 
 - type: entity
-  name: Kammerer
+  name: "Kammerer"
   parent: [BaseWeaponShotgun, BaseGunWieldable, BaseSecurityContraband]
   id: WeaponShotgunKammerer
   description: An old yet faithful design, and a favorite among irregular forces of many worlds. Uses .50 shotgun shells.

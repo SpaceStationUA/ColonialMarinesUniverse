@@ -62,7 +62,7 @@
 - type: entity
   parent: RMCSurgicalTrayEmpty
   id: CMUAdvancedSurgicalTray
-  name: advanced surgical tray
+  name: "покращений хірургічний лоток"
   suffix: Filled, Advanced Tools
   components:
   - type: StorageFill

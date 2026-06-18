@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPSpecialist
   name: rmc-job-name-spp-specialist
-  description: rmc-job-description-spp-specialist
+  description: "rmc-job-description-spp-specialist"
   playTimeTracker: CMJobSPPSpecialist
   ranks:
     RMCRankSPPSerzhant: []

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructureCorrodible
   id: VehicleSupplyConsole
-  name: vehicle supply console
-  description: A console for ordering vehicles and their hardpoints.
+  name: "консоль постачання техніки"
+  description: "Консоль для замовлення техніки та її вузлів кріплення."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Machines/asrs_console.rsi
@@ -755,8 +755,8 @@
 - type: entity
   parent: VehicleSupplyConsole
   id: AU14VehicleSupplyConsoleUSCMLimited
-  name: vehicle supply console
-  description: A console for ordering vehicles and their hardpoints.
+  name: "консоль постачання техніки"
+  description: "Консоль для замовлення техніки та її вузлів кріплення."
   components:
   - type: VehicleSupplyConsole
     vehicles:

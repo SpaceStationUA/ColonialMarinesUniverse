@@ -1,6 +1,6 @@
 - type: entity
   parent: CMBaseWeaponRifle
-  name: M75A MAS
+  name: "M75A MAS"
   id: AUWeaponRifleM75AMAS
   description: The M75A MAS is Armat Battlefield Systems newest modular weapons platform, intended to replace the aging M41 MK1 Pulse Rifle. The weapon is still in limited field testing among select CCAF infantry units.
   components:

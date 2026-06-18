@@ -57,7 +57,7 @@
 - type: tile
   parent: CMPlanetBase
   id: CMPlanetGCircuit
-  name: gcircuit
+  name: "gcircuit"
   sprite: /Textures/_RMC14/Tiles/planet/gcircuit/gcircuita.png
   footstepSounds:
     collection: FootstepHull

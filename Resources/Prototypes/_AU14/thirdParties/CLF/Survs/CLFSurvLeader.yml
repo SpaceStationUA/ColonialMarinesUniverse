@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobCLFSurvLeader
-  name: au14-job-name-
+  name: "au14-job-name-"
   description: au14-clfsurv-greeting
   playTimeTracker: AU14CLFSurvivorLead
   startingGear: AU14GearCLFSurvLeader

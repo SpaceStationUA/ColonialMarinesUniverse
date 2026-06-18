@@ -269,7 +269,7 @@
   parent: ClothingUniformSkirtBase
   id: ClothingUniformJumpskirtMime
   name: mime jumpskirt
-  description: ...
+  description: "..."
   components:
   - type: Sprite
     sprite: Clothing/Uniforms/Jumpskirt/mime.rsi

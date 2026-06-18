@@ -2725,7 +2725,7 @@
 - type: entity
   parent: RMCAreaLv759IndoorsOutpostSouterMainHall
   id: RMCAreaLv759IndoorsOutpostSouterUD4UK
-  name: TSE UD4-UK
+  name: "TSE UD4-UK"
   components:
   - type: Sprite
     state: wydropship

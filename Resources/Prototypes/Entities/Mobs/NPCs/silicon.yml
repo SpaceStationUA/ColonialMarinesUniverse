@@ -395,7 +395,7 @@
 - type: entity
   parent: MobSiliconBase
   id: MobSupplyBot
-  name: supplybot
+  name: "supplybot"
   description: Delivers cargo!
   components:
   - type: Sprite

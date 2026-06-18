@@ -2,7 +2,7 @@
   abstract: true
   parent: [RMCBaseUniformAccessory, ClothingHandsBase]
   id: RMCWatchBaseL
-  name: watchL
+  name: "watchL"
   description: An abstract watch.
   components:
   - type: UniformAccessory
@@ -20,7 +20,7 @@
   abstract: true
   parent: [RMCBaseUniformAccessory, ClothingHandsBase]
   id: RMCWatchBaseR
-  name: watchR
+  name: "watchR"
   description: An abstract watch.
   components:
   - type: UniformAccessory

@@ -146,7 +146,7 @@
 - type: entity
   parent: BaseMentalAction
   id: ActionToggleFov
-  name: Toggle FoV
+  name: "Toggle FoV"
   description: Toggles field-of-view in order to see what players see.
   components:
   - type: Action

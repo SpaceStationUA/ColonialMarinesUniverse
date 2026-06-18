@@ -18,7 +18,7 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14ArmorHAZOPSCBRN
-  name: M5-CBRN
+  name: "M5-CBRN"
   description: Before the PWA, this was the standard issue vest of HAZOPS. You think it would pair nicely with your M17A4.
   components:
   - type: Sprite

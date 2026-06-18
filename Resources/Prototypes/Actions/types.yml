@@ -142,7 +142,7 @@
 - type: entity
   parent: BaseAction
   id: ActionOpenUplinkImplant
-  name: Open Uplink
+  name: "Open Uplink"
   description: Opens the syndicate uplink embedded under your skin
   components:
   - type: Action

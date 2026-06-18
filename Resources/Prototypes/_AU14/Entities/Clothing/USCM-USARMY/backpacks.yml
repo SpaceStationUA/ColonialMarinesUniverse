@@ -16,8 +16,8 @@
 - type: entity
   parent: AU14IMPBackpackMarine
   id: AU14IMPBackpackWorkingJoe
-  name: Working Joe utility pack
-  description: A standard IMP backpack modified for Seegson synthetic units. Opens instantly.
+  name: "утилітарний ранець Роботяги Джо"
+  description: "Стандартний ранець IMP, модифікований для синтетичних одиниць Seegson. Відкривається миттєво."
   components:
     - type: StorageOpenDoAfter
       duration: 0

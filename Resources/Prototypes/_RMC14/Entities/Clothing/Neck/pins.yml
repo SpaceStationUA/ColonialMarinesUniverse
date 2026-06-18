@@ -2,7 +2,7 @@
   abstract: true
   parent: RMCBaseUniformAccessory
   id: RMCPridePinBase
-  name: pride pin
+  name: "pride pin"
   description: An abstract pride pin.
   components:
   - type: UniformAccessory

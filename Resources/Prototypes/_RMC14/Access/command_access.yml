@@ -41,7 +41,7 @@
 - type: accessLevel
   id: CMAccessCorp
   parent: RMCBaseHidden
-  name: cm-job-name-corp
+  name: "cm-job-name-corp"
 
 - type: accessLevel
   id: RMCAccessDatabase

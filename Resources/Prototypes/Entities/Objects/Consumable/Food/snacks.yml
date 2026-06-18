@@ -263,7 +263,7 @@
     - FoodPacketSemkiTrash
 
 - type: entity
-  name: sus jerky
+  name: "sus jerky"
   parent: FoodSnackBase
   id: FoodSnackSus
   description: Something about this packet makes you feel incredibly uneasy. Jerky's good though.
@@ -762,7 +762,7 @@
   categories: [ HideSpawnMenu ]
   parent: FoodPacketTrash
   id: FoodPacketSusTrash
-  name: sus jerky
+  name: "sus jerky"
   components:
   - type: Sprite
     state: susjerky-trash

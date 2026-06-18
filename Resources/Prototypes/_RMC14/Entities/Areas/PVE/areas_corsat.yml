@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCAreaBase
   id: RMCAreaCorsat
-  name: CORSAT
+  name: "CORSAT"
   suffix: CORSAT Area
   components:
     - type: Sprite

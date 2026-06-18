@@ -1,7 +1,7 @@
 - type: entity
   parent: SquadBase
   id: SquadCLF
-  name: CLF
+  name: "CLF"
   components:
   - type: SquadTeam
     color: "#3aeb34"
@@ -145,7 +145,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadRMCRRT
-  name: RRT
+  name: "RRT"
   components:
   - type: SquadTeam
     color: "#3D6F43"
@@ -214,7 +214,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadVAIPO
-  name: VAIPO
+  name: "VAIPO"
   components:
   - type: SquadTeam
     color: "#e3580e"
@@ -236,7 +236,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadVAISO
-  name: VAISO
+  name: "VAISO"
   components:
   - type: SquadTeam
     color: "#943d0a"
@@ -258,7 +258,7 @@
 - type: entity
   parent: SquadBase
   id: AU14SquadVAISP
-  name: VAISP
+  name: "VAISP"
   components:
   - type: SquadTeam
     color: "#1ecc43"

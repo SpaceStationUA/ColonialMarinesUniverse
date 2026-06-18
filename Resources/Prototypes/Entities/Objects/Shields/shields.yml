@@ -293,7 +293,7 @@
   name: clockwork shield
   parent: BaseShield
   id: ClockworkShield
-  description: Ratvar oyrffrf lbh jvgu uvf cebgrpgvba.
+  description: "Ratvar oyrffrf lbh jvgu uvf cebgrpgvba."
   components:
     - type: Sprite
       state: ratvarian-icon

@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPEngineer
   name: rmc-job-name-spp-engineer
-  description: rmc-job-description-spp-engineer
+  description: "rmc-job-description-spp-engineer"
   playTimeTracker: CMJobSPPEngineer
   ranks:
     RMCRankSPPMladshiySerzhant: []

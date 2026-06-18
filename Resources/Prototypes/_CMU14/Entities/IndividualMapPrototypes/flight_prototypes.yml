@@ -213,7 +213,7 @@
 - type: tile
   parent: RMCFloorEmpty
   id: CMUFloorEmpty
-  name: tiles-cmu-empty-subfloor
+  name: "tiles-cmu-empty-subfloor"
   isSpace: true
   transparent: true
   weather: true
@@ -223,7 +223,7 @@
 - type: tile
   parent: RMCFloorPlatingNoBuild
   id: CMUFlightPlatingNoBuild
-  name: tiles-cmu-plating
+  name: "tiles-cmu-plating"
   sprite: /Textures/_RMC14/Tiles/almayer/plating.png
   isSubfloor: false
   indestructible: true

@@ -2,7 +2,7 @@
 - type: entity
   parent: ColMarTechBaseAnchorable
   id: CMVendorCassettes
-  name: Rec-Vend
+  name: "Rec-Vend"
   description: Contains We-Yu approved recreational items, like Cassette Players and Cards.
   components:
   - type: Sprite

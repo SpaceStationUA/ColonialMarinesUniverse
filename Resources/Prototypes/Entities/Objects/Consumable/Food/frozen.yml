@@ -237,7 +237,7 @@
   name: mime snowcone
   parent: FoodFrozenSnowconeBase
   id: FoodFrozenSnowconeMime
-  description: ...
+  description: "..."
   components:
   - type: Sprite
     layers:

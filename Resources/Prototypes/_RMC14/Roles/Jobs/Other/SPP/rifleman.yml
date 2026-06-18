@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPRifleman
   name: rmc-job-name-spp-rifleman
-  description: rmc-job-description-spp-soldier
+  description: "rmc-job-description-spp-soldier"
   playTimeTracker: CMJobSPPRifleman
   ranks:
     RMCRankSPPRyadovoy: []
