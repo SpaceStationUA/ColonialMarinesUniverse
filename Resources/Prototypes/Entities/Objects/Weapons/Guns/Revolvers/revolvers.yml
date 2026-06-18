@@ -1,5 +1,5 @@
 - type: entity
-  name: "BaseWeaponRevolver"
+  name: BaseWeaponRevolver
   parent: BaseItem
   id: BaseWeaponRevolver
   description: A rooty tooty point and shooty.

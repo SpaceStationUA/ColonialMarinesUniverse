@@ -140,8 +140,8 @@
 - type: entity
   parent: [RMCMarineUniformBase, RMCAlternateFoldableUniformBase]
   id: AU14JoeHazmat
-  name: "уніформа Роботяги Джо для небезпечних умов"
-  description: "Посилена уніформа для праці синтетиків у небезпечних зонах. Завтра разом. Її життєвий трекер і маяк відстеження, схоже, увімкнені."
+  name: Working Joe Hazardous Uniform
+  description: A reinforced uniform used for Synthetic labor in hazardous areas. Tomorrow, Together. Its vital tracker and tracking beacon appear to be enabled.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Civilian/Uniforms/joehazmat.rsi

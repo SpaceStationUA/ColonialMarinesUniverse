@@ -45,7 +45,7 @@
 - type: entity
   parent: ClusterBang
   id: ClusterBangFull
-  name: "ClusterBang"
+  name: ClusterBang
   description: Launches three flashbangs after the timer runs out.
   suffix: Full
   components:
@@ -126,7 +126,7 @@
 - type: entity
   parent: [SoapSyndie, ScatteringGrenadeBase, BaseSyndicateContraband]
   id: SlipocalypseClusterSoap
-  name: "slipocalypse clustersoap"
+  name: slipocalypse clustersoap
   description: Spreads small pieces of syndicate soap over an area upon landing on the floor.
   components:
   - type: Sprite

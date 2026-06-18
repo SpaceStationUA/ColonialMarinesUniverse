@@ -68,7 +68,7 @@
 # One bullet to bring them all into the darkness and bind them
 - type: entity
   id: BaseBullet
-  name: "BaseBullet"
+  name: BaseBullet
   description: If you can see this you're probably dead!
   abstract: true
   components:
@@ -1260,7 +1260,7 @@
       - HideContextMenu
 
 - type: entity
-  name: "лазерний болт"
+  name: laser bolt
   id: BulletLaser
   parent: BaseBullet
   categories: [ HideSpawnMenu ]

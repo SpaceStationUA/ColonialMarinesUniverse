@@ -2,7 +2,7 @@
   parent: RMCSurvivorPMCBase
   id: RMCSurvivorSolarisPMCStandard
   name: rmc-job-name-pmc-standard
-  description: "rmc-job-description-survivor"
+  description: rmc-job-description-survivor
   ranks:
     RMCRankOperator: []
   supervisors: cm-job-supervisors-we-ya

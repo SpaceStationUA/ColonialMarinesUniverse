@@ -2,7 +2,7 @@
   abstract: true
   parent: RMCBaseUniformAccessory
   id: RMCPatchBase
-  name: "patch"
+  name: patch
   description: An abstract patch.
   components:
   - type: UniformAccessory

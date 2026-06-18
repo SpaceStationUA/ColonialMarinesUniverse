@@ -6,8 +6,8 @@
 - type: entity
   parent: BaseItem
   id: CMUDeployableZLevelLadder
-  name: "розгортна драбина"
-  description: "Компактний комплект драбини, який можна розгорнути між з’єднаними Z-рівнями."
+  name: deployable ladder
+  description: A compact ladder kit that can be deployed between connected Z-levels.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/ladder.rsi

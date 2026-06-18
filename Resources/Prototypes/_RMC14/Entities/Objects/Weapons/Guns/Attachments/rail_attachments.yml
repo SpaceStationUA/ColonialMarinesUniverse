@@ -641,7 +641,7 @@
 - type: entity
   parent: RMCAttachmentScopeBase
   id: RMCAttachmentSASOS
-  name: "L91O1 SASOS"
+  name: L91O1 SASOS
   description: The TSE-produced Small Arms Smart Optical Sight, or SASOS, is an experimental, next-gen IFF-enabling optic designed for use as part of the L91 Support Weapon System.
   components:
   - type: Sprite

@@ -237,7 +237,7 @@
 - type: entity
   parent: RMCCoatBureauDeputy
   id: RMCCoatOfficerShortWhite
-  name: "SPP UL5-W"
+  name: SPP UL5-W
   description: A somewhat armored jacket that is primarily utilised by Naval or Marine Infantry COs.
   components:
   - type: Sprite
@@ -256,7 +256,7 @@
 - type: entity
   parent: RMCCoatOfficerShortWhite
   id: RMCCoatOfficerLongWhite
-  name: "SPP UL5-W Shinel"
+  name:  SPP UL5-W Shinel
   description: A longer variant of the Naval UL5-W jacket found mainly during ceremonial functions and the winter months. Primarily used by COs.
   components:
   - type: Sprite
@@ -267,7 +267,7 @@
 - type: entity
   parent: RMCCoatOfficerShortWhite
   id: RMCCoatKommissarShortBlack
-  name: "SPP UL5-B"
+  name: SPP UL5-B
   description: A somewhat armored jacket that is primarily utilised by Political Kommisars, reminds you of october.
   components:
   - type: Sprite
@@ -278,7 +278,7 @@
 - type: entity
   parent: RMCCoatOfficerShortWhite
   id: RMCCoatKommissarLongBlack
-  name: "SPP UL5-B Shinel"
+  name:  SPP UL5-B Shinel
   description: A longer variant of the Naval UPL5-B jacket found mainly during ceremonial functions and the winter months, this black variant is most common during celebrations of the founding of the SPP, it reminds you of october.
   components:
   - type: Sprite

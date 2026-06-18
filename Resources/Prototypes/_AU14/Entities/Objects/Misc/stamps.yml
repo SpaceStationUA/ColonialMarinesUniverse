@@ -139,7 +139,7 @@
 - type: entity
   parent: AU14StampLiaison
   id: AU14StampWYSci
-  name: "гумова печатка корпоративного науковця"
+  name: corporate scientist's rubber stamp
   components:
   - type: Stamp
     stampedName: stamp-component-stamped-name-au14-cs

@@ -1,6 +1,6 @@
 - type: entity
   parent: [BaseWeaponLauncher, CMBaseWeaponGun, RMCBaseAttachableHolder]
-  name: "M6H-BRUTE"
+  name: M6H-BRUTE
   id: RMCWeaponLauncherM6HBrute
   description: A laser-guided breaching launcher designed to rip open walls and hardened structures with focused shockwaves.
   components:

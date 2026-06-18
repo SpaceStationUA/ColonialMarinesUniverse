@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCFORECONPVECorpsman
   name: rmc-job-name-pve-forecon-corpsman
-  description: "cm-job-description-corpsman"
+  description: cm-job-description-corpsman
   playTimeTracker: CMJobFORECONPVECorpsman
   requirements:
   - !type:TotalJobsTimeRequirement

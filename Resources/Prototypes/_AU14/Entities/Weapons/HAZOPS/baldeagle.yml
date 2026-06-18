@@ -85,7 +85,7 @@
 - type: entity
   parent: CMCartridgePistolBase
   id: AU14CartridgePistol50JP
-  name: ".50 JP"
+  name: .50 JP
   components:
   - type: Tag
     tags:

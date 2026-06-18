@@ -119,7 +119,7 @@
   parent: ClothingNeckBase
   id: ClothingNeckCloakAdmin
   name: weh cloak
-  description: "Weh!"
+  description: Weh!
   components:
   - type: Sprite
     sprite: Clothing/Neck/Cloaks/admin.rsi

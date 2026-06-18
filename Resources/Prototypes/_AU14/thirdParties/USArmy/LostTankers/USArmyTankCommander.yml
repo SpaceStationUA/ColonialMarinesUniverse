@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: AU14USArmyTankCommander
   name: au14-job-name-usarmy-tankcommander
-  description: "au14-job-description-usarmy-tankccrew"
+  description: au14-job-description-usarmy-tankccrew
   playTimeTracker: AU14JobUSArmyTankCommander
   ranks:
     RMCRankCivilian: []

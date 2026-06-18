@@ -64,7 +64,7 @@
 
 - type: entity
   parent: [RMCBaseWeaponLauncher, RMCBaseAttachableHolder]
-  name: "M7-SMAW"
+  name: M7-SMAW
   id: RMCWeaponLauncherM5ATL
   description: "The M7 Shoulder Launched Multipurpose Assault Weapon is a powerful anti-armor infantry weapon. Used to take out light-tanks and enemy structures, it is a dangerous weapon with a variety of combat uses, depending on the loaded ammunition, and is capable of firing both shells and rocket-propelled grenades."
   components:

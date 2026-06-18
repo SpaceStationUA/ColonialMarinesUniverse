@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCSPPMedic
   name: rmc-job-name-spp-medic
-  description: "rmc-job-description-spp-medic"
+  description: rmc-job-description-spp-medic
   playTimeTracker: CMJobSPPMedic
   ranks:
     RMCRankSPPMladshiySerzhant: []

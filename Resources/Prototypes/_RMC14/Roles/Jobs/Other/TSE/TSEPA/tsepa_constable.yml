@@ -3,7 +3,7 @@
   parent: CMJobBase
   id: RMCTSEPAConstable
   name: rmc-job-name-tsepa-constable
-  description: "rmc-job-description-tsepa-Ccnstable"
+  description: rmc-job-description-tsepa-Ccnstable
   playTimeTracker: RMCJobTSEPAConstable
   ranks:
     RMCRankTSEPAConstable: []

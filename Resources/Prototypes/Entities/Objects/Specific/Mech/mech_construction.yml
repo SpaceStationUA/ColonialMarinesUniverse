@@ -433,7 +433,7 @@
 - type: entity
   parent: BaseVimPartItem
   id: VimHarness
-  name: "vim harness"
+  name: vim harness
   description: A small mounting bracket for vim parts.
   components:
   - type: Appearance

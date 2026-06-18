@@ -109,8 +109,8 @@
 - type: alert
   parent: SquadTracker
   id: SquadTrackerFallback
-  name: "ПОМИЛКА - запасний трекер"
-  description: "ПОМИЛКА. Якщо ви це бачите, будь ласка, повідомте про баг."
+  name: ПОМИЛКА - запасний трекер
+  description: ПОМИЛКА. Якщо ви це бачите, будь ласка, повідомте про баг.
 
 - type: alert
   parent: SquadTracker

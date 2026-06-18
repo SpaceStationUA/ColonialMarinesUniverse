@@ -210,7 +210,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepMil
-  name: "Військова база"
+  name: Military Base
   components:
   - type: Sprite
     state: military
@@ -220,7 +220,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilBarracks
-  name: "Військова база - казарми"
+  name: Military Base - Barracks
   components:
   - type: Sprite
     state: military_barracks
@@ -228,7 +228,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilBaths
-  name: "Військова база - санвузли"
+  name: Military Base - Baths
   components:
   - type: Sprite
     state: military_baths
@@ -236,7 +236,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilBriefing
-  name: "Військова база - брифінг"
+  name: Military Base - Briefing
   components:
   - type: Sprite
     state: military_briefing
@@ -244,7 +244,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilBrig
-  name: "Військова база - бриг"
+  name: Military Base - Brig
   components:
   - type: Sprite
     state: military_brig
@@ -252,7 +252,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilCIC
-  name: "Військова база - ЦІК"
+  name: Military Base - CIC
   components:
   - type: Sprite
     state: military_cic
@@ -260,7 +260,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepMilCheckpoint
-  name: "Військова база - КПП"
+  name: Military Base - Checkpoint
   components:
   - type: Sprite
     state: military_checkpoint
@@ -270,7 +270,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepMilEastGate
-  name: "Військова база - східна брама"
+  name: Military Base - East Gate
   components:
   - type: Sprite
     state: military_checkpoint
@@ -280,7 +280,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilGarage
-  name: "Військова база - гараж"
+  name: Military Base - Garage
   components:
   - type: Sprite
     state: military_garage
@@ -288,7 +288,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilHospital
-  name: "Військова база - шпиталь"
+  name: Military Base - Hospital
   components:
   - type: Sprite
     state: military_hospital
@@ -296,7 +296,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepMilLZ1
-  name: "Військова база - LZ1"
+  name: Military Base - LZ1
   components:
   - type: Sprite
     state: military_lz1
@@ -307,7 +307,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilMess
-  name: "Військова база - їдальня"
+  name: Military Base - Mess
   components:
   - type: Sprite
     state: military_mess
@@ -315,7 +315,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilPlatoonCommander
-  name: "Військова база - командир взводу"
+  name: Military Base - Platoon Commander
   components:
   - type: Sprite
     state: military_platoon_commander
@@ -323,7 +323,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilPrep
-  name: "Військова база - підготовка"
+  name: Military Base - Prep
   components:
   - type: Sprite
     state: military_prep
@@ -331,7 +331,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilWaste
-  name: "Військова база - переробка відходів"
+  name: Military Base - Waste Treatment
   components:
   - type: Sprite
     state: military_waste
@@ -339,7 +339,7 @@
 - type: entity
   parent: CMUAreaShepMil
   id: CMUAreaShepMilWestObservation
-  name: "Військова база - західний спостережний пункт"
+  name: Military Base - West Observation
   components:
   - type: Sprite
     state: military_w_observe
@@ -347,7 +347,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepMilPerimeter
-  name: "Військова база - периметр"
+  name: Military Base - Perimeter
   components:
   - type: Sprite
     state: military_perimeter
@@ -357,7 +357,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepMilYard
-  name: "Військова база - двір"
+  name: Military Base - Yard
   components:
   - type: Sprite
     state: military_yard
@@ -367,7 +367,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepMilOOB
-  name: "Військова база - поза межами"
+  name: Military Base - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -397,7 +397,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNorthColonyBoat
-  name: "Північна колонія - човен"
+  name: North Colony - Boat
   components:
   - type: Sprite
     state: n_colony
@@ -534,7 +534,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepEALLZ3
-  name: "LZ3: інженерія та логістика"
+  name: 'LZ3: Engineering & Logistics'
   components:
   - type: Sprite
     state: eal_lz3
@@ -831,7 +831,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNWCLF
-  name: "Північно-західні джунглі - CLF"
+  name: Northwest Jungle - CLF
   components:
   - type: Sprite
     state: clf
@@ -851,7 +851,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepWCLF
-  name: "Західні джунглі - CLF"
+  name: West Jungle - CLF
   components:
   - type: Sprite
     state: clf
@@ -861,7 +861,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNCLF
-  name: "Північні джунглі - CLF"
+  name: North Jungle - CLF
   components:
   - type: Sprite
     state: clf
@@ -911,7 +911,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCaveNE
-  name: "Північно-східна печера"
+  name: Northeast Cave
   components:
   - type: Sprite
     state: cave
@@ -921,7 +921,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCaveSE
-  name: "Південно-східна печера"
+  name: Southeast Cave
   components:
   - type: Sprite
     state: cave
@@ -931,7 +931,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCaveW
-  name: "Західна печера"
+  name: West Cave
   components:
   - type: Sprite
     state: cave

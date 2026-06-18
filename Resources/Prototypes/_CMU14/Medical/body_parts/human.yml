@@ -91,7 +91,7 @@
 - type: entity
   parent: LeftArmHuman
   id: CMUPartRoboticLeftArm
-  name: "роботизована ліва рука"
+  name: robotic left arm
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion
@@ -104,7 +104,7 @@
 - type: entity
   parent: RightArmHuman
   id: CMUPartRoboticRightArm
-  name: "роботизована права рука"
+  name: robotic right arm
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion
@@ -117,7 +117,7 @@
 - type: entity
   parent: LeftHandHuman
   id: CMUPartRoboticLeftHand
-  name: "роботизована ліва кисть"
+  name: robotic left hand
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion
@@ -130,7 +130,7 @@
 - type: entity
   parent: RightHandHuman
   id: CMUPartRoboticRightHand
-  name: "роботизована права кисть"
+  name: robotic right hand
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion
@@ -143,7 +143,7 @@
 - type: entity
   parent: LeftLegHuman
   id: CMUPartRoboticLeftLeg
-  name: "роботизована ліва нога"
+  name: robotic left leg
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion
@@ -156,7 +156,7 @@
 - type: entity
   parent: RightLegHuman
   id: CMUPartRoboticRightLeg
-  name: "роботизована права нога"
+  name: robotic right leg
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion
@@ -169,7 +169,7 @@
 - type: entity
   parent: LeftFootHuman
   id: CMUPartRoboticLeftFoot
-  name: "роботизована ліва ступня"
+  name: robotic left foot
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion
@@ -182,7 +182,7 @@
 - type: entity
   parent: RightFootHuman
   id: CMUPartRoboticRightFoot
-  name: "роботизована права ступня"
+  name: robotic right foot
   components:
   - type: CMUProstheticLimb
   - type: AnatomyRegion

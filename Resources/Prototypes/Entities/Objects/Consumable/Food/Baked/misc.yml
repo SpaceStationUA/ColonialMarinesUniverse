@@ -595,7 +595,7 @@
     - Meat
 
 - type: entity
-  name: "chèvre chaud"
+  name: chèvre chaud
   parent: FoodBakedBase
   id: FoodBakedChevreChaud
   description: A disk of slightly melted chèvre flopped on top of a crostini, and toasted all-round.

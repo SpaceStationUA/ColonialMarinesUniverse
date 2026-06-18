@@ -2,7 +2,7 @@
   parent: CMSurvivor
   id: RMCSurvivorPMCCommandoShivas
   name: rmc-job-name-survivor-shivas-weya-commando
-  description: "rmc-job-description-survivor"
+  description: rmc-job-description-survivor
   ranks:
     RMCRankWeYaCommando: []
   supervisors: cm-job-supervisors-we-ya

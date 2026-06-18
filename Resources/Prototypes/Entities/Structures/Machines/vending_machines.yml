@@ -162,7 +162,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineBooze
-  name: "Booze-O-Mat"
+  name: Booze-O-Mat
   description: A technological marvel, supposedly able to mix just the mixture you'd like to drink the moment you ask for one.
   components:
   - type: VendingMachine
@@ -230,7 +230,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCart
-  name: "PTech"
+  name: PTech
   description: PTech vending! Providing a ROBUST selection of PDAs, cartridges, and anything else a dull paper pusher needs!
   components:
   - type: VendingMachine
@@ -260,7 +260,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChefvend
-  name: "ChefVend"
+  name: ChefVend
   description: An ingredient vendor for all your cheffin needs.
   components:
   - type: VendingMachine
@@ -293,7 +293,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCigs
-  name: "ShadyCigs Deluxe"
+  name: ShadyCigs Deluxe
   description: If you want to get cancer, might as well do it in style.
   components:
   - type: VendingMachine
@@ -323,7 +323,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineClothing
-  name: "ClothesMate"
+  name: ClothesMate
   description: A vending machine for clothing.
   components:
   - type: VendingMachine
@@ -354,7 +354,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineWinter
-  name: "WinterDrobe"
+  name: WinterDrobe
   description: The best place to enjoy the cold!
   components:
   - type: VendingMachine
@@ -746,7 +746,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMagivend
-  name: "MagiVend"
+  name: MagiVend
   description: A magic vending machine.
   components:
   - type: VendingMachine
@@ -809,7 +809,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineEngivend
-  name: "Engi-Vend"
+  name: Engi-Vend
   description: Spare tool vending. What? Did you expect some witty description?
   components:
   - type: VendingMachine
@@ -839,7 +839,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMedical
-  name: "NanoMed Plus"
+  name: NanoMed Plus
   description: It's a medical drug dispenser. Natural chemicals only!
   components:
   - type: VendingMachine
@@ -877,7 +877,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineNutri
-  name: "NutriMax"
+  name: NutriMax
   description: A vending machine containing nutritional substances for plants and botanical tools.
   components:
   - type: VendingMachine
@@ -911,7 +911,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSec
-  name: "SecTech"
+  name: SecTech
   description: A vending machine containing Security equipment. A label reads SECURITY PERSONNEL ONLY.
   components:
   - type: VendingMachine
@@ -949,7 +949,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSeedsUnlocked
-  name: "MegaSeed Servitor"
+  name: MegaSeed Servitor
   description: For when you need seeds fast. Hands down the best seed selection on the station!
   suffix: Unlocked
   components:
@@ -990,7 +990,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSnack
-  name: "Getmore Chocolate Corp"
+  name: Getmore Chocolate Corp
   description: A snack machine courtesy of the Getmore Chocolate Corporation, based out of Mars.
   components:
   - type: VendingMachine
@@ -1171,7 +1171,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineTheater
-  name: "AutoDrobe"
+  name: AutoDrobe
   description: A vending machine containing costumes.
   components:
   - type: VendingMachine
@@ -1207,7 +1207,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineVendomat
-  name: "Vendomat"
+  name: Vendomat
   description: Only the finest robust equipment in space!
   components:
   - type: VendingMachine
@@ -1239,7 +1239,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineRobotics
-  name: "Robotech Deluxe"
+  name: Robotech Deluxe
   description: All the tools you need to create your own robot army.
   components:
   - type: VendingMachine
@@ -1276,7 +1276,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineYouTool
-  name: "YouTool"
+  name: YouTool
   description: "A vending machine containing standard tools. A label reads: Tools for tools."
   components:
   - type: VendingMachine
@@ -1455,7 +1455,7 @@
 - type: entity
   parent: VendingMachineWallmount
   id: VendingMachineWallMedical
-  name: "NanoMed"
+  name: NanoMed
   description: "It's a wall-mounted medical equipment dispenser. Natural chemicals only!"
   components:
   - type: VendingMachine
@@ -1489,7 +1489,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineHydrobe
-  name: "HyDrobe"
+  name: HyDrobe
   description: A machine with a catchy name. It dispenses botany related clothing and gear.
   components:
   - type: VendingMachine
@@ -1521,7 +1521,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineLawDrobe
-  name: "LawDrobe"
+  name: LawDrobe
   description: Objection! This wardrobe dispenses the rule of law... and lawyer clothing..
   components:
   - type: VendingMachine
@@ -1549,7 +1549,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSecDrobe
-  name: "SecDrobe"
+  name: SecDrobe
   description: A vending machine for security and security-related clothing!
   components:
   - type: VendingMachine
@@ -1581,7 +1581,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingBarDrobe
-  name: "BarDrobe"
+  name: BarDrobe
   description: A stylish vendor to dispense the most stylish bar clothing!
   components:
   - type: VendingMachine
@@ -1609,7 +1609,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChapel
-  name: "PietyVend"
+  name: PietyVend
   components:
   - type: VendingMachine
     pack: PietyVendInventory
@@ -1637,7 +1637,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCargoDrobe
-  name: "CargoDrobe"
+  name: CargoDrobe
   description: A highly advanced vending machine for buying cargo related clothing for free.
   components:
   - type: VendingMachine
@@ -1669,7 +1669,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineMediDrobe
-  name: "MediDrobe"
+  name: MediDrobe
   description: A vending machine rumoured to be capable of dispensing clothing for medical personnel.
   components:
   - type: VendingMachine
@@ -1697,7 +1697,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChemDrobe
-  name: "ChemDrobe"
+  name: ChemDrobe
   description: A vending machine for dispensing chemistry related clothing.
   components:
   - type: VendingMachine
@@ -1725,7 +1725,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCuraDrobe
-  name: "CuraDrobe"
+  name: CuraDrobe
   description: A lowstock vendor only capable of vending clothing for curators and librarians.
   components:
   - type: VendingMachine
@@ -1753,7 +1753,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineAtmosDrobe
-  name: "AtmosDrobe"
+  name: AtmosDrobe
   description: This relatively unknown vending machine delivers clothing for Atmospherics Technicians, an equally unknown job.
   components:
   - type: VendingMachine
@@ -1785,7 +1785,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineEngiDrobe
-  name: "EngiDrobe"
+  name: EngiDrobe
   description: A vending machine renowned for vending industrial grade clothing.
   components:
   - type: VendingMachine
@@ -1817,7 +1817,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChefDrobe
-  name: "ChefDrobe"
+  name: ChefDrobe
   description: This vending machine might not dispense meat, but it certainly dispenses chef related clothing.
   components:
   - type: VendingMachine
@@ -1845,7 +1845,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineDetDrobe
-  name: "DetDrobe"
+  name: DetDrobe
   description: A machine for all your detective needs, as long as you need clothes.
   components:
   - type: VendingMachine
@@ -1873,7 +1873,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineJaniDrobe
-  name: "JaniDrobe"
+  name: JaniDrobe
   description: A self cleaning vending machine capable of dispensing clothing for janitors.
   components:
   - type: VendingMachine
@@ -1905,7 +1905,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSciDrobe
-  name: "SciDrobe"
+  name: SciDrobe
   description: A simple vending machine suitable to dispense well tailored science clothing. Endorsed by Space Cubans.
   components:
   - type: VendingMachine
@@ -1933,7 +1933,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineSyndieDrobe
-  name: "SyndieDrobe"
+  name: SyndieDrobe
   description: Wardrobe machine encoded by the syndicate, contains elite outfits for various operations.
   components:
   - type: VendingMachine
@@ -1965,7 +1965,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineRoboDrobe
-  name: "RoboDrobe"
+  name: RoboDrobe
   description: A vending machine designed to dispense clothing known only to roboticists.
   components:
   - type: VendingMachine
@@ -1993,7 +1993,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineGeneDrobe
-  name: "GeneDrobe"
+  name: GeneDrobe
   description: A machine for dispensing clothing related to genetics.
   components:
   - type: VendingMachine
@@ -2021,7 +2021,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineViroDrobe
-  name: "ViroDrobe"
+  name: ViroDrobe
   description: An unsterilized machine for dispending virology related clothing.
   components:
   - type: VendingMachine
@@ -2049,7 +2049,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineCentDrobe
-  name: "CentDrobe"
+  name: CentDrobe
   description: A one-of-a-kind vending machine for all your centcomm aesthetic needs!
   components:
   - type: VendingMachine
@@ -2077,7 +2077,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineHappyHonk
-  name: "Happy Honk Dispenser"
+  name: Happy Honk Dispenser
   description: A happy honk meal box dispenser made by honk! co.
   components:
   - type: VendingMachine
@@ -2178,7 +2178,7 @@
 - type: entity
   parent: VendingMachine
   id: VendingMachineChemicals
-  name: "ChemVend"
+  name: ChemVend
   description: Probably not the coffee machine.
   components:
   - type: VendingMachine
@@ -2207,7 +2207,7 @@
 - type: entity
   parent: VendingMachineChemicals
   id: VendingMachineChemicalsSyndicate
-  name: "SyndieJuice"
+  name: SyndieJuice
   description: Not made with freshly squeezed syndies I hope.
   components:
   - type: VendingMachine

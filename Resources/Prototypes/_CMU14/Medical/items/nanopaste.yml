@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseHealingItem
   id: CMUNanopaste
-  name: "нанопаста"
-  description: "Тюбик пасти, що містить рої ремонтних нанітів. Дуже ефективна для ремонту роботизованої техніки."
+  name: nanopaste
+  description: A tube of paste containing swarms of repair nanites. Very effective in repairing robotic machinery.
   components:
   - type: Tag
     tags:

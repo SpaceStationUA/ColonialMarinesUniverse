@@ -579,7 +579,7 @@
 - type: entity
   parent: CMPaper
   id: RMCPaperCLFVaradero
-  name: "SOS!"
+  name: SOS!
   components:
   - type: Paper
     contentSize: 20000

@@ -482,7 +482,7 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSec
-  name: "SecTech"
+  name: SecTech
   description: A security equipment vendor.
   components:
   - type: Sprite
@@ -530,7 +530,7 @@
 - type: entity
   parent: CMVendor
   id: RMCVendorSecArmory
-  name: "Riot Tech"
+  name: Riot Tech
   description: A security riot equipment vendor.
   suffix: Military Police
   components:
@@ -563,7 +563,7 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSEA
-  name: "SEATech"
+  name: SEATech
   description: An equipment vendor designed to save lives
   suffix: SEA
   components:
@@ -595,7 +595,7 @@
 - type: entity
   parent: CMVendor
   id: CMVendorNutri
-  name: "NutriMax"
+  name: NutriMax
   description: A plant nutrients vendor.
   components:
   - type: XenoCrusherChargable
@@ -631,7 +631,7 @@
 - type: entity
   parent: CMVendor
   id: CMVendorSeeds
-  name: "MegaSeed Servitor"
+  name: MegaSeed Servitor
   description: When you need seeds fast!
   components:
   - type: XenoCrusherChargable

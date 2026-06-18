@@ -226,7 +226,7 @@
 
 - type: entity
   id: AUPlanetLV624
-  name: "LV624"
+  name: LV624
   components:
   - type: RMCPlanetMapPrototype
     votename: "LV624 Green Hell"

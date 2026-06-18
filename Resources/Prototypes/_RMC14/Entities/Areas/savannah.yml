@@ -227,7 +227,7 @@
 - type: entity
   parent: RMCAreaSavannahCommand
   id: RMCAreaSavannahTComms
-  name: "TComms"
+  name: TComms
 
 - type: entity
   parent: RMCAreaSavannahCommand
