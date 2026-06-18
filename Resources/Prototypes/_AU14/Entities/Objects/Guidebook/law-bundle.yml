@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBriefcase
   id: AU14BriefcaseLawBundle
-  name: counselor's law bundle
-  description: "A sturdy brown briefcase containing the complete legal library of the colony: the Colonial Civil Code (the Blue Book), the UCMJ (the Devil's Red Book), the SOP, and bureaucratic legal weaponry. Lawyers call it the 'Counselor's Burden', everybody else just calls it the briefcase full of trouble. Everything a budding legal mind needs to ruin someone's day with a technicality."
+  name: "юридичний комплект радника"
+  description: "Міцний коричневий портфель із повною юридичною бібліотекою колонії: Колоніальним цивільним кодексом (Синя книга), UCMJ (Червона книга диявола), SOP та бюрократичною юридичною зброєю. Юристи називають його 'Тягар радника', а всі інші - просто портфелем, повним неприємностей. Усе, що потрібно юному правнику, щоб зіпсувати комусь день технічною зачіпкою."
   components:
   - type: Storage
     maxItemSize: Normal

@@ -34,8 +34,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanCola
-  name: Coca Cola
-  description: A classic cola with a taste that's been around for centuries. Nobody can beat it.
+  name: "Кока-Кола"
+  description: "Класична кола зі смаком, що існує століттями. Ніхто не може її перевершити."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/cola.rsi
@@ -52,8 +52,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanMountainWind
-  name: Mountain Dew
-  description: Do the Dew.
+  name: "Маунтін Дью"
+  description: "Зроби Дью."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/mountain_wind.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanThirteenLoko
-  name:  Fourteen loko
-  description: Consumption of Fourteen Loko may result in seizures, blindness, drunkenness, or even death. Please Drink Responsibly.
+  name: "Фортін Локо"
+  description: "Споживання Фортін Локо може спричинити судоми, сліпоту, сп'яніння або навіть смерть. Будь ласка, пийте відповідально."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/thirteen_loko.rsi
@@ -90,8 +90,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanDrGibb
-  name: Dr Pepper
-  description: A delicious mixture of 42 different flavors of chemicals that you can't pronounce.
+  name: "Доктор Пеппер"
+  description: "Смачна суміш з 42 різних смаків хімікатів, які ви не зможете вимовити."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/dr_gibb.rsi
@@ -108,8 +108,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanStarkist
-  name: Sunkist
-  description: Sunkist orange soda, now with 0.00001% real orange juice!
+  name: "Санкіст"
+  description: "Апельсинова содова Санкіст, тепер з 0,00001% справжнього апельсинового соку!"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/starkist.rsi
@@ -126,8 +126,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanSpaceUp
-  name: Seven Up
-  description: Cures any and all stomach issues, or your money back.
+  name: "Севен Ап"
+  description: "Лікує всі шлункові проблеми, або повертаємо ваші гроші."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/space_up.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanLemonLime
-  name: lemon-lime
-  description: You wanted ORANGE. It gave you Lemon Lime.
+  name: "лимон-лайм"
+  description: "Ви хотіли АПЕЛЬСИН. А отримали лимон-лайм."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/lemon_lime.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanIcedTea
-  name: iced tea can
-  description: Just like the squad redneck's grandmother used to buy.
+  name: "бляшанка холодного чаю"
+  description: "Точно як та, яку купувала бабуся реднека з твого загону."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/ice_tea.rsi
@@ -180,8 +180,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanGrape
-  name: grape juice
-  description: A can of probably not grape juice.
+  name: "виноградний сік"
+  description: "Бляшанка, ймовірно, не виноградного соку."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/purple.rsi
@@ -198,8 +198,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanTonic
-  name: tonic water
-  description: "Step One: Tonic. Check. Step Two: Gin."
+  name: "тонік"
+  description: "Крок перший: тонік. Готово. Крок другий: джин."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/tonic.rsi
@@ -216,8 +216,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanSoda
-  name: soda water
-  description: A can of soda water. Tap water's more refreshing cousin...according to those Europe-folk.
+  name: "содова вода"
+  description: "Бляшанка содової води. Більш освіжаючий родич водопровідної води... за словами тих європейців."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/sodawater.rsi
@@ -234,8 +234,8 @@
 - type: entity
   parent: CMDrinkCanSoda
   id: CMDrinkCanBoda
-  name: boda
-  description: State regulated soda beverage. Enjoy comrades.
+  name: "бода"
+  description: "Регульований державою содовий напій. Насолоджуйтесь, товариші."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/boda.rsi
@@ -247,8 +247,8 @@
 - type: entity
   parent: CMDrinkCanCola
   id: CMDrinkCanBodaPlyus
-  name: boda-plyus
-  description: State regulated soda beverage, now with added surplus flavoring. Enjoy comrades.
+  name: "бода-плюс"
+  description: "Регульований державою содовий напій, тепер з додатковими ароматизаторами із надлишку. Насолоджуйтесь, товариші."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/blank.rsi
@@ -258,8 +258,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanFruitBeer
-  name: fruit-beer
-  description: In theory, Mango flavored root beer sounds like a pretty good idea. We-Yu has disproved yet another theory with its latest line of cola. Canned by the We-Yu Corporation.
+  name: "фруктове пиво"
+  description: "Теоретично, кореневе пиво зі смаком манго звучить як непогана ідея. Ві-Ю спростувала ще одну теорію своєю останньою лінійкою коли. Розлите в банки корпорацією Ві-Ю."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/fruit_beer.rsi
@@ -276,8 +276,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanBeerLite
-  name: We-Yu Lite
-  description: Beer. You've dialed in your target. Time to fire for effect. Canned by the Weyland-Yutani Corporation
+  name: "Ві-Ю Лайт"
+  description: "Пиво. Ви налаштували приціл на ціль. Час відкривати вогонь на ураження. Розлите в банки корпорацією Вейланд-Ютані"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/beer.rsi
@@ -294,8 +294,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanAle
-  name: We-Yu IPA
-  description: Beer's misunderstood cousin. Canned by the Weyland-Yutani Corporation.
+  name: "Ві-Ю ІПА"
+  description: "Незрозумілий родич пива. Розлито в банки корпорацією Вейланд-Ютані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/ale.rsi
@@ -312,8 +312,8 @@
 - type: entity
   parent: DrinkCanPack
   id: RMCBeerPack
-  name: Sequoia beer pack
-  description: A pack of Sequoia beer cans.
+  name: "упаковка пива «Секвойя»"
+  description: "Упаковка банок пива «Секвойя»."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/beer_pack.rsi
@@ -369,8 +369,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: RMCDrinkCanSequoiaBeer
-  name: Weyland-Yutani sequoia beer
-  description: "Pretty good when you get past the fact that it tastes like piss. Canned by the Weyland-Yutani Corporation."
+  name: "пиво «Секвойя» від Вейланд-Ютані"
+  description: "Досить непогано, якщо змиритися з тим фактом, що на смак воно як сеча. Розлито в банки корпорацією Вейланд-Ютані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/beer_pack.rsi
@@ -403,8 +403,8 @@
 - type: entity
   parent: CMDrinkCanBase
   id: CMDrinkCanBobda
-  name: suoto can
-  description: Canned in Havana.
+  name: "бляшанка «Суото»"
+  description: "Розлито в банки в Гавані."
   abstract: true
   components:
   - type: Sprite
@@ -415,8 +415,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaClassic
-  name: suoto classic
-  description: The can boldly proclaims it to be tangerine flavored. You can't help but think that's a lie. Canned in Havana.
+  name: "«Суото Класік»"
+  description: "Бляшанка сміливо проголошує, що смак мандариновий. Ви не можете не подумати, що це брехня. Розлито в банки в Гавані."
   components:
   - type: SolutionContainerManager
     solutions:
@@ -429,8 +429,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaCherry
-  name: cherry suoto
-  description: Now with more artificial flavors! Canned in Havana
+  name: "вишневий «Суото»"
+  description: "Тепер з ще більшою кількістю штучних ароматизаторів! Розлито в банки в Гавані"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/cherry.rsi
@@ -447,8 +447,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaLime
-  name: lime suoto
-  description: It's not bad. It's not good either, but it's not bad. Canned in Havana.
+  name: "лаймовий «Суото»"
+  description: "Не погано. І не добре, але не погано. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/lime.rsi
@@ -465,8 +465,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaGrape
-  name: grape suoto
-  description: An old standby for soda flavors. This, however, tastes like grape flavored cough syrup. Canned in Havana.
+  name: "виноградний «Суото»"
+  description: "Старий запас смаків содової. Однак цей на смак як виноградний сироп від кашлю. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/grape.rsi
@@ -483,8 +483,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaBlue
-  name: blue raspberry suoto
-  description: It tastes like the color blue. Technology really is amazing. Canned in Havana.
+  name: "«Суото» зі смаком блакитної малини"
+  description: "На смак як синій колір. Технології справді дивовижні. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/blueraspberry.rsi
@@ -501,8 +501,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaPeach
-  name: peach suoto
-  description: On one hand, it tastes pretty good. On the other hand, you think you can hear a peach pit rattling on the inside. Canned in Havana.
+  name: "персиковий «Суото»"
+  description: "З одного боку, на смак досить непогано. З іншого боку, ви, здається, чуєте, як всередині гримить персикова кісточка. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/peach.rsi
@@ -519,8 +519,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaCranberry
-  name: cranberry suoto
-  description: On closer inspection, the can reads, 'CRAMberry Suoto.' What the Hell is a Cramberry? Canned in Havana.
+  name: "журавлиновий «Суото»"
+  description: "При ближчому розгляді на бляшанці написано «ЖУРАВЛЯНИЙ Суото». Що в дідька таке журавлянка? Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/cranberry.rsi
@@ -537,8 +537,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaVanilla
-  name: vanilla suoto
-  description: When most soft drinks say 'vanilla,' they really mean their classic flavor with a bit of vanilla added. NOT THE SUOTO CORPORATION, BABY! This bad boy is filled to the brim with 100% pure carbonated vanilla extract! It tastes terrible. Canned in Havana.
+  name: "ванільний «Суото»"
+  description: "Коли більшість безалкогольних напоїв кажуть «ваніль», насправді мають на увазі свій класичний смак з невеликою додачею ванілі. НЕ В КОРПОРАЦІЇ СУОТО, ДИТИНКО! Цей хлопчина наповнений по самі вінця 100% чистим газованим ванільним екстрактом! На смак жахливий. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/vanilla.rsi
@@ -555,8 +555,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaPineapple
-  name: pineapple suoto
-  description: This tastes like battery acid with a full cup of sugar mixed in. Canned in Havana.
+  name: "ананасовий «Суото»"
+  description: "На смак як акумуляторна кислота з повною склянкою цукру. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/pineapple.rsi
@@ -574,8 +574,8 @@
 - type: entity
   parent: CMDrinkCanBobda
   id: CMDrinkCanBobdaDiet
-  name: diet suoto
-  description: Now with 0% fruit juice! Canned in Havana
+  name: "дієтичний «Суото»"
+  description: "Тепер з 0% фруктового соку! Розлито в банки в Гавані"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/classic.rsi
@@ -592,8 +592,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaClassicDiet
-  name: diet suoto classic
-  description: Now with 0% fruit juice! Canned in Havana
+  name: "дієтичний «Суото Класік»"
+  description: "Тепер з 0% фруктового соку! Розлито в банки в Гавані"
   components:
   - type: SolutionContainerManager
     solutions:
@@ -606,8 +606,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaCherryDiet
-  name: diet cherry suoto
-  description: It's neither diet nor cherry flavored. Canned in Havana.
+  name: "дієтичний вишневий «Суото»"
+  description: "Він ні дієтичний, ні вишневий на смак. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/cherry.rsi
@@ -624,8 +624,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaLimeDiet
-  name: diet lime suoto
-  description: Ten kinds of acid, two cups of fake sugar, almost a full tank of carbon dioxide, and about 210 kPa all crammed into an aluminum can. What's not to love? Canned in Havana.
+  name: "дієтичний лаймовий «Суото»"
+  description: "Десять видів кислоти, дві склянки штучного цукру, майже повний бак вуглекислого газу та близько 210 кПа — все втиснуте в алюмінієву бляшанку. Що тут не любити? Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/lime.rsi
@@ -642,8 +642,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaGrapeDiet
-  name: diet grape suoto
-  description: You're fairly certain that this is just grape cough syrup and carbonated water. Canned in Havana.
+  name: "дієтичний виноградний «Суото»"
+  description: "Ви досить впевнені, що це просто виноградний сироп від кашлю та газована вода. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/grape.rsi
@@ -660,8 +660,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaBlueDiet
-  name: diet blue raspberry suoto
-  description: WHAT A SCAM! It doesn't even taste like blue! At best, it tastes like cyan. Canned in Havana.
+  name: "дієтичний «Суото» зі смаком блакитної малини"
+  description: "ЩО ЗА ШАХРАЙСТВО! Він навіть не на смак як синій! У кращому разі він на смак як блакитний. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/blueraspberry.rsi
@@ -678,8 +678,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaPeachDiet
-  name: diet peach suoto
-  description: On one hand, it tastes pretty good. On the other hand, you think you can hear half of a peach pit rattling on the inside. Canned in Havana.
+  name: "дієтичний персиковий «Суото»"
+  description: "З одного боку, на смак досить непогано. З іншого боку, ви, здається, чуєте, як всередині гримить половина персикової кісточки. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/peach.rsi
@@ -696,8 +696,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaCranberryDiet
-  name: diet cranberry suoto
-  description: This tastes more like prunes than cranberries. It's not bad; it's just wrong. Canned in Havana.
+  name: "дієтичний журавлиновий «Суото»"
+  description: "На смак він більше нагадує чорнослив, ніж журавлину. Не погано; просто неправильно. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/cranberry.rsi
@@ -716,8 +716,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaVanillaDiet
-  name: diet vanilla suoto
-  description: This is a can of watery bitter vanilla extract. You can't possibly imagine who would greenlight such a concept. Canned in Havana.
+  name: "дієтичний ванільний «Суото»"
+  description: "Це бляшанка водянистого гіркого ванільного екстракту. Ви не уявляєте, хто міг би схвалити таку концепцію. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/vanilla.rsi
@@ -736,8 +736,8 @@
 - type: entity
   parent: CMDrinkCanBobdaDiet
   id: CMDrinkCanBobdaPineappleDiet
-  name: diet pineapple suoto
-  description: This tastes like battery acid with a half cup of sugar mixed in. Canned in Havana.
+  name: "дієтичний ананасовий «Суото»"
+  description: "На смак як акумуляторна кислота з половиною склянки цукру. Розлито в банки в Гавані."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Consumable/Drinks/Bobda/Diet/pineapple.rsi

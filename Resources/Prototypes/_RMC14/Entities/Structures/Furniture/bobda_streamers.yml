@@ -42,8 +42,8 @@
 - type: entity
   parent: RMCStreamerBase
   id: RMCStreamerPole
-  name: pole
-  description: It connects streamer to streamer.
+  name: "стовп"
+  description: "З'єднує стрічку зі стрічкою."
 
 - type: entity
   parent: RMCStreamerPole
@@ -80,8 +80,8 @@
 - type: entity
   parent: RMCStreamerBase
   id: RMCStreamerOrange
-  name: orange streamer
-  description: They flutter softly. Poignant.
+  name: "помаранчева стрічка"
+  description: "Вони м'яко тріпотять. Зворушливо."
   components:
   - type: Sprite
     state: streamer
@@ -137,7 +137,7 @@
 - type: entity
   parent: RMCStreamerOrange
   id: RMCStreamerHorizon
-  name: horizon streamer
+  name: "горизонтна стрічка"
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Furniture/horizon_streamers.rsi
@@ -145,7 +145,7 @@
 - type: entity
   parent: RMCStreamerOrangeOffset
   id: RMCStreamerHorizonOffset
-  name: horizon streamer
+  name: "горизонтна стрічка"
   suffix: Offset
   components:
   - type: Sprite

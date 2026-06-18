@@ -2,8 +2,8 @@
   parent: [ CMBaseWeaponGun, BaseItem]
   id: RMCMachineGunM2C
   categories: [ HideSpawnMenu ]
-  name: M2C heavy machine gun
-  description: The top half of a M2C heavy machine gun post. However it ain't much use without a tripod.
+  name: "важкий кулемет M2C"
+  description: "Верхня половина поста важкого кулемета M2C. Однак без триноги він не дуже корисний."
   components:
   - type: Item
     size: Huge
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineM2C
-  name: M2C Ammunition Box (10x28mm tungsten rounds)
-  description: A box of 125, 10x28mm caseless tungsten rounds for the M2C heavy machine gun system.
+  name: "Патронна коробка M2C (10x28мм вольфрамових)"
+  description: "Коробка з 125 безгільзовими вольфрамовими набоями 10x28мм для системи важкого кулемета M2C."
   components:
   - type: Tag
     tags:
@@ -138,8 +138,8 @@
 - type: entity
   parent: RMCMagazineM2C
   id: AU14MagazineM2CTracter
-  name: M2C Tracer Ammunition Box (10x28mm tungsten tracer rounds)
-  description: A box of 125, 10x28mm caseless tungsten green tracer rounds for the M2C heavy machine gun system.
+  name: "ящик трасувальних боєприпасів M2C (10x28 мм вольфрамові трасувальні набої)"
+  description: "Ящик зі 125 безгільзовими зеленими вольфрамовими трасувальними набоями 10x28 мм для системи важкого кулемета M2C."
   components:
   - type: Tag
     tags:
@@ -157,7 +157,7 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeHMG10x28mmTungsten
-  name: cartridge (10x28mm Tungsten)
+  name: "набій (10x28мм Вольфрам)"
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Ammunition/Casings/large_casing.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: RMCCartridgeHMG10x28mmTungsten
   id: AU14CartridgeHMG10x28mmTungstenTracer
-  name: cartridge (10x28mm Tungsten Tracer)
+  name: "патрон (10x28 мм вольфрамовий трасувальний)"
   components:
   - type: CartridgeAmmo
     proto: AU14BulletHMG10x28mmTungstenTracer
@@ -186,7 +186,7 @@
 - type: entity
   parent: CMBulletBase
   id: RMCBulletHMG10x28mmTungsten
-  name: bullet (10x28mm Tungsten)
+  name: "куля (10x28мм Вольфрам)"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCBulletHMG10x28mmTungsten
   id: AU14BulletHMG10x28mmTungstenTracer
-  name: bullet (10x28mm Tungsten Tracer)
+  name: "куля (10x28 мм вольфрамова трасувальна)"
   categories: [ HideSpawnMenu ]
   components:
   - type: PointLight

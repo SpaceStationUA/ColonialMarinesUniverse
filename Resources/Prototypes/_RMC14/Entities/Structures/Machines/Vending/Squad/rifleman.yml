@@ -3,8 +3,8 @@
 - type: entity
   parent: ColMarTechBase
   id: ColMarTechEquipment
-  name: ColMarTech automated marine equipment rack
-  description: An automated rack hooked up to a colossal storage of Marine Rifleman standard-issue equipment.
+  name: "Автоматизований стелаж спорядження морпіха ColMarTech"
+  description: "Автоматизований стелаж, під'єднаний до колосального сховища стандартного спорядження Стрільця-морпіха."
   components:
   - type: AccessReader
     access:

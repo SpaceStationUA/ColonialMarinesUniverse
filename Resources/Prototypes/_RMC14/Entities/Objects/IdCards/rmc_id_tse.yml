@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMIDCardBase
   id: RMCIDCardTSEPA
-  name: TSEPA silver badge
-  description: The silver badge which represents that the wearer is a TSEPA Constable. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "срібний значок ПУ ІТС"
+  description: "Срібний значок, що позначає його носія як констебля ПУ ІТС. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/tsepa_silver.rsi
@@ -18,8 +18,8 @@
 - type: entity
   parent: CMIDCardBase
   id: RMCIDCardTSEPASilverGold
-  name: TSEPA silver gold badge
-  description: The silver with gold accents badge which represents that the wearer is a TSEPA Senior Constable. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "срібно-золотий значок ПУ ІТС"
+  description: "Срібний значок із золотими акцентами, що позначає його носія як старшого констебля ПУ ІТС. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/tsepa_silver_gold.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: CMIDCardBase
   id: RMCIDCardTSEPAGold
-  name: TSEPA gold badge
-  description: The gold badge which represents that the wearer is a TSEPA Inspector. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "золотий значок ПУ ІТС"
+  description: "Золотий значок, що позначає його носія як інспектора ПУ ІТС. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/tsepa_gold.rsi
@@ -53,8 +53,8 @@
 - type: entity
   parent: RMCIDCardTSEPA
   id: RMCIDCardTSEPASurvivor
-  name: TSEPA silver badge
-  description: The silver badge which represents that the wearer is a TSEPA Constable. It is a sign of justice, authority, and protection. Protecting those who can't. This badge represents a commitment to a sworn oath always kept.
+  name: "срібний значок ПУ ІТС"
+  description: "Срібний значок, що позначає його носія як констебля ПУ ІТС. Це знак справедливості, авторитету й захисту. Захищаючи тих, хто не може. Цей значок уособлює відданість присязі, що завжди дотримується."
   suffix: Survivor
   components:
   - type: ItemIFF

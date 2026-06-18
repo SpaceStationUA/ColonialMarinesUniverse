@@ -30,8 +30,8 @@
 - type: entity
   parent: [ClothingOuterStorageBase, RMCAllowSuitStorageClothingExternalWebbing]
   id: RMCOuterClothingExternalWebbing
-  name: external webbing
-  description: Designed to be worn over a jumpsuit rather than clipped on.
+  name: "зовнішня розвантаження"
+  description: "Створена для носіння поверх комбінезона, а не для пристібання."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/OuterClothing/Misc/external_webbing.rsi

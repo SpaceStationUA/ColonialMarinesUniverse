@@ -1,6 +1,6 @@
 - type: entity
   id: AU14SkillPresetPlatoonRifleman
-  name: Rifleman
+  name: "стрілець"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -16,7 +16,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonRTO
-  name: Radio Traffic Operator
+  name: "оператор радіозв’язку"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -33,7 +33,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonAutomaticRifleman
-  name: Automatic Rifleman
+  name: "автоматник"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -50,7 +50,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonHospitalCorpsman
-  name: Hospital Corpsman
+  name: "госпітальний корпусман"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -68,7 +68,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonCombatTechnician
-  name: Combat Technician
+  name: "бойовий технік"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -85,7 +85,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonSergeant
-  name: Sergeant
+  name: "сержант"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -103,7 +103,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonSeniorSergeant
-  name: Senior Sergeant
+  name: "старший сержант"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -128,7 +128,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonJuniorOfficer
-  name: Junior Officer
+  name: "молодший офіцер"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -153,7 +153,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonCommander
-  name: Commander
+  name: "командир"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -178,7 +178,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonAdvisor
-  name: Advisor
+  name: "радник"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -203,7 +203,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonDP
-  name: Dropship Pilot
+  name: "пілот десантного корабля"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -228,7 +228,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonDCC
-  name: Dropship Crew Chief
+  name: "старшина екіпажу десантного корабля"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -251,7 +251,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonAuxiliarySupportSynth
-  name: Auxiliary Support Synth
+  name: "допоміжний синтетик підтримки"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -278,7 +278,7 @@
 
 - type: entity
   id: AU14SkillPresetMilitaryDoctor
-  name: Military Doctor
+  name: "військовий лікар"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -295,7 +295,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonWorkingJoe
-  name: Working Joe
+  name: "Воркінг Джо"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -314,7 +314,7 @@
 
 - type: entity
   id: AU14SkillPresetMilitaryPolice
-  name: Military Police
+  name: "військова поліція"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset
@@ -332,7 +332,7 @@
 
 - type: entity
   id: AU14SkillPresetPlatoonAuxTech
-  name: Auxiliary Technician
+  name: "допоміжний технік"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset

@@ -1,9 +1,9 @@
 - type: entity
   parent: CMBaseWeaponSMG
-  name: "L7A3 Submachine Gun"   #CM name is L6A2
+  name: "Пістолет-кулемет L7A3"   #CM name is L6A2
   suffix: PVE, Filled
   id: RMCWeaponSMGL7A3
-  description: RCM adopted variant of the M63 SMG, re-engineered for better weight, handling and accuracy. Typically used in CQB engagements such as building-clearance, where the L24A1 proved a tad too unwieldy. Sometimes referred to as the "Little Armat" by Royal Marines.
+  description: "Прийнятий МКК варіант ПК M63, перероблений для кращої ваги, керування й точності. Зазвичай використовується в боях ближньої дистанції, як-от зачищення будівель, де L24A1 виявився трохи громіздким. Інколи Королівські Морпіхи називають його «Маленький Армат»."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/SMGs/L7A3.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineSMGL7A3SquashHead
-  name: "L7A3 Magazine Squash-Head (9mm)"
+  name: "Магазин L7A3 з пласкими головками (9мм)"
   components:
   - type: Tag
     tags:
@@ -139,7 +139,7 @@
 - type: entity
   parent: CMCartridgeSMGBase
   id: RMCCartridgeSMG9mmSquashHead
-  name: 9mm Squash-Head Cartridge
+  name: "Набій 9мм з пласкою головкою"
   components:
   - type: Tag
     tags:
@@ -151,7 +151,7 @@
 - type: entity # todo rmc14 this is missing a lot of effects, shrapnel, debilitate etc
   parent: CMBulletBase
   id: RMCBulletSMG9mmSquashHead
-  name: 9mmSquash-HeadBullet
+  name: "Куля 9мм з пласкою головкою"
   categories: [ HideSpawnMenu ]
   components:
   - type: Projectile

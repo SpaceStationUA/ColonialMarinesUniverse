@@ -1,6 +1,6 @@
 - type: entity
   id: CMU14TearGas
-  name: Tear Gas
+  name: "сльозогінний газ"
   components:
   - type: Transform
     anchored: true
@@ -57,7 +57,7 @@
 - type: entity
   id: CMU14InstantTearGas
   parent: CMU14TearGas
-  name: Tear Gas
+  name: "сльозогінний газ"
   components:
   - type: TimedDespawn
     lifetime: 6

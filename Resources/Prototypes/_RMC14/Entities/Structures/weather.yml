@@ -1,8 +1,8 @@
 ﻿# Rain
 - type: entity
   id: RMCHybrisaRainLightProp
-  name: light rain
-  description: It's a small amount of rain, falling from the sky.
+  name: "легкий дощ"
+  description: "Це невелика кількість дощу, що падає з неба."
   suffix: prop, Hybrisa, weather
   placement:
     mode: SnapgridCenter
@@ -17,8 +17,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCHybrisaRainVeryLightProp
-  name: very light rain
-  description: It's a very small amount of rain, falling from the sky.
+  name: "дуже легкий дощ"
+  description: "Це дуже невелика кількість дощу, що падає з неба."
   suffix: prop, Hybrisa, weather
   placement:
     mode: SnapgridCenter
@@ -31,8 +31,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCHybrisaRainProp
-  name: rain
-  description: It's rain, falling from the sky.
+  name: "дощ"
+  description: "Це дощ, що падає з неба."
   suffix: prop, Hybrisa, weather
   placement:
     mode: SnapgridCenter
@@ -45,8 +45,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCTrijentRainLightProp
-  name: light rain
-  description: It's a small amount of rain, falling from the sky.
+  name: "легкий дощ"
+  description: "Це невелика кількість дощу, що падає з неба."
   suffix: prop, Trijent, weather
   placement:
     mode: SnapgridCenter
@@ -59,8 +59,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCStrataStormVeryLightProp
-  name: very light rain
-  description: It's a very small amount of rain, falling from the sky.
+  name: "дуже легкий дощ"
+  description: "Це дуже невелика кількість дощу, що падає з неба."
   suffix: prop, Strata, weather
   placement:
     mode: SnapgridCenter
@@ -73,8 +73,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCStrataStormLightProp
-  name: light rain
-  description: It's a small amount of rain, falling from the sky.
+  name: "легкий дощ"
+  description: "Це невелика кількість дощу, що падає з неба."
   suffix: prop, Strata, weather
   placement:
     mode: SnapgridCenter
@@ -87,8 +87,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCStrataStormProp
-  name: rain
-  description: It's rain, falling from the sky.
+  name: "дощ"
+  description: "Це дощ, що падає з неба."
   suffix: prop, Strata, weather
   placement:
     mode: SnapgridCenter
@@ -103,8 +103,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCBigRedDustProp
-  name: duststorm
-  description: It's dust, falling from the sky.
+  name: "курна буря"
+  description: "Це пил, що падає з неба."
   suffix: prop, Solaris, weather
   placement:
     mode: SnapgridCenter
@@ -117,8 +117,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCBigRedSandProp
-  name: sandstorm
-  description: It's sand, falling from the sky.
+  name: "піщана буря"
+  description: "Це пісок, що падає з неба."
   suffix: prop, Solaris, weather
   placement:
     mode: SnapgridCenter
@@ -131,8 +131,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCBigRedRocksProp
-  name: rockstorm
-  description: It's rocks, falling from the sky.
+  name: "кам'яна буря"
+  description: "Це каміння, що падає з неба."
   suffix: prop, Solaris, weather
   placement:
     mode: SnapgridCenter
@@ -147,8 +147,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCStrataClearskyProp
-  name: light snow
-  description: It's snow, falling from the sky.
+  name: "легкий сніг"
+  description: "Це сніг, що падає з неба."
   suffix: prop, Strata, weather
   placement:
     mode: SnapgridCenter
@@ -161,8 +161,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCStrataSnowingProp
-  name: snowstorm
-  description: It's snow, falling from the sky.
+  name: "снігопад"
+  description: "Це сніг, що падає з неба."
   suffix: prop, Strata, weather
   placement:
     mode: SnapgridCenter
@@ -175,8 +175,8 @@
 - type: entity
   parent: RMCHybrisaRainLightProp
   id: RMCStrataBlizzardProp
-  name: blizzard
-  description: It's a lot of snow, falling from the sky.
+  name: "хуртовина"
+  description: "Це багато снігу, що падає з неба."
   suffix: prop, Strata, weather
   placement:
     mode: SnapgridCenter

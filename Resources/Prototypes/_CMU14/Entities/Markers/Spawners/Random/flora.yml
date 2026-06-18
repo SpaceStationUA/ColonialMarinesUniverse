@@ -1,6 +1,6 @@
 - type: entity
   id: CMURandomFloraTree
-  name: random tree spawner
+  name: "спавнер випадкового дерева"
   parent: MarkerBase
   suffix: CMU
   components:
@@ -23,7 +23,7 @@
 
 - type: entity
   id: CMURandomFloraTreeSnow
-  name: random tree snow spawner
+  name: "спавнер випадкового снігового дерева"
   parent: MarkerBase
   suffix: CMU
   components:
@@ -51,7 +51,7 @@
 
 - type: entity
   id: CMURandomFloraTreeLarge
-  name: random tree large spawner
+  name: "спавнер випадкового великого дерева"
   parent: MarkerBase
   suffix: CMU
   components:
@@ -74,7 +74,7 @@
 
 - type: entity
   id: CMURandomFloraTreeConifer
-  name: random tree conifer spawner
+  name: "спавнер випадкової хвойної"
   parent: MarkerBase
   suffix: CMU
   components:

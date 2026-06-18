@@ -3,7 +3,7 @@
 - type: accessGroup
   id: SquadLeader
   parent: RMCBaseMarinesJob
-  name: Squad Leader
+  name: "Лідер загону"
   tags:
   - CMAccessMarinePrep
   - CMAccessSquadLeaderPrep
@@ -12,7 +12,7 @@
 - type: accessGroup
   id: FTL
   parent: RMCBaseMarinesJob
-  name: Fireteam Leader
+  name: "Лідер вогневої групи"
   tags:
   - CMAccessMarinePrep
   - CMAccessFTLPrep
@@ -20,7 +20,7 @@
 - type: accessGroup
   id: WeaponSpec
   parent: RMCBaseMarinesJob
-  name: Weapons Specialist
+  name: "Спеціаліст зі зброї"
   tags:
   - CMAccessMarinePrep
   - CMAccessSpecPrep
@@ -28,7 +28,7 @@
 - type: accessGroup
   id: SmartGunOperator
   parent: RMCBaseMarinesJob
-  name: Smart Gunner
+  name: "Розумний кулеметник"
   tags:
   - CMAccessMarinePrep
   - CMAccessSmartPrep
@@ -36,7 +36,7 @@
 - type: accessGroup
   id: HospitalCorpsman
   parent: RMCBaseMarinesJob
-  name: Hospital Corpsman
+  name: "Корабельний санітар"
   tags:
   - CMAccessMarinePrep
   - CMAccessMedPrep
@@ -45,7 +45,7 @@
 - type: accessGroup
   id: CombatTech
   parent: RMCBaseMarinesJob
-  name: Combat Technician
+  name: "Бойовий технік"
   tags:
   - CMAccessMarinePrep
   - CMAccessCombatTechPrep
@@ -55,7 +55,7 @@
 - type: accessGroup
   id: Rifleman
   parent: RMCBaseMarinesJob
-  name: Rifleman
+  name: "Стрілець"
   tags:
   - CMAccessMarineRifleman
   - CMAccessMarinePrep

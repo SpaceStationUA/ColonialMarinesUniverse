@@ -2,7 +2,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidAlphaCombatTech
-  name: alpha ghost role combat technician
+  name: "альфа привид-роль бойового техніка"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -19,7 +19,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidAlphaFireteamLeader
-  name: alpha ghost role fireteam leader
+  name: "альфа привид-роль лідера вогневої команди"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -36,7 +36,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidAlphaHospitalCorpsman
-  name: alpha ghost role hospital corpsman
+  name: "альфа привид-роль шпитального корпсмена"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -53,7 +53,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidAlphaRifleman
-  name: alpha ghost role rifleman
+  name: "альфа привид-роль стрільця"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -70,7 +70,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidAlphaSmartGunOperator
-  name: alpha ghost role smart gun operator
+  name: "альфа привид-роль оператора смартгана"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -87,7 +87,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidAlphaSquadLeader
-  name: alpha ghost role squad leader
+  name: "альфа привид-роль лідера загону"
   suffix: Spawner, Player
   components:
   - type: Sprite
@@ -104,7 +104,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidAlphaWeaponsSpecialist
-  name: alpha ghost role weapons specialist
+  name: "альфа привид-роль спеціаліста з озброєння"
   suffix: Spawner, Player
   components:
   - type: Sprite
