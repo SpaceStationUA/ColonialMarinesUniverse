@@ -1,8 +1,8 @@
 - type: entity
-  name: "таблетка"
+  name: pill
   parent: BaseItem
   id: CMPill
-  description: "Таблетка."
+  description: "A pill."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Chemistry/pills.rsi
@@ -262,7 +262,7 @@
 - type: entity
   parent: CMPill
   id: RMCPillCyanide
-  description: "Ціанідова таблетка. Не ковтайте її!"
+  description: A cyanide pill. Don't swallow this!
   components:
   - type: SolutionContainerManager
     solutions:

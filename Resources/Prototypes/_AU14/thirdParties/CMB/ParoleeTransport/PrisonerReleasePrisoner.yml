@@ -2,7 +2,7 @@
   parent: AU14JobLEOBase
   id: AU14JobTransportParoleeJob
   name: au14-job-name-civilianprisoner
-  description: "Вас перевозять додому для умовного звільнення після відбуття строку за попередні злочини."
+  description: You are being transported back to your home to be released on parole after serving a sentence for your previous crimes.
   setPreference: false
   canBeAntag: false
   requirements:
@@ -44,7 +44,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobTransportParolee
-  name: "Умовно звільнений (цивільний)"
+  name: Parolee (civilian)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -52,7 +52,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: "Умовно звільнений (цивільний)"
+    name: Parolee (civilian)
     description: After having served your sentence you are being transported back home to be released on parole.
     reregister: false
     job: AU14JobTransportParoleeJob

@@ -1,5 +1,5 @@
 - type: entity
   parent: RMCHEFAArmband
   id: AU14ArmbandYellow
-  name: "жовта пов’язка"
-  description: "Ошатна жовта пов’язка."
+  name: yellow armband
+  description: Fancy yellow armband.

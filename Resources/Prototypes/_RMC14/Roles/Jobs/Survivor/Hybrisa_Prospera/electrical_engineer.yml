@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetHybrisaEngineer
-  name: "пресет колоніста-інженера гібріси"
+  name: hybrisa engineer colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: CMBaseWeaponSMG
-  name: "пістолет-кулемет MP5"
+  name: MP5 submachinegun
   id: WeaponSMGMP5
-  description: "Німецький дизайн — це був один із найпоширеніших пістолетів-кулеметів у світі. Цю зброю досі можна знайти в руках колекціонерів чи фанатів зброї."
+  description: A German design, this was one of the most widely used submachine guns in the world. It's still possible to find this firearm in the hands of collectors or gun fanatics.
   suffix: Filled
   components:
   - type: Sprite
@@ -102,8 +102,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: CMMagazineSMGMP5
-  name: "Магазин MP5 (9мм)"
-  description: "Магазин 9мм для MP5."
+  name: "MP5 magazine (9mm)"
+  description: "A 9mm magazine for the MP5."
   components:
   - type: Tag
     tags:
@@ -133,8 +133,8 @@
 - type: entity
   parent: CMCartridge10x20mm
   id: CMCartridge9mmSMG
-  name: "набій (9мм SMG)"
-  description: "Набій 9мм для пістолета-кулемета mp5."
+  name: cartridge (9mm SMG)
+  description: A 9mm cartridge for the mp5 submachinegun.
   components:
   - type: Tag
     tags:

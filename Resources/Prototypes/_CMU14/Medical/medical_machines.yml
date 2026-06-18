@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUAutodocPod
-  name: "капсула автодока"
-  description: "Автоматизована хірургічна капсула для запланованих медичних процедур."
+  name: autodoc pod
+  description: An automated surgical pod for queued medical procedures.
   placement:
     mode: SnapgridCenter
   components:
@@ -72,8 +72,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUAutodocConsole
-  name: "консоль автодока"
-  description: "Спеціалізований термінал для постановки процедур у чергу для сусідньої капсули автодока."
+  name: autodoc console
+  description: A dedicated terminal for queuing procedures on a nearby autodoc pod.
   placement:
     mode: SnapgridCenter
   components:
@@ -118,8 +118,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUBodyScannerPod
-  name: "капсула сканера тіла"
-  description: "Повнотілий діагностичний сканер із закритим відсіком для пацієнта."
+  name: body scanner pod
+  description: A full-body diagnostic scanner with an enclosed patient bay.
   placement:
     mode: SnapgridCenter
   components:
@@ -172,8 +172,8 @@
 - type: entity
   parent: BaseStructure
   id: CMUBodyScannerConsole
-  name: "консоль сканера тіла"
-  description: "Медична консоль для перегляду закритих сканувань тіла та калібрування хірургічної допомоги."
+  name: body scanner console
+  description: A medical console for reviewing enclosed body scans and calibrating surgical assistance.
   placement:
     mode: SnapgridCenter
   components:
@@ -218,8 +218,8 @@
 - type: entity
   parent: BaseStructure
   id: CMULimbPrinter
-  name: "принтер кінцівок"
-  description: "Хірургічний принтер, що вирощує органічні замінні кінцівки або виготовляє роботизовані протези з металу й кабелю."
+  name: limb printer
+  description: A surgical printer that grows organic replacement limbs or fabricates robotic prosthetics from metal and cable.
   placement:
     mode: SnapgridCenter
   components:
@@ -314,7 +314,7 @@
 - type: entity
   parent: CMBeakerLarge
   id: CMULimbPrinterMatrixBeaker
-  name: "мензурка біогенної матриці"
+  name: biogenic matrix beaker
   suffix: CMU, Filled
   components:
   - type: Label

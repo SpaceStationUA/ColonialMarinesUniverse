@@ -1,8 +1,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14LACNNavyCap
-  name: "кашкет ЛАКН"
-  description: "Стандартний кашкет, виготовлений для ЛАКН."
+  name: LACN Cap
+  description: A standard cap made for the LACN.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/HelmetsHats/lacnnavycap.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14LACNCommandoBeanie
-  name: "біні командос ЛАКН"
-  description: "Біні, яке використовують морські командос ЛАКН."
+  name: LACN Commandos Beanie
+  description: A beanie used by the Naval Commandos of the LACN.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/LACN/HelmetsHats/lacncommandobeanie.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: ClothingHeadBase
   id: AU14USASFSECFORBeret
-  name: "берет сил безпеки Аерокосмічних сил США"
-  description: "Берет із відзнакою сил безпеки Аерокосмічних сил США."
+  name: USASF Security Forces Beret
+  description: A beret bearing the insignia of the USASF Security Forces.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/USASFSecurityForces/beret.rsi

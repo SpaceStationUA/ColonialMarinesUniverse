@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: AU14AreaUSSGeorgeBush
-  name: "USS «Джордж В. Буш»"
+  name: "USS George W. Bush"
   components:
   - type: Area
     powerNet: Bush
@@ -20,27 +20,27 @@
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushReflectionRoom
-  name: "Кімната роздумів"
+  name: "Reflection Room"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBushUpperStarboardSideFuelPumps
   id: AU14AreaUSSGeorgeBushLowerPortSideFuelPumps
-  name: "нижні паливні насоси лівого борту"
+  name: "Port Side Lower Fuel Pumps"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBushUpperStarboardSideFuelPumps
   id: AU14AreaUSSGeorgeBushUpperPortSideFuelPumps
-  name: "верхні паливні насоси лівого борту"
+  name: "Port Side Upper Fuel Pumps"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBushUpperStarboardSideFuelPumps
   id: AU14AreaUSSGeorgeBushLowerStarboardSideFuelPumps
-  name: "нижні паливні насоси правого борту"
+  name: "Starboard Side Lower Fuel Pumps"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBushUpperEngineeringFuelPumps
   id: AU14AreaUSSGeorgeBushUpperStarboardSideFuelPumps
-  name: "верхні паливні насоси правого борту"
+  name: "Starboard Side Upper Fuel Pumps"
   components:
   - type: Area
     powerNet: Bush
@@ -62,7 +62,7 @@
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushUpperEngineeringFuelPumps
-  name: "головні паливні насоси інженерного відділу"
+  name: "Main Engineering Fuel Pumps"
   components:
   - type: Area
     powerNet: Bush
@@ -84,132 +84,132 @@
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushMedbay
-  name: "Медвідсік"
+  name: "Medbay"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushMorgue
-  name: "Морг"
+  name: "Morgue"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushUpperBowHallway
-  name: "Верхній носовий коридор"
+  name: "Upper Bow Hallway"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushLowerBowHallway
-  name: "Нижній носовий коридор"
+  name: "Lower Bow Hallway"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushUpperSternHallway
-  name: "Верхній кормовий коридор"
+  name: "Upper Stern Hallway"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushLowerSternHallway
-  name: "Нижній кормовий коридор"
+  name: "Lower Stern Hallway"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushResearch
-  name: "Дослідження"
+  name: "Research"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushResearchContainment
-  name: "Дослідницьке утримання"
+  name: "Research Containment"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushChemroom
-  name: "Хімлабораторія"
+  name: "Chemroom"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushAICoreReception
-  name: "Приймальня ядра ШІ"
+  name: "AI Core Reception"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushAICoreLower
-  name: "Нижнє ядро ШІ"
+  name: "AI Core Lower"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushAICoreUpper
-  name: "Верхнє ядро ШІ"
+  name: "AI Core Upper"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushCrewAccommodationsOne
-  name: "Каюти екіпажу один"
+  name: "Crew Accommodations One"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushCrewAccommodationsTwo
-  name: "Каюти екіпажу два"
+  name: "Crew Accommodations Two"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushCrewAccommodationsThree
-  name: "Каюти екіпажу три"
+  name: "Crew Accommodations Three"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushBrigs
-  name: "Бриги"
+  name: "Brigs"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushEvacuationMusterArea
-  name: "Зона збору для евакуації"
+  name: "Evacuation Muster Area"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushUPPAmbassadorsOffice
-  name: "Офіс послів UPP"
+  name: "UPP Ambassadors Office"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushUAAmbassadorsOffice
-  name: "Офіс послів UA"
+  name: "UA Ambassadors Office"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushCommandOffice
-  name: "Командний офіс"
+  name: "Command Office"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushCombatInformationCenter
-  name: "Бойовий інформаційний центр"
+  name: "Combat Information Center"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushIntelRoom
-  name: "Кімната розвідки"
+  name: "Intel Room"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushCommandersOffice
-  name: "Офіс командира"
+  name: "Commanders Office"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushVehicleBayOne
-  name: "Транспортний відсік один"
+  name: "Vehicle Bay One"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushVehicleBayTwo
-  name: "Транспортний відсік два"
+  name: "Vehicle Bay Two"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushFlightdeck
-  name: "Польотна палуба"
+  name: "Flight Deck"
   components:
   - type: Area
     powerNet: Bush
@@ -228,64 +228,64 @@
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushRequisitions
-  name: "Постачання"
+  name: "Requisitions"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushOrdnanceProduction
-  name: "Офіс озброєння"
+  name: "Ordnance Office"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushHypersleep
-  name: "Гіперсон"
+  name: "Hypersleep"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushGeneralCrewQuarters
-  name: "Нижні каюти екіпажу"
+  name: "Lower Crew Accommodations"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushCombatArmsPreparations
-  name: "Підготовка бойових підрозділів"
+  name: "Combat Arms Preparations"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushGalleyEatery
-  name: "Їдальня камбуза"
+  name: "Galley Eatery"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushGalleyKitchen
-  name: "Кухня камбуза"
+  name: "Galley Kitchen"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushSecurityOffice
-  name: "Нижній офіс безпеки"
+  name: "Lower Security Office"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushBriefingRoom
-  name: "Кімната брифінгу"
+  name: "Briefing Room"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushGeneratorRoom
-  name: "Генераторна"
+  name: "Generator Room"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushEmergencyEngineeringStorage
-  name: "Нижній інженерний склад"
+  name: "Lower Engineering Storage"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushEngineeringOffice
-  name: "Нижній інженерний офіс"
+  name: "Lower Engineering Office"
 
 - type: entity
   parent: AU14AreaUSSGeorgeBush
   id: AU14AreaUSSGeorgeBushLowerEngineering
-  name: "Нижня інженерія"
+  name: "Lower Engineering"

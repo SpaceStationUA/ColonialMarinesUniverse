@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: RMCAreaPRT
-  name: "Пратчетт"
+  name: Pratchett
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_pratchett.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHypersleep
-  name: "Склад гіперсну"
+  name: Hypersleep Storage
   components:
   - type: Sprite
     state: medical
@@ -35,7 +35,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTGalley
-  name: "Камбуз"
+  name: Galley
   components:
   - type: Sprite
     state: public
@@ -43,7 +43,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCanteen
-  name: "Їдальня"
+  name: Canteen
   components:
   - type: Sprite
     state: public1
@@ -51,7 +51,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTLounge
-  name: "Спільна зала відпочинку"
+  name: Common Lounge
   components:
   - type: Sprite
     state: public
@@ -59,7 +59,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTMedbay
-  name: "Медичний відсік"
+  name: Medical Bay
   components:
   - type: Sprite
     state: medical
@@ -67,7 +67,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTOffice
-  name: "Кабінет командира військ"
+  name: Troop Commander's Office
   components:
   - type: Sprite
     state: medical
@@ -76,7 +76,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCargoBayUpper
-  name: "Карго-відсік верхньої палуби"
+  name: Upper Deck Cargo Bay
   components:
   - type: Sprite
     state: cargo
@@ -85,7 +85,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCargoBayLower
-  name: "Допоміжна станція передачі вантажів нижньої палуби"
+  name: Lower Deck Auxiliary Cargo Transfer Station
   components:
   - type: Sprite
     state: cargo
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTMaintenaceLower
-  name: "Обслуговування нижньої палуби"
+  name: Lower Deck Maintenance
   components:
   - type: Sprite
     state: maints
@@ -102,7 +102,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTMaintenanceUpper
-  name: "Обслуговування верхньої палуби"
+  name: Upper Deck Maintenance
   components:
   - type: Sprite
     state: maints
@@ -111,7 +111,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTEngineering
-  name: "Інженерний відсік"
+  name: Engineering Bay
   components:
   - type: Sprite
     state: engi
@@ -119,7 +119,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHangar
-  name: "Ангарний відсік"
+  name: Hangar Bay
   components:
   - type: Sprite
     state: hangar
@@ -127,7 +127,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHangarCargo
-  name: "Склад ангара"
+  name: Hangar Storage
   components:
   - type: Sprite
     state: cargo
@@ -135,7 +135,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTHallways
-  name: "Коридори верхньої палуби"
+  name: Upper Deck Hallways
   components:
   - type: Sprite
     state: public2
@@ -143,7 +143,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTDisposalsLower
-  name: "Шахта первинної утилізації обробленого сміття"
+  name: Processed Waste Primary Disposal Shaft
   components:
   - type: Sprite
     state: public1
@@ -152,7 +152,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTDisposalsUpper
-  name: "Попередня обробка сміття верхньої палуби"
+  name: Upper Deck Preliminary Waste Processing
   components:
   - type: Sprite
     state: public
@@ -160,7 +160,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTSurgicalBay
-  name: "Хірургічний відсік"
+  name: Surgical Bay
   components:
   - type: Sprite
     state: medical
@@ -168,7 +168,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTArmory
-  name: "Склад озброєння"
+  name: Armaments Storage
   components:
   - type: Sprite
     state: public2
@@ -176,7 +176,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTSynth
-  name: "Склад синтетика"
+  name: Synthetic Storage
   components:
   - type: Sprite
     state: public
@@ -184,7 +184,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTAICoreOuter
-  name: "Зовнішня камера ядра SHIVA"
+  name: SHIVA Core Outer Chamber
   components:
   - type: Sprite
     state: engi
@@ -192,7 +192,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTAICoreInner
-  name: "Внутрішня камера ядра SHIVA"
+  name: SHIVA Core Inner Chamber
   components:
   - type: Sprite
     state: hangar
@@ -200,7 +200,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTBunks
-  name: "Каюта"
+  name: Bunkroom
   components:
   - type: Sprite
     state: medical
@@ -208,7 +208,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTBriefing
-  name: "Кімната брифінгу"
+  name: Briefing Room
   components:
   - type: Sprite
     state: public2
@@ -216,7 +216,7 @@
 - type: entity
   parent: RMCAreaPRT
   id: RMCAreaPRTCraneTunnel
-  name: "Шахта вантажного транзиту"
+  name: Cargo Transit Shaft
   components:
   - type: Sprite
     state: maints

@@ -45,8 +45,8 @@
 - type: entity
   parent: CMClosetRadiation
   id: CMClosetRadiationFilledTycho
-  name: "шафа для радіаційних костюмів"
-  description: "Це сховище для протирадіаційних костюмів."
+  name: radiation suit closet
+  description: It's a storage unit for rad-protective suits.
   suffix: Filled, Tycho 4000 Suit
   components:
   - type: StorageFill

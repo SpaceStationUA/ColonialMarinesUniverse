@@ -1,36 +1,36 @@
 ﻿- type: rank
   id: RMCRankCivilian
-  name: "Цивільний"
+  name: Civilian
   prefix: Civ.
   malePrefix: Mr.
   femalePrefix: Ms.
 
 - type: rank
   id: RMCRankCivilianNurse
-  name: "Медсестра"
+  name: Nurse
   prefix: Nrs.
 
 - type: rank
   id: RMCRankCivilianDoctor
-  name: "Лікар"
+  name: Doctor
   prefix: Dr.
 
 - type: rank
   id: RMCRankCivilianScientist
-  name: "Науковець"
+  name: Scientist
   prefix: Dr.
 
 - type: rank
   id: RMCRankCivilianRepresentative
-  name: "Представник"
+  name: Representative
   prefix: Rep.
 
 - type: rank
   id: RMCRankCivilianOfficer
-  name: "Офіцер"
+  name: Officer
   prefix: Off.
 
 - type: rank
   id: RMCRankCivilianSeniorOfficer
-  name: "Старший офіцер"
+  name: Senior Officer
   prefix: Sr. Off.

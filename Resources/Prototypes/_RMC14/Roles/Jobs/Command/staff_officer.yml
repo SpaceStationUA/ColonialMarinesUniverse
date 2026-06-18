@@ -89,7 +89,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointStaffOfficer
-  name: "спавнер штабного офіцера"
+  name: staff officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMStaffOfficer
@@ -103,8 +103,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleSO
-  name: "Штабний офіцер"
-  description: "Штабний офіцер."
+  name: A Staff Officer
+  description: A Staff Officer.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

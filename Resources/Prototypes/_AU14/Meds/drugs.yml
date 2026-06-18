@@ -39,7 +39,7 @@
 - type: entity
   id: AU14DrugDealerDrugBottle
   parent: PillCanister
-  name: "пляшка «Демон швидкості»"
+  name: Speed Demon Bottle
   components:
     - type: Label
       currentLabel: Speed Demon
@@ -51,8 +51,8 @@
 - type: entity
   id: AU14PillSpeedDemon
   parent: CMPill
-  name: "пігулка «Демон швидкості»"
-  description: "Пігулка, що містить небезпечний вуличний наркотик «Демон швидкості»."
+  name: Speed Demon Pill
+  description: A pill containing the dangerous street drug Speed Demon.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -73,7 +73,7 @@
 - type: entity
   parent: PillCanister
   id: AU14PillBottleSpaceDrugs
-  name: "флакон пігулок ЛСД"
+  name: Bottle of LSD Pills
   components:
   - type: Label
     currentLabel: Drugs
@@ -86,8 +86,8 @@
 - type: entity
   id: AU14PillRMCPsilocybin
   parent: CMPill
-  name: "пігулка з мелених грибів"
-  description: "Пігулка, що містить психоактивну сполуку псилоцибін."
+  name: Grounded Mushrooms Pill
+  description: A pill containing the psychoactive compound Psilocybin.
   components:
   - type: SolutionContainerManager
     solutions:
@@ -106,7 +106,7 @@
 - type: entity
   parent: PillCanister
   id: AU14PillBottleRMCPsilocybin
-  name: "флакон пігулок псилоцибіну"
+  name: Bottle of Psilocybin Pills
   components:
   - type: Label
     currentLabel: RMCPsilocybin

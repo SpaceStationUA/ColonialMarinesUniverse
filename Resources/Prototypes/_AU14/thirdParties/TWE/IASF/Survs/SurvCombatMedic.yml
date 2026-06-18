@@ -12,7 +12,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicTWEIASF
   id: AU14IASFsurvMedicalTechnician
-  name: "медичний технік ІЗКС (вцілілий)"
+  name: IASF Medical Technician (Survivor)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

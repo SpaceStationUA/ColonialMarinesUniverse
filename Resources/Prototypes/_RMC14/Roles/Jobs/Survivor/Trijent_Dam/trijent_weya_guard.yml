@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentGoon
-  name: "спавнер weya-секохоронця triджент-вцілілого"
+  name: survivor trijent weya secguard spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorTrijentGoon

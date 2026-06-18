@@ -2,8 +2,8 @@
   parent: CMPersonalStorageBase
   id: RMCK9SynthHarnessBase
   abstract: true
-  name: "вантажна підвісна система K9"
-  description: "Підвісна система анатомічної форми для синтетичних підрозділів K9."
+  name: K9 carry harness
+  description: A form-fitted carry harness for synthetic K9 units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/K9Synth/harnesses.rsi
@@ -25,14 +25,14 @@
 - type: entity
   parent: RMCK9SynthHarnessBase
   id: RMCK9SynthCargoHarness
-  name: "портативний K9-рюкзак M209"
-  description: "Анатомічної форми для лінії синтетиків Рятувальної Одиниці K9. Призначений для перенесення спорядження на поле бою."
+  name: M209 portable K9 backpack
+  description: Form fitted for the K9 Rescue Unit line of synthetics. Designed to lug gear into the battlefield.
 
 - type: entity
   parent: RMCK9SynthHarnessBase
   id: RMCK9SynthMedicalHarness
-  name: "портативний K9-медичний рюкзак M210"
-  description: "Анатомічної форми для лінії синтетиків Рятувальної Одиниці K9. Для перенесення медичних запасів."
+  name: M210 portable K9 medical backpack
+  description: Form fitted for the K9 Rescue Unit line of synthetics. For carrying medical supplies.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/K9Synth/harnesses.rsi
@@ -48,8 +48,8 @@
 - type: entity
   parent: RMCK9SynthHarnessBase
   id: RMCK9SynthMPHarness
-  name: "портативний K9-поліцейський рюкзак M553"
-  description: "Анатомічної форми для лінії синтетиків Рятувальної Одиниці K9. Для перенесення спорядження ВП."
+  name: M553 portable K9 police backpack
+  description: Form fitted for the K9 Rescue Unit line of synthetics. For carrying MP Equipment.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Back/K9Synth/harnesses.rsi

@@ -39,7 +39,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentEngiHydro
-  name: "спавнер гідроелектричного інженера-вцілілого"
+  name: survivor hydro electric engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -51,5 +51,5 @@
 - type: entity
   parent: RMCSurvivorPresetEngineer
   id: RMCGearSurvivorPresetTrijentEngiHydro
-  name: "пресет колоніста-гідроелектричного інженера"
+  name: hydro electric engineer colonist preset
   categories: [ HideSpawnMenu ]

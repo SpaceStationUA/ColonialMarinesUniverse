@@ -15,8 +15,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankTurret
-  name: "турель танка"
-  description: "Вузол кріплення турелі танка."
+  name: tank turret
+  description: A tank turret hardpoint.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Vehicles/tank.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankTreads
-  name: "гусениці танка"
-  description: "Надміцні гусениці танка."
+  name: tank treads
+  description: Heavy duty tank treads.
   components:
   - type: Sprite
     state: treads
@@ -91,8 +91,8 @@
 - type: entity
   parent: VehicleTankHardpointBase
   id: VehicleTankReinforcedTreads
-  name: "посилені гусениці танка"
-  description: "Важчі танкові гусениці з кращою міцністю та стійкістю до кислоти ціною прискорення."
+  name: reinforced tank treads
+  description: Heavier tank treads with better durability and acid resistance at the cost of acceleration.
   components:
   - type: Sprite
     state: treads

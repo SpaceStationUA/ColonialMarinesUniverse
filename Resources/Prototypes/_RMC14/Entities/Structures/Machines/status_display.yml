@@ -1,7 +1,7 @@
 ﻿- type: entity
   id: RMCStatusDisplay
-  name: "дисплей стану"
-  description: "Монітор, що відображає поточний стан корабля. Час від часу мерехтить."
+  name: status display
+  description: A monitor depicting the ship's current status. It flickers every so often.
   placement:
     mode: SnapgridCenter
   components:
@@ -60,8 +60,8 @@
 
 - type: entity
   id: RMCStatusDisplayProp
-  name: "дисплей стану"
-  description: "Монітор, що відображає поточний стан корабля. Час від часу мерехтить."
+  name: status display
+  description: A monitor depicting the ship's current status. It flickers every so often.
   suffix: Prop
   placement:
     mode: SnapgridCenter
@@ -78,8 +78,8 @@
 
 - type: entity
   id: RMCStatusDisplayLarge
-  name: "великий дисплей стану"
-  description: "Великий настінний монітор. Здається, не дуже добре працює."
+  name: large status display
+  description: A large wall mounted monitor. It doesnt seem to work properly.
   placement:
     mode: SnapgridCenter
   components:

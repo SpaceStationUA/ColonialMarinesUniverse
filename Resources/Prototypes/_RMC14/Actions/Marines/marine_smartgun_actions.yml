@@ -19,8 +19,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleAmmo
-  name: "Перемкнути Тип Боєприпасів"
-  description: "Перемкніть тип боєприпасів, що випускає цей пістолет. [color=red]Можна активувати натисканням клавіші унікальної дії пістолета, Spacebar за замовчуванням![/color]"
+  name: Toggle Ammo Type
+  description: Switch the ammo type fired by this gun. [color=red]You can activate this by pressing the unique gun action keybind, Spacebar by default![/color]
   components:
   - type: Action
     icon:
@@ -34,8 +34,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleRecoil
-  name: "Перемкнути Компенсацію Віддачі"
-  description: "Видаляє всю віддачу при стрільбі з цього пістолета."
+  name: Toggle Recoil Compensation
+  description: Removes all recoil when firing this gun.
   components:
   - type: Action
     icon:
@@ -49,8 +49,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleAutoFire
-  name: "Перемкнути Автовогонь"
-  description: "Робить пістолет автоматично постріляти одиночним пострілом по цілі кожні кілька секунд."
+  name: Toggle Auto Fire
+  description: Makes the gun automatically shoot a single shot towards a target every couple seconds.
   components:
   - type: Action
     icon:
@@ -64,8 +64,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleFarSight
-  name: "Перемкнути Дальній Зір"
-  description: "Дозволяє вам бачити трохи далі."
+  name: Toggle Far Sight
+  description: Lets you see slightly farther away.
   components:
   - type: Action
     icon:
@@ -79,8 +79,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleMotionDetector
-  name: "Перемкнути Детектор Руху"
-  description: "Періодично пінгує будь-який невідомий рух поблизу вас."
+  name: Toggle Motion Detector
+  description: Periodically pings any unknown movement near you.
   components:
   - type: Action
     icon:

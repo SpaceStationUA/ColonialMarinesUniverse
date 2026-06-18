@@ -2,7 +2,7 @@
 - type: entity
   parent: CMAlamoDoorPort
   id: RMCERTDoorPort
-  name: "люк екіпажу ГШР"
+  name: ERT crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/ert_doubledoor.rsi
@@ -10,7 +10,7 @@
 - type: entity
   parent: CMAlamoDoorPort
   id: RMCSPPDoorPort
-  name: "люк екіпажу СПП"
+  name: SPP crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/spp_doubledoor.rsi
@@ -19,7 +19,7 @@
 - type: entity
   parent: CMAlamoDoorAft
   id: RMCERTDoorAft
-  name: "вантажні двері ГШР"
+  name: ERT cargo door
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/ert_cargo.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: CMAlamoDoorAft
   id: RMCSPPDoorAft
-  name: "вантажні двері СПП"
+  name: SPP cargo door
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/spp_cargo.rsi
@@ -35,7 +35,7 @@
 - type: entity
   parent: CMAlamoDoorAft
   id: RMCTSEDoorAft
-  name: "вантажні двері ІТС"
+  name: TSE cargo door
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/tse_cargo.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: CMAlamoDoorAft
   id: RMCPMCDoorAft
-  name: "вантажні двері ПВК"
+  name: PMC cargo door
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/pmc_cargo.rsi
@@ -52,7 +52,7 @@
 - type: entity
   parent: CMAlamoDoor
   id: RMCTSECrewHatch
-  name: "люк екіпажу ІТС"
+  name: TSE crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/tse_airlock.rsi
@@ -60,7 +60,7 @@
 - type: entity
   parent: CMAlamoDoor
   id: RMCCLFCrewHatch
-  name: "люк екіпажу КВФ"
+  name: CLF crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/clf_airlock.rsi
@@ -68,7 +68,7 @@
 - type: entity
   parent: CMAlamoDoor
   id: RMCPMCCrewHatch
-  name: "люк екіпажу ПВК"
+  name: PMC crew hatch
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Dropships/Airlocks/pmc_airlock.rsi

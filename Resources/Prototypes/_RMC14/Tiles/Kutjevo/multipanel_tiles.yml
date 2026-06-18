@@ -2,7 +2,7 @@
   abstract: true
   parent: CMTileBase
   id: RMCFloorKutjevoMultiBase
-  name: "tiles-cm-default-multipanel"
+  name: tiles-cm-default-multipanel
   suffix: kutjevo
 
 - type: tile

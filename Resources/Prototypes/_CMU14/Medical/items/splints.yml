@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: CMUSplintItem
-  name: "шина"
-  description: "Аварійний стабілізатор кінцівки. Зменшує штрафи від простих переломів; не лікує."
+  name: splint
+  description: An emergency limb stabiliser. Mitigates simple-fracture penalties; does not heal.
   components:
   - type: Item
     size: Small

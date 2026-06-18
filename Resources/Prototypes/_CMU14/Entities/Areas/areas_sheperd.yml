@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCAreaBase
   id: CMUAreaShep
-  name: "LV-112 Гордість Шепердів"
+  name: LV-112 Sheperds' Pride
   abstract: true
   components:
   - type: Sprite
@@ -15,7 +15,7 @@
 - type: entity
   parent: CMUAreaShep
   id: CMUAreaShepIndoors
-  name: "Шеперди — Усередині"
+  name: Sheperds' - Indoors
   abstract: true
   components:
   - type: Area
@@ -28,7 +28,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepWY
-  name: "дослідницька лабораторія We-Yu"
+  name: We-Yu Research Lab
   components:
   - type: Sprite
     state: wy
@@ -63,7 +63,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYBarracks
-  name: "Дослідницька лабораторія Ві-Ю — Казарми"
+  name: We-Yu Research Lab - Barracks
   components:
   - type: Sprite
     state: wy_barracks
@@ -71,7 +71,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYBreakroom
-  name: "Дослідницька лабораторія Ві-Ю — Кімната відпочинку"
+  name: We-Yu Research Lab - Breakroom
   components:
   - type: Sprite
     state: wy_breakroom
@@ -79,7 +79,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYCIC
-  name: "Дослідницька лабораторія Ві-Ю — CIC"
+  name: We-Yu Research Lab - CIC
   components:
   - type: Sprite
     state: wy_cic
@@ -87,7 +87,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYDec
-  name: "Дослідницька лабораторія Ві-Ю — Деконтамінація"
+  name: We-Yu Research Lab - Decontamination
   components:
   - type: Sprite
     state: wy_dec
@@ -95,7 +95,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYEntrance
-  name: "Дослідницька лабораторія Ві-Ю — Вхід"
+  name: We-Yu Research Lab - Entrance
   components:
   - type: Sprite
     state: wy_entrance
@@ -103,7 +103,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYLab
-  name: "Дослідницька лабораторія Ві-Ю — Експерименти"
+  name: We-Yu Research Lab - Experimentation
   components:
   - type: Sprite
     state: wy_lab
@@ -111,7 +111,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYLab2
-  name: "Дослідницька лабораторія Ві-Ю — Стримання"
+  name: We-Yu Research Lab - Containment
   components:
   - type: Sprite
     state: wy_lab
@@ -119,7 +119,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYLab2C
-  name: "Дослідна лабораторія Вей-Ю - камера зразків"
+  name: We-Yu Research Lab - Specimen Chamber
   components:
   - type: Sprite
     state: wy_lab
@@ -130,7 +130,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYQuarantine
-  name: "Дослідницька лабораторія Ві-Ю — Карантин"
+  name: We-Yu Research Lab - Quarantine
   components:
   - type: Sprite
     state: wy_quarantine
@@ -138,7 +138,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYLQ
-  name: "Дослідницька лабораторія Ві-Ю — Житлові каюти"
+  name: We-Yu Research Lab - Living Quarters
   components:
   - type: Sprite
     state: wy_quarters
@@ -146,7 +146,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYStorage
-  name: "Дослідницька лабораторія Ві-Ю — Склад"
+  name: We-Yu Research Lab - Storage
   components:
   - type: Sprite
     state: wy_storage
@@ -154,7 +154,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYLab3
-  name: "Дослідна лабораторія Вей-Ю - оглядова"
+  name: We-Yu Research Lab - Examination
   components:
   - type: Sprite
     state: wy_lab
@@ -162,7 +162,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYStorageC
-  name: "Дослідна лабораторія Вей-Ю - холодне сховище"
+  name: We-Yu Research Lab - Cold Storage
   components:
   - type: Sprite
     state: wy_storage
@@ -170,7 +170,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYLoadingBay
-  name: "Дослідна лабораторія Вей-Ю - завантажувальна зона"
+  name: We-Yu Research Lab - Loading Bay
   components:
   - type: Sprite
     state: wy_storage
@@ -178,7 +178,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYASRS
-  name: "Дослідна лабораторія Вей-Ю - ASRS"
+  name: We-Yu Research Lab - ASRS
   components:
   - type: Sprite
     state: wy_storage
@@ -186,7 +186,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYLiaison
-  name: "Дослідна лабораторія Вей-Ю - офіс зв’язкового"
+  name: We-Yu Research Lab - Liaison Office
   components:
   - type: Sprite
     state: wy_quarters
@@ -194,7 +194,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYRange
-  name: "Дослідна лабораторія Вей-Ю - стрільбище"
+  name: We-Yu Research Lab - Firing Range
   components:
   - type: Sprite
     state: wy_barracks
@@ -202,7 +202,7 @@
 - type: entity
   parent: CMUAreaShepWY
   id: CMUAreaShepWYArmory
-  name: "Дослідна лабораторія Вей-Ю - збройова"
+  name: We-Yu Research Lab - Armory
   components:
   - type: Sprite
     state: wy_barracks
@@ -377,7 +377,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepNorthColonyDorms
-  name: "Північна колонія"
+  name: North Colony
   components:
   - type: Sprite
     state: n_colony_dorms
@@ -387,7 +387,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepNorthColonyShop
-  name: "Північна колонія — Магазин"
+  name: North Colony - Shop
   components:
   - type: Sprite
     state: n_colony_dorms
@@ -407,7 +407,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepRiverboatCasino
-  name: "Казино на річковому судні"
+  name: Riverboat Casino
   components:
   - type: Sprite
     state: n_colony_dorms
@@ -417,7 +417,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepSouthColonyDorms
-  name: "Південна колонія"
+  name: South Colony
   components:
   - type: Sprite
     state: s_colony_dorms
@@ -427,7 +427,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepHospital
-  name: "Лікарня"
+  name: Hospital
   components:
   - type: Sprite
     state: hospital
@@ -437,7 +437,7 @@
 - type: entity
   parent: CMUAreaShepHospital
   id: CMUAreaShepHospitalBreakroom
-  name: "Лікарня — Кімната відпочинку"
+  name: Hospital - Breakroom
   components:
   - type: Sprite
     state: hospital_breakroom
@@ -445,7 +445,7 @@
 - type: entity
   parent: CMUAreaShepHospital
   id: CMUAreaShepHospitalMorgue
-  name: "Лікарня — Морг"
+  name: Hospital - Morgue
   components:
   - type: Sprite
     state: hospital_morgue
@@ -453,7 +453,7 @@
 - type: entity
   parent: CMUAreaShepHospital
   id: CMUAreaShepHospitalPsychology
-  name: "Лікарня — Психологія"
+  name: Hospital - Psychology
   components:
   - type: Sprite
     state: hospital_psychology
@@ -461,7 +461,7 @@
 - type: entity
   parent: CMUAreaShepHospital
   id: CMUAreaShepHospitalSurgery
-  name: "Лікарня — Хірургія"
+  name: Hospital - Surgery
   components:
   - type: Sprite
     state: hospital_surgery
@@ -469,12 +469,12 @@
 - type: entity
   parent: CMUAreaShepHospital
   id: CMUAreaShepHospitalHeadPhys
-  name: "Лікарня - кабінет головного лікаря"
+  name: Hospital - Head Physician Office
 
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepTavern
-  name: "Пяний короп"
+  name: The Drunk Carp
   components:
   - type: Sprite
     state: tavern
@@ -484,7 +484,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepEALASRS
-  name: "Логістика та ASRS"
+  name: Logistics & ASRS
   components:
   - type: Sprite
     state: eal_asrs
@@ -494,7 +494,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepForeman
-  name: "Кабінет бригадира"
+  name: Foreman Office
   components:
   - type: Sprite
     state: eal_foreman
@@ -504,7 +504,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepHeadofEngineering
-  name: "Кабінет головного інженера"
+  name: Head of Engineering Office
   components:
   - type: Sprite
     state: eal_foreman
@@ -514,7 +514,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepEALReactor
-  name: "Інженерія та реактор"
+  name: Engineering & Reactor
   components:
   - type: Sprite
     state: eal_reactor
@@ -524,7 +524,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepEALStorage
-  name: "Інженерія та логістика — Склад"
+  name: Engineering & Logistics - Storage
   components:
   - type: Sprite
     state: eal_storage
@@ -546,7 +546,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepAdmin
-  name: "Кабінет адміністратора колонії"
+  name: Colony Administrator Office
   components:
   - type: Sprite
     state: admin
@@ -556,7 +556,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepCWPS
-  name: "CWPS — Кабінет рейнджера"
+  name: CWPS - Ranger Office
   components:
   - type: Sprite
     state: cwps
@@ -566,7 +566,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepJournalist
-  name: "Кабінет журналіста"
+  name: Journalist Office
   components:
   - type: Sprite
     state: journalist
@@ -576,7 +576,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepFishery
-  name: "Рибальство"
+  name: Fishery
   components:
   - type: Sprite
     state: fishery
@@ -586,7 +586,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepChapel
-  name: "Каплиця"
+  name: Chapel
   components:
   - type: Sprite
     state: chapel
@@ -596,7 +596,7 @@
 - type: entity
   parent: CMUAreaShepIndoors
   id: CMUAreaShepTheatre
-  name: "Південна колонія - театр"
+  name: South Colony - Theatre
   components:
   - type: Sprite
     state: chapel
@@ -606,7 +606,7 @@
 - type: entity
   parent: CMUAreaShep
   id: CMUAreaShepOutdoors
-  name: "Шеперди — Назовні"
+  name: Sheperds' - Outdoors
   abstract: true
   components:
   - type: Area
@@ -615,7 +615,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepAdminPerimeter
-  name: "Кабінет адміністратора колонії"
+  name: Colony Administrator Office
   components:
   - type: Sprite
     state: admin
@@ -625,7 +625,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepRiverboatCasinoPerimeter
-  name: "Казино на річковому судні"
+  name: Riverboat Casino
   components:
   - type: Sprite
     state: n_colony_dorms
@@ -635,7 +635,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepTavernPerimeter
-  name: "Пяний короп"
+  name: The Drunk Carp
   components:
   - type: Sprite
     state: tavern
@@ -645,7 +645,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepJournalistPerimeter
-  name: "Кабінет журналіста"
+  name: Journalist Office
   components:
   - type: Sprite
     state: journalist
@@ -655,7 +655,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepFisheryPerimeter
-  name: "Рибальство"
+  name: Fishery
   components:
   - type: Sprite
     state: fishery
@@ -665,7 +665,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepLZ1
-  name: "ЗП1: Південно-західні джунглі"
+  name: 'LZ1: Southwest Jungle'
   components:
   - type: Sprite
     state: military_lz1
@@ -677,7 +677,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepWYPerimeter
-  name: "Дослідницька лабораторія Ві-Ю — Периметр"
+  name: We-Yu Research Lab - Perimeter
   components:
   - type: Sprite
     state: wy_perimeter
@@ -687,7 +687,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNorthColony
-  name: "Північна колонія"
+  name: North Colony
   components:
   - type: Sprite
     state: n_colony
@@ -697,7 +697,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepSouthColony
-  name: "Південна колонія"
+  name: South Colony
   components:
   - type: Sprite
     state: s_colony
@@ -707,7 +707,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepLZ2
-  name: "ЗП2: Північно-західні джунглі"
+  name: 'LZ2: Northwest Jungle'
   components:
   - type: Sprite
     state: s_colony_lz2
@@ -719,7 +719,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepLZ3
-  name: "ЗП3: Північна колонія"
+  name: 'LZ3: North Colony'
   components:
   - type: Sprite
     state: eal_lz3
@@ -731,7 +731,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepEALYard
-  name: "Інженерія та логістика"
+  name: Engineering & Logistics
   components:
   - type: Sprite
     state: eal_yard
@@ -741,7 +741,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepEALEngYard
-  name: "Інженерія"
+  name: Engineering
   components:
   - type: Sprite
     state: eal_yard
@@ -751,7 +751,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepEALLogYard
-  name: "Логістика"
+  name: Logistics
   components:
   - type: Sprite
     state: eal_yard
@@ -761,7 +761,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCWPSPerimeter
-  name: "CWPS — Периметр"
+  name: CWPS - Perimeter
   components:
   - type: Sprite
     state: cwps_perimeter
@@ -771,7 +771,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCWPSPreserve
-  name: "CWPS — Заповідник"
+  name: CWPS - Preserve
   components:
   - type: Sprite
     state: cwps_preserve
@@ -781,7 +781,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNRoad
-  name: "Північна дорога"
+  name: North Road
   components:
   - type: Sprite
     state: n_road
@@ -791,7 +791,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCRoad
-  name: "Центральна дорога"
+  name: Central Road
   components:
   - type: Sprite
     state: c_road
@@ -801,7 +801,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepSRoad
-  name: "Південна дорога"
+  name: South Road
   components:
   - type: Sprite
     state: s_road
@@ -811,7 +811,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNEJungle
-  name: "Північно-східні джунглі"
+  name: Northeast Jungle
   components:
   - type: Sprite
     state: ne_jungle
@@ -821,7 +821,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNWJungle
-  name: "Північно-західні джунглі"
+  name: Northwest Jungle
   components:
   - type: Sprite
     state: nw_jungle
@@ -841,7 +841,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepWJungle
-  name: "Західні джунглі"
+  name: West Jungle
   components:
   - type: Sprite
     state: w_jungle
@@ -871,7 +871,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepSWJungle
-  name: "Південно-західні джунглі"
+  name: Southwest Jungle
   components:
   - type: Sprite
     state: w_jungle
@@ -881,7 +881,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCJungle
-  name: "Центральні джунглі"
+  name: Central Jungle
   components:
   - type: Sprite
     state: c_jungle
@@ -891,7 +891,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepEJungle
-  name: "Східні джунглі"
+  name: East Jungle
   components:
   - type: Sprite
     state: e_jungle
@@ -901,7 +901,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepSEJungle
-  name: "Південно-східні джунглі"
+  name: Southeast Jungle
   components:
   - type: Sprite
     state: se_jungle
@@ -941,7 +941,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNRiver
-  name: "Північна річка"
+  name: North River
   components:
   - type: Sprite
     state: n_river
@@ -954,7 +954,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCRiver
-  name: "Центральна річка"
+  name: Central River
   components:
   - type: Sprite
     state: c_river
@@ -967,7 +967,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepSRiver
-  name: "Південна річка"
+  name: South River
   components:
   - type: Sprite
     state: s_river
@@ -980,7 +980,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepNComms
-  name: "Північна колонія — Зв'язок"
+  name: North Colony - Comms
   components:
   - type: Sprite
     state: comms
@@ -991,7 +991,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepCComms
-  name: "Каплиця — Зв'язок"
+  name: Chapel - Comms
   components:
   - type: Sprite
     state: comms
@@ -1002,7 +1002,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepSComms
-  name: "Вей-Ю - Зв’язок"
+  name: We-Yu - Comms
   components:
   - type: Sprite
     state: comms
@@ -1013,7 +1013,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepESTower
-  name: "Експериментальна сенсорна вежа"
+  name: Experimental Sensor Tower
   components:
   - type: Sprite
     state: comms
@@ -1024,7 +1024,7 @@
 - type: entity
   parent: CMUAreaShepOutdoors
   id: CMUAreaShepHiddenLZ4
-  name: "Північно-західні джунглі — LZ4"
+  name: Northwest Jungle - LZ4
   components:
   - type: Sprite
     state: hdn_lz4
@@ -1036,7 +1036,7 @@
 - type: entity
   parent: CMUAreaShep
   id: CMUAreaShepOOB
-  name: "Поза межами"
+  name: Out Of Bounds
   abstract: true
   components:
   - type: Sprite
@@ -1062,7 +1062,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepWYOOB
-  name: "Дослідницька лабораторія Ві-Ю — Поза межами"
+  name: We-Yu Research Lab - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1072,7 +1072,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepNEJungleOOB
-  name: "Північно-східні джунглі — Поза межами"
+  name: Northeast Jungle - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1082,7 +1082,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepNWJungleOOB
-  name: "Північно-західні джунглі — Поза межами"
+  name: Northwest Jungle - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1092,7 +1092,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepWJungleOOB
-  name: "Західні джунглі — Поза межами"
+  name: West Jungle - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1102,7 +1102,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepCJungleOOB
-  name: "Центральні джунглі — Поза межами"
+  name: Central Jungle - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1112,7 +1112,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepEJungleOOB
-  name: "Східні джунглі — Поза межами"
+  name: East Jungle - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1122,7 +1122,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepSEJungleOOB
-  name: "Південно-східні джунглі — Поза межами"
+  name: Southeast Jungle - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1132,7 +1132,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepSWJungleOOB
-  name: "Південно-західні джунглі — Поза межами"
+  name: Southwest Jungle - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1142,7 +1142,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepNRiverOOB
-  name: "Північна річка — Поза межами"
+  name: North River - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1156,7 +1156,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepCRiverOOB
-  name: "Центральна річка — Поза межами"
+  name: Central River - Out Of Bounds
   components:
   - type: Sprite
     layers:
@@ -1170,7 +1170,7 @@
 - type: entity
   parent: CMUAreaShepOOB
   id: CMUAreaShepSRiverOOB
-  name: "Південна річка — Поза межами"
+  name: South River - Out Of Bounds
   components:
   - type: Sprite
     layers:

@@ -13,7 +13,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicTWEIASF
   id: AU14IASFSurvTeamLead
-  name: "командир групи ІЗКС (вцілілий)"
+  name: IASF Team Leader (Survivor)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
