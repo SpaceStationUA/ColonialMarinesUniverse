@@ -4,14 +4,14 @@
   id: AU14ChevronWeYuBase
   abstract: true
   suffix: WeYu Chevron
-  description: "Знак розрізнення звань приватної військової компанії Вей-Ю. Коли ви його носите, здається, що ви маєте владу зробити будь-що, якщо спершу прочитали службову записку."
+  description: WeYu Private Military Company rank insignia. Wearing this makes you feel like you have the power to do anything, as long as you read the memo first.
 
 # ├──[ Platoon Ranks ]────────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuAssociateOperator
-  name: "шеврон молодшого оператора"
+  name: associate operator chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuOperator
-  name: "шеврон оператора"
+  name: operator chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuSeniorOperator
-  name: "шеврон старшого оператора"
+  name: senior operator chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuEnforcer
-  name: "шеврон енфорсера"
+  name: enforcer chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuEnforcerSenior
-  name: "шеврон старшого енфорсера"
+  name: senior enforcer chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -91,7 +91,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuEnforcerLead
-  name: "шеврон провідного енфорсера"
+  name: lead enforcer chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuAdjutant
-  name: "шеврон ад'ютанта"
+  name: adjutant chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuCommander
-  name: "шеврон командира"
+  name: commander chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -139,7 +139,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuCommanderSenior
-  name: "шеврон старшого командира"
+  name: senior commander chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -157,7 +157,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuPilot
-  name: "шеврон пілота"
+  name: pilot chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuSeniorPilot
-  name: "шеврон старшого пілота"
+  name: senior pilot chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -189,7 +189,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuCrewChief
-  name: "шеврон командира екіпажу"
+  name: crew chief chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -205,7 +205,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuSeniorCrewChief
-  name: "шеврон старшого командира екіпажу"
+  name: senior crew chief chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -223,7 +223,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuDeputyDirector
-  name: "шеврон заступника директора об'єкта"
+  name: deputy site director chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -239,7 +239,7 @@
 - type: entity
   parent: AU14ChevronWeYuBase
   id: AU14ChevronWeYuSiteDirector
-  name: "шеврон директора об'єкта"
+  name: site director chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

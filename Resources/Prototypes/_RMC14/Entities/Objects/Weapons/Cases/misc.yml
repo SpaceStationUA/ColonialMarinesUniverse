@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitHonorGuard
-  name: "набір почесної варти"
-  description: "Кейс зі спорядженням для Почесної Варти."
+  name: honor guard kit
+  description: A case containing the equipment for an Honor Guard.
   components:
   - type: Item
     size: Ginormous

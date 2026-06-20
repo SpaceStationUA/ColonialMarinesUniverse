@@ -1,7 +1,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomComputerDisk
-  name: "генератор випадкового комп'ютерного диска"
+  name: random computer disk spawner
   components:
   - type: RandomSpawner
     offset: 0

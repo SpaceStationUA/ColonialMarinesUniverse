@@ -1,9 +1,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorSEAUSCM
-  name: "валіза зі шевронами старшого радника"
+  name: senior advisor chevrons briefcase
   suffix: USCM
-  description: "Автоматизована система зберігання та видачі розміром із валізу. Призначена для ефективного зберігання та вибіркової видачі дрібних предметів."
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -59,9 +59,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorRMCRanks
-  name: "валіза зі шевронами звань Королівської морської піхоти"
+  name: royal marines rank chevrons briefcase
   suffix: RMC
-  description: "Компактний футляр для зберігання шевронів звань, виданий Королівською морською піхотою. Містить стандартні шеврони для польової заміни та церемоніального використання."
+  description: A compact RMC-issued rank storage case. Holds standardized chevrons for field replacement and ceremonial use.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -105,9 +105,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorUPPNIRanks
-  name: "валіза зі шевронами звань морської піхоти СПН"
+  name: upp naval infantry rank chevrons briefcase
   suffix: UPP
-  description: "Компактний футляр для звань, виданий СПН. Важкий, з червоними штампами й політично надмірно правильний у всіх можливих сенсах."
+  description: A compact UPP-issue rank case. Heavy, red-stamped, and politically overcorrect in every way imaginable.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -157,9 +157,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorWeYuRanks
-  name: "валіза зі шевронами звань ПВК Вей-Ю"
+  name: weyu pmc rank chevrons briefcase
   suffix: WeYu
-  description: "Корпоративний блок зберігання звань. Усе позначено кольорами, оптимізовано і злегка загрозливо."
+  description: A corporate-issued rank storage unit. Everything is color-coded, optimized, and slightly threatening.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -203,9 +203,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorPrDRanks
-  name: "валіза зі шевронами звань підрозділу реагування Продіджі"
+  name: prd response unit rank chevrons briefcase
   suffix: PrD
-  description: "Дешево виготовлена контракторська валіза, заповнена ламінованими шевронами звань і корпоративним оптимізмом."
+  description: A cheaply manufactured contractor briefcase filled with laminated rank chevrons and corporate optimism.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -265,9 +265,9 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorSEALACN
-  name: "валіза зі шевронами старшого радника"
+  name: senior advisor chevrons briefcase
   suffix: LACN
-  description: "Автоматизована система зберігання та видачі розміром із валізу. Призначена для ефективного зберігання та вибіркової видачі знаків розрізнення флотських звань."
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense naval rank insignia.
   components:
   - type: CMAutomatedVendor
     jobs:

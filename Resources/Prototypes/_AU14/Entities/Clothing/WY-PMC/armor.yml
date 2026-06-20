@@ -1,8 +1,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14WYPMCArmor
-  name: "броня ПВК ВЮ"
-  description: "Комплект броні ПВК Вейланд-Ютані."
+  name: WY PMC Armor
+  description: A set of Weyland-Yutani PMC armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/wypmcstandardarmor.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14WYPMCArmorMin
-  name: "мінімалістична броня ПВК ВЮ"
-  description: "Комплект броні ПВК Вейланд-Ютані. Ця пара досить мала порівняно зі стандартною і забезпечує менший захист."
+  name: WY PMC Minimalistic Armor
+  description: A set of Weyland-Yutani PMC armor. This pair is quite small compared to the standard, and will provide less protection.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/wypmclightarmor.rsi
@@ -19,8 +19,8 @@
 - type: entity
   parent: RMCBaseBioSuit
   id: AU14SuitBioWeYu
-  name: "біокостюм ВеЮ-TSS MK I"
-  description: "«Біокостюм Вейланд-Ютані ТерраСцієнція MK I». Передовий легкий біокостюм, розроблений власними силами компанією Вейланд-Ютані. Це костюм, що захищає від біологічного забруднення."
+  name: WeYu-TSS MK I - bio suit
+  description: The 'Weyland-Yutani TerraScientia bio-suit MK I'. An advanced light-weight bio-suit developed in-house by Weyland-Yutani. It's a suit that protects against biological contamination.
   suffix: AU14, Generic, WeYu
   components:
   - type: Item
@@ -33,8 +33,8 @@
 - type: entity
   parent: AU14BaseArmor
   id: AU14WYPMCArmorEngineer
-  name: "інженерна броня ПВК ВЮ"
-  description: "Комплект інженерної броні ПВК Вейланд-Ютані."
+  name: WY PMC Engineer Armor
+  description: A set of Weyland-Yutani PMC Engineer armor.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/WY_PMC/engi_armor.rsi
@@ -42,8 +42,8 @@
 - type: entity
   parent: AU14BaseArmorLight
   id: AU14WYPPOArmor
-  name: "броня ОПЗ ВЮ"
-  description: "Комплект броні офіцера персональної охорони Вейланд-Ютані. Ця пара досить мала порівняно зі стандартною і забезпечує менший захист."
+  name: WY PPO Armor
+  description: A set of Weyland-Yutani Personal Protection Officer armor. This pair is quite small compared to the standard, and will provide less protection.
   components:
   - type: ClothingSpeedModifier
     walkModifier: 0.90

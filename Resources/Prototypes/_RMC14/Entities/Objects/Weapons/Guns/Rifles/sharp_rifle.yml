@@ -1,8 +1,8 @@
 - type: entity
   parent: [ CMBaseWeaponRifle, RMCBaseWeaponMagazineVisuals ]
   id: RMCWeaponRifleSharp
-  name: "гвинтівка P9 ШАРП"
-  description: "Експериментальна гарпунна гвинтівка виробництва Озброєння ЕЙДЖІС. Використовує спеціалізовані магазини дротиків 9X і призначена для перекриття ділянок вмонтованими вибуховими та запалювальними зарядами."
+  name: P9 SHARP rifle
+  description: An experimental harpoon launcher rifle, produced by AEGIS Armaments. It uses specialized 9X dart magazines and is designed to deny areas with embedded explosive and incendiary payloads.
   components:
   - type: GuideHelp
     guides:
@@ -83,8 +83,8 @@
 - type: entity
   parent: CMMagazineRifleBase
   id: RMCMagazineRifleSharpExplosive
-  name: "магазин липких вибухових дротиків 9X-E"
-  description: "Спеціалізований магазин гвинтівки P9 ШАРП, заряджений липкими вибуховими дротиками."
+  name: 9X-E sticky explosive dart magazine
+  description: A specialized P9 SHARP rifle magazine loaded with sticky explosive darts.
   components:
   - type: Tag
     tags:
@@ -105,8 +105,8 @@
 - type: entity
   parent: RMCMagazineRifleSharpExplosive
   id: RMCMagazineRifleSharpIncendiary
-  name: "магазин липких запалювальних дротиків 9X-T"
-  description: "Спеціалізований магазин гвинтівки P9 ШАРП, заряджений липкими запалювальними дротиками."
+  name: 9X-T sticky incendiary dart magazine
+  description: A specialized P9 SHARP rifle magazine loaded with sticky incendiary darts.
   components:
   - type: BallisticAmmoProvider
     proto: RMCCartridgeRifleSharpIncendiary
@@ -118,8 +118,8 @@
 - type: entity
   parent: RMCMagazineRifleSharpExplosive
   id: RMCMagazineRifleSharpFlechette
-  name: "магазин флешетних дротиків 9X-F"
-  description: "Спеціалізований магазин гвинтівки P9 ШАРП, заряджений флешетними дротиками."
+  name: 9X-F flechette dart magazine
+  description: A specialized P9 SHARP rifle magazine loaded with flechette darts.
   components:
   - type: BallisticAmmoProvider
     proto: RMCCartridgeRifleSharpFlechette
@@ -131,8 +131,8 @@
 - type: entity
   parent: CMBaseCartridgeRifle
   id: RMCCartridgeRifleSharpExplosive
-  name: "патрон (липкий вибуховий дротик 9X-E)"
-  description: "Патрон з липким вибуховим дротиком 9X-E. Підходить до магазинів гвинтівки P9 ШАРП."
+  name: cartridge (9X-E sticky explosive dart)
+  description: A 9X-E sticky explosive dart cartridge. Fits in P9 SHARP rifle magazines.
   components:
   - type: Tag
     tags:
@@ -144,8 +144,8 @@
 - type: entity
   parent: RMCCartridgeRifleSharpExplosive
   id: RMCCartridgeRifleSharpIncendiary
-  name: "патрон (липкий запалювальний дротик 9X-T)"
-  description: "Патрон з липким запалювальним дротиком 9X-T. Підходить до магазинів гвинтівки P9 ШАРП."
+  name: cartridge (9X-T sticky incendiary dart)
+  description: A 9X-T sticky incendiary dart cartridge. Fits in P9 SHARP rifle magazines.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileSharpIncendiary
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCCartridgeRifleSharpExplosive
   id: RMCCartridgeRifleSharpFlechette
-  name: "патрон (флешетний дротик 9X-F)"
-  description: "Патрон із флешетним дротиком 9X-F. Підходить до магазинів гвинтівки P9 ШАРП."
+  name: cartridge (9X-F flechette dart)
+  description: A 9X-F flechette dart cartridge. Fits in P9 SHARP rifle magazines.
   components:
   - type: CartridgeAmmo
     proto: RMCProjectileSharpFlechette
@@ -162,7 +162,7 @@
 - type: entity
   parent: RMCBaseBullet
   id: RMCProjectileSharpExplosive
-  name: "вибуховий дротик"
+  name: explosive dart
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -199,7 +199,7 @@
 - type: entity
   parent: RMCProjectileSharpExplosive
   id: RMCProjectileSharpIncendiary
-  name: "запалювальний дротик"
+  name: incendiary dart
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCProjectileSharpExplosive
   id: RMCProjectileSharpFlechette
-  name: "флешетний дротик"
+  name: flechette dart
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -254,7 +254,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSharpExplosiveDirectEffect
-  name: "влучання вибухового дротика ШАРП"
+  name: SHARP explosive dart impact
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive
@@ -275,7 +275,7 @@
 - type: entity
   parent: RMCSharpExplosiveDirectEffect
   id: RMCSharpExplosiveMineEffect1
-  name: "детонація вибухової міни ШАРП, рівень 1"
+  name: SHARP explosive mine detonation level 1
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive
@@ -290,7 +290,7 @@
 - type: entity
   parent: RMCSharpExplosiveMineEffect1
   id: RMCSharpExplosiveMineEffect2
-  name: "детонація вибухової міни ШАРП, рівень 2"
+  name: SHARP explosive mine detonation level 2
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive
@@ -303,7 +303,7 @@
 - type: entity
   parent: RMCSharpExplosiveMineEffect1
   id: RMCSharpExplosiveMineEffect3
-  name: "детонація вибухової міни ШАРП, рівень 3"
+  name: SHARP explosive mine detonation level 3
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive
@@ -316,7 +316,7 @@
 - type: entity
   parent: RMCSharpExplosiveMineEffect1
   id: RMCSharpExplosiveMineEffect4
-  name: "детонація вибухової міни ШАРП, рівень 4"
+  name: SHARP explosive mine detonation level 4
   categories: [ HideSpawnMenu ]
   components:
   - type: Explosive
@@ -329,7 +329,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCSharpIncendiaryDirectEffect
-  name: "влучання запалювального дротика ШАРП"
+  name: SHARP incendiary dart impact
   categories: [ HideSpawnMenu ]
   components:
   - type: TileFireOnTrigger
@@ -342,13 +342,13 @@
 - type: entity
   parent: RMCSharpIncendiaryDirectEffect
   id: RMCSharpIncendiaryMineEffect1
-  name: "детонація запалювальної міни ШАРП, рівень 1"
+  name: SHARP incendiary mine detonation level 1
   categories: [ HideSpawnMenu ]
 
 - type: entity
   parent: RMCSharpIncendiaryDirectEffect
   id: RMCSharpIncendiaryMineEffect2
-  name: "детонація запалювальної міни ШАРП, рівень 2"
+  name: SHARP incendiary mine detonation level 2
   categories: [ HideSpawnMenu ]
   components:
   - type: TileFireOnTrigger
@@ -360,7 +360,7 @@
 - type: entity
   parent: RMCSharpIncendiaryDirectEffect
   id: RMCSharpIncendiaryMineEffect3
-  name: "детонація запалювальної міни ШАРП, рівень 3"
+  name: SHARP incendiary mine detonation level 3
   categories: [ HideSpawnMenu ]
   components:
   - type: TileFireOnTrigger
@@ -372,7 +372,7 @@
 - type: entity
   parent: RMCSharpIncendiaryDirectEffect
   id: RMCSharpIncendiaryMineEffect4
-  name: "детонація запалювальної міни ШАРП, рівень 4"
+  name: SHARP incendiary mine detonation level 4
   categories: [ HideSpawnMenu ]
   components:
   - type: TileFireOnTrigger
@@ -384,7 +384,7 @@
 - type: entity
   parent: CMPelletShotgunBase
   id: RMCSharpFlechetteShard
-  name: "флешетний уламок"
+  name: flechette shard
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -409,8 +409,8 @@
 - type: entity
   parent: BaseItem
   id: RMCSharpExplosiveDartMine
-  name: "вибухова дротикова міна ШАРП"
-  description: "Вибуховий дротик ШАРП, що встромився в землю. Невдовзі після приземлення він розгортається в міну наближення й стає небезпечнішим, що довше лишається озброєним."
+  name: SHARP explosive dart mine
+  description: A SHARP explosive dart embedded in the ground. It deploys into a proximity mine shortly after landing and grows more dangerous the longer it is left armed.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/Mines/sharp_darts.rsi
@@ -495,8 +495,8 @@
 - type: entity
   parent: RMCSharpExplosiveDartMine
   id: RMCSharpIncendiaryDartMine
-  name: "запалювальна дротикова міна ШАРП"
-  description: "Запалювальний дротик ШАРП, що встромився в землю. Невдовзі після приземлення він розгортається в міну наближення й стає небезпечнішим, що довше лишається озброєним."
+  name: SHARP incendiary dart mine
+  description: A SHARP incendiary dart embedded in the ground. It deploys into a proximity mine shortly after landing and grows more dangerous the longer it is left armed.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Explosives/Mines/sharp_darts.rsi

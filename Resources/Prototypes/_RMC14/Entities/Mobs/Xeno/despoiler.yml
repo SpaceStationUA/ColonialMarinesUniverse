@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: RMCXenoDespoiler
-  name: "Осквернитель"
-  description: "Величезний згорблений ксеноморф із гіперстисненими кислотними мішками вздовж хребта. Із тріщин у його панцирі виривається пара."
+  name: Despoiler
+  description: A massive, hunched xenomorph with hyper-pressurized acid sacs lining its spine. Steam hisses from cracks in its carapace.
   components:
   - type: GhostRole
     name: rmc-xeno-despoiler-name

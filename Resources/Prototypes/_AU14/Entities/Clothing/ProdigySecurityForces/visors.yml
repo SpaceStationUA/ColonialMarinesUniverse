@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCVisorNightVision
   id: AU14VisorNightVisionProdigy
-  name: "оптика нічного бачення Prodigy"
-  description: "Вставний візорний HUD для стандартного шолома Prodigy. Цей тип дає нічне бачення та є стандартним спорядженням у підрозділах із регулярним фінансуванням. Його можна вставити в зарядний пристрій, щоб зарядити внутрішню батарею."
+  name: prodigy night vision optic
+  description: An insertable visor HUD into a standard Prodigy helmet. This type gives a form of night vision and is standard issue in units with regular funding. It can be inserted into a recharger to recharge its internal battery.
   components:
   - type: Sprite
     state: nvg_sight

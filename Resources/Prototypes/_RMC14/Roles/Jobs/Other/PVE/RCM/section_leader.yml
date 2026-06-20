@@ -71,7 +71,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVESectionLeader
-  name: "спавнер лідера секції RCM"
+  name: RCM section leader spawn point
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesSectionLeaderPVE

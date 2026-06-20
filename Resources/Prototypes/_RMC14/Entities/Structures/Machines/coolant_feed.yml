@@ -1,7 +1,7 @@
 - type: entity
   id: RMCHypersleepFeed
-  name: "подача гіперсон-камери"
-  description: "Заплутаний клубок обладнання та труб, що з'єднує гіперсон-камери з гіперсон-відсіком."
+  name: hypersleep chamber feed
+  description: A bewildering tangle of machinery and pipes linking the hypersleep chambers to the hypersleep bay.
   placement:
     mode: SnapgridCenter
   components:
@@ -16,5 +16,5 @@
 - type: entity
   parent: RMCHypersleepFeed
   id: RMCCoolantFeed
-  name: "подача охолоджувача"
-  description: "Заплутаний клубок обладнання та труб, що забезпечує стабільну подачу охолоджувача до гіперсон-відсіку."
+  name: coolant feed
+  description: A bewildering tangle of machinery and pipes providing steady coolant feed to the hypersleep bay.

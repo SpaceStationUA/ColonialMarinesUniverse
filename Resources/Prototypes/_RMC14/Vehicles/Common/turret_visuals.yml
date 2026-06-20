@@ -1,6 +1,6 @@
 - type: entity
   id: VehicleTurretVisual
-  name: "візуал турелі техніки"
+  name: vehicle turret visual
   components:
   - type: Tag
     tags:

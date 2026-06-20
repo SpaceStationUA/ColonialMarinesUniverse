@@ -1,8 +1,8 @@
 - type: entity
   parent: ColMarTechSurplus
   id: RMCCLFSurplusPVE
-  name: "Стелаж одягу КФЗ"
-  description: "Міцний металевий стелаж, виготовлений місцевими друзями фронту, ущент заповнений усім вантажоносним спорядженням і одягом, який тільки може забажати повстанець; до речі, теж виготовленим місцевими друзями фронту."
+  name: CLF Clothing Rack
+  description: A sturdy metal rack made by local friends of the front, filled to the brim with all the load-bearing gear and clothing a rebel could want, coincidentally also made by local friends of the front.
   suffix: PVE, CLF
   components:
   - type: Sprite
@@ -142,8 +142,8 @@
 - type: entity
   parent: ColMarTechUtilities
   id: RMCCLFUtilitiesPVE
-  name: "Стелаж утиліт КФЗ"
-  description: "Міцний металевий стелаж, узятий із захопленої військової партії ООН, завантажений усім спорядженням, яке тільки може забажати повстанець."
+  name: CLF Utilities Rack
+  description: A sturdy metal rack taken from a captured UN military shipment loaded with all the gear a rebel could ever want.
   suffix: PVE, CLF
   components:
   - type: Sprite

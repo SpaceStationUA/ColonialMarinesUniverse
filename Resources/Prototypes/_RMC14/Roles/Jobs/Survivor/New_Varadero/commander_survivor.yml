@@ -78,7 +78,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointSurvivorCommanderNewVardero
-  name: "спавнер командира new varadero"
+  name: new varadero commanding officer spawn point
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorCommanderNewVaradero

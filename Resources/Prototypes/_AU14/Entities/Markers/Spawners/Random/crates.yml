@@ -1,8 +1,8 @@
 - type: entity
   parent: MarkerBase
   id: AU14SpawnerRandomWeYuSupply
-  name: "спавнер експериментального постачання ВейЮ"
-  description: "Створює ящик дослідного експерименту з наркотиками та іншими корисностями для дослідників ВЮ."
+  name: WeYu experimental supply spawner
+  description: Spawns a research experiment crate, consisting of drugs and other goodies for WY researchers.
   components:
   - type: Sprite
     sprite: _RMC14/Markers/landmarks.rsi

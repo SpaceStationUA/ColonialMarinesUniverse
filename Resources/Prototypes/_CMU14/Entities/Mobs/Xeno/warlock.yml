@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoWarlock
-  name: "Чаклун"
-  description: "Психічний ксеноморф, що розчавлює розуми й захищає себе плазмою."
+  name: Warlock
+  description: A psychic xeno that crushes minds and shields itself with plasma.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-warlock

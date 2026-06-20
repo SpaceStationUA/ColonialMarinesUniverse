@@ -1,7 +1,7 @@
 - type: announcementPreset
   id: CLF
-  name: "Невідоме мовлення"
-  description: "Невідома зашифрована передача"
+  name: "Unknown Broadcast"
+  description: "Unknown encrypted transmission"
   target: All
   visibleInSettings: false
   showSprite: false

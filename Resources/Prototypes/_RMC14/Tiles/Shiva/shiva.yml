@@ -36,11 +36,11 @@
 - type: tile
   parent: CMFloorSteel
   id: CMFloorShivaRadiator
-  name: "радіатор"
+  name: raditator
   sprite: /Textures/_RMC14/Tiles/shiva/radiator_tile.png
 
 - type: tile
   parent: CMFloorSteel
   id: CMFloorShivaFoam
-  name: "металева піна"
+  name: metal foam
   sprite: /Textures/_RMC14/Tiles/shiva/metalfoam.png

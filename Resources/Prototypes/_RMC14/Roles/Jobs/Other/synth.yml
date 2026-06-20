@@ -86,7 +86,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSynth
-  name: "спавнер синтетика"
+  name: synthetic spawn point
   components:
   - type: SpawnPoint
     job_id: RMCJobSynthetic

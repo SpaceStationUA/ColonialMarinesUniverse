@@ -2,8 +2,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapBureau
-  name: "кепка бюро"
-  description: "Темна кепка з потужним написом 'MARSHAL', що символізує правосуддя, владу й захист на околицях."
+  name: bureau cap
+  description: A dark cap inscribed with the powerful letters of 'MARSHAL' representing justice, authority, and protection in the outer rim.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/bureau_cap.rsi
@@ -14,8 +14,8 @@
 - type: entity
   parent: CMHeadBeretRed
   id: RMCHeadBeretProvost
-  name: "берет провоста USCM"
-  description: "Берет з емблемою військової поліції USCMC."
+  name: USCM provost beret
+  description: A beret with the USCMC Military Police insignia emblazoned on it.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_wo.rsi
@@ -25,7 +25,7 @@
 - type: entity
   parent: RMCHeadBeretProvost
   id: RMCHeadBeretProvostSenior
-  name: "берет старшого провоста USCM"
+  name: USCM senior provost beret
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/CO/beret_black.rsi
@@ -35,8 +35,8 @@
 - type: entity
   parent: RMCHeadBeretProvost
   id: RMCArmorCapProvost
-  name: "кепка маршала-провоста"
-  description: "Дорогий головний убір маршала-провоста. Містить кевларові вкраплення, щоб зберегти цінний вміст у безпеці."
+  name: provost marshal cap
+  description: The expensive headwear of a Provost Marshal. Contains shards of kevlar to keep its valuable contents safe.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/provost.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMHeadBeretRed
   id: RMCHeadBeretAgent
-  name: "берет спецагента"
-  description: "Берет з емблемою розвідувальної служби."
+  name: special agent beret
+  description: A beret with the intelligence service insignia emblazoned on it.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_tis.rsi
@@ -58,8 +58,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretAgentIvan
-  name: "чорний берет"
-  description: "Його носять офіцери спеціальних підрозділів."
+  name: black beret
+  description: Worn by officers of special units.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_ivan.rsi
@@ -70,8 +70,8 @@
 - type: entity
   parent: CMHeadCap
   id: RMCHeadCapFreelancer
-  name: "броньована кепка фрілансера"
-  description: "Міцна кепка фрілансера. Захищає краще, ніж здається."
+  name: armored freelancer cap
+  description: A sturdy freelancer's cap. More protective than it seems.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/cap_freelancer.rsi
@@ -81,8 +81,8 @@
 - type: entity
   parent: RMCHeadCapFreelancer
   id: RMCHeadBeretFreelancer
-  name: "броньований берет фрілансера"
-  description: "Міцний берет фрілансера. Захищає краще, ніж здається."
+  name: armored freelancer beret
+  description: A sturdy freelancer's beret. More protective than it seems.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_freelancer.rsi
@@ -93,7 +93,7 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadMilitiaHood
-  name: "броньований каптур ополченця"
+  name: armored militia cowl
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/hood_rebel.rsi
@@ -104,7 +104,7 @@
 - type: entity
   parent: RMCHeadMilitiaHood
   id: RMCHeadMilitiaBucket
-  name: "відро ополченця"
+  name: militia bucket
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/bucket.rsi
@@ -115,8 +115,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadCapGeneral
-  name: "броньована кепка генерала"
-  description: "Міцна кепка генерала. Захищає краще, ніж здається. Будь ласка, не міняйте її на шолом, як якийсь панк."
+  name: armored general's cap
+  description: A sturdy general officer's cap. More protective than it seems. Please don't ditch this for a helmet like a punk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Helmets/general.rsi
@@ -127,8 +127,8 @@
 - type: entity
   parent: RMCHeadCapGeneral
   id: RMCHeadBeretGeneral
-  name: "броньований берет генерала"
-  description: "Міцний берет генерала. Захищає і виглядає краще, ніж здається. Будь ласка, не міняйте його на шолом, як якийсь панк."
+  name: armored general's beret
+  description: A sturdy general officer's beret. More protective and stylish than it seems. Please don't ditch this for a helmet like a punk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_general.rsi
@@ -139,8 +139,8 @@
 - type: entity
   parent: CMHeadCapCargo
   id: RMCHeadCapQuartermaster
-  name: "кепка квартирмейстера USCM"
-  description: "Це шикарний капелюх для не дуже шикарного військового комірника."
+  name: USCM quartermaster cap
+  description: It's a fancy hat for a not-so-fancy military supply clerk.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/quartermaster_cap.rsi
@@ -150,8 +150,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadBeretQuartermaster
-  name: "берет квартирмейстера USCM"
-  description: "Берет з емблемою сержанта. Символізує важку працю та тіньові справи."
+  name: USCM quartermaster beret
+  description: A beret with the sergeant insignia emblazoned on it. It symbolizes hard work and shady business.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/beret_quartermaster.rsi
@@ -162,8 +162,8 @@
 - type: entity
   parent: CMHeadBeret
   id: RMCHeadUNMCHeadset
-  name: "гарнітура"
-  description: "Гарнітура, яку зазвичай використовують радисти та офіцери. Схоже, ця несправна."
+  name: headset
+  description: A headset typically found in use by radio-operators and officers. This one appears to be malfunctioning.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Head/Hats/unmc_headset.rsi

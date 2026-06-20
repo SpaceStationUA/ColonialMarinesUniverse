@@ -12,7 +12,7 @@
 - type: entity
   parent: RMCAreaLv522
   id: RMCAreaLv522Indoors
-  name: "Заявка Чанса — Усередині"
+  name: Chance's Claim - Indoors
   components:
   - type: Sprite
     state: cliff_blocked
@@ -31,7 +31,7 @@
 - type: entity
   parent: RMCAreaLv522
   id: RMCAreaLv522Outdoors
-  name: "Заявка Чанса — Назовні"
+  name: Chance's Claim - Outdoors
   components:
   - type: Sprite
     state: cliff_blocked
@@ -49,7 +49,7 @@
 - type: entity
   parent: RMCAreaLv522
   id: RMCAreaLv522Oob
-  name: "LV522 — Поза межами"
+  name: LV522 - Out Of Bounds
   components:
   - type: Sprite
     state: unknown
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCAreaLv522Oob
   id: RMCAreaLv522OobWYVault
-  name: "LV522 — Захищене сховище WEYA"
+  name: LV522 - WEYA Secure Vault
   components:
   - type: Sprite
     state: blue
@@ -81,7 +81,7 @@
 - type: entity
   parent: RMCAreaLv522
   id: RMCAreaLv522LandingZone1
-  name: "Заявка Чанса — Зона висадки 1"
+  name: Chance's Claim - Landing Zone One
   components:
   - type: Sprite
     state: explored
@@ -109,7 +109,7 @@
 - type: entity
   parent: RMCAreaLv522LandingZone1
   id: RMCAreaLv522LandingZone1Tunnel
-  name: "Заявка Чанса — Тунелі зони висадки 1"
+  name: Chance's Claim - Landing Zone One Tunnels
   components:
   - type: Area
     CAS: true
@@ -126,7 +126,7 @@
 - type: entity
   parent: RMCAreaLv522LandingZone1Tunnel
   id: RMCAreaLv522LandingZone1TunnelFar
-  name: "Заявка Чанса — Тунелі зони висадки 1"
+  name: Chance's Claim - Landing Zone One Tunnels
   components:
   - type: Area
     CAS: true
@@ -144,7 +144,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop1
   id: RMCAreaShuttleDrop1Lv522
-  name: "Заявка Чанса — Зона висадки десантного корабля Аламо"
+  name: Chance's Claim - Dropship Alamo Landing Zone
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -156,7 +156,7 @@
 - type: entity
   parent: RMCAreaLv522LandingZone1
   id: RMCAreaLv522LandingZone1Lz1Console
-  name: "Заявка Чанса — Консоль десантного корабля Аламо"
+  name: Chance's Claim - Dropship Alamo Console
   components:
   - type: Sprite
     state: tcomsatcham
@@ -166,7 +166,7 @@
 - type: entity
   parent: RMCAreaLv522
   id: RMCAreaLv522LandingZone2
-  name: "Заявка Чанса — Зона висадки 2"
+  name: Chance's Claim - Landing Zone Two
   components:
   - type: Sprite
     state: explored
@@ -194,7 +194,7 @@
 - type: entity
   parent: RMCAreaShuttleDrop2
   id: RMCAreaShuttleDrop2Lv522
-  name: "Заявка Чанса — Зона висадки десантного корабля Нормандія"
+  name: Chance's Claim - Dropship Normandy Landing Zone
   components:
   - type: Sprite
     sprite: _RMC14/Areas/areas_shiva.rsi
@@ -207,7 +207,7 @@
 - type: entity
   parent: RMCAreaLv522LandingZone2
   id: RMCAreaLv522LandingZone2Lz2Console
-  name: "Заявка Чанса — Консоль десантного корабля Нормандія"
+  name: Chance's Claim - Dropship Normandy Console
   components:
   - type: Sprite
     state: tcomsatcham
@@ -215,7 +215,7 @@
 - type: entity
   parent: RMCAreaLv522
   id: RMCAreaLv522LandingZoneForecon
-  name: "Заявка Чанса — Шатл FORECON"
+  name: Chance's Claim - FORECON Shuttle
   components:
   - type: Sprite
     state: shuttle
@@ -235,7 +235,7 @@
 - type: entity
   parent: RMCAreaLv522LandingZoneForecon
   id: RMCAreaLv522LandingZoneForeconLandingZone3
-  name: "Заявка Чанса — Зона висадки 3"
+  name: Chance's claim - Landing Zone 3
   components:
   - type: Sprite
     state: blue
@@ -254,7 +254,7 @@
 - type: entity
   parent: RMCAreaLv522LandingZoneForecon
   id: RMCAreaLv522LandingZoneForeconLandingZone4
-  name: "Заявка Чанса — Зона висадки 4"
+  name: Chance's claim - Landing Zone 4
   components:
   - type: Sprite
     state: blue
@@ -273,17 +273,17 @@
 - type: entity
   parent: RMCAreaLv522LandingZoneForecon
   id: RMCAreaLv522LandingZoneForeconUD6Typhoon
-  name: "Заявка Чанса — UD6 Тайфун"
+  name: Chance's Claim - UD6 Typhoon
 
 - type: entity
   parent: RMCAreaLv522LandingZoneForecon
   id: RMCAreaLv522LandingZoneForeconUD6Tornado
-  name: "Заявка Чанса — UD6 Торнадо"
+  name: Chance's Claim - UD6 Tornado
 
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsColonyStreets
-  name: "Вулиці колонії"
+  name: Colony Streets
   components:
   - type: Sprite
     state: green
@@ -301,7 +301,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsContainers
-  name: "Вулиці колонії — Контейнерний двір"
+  name: Colony Streets - Container Yard
   components:
   - type: Sprite
     state: yellow
@@ -309,7 +309,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsWindbreaker
-  name: "Вітрозахисні бар'єри колонії"
+  name: Colony Windbreakers
   components:
   - type: Sprite
     state: tcomsatcham
@@ -328,7 +328,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreetsWindbreaker
   id: RMCAreaLv522OutdoorsColonyStreetsWindbreakerObservation
-  name: "Вітрозахисні бар'єри колонії — Спостереження"
+  name: Colony Windbreakers - Observation
   components:
   - type: Sprite
     state: purple
@@ -347,7 +347,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsCentralStreets
-  name: "Центральні вулиці — Захід"
+  name: Central Streets - West
   components:
   - type: Sprite
     state: west
@@ -357,7 +357,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsEastCentralStreet
-  name: "Центральні вулиці — Схід"
+  name: Central Streets - East
   components:
   - type: Sprite
     state: east
@@ -367,7 +367,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsSouthStreet
-  name: "Вулиці колонії — Південь"
+  name: Colony Streets - South
   components:
   - type: Sprite
     state: south
@@ -377,7 +377,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsSouthEastStreet
-  name: "Вулиці колонії — Південний схід"
+  name: Colony Streets - Southeast
   components:
   - type: Sprite
     state: southeast
@@ -387,7 +387,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsSouthWestStreet
-  name: "Вулиці колонії — Південний захід"
+  name: Colony Streets - Southwest
   components:
   - type: Sprite
     state: southwest
@@ -397,7 +397,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsNorthWestStreet
-  name: "Вулиці колонії — Північний захід"
+  name: Colony Streets - Northwest
   components:
   - type: Sprite
     state: northwest
@@ -405,7 +405,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsNorthEastStreet
-  name: "Вулиці колонії — Північний схід"
+  name: Colony Streets - Northeast
   components:
   - type: Sprite
     state: northeast
@@ -413,7 +413,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsNorthStreet
-  name: "Вулиці колонії — Північ"
+  name: Colony Streets - North
   components:
   - type: Sprite
     state: north
@@ -421,7 +421,7 @@
 - type: entity
   parent: RMCAreaLv522OutdoorsColonyStreets
   id: RMCAreaLv522OutdoorsColonyStreetsWinde
-  name: "Вулиці колонії — Північний захід"
+  name: Colony Streets - Northwest
   components:
   - type: Sprite
     state: northwest
@@ -429,7 +429,7 @@
 - type: entity
   parent: RMCAreaLv522Indoors
   id: RMCAreaLv522IndoorsLoneBuildings
-  name: "LV522 — Окремі будівлі"
+  name: LV522 - Lone buildings
   components:
   - type: Sprite
     state: green
@@ -437,7 +437,7 @@
 - type: entity
   parent: RMCAreaLv522Indoors
   id: RMCAreaLv522IndoorsToilet
-  name: "LV522 — Туалети просто неба"
+  name: LV522 - Outdoor Toilets
   components:
   - type: Sprite
     state: green
@@ -448,7 +448,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsLoneBuildings
   id: RMCAreaLv522IndoorsLoneBuildingsEngineering
-  name: "Аварійна інженерія"
+  name: Emergency Engineering
   components:
   - type: Sprite
     state: engine_smes
@@ -459,7 +459,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsLoneBuildings
   id: RMCAreaLv522IndoorsLoneBuildingsSpaceport
-  name: "Північна LZ1 — Космопорт"
+  name: North LZ1 - Spaceport
   components:
   - type: Sprite
     state: red
@@ -469,7 +469,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsLoneBuildings
   id: RMCAreaLv522IndoorsLoneBuildingsOutdoorBot
-  name: "Східна LZ1 — Зовнішній T-Comms"
+  name: East LZ1 - Outdoor T-Comms
   components:
   - type: Sprite
     state: yellow
@@ -488,7 +488,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsLoneBuildings
   id: RMCAreaLv522IndoorsLoneBuildingsStorageBlocks
-  name: "Зовнішній склад"
+  name: Outdoor Storage
   components:
   - type: Sprite
     state: blue
@@ -498,7 +498,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsLoneBuildings
   id: RMCAreaLv522IndoorsLoneBuildingsChunk
-  name: "Чанк-н-Дамп"
+  name: Chunk 'N Dump
   components:
   - type: Sprite
     state: blue
@@ -508,7 +508,7 @@
 - type: entity
   parent: RMCAreaLv522Indoors
   id: RMCAreaLv522IndoorsABlock
-  name: "A-Блок"
+  name: A-Block
   components:
   - type: Sprite
     state: blue
@@ -526,7 +526,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockAdmin
-  name: "A-Блок — Операційний центр колонії"
+  name: A-Block - Colony Operations Centre
   components:
   - type: Sprite
     state: mechbay
@@ -536,7 +536,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockDorms
-  name: "A-Блок — Західні гуртожитки та офіси"
+  name: A-Block - Western Dorms And Offices
   components:
   - type: Sprite
     state: fitness
@@ -559,7 +559,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockFitness
-  name: "A-Блок — Фітнес-центр"
+  name: A-Block - Fitness Centre
   components:
   - type: Sprite
     state: fitness
@@ -582,7 +582,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockHallway
-  name: "A-Блок — Південний операційний коридор"
+  name: A-Block - South Operations Hallway
   components:
   - type: Sprite
     state: green
@@ -605,7 +605,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockMedical
-  name: "A-Блок — Медичний"
+  name: A-Block - Medical
   components:
   - type: Sprite
     state: medbay
@@ -630,7 +630,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockSecurity
-  name: "A-Блок — Охорона"
+  name: A-Block - Security
   components:
   - type: Sprite
     state: head_quarters
@@ -655,7 +655,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockKitchen
-  name: "A-Блок — Кухня та їдальня"
+  name: A-Block - Kitchen And Dining
   components:
   - type: Sprite
     state: kitchen
@@ -693,7 +693,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockExecutive
-  name: "A-Блок — Виконавчий апартамент"
+  name: A-Block - Executive Suite
   components:
   - type: Sprite
     state: captain
@@ -716,7 +716,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockDormNorth
-  name: "A-Блок — Північні спільні гуртожитки"
+  name: A-Block - Northern Shared Dorms
   components:
   - type: Sprite
     state: fitness
@@ -724,7 +724,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockBridges
-  name: "A-Блок — Міст від західних гуртожитків до охорони"
+  name: A-Block - Western Dorms To Security Bridge
   components:
   - type: Sprite
     state: hallc1
@@ -742,7 +742,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlockBridges
   id: RMCAreaLv522IndoorsABlockBridgesDormsFitness
-  name: "A-Блок — Міст від корпорації до фітнесу"
+  name: A-Block - Corporate To Fitness Bridge
   components:
   - type: Sprite
     state: hallc1
@@ -760,7 +760,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlockBridges
   id: RMCAreaLv522IndoorsABlockBridgesCorpoFitness
-  name: "A-Блок — Західні гуртожитки до фітнесу"
+  name: A-Block - Western Dorms To Fitness
   components:
   - type: Sprite
     state: hallc1
@@ -778,7 +778,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlockBridges
   id: RMCAreaLv522IndoorsABlockBridgesCorpo
-  name: "A-Блок — Міст від охорони до корпорації"
+  name: A-Block - Security To Corporate Bridge
   components:
   - type: Sprite
     state: hallc1
@@ -786,7 +786,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlockBridges
   id: RMCAreaLv522IndoorsABlockBridgesOpCentre
-  name: "A-Блок — Міст від охорони до операційного центру"
+  name: A-Block - Security To Operations Centre Bridge
   components:
   - type: Sprite
     state: hallc1
@@ -794,7 +794,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlockBridges
   id: RMCAreaLv522IndoorsABlockBridgesGardenBridge
-  name: "A-Блок — Садовий міст"
+  name: A-Block - Garden Bridge
   components:
   - type: Sprite
     state: hallc2
@@ -802,7 +802,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockCorpo
-  name: "A-Блок — Корпоративний офіс"
+  name: A-Block - Corporate Office
   components:
   - type: Sprite
     state: toxlab
@@ -825,7 +825,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsABlock
   id: RMCAreaLv522IndoorsABlockGarden
-  name: "A-Блок — Західний операційний сад"
+  name: A-Block - West Operations Garden
   components:
   - type: Sprite
     state: green
@@ -843,7 +843,7 @@
 - type: entity
   parent: RMCAreaLv522Indoors
   id: RMCAreaLv522IndoorsBBlock
-  name: "B-Блок"
+  name: B-Block
   components:
   - type: Sprite
     state: red
@@ -862,7 +862,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsBBlock
   id: RMCAreaLv522IndoorsBBlockHydro
-  name: "B-Блок — Гідропоніка"
+  name: B-Block - Hydroponics
   components:
   - type: Sprite
     state: hydro
@@ -888,7 +888,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsBBlock
   id: RMCAreaLv522IndoorsBBlockBar
-  name: "B-Блок — Бар"
+  name: B-Block - Bar
   components:
   - type: Sprite
     state: cafeteria
@@ -896,7 +896,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsBBlock
   id: RMCAreaLv522IndoorsBBlockBridge
-  name: "B-Блок — Мережа мостів гідропоніки"
+  name: B-Block - Hydroponics Bridge Network
   components:
   - type: Sprite
     state: hallc1
@@ -915,7 +915,7 @@
 - type: entity
   parent: RMCAreaLv522Indoors
   id: RMCAreaLv522IndoorsCBlock
-  name: "C-Блок"
+  name: C-Block
   components:
   - type: Sprite
     state: green
@@ -925,7 +925,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsCBlock
   id: RMCAreaLv522IndoorsCBlockCargo
-  name: "C-Блок — Карго"
+  name: C-Block - Cargo
   components:
   - type: Sprite
     state: primarystorage
@@ -933,7 +933,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsCBlock
   id: RMCAreaLv522IndoorsCBlockMining
-  name: "C-Блок — Шахти"
+  name: C-Block - Mining
   components:
   - type: Sprite
     state: yellow
@@ -943,7 +943,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsCBlock
   id: RMCAreaLv522IndoorsCBlockGarage
-  name: "C-Блок — Гараж"
+  name: C-Block - Garage
   components:
   - type: Sprite
     state: storage
@@ -951,7 +951,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsCBlock
   id: RMCAreaLv522IndoorsCBlockCasino
-  name: "C-Блок — Казино"
+  name: C-Block - Casino
   components:
   - type: Sprite
     state: purple
@@ -959,7 +959,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsCBlock
   id: RMCAreaLv522IndoorsCBlockBridge
-  name: "C-Блок — Міст від карго до гаража"
+  name: C-Block - Cargo To Garage Bridge
   components:
   - type: Sprite
     state: hallc1
@@ -977,7 +977,7 @@
 - type: entity
   parent: RMCAreaLv522IndoorsCBlock
   id: RMCAreaLv522IndoorsCBlockTComm
-  name: "C-Блок — Західний гараж T-Comms"
+  name: C-Block - West Garage T-comms
   components:
   - type: Sprite
     state: hallc1
@@ -985,7 +985,7 @@
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsNRockies
-  name: "Північна колонія — Скелі"
+  name: North Colony - Rockies
   components:
   - type: Sprite
     state: away
@@ -993,7 +993,7 @@
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsNwRockies
-  name: "Північно-західна колонія — Скелі"
+  name: Northwest Colony - Rockies
   components:
   - type: Sprite
     state: away1
@@ -1001,7 +1001,7 @@
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsWRockies
-  name: "Західна колонія — Скелі"
+  name: West Colony - Rockies
   components:
   - type: Sprite
     state: away2
@@ -1009,7 +1009,7 @@
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsPNRockies
-  name: "Північний процесор — Скелі"
+  name: North Processor - Rockies
   components:
   - type: Sprite
     state: away
@@ -1017,7 +1017,7 @@
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsPNwRockies
-  name: "Північно-західний процесор — Скелі"
+  name: Northwest Processor - Rockies
   components:
   - type: Sprite
     state: away1
@@ -1025,7 +1025,7 @@
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsPWRockies
-  name: "Західний процесор — Скелі"
+  name: West Processor - Rockies
   components:
   - type: Sprite
     state: away2
@@ -1033,7 +1033,7 @@
 - type: entity
   parent: RMCAreaLv522Outdoors
   id: RMCAreaLv522OutdoorsPERockies
-  name: "Східний процесор — Скелі"
+  name: East Processor - Rockies
   components:
   - type: Sprite
     state: away3
@@ -1041,7 +1041,7 @@
 - type: entity
   parent: RMCAreaLv522
   id: RMCAreaLv522Atmos
-  name: "Атмосферний процесор"
+  name: Atmospheric Processor
   components:
   - type: Sprite
     state: unknown
@@ -1061,7 +1061,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosOutdoor
-  name: "Атмосферний процесор — Назовні"
+  name: Atmospheric Processor - Outdoors
   components:
   - type: Sprite
     state: quart
@@ -1079,7 +1079,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosEastReactor
-  name: "Атмосферний процесор — Східний реактор"
+  name: Atmospheric Processor - Eastern Reactor
   components:
   - type: Sprite
     state: blue
@@ -1087,7 +1087,7 @@
 - type: entity
   parent: RMCAreaLv522AtmosEastReactor
   id: RMCAreaLv522AtmosEastReactorNorth
-  name: "Атмосферний процесор — Зовнішній східний реактор — Північ"
+  name: Atmospheric Processor - Outer East Reactor - North
   components:
   - type: Sprite
     state: yellow
@@ -1105,7 +1105,7 @@
 - type: entity
   parent: RMCAreaLv522AtmosEastReactor
   id: RMCAreaLv522AtmosEastReactorSouth
-  name: "Атмосферний процесор — Зовнішній східний реактор — південь"
+  name: Atmospheric Processor - Outer East Reactor - south
   components:
   - type: Sprite
     state: red
@@ -1138,7 +1138,7 @@
 - type: entity
   parent: RMCAreaLv522AtmosEastReactor
   id: RMCAreaLv522AtmosEastReactorEast
-  name: "Атмосферний процесор — Зовнішній східний реактор — схід"
+  name: Atmospheric Processor - Outer East Reactor - east
   components:
   - type: Sprite
     state: green
@@ -1156,7 +1156,7 @@
 - type: entity
   parent: RMCAreaLv522AtmosEastReactor
   id: RMCAreaLv522AtmosEastReactorWest
-  name: "Атмосферний процесор — Зовнішній східний реактор — захід"
+  name: Atmospheric Processor - Outer East Reactor - west
   components:
   - type: Sprite
     state: purple
@@ -1174,7 +1174,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosWestReactor
-  name: "Атмосферний процесор — Західний реактор"
+  name: Atmospheric Processor - Western Reactor
   components:
   - type: Sprite
     state: blue
@@ -1182,7 +1182,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosCargoIntake
-  name: "Атмосферний процесор — Прийом карго"
+  name: Atmospheric Processor - Cargo Intake
   components:
   - type: Sprite
     state: yellow
@@ -1200,7 +1200,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosCommandCentre
-  name: "Атмосферний процесор — Центральне командування"
+  name: Atmospheric Processor - Central Command
   components:
   - type: Sprite
     state: red
@@ -1218,7 +1218,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosNorthCommandCentre
-  name: "Атмосферний процесор — Чекпоінт північного командного центру"
+  name: Atmospheric Processor - North Command Centre Checkpoint
   components:
   - type: Sprite
     state: green
@@ -1236,7 +1236,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosFilt
-  name: "Атмосферний процесор — Система фільтрації"
+  name: Atmospheric Processor - Filtration System
   components:
   - type: Sprite
     state: mechbay
@@ -1254,7 +1254,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosWayInCommandCentre
-  name: "Атмосферний процесор — Північний корпоративний вхід до реактора"
+  name: Atmospheric Processor - North Corpo Reactor Entrance
   components:
   - type: Sprite
     state: blue
@@ -1272,7 +1272,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosSewer
-  name: "Атмосферний процесор — Каналізація"
+  name: Atmospheric Processor - Sewer
   components:
   - type: Sprite
     state: red
@@ -1290,7 +1290,7 @@
 - type: entity
   parent: RMCAreaLv522Atmos
   id: RMCAreaLv522AtmosReactorGarage
-  name: "Атмосферний процесор — Гараж"
+  name: Atmospheric Processor - Garage
   components:
   - type: Sprite
     state: green
