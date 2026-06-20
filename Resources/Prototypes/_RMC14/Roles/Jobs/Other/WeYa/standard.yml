@@ -42,7 +42,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCStandardM63B2
-  name: weya pmc ghost role standard
+  name: "weya pmc привид-роль стандарт"
   suffix: Spawner, Player, M63B2
   components:
   - type: Sprite
@@ -54,7 +54,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCStandardM63B2
-  name: weya pmc operator spawn point
+  name: "спавнер оператора weya pmc"
   suffix: M63B2
   components:
   - type: SpawnPoint
@@ -124,7 +124,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCStandardSSG45
-  name: weya pmc ghost role standard
+  name: "weya pmc привид-роль стандарт"
   suffix: Spawner, Player, SSG45
   components:
   - type: Sprite
@@ -136,7 +136,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointPMCStandardSSG45
-  name: weya pmc operator spawn point
+  name: "спавнер оператора weya pmc"
   suffix: SSG45
   components:
   - type: SpawnPoint
@@ -204,7 +204,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCStandardM54C2
-  name: weya pmc ghost role standard
+  name: "weya pmc привид-роль стандарт"
   suffix: Spawner, Player, M54C2
   components:
   - type: Sprite
@@ -216,7 +216,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCPMCStandardM54C2
-  name: weya pmc operator spawn point
+  name: "спавнер оператора weya pmc"
   suffix: M54C2
   components:
   - type: SpawnPoint

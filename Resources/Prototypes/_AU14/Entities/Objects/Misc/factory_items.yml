@@ -7,8 +7,8 @@
 - type: entity
   parent: BaseItem
   id: AUMetalIngot
-  name: metal ingot
-  description: A crude ingot of smelted metal. Ready for further processing.
+  name: "металевий зливок"
+  description: "Грубий зливок переплавленого металу. Готовий до подальшої обробки."
   components:
   - type: Sprite
     sprite: Objects/Materials/ingots.rsi
@@ -22,8 +22,8 @@
 - type: entity
   parent: BaseItem
   id: AUWeylandYutaniDoorknob
-  name: Weyland-Yutani doorknob
-  description: A precision-machined doorknob stamped with the Weyland-Yutani logo.
+  name: "дверна ручка Вейланд-Ютані"
+  description: "Прецизійно виготовлена дверна ручка з логотипом Вейланд-Ютані."
   components:
   - type: Sprite
     sprite: Objects/Misc/coins.rsi

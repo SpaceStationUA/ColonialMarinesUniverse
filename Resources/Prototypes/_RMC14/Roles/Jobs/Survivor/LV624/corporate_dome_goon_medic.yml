@@ -34,7 +34,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624CorporateDomeGoonMedic
-  name: special survivor lv624 goon medic spawn point
+  name: "спавнер lv624 спецмедика-бандита"
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624CorporateDomeGoonMedic
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCSurvivorPresetSecurity
   id: RMCGearSurvivorPresetLV624CorporateDomeGoonMedic
-  name: lv624 colonist preset
+  name: "пресет колоніста lv624"
 
 - type: jobIcon
   parent: CMJobIconBase

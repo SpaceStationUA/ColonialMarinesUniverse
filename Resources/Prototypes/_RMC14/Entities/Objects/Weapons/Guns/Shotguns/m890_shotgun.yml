@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ RMCBaseWeaponShotgun, RMCBaseAttachableHolder ]
-  name: MK221 tactical shotgun
+  name: "тактичний дробовик MK221"
   id: WeaponShotgunM890
-  description: A Weyland-Yutani semi-automatic shotgun with a rapid fire rate and an attached Underslung Grenade Launcher. Holds 8 shotgun shells in the chamber.
+  description: "Напівавтоматичний дробовик «Вейленд-Ютані» зі швидким темпом стрільби та прикріпленим Підстовбурним Гранатометом. Тримає 8 набоїв у патроннику."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Shotguns/m890.rsi

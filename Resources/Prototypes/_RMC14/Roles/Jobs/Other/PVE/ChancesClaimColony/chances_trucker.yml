@@ -41,7 +41,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorChancesTrucker
-  name: chances trucker spawn point
+  name: "спавнер водія chances"
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -57,7 +57,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorChancesTrucker
-  name: chances trucker ghost role
+  name: "привид-роль водія chances"
   components:
   - type: Sprite
     layers:

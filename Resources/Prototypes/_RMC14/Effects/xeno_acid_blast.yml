@@ -1,6 +1,6 @@
 ﻿- type: entity
   id: XenoAcidBlast
-  name: acid blast
+  name: "кислотний вибух"
   components:
   - type: XenoAcidBlast
     delay: 1.35
@@ -11,7 +11,7 @@
 - type: entity
   id: XenoAcidBlastEmpowered
   parent: XenoAcidBlast
-  name: acid blast
+  name: "кислотний вибух"
   components:
   - type: XenoAcidBlast
     empowered: true

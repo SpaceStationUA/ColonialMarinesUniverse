@@ -2,7 +2,7 @@
   parent: AU14JobLEOBase
   id: AU14JobParoleeReleaseCMBDeputyJob
   name: au14-job-name-civiliancmbdeputy
-  description: You have been transferred to this planet as the parole officer of a convicted criminal. Report to the local Marshal and ensure the prisoner in your care is reintegrated into civilian life.
+  description: "Вас перевели на цю планету як офіцера з нагляду за умовно звільненим засудженим. Доповідайте місцевому маршалу та переконайтеся, що в'язень під вашою опікою повертається до цивільного життя."
   setPreference: false
   canBeAntag: false
   requirements:
@@ -66,7 +66,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCMB
   id: AU14JobParoleeReleaseCMBDeputy
-  name: CMB Deputy
+  name: "Помічник маршала КБМ"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

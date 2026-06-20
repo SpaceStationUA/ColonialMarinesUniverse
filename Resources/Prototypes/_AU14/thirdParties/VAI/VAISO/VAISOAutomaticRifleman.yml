@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicVAI
   id: AU14VAISOMachinegunner
-  name: VAISO Machinegunner
+  name: "кулеметник VAISO"
   components:
   - type: EquipEntityPreset
     preset: AU14VAISOMGPreset
@@ -52,7 +52,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: VAISO Machinegunner
+    name: "кулеметник VAISO"
     description: You have received intel on Weyland-Yutani's facility from local CLF insurgent group. Your mission is to raid the facility, securing any valuable intel. Do it without excessive attention.
     job: AU14VAISOMachinegunner
     raffle:
@@ -60,7 +60,7 @@
 
 - type: entity
   id: AU14VAISOMGPreset
-  name: vaiso mg preset
+  name: "пресет кулеметника VAISO"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

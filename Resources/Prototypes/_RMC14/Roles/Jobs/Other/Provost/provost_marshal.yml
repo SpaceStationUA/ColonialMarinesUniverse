@@ -100,8 +100,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRolePvM
-  name: Provost Marshal
-  description: Provost Marshal
+  name: "Маршал Провоста"
+  description: "Маршал Провоста"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseWeaponSniperRifle
   id: AU14WeaponSniperRifleM42A2
-  name: M42A2 designated marksman rifle
-  description: The M42A2 designated marksman rifle is currently used by the LACN landing forces, originally supposed to be mass produced for the USCM until it lost his place against the M4RA due to its superior magazine capacity, longer barrel and superior modularity. the M42A2 still was a pretty decent option due to its lower production cost and more compact figure that lead to it getting adopted by both the LACN Landing Forces and Naval Commandos. the Commandos specially using it in larger numbers due to how reliable and easy to maintain it was during deep infiltration operations. This rifle takes M42A magazines.
+  name: "марксманська гвинтівка M42A2"
+  description: "Марксманська гвинтівка M42A2 зараз використовується десантними силами LACN. Спершу її планували масово виробляти для USCM, доки вона не поступилася M4RA через більшу місткість магазина, довший ствол і кращу модульність. Попри це, M42A2 лишалася доволі вдалим варіантом завдяки нижчій вартості виробництва й компактнішому профілю, що привело до її прийняття на озброєння як десантними силами LACN, так і морськими командос. Командос особливо активно використовували її через надійність і простоту обслуговування під час глибоких інфільтраційних операцій. Ця гвинтівка використовує магазини M42A."
   components:
   - type: Sprite
     sprite: _AU14/Weapons/Guns/LACN/M42A2-64x32.rsi

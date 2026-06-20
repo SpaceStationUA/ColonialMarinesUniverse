@@ -1,8 +1,8 @@
 ﻿- type: entity
   parent: [ CMBaseWeaponGun, BaseItem, RMCBaseAttachableHolder ]
   id: RMCWeaponFlamer
-  name: M240 incinerator unit
-  description: M240 incinerator unit has proven to be one of the most effective weapons at clearing out soft-targets. This is a weapon to be feared and respected as it is quite deadly.
+  name: "пристрій-спалювач M240"
+  description: "Пристрій-спалювач M240 проявив себе як одна з найефективніших одиниць зброї для зачищення м'яких цілей. Це зброя, яку слід боятися й поважати, оскільки вона досить смертоносна."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Flamethrower/m34.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: RMCBaseTankFlamer
   id: RMCTankFlamer
-  name: incinerator tank
-  description: A fuel tank used to store fuel for use in the M240 incinerator unit. Handle with care.
+  name: "бак спалювача"
+  description: "Паливний бак для зберігання палива для використання в пристрої-спалювачі M240. Поводитися обережно."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Weapons/Guns/Ammunition/flamethrower.rsi
@@ -192,8 +192,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerCustom
-  name: M240 custom incinerator tank
-  description: A fuel tank for use in the M240 incinerator unit.
+  name: "користувацький бак для спалювача M240"
+  description: "Паливний бак для використання у спалювальному модулі M240."
   # description: A fuel tank for use in the M34 incinerator unit. This one has been modified with a pressure regulator and an internal propellant tank.
   components:
   - type: RMCFlamerTank
@@ -210,8 +210,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerBGel
-  name: M240 incinerator tank (B-Gel)
-  description: A fuel tank full of specialized Ultra Thick Napthal Fuel type B-Gel, a gelled variant of napalm that is easily extinguished, but shoots further and lingers for longer. Handle with exceptional care.
+  name: "бак для спалювача M240 (B-Gel)"
+  description: "Паливний бак, повний спеціалізованого ультра-густого нафталового палива типу B-Gel, гелевого варіанту напалму, який легко гаситься, але летить далі й довше лишається на місці. Поводьтеся з винятковою обережністю."
   components:
   - type: RMCFlamerTank
     maxRange: 7
@@ -227,8 +227,8 @@
 - type: entity
   parent: RMCTankFlamer
   id: RMCTankFlamerUpgraded
-  name: M240 upgraded incinerator tank
-  description: A fuel tank for use in the M240 incinerator unit. This one has been modified with a larger and more sophisticated internal propellant tank, allowing for larger capacity and stronger fuels.
+  name: "покращений бак для спалювача M240"
+  description: "Паливний бак для використання у спалювальному модулі M240. Цей модифіковано більшим і складнішим внутрішнім баком пропеленту, що дає більшу місткість і дозволяє використовувати потужніше паливо."
   components:
   - type: RMCFlamerTank
     maxIntensity: 60
@@ -246,8 +246,8 @@
 - type: entity
   parent: RMCGunCaseBase
   id: RMCCaseFlamer
-  name: M240 incinerator case
-  description: A gun case containing the M240 incinerator unit. It does come loaded, but you'll still have to find extra tanks as you go.
+  name: "кейс спалювача M240"
+  description: "Збройовий кейс зі спалювальним модулем M240. Він постачається зарядженим, але додаткові баки все одно доведеться шукати на ходу."
   components:
   - type: Storage
     maxItemSize: Huge

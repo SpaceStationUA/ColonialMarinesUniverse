@@ -34,7 +34,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYSurvEngineer
-  name: WY PMC Combat Engineer (Survivor)
+  name: "Бойовий інженер ПВК ВЮ (виживший)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

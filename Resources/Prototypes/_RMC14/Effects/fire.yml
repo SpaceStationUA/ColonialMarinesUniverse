@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCBaseEffect
   id: RMCEffectXenoFireSpew
-  name: fire spew
+  name: "вогняне виверження"
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

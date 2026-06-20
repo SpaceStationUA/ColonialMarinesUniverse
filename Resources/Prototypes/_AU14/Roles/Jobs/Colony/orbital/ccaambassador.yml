@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianAmbassadorCCA
-  name: Spawn Point Civilian CCA Ambassador
+  name: "точка появи цивільного посла CCA"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianAmbassadorCCA

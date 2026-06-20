@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AU14PropItemLaptop
-  name: Laptop
-  description: A portable computer.
+  name: "ноутбук"
+  description: "Портативний комп’ютер."
   components:
   - type: Transform
     anchored: false
@@ -16,8 +16,8 @@
 - type: entity
   parent: RMCOverwatchConsoleGovfor
   id: AU14ItemLaptopOverwatchGOVFOR
-  name: Overwatch Laptop
-  description: A portable tactical computer for overwatching and monitoring friendly units.
+  name: "ноутбук спостереження"
+  description: "Портативний тактичний комп’ютер для прикриття та моніторингу дружніх підрозділів."
   suffix: GOVFOR
   components:
   - type: Transform
@@ -32,8 +32,8 @@
 - type: entity
   parent: RMCOverwatchConsoleOpfor
   id: AU14ItemLaptopOverwatchOPFOR
-  name: Overwatch Laptop
-  description: A portable tactical computer for overwatching and monitoring friendly units.
+  name: "ноутбук спостереження"
+  description: "Портативний тактичний комп’ютер для прикриття та моніторингу дружніх підрозділів."
   suffix: OPFOR
   components:
   - type: Transform
