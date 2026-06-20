@@ -8568,241 +8568,242 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1357
 - author: Arcticular1
   changes:
-  - message: Added 2x M240 Flamer (800$) to ASRS
+  - message: Додано 2 M240 Flamer (800$) до ASRS
     type: Add
-  - message: Added 4x UT Fuel (200$) to ASRS
+  - message: Додано 4 UT Fuel (200$) до ASRS
     type: Add
-  - message: Added 2x UT Fuel 2x BGEL Fuel mixed crate (350$) to ASRS
+  - message: Додано змішаний ящик 2 UT Fuel + 2 BGEL Fuel (350$) до ASRS
     type: Add
-  - message: Added 4x BGEL Fuel (500$) to ASRS
+  - message: Додано 4 BGEL Fuel (500$) до ASRS
     type: Add
-  - message: Removed M240-T from asrs.
+  - message: Видалено M240-T з ASRS.
     type: Remove
   id: 301
   time: '2026-06-19T03:40:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1361
 - author: sunzu432
   changes:
-  - message: 'Hope''s Retreat: A second gate to the southern entry point of the Octanis
-      Complex, allowing the security post to control access both ways.'
+  - message: 'Hope''s Retreat: Додано другу браму до південного входу в комплекс
+      Octanis, щоб пост охорони міг контролювати доступ в обидва боки.'
     type: Add
-  - message: 'Hope''s Retreat: Vehicle lift placed inside the Fort Beauregard Vehicle
-      Pool.'
+  - message: 'Hope''s Retreat: Транспортний ліфт розміщено всередині автопарку форту
+      Beauregard.'
     type: Add
-  - message: 'Hope''s Retreat: Additional flanking routes along the central "Smuggler''s
-      Tunnel" to prevent that choke from stalling gameplay.'
+  - message: 'Hope''s Retreat: Додано обхідні маршрути вздовж центрального "Тунелю
+      контрабандистів", щоб ця вузька точка не зупиняла ігровий процес.'
     type: Add
-  - message: 'Hope''s Retreat: The central wall should look a lot more natural, as
-      well as now having invisible walls to prevent it from being passable by armored
-      vehicles, as well as more visual language to convey that it is not intended
-      to be passable terrain to new players.'
+  - message: 'Hope''s Retreat: Центральна стіна має виглядати значно природніше; тепер
+      вона має невидимі стіни, які не дають бронетехніці проїжджати крізь неї, і
+      більше візуальних підказок для нових гравців, що це не прохідна місцевість.'
     type: Tweak
-  - message: 'Hope''s Retreat: The Octanis Complex''s southern gatehouse is now outdoors,
-      allowing CAS and mortars to support Marine efforts to breach the first set of
-      blast doors on the map''s south.'
+  - message: 'Hope''s Retreat: Південна брама комплексу Octanis тепер просто неба,
+      що дозволяє CAS і мінометам підтримувати морпіхів під час прориву першої лінії
+      броньованих дверей на півдні мапи.'
     type: Tweak
-  - message: 'Hope''s Retreat: Substantially widened and expanded the size of the
-      cave network, making map choke points less difficult to contest for Marines.'
+  - message: 'Hope''s Retreat: Значно розширено мережу печер, щоб морпіхам було легше
+      боротися за вузькі місця мапи.'
     type: Tweak
-  - message: 'Hope''s Retreat: The location of the Vehicle Pool in Fort Beauregard
-      has been moved.'
+  - message: 'Hope''s Retreat: Розташування автопарку у форті Beauregard перенесено.'
     type: Tweak
-  - message: Fixes some roof areas.
+  - message: Виправлено деякі ділянки даху.
     type: Fix
   id: 302
   time: '2026-06-19T05:01:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1370
 - author: maertayn
   changes:
-  - message: Fixed being able to use MarineOrders without cooldown as promoted SL
+  - message: Виправлено можливість використовувати MarineOrders без перезарядки як
+      підвищений SL
     type: Fix
-  - message: RMCShellShotgunHDSG was not able to be put in storage like other shells
-      (pouches/vests etc.)
+  - message: RMCShellShotgunHDSG тепер можна класти у сховище, як інші набої (підсумки,
+      жилети тощо).
     type: Fix
   id: 303
   time: '2026-06-19T05:41:17.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1380
 - author: maertayn
   changes:
-  - message: Multi Auth
+  - message: Додано мультиавторизацію
     type: Add
   id: 304
   time: '2026-06-19T06:27:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1379
 - author: troytroy400
   changes:
-  - message: Port Neroid renamed to Port Nereid
+  - message: Port Neroid перейменовано на Port Nereid
     type: Tweak
-  - message: New lobby screen art provided by ak105intow
+  - message: Додано новий арт екрана лобі від ak105intow
     type: Add
   id: 305
   time: '2026-06-19T08:48:36.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1381
 - author: jok989372-lgtm
   changes:
-  - message: Fixed startergear of hazmat working joe/
+  - message: Виправлено стартове спорядження hazmat Working Joe.
     type: Fix
   id: 306
   time: '2026-06-19T09:58:07.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1368
 - author: Arcticular1
   changes:
-  - message: Predators now have a 35% flame resist.
+  - message: Хижаки тепер мають 35% опору вогню.
     type: Tweak
   id: 307
   time: '2026-06-19T10:02:27.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1347
 - author: 400Ferrets
   changes:
-  - message: Port Neroid carp no longer die to barotrauma round-start
+  - message: Коропи на Port Neroid більше не помирають від баротравми на старті раунду
     type: Add
-  - message: Port Neroid LZs can no longer be assaulted from rooftops
+  - message: ЗП Port Neroid більше не можна штурмувати з дахів
     type: Add
-  - message: Port Neroid now has dropship computers
+  - message: На Port Neroid тепер є комп'ютери десантних кораблів
     type: Add
-  - message: Port Neroid can now spawn monkeys if the gamemode permits it
+  - message: На Port Neroid тепер можуть з'являтися мавпи, якщо це дозволяє режим гри
     type: Add
-  - message: Port Neroid can no longer be (trivially) escaped by going over the map
-      boundary fog
+  - message: З Port Neroid більше не можна легко втекти через туман межі мапи
     type: Add
-  - message: Port Neroid now has a revised mob presence
+  - message: На Port Neroid переглянуто присутність мобів
     type: Add
-  - message: Port Neroid habitation medical stairs no longer a tripping hazard
+  - message: Сходи медичного відсіку житлового блоку Port Neroid більше не створюють
+      небезпеку спотикання
     type: Add
-  - message: Port Neroid now has salvage
+  - message: На Port Neroid тепер є ресурси для salvage
     type: Add
-  - message: Port Neroid now has mostly fixed APCs
+  - message: На Port Neroid тепер здебільшого виправлені APC
     type: Add
-  - message: Port Neroid benches are no longer in the walls and improperly rotated
+  - message: Лави Port Neroid більше не всередині стін і не повернуті неправильно
     type: Add
   id: 308
   time: '2026-06-19T10:19:31.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1378
 - author: HotdogMan52
   changes:
-  - message: CN20 Nerve Gas which respects gas masks
+  - message: Додано нервово-паралітичний газ CN20, який враховує протигази
     type: Add
-  - message: Dylovene neutralizes CN20 in system so injecting Dylovene helps purge
-      your system from CN20 quicker
+  - message: Dylovene нейтралізує CN20 в організмі, тому ін'єкція Dylovene допомагає
+      швидше вивести CN20 з організму
     type: Add
-  - message: Changed chemical irritant gases' interaction with gas mask filters
+  - message: Змінено взаємодію хімічних подразнювальних газів із фільтрами протигазів
     type: Tweak
-  - message: Chemical irritant gases respect nested and devoured peeople now
+  - message: Хімічні подразнювальні гази тепер враховують вкладених і проковтнутих
+      людей
     type: Fix
   id: 309
   time: '2026-06-19T18:07:53.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1371
 - author: sunzu432
   changes:
-  - message: 'Hope''s Retreat: Second floor for the central Hope''s Retreat Dormitory,
-      allowing a commanding view of the colony.'
+  - message: 'Hope''s Retreat: Додано другий поверх центрального гуртожитку Hope''s
+      Retreat, з якого відкривається огляд колонії.'
     type: Add
-  - message: 'Hope''s Retreat: Second floor Octanis Complex hospital.'
+  - message: 'Hope''s Retreat: Додано другий поверх лікарні комплексу Octanis.'
     type: Add
-  - message: 'Hope''s Retreat: Miscellaneous decorations.'
+  - message: 'Hope''s Retreat: Додано різні декорації.'
     type: Add
-  - message: 'Hope''s Retreat: The commissary and kitchen have had some small changes
-      to the layout and interior content to hopefully encourage player interaction
-      with their respective staff.'
+  - message: 'Hope''s Retreat: У комісаріаті та кухні внесено невеликі зміни до планування
+      й інтер''єру, щоб заохотити взаємодію гравців із відповідним персоналом.'
     type: Tweak
-  - message: 'Hope''s Retreat: Small tweaks to increase the visual readability of
-      some buttons around the map.'
+  - message: 'Hope''s Retreat: Невеликі зміни для покращення візуальної читабельності
+      деяких кнопок на мапі.'
     type: Tweak
-  - message: 'Hope''s Retreat: Moved Colony Fall threat spawns.'
+  - message: 'Hope''s Retreat: Переміщено спавни загроз Colony Fall.'
     type: Tweak
-  - message: 'Hope''s Retreat: Fort Beauregard Vehicle Pool now has the correct overhead
-      crane asset.'
+  - message: 'Hope''s Retreat: В автопарку форту Beauregard тепер правильний ассет
+      верхнього крана.'
     type: Tweak
-  - message: 'Hope''s Retreat: Clarified description of unopenable podlocks near the
-      starport to be more informative.'
+  - message: 'Hope''s Retreat: Уточнено опис podlock-ів біля космопорту, які неможливо
+      відкрити, щоб він був інформативнішим.'
     type: Tweak
-  - message: 'Hope''s Retreat: Xenos should no longer be able to jump over the central
-      wall near the starport.'
+  - message: 'Hope''s Retreat: Ксено більше не повинні перестрибувати центральну стіну
+      біля космопорту.'
     type: Fix
-  - message: 'Hope''s Retreat: Wey-Yu guards should now spawn in the correct place.'
+  - message: 'Hope''s Retreat: Охоронці Wey-Yu тепер мають з''являтися в правильному
+      місці.'
     type: Fix
-  - message: 'Hope''s Retreat: Experimental Sensor Tower is now the correct entity
-      and not from upstream.'
+  - message: 'Hope''s Retreat: Experimental Sensor Tower тепер правильна сутність,
+      а не версія з upstream.'
     type: Fix
   id: 310
   time: '2026-06-19T18:10:09.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1387
 - author: wray-git
   changes:
-  - message: Added the M-19 "Treadnailer" assault boots, a special issue piece of
-      kit fitted with tungsten-carbide spike plates in the sole. Destroys xeno resin
-      on contact, and if you happen to walk over anyone who's in no shape to get out
-      of the way, they're gonna have a bad time. Slowdown 20%. Available from RTO(lead)
-      lockers, HAZOPs get 3 from their cargo vendor under "Special Issue Equipment"
+  - message: Додано штурмові черевики M-19 "Treadnailer", спеціальний предмет спорядження
+      з вольфрам-карбідними шипованими пластинами в підошві. Знищують смолу ксено
+      при контакті, а якщо ви наступите на когось, хто не може відійти, йому буде
+      дуже боляче. Уповільнення 20%. Доступні у шафках RTO(lead), HAZOPs отримують
+      3 у своєму вантажному вендорі в розділі "Special Issue Equipment".
     type: Add
-  - message: UZI can now be stored in bags, belts, pockets, and backpack slot
+  - message: UZI тепер можна зберігати в сумках, поясах, кишенях і слоті рюкзака
     type: Add
-  - message: Changed HAZOPs' cargo vendor section from "Special Issue Firearms" to
-      "Special Issue Equipment"
+  - message: Розділ вантажного вендора HAZOPs змінено з "Special Issue Firearms"
+      на "Special Issue Equipment"
     type: Tweak
-  - message: Increased UZI RoF to 7.5
+  - message: Швидкострільність UZI збільшено до 7.5
     type: Tweak
-  - message: "Improved UZI accuracy slightly \U0001F90F"
+  - message: Точність UZI трохи покращено
     type: Tweak
-  - message: Added SpikeBootsComponent, a marker component that sits on the boots
-      item and does nothing exciting on its own
+  - message: Додано SpikeBootsComponent, маркерний компонент, який знаходиться на
+      предметі черевиків і сам по собі не робить нічого цікавого
     type: Code
-  - message: Added SpikeBootsWearerComponent, slapped onto whoever equips the boots,
-      keeps track of what tile they last stepped on and who they recently stomped
-      so we don't spam damage every tick
+  - message: Додано SpikeBootsWearerComponent, який додається тому, хто екіпірує черевики,
+      відстежує останню плитку, на яку він ступав, і кого нещодавно топтав, щоб не
+      спамити шкодою щотік
     type: Code
-  - message: Added SpikeBootsSystem, the thing that actually does stuff, runs a tile-change
-      check each update and handles resin destruction, passable mob damage, cooldowns,
-      sounds and screenshake
+  - message: Додано SpikeBootsSystem, яка виконує основну роботу, перевіряє зміну
+      плитки під час оновлення та обробляє знищення смоли, шкоду прохідним мобам,
+      перезарядки, звуки й тряску екрана
     type: Code
-  - message: Added spikedboots.rsi to _AU14/Clothing/Shoes with the full icon/equipped/filled
-      state set
+  - message: Додано spikedboots.rsi до _AU14/Clothing/Shoes із повним набором станів
+      іконки, екіпірування й заповнення
     type: Code
   id: 311
   time: '2026-06-19T18:10:35.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1360
 - author: JaSeNeSaJ
   changes:
-  - message: 'Sheperds'': 2 Working Joe job slots'
+  - message: "Sheperds': 2 слоти роботи Working Joe"
     type: Add
-  - message: 'Sheperds'': Botany & Assistant Quarters to Research Labs'
+  - message: "Sheperds': Ботаніку та каюти асистентів перенесено до дослідницьких
+      лабораторій"
     type: Add
-  - message: 'Sheperds'': Chem setup to Research Labs'
+  - message: "Sheperds': Хімічну установку перенесено до дослідницьких лабораторій"
     type: Add
-  - message: 'Sheperds'': Colony hospital layout'
+  - message: "Sheperds': Планування лікарні колонії"
     type: Tweak
-  - message: 'Sheperds'': Various stairwell improvements'
+  - message: "Sheperds': Різні покращення сходових кліток"
     type: Tweak
   id: 312
   time: '2026-06-19T19:03:32.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1362
 - author: HotdogMan52
   changes:
-  - message: added four M19-NL Tear Gas nades into SecTech vendors
+  - message: Додано чотири гранати зі сльозогінним газом M19-NL у вендори SecTech
     type: Add
-  - message: added four gas mask and eight filters
+  - message: Додано чотири протигази та вісім фільтрів
     type: Add
   id: 313
   time: '2026-06-20T01:24:20.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1388
 - author: wray-git
   changes:
-  - message: M-19 Treadnailers now only destroys weeds and weed nodes
+  - message: M-19 Treadnailers тепер знищують лише зарості ксено та їхні вузли
     type: Fix
-  - message: M-19 Treadnailers are only active when the wearer is standing
+  - message: M-19 Treadnailers активні лише коли носій стоїть
     type: Fix
   id: 314
   time: '2026-06-20T01:31:30.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1389
 - author: maertayn
   changes:
-  - message: Bumped round end to 5 minutes
+  - message: Час до завершення раунду збільшено до 5 хвилин
     type: Tweak
-  - message: Added some internet slang to chatsan
+  - message: Додано трохи інтернет-сленгу до chatsan
     type: Tweak
-  - message: Pamphlets can give marine orders if leadership becomes >= 1
+  - message: Памфлети можуть давати накази морпіхів, якщо leadership стає >= 1
     type: Fix
-  - message: Fixes Bush not loading platoons & vendors
+  - message: Виправлено, що Bush не завантажував взводи й вендори
     type: Fix
   id: 315
   time: '2026-06-20T04:35:54.0000000+00:00'

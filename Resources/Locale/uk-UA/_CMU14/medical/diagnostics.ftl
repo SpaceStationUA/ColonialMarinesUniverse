@@ -45,8 +45,6 @@ cmu-medical-scanner-pain-mild = Біль: Легкий
 cmu-medical-scanner-pain-moderate = Біль: Помірний
 cmu-medical-scanner-pain-severe = Біль: Сильний
 cmu-medical-scanner-pain-shock = Біль: шок
-
-# V2-ε Stat-sheet redesign — dark cards + status banner + body chart
 cmu-medical-scanner-pain-risk-unknown = ?
 cmu-medical-scanner-pain-risk-low = Низький
 cmu-medical-scanner-pain-risk-elevated = Підвищений
@@ -54,8 +52,6 @@ cmu-medical-scanner-pain-risk-high = Високий
 cmu-medical-scanner-pain-risk-imminent = Неминучий
 cmu-medical-scanner-pain-risk-active = Активний
 cmu-medical-scanner-pain-risk-suppressed-suffix = (пригн.)
-
-# V2-ε Stat-sheet redesign — dark cards + status banner + body chart
 cmu-medical-scanner-card-body = Тіло
 cmu-medical-scanner-card-organs = Органи
 cmu-medical-scanner-card-reagents = Реагенти у кровотоці

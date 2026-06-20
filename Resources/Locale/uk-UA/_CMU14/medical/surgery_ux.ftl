@@ -114,7 +114,7 @@ cmu-medical-surgery-remove-armor = Спочатку зніміть заважа�
 cmu-medical-surgery-wrong-limb = Ця кінцівка не підходить до жодного вільного слота на пацієнтові.
 cmu-medical-surgery-welder-not-lit = Спочатку запаліть інструмент.
 cmu-medical-surgery-patient-not-lying = Пацієнт має лежати або бути прив'язаним до операційного столу.
-cmu-medical-surgery-patient-not-controlled = Пацієнту потрібна анестезія, сильні знеболюючі або обмежувачі перед операцією.
+cmu-medical-surgery-patient-not-controlled = Пацієнту потрібна анестезія, сильні знеболювальні або обмежувачі перед операцією.
 cmu-medical-surgery-self-pain-control = Самооперація вимагає сильних знеболюючих заздалегідь.
 cmu-medical-surgery-self-not-secured = Пристебніться до стільця, ліжка або візка перед спробою самооперації.
 cmu-medical-surgery-self-not-allowed = Ви не можете виконати цю операцію на собі.
@@ -141,7 +141,7 @@ cmu-medical-surgery-tool-category-cable_coil = Котушка з Кабелем
 
 cmu-medical-surgery-step-realign-simple-label = Вирівняти Простий Перелом
 cmu-medical-surgery-step-realign-compound-label = Вирівняти Складний Перелом
-cmu-medical-surgery-step-realign-comminuted-label = Вирівняти Уламковий Перелом
+cmu-medical-surgery-step-realign-comminuted-label = Вправити уламковий перелом
 cmu-medical-surgery-step-apply-gel-label = Нанести Кістковий Гель
 cmu-medical-surgery-step-apply-gel-second-label = Нанести Кістковий Гель (Другий Шар)
 cmu-medical-surgery-step-insert-graft-label = Вставити Кістковий Трансплант
@@ -167,9 +167,7 @@ cmu-medical-surgery-step-suture-kidneys-label = Зашити Нирки
 cmu-medical-surgery-step-suture-heart-label = Зашити Серце
 cmu-medical-surgery-step-suture-stomach-label = Зашити Шлунок
 cmu-medical-surgery-step-amputate-limb-label = Ампутувати Кінцівку
-cmu-medical-surgery-step-reattach-limb-label = Знову приєднати відсічену кінцівку
-
-# ---- Autodoc ---------------------------------------------------------
+cmu-medical-surgery-step-reattach-limb-label = Повторно приєднати відсічену кінцівку
 
 cmu-autodoc-window-title = АвтоДок
 cmu-autodoc-no-patient = Немає пацієнта
@@ -194,7 +192,7 @@ cmu-autodoc-queue-empty = Немає процедур у черзі.
 cmu-autodoc-queue-summary = { $count } процедур(а) у черзі
 cmu-autodoc-available-procedures = { $count } доступних процедур(а)
 cmu-autodoc-part-procedures = { $count } процедур(а)
-cmu-autodoc-surgery2-required = Автодок недоступний.
+cmu-autodoc-surgery2-required = Потрібна підготовка з хірургії 2, щоб ставити кроки автодока в чергу.
 cmu-autodoc-no-surgeries = Тут немає доступних операцій.
 cmu-autodoc-queue-row = #{ $index } { $surgery } на { $part } - { $step }
 cmu-autodoc-surgery-row = { $surgery } - { $step }
@@ -203,8 +201,6 @@ cmu-autodoc-automated-step-note = Автодок ремонтує цю ціль 
 cmu-autodoc-repair-wounds-surgery = Ремонт Ран / Опіків
 cmu-autodoc-procedure-time-note = { $time } автоматичної процедури.
 cmu-autodoc-minutes = { $minutes } хв
-
-# ---- Body scanner ----------------------------------------------------
 
 cmu-body-scanner-window-title = Сканер тіла
 cmu-body-scanner-no-patient = Немає пацієнта
@@ -333,7 +329,7 @@ cmu-limb-printer-remove-syringe = Видалити Шприц
 cmu-limb-printer-left-heading = Ліва
 cmu-limb-printer-right-heading = Права
 cmu-limb-printer-print-ready = Готово до друку
-cmu-limb-printer-status-ready = Готовий синтезувати органічні кінцівки та виготовляти протези.
+cmu-limb-printer-status-ready = Готовий до синтезу.
 cmu-limb-printer-missing-beaker = Вставте мензурку з біогенною матрицею.
 cmu-limb-printer-missing-matrix = Біогенна матриця замала.
 cmu-limb-printer-missing-syringe = Вставте шприц із кров'ю пацієнта.
