@@ -2,8 +2,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressEnlisted
-  name: "парадна форма морпіха рядового складу"
-  description: "Нижня сорочка та штани легендарної парадної форми морпіхів, майже незмінні з XIX століття. Цей простий варіант для рядового складу, E-1 - E-3."
+  name: marine enlisted dress blues uniform
+  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This unadorned variant is for enlisted personnel, E-1 thru E-3.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/enlisted.rsi
@@ -11,8 +11,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressSenior
-  name: "парадна форма старшого морпіха"
-  description: "Нижня сорочка та штани легендарної парадної форми морпіхів, майже незмінні з XIX століття. Цей варіант має культову Криваву Смугу, яку носять унтер-офіцери та офіцери."
+  name: marine senior dress blues uniform
+  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This variant features the iconic Blood Stripe, worn by NCOs and officers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/senior.rsi
@@ -20,8 +20,8 @@
 - type: entity
   parent: RMCMarineUniformBase
   id: RMCMarineUniformDressGeneral
-  name: "парадна форма генерала морпіхів"
-  description: "Нижня сорочка та штани легендарної парадної форми морпіхів, майже незмінні з XIX століття. Цей варіант має чорні штани та широку Криваву Смугу, яку носять генерали."
+  name: marine general dress blues uniform
+  description: The undershirt and trousers of the legendary Marine dress blues, virtually unchanged since the 19th century. This variant features black trousers and a large Blood Stripe, worn by general officers.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Uniforms/DressBlues/general.rsi

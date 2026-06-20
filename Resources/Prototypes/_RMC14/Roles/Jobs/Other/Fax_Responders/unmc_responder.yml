@@ -54,8 +54,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardUNMCResponder
-  name: "ID-картка офіцера зв'язку UNMC"
-  description: "Видається операторам факсу регіонального командування UNMC."
+  name: UNMC Communications Officer ID card
+  description: Issued to the fax operators of UNMC Regional Command.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/gold_id.rsi

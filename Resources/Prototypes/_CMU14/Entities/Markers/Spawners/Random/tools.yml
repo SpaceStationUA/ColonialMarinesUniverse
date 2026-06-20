@@ -1,6 +1,6 @@
 - type: entity
   id: CMURandomEngineering
-  name: "спавнер випадкового інженерного"
+  name: random engineering spawner
   parent: MarkerBase
   suffix: CMU
   components:

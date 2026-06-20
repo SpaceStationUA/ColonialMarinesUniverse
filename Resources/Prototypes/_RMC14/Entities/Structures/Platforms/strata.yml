@@ -3,8 +3,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrata
-  name: "піднятий металевий край"
-  description: "Підвищений рівень металу, який часто використовують для піднесення ділянок над іншими. Ймовірно, на нього можна забратися."
+  name: raised metal edge
+  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
   components:
   - type: Sprite
     state: strata_metalplatform
@@ -39,8 +39,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataCornerSmall
-  name: "піднятий металевий кут"
-  description: "Підвищений рівень металу, який часто використовують для піднесення ділянок над іншими. Це кут."
+  name: raised metal corner
+  description: A raised level of metal, often used to elevate areas above others. This is the corner.
   components:
   - type: Sprite
     state: strata_metalplatform_deco
@@ -48,8 +48,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataTwo
-  name: "піднятий металевий край"
-  description: "Підвищений рівень металу, який часто використовують для піднесення ділянок над іншими. Ймовірно, на нього можна забратися."
+  name: raised metal edge
+  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
   components:
   - type: Sprite
     state: strata_metalplatform2
@@ -70,8 +70,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataTwoCornerSmall
-  name: "піднятий металевий кут"
-  description: "Підвищений рівень металу, який часто використовують для піднесення ділянок над іншими. Це кут."
+  name: raised metal corner
+  description: A raised level of metal, often used to elevate areas above others. This is the corner.
   components:
   - type: Sprite
     state: strata_metalplatform_deco2
@@ -79,8 +79,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataThree
-  name: "піднятий металевий край"
-  description: "Підвищений рівень металу, який часто використовують для піднесення ділянок над іншими. Ймовірно, на нього можна забратися."
+  name: raised metal edge
+  description: A raised level of metal, often used to elevate areas above others. You could probably climb it.
   components:
   - type: Sprite
     state: strata_metalplatform3
@@ -101,8 +101,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataThreeCornerSmall
-  name: "піднятий металевий кут"
-  description: "Підвищений рівень металу, який часто використовують для піднесення ділянок над іншими. Це кут."
+  name: raised metal corner
+  description: A raised level of metal, often used to elevate areas above others. This is the corner.
   components:
   - type: Sprite
     state: strata_metalplatform_deco3
@@ -111,8 +111,8 @@
 - type: entity
   parent: CMPlatform
   id: RMCPlatformStrataRock
-  name: "кам'яний край"
-  description: "Цільний шмат пустельних скель. Виглядає так, ніби на нього можна вилізти з певними труднощами."
+  name: rock edge
+  description: A solid chunk of desolate rocks. Looks like you could climb it with some difficulty.
   components:
   - type: Sprite
     state: strata_rock_platform
@@ -123,8 +123,8 @@
 - type: entity
   parent: CMPlatformBroken
   id: RMCPlatformStrataRockBroken
-  name: "зруйнований кам'яний край"
-  description: "Цільний шмат пустельних скель. Виглядає так, ніби на нього можна вилізти з певними труднощами. Він був зруйнований."
+  name: destroyed rock edge
+  description: A solid chunk of desolate rocks. Looks like you could climb it with some difficulty. It has been destroyed.
   components:
   - type: Sprite
     state: strata_rock_platform_broken
@@ -135,8 +135,8 @@
 - type: entity
   parent: RMCPlatformCornerSmall
   id: RMCPlatformStrataRockCornerSmall
-  name: "кам'яний кут"
-  description: "Цільний шмат пустельних скель."
+  name: rock corner
+  description: A solid chunk of desolate rocks.
   components:
   - type: Sprite
     state: strata_rock_platform_deco

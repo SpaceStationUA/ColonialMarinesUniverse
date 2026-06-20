@@ -72,7 +72,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointQuartermaster
-  name: "спавнер посади офіцера логістики"
+  name: Logistics Officer spawn point
   components:
   - type: SpawnPoint
     job_id: CMQuartermaster
@@ -86,8 +86,8 @@
 - type: entity
   parent: CMGuidebookRole
   id: RMCGuidebookRoleQM
-  name: "Лізон LO"
-  description: "Офіцер логістики."
+  name: The LO
+  description: The Logistics Officer.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite

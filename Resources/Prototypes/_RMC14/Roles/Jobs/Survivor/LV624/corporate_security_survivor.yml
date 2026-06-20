@@ -45,7 +45,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorLV624SecurityGuard
-  name: "спавнер lv624 weya-секохоронця-вцілілого"
+  name: survivor lv624 weya secguard spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivorLV624SecurityGuard

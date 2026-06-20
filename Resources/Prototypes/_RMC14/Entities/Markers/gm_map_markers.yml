@@ -1,7 +1,7 @@
 - type: entity
   id: RMCMarkerGM
   abstract: true
-  name: "GM-маркер"
+  name: GM marker
   placement:
     mode: SnapgridCenter
   components:

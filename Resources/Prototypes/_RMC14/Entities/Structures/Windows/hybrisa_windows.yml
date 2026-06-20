@@ -41,8 +41,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowHybrisa
-  name: "вікно"
-  description: "Скляне вікно у стінному каркасі."
+  name: window
+  description: A glass window inside a wall frame.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window.rsi
@@ -95,8 +95,8 @@
 - type: entity
   parent: CMBaseWindow
   id: RMCWindowHybrisaReinforced
-  name: "укріплене вікно"
-  description: "Скляне вікно. Світло заломлюється неправильно, коли крізь нього дивишся. Виглядає досить міцно. Може знадобитися кілька гарних ударів, щоб його розбити."
+  name: reinforced window
+  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. Might take a few good hits to shatter it.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Windows/hybrisa_window.rsi
@@ -152,8 +152,8 @@
 - type: entity
   parent: CMBaseWindowIndestructible
   id: RMCWindowHybrisaHull
-  name: "корпусне вікно"
-  description: "Скляне вікно. Світло заломлюється неправильно, коли крізь нього дивишся. Виглядає досить міцно. Тут не пройти."
+  name: hull window
+  description: A glass window. Light refracts incorrectly when looking through. It looks rather strong. No way to get through here.
   components:
   - type: Corrodible
     isCorrodible: false

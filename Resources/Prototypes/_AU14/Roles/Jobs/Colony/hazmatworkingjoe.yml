@@ -31,7 +31,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointWorkingJoeHazmat
-  name: "точка появи Робочого Джо (захисний костюм)"
+  name: Spawn Point Working Joe (Hazmat)
   components:
   - type: SpawnPoint
     job_id: AU14JobColonyWorkingJoeHazmat

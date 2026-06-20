@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPickaxe
   id: AU14ToolPickaxe
-  name: "кирка"
-  description: "Чудово підходить для знайомства каміння з гравітацією і достатньо важка, щоб переконати навіть найміцніший камінь посунутися."
+  name: pickaxe
+  description: Great for introducing rocks to gravity and heavy enough to convince even the toughest stone to move aside.
   suffix: AU14
   components:
   - type: MeleeWeapon
@@ -26,8 +26,8 @@
 - type: entity
   parent: CMM2132Machete
   id: AU14ToolMachete
-  name: "мачете"
-  description: "Прокладайте шлях крізь густі джунглі та щільну рослинність цим грубим лезом. Улюблений інструмент і морпіхів, і воєначальників."
+  name: machete
+  description: Chop a path through dense jungles and thick vegetation with this brutal blade. A favorite for marines and warlords alike.
   suffix: AU14
   components:
   - type: MeleeWeapon

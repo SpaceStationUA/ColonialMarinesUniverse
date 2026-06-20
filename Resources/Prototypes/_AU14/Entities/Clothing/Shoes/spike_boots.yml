@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingShoesMilitaryBase
   id: AU14SpikeBoots
-  name: "штурмові черевики M-19 «Треднейлер»"
+  name: M-19 "Treadnailer" assault boots
   description: >-
     Heavy-duty assault boots fitted with hardened tungsten-carbide spike plates press-welded into the sole.
     Originally prototyped for contested terrain operations and close-quarters breaching engagements.

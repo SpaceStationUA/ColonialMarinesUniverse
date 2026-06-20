@@ -37,7 +37,7 @@
   parent: AU14BaseMobSpeciesOrganicFORECON
   suffix: AU14, FORECON, Detachment
   id: AU14JobFORECONMarksmanDetachment
-  name: "марксман FORECON (загін)"
+  name: FORECON Marksman (Detachment)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

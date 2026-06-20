@@ -1,7 +1,7 @@
 - type: entity
   id: WeaponEnergyTurretControlPanelFrame
-  name: "каркас панелі керування вартовою туреллю"
-  description: "Незавершений настінний каркас для панелі керування вартовою туреллю."
+  name: sentry turret control panel assembly
+  description: An incomplete wall-mounted assembly for a sentry turret control panel.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -48,8 +48,8 @@
   abstract: true
   parent: WeaponEnergyTurretControlPanelFrame
   id: WeaponEnergyTurretStationControlPanelBase
-  name: "панель керування вартовою туреллю"
-  description: "Настінний інтерфейс для віддаленого налаштування робочих параметрів пов'язаних вартових турелей."
+  name: sentry turret control panel
+  description: A wall-mounted interface for remotely configuring the operational parameters of linked sentry turrets.
   components:
   - type: Appearance
   - type: Sprite
