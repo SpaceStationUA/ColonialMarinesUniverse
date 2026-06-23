@@ -28,3 +28,4 @@ rmc-storage-hand-eject-last-item = Клацання по {THE($storage)} пор�
 rmc-storage-hand-eject-first-item = Клацання по {THE($storage)} порожньою рукою тепер кладе вам у руку перший покладений предмет.
 rmc-storage-hand-eject-unequips = Клацання по {THE($storage)} тепер знімає його з вас.
 rmc-storage-hand-eject-open = Клацання по {THE($storage)} тепер відкриває його.
+rmc-storage-limit-two-guns = Тут уже лежать дві зброї!

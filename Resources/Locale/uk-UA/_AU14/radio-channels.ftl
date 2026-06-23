@@ -31,3 +31,4 @@ chat-radio-CMB = СМБ
 chat-radio-CLF = ФВК
 chat-radio-hivemind = Розум рою
 chat-radio-part = Продіджі
+chat-radio-cca = ЦКА

@@ -8810,244 +8810,254 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1391
 - author: Arcticular1
   changes:
-  - message: x1 Type 88 Marksman rifle (20p)
+  - message: x1 марксманська гвинтівка Type 88 (20p)
     type: Add
-  - message: x2 Type 88 Magazines (8p)
+  - message: x2 магазини Type 88 (8p)
     type: Add
-  - message: x1 LC9 incinerator (10p)
+  - message: x1 інсинератор LC9 (10p)
     type: Add
-  - message: x2 LC9 flamer tanks (5p)
+  - message: x2 баки пального LC9 (5p)
     type: Add
-  - message: x5 6B80 armored vests (5p)
+  - message: x5 бронежилетів 6B80 (5p)
     type: Add
-  - message: x2 K12 ceramic armor (15p)
+  - message: x2 керамічні броні K12 (15p)
     type: Add
-  - message: x2 k12 ceramic helmets (10p)
+  - message: x2 керамічні шоломи K12 (10p)
     type: Add
-  - message: x5 Radio jammer (10p)
+  - message: x5 радіоглушників (10p)
     type: Add
-  - message: 5 coif masks to CLF recruitment crate.
+  - message: Додано 5 кольчужних масок до ящика рекрутів ФВК.
     type: Add
-  - message: replaced roundstart MK1s with MAR-30
+  - message: Стартові MK1 замінено на MAR-30
     type: Tweak
-  - message: k12 ceramic armor now gets a 36% slowdown
+  - message: Керамічна броня K12 тепер має 36% уповільнення
     type: Tweak
-  - message: Huge IED from 3 > 1
+  - message: Кількість величезних СВП зменшено з 3 до 1
     type: Tweak
-  - message: '- Bomb vest from 2 > 1'
+  - message: Кількість бомбових жилетів зменшено з 2 до 1
     type: Tweak
-  - message: Replaced CLF leader's armband with a leader specific one.
+  - message: Пов'язку лідера ФВК замінено на спеціальну лідерську.
     type: Tweak
-  - message: CLF Cell leader gets a CLF Colonist ID instead (no more throwing ID away)
+  - message: Лідер осередку ФВК тепер отримує ID колоніста ФВК (більше не треба
+      викидати ID)
     type: Tweak
-  - message: Roundstart rangefinders replaced with civilian binos
+  - message: Стартові далекоміри замінено на цивільні біноклі
     type: Tweak
   id: 316
   time: '2026-06-20T11:19:31.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1394
 - author: sunzu432
   changes:
-  - message: 'Hope''s Retreat: ATMs in the dorms, administration building, and Octanis
-      Complex.'
+  - message: 'Hope''s Retreat: Додано банкомати в гуртожитках, адміністративній будівлі
+      та комплексі Octanis.'
     type: Add
-  - message: 'Hope''s Retreat: Communications and budget console in the both the administration
-      building and the Octanis Complex.'
+  - message: 'Hope''s Retreat: Додано консолі зв''язку та бюджету і в адміністративній
+      будівлі, і в комплексі Octanis.'
     type: Add
-  - message: 'Hope''s Retreat: Survivors should now spawn.'
+  - message: 'Hope''s Retreat: Вижилі тепер мають з''являтися.'
     type: Add
-  - message: 'Hope''s Retreat: Extra detailing around the spaceport and colony.'
+  - message: 'Hope''s Retreat: Додано більше деталей навколо космопорту й колонії.'
     type: Add
-  - message: 'Hope''s Retreat: Fort Beauregard''s second LZ can now load armored vehicles.'
+  - message: 'Hope''s Retreat: Друга ЗП форту Beauregard тепер може завантажувати
+      бронетехніку.'
     type: Fix
-  - message: 'Hope''s Retreat: Lights on the second floor of dorms.'
+  - message: 'Hope''s Retreat: Виправлено освітлення на другому поверсі гуртожитків.'
     type: Fix
-  - message: 'Hope''s Retreat: Edge case where someone fell in the opening in admin
-      resolved by adding windows to see into the affected area.'
+  - message: 'Hope''s Retreat: Виправлено крайній випадок, коли хтось падав в отвір
+      в адміністрації; додано вікна, щоб бачити проблемну зону.'
     type: Fix
   id: 317
   time: '2026-06-20T22:47:29.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1390
 - author: KeiKiyomi
   changes:
-  - message: Added all weapon spec ammo to ASRS
+  - message: Додано всі боєприпаси спеціалістів зі зброї до ASRS
     type: Add
-  - message: Sniper Spec Waistrig can now be equipped to the belt
+  - message: Поясний розвантажувальний жилет снайпера-спеціаліста тепер можна екіпірувати
+      в слот пояса
     type: Tweak
-  - message: Scout specs now get waist rigs (RIP scout armor)
+  - message: Розвідники-спеціалісти тепер отримують поясні розвантажувальні жилети
+      (прощавай, броне розвідника)
     type: Tweak
-  - message: WeYu Scout Spec gun can now take normal scout spec mags
+  - message: Зброя розвідника-спеціаліста Вей-Ю тепер приймає звичайні магазини розвідника-спеціаліста
     type: Tweak
-  - message: Scout gets 2 thermal tarps now (from 1)
+  - message: Розвідник тепер отримує 2 термальні маскувальні покриття замість 1
     type: Tweak
-  - message: Scout now gets 4 impact 4 incen and 6 standard mags in their crate
+  - message: Розвідник тепер отримує у своєму ящику 4 ударні, 4 запалювальні та 6
+      стандартних магазинів
     type: Tweak
-  - message: ': sniper spec now gets 8 standard 4 incen and 4 flak mags in their kit.'
+  - message: Снайпер-спеціаліст тепер отримує у своєму наборі 8 стандартних, 4 запалювальні
+      та 4 уламкові магазини.
     type: Tweak
   id: 318
   time: '2026-06-20T23:35:22.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1397
 - author: KeiKiyomi
   changes:
-  - message: Added specialized scout webbing in scout kit
+  - message: Додано спеціалізований розвідувальний розвантажувальний жилет до набору
+      розвідника
     type: Add
   id: 319
   time: '2026-06-20T23:36:08.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1396
 - author: HolySSSS
   changes:
-  - message: universal recorder can be put into law enforcement belts.
+  - message: Універсальний рекордер можна класти в пояси правоохоронців.
     type: Tweak
-  - message: Sam Browne belt is now filled in MP vendors.
+  - message: Пояс Sam Browne тепер заповнений у вендорах ВП.
     type: Fix
   id: 320
   time: '2026-06-20T23:38:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1395
 - author: wray-git
   changes:
-  - message: GOVFOR Platoon Commanders have a new Silence Order ability. Activating
-      it forces nearby marines to whisper only for 10 seconds and sends them a subtle
-      notification. The CO emotes a loud throat clear instead of shouting a callout.
-      Has its own 10 second cooldown separate from the other orders.
+  - message: Командири взводів GOVFOR отримали нову здібність "Наказ тиші". Активація
+      змушує найближчих морпіхів лише шепотіти протягом 10 секунд і надсилає їм
+      непомітне сповіщення. Командир голосно прочищає горло замість вигуку наказу. Має
+      власну 10-секундну перезарядку, окрему від інших наказів.
     type: Add
   id: 321
   time: '2026-06-21T00:37:51.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1399
 - author: maertayn
   changes:
-  - message: Third Party extract method refactoring (DRY) & try/catch redundancies
+  - message: Рефакторинг методу extract для Третіх сторін (DRY) і зайвих try/catch
     type: Code
-  - message: Lowered the Dylovene efficiency so that it doesn't make you immune to
-      nerve gas
+  - message: Знижено ефективність Dylovene, щоб він не робив вас невразливими до
+      нервово-паралітичного газу
     type: Tweak
-  - message: Third Party to use 5min cooldowns for spawn marker reusage instead of
-      a used flag
+  - message: Треті сторони тепер використовують 5-хвилинну перезарядку для повторного
+      використання маркерів спавну замість прапорця використання
     type: Tweak
-  - message: jobBlacklistGroup for antags.yml - much easier to maintain - works alongside
-      normal jobBlacklist (look at CLFVeteran for usage)
+  - message: Додано jobBlacklistGroup для antags.yml - його значно легше підтримувати,
+      він працює разом зі звичайним jobBlacklist (приклад використання див. у CLFVeteran)
     type: Code
-  - message: CLF doctors/surgeons get colony medical access on their IDs
+  - message: Лікарі/хірурги ФВК отримують медичний доступ колонії на своїх ID
     type: Fix
   id: 322
   time: '2026-06-21T09:52:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1398
 - author: deepdarkdepths
   changes:
-  - message: Queen has time requirements again
+  - message: Королева знову має вимоги за часом
     type: Tweak
   id: 323
   time: '2026-06-21T19:30:55.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1401
 - author: sunzu432
   changes:
-  - message: 'Hope''s Retreat: An accounting error has been rectified in Weyland-Yutani''s
-      research budget, allowing for an expanded Octanis Complex Security Post now
-      fitting of an installation of the Octanis Complex''s size--including a bullpen,
-      forensic laboratory, reception area, armory (now featuring lethals and incendiary
-      equipment), briefing room and jail.'
+  - message: 'Hope''s Retreat: Виправлено бухгалтерську помилку в дослідницькому
+      бюджеті Weyland-Yutani, що дозволило розширити пост безпеки комплексу Octanis
+      до рівня, відповідного розмірам комплексу Octanis, включно з робочою зоною,
+      криміналістичною лабораторією, приймальнею, арсеналом (тепер із летальним і
+      запалювальним спорядженням), кімнатою брифінгу та в''язницею.'
     type: Add
-  - message: 'Hope''s Retreat: The UPP and ICSC''s ambassadors have swapped places
-      after the conclusion of what has been described as a "Freaky Friday"-type scenario.'
+  - message: 'Hope''s Retreat: Посли СПН та ІКСК помінялися місцями після завершення
+      сценарію, який описують як щось у стилі "Freaky Friday".'
     type: Tweak
-  - message: 'Hope''s Retreat: A wood submission point, unearthed in the northern
-      mineshaft, has been installed in Colony Shipping & Receiving.'
+  - message: 'Hope''s Retreat: Пункт здачі деревини, знайдений у північній шахті,
+      встановлено у відділі прийому й відправки колонії.'
     type: Fix
   id: 324
   time: '2026-06-22T03:29:51.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1403
 - author: OverusedMeme
   changes:
-  - message: Added Spotter Pamphlets to both the M96S & XM43E1 spotter kits.
+  - message: Додано памфлети навідника до наборів навідника M96S і XM43E1.
     type: Add
   id: 325
   time: '2026-06-22T03:30:19.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1405
 - author: JaSeNeSaJ
   changes:
-  - message: 'Sheperds'': Ghost spawn point (fix tacmap?)'
+  - message: "Sheperds': Точка спавну привида (виправлення tacmap?)"
     type: Fix
-  - message: 'Sheperds'': Preliminary experiment subject crate'
+  - message: "Sheperds': Попередній ящик із піддослідним"
     type: Add
-  - message: 'Sheperds'': Kill carp objective for CLF'
+  - message: "Sheperds': Завдання вбити коропа для ФВК"
     type: Fix
   id: 326
   time: '2026-06-22T06:40:00.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1408
 - author: Arcticular1
   changes:
-  - message: Added 1 bomb vest and 1 huge IED to clf rack
+  - message: Додано 1 бомбовий жилет і 1 величезний СВП до стелажа ФВК
     type: Add
-  - message: 6B armor is a little more expensive and has no slowdown.
+  - message: Броня 6B стала трохи дорожчою і більше не має уповільнення.
     type: Tweak
-  - message: type 88 ammo is a little cheaper, and gets one more mag.
+  - message: Боєприпаси Type 88 стали трохи дешевшими й отримали ще один магазин.
     type: Tweak
   id: 327
   time: '2026-06-22T06:58:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1407
 - author: sunzu432
   changes:
-  - message: 'Hope''s Retreat: Withdrawal consoles have spontaneously appeared in
-      the Fort Beauregard Command Center and Hope''s Retreat Administrator''s Office!'
+  - message: 'Hope''s Retreat: Консолі зняття коштів спонтанно з''явилися в командному
+      центрі форту Beauregard і офісі адміністратора Hope''s Retreat!'
     type: Add
-  - message: 'Hope''s Retreat: An inaccurate TO&E has been updated, allowing for the
-      construction of an expanded specialist equipment area.'
+  - message: 'Hope''s Retreat: Неточний TO&E оновлено, що дозволило побудувати розширену
+      зону спорядження спеціалістів.'
     type: Tweak
-  - message: 'Hope''s Retreat: Following an arduous set of committees and municipal
-      re-zoning struggles, the second floor of the Hope''s Retreat dormitories has
-      finally been permitted to have power.'
+  - message: 'Hope''s Retreat: Після виснажливої серії комітетів і муніципальних
+      суперечок щодо перепланування другому поверху гуртожитків Hope''s Retreat нарешті
+      дозволили мати електроживлення.'
     type: Fix
-  - message: 'Hope''s Retreat: A contract has been arbitrated with the Power and Lights
-      Spirit, allowing for APC and lighting issues with the Octanis Complex''s second
-      floor to be fixed (pertains to both the Security Post and Hospital).'
+  - message: 'Hope''s Retreat: Арбітраж із Духом електрики та світла завершився контрактом,
+      що дозволило виправити проблеми з APC та освітленням другого поверху комплексу
+      Octanis (стосується і поста безпеки, і лікарні).'
     type: Fix
-  - message: 'Hope''s Retreat: Weyland-Yutani Cross-Dimensional Specialists have correctly
-      identified and removed reality-deviating upstream defibrillators from the Fort
-      Beauregard medbay.'
+  - message: 'Hope''s Retreat: Міжвимірні спеціалісти Weyland-Yutani правильно виявили
+      та прибрали дефібрилятори з upstream, що відхилялися від реальності, з медблоку
+      форту Beauregard.'
     type: Fix
-  - message: 'Hope''s Retreat: The NSPA have received a supply shipment from a delayed
-      transport, finally allowing them to refill their emergency armory.'
+  - message: 'Hope''s Retreat: NSPA отримали партію постачання із затриманого транспорту,
+      що нарешті дозволило їм поповнити аварійний арсенал.'
     type: Fix
   id: 328
   time: '2026-06-22T21:52:34.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1410
 - author: HotdogMan52
   changes:
-  - message: Added MP brassards for USCM MPs
+  - message: Додано пов'язки ВП для військової поліції USCM
     type: Add
-  - message: Adjusted Sam Browne Duty Belt to fit two guns, allowing for pistol/tazer
-      | tazer/tazer | pistol/pistol
+  - message: Службовий пояс Sam Browne налаштовано так, щоб він вміщував дві одиниці
+      зброї, дозволяючи пістолет/тазер | тазер/тазер | пістолет/пістолет
     type: Tweak
-  - message: Fixed gas not affecting people when gas mask is toggled off/hidden
+  - message: Виправлено, що газ не впливав на людей, коли протигаз був вимкнений
+      або прихований
     type: Fix
   id: 329
   time: '2026-06-22T21:52:56.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1406
 - author: KriegersMustDie
   changes:
-  - message: Ambassador Briefcases with some flavor.
+  - message: Додано посольські кейси з атмосферними деталями.
     type: Add
   id: 330
   time: '2026-06-23T03:17:39.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1417
 - author: maertayn
   changes:
-  - message: '''serverlogs'' & ''serversawmills'' commands for live log access in-game
-      (host-only restricted perms), with a --tail option that sends server-side logs
-      into admin-chat as they arrive & use --filter to cut out noise. Adjust the Sawmill
-      (log group) verbosity level in-game with ''loglevel'' <sawmill> and use ''serversawmills''
-      to search/list all ~3500! groups and their current overrides'
+  - message: Команди 'serverlogs' і 'serversawmills' дають доступ до живих логів
+      у грі (права обмежені лише хостом), з опцією --tail, яка надсилає серверні
+      логи в адмін-чат у міру надходження, і --filter для відсікання шуму. Рівень
+      деталізації Sawmill (групи логів) можна змінювати в грі через 'loglevel' <sawmill>,
+      а 'serversawmills' використовувати для пошуку/переліку всіх ~3500 груп та їхніх
+      поточних перевизначень
     type: Add
-  - message: the rejuvenate verb/trick now fully repairs vehicles/blackfoot - resets
-      damage & hardpoint health + integrity, clears all failure states and refills
-      fuel/battery - also rearms all the vehicle's mounted weaponry
+  - message: Дієслово/трюк rejuvenate тепер повністю ремонтує транспорт/Blackfoot
+      - скидає пошкодження, здоров'я та цілісність hardpoint-ів, очищає всі стани
+      відмов і поповнює пальне/батарею, а також перезаряджає всю встановлену зброю
+      транспорту
     type: Admin
-  - message: removed duplicate "rename" command that caused toolshed warnings
+  - message: Видалено дубльовану команду "rename", яка спричиняла попередження toolshed
     type: Fix
   id: 331
   time: '2026-06-23T03:39:16.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1416
 - author: ProspectorAres
   changes:
-  - message: new lobby art
+  - message: Новий арт лобі
     type: Add
   id: 332
   time: '2026-06-23T12:20:46.0000000+00:00'

@@ -100,3 +100,4 @@ command-description-mobstate = Фільтрує сутності за їхнім
 
 command-description-vehiclesupply-addstorage = Додає прототип транспортного засобу до сховища найближчого підйомника постачання транспорту.
 command-description-vehiclesupply-addstoragelift = Додає прототип транспортного засобу до сховища конкретного підйомника постачання транспорту.
+command-description-maprename = змінює поле entityName метаданих.
