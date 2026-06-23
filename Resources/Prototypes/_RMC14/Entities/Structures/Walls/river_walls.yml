@@ -3,7 +3,7 @@
 - type: entity
   abstract: true
   id: RMCWallRiverBase
-  description: "Велетенський шмат металу, що використовується для розділення кімнат."
+  description: A huge chunk of metal used to separate rooms.
   placement:
     mode: SnapgridCenter
     snap:
@@ -42,7 +42,7 @@
 - type: entity
   parent: RMCWallRiverBase
   id: RMCWallRiver
-  name: "річкова стіна"
+  name: river wall
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/river_wall.rsi

@@ -4,8 +4,8 @@
 - type: entity
   parent: BaseStructure
   id: AU14AbominationFleshNest
-  name: "гніздо з плоті"
-  description: "Пульсуюча м’ясиста маса, що народжує нові жахіття через нерівні проміжки часу."
+  name: flesh nest
+  description: A throbbing, fleshy mass that births new horrors at irregular intervals.
   placement:
     mode: SnapgridCenter
   components:

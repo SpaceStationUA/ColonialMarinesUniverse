@@ -1,7 +1,7 @@
 - type: entity
   parent: RMCKitBase
   id: AU14KitWeaponM357
-  name: "кейс дробовика M357 «Райвал»"
+  name: M357 Rival shotgun case
   components:
   - type: Item
     size: Ginormous

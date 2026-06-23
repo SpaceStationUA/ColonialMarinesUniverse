@@ -94,7 +94,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleRunawaySynth
-  name: "роль синта-втікача"
+  name: Runaway Synth  Role
   components:
   - type: MindRole
     antagPrototype: RunawaySynthRole
@@ -124,7 +124,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFSubvertedSynth
-  name: "роль синта, підвербованого КФВ"
+  name: CLF Subverted Synth Role
   components:
   - type: MindRole
     antagPrototype: CLFSubvertedSynthRole
@@ -143,7 +143,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFRecruit
-  name: "роль рекрута КФВ"
+  name: CLF Recruit Role
   components:
   - type: MindRole
     antagPrototype: CLFRecruitRole
@@ -162,7 +162,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFGuerrilla
-  name: "Роль партизана ФВК"
+  name: CLF Guerrilla Role
   components:
   - type: MindRole
     antagPrototype: CLFGuerrillaRole
@@ -278,7 +278,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleFugitive
-  name: "роль втікача"
+  name: Fugitive  Role
   components:
   - type: MindRole
     antagPrototype: FugitiveRole
@@ -341,7 +341,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleDrugDealer
-  name: "роль наркодилера"
+  name: Drug Dealer Role
   components:
   - type: MindRole
     antagPrototype: DrugDealerRole
@@ -365,8 +365,8 @@
 - type: entity
   parent: RMCSatchelBlack
   id: AU14DrugDealerDrugBackpack
-  name: "сатчел наркодилера"
-  description: "Чорний сатчел, наповнений нелегальними речовинами."
+  name: drug dealer's satchel
+  description: A black satchel filled with illicit substances.
   components:
   - type: StorageFill
     contents:
@@ -409,7 +409,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCorporateSpy
-  name: "роль корпоративного шпигуна"
+  name: Corporate Spy Role
   components:
   - type: MindRole
     antagPrototype: CorporateSpyRole
@@ -476,7 +476,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFVeteran
-  name: "роль ветерана КФВ"
+  name: CLF Veteran Role
   components:
   - type: MindRole
     antagPrototype: CLFVeteranRole
@@ -526,7 +526,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleStrikeOrganizer
-  name: "роль організатора страйку"
+  name: Strike Organizer Role
   components:
   - type: MindRole
     antagPrototype: StrikeOrganizerRole
@@ -550,8 +550,8 @@
 - type: entity
   parent: RMCBackpackRTO
   id: AU14StrikeOrganizerBackpack
-  name: "радіорюкзак організатора"
-  description: "Радіотелефонний рюкзак, який носить організатор страйку."
+  name: organizer's radio pack
+  description: A radio telephone pack carried by a labor organize.
   components:
   - type: StorageFill
     contents:
@@ -586,7 +586,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCannibal
-  name: "роль канібала"
+  name: Cannibal Role
   components:
   - type: MindRole
     antagPrototype: CannibalRole
@@ -630,7 +630,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleSerialKiller
-  name: "роль серійного вбивці"
+  name: Serial Killer Role
   components:
   - type: MindRole
     antagPrototype: SerialKillerRole
@@ -676,7 +676,7 @@
 - type: entity
   parent: BaseMindRoleAntag
   id: MindRoleCLFSleeperAgent
-  name: "роль сплячого агента ФВК"
+  name: CLF Sleeper Agent Role
   components:
   - type: MindRole
     antagPrototype: CLFSleeperAgentRole

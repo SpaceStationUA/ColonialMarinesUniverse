@@ -1,6 +1,6 @@
 - type: entity
   id: AU14GrenadeNeuroGas
-  name: "нервово-паралітичний газ CN20"
+  name: CN20 Nerve Gas
   components:
   - type: Transform
     anchored: true

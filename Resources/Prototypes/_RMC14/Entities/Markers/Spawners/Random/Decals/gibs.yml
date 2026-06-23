@@ -13,7 +13,7 @@
 - type: entity
   parent: RMCDecalSpawnerGibsBase
   id: RMCDecalSpawnerGibsDrone
-  name: "спавнер потрухів"
+  name: gibs spawner
   suffix: RMC14, Drone
   components:
   - type: RandomDecalSpawner
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCDecalSpawnerGibsBase
   id: RMCDecalSpawnerGibsLesserDrone
-  name: "спавнер потрухів"
+  name: gibs spawner
   suffix: RMC14, Lesser Drone
   components:
   - type: RandomDecalSpawner

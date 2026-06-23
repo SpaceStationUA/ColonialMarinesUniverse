@@ -9,7 +9,7 @@
 - type: entity
   parent: BaseStructure
   id: CMGirder
-  name: "балка"
+  name: girder
   components:
   - type: Transform
     anchored: true
@@ -85,7 +85,7 @@
 - type: entity
   parent: CMGirder
   id: CMGirderReinforced
-  name: "укріплена балка"
+  name: reinforced girder
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/girder.rsi
@@ -134,7 +134,7 @@
 - type: entity
   parent: CMGirder
   id: RMCGirderDisplaced # TODO RMC14 : Requires crowbarring to be used as a girder
-  name: "зміщена"
+  name: displaced
   suffix: Girder
   components:
   - type: Transform
@@ -146,8 +146,8 @@
 
 - type: entity
   id: RMCGirderDamaged
-  name: "пошкоджена балка"
-  description: "Покручена балка, яка більше не перекриває прохід."
+  name: damaged girder
+  description: A twisted girder that no longer blocks passage.
   components:
   - type: Transform
     anchored: true

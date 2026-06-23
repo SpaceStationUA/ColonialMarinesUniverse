@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorUA
-  name: "автоматизований кейс-сховище Об'єднаної Америки"
-  description: "Автоматизована система зберігання й видачі розміром із валізу. Призначена для ефективного зберігання та вибіркової видачі невеликих предметів. На боці цього кейса витиснено зірку й смуги Об'єднаної Америки."
+  name: United Americas automated storage briefcase
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has the star and stripes of the United Americas embossed on its side.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -78,8 +78,8 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorTWE
-  name: "автоматизований кейс-сховище Імперії Трьох Світів"
-  description: "Автоматизована система зберігання й видачі розміром із валізу. Призначена для ефективного зберігання та вибіркової видачі невеликих предметів. На боці цього кейса витиснено емблему Імперії Трьох Світів."
+  name: Three World Empire automated storage briefcase
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has the emblem of the Three World Empire embossed on its side.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -153,8 +153,8 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorUPP
-  name: "автоматизований кейс-сховище Союзу Прогресивних Народів"
-  description: "Автоматизована система зберігання й видачі розміром із валізу. Призначена для ефективного зберігання та вибіркової видачі невеликих предметів. На боці цього кейса витиснено зірки СПН."
+  name: Union of Progressive Peoples automated storage briefcase
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has the stars of the UPP embossed on its side.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -224,8 +224,8 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorICSC
-  name: "автоматизований кейс-сховище ІКСК"
-  description: "Автоматизована система зберігання й видачі розміром із валізу. Призначена для ефективного зберігання та вибіркової видачі невеликих предметів. На боці цього кейса витиснено логотип ІКСК."
+  name: Independent Core System Colonies automated storage briefcase
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has the logo of the ICSC embossed on its side.
   components:
   - type: CMAutomatedVendor
     jobs:
@@ -293,8 +293,8 @@
 - type: entity
   parent: RMCPortableVendor
   id: AU14PortableVendorCCA
-  name: "автоматизований кейс-сховище Центральної Конфедерації Африки"
-  description: "Автоматизована система зберігання й видачі розміром із валізу. Призначена для ефективного зберігання та вибіркової видачі невеликих предметів. На боці цього кейса витиснено висхідний прапор ЦКА."
+  name: Central Confederation of Africa automated storage briefcase
+  description: A suitcase-sized automated storage and retrieval system. Designed to efficiently store and selectively dispense small items. This one has the rising banner of the CCA embossed on its side.
   components:
   - type: CMAutomatedVendor
     jobs:

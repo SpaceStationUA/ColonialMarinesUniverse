@@ -1,8 +1,8 @@
 - type: entity
   parent: Clothing
   id: AU14IDCardBaseCivilianNoIFF
-  name: "ідентифікаційний голо-значок"
-  description: "Пластинка закодованого стисненого скловолокна. Використовується для ідентифікації та контролю доступу."
+  name: identification holo-badge
+  description: A slice of encoded compressed fiber glass. Used for identification and access control.
   categories: [ HideSpawnMenu ]
   components:
   - type: Sprite
@@ -34,7 +34,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardCLFCellLeader
-  name: "ID-карта лідера осередку КФВ"
+  name: CLF cell leader ID card
   components:
   - type: PresetIdCard
     job: AU14JobCLFCellLeader
@@ -51,7 +51,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFCivilian
-  name: "ID-карта партизана КФВ"
+  name: CLF guerilla ID card
   components:
   - type: Access
     groups:
@@ -66,7 +66,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCLFPhysician
-  name: "ID-карта лікаря КФВ"
+  name: CLF physician ID card
   components:
   - type: Access
     groups:
@@ -82,7 +82,7 @@
 - type: entity
   parent: AU14IDCardCLFPhysician
   id: AU14IDCardCLFGeneralPractitioner
-  name: "ID-карта лікаря загальної практики КФВ"
+  name: CLF general practitioner ID card
   components:
   - type: IdCard
     jobTitle: au14-job-name-civiliangeneralpractitioner
@@ -90,7 +90,7 @@
 - type: entity
   parent: AU14IDCardCLFPhysician
   id: AU14IDCardCLFPharmacist
-  name: "ID-карта фармацевта КФВ"
+  name: CLF pharmacist ID card
   components:
   - type: IdCard
     jobTitle: au14-job-name-civilianpharmacist
@@ -98,7 +98,7 @@
 - type: entity
   parent: AU14IDCardCLFPhysician
   id: AU14IDCardCLFSurgeon
-  name: "ID-карта хірурга КФВ"
+  name: CLF surgeon ID card
   components:
   - type: IdCard
     jobTitle: au14-job-name-civiliansurgeon
@@ -106,7 +106,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardMobBoss
-  name: "ID-карта боса мафії"
+  name: Mob boss ID card
   components:
   - type: PresetIdCard
     job: AU14JobMobBoss
@@ -116,7 +116,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardMobGoon
-  name: "ID-карта громили мафії"
+  name: Mob goon ID card
   components:
   - type: PresetIdCard
     job: AU14JobMobGoon
@@ -127,8 +127,8 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCorporateSpy
-  name: "ID-карта Ласаль Біонешнл"
-  description: "Корпоративний ідентифікаційний значок із брендингом Ласаль Біонешнл. Надає доступ до об’єктів Вейланд-Ютані."
+  name: Lasalle Bionational ID card
+  description: A corporate identification badge with Lasalle Bionational branding. Grants access to Weyland-Yutani facilities.
   components:
   - type: IdCard
     nameLocId: cm-access-id-card-component-owner-name-job-title-text
@@ -141,7 +141,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCivilianScientist
-  name: "iD-карта науковця"
+  name: scientist ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianScientist
@@ -153,7 +153,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyWorkingJoe
-  name: "ID-карта Воркінг Джо"
+  name: Working Joe ID card
   components:
   - type: PresetIdCard
     job: AU14JobColonyWorkingJoe
@@ -166,7 +166,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonySynthetic
-  name: "iD-карта синтетика колоніальних операцій"
+  name: colony operations synthetic ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianColonySynthetic
@@ -178,7 +178,7 @@
 - type: entity
   parent: AU14IDCardColonySynthetic
   id: AU14IDCardColonySyntheticEngineering
-  name: "iD-карта інженерного колоніального синтетика"
+  name: engineering colony synthetic ID card
   components:
   - type: JobTitleChanger
     jobTitle: Engineering Colony Synthetic
@@ -186,7 +186,7 @@
 - type: entity
   parent: AU14IDCardColonySynthetic
   id: AU14IDCardColonySyntheticMedical
-  name: "iD-карта медичного колоніального синтетика"
+  name: medical colony synthetic ID card
   components:
   - type: JobTitleChanger
     jobTitle: Medical Colony Synthetic
@@ -194,7 +194,7 @@
 - type: entity
   parent: AU14IDCardColonySynthetic
   id: AU14IDCardColonySyntheticCommand
-  name: "iD-карта синтетика-радника адміністрації колонії"
+  name: colony administration advisor synthetic ID card
   components:
   - type: JobTitleChanger
     jobTitle: Colony Administration Advisor Synthetic
@@ -203,7 +203,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyAdministrator
-  name: "iD-карта адміністратора колонії"
+  name: colony administrator ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianColonyAdministrator
@@ -215,7 +215,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyCorporateLiaison
-  name: "iD-карта корпоративного зв’язкового"
+  name: corporate liaison ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianCorporateLiaison
@@ -226,7 +226,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyForeman
-  name: "iD-карта бригадира"
+  name: foreman ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianForeman
@@ -238,7 +238,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyHeadOfEngineering
-  name: "iD-карта голови інженерії"
+  name: head of engineering ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianHeadOfEngineering
@@ -247,7 +247,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyFreightSystemsSpecialist
-  name: "iD-карта фахівця вантажних систем"
+  name: freight systems specialist ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianFreightSystemsSpecialist
@@ -255,7 +255,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyEngineer
-  name: "iD-карта інженера"
+  name: engineer ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianEngineer
@@ -263,7 +263,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyWasteManagementSpecialist
-  name: "iD-карта фахівця з утилізації відходів"
+  name: waste management specialist ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianWasteManagementSpecialist
@@ -271,7 +271,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyHeadOfService
-  name: "iD-карта голови служби"
+  name: head of service ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianHeadOfService
@@ -279,7 +279,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyPhysician
-  name: "iD-карта лікаря"
+  name: physician ID card
   components:
   - type: Access
     groups:
@@ -292,7 +292,7 @@
 - type: entity
   parent: AU14IDCardColonyPhysician
   id: AU14IDCardColonySurgeon
-  name: "iD-карта хірурга"
+  name: surgeon ID card
   components:
   - type: IdCard
     jobTitle: au14-job-name-civiliansurgeon
@@ -300,7 +300,7 @@
 - type: entity
   parent: AU14IDCardColonyPhysician
   id: AU14IDCardColonyGeneralPractitioner
-  name: "iD-карта лікаря загальної практики"
+  name: general practitioner ID card
   components:
   - type: IdCard
     jobTitle: au14-job-name-civiliangeneralpractitioner
@@ -308,7 +308,7 @@
 - type: entity
   parent: AU14IDCardColonyPhysician
   id: AU14IDCardColonyPharmacist
-  name: "iD-карта фармацевта"
+  name: pharmacist ID card
   components:
   - type: IdCard
     jobTitle: au14-job-name-civilianpharmacist
@@ -316,7 +316,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyHeadPhysician
-  name: "iD-карта головного лікаря"
+  name: head physician ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianHeadPhysician
@@ -324,7 +324,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyNurse
-  name: "iD-карта медсестри"
+  name: nurse ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianNurse
@@ -332,7 +332,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyEthicsAndWellnessAdvisor
-  name: "iD-карта радника з етики та добробуту"
+  name: ethics and wellness advisor ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianEthicsAndWellnessAdvisor
@@ -340,7 +340,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyEmergencyResponseOfficer
-  name: "iD-карта офіцера аварійного реагування"
+  name: emergency response officer ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianEmergencyResponseOfficer
@@ -348,7 +348,7 @@
 - type: entity
   parent: AU14IDCardColonyEmergencyResponseOfficer
   id: AU14IDCardColonyEmergencyResponseOfficerParamedic
-  name: "iD-карта парамедика аварійного реагування"
+  name: emergency response paramedic ID card
   components:
   - type: JobTitleChanger
     jobTitle: Emergency Response Paramedic
@@ -356,7 +356,7 @@
 - type: entity
   parent: AU14IDCardColonyEmergencyResponseOfficer
   id: AU14IDCardColonyEmergencyResponseOfficerFirefighter
-  name: "iD-карта пожежника аварійного реагування"
+  name: emergency response firefighter ID card
   components:
   - type: JobTitleChanger
     jobTitle: Emergency Response Firefighter
@@ -365,7 +365,7 @@
 - type: entity
   parent: CMIDCardBase
   id: AU14IDCardColonyColonist
-  name: "iD-карта колоніста"
+  name: colonist ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianColonist
@@ -375,7 +375,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardFoodServiceWorker
-  name: "iD-карта працівника харчування"
+  name: food service worker ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianFoodServiceWorker
@@ -383,7 +383,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyShopkeep
-  name: "iD-карта крамаря"
+  name: shopkeep ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianShopkeep
@@ -391,7 +391,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyJournalist
-  name: "iD-карта журналіста"
+  name: journalist ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianJournalist
@@ -399,7 +399,7 @@
 - type: entity
   parent: AU14IDCardColonyJournalist
   id: AU14IDCardColonyJournalistIndependent
-  name: "iD-карта незалежного журналіста"
+  name: independent journalist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Independent Journalist
@@ -407,7 +407,7 @@
 - type: entity
   parent: AU14IDCardColonyJournalist
   id: AU14IDCardColonyJournalistFreePress
-  name: "iD-карта журналіста вільної преси"
+  name: free press journalist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Free Press Journalist
@@ -415,7 +415,7 @@
 - type: entity
   parent: AU14IDCardColonyJournalist
   id: AU14IDCardColonyJournalistPhotojournalist
-  name: "iD-карта фотожурналіста"
+  name: photojournalist ID card
   components:
   - type: JobTitleChanger
     jobTitle: Photo Journalist
@@ -423,7 +423,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyUSASFRecruiter
-  name: "ID-карта рекрутера Аерокосмічних сил США"
+  name: USASF recruiter ID card
   components:
   - type: JobTitleChanger
     jobTitle: USASF recruiter
@@ -433,7 +433,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyUSASFRecruiterMarines
-  name: "ID-карта рекрутера ККМП США"
+  name: USCM recruiter ID card
   components:
   - type: JobTitleChanger
     jobTitle: USMC recruiter
@@ -441,7 +441,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyUSASFRecruiterUSArmy
-  name: "ID-карта рекрутера армії США"
+  name: US Army recruiter ID card
   components:
   - type: JobTitleChanger
     jobTitle: US Army recruiter
@@ -449,7 +449,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyUSASFRecruiterCCAF
-  name: "ID-карта рекрутера ККЗС"
+  name: CCAF recruiter ID card
   components:
   - type: JobTitleChanger
     jobTitle: CCAF recruiter
@@ -458,7 +458,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardCivilianKellandWarden
-  name: "ID-карта наглядача Келланд"
+  name: Warden ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianKellandWarden
@@ -466,7 +466,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyCMBMarshal
-  name: "ID-карта маршала БКМ"
+  name: CMB marshal ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianCMBMarshal
@@ -485,7 +485,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyCMBDeputy
-  name: "ID-карта заступника БКМ"
+  name: CMB deputy ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianCMBDeputy
@@ -504,7 +504,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardcivilianCWPSranger
-  name: "ID-карта рейнджера СЗКДП"
+  name: CWPS ranger ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianCWPSRanger
@@ -516,7 +516,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardColonyNSPAInspector
-  name: "ID-карта інспектора НСПА"
+  name: NSPA inspector ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianNSPAInspector
@@ -524,7 +524,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardciviliannspaConstable
-  name: "ID-карта констебля НСПА"
+  name: NSPA constable ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianNSPAConstable
@@ -532,7 +532,7 @@
 - type: entity
   parent: AU14IDCardBaseCivilianNoIFF
   id: AU14IDCardcivilianPaPOfficer
-  name: "ID-карта офіцера ПАП"
+  name: PAP officer ID card
   components:
   - type: PresetIdCard
     job: AU14JobCivilianPaPOfficer

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14ProdigyBallisticHelmet
-  name: "балістичний шолом"
-  description: "Дешево виготовлений балістичний шолом, який використовує корпорація Продіджі."
+  name: ballistic helmet
+  description: A cheaply produced ballistic helmet used by the Prodigy Corporation.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/helmet.rsi
@@ -12,8 +12,8 @@
 - type: entity
   parent: RMCMarineHelmetBase
   id: AU14ProdigyBallisticHelmetPART
-  name: "балістичний шолом PART"
-  description: "Міцніший балістичний шолом, який використовують оперативники PART."
+  name: PART ballistic helmet
+  description: A more robust ballistic helmet used by PART operatives.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/ArmedRepairTeam/parthelmet.rsi
@@ -23,8 +23,8 @@
 - type: entity
   parent: AU14WYPMCHelmetHeavy
   id: AU14PARTOperatorHelmetHeavy
-  name: "балістичний шолом оператора-кулеметника PART"
-  description: "Важкий балістичний шолом із маскою для важких кулеметників PART. Помаранчевий відтінок на отворах для очей захищає від спалахів куль і сонячного відблиску, що дозволяє вести безперервний вогонь."
+  name: PART Gunner Operator Ballistic Helmet
+  description: A heavy ballistic helmet with mask for PART Heavy gunners, the orange tint on the eye holes protect from bullet flashes and sun glare to allow continous firing.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/ProdigySecurityForces/ArmedRepairTeam/PARTArmors/partsgo.rsi

@@ -10,8 +10,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyAdmin
-  name: "ключ шифрування адміністрації колонії"
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалах колонії та КБМ."
+  name: colony admin encryption key
+  description: An encryption key used to communicate on colony and CMB radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -22,8 +22,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyWEYU
-  name: "колоніальний ключ шифрування Вейланд"
-  description: "Ключ шифрування для зв’язку на радіоканалах колонії та Вейланд."
+  name: Weyland colonial encryption key
+  description: An encryption key used to communicate on colony and weyland radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -34,9 +34,9 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCMB
-  name: "ключ шифрування БКМ"
+  name: CMB encryption key
   suffix: Colony, CMB
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалах колонії та КБМ."
+  description: An encryption key used to communicate on colony and CMB radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -47,8 +47,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCMBOnly
-  name: "ключ шифрування БКМ"
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалі КМБ."
+  name: CMB encryption key
+  description: An encryption key used to communicate on the CMB radio channel.
   components:
   - type: EncryptionKey
     channels:
@@ -58,8 +58,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyOrbital
-  name: "орбітальний ключ шифрування"
-  description: "Ключ шифрування, що використовується для зв'язку на радіоканалах колонії та Орбітальної станції."
+  name: orbital encryption key
+  description: An encryption key used to communicate on colony and Orbital radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -78,8 +78,8 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyAdminHeadset
-  name: "гарнітура адміністрації колонії"
-  description: "Гарнітура, яку адміністрація колонії використовує для зв’язку."
+  name: colony administration headset
+  description: A headset used by the colony administration to communicate.
   suffix: CMB, Colony
   components:
   - type: ContainerFill
@@ -90,8 +90,8 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonyWeylandHeadset
-  name: "гарнітура колонії Вейланд-Ютані"
-  description: "Гарнітура, яку Вейланд-Ютані використовує для зв’язку."
+  name: colony weyland yutani headset
+  description: A headset used by weyland yutani to communicate.
   suffix: Colony, WEYU
   components:
   - type: ContainerFill
@@ -102,8 +102,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadset
-  name: "гарнітура БКМ"
-  description: "Гарнітура, яку БКМ використовує для зв’язку."
+  name: CMB headset
+  description: A headset used by the CMB to communicate.
   suffix: CMB, Colony
   components:
   - type: ContainerFill
@@ -114,8 +114,8 @@
 - type: entity
   parent: AU14HeadsetGovforMarine
   id: AU14CMBHeadsetOnlyCMB
-  name: "навушник БКМ"
-  description: "Гарнітура, яку БКМ використовує для зв’язку."
+  name: CMB Earpiece
+  description: A headset used by the CMB to communicate.
   suffix: CMB
   components:
   - type: ContainerFill
@@ -129,8 +129,8 @@
 - type: entity
   parent: AU14HeadsetColonist
   id: AU14HeadsetWorkingJoe
-  name: "гарнітура Воркінг Джо"
-  description: "Звичайна гарнітура, яку використовують Воркінг Джо."
+  name: Working Joe headset
+  description: A common headset used by Working Joes.
   components:
   - type: Sprite
     state: generic_headset
@@ -140,8 +140,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyTWEAmb
-  name: "ключ шифрування комісара Імперії Трьох Світів"
-  description: "Ключ шифрування для зв'язку на радіоканалі комісара."
+  name: twe commissioner encryption key
+  description: An encryption key used to communicate on the commissioner's radio channel.
   suffix: Ambassador
   components:
   - type: EncryptionKey
@@ -152,8 +152,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14ColonyAmbassadorTWEHeadset
-  name: "гарнітура комісара ІТС"
-  description: "Гарнітура, яку комісари ІТС використовують для зв’язку."
+  name: twe commissioner headset
+  description: A headset used by TWE's commissioners to communicate.
   suffix: Colony, Ambassador
   components:
   - type: ContainerFill
@@ -165,8 +165,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyUAAmb
-  name: "ключ шифрування посла Об'єднаної Америки"
-  description: "Ключ шифрування для зв'язку на радіоканалі посла."
+  name: ua ambassador encryption key
+  description: An encryption key used to communicate on the ambassador's radio channel.
   suffix: Ambassador
   components:
   - type: EncryptionKey
@@ -177,8 +177,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyUAAmbVAI
-  name: "ключ шифрування ВАІ"
-  description: "Ключ шифрування для зв'язку з послом."
+  name: VAI encryption key
+  description: An encryption key used to communicate to the ambassador.
   components:
   - type: EncryptionKey
     channels:
@@ -188,8 +188,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorUAHeadset
-  name: "гарнітура посла ОА"
-  description: "Гарнітура, яку посли ОА використовують для зв’язку."
+  name: ua ambassador headset
+  description: A headset used by UA's ambassadors to communicate.
   suffix: Colony, Ambassador
   components:
   - type: ContainerFill
@@ -202,8 +202,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyUPPAmb
-  name: "ключ шифрування посла Союзу Прогресивних Народів"
-  description: "Ключ шифрування для зв'язку на радіоканалі посла."
+  name: upp ambassador encryption key
+  description: An encryption key used to communicate on the ambassador's radio channel.
   suffix: Ambassador
   components:
   - type: EncryptionKey
@@ -214,8 +214,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorUPPHeadset
-  name: "гарнітура посла УПП"
-  description: "Гарнітура, яку посли УПП використовують для зв’язку."
+  name: upp ambassador headset
+  description: A headset used by UPP's ambassadors to communicate.
   suffix: Colony, Ambassador
   components:
   - type: ContainerFill
@@ -227,8 +227,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyICSCAmb
-  name: "ключ шифрування посла ІКСК"
-  description: "Ключ шифрування для зв'язку на радіоканалі посла."
+  name: icsc ambassador encryption key
+  description: An encryption key used to communicate on the ambassador's radio channel.
   suffix: Ambassador
   components:
   - type: EncryptionKey
@@ -239,8 +239,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorICSCHeadset
-  name: "гарнітура посла ІКСК"
-  description: "Гарнітура, яку посли ІКСК використовують для зв'язку."
+  name: icsc ambassador headset
+  description: A headset used by ICSC's ambassadors to communicate.
   suffix: Colony, Ambassador
   components:
   - type: ContainerFill
@@ -252,8 +252,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyCCAAmb
-  name: "ключ шифрування посла Центральної Конфедерації Африки"
-  description: "Ключ шифрування для зв'язку на радіоканалі посла."
+  name: cca ambassador encryption key
+  description: An encryption key used to communicate on the ambassador's radio channel.
   suffix: Ambassador
   components:
   - type: EncryptionKey
@@ -264,8 +264,8 @@
 - type: entity
   parent: AU14ColonyAdminHeadset
   id: AU14AmbassadorCCAHeadset
-  name: "гарнітура посла Центральної Конфедерації Африки"
-  description: "Гарнітура, яку посли ЦКА використовують для зв'язку."
+  name: cca ambassador headset
+  description: A headset used by CCA's ambassadors to communicate.
   suffix: Colony, Ambassador
   components:
   - type: ContainerFill
@@ -278,8 +278,8 @@
 - type: entity
   parent: AU14EncryptionKey
   id: AU14EncryptionKeyColonySecurity
-  name: "ключ шифрування служби безпеки колонії"
-  description: "Ключ шифрування, що використовується для зв'язку на каналах колонії, БКМ і Вейленд."
+  name: colony security encryption key
+  description: An encryption key used to communicate on colony, CMB, and Weyland radio channels.
   components:
   - type: EncryptionKey
     channels:
@@ -291,8 +291,8 @@
 - type: entity
   parent: RMCHeadsetLiaison
   id: AU14ColonySecurityHeadset
-  name: "гарнітура служби безпеки колонії"
-  description: "Гарнітура, яку служба безпеки колонії використовує для координації на каналах БКМ і Вейленд."
+  name: colony security headset
+  description: A headset used by colony security to coordinate on CMB and Weyland channels.
   suffix: Colony, CMB, WEYU
   components:
   - type: ContainerFill
@@ -304,8 +304,8 @@
 - type: entity
   parent: AU14HeadsetColonist
   id: AU14OrbitalHeadset
-  name: "гарнітура орбітального персоналу"
-  description: "Гарнітура, яку використовує орбітальний персонал для зв'язку з колонією та орбітальною станцією."
+  name: orbital personnel headset
+  description: A headset used by orbital personnel to communicate with the colony and the orbital station.
   suffix: Orbital, Colony
   components:
   - type: ContainerFill
@@ -316,7 +316,7 @@
 - type: entity
   parent: AU14HeadsetColonist
   id: AU14OrbitalHeadsetManagement
-  name: "гарнітура орбітального керівництва"
+  name: orbital management headset
   suffix: Orbital, Colony, Admin
   components:
   - type: ContainerFill

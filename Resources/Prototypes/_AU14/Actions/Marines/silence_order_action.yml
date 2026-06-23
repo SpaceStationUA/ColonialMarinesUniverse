@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: ActionMarineGovforSilence
-  name: "Віддати наказ - Тиша"
-  description: "Наказує зоні замовкнути. Персонал поблизу може лише шепотіти протягом 10 секунд."
+  name: Issue Order - Silence
+  description: Commands the area into silence. Nearby personnel can only whisper for 10 seconds.
   components:
   - type: Action
     itemIconStyle: NoItem

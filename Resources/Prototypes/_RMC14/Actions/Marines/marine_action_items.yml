@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScope
-  name: "Перемкнути Оптику"
-  description: "Зосередіть або відключіть свою оптику."
+  name: Toggle Optics
+  description: Scope in or out with your optics.
   components:
   - type: Action
     icon:
@@ -15,8 +15,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleZoomLevel
-  name: "Цикл Рівня Збільшення"
-  description: "Змінити рівень збільшення вашої оптики."
+  name: Cycle Zoom Level
+  description: Change the level of magnification of your optics.
   components:
   - type: Action
     icon:
@@ -32,8 +32,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleScoutVision
-  name: "Перемкнути приціл скаута M42"
-  description: "Дозволяє вам бачити навіть у повній темряві."
+  name: Toggle the M42 scout sight
+  description: Allows you to see even in complete darkness.
   components:
   - type: Action
     icon:
@@ -49,8 +49,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleExperimentalMesons
-  name: "Перемкнути експериментальні мезонні окуляри"
-  description: "Вмикає синтетичну допоміжну візуалізацію місцевості мезонами."
+  name: Toggle experimental meson goggles
+  description: Enables synthetic meson-assisted terrain imaging.
   components:
   - type: Action
     icon:
@@ -66,8 +66,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIDLock
-  name: "Перемкнути ID-блокування"
-  description: "Перемикає ID-блокування на пістолеті, дозволяючи будь-кому користуватися ним."
+  name: Toggle ID lock
+  description: Toggles the ID lock on the gun, allowing anyone to use it.
   components:
   - type: Action
     icon:
@@ -79,8 +79,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionToggleIFF
-  name: "Перемкнути IFF"
-  description: "Перемикає IFF на пістолеті."
+  name: Toggle IFF
+  description: Toggles the IFF on the gun.
   components:
   - type: Action
     icon:
@@ -92,8 +92,8 @@
 - type: entity
   parent: ActionMarineBase
   id: CMActionToggleAttachable
-  name: "Перемкнути обвіс"
-  description: "Перемкнути обвіс. Якщо ви це бачите, хтось забув правильно встановити опис."
+  name: Toggle Attachable
+  description: Toggle an attachable. If you're seeing this, someone forgot to set the description properly.
   components:
   - type: Action
     icon:
@@ -105,8 +105,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionWhistle
-  name: "Свистіти"
-  description: "Дути в свисток."
+  name: Whistle
+  description: Blow the whistle.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -120,8 +120,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionTelephone
-  name: "Користуватися Телефоном"
-  description: "Використовується для виклику іншого телефона."
+  name: Use Phone
+  description: Used to call another phone.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -138,8 +138,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleMedhud
-  name: "Перемкнути Медичний HUD"
-  description: "Перемкнути оптичну матрицю медичного HUD."
+  name: Toggle Medical HUD
+  description: Toggle the optical matrix of the medical HUD.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -149,8 +149,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleSynthHud
-  name: "Перемкнути Синтетичний HUD"
-  description: "Перемкнути інтегрований медичний HUD синтетика."
+  name: Toggle Synthetic HUD
+  description: Toggle the integrated synthetic medical HUD.
   components:
   - type: Action
     icon:
@@ -166,8 +166,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleSechud
-  name: "Перемкнути HUD Охорони"
-  description: "Перемкнути оптичну матрицю HUD охорони."
+  name: Toggle Security HUD
+  description: Toggle the optical matrix of the security HUD.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -177,8 +177,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleWeldingGoggles
-  name: "Перемкнути зварювальні окуляри"
-  description: "Змінити позицію зварювальних окулярів на лобі."
+  name: Toggle the welding goggles
+  description: Change the positions of the welding goggles on your forehead.
   components:
   - type: Action
     itemIconStyle: BigItem
@@ -188,8 +188,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionCycleVisor
-  name: "Цикл шолом-HUD"
-  description: "Циклічно перемикає поточний активний візор."
+  name: Cycle helmet HUD
+  description: Cycles the currently active visor.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -203,8 +203,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionSpotTarget
-  description: "Наведіть мишу на ціль і натисніть клавішу унікальної дії, щоб почати розмітку."
-  name: "Розмітити Ціль"
+  description: Hover your mouse over a target and press the unique action key to start spotting.
+  name: Spot Target
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -217,8 +217,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionToggleLaser
-  name: "Перемкнути Лазер"
-  description: "Вмикає або вимикає ваш лазер"
+  name: Toggle Laser
+  description: Toggles your laser on or off
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -232,8 +232,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionAimedShot
-  name: "Прицільний Постріл"
-  description: "Перебуваючи в режимі бою і навівши мишу на ціль, натисніть клавішу унікальної дії, щоб почати прицілювання."
+  name: Aimed Shot
+  description: While in combat mode and hovering your mouse over a target, press the unique action key to begin aiming.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -246,8 +246,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureScope
-  name: "приціл M707 Валчер"
-  description: "Використати вбудований приціл Валчера."
+  name: M707 Vulture Scope
+  description: Use the Vulture's integrated scope.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -264,8 +264,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureCycleZoomLevel
-  name: "перемкнути масштаб прицілу Валчера"
-  description: "Змінити збільшення прицілу Валчера."
+  name: Cycle Vulture Scope Zoom
+  description: Change the Vulture scope's magnification.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -282,8 +282,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureScopeForward
-  name: "приціл вперед"
-  description: "Посунути огляд прицілу Валчера далі."
+  name: Scope Forward
+  description: Move the Vulture scope view further away.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -297,8 +297,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureScopeBackward
-  name: "приціл назад"
-  description: "Посунути огляд прицілу Валчера ближче."
+  name: Scope Back
+  description: Move the Vulture scope view closer.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -312,8 +312,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureScopeLeft
-  name: "приціл ліворуч"
-  description: "Посунути огляд прицілу Валчера ліворуч."
+  name: Scope Left
+  description: Move the Vulture scope view to the left.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -327,8 +327,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureScopeRight
-  name: "приціл праворуч"
-  description: "Посунути огляд прицілу Валчера праворуч."
+  name: Scope Right
+  description: Move the Vulture scope view to the right.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -342,8 +342,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureWindageLeft
-  name: "поправка за вітром ліворуч"
-  description: "Змістити перехрестя Валчера ліворуч."
+  name: Windage Left
+  description: Adjust the Vulture crosshair left.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -357,8 +357,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureWindageRight
-  name: "поправка за вітром праворуч"
-  description: "Змістити перехрестя Валчера праворуч."
+  name: Windage Right
+  description: Adjust the Vulture crosshair right.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -372,8 +372,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureElevationUp
-  name: "підняти кут"
-  description: "Змістити перехрестя Валчера вгору."
+  name: Elevation Up
+  description: Adjust the Vulture crosshair up.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -387,8 +387,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionVultureElevationDown
-  name: "опустити кут"
-  description: "Змістити перехрестя Валчера вниз."
+  name: Elevation Down
+  description: Adjust the Vulture crosshair down.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -402,8 +402,8 @@
 - type: entity
   parent: ActionMarineToggleable
   id: RMCActionVultureBreath
-  name: "контроль дихання"
-  description: "Затримайте дихання, щоб тимчасово стабілізувати перехрестя Валчера."
+  name: Breath Control
+  description: Hold your breath to temporarily stabilize the Vulture crosshair.
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -417,8 +417,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionBroiler
-  name: "Замінити Бак"
-  description: "Перейти на інший паливний бак."
+  name: Switch Tank
+  description: Switch to a different fuel tank.
   components:
   - type: Action
   - type: InstantAction
@@ -427,8 +427,8 @@
 - type: entity
   parent: ActionMarineBase
   id: RMCActionDismount
-  name: "Демонтувати"
-  description: "Перестати використовувати зброю"
+  name: Dismount
+  description: Stop using the weapon
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -442,8 +442,8 @@
 - type: entity
   parent: BaseAction
   id: ActionToggleCBRNHelmet
-  name: "Перемкнути CBRN Маску"
-  description: "Підняти або опустити інтегровану MOPP маску для перемикання повного протипожежного захисту."
+  name: Toggle CBRN Mask
+  description: Raise or lower the integrated MOPP mask to toggle full fire protection.
   components:
   - type: Action
     icon:

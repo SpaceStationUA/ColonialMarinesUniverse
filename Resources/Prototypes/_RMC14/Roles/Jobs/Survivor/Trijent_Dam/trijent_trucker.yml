@@ -33,7 +33,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorTrijentTrucker
-  name: "спавнер водія triджент"
+  name: trijent trucker spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -45,5 +45,5 @@
 - type: entity
   parent: RMCSurvivorPresetTrucker
   id: RMCGearSurvivorPresetTrijentTrucker
-  name: "пресет колоніста-водія triджент"
+  name: trijent trucker colonist preset
   categories: [ HideSpawnMenu ]

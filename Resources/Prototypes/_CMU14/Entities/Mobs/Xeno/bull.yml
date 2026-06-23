@@ -7,8 +7,8 @@
   - RMCXenoCommendationReceiver
   - RMCXenoMobCollision
   id: CMXenoBull
-  name: "Бик"
-  description: "Важкий ксеноморф із жорстоким ривком уперед."
+  name: Bull
+  description: A heavy charging xeno with a brutal forward rush.
   components:
   - type: GhostRole
     name: cm-job-name-xeno-bull

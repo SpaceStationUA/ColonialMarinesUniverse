@@ -3,12 +3,12 @@
   id: AU14ChevronNSPABase
   abstract: true
   suffix: NSPA Rank Chevron
-  description: "Відзнака звання цивільної поліції. Шпильки попередньої серії були металевими, але старший інспектор поскаржився, що ними можна вколотися, тому ці зроблені з пластику."
+  description: Civil policing rank insignia. The last series of pins were metal, but a senior inspector complained about getting stabbed, so these are made of plastic.
 
 - type: entity
   parent: AU14ChevronNSPABase
   id: AU14ChevronNSPAConstable
-  name: "шеврон констебля"
+  name: constable chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -24,7 +24,7 @@
 - type: entity
   parent: AU14ChevronNSPABase
   id: AU14ChevronNSPASeniorConstable
-  name: "шеврон старшого констебля"
+  name: senior constable chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -40,7 +40,7 @@
 - type: entity
   parent: AU14ChevronNSPABase
   id: AU14ChevronNSPAInspector
-  name: "шеврон інспектора"
+  name: inspector chevron
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

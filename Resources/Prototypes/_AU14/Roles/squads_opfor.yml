@@ -2,7 +2,7 @@
 - type: entity
   parent: SquadBase
   id: SquadOpfor
-  name: "Сьєрра"
+  name: Sierra
   components:
   - type: SquadTeam
     roundStart: true
@@ -16,7 +16,7 @@
 - type: entity
   parent: SquadOpfor
   id: SquadOpforBravo
-  name: "Танго"
+  name: Tango
   components:
   - type: SquadTeam
     roundStart: true
@@ -30,7 +30,7 @@
 - type: entity
   parent: SquadOpfor
   id: SquadOpforCharlie
-  name: "Юніформ"
+  name:  Uniform
   components:
   - type: SquadTeam
     roundStart: true
@@ -44,7 +44,7 @@
 - type: entity
   parent: SquadOpfor
   id: SquadOpforIntel
-  name: "Розвідка" # this will cause confusion, but better than x2 Auxiliary
+  name: Intel # this will cause confusion, but better than x2 Auxiliary
   components:
   - type: SquadTeam
     roundStart: true

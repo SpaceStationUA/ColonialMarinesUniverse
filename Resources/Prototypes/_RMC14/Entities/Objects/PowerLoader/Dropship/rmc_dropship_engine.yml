@@ -19,8 +19,8 @@
 - type: entity
   parent: RMCDropshipAttachmentEngine
   id: RMCDropshipAttachmentFuelEnhancer
-  name: "підсилювач палива"
-  description: "Система підсилення палива для десантних кораблів. Покращує тягу від згоряння палива для швидших перельотів. Поміщається у точки кріплення двигунів. Для підняття потрібен силовий навантажувач."
+  name: fuel enhancer
+  description: A fuel enhancement system for dropships. It improves the thrust produced by the fuel combustion for faster travels. Fits inside the engine attach points. You need a powerloader to lift it.
   components:
   - type: Sprite
     layers:
@@ -34,8 +34,8 @@
 - type: entity
   parent: RMCDropshipAttachmentEngine
   id: RMCDropshipAttachmentCoolingSystem
-  name: "система охолодження"
-  description: "Система охолодження для десантних кораблів. Виробляє додаткове охолодження, зменшуючи затримки між запусками. Поміщається у точки кріплення двигунів. Для підняття потрібен силовий навантажувач."
+  name: cooling system
+  description: A cooling system for dropships. It produces additional cooling reducing delays between launch. Fits inside the engine attach points. You need a powerloader to lift it.
   components:
   - type: Sprite
     layers:

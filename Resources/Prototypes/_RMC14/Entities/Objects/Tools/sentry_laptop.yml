@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: RMCSentryLaptop
-  name: "ноутбук турелі"
-  description: "Захищений військовий ноутбук, що використовується для дистанційного керування й моніторингу турелями. Можна ставити на столи для зручнішого доступу. Використовуй налаштовувач безпеки доступу, щоб під'єднати турелі до мережі ноутбука."
+  name: sentry laptop
+  description: A ruggedized military laptop used for remote sentry gun control and monitoring. Can be placed on tables for easier access. Use a security access tuner to link sentries to the laptop network.
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/sentrycomp.rsi

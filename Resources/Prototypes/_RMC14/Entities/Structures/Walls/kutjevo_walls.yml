@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallKutjevoRock
-  name: "кам'яна стіна"
-  description: "Високі піщані скелі. Зловісні. Вражаючі. Привертають увагу."
+  name: rock wall
+  description: Tall sandy rocks. Imposing. Impressive. Attention grabbing.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/kutjevo_rock.rsi
@@ -38,8 +38,8 @@
 - type: entity
   parent: CMWallMetal
   id: RMCWallKutjevo
-  name: "стіна колонії"
-  description: "Запилені зношені стіни, колись побудовані надовго."
+  name: colony wall
+  description: Dusty worn down walls that were once built to last.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/kutjevo_wall.rsi
@@ -57,8 +57,8 @@
 - type: entity
   parent: RMCBaseWallReinforced
   id: RMCWallKutjevoReinforced
-  name: "укріплена стіна колонії"
-  description: "Запилені зношені стіни, колись побудовані надовго. Ця укріплена"
+  name: reinforced colony wall
+  description: Dusty worn down walls that were once built to last. This one is reinforced
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/kutjevo_rwall.rsi
@@ -76,8 +76,8 @@
 - type: entity
   parent: CMBaseWallInvincible
   id: RMCWallKutjevoHull
-  name: "важка укріплена стіна колонії"
-  description: "Запилені зношені стіни, колись побудовані надовго. Ця незнищенна."
+  name: heavy reinforced colony wall
+  description: Dusty worn down walls that were once built to last. This one is indestructible.
   components:
   - type: Sprite
     sprite: _RMC14/Structures/Walls/kutjevo_rwall.rsi

@@ -1,8 +1,8 @@
 - type: entity
   parent: CMSatchel
   id: AU14SmallBackpackRMC
-  name: "малий рюкзак королівських морпіхів"
-  description: "Штатний рюкзак сил Імперії трьох світів. Призначений для перенесення спорядження на поле бою."
+  name: royal marine small backpack
+  description: The standard-issue pack of TWE forces. Designed to lug gear into the battlefield.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/back/small.rsi
@@ -10,8 +10,8 @@
 - type: entity
   parent: CMBackpack
   id: AU14FrameBackpackRMC
-  name: "рама рюкзака королівських морпіхів"
-  description: "Штатний рюкзак сил КМП. Призначений для перенесення спорядження на поле бою."
+  name: royal marine backpack frame
+  description: The standard-issue pack of RMC forces. Designed to lug gear into the battlefield.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/back/frame_2.rsi
@@ -25,8 +25,8 @@
 - type: entity
   parent: CMBackpack
   id: AU14BackpackRMC
-  name: "середній рюкзак королівських морпіхів"
-  description: "Штатний рюкзак сил Імперії трьох світів. Призначений для перенесення спорядження на поле бою."
+  name: royal marine medium backpack
+  description: The standard-issue pack of TWE forces. Designed to lug gear into the battlefield.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/back/medium.rsi
@@ -34,8 +34,8 @@
 - type: entity
   parent: AU14SmallBackpackRMC
   id: AU14CorpsmanBackpackRMC
-  name: "медичний рюкзак королівських морпіхів"
-  description: "Штатний рюкзак сил Імперії трьох світів. На цьому є червоний хрест."
+  name: royal marine medical backpack
+  description: The standard-issue pack of TWE forces. Designed to lug gear into the battlefield. This one has a red cross on it.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/back/medic.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: CMBackpack
   id: AU14LargeBackpackRMC
-  name: "великий рюкзак королівських морпіхів"
-  description: "Великий рюкзак. Призначений для перенесення інженерного спорядження й вибухівки на поле бою."
+  name: royal marine large backpack
+  description: A large pack. Designed to engineering equipment and explosives into the battlefield.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/back/large.rsi
@@ -60,8 +60,8 @@
 - type: entity
   parent: RMCSatchelWelderChestrig
   id: AU14WelderBackpackRMC
-  name: "зварювальний рюкзак королівських морпіхів"
-  description: "Спеціалізований рюкзак, який носять техніки КМП. Він містить паливний бак для швидкого заправлення та використання зварювального апарата."
+  name: royal marine welderpack
+  description: A specialized backpack worn by RMC technicians. It carries a fueltank for quick welder refueling and use.
   components:
   - type: Sprite
     sprite: _AU14/Clothing/RMC/back/sapper.rsi

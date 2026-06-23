@@ -48,7 +48,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorEngineer
-  name: "спавнер інженера-вцілілого"
+  name: survivor engineer spawn point
   components:
   - type: SpawnPoint
     job_id: CMSurvivor
@@ -65,7 +65,7 @@
 - type: entity
   parent: RMCSurvivorPresetCivilian
   id: RMCSurvivorPresetEngineer
-  name: "пресет колоніста-інженера"
+  name: engineer colonist preset
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -76,7 +76,7 @@
 - type: entity
   parent: MarkerBase
   id: RMCRandomHumanoidSurvivorEngineer
-  name: "привид-роль колоніста-інженера"
+  name: engineer colonist ghost role
   components:
   - type: Sprite
     layers:

@@ -31,174 +31,174 @@
 - type: tile
   parent: CMPlanetGrassDirt
   id: CMPlanetGrassDirtWeedable
-  name: "трав’яниста земля"
+  name: grass dirt
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtNW
   id: CMPlanetGrassDirtNWWeedable
-  name: "трав’яниста земля пнзх"
+  name: grass dirt nw
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtNE
   id: CMPlanetGrassDirtNEWeedable
-  name: "трав’яниста земля пнсх"
+  name: grass dirt ne
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtSE
   id: CMPlanetGrassDirtSEWeedable
-  name: "трав’яниста земля пдсх"
+  name: grass dirt se
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtSW
   id: CMPlanetGrassDirtSWWeedable
-  name: "трав’яниста земля пдзх"
+  name: grass dirt sw
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtNW2
   id: CMPlanetGrassDirtNW2Weedable
-  name: "трав’яниста земля пнзх 2"
+  name: grass dirt nw 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtSE2
   id: CMPlanetGrassDirtSE2Weedable
-  name: "трав’яниста земля пдсх 2"
+  name: grass dirt se 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtNE2
   id: CMPlanetGrassDirtNE2Weedable
-  name: "трав’яниста земля пнсх 2"
+  name: grass dirt ne 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtSW2
   id: CMPlanetGrassDirtSW2Weedable
-  name: "трав’яниста земля пдзх 2"
+  name: grass dirt sw 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtNorth
   id: CMPlanetGrassDirtNorthWeedable
-  name: "трав’яниста земля північ"
+  name: grass dirt north
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtSouth
   id: CMPlanetGrassDirtSouthWeedable
-  name: "трав’яниста земля південь"
+  name: grass dirt south
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtWest
   id: CMPlanetGrassDirtWestWeedable
-  name: "трав’яниста земля захід"
+  name: grass dirt west
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirtEast
   id: CMPlanetGrassDirtEastWeedable
-  name: "трав’яниста земля схід"
+  name: grass dirt east
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2NW
   id: CMPlanetGrassDirt2NWWeedable
-  name: "трав’яниста земля 2 пнзх"
+  name: grass dirt2 nw
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2NE
   id: CMPlanetGrassDirt2NEWeedable
-  name: "трав’яниста земля 2 пнсх"
+  name: grass dirt2 ne
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2SE
   id: CMPlanetGrassDirt2SEWeedable
-  name: "трав’яниста земля 2 пдсх"
+  name: grass dirt2 se
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2SW
   id: CMPlanetGrassDirt2SWWeedable
-  name: "трав’яниста земля 2 пдзх"
+  name: grass dirt2 sw
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2NW2
   id: CMPlanetGrassDirt2NW2Weedable
-  name: "трав’яниста земля 2 пнзх 2"
+  name: grass dirt2 nw 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2SE2
   id: CMPlanetGrassDirt2SE2Weedable
-  name: "трав’яниста земля 2 пдсх 2"
+  name: grass dirt2 se 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2NE2
   id: CMPlanetGrassDirt2NE2Weedable
-  name: "трав’яниста земля 2 пнсх 2"
+  name: grass dirt2 ne 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2SW2
   id: CMPlanetGrassDirt2SW2Weedable
-  name: "трав’яниста земля 2 пдзх 2"
+  name: grass dirt2 sw 2
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2North
   id: CMPlanetGrassDirt2NorthWeedable
-  name: "трав’яниста земля 2 північ"
+  name: grass dirt2 north
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2South
   id: CMPlanetGrassDirt2SouthWeedable
-  name: "трав’яниста земля 2 південь"
+  name: grass dirt2 south
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2West
   id: CMPlanetGrassDirt2WestWeedable
-  name: "трав’яниста земля 2 захід"
+  name: grass dirt2 west
   weedsSpreadable: true
   semiWeedable: true
 
 - type: tile
   parent: CMPlanetGrassDirt2East
   id: CMPlanetGrassDirt2EastWeedable
-  name: "трав’яниста земля 2 схід"
+  name: grass dirt2 east
   weedsSpreadable: true
   semiWeedable: true

@@ -3,7 +3,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataMiningTop
-  name: "Рівень видобутку нуль"
+  name: Mining Level Zero
   components:
   - type: Sprite
     state: garage
@@ -23,7 +23,7 @@
 - type: entity
   parent: RMCAreaStrataMiningTop
   id: RMCAreaStrataMiningBottom
-  name: "Рівень видобутку мінус один"
+  name: Mining Level Minus One
   components:
   - type: Sprite
     state: path
@@ -33,7 +33,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataICSCAmb
-  name: "Офіс посла ICSC"
+  name: ICSC Ambassador Office
   components:
   - type: Sprite
     state: path
@@ -53,7 +53,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataICSCAmbRoof
-  name: "Дах офісу посла ICSC"
+  name: ICSC Ambassador Office Roof
   components:
   - type: Sprite
     state: garage
@@ -73,7 +73,7 @@
 - type: entity
   parent: RMCAreaStrata
   id: RMCAreaStrataUPPAmb
-  name: "Офіс посла UPP"
+  name: UPP Ambassador Office
   components:
   - type: Sprite
     state: path
@@ -93,7 +93,7 @@
 - type: entity
   parent: RMCAreaStrataICSCAmbRoof
   id: RMCAreaStrataCoreRoof
-  name: "Дах керування ядром"
+  name: Core Control Roof
   components:
   - type: Sprite
     state: path
@@ -101,7 +101,7 @@
 - type: entity
   parent: RMCAreaStrataICSCAmbRoof
   id: RMCAreaStrataPaPHutRoof
-  name: "Дах поліцейської будки"
+  name: Police Hut Roof
   components:
   - type: Sprite
     state: path

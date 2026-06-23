@@ -46,7 +46,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYSurvPMC
-  name: "Контрактор ПВК ВЮ (виживший)"
+  name: WY PMC Contractor (Survivor)
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

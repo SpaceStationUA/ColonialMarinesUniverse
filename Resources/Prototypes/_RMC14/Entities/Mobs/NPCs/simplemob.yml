@@ -90,7 +90,7 @@
 - type: entity
   parent: RMCSimpleMob
   id: RMCRodent # Required to preserve upstream mouse behavior for rodent children.
-  name: "абстрактний гризун"
+  name: Abstract rodent
   abstract: true
   suffix: CM
   components:
@@ -198,7 +198,7 @@
 - type: entity
   id: RMCSmallHost
   parent: [RMCSimpleMob, StripableInventoryBase] # TODO: Consider BaseOrganic once this is safer to change.
-  name: "абстрактний малий носій"
+  name: abstract small host
   abstract: true
   components:
   - type: CombatMode
