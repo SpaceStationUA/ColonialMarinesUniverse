@@ -1,8 +1,8 @@
 - type: entity
   parent: CMBaseStructure
   id: RMCBargeFloat
-  name: Barge Float
-  description: A supportive lattice connected to two floating pontoons.
+  name: "Поплавок баржі"
+  description: "Опорна решітка, з'єднана з двома плавучими понтонами."
   components:
   - type: Sprite
     drawdepth: Objects

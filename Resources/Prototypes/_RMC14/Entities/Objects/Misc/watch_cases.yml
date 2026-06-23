@@ -1,9 +1,9 @@
 - type: entity
   parent: BaseStorageItem
   id: RMCWatchCase
-  name: wristwatch case
+  name: "футляр для наручного годинника"
   suffix: Empty
-  description: A tough-wearing case to keep an expensive wristwatch safe when not being worn.
+  description: "Міцний зносостійкий футляр, у якому дорогий наручний годинник буде в безпеці, коли його не носять."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Storage/pdt-case.rsi
@@ -21,7 +21,7 @@
 - type: entity
   parent: RMCWatchCase
   id: RMCWatchCaseBasic
-  name: Seikaku Pulsemeter wristwatch storage case
+  name: "футляр для наручного годинника Сейкаку Пульсметр"
   components:
   - type: StorageFill
     contents:
@@ -30,7 +30,7 @@
 - type: entity
   parent: RMCWatchCase
   id: RMCWatchCaseSynth
-  name: Seikaku 13B6-2000 wristwatch storage case
+  name: "футляр для наручного годинника Сейкаку 13B6-2000"
   components:
   - type: StorageFill
     contents:
@@ -39,7 +39,7 @@
 - type: entity
   parent: RMCWatchCase
   id: RMCWatchCaseSurv
-  name: Seikaku 13B6-3000 wristwatch storage case
+  name: "футляр для наручного годинника Сейкаку 13B6-3000"
   components:
   - type: StorageFill
     contents:
@@ -48,7 +48,7 @@
 - type: entity
   parent: RMCWatchCase
   id: RMCWatchCaseLiaison
-  name: Seikaku H487-9098 wristwatch storage case
+  name: "футляр для наручного годинника Сейкаку H487-9098"
   components:
   - type: StorageFill
     contents:
@@ -57,7 +57,7 @@
 - type: entity
   parent: RMCWatchCase
   id: RMCWatchCasePilot
-  name: Veniti E-338 wristwatch storage case
+  name: "футляр для наручного годинника Веніті E-338"
   components:
   - type: StorageFill
     contents:

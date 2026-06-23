@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionXenoBase
   id: CMUActionXenoZJump
-  name: Z-Jump
-  description: Leap upward and forward, crossing to the Z level above if the path is clear.
+  name: "Z-стрибок"
+  description: "Стрибнути вгору й уперед, переходячи на Z-рівень вище, якщо шлях вільний."
   components:
   - type: Action
     itemIconStyle: NoItem

@@ -1,7 +1,7 @@
 - type: entity
   id: RMCCalendarBase
-  name: wall calendar
-  description: Classic office decoration and a place to stare at maniacally.
+  name: "настінний календар"
+  description: "Класична офісна прикраса і місце, на яке можна маніакально дивитися."
   abstract: true
   placement:
     mode: SnapgridCenter

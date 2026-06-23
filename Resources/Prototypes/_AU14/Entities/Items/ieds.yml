@@ -1,8 +1,8 @@
 - type: entity
   parent: RemoteSignaller
   id: AU14RemoteSignallerAdvanced
-  name: ProtonCall XL Portable Telephone
-  description: A Weyland-Yutani brickphone made by a subsidiary of their communications division. Probably pried from the dead hands of some corporate shmuck. This one’s being used for dialing CLF IEDs. Someone etched 'Fuck the United Americas' into the side.
+  name: "портативний телефон ПротонКолл XL"
+  description: "Цеглофон Вейланд-Ютані, виготовлений дочірньою компанією їхнього комунікаційного підрозділу. Ймовірно, вирваний із мертвих рук якогось корпоративного лоха. Цей використовують для підриву СВП КФВ. Хтось видряпав на боці: «Нахрін Об’єднані Америки»."
   components:
   - type: Sprite
     sprite: _AU14/Items/IEDs/signaller.rsi
@@ -19,8 +19,8 @@
     price: 30
 
 - type: entity
-  name: improvised explosive device
-  description: A remote explosive designed to cripple foot soldiers and lightly armored vehicles. A saboteur’s and insurgent’s favorite tool of terror. Be careful... its very unstable.
+  name: "саморобний вибуховий пристрій"
+  description: "Дистанційна вибухівка, призначена для виведення з ладу піхотинців і легкоброньованої техніки. Улюблений інструмент терору саботажників і повстанців. Обережно... вона дуже нестабільна."
   parent: [BasePlasticExplosive, BaseSyndicateContraband]
   id: AU14IED
   components:
@@ -55,8 +55,8 @@
   - type: ExplodeOnTrigger
 
 - type: entity
-  name: huge improvised explosive device
-  description: A rather large remote explosive designed to cripple foot soldiers and lightly armored vehicles. A saboteur’s and insurgent’s favorite tool of terror. Be careful... its very unstable.
+  name: "величезний саморобний вибуховий пристрій"
+  description: "Доволі велика дистанційна вибухівка, призначена для виведення з ладу піхотинців і легкоброньованої техніки. Улюблений інструмент терору саботажників і повстанців. Обережно... вона дуже нестабільна."
   parent: [BasePlasticExplosive, BaseSyndicateContraband]
   id: AU14IEDLarge
   components:
@@ -92,8 +92,8 @@
   - type: ExplodeOnTrigger
 
 - type: entity
-  name: improvised explosive vest
-  description: A worn suicide explosive vest designed to cripple foot soldiers. Those who use it will never return...
+  name: "саморобний вибуховий жилет"
+  description: "Носимий самогубний вибуховий жилет, призначений для виведення з ладу піхотинців. Ті, хто ним скористається, вже ніколи не повернуться..."
   parent: [RMCBaseJacket, BasePlasticExplosive, BaseSyndicateContraband]
   id: AU14IEDVest
   components:
@@ -144,7 +144,7 @@
 - type: entity
   parent: CMPaperWritten
   id: AU14IEDGuide
-  name: improvised explosives guide
+  name: "посібник із саморобної вибухівки"
   components:
   - type: Paper
     content: "1. Grab yerself an IED make sure it ain tickin.

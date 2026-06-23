@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: AU14JobIPIEPPO
-  name: IPIE Personal Protection Officer
+  name: "офіцер особистої охорони IPIE"
   description: au14-ipie-ppo-description
   playTimeTracker: AU14JobIPIEPPO
   ranks:
@@ -52,7 +52,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobIPIEPPO
-  name: WY IPIE Personal Protection Officer (3rd party)
+  name: "офіцер особистої охорони IPIE ВЮ (третя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

@@ -3,7 +3,7 @@
   id: AU14IASFCombatEngineerBase
   name: au14-job-name-tweiasf-ce
   playTimeTracker: AU14IASFCombatEngineer
-  description: au14-job-description-tweiasf
+  description: "au14-job-description-tweiasf"
   ranks:
     RMC_LanceCorporal: []
   spawnMenuRoleName: IASF Engineer (Base)

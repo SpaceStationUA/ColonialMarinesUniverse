@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionXenoBase
   id: CMUActionXenoBullPlow
-  name: Plow
-  description: Set your charge to plow through targets without stopping.
+  name: "Прорив"
+  description: "Налаштувати ривок так, щоб прориватися крізь цілі без зупинки."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -19,8 +19,8 @@
 - type: entity
   parent: ActionXenoBase
   id: CMUActionXenoBullHeadbutt
-  name: Headbutt
-  description: Set your charge to slam a target aside and end the rush.
+  name: "Удар головою"
+  description: "Налаштувати ривок так, щоб відкинути ціль убік і завершити натиск."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -37,8 +37,8 @@
 - type: entity
   parent: ActionXenoBase
   id: CMUActionXenoBullGore
-  name: Gore
-  description: Set your charge to gore a target for heavier damage and end the rush.
+  name: "Прокол"
+  description: "Налаштувати ривок так, щоб проколоти ціль, завдавши більшої шкоди, і завершити натиск."
   components:
   - type: Action
     itemIconStyle: NoItem

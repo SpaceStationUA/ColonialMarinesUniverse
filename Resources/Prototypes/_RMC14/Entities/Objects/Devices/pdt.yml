@@ -1,8 +1,8 @@
 - type: entity
   parent: [ BaseItem, PowerCellSlotSmallItem ]
   id: RMCPDTLocatorTube
-  name: PDT/L locator tube
-  description: A handheld locator tube paired with a wrist PDT bracelet. It gives a direction and range readout to its partner bracelet.
+  name: "пошукова трубка PDT/L"
+  description: "Ручна пошукова трубка, спарена з наручним браслетом PDT. Вона показує напрямок і відстань до свого браслета-партнера."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Devices/pdt_locator_tube.rsi
@@ -47,8 +47,8 @@
 - type: entity
   parent: RMCWatchBaseL
   id: RMCPDTBracelet
-  name: PDT wrist bracelet
-  description: A wrist-worn personal data transmitter bracelet intended to be paired with a PDT/L locator tube.
+  name: "наручний браслет PDT"
+  description: "Наручний браслет персонального передавача даних, призначений для спарювання з пошуковою трубкою PDT/L."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Clothing/Accessory/Watches/pdt.rsi
@@ -74,8 +74,8 @@
 - type: entity
   parent: RMCWatchCase
   id: CMSparePDTLBattleBuddyKit
-  name: Boots! PDT/L Battle Buddy kit
-  description: A rugged little case containing a PDT/L locator tube, its paired wrist PDT bracelet, and a spare We-Ya mini-battery.
+  name: "набір бойового побратима «Бутс!» PDT/L"
+  description: "Невеликий міцний кейс із пошуковою трубкою PDT/L, спареним із нею наручним браслетом PDT і запасною мінібатарейкою Ве-Я."
   components:
   - type: Storage
     maxItemSize: Normal
