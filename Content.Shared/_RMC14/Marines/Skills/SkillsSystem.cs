@@ -569,6 +569,7 @@ public sealed partial class SkillsSystem : EntitySystem
         ent.Comp.Skills.Clear();
         Dirty(ent);
     }
+
     public void SetSkill(Entity<SkillsComponent?> ent, EntProtoId<SkillDefinitionComponent> skill, int to)
     {
         if (skill == default)
