@@ -111,7 +111,6 @@ public sealed partial class SkillsSystem : EntitySystem
         ApplyPreset(ent);
     }
 
-    // AU14 temporary fix for our job-special changes until upstream handles late-added skill presets.
     private void ApplyPreset(Entity<SkillsComponent> ent)
     {
         if (ent.Comp.Preset is not { } presetPrototype)
