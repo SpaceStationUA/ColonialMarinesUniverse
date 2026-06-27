@@ -10261,49 +10261,49 @@
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1467
 - author: Arcticular1
   changes:
-  - message: Pyro armor is now immune to pounces, and is now light armor!
+  - message: Броня піротехніка тепер імунна до наскоків і тепер є легкою бронею!
     type: Tweak
   id: 354
   time: '2026-06-27T03:50:43.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1461
 - author: Arcticular1
   changes:
-  - message: Clf now get 1 point per 15$
+  - message: CLF тепер отримує 1 очко за кожні 15$.
     type: Tweak
   id: 355
   time: '2026-06-27T03:52:11.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1459
 - author: stranthbackup
   changes:
-  - message: Ammo boxes of varying round sizes
+  - message: Ящики з боєприпасами для набоїв різних розмірів
     type: Add
   id: 356
   time: '2026-06-27T07:04:30.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1466
 - author: ver0098
   changes:
-  - message: Type-19 is now medium sized for CLF Hit and runs.
+  - message: Type-19 тепер середнього розміру для рейдів CLF.
     type: Add
-  - message: Added Type-19, Type-64, P-90, MAC-15 to CLF Rack.
+  - message: Додано Type-19, Type-64, P-90 і MAC-15 до стійки CLF.
     type: Add
-  - message: Added Type-23 to CLF Rack
+  - message: Додано Type-23 до стійки CLF.
     type: Add
-  - message: Added D18 to CLF Rack
+  - message: Додано D18 до стійки CLF.
     type: Add
-  - message: Added more M16 Variants to CLF rack
+  - message: Додано більше варіантів M16 до стійки CLF.
     type: Add
-  - message: Added Flak Vests to CLF Rack
+  - message: Додано протиосколкові жилети до стійки CLF.
     type: Add
-  - message: CLF now has deployable ladders
+  - message: CLF тепер має розгортні драбини.
     type: Add
   id: 357
   time: '2026-06-27T08:14:49.0000000+00:00'
   url: https://github.com/AU-14/ColonialMarinesUniverse/pull/1460
 - author: OmerF-afk
   changes:
-  - message: Added lots of new crafting recipes. Including additions to the lathe.
+  - message: Додано багато нових рецептів крафту, зокрема доповнення для виробничого верстата.
     type: Add
-  - message: Removed black goo from roleplay drugs. They can be made now.
+  - message: Прибрано чорну рідину з рольових наркотиків. Їх тепер можна виготовляти.
     type: Add
   id: 358
   time: '2026-06-27T11:03:39.0000000+00:00'
