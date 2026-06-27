@@ -68,7 +68,7 @@ rmc-dropship-weapons-previous = ^
 rmc-dropship-weapons-next = v
 
 rmc-dropship-weapons-fire-no-weapon = Зброю не обрано.
-rmc-dropship-weapons-fire-not-flying = Десантні кораблі можуть стріляти лише в польоті.
+rmc-dropship-weapons-fire-not-flying = Десантні кораблі можуть стріляти лише під час польоту.
 rmc-dropship-weapons-fire-not-skilled = У вас немає підготовки, щоб стріляти з цієї зброї!
 rmc-dropship-weapons-fire-no-ammo = У {$weapon} недостатньо боєприпасів.
 rmc-dropship-weapons-fire-cooldown = {$weapon} щойно стріляла, зачекайте, поки вона охолоне.
