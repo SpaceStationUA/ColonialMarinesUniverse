@@ -23,7 +23,7 @@
     prefix: au14-job-prefix-usarmy-tankloader
 
   name: au14-job-name-usarmy-tankloader
-  description: au14-job-description-usarmy-tankccrew
+  description: "au14-job-description-usarmy-tankccrew"
   playTimeTracker: AU14JobUSArmyTankLoader
   ranks:
     RMCRankCivilian: []
@@ -50,7 +50,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTankLoader
-  name: US Army Tank Loader
+  name: "заряджальник танка армії США"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

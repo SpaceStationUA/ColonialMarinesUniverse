@@ -1,7 +1,7 @@
 - type: entity
   parent: BoxFolderClipboard
   id: CMClipboard
-  name: clipboard
+  name: "планшетка"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/clipboard.rsi
@@ -59,8 +59,8 @@
 - type: entity
   parent: CMClipboard
   id: RMCWeYaClipboard
-  name: Weyland-Yutani clipboard
-  description: A branded clipboard, perfect for keeping your forms in order.
+  name: "планшетка «Вейланд-Ютані»"
+  description: "Брендована планшетка, ідеальна для тримання твоїх форм у порядку."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/weya_clipboard.rsi

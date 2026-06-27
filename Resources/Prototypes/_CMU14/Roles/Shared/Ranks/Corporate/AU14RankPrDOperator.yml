@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankPrDOperator
-  name: Response Unit Operator
+  name: "Оператор Підрозділу реагування"
   prefix: RU. OPR.
   paygrade: PSC-R2

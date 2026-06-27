@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankPrDCommander
-  name: Response Unit Commander
+  name: "Командир Підрозділу реагування"
   prefix: RU. CDR.
   paygrade: PSC-S2

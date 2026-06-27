@@ -1,6 +1,6 @@
 - type: entity
   id: AU14LanguagePresetUPPEnlisted
-  name: UPP enlisted Languages
+  name: "Мови рядового складу UPP"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset
@@ -19,7 +19,7 @@
 
 - type: entity
   id: AU14LanguagePresetUPPOfficer
-  name: UPP officer Languages
+  name: "Мови офіцера UPP"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset

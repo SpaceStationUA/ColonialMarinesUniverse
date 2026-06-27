@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankLBExecutiveSupervisor
-  name: Executive Supervisor
+  name: "виконавчий наглядач"
   prefix: Exec. Spvsr.
   paygrade: LBC6

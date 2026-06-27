@@ -27,7 +27,7 @@
       state: synth
   - type: MarineOrders
 
-  name: Prodigy TARS Leader
+  name: "Лідер Prodigy TARS"
   description: au14-prodigyrescue-description
   playTimeTracker: AU14JobProdigyTARSPartyLeaderTracker
   ranks:
@@ -44,7 +44,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobProdigyTARSPartyLeader
-  name: Prodigy TARS Leader (3rd party, M20a)
+  name: "Лідер Prodigy TARS (3-тя сторона, M20a)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

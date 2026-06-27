@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_Corporal
-  name: Corporal
+  name: "капрал"
   prefix: Cpl.
   paygrade: E4

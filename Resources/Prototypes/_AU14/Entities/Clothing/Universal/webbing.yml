@@ -1,8 +1,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingMagazine
-  name: magazine webbing
-  description: Synthcotton webbing with three pockets to hold your magazines.
+  name: "магазинне розвантаження"
+  description: "Розвантаження із синтбавовни з трьома кишенями для ваших магазинів."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/magazinewebbing.rsi
@@ -50,8 +50,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingDumpPouch
-  name: dump pouch webbing
-  description: A pouch to dump your empty mags into.
+  name: "розвантаження зі скидною підсумкою"
+  description: "Підсумка, куди можна скидати порожні магазини."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/dumpouch.rsi
@@ -99,8 +99,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingUtility
-  name: utility webbing
-  description: A synthcotton webbing vest with lots of pockets to hold whatever you need, but cannot hold in hands.
+  name: "універсальне розвантаження"
+  description: "Розвантажувальний жилет із синтбавовни з безліччю кишень для всього, що вам потрібно, але що не можна тримати в руках."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/utilitywebbing.rsi
@@ -144,8 +144,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingDropPouch
-  name: drop pouch
-  description: A convenient pouch to carry loose items around.
+  name: "скидна підсумка"
+  description: "Зручна підсумка для перенесення дрібних речей."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/droppouch.rsi
@@ -185,8 +185,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingAdminPouch
-  name: admin pouch
-  description: A pouch to carry your administrative equipment around.
+  name: "адміністративна підсумка"
+  description: "Підсумка для перенесення адміністративного спорядження."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/adminpouch.rsi
@@ -231,8 +231,8 @@
 - type: entity
   parent: CMWebbingBase
   id: AU14WebbingKnives
-  name: knife webbing
-  description: An older generation knife vest. Can hold up to 5 knives. It is made of synthcotton.
+  name: "ножове розвантаження"
+  description: "Ножовий жилет старішого покоління. Вміщує до 5 ножів. Виготовлений із синтбавовни."
   components:
     - type: Sprite
       sprite: _AU14/Clothing/UniversalWebbing/knifevest.rsi

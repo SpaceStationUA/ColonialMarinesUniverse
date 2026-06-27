@@ -1,5 +1,5 @@
 - type: entity
-  name: cultist cf threat member spawn marker
+  name: "мітка появи члена культистської CF-загрози"
   parent: MarkerBase
   id: cultistcfthreatmemberspawnmarker
   components:
@@ -16,7 +16,7 @@
     - marker-id:cultcfmarker
 
 - type: entity
-  name: cultist cf threat member spawn marker
+  name: "мітка появи члена культистської CF-загрози"
   parent: MarkerBase
   id: scenariocultistcfthreatmemberspawnmarker
   components:
@@ -30,7 +30,7 @@
     - marker-id:cultcfmarker
 
 - type: entity
-  name: cultist cf threat leader spawn marker
+  name: "мітка появи лідера культистської CF-загрози"
   parent: MarkerBase
   id: cultistcfthreatleaderspawnmarker
   components:
@@ -47,7 +47,7 @@
     - marker-id:cultcfmarker
 
 - type: entity
-  name: cultist cf threat leader spawn marker
+  name: "мітка появи лідера культистської CF-загрози"
   parent: MarkerBase
   id: scenariocultistcfthreatleaderspawnmarker
   components:

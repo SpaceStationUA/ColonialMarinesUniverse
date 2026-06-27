@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_Lieutenant
-  name: Lieutenant
+  name: "лейтенант"
   prefix: Lt.
   paygrade: O2

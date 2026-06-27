@@ -1,12 +1,12 @@
 - type: construction
   parent: RMC
-  name: APC
+  name: "КЖЗ"
   id: CMApc
   graph: CMApc
   startNode: start
   targetNode: apc
   category: construction-category-cm-utilities
-  description: "Area Power Controller (APC). Controls power. In an area."
+  description: "Контролер живлення зони (КЖЗ). Контролює живлення. У зоні."
   objectType: Structure
   placementMode: SnapgridCenter
   canBuildInImpassable: true

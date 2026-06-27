@@ -1,74 +1,74 @@
 # enlisted
 - type: rank
   id: IASF_PrivateSecondClass
-  name: Private Second Class
+  name: "Рядовий другого класу"
   prefix: PSC.
   paygrade: E1
 
 - type: rank
   id: IASF_PrivateFirstClass
-  name: Private First Class
+  name: "Рядовий першого класу"
   prefix: PFC.
   paygrade: E1
 
 - type: rank
   id: IASF_ChiefPrivate
-  name: Chief Private
+  name: "Старший рядовий"
   prefix: ChP.
   paygrade: E2
 
 - type: rank
   id: IASF_CorporalSecondClass
-  name: Corporal Second Class
+  name: "Капрал другого класу"
   prefix: CplSC.
   paygrade: E3
 
 - type: rank
   id: IASF_CorporalFirstClass
-  name: Corporal First Class
+  name: "Капрал першого класу"
   prefix: CplFC.
   paygrade: E3
 
 - type: rank
   id: IASF_ChiefCorporal
-  name: Chief Corporal
+  name: "Старший капрал"
   prefix: CCpl.
   paygrade: E4
 
 - type: rank
   id: IASF_SecondSergeant
-  name: Second Sergeant
+  name: "Сержант другого класу"
   prefix: 2Sgt.
   paygrade: E4
 
 - type: rank
   id: IASF_FirstSergeant
-  name: First Sergeant
+  name: "Сержант першого класу"
   prefix: 1Sgt.
   paygrade: E5
 
 - type: rank
   id: IASF_ChiefSergeant
-  name: Chief Sergeant
+  name: "Старший сержант"
   prefix: ChSgt.
   paygrade: E6
 
 - type: rank
   id: IASF_SergeantMajor
-  name: Sergeant Major
+  name: "Сержант-майор"
   prefix: SgtMaj.
   paygrade: E7
 
 #  warrant Officers
 - type: rank
   id: IASF_SecondWarrantOfficer
-  name: Second Warrant Officer
+  name: "Ворент-офіцер другого класу"
   prefix: 2WO.
   paygrade: W1
 
 - type: rank
   id: IASF_FirstWarrantOfficer
-  name: First Warrant Officer
+  name: "Ворент-офіцер першого класу"
   prefix: 2WO.
   paygrade: W2
 
@@ -76,68 +76,68 @@
 
 - type: rank
   id: IASF_SecondLieutenant
-  name: Second Lieutenant
+  name: "Другий лейтенант"
   prefix: 2Lt.
   paygrade: O1
 
 - type: rank
   id: IASF_FirstLieutenant
-  name: First Lieutenant
+  name: "Перший лейтенант"
   prefix: 1Lt.
   paygrade: O1
 
 - type: rank
   id: IASF_Captain
-  name: Captain
+  name: "Капітан"
   prefix: Capt.
   paygrade: O2
 
 #field officers
 - type: rank
   id: IASF_Major
-  name: Major
+  name: "Майор"
   prefix: Maj.
   paygrade: O3
 
 - type: rank
   id: IASF_LieutenantColonel
-  name: Lieutenant Colonel
+  name: "Підполковник"
   prefix: Lt Col.
   paygrade: O4
 
 - type: rank
   id: IASF_Colonel
-  name: Colonel
+  name: "Полковник"
   prefix: Col.
   paygrade: O5
 
 - type: rank
   id: IASF_BrigadierGeneral
-  name: Brigadier General
+  name: "Бригадний генерал"
   prefix: Brig-Gen.
   paygrade: O6
 
 # Generals
 - type: rank
   id: IASF_MajorGeneral
-  name: Major-General
+  name: "Генерал-майор"
   prefix: GenMaj.
   paygrade: O7
 
 - type: rank
   id: IASF_LieutenantGeneral
-  name: Lieutenant-General
+  name: "Генерал-лейтенант"
   prefix: Lt Gen.
   paygrade: O8
 
 - type: rank
   id: IASF_General
-  name: General
+  name: "Генерал"
   prefix: Gen.
   paygrade: 9
 
 - type: rank
   id: IASF_GeneralOfTheArmy
-  name: General of the Army
+  name: "Генерал армії"
   prefix: Gen.
   paygrade: O10

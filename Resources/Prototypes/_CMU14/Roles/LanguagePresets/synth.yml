@@ -2,7 +2,7 @@
 
 - type: entity
   id: AU14LanguagePresetSynth
-  name: Synth Languages
+  name: "Мови синта"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset
@@ -53,7 +53,7 @@
 
 - type: entity
   id: AU14LanguageLearningPresetSynth
-  name: Synth Language Learning
+  name: "Вивчення мов синтом"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguageLearningPreset

@@ -1,5 +1,5 @@
 - type: rank
   id: UPP_ChairmanMilitaryCouncil
-  name: Chairman of Military Council
+  name: "голова військової ради"
   prefix: CMC
   paygrade: O10

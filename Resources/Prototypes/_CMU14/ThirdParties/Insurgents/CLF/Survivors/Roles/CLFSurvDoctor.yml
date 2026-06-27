@@ -41,7 +41,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCLF
   id: AU14JCLFSurvSurgeon
-  name: CLF Surgeon (Survivor)
+  name: "Хірург ФВК (виживший)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -69,7 +69,7 @@
 
 - type: entity
   id: AU14CLFSurvMedicPreset
-  name: clf surv medic preset
+  name: "пресет вижившого медика ФВК"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

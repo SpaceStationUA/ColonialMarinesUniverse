@@ -70,8 +70,8 @@
 - type: entity
   id: ColonyAntags
   parent: BaseGameRule
-  name: Colony Antags
-  description: Randomly rolls for each colony antag to be present this round.
+  name: "антаги колонії"
+  description: "Випадково визначає, які антаги колонії будуть присутні в цьому раунді."
   components:
   - type: GameRule
   - type: ColonyAntagsRule
@@ -79,8 +79,8 @@
 - type: entity
   id: AuVoteRule
   parent: BaseGameRule
-  name: AU Vote Rule
-  description: Loads AU/CMU round votes, planets, platoons, and bioscan.
+  name: "Правило голосування AU"
+  description: "Завантажує голосування раунду AU/CMU, планети, взводи та біоскан."
   components:
   - type: AuVoteRule
   - type: Bioscan
@@ -88,7 +88,7 @@
 - type: entity
   id: RemoveAllJobs
   parent: BaseGameRule
-  name: Remove All Jobs
-  description: Removes all jobs on the planet's main station prior to round start. Optionally removes jobs on ship stations.
+  name: "Прибрати всі роботи"
+  description: "Прибирає всі роботи на головній станції планети перед початком раунду. За бажанням також прибирає роботи на корабельних станціях."
   components:
   - type: RemoveJobsRule

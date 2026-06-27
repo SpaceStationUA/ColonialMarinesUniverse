@@ -1,5 +1,5 @@
 - type: entity
-  name: Generic Threat Leader Spawn Marker
+  name: "загальна мітка появи лідера загрози"
   parent: MarkerBase
   id: threatleaderspawnmarker
   components:
@@ -15,7 +15,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Threat Leader Spawn Marker
+  name: "загальна мітка появи лідера загрози"
   parent: MarkerBase
   id: scenariothreatleaderspawnmarker
   components:
@@ -29,7 +29,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: RMC Generic Threat Leader Spawn Marker
+  name: "Загальний RMC-маркер появи лідера загрози"
   parent: MarkerBase
   id: scenariormcthreatleaderspawnmarker
   components:
@@ -45,7 +45,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Threat Member Spawn Marker
+  name: "загальна мітка появи члена загрози"
   parent: MarkerBase
   id: threatmemberspawnmarker
   components:
@@ -61,7 +61,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Threat Member Spawn Marker
+  name: "загальна мітка появи члена загрози"
   parent: MarkerBase
   id: scenariothreatmemberspawnmarker
   components:
@@ -75,7 +75,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Threat Entity Spawn Marker
+  name: "загальна мітка появи сутності загрози"
   parent: MarkerBase
   id: threatentityspawnmarker
   components:
@@ -91,7 +91,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Threat Entity Spawn Marker
+  name: "загальна мітка появи сутності загрози"
   parent: MarkerBase
   id: scenariothreatentityspawnmarker
   components:
@@ -105,7 +105,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Parachute Marker
+  name: "мітка парашута"
   parent: MarkerBase
   id: parachutemarker
   components:
@@ -114,7 +114,7 @@
   - type: ParachuteMarker
 
 - type: entity
-  name: Generic Third Party Spawn Marker
+  name: "Загальний маркер появи третьої сторони"
   parent: MarkerBase
   id: thirdpartyleaderspawnmarker
   components:
@@ -131,7 +131,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Third Party Leader Spawn Marker
+  name: "Загальний маркер появи лідера третьої сторони"
   parent: MarkerBase
   id: scenariothirdpartyleaderspawnmarker
   components:
@@ -146,7 +146,7 @@
   - type: ScenarioSpawnMarkerCooldown
 
 - type: entity
-  name: Generic Third Party Member Spawn Marker
+  name: "загальна мітка появи члена третьої сторони"
   parent: MarkerBase
   id: thirdpartymemberspawnmarker
   components:
@@ -163,7 +163,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Third Party Member Spawn Marker
+  name: "загальна мітка появи члена третьої сторони"
   parent: MarkerBase
   id: scenariothirdpartymemberspawnmarker
   components:
@@ -178,7 +178,7 @@
   - type: ScenarioSpawnMarkerCooldown
 
 - type: entity
-  name: Generic Third Party Entity Spawn Marker
+  name: "загальна мітка появи сутності третьої сторони"
   parent: MarkerBase
   id: thirdpartyentityspawnmarker
   components:
@@ -195,7 +195,7 @@
     - marker-id:<generic>
 
 - type: entity
-  name: Generic Third Party Entity Spawn Marker
+  name: "загальна мітка появи сутності третьої сторони"
   parent: MarkerBase
   id: scenariothirdpartyentityspawnmarker
   components:

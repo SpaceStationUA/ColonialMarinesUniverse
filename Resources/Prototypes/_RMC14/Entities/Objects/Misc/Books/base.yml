@@ -3,7 +3,7 @@
   abstract: true
   parent: BaseItem
   id: RMCBookBase
-  name: book
+  name: "книга"
   components:
   - type: Sprite
     sprite: _RMC14/Objects/Misc/Books/Other/book.rsi
@@ -39,7 +39,7 @@
 - type: entity
   parent: BaseItem
   id: RMCGuidebookBase
-  name: book
+  name: "книга"
   suffix: Guidebook
   components:
   - type: Sprite

@@ -1,14 +1,14 @@
 - type: entity
   parent: RMCHEFAArmband
   id: AU14ArmbandYellow
-  name: yellow armband
-  description: Fancy yellow armband.
+  name: "жовта пов’язка"
+  description: "Ошатна жовта пов’язка."
 
 - type: entity
   parent: RMCPatchBase
   id: CMU14USCMMPBrassard
-  name: MP Brassard
-  description: A Military Police brassard bearing the emblem of the United States Colonial Marines and bold white letters displaying "MP".
+  name: "пов'язка ВП"
+  description: "Пов'язка військової поліції з емблемою Колоніальних морпіхів Об'єднаних Штатів і великими білими літерами \"ВП\"."
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Patches/mp_armbands.rsi

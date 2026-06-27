@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_Specialist
-  name: Specialist
+  name: "спеціаліст"
   prefix: Spc.
   paygrade: E4

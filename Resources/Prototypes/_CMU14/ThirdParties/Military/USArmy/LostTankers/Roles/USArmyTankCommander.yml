@@ -38,7 +38,7 @@
   - type: RMCPointing
 
   name: au14-job-name-usarmy-tankcommander
-  description: au14-job-description-usarmy-tankccrew
+  description: "au14-job-description-usarmy-tankccrew"
   playTimeTracker: AU14JobUSArmyTankCommander
   ranks:
     RMCRankCivilian: []
@@ -65,7 +65,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUSArmy
   id: AU14JobUSArmyTankCommander
-  name: US Army Tank Commander
+  name: "командир танка армії США"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

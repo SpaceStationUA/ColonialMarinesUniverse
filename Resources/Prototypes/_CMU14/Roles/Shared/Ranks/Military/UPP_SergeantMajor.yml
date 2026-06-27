@@ -1,6 +1,6 @@
 - type: rank
   id: UPP_SergeantMajor
-  name: Sergeant Major
+  name: "Сержант-майор"
   prefix: SgtMaj.
   paygrade: E7
 

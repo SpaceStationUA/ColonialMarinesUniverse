@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_Major
-  name: Major
+  name: "майор"
   prefix: Maj.
   paygrade: O4

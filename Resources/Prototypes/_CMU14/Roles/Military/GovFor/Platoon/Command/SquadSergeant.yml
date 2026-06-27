@@ -97,7 +97,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadSergeant
-  name: Spawn Point GOVFOR Squad Leader
+  name: "Точка появи командира відділення ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadSergeant
@@ -162,7 +162,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSquadSergeant
-  name: Spawn Point opfor Squad Leader
+  name: "Точка появи командира відділення ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORSquadSergeant
@@ -173,7 +173,7 @@
   parent: AU14JobSquadSergeantBase
   id: AU14JobGOVFORSquadSergeantCMBCIU
   roundForce: CMBCIU
-  name: Team Leader
+  name: "Командир групи"
   spawnMenuRoleName: Squad Leader (CMBCIU)
   overwatchRoleName: Squad Leader
   ranks:
@@ -202,7 +202,7 @@
   id: AU14JobGOVFORSquadSergeantWYPMC
   roundForce: WYPMC
   requirements: []
-  name: PMC Squad Leader
+  name: "Командир відділення ПВК"
   ranks:
     AU14RankWeYuEnforcerSenior:
     - !type:RoleTimeRequirement

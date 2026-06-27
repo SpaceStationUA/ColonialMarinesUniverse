@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_CommandSergeantMajor
-  name: Command Sergeant Major
+  name: "командний сержант-майор"
   prefix: ComSgtMaj.
   paygrade: E9

@@ -53,8 +53,8 @@
 - type: entity
   parent: CMIDCardGold
   id: RMCIDCardUNMCAdjutant
-  name: UNMC Adjutant ID card
-  description: A fancy ID card. Issued to the adjutants of high command.
+  name: "ID-картка ад'ютанта UNMC"
+  description: "Вишукана ID-картка. Видається ад'ютантам вищого командування."
   components:
   - type: Sprite
     sprite: _RMC14/Objects/CMIDs/general.rsi

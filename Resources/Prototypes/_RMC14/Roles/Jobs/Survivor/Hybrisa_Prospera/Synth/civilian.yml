@@ -70,7 +70,7 @@
 
 - type: entity
   id: RMCSurvivorPresetHybrisaSynthCivilian
-  name: survivor synth hybrisa civilian colonist preset
+  name: "пресет вцілілого синтетика-цивільного гібріси"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

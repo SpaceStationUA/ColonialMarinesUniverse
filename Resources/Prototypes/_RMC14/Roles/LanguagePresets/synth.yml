@@ -2,7 +2,7 @@
 
 - type: entity
   id: RMCLanguagePresetSynthColonist
-  name: Survivor Synth Colonist Languages
+  name: "Мови синта-вцілілого колоніста"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset
@@ -27,7 +27,7 @@
 
 - type: entity
   id: RMCLanguageLearningPresetSynthColonist
-  name: Survivor Synth Colonist Language Learning
+  name: "Вивчення мов синтом-вцілілим колоністом"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguageLearningPreset

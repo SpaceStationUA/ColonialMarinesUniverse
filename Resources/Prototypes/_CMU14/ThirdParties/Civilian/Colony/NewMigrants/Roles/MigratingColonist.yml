@@ -22,8 +22,8 @@
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: synth
 
-  name: New Colonist
-  description: Wether by choice, necessity or force you have arrived in orbit of this colony to establish your new life on the frontier. Time to get to work.
+  name: "Новий колоніст"
+  description: "Чи з власної волі, чи з необхідності, чи примусово, ви прибули на орбіту цієї колонії, щоб почати нове життя на фронтирі. Час братися до роботи."
   setPreference: true
   playTimeTracker: AU14JobReturningColonistPlaytime
   ranks:
@@ -42,7 +42,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicMisc
   id: AU14JobMigratingColonist
-  name: New Colonist (civilian)
+  name: "Новий колоніст (цивільний)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -50,8 +50,8 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: New Colonist (civilian)
-    description: Wether by choice, necessity or force you have arrived in orbit of this colony to establish your new life on the frontier. Time to get to work.
+    name: "Новий колоніст (цивільний)"
+    description: "Чи з власної волі, чи з необхідності, чи примусово, ви прибули на орбіту цієї колонії, щоб почати нове життя на фронтирі. Час братися до роботи."
     reregister: false
     job: AU14JobMigratingColonistJob
     raffle:
@@ -60,7 +60,7 @@
 
 - type: entity
   id: AU14JobMigratingColonistPreset
-  name: returning colonist preset
+  name: "пресет колоніста, що повертається"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

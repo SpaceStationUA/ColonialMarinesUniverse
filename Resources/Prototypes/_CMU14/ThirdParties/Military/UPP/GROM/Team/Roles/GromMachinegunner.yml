@@ -69,7 +69,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMMachinegunner
-  name: UPP GROM Machinegunner
+  name: "кулеметник ГРОМ УПП"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

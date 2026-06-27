@@ -104,7 +104,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORRadioTelephoneOperator
-  name: Spawn Point GOVFOR Radio Telephone Operator
+  name: "точка появи радіотелефоніста ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORRadioTelephoneOperator
@@ -154,7 +154,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforRadioTelephoneOperator
-  name: Spawn Point opfor Radio Telephone Operator
+  name: "точка появи радіотелефоніста ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORRadioTelephoneOperator
@@ -210,7 +210,7 @@
   parent: AU14JobRadioTelephoneOperatorBase
   id: AU14JobGOVFORRadioTelephoneOperatorWYPMC
   roundForce: WYPMC
-  name: PMC Communications Specialist
+  name: "Спеціаліст зі зв'язку ПВК"
   spawnMenuRoleName: Fireteam Leader (WYPMC)
   overwatchRoleName: au14-job-name-radiotelephoneoperator-alt
   ranks:

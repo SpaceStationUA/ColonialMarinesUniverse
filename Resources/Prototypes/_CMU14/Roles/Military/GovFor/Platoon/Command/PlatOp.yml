@@ -91,7 +91,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORPlatOp
-  name: Spawn Point GOVFOR Platoon Operations Officer
+  name: "точка появи офіцера взводних операцій ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORPlatOp
@@ -155,7 +155,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforPlatOp
-  name: Spawn Point opfor Platoon Operations Officer
+  name: "точка появи офіцера взводних операцій ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORPlatOp
@@ -176,7 +176,7 @@
   id: AU14JobGOVFORPlatOpUPP
   roundForce: UPP
   requirements: []
-  name: Staff Officer
+  name: "Штабний офіцер"
   spawnMenuRoleName: Junior Officer (UPP)
   ranks:
     UPP_Lieutenant:
@@ -190,7 +190,7 @@
   id: AU14JobGOVFORPlatOpWYPMC
   roundForce: WYPMC
   requirements: []
-  name: PMC Operations Adjutant
+  name: "оперативний ад’ютант ПВК"
   description: au14-job-description-govforplatop
   spawnMenuRoleName: Junior Officer (WYPMC)
   ranks:

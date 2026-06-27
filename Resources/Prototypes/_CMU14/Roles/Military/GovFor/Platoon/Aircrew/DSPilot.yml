@@ -152,7 +152,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORDSPilot
-  name: Spawn Point GOVFOR Dropship Pilot
+  name: "точка появи пілота десантного корабля ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORDSPilot
@@ -205,7 +205,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforDSPilot
-  name: Spawn Point opfor Dropship Pilot
+  name: "точка появи пілота десантного корабля ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORDSPilot
@@ -226,7 +226,7 @@
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotRMC
   roundForce: RMC
-  name: RMC Pilot Officer
+  name: "Пілот-офіцер РМК"
   spawnMenuRoleName: Pilot Officer (TWE RMC)
   ranks:
     RMC_Lieutenant:
@@ -247,7 +247,7 @@
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotUPP
   roundForce: UPP
-  name: Dropship Pilot
+  name: "Пілот десантного корабля"
   spawnMenuRoleName: Pilot Officer (UPP)
   ranks:
     UPP_Lieutenant:
@@ -268,7 +268,7 @@
   parent: AU14JobDSPilotBase
   id: AU14JobGOVFORDSPilotWYPMC
   roundForce: WYPMC
-  name: PMC Pilot Officer
+  name: "Пілот-офіцер ПВК"
   spawnMenuRoleName: Pilot Officer (WYPMC)
   ranks:
     AU14RankWeYuSeniorCrewChief:

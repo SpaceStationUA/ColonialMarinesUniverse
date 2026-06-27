@@ -1,6 +1,6 @@
 - type: rank
   id: USArmy_MajorGeneral
-  name: Major-General
+  name: "генерал-майор"
   prefix: Maj-Gen.
   paygrade: O7
 

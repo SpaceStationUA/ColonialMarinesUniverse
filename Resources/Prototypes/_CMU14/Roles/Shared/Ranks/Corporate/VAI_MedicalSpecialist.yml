@@ -1,5 +1,5 @@
 - type: rank
   id: VAI_MedicalSpecialist
-  name: VASC Medical Specialist
+  name: "медичний спеціаліст VASC"
   prefix: VASC MED
   paygrade: VASCM

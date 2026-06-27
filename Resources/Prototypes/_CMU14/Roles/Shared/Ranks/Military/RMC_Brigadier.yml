@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_Brigadier
-  name: Brigadier
+  name: "бригадир"
   prefix: Brig.
   paygrade: O7

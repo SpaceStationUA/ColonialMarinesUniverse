@@ -1,6 +1,6 @@
 - type: entity
   id: AU14LanguagePresetICSC
-  name: ICSC Languages
+  name: "Мови ICSC"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset

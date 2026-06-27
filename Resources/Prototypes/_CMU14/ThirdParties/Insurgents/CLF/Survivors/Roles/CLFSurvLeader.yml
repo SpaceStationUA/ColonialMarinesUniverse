@@ -35,7 +35,7 @@
   - type: FactionLanguageLeader
     factionTag: CLF
 
-  name: au14-job-name-
+  name: "au14-job-name-"
   description: au14-clfsurv-greeting
   playTimeTracker: AU14CLFSurvivorLead
   startingGear: AU14GearCLFSurvLeader
@@ -52,7 +52,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCLF
   id: AU14CLFSurvLeader
-  name: CLF CellLeader (Survivor)
+  name: "Командир осередку ФВК (виживший)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -70,7 +70,7 @@
 
 - type: entity
   id: AU14CLFSurvLeaderPreset
-  name: clf surv leader preset
+  name: "пресет вижившого командира осередку ФВК"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset

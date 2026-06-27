@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankLACNLieutenantJuniorGrade
-  name: Lieutenant Junior Grade
+  name: "Молодший лейтенант"
   prefix: LTJG
   paygrade: O-3

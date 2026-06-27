@@ -52,7 +52,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORWorkingJoe
-  name: Spawn Point Working Joe (GOVFOR)
+  name: "точка появи Воркінг Джо (ГОВФОР)"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORWorkingJoe
@@ -78,7 +78,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORWorkingJoe
-  name: Spawn Point Working Joe (OPFOR)
+  name: "точка появи Воркінг Джо (ОПФОР)"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORWorkingJoe

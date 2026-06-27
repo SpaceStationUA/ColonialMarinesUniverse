@@ -1,6 +1,6 @@
 - type: entity
   id: AU14LanguagePresetCCA
-  name: CCA Languages
+  name: "Мови CCA"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset

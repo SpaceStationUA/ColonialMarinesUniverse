@@ -1,48 +1,48 @@
 - type: rank
   id: RMCRankMajorGeneral
-  name: Major General
+  name: "Генерал-майор"
   prefix: MajGen.
   paygrade: O8
 
 - type: rank
   id: RMCRankBrigadierGeneral
-  name: Brigadier General
+  name: "Бригадний генерал"
   prefix: BGen.
   paygrade: O7
 
 - type: rank
   id: RMCRankColonel
-  name: Colonel
+  name: "Полковник"
   prefix: Col.
   paygrade: O6
 
 - type: rank
   id: RMCRankLieutenantColonel
-  name: Lieutenant Colonel
+  name: "Підполковник"
   prefix: LtCol.
   paygrade: O5
 
 - type: rank
   id: RMCRankMajor
-  name: Major
+  name: "Майор"
   prefix: Maj.
   paygrade: O4
 
 - type: rank
   id: RMCRankCaptain
-  name: Captain
+  name: "Капітан"
   prefix: Capt.
   paygrade: O3
 
 - type: rank
   id: RMCRankFirstLT
-  name: First Lieutenant
+  name: "Перший Лейтенант"
   prefix: 1stLt.
   paygrade: O2
 
 - type: rank
   id: RMCRankSecondLT
-  name: Second Lieutenant
+  name: "Молодший Лейтенант"
   prefix: 2ndLt.
   paygrade: O1
 
@@ -50,30 +50,30 @@
 
 - type: rank
   id: RMCRankChiefWarrantOfficer5
-  name: Chief Warrant Officer 5
+  name: "Головний унтер-офіцер 5"
   prefix: CWarOff5.
   paygrade: W5
 
 - type: rank
   id: RMCRankChiefWarrantOfficer4
-  name: Chief Warrant Officer 4
+  name: "Головний унтер-офіцер 4"
   prefix: CWarOff4.
   paygrade: W4
 
 - type: rank
   id: RMCRankChiefWarrantOfficer3
-  name: Chief Warrant Officer 3
+  name: "Головний унтер-офіцер 3"
   prefix: CWarOff3.
   paygrade: W3
 
 - type: rank
   id: RMCRankChiefWarrantOfficer
-  name: Chief Warrant Officer 2
+  name: "Головний унтер-офіцер 2"
   prefix:  CWarOff2.
   paygrade: W2
 
 - type: rank
   id: RMCRankWarrantOfficer
-  name: Warrant Officer
+  name: "Унтер-офіцер"
   prefix: WarOff.
   paygrade: W1

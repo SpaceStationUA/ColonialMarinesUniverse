@@ -1,6 +1,6 @@
 - type: rank
   id: RMC_ColourSergeant
-  name: Colour Sergeant
+  name: "колор-сержант"
   prefix: CSgt.
   paygrade: E7
 

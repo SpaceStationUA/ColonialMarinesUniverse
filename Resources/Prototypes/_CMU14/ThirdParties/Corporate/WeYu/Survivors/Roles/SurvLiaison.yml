@@ -76,7 +76,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYSurvLiaison
-  name: WY Corporate Liaison (Survivor)
+  name: "Корпоративний зв'язковий ВЮ (виживший)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

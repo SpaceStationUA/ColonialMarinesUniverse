@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_LieutenantGeneral
-  name: Lieutenant-General
+  name: "генерал-лейтенант"
   prefix: Lt Gen.
   paygrade: O9

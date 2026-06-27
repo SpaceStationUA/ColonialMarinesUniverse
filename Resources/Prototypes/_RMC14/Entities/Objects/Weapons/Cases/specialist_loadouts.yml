@@ -1,7 +1,7 @@
 ﻿- type: entity
   parent: RMCBaseEquipmentCase
   id: CMSniperEquipmentCase
-  name: sniper equipment case
+  name: "кейс зі спорядженням снайпера"
   description: "A large case containing your very own long-range M96S sniper rifle, M45 ghillie armor and helmet, M42 scout sight, ammunition, spotter equipment, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Storage
@@ -33,7 +33,7 @@
 - type: entity
   parent: CMSniperEquipmentCase
   id: RMCAntiMaterielEquipmentCase
-  name: anti-materiel sniper equipment case
+  name: "кейс зі спорядженням протиматеріального снайпера"
   description: "A large case containing your very own long-range XM43E1 anti-materiel sniper rifle, M45 ghillie armor and helmet, M42 scout sight, ammunition, spotter equipment, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Storage
@@ -58,7 +58,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCGrenadeSpecEquipmentCase
-  name: heavy grenadier equipment case
+  name: "кейс зі спорядженням важкого гренадера"
   description: "A large case containing a heavy-duty multi-shot M83 grenade launcher, M3-G4 grenadier armor and helmet, significant amount of various 30mm grenades and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -96,7 +96,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCSharpSpecEquipmentCase
-  name: SHARP operator equipment case
+  name: "кейс спорядження оператора ШАРП"
   description: "A large case containing a P9 SHARP rifle, M103 SHARP magazine belt, M3-G4 grenadier armor and helmet, several specialized 9X dart magazines, an instructional pamphlet, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -129,7 +129,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCDemoSpecEquipmentCase
-  name: demolitionist equipment case
+  name: "кейс зі спорядженням підривника"
   description: "A large case containing a heavy-caliber M5 Anti-Tank Launcher, reinforced M3-T light armor, five 84mm rockets, and additional pieces of equipment.\n\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -172,7 +172,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCScoutSpecEquipmentCase
-  name: scout equipment case
+  name: "кейс зі спорядженням розвідника"
   suffix: Base
   description: "A large case containing an M4SPR custom battle rifle, M3-S light armor and helmet, M4SPR battle sight, M68 thermal cloak, V3 reactive thermal tarp, ammunition and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
   components:
@@ -212,7 +212,7 @@
 - type: entity
   parent: RMCBaseEquipmentCase
   id: AU14ScoutSpecEquipmentCaseWeYu
-  name: scout equipment case
+  name: "кейс зі спорядженням розвідника"
   suffix: WeYu
   description: "A large case containing an M4SPR custom battle rifle, M3-S light armor and helmet, M4SPR battle sight, M68 thermal cloak, V3 reactive thermal tarp, ammunition and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
   components:
@@ -253,14 +253,14 @@
 - type: entity
   parent: RMCScoutSpecEquipmentCase
   id: AU14ScoutSpecEquipmentCaseLACN
-  name: scout equipment case
+  name: "кейс зі спорядженням розвідника"
   suffix: LACN
   description: "A large case containing an M4SPR custom battle rifle, M3-S light armor and helmet, M4SPR battle sight, M68 thermal cloak, V3 reactive thermal tarp, ammunition and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
 
 - type: entity
   parent: RMCBaseEquipmentCase
   id: RMCPyroSpecEquipmentCase
-  name: pyrotechnician equipment case
+  name: "кейс зі спорядженням піротехніка"
   description: "A large case containing M34-T incinerator unit, M35 pyrotechnician armor and helmet, Broiler-T flexible refueling system and additional pieces of equipment.\nNOTE: You cannot put items back inside this case."
   components:
   - type: Sprite
@@ -296,20 +296,8 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitLoader
-  name: loader kit
-  description: "A large kit containing all the supplies needed to turn a Private into the loading assistant for a Demolitions Specialist.
-
-    A little infographic series shows how reloading should be done:
-
-    Step One: Grab the Rocket
-
-    Step Two: Position yourself behind the Specialist
-
-    Step Three: Ensure the Specialist is wielding their Launcher
-
-    Step Four: Load the Rocket into the Launcher
-
-    Step Five: Stand clear of the back-blast"
+  name: "набір завантажувача"
+  description: "Великий набір з усіма припасами, потрібними, щоб перетворити рядового на помічника-завантажувача для спеціаліста з підривних робіт.\nНевеличка серія інфографіки показує, як треба перезаряджати:\nКрок перший: Візьми ракету\nКрок другий: Стань позаду спеціаліста\nКрок третій: Переконайся, що спеціаліст тримає пускач\nКрок четвертий: Завантаж ракету в пускач\nКрок п'ятий: Відійди подалі від реактивного струменя"
   components:
   - type: Storage
     maxItemSize: Huge
@@ -346,7 +334,7 @@
 - type: entity
   parent: RMCKitBase
   id: RMCKitSpotter
-  name: spotter kit
+  name: "набір спостерігача"
   components:
   - type: Storage
     maxItemSize: Huge

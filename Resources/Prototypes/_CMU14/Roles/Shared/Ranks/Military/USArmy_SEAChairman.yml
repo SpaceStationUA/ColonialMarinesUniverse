@@ -1,6 +1,6 @@
 - type: rank
   id: USArmy_SEAChairman
-  name: Senior Enlisted Advisor to the chairman
+  name: "старший радник рядового складу при голові"
   prefix: SEAC.
   paygrade: E9E
 

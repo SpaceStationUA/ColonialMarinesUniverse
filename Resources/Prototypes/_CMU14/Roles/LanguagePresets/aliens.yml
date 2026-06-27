@@ -1,6 +1,6 @@
 - type: entity
   id: AU14LanguagePresetXeno
-  name: Xenoish Language
+  name: "Ксеноїдська мова"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset
@@ -15,7 +15,7 @@
 
 - type: entity
   id: AU14LanguagePresetYautja
-  name: Yautja Language
+  name: "Мова Яутжа"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset
@@ -30,7 +30,7 @@
 
 - type: entity
   id: AU14LanguagePresetArcturian
-  name: Arcturian Language
+  name: "Арктуріанська мова"
   categories: [ HideSpawnMenu ]
   components:
   - type: LanguagePreset

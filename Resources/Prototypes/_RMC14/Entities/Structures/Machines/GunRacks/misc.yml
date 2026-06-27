@@ -3,9 +3,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackM34IncineratorEmpty
-  name: M240 Incinerator rack
+  name: "стійка для спалювача M240"
   suffix: M240 Incinerator, Empty
-  description: AEGIS-produced gun rack for storage of long guns. While initial model was supposed to be extremely modifiable, USMC commissioned racks with fixed slots which only fit M240 Incinerator Units. Some say they were cheaper, and some say the main reason was marine's ability to easily break anything more complex than a tungsten ball.
+  description: "Виготовлена ЕЙДЖІС стійка для зберігання довгоствольної зброї. Початкова модель мала бути надзвичайно модульною, але КМП США замовив стійки з фіксованими слотами, у які підходять лише спалювальні модулі M240. Одні кажуть, що так було дешевше, інші - що головною причиною була здатність морпіхів легко ламати будь-що складніше за вольфрамову кулю."
   components:
   - type: ContainerContainer
     containers:
@@ -61,9 +61,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackMAR50WallEmpty
-  name: MAR-50 wooden rack
+  name: "дерев'яний стелаж MAR-50"
   suffix: MAR-50, Empty
-  description: A wooden rack, mounted onto a wall with exposed notches to rest a MAR-50 on.
+  description: "Дерев'яний стелаж, прикріплений до стіни з відкритими виїмками, на яких лежить MAR-50."
   components:
   - type: ContainerContainer
     containers:
@@ -103,9 +103,9 @@
 - type: entity
   parent: RMCGunRackBase
   id: RMCGunRackM357WallEmpty
-  name: M357 Rival wooden rack
+  name: "дерев'яний стелаж M357 Rival"
   suffix: M357 Rival, Empty
-  description: A wooden rack, mounted onto a wall with exposed notches to rest a M357 Rival on.
+  description: "Дерев'яний стелаж, прикріплений до стіни з відкритими виїмками, на яких лежить M357 Rival."
   components:
   - type: ContainerContainer
     containers:

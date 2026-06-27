@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_LieutenantColonel
-  name: Lieutenant Colonel
+  name: "підполковник"
   prefix: Lt Col.
   paygrade: O5

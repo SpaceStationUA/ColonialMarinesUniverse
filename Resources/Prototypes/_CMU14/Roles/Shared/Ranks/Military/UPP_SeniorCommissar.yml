@@ -1,6 +1,6 @@
 - type: rank
   id: UPP_SeniorCommissar
-  name: Senior Commissar
+  name: "Старший комісар"
   prefix: Comrade
 
 # enlisted

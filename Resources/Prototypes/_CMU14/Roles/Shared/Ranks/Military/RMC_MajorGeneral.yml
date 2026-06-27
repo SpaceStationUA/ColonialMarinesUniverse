@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_MajorGeneral
-  name: Major-General
+  name: "генерал-майор"
   prefix: GenMaj.
   paygrade: O8

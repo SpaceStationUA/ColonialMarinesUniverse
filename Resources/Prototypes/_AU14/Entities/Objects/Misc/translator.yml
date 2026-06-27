@@ -1,8 +1,8 @@
 - type: entity
   parent: BaseItem
   id: AU14TranslatorDevice
-  name: universal translator
-  description: A compact neural-interface device that feeds real-time translations directly into your auditory cortex. Wear it and understand everyone. Take it off and you're back to pointing and grunting.
+  name: "універсальний перекладач"
+  description: "Компактний нейроінтерфейсний пристрій, що подає переклади в реальному часі прямо у вашу слухову кору. Носіть його - і розумітимете всіх. Зніміть - і знову доведеться показувати пальцем та бурмотіти."
   components:
   - type: Sprite
     sprite: Objects/Fun/clownrecorder.rsi

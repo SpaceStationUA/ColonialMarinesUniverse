@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_FirstLieutenant
-  name: First Lieutenant
+  name: "лейтенант"
   prefix: 1Lt.
   paygrade: O2

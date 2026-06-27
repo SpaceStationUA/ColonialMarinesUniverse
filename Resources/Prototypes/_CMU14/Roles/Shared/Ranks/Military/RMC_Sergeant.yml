@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_Sergeant
-  name: Sergeant
+  name: "сержант"
   prefix: Sgt.
   paygrade: E5

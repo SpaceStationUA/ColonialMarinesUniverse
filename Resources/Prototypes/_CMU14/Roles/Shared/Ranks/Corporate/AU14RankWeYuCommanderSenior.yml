@@ -1,6 +1,6 @@
 - type: rank
   id: AU14RankWeYuCommanderSenior
-  name: Senior Commander
+  name: "старший командир"
   prefix: SR. CDR.
   paygrade: PMC-S3
 

@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_LanceCorporal
-  name: Lance Corporal
+  name: "молодший капрал"
   prefix: LCpl.
   paygrade: E3

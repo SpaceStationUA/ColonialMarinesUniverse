@@ -1,6 +1,6 @@
 - type: entity
   id: AU14SkillPresetMilitaryDoctor
-  name: Military Doctor
+  name: "військовий лікар"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset

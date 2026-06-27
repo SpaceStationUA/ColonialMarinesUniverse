@@ -80,7 +80,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicUPPGROM
   id: AU14JobUPPGROMCommander
-  name: UPP GROM Commander
+  name: "командир ГРОМ УПП"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

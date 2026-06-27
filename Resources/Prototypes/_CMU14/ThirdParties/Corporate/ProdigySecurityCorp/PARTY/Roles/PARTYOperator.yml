@@ -23,7 +23,7 @@
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: smartgunner
 
-  name: PMC Smartgun Operator
+  name: "Оператор смартгана ПВК"
   description: au14-prodigyparty-description
   playTimeTracker: AU14JobProdigyPartySmartgunnerTracker
   ranks:
@@ -40,7 +40,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicProdigy
   id: AU14JobProdigyPartySmartgunner
-  name: Prodigy Yankee Smartgun Operator (3rd party)
+  name: "Оператор смартгана Prodigy Yankee (3-тя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial

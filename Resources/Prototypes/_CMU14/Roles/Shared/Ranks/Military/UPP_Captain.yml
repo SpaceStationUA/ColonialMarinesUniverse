@@ -1,6 +1,6 @@
 - type: rank
   id: UPP_Captain
-  name: Captain
+  name: "капітан"
   prefix: Capt.
   paygrade: O3
 

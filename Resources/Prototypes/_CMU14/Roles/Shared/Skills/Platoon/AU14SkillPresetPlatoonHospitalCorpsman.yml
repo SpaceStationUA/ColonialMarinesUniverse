@@ -1,6 +1,6 @@
 - type: entity
   id: AU14SkillPresetPlatoonHospitalCorpsman
-  name: Hospital Corpsman
+  name: "госпітальний корпусман"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset

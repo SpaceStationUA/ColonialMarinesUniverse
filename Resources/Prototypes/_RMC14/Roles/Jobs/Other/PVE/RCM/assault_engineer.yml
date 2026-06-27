@@ -62,7 +62,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: CMSpawnPointRCMPVEAssaultEngineer
-  name: RCM assault engineer spawn point
+  name: "спавнер штурмового інженера RCM"
   components:
   - type: SpawnPoint
     job_id: CMRoyalMarinesAssaultEngineerPVE

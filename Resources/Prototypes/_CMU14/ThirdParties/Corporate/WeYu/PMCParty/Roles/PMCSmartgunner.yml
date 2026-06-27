@@ -26,7 +26,7 @@
       sprite: /Textures/_RMC14/Interface/map_blips.rsi
       state: smartgunner
 
-  name: PMC Smartgun Operator
+  name: "оператор смартгана ПВК"
   description: au14-pmcparty-description
   playTimeTracker: AU14JobWYPMCPartySmartgunner
   ranks:
@@ -45,7 +45,7 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicWeYu
   id: AU14JobWYPMCPartySmartgunner
-  name: WY PMC Party Smartgun Operator (3rd party)
+  name: "оператор смартгана загону ПВК ВЮ (третя сторона)"
   components:
   - type: GhostTakeoverAvailable
   - type: GhostRoleApplySpecial
@@ -54,7 +54,7 @@
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: PMC Smartgun Operator
+    name: "оператор смартгана ПВК"
     description: au14-pmcparty-description
     reregister: false
     job: AU14JobWYPMCPartySmartgunner

@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankLACNPettyOfficerSecondClass
-  name: Petty Officer Second Class
+  name: "Старшина другого класу"
   prefix: PO2
   paygrade: E-5

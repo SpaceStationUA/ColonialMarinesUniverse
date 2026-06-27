@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_2Lieutenant
-  name: Second Lieutenant
+  name: "молодший лейтенант"
   prefix: 2Lt.
   paygrade: O1

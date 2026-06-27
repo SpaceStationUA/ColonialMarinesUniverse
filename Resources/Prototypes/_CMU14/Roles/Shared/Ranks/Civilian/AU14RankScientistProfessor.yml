@@ -1,6 +1,6 @@
 - type: rank
   id: AU14RankScientistProfessor
-  name: Professor
+  name: "професор"
   prefix: Prof.
 
 # Commercial Pilots

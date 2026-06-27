@@ -99,7 +99,7 @@
 
 - type: entity
   id: RMCRandomHumanoidPMCWhiteout
-  name: DEATHSQUAD pmc ghost role whiteout
+  name: "DEATHSQUAD pmc привид-роль Вайтаут"
   suffix: Spawner, Player
   components:
   - type: Sprite

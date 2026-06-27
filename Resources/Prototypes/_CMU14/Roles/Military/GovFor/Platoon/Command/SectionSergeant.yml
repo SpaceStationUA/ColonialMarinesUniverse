@@ -141,7 +141,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSectionSergeant
-  name: Spawn Point GOVFOR Section Sergeant
+  name: "точка появи сержанта секції ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSectionSergeant
@@ -196,7 +196,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSectionSergeant
-  name: Spawn Point opfor Section Sergeant
+  name: "точка появи сержанта секції ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORSectionSergeant
@@ -216,7 +216,7 @@
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantCMBCIU
   roundForce: CMBCIU
-  name: Unit Leader
+  name: "Командир підрозділу"
   ranks:
     AU14RankCMBChiefDeputy: []
   spawnMenuRoleName: Section Sergeant (CMBCIU)
@@ -238,7 +238,7 @@
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantUPP
   roundForce: UPP
-  name: Platoon Leader
+  name: "Командир взводу"
   spawnMenuRoleName: Platoon Sergeant (UPP)
   ranks:
     UPP_FirstSergeant:
@@ -255,7 +255,7 @@
   parent: AU14JobSectionSergeantBase
   id: AU14JobGOVFORSectionSergeantWYPMC
   roundForce: WYPMC
-  name: PMC Platoon Leader
+  name: "Командир взводу ПВК"
   spawnMenuRoleName: Platoon Sergeant (WYPMC)
   ranks:
     AU14RankWeYuEnforcerLead: []

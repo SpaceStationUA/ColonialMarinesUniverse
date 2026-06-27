@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_Colonel
-  name: Colonel
+  name: "полковник"
   prefix: Col.
   paygrade: O6

@@ -16,14 +16,14 @@
 - type: flavor
   id: rmckiwi
   flavorType: Complex
-  description: like kiwi
+  description: "як ківі"
 
 - type: flavor
   id: rmccocomilk
   flavorType: Complex
-  description: like heavily processed coconut milk
+  description: "як сильно оброблене кокосове молоко"
 
 - type: flavor
   id: rmcsoymilk
   flavorType: Complex
-  description: like soy-milk.
+  description: "як соєве молоко."

@@ -1,5 +1,5 @@
 - type: rank
   id: UPP_WarrantOfficer
-  name: Warrant Officer
+  name: "ворент-офіцер"
   prefix: WO.
   paygrade: W1

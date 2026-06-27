@@ -69,7 +69,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointSurvivorSolarisCorporateSupervisor
-  name: special survivor crashlanding offices coporate supervisor spawn point
+  name: "спавнер корпоративного наглядача спецаварійних офісів"
   components:
   - type: SpawnPoint
     job_id: RMCSurvivorSolarisCorporateSupervisor

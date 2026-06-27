@@ -1,6 +1,6 @@
 #platoon ranks
 - type: rank
   id: AU14RankPrDRecruit
-  name: Response Unit in Training
+  name: "Стажер Підрозділу реагування"
   prefix: RU. IT.
   paygrade: PSC-R0

@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankLACNLieutenantCommander
-  name: Lieutenant Commander
+  name: "Лейтенант-командер"
   prefix: LCDR
   paygrade: O-5

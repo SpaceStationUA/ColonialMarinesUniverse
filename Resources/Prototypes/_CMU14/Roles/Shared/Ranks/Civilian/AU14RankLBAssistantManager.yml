@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankLBAssistantManager
-  name: Assistant Manager
+  name: "помічник менеджера"
   prefix: Assis. Mng.
   paygrade: LBC7

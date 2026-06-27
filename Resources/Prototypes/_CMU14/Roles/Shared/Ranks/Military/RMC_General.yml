@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_General
-  name: General
+  name: "генерал"
   prefix: Gen.
   paygrade: O10

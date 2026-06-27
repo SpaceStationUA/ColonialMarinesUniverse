@@ -1,6 +1,6 @@
 - type: entity
   id: AU14SkillPresetPlatoonAutomaticRifleman
-  name: Automatic Rifleman
+  name: "автоматник"
   categories: [ HideSpawnMenu ]
   components:
   - type: SkillPreset

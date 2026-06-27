@@ -8,8 +8,8 @@
   - RMCXenoMobCollision
   - RMCXenoVentCrawler
   id: CMXenoSentinel
-  name: Sentinel
-  description: A slithery, spitting kind of alien.
+  name: "Вартовий"
+  description: "Слизькуватий, плюючий якогось виду прибулець."
   components:
   - type: GuideHelp
     guides:

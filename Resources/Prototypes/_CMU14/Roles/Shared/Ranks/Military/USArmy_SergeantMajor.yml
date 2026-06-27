@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_SergeantMajor
-  name: Sergeant Major
+  name: "сержант-майор"
   prefix: SgtMaj.
   paygrade: E9

@@ -1,8 +1,8 @@
 - type: entity
   parent: ActionXenoBase
   id: CMUActionXenoPsychicCrush
-  name: Psychic Crush
-  description: Channel psychic pressure at a location, then crush enemies in the expanding area.
+  name: "Психічне розчавлення"
+  description: "Сконцентрувати психічний тиск у точці, а потім розчавити ворогів у зоні, що розширюється."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -24,8 +24,8 @@
 - type: entity
   parent: ActionXenoBase
   id: CMUActionXenoPsychicBlast
-  name: Psychic Blast
-  description: Detonate psychic force at a location, damaging and slowing nearby enemies.
+  name: "Психічний вибух"
+  description: "Підірвати психічну силу в точці, завдаючи шкоди й сповільнюючи ворогів поблизу."
   components:
   - type: Action
     itemIconStyle: NoItem
@@ -44,8 +44,8 @@
 - type: entity
   parent: ActionXenoBase
   id: CMUActionXenoPsychicShield
-  name: Psychic Shield
-  description: Raise a forward psychic shield that catches projectiles and can be detonated.
+  name: "Психічний щит"
+  description: "Підняти перед собою психічний щит, який ловить снаряди й може бути підірваний."
   components:
   - type: Action
     itemIconStyle: NoItem

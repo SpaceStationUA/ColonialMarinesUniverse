@@ -1,5 +1,5 @@
 - type: rank
   id: UPP_BrigadierGeneral
-  name: Brigadier-General
+  name: "бригадний генерал"
   prefix: Brig-Gen.
   paygrade: O7

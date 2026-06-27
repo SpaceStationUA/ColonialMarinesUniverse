@@ -1,6 +1,6 @@
 - type: rank
   id: RMC_CommandantDeputy
-  name: Deputy Commandant General
+  name: "заступник генерал-коменданта"
   prefix: DCG.
   paygrade: O7
 

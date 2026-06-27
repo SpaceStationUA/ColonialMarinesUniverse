@@ -1,8 +1,8 @@
 - type: entity
   abstract: true
   id: VehiclePizzaVanRoofBase
-  name: pizza van interior roof
-  description: A removable roof section for the pizza van interior.
+  name: "дах інтер'єру піца-фургона"
+  description: "Знімна секція даху для інтер'єру піца-фургона."
   placement:
     mode: SnapgridCenter
   components:
@@ -96,8 +96,8 @@
 - type: entity
   abstract: true
   id: VehiclePizzaVanInteriorBase
-  name: pizza van interior piece
-  description: A decorative interior piece for the pizza van.
+  name: "елемент інтер'єру піца-фургона"
+  description: "Декоративний елемент інтер'єру для піца-фургона."
   placement:
     mode: SnapgridCenter
   components:

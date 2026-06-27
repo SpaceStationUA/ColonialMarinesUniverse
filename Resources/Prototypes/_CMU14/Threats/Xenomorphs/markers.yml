@@ -1,5 +1,5 @@
 - type: entity
-  name: xeno cf threat entity Spawn Marker
+  name: "мітка появи сутності ксено CF-загрози"
   parent: MarkerBase
   id: xenocfthreatentityspawnmarker
   components:
@@ -16,7 +16,7 @@
     - marker-id:xenocf
 
 - type: entity
-  name: xeno cf threat entity Spawn Marker
+  name: "мітка появи сутності ксено CF-загрози"
   parent: MarkerBase
   id: scenarioxenocfthreatentityspawnmarker
   components:
@@ -30,7 +30,7 @@
     - marker-id:xenocf
 
 - type: entity
-  name: xeno cf threat member Spawn Marker
+  name: "мітка появи члена ксено CF-загрози"
   parent: MarkerBase
   id: xenocfthreatmemberspawnmarker
   components:
@@ -47,7 +47,7 @@
     - marker-id:xenocf
 
 - type: entity
-  name: xeno cf threat member Spawn Marker
+  name: "мітка появи члена ксено CF-загрози"
   parent: MarkerBase
   id: scenarioxenocfthreatmemberspawnmarker
   components:
@@ -61,7 +61,7 @@
     - marker-id:xenocf
 
 - type: entity
-  name: xeno cf threat Leader Spawn Marker
+  name: "мітка появи лідера ксено CF-загрози"
   parent: MarkerBase
   id: xenocfthreatleaderspawnmarker
   components:
@@ -78,7 +78,7 @@
     - marker-id:xenocf
 
 - type: entity
-  name: xeno cf threat Leader Spawn Marker
+  name: "мітка появи лідера ксено CF-загрози"
   parent: MarkerBase
   id: scenarioxenocfthreatleaderspawnmarker
   components:

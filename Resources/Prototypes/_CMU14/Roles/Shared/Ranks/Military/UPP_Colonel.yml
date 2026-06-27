@@ -1,6 +1,6 @@
 - type: rank
   id: UPP_Colonel
-  name: Colonel
+  name: "полковник"
   prefix: Col.
   paygrade: O6
 

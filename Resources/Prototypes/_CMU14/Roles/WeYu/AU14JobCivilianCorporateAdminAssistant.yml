@@ -60,7 +60,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointCivilianCorporateAdminAssistant
-  name: Spawn Point Corporate Admin Assistant
+  name: "точка появи помічника корпоративного адміністратора"
   components:
   - type: SpawnPoint
     job_id: AU14JobCivilianCorporateAdminAssistant

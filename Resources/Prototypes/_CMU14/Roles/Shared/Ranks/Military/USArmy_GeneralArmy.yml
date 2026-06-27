@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_GeneralArmy
-  name: General of the Army
+  name: "генерал армії"
   prefix: Gen. Arm.
   paygrade: O10

@@ -36,7 +36,7 @@
     factionTag: CLF
 
   name: au14-job-name-clfguerilla
-  description: au14-job-description-clfguerilla-alt
+  description: "au14-job-description-clfguerilla-alt"
   playTimeTracker: AU14JobCLFGuerilla
   setPreference: true
   ignoreAllegiance: true
@@ -58,7 +58,7 @@
 
 - type: entity
   id: AU14CLFGuerillaReinforcement
-  name: returning colonist preset
+  name: "пресет колоніста, що повернувся"
   categories: [ HideSpawnMenu ]
   components:
   - type: EntityPreset
@@ -80,14 +80,14 @@
 - type: entity
   parent: AU14BaseMobSpeciesOrganicCLF
   id: AU14IntelThirdPartyCLFInsurgentReinforcements
-  name: Insurgent Reinforcements
+  name: "підкріплення повстанців"
   components:
   - type: GhostRoleApplySpecial
   - type: GhostRole
     makeSentient: true
     allowSpeech: true
     allowMovement: true
-    name: Insurgent Reinforcements
+    name: "підкріплення повстанців"
     description: You have been sent from a neighboring insurgent cell to aid the uprising in this area. Report to the local cell leader for orders.
     job: AU14JobCLFGuerillaReinforcement
     raffle:

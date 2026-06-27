@@ -1,6 +1,6 @@
 - type: entity
-  name: makeshift zipties
-  description: Homemade zipties crafted from spare cables.
+  name: "саморобні стяжки"
+  description: "Саморобні стяжки, виготовлені із запасних кабелів."
   id: AU14MakeShiftZipties
   parent: RMCZipties
   suffix: AU14
@@ -10,7 +10,7 @@
 
 - type: rmcConstruction
   id: AU14MakeShiftZipties
-  name: makeshift zipties
+  name: "саморобні стяжки"
   prototype: AU14MakeShiftZipties
   doAfterTime: 3
   materialCost: 5

@@ -1,6 +1,6 @@
 - type: rank
   id: UPP_SeniorWarrantOfficer
-  name: Senior Warrant Officer
+  name: "старший ворент-офіцер"
   prefix: SnWO.
   paygrade: W2
 

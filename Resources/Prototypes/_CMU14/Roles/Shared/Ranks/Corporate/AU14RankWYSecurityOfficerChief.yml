@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankWYSecurityOfficerChief
-  name: Chief Corporate Security Officer
+  name: "головний офіцер корпоративної безпеки"
   prefix: CCSO.
   paygrade: CORP-SEC5

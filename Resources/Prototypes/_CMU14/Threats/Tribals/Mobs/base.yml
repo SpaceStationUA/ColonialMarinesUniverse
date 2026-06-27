@@ -5,7 +5,7 @@
   abstract: true
   parent: RMCBaseMobSpeciesOrganic
   id: CMUMobTribal
-  name: Tribal
+  name: "Племінник"
   suffix: CMU14
   components:
   - type: Tribal

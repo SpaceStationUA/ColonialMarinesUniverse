@@ -1,5 +1,5 @@
 - type: rank
   id: UPP_Lieutenant
-  name: Lieutenant
+  name: "лейтенант"
   prefix: Lt.
   paygrade: O1

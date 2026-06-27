@@ -1,10 +1,10 @@
 # Tribal Weapons
 
 - type: entity
-  name: tribal spear
+  name: "племінний спис"
   parent: Spear
   id: TribalSpear
-  description: A spear crafted by tribal warriors. Vicious when stabbed, lethal when thrown.
+  description: "Спис, виготовлений племінними воїнами. Жорстокий при ударі, смертельний при кидку."
   components:
   - type: Tag
     tags:
@@ -61,8 +61,8 @@
 - type: entity
   parent: ArrowImprovised
   id: TribalArrow
-  name: bone arrow
-  description: A barbed bone-tipped shaft fletched with feathers. Hits like a bus.
+  name: "кістяна стріла"
+  description: "Колюче древко з кістяним наконечником, оперене пірям. Бє як автобус."
   components:
   - type: Sprite
     sprite: Objects/Weapons/Guns/Projectiles/arrows.rsi
@@ -82,10 +82,10 @@
         Piercing: 130
 
 - type: entity
-  name: tribal bow
+  name: "племінний лук"
   parent: BaseBow
   id: TribalBow
-  description: A crude bow made by tribal warriors. Only usable by tribals.
+  description: "Грубий лук, виготовлений племінними воїнами. Можуть використовувати лише племінники."
   components:
   - type: Tag
     tags:

@@ -1,8 +1,8 @@
 - type: entity
   parent: RMCBaseArmor
   id: RMCSuitBombSuit
-  name: bomb suit
-  description: A suit designed for safety when handling explosives.
+  name: "протибомбовий костюм"
+  description: "Костюм, розроблений для безпеки під час роботи з вибухівкою."
   suffix: RMC
   components:
   - type: Sprite  #RMC14 TODO: Make a new sprite which doesn't look silly

@@ -1,5 +1,5 @@
 - type: rank
   id: RMC_CommandantGeneral
-  name: Commandant General Royal Marines
+  name: "генерал-комендант Королівської морської піхоти"
   prefix: CGRM.
   paygrade: O10

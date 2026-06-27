@@ -1,7 +1,7 @@
 - type: entity
   parent: SquadBase
   id: SquadGovfor
-  name: Alpha
+  name: "Альфа"
   components:
   - type: SquadTeam
     color: "#F0433E"
@@ -15,7 +15,7 @@
 - type: entity
   parent: SquadGovfor
   id: SquadGovforBravo
-  name: Bravo
+  name: "Браво"
   components:
   - type: SquadTeam
     roundStart: true
@@ -29,7 +29,7 @@
 - type: entity
   parent: SquadGovfor
   id: SquadGovforCharlie
-  name: Charlie
+  name: "Чарлі"
   components:
   - type: SquadTeam
     roundStart: true
@@ -43,7 +43,7 @@
 - type: entity
   parent: SquadGovfor
   id: SquadGovforIntel
-  name: Auxiliary
+  name: "Допоміжний"
   components:
   - type: SquadTeam
     group: GOVFOR

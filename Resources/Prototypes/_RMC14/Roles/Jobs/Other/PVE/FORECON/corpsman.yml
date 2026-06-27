@@ -2,7 +2,7 @@
   parent: CMJobBase
   id: RMCFORECONPVECorpsman
   name: rmc-job-name-pve-forecon-corpsman
-  description: cm-job-description-corpsman
+  description: "cm-job-description-corpsman"
   playTimeTracker: CMJobFORECONPVECorpsman
   requirements:
   - !type:TotalJobsTimeRequirement
@@ -57,7 +57,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: RMCSpawnPointFORECONPVECorpsman
-  name: forecon corpsman spawn point
+  name: "спавнер корпсмена forecon"
   suffix: PVE
   components:
   - type: Sprite

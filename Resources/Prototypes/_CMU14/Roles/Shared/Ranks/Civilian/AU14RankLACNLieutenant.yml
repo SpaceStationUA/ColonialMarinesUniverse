@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankLACNLieutenant
-  name: Lieutenant
+  name: "Лейтенант"
   prefix: LT
   paygrade: O-4

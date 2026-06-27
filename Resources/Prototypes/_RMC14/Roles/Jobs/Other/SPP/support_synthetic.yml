@@ -1,7 +1,7 @@
 - type: job
   parent: CMJobBase
   id: RMCSPPSynthetic
-  name: rmc-job-name-spp-synth
+  name: "rmc-job-name-spp-synth"
   description: rmc-ghost-role-information-spp-pve-description
   playTimeTracker: RMCJobSPPSynthetic
   ranks:

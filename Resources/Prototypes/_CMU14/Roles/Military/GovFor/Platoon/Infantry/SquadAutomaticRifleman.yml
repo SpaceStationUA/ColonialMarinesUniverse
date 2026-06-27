@@ -111,7 +111,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadAutomaticRifleman
-  name: Spawn Point GOVFOR Squad Rifleman
+  name: "точка появи автоматника відділення ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadAutomaticRifleman
@@ -161,7 +161,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforSquadAutomaticRifleman
-  name: Spawn Point opfor Squad Rifleman
+  name: "точка появи автоматника відділення ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORSquadAutomaticRifleman
@@ -198,7 +198,7 @@
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRiflemanUPP
   roundForce: UPP
-  name: Machine Gunner
+  name: "Кулеметник"
   spawnMenuRoleName: Automatic Rifleman (UPP)
   ranks:
     UPP_Gefreiter:
@@ -211,7 +211,7 @@
   parent: AU14JobSquadAutomaticRiflemanBase
   id: AU14JobGOVFORSquadAutomaticRiflemanWYPMC
   roundForce: WYPMC
-  name: PMC Smartgun Operator
+  name: "Оператор смартгана ПВК"
   spawnMenuRoleName: Automatic Rifleman (WYPMC)
   ranks:
     AU14RankWeYuSeniorOperator:

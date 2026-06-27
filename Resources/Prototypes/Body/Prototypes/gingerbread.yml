@@ -1,6 +1,6 @@
 ﻿- type: body
   id: Gingerbread
-  name: gingerbread
+  name: "імбирне печиво"
   root: torso
   slots:
     head:

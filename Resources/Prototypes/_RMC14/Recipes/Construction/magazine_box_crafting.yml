@@ -3,682 +3,682 @@
 # M54C
 - type: construction
   parent: RMC
-  name: Magazine Box (M54C Reg)
+  name: "коробка магазинів (M54C звич.)"
   id: RMCBoxMagazineRifleM54C
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM54CEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M54C mags.
+  description: "Коробка магазинів, що може містити звичайні магазини M54C."
   iconColor: "#7b8246"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M54C AP)
+  name: "коробка магазинів (M54C ББ)"
   id: RMCBoxMagazineRifleM54CAP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM54CAPEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M54C mags.
+  description: "Коробка магазинів, що може містити бронебійні магазини M54C."
   iconColor: "#7b8246"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M54C Ext)
+  name: "коробка магазинів (M54C розш.)"
   id: RMCBoxMagazineRifleM54CExt
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM54CExtEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended M54C mags.
+  description: "Коробка магазинів, що може містити розширені магазини M54C."
   iconColor: "#7b8246"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: rifle ammunition box (10x24mm)
+  name: "гвинтівкова коробка боєприпасів (10x24мм)"
   id: RMCBoxBulletsRifle
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsRifleEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x24mm ammunition box. Used to refill M54C MK1, MK2, M4SPR and M54CE2 HAR magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Коробка боєприпасів 10x24мм. Використовується для перезаряджання магазинів M54C MK1, MK2, M4SPR і M54CE2 HAR. Має шкіряний ремінь, що дозволяє носити її на спині."
   iconColor: "#7b8246"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: rifle ammunition box (10x24mm AP)
+  name: "гвинтівкова коробка боєприпасів (10x24мм ББ)"
   id: RMCBoxBulletsRifleAP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsRifleAPEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x24mm armor-piercing ammunition box. Used to refill M54C MK2, and M4SPR AP magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Коробка бронебійних боєприпасів 10x24мм. Використовується для перезаряджання бронебійних магазинів M54C MK2 і M4SPR. Має шкіряний ремінь, що дозволяє носити її на спині."
   iconColor: "#7b8246"
   objectType: Item
   
 # SLR
 - type: construction
   parent: RMC
-  name: rifle ammunition box (7x43mm)
+  name: "ящик гвинтівкових набоїв (7×43 мм)"
   id: CMUBoxBulletsRifleSLR
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleSLREmpty
   category: construction-category-cm-box-magazine
-  description: A 7x43mm ammunition box. Used to refill SLR and SLR Drum magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 7×43 мм. Використовується для поповнення магазинів SLR і барабанних магазинів SLR. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
   
 - type: construction
   parent: RMC
-  name: rifle ammunition box (7x43mm AP)
+  name: "ящик бронебійних гвинтівкових набоїв (7×43 мм)"
   id: CMUBoxBulletsRifleSLRAP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleSLRAPEmpty
   category: construction-category-cm-box-magazine
-  description: A 7x43mm ammunition box. Used to refill armor-piercing SLR and SLR Drum magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 7×43 мм. Використовується для поповнення бронебійних магазинів SLR і барабанних магазинів SLR. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
 # L23
 - type: construction
   parent: RMC
-  name: rifle ammunition box (8.88x51mm)
+  name: "ящик гвинтівкових набоїв (8.88×51 мм)"
   id: CMUBoxBulletsRifleL23
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleL23Empty
   category: construction-category-cm-box-magazine
-  description: A 8.88x51mm ammunition box. Used to refill L23 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 8.88×51 мм. Використовується для поповнення магазинів L23. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
   
 - type: construction
   parent: RMC
-  name: rifle ammunition box (8.88x51mm AP)
+  name: "ящик бронебійних гвинтівкових набоїв (8.88×51 мм)"
   id: CMUBoxBulletsRifleL23AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleL23APEmpty
   category: construction-category-cm-box-magazine
-  description: A 8.88x51mm ammunition box. Used to refill armor-piercing L23 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 8.88×51 мм. Використовується для поповнення бронебійних магазинів L23. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
 
 # Type 71
 - type: construction
   parent: RMC
-  name: rifle ammunition box (5.45x39mm)
+  name: "ящик гвинтівкових набоїв (5.45×39 мм)"
   id: CMUBoxBulletsRifleType71
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleType71Empty
   category: construction-category-cm-box-magazine
-  description: A 5.45x39mm ammunition box. Used to refill Type 71 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 5.45×39 мм. Використовується для поповнення магазинів Type 71. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
   
 - type: construction
   parent: RMC
-  name: rifle ammunition box (5.45x39mm AP)
+  name: "ящик бронебійних гвинтівкових набоїв (5.45×39 мм)"
   id: CMUBoxBulletsRifleType71AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleType71APEmpty
   category: construction-category-cm-box-magazine
-  description: A 5.45x39mm ammunition box. Used to refill armor-piercing Type 71 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 5.45×39 мм. Використовується для поповнення бронебійних магазинів Type 71. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
 # AG80
 - type: construction
   parent: RMC
-  name: rifle ammunition box (9.7x16mm)
+  name: "ящик гвинтівкових набоїв (9.7×16 мм)"
   id: CMUBoxBulletsRifleAG80
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleAG80Empty
   category: construction-category-cm-box-magazine
-  description: A 9.7x16mm ammunition box. Used to refill AG80 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 9.7×16 мм. Використовується для поповнення магазинів AG80. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
   
 - type: construction
   parent: RMC
-  name: rifle ammunition box (9.7x16mm AP)
+  name: "ящик бронебійних гвинтівкових набоїв (9.7×16 мм)"
   id: CMUBoxBulletsRifleAG80AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleAG80APEmpty
   category: construction-category-cm-box-magazine
-  description: A 9.7x16mm ammunition box. Used to refill armor-piercing AG80 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 9.7×16 мм. Використовується для поповнення бронебійних магазинів AG80. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
 # M16
 - type: construction
   parent: RMC
-  name: rifle ammunition box (5.56x45mm)
+  name: "ящик гвинтівкових набоїв (5.56×45 мм)"
   id: CMUBoxBulletsRifle556x45MM
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifle556x45MMEmpty
   category: construction-category-cm-box-magazine
-  description: A 5.56x45mm ammunition box. Used to refill M16 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 5.56×45 мм. Використовується для поповнення магазинів M16. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
 # MAR
 - type: construction
   parent: RMC
-  name: rifle ammunition box (7.62x39mm)
+  name: "ящик гвинтівкових набоїв (7.62×39 мм)"
   id: CMUBoxBulletsRifleMAR
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsRifleMAREmpty
   category: construction-category-cm-box-magazine
-  description: A 7.62x39mm ammunition box. Used to refill MAR magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 7.62×39 мм. Використовується для поповнення магазинів MAR. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#7b8246"
   objectType: Item
 # M63
 - type: construction
   parent: RMC
-  name: Magazine Box (M63 Reg)
+  name: "коробка магазинів (M63 звич.)"
   id: RMCBoxMagazineSMGM63
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGM63Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M63 mags.
+  description: "Коробка магазинів, що може містити звичайні магазини M63."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M63 AP)
+  name: "коробка магазинів (M63 ББ)"
   id: RMCBoxMagazineSMGM63AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGM63APEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M63 mags.
+  description: "Коробка магазинів, що може містити бронебійні магазини M63."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M63 Ext)
+  name: "коробка магазинів (M63 розш.)"
   id: RMCBoxMagazineSMGM63Ext
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGM63ExtEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended M63 mags.
+  description: "Коробка магазинів, що може містити розширені магазини M63."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: SMG HV ammunition box (10x20mm)
+  name: "коробка боєприпасів ПП HV (10x20мм)"
   id: RMCBoxBulletsSMGEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x20mm ammunition box. Used to refill M63 HV and extended magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Коробка боєприпасів 10x20мм. Використовується для перезаряджання звичайних HV і розширених магазинів M63. Має шкіряний ремінь, що дозволяє носити її на спині."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: SMG HV ammunition box (10x20mm AP)
+  name: "коробка боєприпасів ПП HV (10x20мм ББ)"
   id: RMCBoxBulletsSMGAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsSMGAPEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x20mm armor-piercing ammunition box. Used to refill M63 AP magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Коробка бронебійних боєприпасів 10x20мм. Використовується для перезаряджання бронебійних магазинів M63. Має шкіряний ремінь, що дозволяє носити її на спині."
   iconColor: "#727e90"
   objectType: Item
 # P90
 - type: construction
   parent: RMC
-  name: SMG ammunition box (5.7x28mm)
+  name: "ящик набоїв для ПП (5.7×28 мм)"
   id: CMUBoxBulletsSMGP90Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsSMGP90Empty
   category: construction-category-cm-box-magazine
-  description: A 5.7x28mm ammunition box. Used to refill P90 and FN9000 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 5.7×28 мм. Використовується для поповнення магазинів P90 і FN9000. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: SMG ammunition box (5.7x28mm AP)
+  name: "ящик бронебійних набоїв для ПП (5.7×28 мм)"
   id: CMUBoxBulletsSMGP90APEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsSMGP90APEmpty
   category: construction-category-cm-box-magazine
-  description: A 5.7x28mm armor-piercing ammunition box. Used to refill P90 AP magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик бронебійних набоїв калібру 5.7×28 мм. Використовується для поповнення бронебійних магазинів P90. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # MP5  
 - type: construction
   parent: RMC
-  name: SMG ammunition box (9×19mm)
+  name: "ящик набоїв для ПП (9×19 мм)"
   id: CMUBoxBulletsSMG9MMEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsSMG9MMEmpty
   category: construction-category-cm-box-magazine
-  description: A 9×19mm ammunition box. Used to refill MP5 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 9×19 мм. Використовується для поповнення магазинів MP5. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # Type 19
 - type: construction
   parent: RMC
-  name: SMG ammunition box (7.62×25mm)
+  name: "ящик набоїв для ПП (7.62×25 мм)"
   id: CMUBoxBulletsSMGType19Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsSMGType19Empty
   category: construction-category-cm-box-magazine
-  description: A 7.62×25mm ammunition box. Used to refill Type 19 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 7.62×25 мм. Використовується для поповнення магазинів Type 19. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # M4SPR
 - type: construction
   parent: RMC
-  name: Magazine Box (M4SPR Reg)
+  name: "коробка магазинів (M4SPR звич.)"
   id: RMCBoxMagazineRifleM4SPR
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPREmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M4SPR mags.
+  description: "Коробка магазинів, що може містити звичайні магазини M4SPR."
   iconColor: "#695d42"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M4SPR AP)
+  name: "коробка магазинів (M4SPR ББ)"
   id: RMCBoxMagazineRifleM4SPRAP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPRAPEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M4SPR mags.
+  description: "Коробка магазинів, що може містити бронебійні магазини M4SPR."
   iconColor: "#695d42"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M4SPR Ext)
+  name: "коробка магазинів (M4SPR розш.)"
   id: RMCBoxMagazineRifleM4SPRExt
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRifleM4SPRExtEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended M4SPR mags.
+  description: "Коробка магазинів, що може містити розширені магазини M4SPR."
   iconColor: "#695d42"
   objectType: Item
 
 # SOCOM
 - type: construction
   parent: RMC
-  name: .458 SOCOM bullet bundle box
+  name: "коробка пакунків куль .458 SOCOM"
   id: RMCBoxBullets458
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBullets458Empty
   category: construction-category-cm-box-magazine
-  description: A box of bundled .458 SOCOM rounds.
+  description: "Коробка пакованих набоїв .458 SOCOM."
   iconColor: "#695d42"
   objectType: Item
 
 # M1984
 - type: construction
   parent: RMC
-  name: Magazine Box (M1984 Reg)
+  name: "коробка магазинів (M1984 звич.)"
   id: RMCBoxMagazinePistolM1984
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM1984Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M1984 mags.
+  description: "Коробка магазинів, що може містити звичайні магазини M1984."
   iconColor: "#b2976e"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M1984 AP)
+  name: "коробка магазинів (M1984 ББ)"
   id: RMCBoxMagazinePistolM1984AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM1984APEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M1984 mags.
+  description: "Коробка магазинів, що може містити бронебійні магазини M1984."
   iconColor: "#b2976e"
   objectType: Item
 - type: construction
   parent: RMC
-  name: pistol ammunition box (9mm)
+  name: "ящик пістолетних набоїв (9 мм)"
   id: CMUBoxBulletsPistol9MMEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsPistol9MMEmpty
   category: construction-category-cm-box-magazine
-  description: A 9mm ammunition box. Used to refill M4A3 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 9 мм. Використовується для поповнення магазинів M4A3. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: pistol ammunition box (9mm AP)
+  name: "ящик бронебійних пістолетних набоїв (9 мм)"
   id: CMUBoxBulletsPistol9MMAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsPistol9MMAPEmpty
   category: construction-category-cm-box-magazine
-  description: A 9mm ammunition box. Used to refill armor-piercing M4A3 and Mod 88 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 9 мм. Використовується для поповнення бронебійних магазинів M4A3 і Mod 88. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # 88 mod 4 / 88m4
 - type: construction
   parent: RMC
-  name: Magazine Box (M77 AP)
+  name: "коробка магазинів (M77 ББ)"
   id: RMCBoxMagazinePistolM77AP
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM77APEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M77 mags.
+  description: "Коробка магазинів, що може містити бронебійні магазини M77."
   iconColor: "#7c7e83"
   objectType: Item
 
 # MK80
 - type: construction
   parent: RMC
-  name: Magazine Box (MK80 Reg)
+  name: "коробка магазинів (MK80 звич.)"
   id: RMCBoxMagazinePistolMK80
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolMK80Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular MK80 mags.
+  description: "Коробка магазинів, що може містити звичайні магазини MK80."
   iconColor: "#4a4a4a"
   objectType: Item
 - type: construction
   parent: RMC
-  name: pistol ammunition box (9mm Squash-Head)
+  name: "ящик пістолетних набоїв (9 мм Squash-Head)"
   id: CMUBoxBulletsPistol9MMSHEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsPistol9MMSHEmpty
   category: construction-category-cm-box-magazine
-  description: A 9mm ammunition box. Used to refill Squash-Head 9mm magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 9 мм. Використовується для поповнення 9-мм магазинів Squash-Head. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # L165A1
 - type: construction
   parent: RMC
-  name: Magazine Box (L165A1 Reg)
+  name: "коробка магазинів (L165A1 звич.)"
   id: AU14BoxMagazinePistolL165A1
   graph: RMCBoxMagazine
   startNode: start
   targetNode: AU14BoxMagazinePistolL165A1Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular L165A1 mags.
+  description: "Коробка магазинів, що може містити звичайні магазини L165A1."
   iconColor: "#4a4a4a"
   objectType: Item
 
 # SU-6 Smart pistol
 - type: construction
   parent: RMC
-  name: Magazine Box (SU-6 Reg)
+  name: "коробка магазинів (SU-6 звич.)"
   id: RMCBoxMagazinePistolSU6
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolSU6Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular SU-6 mags.
+  description: "Коробка магазинів, що може містити звичайні магазини SU-6."
   iconColor: "#6b5c58"
   objectType: Item
 
 # M44
 - type: construction
   parent: RMC
-  name: Magazine Box (M44 Reg)
+  name: "коробка магазинів (M44 звич.)"
   id: RMCBoxMagazineRevolverM44Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRevolverM44Empty
   category: construction-category-cm-box-magazine
-  description: A box for holding many speedloaders with a carrying handle.
+  description: "Коробка для зберігання багатьох спідлоадерів із ручкою для перенесення."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M44 Mark)
+  name: "коробка магазинів (M44 mark)"
   id: RMCBoxMagazineRevolverM44MarksmanEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineRevolverM44MarksmanEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding many marksman speedloaders with a carrying handle.
+  description: "Коробка для зберігання багатьох влучницьких спідлоадерів із ручкою для перенесення."
   iconColor: "#727e90"
   objectType: Item
 
 # M13
 - type: construction
   parent: RMC
-  name: Magazine Box (M13 Reg)
+  name: "коробка магазинів (M13 звич.)"
   id: RMCBoxMagazinePistolM13Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM13Empty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain regular M13 mags.
+  description: "Коробка магазинів, що може містити звичайні магазини M13."
   iconColor: "#7c4c1b"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M13 Ext)
+  name: "коробка магазинів (M13 розш.)"
   id: RMCBoxMagazinePistolM13ExtEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM13ExtEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended M13 mags.
+  description: "Коробка магазинів, що може містити розширені магазини M13."
   iconColor: "#7c4c1b"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M13 Drum)
+  name: "коробка магазинів (M13 барабан)"
   id: RMCBoxMagazinePistolM13DrumEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM13DrumEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain drum M13 mags.
+  description: "Коробка магазинів, що може містити барабанні магазини M13."
   iconColor: "#7c4c1b"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M13 AP)
+  name: "коробка магазинів (M13 ББ)"
   id: RMCBoxMagazinePistolM13APEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM13APEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain armor piercing M13 mags.
+  description: "Коробка магазинів, що може містити бронебійні магазини M13."
   iconColor: "#7c4c1b"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M13 Ext AP)
+  name: "коробка магазинів (M13 розш. ББ)"
   id: RMCBoxMagazinePistolM13ExtAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM13ExtAPEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain extended armor piercing M13 mags.
+  description: "Коробка магазинів, що може містити розширені бронебійні магазини M13."
   iconColor: "#7c4c1b"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Magazine Box (M13 Drum AP)
+  name: "коробка магазинів (M13 барабан ББ)"
   id: RMCBoxMagazinePistolM13DrumAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePistolM13DrumAPEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain drum armor piercing M13 mags.
+  description: "Коробка магазинів, що може містити барабанні бронебійні магазини M13."
   iconColor: "#7c4c1b"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: pistol ammunition box (10x20mm-APC)
+  name: "пістолетна коробка боєприпасів (10x20мм-APC)"
   id: RMCBoxBulletsPistolEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsPistolEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x20mm-APC ammunition box. Used to refill M13 regular, extended and drum magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Коробка боєприпасів 10x20мм-APC. Використовується для перезаряджання звичайних, розширених і барабанних магазинів M13. Має шкіряний ремінь, що дозволяє носити її на спині."
   iconColor: "#727e90"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: pistol ammunition box (10x20mm-APC (AP))
+  name: "пістолетна коробка боєприпасів (10x20мм-APC (ББ))"
   id: RMCBoxBulletsPistolAPEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxBulletsPistolAPEmpty
   category: construction-category-cm-box-magazine
-  description: A 10x20mm-APC armor-piercing ammunition box. Used to refill M13 regular, extended and drum AP magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Коробка бронебійних боєприпасів 10x20мм-APC. Використовується для перезаряджання звичайних, розширених і барабанних бронебійних магазинів M13. Має шкіряний ремінь, що дозволяє носити її на спині."
   iconColor: "#727e90"
   objectType: Item
 # Type 73 / Type 19
 - type: construction
   parent: RMC
-  name: pistol ammunition box (7.62x25mm)
+  name: "ящик пістолетних набоїв (7.62×25 мм)"
   id: CMUBoxBulletsPistolType73Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsPistolType73Empty
   category: construction-category-cm-box-magazine
-  description: A 7.62x25mm ammunition box. Used to refill Type 73 and Type-19 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру 7.62×25 мм. Використовується для поповнення магазинів Type 73 і Type-19. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # .45
 - type: construction
   parent: RMC
-  name: pistol ammunition box (.45)
+  name: "ящик пістолетних набоїв (.45)"
   id: CMUBoxBulletsPistol45Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsPistol45Empty
   category: construction-category-cm-box-magazine
-  description: A .45 ammunition box. Used to refill .45 magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру .45. Використовується для поповнення магазинів .45. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # .50
 - type: construction
   parent: RMC
-  name: pistol ammunition box (.50 JP)
+  name: "ящик пістолетних набоїв (.50 JP)"
   id: CMUBoxBulletsPistol50Empty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: CMUBoxBulletsPistol50Empty
   category: construction-category-cm-box-magazine
-  description: A .50 JP ammunition box. Used to refill .50 JP magazines. It comes with a leather strap allowing to wear it on the back.
+  description: "Ящик набоїв калібру .50 JP. Використовується для поповнення магазинів .50 JP. Має шкіряний ремінь, що дозволяє носити його на спині."
   iconColor: "#727e90"
   objectType: Item
 # M34 Incinerator
 
 - type: construction
   parent: RMC
-  name: Flamer Tank Box (UT-Napthal Fuel)
+  name: "коробка паливних баків вогнемета (UT-Napthal Fuel)"
   id: RMCBoxFlamerTankEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxFlamerTankEmpty
   category: construction-category-cm-box-magazine
-  description: A flamer tank box that can contain UT-Napthal fuel tanks.
+  description: "Коробка паливних баків вогнемета, що може містити паливні баки UT-Napthal."
   iconColor: "#3d3832"
   objectType: Item
 
 # Nailgun
 - type: construction
   parent: RMC
-  name: Magazine Box (Nailgun)
+  name: "коробка магазинів (цвяхомет)"
   id: RMCBoxMagazineSMGNailgunEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazineSMGNailgunEmpty
   category: construction-category-cm-box-magazine
-  description: A magazine box that can contain nailgun mags.
+  description: "Коробка магазинів, що може містити магазини цвяхомета."
   iconColor: "#709bff"
   objectType: Item
 
 # Shotgun
 - type: construction
   parent: RMC
-  name: Shell Box (Buckshot)
+  name: "коробка набоїв (картеч)"
   id: RMCBoxShellsBuckshotEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsBuckshotEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: "Коробка для зберігання набоїв."
   iconColor: "#944444"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Shell Box (Slugs)
+  name: "коробка набоїв (кулі)"
   id: RMCBoxShellsSlugsEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsSlugsEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: "Коробка для зберігання набоїв."
   iconColor: "#578e75"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Shell Box (Flechette)
+  name: "коробка набоїв (флешети)"
   id: RMCBoxShellsFlechetteEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsFlechetteEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: "Коробка для зберігання набоїв."
   iconColor: "#6551a0"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Shell Box (Incendiary)
+  name: "коробка набоїв (запалювальні)"
   id: RMCBoxShellsIncendiaryEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsIncendiaryEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: "Коробка для зберігання набоїв."
   iconColor: "#c6cdd3"
   objectType: Item
 
@@ -695,25 +695,25 @@
 
 - type: construction
   parent: RMC
-  name: Shell Box (Inc Buckshot)
+  name: "коробка набоїв (запалювальна картеч)"
   id: RMCBoxShellsIncendiaryBuckshotEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsIncendiaryBuckshotEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: "Коробка для зберігання набоїв."
   iconColor: "#c6cdd3"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Shell Box (Breaching)
+  name: "коробка набоїв (брешинг)"
   id: RMCBoxShellsBreachingEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxShellsBreachingEmpty
   category: construction-category-cm-box-magazine
-  description: A box for holding shells.
+  description: "Коробка для зберігання набоїв."
   iconColor: "#595959"
   objectType: Item
 
@@ -721,61 +721,61 @@
 
 - type: construction
   parent: RMC
-  name: Supply Box (MRE)
+  name: "ящик припасів (MRE)"
   id: RMCBoxMREEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMREEmpty
   category: construction-category-cm-box-magazine
-  description: A box of MREs. Nutritious, but not delicious.
+  description: "Ящик MRE. Поживно, але не смачно."
   iconColor: "#887b67"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Supply Box (M94)
+  name: "ящик припасів (M94)"
   id: RMCBoxPackFlareEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxPackFlareEmpty
   category: construction-category-cm-box-magazine
-  description: A box of M94 marking flare packs, to brighten up your day.
+  description: "Ящик сигнальних фаєр-паків M94, щоб зробити твій день яскравішим."
   iconColor: "#887b67"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Supply Box (M89-S)
+  name: "ящик припасів (M89-S)"
   id: RMCBoxPackFlareCASEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxPackFlareCASEmpty
   category: construction-category-cm-box-magazine
-  description: A box of M89 signal flare packs, to mark up the way.
+  description: "Ящик сигнальних фаєр-паків M89, щоб позначити шлях."
   iconColor: "#887b67"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Supply Box (Flashlights)
+  name: "ящик припасів (ліхтарики)"
   id: RMCBoxFlashlightsEmpty
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxFlashlightsEmpty
   category: construction-category-cm-box-magazine
-  description: A box of flashlights to brighten your day!
+  description: "Ящик ліхтариків, щоб зробити твій день яскравішим!"
   iconColor: "#887b67"
   objectType: Item
 
 - type: construction
   parent: RMC
-  name: Supply Box (High-Capacity Power Cells)
+  name: "ящик припасів (високомісткі батареї)"
   id: RMCBoxMagazinePowerCellsHigh
   graph: RMCBoxMagazine
   startNode: start
   targetNode: RMCBoxMagazinePowerCellsHigh
   category: construction-category-cm-box-magazine
-  description: A box of High-Capacity Power Cells to keep your electronics going all night long!
+  description: "Ящик високомістких батарей, щоб твоя електроніка працювала всю ніч!"
   iconColor: "#887b67"
   objectType: Item
 

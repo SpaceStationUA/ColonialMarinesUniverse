@@ -5,8 +5,8 @@
 
 - type: entity
   id: CMUMultiZStairs
-  name: multi-Z stairs
-  description: A stairway that connects Z-levels.
+  name: "сходи між Z-рівнями"
+  description: "Сходи, що з’єднують Z-рівні."
   placement:
     mode: SnapgridCenter
   components:
@@ -75,8 +75,8 @@
 - type: entity
   parent: BaseItem
   id: CMUDeployableZLevelLadder
-  name: Deployable Ladder
-  description: A portable ladder that can be deployed through an open Z-level shaft.
+  name: "Розкладна драбина"
+  description: "Портативна драбина, яку можна розгорнути крізь відкриту шахту Z-рівня."
   components:
   - type: Sprite
     sprite: _RMC14/Structures/ladder.rsi

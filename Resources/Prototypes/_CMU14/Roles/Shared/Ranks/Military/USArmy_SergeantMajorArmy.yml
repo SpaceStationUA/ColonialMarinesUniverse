@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_SergeantMajorArmy
-  name: Sergeant Major of the Army
+  name: "сержант-майор армії"
   prefix: SMA.
   paygrade: E9E

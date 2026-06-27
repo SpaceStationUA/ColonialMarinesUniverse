@@ -4,14 +4,14 @@
   id: AU14ChevronIASFBase
   abstract: true
   suffix: IASF Chevron
-  description: Imperial Armed Space Forces rank insignia. The badge of a soldier serving the Empire across the stars.
+  description: "Знак розрізнення Імперських космічних збройних сил. Емблема солдата, що служить Імперії серед зірок."
 
 # ├──[ Enlisted ]────────────────────────────────────────────────────┤
 
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFPrivateSecondClass
-  name: private second class chevron
+  name: "шеврон рядового другого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -27,7 +27,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFPrivateFirstClass
-  name: private first class chevron
+  name: "шеврон рядового першого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -43,7 +43,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFChiefPrivate
-  name: chief private chevron
+  name: "шеврон старшого рядового"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -59,7 +59,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFCorporalSecondClass
-  name: corporal second class chevron
+  name: "шеврон капрала другого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -75,7 +75,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFCorporalFirstClass
-  name: corporal first class chevron
+  name: "шеврон капрала першого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -91,7 +91,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFChiefCorporal
-  name: chief corporal chevron
+  name: "шеврон старшого капрала"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -107,7 +107,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFSecondSergeant
-  name: second sergeant chevron
+  name: "шеврон сержанта другого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -123,7 +123,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFFirstSergeant
-  name: first sergeant chevron
+  name: "шеврон сержанта першого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -139,7 +139,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFChiefSergeant
-  name: chief sergeant chevron
+  name: "шеврон старшого сержанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -155,7 +155,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFSergeantMajor
-  name: sergeant major chevron
+  name: "шеврон сержант-майора"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -173,7 +173,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFSecondWarrantOfficer
-  name: second warrant officer chevron
+  name: "шеврон ворент-офіцера другого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -189,7 +189,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFFirstWarrantOfficer
-  name: first warrant officer chevron
+  name: "шеврон ворент-офіцера першого класу"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -207,7 +207,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFSecondLieutenant
-  name: second lieutenant chevron
+  name: "шеврон другого лейтенанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -223,7 +223,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFFirstLieutenant
-  name: first lieutenant chevron
+  name: "шеврон першого лейтенанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -239,7 +239,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFCaptain
-  name: captain chevron
+  name: "шеврон капітана"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -257,7 +257,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFMajor
-  name: major chevron
+  name: "шеврон майора"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -273,7 +273,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFLieutenantColonel
-  name: lieutenant colonel chevron
+  name: "шеврон підполковника"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -289,7 +289,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFColonel
-  name: colonel chevron
+  name: "шеврон полковника"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -305,7 +305,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFBrigadierGeneral
-  name: brigadier general chevron
+  name: "шеврон бригадного генерала"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -323,7 +323,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFMajorGeneral
-  name: major general chevron
+  name: "шеврон генерал-майора"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -339,7 +339,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFLieutenantGeneral
-  name: lieutenant general chevron
+  name: "шеврон генерал-лейтенанта"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -355,7 +355,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFGeneral
-  name: general chevron
+  name: "шеврон генерала"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi
@@ -371,7 +371,7 @@
 - type: entity
   parent: AU14ChevronIASFBase
   id: AU14ChevronIASFGeneralOfTheArmy
-  name: general of the army chevron
+  name: "шеврон генерала армії"
   components:
   - type: Sprite
     sprite: _AU14/Clothing/Accessory/Chevrons/universal.rsi

@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_StaffSergeant
-  name: Staff Sergeant
+  name: "штаб-сержант"
   prefix: SSgt.
   paygrade: E6

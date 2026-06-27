@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_PFC
-  name: Private First Class
+  name: "рядовий першого класу"
   prefix: PFC.
   paygrade: E3

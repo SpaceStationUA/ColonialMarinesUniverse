@@ -1,6 +1,6 @@
 - type: rank
   id: AU14RankNSPAInspector
-  name: Inspector
+  name: "інспектор"
   prefix: Insp.
 
 # Scientists

@@ -110,7 +110,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORSquadCombatTech
-  name: Spawn Point GOVFOR Comtech
+  name: "точка появи бойового техніка ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORSquadCombatTech
@@ -160,7 +160,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointOPFORSquadCombatTech
-  name: Spawn Point OPFOR Comtech
+  name: "точка появи бойового техніка ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORSquadCombatTech
@@ -217,7 +217,7 @@
   parent: AU14JobSquadCombatTechBase
   id: AU14JobGOVFORSquadCombatTechWYPMC
   roundForce: WYPMC
-  name: PMC Combat Technician
+  name: "Бойовий технік ПВК"
   spawnMenuRoleName: Combat Tech (WYPMC)
   ranks:
     AU14RankWeYuSeniorOperator:

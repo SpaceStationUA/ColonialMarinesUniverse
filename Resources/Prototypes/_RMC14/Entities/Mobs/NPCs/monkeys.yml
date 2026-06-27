@@ -2,7 +2,7 @@
 - type: entity
   parent: [RMCSmallHost]
   id: CMMobSmallHostMonkey
-  name: monkey
+  name: "мавпа"
   suffix: RMC, Small Host
   components:
   - type: Speech
@@ -13,7 +13,7 @@
 - type: entity
   parent: [RMCSmallHost]
   id: CMMobSmallHostKobold
-  name: kobold
+  name: "кобольд"
   suffix: RMC, Small Host
   components:
   - type: LizardAccent
@@ -81,7 +81,7 @@
 - type: entity
   parent: [RMCSmallHost]
   id: RMCMobSmallHostFarwa
-  name: farwa
+  name: "фарва"
   suffix: RMC, Small Host
   components:
   - type: Sprite
@@ -127,7 +127,7 @@
 - type: entity
   parent: [RMCSmallHost]
   id: RMCMobSmallHostNeaera
-  name: neaera
+  name: "неаера"
   suffix: RMC, Small Host
   components:
   - type: Sprite
@@ -168,7 +168,7 @@
 - type: entity
   parent: [RMCSmallHost]
   id: RMCMobSmallHostStok
-  name: stok
+  name: "сток"
   suffix: RMC, Small Host
   components:
   - type: Sprite
@@ -215,7 +215,7 @@
 - type: entity
   parent: [RMCSmallHost]
   id: RMCMobSmallHostYiren
-  name: yiren
+  name: "їрен"
   suffix: RMC, Small Host
   components:
   - type: Sprite
@@ -260,7 +260,7 @@
 - type: entity
   parent: MarkerBase
   id: CMSpawnMobMonkey
-  name: Small host spawner
+  name: "генератор малого носія"
   suffix: RMC
   components:
   - type: Sprite

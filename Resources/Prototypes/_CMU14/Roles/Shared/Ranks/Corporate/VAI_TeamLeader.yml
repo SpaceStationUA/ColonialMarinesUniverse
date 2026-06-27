@@ -1,6 +1,6 @@
 - type: rank
   id: VAI_TeamLeader
-  name: VASC Team Leader
+  name: "командир групи VASC"
   prefix: VASC TL
   paygrade: VASCTL
 

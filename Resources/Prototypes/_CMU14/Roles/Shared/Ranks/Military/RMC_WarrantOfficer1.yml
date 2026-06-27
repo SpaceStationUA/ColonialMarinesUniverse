@@ -1,6 +1,6 @@
 - type: rank
   id: RMC_WarrantOfficer1
-  name: Warrant Officer Class 1
+  name: "ворент-офіцер 1-го класу"
   prefix: WO1.
   paygrade: W2
 

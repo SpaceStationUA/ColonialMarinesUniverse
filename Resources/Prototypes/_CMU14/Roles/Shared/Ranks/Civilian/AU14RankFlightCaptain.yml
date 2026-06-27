@@ -1,6 +1,6 @@
 - type: rank
   id: AU14RankFlightCaptain
-  name: Flight Captain
+  name: "капітан польоту"
   prefix: Flt. Cpt.
 
 # Orbital Manager

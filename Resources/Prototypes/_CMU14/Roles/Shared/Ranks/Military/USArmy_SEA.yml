@@ -1,5 +1,5 @@
 - type: rank
   id: USArmy_SEA
-  name: Senior Enlisted Advisor
+  name: "старший радник рядового складу"
   prefix: SEA.
   paygrade: E9E

@@ -139,7 +139,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORDCC
-  name: Spawn Point GOVFOR Dropship Crew Chief
+  name: "точка появи старшини екіпажу десантного корабля ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORDCC
@@ -191,7 +191,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforDCC
-  name: Spawn Point opfor Dropship Crew Chief
+  name: "точка появи старшини екіпажу десантного корабля ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORDCC
@@ -232,7 +232,7 @@
   parent: AU14JobDCCBase
   id: AU14JobGOVFORDCCUPP
   roundForce: UPP
-  name: Dropship Crew Chief
+  name: "Старшина екіпажу десантного корабля"
   spawnMenuRoleName: Dropship Crew Chief (UPP)
   ranks:
     UPP_FirstSergeant:
@@ -249,7 +249,7 @@
   parent: AU14JobDCCBase
   id: AU14JobGOVFORDCCWYPMC
   roundForce: WYPMC
-  name: PMC Crew Chief
+  name: "Старшина екіпажу ПВК"
   spawnMenuRoleName: Dropship Crew Chief (WYPMC)
   ranks:
     AU14RankWeYuSeniorCrewChief:

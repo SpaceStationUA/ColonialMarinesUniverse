@@ -30,7 +30,7 @@
 
   name: au14-job-name-tweiasf-ce
   playTimeTracker: AU14IASFCombatEngineer
-  description: au14-job-description-tweiasf
+  description: "au14-job-description-tweiasf"
   ranks:
     RMCRankCivilian: []
   chevrons:

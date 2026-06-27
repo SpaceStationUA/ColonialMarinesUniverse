@@ -2,9 +2,9 @@
   id: ForceOnForce
   alias:
   - forceonforce
-  name: Force on Force
+  name: "Сила проти сили"
   showInVote: true
-  description: Two units face each other in combat.
+  description: "Два підрозділи сходяться один проти одного в бою."
   minPlayers: 125
   requiresOpforVote: true
   requiresGovforVote: true
@@ -31,9 +31,9 @@
   id: Insurgency
   alias:
   - insurgency
-  name: Insurgency
+  name: "Повстання"
   showInVote: true
-  description: Insurgency mode
+  description: "Режим повстання"
   minPlayers: 40
   requiresGovforVote: true
   supportedPlanets:
@@ -55,9 +55,9 @@
 
 - type: gamePreset
   id: DistressSignal
-  name: Distress Signal
+  name: "Сигнал лиха"
   showInVote: true
-  description: Investigate a mysterious distress signal as government forces.
+  description: "Розслідуйте загадковий сигнал лиха в ролі урядових сил."
   requiresGovforVote: true
   supportedPlanets:
 #  - AUPlanetLV747
@@ -81,11 +81,11 @@
   id: ColonyFall
   alias:
   - colonyfall
-  name: Colony Fall
+  name: "Падіння колонії"
   showInVote: true
   minPlayers: 0
   maxPlayers: 60
-  description: Live in an offworld colony as it falls into chaos.
+  description: "Живіть у позасвітній колонії, поки вона занурюється в хаос."
   supportedPlanets:
     - AUPlanetShepherdsPride
     - AUPlanetLV327
@@ -102,9 +102,9 @@
   id: Jailbreak
   alias:
   - jailbreak
-  name: Jailbreak
+  name: "Втеча з в’язниці"
   showInVote: false
-  description: Jailbreak mode
+  description: "Режим втечі з в’язниці"
   rules:
   - AuVoteRule
 
@@ -112,9 +112,9 @@
   id: Prometheus
   alias:
   - prometheus
-  name: Prometheus
+  name: "Прометей"
   showInVote: false
-  description: Prometheus mode
+  description: "Режим «Прометей»"
   rules:
   - AuVoteRule
 
@@ -122,8 +122,8 @@
   id: Criminal
   alias:
   - criminal
-  name: Criminal
+  name: "Злочинець"
   showInVote: false
-  description: Criminal mode
+  description: "Режим злочинця"
   rules:
   - AuVoteRule

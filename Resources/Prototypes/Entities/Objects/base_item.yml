@@ -1,5 +1,5 @@
 - type: entity
-  name: "item"
+  name: "предмет"
   parent: CMCorrodible
   id: BaseItem
   abstract: true
@@ -50,7 +50,7 @@
   - type: CMUZPhysics
 
 - type: entity
-  name: "storage item"
+  name: "предмет зберігання"
   id: BaseStorageItem
   parent: BaseItem
   abstract: true

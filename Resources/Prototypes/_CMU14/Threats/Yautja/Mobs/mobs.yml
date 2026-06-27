@@ -2,7 +2,7 @@
   save: false
   parent: CMMobHuman
   id: CMUMobYautja
-  name: Yautja Hunter
+  name: "Мисливець Яутжа"
   suffix: Yautja, Event
   components:
   - type: Language
@@ -106,7 +106,7 @@
 - type: entity
   parent: CMUMobYautja
   id: CMUMobYautjaBadBloodGrunt
-  name: Bad Blood Grunt
+  name: "боєць Поганої Крові"
   suffix: Yautja, Bad Blood
   components:
   - type: YautjaBadBlood
@@ -144,7 +144,7 @@
 - type: entity
   parent: CMUMobYautja
   id: CMUMobYautjaBadBloodLeader
-  name: Bad Blood Leader
+  name: "ватажок Поганої Крові"
   suffix: Yautja, Bad Blood
   components:
   - type: YautjaBadBlood
@@ -177,7 +177,7 @@
 - type: entity
   parent: BaseSpeciesDummy
   id: CMUMobYautjaDummy
-  name: Yautja Dummy
+  name: "Манекен Яутжа"
   categories: [ HideSpawnMenu ]
   components:
   - type: HumanoidAppearance

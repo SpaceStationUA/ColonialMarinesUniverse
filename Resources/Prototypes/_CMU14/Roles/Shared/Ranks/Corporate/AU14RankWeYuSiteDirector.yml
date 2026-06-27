@@ -1,5 +1,5 @@
 - type: rank
   id: AU14RankWeYuSiteDirector
-  name: PMC Site Director
+  name: "директор об’єкта ПВК"
   prefix: Director
   paygrade: PMC-C11

@@ -105,7 +105,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointGOVFORPlatCo
-  name: Spawn Point GOVFOR Platoon Commander
+  name: "точка появи командира взводу ГОВФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobGOVFORPlatCo
@@ -171,7 +171,7 @@
 - type: entity
   parent: CMSpawnPointJobBase
   id: AU14SpawnPointopforPlatCo
-  name: Spawn Point opfor Platoon Commander
+  name: "точка появи командира взводу ОПФОР"
   components:
   - type: SpawnPoint
     job_id: AU14JobOPFORPlatCo
@@ -182,7 +182,7 @@
   parent: AU14JobPlatCoBase
   id: AU14JobGOVFORPlatCoCMBCIU
   roundForce: CMBCIU
-  name: Platoon Commander
+  name: "Командир взводу"
   spawnMenuRoleName: Platoon Commander (CMBCIU)
   ranks:
     AU14RankCMBMarshal: []
@@ -200,7 +200,7 @@
   id: AU14JobGOVFORPlatCoUPP
   roundForce: UPP
   requirements: []
-  name: Platoon Commander
+  name: "Командир взводу"
   spawnMenuRoleName: Platoon Commander (UPP)
   ranks:
     UPP_Captain:
@@ -218,7 +218,7 @@
   id: AU14JobGOVFORPlatCoWYPMC
   roundForce: WYPMC
   requirements: []
-  name: PMC Operations Director
+  name: "Операційний директор ПВК"
   spawnMenuRoleName: Platoon Commander (WYPMC)
   ranks:
     AU14RankWeYuCommanderSenior:
